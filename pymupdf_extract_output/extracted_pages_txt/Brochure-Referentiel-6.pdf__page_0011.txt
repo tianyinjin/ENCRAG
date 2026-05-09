@@ -1,0 +1,86 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 11 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+20 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 21
+Les environnements de conception sécurisés doivent garantir l’intégrité des codes 
+générés (par exemple en s’assurant que les bibliothèques sont bien issues d’une 
+source sûre…) et offrir des outils pour limiter le risque d’erreurs de codage.
+Quels que soient les méthodes ou les cycles de développement adoptés, et en 
+particulier pour les méthodes agiles, la prise en compte des problématiques de 
+sécurité est à considérer tout au long du cycle de développement, et notamment 
+sur les phases amont.
+Les organisations qui évoluent vers le modèle « DevOps » pour favoriser les retours 
+des équipes opérationnelles vers les équipes de développement, doivent aussi 
+intégrer la sécurité de façon continue sur l’ensemble du cycle de vie des appli-
+cations et des infrastructures. 
+Les processus liés à la sécurité ne sont plus isolés et les équipes en charge de 
+la sécurité sont bien immergées au sein de l’équipe projet pour mettre en place 
+la sécurité dès le démarrage et prendre en compte les enjeux liés à l’automati-
+sation spécifique à l’approche « DevOps ». Cette tendance a donné naissance à 
+l’expression « DevSecOps ».
+B.1.1.5 _Méthodes formelles
+Les méthodes formelles (au sens large) sont, d’un point de vue haut niveau, des 
+techniques basées sur des fondements mathématiques permettant de repré-
+senter une « problématique » et/ou une « solution » sous une forme clairement 
+définie et non-ambiguë, puis au besoin de raisonner avec justesse (et de façon 
+plus ou moins automatique) pour vérifier la satisfaction de la problématique par 
+la solution. Les méthodes formelles peuvent être par exemple utilisées pour obtenir 
+une preuve formelle de sécurité à partir d’un modèle, vérifier la cohérence d’un 
+modèle par rapport à son implémentation, générer automatiquement du code 
+ou des tests à partir d’un modèle…
+Il existe un très large spectre d’utilisation et de nombreux travaux de recherche et 
+d’industrialisation sont nécessaires pour disposer de méthodes et d’outils acces-
+sibles au plus grand nombre et qui apportent un maximum d’automatisation. 
+B.1.2 _Produits et technologies de sécurité
+B.1.2.1 _Produits
+La thématique des produits de sécurité est très vaste. Elle englobe les produits 
+de chiffrement (réseau, téléphonie, messagerie, poste de travail…), les produits de 
+contrôle d’accès et d’authentification (Gestion des Identités et des Accès (GIA), 
+annuaires, certificats…), les produits de filtrage (pare-feu, diodes…), les anti-virus, 
+les systèmes d’exploitation et composants de confiance et bien d’autres encore. 
+Quelques éléments peuvent être particulièrement mis en avant :
+• L’importance des besoins liés à la confiance numérique : gestion des identités, 
+de l’anonymat, de la résilience. Il s’agit notamment de la protection de la vie 
+personnelle et des données privées ;
+• L’adaptation des technologies de sécurité (cryptographie, identification…) 
+aux architectures de type Cloud ;
+• La capacité de construire une informatique de confiance par assemblage de 
+protections aux différents niveaux : matériel, logiciel applicatif, systèmes d’ex-
+ploitation, réseau, poste de travail, serveur, Cloud…
+• L’importance de briques de base sans lesquelles la confiance ne peut 
+être établie (voir le chapitre B.1.2.2 ci-après) :
+- Langages sécurisés, règles de programmation ;
+- Compilateur « de confiance »; 
+- Machine virtuelle et OS « de confiance » ;
+- Implémentation sûre (logiciel et matériel) ;
+- Cryptographie sûre.
+• Le domaine émergent des objets communiquant renforce ce besoin 
+de bases matérielles et logicielles de confiance.
+L’importance de produits de confiance ou souverains est bien entendu critique 
+pour cette catégorie de produits.
+Au niveau organisationnel aussi bien que technique, l’absence de standards 
+permettant la mise en place de chaines de confiance entre différents acteurs 
+est aussi une problématique.
+B.1.2.2 _Technologies
+B.1.2.2.1 _Cryptographie
+La cryptographie est une des bases de la cybersécurité. Il est indispensable 
+de maîtriser les algorithmes de chiffrement, de signature, d’authentification… 
+mais aussi les protocoles associés et bien entendu tous les services nécessaires 
+à la génération, à la distribution et au stockage sécurisé des clés. 
+Ce domaine fait l’objet de nombreux travaux académiques et de nombreux 
+verrous restent à lever, comme par exemple :
+• La cryptographie à très haut débit ;
+• La cryptographie à bas coût énergétique pour les objets connectés ;
+• La cryptographie adaptée au Cloud et au travail collaboratif ;
+• La gestion de clés pour des systèmes comportant des millions d’utilisateurs ;
+• L’intégrité et l’authenticité dans des systèmes purement logiciels ;
+• La cryptographie post-quantique ;
+• Les technologies de type blockchain ;
+• La cryptographie homomorphe ;
+• …

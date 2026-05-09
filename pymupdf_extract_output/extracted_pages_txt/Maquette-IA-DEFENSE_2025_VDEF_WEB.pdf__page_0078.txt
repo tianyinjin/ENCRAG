@@ -1,0 +1,87 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 78 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+78
+L’IA de confiance pour la défense : de la 
+conception à l’évaluation (p.40)
+[1] - https://www.iso.org/fr/standard/81230.html
+[2] - https://www.iso.org/fr/standard/77304.html
+[3] - Maintien en Condition Opérationnelle
+Vers des IA vérifiables (p.42)
+[1] - https://arxiv.org/abs/1706.10268
+[2] - https://dl.acm.org/doi/abs/10.1109/
+TPDS.2021.3068195
+[3] - https://www.cnil.fr/fr/definition/chiffrement-
+homomorphe
+[4] - https://www.ibm.com/fr-fr/think/topics/gradient-
+descent
+L’influence de l’IA sur la cybersécurité : défis et 
+opportunités du point de vue de la recherche 
+(p.44)
+[1] - Les attaques typiques modifient les modèles d’IA 
+via l’injection de fausses données d’entraînement ou 
+l’inversion des étiquettes ou des algorithmes d’inférence. 
+Grâce à la complexité de l’IA, cela peut avoir des effets 
+importants qui sont difficiles à détecter.
+[2] - La recherche de la chaire cybersécurité des 
+infrastructures critiques (Cyber CNI), https://cyberCNI.
+fr, accédé 17/02/2025
+[3] - Le spear-phishing est une forme très ciblée 
+d’attaque par phishing où les cybercriminels adaptent 
+leurs messages frauduleux à une personne ou entité 
+spécifique.
+[4] - JudgeGPT - une application web pour explorer le 
+potentiel de génération de désinformation de différents 
+outils d’IA générative, https://judgegpt.streamlit.app/, 
+accédé 17/02/2025
+Recommandations de sécurité pour la mise-en 
+œuvre de plateformes d’IA générative dédiées à 
+l’ingénierie des systèmes critiques (p.46)
+[1] - ENISA, Multilayer Framework for good cybersecurity 
+practices for AI (https://www.enisa.europa.eu/publications/
+multilayer-framework-for-good-cybersecurity-practices-
+for-ai)
+[2] - ANSSI Guide de recommandations de sécurité 
+pour un système d’IA générative (https://cyber.gouv.fr/
+publications/Recommandations de sécurité pour un 
+système d’IA générative)
+[3] - MITRE ATLAS Matrix (https://atlas.mitre.org/matrices/
+ATLAS) 
+[4] - NIST AI 600-1 Artificial Intelligence Risk Management 
+Framework: Generative Artificial Intelligence profile 
+(https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) 
+[5] - OWASP LLM AI Cybersecurity & Governance Checklist 
+(https://owasp.org/www-project-top-10-for-large-
+language-model-applications/llm-top-10-governance-
+doc/LLM_AI_Security_and_Governance_Checklist-v1.pdf)
+[6] - CWE AI Working Group (https://github.com/CWE-
+CAPEC/AI-Working-Group/tree/main)
+IA raisonnante pour les systèmes décisionnels 
+critiques (p.48)
+[1] - Zalila, Z., Intellitech & Xtractis (2024) XTRACTIS® the 
+General Reasoning AI for Trusted Decisions. Use Case 
+#27 | Human Resources : Discovery of Discriminatory 
+Biases in the Professional Evaluation of Employees – 
+Benchmark vs. Logistic Regression, Random Forest, 
+Boosted Tree & Neural Network. INTELLITECH [intelligent 
+technologies], October, v1.0, Compiegne, France, 6p. 
+https://xtractis.ai/use-cases/
+[2] - https://github.com/google/magika?tab=readme-
+ov-file
+[3] - Zalila, Z. (2019-2024) Livre Blanc | Spécificités et 
+Avantages de l’IA Cognitive Floue Augmentée XTRACTIS® 
+: IA Raisonnante Générale, Robuste, Intelligible & 
+Auditable. INTELLITECH [intelligent technologies], 
+Octobre 2024, v6.6, Compiègne, France, 25 p, https://
+xtractis.ai/white-papers/
+De la sécurité du Machine Learning (p.50)
+[1] - https://www.cnil.fr/fr/definition/calcul-
+multipartite-securise
+[2] - https://www.cnil.fr/fr/definition/chiffrement-
+homomorphe
+[3] - https://www.cnil.fr/fr/definition/confidentialite-
+differentielle

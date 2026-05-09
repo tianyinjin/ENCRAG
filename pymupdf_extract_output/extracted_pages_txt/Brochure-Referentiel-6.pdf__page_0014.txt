@@ -1,0 +1,91 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 14 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+26 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 27
+B.1.3.2 _Ingénierie système
+B.1.3.2.1 _Assistance à maîtrise d’ouvrage (AMO) SSI
+Les prestations d’AMO SSI sont des prestations de services destinées à appor-
+ter un soutien SSI sur des projets. Elles recouvrent des prestations :
+• D’analyse de risques ;
+• De rédaction d’exigences ;
+• D’animation de GT SSI ;
+• De pilotage de travaux industriels ;
+• De réalisation de synthèses au profit des décideurs ;
+• …
+Elles nécessitent des experts de haut niveau et peuvent s’appuyer sur des outils 
+d’ingénierie classiques (clausiers d’exigences, outils de gestion de traçabilité…) 
+ou spécifiques au domaine (outils d’analyse de risque, modélisation de la SSI…).
+B.1.3.2.2 _Conception d’architectures
+La conception d’architecture sécurisée est une prestation de haut niveau qui 
+nécessite une bonne maîtrise de l’analyse de risques et doit s’appuyer sur des 
+outils de modélisation ou de simulation. L’objectif est de définir l’architecture 
+capable à la fois de satisfaire aux besoins fonctionnels tout en garantissant le 
+meilleur niveau de sécurité, et cela dans le respect des contraintes techniques 
+et financières du donneur d’ordre.
+B.1.3.2.3 _Intégration sécurisée de produits
+Ce type de prestation fait souvent suite à la précédente. Une fois l’architecture 
+définie et le choix des différents produits effectués, il s’agit de les configurer 
+et de les intégrer dans un système fonctionnel et exploitable. Ici encore des 
+outils de modélisation peuvent être utiles pour préparer le travail. Des moyens 
+de tests permettant de vérifier le bon fonctionnement de l’ensemble sont aussi 
+nécessaires.
+B.1.3.2.4 _Conformité fonctionnelle
+La conformité fonctionnelle vise à s’assurer qu’un produit réponde bien à son 
+cahier des charges. C’est une étape nécessaire, y compris pour les produits 
+de sécurité. Ce travail nécessite une forte automatisation, la complexité fonc-
+tionnelle des produits rendant les cas de tests extrêmement nombreux. Les 
+techniques évoquées au chapitre B.1.3.1 sont indispensables pour fournir un 
+service pertinent.
+B.1.3.3 _Gouvernance
+B.1.3.3.1 _GRC (Governance Risk Compliance)
+Il existe un besoin de services autour de la gouvernance, gestion des risques et 
+conformité (Governance Risk Compliance) de manière à disposer notamment 
+d’un pilotage et de tableaux de bord de suivi des risques et de la conformité, 
+notamment réglementaire, en fonction de l’avancement des plans d’actions.
+B.1.3.3.2 _Communication et sensibilisation des utilisateurs
+Les services liés à la communication et à la sensibilisation des utilisateurs 
+sont essentiels, sachant que la vulnérabilité se situe « entre la chaise et 
+l’ordinateur ». Les hommes et les femmes sont à la fois la plus grande 
+vulnérabilité pour l’organisation et la solution aux problèmes de cyber-
+sécurité.
+B.1.3.3.3 _Services juridiques
+Le recours à des prestataires externes dans le domaine de la cybersécu-
+rité peut nécessiter une expertise juridique, afin de sécuriser l’organisation 
+contre les risques liés à des défaillances ou au non-respect des contrats. 
+Cette dimension juridique doit aussi être prise en compte dans les contrats 
+avec les clients ou pour l’organisation des processus en interne (chartes 
+de sécurité, règlement intérieur…).
+B.2.1 _Méthodes
+Une partie des fonctions de cyber-résilience est apportée par les archi-
+tectures de systèmes. Les méthodes identifiées au B.1.3.2 seront donc 
+utilisées pour bâtir des architectures incluant des redondances au niveau 
+réseau ou au niveau services.
+Dans le cas où une attaque a réussi il est bien entendu important de pouvoir 
+remettre au plus vite le système dans un état opérationnel et sûr. Cela 
+signifie qu’il faut pourvoir remettre à zéro les systèmes pour effacer 
+toute trace des malwares (après avoir effectué, bien entendu, les copies 
+nécessaires aux actions d’investigation post-incident (forensic), puis réins-
+taller à partir d’archives saines l’ensemble du système). 
+Les outils d’administration offrent les fonctions de base pour ce type 
+d’action, mais il est nécessaire de définir des méthodes appropriées pour 
+prendre en compte le contexte d’agression.
+B.2.2 _Produits et technologies
+De nombreux produits, notamment ceux liés à l’administration des systèmes 
+permettent de contribuer à la résilience, en permettant une reconfiguration 
+manuelle ou semi-automatique. 
+Au niveau des produits eux-mêmes, des fonctions d’auto-configuration en 
+cas de détection d’agression peuvent être mises en œuvre : passage dans 
+des modes de communication plus sécurisés au détriment du débit ou des 
+services offerts, recherche de chemins alternatifs, voire coupure de services. 
+Ces fonctions doivent être gérées avec précaution pour ne pas induire de 
+déni de service disproportionné par rapport aux attaques détectées, et, 
+bien entendu, la détection d’attaques doit être pertinente pour éviter les 
+faux positifs.
+B.2 
+Cyber-résilience

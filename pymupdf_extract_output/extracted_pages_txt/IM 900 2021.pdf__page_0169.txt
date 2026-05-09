@@ -1,0 +1,56 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 169 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE 
+DROIT PRIVE 
+6.6 
+
+163 
+c. Authentification 
+L’authentification forte de l’utilisateur (exemple: par carte à puce ou token) est 
+obligatoire pour tout système d’information traitant des informations Diffusion 
+Restreinte ou classifiées. Elle est fortement recommandée pour les systèmes 
+d’information traitant des données sensibles. Les dérogations à cette règle sont possibles 
+mais doivent être justifiées dans le dossier d’homologation. 
+ 
+2. Exploitation et administration 
+ 
+a. Homologation 
+L’homologation est un prérequis pour la mise en service d’un système d’information. 
+Cf. fiche 6.2. 
+ 
+b. Habilitation des personnes accédant au SI 
+Une personne disposant de droits d’accès administrateur d’un SI Secret ou Très Secret 
+doit être habilitée au niveau Très Secret. 
+Une personne disposant de droits d’accès administrateur d’un SI Diffusion Restreinte 
+doit être habilitée au niveau Secret. 
+Une personne ne possédant pas de compte administrateur est habilitée au même niveau 
+que le SI. 
+Les exigences ci-dessus concernant le niveau d’habilitation des administrateurs sont sans 
+incidence sur le niveau d’habilitation de la personne morale. 
+ 
+c.
+Gestion des privilèges 
+Le principe du moindre privilège doit être appliqué. A cet effet, le nombre 
+d’administrateur sera réduit autant que possible et des revues périodiques des droits 
+seront menées, au moins annuellement. 
+Les comptes d’administration doivent être attribués individuellement et ne doivent être 
+utilisés qu’à des fins d’administration. L’utilisation du système d’information se fait 
+exclusivement avec des privilèges restreints d’utilisateur. 
+Les utilisateurs ne doivent pas pouvoir modifier les paramètres de configuration de 
+démarrage de leur poste. 
+ 
+d. Procédure de transfert de données entre deux réseaux de classifications 
+différentes 
+Le transfert d’information entre deux réseaux de classifications différentes se fait 
+idéalement par une passerelle agréée par l’ANSSI ou homologuée et prévue à cet effet 
+(généralement équipée d’une ou de plusieurs diodes). A défaut, le transfert d’information 
+peut être effectué via un support amovible exclusivement dédié à cet effet selon une 
+procédure fixée par l’entité contractante qui permet de vérifier l’innocuité du transfert 
+d’information et de maitriser les supports amovibles utilisés pour de tels transferts.

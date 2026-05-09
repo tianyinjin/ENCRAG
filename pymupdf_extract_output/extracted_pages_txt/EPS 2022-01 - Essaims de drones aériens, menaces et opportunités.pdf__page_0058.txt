@@ -1,0 +1,109 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 58 / 136
+
+================================================================================
+
+58 
+Perturbations électriques des 
+moteurs entrainant les rotors 
+ou actionnant les gouvernes 
+pour provoquer la chute des 
+drones et leur impact avec le 
+sol 
+HPM163 
+« soft kill » 
+embarqué sur 
+bâtiment de 
+surface 
+Ce type d’HPM peut traiter l’essaim à 
+bonne portée et en une fois, ou très 
+rapidement, par gros paquets. L’effet doit 
+être maintenu jusqu’à l’impact du drone 
+avec la surface, ce qui n’empêche pas 
+l’arme de traiter simultanément des profils 
+plongeants et rasants 
+HPM « soft kill » 
+embarqué sur 
+drone 
+Les technologies compactes permettent 
+d’intégrer ce type d’effecteur à un drone, 
+pour un fonctionnement répétitif. De par sa 
+portée très faible et sa cinématique lente, 
+un tel drone ne peut traiter qu’un nombre 
+extrêmement limité de cibles et uniquement 
+en basse altitude 
+Surtensions 
+électriques 
+appliquées aux composants 
+électroniques pour les mettre 
+hors service afin d’abattre les 
+drones en séquence 
+HPM « hard kill » 
+embarqué sur 
+bâtiment de 
+surface 
+Aucun système de ce type ne peut être 
+embarqué sur bâtiment de surface compte 
+tenu des contraintes électromagnétiques 
+induites. A ce titre, son efficacité, bien 
+réelle au titre de l’effet terminal, ne peut 
+être prise en compte 
+HPM « hard kill » 
+à usage unique 
+embarqué sur 
+drone ou obus 
+Les technologies compactes permettent 
+d’intégrer ce type d’effecteur à un drone ou 
+un obus, apte à détruire l’électronique d’un 
+ou plusieurs drones assaillants en une fois. 
+Cependant, au niveau de puissance où un 
+tel effecteur surclasse l’obus explosif, sa 
+sécurité de bouche serait du même ordre 
+de grandeur que la distance de détection 
+des drones assaillants, ce qui ne permet 
+pas de le considérer, en dépit de son 
+efficacité intrinsèque. 
+HPM « hard kill » 
+à usage multiple 
+embarqué sur 
+drone 
+Là aussi, les technologies compactes 
+permettent d’intégrer ce type d’effecteur à 
+un drone. Cependant, un rayon d’efficacité 
+de l’ordre de 50 mètres et une cinématique 
+comparable à celle des vecteurs assaillants 
+conduiraient à consommer autant de 
+drones intercepteurs qu’il y a d’agresseurs, 
+pour ne traiter que ceux évoluant à basse 
+altitude 
+Brouillage des liaisons afin 
+d’empêcher l’éventuel pilotage 
+à distance de l’essaim ou 
+réduire sa cohérence pour en 
+amoindrir l’efficacité  
+ECM dédié 
+Ces technologies sont matures et 
+répandues ; leur intégration sous contrainte 
+de compatibilité électromagnétique est 
+maîtrisable. Elles peuvent s’attaquer à la 
+réception GNSS ou aux liens de l’essaim. 
+Elles n’auront que peu d’impact sur un 
+essaim « intelligent » ou scripté mais 
+restent redoutables pour un essaim 
+téléopéré par faisceau hertzien qui ne 
+disposerait pas de modes dégradés 
+robustes 
+Leurrage du GNSS afin de 
+détourner l’essaim de sa cible 
+Equipement 
+dédié 
+Le spoofing pourrait attirer l’essaim loin de 
+la cible mais, aux distances de détection 
+anticipables, il est probable que l’essaim ait 
+ 
+163 Les armes micro-ondes de forte puissance (HPM : High Power Micowaves) sont examinées en 
+détail par la suite et font l’objet de l’annexe IV. Dans l’étude, elles sont séparées en deux groupes : 
+les HPM « hard kill », seuls « véritables » HPM, qui visent la destruction ou la mise hors service de 
+l’électronique embarquée et HPM « soft kill », qui sont en fait des brouilleurs, et visent la 
+perturbation de l’électronique pour provoquer la chute du drone.

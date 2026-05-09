@@ -1,0 +1,44 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 19 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+5. Using the Add button in the container window we can now insert the required FX into the container’s FX 
+chain – for this example ReaEQ, ReaDelay, ReaVerbate and a second instance of ReaEQ. Your FX window 
+should now resemble that shown (above).
+6. The pin connectors for the first two container FX will both need to be set to receive input from and send 
+output to container channels 1 and 2 only, as shown here (below left).
+7. Similarly, the pin connectors for other two FX will both need to be set to receive input from and send 
+output to container channels 3 and 4 only (below right).
+8. Finally, you can experiment with adjusting the various FX parameters – and save this file as a model that 
+you might find useful for future use.
+Note: A new container can be added to an existing FX chain by choosing Add FX container from the FX menu. 
+You can also create a new container from this menu by selecting any FX or selection of FX in the chain and 
+choosing Move to container from the FX menu.
+Example 2
+In this example we will split an audio stream into two chains – left and right – and apply separate FX to each 
+stream before returning the signal to the FX chain, one FX to channel 1 (left) only and the other to channel 2 
+(right) only. A possible application for this technique could 
+be on a vocal, using one EQ instance to add body, the 
+other to add clarity.
+In this case, the pin connector numbers should be left at 
+its default settings – two container channels, two inputs, 
+two outputs.
+The pin connector settings for each of the two EQ 
+instances could then not be simpler. The first takes its 
+input from and sends its output to channel 1 only (as 
+shown here). 
+The second takes its input from, and sends its output to, 
+channel 2 only.
+More Complex Applications
+FX containers are handy, but even they do have their limitations!
+More complex models can be created using REAPER’s pin connectors – for example, fine tuning your parallel 
+processing requirements, or directing the output from some FX to a different track.  For these and other related 
+topics refer to to the JS: Channel Mapper-Downmixer in the REAPER User Guide.
+Tip 1: FX containers can be even more powerful when combined creatively with other REAPER features. For 
+example, you can have two or more containers running in parallel with each other!
+Tip 2: You can select any FX or number of FX in a track or item’s FX chain, then choose Move FX to container 
+from their right-click context menu to move those FX into a new container. 
+Page 19

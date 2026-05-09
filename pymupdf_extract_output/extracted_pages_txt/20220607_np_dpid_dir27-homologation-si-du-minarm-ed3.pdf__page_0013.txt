@@ -1,0 +1,51 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 13 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+11/47 
+● les besoins métiers ou opérationnels dans les contextes d’emploi de ses SI, c’est-à-dire 
+les fonctions et données métiers, les conditions d’exploitation et les enjeux métiers ou 
+opérationnels, sont bien pris en compte dans leur démarche d’homologation ; 
+● les mesures de continuité d’activité et de reprise d’activité sont adaptées aux risques 
+résiduels validés par l’AH.  
+ 
+L’AE du SI doit obligatoirement prendre en compte la décision de l’AH avant de décider sa première 
+mise en exploitation, y compris dans un cadre d’expérimentation. Idéalement, la décision 
+d’homologation et la décision de mise en service opérationnel devraient être portées par la même 
+autorité. 
+ 
+En cas d’absence de décision d’homologation (ou à défaut d’autorisation provisoire) pour un SI 
+en utilisation, l’AE assume la responsabilité, notamment pénale, des conséquences de tout 
+événement de sécurité numérique survenant sur le SI. La responsabilité des entités utilisatrices 
+ainsi que celle de l’autorité en charge de son exploitation technique peuvent aussi être 
+engagées.  
+ Autorité d’homologation 
+ 
+Désignation de l’autorité d’homologation 
+L’AH est l’autorité à qui l’AQSSI délègue tout ou partie de ses attributions relatives à la démarche 
+d’homologation [PSSIM]. Les règles de délégation sont fixées par l’AQSSI qui en précise les conditions 
+(attributions, périmètre de dérogation, niveau de confidentialité maximal, activité d'application, 
+possibilité éventuelle de subdélégation).  
+Pour porter les responsabilités d’AH, l’autorité doit maîtriser le besoin métier ou opérationnel, disposer 
+des moyens de maîtriser le risque en matière de sécurité numérique ou, à défaut solliciter les ressources 
+pour ce faire. Toutefois, l’AQSSI est responsable des ressources à affecter à la mise en œuvre de la 
+démarche d’homologation. 
+RO 1 :  il est OBLIGATOIRE que tout SI du ministère, pour un périmètre d’homologation donné, 
+dispose d’une seule AH formellement désignée. 
+RO 2 :  il est RECOMMANDÉ que l’AH soit désignée au sein de la chaîne d’emploi du SI.  
+ 
+Transfert de responsabilités 
+Au cours de son cycle de vie, l’homologation d’un SI, pour un périmètre donné, peut être réattribuée à 
+une nouvelle AH.  Lorsque l’AQSSI le décide ou lorsque le SI n’est plus dans le périmètre de l’AQSSI 
+d’origine, quand le SI est transféré vers une autre AE, ou encore suite à une réorganisation structurelle 
+ou à une évolution majeure du SI.  
+RO 3 :  il est OBLIGATOIRE, en cas de changement d’AH au cours du cycle de vie du SI, de procéder 
+formellement à un transfert de responsabilités au cours duquel le dossier d’homologation du SI 
+est transmis à la nouvelle AH. 
+Si le besoin est exprimé par l’une des AH, le transfert de responsabilités peut avoir lieu à l’issue d’une 
+réunion formelle présidée par le représentant de l’AQSSI, ou co-présidée par les AQSSI sortante et 
+prenante en cas de changement d’AQSSI. Cette réunion est composée au minimum des AE et des AH 
+concernées (prenantes et si possible sortantes) ainsi que d’un représentant de leur centre expert. Le

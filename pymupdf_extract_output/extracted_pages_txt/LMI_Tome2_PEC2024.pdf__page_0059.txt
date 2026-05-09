@@ -1,0 +1,104 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 59 / 88
+
+================================================================================
+
+59
+d’utilisateurs, LinkedIn 28 millions de membres, Tik 
+Tok environ 20 millions, Copains d’avant 13 millions 
+d’utilisateurs, Twitter 6 millions. Des plateformes comme 
+Youtube totalisent quant à elles pas moins de 50 millions 
+de français comme utilisateurs.
+Côté réseaux d’attaquants, rien qu’au premier trimestre 
+2024 avec le piratage de France Travail, Viamedis, Almerys 
+ou de la CAF, c’est plus de la moitié des Français qui ont 
+vu leurs données personnelles ainsi exposées.	
+Alors que 80% des attaques exploitent des vulnérabilités 
+humaines, que 55% des attaques se traduisent par une 
+extraction massive de données (chiffre DRSD(4) 2023) 
+et que parmi ces fuites 44% des données sont des 
+données personnelles d’identification (PII pour Personaly 
+Identifiable Information), comment mesurer le risque 
+propre à chaque donnée exposée ?
+Modélisation du risque d’ingénierie sociale cyber  
+Le risque d’attaques par ingénierie sociale a pu 
+être modélisé, en s’appuyant sur de nombreuses 
+expérimentations afin de créer un scoring(5) desrisques 
+basé sur les données personnelles et professionnelles 
+disponibles en source ouverte, en fonction de leur nature 
+et de l’utilisation qui en est faite par les attaquants. Ces 
+informations sont appréhendées comme des indicateurs 
+de compromission humains (les IoC-H™). Cela inclut 
+les identifiants de réseaux sociaux, e-mails, numéros 
+de téléphone, adresses personnelles, mots de passe, 
+pseudonymes, etc. Les données sensibles au sens RGPD 
+(ethniques, raciales, médicales…) sont exclues du champ 
+de l’analyse.
+Pour citer une des expérimentations menées, l’impact 
+de l’exposition des données vis-à-vis de deux groupes 
+distincts a été évalué, constitués de milliers de cas 
+concrets :
+•	
+Un groupe « rouge » : des personnes ayant fait l’objet 
+d’attaques réussies par ingénierie sociale ;
+•	
+Un groupe « vert » : aucun des membres n’a subi 
+d’attaques répertoriées comme réussies ; ce groupe 
+représente le groupe « témoin ».
+Chaque IoC-H (le type de donnée), ainsi que sa valeur, ont 
+été étudiés de façon unitaire. Les comparaisons entre les 
+deux groupes, ont permis d’établir des statistiques autour 
+de la pondération de chaque IoC-H, leur occurrence et la 
+temporalité des expositions, dans le cadre d’une attaque 
+par ingénierie sociale.  
+Illustration avec le cas des mots de passe :  leur analyse 
+a permis d’identifier notamment que la date d’une fuite 
+de donnée est un critère plus faible que le nombre de 
+mots de passe visibles globalement dans ces fuites (plus 
+de 19 000 fuites prises en compte). Ainsi, à partir de 2 
+mots de passe exposés et quelle que soit la récence de 
+ces fuites, la probabilité qu’une personne bascule du 
+groupe vert au groupe rouge est 31% plus élevée.
+Outre ces premiers résultats, les IoC-H ont été combinés 
+entre eux en fonction notamment de certains types 
+d’attaques par ingénierie sociale - comme l’hameçonnage 
+ciblé, ou l’usurpation de compte. Par exemple, 
+l’hameçonnage ciblé peut prendre en compte la date 
+d’anniversaire, l’adresse physique et la connaissance d’un 
+réseau social pour créer un email crédible afin de tromper 
+le destinataire. Multiplier les combinaisons et croiser les 
+résultats entre groupe rouge et groupe vert, a permis 
+de faire évoluer les modélisations à base de machine 
+learning. Il est ainsi possible de pondérer l’importance 
+de chaque IoC-H (aujourd’hui une soixantaine d’IoC-H 
+sont pris en compte) et d’établir un niveau de mesure 
+de l’exposition cyber des personnes (individuellement 
+et pour des groupes jusqu’à des milliers de personnes) 
+utilisable comme scoring de risque.
+Les études menées et ce scoring démontrent que plus 
+les informations sur une cible sont nombreuses sur les 
+réseaux sociaux et les réseaux d’attaquants, plus elles 
+sont simples à collecter, faciles à exploiter et utilisées 
+efficacement par les attaquants. Cette étude souligne 
+l’industrialisation des processus des attaquants, de la 
+collecte à l’exploitation des données.
+Conclusion
+Bloquer de façon réactive les attaques à la source et 
+les contenus, dont la vitesse de propagation est très 
+rapide par rapport à des temps de vérification qui sont 
+longs, requiert des moyens complexes à élaborer et à 
+mettre en œuvre.
+Alors que la menace s’inscrit désormais dans un continuum 
+cyber/ numérique/informationnel/cognitif, la prévention 
+à partir de l’analyse de l’exposition des personnes qui 
+représentent des cibles semble plus que jamais être 
+un axe pertinent. La technique de scoring permet de 
+mesurer les risques sur les populations, d’identifier non 
+seulement la manière dont sera véhiculée une attaque 
+informationnelle mais également de déterminer les axes 
+les plus sensibles qui seront exploités par les attaquants. 
+La prise en compte des risques d’exposition est donc 
+particulièrement adaptée pour relever le défi qui consiste 
+à minimiser l’impact de ces attaques à défaut de toutes 
+pouvoir les anticiper.

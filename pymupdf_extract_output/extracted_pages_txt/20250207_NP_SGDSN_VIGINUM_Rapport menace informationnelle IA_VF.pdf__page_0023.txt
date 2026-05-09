@@ -1,0 +1,53 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 23 / 28
+
+================================================================================
+
+23 
+ 
+ 
+iii. Détection de duplications massives de contenus 
+Analyse d’un corpus de messages à l’aide de la méthode 3-delta. 
+ 
+VIGINUM a appliqué la méthode 3-delta au corpus « Venezuela 2021 » mis à disposition par le 
+Twitter Transparency Center55 et identifié des groupes de messages similaires. 
+ 
+ 
+ 
+ 
+ 
+ 
+Traductions : 
+- 
+1 : « ¿Cuándo cumplirá Cabo Verde con la orden de Ecowas [...] » 
+- 
+2 : « when will Cabo verde comply with Ecowas order [...] » 
+- 
+3 : « Cabo verde acatará a ordem do Ecowas [...] » 
+Reformulations : 
+- 
+4 : « #TWDxSTARChannel ya falta muy poco tiempo para el gran momento » 
+- 
+5 : « #TWDxSTARChannel ya por favor que el tiempo pase mas rapido solo por hoy #TWDxSTARChannel » 
+Copy-pasta :  
+- 
+6 : « Hoy toda Venezuela es Alex Saab exigimos liberen [...] de nuestro embajador Alex saab free Alex saab 
+https://t[.]co/M1IJn8JEwg alex Saab » 
+- 
+7 : « Hoy toda Venezuela es Alex Saab exigimos liberen [...] de nuestro embajador Alex saab 
+https://t[.]co/msEQgzrfFK alex Saab » 
+ 
+Pour diffuser un message textuel, les acteurs de la menace informationnelle peuvent avoir recours à 
+différents modes opératoires : la duplication massive ou « copy-pasta » ; la reformulation ; ou encore la 
+traduction. Pour détecter ces trois modes opératoires, le Datalab a développé la méthodologie 3-delta56. 
+En utilisant un modèle de langage pré-entraîné, Universal Sentence Encoder57, la méthodologie 3-delta 
+détecte les paires de messages dont la proximité sémantique est forte. La méthode est ainsi en mesure 
+                                                        
+55 En 2021, Twitter (aujourd’hui X) a identifié et supprimé un réseau de 277 comptes qui ont diffusé de manière massive des narratifs 
+favorables au gouvernement vénézuélien. Le jeu de données avait été publié par le Twitter Transparency Center. Voir 
+https://fsi.stanford.edu/news/twitter-takedown-december-2021  
+56 Richard et al., « Unmasking information manipulation: A quantitative approach to detecting Copy-pasta, Rewording, and 
+Translation on Social Media », 2023, https://arxiv.org/abs/2312.17338  
+57 Yang, Y., Cer, D., Ahmad, A., Guo, M., Law, J., Constant, N., ... & Kurzweil, R. (2019). « Multilingual universal sentence encoder for 
+semantic retrieval ». arXiv preprint arXiv:1907.04307.

@@ -1,0 +1,246 @@
+Source file: 04500463_rev_e_smdr_feature_ovvu.pdf
+Relative path: 04500463_rev_e_smdr_feature_ovvu.pdf
+Page count: 5
+Extracted pages: 5
+
+================================================================================
+
+[Page 1 / 5 | chars: 2317]
+--------------------------------------------------------------------------------
+
+ESI (Estech Systems, Inc.) • 800 374-0422 • fax: 972 422-9705 • e-mail: info@esi-estech.com • Web: www.esi-estech.com 
+0450-0463 • Rev. E 
+ 
+Introduction 
+On ESI systems, station message detail reporting (SMDR) closely emulates the Panasonic® DBS® 824 SMDR 
+format — with the exception that Esi-Link location numbers are included in the SMDR record where the Panasonic 
+“walking COS1” code would be. 
+Virtually all call accounting systems marketed in North America that support Panasonic DBS SMDR will also support 
+the ESI SMDR tabular record format (see “Tabular SMDR format,” below). Many call accounting system makers 
+state in their literature and/or Web sites that their products are compatible with ESI systems. 
+SMDR may be output in one of three formats, selected in system programming: tabular (standard), CSV, or extended.  
+The tabular format is the default. 
+Stored SMDR 
+You can store SMDR records if using either (a.) a compatible ESI Communications Server equipped with the ESI 
+Applications Services Card (ASC) or (b.) an IP Server 900 (which has ASC capabilities built into the main board).  
+Either system stores up to 20,000 SMDR records, in extended format, on the optional ASC Memory Module (hard drive). 
+Stored SMDR records can be exported to the .CSV format through the use of ESI Media Manager. (Third-party software 
+is still required to perform any call-accounting functions.) For details on ESI Media Manager, see the ESI Media 
+Manager Installation Guide (ESI # 0450-1240). 
+Tabular SMDR format 
+ESI’s tabular SMDR output format, which is compatible with the standard Panasonic® DBS® format except for the last 
+two (ESI-exclusive) items, is as shown below: 
+Four-digit dial plan 
+         1         2         3         4         5         6         7         8 
+12345678901234567890123456789012345678901234567890123456789012345678901234567890 
+T MM/DD HH:MM:SS HH:MM:SS NNNN XXXXXXXXXXXXXXXXXXXXXXXXXXX AAAAAAAAAA EE RR LLL 
+Three-digit dial plan 
+         1         2         3         4         5         6         7         8 
+12345678901234567890123456789012345678901234567890123456789012345678901234567890 
+T MM/DD HH:MM:SS HH:MM:SS NNN XXXXXXXXXXXXXXXXXXXXXXXXXXX  AAAAAAAAAA EE RR LL 
+ 
+(Continued) 
+                                                           
+1 Class of Service.
+
+[Page 2 / 5 | chars: 2767]
+--------------------------------------------------------------------------------
+
+SMDR Feature Overview 
+ 
+2
+The columns are: 
+• Call type — Outbound (“O”), inbound (“I”) or transferred (“T”) at column 1. 
+• Date (“MM/DD”) — Begins at column 3. 
+• Start time (“HH:MM:SS”) — Begins at column 9. 
+• Duration (“HH:MM:SS”) — Begins at column 18. 
+• Extension number (“NNNN” under the four-digit dial plan, “NNN” under the three-digit dial plan) — Begins at 
+column 27. 
+• Digits dialed (right-justified)/Caller ID (left-justified) — Begins at column 32 under the four-digit dial plan or 
+column 31 under the three-digit dial plan (28 characters). 
+• Account code (“AAAA”) — Begins at column 60. (See also “SMDR format when using account codes,”  
+page 4.) 
+• Esi-Link home location number (“EE”)1 — Begins at column 71. 
+• Esi-Link remote location number (“RR”)1 — Begins at column 74. 
+• CO line number (“LLL” under the four-digit dial plan, “LL” under the three-digit dial plan) — Begins at column 77. 
+Each record is terminated with a line feed and carriage return character. 
+CSV SMDR format 
+The comma-separated value (CSV) format is readable from within Excel® and other spreadsheet applications. 
+ 
+Note: The CSV format does not support account codes (see page 4). 
+A CSV record is output for each completed call, and represented as follows (word-wrapped): 
+Format: 
+"T","MMDDYYYY","HHMMSS","HHMMSS","NNN","XXXXXXXXXX. . .XXX","CCCCCCCCCC. . .CCC","EE","RR","LL" 
+Example A (with Esi-Link): 
+"I","07042002","000852","000059","101","2144229700","ESTECH SYS INC. ","01","04","54" 
+Example B (no Esi-Link): 
+"O","10312003","221502","020512","190","12125551212",""," "," ","11" 
+ 
+The fields are: 
+• Call type (“T”) — Outbound (“O”), inbound (“I”) or transferred (“T”). 
+• Start date (“MMDDYYYY”) — Eight characters, zero-filled. 
+• Start time (“HHMMSS”) — Six characters, zero-filled; 24 hour clock. 
+• Duration (“HHMMSS”) — Six characters, zero-filled. 
+• Extension number (“NNN”) — Four characters, space-filled, right-justified. 
+• Digits dialed/Caller ID (“XXXXXXXX . . . XXX”) — Up to 28 characters, null-filled. 
+• Caller ID name (“CCCCCCCCC . . . CCC”) — Up to 24 characters, null-filled. 
+• Esi-Link home location number (“EE”)1 — Two characters (two-digit suffix). 
+• Esi-Link remote location number (“RR”)1 — Two characters, null-filled (two-digit suffix). 
+• Line number (“LL”) — Three characters, null-filled, right-justified. 
+Each field is delimited with double quote marks and separated with a single comma. Null fields are still included as  
+place holders (see Example B, above). Each record is terminated with a line feed and carriage return character. 
+ 
+                                                           
+1 Used only when Esi-Link is enabled and programmed. Esi-Link SMDR records are generated at only the home location.
+
+[Page 3 / 5 | chars: 3626]
+--------------------------------------------------------------------------------
+
+SMDR Feature Overview 
+ 
+3
+Extended SMDR format 
+ 
+Note: The extended SMDR format is available on only either (a.) ESI Communications Servers running system  
+software version xx.3.0 (or higher) or (b.) an IP Server 900. For system software downloads, visit  
+www.esi-estech.com/Resellers/software. 
+          1         2         3         4         5         6         7         8        9          10 
+0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012 
+T MM/DD HH:MM:SS HH:MM:SS NNNN VTTT dddddddddddddddddddddddd aaaaaaaaaa       dddddddddddd cccccccccccc 
+The columns are: 
+• Call type — Outbound (“O”), inbound (“I”) or transferred (“T”) at column 1. 
+• Date (“MM/DD”) — Begins at column 3. 
+• Start time (“HH:MM:SS”) — Begins at column 8. The start date and time of (a.) when the call was originated from 
+or (b.) presented to the system or (c.) retrieved from hold or (d.) successfully transferred. 
+• Duration (“HH:MM:SS”) — Begins at column 17. The duration of the connection to the call plus, if the call was 
+transferred or placed on hold, the duration the call was on hold until the call was retrieved from hold or the transfer 
+was completed or the call was released (disconnected). 
+• Extension number (“NNNN”) — Begins at column 26. Includes the number of the resource that answered or 
+originated the trunk call. Trunk numbers are prefixed with T (trunk-to-trunk calls only). If an incoming call isn’t 
+answered and subsequently disconnects, this field will be blank. 
+• CO trunk number (“VTTT”) — Begins at column 31. When a voice mailbox answers a trunk call and the caller 
+disconnects, the call record generated will populate this field with an asterisk (*). Otherwise, the field will be blank. 
+• Digits dialed — Begins at column 36 (24 characters). Outgoing and transferred outgoing calls: dialed number. 
+Incoming and incoming transferred calls: DNIS or DID digits (DNIS takes precedence). 
+• Account code (“AAAA”) — Begins at column 61. (See also “SMDR format when using account codes,”  
+page 4.) The account code will appear only in the call record of the station that dialed the account code. 
+• Incoming Caller ID number (“dddd”) — Begins at column 78 (10 characters). 
+• Incoming Caller ID name (“cccc”) — Begins at column 91 (12 characters). 
+Each record is terminated with a line feed and carriage return character. 
+ 
+Reporting conventions and rules 
+• Inbound and outbound call records are generated only for calls between a station and a CO line. ESI systems 
+provide SMDR records only for calls answered by, or originated from, a system extension. ESI systems don’t 
+provide SMDR records for the following types of calls: 
+– Incoming calls . . . 
+• To the auto attendant that don’t leave the auto attendant.1 
+• Directly to a mailbox.1 
+• Call-forwarded off-premises (using Intelligent Call Forwarding or ESI Presence Management). 
+– Outgoing calls . . . 
+• Call-forwarded off-premises (using Intelligent Call Forwarding or ESI Presence Management). 
+• Sent to the auto attendant and forwarded out using go-to outdial branches. 
+• Generated using message delivery notification. 
+• The duration of each call record represents the period of time during which the station controlled its portion of a call. 
+A record is generated each time a station does any of the following: 
+– Disconnects. 
+– Places a call on hold. 
+– Transfers a call. 
+• A single CO call could be included in multiple records if it is transferred from station to station. 
+                                                           
+1 Supported on extended format only.
+
+[Page 4 / 5 | chars: 3352]
+--------------------------------------------------------------------------------
+
+SMDR Feature Overview 
+ 
+4
+• Periods when calls are placed on hold or attempts at supervised transfers are unsuccessful are included in the 
+station's record. 
+• Periods when calls are on hold, in the auto attendant, leaving/retrieving voice mail or in an ACD queue are not 
+included in call records. 
+• A new record begins when a station answers an incoming call, a transferred call, or a hold recall. 
+• Records will be generated independently for all stations in a conference. If more than one CO line is  
+involved in a conference, each call record generated by that conference will be associated with only the  
+last line disconnected. 
+• Dialed digits don’t include the line group or location number. 
+• Outbound calls begin a call record 10 seconds after the call has cleared toll restriction. 
+PC interface 
+• On an IP Server 900: Connect to the system over your LAN, using its IP address.1 
+• On an ESI Communications Server: Use an RS-232C cable to connect a PC’s serial port to the system’s 
+Maintenance/SMDR port.2 
+ 
+ 
+Note: SMDR data will be stored temporarily if a laptop is connected for programming (five to 15 minutes after 
+you exit programming mode, the buffered SMDR data will resume output to the serial port). 
+SMDR format when using account codes 
+The account code will be output in the SMDR record in character positions 60 through 69, inclusive (compliant with 
+Panasonic DBS SMDR format). A new line will be generated each time someone enters an account code (indicated 
+below by “A”). 
+         1         2         3         4         5         6         7         8 
+12345678901234567890123456789012345678901234567890123456789012345678901234567890 
+T MM/DD HH:MM:SS HH:MM:SS NNN XXXXXXXXXXXXXXXXXXXXXXXXXXX  AAAAAAAAAA EE RR LL 
+ 
+ Examples: One account code entered during an incoming call: 
+ 
+12345678901234567890123456789012345678901234567890123456789012345678901234567890 
+I 11/23 09:22:45 00:10:15 104 2145559700 DOE AND CO.       1234500001 EE RR 07 
+ 
+  
+Three different account codes entered during the same incoming call: 
+ 
+12345678901234567890123456789012345678901234567890123456789012345678901234567890 
+I 11/23 09:22:45 00:10:15 104 2145552324 AAA FINANCIAL     1234500001 EE RR 07 
+I 11/23 09:33:00 00:27:00 104 2145552324 AAA FINANCIAL     1234500010 EE RR 07 
+I 11/23 10:00:00 00:56:22 104 2145552324 AAA FINANCIAL     1234500050 EE RR 07 
+ 
+  
+ 
+ A user should be able to tell from this SMDR report that the following charges should apply: 
+•  Account 1234500001, for a 10-minute, 15-second call (between 9:22:45 and 9:33:00). 
+•  Account 1234500010, for a 27-minute call (between 9:33:00 and 10:00:00). 
+•  Account 1234500050, for a 56-minute, 22-second call (between 10:00:00 and 10:56:22). 
+There’s no indication in the SMDR record if an incorrect account number was used. 
+ 
+Note: The Es and Rs starting at position 70 will be the only digits used for Esi-Link, which will display the last two digits 
+of the cabinet numbers. For example, an Esi-Link intercom call between Cabinet 701 in Dallas and Cabinet 702 in 
+Chicago would appear as: 01 02.  
+                                                           
+1 If necessary, consult the IP Server 900 Hardware Installation Manual (ESI # 0450-1305.) 
+2 If necessary, consult the ESI Communications Servers Hardware Installation Manual (ESI # 0450-1049).
+
+[Page 5 / 5 | chars: 1950]
+--------------------------------------------------------------------------------
+
+SMDR Feature Overview 
+ 
+5
+Capturing SMDR data over Ethernet 
+The NSP (Network Services Processor) can be used to output SMDR data over an IP network; and a Telnet 
+connection can be made to the NSP, using port xx003 (default is 59003), to capture this data. For more 
+information, see NSP Installation Made Simple (ESI # 0450-0669). 
+ 
+ 
+Note: For more complete details on the ESI systems mentioned in this document, consult their respective 
+documentation. ESI-trained Resellers may download product documentation from www.esi-estech.com/Resellers 
+(password required). 
+TAPIT EX compatibility 
+Trisys, Inc., offers a call accounting application, TAPIT EX, that supports ESI’s extended SMDR format. For more 
+information about TAPIT EX, contact Trisys at 973 360-2300 or visit www.trisys.com. 
+ 
+ 
+About ESI 
+ESI (Estech Systems, Inc.) is a privately held corporation based in Plano, Texas. Founded in 1987, ESI specializes in business 
+communications systems. ESI pioneered the all-in-one telephone and voice mail system. The original IVX, introduced in 1996, 
+represented a radical breakthrough in system design:  the inclusion of a full suite of features within a single integrated system. 
+ 
+Since its days as a small start-up, ESI has enjoyed exceptional stability and growth while maintaining its dedication to small-company 
+values — including the need to take care of the most important part of the equation: your business.  
+ 
+ 
+  
+Copyright © 2011 ESI (Estech Systems, Inc.). IVX is a registered trademark of ESI. Other registered trade names mentioned herein are trademarks of their 
+respective owners. ESI systems are protected by various U.S. Patents, granted and pending. Product appearance, and other details and features 
+described herein, are subject to change without notice. Some features may not be available at initial release. More information on ESI and its products 
+is available on the World Wide Web at www.esi-estech.com.
+

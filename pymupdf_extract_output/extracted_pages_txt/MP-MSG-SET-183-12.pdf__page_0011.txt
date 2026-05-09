@@ -1,0 +1,38 @@
+Source file: MP-MSG-SET-183-12.pdf
+Relative path: MP-MSG-SET-183-12.pdf
+Page: 11 / 16
+
+================================================================================
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 11 
+ 
+Figure 17:Overview of the results of the performed experiments. 
+ 
+4.0 DISCUSSION AND FUTURE DIRECTIONS 
+The results of the study show that X-band radars are usually able to detect LSS targets (micro and mini 
+UAV) reliably at distances about 3000 m. However, detection is mostly in the form of radar scans or plots 
+and not radar tracks. Based on these results, we recommend focusing on multispectral detection with a 
+combination of radar, IR, visual, acoustic, radio, etc. Initial detection (scan, plot) is executed by X-band 
+radar (or a radio receiver), and more precise detection at closer distances is achieved by other methods. Once 
+initial detection and localization of the UAV is achieved, further action can be taken (lethal or non-lethal 
+elimination). 
+Authors performed several experiments with standard radars (not specialized to detect small RCS objects), 
+however we do not have mandate to publish them in this paper. Radar, that is not primarily designated to 
+detect small RCS objects, could be used just as the early warning or alarm device. This early warning may be 
+triggered through the scan or several scans or short track on the radar scope before the track disappear due to 
+the radar threshold parameters. Authors admit that it would not be effective to implement radars, which are 
+not designed to detect small RCSs, to multi-sensor fields. Authors also think that producers should work on 
+innovations to cope with such disadvantage. There are some radars now, for example C-RAM radar Arthur, 
+which would be suitable for UAV detection when innovated. 
+Experiments in the IR, visual, and acoustic domains achieved approximately equal detection limits. All of 
+these domains (IR, visual, and acoustic) are appropriate for terminal UAV detection at closer distances (up to 
+300 m). However, this distance is usually not sufficient for the non-autonomous reaction procedures (a UAV 
+with a flight speed of about 10–15 ms-1 can pass this distance within 20–30 s). For this reason, we 
+recommend a C-UAV approach and the implementation of autonomous defence systems with a maximum 
+reaction time up to 20 s [42], [43].  
+For the crucial objects, complex defence a combination of various types of sensors and the corresponding 
+real-time data exchange with a command and control system (C2) or with a surveillance control system is 
+necessary in non-military applications. Such a system autonomously fuses the data from multiple sensors and 
+evaluates possible threats. The operator (the person in the loop concept) chooses which effectors should be

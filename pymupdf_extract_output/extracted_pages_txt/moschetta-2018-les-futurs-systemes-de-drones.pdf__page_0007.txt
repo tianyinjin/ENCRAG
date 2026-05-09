@@ -1,0 +1,52 @@
+Source file: moschetta-2018-les-futurs-systemes-de-drones.pdf
+Relative path: moschetta-2018-les-futurs-systemes-de-drones.pdf
+Page: 7 / 10
+
+================================================================================
+
+100
+La première piste concerne la densification de la source d’énergie à bord. Si le
+vol thermique bénéficie de la forte densité énergétique des hydrocarbures, la miniatu-
+risation des moteurs thermiques conduit à une chute significative de leur rendement.
+La raison n’est pas seulement liée à des difficultés de fabrication : la tolérance 
+mécanique imposée par la réduction des fuites dans la chambre de combustion consti-
+tue une contrainte pratique qui s’ajoute à la fragilité intrinsèque de micro-structures
+articulées. Elle est surtout liée au fait qu’en première approche, les pertes de chaleur
+dans la chambre sont proportionnelles à sa surface, tandis que la puissance développée
+est proportionnelle à son volume. Or, le volume diminue plus vite que la surface de la
+chambre de combustion. Par conséquent, la transformation en travail mécanique de 
+la chaleur dégagée par l’explosion dans les cylindres devient beaucoup moins efficace
+à échelle réduite.
+Parallèlement, l’amélioration continue des moteurs à aimants permanents
+combinée avec leur souplesse d’utilisation et leur fiabilité, ont conduit la plupart 
+des concepteurs de drones à considérer la propulsion électrique, y compris jusqu’à des
+aéronefs de l’ordre de 100 kg. Reste que la source de l’énergie électrique à bord reste
+un problème crucial. Les meilleures batteries actuelles basées sur la chimie au Lithium
+permettent d’atteindre des valeurs de l’ordre de 250 Wh/kg (contre environ
+10 kWh/kg pour l’essence). Les projections des chercheurs pour de nouvelles batteries
+de type Lithium-air laissent augurer des densités énergétiques théoriquement compa-
+rables à celles de l’essence. En outre, les piles à hydrogène actuellement commerciali-
+sées permettent déjà d’accéder à des densités énergétiques comprises entre 600 et
+1 000 Wh/kg, avec des progrès considérables accomplis dans la miniaturisation des
+modules de production d’électricité à bord.
+Pour autant, ces nouvelles sources de stockage de l’énergie ne constituent pas
+la seule révolution attendue. L’énergie solaire, si elle reste tributaire des conditions
+d’ensoleillement au moment de la mission, représente une source d’accroissement de
+l’endurance qui donne lieu à des projets de « drones satellites » pouvant rester en l’air
+en permanence. Toutefois, l’exploitation de l’énergie solaire est d’autant plus intéres-
+sante que la taille du drone est réduite. En effet, la puissance électrique instantanée
+pouvant être extraite de l’énergie solaire est directement proportionnelle à la surface
+des cellules photovoltaïques déployées sur l’extrados du drone. Or, lorsque la taille du
+drone est réduite, la surface alaire diminue moins vite que sa masse. Par conséquent, le
+rapport entre la puissance recueillie par les cellules photovoltaïques et la puissance
+nécessaire au vol a tendance à augmenter lorsque le drone est plus petit. Mais même
+pour des drones de petite taille, l’énergie solaire ne peut représenter qu’une source
+d’énergie d’appoint.
+Plus intéressante est l’énergie contenue dans l’environnement aérologique du
+drone. Les mini-drones de surveillance à voilure fixe évoluent typiquement à des
+niveaux de vol de 300 pieds où les perturbations atmosphériques sont importantes, en 
+raison des effets de la couche limite atmosphérique et de la présence d’obstacles au sol
+générant des structures tourbillonnaires. Les faibles vitesses d’évolution des drones évo-
+luant à ces niveaux de vol sont alors comparables aux vitesses de l’air incident dues au
+Les futurs systèmes de drones
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)

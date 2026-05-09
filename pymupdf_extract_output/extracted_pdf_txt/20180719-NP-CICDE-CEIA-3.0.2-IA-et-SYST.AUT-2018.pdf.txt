@@ -1,0 +1,2175 @@
+Source file: 20180719-NP-CICDE-CEIA-3.0.2-IA-et-SYST.AUT-2018.pdf
+Relative path: 20180719-NP-CICDE-CEIA-3.0.2-IA-et-SYST.AUT-2018.pdf
+Page count: 36
+Extracted pages: 36
+
+================================================================================
+
+[Page 1 / 36 | chars: 295]
+--------------------------------------------------------------------------------
+
+1 
+Page de couverture 
+CEIA-3.0.2 
+Concept exploratoire interarmées
+CEIA-3.0.2_I.A.&SYST-AUT(2018)
+N 75/ARM/CICDE/NP du 19 juillet 2018
+Centre interarmées 
+de concepts,                   
+de doctrines et 
+d’expérimentations
+____
+Emploi de l’intelligence artificielle et 
+des systèmes automatisés
+
+[Page 2 / 36 | chars: 1441]
+--------------------------------------------------------------------------------
+
+2 
+Intitulé Emploi de l’intelligence artificielle et des systèmes automatisés, le concept 
+exploratoire interarmées (CEIA)-3.0.2, respecte les prescriptions de l’Allied 
+Administrative Publication (AAP) 47(B) intitulée Allied Joint Doctrine Development). 
+Elle applique également les règles décrites dans le Lexique des règles 
+typographiques en usage à l’Imprimerie nationale (LRTUIN, ISBN 978-2-7433-0482-
+9) dont l’essentiel est disponible sur le site Internet www.imprimerienationale.fr ainsi 
+que les prescriptions de l’Académie française. La jaquette de ce document a été 
+réalisée par le Centre interarmées de concepts, de doctrines et d’expérimentations 
+(CICDE). 
+Attention : la seule version de référence de ce document est la copie électronique 
+mise en ligne sur le site Intradef (http://portail-cicde.intradef.gouv.fr) du CICDE. 
+Directeur de la publication 
+Général de division Antoine WINDECK 
+Directeur du CICDE 
+1, place Joffre – BP 31 
+75700 PARIS SP 07 
+Téléphone du secrétariat : 01 44 42 83 30 
+Fax du secrétariat : 01 44 42 82 72 
+Rédacteur en chef 
+Ingénieur général de l’armement Patrick BEZOMBES  
+Directeur adjoint du CICDE 
+Auteurs 
+Document collaboratif 
+Conception graphique 
+Maître principal Philippe JEANVOINE (CICDE) 
+Crédits photographiques 
+Ministère des Armées 
+Imprimé par 
+EDIACA 
+Section IMPRESSION 
+76, rue de la Talaudière - BP 508 
+42007 SAINT-ÉTIENNE CEDEX 1 
+Tél. : 04 77 95 33 21 ou 04 77 95 33 25
+
+[Page 3 / 36 | chars: 174]
+--------------------------------------------------------------------------------
+
+3 
+ 
+ 
+ 
+ 
+ 
+ 
+CEIA-3.0.2 
+ 
+CONCEPT EXPLORATOIRE INTERARMÉES 
+ 
+EMPLOI DE L’INTELLIGENCE ARTIFICIELLE 
+ET DES SYSTÈMES AUTOMATISÉS 
+ 
+ 
+N° 75/ARM/CICDE/NP du 19 juillet 2018
+
+[Page 4 / 36 | chars: 2285]
+--------------------------------------------------------------------------------
+
+4 
+ 
+Lettre de promulgation 
+ 
+ 
+ 
+ 
+ 
+ 
+Objet : Concept exploratoire interarmées « Emploi de l’intelligence artificielle et des 
+systèmes automatisés ». 
+ 
+Les drones et les robots, dans une large acception, sont employés depuis longtemps 
+en opérations. Certains pays arment d’ailleurs déjà certains d’entre eux, renforçant la 
+certitude de voir ces types d’équipements intervenir dans les opérations dans 
+lesquelles les armées françaises sont engagées. 
+La puissance de calcul disponible permet dorénavant le traitement d’un volume de 
+données, en croissance constante, issues de capteurs toujours plus performants. Ce 
+traitement associé au progrès de l’algorithmique favorisera l’irruption de l’intelligence 
+artificielle dans de nombreux domaines opérationnels, en permettant à ces systèmes 
+d’apprécier les environnements opérationnels dans toutes leurs dimensions, et surtout 
+d’y opérer. 
+L’intelligence artificielle et l’autonomisation des fonctions et des systèmes rendues 
+possibles constitueront des ruptures technologiques de première importance qui 
+entraîneront des évolutions opérationnelles, organisationnelles, comme en matière de 
+ressources humaines. 
+Identifiés dans EOF 20351 et dans BMP 152, les systèmes automatisés offriront dans 
+ce contexte des réponses potentielles aux besoins militaires futurs. Un concept 
+exploratoire interarmées s’avère donc nécessaire pour ouvrir des pistes de réflexion 
+supplémentaires et servir de référence conceptuelle aux travaux en cours et futurs. 
+S’appuyant sur un travail sémantique important – Il n’existe à ce jour ni définitions ni 
+typologie officielles à l’OTAN et à l’ONU – le présent document est appelé à être 
+révisé au fur et à mesure de l’avancée des travaux conduits dans les armées 
+françaises comme au sein des organisations internationales. 
+ 
+ 
+Le général de division Antoine WINDECK 
+ 
+Directeur du Centre interarmées de concepts, 
+ 
+de doctrines et d’expérimentations, 
+ 
+                                                 
+ 
+1 
+Environnement Opérationnel Futur 2035 – RPIA-2016/001, n° 101/DEF/CICDE/DR du 23 mai 2016, version amendée le 
+7 juillet 2017. 
+2 
+Besoin Militaire prévisible à 15 ans, n° D-16-007103/DEF/EMA/PLANS/COCA/DR-SF du 7 juillet 2016. 
+Paris, le 19 juillet 2018 
+ 
+N° 75/ARM/CICDE/NP
+
+[Page 5 / 36 | chars: 2659]
+--------------------------------------------------------------------------------
+
+5 
+ 
+ 
+ 
+ARCHITECTURE DE LA DOCUMENTATION FRANÇAISE
+(Concepts, réflexions doctrinales et de prospective)
+Version du 12 juillet 2018
+(1) Refonte en DIA-3.2.3;
+(2) Refonte en PIA-3.8.8; 
+(3) Intégrée dans DIA-3.3.8; 
+(4) Refonte en DIA-3.4.
+Concept 
+d’emploi 
+des forces
+CIA-01
+CEF
+Document
+promulgué
+Document 
+en cours de 
+rédaction
+Document 
+classifié
+CIA-3.60
+SAUVEGARDE 
+GENERALE
+Document
+en cours de 
+révision
+CEIA-3.3.12
+ALERTE 
+AVANCEE
+CEIA-3.3.13
+ESPACE
+CEIA-3.11
+RGO
+CEIA-3.3.8
+UCAV
+CEIA-3.20
+Armes à
+effet dirigé
+2013
+RDIA-4.10
+Éval. sanitaire 
+des risques
+RDIA-3.3.13
+ESPACE
+RDIA-2010/005(1)
+Opérations
+urbaines
+RDIA-3.60.1
+Lutte immig. 
+clandestine
+RDIA-3.4.2
+Intervention 
+gestion de crise
+RDIA-2011/001(4)
+Approche
+globale
+RDIA-3.4.3
+Adversaire
+irrégulier
+RDIA-7.7.1
+EXDOC
+RDIA-3.4.4
+Intimidation 
+stratégique
+RDIA-3.10
+Influence
+RDIA-5.1
+Analyse 
+sytémique de la 
+planif. OPS
+RDIA-3.3.11
+Déf. Anti-missile 
+balistique
+RDIA-2012/010(3)
+Emploi syst. de 
+drones aériens
+RDIA-3.10.1
+Réseaux
+sociaux
+RDIA-3.4.5
+Exactions
+RDIA-2013/004(2)
+Armes de 
+destruction 
+massives
+RDIA-3.22.1
+Military Police
+RDIA-4
+Soutien
+RDIA-3.0.4
+Entrée 
+en premier
+RDIA-7.7.2
+Simulation
+opérationnelle
+RPIA-2016/001
+EOF 2035
+RPIA-2015/001
+Hybridité
+RDIA en cours 
+de 
+transformation
+en doctrine
+DIA-6
+SIC-OPS
+DIA-2
+RIM&CI
+DIA-3
+Opérations 
+interarmées
+DIA-3.1
+Opérations 
+maritimes
+DIA-3.2
+Opérations 
+terrestres
+DIA-3.3
+Opérations 
+aériennes
+DIA-3.4
+Approche 
+globale
+DIA-3.0.4
+Emploi des 
+missiles de 
+croisière
+2017-AM
+2015
+RDIA-3.1.4
+Lutte contre 
+sous-marins
+2012
+Future DIA-3.2.3
+Future DIA-3.3.8
+RDIA-2.2
+Knowledge 
+Development
+2010
+RDIA-2.1
+SA2R
+2014
+2010
+2012
+2014
+2016
+2015
+2015
+Future DIA-3.4
+2011
+2011
+2012
+2013
+2017
+2012
+2013
+2014
+2013
+2013
+2017
+2010
+2013
+2008
+2012
+DIA-3.60
+Emploi des 
+FA sur le TN
+2016
+2018
+DIA-5
+Anticipation, 
+planif & strat.
+2014-AM
+2016-AM
+2017
+2017
+2017
+2017
+2017
+2018
+2016-AM
+2017
+2018-AM
+2017
+2012
+2014-AM
+2015
+CIA-3.0.1
+POLITIQUE
+PNT
+2017
+CIA-3.3.1
+SPATIAL
+MILITAIRE 2030
+RDIA-3.60.3
+Résilience
+RDIA-3.4.6
+Prévention
+RDIA-5.2
+Protection des 
+civils en OPEX
+2015
+Document
+en projet
+RPIA-3.0.1
+Effets de
+saturation
+RPIA-3.0.3
+Stratégies
+d’équipements
+PIA-7.7
+RETEX
+CIA-3.6.1
+Navigation
+Warfare
+2018
+RPIA-2015/003
+Menace
+asymétrique
+2015
+RDIA-3.6.4
+SEAD
+2017
+DIA-3.0
+CEO HTN
+2017
+RPIA-2017/002
+Prévention
+stratégique
+2017
+CEIA-3.3.14
+Hypervélocité
+2017
+English
+English
+English
+DIA-3.0.3
+Intégration
+Air-Surface 
+(ASI)
+2017
+CEIA-3.0.2
+Emploi de l’I.A. 
+et des syst. 
+automatisés
+2018
+RPIA-2017/00
+Principes de
+la guerre
+2017
+Future PIA-3.8.8
+RDIA-3.20.1
+OPS CYBER
+ÉLECTRONIQUES
+2018
+DIA-4
+Soutien des 
+opérations
+DIA-3.10
+SMI & 
+Info Ops
+
+[Page 6 / 36 | chars: 2723]
+--------------------------------------------------------------------------------
+
+6 
+ 
+Sommaire 
+ 
+ 
+ 
+Page 
+Chapitre 1 – Définitions et caractérisations ....................................................... 8 
+Section I – Systèmes et fonctions automatisés .......................................................................... 8 
+Section II – L’intelligence artificielle .......................................................................................... 13 
+Chapitre 2 – Enjeux ............................................................................................ 16 
+Section I – Enjeux techniques (maîtrise technique) ................................................................. 16 
+Section II – Enjeux opérationnels (contribution à la supériorité militaire) ................................. 16 
+Section III – Enjeux politiques et industriels (souveraineté et maîtrise industrielle) ................. 18 
+Section IV – Enjeux juridiques et sociétaux.............................................................................. 18 
+Chapitre 3 – Contexte et débats internationaux .............................................. 21 
+Section I – Contexte ................................................................................................................. 21 
+Section II – Débats internationaux ............................................................................................ 22 
+Chapitre 4 – Emploi opérationnel ..................................................................... 23 
+Section I – Emploi opérationnel de l’intelligence artificielle ...................................................... 23 
+Section II – Emploi des systèmes automatisés ........................................................................ 27 
+Section III – Les champs opérationnels applicatifs de l’intelligence artificielle et des 
+systèmes automatisés .............................................................................................................. 30 
+Chapitre 5 – Réflexions prospectives et recommandations ........................... 31 
+Section I – Accompagnement du développement de l’automatisation ..................................... 31 
+Section II – Profils et cursus des personnels - compétences futures ....................................... 32 
+Chapitre 6 – Synthèse ............................................................................................ 33 
+Annexe A – Lexique ........................................................................................... 35 
+Partie I – Sigles, acronymes et abréviations ............................................................................ 35 
+Partie II – Termes et définitions ................................................................................................ 35
+
+[Page 7 / 36 | chars: 776]
+--------------------------------------------------------------------------------
+
+7 
+ 
+Liminaire 
+ 
+ 
+ 
+ 
+ 
+Le présent concept exploratoire interarmées apporte en priorité un éclairage sur les 
+systèmes automatisés, dont les systèmes communément appelés « autonomes », 
+notamment en précisant un certain nombre de définitions.  
+Il est cependant difficile d’apporter cet éclairage si l’on ne présente pas également les 
+technologies sous-jacentes à l’automatisation des fonctions et des plates-formes et 
+principalement « l’intelligence artificielle » (IA) qui en est la pierre angulaire.  
+Le présent document traite donc des fonctions et des systèmes automatisés et de l’IA 
+au profit de ces fonctions et systèmes mais ne traite pas de l’IA portant sur d’autres 
+domaines applicatifs, dont ceux du Big Data et du cyber, qui ont leurs spécificités 
+propres.
+
+[Page 8 / 36 | chars: 2851]
+--------------------------------------------------------------------------------
+
+8 
+ 
+Chapitre 1 
+Définitions et caractérisations 
+ 
+101. 
+Les définitions des notions d’automatisme, d’autonomie, de robots, de drones, d’intelligence 
+artificielle et de systèmes automatisés sont multiples. Il est proposé de retenir les définitions et 
+caractérisations suivantes. 
+Section I – Systèmes et fonctions automatisés 
+102. 
+Automatique : qualité des systèmes qui fonctionnent sans intervention humaine.  
+103. 
+Automate :  
+a. 
+les automates sont à l’origine purement mécaniques. Désormais, les automates 
+peuvent être informatiques et sont très largement employés dans de nombreux 
+systèmes civils et militaires ; 
+b. 
+les automates sont des systèmes dont le fonctionnement et les états sont prédéfinis de 
+façon globale ou précise. Leur autonomie est fonction du type de programmation fixée 
+(algorithme, intelligence artificielle…). Leur mise en route est généralement 
+déclenchée de façon maîtrisée par un événement ou une suite d’événements. 
+104. 
+Automatisme (ou système/fonction automatique ou système/fonction automatisé) :  
+a. 
+un automatisme est un système composé de capteurs, d’un sous-système de 
+commande (calculateur et algorithmes) et d’actionneurs (ou effecteurs) ; 
+b. 
+un automatisme accomplit une suite d’opérations depuis un état initial jusqu’à un état 
+final ; 
+c. 
+il existe des automatismes dans pratiquement tous les systèmes d’armes. Ces 
+automatismes sont plus ou moins enfouis, plus ou moins critiques (pour 
+l’accomplissement de la mission et la sécurité des personnes et des biens), plus ou 
+moins complexes.  
+105. 
+Autonomie :  
+D’après les travaux MCDC3, l’autonomie est la capacité d’un système ou d’une fonction à agir 
+sous la supervision d’une programmation humaine, selon ses tâches, ses règles, ses états 
+internes et ses connaissances, sans intervention extérieure.  
+L’IEEE4 « Global initiative on Ethics and Intelligent Systems »5 explore les nombreuses 
+dimensions de l’autonomie : « un agent X est autonome vis-à-vis d’une règle s’il peut violer 
+cette règle », « un agent X est autonome vis-à-vis d’un agent Y [….] si X peut refuser un ordre 
+de Y »...  
+Étymologiquement, autonomie signifie « capacité à être gouverné par ses propres règles ». À 
+ce jour, et avec cette définition, les robots technologiquement et opérationnellement 
+envisageables ne sont pas autonomes mais hétéronomes, c’est-à-dire gouvernés par des 
+règles extérieures, définies par l’homme.  
+                                                 
+ 
+3 
+MCDC (Multinational Capability Development Campaign): A system’s capacity to act under supervision of human 
+programming, according to desired goals, precepts, internal states, and knowledge, without outside intervention. 
+4 
+IEEE: Institute of Electrical and Electronics Engineers. 
+5 
+Glossary for Discussion of Ethics and Intelligent Systems, Version 1 – October 2017.
+
+[Page 9 / 36 | chars: 3414]
+--------------------------------------------------------------------------------
+
+9 
+Le présent document retient les approches IEEE et étymologique et utilise les notions de semi-
+autonomie (hétéronomie) et de pleine autonomie qui permettent de mieux caractériser la simple 
+notion d’autonomie qui à ce jour porte à confusion. 
+106. 
+Robot (ou système robotisé) :  
+a. 
+un robot est un équipement (ou une machine) automatisé, disposant de capteurs, d’un 
+système de commande logique et d’actionneurs (ou effecteurs), capable de manipuler 
+des objets, de se mouvoir ou d’exécuter des opérations selon un programme fixe, 
+modifiable ou adaptable ; 
+b. 
+un robot calcule, selon sa programmation, ses stratégies de fonctionnement selon un 
+état final6 recherché. 
+107. 
+La puissance de calcul des robots, alliée à l’accès à de nombreux capteurs et à de nombreux 
+effecteurs, peut donner à certains robots, dans un domaine borné, des choix d’action 
+comparables à ceux de l’homme. 
+108. 
+Drones : historiquement, un drone est un système téléopéré qui utilise les mêmes techniques 
+que les robots. La notion de drone revêt, dans certains cas, une acception juridique. 
+109. 
+Désormais, dans l’usage courant, la notion de drone est plutôt associée aux domaines 
+aéronautique et maritime, tandis que la notion de robot relèverait davantage du domaine 
+terrestre et cyber. Drones et robots font néanmoins appel aux mêmes techniques et aux mêmes 
+concepts. 
+110. 
+Plus fondamentalement, drones et robots sont des systèmes constitués de fonctions 
+automatisées.  
+111. 
+Le débat public a abouti à devoir distinguer, dans l’opinion publique et dans les instances 
+internationales (ONU), la question des drones, qui sont associés à des machines existantes et 
+relativement peu problématiques, de celles des robots et des SALA7, ces derniers n’existant 
+pas encore.  
+112. 
+Les opposants des drones armés, étatiques ou non-étatiques (ONG, intellectuels, médias, etc.) 
+ont tendance à présenter les drones comme des « robots tueurs », en jouant sur cet amalgame 
+qui, dans l’inconscient collectif, évoque les films de science-fiction.  
+113. 
+Afin de lever les risques d’ambiguïté et d’incompréhension, et de s’affranchir autant que faire se 
+peut des images de l’inconscient collectif, il est conseillé d’éviter l’utilisation du qualificatif 
+« autonome » pour décrire l’ensemble des systèmes automatisés. De même les termes de 
+drones/robots pourraient être utilement caractérisés par les adjectifs téléopérés, supervisés, 
+semi-autonomes ou pleinement autonomes.  
+114. 
+Un système automatisé est composé de fonctions pouvant être téléopérées, supervisées, semi-
+autonomes ou pleinement autonomes. De fait, l’automatisation d’un système pourrait être 
+définie par les niveaux d’automatisation de chacune de ses fonctions. 
+Les systèmes et fonctions téléopérés 
+115. 
+Un système téléopéré est un système sans équipage à bord, opéré à distance par un équipage 
+via des moyens de télécommunication. Il s’agit d’un déport de toutes les tâches usuellement 
+exécutées par l’équipage d’un système. L’état du système est piloté (ex : cas du drone Reaper). 
+                                                 
+ 
+6 
+« État initial » et « état final » sont des concepts utilisés en automatisme et ne doivent pas être confondu avec leur 
+signification dans le domaine militaire, même si l’idée sous-jacente est identique. 
+7 
+SALA : Systèmes d’Armes Létaux Autonomes (traduction  française de l’acronyme anglo-saxon LAWS).
+
+[Page 10 / 36 | chars: 3318]
+--------------------------------------------------------------------------------
+
+10 
+116. 
+Un système téléopéré est fonctionnellement employé comme un vecteur classique et est 
+pourvu d’automatismes comme tout autre vecteur civil ou militaire. L’intervention humaine reste 
+présente dans la totalité de l’emploi des vecteurs télépilotés. 
+Nota : ce type de système n’exclut pas la présence de fonctions automatisées sur des fonctions 
+particulières (commandes de vol, retour automatique à la base en cas de situations particulières 
+(perte de liaison de communication, etc.) 
+Les systèmes et fonctions automatisés 
+117. 
+La principale caractéristique d’un système automatisé (ou d’une fonction automatisée) est 
+l’étendue de son champ d’action (le champ possible des conséquences) et, par effet induit, la 
+nécessaire maîtrise par l’homme de ce champ d’action et l’identification des responsabilités en 
+cas de fonctionnement inapproprié ou de dommages collatéraux.  
+118. 
+Dans le domaine de la défense, trois types de systèmes automatisés sont définis : 
+a. 
+le système supervisé : système dont les tâches de base8 sont automatisées. Un 
+opérateur humain supervise en permanence la situation, fournie par le système, et 
+décide des tâches de haut niveau9 à exécuter par le système.  
+Nota : les systèmes d’autoprotection des plates-formes et de réponse aux attaques 
+de saturation sont des systèmes supervisés ; 
+b. 
+le système semi-autonome10 :  
+(1) 
+le système exécute ses tâches sans intervention humaine conformément à sa 
+programmation initiale, laquelle ne peut être modifiée sans intervention 
+humaine ; 
+(2) 
+l’état final du système ne dépend que des règles de fonctionnement, d’emploi 
+et d’engagement, de sa mission (tâches de très haut niveau) et de son 
+environnement. Le système exécute les tâches de haut niveau11 qui lui sont 
+attribuées généralement avant le début de sa mission. Ses tâches de haut et 
+bas niveaux sont automatisées. Le cas échéant, le système restitue tout ou 
+partie des signaux et informations traités pendant la mission ;  
+(3) 
+ce système ne modifie pas sa programmation, ses bibliothèques de tactique, 
+ses règles de fonctionnement, d’emploi et d’engagement ni sa mission sans 
+intervention humaine ; 
+(4) 
+ce système ne fait que dérouler ses automatismes ; 
+(5) 
+l’homme est le maître d’œuvre du système : il en maîtrise la conception, la 
+programmation et la définition des règles de fonctionnement, des règles 
+d’emploi, des règles d’engagement et de la mission ;  
+(6) 
+pour chaque mission, l’emploi du système est strictement borné, dans 
+l’espace et dans le temps ; 
+(7) 
+pour les systèmes mobiles, des liens de communication et de contrôle 
+existent entre ce système et la chaîne de commandement militaire et 
+permettent de fixer, modifier ou interrompre le cadre de la mission. 
+                                                 
+ 
+8 
+Navigation du système, observation, tenue de situation et pointage des armements. 
+9 
+Gestion temporelle et spatiale du système, gestion des capteurs, désignation d’objectif et engagement des armements. 
+10 Les choix sémantiques pourront faire l’objet d’évolutions ultérieures, notamment au regard des choix sémantiques à venir 
+de l’OTAN. La notion de système subordonné pourrait probablement se substituer à la notion de système semi-autonome. 
+11 Tâches similaires aux tâches de haut niveau du système supervisé.
+
+[Page 11 / 36 | chars: 3080]
+--------------------------------------------------------------------------------
+
+11 
+L’exécution de la mission, éventuellement jusqu’à son aboutissement, peut 
+induire une absence ou une interruption volontaire des liens de 
+communication 
+(discrétion, 
+changement 
+de 
+milieu…). 
+L’interruption 
+involontaire de ces liens implique le strict respect du dernier cadre de mission 
+reçu du commandement pouvant  inclure un retour du système ou une mise 
+en attente du rétablissement des liens dès l’accomplissement de la mission ; 
+Nota : Il résulte de la définition ci-dessus que : 
+ 
+les systèmes de missiles, torpilles et autres munitions, à usage unique, 
+sont des systèmes semi-autonomes même s’ils s’affranchissent des liens 
+de communication après leur engagement (tir) ; 
+ 
+les mines à fonctionnement mécanique ne peuvent être considérées 
+comme des systèmes automatisés ; 
+ 
+les mines (terrestre, maritime, etc.) automatisées, c’est-à-dire disposant 
+d’un calculateur, sont des systèmes semi-autonomes si, par conception, 
+leur emploi est strictement borné dans le temps (temps de déchargement 
+de la batterie par exemple) ou si elles sont désactivables. 
+c. 
+le système pleinement autonome :  
+(1) 
+le système pleinement autonome exécute sa mission après sa mise en 
+service, potentiellement au-delà de sa programmation initiale qui peut être 
+modifiée sans intervention humaine ; 
+(2) 
+le système ne dispose pas de lien de subordination, et donc de contrôle et 
+désactivation, avec la chaîne de commandement ; 
+(3) 
+le système pleinement autonome peut accroître son aptitude à faire face à 
+des situations nouvelles en intégrant des données nouvelles issues de la 
+perception de l’environnement dans lequel il agit : cette adaptation à la 
+complexité et à la diversité des situations et des environnements, pourrait 
+s’appuyer sur des capacités d’auto-apprentissage autonome non supervisé  
+(et donc d’auto-modification de leur programmation) ;  
+(4) 
+pour des systèmes pleinement autonomes, confrontés à des situations non 
+programmées initialement, l’auto-apprentissage serait alors basé sur des 
+modèles de formes de conscience, d’interactions avec l’environnement et de 
+compréhension du comportement des éléments extérieurs. Un système 
+pleinement autonome, plongé dans le monde réel, comprenant des 
+« éléments non prévisibles (et donc non anticipables) lors de sa 
+programmation », 
+pourrait 
+adopter 
+spontanément 
+des 
+comportements « anormaux » 
+issus 
+de 
+ses 
+auto-apprentissages 
+non 
+supervisés ; 
+(5) 
+des systèmes ou des fonctions pleinement autonomes, d’emploi borné 
+physiquement ou fonctionnellement, préservant la sécurité des personnes et 
+des biens, sont conceptuellement envisageables, mais restent encore à 
+inventer. 
+Nota : d’autres segmentations des systèmes autonomes ou automatisés existent 
+(États-Unis, OTAN, UE, secteur automobile, ONG, etc.). Certaines, plus techniques, 
+peuvent complexifier inutilement la démarche doctrinale et ont un intérêt opérationnel 
+limité. Les plus techniques peuvent néanmoins, la plupart du temps, et en tant que de 
+besoin, être intégrées dans la segmentation à quatre niveaux proposée.
+
+[Page 12 / 36 | chars: 3236]
+--------------------------------------------------------------------------------
+
+12 
+Les systèmes d’armes létaux autonomes 
+119. 
+Les Systèmes d’armes létaux autonomes (SALA) font l’objet de débats dans le cadre de la 
+convention sur certaines armes classiques (CCAC). 
+120. 
+Une définition de travail proposée (« working definition »), mais non validée, d’un SALA au 
+niveau de la CCAC est : « système d’armes qui, une fois activé, serait capable de sélectionner 
+et de neutraliser des cibles sans intervention humaine ». La définition finale devra inclure un 
+certain nombre de précisions.  
+121. 
+En ce qui concerne les caractéristiques des SALA, la position de la France dans la CCAC de 
+Genève d’avril 2016 est la suivante : 
+a. 
+un SALA est un système pleinement autonome (selon définition du paragraphe 118.c) 
+armés. Les SALA sont des systèmes futurs : ils n’existent pas à ce jour. 
+Corollairement, les systèmes d’armes automatisés (téléopérés, supervisés et semi-
+autonomes) existants ne sont pas des SALA ;  
+b. 
+les systèmes d’armes téléopérés et les systèmes d’armes supervisés ne peuvent être 
+considérés comme des SALA du fait qu’un opérateur humain est impliqué, en 
+particulier durant les phases de sélection d’objectif et de conduite de tir ;  
+c. 
+les systèmes semi-autonomes ne deviennent pas des SALA du seul fait qu’ils seraient 
+armés ; 
+d. 
+les SALA doivent être compris comme impliquant une absence totale de subordination 
+humaine avec la chaîne de commandement militaire, c’est-à-dire sans aucun lien de 
+contrôle ou de désactivation ;   
+e. 
+la plate-forme porteuse d’un SALA est capable de se déplacer, de s’adapter dans son 
+environnement terrestre, maritime ou aérien, et de désigner et de neutraliser des cibles 
+avec un effecteur létal (balle, missile, bombe, arme à énergie dirigée, etc.) le tout sans 
+aucune intervention ni validation humaine ; 
+f. 
+étant donné la complexité et la diversité des environnements, et la difficulté à 
+concevoir des algorithmes, intégrant un système de valeurs, capables de respecter le 
+droit international humanitaire, les SALA devront probablement posséder des 
+capacités d’auto-apprentissage non-supervisés afin de pouvoir s’adapter à des 
+environnements non-prévisibles.  
+122. 
+Les SALA sont des systèmes dont la fonction « sélection d’objectif et neutralisation » est 
+pleinement autonome. 
+Programmation et règles des systèmes automatisés 
+123. 
+Règles de fonctionnement : ensemble des modes de fonctionnement d’un système 
+automatisé permettant de s’insérer dans son milieu physique et dans son écosystème (ex : 
+circulation aérienne générale, code de la route, etc.).  
+124. 
+Règles d’emploi : ensemble des procédures d’emploi opérationnel liées à l’organisation de la 
+chaîne de commandement, aux procédures et doctrines de mise en œuvre. 
+125. 
+Règles d’engagement : ensemble des bibliothèques de menaces et de tactiques régissant le 
+comportement militaire opérationnel d’un système12 établi en conformité avec les conditions 
+d’usage de la force dont l’application est autorisée par le pouvoir politique, dans un contexte 
+stratégique, juridique, géographique et temporel défini, sur proposition de l’autorité militaire qui 
+la diffuse. 
+                                                 
+ 
+12 Exemple : tactique de leurrage d’un missile.
+
+[Page 13 / 36 | chars: 3246]
+--------------------------------------------------------------------------------
+
+13 
+126. 
+Adaptation à l’environnement : À l’intérieur d’un cadre défini par les règles de 
+fonctionnement, les règles d’emploi, les règles d’engagement et sa mission, un système 
+automatisé peut mettre en œuvre des processus de découverte de son environnement et 
+optimiser son fonctionnement selon des critères prédéfinis, tels que la minimisation de l’énergie 
+consommée, la rapidité d’exécution… (ex : un véhicule peut « découvrir » qu’une route est 
+difficilement praticable et « identifier » des alternatives possibles plus rapides). 
+127. 
+Programmation d’un système : ensemble des codes informatiques d’un système, y compris 
+l’implémentation informatique de l’ensemble des algorithmes et des règles de fonctionnement, 
+d’emploi et d’engagement. 
+Section II – L’intelligence artificielle  
+128. 
+L’intelligence artificielle : 
+a. 
+depuis le choix sémantique, et marketing, des termes « réseau de neurones » et 
+« intelligence 
+artificielle », en 
+lieu 
+et 
+place 
+des 
+termes 
+« algorithme » et 
+« automatisme », les considérations éthique, juridique, sociétale, philosophique, voire 
+transhumaniste et religieuse ont investi le champ d’application des techniques 
+d’intelligence artificielle. Dans certains forums et dans certains médias, ces 
+considérations éclipsent le fond technique et rendent difficile la rationalisation des 
+enjeux ; 
+b. 
+l’intelligence artificielle consiste à reproduire ou créer des fonctions cognitives, à pallier 
+aux limites des fonctions cognitives humaines et à trouver des solutions à des 
+problèmes n’ayant pas de solution analytique ou difficilement modélisables ; 
+c. 
+en fonction du type d’application, différentes techniques peuvent être utilisées en 
+intelligence artificielle : réseaux de neurones, systèmes experts, parcours de graphe, 
+logique de prédicats, logique floue…; 
+d. 
+les progrès dans les puissances de calcul des ordinateurs permettent d’envisager 
+d’implémenter dans les systèmes d’armes et les systèmes de commandement des 
+algorithmes issus de processus d’intelligence artificielle ; 
+e. 
+philosophiquement et informatiquement, et bien que discutée, l’intelligence artificielle 
+peut se décomposer en deux branches : 
+(1) 
+l’intelligence artificielle faible est l’ensemble des techniques actuelles qui 
+simulent, voire surpassent, l’efficacité humaine dans des tâches automatiques 
+(ex : reconnaissance de la parole, traduction en ligne, reconnaissance faciale, 
+etc.). Les algorithmes d’intelligence artificielle reposent sur des processus 
+d’apprentissage supervisé, 
+(2) 
+un système basé sur de l’intelligence artificielle forte aurait accès à la 
+compréhension de ses propres raisonnements ne le distinguant pas de 
+l’homme et serait capable de décision. Ce niveau d’intelligence artificielle 
+reste à ce jour très théorique et fait l’objet de débats dans les domaines 
+informatique, 
+mathématique, 
+neuroscientifique 
+et 
+philosophique. 
+Les 
+algorithmes d’intelligence artificielle, notamment ceux liés à la conscience et à 
+la compréhension, reposent sur des processus d’apprentissage autonome. 
+Les technologies permettant ce niveau d’intelligence ne sont pas identifiées, 
+et il est évoqué le besoin d’algorithme et de processeur quantiques, sans que 
+cela soit démontré ;
+
+[Page 14 / 36 | chars: 3288]
+--------------------------------------------------------------------------------
+
+14 
+f. 
+on prête à l’intelligence artificielle un caractère d’imprévisibilité. La perception de cette 
+imprévisibilité est liée aux techniques à base de réseaux de neurones  et provient de la 
+complexité des algorithmes et du champ des possibles de l’algorithme confronté à un 
+environnement très riche, très variable et imparfaitement modélisable. Cette 
+imprévisibilité perçue ne signifie pas un comportement non déterministe13 ou aléatoire 
+et un champ d’action non borné : 
+(1) 
+le champ d’action d’un système automatisé peut être encadré par la 
+programmation de règles de fonctionnement, d’emploi et d’engagement ad 
+hoc, 
+(2) 
+un 
+algorithme 
+issu 
+d’un 
+processus 
+d’intelligence 
+artificielle 
+forte, 
+s’affranchissant 
+de 
+sa 
+programmation 
+initiale, 
+de 
+ses 
+règles 
+de 
+fonctionnement, d’emploi et d’engagement, est non déterministe et donc 
+potentiellement imprévisible.  
+Apprentissage des algorithmes d’intelligence artificielle 
+129. 
+Base d’apprentissage : ensemble des données qui sert à établir les algorithmes d’intelligence 
+artificielle à des fins de de résolution de problèmes ou d’optimisation de solutions (ex : 
+reconnaissance de visages, de cibles, etc.). Certaines des données peuvent être issues de 
+simulation : 
+a. 
+les bases d’apprentissage des algorithmes peuvent être très importantes (jusqu’à 
+plusieurs millions de cas) pour avoir des résultats statistiquement fiables ; 
+b. 
+les bases d’apprentissage sont des éléments clés de la conception d’un algorithme 
+d’IA et doivent être validées et qualifiées par l’homme si on veut garantir au moins 
+statistiquement un certain niveau de bon fonctionnement ; 
+c. 
+les bases d’apprentissage sont généralement associées à des bases d’évaluation (ou 
+bases de test). 
+130. 
+Machine Learning (ou auto-apprentissage) : l’apprentissage automatique ou « machine 
+learning » est une des techniques de l’intelligence artificielle. Il permet à une machine de 
+construire des algorithmes en s’appuyant sur l’analyse de données d’entrée.  
+Dans le cas où les données d’entrée sont accompagnées des résultats attendus, on parle 
+d’apprentissage supervisé. Dans le cas contraire, il s’agit d’apprentissage non-supervisé. 
+On distingue également l’apprentissage semi-supervisé, où seule une partie des résultats 
+attendus est disponible, et l’apprentissage par renforcement où le système interagit avec son 
+environnement et évolue avec une stratégie d’essais-erreurs-récompenses. 
+L’apprentissage peut être également un apprentissage autonome (les données d’entrée ne sont 
+pas maîtrisées, les résultats attendus ne sont pas précisés et le modèle d’apprentissage n’est 
+pas qualifié). 
+La technique utilisée permet de construire les processus d’analyse par la puissance de calcul 
+appliquée aux données : 
+a. 
+l’intérêt de cette méthode est de ne plus rendre indispensable la modélisation formelle 
+du problème à traiter ; 
+                                                 
+ 
+13 Déterminisme : principe selon lequel un phénomène régi par une ou plusieurs lois est tel que les mêmes causes entraînent, 
+dans les mêmes conditions et les mêmes circonstances, toujours les mêmes effets. Exemple : une expérience déterministe 
+est une expérience dont les résultats sont toujours identiques, toutes choses égales par ailleurs.
+
+[Page 15 / 36 | chars: 633]
+--------------------------------------------------------------------------------
+
+15 
+b. 
+en revanche, le contrôle des processus utilisés échappe aux méthodes classiques 
+d’analyse et pose le problème de leur validation. L’étude des résultats obtenus pour 
+une version d’apprentissage déterminée dans le cadre de scénarios peut contribuer à 
+cette validation ; 
+c. 
+l’apprentissage profond « deep learning » est une forme particulière de l’apprentissage 
+automatique qui se caractérise par une structure de traitement (réseaux de 
+neurones…) plus complexe. Cette complexité accrue de la structure de traitement 
+permet d’intégrer un très grand nombre de facteurs d’entrée pouvant influer sur les 
+résultats obtenus.
+
+[Page 16 / 36 | chars: 3291]
+--------------------------------------------------------------------------------
+
+16 
+ 
+Chapitre 2 
+Enjeux 
+ 
+Section I – Enjeux techniques (maîtrise technique) 
+201. 
+Les technologies de l’intelligence artificielle sont relativement récentes (années 60) et ont eu du 
+mal à se développer, essentiellement par manque de puissance de calcul et par insuffisance de 
+données à traiter. De nombreux freins technologiques sur la puissance de calcul et les 
+technologies algorithmiques liées à l’IA sont désormais levés. Le foisonnement actuel des 
+études sur ces sujets concourt aux évolutions rapides de l’IA avec des potentiels technique et 
+applicatif attendus significatifs.  
+202. 
+L’IA, principalement les techniques neuronales, échappe à la compréhension fine de son 
+comportement par l’homme : celui-ci peut en être réduit à considérer l’IA comme une boîte 
+noire. Ceci doit inciter à se pencher sur la question de la certification des algorithmes, à savoir 
+d’algorithmes dont on a la certitude du bon fonctionnement.  
+203. 
+Des risques liés à la cybersécurité, parfois avancés comme étant un point bloquant de l’IA et 
+des systèmes automatisés, ainsi que des risques sur la maîtrise de la propriété intellectuelle, 
+aux confins des enjeux techniques et industriels, existent et influent sur les capacités militaires 
+mais ne sont spécifiques ni à l’IA ni aux systèmes automatisés. 
+Section II – Enjeux opérationnels (contribution à la supériorité militaire) 
+204. 
+Les systèmes automatisés et l’intelligence artificielle, aussi bien dans les domaines physiques 
+que cyber, constituent un ensemble de ruptures majeures technologiques, opérationnelles et 
+sociétales. Dans le domaine militaire, ils sont susceptibles d’entraîner, par effet domino, de 
+nombreuses autres ruptures, dans le tempo des processus décisionnels et des opérations, 
+dans les rapports de forces, dans les systèmes C2 (qui devront être agiles), dans les 
+ressources humaines (qui devront adapter leurs compétences) et enfin dans l’organisation des 
+forces et dans leurs doctrines et concepts d’emploi. 
+205. 
+Enjeux sur la liberté d’action des forces : 
+a. 
+Comme pour les systèmes téléopérés, les systèmes automatisés participent à la 
+sauvegarde du potentiel humain et permettent l’action en milieu risqué et dispensent 
+l’homme d’une exposition inutile. Le risque sur l’homme est par ailleurs un facteur 
+limitatif important des options d’intervention du décideur et donc de sa liberté d’action ; 
+b. 
+les systèmes automatisés permettent la poursuite de l’action en cas de perte de liaison 
+et donc apportent un niveau de résilience supplémentaire ; 
+c. 
+les systèmes automatisés permettent également d’effectuer des actions furtives dans 
+la profondeur ou dans des milieux nécessitant une discrétion, c’est-à-dire l’absence 
+d’émissions électromagnétiques de communication. 
+206. 
+Enjeux sur l’efficience des systèmes des forces armées: 
+a. 
+accroissement des effets de masse en complément de l’action humaine ; 
+b. 
+les systèmes automatisés peuvent accroître la persistance ou la permanence des 
+actions de surveillance, de détection, de reconnaissance et d’identification et la 
+capacité à durer lors de déploiements ; 
+c. 
+l’intelligence artificielle peut apporter aux armées la puissance de l’analyse, la capacité 
+à optimiser, et la réactivité indispensables à la supériorité militaire ;
+
+[Page 17 / 36 | chars: 3409]
+--------------------------------------------------------------------------------
+
+17 
+d. 
+l’intelligence artificielle, en tant que simple logiciel, est réplicable : on peut la dupliquer 
+autant de fois que possible dans des systèmes existants. Pour certaines applications, 
+elle est plus rapide, plus réactive et plus précise que l’homme ; 
+e. 
+dans un monde où la vitesse est devenue un facteur clé, la possibilité pour 
+l’intelligence artificielle d’analyser et de proposer une réponse presque instantanément 
+est un atout stratégique décisif ;  
+f. 
+de même, la capacité de réaction instantanée des systèmes automatisés et de 
+l’intelligence artificielle combinés tend à devenir indispensable aux fonctions 
+d’autoprotection des plates-formes aériennes, navales ainsi que, dans l’avenir, des 
+plates-formes et bases terrestres ; 
+g. 
+les adversaires des forces armées françaises, que ce soit, dans des conflits 
+asymétriques liés au terrorisme, ou dans des scénarios d’affrontement de puissances, 
+disposent ou disposeront de vecteurs automatisés armés susceptibles de leur conférer 
+un avantage opérationnel. Les options alternatives aux systèmes automatisés armés, 
+apportant les mêmes niveaux de persistance, d’endurance et de fulgurance, ne sont 
+pour l’instant pas identifiées. Si la France n’est pas en mesure d’employer ces mêmes 
+capacités pour obtenir les avantages opérationnels décrits précédemment, elle risque 
+un déclassement opérationnel majeur.  
+h. 
+les systèmes automatisés peuvent constituer une réponse face à un ennemi utilisant 
+des modes d’actions imprévus ou aux systèmes contre lesquels les moyens 
+conventionnels ont une efficacité limitée (mines furtives, armes à énergie dirigée, 
+robots armés…). Ils peuvent être employés également dans des engagements à 
+caractère défensif plus marqué, dans le cas d’une défense de zone contre des 
+essaims de drones par exemple. 
+207. 
+Enjeux sur l’interopérabilité : 
+a. 
+les principaux alliés (États-Unis, Royaume-Uni, etc.) disposent de systèmes téléopérés 
+armés, essentiellement aériens. Ces systèmes sont déjà employés en opération, 
+principalement par les États-Unis. Les forces armées françaises pourraient se 
+retrouver dans une problématique d’interopérabilité si elles n’étaient pas en mesure de 
+suivre l’accélération du tempo opérationnel apportée par les systèmes automatisés 
+(boucle courte observation-orientation-décision-action).  
+208. 
+Les risques opérationnels sont : 
+a. 
+risques liés à :  
+(1) 
+des attaques cyber pouvant entraîner le piratage, la prise de contrôle la 
+reprogrammation, etc., 
+(2) 
+du brouillage limitant ou interdisant l’emploi ou la supervision ; 
+b. 
+risque de mauvaises programmations du système (qualité insuffisante des données 
+d’apprentissage, incomplétude ou mauvaises bases de menaces et de tactiques, etc.) ; 
+c. 
+risque que l’opérateur et/ou le commandement ne comprennent pas suffisamment le 
+fonctionnement du système et l’emploient de façon erronée, ce qui peut induire un 
+manque de confiance dans le système ; 
+d. 
+risque que les utilisateurs du système finissent par avoir le sentiment d’un système 
+(intelligence artificielle) infaillible et perdent tout sens critique, alors même que : 
+(1) 
+les algorithmes d’intelligence artificielle peuvent ne pas être adaptés à un 
+scénario opérationnel et à des menaces non prévus (effet de surprise par 
+exemple). Dans ces conditions, les résultats obtenus peuvent ne pas 
+correspondre à la situation opérationnelle réelle,
+
+[Page 18 / 36 | chars: 3605]
+--------------------------------------------------------------------------------
+
+18 
+(2) 
+les risques de leurrage de l’intelligence artificielle existent, tout comme 
+l’homme peut également être leurré. 
+209. 
+On notera que ces risques ne sont spécifiques ni à l’IA ni aux systèmes automatisés et que la 
+place de l’homme, nécessairement formé et entraîné, dans l’emploi de ces systèmes doit être 
+clairement identifiée. 
+Section III – Enjeux politiques et industriels (souveraineté et maîtrise 
+industrielle) 
+210. 
+Certains pays (États-Unis, Chine, etc.) ont des feuilles de route extrêmement volontaristes en 
+matière de systèmes automatisés et d’intelligence artificielle dans les domaines civil et militaire. 
+Le caractère dual de ces technologies associé aux perspectives d’applications en fait un enjeu 
+industriel majeur. Le volontarisme de la Corée du Sud et du Japon, par exemple, est lié à la 
+puissance de leur industrie robotique civile. 
+211. 
+Compte tenu des avantages opérationnels majeurs anticipés pour ces systèmes, la prochaine 
+décennie verra le développement des systèmes automatisés et des technologies 
+d’intelligence artificielle dans la plupart des pays, alliés ou non, ainsi qu’au sein des 
+organisations non étatiques (terroristes), et ce, sans possibilité d’interdiction légale et sans 
+alternative crédible. Les technologies de l’automatisme, de l’intelligence artificielle et de 
+l’autonomisation sont intrinsèquement duales, proliférantes et pourront difficilement, 
+contrairement au nucléaire, faire l’objet d’un contrôle ou d’une limitation quant à leur utilisation. 
+212. 
+Dans tous les domaines militaires et opérationnels, commandement inclus, le déploiement de 
+systèmes automatisés est perçu comme inéluctable. Les robots, matériels ou immatériels, 
+constituent d’ailleurs l’une des bases du 3ème « offset »14 américain après le nucléaire des 
+années 40 et l’informatique des années 70. Leur importance est considérée comme 
+déterminante par nos Alliés. 
+213. 
+La maîtrise industrielle et l’emploi opérationnel de systèmes ou fonctions automatisés pourront 
+se révéler des éléments de crédibilité politique, de souveraineté et d’efficience de l’action 
+militaire, et donc des éléments d’influence et de prévention des conflits. 
+214. 
+Les systèmes automatisés constituent un vecteur de souveraineté et nécessitent d’être traités, 
+industriellement, en tant que tels. 
+Section IV – Enjeux juridiques et sociétaux 
+215. 
+De façon générale, les enjeux juridiques et sociétaux des systèmes automatisés sont liés à la 
+construction de la confiance dans l’emploi de l’intelligence artificielle.  
+216. 
+La question de la personnalité juridique qui pourrait être accordée aux « robots » fait débat. Elle 
+pose plus précisément le sujet de la responsabilité de l’utilisation de ce type de systèmes, 
+surtout si les évolutions techniques aboutissent à une forme d’automatisation proche de 
+l’autonomie. Cette question juridique centrale pour d’éventuels emplois opérationnels devra être 
+étudiée et replacée dans un contexte international (Union Européenne, ONU). 
+217. 
+Les enjeux juridiques concernent le respect du droit et la place et la responsabilité de l’homme, 
+de la spécification à l’utilisation, des futurs systèmes automatisés. 
+a. 
+à ce jour, il est cependant peu probable qu’une faute lourde dans l’emploi ou dans la 
+conception d’un système ne fasse pas l’objet d’une enquête et d’une recherche de 
+responsabilité ; 
+b. 
+au regard de la problématique de responsabilité, une future doctrine devra clarifier les 
+points suivants : 
+                                                 
+ 
+14 Avantage opérationnel perdurant sur plusieurs décennies.
+
+[Page 19 / 36 | chars: 3160]
+--------------------------------------------------------------------------------
+
+19 
+(1) 
+place et responsabilité (juridique) des organisations et de l’homme dans le 
+système/la fonction lors des phases de spécification, conception, qualification, 
+certification, emploi et engagement opérationnels, 
+(2) 
+rôle de l’entraînement des systèmes automatisés pour l’amélioration des 
+performances et la réduction des risques, 
+(3) 
+responsabilités des forces quand elles fournissent des données de 
+programmation et des règles d’emploi et d’engagement : 
+a) 
+création, validation et certification des bases de données, de règles 
+d’apprentissage et de test ; 
+b) 
+contrôle (retour d’expérience) des règles d’emploi et d’engagement, 
+(4) 
+responsabilités de certains opérateurs, éventuellement étrangers, quand ils 
+fournissent des bases d’apprentissage, voire des algorithmes d’IA (cas des 
+systèmes à reconnaissance de forme) ; 
+(5) 
+formation, habilitation et/ou accréditation des personnels intervenant dans 
+l’emploi des systèmes autonomes, ou en interactions. 
+218. 
+Les enjeux sociétaux concernent l’éthique et l’acceptation des nouvelles technologies du 
+numérique par la société. Ces enjeux nécessitent d’identifier les qualités et les biais de 
+l’intelligence artificielle. 
+a. 
+L’acceptation va nécessiter une démarche d’évaluation critique puis  d’explication 
+propre à rationaliser les problématiques et les débats, puis l’illustration sur des cas 
+d’emploi opérationnel de l’apport opérationnel de ces technologies. 
+Afin d’être accepté par la société et par l’institution militaire, un système automatisé 
+doit donc atteindre, dans son spectre de missions, une probabilité d’effets inappropriés 
+ou de dommages collatéraux inférieure aux systèmes pilotés tout en démontrant une 
+efficience supérieure. 
+De même, la mise en œuvre des systèmes automatisés ne devra pas s’accompagner 
+d’une augmentation du risque juridique et leur emploi devra être conforme à une 
+doctrine nationale, elle-même conforme au droit international. 
+b. 
+Le travail sur l’éthique devra permettre de passer d’une éthique générale à une éthique 
+appliquée et opératoire. 
+L’éthique générale consiste en un discours méta-éthique sur le sens des actions par 
+rapport aux notions de bien et de mal et à un système de valeurs.  
+L’intelligence artificielle ne peut cependant se contenter de principes généraux 
+éthiques : une éthique appliquée, c’est-à-dire une éthique de responsabilité permettant 
+de choisir effectivement entre plusieurs options, doit donc être élaborée. Cette éthique 
+devra être compréhensible, neutre, transparente et acceptable.  
+L’éthique doit également être opératoire, c’est-à-dire qu’elle doit pouvoir être décrite 
+sous forme de règles et d’algorithmes programmables. 
+L’éthique appliquée peut se décomposer en trois catégories ou phases distinctes de 
+par leurs implications : 
+(1) 
+l’éthique de conception : il s’agit de s’assurer dès la conception, qu’un 
+certain nombre de règles et de précautions seront prises, notamment celles 
+relatives au respect du droit,  
+(2) 
+l’éthique d’emploi : il s’agit de l’usage qu’un utilisateur fait des systèmes 
+automatisés et de l’IA. Cet usage est intrinsèquement lié à l’utilisateur final.
+
+[Page 20 / 36 | chars: 1168]
+--------------------------------------------------------------------------------
+
+20 
+Un emploi non éthique d’une technologie ne doit pas rendre cette dernière 
+non-éthique mais pose la question de la responsabilité morale et juridique de 
+l’utilisateur en cas de dysfonctionnement, 
+(3) 
+l’éthique de discernement15 : cette sous-catégorie de l’éthique traite de la 
+décision en situation et concerne plus particulièrement des systèmes où l’IA 
+devra faire preuve d’un minimum de discernement dans le cadre de dilemmes 
+portant sur la sécurité des personnes et des biens et faire le choix du moindre 
+mal.  
+L’identification des règles d’éthique d’emploi, de conception et de discernement devra se faire 
+dans le cadre de groupes de travail ou de comités d’éthique appliquée particuliers. 
+                                                 
+ 
+15 L’éthique de discernement (ou de décision) couvre les dilemmes tels que formalisés et illustrés dans la littérature 
+scientifique par le dilemme du tramway et ses variantes. Ce type de dilemme, issu principalement d’imprévus, de situations 
+accidentelles, nécessite la formalisation d’une catégorie ou phase particulière d’éthique appliquée, distincte de l’éthique de 
+conception et de l’éthique d’emploi.
+
+[Page 21 / 36 | chars: 3588]
+--------------------------------------------------------------------------------
+
+21 
+ 
+Chapitre 3 
+Contexte et débats internationaux 
+ 
+Section I – Contexte  
+301. 
+Les systèmes, automatisés ou non, létaux ou non, entrent dans le cadre du droit international, 
+notamment le droit des conflits armés (droit de recours à la force, droit humanitaire et droit de la 
+maîtrise des armements, dont l’article 36 sur les nouveaux armements mentionnés 
+précédemment), et droits de l’homme (liste non exhaustive)... Ceux-ci n’interdisent ni les 
+systèmes automatisés ni les systèmes létaux, mais peuvent limiter leur emploi.   
+302. 
+Les traités et accords liés au droit des conflits armés ratifiés16 à ce jour par la France 
+impliquent17 que :  
+a. 
+le commandement assume une responsabilité générale, tant dans le domaine du 
+contrôle de l'application et de la répression des infractions, qu’au niveau de la diffusion 
+générale des conventions de Genève ; 
+b. 
+le commandement veille par ailleurs à donner des ordres et des instructions propres à 
+en assurer le respect et en surveille l'exécution ; 
+c. 
+outre les sanctions disciplinaires qu’elles peuvent entraîner, les non-respects des 
+règles du droit des conflits armés sont également susceptibles d’être pénalement 
+sanctionnées. Les personnes incriminées peuvent être poursuivies devant les 
+tribunaux judiciaires français, mais aussi, dans certaines circonstances, devant les 
+juridictions pénales internationales qui seraient compétentes. 
+303. 
+Les trois principes fondamentaux du droit des conflits armés – précaution, discrimination et 
+proportionnalité - et l'interdiction des maux superflus et inutiles sont le résultat de la recherche 
+d'un équilibre entre la nécessité militaire et le principe de l'humanité et s’appliquent à l’emploi 
+des systèmes automatisés. 
+304. 
+Les systèmes automatisés sont soumis aux droits et réglementations18 spécifiques applicables 
+à leurs plates-formes, environnements, fonctions, missions et genres. Des cadres législatifs 
+particuliers peuvent également exister19. 
+305. 
+Les systèmes automatisés font l’objet tout au long de leur cycle de vie, comme tous les 
+matériels militaires, de processus rigoureux d’ingénierie comprenant la spécification, la 
+conception, la réalisation, le contrôle de conformité et, pour les systèmes les plus critiques, la 
+certification. C’est par la maîtrise de l’ensemble des processus de développement, dont son 
+contrôle, de l’emploi et de l’engagement que l’on doit approcher les systèmes automatisés, et 
+non par la restriction de principe. Dans ce contexte, l’article 36 sur l’obligation de contrôle de 
+licéité des nouveaux armements s’applique pleinement. 
+                                                 
+ 
+16 L’ensemble des traités et accords applicables figure dans le bulletin officiel des armées en édition méthodique. 
+17 Manuel du droit des conflits armés publié par le Secrétariat général pour l’administration du ministère des armées. 
+18  Bulletin officiel des armées en édition méthodique 101. 
+19 Pour les « drones » maritimes, un premier cas législatif a été défini dans le cadre de la loi « Leroy ». Elle fait rentrer la 
+question du statut juridique des drones maritimes dans le droit : 
+ 
+« Les drones de surface ou sous-marins, commandés à partir d’un navire battant pavillon français, doivent porter des 
+marques extérieures d’identification » ; 
+ 
+« Les dommages éventuellement causés par ces drones sont « réputés être en relation directe avec la navigation ou 
+l’utilisation du navire si l’engin a été embarqué sur le navire ou remorqué par celui-ci » ; 
+ 
+« Le commandant du navire est responsable des dommages. »
+
+[Page 22 / 36 | chars: 3708]
+--------------------------------------------------------------------------------
+
+22 
+Section II – Débats internationaux  
+306. 
+Dans les débats internationaux portant sur le droit des conflits armés, les questions concernant 
+les systèmes autonomes se sont initialement focalisées sur les SALA, suite à un rapport de 
+2012 d’une ONG.  
+307. 
+Lors de la Conférence du désarmement sur certaines armes classiques à Genève, sous l’égide 
+des Nations Unies, la France a opté pour une définition des SALA (système d’armes létal 
+pleinement autonome). Certains pays (Russie, Chine20, etc.), bien que participant aux 
+discussions, n’ont pas de position officielle. Les puissances occidentales, principalement États-
+Unis, France et Royaume-Uni, font par ailleurs également référence à l’application de l’article 
+36 du Protocole additionnel aux Conventions de Genève du 12 août 1949 relatif à la protection 
+des victimes des conflits armés internationaux (Protocole I) adopté à Genève le 8 juin 1977 et 
+entré en vigueur le 7 décembre 1978, sur l’obligation de contrôle de licéité des nouveaux 
+armements.  
+« Article 36 — Armes nouvelles 
+Dans l’étude, la mise au point, l’acquisition ou l’adoption d’une nouvelle arme, de nouveaux 
+moyens ou d’une nouvelle méthode de guerre, une Haute Partie contractante a l’obligation 
+de déterminer si l’emploi en serait interdit, dans certaines circonstances ou en toutes 
+circonstances, par les dispositions du présent Protocole ou par toute autre règle du droit 
+international applicable à cette Haute Partie contractante. » 
+308. 
+Au niveau de la Conférence sur le désarmement, un encadrement international des SALA 
+pourrait s’avérer impossible compte-tenu : 
+a. 
+du progrès en cours des technologies, principalement civiles et accessoirement 
+militaires, permettant de déléguer les tâches dangereuses, difficiles ou ingrates, besoin 
+qui pousse inéluctablement à l’autonomisation des systèmes et rend quasiment 
+impossible la non-prolifération de systèmes d’armes automatisés ou autonomisés 
+militaires, déjà constatée par ailleurs ; 
+b. 
+de l’emploi déjà avéré de ces technologies par des alliés, des forces adverses, non 
+régulières (mouvements terroristes, révolutionnaires ou séparatistes) et/ou régulières 
+mais non signataires ou non respectueuses d’un accord international ; 
+c. 
+d’une ratification très improbable car certains pays refuseront de signer un accord qui 
+les priverait d’un avantage opérationnel et technologique acquis. 
+309. 
+Aucun traité, aucun accord, aucune réglementation n’interdit à ce jour ni l’acquisition/adoption, 
+ni l’emploi de systèmes automatisés, létaux ou non. 
+310. 
+Comme pour tout système, la responsabilité des maîtres d’ouvrage et des maîtres d’œuvre 
+(voire de l’utilisateur et de l’autorité d’emploi), pourra être engagée si les processus de 
+développement (et les normes), les processus de validation et les règles d’emploi et 
+d’engagement ne sont pas clairement définis et appliqués.  
+311. 
+De même, conformément à l’article 36, « toute Haute Partie contractante a l’obligation de 
+déterminer si l’emploi en serait interdit, dans certaines circonstances ou en toutes 
+circonstances, par [...toute…] règle du droit international applicable... ».  
+                                                 
+ 
+20 La Chine exporte déjà des drones armés car non signataire du traité MTCR (Missile Technology Export Control Regime ; 
+Régime de contrôle de la technologie des missiles). Ce traité, créé en 1987 par l’Allemagne de l’Ouest, le Canada, la 
+France, l’Italie, le Japon, le Royaume-Uni et les États-Unis, a pour but de limiter la prolifération des armes de destruction 
+massive en contrôlant les transferts de missiles pouvant servir de vecteur pour ces armes. 35 pays y ont souscrit depuis sa 
+création. [
+
+[Page 23 / 36 | chars: 3176]
+--------------------------------------------------------------------------------
+
+23 
+ 
+Chapitre 4 
+Emploi opérationnel 
+ 
+Section I – Emploi opérationnel de l’intelligence artificielle 
+401. 
+La définition des concepts d’emploi opérationnel de l’intelligence artificielle dans les systèmes 
+d’armes est présidée par les effets militaires recherchés en tenant compte des qualités et biais 
+respectifs de l’intelligence humaine et de l’intelligence artificielle.  
+402. 
+Qualités et biais constituent la capacité d’un humain ou d’un système à agir juste, en prenant en 
+compte l’ensemble des informations apprises et accessibles et en identifiant l’action la plus 
+pertinente selon les règles qui ont été fixées. 
+403. 
+Qualités et biais de l’intelligence humaine : 
+a. 
+l’esprit critique permet de s’interroger sur la réalité et la pertinence de résultats ou 
+d’analyses, quelle qu’en soit l’origine, en les remettant volontairement en question. Les 
+résultats ou analyses peuvent être incomplets ou inadaptés à un nouveau contexte 
+opérationnel ; 
+b. 
+l’intuition et l’imagination permettent de mener des expériences par la pensée. 
+L’être humain dispose de facultés d’imagination lui permettant de se projeter dans des 
+mondes alternatifs possibles et d’envisager des solutions innovantes ne répondant, a 
+priori, à aucun raisonnement logique : 
+(1) 
+là où la machine est prisonnière de son contexte d’apprentissage, l’homme 
+dispose de facultés de détachement propices à l’innovation, 
+(2) 
+là où la machine fournira invariablement la même réponse à partir du même 
+apprentissage et de données d’entrée identiques, l’homme fournira en 
+fonction des individus un panel de réponses très variables, éventuellement 
+atypiques, 
+(3) 
+la vision anthropomorphique des systèmes à intelligence artificielle forte, qui 
+leur accorderait la reconnaissance de capacités d’intuition et d’imagination en 
+lieu et place de simples algorithmes, reste pour l’instant très théorique ; 
+c. 
+les biais cognitifs sont des mécanismes qui génèrent des « distorsions » et des 
+« déviations » de la perception, de l’évaluation, de l’interprétation et in fine du 
+jugement. Un codex des biais cognitifs a été établi et recense près de 200 types de 
+biais. L’étude des biais fait l’objet de nombreux travaux dans les sciences cognitives et 
+ne sont pas toujours conscientisés. Ces biais peuvent être atténués par la qualité de la 
+sélection, la rigueur de la formation, l’existence d’un corpus doctrinal, des règles 
+d’emploi et d’engagement clairs et surtout par l’entraînement et la confrontation au réel 
+(apprentissage). Parmi les biais les plus courants et les plus significatifs, on notera :  
+(1) 
+le biais culturel consiste à favoriser inconsciemment des raisonnements ou 
+des croyances en phase avec sa propre culture, 
+(2) 
+le biais de confirmation d’hypothèse consiste à maintenir un point de vue 
+initial sans prendre en compte de nouvelles informations pouvant remettre en 
+question ce point de vue, 
+(3) 
+le biais d’ancrage consiste à accorder plus d’importance aux éléments déjà 
+mémorisés. Ce biais est partagé dans une certaine mesure entre les humains 
+et les machines qui s’appuient sur un nombre fini de données d’apprentissage 
+pour effectuer leurs traitements,
+
+[Page 24 / 36 | chars: 3427]
+--------------------------------------------------------------------------------
+
+24 
+(4) 
+les biais d’apprentissage proviennent d’un apprentissage imparfait ou 
+incomplet. L’humain a néanmoins la capacité d’apprentissage autonome, 
+d’intuition et d’initiative permettant de corriger autant que faire se peut ses 
+biais d’apprentissage. Le « coût » de son apprentissage autonome peut être 
+élevé, sans garantie de succès, 
+(5) 
+les biais émotionnels sont le propre de l’humain. Ils consistent en une 
+distorsion de la connaissance et de la décision en raison de facteurs 
+émotionnels. Ils peuvent être déclenchés accidentellement, et sont par 
+essence peu accessibles à la raison, 
+(6) 
+l’inhibition (sidération ou incapacité à traiter les informations et à agir) se 
+caractérise pour un humain par une paralysie, une saturation ou une limitation 
+intellectuelle dans un environnement non planifié, dégradé, stressant ou non 
+appris, 
+(7) 
+les biais d’usure, très prégnants chez l’humain, proviennent d’une lassitude, 
+d’une résignation, voire d’une croyance que la machine, ou l’organisation 
+d’appartenance, 
+a 
+« toujours » 
+raison 
+ou 
+est 
+inaccessible 
+à 
+la 
+compréhension ; 
+d. 
+Les différents biais humains ont tendance à s’accentuer en situation de fatigue, de 
+stress et peuvent évoluer dans le temps.  
+404. 
+Qualités et biais de l’intelligence artificielle : 
+a. 
+les mécanismes d’intelligence artificielle se caractérisent par une puissante capacité 
+de traitement des données dépassant de plusieurs ordres de grandeurs les 
+capacités humaines. Dès lors que les données sont accessibles, la vitesse de 
+traitement est essentiellement limitée par la puissance de calcul21. De plus, la 
+capitalisation des informations et l’apprentissage peuvent être un processus sans fin 
+accroissant en permanence la pertinence des traitements de l’intelligence artificielle ; 
+b. 
+l’intelligence artificielle est insensible à la fatigue et au stress et résistante aux 
+contraintes physiologiques. Les machines alimentées en énergie peuvent 
+fonctionner sans interruption dans des infrastructures adaptées (conditions 
+d’environnement compatibles, dont température et humidité). Par ailleurs, ces 
+machines – sauf programmations particulières – sont insensibles aux pressions 
+hiérarchiques, à la pression du temps ou au stress de combat ; 
+c. 
+les biais cognitifs touchent les humains, mais peuvent également être présents dans 
+les traitements de données réalisés par les systèmes d’intelligence artificielle, puisque 
+validés par les humains. Le reliquat des biais cognitifs humains dans les algorithmes 
+d’intelligence artificielle, malheureusement difficilement quantifiable, pourrait se révéler 
+être un paramètre d’intérêt dans l’appréciation de la qualité d’un algorithme ; 
+d. 
+les biais d’apprentissage de l’IA proviennent de l’incomplétude ou de l’imperfection 
+des bases d’apprentissage, que ce soit dans les données d’entrée ou dans celles de 
+sortie : 
+(1) 
+l’apprentissage de l’IA est un processus incrémental, non fini, et non régressif 
+puisqu’il n’y a ni « oubli » ni « usure », 
+(2) 
+la complétude des bases d’apprentissage est un élément indispensable à la 
+performance 
+de 
+l’intelligence 
+artificielle. 
+Un 
+oubli dans 
+une 
+base 
+d’apprentissage pourra se traduire par des biais de fonctionnement, voire des 
+accidents ; 
+                                                 
+ 
+21 Le développement d’ordinateurs quantiques devrait permettre d’obtenir des gains spectaculaires dans ce domaine.
+
+[Page 25 / 36 | chars: 2882]
+--------------------------------------------------------------------------------
+
+25 
+e. 
+l’inhibition de l’IA se caractérise par une paralysie, une saturation ou une limitation de 
+l’IA dans un environnement non planifié, dégradé ou non appris. Le système peut alors 
+être en situation de blocage, ne trouvant pas de stratégie de sortie à une situation 
+donnée. Il s’agit d’une incapacité à agir. 
+Contrairement à l’humain, l’inhibition de l’IA ne provient pas des biais émotionnels, 
+mais des biais d’apprentissage et de l’absence d’intuition et d’imagination, induisant 
+une incapacité à prendre des initiatives et à imaginer des solutions non apprises ; 
+f. 
+les bugs informatiques : bien qu’il existe des techniques pour limiter les erreurs, le 
+système sera confronté à des bugs, comme tout système informatique. 
+405. 
+L’intelligence collective désigne les capacités cognitives d’une communauté résultant des 
+interactions multiples entre ses membres ou agents et des règles simples appliquées à chacun 
+des membres de la communauté. Cette intelligence collective peut constituer une intelligence 
+répartie. 
+406. 
+Les formes d’intelligence collective sont très diverses et peuvent être plus ou moins 
+sophistiquées : les sociétés humaines se distinguent en la matière des meutes de loups, qui 
+elles-mêmes différent des nuées d’étourneaux ou des essaims d’abeilles. 
+407. 
+Les caractéristiques de l’intelligence collective sont : 
+a. 
+une information locale et limitée de chaque membre ; 
+b. 
+un ensemble de règles (a priori simples) régissant les relations entre-membres et les 
+relations avec l’environnement ; 
+c. 
+des interactions multiples avec les autres membres ; 
+d. 
+une structure supérieure à l’individu où chaque membre trouve un avantage à 
+collaborer et où sa propre performance au sein du groupe est meilleure que s’il était 
+isolé. 
+408. 
+L’intelligence collective s’applique au monde biologique, ainsi qu’au monde cybernétique et au 
+monde des systèmes automatisés et autonomes. 
+409. 
+L’humain et l’intelligence artificielle : 
+a. 
+de manière générale, l’humain tend à exiger l’infaillibilité des systèmes qu’il conçoit, au 
+lieu d’une faillibilité moindre ou égale à celle des hommes ; 
+b. 
+pour certains, l’intelligence artificielle concurrence l’intelligence humaine, y compris en 
+termes d’emploi, et constitue donc une menace potentielle ; 
+c. 
+l’acceptation ou le refus de la faillibilité des intelligences humaine et artificielle et de 
+leur complémentarité est au cœur du débat de l’autonomisation des systèmes ; 
+d. 
+à ce jour, il n’existe aucun système conçu par l’homme où la faillibilité du système n’a 
+pas été explicitement ou implicitement acceptée et, pour les systèmes les plus 
+critiques (cas de l’aviation ou du nucléaire, etc.), règlementairement suivie et 
+encadrée. Indépendamment du fait que l’efficience de ces systèmes est parfois 
+inaccessible à l’humain, leur fiabilité est très nettement supérieure à l’humain ;
+
+[Page 26 / 36 | chars: 3437]
+--------------------------------------------------------------------------------
+
+26 
+e. 
+l’intelligence humaine semble plus adaptée à l’ « outside-the-box », c’est-à-dire aux 
+domaines de l’innovation et des ruptures, tandis que l’intelligence artificielle semble 
+(beaucoup) plus performante sur l’« in-the-box », c’est-à-dire adaptée à la capacité 
+d’effectuer des opérations répétitives, exigeant de la puissance de calcul, de la 
+réactivité et surtout de la répétitivité (déterminisme) afin d’apporter fiabilité et 
+prévisibilité des emplois et engagements : 
+(1) 
+au regard des différents types de biais de l’IA et de l’intelligence humaine, tout 
+laisse penser qu’une intelligence artificielle supervisée ou semi-autonome, 
+libérée des biais émotionnels, de certains biais cognitifs, des biais d’usure, 
+fonctionnant dans un domaine borné et donc bien « appris », a le potentiel 
+d’une plus grande performance opérationnelle ; 
+(2) 
+au lieu de mettre en concurrence les intelligences humaine et artificielle, il 
+conviendrait de développer leur complémentarité chacune apportant ses 
+domaines d’excellence, l’alliance des deux pouvant être garant d’une 
+performance encore meilleure que chacune prise séparément.  
+Les six emplois de l’intelligence artificielle 
+410. 
+Aide à la compréhension et à l’apprentissage : du fait de la capitalisation des données et de 
+la puissance des traitements informatiques, un algorithme d’IA a la capacité de rapprocher un 
+événement actuel d’un événement passé, et donc de proposer à l’homme des éléments de 
+compréhension d’une situation : 
+Exemple 1 : 
+l’IA peut proposer au médecin un diagnostic médical en corrélant des 
+symptômes et en les rapprochant d’études ou de recherches effectuées par 
+ailleurs ; 
+Exemple 2 : 
+l’IA peut traiter la parole et permettre une retranscription automatique, et/ou une 
+traduction en temps réel ; 
+Exemple 3 : 
+dans le domaine cyber, la connaissance de l’ensemble des virus passés peut 
+permettre de comprendre les comportements de nouveaux virus et de les 
+détecter. 
+411. 
+Aide à la préparation opérationnelle : en matière de préparation opérationnelle, l’IA peut 
+contribuer à la formation et à l’entraînement, par exemple en simulant avec des automates les 
+subordonnés et les ennemis de l’audience entraînée. 
+412. 
+Aide à l’optimisation : du fait de la capitalisation des données et de la puissance des 
+traitements informatiques, l’IA peut proposer des solutions optimisées :  
+Exemple : 
+en fonction de nombreux paramètres (météorologiques, carburant disponible, 
+plan de vol des autres aéronefs, plan de déroutement, etc.) et des contraintes 
+règlementaires, l’IA permet d’optimiser des plans de vol aéronautique. Les 
+mêmes optimisations peuvent se faire dans le domaine terrestre. 
+413. 
+Aide à la décision : l’IA a la capacité de jouer différents scénarios et de proposer à l’homme 
+différentes options. En fonction de ses qualités propres, il pourra soit retenir l’un des scénarios, 
+soit modifier des hypothèses, et éventuellement inventer un nouveau scénario : 
+Exemple 1 : 
+l’IA peut proposer au médecin différentes approches thérapeutiques et 
+différents cocktails médicamenteux. Chaque solution peut être adossée à des 
+probabilités de succès et de risques pour le patient ; 
+Exemple 2 : 
+l’IA peut proposer différentes tactiques de leurrage des missiles anti-navire. 
+L’un des critères d’appréciation de la validité d’une tactique, en plus de son 
+efficacité, pourrait être sa robustesse aux variations des scénarios ;
+
+[Page 27 / 36 | chars: 3169]
+--------------------------------------------------------------------------------
+
+27 
+Exemple 3 : 
+dans le domaine juridique, les systèmes d’IA en cours de développement ou 
+d’expérimentation devraient pouvoir bâtir automatiquement, en fonction de 
+l’ensemble des lois et des jurisprudences, des décisions de justice avec 
+l’exposé des motifs et les dispositions en découlant. L’humain se contentant 
+d’en valider le contenu. 
+414. 
+Aide à l’anticipation : l’IA, en tant qu’agent de surveillance d’un système, peut lancer de façon 
+préventive des processus d’alarmes ou l’activation de processus de sécurité et de prévention : 
+Exemple : 
+l’IA peut détecter des événements (signaux faibles) précurseurs potentiels 
+d’une panne (d’un) système et proposer des actions de maintenance 
+préventive. 
+415. 
+Aide à l’action : une fois l’action décidée, l’IA pourra accompagner l’homme dans tous les 
+volets de sa mission. Simultanément, l’IA le soulagera des tâches ingrates et à faible valeur 
+ajoutée, lui apportera des éléments de compréhension, d’optimisation et de décision, en temps 
+réel : 
+Exemple : 
+l’IA peut assister un pilote d’aéronef dans des phases particulières 
+d’atterrissage ou d’appontage. Dans ce cas, l’IA est en mode supervisé : le 
+pilote peut reprendre la main à tout moment. 
+416. 
+Substitution à l’homme dans l’action : dans un certain nombre de domaines où la réactivité 
+est primordiale (autoprotection des plates-formes, domaine cyber, domaine informationnel, 
+etc.), dans les domaines où la quantité d’informations à traiter et les traitements à effectuer sont 
+inaccessibles à l’homme, dans les milieux où l’homme ne peut être présent, les algorithmes se 
+substituent déjà à l’homme : 
+Exemple 1 : 
+l’IA, une fois activée, déclenche seule les systèmes d’autoprotection de 
+certaines plates-formes (frégates, etc.) en fonction des menaces rencontrées ; 
+Exemple 2 : 
+les sondes martiennes (et autres « robots » martiens) sont capables de se 
+mouvoir seules et constituent des systèmes semi-autonomes (pour mémoire 
+un des premiers développements de l’intelligence artificielle a été pour les 
+sondes spatiales qui devaient faire de nombreuses analyses moléculaires et 
+chimiques et devaient « optimiser » seules leurs stratégies d’analyse en 
+s’affranchissant des délais de communication). 
+417. 
+La substitution à l’homme dans l’apprentissage (apprentissage pleinement autonome) n’a, à 
+ce jour, pas d’emploi opérationnel identifié. Le principe même de l’apprentissage pleinement 
+autonome pose des questions philosophiques et éthiques pour l’instant non résolues. 
+Section II – Emploi des systèmes automatisés 
+Complémentarité de l’homme et des systèmes automatisés 
+418. 
+Les différentes classes de systèmes automatisés sans équipage à bord disposent d’atouts et 
+de contraintes d’emplois opérationnels propres et répondent à des besoins particuliers sur 
+le champ de bataille. L’emploi de ces systèmes s’avère particulièrement utile dans des 
+scénarios où l’homme est fortement contraint.  
+Emploi des systèmes supervisés 
+419. 
+Des opérateurs préparent la mission du système et en supervisent en permanence le 
+déroulement. Un opérateur intervient en cas d’incident, d’anomalie ou de besoin de modification 
+de la mission.
+
+[Page 28 / 36 | chars: 3293]
+--------------------------------------------------------------------------------
+
+28 
+420. 
+En cas de panne ou de perte de liaison entre les opérateurs et le système, des modes 
+dégradés semi-autonomes peuvent s’activer (retour automatique au terrain de départ pour les 
+drones aériens, passage en mode survie24 pour les satellites, etc.). 
+421. 
+Le niveau d’automatisation d’un système supervisé permet d’intégrer des flux de données 
+techniques plus importants (par exemple, prise en compte automatique des informations 
+issues des capteurs pour adapter la navigation, etc.). À partir d’un certain seuil de volume de 
+données reçues, un équipage humain « écrête » les données reçues en faisant des choix de 
+priorités pour éviter un effet de saturation. 
+Emploi des systèmes semi-autonomes 
+422. 
+Les systèmes semi-autonomes se distinguent des systèmes supervisés par un niveau 
+d’automatisation tel que l’envoi de consignes n’est plus indispensable au déroulement de la 
+mission.  
+423. 
+Ces systèmes disposent d’une préparation de mission adaptée à l’emploi opérationnel sans 
+nécessiter de supervision en conduite. 
+424. 
+Afin de couvrir les aléas inévitables en cours de mission, la préparation de mission doit, dans la 
+mesure du possible, être étendue au traitement des cas non conformes. 
+425. 
+Ces systèmes se distinguent des systèmes pleinement autonomes par le maintien du 
+positionnement de l’homme dans l’emploi du système. Ce positionnement permet d’assurer 
+le contrôle du système dans les limites spatiales, temporelles et fonctionnelles de l’emploi 
+opérationnel défini par le commandement.  
+Emploi opérationnel des systèmes pleinement autonomes 
+426. 
+Les systèmes pleinement autonomes se distinguent des systèmes précédents par une absence 
+de lien de subordination, c’est-à-dire de lien de contrôle et de désactivation. 
+427. 
+Les systèmes pleinement autonomes peuvent nécessiter une capacité d’auto-apprentissage et 
+de reprogrammation autonome en cours de mission. 
+428. 
+Une capacité d’auto-apprentissage non supervisée présente des avantages pour prendre en 
+compte des situations imprévues de l’environnement opérationnel. Elle comporte également 
+des risques d’évolutions non maîtrisées du comportement du système qui peuvent s’avérer 
+inadaptées ou dangereuses dans un contexte opérationnel.  
+429. 
+Pour les systèmes et fonctions ayant des impacts possibles sur la sécurité des personnes et 
+des biens, les aléas d’emploi de tels systèmes sont incompatibles avec l’exercice du 
+commandement : l’engagement de responsabilité d’une autorité d’emploi nécessite une 
+exécution des ordres conforme à la mission donnée. Un comportement évolutif du système 
+en cours de mission sans contrôle humain n’est pas envisageable dans le cadre actuel d’emploi 
+des forces armées.  
+430. 
+Pour les systèmes et fonctions n’ayant aucun impact sur la sécurité des personnes et des biens 
+(fonctions de surveillance par exemple), un emploi opérationnel est conceptuellement possible 
+sous réserve de résoudre la question de la qualification et de la maîtrise des performances 
+dans le temps d’une telle fonction. 
+                                                 
+ 
+24 En mode survie, un satellite adopte une attitude lui permettant de maintenir l’exposition de ses panneaux solaires et de ses 
+antennes de réception radio afin de permettre une reprise de contrôle.
+
+[Page 29 / 36 | chars: 3127]
+--------------------------------------------------------------------------------
+
+29 
+431. 
+De manière générale, l’emploi opérationnel des systèmes pleinement autonomes, c’est-à-dire 
+des systèmes n’ayant aucun lien de subordination avec l’humain, capables d’apprentissage 
+autonome et de reprogrammation autonome, pose un certain nombre de questions éthiques, 
+juridiques et opérationnelles non résolues à ce jour.  
+Cas particulier des systèmes multi-systèmes (dont essaims, meutes…) 
+432. 
+La mise en réseau des plates-formes est une orientation opérationnelle majeure permettant 
+entre autre d’accroître l’efficience des systèmes.  
+433. 
+Dans ce cadre, les systèmes automatisés devront également fonctionner en réseau, y compris 
+avec des systèmes habités.  
+434. 
+Un essaim est un ensemble composé de plusieurs membres (éventuellement plusieurs milliers) 
+et, dans le cas des applications de défense, de plates-formes inhabitées ou d’agents 
+cybernétiques : 
+a. 
+les essaims constituent une rupture dans les concepts techniques et opérationnels où 
+la tendance a toujours été à la baisse quantitative et la hausse qualitative, et donc au 
+besoin de systèmes de plus en plus multifonctions, à haute valeur ajoutée et par 
+conséquent à protéger par des systèmes d’autoprotection ; 
+b. 
+les membres des essaims sont des éléments dont on a fait le choix du bas coût et de 
+l’acceptation de l’attrition : il s’agit d’éléments proches du « consommable » ; 
+c. 
+étant donné le nombre de plates-formes et la nécessaire coordination inter-membres 
+(pour l’évitement, la synchronisation, etc.), les membres de l’essaim ne peuvent être ni 
+téléopérés, ni supervisés individuellement ; 
+d. 
+la mission est donnée : 
+(1) 
+soit à l’essaim, qui devient de facto l’objet considéré : l’essaim est alors 
+téléopéré, supervisé ou semi-autonome (« intelligence collective »), 
+(2) 
+soit à l’un des membres de l’essaim qui prendra le « leadership » pour la 
+coordination de l’ensemble, l’optimisation des ressources et la gestion de 
+l’attrition ; 
+e. 
+les essaims devront pouvoir se reconfigurer, se scinder et se reformer au gré des 
+missions. 
+435. 
+Techniquement, le comportement des essaims prend sa genèse dans l’intelligence distribuée à 
+chaque membre de l’essaim qui forme alors une intelligence collective. 
+Collaboration homme-machine (ou cobotique) 
+436. 
+Appelé « man-machine teaming » dans le monde anglo-saxon, ce concept d’emploi 
+opérationnel collaboratif, qui met en complément l’homme et la machine, chacun étant utilisé au 
+mieux de ses qualités, permet d’identifier la place de l’homme dans la boucle de l’emploi de ces 
+technologies, sans pour autant que l’homme ait nécessairement à assurer une supervision 
+permanente et temps réel de l’activité de la machine à qui il a confié une mission. 
+437. 
+La collaboration homme-machine est un champ d’étude à part entière, de récents accidents 
+dans le domaine aéronautique ayant montré que certains accidents ont été précédés 
+d’incompréhensions du comportement de la machine par l’homme, et inversement. 
+438. 
+Une collaboration homme-machine passe nécessairement par le développement d’interfaces 
+homme-machine adaptées au niveau de collaboration voulu.
+
+[Page 30 / 36 | chars: 1452]
+--------------------------------------------------------------------------------
+
+30 
+Section III – Les champs opérationnels applicatifs de l’intelligence 
+artificielle et des systèmes automatisés 
+439. 
+Les technologies de l’intelligence artificielle et des systèmes automatisés sont transverses à 
+l’ensemble des activités opérationnelles et de soutien des Armées. Elles vont donc se retrouver 
+naturellement dans les domaines : 
+a. 
+juridique ; 
+b. 
+médical ; 
+c. 
+contractuel ;  
+d. 
+maintenance ; 
+e. 
+logistique (transport) ; 
+f. 
+surveillance, renseignement ; 
+g. 
+détection, reconnaissance, identification, localisation ; 
+h. 
+navigation et pilotage des plates-formes ; 
+i. 
+préparation et analyse de mission ; 
+j. 
+entraînement ; 
+k. 
+planification et conduite des opérations, dont aide à la décision ; 
+l. 
+conduite de tir ; 
+m. 
+combat débarqué/embarqué, 
+ainsi que d’autres domaines issus des nouveaux usages qu’apportera l’IA. 
+440. 
+Au regard de la transversalité des technologies, il convient : 
+a. 
+de mener, pour chaque champ opérationnel, des réflexions sur l’apport des 
+technologies de l’IA et des systèmes automatisés, et d’accepter que ces ruptures 
+technologiques puissent générer des ruptures d’emploi ou organisationnelles 
+majeures ; 
+b. 
+pour chaque projet de système automatisé, d’analyser la capacité et l’opportunité à 
+pouvoir opérer dans plusieurs champs applicatifs (exemple : un drone à voilure 
+tournante dédié prioritairement à l’observation pourrait également être utilisé en 
+soutien logistique).
+
+[Page 31 / 36 | chars: 3554]
+--------------------------------------------------------------------------------
+
+31 
+ 
+Chapitre 5 
+Réflexions prospectives et recommandations 
+ 
+Section I – Accompagnement du développement de l’automatisation 
+501. 
+Les systèmes et fonctions automatisés associés aux technologies d’intelligence artificielle 
+seront au cœur de la transformation des armées et de la conduite des opérations des 
+décennies à venir. Ces systèmes, fonctions et technologies vont non seulement irriguer 
+l’ensemble des fonctions opérationnelles, techniques et de soutien des armées, mais pourraient 
+également en constituer l’ossature à plus long terme. 
+502. 
+Au regard des développements en cours, principalement dans les domaines civils, des 
+transports et de la médecine, les actions nécessaires à la construction de la confiance sociétale 
+vont être ou ont déjà été lancées (débats sociétaux, sensibilisation, normalisation, 
+enseignement et formation, réflexion éthique…). 
+503. 
+Quand la faillibilité22 de l’IA sera acceptée et quantifiée notamment à travers un démarche de 
+certification des algorithmes les plus critiques, il conviendra de s’assurer que des accidents ne 
+puissent pas remettre en cause les technologies utilisées. Pour ce faire, les responsabilités en 
+cas d’accident devront être clairement identifiables et un processus de correction des 
+anomalies devra être mis en place. 
+504. 
+Pour les armées, l’ampleur et la diversité des travaux sur l’intelligence artificielle font qu’il est 
+impossible d’en cerner toutes les applications ou les limites. Seule une analyse au cas par cas, 
+prenant en compte le droit et les critères d’efficience et d’éthique des armées, permettra 
+d’accompagner l’automatisation des futures applications de défense, en distinguant ce qui 
+relève de la décision d’emploi et ce qui relève de la technologie. 
+505. 
+Afin d’accompagner le déploiement de l’automatisation à base d’IA des systèmes, il est 
+recommandé entre autres de : 
+a. 
+évaluer23 les systèmes à base d’IA sur la base des fonctions à réaliser conformément 
+aux spécifications et autoriser le déploiement lorsque l’on fait la démonstration qu’ils 
+font aussi bien, voire significativement mieux qu’un humain dans des circonstances 
+similaires ; 
+b. 
+prévoir dans les systèmes un enregistrement des données et des méthodes de 
+traçage des algorithmes permettant, en cas d’accident, d’en comprendre les causes et 
+d’apporter les mesures correctives nécessaires ; 
+c. 
+prévoir un système de reprise d’urgence du contrôle ou de désactivation (y compris de 
+neutralisation) ; 
+d. 
+s’appuyer dans les développements sur un corpus normatif technique et 
+méthodologique, en matière d’IA, garantissant que les algorithmes d’intelligence 
+artificielle, leurs bases d’apprentissage et de test, ont une qualité suffisante au regard 
+des systèmes et des fonctions qu’ils soutiennent ; 
+                                                 
+ 
+22 Faillibilité : principe selon lequel la perfection et le risque zéro n’existent pas. 
+23 Certains recommandent le test de Turing étendu à l’ensemble du fonctionnement du système automatisé ; le test de Turing 
+consiste en une proposition de test d’intelligence artificielle, fondée sur la faculté d'une machine à imiter la conversation 
+humaine. Décrit par Alan Turing en 1950 dans sa publication « Computing machinery and intelligence », ce test consiste à 
+mettre un humain en confrontation verbale à l’aveugle avec un ordinateur et un autre humain. Cette approche est 
+controversée dans la recherche en IA : avoir le même niveau de conversation qu’un humain ne veut pas dire que l’IA 
+raisonne intelligemment…
+
+[Page 32 / 36 | chars: 3261]
+--------------------------------------------------------------------------------
+
+32 
+e. 
+développer un corpus de règles éthiques accompagnant l’emploi, la conception et la 
+programmation des règles de fonctionnement et de discernement. 
+506. 
+La complexité des algorithmes liés à des processus d’intelligence artificielle, principalement 
+ceux engageant la sécurité des personnes et des biens, nécessite de contribuer et d’adhérer à 
+l’établissement d’un corpus normatif technique ainsi que de se doter d’une autorité technique et 
+d’une autorité opérationnelle spécifique, responsable, compétente et impartiale, à l’instar des 
+autorités de certification et des bureaux d’enquête accident du domaine aéronautique. 
+Section II – Profils et cursus des personnels - compétences futures 
+507. 
+L’IA et les systèmes automatisés vont modifier profondément les armées. L’anticipation sur les 
+compétences et ressources humaines nécessaires à l’horizon 2020-25 s’impose.  
+508. 
+Les formations générales des futurs militaires devront dispenser les enseignements 
+élémentaires nécessaires à l’acculturation de ces technologies, à leur emploi et aux biais 
+humains susceptibles de se développer dans le cadre d’une collaboration homme-machine.  
+a. 
+la collecte, le filtrage, l’exploration des données, la conception des processus 
+d’apprentissage et la maintenance des algorithmes d’IA nécessitent des nouvelles 
+compétences : scientifique des données (« data scientist ») et « maintenancier » de 
+l’intelligence artificielle. Ces métiers sont actuellement quasi inexistants dans les   
+armées ; 
+b. 
+l’exploitation des résultats fournis par les processus d’intelligence artificielle nécessitera 
+à la fois d’excellentes compétences opérationnelles et une formation adaptée à la 
+spécification, à l’évaluation et à l’emploi des processus d’intelligence artificielle ;  
+c. 
+ces exigences devront se traduire à la fois dans le recrutement et la formation.  
+509. 
+Dans l’emploi opérationnel des systèmes automatisés, qu’ils soient armés ou non, il 
+conviendrait, dans un souci non seulement d’efficience, mais également de prévention des 
+stress post-traumatiques des personnels de conduite des systèmes automatisés, de formaliser : 
+a. 
+le cursus ad hoc des personnels chargés de leur conduite (il pourrait être exigé, en plus 
+de compétences techniques, une expérience significative sur le terrain avant de se voir 
+confier une responsabilité de cette nature) ; 
+b. 
+les liens de communication avec les opérationnels engagés sur le théâtre et soutenus 
+par les systèmes automatisés, liens nécessaires à la compréhension intime des 
+engagements et au sens à y apporter ; 
+c. 
+une formation avancée juridique et éthique des utilisateurs et bénéficiaires. 
+510. 
+Dans la gestion des données, des bases d’apprentissage et de test, une compétence en 
+système cognitif devra être développée afin : 
+a. 
+de maintenir les bases de données, d’apprentissage et de test, des systèmes 
+opérationnels ; 
+b. 
+d’analyser les retours d’expérience des systèmes opérationnels et de proposer des 
+évolutions nécessaires dans la programmation, sur les règles de fonctionnement, 
+d’emploi, d’engagement. 
+511. 
+Une formation particulière sur ces systèmes et sur l’IA dédiée aux spécificateurs du besoin 
+opérationnel et aux évaluateurs pourrait également être envisagée.
+
+[Page 33 / 36 | chars: 2524]
+--------------------------------------------------------------------------------
+
+33 
+ 
+Chapitre 6 
+Synthèse 
+ 
+601. 
+La maîtrise des techniques d’intelligence artificielle et des systèmes automatisés constitue un 
+enjeu majeur d’efficience opérationnelle et de souveraineté nationale. 
+602. 
+Les systèmes automatisés sont segmentés de la façon suivante : 
+a. 
+le système supervisé : système dont les tâches de base sont automatisées. Un 
+opérateur humain supervise en permanence l’état du système et décide des tâches de 
+haut niveau à exécuter ; 
+b. 
+le système semi-autonome :  
+(1) 
+le système exécute ses tâches sans intervention humaine au-delà de la 
+programmation initiale, 
+(2) 
+des liens de contrôle et de désactivation existent entre ce système et la 
+chaîne de commandement militaire et permettent de modifier ou d’interrompre 
+la mission,  
+(3) 
+ce système ne modifie pas sa programmation ni sa mission sans intervention 
+humaine. 
+Nota 1 : les systèmes de missiles, torpilles et autres munitions, à usage unique, sont 
+des 
+systèmes 
+semi-autonomes 
+même 
+s’ils 
+s’affranchissent 
+des 
+liens 
+de 
+communication après leur engagement (tir) ; 
+Nota 2 : les mines (terrestre, maritime, etc.) sont des systèmes semi-autonomes si, par 
+conception, leur emploi est strictement borné dans l’espace et dans le temps et 
+qu’elles disposent de moyens de contrôle et de désactivation. 
+c. 
+le système pleinement autonome :  
+(1) 
+un système pleinement autonome ne dispose pas de liens de subordination, 
+c’est-à-dire de liens de contrôle et de désactivation, avec la chaîne de 
+commandement, 
+(2) 
+il peut faire de l’apprentissage autonome, se reprogrammer seul, et modifier 
+sa mission. 
+603. 
+Aucun traité, aucun accord, aucune réglementation n’interdit à ce jour ni l’acquisition/adoption, 
+ni l’emploi de systèmes automatisés, létaux ou non. Chaque nouveau programme d’armement 
+doit néanmoins faire l’objet d’un contrôle de licéité (vérification de la conformité au droit 
+international). 
+604. 
+La probabilité d’une évolution du droit international en matière d’armement des systèmes 
+automatisés est jugé faible étant donné que de nombreux pays (dont États-Unis, Russie, Chine, 
+Royaume-Uni, Israël, etc.) développent ou se sont déjà dotés de ce type de systèmes. 
+605. 
+Comme pour tout système, la responsabilité des maîtres d’ouvrage et des maîtres d’œuvre 
+(voire de l’utilisateur et de l’autorité d’emploi), pourra être engagée si les processus de 
+développement (et les normes), les processus de validation et les règles d’emploi et 
+d’engagement ne sont pas clairement définis et appliqués.
+
+[Page 34 / 36 | chars: 1591]
+--------------------------------------------------------------------------------
+
+34 
+606. 
+L’élément au cœur du débat des systèmes automatisés reste la place de l’homme dans le 
+système (de la spécification à l’emploi) et dans le processus décisionnel et non une éventuelle 
+utilisation létale de ces technologies. 
+607. 
+Sous réserve de l’existence de règles rigoureuses de fonctionnement, d’emploi et 
+d’engagement, l’utilisation de systèmes automatisés, limités aux systèmes téléopérés, 
+supervisés et semi-autonomes, permettrait dans certains cas un meilleur respect du droit et de 
+l’éthique, notamment en offrant une capacité d’ultime discrimination et analyse de 
+proportionnalité là où des systèmes conventionnels classiques n’en feraient pas. 
+608. 
+Afin d’accompagner l’acceptation sociétale, y compris des armées, de l’emploi de ces 
+technologies, un certain nombre d’actions pourrait être envisagé au niveau des armées :  
+a. 
+la création d’un corpus d’éthique appliquée de l’intelligence artificielle ; 
+b. 
+l’identification d’une autorité technique et d’une autorité opérationnelle compétentes 
+pour qualifier et évaluer les algorithmes d’IA dans les systèmes automatisés ; 
+c. 
+le développement d’une politique de ressources humaines identifiant et préparant les 
+futures compétences nécessaires, les cursus associés aux futurs métiers et  
+l’acculturation au plus tôt des futurs militaires à ces techniques, dès leur formation 
+initiale. 
+609. 
+Concernant l’armement des systèmes automatisés, l’autonomie stratégique et la souveraineté, 
+que revendique la France, nécessitent de prendre en compte les prospects export, et ce, dès 
+les phases de conception.
+
+[Page 35 / 36 | chars: 926]
+--------------------------------------------------------------------------------
+
+35 
+ 
+Annexe A 
+Lexique 
+ 
+Partie I – Sigles, acronymes et abréviations 
+A01. 
+Les sigles, acronymes et abréviations d’origine française sont écrits en Arial gras, taille 9, 
+caractères romains, couleur rouge. Les sigles, acronymes et abréviations d’origine étrangère 
+ou antique sont écrits en Arial gras, taille 9, caractères italiques, couleur bleue. 
+Liste des sigles, acronymes et abréviations utilisés dans ce document 
+CCAC 
+Convention sur Certaines Armes Classiques 
+FAA 
+Federal Aviation Administration 
+IA 
+Intelligence Artificielle 
+LAWS 
+Lethal Autonomous Weapons Systems 
+MTCR 
+Missile Technology Export Control Regime (Régime de contrôle de la 
+technologie des missiles) 
+SALA 
+Système d’Armes Létaux Autonomes 
+T&E 
+Test and Evaluation, (Essais et Évaluations) 
+UCAV 
+Unmanned combat Aircraft Vehicle 
+V&V 
+Verification and Validation (Vérification et Validation) 
+Partie II – Termes et définitions 
+Sans objet.
+
+[Page 36 / 36 | chars: 1626]
+--------------------------------------------------------------------------------
+
+36 
+Quatrième de couverture 
+ 
+ 
+CEIA-3.0.2_I.A&SYST-AUT(2018)
+Ce document est un produit réalisé par le Centre interarmées de concepts,
+de doctrines et d’expérimentations (CICDE), organisme interarmées (OIA)
+œuvrant au profit de l’État-major des armées (EMA). Point de contact :
+CICDE
+École militaire
+1, place Joffre – BP 31
+75700 PARIS SP 07
+Le CICDE ne gère aucune bibliothèque physique et ne diffuse aucun document sous forme papier.
+Il met à la disposition du public une bibliothèque virtuelle unique réactualisée en permanence. Les
+documents classifiés ne peuvent être téléchargés que sur des réseaux protégés.
+La version électronique de ce document est en ligne sur les site Intradef du CICDE à l’adresse
+http://portail-cicde.intradef.gouv.fr,
+via
+la planche
+accessible
+sous
+la
+rubrique La
+prospective
+opérationnelle.
+1.
+L’intelligence artificielle, et l’autonomisation des systèmes qu’elle permet, est
+une rupture technologique majeure qui va entraîner des bouleversements
+opérationnels, organisationnels et de gestion de ressources humaines.
+2.
+Identifiés
+dans
+EOF
+2035
+et
+dans
+BMP
+15,
+les
+systèmes
+automatisés
+constituent des réponses aux besoins militaires futurs. Un concept d’emploi
+interarmées s’avère donc nécessaire.
+3.
+Le présent document propose une segmentation et une caractérisation des
+systèmes sans pilote embarqué :
+a.
+système téléopéré ;
+b.
+système supervisé ;
+c.
+système semi-autonome ;
+d.
+système pleinement autonome.
+4.
+Sur la base du présent concept interarmées, les armées, directions et services
+peuvent
+développer
+des
+concepts
+opérationnels
+propres
+plus
+détaillés
+correspondant à leurs besoins.
+

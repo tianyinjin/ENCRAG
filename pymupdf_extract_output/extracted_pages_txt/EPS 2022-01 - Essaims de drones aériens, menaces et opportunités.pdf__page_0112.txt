@@ -1,0 +1,38 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 112 / 136
+
+================================================================================
+
+112 
+ANNEXE III :  
+ARMES LASER : POINTS CLES 
+- TECHNOLOGIE 
+Une arme laser est, d’une manière générale, constituée d’une source laser, dont le rôle est de convertir 
+de l’énergie électrique en un faisceau de photons (lumière) infrarouge, idéalement collimaté284 ou 
+focalisé285 sur une cible distante. À quelques exceptions près, les démonstrateurs de dernière 
+génération exploitent des sources industrielles conçues pour des applications de découpe (longueur 
+d’onde de l’ordre de 1 μm). Le guidage du faisceau (beam director en anglais), permettant de pointer 
+en permanence le faisceau sur la cible (en mouvement), est réalisé par une tourelle mobile (tip tilt), 
+asservie par plusieurs voies de détection : a minima une détection radar grossière et de la télémétrie, 
+complétée par un pointage fin, avec un second laser infrarouge. Les armes laser de très forte puissance, 
+ambitionnant des portées supérieures à 10 km nécessitent également des sous-systèmes d’optique 
+adaptative, intra- et infra-cavité (la cavité est le cœur du système de transformation d’énergie 
+électrique/photonique) pour, d’une part, compenser les effets thermiques au sein de la cavité, et, d’autre 
+part, compenser les turbulences et la diffusion de l’atmosphère, le long du trajet du faisceau. 
+Généralement, la tourelle ne supporte que l’optique de focalisation / collimation ainsi que les capteurs 
+de guidage. La source (ou les sources) laser, le refroidissement, la gestion de l’énergie des servitudes 
+sont à proximité et ne s’ajoutent pas à la masse mobile. 
+Une arme laser est un système dont la complexité croît avec la puissance délivrée par la source. En 
+effet, si une source de l’ordre du kW nécessite peu de servitudes, une gestion de la thermique modeste 
+et une masse mobile raisonnable, une source à plusieurs centaines de kW génère des contraintes fortes 
+d’intégration, conséquences du mauvais rendement de conversion d’énergie électrique/photonique 
+(80 % de l’énergie électrique consommée est convertie en chaleur), mais également de la taille du miroir 
+de focalisation, dont le diamètre est proportionnel à la portée visée. 
+Le guidage du faisceau est implémenté par un jeu de lentilles sur les sources de puissance modérées 
+(< 10-30 kW, Figure 1). Au-delà, pour des raisons de tailles et de tenue au flux, l’usage de miroirs 
+s’impose (Figure 2 et Figure 3). 
+ 
+284 C’est-à-dire cylindre de lumière, imparfait, comme nous le verrons, dans le cas du laser. 
+285 Assimilable à un bicône autour de la distance de focalisation, ce qui est simplificateur dans le cas du laser. 
+Figure 1– Système HELMA-P de CILAS, 2 kW (source DGA)

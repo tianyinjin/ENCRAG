@@ -1,0 +1,64 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 22 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 22 | 79 
+- 
+la gestion des obsolescences. 
+Elle fournit aussi : 
+- 
+la documentation décrivant les mesures de sécurité mises en œuvre ; 
+- 
+des processus de maintien en condition de sécurité (MCS) sous toutes ses formes 
+(techniques, documentaires, compétences, traces, etc.) après avoir identifié les composants 
+du système industriel à maintenir impérativement ; 
+- 
+une cartographie du système industriel présentant : 
+ 
+les équipements réseau et de sécurité avec leur configuration (pare-feu, commutation 
+réseau, sonde réseau, etc.) ; 
+ 
+les différents équipements avec leur configuration logique ; 
+ 
+les différents environnements physiques avec leur localisation ; 
+ 
+les autres systèmes auxquels le système industriel est connecté ; 
+ 
+une matrice des flux. 
+La cartographie inclut nécessairement un périmètre physique, une zone géographique, des biens 
+et des flux physiques. Elle est établie selon les visions métier, applicative, infrastructure et 
+sécurité. Le niveau de détail est suffisant et adapté aux enjeux de sécurité du système 
+industriel. 
+Un dispositif est mis en œuvre pour garantir la mise à jour de la cartographie, en particulier lors 
+des évolutions du système. Il est intégré dans le processus de maintenance. Une vérification à 
+fréquence régulière de l’inventaire des actifs permet de disposer d’une cartographie pérenne 
+et de garantir son exactitude. 
+La maîtrise d’ouvrage (ou maîtrise d’ouvrage déléguée) vérifie que les exigences de sécurité 
+définies dans la spécification du système et celles fixées par le plan d’assurance sécurité (PAS) 
+en cas d’infogérance externe soient respectées à partir de contrôles de conformité et de tests de 
+robustesse pour vérifier la configuration des équipements, y compris sur les plateformes de test 
+(ou d’essai), et de l’ensemble des équipements sur site. Elle s’assure que le système fourni est 
+conforme aux spécifications définies en matière de sécurité numérique. Les résultats de tests en 
+matière de sécurité numérique sont à insérer dans le dossier d’homologation. 
+La maîtrise d’ouvrage ou l’autorité bénéficiaire du système industriel s’assure que : 
+- 
+le personnel en charge de son exploitation ou de son utilisation est compétent et dispose des 
+supports nécessaires pour maintenir cette compétence et réagir en cas d’incidents de sécurité 
+(fiches réflexes) ; 
+- 
+les composants du système industriel sont protégés par un dispositif de sécurité physique 
+correspondant aux besoins de sécurité. Les serveurs et éléments actifs du réseau ne doivent 
+pas être accessibles aux personnes n’ayant pas le besoin d’y accéder. 
+La confidentialité des différents documents est à garantir contre toute divulgation ou fuite 
+d’informations. Concernant la cartographie, celle-ci n’est pas stockée sur le système industriel en 
+question mais sur un système d’information qui répond aux besoins de sécurité pour en garantir 
+la confidentialité, la disponibilité, l’intégrité et la traçabilité.  
+6.7. Utilisation du système industriel 
+6.7.1. Principaux acteurs et leur responsabilité 
+Comme tous systèmes numériques et en matière de sécurité, les systèmes industriels déployés 
+au profit d’un organisme sont sous la responsabilité de l’autorité d’emploi ou/et bénéficiaire. Pour 
+assurer leur responsabilité, ces autorités disposent :

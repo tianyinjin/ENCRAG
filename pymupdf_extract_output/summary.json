@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-05-09T00:48:22",
+  "root": "E:\\CodexWorkspace\\RAG_reading\\donnee\\Download 2026-04-30T08-00-29-368Z\\Corpus_raw",
+  "pdf_count": 374,
+  "opened_pdf_count": 374,
+  "error_pdf_count": 0,
+  "total_pages": 10750,
+  "extracted_pages": 10417,
+  "needs_ocr_pages": 333,
+  "min_text_chars": 20,
+  "finished_at": "2026-05-09T00:51:18"
+}

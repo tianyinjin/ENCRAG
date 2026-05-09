@@ -1,0 +1,111 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 7 / 10
+
+================================================================================
+
+the
+send_position(latitude, longitude,
+altitude)
+function.
+This
+function
+sends
+MAVLink
+GPS RAW INT
+messages
+with
+latitude,
+longitude,
+and
+altitude data to the Mission Planner.
+4) Control
+commands:
+The
+MAVLink
+MAN-
+UAL CONTROL messages are received by the Raspberry
+Pi
+using
+the
+handle _manual_control
+function.
+Depending on the parameters received, the corresponding
+message is sent to the Arduino to operate the UGV:
+• Front: send_command_to_arduino(%F#);
+• Back: send_command_to_arduino(%B#);
+• Right: send_command_to_arduino(%R#);
+• Left: send_command_to_arduino(%L#).
+To send control commands to the UGV, the Gembird
+Gamepad was first connected to the GCS and then paired
+with the Mission Planner. When connected to the Mission
+Planner, two axes of movement were used, allowing the
+UGV to move in four different directions. The axes were
+chosen automatically by the Mission Planner, considering the
+movement of the controller’s analog, selected by the user.
+For movements in different directions on the same axis, the
+“Reverse” option was used. The mode chosen was “Manual
+Control”, which will be important in the type of MAVLink
+messages generated at the GCS.
+5) Script 2 — Management of the link between GCS and
+BMS: Script 2, shown in Figure 9, runs on the GCS and
+represents a link to the BMS. It creates an XML, and it is
+sent to the BMS. This script aims to extract the UGV position
+from MAVLink messages and generate an XML according to
+STANAG 5527. The connection is established with port 14552,
+where MAVLink messages are forwarded via MAVProxy. This
+script can run on GCS if MAVProxy is forwarding messages
+to port 14552 on localhost or on another machine.
+The used XML model is the A2 of the STANAG 5527.
+Depending on where the BMS is running, the XML must be
+sent there. In a configuration where the BMS is running on
+the GCS, it is enough to send it to localhost; otherwise, it
+requires the IP of a machine on the network that is running
+the BMS. In the tactical radio scenario, this sending is done
+via military radios. The IP to which the XML is sent must be
+configured in the function send_xml_file(filename,
+server_ip, server_port) used to send the file.
+In the BMS, in addition to the standard configuration, which
+includes creating a mission with some mandatory parameters,
+such as the configuration of the stack and GPS, a gateway must
+be configured in the BMS with the port where the report will
+be received, in this case, port 48882, and the message template
+which will be used, in this case, FFT Systems—STANAG
+5527 A1/A2.
+Fig. 9: Script 2 — Management of the link between GCS and BMS.
+6) Mission
+Planner
+Configuration:
+This
+subsection
+presents the main aspects to be configured in the Mission
+Planner, namely, receiving the video and sending the control
+commands. The Mission Planner is configured on port
+14551. Once the software is open, after running Script 1 and
+then starting GCS with MAVProxy, a UDP connection is
+automatically started on port 14551.
+First, the configuration of video reception on the Mission
+Planner and its capture and sending on the Raspberry Pi is
+presented using the Raspivid and GStreamer libraries, respec-
+tively. Then, in this section, the configuration of the joystick
+in Mission Planner and the configurations to send control
+commands are presented.
+7) Video streaming: Image capture was first initiated using
+the Raspivid application on the Raspberry Pi. Then, the
+GStreamer application was used to send the video stream to
+the Mission Planner, running on the GCS.
+The quality of image capture has an influence on the band-
+width required for communication. The quality of the image
+is adjusted according to the characteristics of the transmission
+channel, which will be analysed in the results.
+IV. RESULTS
+The solutions for the tests in the SIC-T project team will
+be presented. To achieve this, tests were carried out using Wi-
+Fi technology alone and a hybrid configuration using tactical
+radios and Wi-Fi. The tactical radios fill an existing gap in
+Wi-Fi communication — security — since the UGV position
+is considered critical data.
+STO-MP-IST-209 
+1760 - 7 
+Integration of a Commercial 
+Unmanned Vehicle into the Army Communications System

@@ -1,0 +1,45 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 48 / 108
+
+================================================================================
+
+48
+POLE D'EXCELLENCE CYBER
+Comment mener une analyse de risques ?
+L’évaluation des risques peut se limiter à une analyse d’écart par rapport à la réglementation applicable (RGS, RGPD, etc.) et aux 
+guides de sécurité informatique existants (ce guide, « Guide d’hygiène informatique1 »  de l’ANSSI, etc.). Il existe toutefois différentes 
+méthodes qui permettent de réaliser une analyse de risques (EBIOS, MEHARI, OCTAVE, etc.), et votre choix sera en fonction de la 
+criticité du système à analyser. Les grandes administrations  doivent utiliser la méthode Expression des Besoins et Identification des 
+Objectifs de Sécurité (EBIOS). 
+L'Agence nationale de la sécurité des systèmes d'information élabore et tient à jour un important référentiel méthodologique « La 
+méthode EBIOS Risk Manager » destiné à aider les organismes du secteur public et du secteur privé à gérer la sécurité de leurs 
+systèmes d'informations. Ce référentiel est composé de méthodes, des meilleures pratiques et de logiciels, il est diffusé gratuitement 
+sur le site Web de l'ANSSI2 .
+La CNIL a élaboré trois guides3 autour de l' « Analyse d’impact relative à la protection des données », qui portent respectivement sur 
+la méthode, les modèles et les bases de connaissances, et qui décrivent la manière d’employer la méthode EBIOS dans le contexte 
+spécifique de la Loi « Informatique et libertés ».
+En interne, un groupe de travail qui ne serait pas dédié à la technique et qui impliquerait tous les acteurs du système d'information 
+pourrait réaliser les étapes essentielles d’une analyse de risques. Cela permettrait à la collectivité de mieux appréhender les enjeux de 
+sécurité de son SI tout en réalisant des économies. Après avoir produit une première analyse, la collectivité pourra faire appel à une 
+société extérieure chargée d'approfondir chaque point soulevé par le travail fait par les agents. 
+Les étapes suivantes, accompagnées d’un exemple fil rouge simple, permettront d’évaluer et de gérer les risques :
+Cartographier le système d’information et identifier les exigences en matière de sécurité :
+Il est impossible de prendre des décisions stratégiques pour la sécurité du système d’information si les ressources informatiques et 
+les données à protéger ne sont pas identifiées. La cartographie du système d’information permet d'obtenir une vision globale de 
+son patrimoine informatique, matériel et immatériel. Pour cartographier votre système, vous pouvez vous appuyer sur des outils et 
+documentations existants, par exemple, le guide « Cartographie du système d’information4 »  proposé par l’ANSSI. 
+Après avoir identifié les ressources à protéger, il faut déterminer les exigences de sécurité qui leurs sont associées, dont les plus 
+essentielles sont :
+• La disponibilité : les ressources doivent être accessibles et utilisables par les personnes autorisées aux moments voulus ;
+• La confidentialité : les ressources ne sont accessibles qu'aux personnes autorisées ;
+• L’intégrité : les ressources ne sont modifiées ou supprimées que par des personnes autorisées à le faire et selon une procédure bien 
+définie ;
+• La traçabilité : la garantie que les accès et tentatives d'accès aux ressources sont bien tracés et que ces traces sont conservées et 
+exploitables.
+Un serveur Web de la collectivité aura un besoin d'être disponible pour les utilisateurs, alors que les données contenues dans une base 
+de données exigeront avant tout confidentialité et intégrité.
+1 https://www.ssi.gouv.fr/uploads/2017/01/guide_hygiene_informatique_anssi.pdf
+2 https://www.ssi.gouv.fr/administration/management-du-risque/la-methode-ebios-risk-manager/
+3 https://www.cnil.fr/fr/gerer-les-risques
+4 https://www.ssi.gouv.fr/uploads/2018/11/guide-cartographie-systeme-information-anssi-pa-046.pdf

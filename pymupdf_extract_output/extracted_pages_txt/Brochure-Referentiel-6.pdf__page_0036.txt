@@ -1,0 +1,95 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 36 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+70 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 71
+Approches adoptées :
+Dans le cadre de la stratégie de transformation du système de santé « Ma santé 
+2022 » et de son volet numérique, le programme de financement HOP’EN im-
+pose un ensemble de prérequis aux établissements de santé liés à la sécurité 
+et au partage de données. La sécurité organisationnelle, l’utilisation de moyens 
+de partage sécurisés et l’obligation de réaliser un audit sont les éléments prio-
+ritaires adressés par les établissements de santé dans les années qui viennent. 
+D.1.5 _Systèmes de communication
+Sans systèmes de communication l’activité de la plupart des entreprises s’arrête 
+ou est au moins fortement ralentie. Il existe donc des besoins forts sur la disponi-
+bilité globale des grandes infrastructures de communication. 
+Il est aussi important de garantir la protection des données échangées, que 
+ce soit pour la protection de la vie privée, le secret des affaires ou la propriété 
+intellectuelle. 
+D.1.6 _Domotique / gestion technique de bâtiments
+Après un démarrage poussif, la domotique est pleine croissance grâce à la généra-
+lisation de l’Internet, qui permet des accès à distance simplifiés avec des débits 
+maintenant compatibles la vidéo mais aussi d’autres services ; la miniaturisation 
+et à la baisse de coût des capteurs et l’utilisation des protocoles sans fils de 
+type WiFi facilitent leurs connexions. Du point de vue des particuliers ou des 
+entreprises utilisateurs de solutions domotiques, il est important que ces 
+systèmes, qui assurent notamment la protection contre le vol, ne puissent pas 
+être neutralisés ou détournés de l’usage pour lequel ils ont été conçus (capture 
+de flux vidéo de caméras de surveillance, par exemple). 
+D.1.7 _Banques / assurances
+Le niveau de la menace Cyber a toujours été élevé dans le secteur Banque & 
+Assurance (B&A), cible privilégiée des cyber-attaques provenant de 3 catégo-
+ries d’acteurs. 
+Ce secteur est la cible « naturelle » des cybercriminels qui visent un gain finan-
+cier immédiat, en passant des ordres dans les systèmes de paiement. On note 
+ici que cette fraude peut se réaliser soit en ciblant les postes de travail utilisés 
+par les particuliers et les entreprises clientes (type 1), soit en ciblant le système 
+de paiement lui-même (type 2). Les cas du premier type sont bien entendu les 
+plus fréquents car il est bien sûr plus aisé de prendre le contrôle des credentials 
+utilisés pour accéder à un compte en ligne, ou bien de conduire une attaque de 
+type arnaque au président que d’attaquer frontalement le SI généralement sé-
+curisé à l’état de l’art d’un établissement. Pour autant, les cas de type 2 existent 
+car les montants visés peuvent être très supérieurs. En février 2016, ce sont ainsi 
+81 millions USD qui ont été détournés dans le cas retentissant du cyber-bra-
+quage de la Banque du Bangladesh20, que des entreprises de sécurité attribuent 
+au groupe Lazarus. On peut noter que cette attaque portait sur 950 millions 
+USD mais qu’une partie des ordres ont été bloqués grâce à la vigilance des per-
+sonnes chargées de les exécuter.
+Ce secteur est également la cible des hacktivistes qui prétendent dénoncer 
+le système financier mondial via les retombées médiatiques qu’ils savent 
+obtenir si une fuite de données ou un déni de service venait à impacter un 
+établissement. L’opération #opIcarus lancée par le groupe Anonymous a at-
+teint son maximum d’intensité mi-2016 avec des attaques en déni de service 
+contre de nombreux établissements à travers le monde. Ces campagnes 
+n’ont pas cessé depuis, avec par exemple un DDoS massif des services en 
+ligne de Rabobank en mai 2018.
+Ce secteur est enfin la cible des groupes servant des intérêts étatiques en-
+fin, car les banques commerciales et les banques centrales détiennent évi-
+demment des informations confidentielles sur les flux financiers. 
+Le secteur de la banque et de l’assurance se caractérise par :
+• Un niveau élevé de maturité en matière Cyber. Le cœur d’activité de ces 
+acteurs repose quasi-exclusivement sur les personnes et le bon fonction-
+nement du système d’information. La confidentialité, l’intégrité et la dispo-
+nibilité du SI ont donc toujours été l’objet d’une attention maximale.
+• Une réglementation sectorielle importante. Si elle contribue à maintenir 
+un haut niveau de sécurité, le maintien en conformité avec les exigences 
+réglementaires, qui peuvent varier d’un pays à l’autre, est une préoccupa-
+tion majeure. Cette conformité est l’objet de contrôles par les autorités de 
+supervision.
+• Une supervision bien en place. En France, ce sont l’ACPR21 pour les éta-
+blissements de crédits et assurances d’un part, et l‘AMF22 pour les acteurs 
+des marchés financiers d’autre part qui supervisent les acteurs par des 
+contrôles. Le volet cybersécurité est partie intégrante de ces contrôles 
+réguliers.
+Habitués à la gouvernance par les risques, les acteurs de ce secteur s’ap-
+puient sur des approches reposant sur plusieurs piliers : l’identification des 
+actifs et leurs cotations, la prévention, la détection et la réponse aux inci-
+dents. En plus du système d’information, la sensibilisation de tous les inter-
+venants est un axe fort car l’ingénierie sociale demeure une composante 
+importante des cyber-attaques. Organisé en 3 lignes de défense, l’ensemble 
+est généralement intégré au dispositif global de maîtrise des risques opé-
+rationnels.
+De manière prospective, les entités du secteur B&A doivent se tenir à l’état 
+de l’art, tant en termes de dispositifs de prévention que de détection, du 
+fait de la réactivité et des moyens employés par les cyber-attaquants. Pour 
+suivre l’évolution de la menace, ces entités se sont dotés depuis plusieurs 
+années d’équipes de renseignement sur les menaces (« Cyber Threat Intel-
+ligence »).
+21 ACPR : Autorité de Contrôle Prudentiel et de Résolution
+22 AMF : Autorité des Marchés Financiers
+20 https://www.wired.com/2016/05/insane-81m-bangladesh-bank-heist-heres-know/

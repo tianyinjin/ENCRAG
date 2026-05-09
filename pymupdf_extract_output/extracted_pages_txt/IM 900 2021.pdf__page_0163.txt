@@ -1,0 +1,61 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 163 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+DROIT PRIVE
+6.4 
+
+157 
+6.4: LES AUDITS DE SECURITE 
+Références :  
+•
+Code de la défense – Art. L.1332-6-1 à L.1332-6-6
+•
+IGI 1300 – 6.9
+•
+II n°901/SGDSN/ANSSI relative à la protection des systèmes d’information sensibles 
+•
+II n°910/SGDSN/ANSSI du 22 octobre 2013 relative aux articles contrôlés de la
+sécurité des systèmes d’information (ACSSI)
+Points clés: 
+• Les audits de sécurité interviennent aux moments critiques du cycle de vie d’un SI:
+o lors de l’homologation initiale ou à l’occasion du renouvellement de cette
+dernière;
+o à des fins de maintien en condition de sécurité du SI.
+• Les audits peuvent être externalisés notamment auprès de prestataires qualifiés
+par l’ANSSI - les prestataires d’audit SSI.
+• L’externalisation des audits de systèmes d’information classifiés est possible après
+analyse de risque et avec l’accord de l’autorité contractante.
+En complément des tâches de maintien en condition de sécurité, l’autorité 
+d’homologation réalise ou fait réaliser périodiquement des contrôles ou des audits148 de 
+sécurité des systèmes d’information. Pour les systèmes les plus importants (cf. fiche 6.2 
+pour la catégorisation des SI), un audit de sécurité est obligatoire avant l’homologation 
+et chaque renouvellement d’homologation. 
+Une autorité qualifiée d’entreprise peut s’appuyer sur des prestataires de services 
+internes ou externes pour la réalisation d’audits SSI. En ce qui concerne les systèmes 
+classifiés de défense, l’externalisation est possible après analyse de risque et avec 
+l’accord de l’autorité contractante. 
+Sauf dérogation de l’autorité contractante, les auditeurs d’un système d’information 
+Diffusion Restreinte doivent être habilités au niveau Secret. Les auditeurs d’un système 
+d’information classifié doivent être habilités au niveau Très Secret. Lorsqu’il s’agit d’un 
+auditeur interne, ce niveau d’habilitation est sans incidence sur le niveau d’habilitation 
+de la personne morale. En cas de sous-traitance de la prestation d’audit, le contrat doit 
+comporter un plan contractuel de sécurité validé par l’autorité contractante. 
+Ces audits de sécurité doivent, en plus de la conformité aux règles en vigueur, évaluer le 
+niveau de robustesse des systèmes visés face à l’état de l’art des menaces informatiques. 
+Les auditeurs réalisant l’audit de sécurité utilisent les outils logiciels, des outils matériels 
+et des privilèges qu’ils estiment nécessaires à la réalisation des activités d’analyse 
+technique à l’état de l’art. 
+
+148 Processus systématique, indépendant et documenté en vue d'obtenir des enregistrements, énoncés de 
+faits ou autres informations qui se rapportent aux critères de contrôle ou d’audit et sont vérifiables et de 
+les évaluer de manière objective pour déterminer dans quelle mesure les critères de sécurité sont satisfaits. 
+Un audit de sécurité comporte un audit d’architecture, un audit de configuration, un audit de code source, 
+un audit organisationnel et un test d’intrusion. Un contrôle de sécurité comporte un audit de configuration 
+et un audit de conformité à la documentation applicable au système d’information.

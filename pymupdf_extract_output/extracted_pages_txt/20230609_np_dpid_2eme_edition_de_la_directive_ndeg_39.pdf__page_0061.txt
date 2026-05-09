@@ -1,0 +1,73 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 61 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 61 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+-  le retrait ou la déconnexion des 
+lecteurs de médias amovibles. 
+EXP3 
+TECH 
+Sur les postes et serveurs,   
+-  désactiver l’ensemble des programmes non indispensables ; 
+ 
+-  supprimer les données de tests ainsi que les comptes crées lors des tests, 
+désormais inutiles. 
+ 
+R 
+O 
+O 
+ 
+EXP4 
+TECH 
+Supprimer les données de tests, toutes les fonctions de développement, les outils 
+temporaires liés aux tests et aux évolutions (débogueur, script de configuration, 
+…) ou fonctions locales de maintenance non utiles à la production sur les 
+équipements (automates*, postes SCADA*, postes maintenance, serveurs, etc.) 
+d’un système en production. 
+ 
+R 
+R 
+O 
+ 
+EXP5 
+TECH 
+Sur les automates* et les applications SCADA*, ne pas charger dans les 
+équipements les mnémoniques et commentaires  
+ 
+R 
+O 
+O 
+ 
+EXP6 
+ORG 
+Privilégier les équipements labellisés. 
+ 
+R 
+R 
+O 
+ 
+EXP7 
+TECH 
+Pour sécuriser les systèmes d’exploitation des équipements, appliquer les guides 
+de configuration rédigés ou recommandés par le ministère ou l’ANSSI s’ils 
+existent. 
+O
+ 
+ 
+ 
+Voir référentiels Guide et configuration 
+et Référentiel ANSSI 
+EXP8 
+TECH 
+Appliquer sur les paramètres de durcissement de configuration une étude 
+d’impacts fonctionnels pour ne pas remettre en cause la sûreté de fonctionnement* 
+du système industriel. 
+O

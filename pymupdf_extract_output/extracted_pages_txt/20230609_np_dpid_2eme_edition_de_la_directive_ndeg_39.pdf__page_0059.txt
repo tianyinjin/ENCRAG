@@ -1,0 +1,110 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 59 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 59 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+RSO19 
+TECH 
+Protéger les interconnexions entre des systèmes répartis sur des localisations 
+différentes pour garantir la confidentialité, l’intégrité, la disponibilité, et l’authenticité 
+des communications.  
+ 
+R 
+O 
+O 
+On pourra utiliser un VPN IPsec par 
+exemple. 
+RSO20 
+TECH 
+Dans le cadre d’interconnexions entre des systèmes répartis sur des localisations 
+différentes, mettre en place un dispositif de filtrage* (pare-feu). 
+ 
+R 
+O 
+O 
+ 
+RSO21 
+TECH 
+Configurer les passerelles d’interconnexion selon le guide de l’ANSSI relatif à 
+l’interconnexion d’un système d’information à Internet. 
+ 
+R 
+O 
+O 
+Guide ANSSI relatif à l’interconnexion 
+d’un SI à Internet. 
+RSO22 
+TECH 
+Interdire l’interconnexion d’un système industriel avec Internet de manière 
+permanente sauf en cas de besoins dûment justifiés et sur autorisation de l’autorité 
+d’homologation (AH). 
+O
+ 
+ 
+ 
+ 
+RSO23 
+TECH 
+Ne pas autoriser une interconnexion directe entre un système industriel de classe 
+3 (ou zones de classe 3) et Internet. 
+O
+ 
+ 
+ 
+ 
+RSO24 
+TECH 
+En cas d’interconnexion autorisée entre un système industriel de classe 1 ou 2 (ou 
+zones de classe 1 et 2) avec Internet, limiter les accès au strict nécessaire vers 
+Internet depuis le système industriel. 
+O
+ 
+ 
+ 
+ 
+RSO25 
+TECH 
+Réciproquement, limiter les accès depuis Internet vers le système industriel au 
+strict nécessaire. 
+O
+ 
+ 
+ 
+ 
+RSO26 
+TECH 
+Pour l’interconnexion, utiliser des équipements labellisés. 
+ 
+C 
+R 
+O 
+ 
+Maîtriser l’usage de la technologie sans fil 
+RSO27 
+TECH 
+Limiter l’usage de la technologie sans fil au strict nécessaire ; 
+En cas d’usage de la technologie sans fil, limiter sa période d’activation au strict 
+nécessaire. 
+O
+ 
+ 
+ 
+ 
+RSO28 
+TECH 
+Si la technologie sans fil est utilisée, appliquer la directive 23 (DGNUM) portant sur 
+les technologies sans fil.  
+O
+ 
+ 
+ 
+Directive 23 du 2 février 2021 portant sur 
+la sécurité de technologies sans fil.

@@ -1,0 +1,48 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 23 / 34
+
+================================================================================
+
+structuring raw sensor streams, on-board drone information (e.g., object detection outputs, estimated 
+localization), and crucial ground truth data (e.g., precise object bounding boxes, ground drone position and 
+odometry data), and relating them to preset pipelines for calculating metrics, and data queries. This enables 
+detailed, objective comparisons to quantify system performance. The pipeline is designed to also handle real-
+world data in place of simulation data streams, helping to bridge the "simulation-to-real" gap in cases where 
+real-world sensor streams are available. 
+3.2.3 
+Visualization and Analysis 
+Visualization and analysis involve a powerful engine that evaluates various performance metrics, including 
+mission-specific criteria, object detection/tracking accuracy, localization accuracy, and maneuver precision. 
+It translates these technical metrics into standardized AI System Quality Indices (ASQI), providing 
+comparable and interpretable grades across different capability categories.  
+In order to be able to do different types of analysis on the data generated as outlined in section 3.2.1, e.g. 
+coverage analysis, all relevant metadata is also collected, which can include drone positions, headings, 
+movement speed, as well as data on ambient conditions such as fog or rain settings. Results are presented on 
+a front-end dashboard for clear decision-making but are also available as data artefacts for individual data 
+analysis projects. 
+3.2.4 
+System Architecture, Result Storage and Retrieval 
+The simulation platform is designed with a flexible architecture supporting both air-gapped on-premises 
+deployment for sensitive projects, and cloud-based parallel processing for high-throughput analysis, as well 
+as single-compute-instance use cases, and parallelized use cases for high throughput. Results are stored in a 
+tamper-proof environment together with extensive documentation artefacts detailing the conditions and 
+parameters of test scenarios, in relation to the data generated for each case. 
+4.0 CONCLUSIONS 
+4.1 
+Dataset Review and Analysis of Proxy Model Results 
+Having created 3 segments of our aggregated dataset, we now turn to evaluating the data and re-assessing the 
+combinatorial coverage to ensure that our test methodology will deliver us sufficient visibility into the 
+characteristics of the hypothetical CV system being tested.  
+4.1.1 
+Analysis of Test Data Quality and Distribution 
+First, from the real-world data collected, we find a total number of 1269 videos, of which 766 are from IR 
+sensors and 503 are from visual sensors. In particular, as we were aware from previous experience that the 
+available open-source datasets referenced above lack significant representation of medium and large drones, 
+extra effort had been put into the data collection process to manually acquire data relating to these drones by 
+scraping popular websites and Telegram channels dedicated to coverage of drone strikes in the ongoing 
+Russia-Ukraine conflict and Israel-Iran conflict. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 23

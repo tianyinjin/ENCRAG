@@ -1,0 +1,49 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 34 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+32/47 
+RO 41 : il est OBLIGATOIRE pour tout hébergeur relevant du ministère d’avertir les autorités clientes 
+ou d’emploi des SI qu’il héberge de tout élément, dysfonctionnement ou incident pouvant 
+remettre en cause leur niveau de sécurité. 
+ Homologation de SI utilisant un service d’informatique en nuage externalisé 
+L’homologation dépend du niveau de maîtrise dont dispose le ministère des Armées à l’égard des 
+solutions proposées par le prestataire de service d’informatique en nuage.  
+RO 42 : il est OBLIGATOIRE d’homologuer les systèmes ou services numériques fournis par un 
+prestataire de service d’informatique en nuage pour traiter des données relevant du ministère 
+des Armées selon un périmètre d’homologation défini en fonction de la nature du service rendu 
+ou du produit fourni. 
+ 
+RO 43 : il est OBLIGATOIRE de demander au prestataire d’informatique en nuage externalisé de 
+fournir un PAS. Le PAS produit par le prestataire est alors inséré dans le dossier 
+d’homologation. 
+ 
+Solution publique de type IaaS ou PaaS 
+La solution dans sa totalité ne peut pas faire l’objet d’une décision d’homologation. Le périmètre 
+d’homologation doit en effet s’appuyer sur une distinction précise des responsabilités relevant du 
+ministère et du fournisseur de service. Les composants relevant du seul prestataire n’entrent pas dans 
+le périmètre d’homologation, même si la démarche d’homologation les prend nécessairement en 
+compte dans l’analyse de risques. Il ne s’agit pas d’homologuer le SI du prestataire. 
+RO 44 : il est OBLIGATOIRE de considérer dans le périmètre d’homologation l’utilisation et le cadre 
+d’utilisation du service IaaS ou PaaS tant dans sa dimension fonctionnelle que sécuritaire. 
+Les garanties et les éléments de confiance que peut produire le prestataire de service d’informatique 
+en nuage participent à l’appréciation du risque. Ils doivent être recherchés et analysés. Les difficultés 
+d’obtention et l’absence d’informations de la part des prestataires sont également des éléments de 
+confiance à prendre en compte dans l’analyse.  
+ 
+Solution publique de type SaaS  
+L’utilisation d’un service numérique public de type SaaS nécessite au préalable : 
+● une appréciation d’usage du service numérique validée par l’AE ; 
+● un visa de la DGNUM conformément à [CLOUD SaaS] ; 
+● une décision d’homologation portant sur l’usage du service numérique. 
+L’appréciation d’usage est un document formel qui identifie et évalue les risques portant sur l’usage 
+des services et sur les données traitées en termes juridique et de sécurité numérique. Elle est validée 
+par l’AE et transmise à l’AH. L’AE peut s’appuyer sur le CEAH et sur le représentant du RT concerné 
+(lorsque des données à caractère personnel y sont traitées).  
+L’analyse de risques ainsi que la décision d’homologation doivent s’appuyer sur l’appréciation d’usage 
+du service numérique. L’appréciation d’usage est insérée dans le dossier d’homologation. 
+RO 45 : il est OBLIGATOIRE pour l’AE de fournir une appréciation d’usage à l’AH avant d’initier la 
+démarche d’homologation portant sur l’usage du service numérique.

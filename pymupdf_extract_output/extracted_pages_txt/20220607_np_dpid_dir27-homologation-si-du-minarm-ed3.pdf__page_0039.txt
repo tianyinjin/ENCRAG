@@ -1,0 +1,51 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 39 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+37/47 
+Les PES sont mises à jour au fur et à mesure des itérations pour prendre en compte les nouvelles 
+fonctionnalités implémentées. 
+Durant la phase de réalisation, la décision d’homologation initiale est remise en cause : 
+● systématiquement à la fin de la date de validité de la décision d’homologation 
+précédente ; 
+● par l’AH, sur proposition de son centre expert si les conditions décrites dans la décision 
+d’homologation ne sont plus respectées ou si le traitement de risques n’est pas 
+suffisamment pris en compte lors du développement : 
+o soit en raison de l’évolution du SI : 
+ fonctionnalités qui sortent du cadre initialement défini ; 
+ changement important d’architecture ; 
+ utilisation de nouvelles sources de données représentant un risque non anticipé ; 
+ liste des fonctions SSI attendues (« back log ») augmentant de manière démesurée 
+par rapport au reste des fonctionnalités ; 
+o soit en raison d’un dysfonctionnement dans les échanges d’informations entre les 
+différents acteurs : 
+ défaut de comptes rendus de la part de l’équipe de projet au profit du CEAH. 
+Lorsque la décision d’homologation est remise en cause, le RSSI procède à son renouvellement selon 
+les modalités requises par le CEAH. 
+ Décision d’homologation ferme 
+Une fois le développement terminé, une décision d’homologation ferme doit être prononcée. Elle 
+garantit : 
+● la mise en œuvre du MCS ; 
+● la formation pérenne des administrateurs ; 
+● l’applicabilité et l’exhaustivité des contrats de service ; 
+● l’enrôlement du SI ; 
+● la bonne diffusion et l’applicabilité des PES.  
+La décision d’homologation ferme peut également s’appuyer sur un rapport d’audit final comme toute 
+décision d’homologation. 
+ Cas de mise en exploitation pour test (autorisation d’exploitation pour test19) ou 
+expérimentation 
+Dans le cadre d’un développement ou d’une expérimentation, un SI peut nécessiter une mise en 
+exploitation sur des réseaux opérationnels et peut éventuellement consommer des données réelles, 
+notamment s’il n’est pas possible de créer des jeux de données fictives. Il est donc nécessaire de se 
+prémunir des risques que ferait porter ce SI sur son environnement et sur les données qui lui sont 
+confiées. 
+L’autorisation d’exploitation pour tests ou expérimentation est délivrée par l’AH sur étude du 
+dossier d’homologation en cours de constitution qui devra couvrir les risques systémiques - notamment 
+les risques à l’égard des SI interconnectés - et la confidentialité des données lorsque des données 
+réelles sont utilisées. Une attention est également à porter sur le besoin de traçabilité.  
+La stratégie d’homologation définit les modalités d’une autorisation d’exploitation pour tests. 
+                                               
+19 Autorisation connue sous le nom d’AFT (Approval for testing).

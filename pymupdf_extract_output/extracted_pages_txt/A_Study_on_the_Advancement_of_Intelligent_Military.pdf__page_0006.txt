@@ -1,0 +1,114 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page: 6 / 12
+
+================================================================================
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+6) The issue lies in part 6, where the confidence in detect-
+ing incompletely obscured tanks by trees or structures
+is low. For those making the final decisions on attacks,
+this level of uncertainty in detection isn’t practical.
+Thus, it is essential to focus on improving detection
+accuracy to offer more trustworthy information for such
+critical judgments. One possible approach to address
+this issue is improving the detection neural network
+[44]. However, relying entirely on the object detection
+model is problematic. This is because object detection
+models exhibit varying confidence levels based on the
+angle of the object they are trying to detect [45]. More-
+over, for objects that are partly obscured, the difference
+in confidence levels depending on the angle is likely to
+be even greater. Figure 6 shows the results of examining
+the confidence levels for partially obscured tanks using
+an object detection algorithm in the Unity simulator.
+In this case, the images are from a drone’s perspec-
+tive, looking downwards from directly above the trees.
+Here, the tanks are identified by the object detection
+algorithm in a purple color. The confidence levels vary
+significantly based on the tank’s angle and the degree of
+obscuration, with the tank in the left picture even failing
+to be detected.
+FIGURE 6. Confidence level for an incompletely occluded tank in Unity
+simulator.
+This implies that relying solely on the detection neural
+network is not the best strategy. Therefore, moving the
+drone and adjusting the angle of the camera attached to
+it to secure a line of sight on the object can be another
+way to enhance the confidence level. However, could
+such movements be addressed with a sort of rule-based
+approach? Considering the constraints of maintaining
+a certain altitude and the drone’s requirement to look
+downwards from the air, resolving this issue with a
+rule-based approach is not as straightforward as it may
+seem. Let’s think of a situation where, if something
+like a tree is hiding a tank, the drone has a rule to fly
+away from that tree and turn its camera to look at the
+tank. For this strategy to work effectively, it’s crucial
+to recognize the kinds of objects that could conceal the
+tank and figure out which portion of the tank is hidden.
+However, training the system to segment and identify
+every potential concealing object, such as various trees
+and structures, poses a significant challenge, especially
+with limited computational resources. Additionally, the
+task of detecting a tank that is partly masked is com-
+plex, as it requires pinpointing which part of the tank
+is covered. While it might look like an easy problem
+to solve with basic rules from a human perspective,
+for a drone, the situation is much more complex and
+not as easy to handle. This is exactly the point where
+advanced technology is needed to realize the concept
+of intelligence.
+Therefore, this paper proposes using reinforcement
+learning to solve the issue of securing a line of sight on
+incompletely concealed objects and increasing object
+confidence levels. For this, we utilize images where
+objects have been detected along with various vec-
+tor observations to autonomously control the drone’s
+movement and the camera angle. In the next chapter,
+we delve deeper into the fundamental concepts of re-
+inforcement learning, conduct experiments, and then
+discuss the results.
+C. REINFORCEMENT LEARNING
+In reinforcement learning, an agent in the environment, which
+is the space where the agent is located, selects actions based
+on the current situation information, known as the state. The
+environment then changes in response to these actions, and
+the agent receives rewards as a result. The goal of reinforce-
+ment learning is to maximize the cumulative rewards [46].
+In this study, the environment is partially observable from the
+agent’s perspective. When the drone scouts for enemies in the
+Unity simulator space, it doesn’t initially know the location of
+the enemies. It observes only part of the environment using its
+camera, not having complete information about the enemies
+from the start. This is different from fully observable games
+like chess or Go, where the positions and movements of all
+pieces are known. In partially observable situations, the term
+‘observation’ is used instead of ‘state’ to describe the current
+situation information. The following sections introduce the
+components of reinforcement learning and the algorithms
+used.
+1) Environment
+In this research, the reinforcement learning aims to achieve
+advanced intelligent behaviors in scenarios occurring after
+relatively basic tasks like waypoint reconnaissance and en-
+emy tracking. Therefore, the reinforcement learning envi-
+ronment concentrates on the drone’s autonomous actions to
+enhance the detection confidence level after tracking a tank,
+especially when the confidence level is low. As depicted in
+Figure 7, at the start of learning, the drone is positioned
+above a partially obscured tank. The drone receives visual
+input through a red camera located on its underside, which is
+essential for the detection process. This red box represents the
+drone’s "eye." The grey camera and the large grey square are
+used to observe the drone’s behavior for verification purposes
+and are not directly involved in the learning process.
+To prevent the model from overfitting to a specific envi-
+ronment during training, domain randomization is employed
+in each episode. This process involves randomly varying
+elements within the simulation environment, which helps the
+6
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4

@@ -1,0 +1,132 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 9 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+16 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 17
+Plusieurs catégorisations existent pour structurer ce domaine. Celle proposée 
+ci-dessous s’articule autour d’une déclinaison en trois thématiques : produits & 
+technologies, services, méthodes & outils métiers.
+Dans cette découpe thématique, la notion de service désigne les services opéra-
+tionnels et non des services techniques ou des fonctionnalités administrées par 
+un opérateur tiers.
+Les quatre schémas synoptiques suivants présentent la structuration générale 
+de la cybersécurité suivant ces différentes thématiques. 
+En première approche et sans présager des analyses de marchés qui seront 
+réalisées ultérieurement par les acteurs nationaux de la filière, la suite du document 
+explicite, sans rechercher l’exhaustivité, l’importance stratégique de certaines 
+de ces thématiques.
+Cyber  
+Protection
+Sécurité  
+des systèmes  
+d’information
+Méthodes d’analyse de risques
+Modélisation de la menace et des attaques
+Modélisation d’architectures sécurisées
+Environnement de conception sécurisée
+Méthodes formelles
+Produits 
+Technologies
+Méthodes
+Services
+Produits &
+Technologies
+Ingénierie système
+Evaluations
+Gouvernance
+Firewall (Pare-feu)
+Effacement de données
+Communications sécurisées
+Messagerie sécurisée
+Stockage sécurisé
+Matériel et logiciel embarqué
+Environnement d’exécution sécurisé
+Identification, authentification et contrôle d’accès
+Conception d’architectures sécurisées
+Intégration sécurisée de produits
+Conformité fonctionnelle
+AMO SSI
+Canaux auxiliaires
+Injection de fautes
+Rétro-conception
+TEMPEST
+Analyse des mécanismes de protection locale
+Recherche de vulnérabilités sur protocoles et interfaces
+Audits de sécurité et Pentests
+Analyse de code (statique, dynamique)
+Recherche de vulnérabilités logicielles
+Recherche de vulnérabilités cryptographiques
+Rétro-conception logicielle
+ Composants
+logiciels
+Produits
+Systèmes
+GRC
+Communication / sensibilisation
+Juridique
+Cryptographie
+Composants électroniques
+Informatique de confiance
+Logiciels sécurisés 
+Multi niveaux
+OS sécurisés
+Protection contre la rétro-conception
+Figure 2 : 
+Besoins en produits/ 
+services/méthodes 
+de cyber-protection
+Figure 4 :  
+Besoins en produits/ 
+services/méthodes  
+en cyberdéfense
+Figure 3 :  
+Besoins en produits/ 
+services/méthodes  
+de cyber-résilience
+Cyber
+Résilience
+Résilience aux attaques (Redondance, Sanitization, redéploiement)
+Equipements de détection
+Equipements reconfigurables (réseaux et modems) 
+Systèmes reconfigurables 
+NOC
+MCO
+MCS
+PCA/PRA
+Méthodes
+Services
+Produits &
+Technologies
+Cyber
+Défense
+Lutte  
+informatique 
+défensive
+Connaissance de la menace 
+Se reporter aux méthodes du cyber - renseignement
+Administration de la sécurité
+Détection d’intrusions,  
+Sondes et capteurs réseaux 
+Prévention d’intrusions
+Outils d’investigation numérique
+Se reporter aux méthodes du cyber - renseignement
+Méthodes
+Services
+Produits &
+Technologies
+Formation
+Evaluation de sécurité 
+Réaction sur incident 
+CERT / CSIRT
+Supervision / SIEM Corrélateurs
+SOC Réaction à incident
+Firewalls
+Antivirus
+Antimalwares
+Entrainement supervision & gestion de crise
+Formation cyber-sécurité / SSI

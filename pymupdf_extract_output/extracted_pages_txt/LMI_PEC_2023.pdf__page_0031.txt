@@ -1,0 +1,94 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 31 / 68
+
+================================================================================
+
+31
+La chronologie se trouve être ici la meilleure alliée de 
+l’analyste. Les dates de publications permettent de 
+rebondir vers l’origine d’une rumeur, mais également 
+d’analyser l’évolution des comptes en question (confère 
+supra). Aujourd’hui, dépendant des réseaux sociaux 
+étudiés, de nombreux outils permettent de réaliser une 
+première étude, comparée ou non, du contenu de plusieurs 
+comptes. C’est — encore — particulièrement vrai sur Twitter. 
+Dès les premiers relais identifiés, il s’agira d’étudier 
+chacun d’eux afin d’isoler ceux qui sont générateurs 
+de rebonds. Il est tout à fait possible que l’un des 
+relais ait effectué une faute de sécurité opérationnelle 
+dans ses démarches (e-mail d’enregistrement visible, 
+comptes publics sur les réseaux sociaux... ) ou que l’on 
+retrouve des récurrences dans les heures d’activités, 
+le type de support utilisé, la date de création...  On 
+peut alors espérer retrouver des localisations, des 
+numéros de téléphone ou une liste publique d’amis.
+Outils et enjeux 
+Les  outils OSINT disponibles  évoluent, certains 
+surfent sur l’accessibilité d’une information, la 
+rapidité d’un script, puis disparaissent. Cependant, 
+il existe certains modules qui font aujourd’hui office 
+de standard dans la communauté par la qualité de 
+leurs développements et leurs constantes mises à jour. 
+La majorité d’entre eux automatisent des tâches 
+rébarbatives comme la recherche de pseudonymes 
+Arem ipsum subtexudae remosan 
+danditiatio conestemquia deligen 
+imaiore mposm fugitatem euonet 
+qua lorem spacedistiurs
+similaires en forgeant à la volée des centaines d’URL. 
+D’autres s’intéressent à la captation d’informations, possible 
+via des sélecteurs techniques précis comme les éléments 
+d’une adresse en Gmail, dans l’objectif de générer du pivot. 
+Si ces outils sont souvent le résultat d’initiative individuelle, 
+sur certain aspect, le monde universitaire n’est pas 
+en reste. On notera par exemple l’outil open source 
+Hoaxy, originaire d’Inde, qui permet de mettre en lumière 
+la probabilité qu’un utilisateur Twitter soit un avatar.
+Cependant l’acculturation du monde universitaire 
+à ces sujets est particulièrement inégale et l’OSINT 
+reste cantonnée aux formations Cyber et à leurs 
+CTF, là où le besoin d’appropriation des enjeux du 
+numérique touche, au-delà des avatars, l’ensemble des 
+professions. L’évolution des réseaux sociaux pousse 
+les analystes à une constante réinvention. Au regard 
+de la dynamique générale et du besoin opérationnel, il 
+est probable que nous assistions à une transformation 
+du secteur avec des avatars de meilleure qualité et, par 
+conséquent, de plus grandes difficultés à les déceler 
+uniquement manuellement. L’OSINT et sa boite à 
+outils ont donc encore de beaux jours devant eux ! 
+Relation
+Relation obtenue par rebond
+Pivot
+CONTENU 
+INITIAL
+-
+RELAIS 0
+RELAIS 3
+RELAIS 2
+RELAIS 
+3-1
+Éléments de
+langage distincts
+Pseudo : LOIK LE 
+MAGNIFIK
+    Adresse e-mail
+Localisation 1
+Localisation 1
+Partage d’une URL
+Loik 
+MNFK
+…
+…
+‘’langage distinct’’ 
+‘‘URL’’ 
+Liste d’amis : Loik MNFK
+Partage d’une URL
+Éléments de langage distincts
+Exploitation d’une faille de SECOPS en analysant les canaux de diffusion
+Découverte d’un nouveau pivot exploitable
+Légende :
+Article rédigé en 
+collaboration avec le Pôle 
+services d’Owlint

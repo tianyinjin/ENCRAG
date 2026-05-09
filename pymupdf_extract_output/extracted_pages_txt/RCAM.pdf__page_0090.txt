@@ -1,0 +1,65 @@
+Source file: RCAM.pdf
+Relative path: RCAM.pdf
+Page: 90 / 170
+
+================================================================================
+
+90 
+Règlementation de la Circulation Aérienne Militaire  
+Partie 7 
+Règles et services de la CAM 
+ 
+12 juin 2020 
+ 
+7027-03 
+Le système AIRAC 
+Les modifications des renseignements aéronautiques qui ont une incidence sur les cartes 
+et/ou les systèmes de navigation informatisés et qu’il faut communiquer selon le système 
+de régularisation et de contrôle de la diffusion des renseignements aéronautiques (AIRAC) 
+sont particulièrement importantes. 
+Pour la remise des informations et données brutes aux services d’information aéronautique, 
+le personnel des services de la circulation aérienne militaire se conforme au calendrier 
+préétabli et convenu internationalement des dates de mise en vigueur AIRAC, compte tenu 
+en outre d’un délai postal de 14 jours. 
+7027-04 
+Spécifications de précision et d’intégrité des données aéronautiques 
+Le personnel des services de la circulation aérienne militaire qui est chargé de fournir les 
+informations et données aéronautiques brutes aux services d’information aéronautique tient 
+compte, dans cette tâche, des spécifications de précision et d’intégrité des données 
+aéronautiques qui figurent aux tableaux 1 à 5 de l’appendice 4. 
+RCAM.7028 
+Altitudes minimales de vol 
+Des altitudes minimales de vol sont déterminées pour chacun des itinéraires CAM assurant une marge 
+minimale de franchissement pour l’obstacle déterminant. 
+Les ITI CAM sont normalement utilisés en espace aérien supérieur. Ils sont utilisables en espace aérien 
+inférieur sous certaines conditions comme support de navigation. 
+RCAM.7029 
+Importance de l’heure dans les services de la CAM 
+7029-01 
+Utilisation du temps 
+Les organismes des services de la CAM utilisent le temps universel coordonné (UTC), 
+exprimé en heures, minutes et, s'il y a lieu, secondes, le jour étant de 24 heures commençant 
+à minuit. 
+7029-02 
+Visualisation du temps 
+Les organismes des services de la circulation aérienne militaire sont équipés d’horloges qui 
+indiquent les heures et les minutes et qui sont clairement visibles de chaque poste 
+d’exploitation dans l’organisme intéressé. 
+7029-03 
+Vérification du temps 
+Il est procédé à la vérification des horloges et autres systèmes d’enregistrement de l’heure 
+des organismes des services de la circulation aérienne suivant les besoins, afin de s’assurer 
+que leurs indications sont exactes à 30 secondes près par rapport à l’heure UTC. 
+Les organismes des services de la circulation aérienne qui utilisent les communications par 
+liaison de données vérifient, selon les besoins, leurs horloges et autres systèmes 
+d’enregistrement de l’heure afin de s’assurer que leurs indications sont exactes à une 
+seconde près par rapport à l’heure UTC. 
+L'heure est vérifiée avant le début d'un vol et toutes les fois que cela est nécessaire au cours 
+du vol. 
+7029-04 
+Heure exacte 
+L’heure exacte est donnée par une station fixant l’heure officielle ou, si c’est impossible, 
+par un autre organisme qui obtient l’heure exacte d’une station fixant l’heure officielle. 
+Le temps utilisé dans les applications des communications est exact à la minute près. 
+Le temps utilisé dans les applications des communications par liaison de données est exact 
+à une seconde près par rapport à l'heure UTC.

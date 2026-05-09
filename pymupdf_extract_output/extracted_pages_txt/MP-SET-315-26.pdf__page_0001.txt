@@ -1,0 +1,54 @@
+Source file: MP-SET-315-26.pdf
+Relative path: MP-SET-315-26.pdf
+Page: 1 / 12
+
+================================================================================
+
+STO-MP-SET-315-26 
+1 
+ 
+ 
+ 
+ 
+A Novel Swarm Defense End-to-End System for Autonomous Drone 
+Detection, Tracking, and Neutralization 
+Antoine Fagette, Junior Samuel Lopez Yepez, Stephanie Allogba, Jeremy Viel 
+and Filipe Carvalhais Sanches 
+Thales Digital Solutions Inc., 6650 Street Saint-Urbain, Suite 350, Montreal 
+CANADA 
+Guillaume Dorion-Racine 
+ARA Robotics, 2260 Avenue Aird, Suite 204, Montreal 
+CANADA 
+Iraj Mantegh and Varun Mehta 
+National Research Council of Canada, Montreal 
+CANADA 
+Miodrag Bolic 
+University of Ottawa, Ottawa 
+CANADA 
+antoine.fagette@thalesgroup.com  
+ABSTRACT  
+As the usage of drones across various applications continues to grow, the security challenges associated 
+with their unsanctioned operations in restricted zones become increasingly critical. To address these 
+challenges, we present a novel approach for automatic and autonomous threat management that detects 
+drone intrusions and executes real-time countermeasures. The proposed system, called BlueSwarm 
+integrates sensor data, implements data communication among resources, and leverages artificial 
+intelligence to operate a counter-attacking swarm of drones. This work was validated during simulated and 
+real-world experiments, confirming its detection, tracking and neutralization capabilities.  
+The proposed counter-UAV system integrates a ground segment and an air segment. The ground segment is 
+composed of a ground control station, manned by an operator and acting as a Command & Control Center, 
+alongside a ground radar and a PTZ camera for long-range detection, classification and localization of 
+incoming threats. The air segment is composed of a fleet of five drones, each embedding an Electro-Optic 
+sensor and a deployable net as neutralization payload. Those drones deploy autonomously as a swarm to 
+intercept, track, assess and neutralize the intruding drones while keeping the human operator in the loop. 
+Each drone is operated by its own AI agent working collaboratively with the others and with the human 
+operator. The system is designed for scalability and adaptability. The number of ground sensors, their type 
+and distribution in space can be adjusted depending on the needs and configuration of the space to protect. 
+The number of defending drones and their payloads can be equally adapted. The system relies on machine 
+learning techniques to detect, track and localize intruders, and to adapt to constantly evolving threats.  
+We have studied, designed and implemented, in collaboration with subject matter experts, different use cases 
+to test our system in simulation and during real-world demonstrations. Those use cases involve the intrusion 
+of up to five enemy drones exhibiting patterns of careless, clueless and criminal operators, evolving as 
+independent individuals or in swarm in simulations, and two enemy drones for real-world demonstrations.  
+Each mission is organized in four distinct phases, ensuring a streamlined and efficient process from 
+detection to neutralization: (i) ground sensor-based detection, classification and localization of potential 
+threats, (ii) deployment of the defensive swarm of drones, (iii) assignment of each drone to individual

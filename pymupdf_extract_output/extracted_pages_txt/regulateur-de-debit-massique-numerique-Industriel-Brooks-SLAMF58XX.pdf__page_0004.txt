@@ -1,0 +1,113 @@
+Source file: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Relative path: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Page: 4 / 14
+
+================================================================================
+
+4
+Caractéristiques techniques – pression / température et certifications
+Caractéristiques techniques – pression / température et certifications
+SLAMf50 / 60
+SLAMf51 / 61
+SLAMf53 / 63
+SLAMf64
+VALEURS NOMINALES
+Plage de température de service
+–14 à 65 °C (7 à 149 °F) 7
+Différentiel minimal de pression
+(régulateurs)
+5 psi / 0,35 bar
+10 psi / 0,69 bar
+Min. : 7,5 psi / 0,52 bar à 500 l / min
+Min. : 14,5 psi / 1,00 bar à 1000 l / min
+Min. : 35,0 psi / 2,41 bar à 2500 l / min
+S. o.
+Différentiel maximal de pression
+(régulateurs)
+En fonction de 
+l’application, 
+jusqu’à 1500 psi / 
+103,4 bar 8
+50 psi / 3,45 bar
+290 psi / 20,0 bar
+S. o.
+Intégrité d’étanchéité (extérieure)
+1 × 10 – 9 atm. cm³ / s He
+Fermeture de vanne 
+(fuite incidente) 9  10
+< 1 % de la PE
+S. o.
+CARACTÉRISTIQUES MÉCANIQUES
+Type de vanne
+Normalement fermée, normalement ouverte, compteur
+S. o.
+Matériaux principaux en contact 
+avec le fluide
+Acier inoxydable 316, 316 / 316 L, acier inoxydable fortement allié, fluoroélastomères Viton®, 
+Buna-N, Kalrez®, Téflon® / Kalrez® et EPDM
+DIAGNOSTIC
+Témoins d’état
+Intégrité du MFC, état réseau
+Alarmes 11
+Sortie vanne de régulation, totalisateur de débit, interruption réseau, surchauffe, 
+surtension / baisse de tension, entretien
+Prise de diagnostic / service
+RS485 par prise minijack 2,5 mm
+7 Les certifications relatives aux zones dangereuses sont associées à une limitation de la plage de température de 0 – 65 °C.
+8 Pression diff. > 1500 psi sur commande spéciale.
+9 Sièges en métal et Téflon < 5 % de la pleine échelle.
+10 Caractéristiques de fuite incidente et de fermeture de la vanne pour type de vanne normalement fermée.
+11 Les modes d’alarme dépendent de l’interface de communication. Ils sont décrits dans le mode d’emploi de l’interface de communication numérique correspondante
+SLAMf50 / 60
+SLAMf51 / 61
+SLAMf53 / 63
+SLAMf64
+CARACTÉRISTIQUES DE FONCTIONNEMENT
+Plage de débit pleine échelle (éq. N 0 
+Deg C Ref)
+0,003 – 50 l(n) / min
+15 – 150 l(n) / min
+100 – 1100 l(n) / min
+>1100 – 2500 
+l( n) / min
+18 – 2160 m³ / h
+Précision du débit – appareils certifiés 
+ISO / CEI 17025 (linéarité incluse, 
+hors incertitude de mesure du système 
+d’étalonnage selon SEMI E69) 6
+±0,6 % du PC (20 – 100 % de la PE), 
+±0,12 % de la PE (< 20 % de la PE)
+±0,6 % de la PE
+S. o.
+Précision du débit (linéarité et 
+incertitude de mesure du système 
+d’étalonnage selon SEMI E69 
+incluses) 6
+±0,9 % du PC (20 – 100 % de la PE), 
+±0,18 % de la PE (< 20 % de la PE)
+±1,0 % de la PE
+±1,0 % de 
+la PE
+Plage de régulation éq. N2
+100:1 pour la PE de 1 – 50 l(n) / min (50:1 pour tous les autres débits PE)
+S. o.
+Répétabilité et reproductibilité
+0,20 % du PC
+±0,25 % du PC
+Linéarité
+Incluse dans la précision
+Temps de réponse (durée totale de 
+réglage dans les 
+±2 % de la PE pour un échelon de 
+régulation de 0 – 100 %)
+< 1 seconde
+< 3 secondes
+S. o.
+Stabilité du zéro
+< +0,2 % de la PE par an
+Coefficient de température
+Zéro : < 0,05 % de la PE par °C ; étendue : < 0,1 % du PC par °C
+Coefficient de pression
+±0,03 % par psi (0 – 200 psi N2)
+Sensibilité d’assiette
+Écart maximal de < 0,2 % de la PE à partir de la précision spécifiée après remise à zéro

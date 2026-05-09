@@ -1,0 +1,98 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 20 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+38 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 39
+• L’évaluation de sécurité : l’IA peut permettre la recherche de vulnérabilités 
+sur des logiciels mêmes complexes ou volumineux, mais aussi sur des com-
+posants avec la capacité d’analyser des images de puces électroniques. 
+L’IA montre aussi d’ores et déjà sa capacité à la caractérisation de menaces 
+DPA (Differential power analysis) permettant d’aider à la sécurisation de 
+composants. Enfin, l’IA peut permettre d’assister des équipes de pentest en 
+réalisant des tests automatisés permettant de démultiplier les capacités des 
+équipes ;
+• La détection d’attaques : ce sujet a probablement été un des premiers où 
+l’IA a été utilisée en cybersécurité. Il s’agit ici de détecter des signaux faibles 
+dans des masses de données importantes (des logs, par exemple), de 
+détecter des comportements anormaux d’individus ou de processus qu’ils 
+soient métiers ou informatiques, d’effectuer des analyses de corrélation 
+entre des multitudes d’évènements, et de détecter des logiciels malveillants 
+complexes ;
+• La réaction aux attaques : ce sujet reste aujourd’hui majoritairement à 
+défricher mais une IA pourrait : aider à proposer des mesures de réaction 
+face à une attaque, voire prendre automatiquement ces mesures, aider à 
+l’identification de la source de la menace et à développer des contre-mesures.
+B.6.3 _Sécurité de l’IA
+Les algorithmes d’IA, comme tous les algorithmes peuvent être la cible d’attaques 
+informatiques. C’est aussi le cas des machines qui les hébergent mais en première 
+hypothèse on considérera que ce point est adressé par les techniques classiques 
+de sécurisation de l’IT.
+Les systèmes d’IA devront donc être sécurisés depuis leur phase de conception. 
+Cette sécurité devra être évaluée lors des phases de qualification et la sécurité 
+réévaluée durant tout le cycle de vie du système. De manière synthétique, 
+quatre grands types de vulnérabilités pour les systèmes d’IA sont à prendre en 
+considération :
+• L’empoisonnement de données : introduction dans le jeu de données de 
+données erronées choisis pour affecter le comportement des systèmes ;
+• La porte dérobée : introduction d’un biais dans le modèle qui va déclencher 
+un certain comportement face un événement choisi par l’attaquant (ex : 
+marque sur un panneau STOP qui le fera considérer comme un autre panneau) ;
+• La reconstruction de données d’apprentissage : cette vulnérabilité consiste à 
+mener des actions de rétro-conception, elle permet de remonter aux données 
+qui ont servi à entrainer le modèle. Ces données peuvent être sensibles, voire 
+classifiées pour des applications défense ;
+• Le leurrage : il s’agit d’introduire une perturbation dans les données d’entrée 
+pour modifier la réponse du système en ajoutant du bruit dans une image ou 
+sur un son (one pixel attack par exemple), bruit choisi pour être indétectable 
+par un humain mais spécifiquement conçu pour provoquer une erreur du 
+système.
+Les techniques de sécurisation vont dépendre du type d’IA utilisé. Pour les IA 
+utilisant massivement des données (apprentissage automatique), leur qualité 
+intrinsèque et la qualité des traitements associés (mise en forme, filtrage, 
+annotations…) vont être prépondérantes pour que l’apprentissage se déroule 
+correctement. D’autres propriétés doivent aussi être étudiées, comme leur 
+intégrité, pour être sûr que l’apprentissage de déroule bien avec les données 
+sélectionnées à cet effet.
+Des méthodes algorithmiques peuvent aussi être employées pour éliminer 
+les menaces, elles sont listées plus haut. Certains moyens de détection per-
+mettent aussi d’identifier des attaques (par leurre notamment), ce qui vient 
+renforcer la sécurité de l’ensemble.
+B.6.4 _Agrément et homologation des solutions à base d’IA
+L’évaluation de produits de sécurité « traditionnels » (pare-feu, IDS, chif-
+freurs…) restait jusqu’à présent cantonnée à l’utilisation de techniques dé-
+terministes. L’intégration progressive d’algorithmes d’apprentissage et de 
+prise de décision dans les nouvelles familles de produits de sécurité néces-
+site de facto une adaptation des méthodes d’évaluation afin notamment de 
+renforcer l’efficacité intrinsèque de ces produits de sécurité.
+À l’instar des usages de l’IA en cybersécurité (détection d’intrusion, filtrage 
+de spams, analyse de malwares, détection d’exfiltration de données, authen-
+tification biométrique…), les méthodes utilisées (classification, partitionnement 
+de données (clustering), détection d’anomalies, régression linéaire et prédic-
+tions…) sont de plus en plus nombreuses, ce qui induit forcément : 
+• Des limitations d’ordre opérationnel (complexité du paramétrage, prise 
+en compte du modèle de menace…) ;
+• Des limitations liées à l’efficacité des algorithmes face aux attaques 
+complexes et/ou nouvelles ;
+• Des limitations liées à la robustesse des algorithmes (résistance à l’empoi-
+sonnement, résistance à l’évasion…).
+Dans ce contexte, la spécification d’une démarche d’évaluation / de certification 
+de produits de sécurité intégrant de l’IA devra reposer sur :
+• L’analyse du modèle de menace du produit (exposition du produit à 
+l’empoisonnement, intérêt de l’attaquant à évader le mécanisme cible, 
+confidentialité des entrées…) ;
+• L’analyse de l’adaptabilité du produit à l’environnement (adaptation des 
+paramètres au contexte opérationnel, capacité d’assistance au para-
+métrage…) ;
+• L’analyse de l’efficacité du produit dans un environnement réaliste ;
+• L’utilisation d’une plateforme Cyber Range générant du trafic d’attaque 
+et du trafic de vie pertinent ;
+• La confrontation du produit à un catalogue d’attaques ;
+• La construction de scénarios réalistes et variés ;
+• L’analyse de la robustesse des algorithmes retenus (« empoisonnement » 
+des données d’entrainement, évasion du moteur de test, inversion du 
+modèle, extraction du modèle et de ses paramètres / seuils…).

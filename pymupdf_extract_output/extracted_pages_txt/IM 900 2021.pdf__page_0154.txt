@@ -1,0 +1,65 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 154 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE 
+DROIT PRIVE 
+6.2 
+
+148 
+-
+la cible de l'homologation (le périmètre du système, le ou les référentiels 
+réglementaires applicables); 
+-
+les étapes de la démarche d'homologation ; 
+-
+les acteurs concernés, les actions à réaliser et les livrables attendus ; 
+-
+la liste des documents constituant le dossier d'homologation. 
+-
+Remarque: La stratégie d’homologation peut être commune à plusieurs systèmes 
+d’information, permettant ainsi de mettre en place une démarche d’homologation 
+cohérente sur un système plus global. 
+La démarche d’homologation doit être adaptée aux enjeux et éviter la  sur-sécurité  ou 
+encore la multiplication de documents fastidieux, inadaptés ou inefficaces. Il convient 
+donc de catégoriser les systèmes d’information pour éviter de conduire des démarches 
+d’homologation complexes, coûteuses et finalement inadaptées à leurs besoins de 
+sécurité. La catégorisation du SI dépend essentiellement de deux paramètres : son 
+exposition et sa criticité. 
+-
+L’exposition d’un SI se mesure par le nombre de point d’entrées et de chemins 
+d’attaques ouverts à un attaquant. L’exposition est directement liée au nombre 
+d’interactions avec d’autres SI et à l’accessibilité depuis des milieux plus ou moins 
+maîtrisés. Elle est au contraire réduite par un isolement des réseaux mais aussi grâce à 
+la sécurisation de l’environnement du SI (réseau support, hébergement et politiques 
+de sécurisation associées, organisation de la SSI, sensibilisation, sécurité physique, 
+etc.). Ainsi, un SI hébergé dans un environnement sécurisé et conforme aux exigences 
+de ce dernier ne présentera qu’une faible surface d’attaque limitant ainsi les besoins 
+d’étude de risques. 
+-
+La criticité d’un SI est directement liée à l’impact qu’une attaque pourrait avoir sur les 
+missions et les activités de l’entreprise et celles de l’autorité contractante, les 
+personnes et les biens. 
+Les méthodes et critères précis de catégorisation sont définis par l’autorité qualifiée d’un 
+SI. La catégorisation d’un SI est validée formellement par l’autorité qualifiée, en accord 
+avec l’autorité contractante. 
+Afin de simplifier le processus, l’opérateur privé peut définir des stratégies types 
+d’homologation adaptées à la catégorisation des SI choisie. 
+La démarche d’homologation pourra distinguer une homologation de référence du SI et 
+une ou des homologations de déploiement. L’homologation de déploiement est la 
+décision préalable à l’exploitation du SI en contexte opérationnel attestant de la 
+conformité à l’homologation de référence et, le cas échéant, du traitement des non-
+conformités.  
+La rédaction de la stratégie d’homologation peut s’appuyer sur le guide de l’ANSSI142. 
+ 
+La stratégie d’homologation doit faire l’objet d’une validation formelle par l’autorité 
+d’homologation. Pour les systèmes d’information classifiés et pour les systèmes Diffusion 
+Restreinte les plus exposés et critiques (cf. catégorisation des SI mentionnée ci-dessus), 
+la validation de la stratégie d’homologation est faite en accord avec l’autorité 
+
+142 https://www.ssi.gouv.fr/guide/lhomologation-de-securite-en-neuf-etapes-simples/

@@ -1,0 +1,52 @@
+Source file: 04500463_rev_e_smdr_feature_ovvu.pdf
+Relative path: 04500463_rev_e_smdr_feature_ovvu.pdf
+Page: 2 / 5
+
+================================================================================
+
+SMDR Feature Overview 
+ 
+2
+The columns are: 
+• Call type — Outbound (“O”), inbound (“I”) or transferred (“T”) at column 1. 
+• Date (“MM/DD”) — Begins at column 3. 
+• Start time (“HH:MM:SS”) — Begins at column 9. 
+• Duration (“HH:MM:SS”) — Begins at column 18. 
+• Extension number (“NNNN” under the four-digit dial plan, “NNN” under the three-digit dial plan) — Begins at 
+column 27. 
+• Digits dialed (right-justified)/Caller ID (left-justified) — Begins at column 32 under the four-digit dial plan or 
+column 31 under the three-digit dial plan (28 characters). 
+• Account code (“AAAA”) — Begins at column 60. (See also “SMDR format when using account codes,”  
+page 4.) 
+• Esi-Link home location number (“EE”)1 — Begins at column 71. 
+• Esi-Link remote location number (“RR”)1 — Begins at column 74. 
+• CO line number (“LLL” under the four-digit dial plan, “LL” under the three-digit dial plan) — Begins at column 77. 
+Each record is terminated with a line feed and carriage return character. 
+CSV SMDR format 
+The comma-separated value (CSV) format is readable from within Excel® and other spreadsheet applications. 
+ 
+Note: The CSV format does not support account codes (see page 4). 
+A CSV record is output for each completed call, and represented as follows (word-wrapped): 
+Format: 
+"T","MMDDYYYY","HHMMSS","HHMMSS","NNN","XXXXXXXXXX. . .XXX","CCCCCCCCCC. . .CCC","EE","RR","LL" 
+Example A (with Esi-Link): 
+"I","07042002","000852","000059","101","2144229700","ESTECH SYS INC. ","01","04","54" 
+Example B (no Esi-Link): 
+"O","10312003","221502","020512","190","12125551212",""," "," ","11" 
+ 
+The fields are: 
+• Call type (“T”) — Outbound (“O”), inbound (“I”) or transferred (“T”). 
+• Start date (“MMDDYYYY”) — Eight characters, zero-filled. 
+• Start time (“HHMMSS”) — Six characters, zero-filled; 24 hour clock. 
+• Duration (“HHMMSS”) — Six characters, zero-filled. 
+• Extension number (“NNN”) — Four characters, space-filled, right-justified. 
+• Digits dialed/Caller ID (“XXXXXXXX . . . XXX”) — Up to 28 characters, null-filled. 
+• Caller ID name (“CCCCCCCCC . . . CCC”) — Up to 24 characters, null-filled. 
+• Esi-Link home location number (“EE”)1 — Two characters (two-digit suffix). 
+• Esi-Link remote location number (“RR”)1 — Two characters, null-filled (two-digit suffix). 
+• Line number (“LL”) — Three characters, null-filled, right-justified. 
+Each field is delimited with double quote marks and separated with a single comma. Null fields are still included as  
+place holders (see Example B, above). Each record is terminated with a line feed and carriage return character. 
+ 
+                                                           
+1 Used only when Esi-Link is enabled and programmed. Esi-Link SMDR records are generated at only the home location.

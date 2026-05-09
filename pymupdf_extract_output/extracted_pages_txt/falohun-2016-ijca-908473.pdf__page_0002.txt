@@ -1,0 +1,107 @@
+Source file: falohun-2016-ijca-908473.pdf
+Relative path: falohun-2016-ijca-908473.pdf
+Page: 2 / 5
+
+================================================================================
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+31 
+Initiating Devices: This component acts as an input to the fire 
+alarm control unit and are either manually or automatically 
+actuated. Examples would be devices pull stations, heat 
+detectors, or gas detectors. Heat and gas detectors have 
+different categories of both kinds. Some categories are beam, 
+photoelectrical, aspiration, and duct. 
+Notification appliances: This component uses energy 
+supplied from the fire alarm system or other stored energy 
+source, to inform the proximate persons of the need to take 
+action, usually to evacuate. This is done by means of a 
+flashing light, strobe light, electromechanical horn, "beeper 
+horn", chime, bell, speaker, or a combination of these devices. 
+Building Safety Interfaces: This interface allows the fire 
+alarm system to control aspects of the built environment and 
+to prepare the building for fire, and to control the spread of 
+gas fumes and fire by influencing air movement, lighting, 
+process control, human transport and exit. [13]   
+Microcontrollers are designed for small or dedicated 
+applications. Microcontrollers are used in automatically 
+controlled products and devices, such as automobile engine 
+control systems, implantable medical devices, remote 
+controls, office machines, appliances, power tools, and toys. 
+By reducing the size and cost compared to a design that uses a 
+separate microprocessor, memory, and input/output devices, 
+microcontrollers make it economical to digitally control even 
+more devices and processes. Mixed signal microcontrollers 
+are common, integrating analog components needed to control 
+non-digital electronic systems. [14]  
+2.3 Embedded Design 
+A microcontroller can be considered a self-contained system 
+with a processor, memory and peripherals and can be used 
+with an embedded system. (Only the software needs be 
+added). The majority of microcontrollers in use today are 
+embedded in other machinery, such as automobiles, 
+telephones, appliances, and peripherals for computer systems. 
+These are called embedded systems. While some embedded 
+systems are very sophisticated, many have minimal 
+requirements for memory and program length, with no 
+operating system, and low software complexity. Typical input 
+and output devices include switches, relays, solenoids, LEDs, 
+small or custom LCD displays, radio frequency devices, and 
+sensors for data such as temperature, humidity, light level etc. 
+[6] .Embedded systems usually have no keyboard, screen, 
+disks, printers, or other recognizable I/O devices of a personal 
+computer, and may lack human interaction device. [1] .The 
+amount and type of detectors and the type of fire alarm system 
+that one chooses for property protection will depend on the 
+owner‟s property protection goals, the value of the property 
+and the requirements of the owner‟s insurance company. 
+Generally, heat detection will be used in all areas that are not 
+considered high value. Here again, one of the most common 
+mistakes in fire alarm system application is to provide partial 
+protection of a building and expect high performance from the 
+installed systems of any kind . [5] 
+ 
+Figure 2: A typical Fire Alarm System (Source: [1]). 
+2.4 Review of Related Works 
+[15] developed a system to counter the problems of gas 
+accidents in coal mines and family safety from gas usage 
+through the use of a new infrared detection optics principle. 
+The infrared optics gas detection was high in detection 
+accuracy, long range service life. It the system allowed the 
+passage of infrared signal to the gas intended for measurement 
+while its molecules will absorb the light energy. The 
+absorption relationship followed Lamber-Beer law. 
+In the year 2014, [12] stated that an efficient and smooth 
+working controller is needed to continuously sense both 
+leakage and level of the gas. And also fast response is 
+required when leakage is found and the monitoring system 
+must provide additional leakage information which can be 
+used in further processing. The detection system includes 
+Arduino duemilanove, microcontroller board compatible with 
+ATmega328p. coupled with the system is the weight sensor, 
+LCD display, GSM and DC motor. 
+[4] designed and implemented a GSM-Based Remote 
+Monitoring System. The  paper  focused  on  wireless  
+monitoring because  the  wireless  remote  monitoring  system  
+has  a wider  application. The hardware and software 
+architecture of the system was designed where the remote 
+signal is transmitted through GSM network. The system has 
+two parts: the monitoring center and the remote monitoring 
+station.  The monitoring center consists of a computer and a 
+TC35 communication module for GSM.  The computer and 
+the TC35 are connected by RS232.  The remote monitoring 
+station consist of a TC35 communication module  for GSM, 
+an MSP430F149 MCU, a display unit, sensors  and a data  
+gathering and processing unit. The software for the 
+monitoring center and the remote monitoring station were 
+designed using VB. 
+A review of gas leak detection techniques was done by [9] 
+with a classification of leak detection methods in a gas 
+pipeline to monitor the integrity of a pipeline. 
+In terms of mode of operation, [12] settled for the use an 
+Arduino board, which is quite expensive and bulky. [10] used 
+microcontroller (PIC16F877), which in turn is a soft real time 
+system. It is said that “A hard real time system should always 
+respond to an event within the deadline or else the system 
+fails and endangers human lives but in soft real time system,

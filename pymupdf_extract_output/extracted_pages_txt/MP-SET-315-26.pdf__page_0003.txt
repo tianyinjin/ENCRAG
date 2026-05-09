@@ -1,0 +1,36 @@
+Source file: MP-SET-315-26.pdf
+Relative path: MP-SET-315-26.pdf
+Page: 3 / 12
+
+================================================================================
+
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+STO-MP-SET-315-26
+3
+1.3
+Description and Capabilities of the BlueSwarm System
+Prior to real-world flight operations, the system is tested in simulation. The system (Figure 1), both during 
+simulated and real-world demonstrations, integrates a radar, a PTZ camera, a defensive swarm of five 
+drones, up to five intruding drones, one ground control station (GCS) per swarm, embedded cameras on each 
+defending drone and a simulation station. Each drone and the GCS operate through their own AI agent. For
+real-world flight demonstrations, additional components are integrated to align with prevailing security and 
+legal standards (e.g. manual drone controllers or a control STOP operations system). Field operators 
+comprise technical personnel, security flight observers, pilots, and ground control station operators. 
+Figure 1: High-level architecture of the BlueSwarm system.
+2.0
+SYSTEM COMPONENTS AND ORGANIZATION IN SIMULATED AND 
+REAL-WORLD ENVIRONMENTS
+2.1
+Overview of System Components
+The BlueSwarm system is divided into a ground segment and an air segment, each composed of various 
+hardware components. The efficiency of BlueSwarm is largely due to these carefully orchestrated elements.
+Stimulating our system for training and test purposes are a fleet of intruding drones and a number 
+of simulators.
+2.1.1
+The Ground Segment
+The ground segment is composed of a Ground Control Station (GCS), a ground radar and a ground PTZ.
+The Ground Control Station (GCS) acts as the Communication Centre. Not only is it the human interface for 
+the system but it also handles drone deployment, overall mission information, and coordination of system 
+responses. The GCS features a GIS-based user interface that enables the human operator to interact with the 
+system, monitor the ongoing mission, make informed decisions, and control desired system responses.

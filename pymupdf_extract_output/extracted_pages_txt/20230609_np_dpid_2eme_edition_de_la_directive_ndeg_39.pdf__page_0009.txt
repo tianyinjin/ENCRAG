@@ -1,0 +1,62 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 9 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 9 | 79 
+Un système industriel est alors susceptible de : 
+- 
+concourir directement à la réalisation d’une activité tout comme un système d’information 
+classique (système d’armes, équipements médicaux, machines-outils, …) ; 
+- 
+participer au soutien d’une activité en lui fournissant l’environnement dont elle a besoin 
+(infrastructure, énergie, climatisation, chauffage, …) ; 
+- 
+assurer la protection des biens et des personnes qui concourent à l’activité (contrôle d’accès, 
+vidéosurveillance, détection d’intrusion, système incendie, etc.) ; 
+- 
+favoriser une activité en apportant du confort aux biens et personnes. 
+L’activité à laquelle un système industriel contribue ainsi que sa part de contribution sont à définir 
+pour apprécier l’impact d’un incident sur ce même système industriel. 
+3.2.2. Selon le domaine métier 
+Il est aussi possible de regrouper les systèmes industriels en fonction de leur emploi et donc des 
+domaines métiers auxquels ils appartiennent :  
+- 
+les systèmes industriels d’infrastructure comprenant : 
+o ceux qui contribuent à la protection physique des installations et des sites, comprenant 
+les contrôles d’accès, la détection d’intrusion et la vidéosurveillance (CADIVS*) ; 
+o ceux de gestion technique d’infrastructure (GTI), dont la gestion technique de bâtiment 
+(GTB*), la gestion technique centralisée5 (GTC*), la gestion technique de site (GTS), la 
+gestion technique énergétique (GTE), etc. ; 
+o ceux de la sécurité incendie (INC) ; 
+o ceux aéroportuaires, industrialo-portuaires, des moyens de manutention et de levage ; 
+o ceux de servitudes dont les systèmes de climatisation, chauffage et ventilation (CVC), les 
+réseaux de desserte électrique, les réseaux de fluides ; 
+o les systèmes de contrôle commande (SCC*), systèmes concourant à l’infrastructure.  
+- 
+les systèmes de contrôle commande (SCC*) des systèmes d’information embarqués sur 
+système d’arme (SIESA) ; 
+- 
+les systèmes industriels de servitude (SIS), qui n’entrent pas dans les catégories 
+précédentes comme les systèmes permettant de remplir une ou plusieurs fonctions 
+d’environnement avec des contraintes plus ou moins sévères telles que la consommation, la 
+température, la taille et les performances en temps réels* (réseaux de fluides et réseaux de 
+desserte électrique autres que ceux concourant à l’infrastructure, vannes automatisées 
+utilisées par le SEO, etc.) ; 
+- 
+les systèmes industriels de plateforme de test et de mesure (éléments constitutifs d’outils 
+médicaux, de bancs d’essai, de plateformes d’analyse scientifique, etc.) ; 
+- 
+les systèmes industriels dédiés : simulateurs, machines-outils, etc. 
+Les systèmes de sûreté au sens de la [PSSI-E] et de la [PSSIM] désignent les systèmes 
+d’information qui contribuent à la protection physique et à la gestion des installations. Ils 
+englobent les CADIVS*, les GTI* et les INC. 
+En raison du développement de la numérisation des services et produits, il est parfois devenu 
+difficile d’identifier parmi les systèmes numériques ceux qui relèvent des systèmes industriels au 
+sens de la présente directive. Si un système numérique n’est pas identifié parmi ceux répertoriés 
+                                               
+5 Les systèmes de gestion technique centralisée (GTC*) désignent aussi l’ensemble des 
+ressources qui gère les équipements d’une ou de plusieurs fonctions d’un même domaine métier.

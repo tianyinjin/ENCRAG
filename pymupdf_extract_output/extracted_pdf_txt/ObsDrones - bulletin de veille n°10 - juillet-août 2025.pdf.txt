@@ -1,0 +1,923 @@
+Source file: ObsDrones - bulletin de veille n°10 - juillet-août 2025.pdf
+Relative path: ObsDrones - bulletin de veille n°10 - juillet-août 2025.pdf
+Page count: 17
+Extracted pages: 17
+
+================================================================================
+
+[Page 1 / 17 | chars: 264]
+--------------------------------------------------------------------------------
+
+2025
+OBSERVATOIRE        
+DES DRONES
+Juillet - Août
+Bulletin de veille d’actualité n°10
+Etude financée par la 
+Direction générale des relations 
+internationales et de la stratégie
+Marché : 2023.1050131206 
+20250902_NP_Obsdrones_Bulletin-de-veille-n010-juillet-aout
+
+[Page 2 / 17 | chars: 629]
+--------------------------------------------------------------------------------
+
+2
+Avertissement
+Les opinions et analyses exprimées dans ce livrable n’engagent que la responsabilité de leurs auteurs. Elles
+ne sauraient représenter ou traduire une prise de position de l’organisme pilote de l’étude, de la Direction
+générale des relations internationales et de la stratégie ou du ministère des Armées.
+The opinions and analyses expressed in this document are solely the responsibility of their authors. They 
+cannot be considered as representing or reflecting a stance of the lead organization of the study, the 
+Directorate General for International Relations and Strategy, or the Ministry of the Armed Forces.
+
+[Page 3 / 17 | chars: 3384]
+--------------------------------------------------------------------------------
+
+AVANT-PROPOS
+L'observatoire des drones vise à exposer les événements récents liés à l'utilisation
+opérationnelle des drones, les avancées technologiques, les concepts d'emploi, ainsi que les
+perspectives économiques (contrats, acquisitions). Les informations présentées ici ne sont
+qu'un condensé extrait de 400 articles couvrant la période de juillet à août 2025.
+Les forces ukrainiennes poursuivent une stratégie d’attrition visant les infrastructures critiques
+de la BITD russe (raffineries, usines de munitions, bases aériennes) afin de perturber les chaines
+logistiques russes et de freiner la montée en puissance de ses capacités de production de
+drones. Cette campagne s’accompagne d’une montée en gamme capacitaire avec le déploiement
+de ses premiers intercepteurs dotés de capteurs IR nationaux et l’intégration d’UGV de combat
+et de soutien logistique au sein d’unités déjà constituées. En réponse, la Russie privilégie une
+logique de saturation, orchestrant des salves de plusieurs centaines de Shahed et Lancet. Ces
+systèmes sont adaptés à des charges antichars ou à des mines PTM-3, et lancés depuis des
+plateformes mobiles. En parallèle, l’Allemagne, la Belgique, le Canada, le Japon et Taïwan
+accélèrent leurs programmes et coopérations industrielles en matière d’UAV/USV tandis que
+l’OTAN expérimente l’intégration des USV Voyager en mer Baltique pour tirer parti du RetEx
+ukrainien.
+En matière d’avancées technologiques, les salons LANDEURO (Allemagne), IDEF (Turquie), et
+Innoprom (Russie) ont été l’occasion de mettre en exergue l’essor des drones cargo lourds et
+des concepts de plateformes-mères, confirmant la priorité donnée à la logistique autonome. Les
+munitions rodeuses se généralisent, avec une offre turque, ukrainienne et russe toujours plus
+variée, combinant guidage renforcé (IA, fibre optique, RF) et ogives modulaires. Enfin, la
+dronisation terrestre semble franchir une nouvelle étape, avec l’apparition d’UGV de combat
+(Zmiy Droid 12.7, Lyut, VU-T10), tandis que la lutte anti-drones se diversifie entre solutions
+low-cost et intercepteurs réutilisables (Mongoose).
+Poursuivant la transformation doctrinale induite par le RetEx ukrainien, les Etats-Unis actent une
+rupture avec la reclassification des UAV légers en « consommables », entérinant une doctrine de
+saturation ou la masse prime sur la sophistication. L’Ukraine, de son coté, élargit la dronisation
+du champ de bataille avec la création d’un bataillon d’UGV et le développement d’innovations
+comme l’intégration de MANPADS aux USV fluviaux. Enfin, en Europe, le Royaume-Uni consolide
+ses capacités en ouvrant un centre d’entrainement Protector et en testant des UAV cargos
+lourds embarqués, tandis que l’Allemagne amorce une structuration industrielle autour de l’IA
+afin de soutenir sa BITD.
+Enfin, sur le plan économique, les coopérations industrielles s’intensifient à l’échelle
+européenne et internationale. Baykar (Turquie) consolide son implantation avec l’acquisition de
+Piaggio Aerospace et lance, via LBA Systems avec Leonardo, la production de TB2 et d’Akinci en
+Italie. La Pologne prévoit pour sa part d’investir 55 M$ en 2025 afin de procéder à l’acquisition
+d’UAV à grande échelle. Dans le domaine naval, l’Allemagne serait en négociations avec IAI pour
+acquérir des UUV Blue Whale, tandis qu’EuroAtlas et Rheinmetall s’associent autour de
+l’intégration des UUV Greyshark.
+3
+
+[Page 4 / 17 | chars: 3269]
+--------------------------------------------------------------------------------
+
+1 - USAGES OPÉRATIONNELS
+▪Un hélicoptère de la police abattu par un drone | Colombie
+▪Les F-22 seront les premiers chasseurs à contrôler des CCA | Etats-Unis
+▪Le Japon annonce l’intégration des V-Bat pour contrer les menaces maritimes | Japon
+▪La Russie construit des sites de lancement de Shahed sur l’aéroport de Donetsk | Russie
+▪Les Russes utilisent des UAV à réaction pour frapper Kiev | Russie
+▪En juin, l’Ukraine a mené 115 attaques avec des UAV longue portée (LR) | Ukraine
+▪Anduril présente pour la première fois l’Altius-600M en action en Ukraine | Ukraine
+▪Un UAV ukrainien intercepte un UAV Orion | Ukraine
+▪Des UAV ukrainiens mettent hors service 2 des plus grandes raffineries de Rosneft | Ukraine
+▪UGCRV : l’US Army mise sur des UGV polyvalents et bas coût | Ukraine
+▪L’Ukraine déploie des UGV pour améliorer l’évacuation des blessés | Etats-Unis
+▪L’OTAN déploie des véhicules sans pilote pour la surveillance de la mer Baltique | OTAN
+2 - BRIQUES TECHNOLOGIQUES
+▪La Chine présente L’UAV/Cargo lourd DJI FC100 pour des missions de réapprovisionnement | Chine
+▪La Corée du Sud développe un drone de combat embarqué | Corée du Sud
+▪Les Etats-Unis développent leur propre version d’un drone kamikaze iranien | Etats-Unis
+▪Les Américains lancent avec succès l’APKWS à partir du drone tactique TRV-150 | Etats-Unis
+▪Le General Atomics – YFQ-42 effectue son 1er vol | Etats-Unis
+▪Airbus travaille sur un A400M Mothership | Europe
+▪La France, L’Allemagne et le Royaume-Uni testent le drone d’attaque HX-2 d’Helsing | Europe
+▪La Turquie se concentre sur le Kizilelma, l’Anka III et le TB3 pour son futur porte-avions | Turquie
+▪L’Ukraine propose aux industriels étrangers d’effectuer leurs tests sur le front | Ukraine
+▪L’Ukraine introduit des munitions anti-drones conçues pour les fusils d’infanterie standard | Ukraine
+▪La Chine révèle deux XLUUV | Chine
+3 - CONCEPTS D’EMPLOI
+▪Le Canada envisage d’appuyer sa flotte de F-35 avec des UCAV | Canada
+▪Nouvelle classification des UAV au sein du DoD américain pour accélérer leur acquisition | Etats-Unis
+▪La Royal Navy teste l’USV Malloy pour la logistique sur l’HMS Prince of Wales | Royaume-Uni
+▪Le Japon explore le concept de Loyal Wingman avec un UAV expérimental | Japon
+▪La Chine teste des UGV avec des lance-roquettes | Chine
+▪La Marine canadienne teste l’USV armé Hammerhead lors de l’exercice Trident Fury 2025 | Canada
+▪Les USV Voyager démontrent des capacités de surveillance avancées lors d’un exercice | OTAN
+4 - PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+▪L’Allemagne va financer la production de 500 UAV ukrainiens Liutyi | Allemagne / Ukraine
+▪Baykar finalise l’acquisition de Piaggio Aerospace | Italie / Turquie
+▪Le Koweït reçoit ses premiers TB2 | Koweït
+▪La Norvège envisage des UAV de Northrop Grumman ou General Atomics pour la SurMar | Norvège
+▪La Pologne va investir $55M en 2025 pour l’achat d’UAV à grande échelle | Pologne
+▪L’Allemagne serait en négociations avec IAI pour acquérir des UUV Blue Whale | Allemagne
+▪EuroAtlas et Rheinmetall s’associent pour intégrer les UUV Greyshark | Allemagne
+▪L’US Navy annonce les exigences du futur USV MASC | Etats-Unis
+SOMMAIRE
+5
+5
+5
+5
+5
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+9
+10
+10
+10
+10
+11
+11
+11
+11
+12
+12
+12
+12
+13
+13
+13
+13
+13
+14
+14
+14
+14
+14
+4
+
+[Page 5 / 17 | chars: 4256]
+--------------------------------------------------------------------------------
+
+AIR
+L’accroissement manifeste de l’usage de tous types de drones au cours de la période confirme les
+tendances observées ces derniers mois, sur le front ukrainien. Kiev intensifie les frappes en profondeur sur
+les infrastructures critiques russes, notamment via l’Altius 600M et poursuit ses interceptions air-air entre
+UAV. En réaction, Moscou érige de nouveaux sites de lancement pour Shahed et déploie des drones à
+réaction conçus pour saturer les défenses adverses. Enfin, l’OTAN déploie en mer Baltique des USV de
+nouvelle génération tandis que le Japon renforce sa surveillance côtière avec le V-BAT, illustrant la
+progression rapide de la dronisation dans toutes les armées.
+1/ USAGES OPÉRATIONNELS
+5
+Les F-22 seront les premiers chasseurs à contrôler des CCA 
+Source : Next Gen Defense
+Analyse : L’USAF se prépare à recevoir et à mettre en œuvre les premiers CCA. Il est probable qu’après le F-22, l’USAF équipe les F-
+15 puis plus tard, les F-35.
+09/07/2025
+ETATS-UNIS
+Le F-22 Raptor sera le 1er type d’avion de l’USAF pouvant contrôler des CCA. La demande de budget de l’USAF pour l’exercice 2026
+comprend un poste consacré aux modifications des F-22 pour soutenir le CCA. Cette section alloue un peu plus de 15 M$ au
+programme d’intégration des plates-formes habitées. 142 F-22 devraient être modifiés. On ignore actuellement quel système de
+communication sera utilisé entre le F-22 et le CCA. Il s’agira probablement de l’IFDL, déjà utilisé pour l’échange de données entre les
+F-22. La proposition de budget de 2026 comprend également 870 M$ pour le programme CCA Inc 1 dont l’USAF prévoir d’acquérir
+entre 100/150 exemplaires avec un objectif final de 1000 CCA.
+Analyse : Il s’agit d’une confirmation mais elle montre que le Japon est bien décidé à renforcer
+considérablement et rapidement les composantes UAV de ses différentes forces.
+Le Japon annonce l’intégration des V-BAT pour contrer les menaces maritimes 
+Source : Flight Global
+JAPON
+16/07/2025
+Selon les informations publiées le 16 juillet dans le Livre blanc sur la défense 2025 du MoD
+japonais, le Japon renforce ses capacités de défense maritime en intégrant des UAV dans ses
+forces navales dans le cadre d’une stratégie plus large visant à améliorer la préparation
+opérationnelle dans un environnement de sécurité régional plus complexe. Le Japon prévoit
+d’acquérir 6 systèmes de petits UAV V-Bat pour des opérations à partir de navires de guerre
+japonais.
+Un hélicoptère de la police abattu par un drone
+Source : TWZ
+Analyse : Le type de drone n’a pas été précisé. L’incident démontre que la menace drone n’épargne pas les opérations de police et
+souligne la vulnérabilité critique des hélicoptères dans ce contexte.
+22/08/2025
+COLOMBIE
+En Colombie, le 21 août, un Black Hawk avec des policiers à bord s’est écrasé à la suite d’une attaque d’UAV. Selon les autorités, 12
+policiers sont morts et cinq autres ont été blessés. L’hélicoptère de la police abattu assurait la sécurité du personnel impliqué dans la
+destruction des cultures de coca, et a été attaqué par un drone.
+La Russie construit des sites de lancement de Shahed sur l’aéroport de Donetsk
+Source : Militarnyi
+Analyse : Ces travaux sont assez logiques et pourraient permettre à la Russie « d’allonger » mécaniquement la portée des Shahed,
+ainsi que de réduire le temps d’alerte côté ukrainien. Il est très probable que l’Ukraine mène rapidement des attaques sur ces sites.
+03/08/2025
+RUSSIE
+Les forces russes ont lancé des travaux de construction sur l’aéroport de Donetsk. Des images montrent la restauration de certaines
+infrastructures, l’installation de réservoirs de carburant et d’équipements militaires. On ne sait toujours pas s’il s’agit d’efforts de
+reconstruction civile ou d’un projet militaire plus large. Selon CyberBoroshno, un groupe ukrainien d’analystes militaires
+indépendants, la Russie construirait des infrastructures pour lancer des Shahed et Geran depuis l’aéroport. Les analystes annoncent
+avoir identifié des transformations sur les zones de parking de l’aéroport (peut-être pour y installer des réserves de carburants), la
+construction de postes de contrôle des drones et d’emplacement de stockage des ogives, ainsi que des préparatifs pour remettre en
+état certaines parties de la piste.
+
+[Page 6 / 17 | chars: 4330]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°10 / Juillet-Août 2025
+1/Usages opérationnels
+6
+Anduril présente pour la première fois l’Altius 600M en action en Ukraine
+Source : Militarnyi
+Analyse : Pour l’Ukraine, l’Altius constitue une arme moderne et performante. Pour Anduril, le RetEx acquis va lui permettre à la fois
+d’améliorer son système et de proposer un système « combat proven » sur le marché.
+22/07/2025
+UKRAINE
+Anduril Industries a publié la première photo publique de l’Altius 600M en combat de nuit. Bien que
+la société américaine n’ait pas nommé le pays, l’Ukraine est le premier utilisateur à avoir déployé
+ces UAV en situation de combat. L’Ukraine utilise des Altius 600 dans la guerre contre la Russie
+depuis 2023, date à laquelle ils ont été commandés par le gouvernement américain dans le cadre
+de l’aide militaire internationale. En mars, le Royaume-Uni a commandé des UAV Altius 600M et
+Altius 700M pour l’Ukraine. Plusieurs contrats d’une valeur totale de 30 M£ ont été signés.
+Un UAV ukrainien intercepte un UAV Orion 
+Source : CUAS Hub
+Analyse : Si la destruction est confirmée, il s’agit d’une victoire qui pourrait obliger les MALE russes à voler plus haut et donc à être
+moins performants.
+26/07/2025
+UKRAINE
+Des opérateurs d’UAV ukrainiens du Centre « A » des opérations spéciales du Service de sécurité ont intercepté un drone MALE Orion
+dans ce qui semble être l’engagement de drone à drone le plus avancé enregistré à ce jour. L’interception a été confirmée par des
+séquences vidéo publiées par le SBU. Bien qu’il ne soit pas clair si l’Orion a été complètement détruit en raison de l’absence de
+confirmation visuelle objective, les dommages semblent suffisants pour avoir mis l’avion hors d’état de nuire. Il s’agit de la plus grande
+cible aérienne à ce jour, interceptée avec succès par l’une des équipes de défense aérienne ukrainiennes basées sur des UAV.
+En juin, l’Ukraine a mené 115 attaques avec des UAV Longue portée (LR)
+Source : Militarnyi
+Analyse : Ces attaques visent des sites militaires ou industriels liés à la défense russe. L’Ukraine montre ainsi qu’elle a la capacité de
+frapper le territoire russe en profondeur.
+08/07/2025
+UKRAINE
+Les forces ukrainiennes ont utilisé à au moins 115 reprises des UAV de longue portée pour frapper la Russie en juin. Oleksandr
+Syrskyi, commandant en chef des forces armées ukrainiennes n’a pas précisé si ces frappes visaient exclusivement des cibles sur le
+territoire russe ou si ce nombre incluait également les frappes sur le territoire ukrainien occupé.
+Des UAV ukrainiens mettent hors service 2 des plus grandes raffineries de Rosneft 
+Source : Militarnyi
+Analyse : L’information reste à confirmer mais elle montre la pertinence de l’attaque et de la logique de viser les installations
+pétrolières. Il reste à savoir combien de temps mettront les Russes pour retrouver leur capacité initiale.
+04/08/2025
+UKRAINE
+Le 2 août, une frappe de drone menée par les forces ukrainiennes a mis hors service deux des principales raffineries de pétrole
+russes exploitées par Rosneft. La plus grande raffinerie de Rosneft – la Compagnie de raffinage de pétrole de Riazan – a réduit ses
+activités à environ la moitié de sa capacité, tandis que la raffinerie de Novokuibyshevsk a complètement cessé ses activités depuis
+l’attaque. La raffinerie de Riazan traite 13,7 millions de tonnes de pétrole par an, ce qui en fait la plus grande installation de Rosneft et
+l’une des cinq premières raffineries de pétrole de Russie. À la suite de l’attaque, 2 de ses 3 principales unités ont été fermées.
+Les Russes utilisent des UAV à réaction pour frapper Kiev 
+Source : Kyiv Independent
+Analyse : L’emploi de Geranium 3 reste probable mais à confirmer. L’augmentation de MTOW annoncée est certainement liée au
+réacteur et au carburant nécessaire. Il n’est pas certain que la charge utile soit augmentée. Il n’existe pas d’information sur la cadence
+de production de Geranium 3 en Russie.
+28/08/2025
+RUSSIE
+Après une attaque massive de missiles et d’UAV sur Kiev dans la nuit du 27 au 28 août, les débris d’un UAV à réaction de la famille
+Shahed/Geranium ont été retrouvés. Il est probable qu’il s’agisse d’un Geranium 3, version russe du Shahed 238 iranien. Le
+Geranium-3 est annoncé avec une longueur de 3,5 m, une envergure de 3 m, une endurance de 2,4 h, une MTOW de 380 kg.
+
+[Page 7 / 17 | chars: 4400]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°10 / Juillet-Août 2025
+1/Usages opérationnels
+7
+L’OTAN déploie des véhicules sans pilote pour la surveillance de la mer Baltique
+Source : Naval News
+Analyse : Avec la TF-X, l’OTAN accélère dans le domaine des USV et va permettre à ce type de systèmes de rapidement atteindre le
+niveau opérationnel.
+08/07/2025
+OTAN
+Lancée début 2025, l’opération Baltic Sentry est le nouvel exercice de l’OTAN en mer Baltique
+dédié aux systèmes navals autonomes et à l’IA. Dans ce cadre, l’Alliance a constitué une Task
+Force X (TF-X), une flotte expérimentale regroupant différents types d’USV. L’objectif n’est pas de
+constituer une force « opérationnelle », mais de disposer d’un laboratoire flottant où les alliés
+riverains de la Baltique, sous pilotage américain, peuvent tester des solutions, comparer leurs
+besoins et envisager de futures mutualisations. La première phase a porté sur quatre plateformes
+USV distinctes – un USV léger pour la guerre des mines ; un USV de type patrouilleur rapide pour
+la surveillance côtière ; un USV logistique pour le transport de charges en zone contestée ; un USV
+de renseignement, équipé de capteurs ISR. La seconde phase (2025-2026), doit élargir le spectre
+à une vingtaine de plateformes et systèmes, afin d’évaluer la capacité de l’OTAN à gérer
+simultanément un volume accru de drones navals, interconnectés entre eux et avec les bâtiments
+habités. Baltic Sentry sert ainsi de banc d’essai pour transformer des innovations issues de
+programmes nationaux (comme la Task Force 59 de l’US Navy dans le Golfe) en concepts
+utilisables par les marines européennes.
+NAVAL
+TERRE
+L’US Army relance son programme de véhicules terrestres sans pilote avec une approche « bas coût ». Rebaptisé UGCRV (Unmanned
+Ground Commercial Robotic Vehicle), il succède au RCV, annulé en mai 2025 malgré des prototypes développés par Textron, jugés
+trop complexes et coûteux. Cette réorientation s’appuie notamment sur les enseignements tirés du conflit en Ukraine, où l’usage
+massif et pragmatique des drones terrestres a montré l’intérêt de plateformes simples, abordables et rapidement déployables.
+L’objectif américain est désormais clair : disposer d’une solution dérivée du marché civil, robuste et financièrement accessible, avec
+un prix unitaire plafonné à 650 000 $ pour équiper les brigades blindées. Le futur UGCRV devra transporter 1 t de charge utile,
+atteindre 30 km/h sur route et 22 km/h en tout-terrain, et être doté de capteurs visuels, thermiques et audio à 360°. Conçu pour
+fonctionner à la fois en téléopération et en mode autonome, il devra aussi intégrer facilement différentes charges utiles. Les
+industriels intéressés ont jusqu’au 29 août 2025 pour répondre à la RFI.
+UGCRV : l’US Army mise sur des UGV polyvalents et bas coût
+Source : The Defense Post
+Analyse : L’US Army veut un UGV polyvalent mais abordable, afin d’en déployer massivement, s’appuyant sur le RetEx ukrainien et
+confirmant son tournant robotique. Les exigences restent limitées pour l’instant, mais la compétition sera intense, avec probablement
+le retour des acteurs du programme RCV, prêts à adapter leurs solutions à ce nouveau format.
+ETATS-UNIS
+23/08/2025
+L’Ukraine déploie des UGV pour améliorer l’évacuation des blessés
+Source : United24 Media
+Analyse : Les forces ukrainiennes cherchent par tous les moyens à limiter les pertes humaines et la généralisation des UGV
+d’évacuation va dans ce sens. Il est probable que toutes les forces modernes occidentales tireront des leçons de cet emploi majeur.
+10/08/2025
+UKRAINE
+Le CEMA ukrainien a annoncé que les forces armées ukrainiennes entrent dans une nouvelle phase
+de soutien médical sur le champ de bataille en élargissant l’utilisation d’UGV pour l’évacuation des
+blessés. Le CEMA ukrainien a demandé aux commandants d’accélérer l’intégration des UGV
+d’évacuation ainsi que de nouveaux cadres logistiques et organisationnels pour assurer un transport
+rapide et sûr des blessés. En août, le drone terrestre Zmiy-500 de la brigade Khartiia de la Garde
+nationale a parcouru 34km et a réussi à évacuer un soldat blessé de la ligne de front. Les Zmiy-500
+sont le plus souvent utilisés pour la logistique et l’évacuation. L’utilisation des Zmiy-500 a été
+officiellement approuvée par les forces de défense ukrainiennes en 2024. Il est annoncé avec une
+masse de 850 kg et il est capable de transporter jusqu’à 500 kg.
+
+[Page 8 / 17 | chars: 4213]
+--------------------------------------------------------------------------------
+
+AIR
+L’ intégration de capacités avancées aux UxV s’accélère à l’échelle mondiale. Les projets de « porte-drones »
+- du FC 100 chinois à l’A-400M Mothership d’Airbus - restent au stade conceptuel. La modularité, en
+revanche, franchit un cap, avec le HX-2 européen ou le TRV-150 américain, tandis que les Etats-Unis
+développent aussi un drone kamikaze low cost inspiré du Shahed iranien. Quant à la coopération homme-
+machine, elle progresse en Asie ouvrant la voie à des flottes mixtes plus flexibles. Enfin, l’Ukraine demeure
+un laboratoire opérationnel, accélérant l’innovation grâce à ses plateformes de tests et aux munitions anti-
+UAV, destinées à protéger l’infanterie.
+2/ BRIQUES TECHNOLOGIQUES
+8
+Le 30 juin, la société chinoise DJI a lancé le FC100, son nouvel UAV/cargo. DJI indique que le
+FC100 est conçu pour être utilisé dans la logistique industrielle et d’urgence, y compris des
+applications telles que les interventions d’urgence, le soutien technique, la lutte contre les
+incendies, le transport maritime et l’approvisionnement d’infrastructures à haute altitude. Le FC100
+a une CU max de 80 kg lorsqu’il est utilisé avec une batterie et 65 kg lorsqu’il est utilisé avec deux
+batteries, avec une masse maximale au décollage de 149,9 kg. Le FC-100 a 4 bras avec 8 rotors de
+1,57 m.
+La Chine présente l’UAV/Cargo lourd DJI FC100 pour les missions de réapprovisionnement
+Source : Army Recognition
+Analyse : Le FC100 se présente comme un UAV cargo aux caractéristiques intéressantes, qui pourrait séduire des pays non alignés
+ou alliés de la Chine, en Asie, en Afrique et au Moyen-Orient, où Pékin développe déjà une influence militaire et industrielle.
+CHINE
+02/07/2025
+La société sud-coréenne KAI a lancé des travaux sur un UAV basé sur un porte-avions. Le nouvel
+UCAV serait une version navalisée du concept d’UCAV de l’armée de l’air en cours de
+développement. Le programme a été dévoilé le 8 juillet. KAI décrit le système comme un UCAV
+avec une faible observabilité, un train d’atterrissage renforcé et une crosse d’appontage. KAI
+annonce que le drone sera capable de décoller et d’atterrir sur des navires conventionnels équipés
+de catapultes électromagnétiques. L’UCAV devrait transporter une gamme de charges utiles de
+missions : radar AESA, IRST, EO/IR. Sa MTOW serait inférieure à 6 t avec une CU de 800 kg et un
+rayon d’action d’environ 300 nautiques. Le système serait polyvalent : missions air-air, attaque au
+sol et ISR.
+La Corée du Sud développe un drone de combat embarqué
+Source : Defence-Blog
+Analyse : L’annonce paraît pertinente et cohérente dans une optique de mutualisation avec l’UCAV de l’armée de l’Air. Toutefois, la
+Corée du Sud ne disposant pas actuellement de porte-avions, on peut s’interroger sur l’intérêt de développer un tel système.
+COREE DU SUD
+09/07/2025
+Les États-Unis ont dévoilé leur propre UAV/OWA, conçu pour rivaliser avec le Shahed-136
+largement utilisé par l’Iran et la Russie. Le système LUCAS a été présenté au secrétaire à la
+Défense au Pentagone. Le système, développé par SpektreWorks basé en Arizona, vise à fournir
+une plate-forme flexible et low cost capable de prendre en charge des opérations dans
+l’Indopacifique. Son architecture ouverte lui permettrait d’intégrer une variété de CU, offrant une
+approche modulaire des missions ISR, Strike et soutien des communications. Il dispose de
+plusieurs configurations de lancement, y compris le décollage assisté par fusée et le déploiement
+sur camion.
+Les États-Unis développent leur propre version d’un drone kamikaze iranien
+Source : Defence-Blog
+Analyse : L’annonce demeure très imprécise : aucun détail n’a été donné sur le statut du système (démonstrateur, prototype, présérie
+?), ses performances, ses coûts – la mention de “Low Cost” restant trop vague – ni sur les cadences de production envisagées. On
+ignore également si le DoD a prévu de l’acquérir, et pour quelles forces. Pour l’heure, cela reste un mystère. D’après les premières
+images, le LUCAS semble reprendre, du moins dans sa configuration, la formule des Shahed : aile delta, moteur à hélice arrière et
+petites dérives (ou winglets) en bout d’aile. Il faudra donc attendre encore avant d’en savoir davantage.
+ETATS-UNIS
+16/07/2025
+
+[Page 9 / 17 | chars: 4322]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°10 / Juillet-Août 2025
+2/Briques technologiques
+9
+Les forces armées françaises, allemandes et britanniques ainsi que celles d’autres pays européens
+testent actuellement l’UAV d’attaque Helsing HX-2. Si les essais s’avèrent concluants, ils pourraient
+ouvrir la voie à des acquisitions. La Bundeswehr a pour objectif d’achever les essais du HX-2 d’ici
+la fin 2025. Selon Helsing, les premiers HX-2 ont déjà été livrés à l’Ukraine pour une qualification,
+qui devrait être achevée dans quelques semaines. Helsing considère l’HX-2 comme la réponse
+européenne au Lancet russe en étant tout à la fois plus performant et moins onéreux.
+Actuellement, Helsing est capable de produire mensuellement 450 HX-2 dans son usine en
+Allemagne. Selon Helsing, le HX-2 pèse 12 kg, a une portée de 100 km et une vitesse maximale de
+220 km/h. Sa charge explosive maximale est de 4 kg (la portée étant alors probablement réduite).
+La France, l’Allemagne et le Royaume-Uni testent le drone d’attaque HX-2
+Source : Calibre Defense
+Analyse : La démarche est logique. Le HX-2 et ses futures itérations vont bénéficier de leur emploi en Ukraine. S’il devient une
+référence en Europe et bénéficie de commandes multinationales groupées, les prix pourraient alors fortement décroitre. De plus son
+origine et sa production européenne sont des facteurs importants pour l’indépendance stratégique européenne.
+EUROPE
+10/07/2025
+Airbus travaille sur une version de l’A400M comme mothership UAV. L’idée est d’adapter un
+A400M pour agir comme un hub de communication, distribuant des informations à d’autres
+systèmes aéroportés et terrestres. Pour cela, il s’agit notamment de doter l’A400M de LdD haut
+débit. Grâce à sa grande charge utile et à son rayon d’action, l’A400M pourrait déployer jusqu’à 50
+petits UAV ou 12 UAV lourds.
+Airbus travaille sur un A400 M Mothership 
+Source : UAS Vision
+Analyse : L’idée n’est pas neuve mais elle suppose des modifications importantes. À noter
+qu’Airbus ne précise pas ce que sont des petits UAV et des gros UAV, et n’envisage pas de les
+récupérer en vol, comme le X-61B Gremlins.
+EUROPE
+08/07/2025
+Les États-Unis ont testé un UAV TRV-150 modifié et équipé d’un missile APKWS de BAE Systems, conçu pour frapper des cibles
+aériennes et terrestres. Au cours des tests menés par l’USMC, le TRV-150 a détruit des cibles aériennes et terrestres à l’aide du
+système de ciblage laser de l’APKWS. Le TRV-150 est une version modifiée de l’UAV lourd britannique Malloy T-150, conçu à l’origine
+pour la logistique. L’APKWS consiste en une arme composée d’une roquette air-air non guidée Hydra de 70 mm avec une tête de
+guidage laser semi-active. L’APKWS est équipé d’une fusée de proximité. Le TRV-150 est déjà en service au sein de l’USMC dans le
+cadre du programme TRUAS.
+Les Américains lancent avec succès l’APKWS à partir du drone tactique TRV-150
+Source : Militarnyi
+Analyse : Avec cet essai, l’USMC montre que le TRV-150 n’est pas qu’un UAV/Cargo, ce qui ouvre de nouvelles possibilités
+intéressantes pour l’avenir.
+ETATS-UNIS
+18/07/2025
+Le 27 août 2025, l’USAF a annoncé le premier vol du YFQ-42A de General Atomics en Californie, un
+prototype dérivé du XQ-67A OBSS de la famille Gambit, modifié pour offrir davantage de vitesse et
+de manœuvrabilité grâce à une entrée d’air dorsale, un empennage en V et une baie interne
+capable d’emporter deux missiles AIM-120 AMRAAM. Classé comme prototype représentatif de
+pré-série (« Y »), chasseur (« F ») et UAV (« Q »), le YFQ-42A intègre un noyau d’autonomie déjà
+éprouvé sur le MQ-20 Avenger. Après des essais au sol commencés en mai 2025, il poursuit
+désormais sa campagne d’évaluation dans le cadre du programme Collaborative Combat Aircraft
+(CCA), où General Atomics (YFQ-42) et Anduril (YFQ-44) développent des démonstrateurs destinés
+d’abord aux missions air-air, avec des perspectives d’extension vers la guerre électronique, la
+frappe, la reconnaissance et la logistique.
+Le General Atomics – YFQ-42 effectue son 1er vol
+Source : US Air Force
+Analyse : General Atomics est actuellement en position de leader, mais rien ne permet d’affirmer, à ce stade, qu’il sera l’unique lauréat
+du programme. Il est probable que l’USAF retienne deux industriels pour l’Increment 1 du CCA, afin de maximiser la collecte de
+données.
+ETATS-UNIS
+28/08/2025
+
+[Page 10 / 17 | chars: 4286]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°10 / Juillet-Août 2025
+2/Briques technologiques
+10
+Le cluster d’innovation de défense Brave1 a lancé les premières munitions anti-drones conçues pour les fusils d’infanterie standard.
+Les nouvelles balles améliorent considérablement les chances de toucher des UAV/FPV ou des quadricoptères commerciaux. Bien que
+les cartouches ressemblent à des balles ordinaires de 5,45 mm, elles sont dotées d’une ogive qui crée un effet de fragmentation
+dense et rapide lors du tir. Selon Brave1, les munitions ont déjà été certifiées pour être utilisées et sont destinées à un déploiement de
+masse. L’objectif est d’équiper chaque soldat d’infanterie d’au moins un chargeur de ces obus anti-drones.
+L’Ukraine introduit des munitions anti-drones conçues pour les fusils d’infanterie standard
+Source : UAS Vision
+Analyse : Encore un nouveau moyen de lutte anti-drones bien qu’il s’agisse toutefois de systèmes limités aux petits UAV.
+UKRAINE
+09/07/2025
+Le futur porte-avions de 300 m de long du projet MUGEM pourrait être équipé d’un groupe d’aviation majoritairement composé d’UAV.
+Présentée lors du salon domestique IDEF 2025, une maquette du futur porte-avions turc affichait sur son pont d’envol quasi-
+exclusivement des UAV de divers types (Kizilelma, Anka III, TB3). La marine turque annonce des négociations avec TAI pour
+développer des versions embarquées de l’Anka III mais aussi du Kaan. Actuellement, le futur porte-avions turc est prévu avec un
+tremplin et pas de catapulte.
+La Turquie se concentre sur le Kizilelma, l’Anka III et le TB3 pour son futur porte-avions
+Source : Militarnyi
+Analyse : À ce jour, seul le TB3 est apte à être utilisé sur porte-avions. La construction du futur navire n’est pas encore assurée,
+notamment en raison du budget nécessaire mais aussi des problèmes techniques à résoudre (d’où pour l’instant l’absence de
+catapulte). Un tel navire peut se justifier pour mettre en œuvre des UAV lourds mais les difficultés à résoudre sont importantes sans
+compter les concepts d’emplois et les problèmes de formation des équipages.
+TURQUIE
+22/07/2025
+NAVAL
+L’Ukraine offre aux industriels de défense étrangers une occasion unique de tester leurs dernières technologies dans des conditions
+de combat réelles. Pour soutenir cette initiative, le cluster ukrainien Brave1 a lancé une plateforme dédiée appelée « Test in Ukraine ».
+Grâce à cette plateforme, les partenaires internationaux peuvent tester leurs drones (UAV/UGV), leurs systèmes GE, et leurs solutions
+alimentées par l’IA directement sur les lignes de front. La plateforme « Test in Ukraine » a été présentée par le premier vice-premier
+ministre et ministre ukrainien de la Transformation numérique, lors de la conférence LANDEURO à Wiesbaden.
+L’Ukraine propose aux industriels étrangers d’effectuer leurs tests sur le front
+Source : Militarnyi
+Analyse : Le but est bien de permettre à des industriels de tester en direct des systèmes en Ukraine avec un accès direct au RetEx
+des combats. L’initiative est intéressante et permet aussi aux Ukrainiens d’avoir accès aux derniers développements.
+UKRAINE
+17/07/2025
+TERRE
+La Chine a révélé pour la première fois, lors des répétitions du défilé marquant les 80 ans de la fin
+de la Seconde Guerre mondiale, deux types de drones sous-marins de grande taille (XLUUV), dont
+le modèle AJX002 mesurant environ 18 à 20 m de long pour 1 à 1,5 m de diamètre, présenté en
+quatre exemplaires. Un second modèle, plus imposant et encore non identifié, d’un diamètre
+environ deux fois supérieur et doté de gouvernes en X, a également été aperçu sous bâche,
+laissant planer des incertitudes sur leur propulsion et leurs capacités exactes.
+La Chine révèle deux XLUUV
+Source : Naval News
+Analyse : La marine chinoise possèderait le plus grand programme d’XLUUV de tous les pays avec au moins 5 types en essais. Les
+informations, à ce stade, restent très floues en termes de missions, performances, propulsion, etc. Il faudra attendre le défilé du 3
+septembre et des images plus nombreuses pour tenter de mener une analyse. Néanmoins, il est clair que la Chine investit fortement
+dans ce domaine ce qui pourrait lui permettre de renforcer considérablement sa composante sous-marine. Pour les États-Unis, il
+s’agit d’une menace claire.
+CHINE
+16/08/2025
+
+[Page 11 / 17 | chars: 4673]
+--------------------------------------------------------------------------------
+
+AIR
+Ces dernières semaines, dans le domaine aérien, le Canada a étudié l’intégration d’UCAV de type Loyal
+Wingman pour appuyer ses F-35, tandis que le DoD américain a revu sa classification des UAV pour faciliter
+l’acquisition massive de systèmes légers et intermédiaires, réduisant ainsi leur délai de mise en service. En
+parallèle, les forces spéciales américaines ont adapté leurs ALE, pour larguer en vol des micro-drones ISR,
+capables d’observer directement la zone d’objectif. Enfin les expérimentations s’étendent également au
+domaine naval : la Royal Navy a testé l’UAV cargo Malloy pour la logistique embarquée, alors que la Marine
+canadienne a déployé un USV explosif Hammerhead lors de l’exercice Trident Fury 2025.
+3/ CONCEPTS D’EMPLOI
+11
+Selon un document récent édité par le Secrétaire de la Defense, les UAV Group 1 et 2 seront désormais considérés comme des «
+consommables ». Les UAV Group 1 ont une MTOW de 9 kg, une altitude maximale de 1 200 ft et une vitesse de 100 nds. Les UAV
+Group 2 ont une MTOW de 25 kg, une altitude maximale de 3 300 ft et une vitesse de 250 nds. Le Pentagone étudie également la
+possibilité d’appliquer des classifications similaires aux UAV du Group 3 (MTOW : 600 kg, altitude max 5 500 m). Cette «
+reclassification » permettra de contourner certaines normes d’interopérabilité, telles que le STANAG 4856 qui est considéré comme
+augmentant le coût et la complexité de la conception des UAV.
+Nouvelle classification des UAV au sein du DoD américain pour faciliter leur acquisition
+Source : Secretary of Defense
+Analyse : Ces changements visent à accélérer l’acquisition en masse d’UAV des Group 1 et 2 - voire 3 - avec des budgets «
+raisonnables ». Cependant, le classement en consommable des Group 1 et 2 va considérablement modifier la façon de les acquérir,
+de les entretenir mais aussi de les employer au combat. Il sera intéressant de voir si la démarche identique est vraiment menée à
+terme sur le Group 3.
+ETATS-UNIS
+11/07/2025
+Le ministère de la Défense nationale du Canada annonce examiner l’option UCAV/Loyal Wingman pour la flotte de F-35 canadiens.
+L’analyse canadienne exclut la possibilité d’une flotte d’UCAV entièrement fabriquée au Canada, mais propose de travailler avec des
+alliés. Parmi les programmes de collaboration potentiels : Boeing Australia MQ-28A Ghost Bat, YFQ-42 de General Atomics et l’YFQ-
+44A d’Anduril. Plusieurs initiatives européennes sont également en cours de développement. Le Canada s’est engagé à acheter 88 F-
+35 pour un coût estimé à 27,7 Md$, mais n’a jusqu’à présent confirmé que l’acquisition des 16 premiers avions.
+Le Canada envisage d’appuyer sa flotte de F-35 avec des UCAV 
+Source : Defence-Industry
+Analyse : L’approche est logique mais pose néanmoins des problèmes. L’intégration d’un Loyal Wingman avec un F-35 suppose
+d’avoir l’accord du constructeur et des États-Unis, ce qui pourrait « bloquer » des options européennes. Toutefois, il existe la
+possibilité pour Lockheed d’utiliser le Canada comme client pour faire avancer son propre Loyal Wingman.
+CANADA
+12/07/2025
+La Royal Navy teste l’UAV Malloy pour la logistique sur l’HMS Prince of Wales
+Source : Army Recognition
+Analyse : La Royal Navy est probablement l’une des marines les plus avancées au monde dans ce domaine. Elle progresse rapidement
+en pratiquant très régulièrement des essais lors des déploiements de ses navires en opérations (probablement pour contourner en
+partie les restrictions réglementaires). Il est probable qu’elle lance, à court terme, un programme d’acquisition pour un
+UAV/VTOL/cargo lourd pour sa flotte. Le vainqueur aura alors un avantage majeur sur le marché de l’exportation.
+12/07/2025
+ROYAUME-UNI
+La Royal Navy britannique teste l’UAV/VTOL/Cargo de Malloy Aeronautics à bord de l’HMS Prince of Wales dans le cadre de l’opération
+Highmast. Le 9 juillet 2025, des membres du 700X Naval Air Squadron ont effectué des vols d’essai du drone de transport lourd
+depuis le pont d’envol du porte-avions. Le 700X Naval Air Squadron est l’unité spécialisée de la RN pour l’expérimentation, les essais
+et le déploiement des UAV en environnement maritime. L’UAV/VTOL/Cargo Lourd de Malloy Aeronautics, en cours d’essais, est conçu
+pour des missions de soutien logistique. Il a une capacité de charge utile supérieure à 180 kg et est capable de fonctionner de
+manière autonome ou semi-autonome sur des distances jusqu’à 70 km. Sa propulsion est électrique. Son architecture modulaire
+permet une reconfiguration rapide pour des profils de mission variés, y compris le réapprovisionnement d’urgence, le soutien à
+l’évacuation des blessés ou la livraison d’équipements aux unités de première ligne.
+
+[Page 12 / 17 | chars: 4495]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°10 / Juillet- Août 2025
+3/Concepts d’emploi des drones
+NAVAL
+12
+Analyse : La marine canadienne possède donc, comme l’US Navy, une entité lui permettant d’explorer l’emploi de différents drones. Il
+est probable que le Canada, à travers cette unité, prépare de futurs programmes.
+La Marine canadienne teste l’USV armé Hammerhead lors de l’exercice Trident Fury 2025
+Source : Baird Maritime
+CANADA
+La Marine royale canadienne a utilisé pour la première fois un USV armé Hammerhead dans le cadre de l’exercice Trident Fury 2025.
+L’USV a été lancé à partir de la frégate HMCS Vancouver et contrôlé par satellite, frappant et détruisant une cible avec une ogive à
+bord. Un autre Hammerhead a probablement été utilisé comme cible, ce qui suggère que l’exercice simulait une réponse à l’arrivée de
+drones kamikazes. Le Canada a créé l’unité ANC afin d’améliorer son utilisation des systèmes sans équipage dans l’interception
+maritime et la défense portuaire, qui exploite des UAV, USV et UUV. L’USV Hammerhead est développé par la firme britannique
+QinetiQ. Il est propulsé par un moteur de 135 cv et aurait une vitesse maximale de 40 nds. Il pourrait évoluer en essaim de 40 USV.
+17/07/2025
+Les USV Voyager démontrent des capacités de surveillance avancées lors d’un exercice
+Source : Defence-Industry
+Analyse : Avec cette participation, Saildrone engrange un retour d’expérience précieux. Il est possible que certains pays nordiques ou
+alliés de l’OTAN choisissent d’acquérir rapidement plusieurs systèmes, au risque de se détourner de solutions européennes.
+13/07/2025
+OTAN
+Du 16 au 27 juin 2025, Saildrone, société américaine, a participé à l’exercice Baltic Sentry de
+l’OTAN en mer Baltique avec ses USV Voyager. Cet événement, conduit dans le cadre de la Task
+Force X du programme « Dynamic Messenger », avait pour objectif de tester l’intégration de
+systèmes autonomes issus du secteur privé dans des opérations navales de l’Alliance, notamment
+dans le golfe de Finlande et l’ouest de la Baltique. Saildrone a déployé quatre USV Voyager, qui ont
+assuré une surveillance continue 24h/24 pendant toute la durée de l’exercice. Ils ont suivi des
+centaines de navires par jour, permettant non seulement d’identifier avec succès les « forces
+rouges » simulées, mais aussi de détecter des navires réels, y compris certains bâtiments et
+ressources militaires russes.
+TERRE
+Des images diffusées par la télévision d’État chinoise ont révélé de nouveaux exercices
+d’entraînement mettant en scène des UGV armés de lance-roquettes. Une escouade d’infanterie
+blindée du 83ème groupe d’armée a mené des exercices d’assaut semi-urbains à l’aide de
+véhicules de combat d’infanterie de type 08 en combinaison avec des UGV nouvellement mis en
+service. Les images montraient des UGV équipés de lance-roquettes, d’armes de type grenade. Les
+UGV étaient contrôlés à distance à l’aide de lunettes FPV. Les opérateurs chinois manœuvraient les
+robots à partir de positions protégées, utilisant les plates-formes pour renforcer les formations
+blindées et d’infanterie conventionnelles.
+La Chine teste des UGV avec des lance-roquettes
+Source : Defence-Blog
+Analyse : La Chine semble progresser dans le domaine des UGV et naturellement s’achemine vers des UGV armés. Il serait
+intéressant de savoir si ces UGV sont au stade expérimental ou déjà en service, et en quelles quantités.
+CHINE
+23/08/2025
+Le Japon commence à préparer ses pilotes à travailler avec des futurs UAV Loyal Wingman. Le 9 juillet, Subaru a livré un UAV
+expérimental « combat support autonomous unmanned aerial vehicle » à l’ATLA dans le cadre d’un contrat de R&D. L’UAV
+expérimental de Subaru vise à valider deux technologies principales : un système autonome de génération d’itinéraires de vol capable
+de calculer et d’adapter des trajectoires optimales et une interface de contrôle en temps réel permettant aux pilotes de gérer les
+opérations directement depuis le poste de pilotage. Ce programme s’inscrit dans le cadre de projets plus larges d’ATLA impliquant la
+modernisation des chasseurs, les plates-formes à voilure tournante de nouvelle génération, des drones locaux et le concept MUM-T.
+Le Japon explore le concept de Loyal Wingman avec un UAV expérimental 
+Source : Janes
+Analyse : Le Japon a décidé de combler son retard dans le domaine des UAV et déploie désormais les moyens nécessaires. Le pays
+dispose à la fois des capacités technologiques et des ressources budgétaires pour y parvenir.
+JAPON
+22/07/2025
+
+[Page 13 / 17 | chars: 4160]
+--------------------------------------------------------------------------------
+
+AIR
+L’activité économique dans le secteur des drones et des UxV semble connaitre une forte accélération.
+L’Allemagne consolide son statut en finançant la production de 500 UAV Liutyi pour l’Ukraine, tout en
+négociant l’acquisition d’UUV Blue Whale israélien et en structurant sa filière nationale autour du
+GreyShark avec EuroAtlas et Rheinmetall. La Turquie, via le champion local Baykar, renforce son ancrage
+européen avec le rachat de Piaggio Aerospace et le lancement en Italie de lignes de production de TB2 et
+d’Akinci. En Europe du Nord, la Norvège envisage l’achat d’UAV américains pour ses missions de
+surveillance maritime, tandis que la Pologne investit $55M pour accélérer ses acquisitions.
+4/ PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+13
+Baykar finalise l’acquisition de Piaggio Aerospace 
+Source : Defence-Industry
+Analyse : L’Italie cède ainsi à la Turquie l’une des plus anciennes sociétés aéronautiques italiennes et européennes. Piaggio devrait
+poursuivre la production des P-180, mais également fabriquer des UAV pour Baykar. Reste à savoir comment ces systèmes seront
+considérés : comme européens, avec toutes les implications que cela pourrait avoir en matière de subventions ?
+01/07/2025
+ITALIE /
+TURQUIE
+Baykar annonce avoir finalisé l’acquisition de Piaggio Aerospace, lors d’une cérémonie de signature qui s’est déroulée en Italie le 30
+juin. L’accord fait suite à l’approbation du gouvernement italien dans le cadre de la réglementation « Golden Power », initiée le 27
+décembre 2024 par le ministère des Entreprises. Rome présente cette opération comme une manière de préserver un atout industriel
+stratégique et de relancer le secteur aéronautique national. Tandis que, pour Baykar, l’objectif est de revitaliser Piaggio en valorisant
+son expertise locale et en élargissant ses capacités. Le site italien doit servir à la fois de base de production européenne pour le P.180
+Avanti EVO et pour les UCAV Bayraktar, ainsi que de centre de maintenance d’avions et de moteurs.
+Analyse : L’annonce est intéressante mais reste floue : pas de montant, pas de date de livraison.
+Elle montre toutefois que l’Allemagne a décidé de s’impliquer fortement dans le soutien à l’Ukraine.
+L’Allemagne va financer la production de 500 UAV ukrainiens Liutyi 
+Source : Militarnyi
+ALLEMAGNE/
+UKRAINE
+02/07/2025
+Le gouvernement allemand financera la production de 500 UAV de longue portée Liutyi, dans le
+cadre d’un contrat récemment signé, afin de renforcer les capacités des unités de drones
+ukrainiennes. Le gouvernement allemand pourrait potentiellement financer d’autres programmes,
+tels que la production de missiles de drones comme les Bars. Le Liutyi est l’UAV d’attaque/LR le
+plus activement utilisé par l’Ukraine. Il est annoncé avec une portée de 1 200 km avec une charge
+explosive de 50 kg.
+Analyse : À ce stade, la Norvège ne se serait tournée que vers des industriels américains. Un tel choix pourrait compromettre son
+autonomie nationale dans le domaine de la surveillance maritime. Toutefois, le pays a déjà commandé des P-8 Poseidon, capables
+d’opérer en complémentarité avec le MQ-4C Triton.
+La Norvège envisage des UAV de Northrop Grumman ou General Atomics pour la SurMar
+Source : Defence-Industry
+NORVEGE
+02/07/2025
+La Norvège a approché Northrop Grumman et General Atomics dans le cadre de son plan d’acquisition de nouveaux UAV Long Range
+pour la SurMar. General Atomics a proposé son MQ-9B SeaGuardian, tandis que Northrop Grumman présente son MQ-4C Triton. Le
+plan norvégien prévoit l’acquisition d’UAV pour la SurMar avec un déploiement prévu entre 2029 et 2032.
+Analyse : Le Koweït n’a pas précisé ni le nombre ni la version des TB2 acquis. Ce drone constitue néanmoins un bon outil
+d’apprentissage avant un passage probable vers des systèmes MALE, étape que le Koweït devrait logiquement franchir.
+Le Koweït reçoit ses premiers TB2 
+Source : Defense Post
+KOWEIT
+18/07/2025
+Le Koweït a reçu ses premiers Bayraktar TB2 turcs. Le contrat serait de 367 M$. Les TB2 sont annoncés, au Koweït, pour des
+missions ISR, Strike, SAR et surveillance des frontières. Le Koweït devient le 29ème pays à exploiter le TB2 dans le monde.
+
+[Page 14 / 17 | chars: 4707]
+--------------------------------------------------------------------------------
+
+4/Perspectives économiques
+Bulletin de veille d’actualité n°10 / Juillet-Aout 2025
+14
+La Pologne va investir $55M en 2025 pour l’achat d’UAV à grande échelle 
+Source : Militarnyi
+Analyse : Manifestement la Pologne veut aller vite mais elle veut aussi que ses industriels lui proposent des solutions nationales.
+L’annonce de la simplification des mesures bureaucratiques est intéressante.
+POLOGNE
+23/07/2025
+Le MoD polonais s’apprête à investir $55M en 2025 pour l’achat à grande échelle d’UAV afin de renforcer ses forces armées.
+L’initiative a été lancée avec la signature d’une série d’accords entre le vice-ministre de la Défense et les principaux instituts de
+recherche militaire. Le gouvernement a confirmé son intention de créer un centre d’UAV basé à l’Institut technique de l’armée de l’air.
+Le centre se concentrera sur le développement, les tests et le déploiement de drones pour les opérations terrestres, aériennes et
+maritimes dans le cadre du programme Hornet. Afin de rationaliser le processus d’approvisionnement, les procédures
+bureaucratiques seront simplifiées.
+EuroAtlas et Rheinmetall s’associent pour intégrer les UUV Greyshark
+Source : Naval News
+Analyse : L’industrie allemande se structure et se prépare pour répondre aux futurs appels d’offres
+de la marine allemande.
+EuroAtlas et Rheinmetall ont annoncé un partenariat stratégique visant à intégrer l’UUV Greyshark
+d’EuroAtlas dans Rheinmetall Battlesuite
+, la plate-forme numérique modulaire basée sur l’IA de
+Rheinmetall conçue pour unifier et gérer les systèmes de défense multi-domaines. Cette intégration
+prendra en charge certains cas d’utilisation de la défense côtière, où Battlesuite agit comme l’épine
+dorsale numérique de l’infrastructure du système de systèmes de Rheinmetall pour les opérations
+maritimes.
+ALLEMAGNE
+06/08/2025
+Les négociations entre l’Allemagne et Israël sur l’achat potentiel de l’UUV BlueWhale d’IAI seraient à
+un stade avancé. En 2024, la Bundeswehr a confirmé avoir mené un essai intensif de deux
+semaines du BlueWhale dans le cadre de son initiative d’expérimentation opérationnelle (OPEX).
+Les essais ont été menés en coopération avec IAI et la société de défense allemande Atlas
+Elektronik en mer Baltique. Le BlueWhale est un UUV long de 10,9 m avec un diamètre de 1,12 m
+et une masse de 5,5 t. Il est conçu pour des missions ISR, la lutte ASM et la guerre des mines.
+L’Allemagne serait en négociations avec IAI pour acquérir des UUV Blue Whale
+Source : Defence-Blog
+Analyse : L’annonce demeure toutefois assez vague, en particulier concernant une éventuelle date de livraison. L’Allemagne estime
+devoir renforcer rapidement ses moyens sous-marins, et les UUV figurent parmi les solutions privilégiées. Le Blue Whale apparaît
+comme l’une des plateformes les plus rapidement disponibles. Par ailleurs, Berlin a également annoncé son intention de renforcer sa
+flotte de Heron TP, un autre système conçu par IAI.
+ALLEMAGNE
+08/07/2025
+NAVAL
+L’US Navy a lancé le programme USV/MASC (Modular Attack Surface Craft) afin de développer jusqu’à trois types d’USV modulaires
+pour un déploiement à grande échelle, avec des livraisons attendues dans les 18 mois suivant l’attribution des prototypes. Construites
+selon des normes commerciales pour faciliter production et maintenance, ces plateformes devront être interopérables avec les forces
+de surface existantes et capables d’opérer seules ou en flottille, avec un logiciel permettant le contrôle simultané de plusieurs unités.
+Trois variantes sont prévues : le Vessel One, modèle de base (2 conteneurs ISO 40 pieds, 25 t de charge utile, 2 500 nq d’autonomie à
+25 nds en mer 4) ; le Vessel Two, version haute capacité (4 conteneurs ISO, pouvant accueillir 16 missiles Tomahawk/SM ou 64
+ESSM) ; et le Vessel Three, plus léger, conçu pour un conteneur ISO 20 pieds adapté notamment à la lutte ASM. Les futurs MASC
+viseront à combiner modularité, vitesse élevée (mer 4/5) et préparation opérationnelle rapide, dans un cadre programmatique en trois
+phases : démonstration de viabilité, inspection industrielle et attribution de de projets de prototypes (Request for Prototype Proposal).
+L’US Navy annonce les exigences du futur USV MASC
+Source : Naval News
+Analyse : L’US Navy franchit une étape décisive avec la structuration du programme MASC, marquant la fin des expérimentations et
+l’ambition d’accélérer vers une production en série, même si ni le budget ni la date d’entrée en service du premier navire ne sont
+encore précisés. Le choix du premier type à construire reste indéterminé, mais il sera déterminant pour l’industrie américaine des
+USV et pourrait avoir un impact majeur sur l’exportation de ces nouvelles capacités.
+ETATS-UNIS
+29/07/2025
+
+[Page 15 / 17 | chars: 1922]
+--------------------------------------------------------------------------------
+
+PUBLICATIONS
+▪
+Infantry 2.0 : Mini Drones and the Future of Tactical Warfare, Laurentiu Grigore, Laviniu Bojor, Juillet 2025
+▪
+PRC Concepts for UAV Swarms in Future Warfare, CNA, Timothy Ditter, Eleanor Harvey, Juillet 2025
+▪
+How to Lose the Drone War, Foreign Affairs, Jacquelyn Schneider, Julia Macdonald, Juillet 2025
+▪
+Unleashing U.S Military Drone Dominance : What the United States Can Learn from Ukraine, Center for 
+Strategic & International Studies, Kateryna Bondar, Juillet 2025
+▪
+Mesh Sensing for Air and Missile Defense, Center for Strategic & International Studies, Masao Dahlgren, 
+Patrycja Bazylczyk, Tom Karako, Juillet 2025
+▪
+The New Salvo War, Center for Strategic & International Studies, Benjamin Jensen, Yasir Atalan, Erik Tiersten-
+Nyman, Juillet 2025
+▪
+Out-Adapting the Enemy : Why Mass Alone Won’t Win Tomorrows’s Wars, Center for Strategic & International 
+Studies, Benjamin Jensen, Juillet 2025
+▪
+Agentic Warfare and the Future of Military Operations, Center for Strategic & International Studies, Benjamin 
+Jensen, Matthew Strohmeyer, Juillet 2025
+▪
+Russian Force Generation and Technological Adaptations, Institute for the Study of War, Kateryna
+Stepanenko, Grace Mappes, Sofia Walsh, Jessica Sobieski, Jennie Olmsted, Olivia Gibson, Juillet 2025
+▪
+Major Developement at Alabuga SEZ Point to Significant Expansion in Military Drone Production, Institute for
+Science and International Security, David Albright, Spencer Faragasso, Juillet 2025
+▪
+Is the U.S Ready for the Next War, The New Yorker, Dexter Filkins, Juillet 2025
+▪
+Ukraine’s drone walls is Europe’s first line of defense against Russia, Atlantic Council, David Kirichenko, Juillet
+2025
+▪
+Good News and Bad News about Changed U.S Military Drone Policy, The Heritage Foundation, Mike Jernigan,
+Aout 2025
+▪
+Armie Tormented by Drones Innovate Ways to Spot, Jam and Zap on the Cheap, The Wall Street Journal,
+Daniel Michaels, Aout 2025
+15
+
+[Page 16 / 17 | chars: 1509]
+--------------------------------------------------------------------------------
+
+GLOSSAIRE
+Abréviation / Sigle
+Signification
+AESA
+Active Electrinocally Scanned Array
+ALE
+Air Launched Effects
+ANC
+Avanced Naval Capabilities
+APKWS
+Advanced Precision Kill Weapon System
+ATLA
+Acquisition, Technology & Logistics
+BAE
+British Aerospace
+CCA
+Combat Collaborative Aircraft
+CSO “A”
+Centre « A » des opérations spéciales
+CU
+Charge utile
+EO/IR
+Electro-Opticol / InfraRed
+FC-100
+Fly Cart 100
+FPV
+First Person View
+GE
+Guerre électronique
+HMS
+Her Majesty’s Ship
+IA
+Intelligence artificielle
+IFDL
+Intra Flight Data Link
+IRST
+InfraRed Search and Track
+ISR
+Intelligence, Surveillance and Reconnaissance
+KAI
+Korean Aerospace Industries
+LANDEURO
+Land Forces Europe Symposium and Expoistion
+LEA 
+Long Endurance Aircraft
+LTDF
+Land Tactical Deep Find
+LUCAS
+Low Cost Uncrewed Combat Attack System
+MALE
+Medium Altitude Long Endurance
+MoD
+Ministry of Defence
+MTOW
+Maximum Take-Off Weight
+MUGEM
+Multipurpose Unmanned Ground Effect Maritime
+OTAN
+Organisation du Traité de l’Atlantique Nord
+OWA
+One Way Attack
+ReTex
+Retour d’expérience
+RPDC
+République Populaire Démocratique de Corée
+SAR
+Search and Recue 
+SBU
+Services de renseignement ukrainien
+SOCOM
+US Special Operations Command
+TF-X
+Task Force X
+TRUAS
+Tactical Reach Unmanned Aircraft System
+UAV
+Unmanned Aircraft Vehicle
+UCAV
+Unmanned Combat Aerial Vehicle
+UGV
+Unmanned Ground Vehicle
+USAF
+United States Air Force
+USMC
+United States Marine Corps
+USV
+Unmanned Surface Vehicle
+UUV
+Unmanned Underwater Vehicle
+VTOL
+Vertical Take-Off and Landing
+VR
+Réalité virtuelle
+16
+
+[Page 17 / 17 | chars: 103]
+--------------------------------------------------------------------------------
+
+www.eurocrise.com
+8 rue de Bellefond
+75009 Paris
+affinis-defense.fr 
+126 Rue de Tocqueville
+75017 Paris
+

@@ -1,0 +1,98 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 31 / 84
+
+================================================================================
+
+31
+une rupture technologique dans l’éco-conception 
+en rendant possible une IA embarquée explicable. 
+Sécurisation des réseaux neuronaux 
+ 
+La durabilité de l’éco-conception passe également par 
+une IA de confiance, capable de résister aux cyberattaques 
+telles que le piratage ou l’empoisonnement. Les réseaux 
+neuronaux doivent être protégés pour éviter toute 
+exploitation frauduleuse, comme la contrefaçon ou le 
+détournement de données. Pour cela, nous proposons 
+l’utilisation de mécanismes de sécurisation incluant :  
+•	
+Le bruitage des poids du réseau. Les poids des 
+réseaux sont perturbés par l’ajout d’un bruit contrôlé, 
+rendant leur lecture ou utilisation frauduleuse 
+inefficace sans clef dédiée. 
+•	
+Le chiffrement des sorties. Une clef de déchiffrement 
+est nécessaire pour interpréter correctement les 
+résultats produits par le réseau, ce qui protège à 
+la fois les données et l’intégrité des algorithmes.
+ 
+Cette combinaison permet de construire une protection 
+à la manière d’une boîte blanche cryptographique : 
+l’algorithme IA s’exécute dans un environnement 
+embarqué non sécurisé, ce qui rend impossible toute 
+rétro-conception du traitement et toute récupération 
+des données utilisées.  
+ 
+C’est la direction prise par la startup Skyld[1], qui protège 
+toute fonction d’inférence contre le vol de modèles de 
+réseaux de neurones. Cependant, pour renforcer sa 
+robustesse, il est nécessaire de l’adapter aux contraintes 
+liées à la quantification des opérations, un domaine 
+encore peu exploré dans la littérature. Par ailleurs, l’ajout 
+d’une fonctionnalité garantissant l’intégrité des réseaux 
+de neurones demeure un défi non résolu. 
+ 
+Exemples d’applications 
+ 
+Les récepteurs 5G utilisent des méthodes d’estimation des 
+paramètres de synchronisation temporels et fréquentiels 
+des signaux. Dans une de nos publications[2], nous 
+montrons comment un réseau de neurones compact 
+permet de réduire de deux à trois ordres de grandeur 
+le nombre d’opérations élémentaires par rapport à une 
+exploration exhaustive sur la grille des paramètres.
+ 
+Cette approche est théoriquement généralisable grâce 
+aux travaux fondamentaux de Kolmogorov-Arnold[3], 
+revisités et adaptés aux techniques neuronales en 2024[4], 
+suggèrent qu’il est possible de réduire considérablement 
+la taille des représentations neuronales en intégrant 
+des splines. 
+ 
+Dans un autre domaine, nous avons développé une 
+fonction de conversion vidéo en temps réel [5]permettant 
+d’améliorer le rendu des images affichées. Initialement 
+sous forme analytique, nous avons adapté le modèle 
+sous forme de réseau de neurones afin de l’intégrer aux 
+décodeurs vidéo équipés d’un NPU. Un travail autour de 
+la frugalité a été effectué par élagage et quantification 
+afin de rentrer dans la mémoire réduite du composant.
+Cette fonction a pour vocation d’être disponible dans 
+des terminaux grand public et sera utilisée pour 
+manipuler des contenus de valeur (films, retransmissions 
+d’événements sportifs). Si l’on ajoute la propriété 
+industrielle de l’algorithme lui-même, on se rend compte 
+qu’il est indispensable d’y ajouter des fonctions de 
+sécurité. 
+Le travail envisagé avec Skyld consiste alors à appliquer 
+leur technologie de protection, à l’adapter aux contraintes 
+du temps réel et à définir le meilleur compromis entre 
+sécurité et frugalité. Nous disposerons ainsi d’une 
+sécurisation prouvée, renouvelable et automatisée.   
+ 
+Conclusion : les outils pour l’IA embarquée et 
+sécurisée 
+ 
+D’une manière générale, systématiser la mise en œuvre 
+d’algorithmes sous une forme neuronale présente 
+de multiples avantages. D’abord, elle permet de 
+standardiser les mises à jour des algorithmes (qui 
+consistent simplement à modifier les poids du réseau 
+tout en restant agnostique par rapport à la cible). 
+De plus, grâce à la disponibilité croissante des NPU, 
+l’exécution est frugale, y compris dans l’embarqué. 
+Enfin, grâce aux travaux sur une protection générique 
+des modèles (confidentialité des poids et des 
+données, intégrité), leur sécurisation sera grandement 
+facilitée sans que les performances en pâtissent.

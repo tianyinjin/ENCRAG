@@ -1,0 +1,110 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 68 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 68 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP51 
+ORG 
+Identifier les supports amovibles (clé USB, disquette, carte (micro-)SD, disque dur, 
+etc.) nécessaires au système industriel et limiter leur usage au strict nécessaire. 
+O
+ 
+ 
+ 
+ 
+EXP52 
+ORG 
+Définir explicitement l’emploi des supports amovibles, notamment : 
+ 
+-  les supports autorisés ; 
+ 
+-  le personnel autorisé à les utiliser ; 
+ 
+-  les procédures de gestion et de contrôles ; 
+ 
+-  les utilisations légitimes. 
+O
+ 
+ 
+ 
+ 
+EXP53 
+ORG 
+Dédier les supports amovibles au système industriel. Sont interdites :
+- 
+la 
+connexion 
+de 
+tout 
+autre 
+support 
+sur 
+le 
+système 
+;
+- leur connexion sur un autre système non maîtrisé par le ministère ;
+- 
+leur 
+utilisation 
+pour 
+tout 
+autre 
+usage.
+Les supports dédiés sont mis à disposition des personnes intervenant sur le 
+système industriel. 
+O
+ 
+ 
+ 
+ 
+EXP54 
+ORG 
+Avant toute connexion sur le système industriel, contrôler l’innocuité du contenu 
+du support et « décontaminer » les supports amovibles sur une station blanche. 
+O
+ 
+ 
+ 
+ 
+EXP55 
+ORG 
+En cas d’échange de données à partir d’un support amovible non dédié vers le 
+système industriel, transférer les données depuis une station blanche vers un 
+support dédié au système industriel après avoir effectué un contrôle d’innocuité.  
+O
+ 
+ 
+ 
+ 
+Maîtriser l’usage des équipements mobiles 
+EXP56 
+ORG 
+Faire prendre en compte les équipements mobiles (supports amovibles, poste de 
+maintenance, nomadisme, etc.). 
+O
+ 
+ 
+ 
+ 
+EXP57 
+ORG 
+Identifier les équipements mobiles nécessaires au système industriel et limiter leur 
+usage au strict nécessaire. 
+O
+ 
+ 
+ 
+ 
+EXP58 
+ORG 
+Définir l’emploi des équipements mobiles autorisés à se connecter sur le système 
+en s’assurant de leur traçabilité. 
+O

@@ -1,0 +1,55 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 14 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 14 | 79 
+de chaque domaine, se distinguent des données de fonctionnement, de supervision, 
+d’exploitation et d’administration fonctionnelle et technique, de maintenance, de sauvegarde et 
+de journalisation.  
+À ces différentes données s’ajoutent les informations portant sur le projet ou le système industriel 
+(cartographie, dossier de configuration, documents techniques, procédures, etc.).  
+3.6.2. Sensibilité des données 
+La sensibilité des données dépend de plusieurs facteurs : 
+- 
+leur nature et leur confidentialité (confidentiel médical, données à caractère personnel, 
+données classifiées, …) qui peuvent induire des obligations réglementaires ou légales ; 
+- 
+la catégorie d’appartenance du système industriel (cf. 3.2) ; 
+- 
+les activités auxquelles concourt ce système. 
+Le système industriel peut contenir des informations sensibles qui impliquent réglementairement 
+la mise en œuvre de mesures de sécurité, notamment pour garantir leur confidentialité et leur 
+traçabilité. 
+Les données peuvent aussi être sensibles en raison des informations qu’elles peuvent apporter 
+aux attaquants pour la préparation de leurs attaques, en particulier en absence de standardisation 
+de certaines composantes du système industriel. 
+RO 2. 
+Il est OBLIGATOIRE de prendre en compte les risques de fuites ou de divulgations 
+d’informations ainsi que les exigences de sécurité relatives aux données sensibles dans 
+la démarche d’homologation.  
+4. 
+ACTEURS EN MATIÈRE DE SÉCURITE NUMÉRIQUE 
+Les responsabilités et les rôles des acteurs en matière de sécurité numérique (autorité d’emploi, 
+autorité qualifiée, autorité d’homologation (AH), responsable SSI13 ,…) sont définies dans la 
+[PSSIM], dans la directive [DIR HSI] pour la démarche d’homologation et la directive pour le 
+maintien en condition de sécurité [DIR MCS]. D’autres responsabilités et rôles peuvent aussi être 
+définis par secteurs d’activité et par catégories de systèmes industriels.  
+4.1. Autorité d’homologation (AH) 
+L’autorité d’homologation d’un système industriel doit être choisie à un niveau hiérarchique 
+suffisant pour porter les risques et donc assumer les responsabilités en cas de conséquences 
+d’une défaillance du système industriel et pour décider de l’ouverture et de la fermeture de son 
+utilisation. En outre, elle doit pouvoir intervenir dans le maintien en condition opérationnelle 
+(MCO) afin de garantir les composants techniques du maintien en condition de sécurité (MCS). 
+L’autorité d’homologation est l’autorité d’emploi du système industriel ou une autorité dont dépend 
+l’autorité bénéficiaire.  
+Ces autorités maîtrisent en effet les enjeux de sécurité portant sur le système industriel et les 
+ressources. Ce principe garantit en outre une unicité de responsabilité et une cohérence dans la 
+prise en compte des risques de toute nature. Par exemple, selon ce principe, l’autorité 
+d’homologation (AH) d’un CADIVS* déployé sur un site est l’autorité responsable de la sécurité 
+                                               
+13 Le responsable SSI (RSSI) désigne le RSSI Projet (RSSI-P) ou le RSSI aval (RSSI-A). Cf. 
+§4.2. Les deux fonctions peuvent être cumulées par une même personne.

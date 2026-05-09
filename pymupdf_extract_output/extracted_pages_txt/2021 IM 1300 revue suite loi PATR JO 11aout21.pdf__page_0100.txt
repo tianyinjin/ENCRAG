@@ -1,0 +1,61 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 100 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+ 
+ 
+ 
+97 
+Des dispositifs de détection capables d’identifier des événements caractéristiques d’un incident 
+de sécurité notamment d’une attaque en cours ou à venir et de permettre la recherche de traces 
+d’incidents antérieurs sont mis en œuvre. À cet effet, ces dispositifs : 
+-
+collectent les données représentatives de l’activité du système d’information, issues du 
+réseau, des systèmes et/ou des applications, à partir de capteurs positionnés de manière 
+à optimiser la couverture du dispositif de supervision global ; 
+-
+analysent les données issues des capteurs notamment en recherchant des marqueurs 
+techniques d’attaques connus ou des anomalies, dans le but d’identifier les événements 
+de sécurité et de les caractériser ; 
+-
+archivent les métadonnées des événements identifiés afin de permettre une recherche a 
+posteriori de marqueurs techniques d’attaques ou de compromission sur une durée d’au 
+moins trois ans pour le niveau Secret et d’au moins cinq ans pour le niveau Très Secret. 
+Les stratégies de collecte et d’analyse sont élaborées par le responsable de la sécurité des 
+systèmes d’information et approuvées par l’autorité qualifiée en sécurité des systèmes 
+d’information. 
+Le recours à plusieurs sources de données pour détecter des activités malveillantes est 
+encouragé. Un système de corrélation et d’analyse des journaux des événements doit être mis 
+en œuvre et exploité. 
+L’architecture de déploiement des systèmes de détection ne doit pas remettre en cause la 
+sécurité du système d’information classifié. Dans le cadre de systèmes de détection réseau, des 
+dispositifs de type « TAP » qualifiés, qui concourent à l’atteinte de cet objectif de sécurité, sont 
+utilisés. 
+Ces systèmes de détection sont exploités en s’appuyant sur les exigences du référentiel en 
+matière de détection des incidents de sécurité pris conformément à l’article 10 du décret 
+n° 2015-350 du 27 mars 2015 relatif à la qualification des produits de sécurité et des prestataires 
+de service de confiance pour les besoins de la sécurité des systèmes d’information. 
+Les systèmes de détection sont pris en compte dans le périmètre de l’homologation et les risques 
+propres à ces systèmes font l’objet d’une attention particulière. Si les systèmes de détection sont 
+communs à plusieurs systèmes d’information classifiés, ils font l’objet d’une homologation 
+spécifique. 
+Si la mise en œuvre de tels systèmes de détection est impossible pour des raisons techniques ou 
+organisationnelles et, après en avoir rendu compte à l’autorité qualifiée en sécurité des systèmes 
+d’information et au service du haut fonctionnaire de défense et de sécurité compétents, des 
+mesures palliatives sont prises et décrites dans le dossier d’homologation. 
+Maintenance et maintien en condition opérationnelle et en condition de 
+sécurité 
+Les opérations de maintenance, qui incluent les opérations de maintien en condition 
+opérationnelle et en condition de sécurité sur un système d’information classifié sont tracées et 
+imputées à leur auteur sous la responsabilité de l’officier de sécurité des systèmes 
+d’information. Elles sont réalisées par des personnes habilitées conformément à la partie 3.3. 
+Le matériel connecté au système d’information classifié pour sa maintenance et son maintien 
+en condition opérationnelle ou de sécurité lui est dédié et est classifié au même niveau que le 
+système d’information. Les équipements sont utilisés conformément aux parties 6.5 et 6.7. 
+Tout élément constitutif d’un système d’information traitant d’informations classifiées est 
+maintenu en condition opérationnelle et en condition de sécurité.

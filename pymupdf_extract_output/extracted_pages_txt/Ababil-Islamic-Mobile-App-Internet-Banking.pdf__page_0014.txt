@@ -1,0 +1,17 @@
+Source file: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Relative path: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Page: 14 / 27
+
+================================================================================
+
+© Copyright 2018 
+Using the following UI customer can do the mobile top up at any time by putting the 
+related information.   
+ 
+ 
+❖ Utility Payment (Govt. Semi Govt. Private etc.) 
+KPLC Bill: Shadow database in available in our end. All transactions and changes happen in 
+our end database and at day end, they fetch data from this shadow database and update their 
+original database. Then, later on, we collect unpaid bill information from their database and 
+keep that info in shadow database to execute these unpaid bills next day. 
+Following figure shows how Utility Bill Payment is processed by using Mobile app:

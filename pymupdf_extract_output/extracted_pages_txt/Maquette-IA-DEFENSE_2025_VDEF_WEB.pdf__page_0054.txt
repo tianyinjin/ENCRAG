@@ -1,0 +1,87 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 54 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+54
+Fiabilité de l’IA en contexte militaire : Trouver 
+l’équilibre entre autonomie et supervision humaine
+Avec l’augmentation de la quantité de données 
+recueillie sur les terrains militaires (que ce soit via 
+une augmentation du nombre de capteurs ou par 
+l’amélioration de la qualité des données), se pose 
+la question de leur analyse et de l’équilibre entre 
+traitement automatique et traitement humain. 
+Prenons l’exemple d’un sous-marin. Lorsqu’il est en 
+mer, il enregistre en permanence tous les bruits qui 
+l’entourent. Cette quantité massive de données peut 
+représenter jusqu’à plusieurs pétaoctets par jour. 
+Les opérateurs, appelés « oreilles d’or », analysent 
+ces sons pour identifier des menaces potentielles 
+mais ils ne sont plus en mesure de tout analyser par 
+eux-mêmes. L’intelligence artificielle (IA) entre alors 
+en jeu pour aider à traiter ces flots d’informations. Il 
+demeure essentiel de savoir distinguer les situations 
+où l’on peut se fier à l’IA de celles où l’intervention 
+humaine est indispensable.. Un contrôle totalement 
+automatique peut-être sujet à un trop grand nombre 
+d’erreurs tandis qu’une analyse totalement humaine 
+est impossible. 
+Comment, alors, faire en sorte de concentrer l’expertise 
+humaine sur les analyses les plus complexes afin 
+d’optimiser l’analyse de l’IA en la focaliser sur des 
+exemples plus simples et moins sujets à erreur ?
+Dans quelles situations utiliser l’IA ?
+L’IA excelle dans des tâches où la rapidité et la 
+constance sont essentielles. Contrairement aux 
+humains, elle ne se fatigue pas, n’oublie rien et peut 
+analyser des données à une vitesse époustouflante. 
+Dans le domaine militaire, cela signifie identifier des 
+menaces ou anomalies bien plus rapidement qu’un 
+humain ne pourrait le faire seul. De plus, une IA bien 
+conçue peut réduire certaines erreurs causées par 
+des biais ou des distractions humaines.
+Cependant, aucune IA n’est parfaite ou omnisciente. 
+Elle reste confinée à son domaine de validité, c’est-
+à-dire le domaine restreint qui est représenté par les 
+données d’entraînement. Prenons l’exemple de la 
+détection de chars. Lorsqu’un algorithme apprend 
+cette tâche, cela ne signifie pas qu’il sera capable de 
+la réaliser quel que soit le terrain dans lequel il est 
+utilisé. Si les données d’entraînement de ce modèle 
+sont composées à 90% de chars dans le désert et les 
+10% restants dans d’autre types d’environnements, il 
+est fort probable que la performance de l’algorithme 
+soit moindre dans une région enneigée. De plus, 
+même si l’algorithme est exploité dans son domaine 
+de validité, cela ne l’empêchera pas de commettre 
+des erreurs. 
+Une question survient alors : comment faire en 
+sorte qu’une IA puisse rendre le contrôle à l’humain 
+lorsqu’elle n’a pas la capacité de prendre la bonne 
+décision, et ce quel qu’en soit la raison ?
+ 
+La quantification d’incertitude en IA
+L’un des principaux défis des IA actuelles réside dans 
+leur incapacité à évaluer efficacement leur propre 
+incertitude. Cette dernière est due à deux facteurs 
+principaux : l’entraînement du modèle (incertitude 
+épistémique : le modèle n’a pas vu assez de données 
+durant l’entrainement) et la qualité des données sur les 
+terrains d’opération (incertitude aléatorique : images 
+de moindre qualité ou obstruées). On peut considérer 
+que l’incertitude épistémique peut théoriquement 
+être réduite à zéro en entraînant le modèle avec 
+plus de données, ou en utilisant des modèles plus 
+performants, néanmoins, la quantité de données 
+nécessaire pour la supprimer est considérable. Quant 
+à l’incertitude aléatorique, elle provient de certaines 
+conditions réelles qui compliquent la réalisation de 
+prédictions : des pluies fortes en mer qui ajoutent un 
+bruit de fond pour les capteurs des sous-marins, du 
+brouillard pour la détection de chars sur des images… 
+Vincent BLOT 
+Doctorant en incertitude des modèles d’IA
+Capgemini Invent, LISN, CNRS

@@ -1,0 +1,50 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 17 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+15/47 
+ 
+Lors de la démarche d’homologation, le RSSI doit tenir compte au minimum : 
+● des attendus métiers (AE) 
+● du fondement juridique et réglementaire s’appliquant à la protection des données et des 
+SI ; 
+● des prérequis nécessaires à l’homologation (par exemple, la qualification de produits de 
+sécurité) ; 
+● de l’interconnexion avec d’autres systèmes ; 
+● des moyens d’hébergement des informations ; 
+● des solutions de chiffrement (logicielles et matérielles) ; 
+● de la gestion des documentations, notamment de la cartographie afin de garantir la 
+connaissance du système au cours de son cycle de vie ; 
+● de la gestion et de la protection des supports amovibles ; 
+● des accès à distance par des utilisateurs en mobilité ; 
+● des conditions de MCS conformément au [MCS] ou à ses déclinaisons au sein des 
+EMDS ; 
+● des modalités de supervision de sécurité ; 
+● des opérations de maintenance, d’exploitation ou de télégestion du système, notamment 
+lorsqu’elles sont effectuées par des prestataires externes ; 
+● des éléments mis en œuvre pour assurer le plan de continuité/reprise d’activité 
+(PCA/PRA) ; 
+● de la formation des utilisateurs et des administrateurs, y compris sur la sécurité ; 
+● des contraintes et des impératifs, notamment calendaires ; 
+● des modalités de retrait de service. 
+Si le besoin de mise en supervision de sécurité par un SOC est avéré, le processus de supervision doit 
+être pris en compte dans la démarche d’homologation et suffisamment tôt dans la réalisation du SI afin 
+de prendre en compte les prérequis et d’intégrer cette mise sous supervision dans le plan de charge du 
+SOC. 
+RO 8 :  il est OBLIGATOIRE de renseigner les informations relatives à la démarche d’homologation 
+dans l’outil de suivi du patrimoine applicatif du ministère des Armées8 et de les réactualiser au 
+fur et à mesure de la démarche d’homologation (sous réserve du niveau de classification de 
+ces informations). 
+ Méthode d’analyse de risques 
+La méthode d’analyse de risques à utiliser est EBIOS RM. D’autres méthodes peuvent être utilisées en 
+complément sur autorisation de l’AH (cf. [PSSIM-T] ENV13). Dans ce cas, il est nécessaire de le 
+préciser et de le justifier dans la stratégie d’homologation. Toutefois, de manière transitoire, en attendant 
+que tous les responsables SSI et fournisseurs de SI s’approprient cette méthode, l’ancienne méthode 
+EBIOS 2010 peut être utilisée. 
+Le renouvellement de l’homologation d’un système dont l’analyse de risques a été réalisée, selon la 
+méthode EBIOS 2010, peut utiliser la même méthode d’analyse de risques. 
+                                               
+8 SICLADE est l’outil de suivi du patrimoine applicatif du ministère des Armées.

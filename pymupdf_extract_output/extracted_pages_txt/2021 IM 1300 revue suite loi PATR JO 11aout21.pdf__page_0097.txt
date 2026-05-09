@@ -1,0 +1,59 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 97 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+ 
+ 
+ 
+94 
+À titre dérogatoire, lorsque des raisons techniques ou opérationnelles ne permettent pas de créer 
+de compte individuel, ni de restreindre les droits d’administration aux seules personnes 
+autorisées, cela est justifié dans le dossier d’homologation et l’autorité qualifiée en sécurité des 
+systèmes d’information et le service du haut fonctionnaire de défense et de sécurité compétents 
+en sont informés. Le responsable de la sécurité du système d’information met alors en place les 
+mesures nécessaires pour réduire le risque lié à l’utilisation de comptes partagés et assurer la 
+traçabilité et l’imputabilité de l’utilisation de ces comptes. Ces mesures et les raisons justifiant 
+le recours à des comptes partagés sont décrites dans le dossier d’homologation du système 
+d’information classifié concerné. 
+Seule l’agence nationale de la sécurité des systèmes d’information peut autoriser cette 
+dérogation pour les systèmes d’information classifiés au niveau Très Secret. L’autorité 
+d’homologation sollicite son autorisation dès la phase de conception du système d’information 
+classifié. 
+Les utilisateurs d’un système d’information classifié ont uniquement accès aux données, 
+systèmes et services auxquels ils sont autorisés à accéder au regard de leur niveau d’habilitation 
+et de leur besoin d’en connaître. Les éléments constitutifs du système d’information 
+s’authentifient, dans la mesure du possible, auprès des réseaux et des services. Le principe de 
+moindre privilège est pris en compte dans la mesure du possible. 
+La procédure relative au retrait des droits d’accès (cf. 3.5.8) est validée par l’autorité d’emploi 
+du système. Elle est précisée dans la politique de sécurité du système d’information considéré 
+(cf. 2.3.1.2 et 2.3.1.3). 
+a) Maîtrise de la gestion des accès des utilisateurs 
+L’autorité d’emploi du système d’information classifié met en place une politique de gestion 
+des éléments d’authentification liés aux comptes utilisateurs et administrateurs suivant les 
+recommandations de l’agence nationale de la sécurité des systèmes d’information et s’assure 
+de son respect. 
+Dans le cas d’un système d’information classifié au niveau Très Secret, le mécanisme de 
+contrôle d’accès permet également de tracer chaque accès (consultation, copie, modification, 
+impression, etc.) à chaque information classifiée. 
+Le mécanisme de contrôle d’accès repose sur des mécanismes d’authentification forte établis 
+selon le référentiel général de sécurité. 
+Si la mise en œuvre de tels mécanismes n’est pas possible pour des raisons techniques ou 
+opérationnelles et après en avoir rendu compte à l’autorité qualifiée en sécurité des systèmes 
+d’information et au service du haut fonctionnaire de défense et de sécurité compétents, des 
+mesures organisationnelles sont prises pour pallier cette lacune et sont décrites dans le dossier 
+d’homologation. Au niveau Très Secret, cette exception est soumise à l’autorisation de l’agence 
+nationale de la sécurité des systèmes d’information dès la phase de conception du système 
+d’information. 
+b) Revue des droits d’accès des comptes 
+Pour chaque système d’information classifié et système d’administration des systèmes 
+d’information classifiés, une revue des droits d’accès des comptes est mise en place. La 
+périodicité et les modalités de cette revue sont fixées par l’autorité d’homologation en 
+cohérence avec les besoins opérationnels et ne doit pas excéder un an. Les conditions précises 
+de cette revue sont décrites dans le dossier d’homologation, ainsi que dans les exigences 
+relatives à la sécurité des systèmes d’information intégrées dans la politique des informations 
+et supports classifiés de l’organisme (cf. 2.3.1.2 et 2.3.1.3).

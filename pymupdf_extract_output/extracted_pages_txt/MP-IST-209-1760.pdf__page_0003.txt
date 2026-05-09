@@ -1,0 +1,134 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 3 / 10
+
+================================================================================
+
+sories. This means more options for everyone involved, from
+autonomous systems makers to people using them, and it stops
+any company from dominating the market [20]. MAVLink is
+about improving how UxVs work together, sparking new ideas,
+and helping the industry grow [20].
+Since UAVs navigate through three-dimensional space, they
+present a broad scenario for communicating position and
+velocity data. Consequently, it makes sense to utilise the
+same protocol for other vehicles, like UGVs moving in two-
+dimensional space or UMVs, which operate in three dimen-
+sions but beneath the ocean’s surface [20].
+E. BMS
+The BMS integrates the Army Command and Control
+Information System (Sistema de Informac˜ao para o Comando
+e Controlo do Ex´ercito) (SICCE) of the SIC-T, which in turn
+supports the Command and Control (C2). The BMS works via
+the radio network in the Very High Frequency (VHF) band in
+secure mode (SECOM-V). This C2 system is designed for low-
+ranking units (Battalion and below) in vehicular use, with an
+application that facilitates the sharing of geographical position
+in the field via portable terminals connected to a secure radio
+network [22].
+The BMS fulfils the requirements of the NATO, guaran-
+teeing interoperability with the means of communication of
+the alliance’s member countries through the Standardization
+Agreement (STANAG) 5527 standard - Friendly Force Track-
+ing [23].
+F. Army Tactical Radios
+This subsection presents two tactical radios used by the
+Portuguese Army, the P/PRC-525 and the TR5000.
+1) P/PRC-525: The P/PRC-525 Tactical Radio results from
+a partnership between EID and Rohde & Schwarz. It operates
+on High Frequency (HF), VHF, and UHF and follows the
+Software Defined Radio (SDR) philosophy [22].
+2) TR5000: In August 2019, to meet the Army’s needs,
+TR5000 radios were purchased from Rohde & Schwarz’s
+SOVERON family, in the vehicular and manpack versions,
+TR5000V and TR5000H [24].
+G. Related Work
+The article “Unmanned Systems Interoperability in Military
+Maritime Operations: MAVLink to STANAG 4586 Bridge”
+presents a link between the MAVLink communication protocol
+and STANAG 4586 — which defines the architectures, proto-
+cols, data elements, and interfaces between the various control
+systems of an unmanned aerial system. To realise this link,
+converter software was developed on the UAV. This article
+aimed to enable UAVs that communicate with MAVLink,
+which is cheaper, to communicate with a GCS that uses
+STANAG 4586. The proposed system was developed using
+the Python programming language and a Raspberry Pi [25].
+The experiments by the NATO IST-149-RTG group demon-
+strate interoperability between UGV and C2 systems. The goal
+was to test interoperability standards in real-world scenarios,
+specifically the Joint Architecture for Unmanned Systems and
+its interoperability profile. The experiments involved multiple
+NATO countries using different UGVs and GCS, demonstrat-
+ing that systems could be easily extended to comply with
+these standards. No experiments were carried out with UAVs
+in this experiment due to technical problems. However, the
+integration of UAVs that used the MAVLink communication
+protocol was studied [26].
+The report by the Estonian Defence Investment Centre [27]
+analyses eleven platforms from different companies/consortia
+from various countries. The report concludes that, in general,
+all the UGVs were able to drive in an open field with
+waypoints based on satellite navigation systems; the same was
+not true in rougher scenarios or with vegetation. Table 1 shows
+the companies/consortium, platform and country of origin.
+TABLE 1: List of companies and the platforms that participated in the
+Estonian trials [27].
+Company/Consortium
+Platform
+Country of Origin
+ARX Landsysteme
+GEREON RCS
+Germany
+charismaTec OG
+ARTUS PTAone
+Austria
+Czech University of
+Defence/ VOP CZ, s.p.
+TAROS V4
+Czech Republic
+Diehl Defence
+Ziesel
+Germany
+Hentschel System
+MoSeS UGV
+Germany
+iMUGS
+THeMIS 4.5 +
+iMUGS autonomy kit
+Multinational
+consortium
+LEM S.R.L
+RANGER-POLARIS
+570
+Italy
+Milrem Robotics
+THeMIS 4.5 +
+MIFIK
+Estonia
+Nexter-KNDS
+ULTRO 600
+France
+Rheinmetall Canada
+Mission Master SP
+Canada
+Star Defence Logistics &
+Engineering
+SR-0001 UGV 4x4
+Spain
+The THeMIS UGV uses an IP radio at 2.4 GHz. It employs
+MIMO technology in a mesh network with 4W of power. This
+configuration allows a control range of up to 1.5 kilometres
+in line of sight [29].
+Fig. 1: THeMIS UGV [29].
+The Gereon RCS UGV of ARX Landsysteme in terms of
+remote control and communication [28]:
+• Mobile communication (5G backwards compatible);
+• Wi-Fi;
+• Radio frequencies of 698 — 960 MHz, 1710 — 2700
+MHz, 3200 — 3800 MHz, 2.4 — 2.5 GHz and 5 — 6
+GHz.
+STO-MP-IST-209 
+1760 - 3 
+Integration of a Commercial 
+Unmanned Vehicle into the Army Communications System

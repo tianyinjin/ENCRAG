@@ -1,0 +1,62 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 27 / 68
+
+================================================================================
+
+27
+d’amplifier ces défauts et de les détecter. Cependant, 
+cette détection s’accompagne toujours d’un taux 
+d’erreur statistique résiduel, qui intégre les faux positifs 
+et négatifs. Ainsi, la conception des détecteurs de 
+Deepfake repose sur une compréhension approfondie 
+des générateurs associés. Rétroactivement, l’amélioration 
+des premiers proposera de nouveaux défis aux seconds, 
+structurant le domaine selon un paradigme adversaire 
+générateur-détecteur. L’horizon ultime de cette course-
+poursuite sera l’indiscernabilité entre des contenus 
+authentiques et hypertruqués. Dans cette nouvelle 
+configuration, la vraisemblance d’une source ne pourra 
+plus être appréciée à partir de son examen brut, quel 
+que soit le degré de sophistication de l’outil d’analyse. 
+Il sera nécessaire d’imaginer des moyens additionnels 
+susceptibles de certifier le mode de production de 
+la source diffusée lorsqu’il s’agit d’une captation.
+Les productions textuelles automatiques ne présentent 
+pas, quant à elles, d’artefacts de conception, si bien que 
+le problème de manipulation se situe d’emblée au stade 
+ultime exposé pour l’hypertrucage. En toute généralité, 
+la détection de rumeurs, ou plus largement de contenus 
+mensongers, nécessite de confronter l’élément suspecté à 
+un contexte, en général vaste et dispersé. De tels procédés 
+d’investigation en sont aujourd’hui à un stade encore 
+balbutiant. Ils soulèvent des problématiques fondamentales 
+en traitement automatique du langage, en voici deux : 
+la reconnaissance d’entités nommées relativement 
+à une base de connaissance structurée (ontologie) 
+et la production automatique de telles ontologies. 
+Supposons maintenant résolu le problème de la 
+modération automatique. Il n’est pas restrictif pour 
+cela de considérer les robots actuellement utilisé sur les 
+plateformes numériques. Le principe de modération recèle 
+deux arbitraires : d’une part les critères retenus pour la 
+modération (le contenu de l’ontologie de référence) et 
+d’autre part l’erreur inhérente à l’algorithme qui pourrait 
+abusivement censurer un contenu pourtant licite (les 
+faux positifs). Ces questions connectent naturellement 
+la technologie à des enjeux juridiques et éthiques. 
+En conclusion
+La course technologique entre les manipulateurs 
+d’information et leur censeur est engagée. Nul doute 
+qu’elle annonce des percées scientifiques majeures. Mais 
+en faire une lecture strictement technologique est une 
+impasse car cette problématique cristallise des enjeux 
+sociétaux de premier ordre comme l’avènement d’une 
+société que George Orwell lui-même n’aurait imaginé. La 
+lutte contre les manipulations de l’information est promise 
+à remodeler en profondeur le domaine de la cyber-sécurité. 
+A un stade naissant, elle est donc une opportunité pour 
+structurer une nouvelle filière industrielle en y associant 
+les débats réglementaires et sociétaux nécessaires. 
+	
+Figure 1. Exemple de Deepfake. World Economic Forum Annual Meeting

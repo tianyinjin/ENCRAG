@@ -1,0 +1,89 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 4 / 34
+
+================================================================================
+
+redundancy built into its complementary sensor suites. It is likely that all these factors affecting ASUL’s 
+success in deployment would have been specified through months of painstaking procurement requirements 
+development and evaluation along these dimensions to ensure its ability to meet the Bundeswehr’s counter-
+drone defense missions. Table 1 highlights a comparison of the key advantages and limitations of different 
+modalities for drone detection, classification, and tracking, showing the complexity of architecting multi-
+modal sensors. 
+ 
+Table 1: Key Advantages and Limitations of Different Modalities for Drone Detection, 
+ 
+Classification, and Tracking. 
+Modality 
+Key Advantages 
+Key Limitations 
+RF- 
+based 
+•
+High accuracy in controlled
+environments
+•
+Effective
+for 
+UAV 
+identification 
+and 
+flight 
+mode classification 
+•
+Effective range theoretically
+scales to sensor sensitivity
+•
+Cost-effective and can detect
+multiple drones/controllers
+•
+Susceptible to radio congestion and
+jamming
+•
+Completely 
+ineffective 
+against
+autonomous drones without active RF
+links, 
+or 
+controlled 
+drones 
+in
+autonomous modes
+•
+Requires prior knowledge 
+of 
+RF
+frequencies in use by potential UAVs,
+and other unrelated urban sources of RF
+clutter
+Audio- 
+based 
+•
+Detects drones based on rotor
+noise and acoustic signatures
+•
+Effective for autonomous
+drones
+•
+Can operate outside line-of-
+sight limitations
+•
+Mobile and quick to deploy
+•
+Performance degrades significantly in
+high-noise or windy environments
+•
+Typically very short range due to
+soundwave propagation characteristics
+(300-500m)
+•
+Short range limits coverage for large
+areas
+•
+Some drones designed to operate
+silently
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 4
+STO-MP-IST-210

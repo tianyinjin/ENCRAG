@@ -1,0 +1,45 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 24 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+22/47 
+● les solutions de chiffrement font l’objet d’un dossier cryptographique valide14 et leurs 
+risques résiduels sont intégrés dans la liste des risques acceptés ; 
+● les moyens nécessaires au MCS sont en place, notamment : 
+o une organisation de gestion du SI pérenne et documentée ; 
+o l’effectivité des contrats de MCS ; 
+o une stratégie de MCS mise en œuvre et adaptée à la criticité du SI et à ses 
+contraintes ; 
+● la supervision de la sécurité répond aux besoins de sécurité du SI et sa mise en 
+supervision par un SOC, si elle a été décidée, est réalisable ;  
+● les règles relatives à la défendabilité du SI sont appliquées ([DEFEND]) ; 
+● le SI est enrôlé dans l’outil de suivi du patrimoine applicatif du ministère des Armées. 
+Une décision d’homologation est nécessairement associée à un périmètre d’homologation. 
+La qualification, la certification ou l’agrément d’un équipement ne vaut pas homologation. Néanmoins, 
+l’AH peut et doit s’appuyer sur les conditions de la qualification, de la certification ou de l’agrément pour 
+établir sa décision d’homologation dans le périmètre d’emploi qui y est associé. 
+Avant toute décision d’homologation, le CEAH vérifie que le SI est enrôlé dans l’outil de suivi du 
+patrimoine applicatif du ministère des Armées et auprès d’un SOC pour la gestion et l’exploitation des 
+traces si ce besoin est avéré. 
+RO 22 : il est OBLIGATOIRE d’insérer la décision d’homologation dans l’outil de suivi du patrimoine 
+applicatif du ministère des Armées (sous réserve du niveau de classification de cette décision). 
+ La forme de la décision d’homologation 
+Lors de l’instruction d’un dossier d’homologation, il peut être constaté qu’un système ne remplit pas 
+toutes les conditions requises pour son homologation. L’AH peut apprécier les risques pris en cas de 
+mise en exploitation du système pour une durée ou un périmètre limités et les considérer comme 
+acceptables. Dans ce cas, elle peut alors prononcer une homologation d’une durée limitée15 
+(restriction temporelle), et/ou sur un périmètre réduit (restriction fonctionnelle), et assortie d’une 
+correction des éléments constatés. L’AH doit alors indiquer ses attentes pour éventuellement procéder 
+au renouvellement de l’homologation limitée ou à une homologation ferme, c’est-à-dire pleine et entière.  
+RO 23 : il est OBLIGATOIRE que toute décision d’homologation soit prise à l’issue d’une démarche 
+d’homologation. La décision peut être assortie de conditions ou de restrictions d’emploi 
+(temporelles, fonctionnelles) pour une durée déterminée. La démarche peut aussi conduire à 
+un refus d’homologation. 
+                                               
+14 Un dossier cryptographique a pour but de faciliter et de tracer l’expression de besoin capacitaire en solutions 
+de chiffrement, selon le modèle en vigueur. La durée de l’homologation doit être en cohérence avec la validité 
+d’autorisation d’usage des solutions de chiffrement utilisées. 
+15 La durée de validité est inférieure à celle prescrite dans le §5.3.

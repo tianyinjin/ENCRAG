@@ -1,0 +1,102 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page: 8 / 12
+
+================================================================================
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+This feature map, combined with normalized vector obser-
+vations, provides comprehensive observational inputs for the
+reinforcement learning algorithm. In this setting, the image
+and vector information are provided as stacked information,
+which facilitates the agent’s comprehension of the environ-
+ment [49]. The reinforcement learning algorithm outputs ac-
+tions based on these observations.
+An action refers to a decision or measure that an agent can
+take in a particular state. Here, the actions are divided into
+a total of four continuous behaviors as shown in Figure 10.
+Since the drone’s vertical movement is controlled by PID, it
+takes action in all other directions excluding the vertical.
+FIGURE 10. Types of reinforcement learning actions.
+A reward, which is feedback from the environment in
+response to an agent’s action, is given based on the confidence
+level, with differential rewards as detailed in Table 3. The
+configuration of these rewards reflects the objective of the
+reinforcement learning to achieve a high confidence level of
+over 90%. The condition of a confidence level of 0% for
+5 seconds serves as an episode termination criterion. If this
+situation occurs before reaching the max step, the episode is
+reset.
+TABLE 3. Description of reward functions.
+Type of Reward
+Reward Value
+Confidence level ≥90%
++1
+80% ≤Confidence level < 90%
++0.1
+50% ≤Confidence level < 80%
++0.01
+Confidence level = 0%
+-0.01
+Confidence level = 0% for 5 seconds
+-1
+3) Algorithms, hyper-parameters
+In this research, the Proximal Policy Optimization (PPO)
+algorithm [50] from the Unity ML-Agents package [51] is
+used for reinforcement learning. Unity offers a set of tools
+that simplify the application of such algorithms once the
+environment is set up. The PPO algorithm, chosen for its
+specific attributes, is a policy-based algorithm widely used
+in reinforcement learning. Here, policy essentially means the
+set of rules or strategy the agent follows to decide its actions
+based on the environment. PPO is known for its gradual and
+steady approach in updating these policies. It uses a clipping
+technique to limit the extent of these updates, ensuring that
+the new policy doesn’t veer too far from the old one. This
+balance helps maintain stability in learning. The hyperparam-
+eters for PPO, as applied in our study, are detailed in Table 4
+and were selected based on empirical testing and continuous
+refinement.
+TABLE 4. PPO algorithm hyperparameters.
+Hyperparameter
+Value
+Description
+batch_size
+2048
+Data processed before model update
+buffer_size
+40960
+Size of the data storage buffer
+learning_rate
+0.0003
+Controls the speed of learning
+beta
+0.005
+Balances exploration and stability
+epsilon
+0.2
+Limits policy variation range
+lambda
+0.95
+Weighting for future rewards
+epochs
+3
+Number of training iterations
+gamma
+0.995
+Emphasis on long-term rewards
+max_steps
+5M
+Total allowed steps
+4) Result
+Figure 11 shows the cumulative reward and episode length as
+a result of training with the PPO algorithm for 5 million steps.
+(a) Cumulative reward
+(b) Episode length
+FIGURE 11. Training results of reinforcement learning with the PPO
+algorithm.
+8
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4

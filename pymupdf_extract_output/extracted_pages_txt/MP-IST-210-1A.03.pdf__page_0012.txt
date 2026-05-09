@@ -1,0 +1,56 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 12 / 34
+
+================================================================================
+
+Technical Test Mapping ensures that each quality indicator corresponds to specific, automatable technical 
+evaluations that can be independently validated and repeated as systems and threats evolve. 
+Appropriate Granularity balances comprehensiveness with usability, providing sufficient detail to guide 
+procurement and deployment decisions without overwhelming stakeholders with excessive complexity. 
+Governance Framework Compatibility aligns quality indicators with established AI governance 
+frameworks and defense defense requirements, ensuring that quality assessment supports broader 
+compliance and risk management objectives.  
+In the case of a CV system involved in the automated detection, classification and tracking of hostile drones, 
+but connected as a subsystem to a broader drone defense system incorporating other sensor types, processing 
+units, and counter-drone effector components, the ASQI would be useful as the basis of an “assurance 
+module … able to handle the complexity of assuring an AI-enabled system by dividing it into parts that are 
+more manageable to assure”, in line with recommended practices such as the DNV-RP-0671 
+“Recommended Practice for Assurance of AI-enabled systems” published by the global independent 
+assurance and risk management provider DNV.[4] Once we are able to visualize and explain the system’s 
+behaviors along these categories of quality, our resulting documentation of the system’s demonstrated 
+phenomena will form trust artifacts that can be referred to for assurance in various aspects of the safety and 
+efficacy of the overall system.  
+3.1.1.2 
+Translating Desired Technical Qualities into Quantitative Metrics 
+Thereafter, the desired technical qualities of the CV solution would have to then be translated into 
+quantitative metrics, in order to construct observable parameters to quantify each test protocol and metric. To 
+implement this, we model the deployment environment with three primary sources of variability that a CV 
+system would have to perform under: at the sensor-level, the target-level, and the encapsulating environment. 
+In so doing, we are able to break down the analysis components into understanding the following: detection 
+and classification performance, referring to the ability of the system to detect and distinguish the expected 
+variety of drones in the area of operations from other drones as well as other expected objects, tracking 
+performance, referring to the ability of the system to keep track on a target of interest through time and space 
+once identified. In so doing, we will have to further understand the above within more fine-grained 
+contextual qualities such as system-to-target fit, referring to the ability of the system to operate well across 
+targets of differing physical types or sizes, environmental robustness, referring to the ability of the system to 
+consistently perform across the expected environmental conditions of its deployment, sensor behavior 
+tolerance, referring to the ability of the system to consistently perform across the expected physical 
+behaviors of the sensing platform, e.g. if it were deployed on a robotics or autonomous vehicle, and target 
+behavior tolerance, referring to the ability of the system to operate well across targets’ positions and 
+movement patterns as captured by the sensor.  
+In this effort, the normalizability of parameters is vital, ensuring that performance scores can be scaled and 
+compared consistently across different CV systems, sensor types, or operational environments. This allows 
+for fair benchmarking and facilitates informed decision-making for procurement and integration, enabling a 
+standardized language for evaluating diverse solutions within the counter-drone mission.  
+Table 2 below highlights an indicative ASQI that could be deployed for a counter-drone use case. Within 
+each operational parameter of interest, one or more metrics can then be developed or adapted from academic 
+CV research, allowing for the ASQI’s indicators to be constantly updated by state-of-the-art measurement 
+methods that are continually being investigated by the relevant data science communities in academia. For 
+instance, overall tracking performance for an automated drone tracking CV system can be approximated by a 
+metric like the Higher-Order Tracking Accuracy (developed by Luiten et al. [9]), a uniformly-blended score 
+evaluating tracking along the three subtasks of detection, association and localization, using a Jaccard Index 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 12
+STO-MP-IST-210

@@ -1,0 +1,93 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 117 / 136
+
+================================================================================
+
+117 
+2ω0, le diamètre du faisceau à la distance focale, est alors donné par la formule suivante : 
+2𝜔0 = 4𝑀2 × (𝑅. 𝜆
+𝜋𝐷) 
+Où R est la distance focale, D l’ouverture de l’optique de focalisation et M² le facteur de qualité290 du 
+faisceau. 
+La divergence du faisceau est de : 𝜃= 2 tan−1(
+𝐷−2𝜔0
+2𝑅
+) 
+Pour les armes de référence de l’étude on obtient : 
+- 
+Pour un laser de longueur d’onde 1070 nm, de puissance 2 kW, ayant un facteur 
+de qualité M² de 1 et une ouverture de 4 cm, on obtient un diamètre du faisceau 
+2 ω0 de 2 cm à 600 m soit une densité de puissance de 637 W/cm² ; la divergence 
+est de 33 µrad. 
+- 
+Pour un laser de longueur d’onde 1070 nm, de puissance 100 kW, ayant un facteur 
+de qualité M² de 30 (c’est pénalisant, mais raisonnable) et une ouverture de 50 cm, 
+on obtient un diamètre du faisceau 2ω0 de 17 cm à 2 100 m, soit une densité de 
+puissance de 440 W/cm² ; la divergence est de 157 µrad. 
+- 
+ Pour un laser de longueur d’onde 2050 nm, de puissance 1 kW, ayant un facteur 
+de qualité M² de 1 et une ouverture de 8 cm, on obtient un diamètre du faisceau 
+2 ω0 de 2 cm à 600 m, soit une densité de puissance de 318 W/cm² ; la divergence 
+est de 100 µrad. 
+ Eléments résumés dans le tableau ci-dessous : 
+O LE COUPLAGE LASER - CIBLE 
+Le couplage d’un rayonnement laser avec la cible conduit à un échauffement rapide de la zone irradiée. 
+De cet échauffement résulte : 
+- 
+Une perte de propriétés mécaniques (affaiblissement) ; 
+ 
+290 La qualité d'un faisceau laser est caractérisée par le facteur M², qui compare la vraie forme du 
+faisceau à celle d'un faisceau gaussien idéal. 
+Puissance 
+(kW) 
+Facteur 
+de 
+qualité 
+M² 
+R 
+Focalisation 
+(m) 
+D 
+Ouverture 
+(cm) 
+λ  
+Longueur 
+d’onde (nm) 
+2𝜔0  
+à R 
+(cm) 
+I 
+Densité de 
+puissance à R 
+(W/cm2) 
+Θ Divergence 
+(μrad) 
+2 
+1 
+600 
+4 
+1070 
+2 
+637 
+33 
+100 
+30 
+2100 
+50 
+1070 
+17 
+440 
+157 
+1 
+1 
+600 
+8 
+2050 
+2 
+318 
+100 
+R 
+D 
+2ω0 
+Figure 5 Schéma très simplifié de l’évolution du diamètre du faisceau le long de l’axe optique

@@ -1,0 +1,180 @@
+Source file: caia-125-bd-ok.pdf
+Relative path: caia-125-bd-ok.pdf
+Page: 33 / 104
+
+================================================================================
+
+31
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+INNOVATIONS, FREINS ?
+Des voitures autonomes dans 
+quelques années… (depuis plu­
+sieurs années)
+Au vu des développements en 
+cours dans le secteur automobile 
+pour automatiser les véhicules, la 
+SAE (Society of Automotive En­
+gineers International) a développé 
+le référentiel SAE J3016 qui fait au­
+torité depuis le milieu de la précé­
+dente décennie : 
+-	
+Niveau 0 : absence d’assistan­
+ce à la conduite ;
+-	
+Niveau 1 : de premières assis­
+tances sont disponibles pour le 
+conducteur (ex : régulateur de 
+vitesse, ABS..) ;
+-	
+Niveau 2 : les assistances 
+permettent l’exécution de cer­
+taines tâches élémentaires (ex : 
+aide au maintien dans une file, 
+aide au stationnement) ;
+-	
+Niveau 3 : le système automa­
+tisé peut exécuter certaines 
+tâches en assurant le contrôle 
+de son environnement (ex  : 
+Sur autoroute, la voiture peut 
+doubler toute seule un véhicule 
+quand le clignotant est action­
+né). 
+-	
+Niveau 4 : le système automa­
+tisé peut effectuer la conduite 
+de manière autonome dans 
+certaines circonstances (types 
+de route, conditions atmosphé­
+riques, densité de circulation..) 
+(ex  : conduite en mode auto­
+nome sur autoroute en l’ab­
+sence de neige).
+-	
+Niveau 5 : le système automati­
+sé peut conduire le véhicule en 
+toutes situations.
+Le niveau 1 est largement dispo­
+nible depuis les années 2000, le 
+niveau 2 l’est depuis quelques 
+années et commence à être inté­
+gré dans de nombreux modèles. 
+Le niveau 3 arrive depuis 2021 
+dans quelques véhicules haut de 
+gamme (système Honda sur Le­
+gend EX homologué au Japon en 
+mars 2021, système Mercedes 
+homologué le 9 décembre 2021 
+en Europe – à noter que Tesla ne 
+dispose pas d’homologation de ni­
+veau 3 fin 2021). Les niveaux 4 et 
+5 font l’objet de développements 
+importants depuis la dernière dé­
+cennie (par les constructeurs his­
+toriques et de nouveaux venus 
+comme Waymo la filiale de Google, 
+Tesla ou encore Valeo). 
+Pour de nombreux spécialistes, 
+comme le cabinet Gartner (cf. 
+Hype Cycle for Automotive Tech­
+nologies, July 2020), il faudra en­
+core plusieurs années avant de 
+disposer de premiers véhicules au 
+niveau 4 et le niveau 5 nécessite­
+ra plus d’une dizaine d’années. La 
+question se pose d’ailleurs de sa­
+voir s’il n’y aura pas un niveau « 4 
+½ » pour les autoroutes, les voies 
+principales et les zones urbaines 
+où l’infrastructure collaborera avec 
+les véhicules via des systèmes 
+de communication V2I (Vehicle 
+to Infrastructure). Des projets pu­
+blics européens comme Scoop et 
+Safe Strip commencent l’expéri­
+mentation de tels systèmes pour 
+transmettre aux véhicules des in­
+formations sur des événements à 
+venir (zone de travaux,…) ou sur 
+des événements détectés par les 
+autres véhicules (accident, ver­
+glas…).
+La longue route de la robotique 
+autonome
+Le principal défi du développement 
+des systèmes robotiques est de 
+détecter et comprendre l’environ­
+nement qui les entoure et de faire 
+face aux événements imprévus. 
+Le niveau d’autonomie nécessaire 
+déprendra de la structuration de 
+l’environnement, de son caractère 
+coopératif, enfin de sa dynamique 
+et de sa prévisibilité :
+-	
+L’environnement 
+peut 
+être 
+plus ou moins structuré (cas 
+des routes, des rues) et plus 
+ou moins encombré. Entre les 
+trois milieux (air / terre / mer), 
+le milieu terrestre est le plus 
+complexe en raison de la diver­
+sité des obstacles / des objets 
+et c’est dans ce milieu que la 
+robotique évoluera le plus len­
+tement vers l’autonomie. 
+-	
+L’environnement peut être plus 
+ou moins coopératif (via un sys­
+tème de positionnement global 
+comme le GPS ou demain GA­
+LILEO, via des infrastructures 
+communicantes comme dans 
+le cas des systèmes de com­
+munication V2I). 
+-	
+L’environnement peut être plus 
+ou moins dynamique, plus 
+ou moins prévisible pour les 
+systèmes qui y évoluent. Le 
+nombre de mobiles, leur com­
+portement, leur prévisibilité ont 
+ainsi une influence. Une voiture 
+autonome aura un compor­
+tement plus prévisible qu’un 
+piéton. Plus il y a de mobiles 
+variés (piétons, cyclistes, trot­
+tinettes…) et en nombre, plus 
+ils sont susceptibles d’avoir un 
+comportement hostile, plus le 
+niveau d’autonomie nécessaire 
+est difficile à atteindre.
+La perception constitue un défi 
+pour atteindre avec un système 
+robotique équipé de capteurs, 
+l’équivalent des sens des hu­
+mains. Les capteurs ont récem­
+ment progressé notamment grâce 
+à l’apprentissage à partir de don­
+nées et leur complémentarité per­
+met d’améliorer les capacités de 
+détection et de reconnaissance. 
+Mais la fusion de données n’est 
+pas sans difficulté car il faut appa­
+rier les percepts (appartiennent-ils 
+aux mêmes objets, ou à des 
+objets distincts  ?) et faire face 
+aussi parfois à des artefacts. Le 
+raisonnement est l’autre défi ma­
+jeur. Il nécessite de modéliser le 
+problème en termes d’espace, 
+de temps et de description des 
+événements. La modélisation du 
+jeu de go est assez différente 
+de celle d’un théâtre d’opération 
+aéroterrestre avec des amis, des 
+ennemis, mais également des po­
+pulations.

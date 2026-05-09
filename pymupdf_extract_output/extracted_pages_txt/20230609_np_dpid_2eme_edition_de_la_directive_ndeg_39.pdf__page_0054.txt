@@ -1,0 +1,96 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 54 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 54 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+PHY1 
+ORG 
+Appliquer les mesures de protection physique définies dans l’IGI 1300 et l’IM 900 
+si le système industriel traite de données classifiées ou portant une mention de 
+protection Diffusion Restreinte. 
+O
+ 
+ 
+ 
+ 
+PHY2 
+ORG 
+TECH 
+Mettre en place des mécanismes de contrôle d’accès adaptés aux enjeux de 
+sécurité du système industriel ou conformes aux réglementations selon la nature 
+du système ou son niveau de confidentialité. 
+O
+ 
+ 
+ 
+ 
+PHY3 
+ORG 
+Définir et mettre en œuvre une politique de contrôle d’accès aux locaux, aux 
+armoires et aux coffrets abritant des équipements du système industriel (gestion 
+des accès aux locaux, mécanismes de contrôle d'accès, gestion des clés et des 
+codes d’alarme, etc.).   
+Les mécanismes de contrôle d’accès sont adaptés aux enjeux de sécurité du 
+système industriel ou conformes aux réglementations selon la nature du système 
+et son niveau de confidentialité. 
+O
+ 
+ 
+ 
+ 
+PHY4 
+ORG 
+Définir le personnel explicitement autorisé, voire habilité, à accéder sans 
+accompagnement aux locaux abritant des équipements du système industriel. La 
+liste de ce personnel doit être tenue à jour. 
+O
+ 
+ 
+ 
+ 
+PHY5 
+ORG 
+TECH 
+Tracer l’accès aux locaux, notamment les locaux techniques, armoires, coffrets 
+abritant des éléments sensibles du système industriel, y compris pour le personnel 
+accompagné. Les traces sont conservées un an. 
+O
+ 
+ 
+ 
+ 
+PHY6 
+ORG 
+Mettre en place un dispositif de détection d'intrusion et de vidéosurveillance pour 
+les locaux ou zones physiques les plus sensibles en cas de risques d'intrusion 
+physique jugés non négligeables, en particulier pour les locaux et zones non 
+occupés de manière permanente.  
+ 
+C 
+R 
+O 
+ 
+PHY7 
+ORG 
+Déployer les serveurs et les postes d’exploitation dans des locaux différents. 
+ 
+R 
+O 
+O 
+ 
+PHY8 
+ORG 
+Installer les serveurs dans des locaux fermés sous contrôle d’accès, si possible 
+dans des salles informatiques ou locaux techniques. 
+ 
+R 
+O 
+O

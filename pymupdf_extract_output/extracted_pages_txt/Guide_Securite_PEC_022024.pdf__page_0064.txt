@@ -1,0 +1,35 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 64 / 108
+
+================================================================================
+
+64
+POLE D'EXCELLENCE CYBER
+Désactiver Cortana 
+(+ Vidéo)
+Attention, cette méthode concerne uniquement les versions Professionnel et 
+Entreprise de Windows 10.
+L’assistant virtuel de Microsoft appelé Cortana, récolte en permanence des 
+informations sensibles sur vous qu’il peut divulguer à Microsoft, ses filiales et ses 
+partenaires, notamment votre localisation géographique et vos emplacements 
+habituels, votre historique de recherche, vos centres d’intérêt, vos contacts, vos 
+rendez-vous, les informations de certaines applications (Santé), etc. Pour désactiver 
+Cortana, vous devez être connecté à votre ordinateur à l’aide d’un compte ayant des 
+droits administrateurs.
+Faites un clic droit sur le bouton Démarrer 
+1  et choisissez Exécuter 2 . Dans la 
+nouvelle fenêtre qui s’ouvre, entrez gpedit.msc 3  et cliquez sur le bouton OK 4  :
+ 
+Ainsi, vous allez lancer l’outil d’administration, appelé l’éditeur de stratégie de groupe 
+locale qui vous permet de configurer de nombreux paramètres dans Windows. Dans 
+le menu Configuration ordinateur 5  ouvrez le dossier Modèles d’administration 6 , 
+puis Composants Windows 7  :
+1
+2
+3
+4 
+4 
+5
+6
+7

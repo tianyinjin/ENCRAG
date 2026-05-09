@@ -1,0 +1,84 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 26 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+26
+Construire la confiance en l’IA : 
+la nécessité de la certification. 
+Le point de vue d’un CESTI
+Un CESTI (Centre d’Évaluation de la Sécurité des 
+Technologies de l’Information) est un laboratoire 
+d’évaluation de logiciel agréé par l’ANSSI. L’objectif de 
+cette structure est de vérifier que les produits analysés 
+sont résistants à un attaquant tel que défini dans le 
+schéma de certification au travers d’une évaluation.
+Cette vérification, appelée évaluation, est une tâche 
+complexe qui devient encore plus ardue lorsqu’il s’agit 
+de produits intégrant des réseaux de neurones – une 
+branche de l’Intelligence Artificielle actuellement en 
+plein essor. Ces derniers sont de plus en plus utilisés 
+dans divers domaines, allant de la reconnaissance 
+d’images à la prise de décision autonome. 
+En tant que CESTI, évaluer ces produits présente 
+aujourd’hui des défis uniques. Chaque fonction 
+d’un logiciel accessible par un attaquant représente 
+un risque pour la sécurité. Par ailleurs s’assurer du 
+niveau d’alignement [1] et de l’absence de biais d’une 
+intelligence artificielle est également un sujet majeur 
+mais restent actuellement un sujet de recherche. 
+Cet article traite de l’adaptation du processus 
+d’évaluation pour tenir compte de cette évolution des 
+produits intégrant de l’intelligence artificielle, sans pour 
+autant nécessiter de vérifier l’alignement des modèles.
+Problématique
+Intégrer une intelligence artificielle dans un logiciel 
+requiert de déléguer une partie du traitement des 
+informations à un réseau de neurones. Cette approche 
+permet d’étendre les fonctionnalités du produit, mais 
+entraîne l’opacité du traitement aboutissant aux 
+résultats. Un réseau de neurones doit être fiable sur 
+plusieurs points en [2] :
+•	
+Retournant des résultats qui ne reproduisent pas 
+les biais présents naturellement dans les données 
+produites par l’être humain ;
+•	
+Prenant des décisions en accord avec les objectifs 
+et l’éthique des utilisateurs qui manipulent ce 
+réseau de neurones.
+Malgré ces problématiques, l’évaluation des produits 
+contenant des réseaux de neurones est cruciale pour 
+garantir leur sécurité et leur fiabilité. En identifiant les 
+potentielles vulnérabilités, les CESTI contribuent à la 
+création de systèmes plus robustes et moins susceptibles 
+de subir des attaques. De nombreuses industries sont 
+soumises à des réglementations strictes en matière de 
+sécurité des technologies de l’information et la mise 
+en place d’une méthodologie d’évaluation est une 
+étape nécessaire dans la réalisation des analyses de ces 
+nouveaux produits basés sur des réseaux de neurones.
+Positionnement de l’évaluation
+L’intelligence 
+artificielle 
+est 
+généralement 
+intégrée dans des programmes de multiples 
+usages : prendre des décisions, générer du 
+contenu, interpréter du langage naturel, etc. 
+Les résultats produits par une intelligence artificielle 
+sont, à un moment donné, traités par un logiciel 
+appelant, et c’est précisément à cette étape que se 
+situe le plus grand risque. En effet, le programme ne 
+peut pas considérer les données générées comme 
+étant entièrement fiables, en raison du caractère non 
+déterministe des résultats. Même en l’absence de biais 
+intentionnel dans le produit, des contrôles peuvent 
+être effectués en amont, mais ils sont impérativement 
+nécessaires en aval du réseau de neurones.
+Solutions actuelles
+Jean-Léon Cusinato 
+Evaluateur CESTI logiciel 
+Amossys

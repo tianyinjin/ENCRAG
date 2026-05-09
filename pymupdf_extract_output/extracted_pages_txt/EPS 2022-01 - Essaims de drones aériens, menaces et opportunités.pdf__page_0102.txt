@@ -1,0 +1,103 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 102 / 136
+
+================================================================================
+
+102 
+GOLDEN HORDE et Networked Collaborative and Autonomous 
+(NCA) Weapons 
+Dates :  
+2019 - 2021. Continuité de CODE244 et prolongé par 
+Golden Horde Colosseum245 pour intégrer dans un 
+ensemble collaboratif des munitions en réseau, (AGM-
+158 JASSM ER/LRASM246, ADM-160 MALD X247 et 
+SiAW248). 
+Acteurs :  
+Air Force Research Laboratory, US Air Force.  
+Scientific Applications Research Associates (SARA) 
+(contrat de 100 m$). Raytheon (vecteur SDB II). 
+Porteurs potentiels :  
+Aéronefs. (Véhicules : variante roquette249) 
+Cas d’usage affichés :  Frappe, Brouillage, leurrage, SEAD. 
+ 
+PERFORMANCES DES VECTEURS D’ESSAI : 
+Vecteur : GBU-53 II StormBreaker modifiée en 
+“CSDB-1 (Collaborative Small Diameter Bomb)”. La 
+GBU-53 est issue d’un programme conjoint Air 
+Force - Navy (2006-2022). La CSDB-1 est une arme 
+standard modifiée pour intégrer la charge utile 
+expérimentale d’autonomie collaborative de SARA. 
+Non récupérable. Coût unitaire : 220 916 $250 (Navy) 
+Poids : 93 Kg dont 48 Kg de charge explosive 
+Autodirecteur : Radar, IR, laser semi-actif, GPS et 
+homing sur brouillage GPS. 
+Longueur : 176 cm 
+Envergure : 168 cm 
+Diamètre : 18 cm  
+Sans propulsion. 
+Portée : 60 Nq (cibles fixes) 40 Nq cibles mobiles. 
+Navigation :  GPS et INS 
+Communications : « Network Enabled Weapon » 
+(NEW), à travers une liaison « Weapon Data Link » 
+bidirectionnelle (L16). Messages NEW clés :  
+- 
+In Flight Target Update (IFTU) 
+- 
+In-flight controller hand-off 
+- 
+In flight re-targeting 
+- 
+In flight abort 
+- 
+Weapon in Flight Track (WIFT) 
+- 
+Bomb Hit Indicator (BHI) 
+ 
+ 
+244 Collaborative Operations in Denied Environment, programme de la DARPA initié en 2016, décrit page précédente. 
+245 Qui implique la DIU, et, “en compétition”, L3Harris, Shield AI, STR, Lockheed Martin, EpiSci, Autonodyne LLC, Heron Systems, 
+le Georgia Tech Research Institute et le John Hopkins Applied Physics Laboratory. L’Etat fournit le “digital, agile, open, and 
+government-owned research and development testbed capacity for NCA weapons”. 
+246 Joint air-to-surface standoff missile/Extended Range (Lockheed Martin). Long Range Anti-Ship Missile (variante du JASSM). 
+247 Miniature Air-Launched Decoy (Raytheon). Version « N » dans l’US Navy (Decoy et Jammer “stand in”). En essaim, ce 
+vecteur serait rendu apte aux « cognitive electronic attacks » (détection, catégorisation, ciblage en cours de mission). 
+248 Stand-In Attack Weapon, basé sur la version “extended range” de l’AARGM (Advanced Anti-Radiation Guided Missile) et 
+destiné aux F35. 
+249  En 2019, un essai contre une cible à la mer aurait démontré une portée de 70 Nq. 
+250 Pour la GBU-53 II. Prix inconnu pour la version « collaborative » qui est une variante prototype. 
+251 Système d’Armes Létal Autonome (ou LAWS : Lethal Autonomous Weapon System). 
+252 C’est le « play calling », à l’image de l’action d’un entraîneur pour son équipe ou de l’action autonome de celle-ci. 
+PERFORMANCES DE L’ESSAIM : 
+Lancement par F16 de 6 munitions air-sol agissant 
+en réseau, en essaim coordonné, le 25 mai 2021 (à 
+noter que c’était l’ambition affichée par CODE). 
+Les essais ont concerné, entre autres, la priorisation 
+des cibles, les ordres de guidage collaboratif dont la 
+validation d’un « In Flight Target Update ». Il 
+s’agissait de valider le concept de “Networked 
+Collaborative and Autonomous (NCA) Weapons” où 
+les armes agissent ensemble, indépendamment de 
+la plate-forme de lancement, en temps réel, de 
+manière dynamique, sans être considérés comme 
+des SALA251. 
+Un “Playbook” d’algorithmes collaboratifs (les 
+« Plays ») est sélectionné avant la mission. Chaque 
+“Play” code un comportement collaboratif prédéfini 
+qui est activé ou désactivé en fonction de conditions 
+prédéfinies. 
+Le 
+système 
+sélectionne252 
+des 
+comportements préétablis et, ainsi, ne peut violer 
+les règles d’engagement programmées. Seuls des 
+cibles ou groupes de cibles sélectionnés par un 
+opérateur peuvent être engagés. Pour cette raison, 
+le 
+système 
+est 
+présenté 
+comme 
+« semi-
+autonome ».

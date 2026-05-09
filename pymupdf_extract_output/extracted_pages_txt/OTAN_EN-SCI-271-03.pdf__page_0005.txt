@@ -1,0 +1,50 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 5 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+be accomplished through implementing standard interfaces in the UCS to communicate with different UAVs 
+and their payloads, as well as with different Command, Control, Communication, Computers and 
+Intelligence (C4I) systems. The implementation of standard interfaces will also facilitate the integration of 
+components from different sources as well as the interoperability of legacy systems. Compliant UAV´s shall 
+be certified and will increase NATO joint flexibility through the sharing of assets [4].  
+The standards in STANAG 4586, which are identified as mandatory, shall be implemented as a whole in 
+order to achieve the required LOI. It is assumed that air safety regulations will require the certification of 
+systems, which result from combining the operation of assets from different UAV´s. Compliance with 
+STANAG 4586, will ease this process and likely UAV system combinations can be certified in advance. [4]. 
+On this basis, UAV´s that are compliant with STANAG 4586 will increase NATO Combined/Joint Service 
+flexibility and efficiency to meet mission objectives through the sharing of assets and common utilization of 
+information generated from UAV´s [4]. 
+2.1 
+Level of Interoperability 
+This standard also identifies five levels of interoperability (LOI) to accommodate operational requirements 
+[4]. The respective operational requirements and CONOPS will determine or drive the required LOI that the 
+specific UAV System will achieve. 
+• 
+Level 1: Indirect receipt and/or transmission of sensor product and associated metadata, for 
+example Key Length Value Metadata Elements from the UAV. 
+• 
+Level 2:  Direct receipt of sensor product data and associated metadata from the UAV. 
+• 
+Level 3: Control and monitoring of the UAV payload unless specified as monitor only. 
+• 
+Level 4: Control and monitoring of the UAV, unless specified as monitor only, less launch and 
+recovery. 
+• 
+Level 5: Control and monitoring of UAV launch and recovery unless specified as monitor only. 
+LOI 2 monitor is conditional on the type of payload (station) and the number of payloads (stations) 
+implemented onboard the UAV. It is also conditional on the type of payload data format used by the UAV 
+[4]. 
+ LOI 3 monitor only or control and monitor is conditional on the type of payload (station) and the number of 
+payloads (stations) and the payload data format used by the UAV [4].   
+LOI 4 monitor only or control and monitor is not affected by the payloads onboard the UAV [4]. 
+2.2 
+UCS Functional Architecture 
+This architecture establishes the following elements and interfaces: Air Vehicle (AV), Vehicle Specific 
+Module (VSM), Data Link Interface (DLI), Core UCS (CUCS), Command and Control Interface (CCI), 
+Human Computer Interface (HCI), Command and Control Interface Specific Module (CCISM), as shown in 
+Figure 3. 
+STO-EN-SCI-271 
+3 - 5

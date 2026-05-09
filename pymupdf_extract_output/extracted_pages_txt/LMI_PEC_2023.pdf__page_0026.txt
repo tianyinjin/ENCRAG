@@ -1,0 +1,62 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 26 / 68
+
+================================================================================
+
+Pôle d’excellence cyber
+26
+L’IA aux deux visages : génération et analyse
+Pour comprendre les évolutions en cours, il est 
+nécessaire de distinguer deux modes de fonctionnement 
+de l’IA dans le cadre du traitement de données.
+Commençons par l’IA générative, qui a connu 
+d’immenses avancées lors de la dernière décennie pour 
+des données de nature variée. Avec l’avènement de la 
+technologie Generative Adversarial Networks (GAN), 
+l’IA fournit des modèles réalistes pour produire des 
+contenus audio-visuels (StyleGAN). Parallèlement les 
+dernières méthodes de représentation de données 
+symboliques, les réseaux Transformers, ont bénéficié 
+au traitement du langage avec la production textuelle 
+automatique comme les chatbots (technologie GPT3, 
+chatGPT). Les deux modalités peuvent être désormais 
+combinées pour créer des contenus artistiques à 
+partir d’une description sommaire (Dall-e). L’une des 
+applications dérivée est la manipulation de contenu, 
+aussi appelée hypertrucage (Deepfake), dont l’objectif 
+est de travestir les attitudes ou propos d’une personne.
+Poursuivons par l’IA analyse dont l’utilisation est antérieure, 
+notamment par sa capacité à détecter ou classifier 
+des formes de nature arbitraire mais également des 
+contenus textuels. La détection de contenus malveillants 
+(pornographie, propos haineux) ou la modération sur les 
+réseaux sociaux sont rendus possible grâce à ces méthodes.
+Nous disposons donc de technologies aux propriétés 
+ambivalentes, qui montrent que la lutte contre les 
+manipulations de l’information est une question 
+fondée. Pour poser l’ensemble des problèmes 
+sous-jacents d’une manière adéquate, examinons 
+maintenant les limites de ces technologies. Le point 
+de vue considéré sera celui de la détection de 
+données manipulées et de contenus indésirables. 
+Les défauts de la cuirasse
+Les créations audio-visuelles de l’IA générative présentent 
+encore aujourd’hui des artefacts, liés par exemple à 
+l’absence d’optique de mesure ou aux retouches sur 
+un visage. Invisibles à l’œil nu, ces artefacts peuvent 
+néanmoins passer au crible de l’IA analyse qui propose 
+des méthodes de représentations abstraites capables 
+Manipulation de l’ information
+La technologie et sa nécessaire régulation
+Les progrès accomplis par l’Intelligence Artificielle (IA) sont désormais tels qu’il 
+est possible de produire des contenus audio-visuels et textuels d’un réalisme 
+stupéfiant à l’échelle industrielle. Appuyés par des moyens de diffusion planétaires, 
+ils nous font entrer dans un monde de l’information où l’art de duper et celui de 
+confondre promettent de régner en maître. Dès lors, nous proposons une analyse 
+prospective des enjeux technologiques induits par ces progrès, ainsi que des 
+relations qu’ils entretiennent avec les problématiques juridiques et éthiques.
+Stéphane PAQUELET
+Responsable du laboratoire 
+Intelligence Artificielle
+b<>com

@@ -1,0 +1,151 @@
+Source file: caia-125-bd-ok.pdf
+Relative path: caia-125-bd-ok.pdf
+Page: 57 / 104
+
+================================================================================
+
+55
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+OÙ EN EST LA FRANCE :
+FEUILLES DE ROUTE
+charge toutes les dimensions de la 
+mission : UMISOFT. En amont, elle 
+assure la planification en optimisant 
+l’emploi des différents vecteurs et 
+propose des séquences de déploie­
+ment visant à réduire le temps d’ana­
+lyse d’une zone donnée tout en 
+maximisant la qualité de la détection 
+d’objets suspects. En aval, elle per­
+met la mise en œuvre des drones, 
+avec si nécessaire des reconfigura­
+tions en temps réel. L’opérateur dis­
+pose d’outils d’analyse des données 
+collectées par les drones, d’aide à la 
+classification et l’identification. Ses 
+tâches en sont ainsi facilitées.
+UMISOFT dispose d’une architec­
+ture modulaire  : il permet l’acqui­
+sition et le traitement de données 
+issus de capteurs très variés d’ECA 
+Group ou d’une entreprise parte­
+naire : sonars à balayage, sonar la­
+téral, sonar à ouverture synthétique, 
+sondeurs multifaisceaux, magnéto­
+mètres, sondeurs de sédiments, vi­
+déo, capteurs environnementaux… 
+Cette architecture ouverte rend pos­
+sible l’intégration de différents types 
+de drones, conçus par ECA Group 
+ou par d’autres entreprises comme 
+le drone aérien SKELDAR et des 
+drones sous-marins REMUS dans le 
+programme BENL. 
+Intelligence artificielle embar­
+quée, l’efficacité au plus près
+Intégrer les intelligences artificielles 
+les plus avancées directement à 
+bord des systèmes de drones offre 
+des gains de temps et d’efficacité 
+considérables.
+Plusieurs réseaux neuronaux sont 
+ainsi utilisés pour mieux appré­
+hender l’environnement. Les algo­
+rithmes de détection automatique 
+de contact (ATD) permettent de dé­
+tecter automatiquement les mines 
+potentielles. La reconnaissance au­
+tomatique de contact (ATR) permet 
+leur classification et le transfert des 
+données aux autres robots, pour 
+identification (SEASCAN) et neutra­
+lisation (K-STER). 
+Toutes ces informations sont en­
+suite fournies à d’autres logiciels 
+Image prise par le sonar UMISAS 120 VHF du navire S.S. Ferrando au large des côtes d’Hyères. 
+Taille de l’image : 40 m x 135 m
+d’IA qui permettent de prendre une 
+décision optimale sur le devenir de 
+la mission et de son optimisation, 
+tel qu’un changement du trajet 
+d’exploration d’une zone ou la revi­
+site d’un objet.
+Là où une surveillance régulière est 
+effectuée, les images sont stockées 
+dans un centre à terre, doté d’outils 
+puissants d’analyse et de corréla­
+tion, le Mine Warfare Data Center. 
+A chaque nouveau passage, elles 
+sont comparées aux données pré­
+cédemment collectées afin de repé­
+rer les différences.
+Un sonar performant et sobre
+Dans le domaine de la lutte contre 
+les mines, la qualité des images 
+fournies par le sonar est un élément 
+essentiel. Les images du sonar 
+UMISAS d’ECA à antenne synthé­
+tique sont parmi les plus précises 
+au monde : 1,5cm x 3cm. 
+Ce sonar, qui consomme 10 fois 
+moins que la génération précédente 
+est intégré dans le drone sous-ma­
+rin, aujourd’hui dans l’A 18-M et de­
+main dans de futurs AUV.
+Les Grands Fonds Marins, nou­
+veau domaine de conflictualité 
+potentielle
+Le plan d’investissement « France 
+2030 » affiche de très hautes ambi­
+tions concernant les Grands Fonds 
+Marins. Du côté civil, l’exploration de 
+ces abysses méconnus permettra de 
+mieux étudier les minéraux qui y sont 
+présents et de découvrir de nouvelles 
+formes de vie. Du côté militaire, la 
+protection des infrastructures straté­
+giques, comme les câbles de com­
+munication, devient une nécessité. 
+Depuis 40 ans, ECA Group a déve­
+loppé pour l’IFREMER plusieurs ro­
+bots pouvant atteindre le plancher 
+océanique. C’est le cas d’Ulyx, 
+un drone autonome livré en 2020 
+et capable d’effectuer des mis­
+sions de 48h à 6  000m de fond. 
+Pour ce faire, il a fallu imaginer des 
+technologies répondant aux fortes 
+contraintes telles que la résistance 
+des matériaux à la pression, l’hy­
+drodynamique, la flottabilité, les 
+difficultés de communication ou en­
+core le sujet central de la navigation 
+sous-marine sans GPS.
+Pour un monde plus sûr
+Les Grands Fonds Marins font figure 
+de nouveau domaine à explorer dans 
+le domaine de la robotique. Les am­
+bitions affichées doivent permettre 
+de concrétiser de nouveaux paliers 
+comme les meutes de drones, les 
+robots résidents ou la généralisation 
+des IA embarquées.
+Une maîtrise d’ensemble, de la 
+conception des drones à l’intégra­
+tion des capteurs, en passant par les 
+logiciels et l’IA, apporte des solutions 
+innovantes. 
+Dominique 
+Giannoni, ICA, 
+Directeur Général 
+ECA Group
+Diplômé de l’ENSTA et du MIT il a débuté à 
+la DGA (frégates HORIZON, lutte sous-ma­
+rine) et Cap Gemini Telecom. Il a été chez 
+Thales en charge des sonars pour sous-ma­
+rins, puis de l’Avionique Militaire. Il dirige en­
+suite l’activité «Multimédia de Cabine pour 
+Avions Commerciaux» basée en Californie, 
+puis l’activité de Systèmes Electroniques 
+pour Avions de Combat. Il est depuis 2021 
+Directeur Général du groupe ECA

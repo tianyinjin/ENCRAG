@@ -1,0 +1,113 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 59 / 84
+
+================================================================================
+
+59
+Recommandation : Mettre en place si nécessaire des 
+mécanismes de protection en confidentialité des SIA 
+(chiffrement, effacement sécurisé à distance, etc.).
+•	
+La protection contre des attaques par canaux 
+auxiliaires[4] : même si elles ne sont pas propres 
+aux SIA, celles-ci doivent être prises en compte dès 
+la conception des modèles d’IA[5] afin se prémunir 
+des risques d’extraction de modèles ;
+Recommandation : Implémenter des fonctions de 
+sécurité pour réduire les risques d’extraction des 
+modèles d’IA via des attaques par canaux auxiliaires.
+•	
+La protection contre des attaques en déni de 
+service [6] : celles-ci peuvent saturer la puissance de 
+calcul utilisée par les modèles d’IA et augmenter 
+les délais de réponse, ce qui est problématique 
+pour des systèmes temps-réel.
+Recommandation : Mettre en place un contrôle 
+des entrées envoyées aux modèles d’IA. Dédier des 
+composants physiques à des calculs considérés 
+comme critiques.
+Conception et entraînement des modèles d’IA
+La protection contre des attaques sur la chaîne 
+d’approvisionnement 
+est 
+un 
+impératif 
+critique. 
+Des risques importants spécifiques aux SIA sont à 
+prendre en compte lors de la phase d’entraînement 
+des modèles d’IA, par exemple l’empoisonnement 
+des jeux d’entrainement, l’implémentation de portes 
+dérobées, etc.
+Par ailleurs, la phase d’entrainement des modèles 
+est souvent effectuée dans des environnements 
+de développement, par définition plus ouverts et 
+potentiellement plus vulnérables aux cyberattaques. 
+Il convient donc de se poser les questions suivantes :
+•	
+Qui dispose des droits d’accès sur le modèle d’IA 
+lors de l’entraînement ?
+•	
+Comment tester et évaluer les jeux de données 
+d’entrainement ?
+•	
+Comment s’assurer de la pleine intégrité des 
+modèles, une fois ces derniers entrainés ?
+•	
+Comment réaliser un déploiement sécurisé de ces 
+modèles sur les équipements finaux ?
+•	
+Comment vérifier régulièrement l’intégrité des 
+modèles d’IA, une fois ceux-ci en production, afin 
+de s’assurer qu’ils n’ont pas été compromis ?
+Recommandations : 
+•	
+Appliquer le principe de moindre privilège dans 
+la gestion des accès aux SIA, incluant la phase de 
+développement et d’entrainement des modèles.
+•	
+Évaluer le niveau de confiance des jeux de 
+données d’entrainement (provenance, qualité, 
+exhaustivité, représentativité, etc.) et s’assurer de 
+leur intégrité avant toute opération.
+•	
+Implémenter des fonctions de contrôle réguliers 
+de l’intégrité des SIA et une remontée d’alerte en 
+cas de modification non légitime.
+Le maintien en condition opérationnel et de sécurité 
+des SIA doit être discuté dès la phase de conception, 
+pour pouvoir être en mesure de déployer des correctifs 
+de manière réactive, en cas de dysfonctionnement. Or, 
+ce déploiement peut poser des contraintes lorsqu’il 
+est réalisé à distance, depuis des services centralisés. 
+Il faut donc prévoir un processus de réentrainement 
+des modèles d’IA qui s’inscrit en cohérence avec 
+les contraintes physiques des environnements. Les 
+opérateurs doivent pouvoir être en mesure de réaliser 
+une supervision de sécurité des SIA (locale ou distante) 
+et éventuellement être en mesure de faire des retours 
+arrière vers des versions précédentes du modèle d’IA 
+en cas de dysfonctionnement après une mise à jour.
+Conclusion
+Si la cybersécurité de l’IA consiste principalement à 
+traiter des problématiques de cybersécurité standard, 
+elle 
+induit 
+également 
+de 
+nouveaux 
+risques[7] 
+notamment liés à une possible compromission lors 
+de la phase d’entraînement. Le caractère probabiliste 
+des réponses apportées par les modèles d’IA implique 
+également une grande vigilance, et la mise en place 
+des processus métier incluant des contrôles humains 
+réguliers, ainsi qu’une évaluation des risques en cas 
+d’incident. Dans des environnements de défense 
+contraignants, ces risques peuvent être parfois 
+difficiles à traiter, la disponibilité des composants de 
+calcul ou des interconnexions réseaux n’étant pas 
+toujours garantie. Afin d’assurer la confiance dans les 
+SIA, il peut être opportun de mener une évaluation 
+de cybersécurité au regard des risques et menaces 
+identifiés.

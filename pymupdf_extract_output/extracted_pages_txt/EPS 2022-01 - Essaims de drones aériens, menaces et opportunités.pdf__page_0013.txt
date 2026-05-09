@@ -1,0 +1,55 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 13 / 136
+
+================================================================================
+
+13 
+s'adapter facilement à une nouvelle tâche. Pour obtenir des comportements plus élaborés, il faut que 
+les agents soient dotés de buts, et plus généralement d'attitudes propositionnelles envers leur 
+environnement. On désigne par attitude propositionnelle une modalité telle que la croyance, le désir, 
+l'intention ou même l'espoir, envers une proposition ayant trait au monde. Par exemples : « je crois que 
+la cible est illuminée » ou encore « j'ai l'intention de tirer ».  
+Concrètement, un robot moderne « avancé » utilise une architecture hybride : un système de type 
+délibératif « pilote » le comportement abstrait du robot en planifiant et replanifiant régulièrement, tandis 
+que des sous-systèmes réactifs assurent les fonctions les plus concrètes telles que la locomotion, la 
+détection, l’utilisation des charges utiles, etc. Cette approche hybride est celle de chaque agent, c’est 
+aussi celle de l’essaim en tant que tel. Il y a bien deux IA : celle de l’agent qui relève de sa charge utile 
+et celle de l’essaim. 
+On le voit, ici, pas de place pour un fonctionnement en boîte noire, pas de « deep learning » ou de 
+recours massif à des données d’apprentissage5. 
+- 
+LE CADRAGE DE L’AUTONOMIE COLLABORATIVE 
+Les approches de l'IA appliquée au contrôle robotique se situent sur un spectre entre les approches 
+dites délibératives et les approches réactives, développées respectivement dans les années 60 et 90. 
+Ces technologies ont aujourd'hui un bon niveau de maturité et les enjeux de recherche en robotique 
+sont maintenant plus axés sur l'interaction physique avec le monde (locomotion, manipulation, 
+perception, etc.). 
+En revanche, les recherches sur les technologies permettant à l’homme de cadrer efficacement l’action 
+d’un essaim sont plus récentes et moins stabilisées. Le paradigme qui fait référence est celui du partage 
+d’autorité et en particulier le contrôle par délégation où le superviseur confie dynamiquement certaines 
+décisions et en garde d’autres. Militaires et scientifiques américains ont adapté de concert cette notion 
+pour la rendre compatible d’une ressource humaine comptée, dont on cherche à alléger la charge 
+mentale : elle est néanmoins suffisante pour aller de l’avant vers la délégation de tâches en situation 
+d’hostilités. 
+A cet effet, depuis le début du siècle, les Etats-Unis ont développé la technologie des « Plays » en 
+s’appuyant sur la métaphore des tactiques de jeu prédéfinies, pour chaque match, par les entraîneurs 
+de football américain ; les « Plays » sont rassemblés en « Playbooks », catalogues prédéfinis et 
+partagés de modes d'exécution de tâches. Le principe général de cette approche est de permettre à un 
+acteur, le superviseur, de décider de manière granulaire de la délégation de tâches à un autre acteur, 
+le subordonné. Cette délégation peut être plus ou moins conséquente, ajustée suivant différents 
+niveaux6.  
+Objets de plusieurs publications scientifiques, notamment par M. Chris Miller, les « Plays » sont des 
+modèles d'action contraints qui offrent une gamme limitée d'options pour les agents subordonnés. Ainsi, 
+les « Playbooks » sont un moyen pratique, humain et efficace de déléguer ou de transférer une 
+« autorité », une « responsabilité » et des ressources limitées à un « subordonné » robotique en 
+codifiant l'intention d'un superviseur sur la base de représentations partagées, pour accomplir une ou 
+plusieurs « macro-tâche », dans un contexte et un environnement évolutif. Cette approche vise à 
+accroître la performance face à l’imprévisible tout en réduisant la charge de travail opérateur. Elle est 
+bien en phase avec les contraintes immuables d’emploi des forces (hiérarchie, discipline, contrôle du 
+feu et de la manœuvre, délégation, initiative, pour ne citer qu’elles). Elle relève des procédés, en 
+cohérence avec l’usage classique de la documentation tactique pour structurer l’action. Le système de 
+drones effectue une ou plusieurs tâches : il n'a pas la capacité de raisonnement "mission". 
+ 
+5 En revanche, ces technologies peuvent être exploitées pour le traitement embarqué des capteurs. 
+6 Les publications scientifiques en mentionnent sept.

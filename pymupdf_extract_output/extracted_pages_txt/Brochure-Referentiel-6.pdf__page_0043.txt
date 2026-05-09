@@ -1,0 +1,188 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 43 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+84 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 85
+Les domaines académiques de recherche en cybersécurité couvrent un large spectre 
+dont la combinaison est la condition du succès. Ces domaines sont structurés selon la 
+typologie de l’ACM (Association for Computing Machinerie). 
+Cette association américaine à but non lucratif, éditrice de nombreuses revues de 
+référence, met à jour régulièrement une taxonomie de la recherche en informatique 
+comprenant un volet sécurité, qui constitue un standard de facto de classification de 
+la recherche en informatique. Pour cette raison, il est utile de présenter ici une table 
+de correspondance entre les deux approches.
+Cette première correspondance entre ces axes de recherche académique et les 
+produits, technologies et domaines fonctionnels permet de mettre en évidence l’apport 
+potentiel de la communauté académique au développement de la filière.
+Taxonomie de l’ « Association  
+for Computing Machinerie »
+Cryptography
+Key management
+Public key (asymmetric) techniques
+Digital signatures
+Public key encryption
+Symmetric cryptography and hash functions
+Block and stream ciphers
+Hash functions and message authentication  
+codes
+Cryptanalysis and other attacks
+Information-theoretic techniques
+Mathematical foundations of cryptography
+Formal methods and theory of security
+Trust frameworks
+Security requirements
+Formal security models
+Logic and verification
+Security services
+Authentication
+Biometrics
+Graphical / visual passwords
+Multi-factor authentication
+Access control
+Pseudonymity, anonymity and untraceability
+Privacy-preserving protocols
+Digital rights management
+Authorization
+Intrusion/anomaly detection  
+and malware mitigation
+Malware and its mitigation
+Intrusion detection systems
+Social engineering attacks
+Spoofing attacks
+Phishing
+Référentiel 
+PEC
+ 
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+Cyber-protection-Produits & technologies-technologies-cryptographie
+ 
+Cyber-protection-méthodes-environnement de conception sécurisé
+Cyber-protection-services-ingénierie système
+Cyber-protection-méthodes-méthodes formelles
+Cyber-protection-méthodes-méthodes formelles
+ 
+Cyber-protection-produits & technologies
+Cyber-protection-produits & technologies
+Cyber-protection-produits & technologies
+Cyber-protection-produits & technologies
+Cyber-protection-produits & technologies
+Cyber-protection-produits & technologies
+Cyber-protection-produits & technologies
+Cyberprotection-produits & technologies-technologies-informatique de confiance
+Cyber-protection-produits & technologies
+  
+ 
+Cyberdéfense-produits &technologies de LID-analyse de malware
+Cyberdéfense-produits &technologies de LID-détection d’intrusion
+Méthodes de LID-connaissance de la menace
+Méthodes de LID-connaissance de la menace
+Méthodes de LID-connaissance de la menace
+Référentiel 
+PEC
+ 
+Cyber-protection-produits & technologies-technologies-composants électroniques
+Cyber-protection-produits & technologies-produits-matériel et logiciel embarqué
+Cyber-protection-produits & technologies-technologies-composants électroniques
+Cyber-protection-produits & technologies-technologies-composants électroniques
+Domaines fonctionnels-composants matériels
+Domaines fonctionnels-composants matériels
+Cyber-protection-services-évaluation-évaluation composant
+Cyber-protection-services-évaluation-évaluation composant
+ 
+Cyber-protection-produits & technologies-technologies-logiciel sécurisé
+Cyber-protection-produits & technologies-technologies-logiciel sécurisé
+Cyber-protection-produits & technologies-technologies-logiciel sécurisé
+Cyber-protection-produits & technologies-technologies-logiciel sécurisé
+Domaines fonctionnels-progiciels applicatifs & solutions intégrées
+Domaines fonctionnels-progiciels applicatifs & solutions intégrées
+Cyber-protection-produits & technologies-produits
+Cyber-résilience-méthodes-résistance aux attaques
+Cyber-protection-produits & technologies-produits
+Cyber-protection-services-évaluation-évaluation système
+Cyberdéfense-produits &technologies de LID
+Cyberdéfense-produits &technologies de LID
+Cyber-protection-produits & technologies-produits
+ 
+Cyber-protection-produits & technologies-produits
+Cyber-protection-produits & technologies-produits
+Domaines fonctionnels-mobilité-nomadisme
+Cyber-résilience-méthodes-résistance aux attaques
+Cyber-protection-produits & technologies-produits
+ 
+Domaines fonctionnels-progiciels applicatifs & solutions intégrées
+Domaines fonctionnels-progiciels applicatifs & solutions intégrées
+Domaines fonctionnels-progiciels applicatifs & solutions intégrées
+Domaines fonctionnels-progiciels applicatifs & solutions intégrées
+ 
+Cyber-protection-produits & technologies-technologies-informatique de confiance
+Domaines fonctionnels-progiciels applicatifs & solutions intégrées
+Cas d’usage-sécurité de la vie privée
+Cas d’usages
+Cyber-protection-services-évaluation-évaluation logicielle
+  
+ 
+Cas d’usage-sécurité de la vie privée
+Cas d’usage-sécurité de la vie privée
+Cas d’usage-sécurité de la vie privée
+Cas d’usage-sécurité de la vie privée
+Taxonomie de l’ « Association  
+for Computing Machinerie »
+Security in hardware
+Tamper-proof and tamper-resistant designs
+Embedded systems security
+Hardware security implementation
+Hardware-based security protocols
+Hardware attacks and countermeasures
+Malicious design modifications
+Side-channel analysis and countermeasures
+Hardware reverse engineering
+Systems security
+Operating systems security
+Mobile platform security
+Trusted computing
+Virtualization and security
+Browser security
+Distributed systems security
+Information flow control
+Denial-of-service attacks
+Firewalls
+Vulnerability management
+Penetration testing
+Vulnerability scanners
+File system security
+Network security
+Security protocols
+Web protocol security
+Mobile and wireless security
+Denial-of-service attacks
+Firewalls
+Database and storage security
+Data anonymization and sanitization
+Management and querying of encrypted data
+Information accountability and usage control
+Database activity monitoring
+Software and application security
+Software security engineering
+Web application security
+Social network security and privacy
+Domain-specific security and privacy architectures
+Software reverse engineering
+Human and societal aspects of security  
+and privacy
+Economics of security and privacy
+Social aspects of security and privacy
+Privacy protections
+Usability in security and privacy

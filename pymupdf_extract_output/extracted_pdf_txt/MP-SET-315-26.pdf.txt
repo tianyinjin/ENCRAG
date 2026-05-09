@@ -1,0 +1,513 @@
+Source file: MP-SET-315-26.pdf
+Relative path: MP-SET-315-26.pdf
+Page count: 12
+Extracted pages: 12
+
+================================================================================
+
+[Page 1 / 12 | chars: 3206]
+--------------------------------------------------------------------------------
+
+STO-MP-SET-315-26 
+1 
+ 
+ 
+ 
+ 
+A Novel Swarm Defense End-to-End System for Autonomous Drone 
+Detection, Tracking, and Neutralization 
+Antoine Fagette, Junior Samuel Lopez Yepez, Stephanie Allogba, Jeremy Viel 
+and Filipe Carvalhais Sanches 
+Thales Digital Solutions Inc., 6650 Street Saint-Urbain, Suite 350, Montreal 
+CANADA 
+Guillaume Dorion-Racine 
+ARA Robotics, 2260 Avenue Aird, Suite 204, Montreal 
+CANADA 
+Iraj Mantegh and Varun Mehta 
+National Research Council of Canada, Montreal 
+CANADA 
+Miodrag Bolic 
+University of Ottawa, Ottawa 
+CANADA 
+antoine.fagette@thalesgroup.com  
+ABSTRACT  
+As the usage of drones across various applications continues to grow, the security challenges associated 
+with their unsanctioned operations in restricted zones become increasingly critical. To address these 
+challenges, we present a novel approach for automatic and autonomous threat management that detects 
+drone intrusions and executes real-time countermeasures. The proposed system, called BlueSwarm 
+integrates sensor data, implements data communication among resources, and leverages artificial 
+intelligence to operate a counter-attacking swarm of drones. This work was validated during simulated and 
+real-world experiments, confirming its detection, tracking and neutralization capabilities.  
+The proposed counter-UAV system integrates a ground segment and an air segment. The ground segment is 
+composed of a ground control station, manned by an operator and acting as a Command & Control Center, 
+alongside a ground radar and a PTZ camera for long-range detection, classification and localization of 
+incoming threats. The air segment is composed of a fleet of five drones, each embedding an Electro-Optic 
+sensor and a deployable net as neutralization payload. Those drones deploy autonomously as a swarm to 
+intercept, track, assess and neutralize the intruding drones while keeping the human operator in the loop. 
+Each drone is operated by its own AI agent working collaboratively with the others and with the human 
+operator. The system is designed for scalability and adaptability. The number of ground sensors, their type 
+and distribution in space can be adjusted depending on the needs and configuration of the space to protect. 
+The number of defending drones and their payloads can be equally adapted. The system relies on machine 
+learning techniques to detect, track and localize intruders, and to adapt to constantly evolving threats.  
+We have studied, designed and implemented, in collaboration with subject matter experts, different use cases 
+to test our system in simulation and during real-world demonstrations. Those use cases involve the intrusion 
+of up to five enemy drones exhibiting patterns of careless, clueless and criminal operators, evolving as 
+independent individuals or in swarm in simulations, and two enemy drones for real-world demonstrations.  
+Each mission is organized in four distinct phases, ensuring a streamlined and efficient process from 
+detection to neutralization: (i) ground sensor-based detection, classification and localization of potential 
+threats, (ii) deployment of the defensive swarm of drones, (iii) assignment of each drone to individual
+
+[Page 2 / 12 | chars: 4194]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+2 
+STO-MP-SET-315-26 
+ 
+ 
+targets, and (iv) tracking and neutralization of the invading drones, combining ground and embedded 
+sensors. During a mission, the airspace is divided into specific zones. First, a delimited protected area where 
+any unauthorized drone activity is strictly forbidden. Secondly, a buffer area where any intrusion triggers a 
+reaction from our system, allowing for a coordinated response before reaching the protected area.  
+Our research contributes to the advancement of security measures against the escalating drone threats by 
+providing a comprehensive, adaptable and scalable solution enabling collaborative autonomy thanks to 
+relevant technologies and procedures. By combining our new components and existing system, we aim to 
+mitigate risks and safeguard restricted areas against unauthorized drone activities. Developed in 
+collaboration with subject matter experts, the research contributes to the advancement of counter-UAV 
+technologies within the NATO S&T community. 
+1.0 INTRODUCTION 
+Driven by rapid technological advancements and widespread accessibility, drones now represent a 
+significant security concern, especially in restricted zones. The need to counter unauthorized drone 
+operations is more prominent than ever. In this paper, we present an innovative end-to-end system that 
+employs a defensive swarm of autonomous unmanned aerial vehicles (UAV) to effectively neutralize a 
+swarm of invading drones. The main sectors affected by drone incidents between December 2018 and March 
+2020 were airports, private property, law enforcement, first responders and prisons [1].  
+1.1 
+Background on Drone Usage and Security Challenges 
+Several academic and technical efforts have been directed towards the creation of C-UAV systems. In a 
+recent work [2], 537 C-UAV products have been identified. From such, only 138 encompasses detection and 
+interdiction processes. From this number, only 3 of them have the capability of using a net as neutralization 
+means combined with detection capabilities. Nevertheless, the detection is carried out by ground systems 
+(e.g., radar) and not by a combination of ground and sky systems, such as we propose in our solution for an 
+effective localization and tracking of intruders. In addition, there is not a product in this review that uses 
+swarming as neutralization means as part of an end-to-end system from detection up to neutralization. Last, 
+the inclusion of AI algorithms for real-world applications is very recent and seldom deployed.  
+There is a growing number of incidents by drone misuse [1]. Countering manually or with a single 
+interdiction mean is not effective. Operating multiple drones to increase the chances of successful 
+neutralization can potentially overwhelm operators. It is important to note that managing multiple drones to 
+counter a single intruding drone is not a trivial task, not to mention the financial implications of training 
+multiple operators and the operational costs themselves. Countering a swarm of drones is an even more 
+complex operation, specifically due to drone coordination challenges.  
+1.2 
+Objective of the Research and the BlueSwarm System 
+This research aims at designing, developing, implementing and evaluating an innovative C-UAV system 
+called BlueSwarm that can handle detection, tracking and neutralization of intruding swarms, leveraging a 
+fleet of collaborative autonomous drones, for real world applications. Primarily, the system is devised to 
+detect potential threats within a specified “buffer zone”, before they reach a “protected zone”. The system 
+uniquely identifies and localizes the detected threats. Any tracked entity classified as intruder triggers a 
+response from the defensive swarm for tracking purposes. If an intruder is detected and assigned for tracking 
+by one or more agents of the swarm, an autonomous sensing control is initiated. The system then transitions 
+to the neutralization phase when the defensive swarm’s positioning aligns with the neutralization criteria, and 
+hence, proceeds to safe neutralization.
+
+[Page 3 / 12 | chars: 1959]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+STO-MP-SET-315-26
+3
+1.3
+Description and Capabilities of the BlueSwarm System
+Prior to real-world flight operations, the system is tested in simulation. The system (Figure 1), both during 
+simulated and real-world demonstrations, integrates a radar, a PTZ camera, a defensive swarm of five 
+drones, up to five intruding drones, one ground control station (GCS) per swarm, embedded cameras on each 
+defending drone and a simulation station. Each drone and the GCS operate through their own AI agent. For
+real-world flight demonstrations, additional components are integrated to align with prevailing security and 
+legal standards (e.g. manual drone controllers or a control STOP operations system). Field operators 
+comprise technical personnel, security flight observers, pilots, and ground control station operators. 
+Figure 1: High-level architecture of the BlueSwarm system.
+2.0
+SYSTEM COMPONENTS AND ORGANIZATION IN SIMULATED AND 
+REAL-WORLD ENVIRONMENTS
+2.1
+Overview of System Components
+The BlueSwarm system is divided into a ground segment and an air segment, each composed of various 
+hardware components. The efficiency of BlueSwarm is largely due to these carefully orchestrated elements.
+Stimulating our system for training and test purposes are a fleet of intruding drones and a number 
+of simulators.
+2.1.1
+The Ground Segment
+The ground segment is composed of a Ground Control Station (GCS), a ground radar and a ground PTZ.
+The Ground Control Station (GCS) acts as the Communication Centre. Not only is it the human interface for 
+the system but it also handles drone deployment, overall mission information, and coordination of system 
+responses. The GCS features a GIS-based user interface that enables the human operator to interact with the 
+system, monitor the ongoing mission, make informed decisions, and control desired system responses.
+
+[Page 4 / 12 | chars: 2326]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+4
+STO-MP-SET-315-26
+The long-range radar forms the first line of defense for our system. It is the pivotal component for early
+detection and classification of incoming threats over a vast radial distance, thereby providing ample response 
+time. For the purpose of this project, we used a radar sensor that can detect drones at up to 1,000 m.
+Alongside the ground radar, a PTZ camera provides complementary visual information to improve the 
+quality of the long-range detection and classification. It serves to validate the classification based on radar 
+tracks and helps improve the determination of the number of intruding drones thanks to its better resolution.
+2.1.3
+The Air Segment
+The air segment is composed of a fleet of drones. Equipped each with an Electro-Optic sensor and a
+deployable net (simulated within the frame of this project), the defending drones serve as the primary 
+countermeasure against intruding drones. Guided by AI agents with advanced decision-making and 
+information processing algorithms, these drones work collaboratively to intercept and neutralize potential 
+threats. They communicate with the defending Ground Control Station to relay captured information.
+Figure 2: Drones manufactured by ARA Robotics®, landed (left) and during operations (right).
+Each defending drone embeds a gimbal-mounted EO sensor. This sensor provides eyes-in-the-sky 
+capabilities to the overall system. This component is crucial for target tracking and classification, in addition 
+to the radar and ground PTZ. The embedded sensor is controlled in zoom and orientation by the AI agent of 
+the platform it is embedded on. 
+2.1.4
+Intruding Drones
+The intruding drones’ behaviors are designed to represent disruptive drone activities. They execute different
+patterns of careless, clueless or criminal operators. Much as the defending drones, each intruding drone is
+controlled by its own AI agent and communicates with the intruding Ground Control Station. For our live 
+experimentations, defending and intruding drones are provided by ARA Robotics® and of the same model.
+2.1.8
+Simulators
+We trained and tested our system using three different 3D simulators, gradually increasing in realism but also 
+in complexity.
+
+[Page 5 / 12 | chars: 1404]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+STO-MP-SET-315-26
+5
+The first simulator is a multiple particle environment. It is the fastest and simplest. It draws the agents as 
+simple particles where no physical constraints are considered other than speed limits, particle boundaries and 
+momentum. This multiple particle environment, due to its speed, is used for training initial Machine 
+Learning models. 
+The second simulator, Thales Group proprietary, is called SE-Star (Figure 3), and it approaches closer to the 
+general conditions a swarm could face during a mission in the real world. This simulator uses a general 
+physical dynamics model of the flying platforms. It is used for testing purposes and for fine-tuning the 
+Machine Learning models previously learned using the first simulator. 
+Figure 3: SE-Star simulates the ground sensors, the drones and their payloads. 
+The last simulator is embedded in SkyControl® (Figure 4), ARA Robotics®’ GCS software. This simulator 
+encompasses realistic dynamics of the actual quadcopters used for real-world demonstrations. It is used to 
+reduce risks of potential conflicts during real flights. SkyControl® allows us to carry out high-quality tests 
+and validation of our system prior to real world deployment. 
+Figure 4: SkyControl® user interface for simulation and real world flight trials.
+
+[Page 6 / 12 | chars: 3914]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+6 
+STO-MP-SET-315-26 
+ 
+ 
+2.2 
+Organization of Mission Phases 
+2.2.1 
+Detection, classification, localization and threat level assessment 
+The ground radar acts as an early warning sensor, detecting, classifying and localizing potential incoming 
+threats at long range. Within the frame of our project, for real world demonstration, the radar sensor we used, 
+was giving a detection range of up to 1,000 meters. The ground PTZ camera is the second sensor to be put in 
+motion. Its purpose is to help confirm the nature and number of threats inbound thanks to computer vision. 
+The GCS AI agent controls that sensor in pan, tilt and zoom, cued by the radar data.  
+The GCS AI agent also assesses the level of threat of the detected objects, assigning labels such as enemy, 
+friendly or neutral, by information processing. The threat assessment process considers multiple aspects like 
+size, speed, flight pattern, and radar cross-section of the intruding object. This process of detection, 
+classification, localization and threat level assessment is not only the first step for deploying the defending 
+swarm, but a continuous one throughout a mission. 
+2.2.2 
+Defending Swarm Deployment and Approach 
+Upon detection of an “enemy” (i.e., entity with an assigned enemy label), the system autonomously deploys 
+the defending drones whose objectives are to approach, track and neutralize the threat(s). These drones move 
+as a swarm towards the identified threat, with each drone being independently controlled by its own AI 
+agent, constantly adapting to the mission phase it is engaged in. Each AI agent controls four interdependent 
+decision-making functions. First, the Navigation function, allowing that AI agent to control the trajectory of 
+its drone. Second, the Sensing function, giving control of the embedded EO sensor in pan, tilt and zoom to 
+the AI agent. Third, the Neutralization function, letting the AI agent decide when to trigger its neutralization 
+payload (i.e. its net). Last, the Targeting function, for the AI agent to assign itself a target drone. Those 
+functions are realized thanks to decision-making algorithms that the AI agent orchestrates. 
+More specifically, each AI agent can switch between different decision-making algorithms for its Navigation 
+function, depending on mission phases. To boost a collaborative behavior among the swarm, the Navigation 
+policy used for approaching and tracking phases was learned by a Multi-Agent Deep Reinforcement 
+Learning algorithm in order for those phases to be fast, coordinated and adaptable. However, the navigation 
+during neutralization must be controlled, precise and explainable, thus a rule-based algorithm is preferred in 
+our system.  
+For the Targeting function, the algorithm used ensures optimal allocation of targets among drones, reducing 
+efficiency loss due to potential conflicts or repetition of tasks. For instance, the algorithm computes the best 
+allocation by reducing the collaborative distance towards the available targets ensuring, and correcting, if 
+necessary, so that no target is left within the buffer zone without being tracked by a drone of the defending 
+swarm. This rule could only be broken if the number of intruders is higher than the number of drones of the 
+defending swarm.  
+2.2.4 
+Tracking 
+Once the defending drones have reached the enemy drones, they enter a tracking phase. Depending on the 
+number of enemy drones, one or more defending drones could be assigned to each enemy drone. The 
+tracking is relying on a combination of radar and visual data as well as shared information among the swarm. 
+A defending drone shall track its assigned target as long as it is not entering into a neutralization phase or as 
+long as that target has not either exited the buffer zone or been neutralized.
+
+[Page 7 / 12 | chars: 2530]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+STO-MP-SET-315-26
+7
+2.2.5
+Neutralization
+The culmination of each mission is the neutralization of the intruding drones. Once a defending drone is 
+tracking a target, it can volunteer for neutralization, based on criteria considering factors like proximity to the 
+target, the position of other entities in the defensive swarm and net availability. That drone then deploys its
+net-based payload to scoop the intruding drone when it is approved to engage its target. While for the 
+investigations of this paper, the engagement of a drone with a target is automatic, it is designed to be 
+triggered by a human operator.
+Figure 5: Net deployment and target capture in simulation. On the left, the drone engages in 
+neutralization with the target and deploys its net after meeting the ready-to-neutralization 
+conditions. On the right, target drone is captured. On both images, we observe how the drone to 
+the right supports the visual tracking from a safe distance.
+While the net system was proven successful in real flight operations, for our experiments we deploy the net 
+only in simulated environments. A real net has not been used due to associated operational costs. During real 
+world experimentations, telemetry data was fed into the simulator to virtually capture the drones.
+3.0
+USE CASES DEFINITION
+Adaptability and versatility are core attributes of our system, allowing it to handle different scenarios and 
+behaviors of drone intrusions efficiently. With inputs of subject matter experts, we defined several use cases 
+representing typical intruding drone behaviors to test our system. Recent literature reports drone usage
+ranging from hobbyist [4], [5], delivery [6], photography [3] up to military and terrorist applications [7], [8].
+We therefore derived four different drone operator’s behavior models matching those applications, as 
+illustrated on Figure 6:
+1)
+Clueless operator: this use case represents typically hobbyists testing their drone, unaware of the 
+nearby presence of restricted zones they could inadvertently fly over. The resulting drone behavior is 
+rather erratic with lots of variation in velocity, heading and altitude.
+2)
+Careless operator: in this use case, drone operators willingly ignore a known restricted airspace to 
+leverage the shortest possible route e.g. for business purposes such as deliveries. The resulting drone 
+behavior is rather constant in velocity, heading and altitude.
+
+[Page 8 / 12 | chars: 2312]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+8
+STO-MP-SET-315-26
+3) Criminal with no harm intended: this use case represents operators aiming to gain unauthorized 
+access to restricted areas for the purpose of information acquisition but without the intent of causing 
+direct harm. They might aim to capture photographs or videos as part of corporate espionage,
+criminal activities or simply as paparazzi or misguided fans. The resulting drone behavior is rather 
+constant in heading, aiming for the protected zone, with a decreasing altitude to approach and a 
+velocity increasing to reach the protected zone. The drone is not necessarily going into the protected 
+zone, possibly skirting it and idling from time to time to take pictures.
+4)
+Criminal with harm intended: in this most exigent use case, the operator intentionally breaches the 
+protected zone with the objective of causing direct harm, such as a terrorist attack involving drones 
+with explosive payloads. The resulting drone behavior is rather constant in heading, aiming for the 
+protected zone, with a decreasing altitude to approach and a velocity accelerating in the last stretch 
+to penetrate the protected zone effectively.
+Figure 6: The 4 drone behaviors that we used as baseline to build our use cases with (a) the 
+clueless operator, (b) the careless operator, (c) the criminal with no harm intended and (d) the 
+criminal with harm intended.
+We subsequently designed our use cases by determining the number of intruding drones, ranging between 1 
+and 5, and by choosing each intruding drone behavior model.
+4.0
+SYSTEM COORDINATION BETWEEN SWARM AGENTS
+As illustrated on Figure 1 each drone’s AI agent is not directly embedded on its drone. They are executed on 
+the ground, in the workstation that is also hosting the GCS and the GCS’ AI agent. This limitation is a choice 
+of focus that was made, in line with the project’s objectives that were to develop the AI agents and not focus 
+on their embed-ability. However, from an architecture standpoint, notwithstanding the latency in 
+communication, the system is operating as if the drones’ AI agents were embedded on their own platform.
+The collaboration of the AI agents and their swarming behavior is enabled through two means.
+
+[Page 9 / 12 | chars: 3861]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+STO-MP-SET-315-26 
+9 
+ 
+ 
+First, the AI agents are all communicating with each other, exchanging information pertaining to their 
+perception of the situation they are facing. The perception that an AI agent has of the current situation is 
+elaborated through the processing of the data captured by its platform sensors (the embedded gimbal-
+mounted EO for a drone’s AI agent or the ground radar and the ground PTZ for the GCS’s AI agent) as well 
+as through the fusion of the resulting information and the information shared by the other AI agents. Through 
+this process, we ensure that all AI agents have the same perception of the global situation with only a delta 
+due to processing latency. 
+Second, our AI agents embed Multi-Agent Reinforcement Learning (MARL) algorithms to learn how to 
+execute some specific decision-making functions (e.g., the navigation or the targeting) as a team. The policy 
+that each AI agent learns embeds intrinsically the collaboration model enabling the swarming behavior at the 
+system level since they were trained to execute the related function together. 
+Our system’s interlinking communications between the swarm drones, the sensors and the GCS, allows for a 
+seamless and coordinated response to any UAV threats, thereby upholding and protecting the restricted areas. 
+5.0 RESULTS IN SIMULATED AND REAL-FLIGHT OPERATIONS. 
+5.1 
+Simulations Results 
+In the simulated environment provided by SE-Star, we executed the four different use cases. Our C-UAV 
+system displayed distinct stages from the monitoring up to the capture of five intruders. 
+1) Monitoring and Detection: Initially, after arming and take-off, the system was in an idle state, 
+waiting for intrusions. Not until the appearance of unknown drones detected by the radar did it 
+trigger actions.  
+2) Intrusions: Upon entering the buffer zone, unidentified drones were recognized as threats, causing 
+our system to respond. The defense drones initiated interception paths to the intruders, and if 
+multiple intruders were within the buffer zone, the defense drones would split for separate targets. 
+3) System Engagement: If met with conditions confirming shortest distance between defending drone 
+and target, alongside the availability of neutralization payloads (i.e., a net), the system transitions to 
+a “ready to neutralize mode” waiting for further approval. This process prevents any redundant 
+capture attempts. The approval is meant to be triggered by a human operator for future 
+developments. In our trials, the approval was granted after an arbitrary delay representing the 
+operator response time as the approval interface mechanism has not been implemented. 
+4) Capture and release: Once approved, the drone deploys its net to proceed with the capture, 
+following which it transports the captured drone to a retrieval zone. 
+On all use cases, all the drones of the intrusion swarm were successfully intercepted, tracked and captured 
+before they could reach the protected area. 
+5.2 
+Real Flight Operations Within Hybrid Environments 
+Real-world experimentations were conducted in a hybrid environment where all the BlueSwarm system’s 
+and red asset’s hardware components were live except for the neutralization payloads, which were simulated. 
+In order to be able to conduct complete missions, the system was mirroring the behavior of all real drones 
+into SE-Star up until a neutralization phase was engaged. Once a neutralization phase was engaged, the 
+behavior between the real drones engaged in that phase and their simulated counterparts diverged in order to 
+allow for the neutralization to happen in the simulated world while maintaining safe conditions in the real 
+world, to eliminate any collision risk during actual captures.
+
+[Page 10 / 12 | chars: 4130]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+10 
+STO-MP-SET-315-26 
+ 
+ 
+1) Monitoring and Detection: After arming and take-off, the system effectively classified 
+environmental noise as non-threatening, keeping the drone idle. 
+2) Intrusion and Identification: As with the simulations, the system identified and classified drones as 
+they entered the buffer zone. 
+3) System Engagement: In this phase, our system behaved similarly as during the simulated 
+experimentations with the only difference that real-world perturbations (noise) were identified as 
+neutral entities (e.g., birds) to allow our AI agent to take them into account for collision avoidance.  
+4) Capture Progression: In real-world operations, deploying the net was a virtual action conducted only 
+in simulation. The success (or not) of the capture was therefore assessed in the simulated 
+environment mirroring the actual situation. Upon capture, the behavior of the captured red drone was 
+no longer mirrored in the real world. The simulated captured red drone was dragged by the 
+simulated blue drone that captured it into the retrieval area. The real red drone however simply put 
+itself out of the game by lowering its altitude below the buffer zone and remained ignored by the 
+system until the end of the scenario. The real capturing blue drone moved towards the retrieval area, 
+mimicking the fact of dragging the captured red drone and releasing it in that area. Its simulated 
+counter-part was mirroring this behavior. 
+These adaptations in the system allowed us to successfully test various scenarios, encompassing the 
+detection, localization, classification, tracking, neutralization and safe retrieval of captured targets in matches 
+of two defending drones against two intruders. 
+6.0 CONTRIBUTION TO ADVANCEMENT OF SECURITY MEASURES 
+Our research design successfully exhibits the ability to tackle escalating drone threats, as demonstrated by 
+our theoretical and practical executions. Notably, our system is designed to address an equal number of 
+threats to the defensive swarm drones. Although, we must emphasize that this system is, for the moment, 
+validated for small swarms only. This was substantiated during our simulated experiments and real-flight 
+trials, where five drones managed to track an equivalent number of enemy drones in simulations, achieving a 
+secure interception of all infiltrating units. In real-flight operations, our small defensive swarm of two drones 
+coped with two enemy drones, confirming our system’s adaptability and scalability under different 
+conditions and its promising application to real-world scenarios for future versions. To be noted also that our 
+system is agnostic of the hardware equipment it is using. The drone make and model, the sensors type or the 
+neutralization payload type can all be easily replaced or changed by different ones. 
+7.0 CONCLUSION 
+Our designed system showcased the integration of ground and air segments, entailing a range of sensors and 
+countermeasure capabilities. By employing ground radar and PTZ camera, the system enabled long-range 
+detection, classification, and localization of potential threats. Simultaneously the air segment contained a 
+fleet of autonomous counter-UAVs, each equipped with an Electro-Optic sensor and a net deployment 
+mechanism for neutralization purposes.  
+By synchronizing sensor data, facilitating communication among resources, and utilizing artificial 
+intelligence, the counter-UAV system provided an end-to-end solution from detection to neutralization of 
+intrusive drones. Priority was given to maintaining human oversight via a manned ground control station, 
+thereby keeping the human operator in the loop for monitoring and a stop mechanism in case it was 
+necessary for safety reasons. The stop mechanism consists of a “stop all” button that interrupts the 
+commands during a mission from the AI agent to the drones. The stop button freezes the movement of all 
+drones, defending or intruding, and gives back the control to the human pilots to manage the situation.
+
+[Page 11 / 12 | chars: 3541]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+STO-MP-SET-315-26 
+11 
+ 
+ 
+The system’s architecture provides significant scope for scalability and adaptability responding to specific 
+logistics and threat profiles of protected areas. Ground sensor types, quantity, and spatial distribution can be 
+tailored according to user requirements, as can the number and payloads of the counter-UAVs.  
+One potential advancement could be the incorporation of an advanced visual and automatic threat level 
+assessment capability. This would provide operators with a comprehensive understanding of imminent 
+threats, reducing the risk for subjective errors whilst accelerating response time.  
+Strengthened by its resilience against evolving threats, adaptability to requirements, and the integration of 
+leading-edge AI technologies, our system addresses a critical gap in unmanned aerial security. By refining 
+and incorporating the system into existing infrastructure, we aim to safeguard restricted areas whilst 
+mitigating the associated risks of unmanageable drone technology.  
+In line with NATO’s vision toward reinforced security measures against drone threats, this research and 
+system development, undertaken in collaboration with subject matter experts, marks a significant advance in 
+counter-UAV technologies for real-flight operations. The envisaged future improvements and applications 
+promise new impetus for technology transfer and further research within the NATO S&T community. 
+8.0 ACKNOWLEDGEMENTS 
+This work was supported by the Canadian Safety and Security Program, which is led by Defence Research and 
+Development Canada’s Centre for Security Science (DRDC CSS), in partnership with Public Safety Canada. 
+The Canadian Safety and Security Program is a federally funded program to strengthen Canada’s ability to 
+anticipate, prevent/mitigate, prepare for, respond to, and recover from natural disasters, serious accidents, crime 
+and terrorism through the convergence of science and technology with policy, operations and intelligence. 
+The team also wants to acknowledge the contribution of the ThereSIS laboratory, a Thales entity providing 
+the SE-Star simulator, as well as LAS Thales Business Unit involved in the C-UAV domain for sharing their 
+domain expertise and knowledge pertaining to net capture, making our simulated neutralization realistic. 
+Last, the team would like to thank the Royal Canadian Mounted Police (RCMP) for its help and review on 
+the definition of the use cases and the red team behavior models. 
+9.0 REFERENCES 
+[1] H. Kang, J. Joung, J. Kim, J. Kang and Y. S. Cho, “Protect Your Sky: A Survey of Counter Unmanned 
+Aerial 
+Vehicle 
+Systems,” 
+in 
+IEEE 
+Access, 
+vol. 
+8, 
+pp. 
+168671-168710, 
+2020, 
+doi: 
+10.1109/ACCESS.2020.3023473. 
+[2] Michel, A. H. (2018). Counter-drone systems. Center for the Study of the Drone at Bard College.  
+[3] M. Germen, “Alternative cityscape visualisation: Drone shooting as a new dimension in urban 
+photography”, Proc. Electron. Vis. Arts, pp. 150-157, Jul. 2016. 
+[4] E. Kaufmann, M. Gehrig, P. Foehn, R. Ranftl, A. Dosovitskiy, V. Koltun, et al., “Beauty and the beast: 
+Optimal methods meet learning for drone racing”, Proc. Int. Conf. Robot. Automat. (ICRA), pp. 690-
+696, May 2019. 
+[5] E. Kaufmann, A. Loquercio, R. Ranftl, A. Dosovitskiy, V. Koltun and D. Scaramuzza, “Deep drone 
+racing: Learning agile flight in dynamic environments”, Proc. Conf. Robot. Learn. (CoRL), pp. 133-
+145, Oct. 2018.
+
+[Page 12 / 12 | chars: 611]
+--------------------------------------------------------------------------------
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+12 
+STO-MP-SET-315-26 
+ 
+ 
+[6] P. Grippa, “Decision making in a UAV-based delivery system with impatient customers”, Proc. 
+IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS), pp. 5034-5039, Oct. 2016. 
+[7] T. Coffey and J. A. Montgomery, “The emergence of mini UAVs for military applications”, Defense 
+Horizons, vol. 22, pp. 1, Dec. 2002. 
+[8] J. Y. C. Chen, “UAV-guided navigation for ground robot tele-operation in a military reconnaissance 
+environment”, Ergonomics, vol. 53, no. 8, pp. 940-950, Jul. 2010.
+

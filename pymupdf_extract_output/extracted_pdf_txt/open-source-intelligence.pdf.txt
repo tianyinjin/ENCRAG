@@ -1,0 +1,320 @@
+Source file: open-source-intelligence.pdf
+Relative path: open-source-intelligence.pdf
+Page count: 9
+Extracted pages: 9
+
+================================================================================
+
+[Page 1 / 9 | chars: 1205]
+--------------------------------------------------------------------------------
+
+L’Open Source Intelligence (OSINT) : origine, définitions
+et portée, entre convergence professionnelle et
+accessibilité à l’information
+Olivier Le Deuff
+Dans I2D - Information, données & documents 2021/1 n° 1, pages 14 à 20
+Éditions A.D.B.S.
+ISSN 2428-2111
+ISBN 9782242821111
+DOI 10.3917/i2d.211.0014
+Article disponible en ligne à l’adresse
+https://shs.cairn.info/revue-i2d-information-donnees-et-documents-2021-1-page-14?lang=fr
+Découvrir le sommaire de ce numéro, suivre la revue par email, s’abonner...
+Scannez ce QR Code pour accéder à la page de ce numéro sur Cairn.info.
+ 
+Distribution électronique Cairn.info pour A.D.B.S.. 
+Vous avez l’autorisation de reproduire cet article dans les limites des conditions d’utilisation de Cairn.info ou, le cas échéant, des conditions générales de la licence souscrite par votre
+établissement. Détails et conditions sur cairn.info/copyright.
+Sauf dispositions légales contraires, les usages numériques à des fins pédagogiques des présentes ressources sont soumises à l’autorisation de l’Éditeur ou, le cas échéant, de
+l’organisme de gestion collective habilité à cet effet. Il en est ainsi notamment en France avec le CFC qui est l’organisme agréé en la matière.
+
+[Page 2 / 9 | chars: 72]
+--------------------------------------------------------------------------------
+
+I. THÉORIE, 
+DÉFINITIONS 
+ET PORTÉE
+I. THÉORIE, 
+DÉFINITIONS  
+ET PORTÉE
+
+[Page 3 / 9 | chars: 1912]
+--------------------------------------------------------------------------------
+
+[ 14 ]
+OSINT - OPEN SOURCE INTELLIGENCE
+L’OPEN SOURCE INTELLIGENCE (OSINT) : 
+ORIGINE, DÉFINITIONS ET PORTÉE,  
+ENTRE CONVERGENCE PROFESSIONNELLE 
+ET ACCESSIBILITÉ À L’INFORMATION
+MOTS-CLÉS : Accessibilité, Convergence professionnelle, Histoire,  
+Open Source Intelligence (OSINT), Renseignement
+L’OSINT est un acronyme pour Open Source Intelligence. Même si une littérature 
+scientiﬁque et professionnelle existe autour de ce concept, il mérite qu’on s’y 
+attarde quelque peu, pour tenter d’en décrypter le sens, surtout que sa traduc-
+tion française « renseignements de sources ouvertes » exclut, d’une part, le mot 
+intelligence et n’apporte pas, de l’autre, un éclairage précis sur les composantes 
+de cette discipline. Certes, le concept d’intelligence pose ici problème parce 
+qu’il désigne, en français, la faculté intellectuelle de comprendre en raisonnant, 
+alors que le mot en anglais détermine une série de pratiques employées pour 
+récupérer des informations, mais le mot renseignement dans la traduction fran-
+çaise présente comme principal écueil d’être plus exclusif qu’inclusif. Il renvoie 
+surtout aux activités des services secrets là où le mot intelligence laisse la place 
+à des pratiques collaboratives et citoyennes, très proches de l’esprit OSINT, 
+comme c’est le cas avec le terme Intelligence collective. 
+La référence à l’Open Source s’avère également problématique, car elle intro-
+duit une confusion entre deux objets : les logiciels Open Source qui oﬀrent aux 
+usagers la possibilité d’accéder au code, de le modiﬁer et de le distribuer libre-
+Olivier LE DEUFF 
+Maître de conférences en sciences de l’information et de 
+la communication à l’université Bordeaux Montaigne. 
+Ses recherches portent sur les cultures de l’information, 
+les humanités digitales et l’épistémologie de la documen-
+tation. Il a récemment publié Riposte digitale aux éditions 
+Publie.net. 
+ oledeuff@gmail.com
+
+[Page 4 / 9 | chars: 2249]
+--------------------------------------------------------------------------------
+
+[ 15 ]
+ment, et les données ou l’information libre d’accès qui constituent le terreau 
+de l’OSINT. Encore que leur disponibilité varie selon les situations et qu’elle 
+se mesure en « degrés », entre l’information entièrement accessible et celle qui 
+ne l’est que très partiellement. L’accès dépend, par ailleurs, des facultés de 
+recherche et de la capacité de l’enquêteur OSINT à repérer une information, 
+à l’interpréter et parfois à l’inférer.   
+L’OSINT constitue par conséquent un nouveau régime de vérité qui repose 
+sur l’étude des traces pour établir des preuves qui viennent étayer une logique 
+démonstrative et explicative, notamment pour répondre à la désinformation. 
+LES EXPRESSIONS PROCHES 
+L’OSINT est souvent employée avec d’autres expressions qui permettent de 
+mieux situer cette pratique : 
+• HUMINT pour Human Intelligence, renvoie au fait de collecter  
+de l’information par des relations humaines, à travers, notamment, 
+des stratégies d’espionnage. L’HUMINT comprend souvent  
+à un travail de terrain, si bien qu’elle peut s’opposer a priori  
+aux démarches de l’OSINT, plus numériques et surtout jugées  
+moins coûteuses et moins risquées. OSINT et HUMINT peuvent  
+se coupler tant il reste souvent nécessaire de disposer de personnes 
+sur place, notamment lorsque les connexions sont médiocres,  
+voire volontairement coupées par les autorités. 
+• SIGINT (Signals Intelligent) renvoie historiquement aux enjeux de 
+communication et aux interceptions possibles des messages.  
+On peut également y adjoindre l’ensemble des déﬁs cryptographiques. 
+• GEOINT (Geospatial Intelligence ou Imagery Intelligence)  
+désigne les collectes d’information via des systèmes de  
+géolocalisation, notamment. 
+• MASINT (Measures and Signatures Intelligence)1, déﬁnie comme  
+l’intelligence scientiﬁque et technique dérivée de l’analyse  
+des données obtenues à partir d’instruments de détection dans le but 
+d’identiﬁer les caractéristiques distinctives associées à la source,  
+à l’émetteur ou à l’expéditeur, pour faciliter la mesure et l’identiﬁca-
+tion de ce dernier. 
+1 L’expression est parfois traduite en français par ROMES : Renseignement Obtenu par l’analyse de 
+MEsures et de Signatures (Brun, 2018).
+THÉORIE, DÉFINITIONS ET PORTÉE
+
+[Page 5 / 9 | chars: 2504]
+--------------------------------------------------------------------------------
+
+[ 16 ]
+• Le préﬁxe CYBER renvoie aux aspects sécuritaires et aux mesures 
+prises par les spécialistes de l’OSINT pour sécuriser leur dispositif  
+informationnel et éviter d’être repérés durant leur travail de collecte, 
+ou bien d’être hackés et donc de se voir à leur tour surveillés.  
+AUX ORIGINES DE LA PRATIQUE  
+Diﬃcile de situer l’origine exacte de l’OSINT, car plusieurs histoires se téles-
+copent. Si on part du point de vue de la petite histoire, qui est comme toutes 
+les petites histoires à la fois réductrice et parsemée d’erreurs et de points de 
+vue idéologiques, l’OSINT serait une forme d’excroissance des services de ren-
+seignements post-guerre froide. En réﬂexion sur le territoire états-unien à 
+partir de 1992, moment où il a fallu conceptualiser le renouveau des services 
+de renseignements suite à l’eﬀondrement du bloc soviétique, la mutation pro-
+gressive des risques aboutit en 2005 à la mise en place d’un service spéciﬁque 
+au sein des renseignements américains. Après treize ans de réﬂexion, la CIA 
+développe le National Intelligence’s Open Source Center (OSC), dans la conti-
+nuité du FBIS (Foreign Broadcast Information Service) très actif pendant la 
+guerre froide. 
+Cette évolution majeure des services de renseignements, notamment améri-
+cains, se poursuit après les attentats du 11 septembre 2001 et conduit au 
+recrutement de nouveaux professionnels, notamment des informaticiens. 
+Edward SNOWDEN évoque cette transformation de la manière suivante : « Les 
+gens de ma génération n’ont donc pas seulement repensé le travail des services de 
+renseignement, ils ont entièrement redéﬁni la nature des renseignements. On 
+n’avait pas aﬀaire à des rencontres clandestines ou à des cachettes secrètes, mais 
+à des données. » (SNOWDEN, 2019). 
+RIEN DE NOUVEAU SOUS LE SOLEIL ? 
+Le recueil d’informations à partir de sources ouvertes a toujours joué un rôle 
+très important, au-delà des seules activités liées à la sécurité nationale.  Que 
+ce soit dans le domaine militaire, dans celui des sciences ou encore des 
+ﬁnances, l’appui sur des données librement accessibles pour élaborer des stra-
+tégies d’attaque, d’enquête ou de fusion acquisition, a souvent été détermi-
+nant dans la réussite de telles entreprises.  
+En 1808, rapporte Stevyn D. GIBSON (GIBSON, 2013), le général WELLINGTON 
+réprimande sévèrement ses troupes pour ce que l’on pourrait qualiﬁer aujour- 
+d’hui de manquement aux exigences de l’OSINT. Ses généraux n’avaient, en 
+OSINT - OPEN SOURCE INTELLIGENCE
+
+[Page 6 / 9 | chars: 2757]
+--------------------------------------------------------------------------------
+
+[ 17 ]
+eﬀet, pas pris connaissance des nouvelles formations d’infanterie française de 
+Napoléon, alors même que cette information avait été diﬀusée dans le Times.  
+La nécessité de disposer de renseignements utiles se retrouve également dans 
+les projets menés par Paul OTLET au XIXe siècle, comme le Répertoire Bibliogra‐
+phique Universel (1895) qui vise à recenser toute l’information imprimée dis-
+ponible, ou encore ceux de la Society for the Diﬀusion of Useful Knowledge créée 
+en 1826 par Henry Peter BROUGHAM.  
+La philosophie de l’accessibilité des sources s’avère celle d’un savoir exoté-
+rique, exprimé et disponible par opposition à un savoir ésotérique, réservé aux 
+initiés. Mais l’enjeu de l’initiation s’est déplacé d’un accès au savoir réservé, à 
+un accès à l’information disponible dont il faut avoir pleinement conscience 
+et qu’il faut aussi apprendre à maîtriser. Les compétences se situent alors au 
+niveau de l’exploitation de cette information. Par exemple, une image peut 
+s’avérer source d’informations tant du point de vue de ces métadonnées que 
+du point de vue des éléments informationnels qu’elle contient et qu’il est pos-
+sible d’interpréter comme le sujet du document, sa source, l’heure de sa créa-
+tion, son origine géographique. Mais le moindre indice suppose une capacité 
+de lecture et en cela l’OSINT correspond clairement à une logique d’analyse 
+documentaire qui transforme tout document même iconographique ou audio-
+visuel en texte, selon la déﬁnition d’Yves JEANNERET (JEANNERET, 2000) : tout 
+ce qui nécessite une lecture est un texte. C’est ici que l’OSINT rentre dans la 
+légende, au sens de la legenda, ce qui doit être lu. Et ce qui doit être lu requiert 
+de ce fait des analyses, mais aussi des méthodes et des techniques.  
+LES 80 % DE DISPONIBLES 
+À l’inverse du discours initial (et fantasmé) du web invisible ou web profond 
+selon lequel seul 1/9 des contenus en ligne est indexé et facilement acces-
+sible, l’OSINT se positionne à rebours des impasses traditionnelles (sites non 
+indexés, bases de données inaccessibles) pour au contraire pousser sans cesse 
+les limites de la recherche d’informations. Désormais, les services de rensei-
+gnements évaluent à environ 80 % leurs informations issues de l’OSINT. Un 
+pourcentage diﬃcile à vériﬁer et qui varie d’une agence à l’autre, mais qui 
+rappelle que l’enjeu est celui de composer des protocoles performants pour 
+inférer les informations et les recouper de façon rapide et eﬃcace.  
+Cela signiﬁe que les déﬁs ne se limitent pas au seul problème de l’accessibilité, 
+mais s’étendent aussi aux méthodes de recherche dans un contexte de big 
+data. D’ailleurs, la disponibilité des informations en ligne, notamment person-
+THÉORIE, DÉFINITIONS ET PORTÉE
+
+[Page 7 / 9 | chars: 2321]
+--------------------------------------------------------------------------------
+
+[ 18 ]
+nelles, est aujourd’hui tellement importante qu’elle conduit les gouvernements 
+à légiférer pour autoriser ou non l’usage, par leurs services, de certaines don-
+nées, notamment dans les enquêtes sur les fraudes ﬁscales2. Des signes exté-
+rieurs de richesse aﬃchés sur Instagram peuvent contraster fortement avec 
+une déclaration ﬁscale indigente. Faut-il pour autant mobiliser ces données 
+personnelles dans une enquête ? L’aspiration massive des informations issues 
+des réseaux sociaux et des plateformes de commerces en ligne n’est-elle pas 
+une pratique extrêmement intrusive ?  
+Dans d’autres situations, ce sont des citoyens ordinaires qui s’immiscent dans 
+la vie privée des autres. Prenons l’exemple de John DARWIN3, homme d’aﬀaires 
+disparu lors d’une balade en canoë, oﬃciellement mort, et dont l’épouse a 
+touché l’assurance-vie. La police retrouve sa trace des années plus tard suite 
+au signalement d’une voisine soupçonneuse qui l’a repéré sur une photo pro-
+motionnelle publiée sur le site d’une agence immobilière. À partir de là, 
+quelques recherches sur Internet lui ont suﬃ pour démasquer l’imposteur et 
+le signaler aux autorités. De fait, les méthodes d’enquête sur des sources libre-
+ment disponibles concernent aussi bien les professionnels du renseignement 
+que les curieux qui jouent les Miss Marple sur leur temps libre.  
+LES PROFESSIONNELS DU DOMAINE 
+Il est possible d’identiﬁer via l’étude de la littérature scientiﬁque et profession-
+nelle, plusieurs champs engagés dans l’OSINT, parmi lesquels : 
+• Les services de renseignements. 
+• Les services de cybersécurité. 
+• Les veilleurs et documentalistes. 
+• Les journalistes. 
+• Les professionnels du droit. 
+• Les professionnels de la ﬁnance ou de la santé des entreprises  
+qui procèdent dans un processus de due diligence à l’évaluation  
+de la solidité d’une entreprise notamment dans le cadre d’acquisitions 
+ou de fusions potentielles. 
+À ces six champs, il faut probablement ajouter une sphère plus large qui ras-
+semble le passionné, le hacker, l’activiste, l’étudiant, le citoyen engagé dans des 
+2 Décret n° 2021-148 précisant l’article 154 de la loi de finance 2020.  
+https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043129895
+3 https://en.wikipedia.org/wiki/John_Darwin_disappearance_case
+OSINT - OPEN SOURCE INTELLIGENCE
+
+[Page 8 / 9 | chars: 2378]
+--------------------------------------------------------------------------------
+
+[ 19 ]
+objectifs collaboratifs ainsi que l’amateur qui puisent dans l’OSINT des pistes 
+opportunes pour leurs propres travaux et investigations. Les itinéraires profes-
+sionnels permettent parfois de passer de statuts d’activistes à des statuts plus 
+oﬃciels comme le montrent certains entretiens réalisés pour ce dossier. 
+Le site infoactivism a d’ailleurs produit un Kit de l’information invisible en langue 
+anglaise qui constitue véritablement l’illustration de ces convergences profes-
+sionnelles au niveau des méthodes et des outils et connaissance du web4. Le 
+site est conçu par Tactical Tech5 qui a notamment réalisé la fameuse exposition 
+Data Detox. 
+Si l’OSINT fédère au ﬁnal des intérêts professionnels initialement divergents, 
+le besoin de recruter des spécialistes du domaine s’observe notamment au 
+sein des services de renseignement, des rédactions ou encore des ONG qui 
+sont en quête de ninja librarians ou d’enquêteurs capables d’analyser les diﬀé-
+rents formats d’informations. 
+Les compétences professionnelles requises reposent à la fois sur la trouvabilité 
+informationnelle (information retrieval) et sur la vériﬁcation (fact checking et crap 
+detection) tandis que les professionnels du droit s’intéressent à l’OSINT non 
+seulement pour la recevabilité des preuves, mais aussi pour leur pertinence et 
+leur poids dans l’accusation. 
+L’OSINT ENTRE ENJEUX DISCIPLINAIRES  
+ET ENJEUX DE FORMATION POUR LES SCIENCES  
+DE L’INFORMATION ET DE LA COMMUNICATION 
+L’OSINT est désormais un territoire professionnel qui constitue un déﬁ d’impor-
+tance pour les sciences de l’information et de la communication tant d’un point 
+de vue scientiﬁque et épistémologique que d’un point de vue pédagogique. 
+Épistémologiquement, l’enjeu est de passer l’éventuel eﬀet de mode de l’ex-
+pression pour conduire un travail qui oﬀre un nouveau regard sur les concepts 
+qui sont mobilisés dans cette entreprise de recherche et de collecte d’infor-
+mations. 
+L’examen des pratiques autour de l’OSINT révèle à la fois des pratiques 
+anciennes et des concepts classiques en matière de sciences de l’information : 
+analyse des besoins d’information, méthodes de recherche d’informations, 
+retrouvabilité de l’information, analyse documentaire (synthèse et enjeux d’in-
+4 https://kit.exposingtheinvisible.org/en/index.html
+5 https://tacticaltech.org/
+THÉORIE, DÉFINITIONS ET PORTÉE
+
+[Page 9 / 9 | chars: 2086]
+--------------------------------------------------------------------------------
+
+[ 20 ]
+dexation), évaluation, produits documentaires, valorisation de l’information et 
+communication, aide à la prise de décision. 
+L’OSINT réunit des potentialités en matière informationnelle qui répondent à 
+la diﬃculté de disposer d’un web pleinement structuré et sémantique comme 
+le souhaitait Tim BERNERS-LEE pour privilégier une approche a posteriori qui 
+vient procéder par stratégies d’extractions, catégorisations et visualisation 
+pour mieux répondre à un questionnement stratégique. 
+Professionnellement, l’OSINT réunit des professions aux histoires diﬀérentes 
+qui se retrouvent autour de pratiques communes, ouvrant la porte à des réfé-
+rentiels fédérateurs. L’enjeu est alors celui de l’identiﬁcation des pratiques pro-
+fessionnelles, des méthodologies utilisées et des concepts communs. Cette 
+démarche permettrait d’inscrire de façon plus claire et plus durable les savoirs 
+et concepts requis tant le domaine est en évolution permanente pour dépas-
+ser le risque de formations éphémères basées sur des compétences procédu-
+rales reposant sur des outils dont on ignore la pérennité. 
+L’OSINT s’inscrit enﬁn dans une démarche de formation continue qui réclame 
+des bases solides, facilitant un réinvestissement régulier, mobilisant autant des 
+compétences informationnelles que digitales, et parfois des compétences 
+informatiques un peu plus poussées quand il s’agit d’être plus autonome à 
+l’égard des choix logiciels. 
+BIBLIOGRAPHIE 
+BRUN, O. 2018. article MASINT in Dictionnaire du renseignement. Perrin.  
+GIBSON, STEYYN D. “open source intelligence” in Dover, R., Goodman, M. S., 
+& Hillebrand, C. (2013). Routledge Companion to Intelligence Studies. 
+Routledge. p. 123-13. 
+MILLER, BOWMAN H. (2018). “Open Source Intelligence (OSINT): An 
+Oxymoron?”. International Journal of Intelligence and CounterIntelligence, 
+31(4):702-19. 
+OTLET, P. (1934). Traité de documentation. Le livre sur le livre. Bruxelles: 
+Palais Mondial. 
+Snowden, E. (2019). Mémoires Vives, Henry Holt & Company. 
+Snowden, E. (2019). Mémoires Vives. Le Seuil.
+OSINT - OPEN SOURCE INTELLIGENCE
+

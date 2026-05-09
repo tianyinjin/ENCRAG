@@ -1,0 +1,109 @@
+Source file: MP-MSG-229-11.pdf
+Relative path: MP-MSG-229-11.pdf
+Page: 4 / 14
+
+================================================================================
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 4 
+STO-MP-MSG-229 
+ 
+ 
+1.1.3 
+MUM-Teams Orchestration in MDO 
+Table 1: Challenges in MUM-T Considerations. 
+Factor 
+Human Considerations 
+Unmanned Considerations 
+Cognition 
+Highly variable; affected by experience, 
+stress, fatigue, workload, and situational 
+awareness. Humans can generalize reasoning 
+and adapt to novel scenarios. However, do 
+possess many cognitive biases which may 
+impact (perception, reasoning, decision, 
+attention ...).  
+Encoded in algorithms; generally stable across 
+situations but may vary among agent types. 
+Performance depends on sensor input and 
+environment. Machine cognition refers to the 
+agent’s ability to process data, reason, and act 
+toward a goal. 
+Perception 
+Limited by human sensory capabilities and 
+attention; human concentration and focus 
+reducing external noise and distraction, can 
+be augmented by tools. It could also be 
+impacted by weather. Less training needed to 
+identify, 
+detect 
+and 
+assess 
+situation. 
+Agreement among other humans easier.  
+Algorithms process sensor data (vision, lidar, 
+radar). Perception quality depends on sensor 
+fidelity and algorithm robustness filtering and 
+preprocessing. It can extend and process large 
+amounts of data but needs large training data to 
+be able to detect and classify. More disagreement 
+among agents.  
+Decision 
+Highly varied among humans, some attempt 
+to regularize it through doctrine/ rule of 
+engagement. Humans tend to be more 
+capable of decision making under new 
+situations. 
+Algorithms follow programmed decision-making 
+logic; can be optimized for speed and consistency 
+but may struggle in novel, ambiguous situations. 
+Psychology 
+Human stress, fatigue, and PTSD affect 
+performance and team dynamics. 
+No psychological impacts; may include failure 
+modes from software errors, system degradation, 
+or adversarial attacks. 
+Leardership 
+Humans 
+provide 
+adaptive 
+leadership, 
+motivation, and mentoring. Human have 
+often the final control. 
+Usually 
+hard-coded 
+(predefined 
+command 
+hierarchies or behavior trees); advanced systems 
+may support emergent coordination rules. Linked 
+to a rule-based, doctrine, C2 mission management 
+controlled by human. 
+Intent  
+Humans have clear intentions shaped by 
+goals, ethics, and context. 
+Given by humans (operator, programmers, C2, 
+commanders). 
+Must 
+be 
+inferred 
+or 
+pre-
+programmed; 
+intent 
+can 
+be 
+explicitly 
+communicated (via command protocols) or 
+estimated by the system for planning and 
+coordination. 
+In MUM-T teams, human and unmanned agents exhibit fundamentally different characteristics that influence 
+collaboration and coordination. Human cognition is highly flexible but also subject to variability due to 
+stress, workload, experience, and other human factors, which can impact decision-making and situational 
+awareness. In contrast, unmanned agents have cognition encoded in algorithms, resulting in consistent 
+performance that depends primarily on sensor input and the quality of their reasoning models. Humans rely 
+on perception through biological senses, which can be augmented but remain limited, whereas unmanned 
+systems utilize algorithmic perception to process data from multiple sensors, enabling faster and more 
+precise environmental awareness. Decision-making in humans is adaptive and generalizable, often guided by 
+doctrine and experience, while machines follow pre-programmed or learned algorithms that prioritize 
+efficiency and consistency. Psychological factors such as fatigue, stress, or PTSD affect humans but have no

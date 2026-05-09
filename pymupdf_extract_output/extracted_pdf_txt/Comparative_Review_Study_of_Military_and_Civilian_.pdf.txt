@@ -1,0 +1,763 @@
+Source file: Comparative_Review_Study_of_Military_and_Civilian_.pdf
+Relative path: Comparative_Review_Study_of_Military_and_Civilian_.pdf
+Page count: 16
+Extracted pages: 16
+
+================================================================================
+
+[Page 1 / 16 | chars: 2478]
+--------------------------------------------------------------------------------
+
+INCAS BULLETIN, Volume 11, Issue 3/ 2019, pp. 183 – 198         (P) ISSN 2066-8201, (E) ISSN 2247-4528 
+ 
+Comparative Review Study of Military and Civilian 
+Unmanned Aerial Vehicles (UAVs) 
+Sudhir Kumar CHATURVEDI*,1,a, Raj SEKHAR2,b, Saikat BANERJEE3,c,  
+Hutanshu KAMAL4,d 
+*Corresponding Author 
+*,1Department of Aerospace Engineering, University of Petroleum & Energy Studies,  
+Dehradun-248007, India,  
+sudhir.chaturvedi@ddn.upes.ac.in 
+2Department of Mechanical Engineering, Indian Institute of Science,  
+Bengaluru-560012, India,  
+raj.sekhar56@gmail.com 
+3Wingbotics, Kolkata-700086, West Bengal, India,  
+bsaikat226@gmail.com 
+4Indian Institute of Management Ranchi,  
+Ranchi-834009, India,  
+hutanshu.kamal18@iimranchi.ac.in 
+DOI: 10.13111/2066-8201.2019.11.3.16 
+Received: 26 April 2019/ Accepted: 02 August 2019/ Published: September 2019 
+Copyright © 2019. Published by INCAS. This is an “open access” article under the CC BY-NC-ND 
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Abstract: Indian flying corps and Israel Aerospace Industries (IAI) forged long standing military ties, 
+Israel aviation enterprises keeping up their strong position as best-in-class UAV manufacturers for 
+both civilian and military use and supplying the Indian military with advanced UAV frameworks. IAI 
+has provided IAF with a sum of 176 Israel-made automatons including 108 IAI Searchers and 68 
+unarmed Heron-1 airships for observation and surveillance missions including an armada of IAI 
+Harpy rambles. With the expanding request of India's military associations, for example, the DRDO, 
+Aeronautical Development Establishment (ADE), the National Aerospace Laboratories (NAL), 
+Hindustan Aeronautics Limited (HAL) have been creating UAVs with ISR, focusing on, and weapon 
+direction abilities. The first trip of the Rustom-2 model on 16 November 2016 was a turning point for 
+India. This work shows the correlation of the Indian and Israeli UAVs created depending on their 
+main capacities and execution qualities. 
+Key Words: Unmanned Aerial Vehicles, Israel aerospace industries, Nano Air Vehicles 
+1. INTRODUCTION 
+Unmanned Air Vehicles (UAVs) occupy a dominant place in the peak areas, where emphasis 
+is placed on observation, accumulation of knowledge and spread of data. In several decades, 
+UAVs have developed from performing a solitary mission to carrying out complex missions, 
+ 
+a Assistant Professor (SG), 
+b Research Assistant 
+c Director 
+d Student
+
+[Page 2 / 16 | chars: 3999]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+184 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+such as observing, verifying, insuring, tracking with the use of last-minute innovations. 
+UAVs fill in as one of a kind apparatus, which expand front line situational mindfulness and 
+the capacity to see, target, and obliterate the adversary by giving noteworthy knowledge to 
+the most minimal strategic dimensions. An unmistakable favourable position of UAVs is 
+their cost-adequacy. They can be created, delivered, and worked at lower costs contrasted 
+with the expense of keeping an eye on airship [3]. The relative funds in motors, airframes, 
+fuel utilization, pilot preparing, coordination, and support are tremendous. The most 
+favourable position of UAVs, nonetheless, is that there is no hazard to human lives. 
+Unmanned segments are increasingly deadly and non-deadly weapons as per the decision 
+and have changed how the military at present prosecute responsibilities. The probability of 
+trailing perception stages to foe fire is remarkably higher, which explains UAV as a 
+significant verdict. Among UAS, promising attributes are long flight span, enhanced mission 
+security, flight repeatability because of enhancing autopilots, and lessened operational costs 
+when contrasted with keeping an eye on airship [2]. The potential focal points of an 
+unmanned stage, be that as it may, rely upon numerous variables, for example, flying 
+machine, sensor types, mission destinations, and the current UAS administrative necessities 
+for activities of the specific stage. India and Israel being dominant military superpowers have 
+joined the utilization of UAS in outskirts watch, observation surveillance and for remote 
+detecting as well; the of little and medium-class stages, the last has is a worldwide stalwart in 
+UAV innovative work for regular civilian and military tasks. 
+This paper (1) to describe different UAV stages and classifications of UAS and  
+considerations for their use in remote detecting and military missions. This article various 
+stages and classifications of UAS and for their use in remote sensing and military missions; 
+(2) to arrange Indian and Israel UAS improvement in the most recent decade dependent on 
+their execution qualities (3) to examine case situations in which UAV frameworks have been 
+utilized in regular civilian and military tasks. 
+2. UAS PLATFORM TYPES AND CHARACTERISTICS 
+Unmanned airship frameworks comprise the airship segment, sensor payloads, and a ground 
+control station. The last mentioned, operated by at least one individual notwithstanding a 
+devoted human “pilot” (enhanced sometimes by an extra "spotter" to guarantee security), 
+generally fluctuates in its design contingent upon the stage and mission. Committed control 
+frameworks might be dedicated to large UAVs, and mounted on board vehicles or in trailers 
+to empower nearness to UAVs constrained by range or correspondence capacities [1]. The 
+littlest classes of UAVs regularly are joined by ground-control stations comprising of PCs 
+different segments little enough to be conveyed effortlessly with the flying machine in small 
+vehicles, onboard watercraft, or in knapsacks. 
+2.1 Classification of UAS Platforms 
+The arrangement of UAS stages for common logical utilizations has, for the most part, 
+pursued existing military description of the stages dependent on attributes, for example, 
+measure, flight perseverance, and abilities. The widely recognized terminology in the field of 
+non-military personnel is as follows: MAV (Micro (or Miniature) or NAV (Nano) Air 
+Vehicles), are purported due to their size, which commonly empowers military variants of 
+this airplane to be transported inside individual officers' knapsacks. This airship will operate 
+in general works at low elevations (<330 m), with size restrictions on battery limit prompting 
+short flight times in the region of ca. 5– 30 min [1]. VTOL (Vertical Take-Off and Landing):
+
+[Page 3 / 16 | chars: 2876]
+--------------------------------------------------------------------------------
+
+185 
+Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+These airships require no departure or landing run, and are hence generally picked in 
+circumstances where confinements of the landscape need this particular ability. Airship of 
+this sort work at different heights relying upon their central goal profile yet prevalently fly at 
+low elevations [1]. High power prerequisites for floating flight limit the flight lengths for 
+VTOLs, aside from in the most significant sizes where expanded lifting abilities suit 
+extensive fuel limit. LASE (Low Altitude, Short-Endurance): frameworks, otherwise called 
+UAS, small unmanned airship frameworks, likewise hinder the requirement for runways with 
+flying machine streamlined for simple field organization/recuperation and transport [1]. The 
+flying machine part of these frameworks regularly gauges ca. 2– 5 kg, Remote Sens. 2012, 4 
+1674 with wingspans <3 m to empower propelling from smaller than usual sling 
+frameworks, or by hand. Bargains among weight and capacity will in general decrease 
+continuance and correspondence extends to 1– 2 hand inside a couple of km of ground 
+stations. 
+LALE (Low Altitude, Long Endurance): Typically, at the upper end of the “UAS” weight 
+assignment by the United States Federal Aviation Administration [1] (FAA; see underneath), 
+these UAS may convey payloads of a few kgs at elevations of a couple of thousand meters 
+for expanded periods. MALE (Medium Altitude, Long Endurance): airship is regularly a lot 
+bigger than low-elevation classes of UAVs, working at heights up to ca. 9,000 mon flights 
+several km from their ground stations enduring numerous hours [1]. 
+High Altitude, Long Endurance: These are the biggest and most complex of the UAS, with 
+airship bigger than many general-aeronautics kept an eye on flying machine [2]. These 
+UAVs may fly at heights of 20,000 m or more on missions that expand a considerable 
+number of km. Some HALE airship has flight terms more than 30,000m and has set records 
+for height and flight length. For the motivations behind effortlessness, we will depict a few 
+qualities of the different size stages for supporting nonmilitary personnel remote detecting 
+and logical research applications from some time ago recognized classifications of UAS 
+(MAV, LALE, LASE, MALE, HALE, and VTOL) as shown in figure 1. 
+ 
+Figure 1: Classification of Indian UAS based on their endurance and wing span 
+2.2 MAV/NAV UAS 
+The MAV was initially defined as a UAV having a wing-span no greater than 150 mm[1]. 
+They are designed as short mission profile surveillance platforms, allowing unobtrusive 
+observation capabilities in confined spaces or hostile environments in military applications. 
+The Council of Scientific and Industrial Research (CSIR) – NAL, in particular, has been
+
+[Page 4 / 16 | chars: 2445]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+186 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+leading the development of MAVs and mini UAVs to meet the requirements of India’s 
+military and civil forces. The organization, which was previously succeeded in the 
+development of three MAVs (Black Kite, Golden Hawk, and Pushpak), is now developing a 
+mini UAV named Suchan (figure 2). These micro air vehicles are man-portable and have 
+image processing capabilities, besides, these portable GCS commands, control and display, 
+optical flow-based obstacle avoidance; and horizon detection using computer vision 
+techniques. 
+     
+ 
+Figure 2: SUCHAN UAV  
+ 
+ 
+ 
+Figure 3: MOSQUITO by IAI 
+The somewhat bigger Spy the Mosquito developed by IAI (figure 3) is worked by a two-man 
+team and has double the range, IAI said. Every one of the autonomous MAVs can fly for an 
+hour while transmitting pictures back to their administrators. 
+The Mosquito 1 and Mosquito 1.5 smaller scale rambles have a wingspan of 33 centimetres 
+(13 inches). Their little size enables them to fly through windows and to give pictures to 
+military units behind it. The Mosquito has officially finished a few effective 40-minute 
+preliminary flights. 
+NAV – Nano Air Vehicles are proposed to be of the extent of sycamore seeds and utilized in 
+swarms for purposes, for example, radar perplexity or possibly, if camera, impetus and 
+control sub-frameworks can be made little enough, for ultra-short-range observation. 
+ 
+Figure 4: BLACK HORNET developed by Prox Dynamics 
+Black Hornet (figure 4) would be a perfect example of an advanced aerial NAV that is being 
+used in military spy operations all over the world. The unit measures around 10 × 2.5 cm (4 
+× 1 in) and furnishes troops on the ground with neighborhood situational mindfulness. They 
+are little enough to fit in one hand and weigh simply over a large portion of an ounce (16 g, 
+including batteries). 
+The UAV is outfitted with a camera, which gives the administrator full-movement video and 
+still pictures. They were created as a component of a £20 million contract for 160 units with 
+Marlborough Communications Ltd. 
+An administrator can be prepared to work the Black Hornet in as meager as 20 minutes. The 
+air vehicle has three cameras; one looking forward, one looking straight down, and one 
+pointing descending at 45 degrees. A Black Hornet bundle contains two helicopters, and
+
+[Page 5 / 16 | chars: 3627]
+--------------------------------------------------------------------------------
+
+187 
+Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+since a 90% charge is come to in 20-25 minutes, the equivalent as its drifting time, with a top 
+speed is 11 mph (18 km/h) when one should be revived the other is prepared to fly. 
+2.3 VTOL Unmanned elevated frameworks 
+The upsides of VTOL UAS are the versatility of the stages for remote zone tasks without the 
+need for runway buildings. A greater amount of the flow VTOL stages is little, with most 
+working with electric engines from battery-powered batteries restricting flight terms to short 
+of what 60 minutes [10]. 
+They have constrained sensor payload capacities yet as scaling down of sensors 
+happens; the stages demonstrated to be more profitable for use in speedy investigation 
+circumstances. 
+Representations of the effectiveness of VTOL UAS phases are to assistance regulation 
+execution responsibilities, where a low-height, drifting ability with depiction information 
+catch is valuable for finding out an occurrence scene. 
+Logical research applications requiring standing around capacity over a settled review 
+plot of moderately little size (e.g., horticultural field) are another territory in which this class 
+of UAV has huge potential. 
+Quad-rotors are the most well-known case of this sort of setups. The thought is to have 
+the rotor edges all settled in pitch and to accomplish pushed changes on every rotor by 
+changing its speed of revolution. 
+Every rotor is exclusively determined by an electric engine mounted at the rotor head. 
+Along these lines, for instance, for the flying machine to push ahead the rotational speed of 
+the two back rotors would be expanded to pitch the airship nose-down and coordinate the 
+subsequently pushed vector advances. 
+In the meantime, the aggregate push must be expanded to forestall the loss of stature 
+and, when set up in forwarding flight, the rotor speeds should again be blended. The design 
+is normally more blast touchy than alternate arrangements, and its control reaction must be 
+relied upon to be slower. 
+Along these lines, the accomplishment of adequate control might be sufficiently 
+troublesome in the still quality of research facility conditions, and significantly riskier in the 
+tempestuous demeanour of urban tasks. 
+Notwithstanding these tests Quadrotors outfitted with camera payloads are as yet 
+utilized in remote detecting activities due to fabrication straightforward. Indeed, even a 
+newbie UAV pilot with some simple preparing can fly it. India’s safeguard inquires about 
+organization DRDO has built up an Unmanned Aerial Vehicle (UAV) particularly intended 
+for against fearmongering and counter-insurrection tasks, which will be enlisted into the 
+military constantly culmination. 
+The 1.5 kg UAV, called Netra is a collective improvement venture among idea Forge, 
+and Defense Research and Development Organization Pune-based labs, The UAV is fit for 
+working in all the contention theatres, including urban quarters, in a circumstance like that of 
+the 26/11 dread assaults, the evaluated expense of Netra is Rs 20 lakhs, yet the cost could 
+change if extra segments like warm camera are included according to the prerequisites of the 
+security offices concerned and their utilization, the UAV has been intended to complete 
+observation in a territory of 1.5 KM Line of Sight (LOS) and has a perseverance limit of 30 
+minutes of battery charge [3,4]. 
+Aside from that, Netra (figure 5), is outfitted with a goals CCD camera with a skillet/tilt 
+and zoom to encourage more extensive observation.
+
+[Page 6 / 16 | chars: 2809]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+188 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+It can likewise be fitted with warm cameras to do night activities with an operational 
+elevation of 200 meters most extreme, having a vertical take-off and landing limit (VTOL) 
+and is furnished with a remote transmitter. 
+Notwithstanding that, the in-fabricated safeguard highlights enable Netra to profit to 
+base for loss of correspondence or low battery. 
+       
+ 
+Figure 5: NETRA jointly developed by Idea-Forge and 
+DRDO 
+Figure 6: TIKAD Drone Developed by Duke 
+Robotics 
+As shown in the figure 6, in September 2017, Duke Robotics has reported that Israel's 
+Ministry of Defense has supported Duke Robotics' TIKAD ramble as creative future war 
+zone innovation. 
+The TIKAD is planned with a lightweight, continuous 6 DOF (degrees of opportunity) 
+Robotic gimbal with a weight of under 10 kg. 
+It can convey and balance out up to 3x the heaviness of the gimbal. The TIKAD can be sent 
+above water and finishes with a base hazard circumstance [3, 4]. 
+As of not long ago, troops must be there to explore. The organization's restrictive mechanical 
+adjustment innovation empowers the TIKAD to assimilate the force of a weapon, taking into 
+consideration pinpoint focusing on and shooting exactness that can ensure troops in an 
+assortment of dangerous circumstances. 
+By decreasing the requirement for ground troops, the TIKAD speaks to a remarkable 
+advance towards limiting military and regular citizen losses, and the innovation is picking up 
+help on a worldwide premise. 
+2.4 LASE/LALE UAS 
+Low-altitude, Short Endurance, and Low-Altitude, Long Endurance UAS happen in a variety 
+of sizes and setups, from back-packable, hand-propelled stages to sling dispatch stages. A 
+portion of the more typical, minimal effort LASE/LALE stages being used today is those that 
+are lightweight and can be hand-propelled, permitting flexible field condition tasks in 
+territories without active surface runways. 
+The impediment of hand-dispatch stages is their relatively brief length operational abilities 
+of 45 min– 2 h, and a lessened payload limit [1]. These UAS are generally easy to work, with 
+flight controls like RC models and rearranged ground-control stations that take into account 
+little teams. The majority of the remote detecting frameworks are small, disentangled 
+cameras or spilling camcorders in either sunshine (shading or B/W) or infrared (B/W) video 
+gave of surface items being imaged, albeit expanded abilities are empowering direct picture 
+georeferencing in a portion of these frameworks. 
+DRDO structured 'Nishant' a LALE class UAV with AUW of 340 Kg sling propelled, a 
+versatile conservative framework for day and night war zone observation, surveillance, target
+
+[Page 7 / 16 | chars: 2262]
+--------------------------------------------------------------------------------
+
+189 
+Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+assignment, ordnance fire course, and harm appraisal as shown in the figure 7. Following 
+quite a while of improvement and preliminaries, it was conveyed to the Indian Army in 
+2013. 
+   
+ 
+Figure 7: NISHANT UAV by DRDO  
+          Figure 8: Bird-Eye 650D Developed by IAI 
+Bird-Eye 650D, (figure 8) a small tactical unmanned aerial system (UAS) designed and 
+developed by MALAT Division of Israel Aerospace Industries (IAI), entered serial 
+production in June 2016. The UAS is intended for a variety of military and paramilitary 
+missions such as over-the-hill intelligence, surveillance, target acquisition and 
+reconnaissance (ISTAR), patrol, urban operation, counter-terrorism, convoy escort, radio 
+relay, and law enforcement. Its civilian applications include surveillance of disaster areas, 
+water resource management, mapping, and powerline inspections [10]. 
+The Skylark II (figure 9) one of the LALE class UAV systems is a short proximity strategic 
+unmanned air vehicle (UAV) framework essentially intended for Israeli, Canadian and 
+Korean guard powers to complete insight, observation, target securing, and surveillance 
+activities. The UAV was structured and fabricated by Elbit Systems. It was first divulged in 
+2006 and is gotten from the Skylark I. The UAV is fundamentally utilized for most 
+exceedingly awful climate observation, information gathering and target stamping for 
+missions going more than 50km [10]. 
+The Skylark II is fueled by a single electrical engine fabricated by Bental Industries. The 
+motor can deliver the greatest of 4kW. It is controlled by a battery pack contained in the 
+payload unit underneath the first blast. 
+The drive framework utilizes dual channel perpetual magnet brushless engines. A controller 
+turns off one channel while cruising as this requires less power. On the off chance that one of 
+the frameworks comes up short, the control will consequently change to another framework, 
+enabling the vehicle to proceed with the mission or drop and come back to the ground 
+securely. 
+     
+ 
+Figure 9: Searcher 2 developed by IAI  
+       Figure 10: Skylark 3 developed by IAI
+
+[Page 8 / 16 | chars: 3011]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+190 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+In February 2016, Elbit Systems disclosed the Skylark 3 unmanned air framework, 
+additionally uncovering it had just picked up a choice by an undisclosed client. In the 
+figure:10, the Skylark 3 is proposed to help detachment and division-level units, having a 4.8 
+m (15.7 ft) wingspan and a most extreme take-off weight of 45 kg (99 lb) with a 10 kg (22 
+lb) payload. 
+It is conveyed from a pneumatic launcher on the ground or mounted on a vehicle, with a 
+working scope of more than 54 miles, (62 mi; 100 km), an administration roof of 15,000 ft 
+(4,600 m), and flight autonomy of up to 6 hours. Two air vehicles can be worked all the 
+while utilizing a mutual ground control station. 
+2.5 MALE-medium altitude long endurance UAV 
+Heron TP (Eitan), a MALE (UAV) is a high-end variation of the Heron 1 (figure:11) UAV 
+created by Israel Aerospace Industries (IAI) to meet various mission needs of the military. 
+The Eitan MALE UAV's main goal capacities incorporate observation, surveillance, fight 
+harm appraisal, target procurement, airborne refuelling, knowledge social occasion, and 
+rocket safeguard. 
+A full-scale model of the Heron TP was shown amid an incident that occurred in Berlin 
+Expo Center Airport on June 2016. Heron TP unmanned air framework requests and 
+conveyances IAI's MALAT Division divulged the Heron TP unmanned flying vehicle amid 
+the Paris Air Show held on June 2007. In June 2008, IAI and Rheinmetall Defense 
+Electronics (RDE) entered a co-task consent to offer Heron TP for the SAATEG middle of 
+the road arrangement of the German Armed Forces. Some Heron TP rambles were drafted 
+into the White Eagle Squadron of the Israeli Air Force (IAF) in February 2010. One of them 
+was slammed amid an experimental drill in January 2012. The Indian Government affirmed 
+the buy often outfitted Heron TP UAVs for the Indian Air Force in September 2015. In 
+January 2016, Germany declared its choice to rent up to five equipped Heron TPs as an 
+internal arrangement. 
+The new UAVs are required to enter benefit in 2018. A decent case of a small-scale ramble 
+is the FULMAR settled wing smaller scale UAV which has a most extreme departure weight 
+of around 20 kg. It was produced by Thales and Wake building, and it has endurance of 12 
+hours and range of about 90km. The best speed of this UAV is 100km/h, and the greatest 
+height it can get to is 4000m with a payload of 8 kilograms [10]. 
+ 
+ 
+Figure 11: Heron TP by IAI 
+The 14m-long, Heron TP MALE unmanned flying machine framework (UAV) highlights an 
+all-composite airframe with high-wing cantilever monoplane plan. The principle wings, 
+spreading over 26m, have a high-angle proportion. The UAV likewise includes a twin-blast 
+arrangement, where blasts are stretched out from the wings to frame the tail structure, 
+comprising of two tails associated by a single tailplane [10]. A couple of vertical tail blades
+
+[Page 9 / 16 | chars: 2567]
+--------------------------------------------------------------------------------
+
+191 
+Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+is mounted at the closures of the tailplane. The retractable landing gear is masterminded in a 
+tricycle form with two fundamental units installed under the tail blasts and a nose wheel 
+under the fuselage. With a substantial inside volume, the UAV can convey different payloads 
+weighing 1,000kg. The Heron TP configuration can likewise be adjusted to an assortment of 
+missions. The Heron TP's main goal frameworks incorporate oceanic watch radar (MPR), 
+electronic helps measures (ESM), electronic and interchanges insight (ELINT/COMINT), 
+and manufactured opening radar (SAR). 
+It can likewise be introduced with M-19HD multi-sensor electro-optical payload. The 
+constant symbolism and telemetry information gathered by the payloads are transmitted to 
+the ground control station utilizing viewable pathway proliferation and satellite interchanges 
+(SATCOM). 
+The UAV takes into account concurrent task of various payloads for multi-mission 
+necessities. India’s purchase of 10 Heron TP proposes that ordinary turboprop-driven 
+outfitted automatons are of constrained utility to India and its Stealthy turbofan-driven 
+American Avenger and India's own Ghatak UCAV Projects which will be a genuine distinct 
+advantage concerning Indian Military. 
+.
+ 
+Figure 12: RUSTOM 2 developed by DRDO 
+As shown in figure 12, Rustom 2 or TAPAS-BH-201 is a MALE (UAV), intended to do 
+observation and surveillance missions for the Indian Armed Forces. It is equipped for 
+conveying an alternate mix of payloads including manufactured gap radar, electronic insight 
+frameworks, and situational mindfulness frameworks. The UAV has autonomy of 24 hours 
+and is like the American Predator UAV. The UAV is capable of carrying different 
+combinations of payloads like synthetic aperture radar, electronic intelligence systems, and 
+situational awareness payloads. DRDO did a test run of Rustom 2 on 25 February 2018, at 
+the Aeronautical Test Range (ATR) situated in Chalker, Chitradurga region. This was the 
+first trip of the UAV in client arrangement with higher power motor [4]. 
+2.6 HALE UAVs 
+The “Eitan” belongs to the HALE (High Altitude Long Endurance) family of UAVs that 
+participate in missions that require long periods of non-stop air time. Their endurance 
+addresses the operational need for a presence in a specific area and allows the IAF to 
+maintain aerial continuity. As a multi-role aircraft, the “Eitan” is responsible for general
+
+[Page 10 / 16 | chars: 2250]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+192 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+surveillance, long-range target photography, and designation of targets for other aircraft to 
+attack [10]. (HALE) Unmanned airborne vehicle (UAV). AURA is being intended to be a 
+strategic stealth airplane ready to convey laser-guided weapons. Preliminary design pictures 
+demonstrate it to be fueled by a locally manufactured Kaveri turbofan, and furnished with 
+inner weapons coves. The vehicle can work at the highest elevation of 30,000 ft out to scope 
+of 300 km, with an all-up weight of 1.5 tons [10]. The program was begun in 2009 and has 
+been halted and restarted a few times from that point forward. The most recent restart in 
+2014 pursues a coordinated effort with the Aeronautical Development Authority (ADA) and 
+has seen the AURA restored under the name Ghatak (Lethal). The AURA/Ghatak is relied 
+upon to be flown by numerous Indian offices, for example, the Aeronautical Development 
+Establishment (ADE), the Defense Electronics Application Laboratory (DEAL), the Defense 
+Avionics Research Establishment (DARE), and the Gas Turbine Research Establishment 
+(GTRE) – all divisions of the DRDO a fully developed flying prototype expected to be 
+completed by 2023 (figure 13). 
+ 
+ 
+Figure 13: ARUA/GAHATK being developed jointly by DRDO and ADE 
+2.7 AUVs 
+Autonomous Underwater Vehicles (AUVs) are not new. They have been used for 
+oceanographic studies and for military purposes for several years. But, to we users of 
+commercial survey services, it seemed that most works had concentrated on the vehicles 
+themselves rather than on the use of such vehicles in surveying and site investigation. 
+Nevertheless, the deployment of AUV-bourne sensors appeared to have the potential to solve 
+the problems of accurately surveying deep-water sites.In the late 1990’s BP surveyors and 
+site investigation specialists vigorously pursued the technology and its application to oil 
+industry requirements[18]. In 2001 we conducted our first commercial surveys using the 
+technology. This paper outlines our experiences, contrasts them against our previous 
+expectations, and suggests future directions. 
+ 
+Figure 14: MAYA AUV
+
+[Page 11 / 16 | chars: 4117]
+--------------------------------------------------------------------------------
+
+193 
+Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+2.8 Indian AUVs capabilities 
+Our review of AUV capabilities confirmed the potential of the technology in two areas: - as 
+a replacement for conventional ship-bourne hydrographic survey tasks. - as a replacement for 
+conventional tethered Remotely Operated Vehicle (ROV) tasks. We recognised two 
+significant limiting factors. Initially, there are the batteries. Limitations in battery power 
+restricted either endurance or the sensors that the vehicle could carry. Secondly, there is the 
+vehicle navigation and control. Whilst all of the navigation components, in particular inertial 
+systems, were available and all of the sensors were in existence, they had not been integrated 
+into a commercial autonomous vehicle before. Indian AUVs. As they have similar 
+capabilities they were incorporated into active NAVY services in the past [14]. The Maya 
+AUV fig. 14 belongs to a class of small autonomous underwater vehicles [13] that have been 
+gaining popularity in marine application areas such as oceanography, monitoring the coastal 
+environment, as well as in naval applications such as mapping of naval mines for mine 
+countermeasures. 
+The development of Maya was jointly funded by NIO and the Department of Electronics and 
+Information Technology, New Delhi, India (known as the Department of Information 
+Technology before 2012). The AUV's development began in 2003, [15] completed 
+horizontal plane tests in May 2005, [16] with the first set of dive missions tested on May 12, 
+2006, [17] making it India's first indigenously developed AUV for scientific applications. 
+AUV-150 (UUV) being developed by Central Mechanical Engineering Research Institute 
+(CMERI) scientists in Durgapur in the Indian state of West Bengal. The project is sponsored 
+by the Ministry of Earth Sciences and has technical assistance from IIT-Kharagpur [21]. The 
+vehicle was built with the intent of coastal security like mine counter-measures, coastal 
+monitoring and reconnaissance. AUV 150 can be used to study aquatic life, for mapping of 
+sea-floor and minerals along with monitoring of environmental parameters, such as current, 
+temperature, depth and salinity. It can also be useful in cable and pipeline surveys. It is built 
+to operate 150 metres under the sea and have cruising speed of up to four knots. 
+2.9 Current Statistics of Indian and Israel UAVs 
+In 2009, the Indian Air Force purchased 10 Harops in a $100 million contract with Israel 
+Aerospace Industries. In February 2013, the Indian Air Force made a $280 million deal with 
+Israel Aerospace Industries for a new series of Heron medium-altitude, long-endurance 
+drones. In the two decades that have followed, Indian armed forces have acquired more than 
+200 UAVs mostly of Israeli origin. DRDO which had been dabbling with UAV design for 
+some time also got in the act and working in collaboration with Indian industry has made 
+some progress in creating indigenous capacity. The perceived necessity of close surveillance 
+was the original purpose of UAVs [3]. However, sensing enhanced possibilities with 
+maturing of relevant technologies at home, Indian armed forces have widened their horizons 
+to include them for kinetic action against suitable targets. Therefore, it is entirely possible 
+that a future surgical strike across the LOC may well be a precision missile attack executed 
+by employing UAVs. Besides a small number of IAF’s HAROP Unmanned Combat Aerial 
+Vehicles (UCAV) designed to neutralize radiating targets, currently, Indian armed forces 
+have some 200+ Medium Altitude Long Endurance (MALE) Searcher and Heron UAVs of 
+Israeli origin. Searcher, the smaller of the two is limited both in payload capacity (150 lbs) as 
+well as the operational ceiling of (20,000ft.). However, with its abilities to stay aloft for up to 
+18 hours and carry a variety of sensors, it has rendered yeoman’s service along the Western 
+borders and Indian shores. Heron, the larger of the two MALE UAVs is more versatile. With
+
+[Page 12 / 16 | chars: 4174]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+194 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+a take-off weight of 1,150 Kg, it can carry a 250 Kg. payload of sensors, stay aloft up to 52 
+hours (depending on the chosen flight profile) and with operating ceiling of 32,000 ft, it has 
+proven to be a handy surveillance tool along the mountainous Northern borders. On the 
+acquisition horizon, there are some other systems which when inducted would give a 
+quantum leap in capability. From Israel, India’s dependable supplier of choice there is Heron 
+TP, an upgraded version of Heron. Israel was inhibited in the sale of this system because of 
+its voluntary moratorium on selling dual-use strategic assets to parties not a signatory to the 
+Missile Technology Control Regime (MTCR). Following India’s entry into MTCR in 2016, 
+an agreement has been reached for the purchase of 10 Heron TPs.India has also been keen to 
+acquire both armed as well as unarmed Predators from the United States. Indian Navy’s 
+request for 22 Guardian UAVs (a maritime variant of Predator MQ-9) has already been 
+approved by the US Govt. IAF’s demand for 100 Predator C Avenger drones appears to be in 
+the process. Sale of armed UAVs has been a matter of discussion between the US and India. 
+The Iranian effort to develop new armed UAVs and is worrying Israel. In recent years the 
+Israeli Air Force (IAF) has foiled attempts by Hezbollah in Lebanon and Hamas in Gaza to 
+penetrate Israeli airspace, probably for intelligence purposes. Last year, IAI unveiled the 
+Drone Guard system for UAV detection, identification and flight disruption. The ELTA 
+division of IAI has developed a unique system that integrates a 3-Dimensional (3D) radar 
+and Electro-Optical (EO) sensors for detection and identification, as well as dedicated 
+Electronic Attack (EA) jamming systems for disrupting UAV flight [3]. To detect low 
+signature, low-level and low-speed airborne targets, ELTA has adapted to this specific 
+mission its 3D radars, which include the ELM-2026D, ELM-2026Band ELM-2026BF for 
+short (10km), medium (15km) and long (20 km) ranges, respectively, with unique UAV 
+detection and tracking algorithms, as well as adapting them with EO sensors for visual 
+identification of the target. To disrupt the hostile UAV, ELTA has developed advanced 
+adaptive jamming systems which can be used in concert with its detection and identification 
+sensors, or as a continuously operated stand-alone system. The jamming disrupts the UAV's 
+flight and can either cause it to return to its point-of-origin (‘Return Home’ function) or to 
+shut down and make a crash landing. 
+2.10 Future 
+Indian armed force intends to draft 5,000 UAVs throughout the following ten years. 
+Regardless of whether the expressed numbers show up to some degree hopeful yet they 
+recommend the profundity to which Indian military are intending to incorporate UAVs in 
+each part of their operational theory. UAVs' jobs have up to this point been constrained to 
+C4ISTAR capacities. Future acceptances would without a doubt empower supporting the rest 
+of the abilities significantly further. Likewise, outfitted UAVs would likewise in all 
+likelihood turn into a critical part of the Indian military's hostile abilities. Work is as of now 
+in progress to coordinate HELINA against tank rocket with Rustom H. When operational it 
+could likewise be utilized for strikes of the degree and kind as Indian armed force's careful 
+strike over the LOC in September 2016. Fundamental components to empower motor UAV 
+strikes at longer ranges are additionally relentlessly set up. 
+GAGAN Indian satellite-based expansion framework (SBAS) vital for the upgrade of 
+SATNAV signals for the precise route is now operational. Extra satellites solely for military 
+correspondence would outfit the extra data transfer capacity required for the task at 
+broadened ranges [10]. Rustom 2 with its heavier casing, more noteworthy payload limit and 
+continuance of up to 30 hours are probably going to be the indigenous stage of decision for 
+an Indian outfitted UAV armada. In the more distant future AURA, a stealthy UCAV being
+
+[Page 13 / 16 | chars: 4053]
+--------------------------------------------------------------------------------
+
+195 
+Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+produced by DRDO would include another club taken care of. Not exactly obvious yet but 
+rather UAVs are set to wind up a noteworthy segment in the battle capacity of the Indian 
+military. REHOVOT, Israel (Reuters) - Israeli protection firm Elbit Systems (June 2018) 
+divulged a 1.6-ton unmanned airship vehicle (UAV) intended to fly in the airspace at present 
+saved for steered nonmilitary personnel planes as a race warms up to convey military 
+automatons outside battle zones. 
+India's first rocket equipped automatons that will give it the ability to steal out stand 
+away cross-outskirt strikes are prepared in Israel, in front of the first historically speaking 
+visit to the country by an Indian PM. The Heron TP-outfitted automatons, fit for 
+distinguishing, following and bringing down focuses with air to ground rockets, have been 
+on the military list of things to get for quite a long time, before the program was optimized in 
+September 2015, as detailed by ET. 
+A form of Elbit's Hermes 900 Star Liner is being amassed for the Swiss military and is 
+planned to be conveyed in 2019 of an arrangement worth $200 million. The StarLiner, being 
+propelled in front of one week from now's Farnborough Airshow, is gotten from the Hermes 
+900 worked by Brazil for observation amid the 2014 World Cup [3]. The automaton is 
+agreeable with NATO criteria, qualifying it to be incorporated into regular citizen airspace. 
+Israel's automaton trades in 2005-2012 totalled $4.6 billion, as per consultancy Frost and 
+Sullivan. They came to $525 million out of 2016, representing 7 percent of Israel's resistance 
+sends out. U.S. military automaton producers are competing for a bigger offer of the 
+worldwide market, which economic scientist the Teal Group conjectures will ascend from 
+$2.8 billion of every 2016 to $9.4 billion of every 2025. In 2009, the Indian Air Force 
+acquired 10 Harps in a $100 million contract with Israel Aerospace Industries. 
+In February 2013, the Indian Air Force made a $280 million manage Israel Aerospace 
+Industries for another arrangement of Heron medium-height, long-continuance rambles. In 
+late 2013, India's Ministry of Defense dismissed an offer by Israel Aerospace Industries and 
+India's Defense Research and Development Organization (DRDO) to mutually build up 
+another form of the Heron UAV be that as it may, India turned down the offer. 
+The capability of UAVs is exceptionally vast. In the 21st century, DRDO is resolved to 
+convey state of-the-craftsmanship UAV frameworks to the Indian Armed Forces. The 
+advances portrayed above are the base for the future UAV improvement programs. Cutting 
+edge projects of DRDO incorporate UCAV, smaller scale and little, multi-job, and solar-
+powered UAVs. Innovation forecasts for the following decade conceive 50 percent 
+expansion in perseverance, quiet motors, self-fixing, and harm repaying structures with 
+continuous observing of auxiliary wellbeing, rotorcraft of high speeds, multichannel 
+information obtaining frameworks, full programmed control of flight and mission, and so on 
+[10]. 
+2.11 Case scenarios in which drones where are used in India 
+UAVs are extraordinary power multipliers, and there must be cooperative energy between 
+the three Services to improve their work. One beneficial thing which is going on in the 
+ongoing years is that all acquisitions are cleared by the Chiefs of Staff Committee, 
+rotationally headed by the senior the majority of the three Service Chiefs, and they work now 
+on regular particulars to the degree conceivable. 
+The subsequent coordination is helpful. The UAVs could be utilized for diverse undertakings 
+productively, in composed assignments. Directly, the three Indian Services have somewhat 
+limited quantities of these flying vehicles, and each Service is looking towards its expanding 
+singular prerequisites. There ought to be an exceptional ascent in their numbers in the
+
+[Page 14 / 16 | chars: 4166]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+196 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+coming years. In as much as the Army is concerned, the Herons are performing exceedingly 
+well in reconnaissance missions in the high elevation sloping areas as additionally giving 
+primary data to move components in the nation's southern deserts. They would provide the 
+objective contributions to rockets and furthermore PSDA on the commitment of targets. This 
+job has viably been tried amid activities. 
+The Herons have possessed the capacity to fly in the second role and along these lines 
+operate at scopes of 400 km. In high height regions, there are screening issues a few times, 
+yet they are effortlessly defeated through satellite interchanges (SATCOM) [7]. That 
+expands the scope of these frameworks to even 1000 km. The Searcher Mark II is being 
+utilized in the precipitous district as likewise in the fields and semi-deserts. It is to the credit 
+of Indian UAV pilots that they have advanced the flying vehicle effectively under India's 
+changing and extreme climate conditions. 
+The UAVs have given significant contributions about any interruptions hanging in the 
+balance of Control (LoC) as additionally on issues relating to the landscape which aid 
+operational arranging. There are issues however still about the nature of pictures acquired 
+while utilizing the Synthetic Aperture Radar (SAR) [20]. Ongoing universal enhancements 
+in SAR give a clear image of the question, and that is the place the exertion is going at this 
+point. Numerous fear mongers and activists in the north or north-east locales of India cover-
+up in zones of thick foliage. 
+There is a need to get astounding SAR gadgets to create great pictures. In any case, the 
+Searcher Mark I assortment is a short-range UAV which is by and large appropriately 
+utilized in the bumpy locales and fields. The Nishant, an indigenous item made by DRDO 
+which is propelled from a vehicle and recouped by parachute, is conceivably under 
+acceptance and would be used in the fields. All UAVs by and by held by the Army are being 
+controlled at the operational dimension and serve the requirements at the more elevated 
+amount. There is a desperate prerequisite of UAVs at the strategic dimension which should 
+be given to driving increase results at the ground level for undertaking missions with 
+accurate insight. 
+Further, in the Indian condition, there is an immediate need to weaponize these 
+unmanned elevated stages to obliterate threatening focuses on exactness. The UCAVs are 
+working in Afghanistan and causing the exact annihilation of pinpoint targets. This has 
+prompted passing of various best pioneers of Al Qaida pioneers, accordingly lessening the 
+power of the foundation. That is a decent case for the military of any nation, India 
+notwithstanding [21]. The errands pictured are observation, especially of landing strips, 
+radars, air guard weapons, field safeguards and automated segments; from that point double-
+dealing by utilizing electronic payloads, obliteration of chosen focus by lingering rockets, 
+and afterwards PSDA. IAF's Searcher Mark II and Heron are like the frameworks held by the 
+Indian Army while Harrop, the standing around the rocket, can be utilized in high thickness 
+strife and counter uprising for accuracy strikes. It has a decent, 1000 km range and six hours 
+autonomy Harrop can be propelled both against land-based and ocean-based targets. It 
+recognizes solid heartbeats from correspondence targets, for example, rockets and radars and 
+hits them at the source. It is conceivable to dispatch the Harrop from ground, ocean, and air. 
+The Indian Navy by and by will have a squadron of Searcher Mark II and Heron [22]. They 
+are situated at Kochi and Porbandar. Conceivably two more squadrons are made 
+arrangements for the southeastern drift and the Andaman and Nicobar Islands. All these 
+UAVs are arriving based and are controlled by the Command Headquarters. A prerequisite 
+of ship-based rotating UAVs which can work successfully with a bearer team and give 
+insinuate constant observation is under thought [10].
+
+[Page 15 / 16 | chars: 4068]
+--------------------------------------------------------------------------------
+
+197 
+Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+3. CONCLUSIONS 
+In this paper, we classified Indian and Israeli UAVs based on their platform and performance 
+characteristics and previous decade's expansion of UAS stages and sensors. The article also 
+shows the pattern of progressively scaled-down segments guarantees a time of custom-fitted 
+frameworks for on-request remote detecting at exceptional dimensions of sensor exactness 
+and navigational precision. This will enable the capacity of specialists to remotely build-up 
+study locales at small spatial scales for fine-scale extends that can be over and over-tested 
+without falling back on ground-control focus, much of the time forestalling the requirement 
+for site visits. While expenses can be hard to survey permission or per flight hour because of 
+fluctuating prerequisites for the workforce, sensors, and strategic help, enhanced unwavering 
+quality and innovative scaling down might be relied upon to lessen procurement or activity 
+costs. The symbolism got from UAVs can enormously bolster in numerous applications 
+going from extensive scale mapping, urban displaying to vegetation structure mapping. 
+Nevertheless, there are confinements like – i) impediment in the extent of the investigation 
+territory, ii) imperative in the handling of the substantial volume of information, iii) 
+prerequisite of expansive scale preparing and vast storage room, and so forth. Moreover, 
+existing highlights catching and extraction systems should be enhanced for preparing of high 
+dimensional UAV information. UAVs can perform proficient studies for calamity inclined or 
+physically difficult to reach regions, fast harm evaluation of avalanches, surges, and 
+earthquakes to enhance rescue and assistance measures. 
+REFERENCES 
+[1] * * * Reg Austin Aeronautical Consultant, ―UNMANNED AIRCRAFT SYSTEMS UAVS DESIGN, 
+DEVELOPMENT AND DEPLOYMENT, A John Wiley and Sons, Ltd., Publication. 
+[2] F. S. Haydon, Aeronautics in the Union and Confederate Armies, With a Survey of Military Aeronautics Prior 
+to 1861. In Military Ballooning During the Early Civil War; Johns Hopkins University Press: Baltimore, 
+MD, USA, Volume 1, 2000. 
+[3] * * * https://www.economist.com/technology-quarterly/2017-06-08/civilian-drones 
+[4] * * * https://www.isro.gov.in/applications-of-unmanned-aerial-vehicle-uav-based-remote-sensing-ne-region. 
+[5] D. Bowen, Encyclopedia of War Machines: An Historical Survey of the World’s Great Weapons, Peerage 
+Books: London, UK, 1977. 
+[6] J. Hannavy Ed., Encyclopedia of Nineteenth-Century Photography, Routledge, Taylor & Francis Group, 
+Volume 1, pp. 14–15, 2007. 
+[7] V. G. Ambrosia, S. Wegener, T. Zajkowski, D. V. Sullivan, S. Buechel, F. Enomoto, E. A. Hinkley, B. 
+Lobitz, S. Schoenung, The Ikhana UAS western states fire imaging missions: From concept to reality 
+(2006–2010), Geocarto Int. 2011. 
+[8] * * * http://news.bbc.co.uk/2/hi/middle_east/3571261.stm 
+[9] * * * http://dronecenter.bard.edu/about/ 
+[10] * * *  Next Generation Air Transportation System Unmanned Aircraft Systems Research, Development, and 
+Demonstration Roadmap, March 15, 2012. 
+[11] J. Torres-Sánchez, F. López-Granados & J. M. Peña, An automatic object-based method for optimal 
+thresholding in UAV images: Application for vegetation detection in herbaceous crops, Computers and 
+Electronics in Agriculture, 114, 43-52, 2015. 
+[12] J. Primicerio, S. F. Di Gennaro, E. Fiorillo, L. Genesio & E. Lugato, A flexible unmanned aerial vehicle for 
+precision agriculture, Precision Agriculture, 13 (4), 517-523, 2012. 
+[13] * * * http://www.iisc.ernet.in/~currsci/may102006/1202.pdf 
+[14] J. Yuh, A Neural Net Controller For Underwater Robotic Vehicles, IEEE Journal of Oceanic Engineering, 
+15, 161-166, 1990. 
+[15] * * * http://robotics.usc.edu/~ampereir/Files/draftminutes-PRSG2.pdf 
+[16] * * * http://robotics.usc.edu/~ampereir/Files/Synopsis_prsg3.pdf 
+[17] * * * http://robotics.usc.edu/~ampereir/Files/Snopsis_csir_maya.pdf
+
+[Page 16 / 16 | chars: 1192]
+--------------------------------------------------------------------------------
+
+Sudhir Kumar CHATURVEDI, Raj SEKHAR, Saikat BANERJEE, Hutanshu KAMAL 
+198 
+ 
+INCAS BULLETIN, Volume 11, Issue 3/ 2019 
+[18] T. Ura, AUV ‘r2D4’, Its Operation, and Road Map for AUV Development, in: Advances in Unmanned 
+Marine Vehicles, edited by G.N. Roberts & R. Sutton, IEE Control Series 69, 2006. 
+[19] F. Song & S. M. Smith, Design of sliding mode fuzzy controllers for an autonomous underwater vehicle 
+without system model, (OCEANS 2000 MTS/IEEE Conference and Exhibition, Providence, Rhode 
+Island–The Ocean State), pp. 835 – 840, 2000. 
+[20] F. Song, An Edgar and Smith Samuel, Design of robust nonlinear controllers for autonomous underwater 
+vehicles with comparison of simulated and at-sea test data, Journal of Vibration and Control, 8, 189 – 
+217, 2002. 
+[21] H. S. Kim & Y. K. Shin, Expanded Adaptive Fuzzy Sliding Mode Controller using Expert Knowledge and 
+Fuzzy Basis Function Expansion for UFV Depth Control, Journal of Ocean Engineering, 34, 1080-1088, 
+2007. 
+[22] W. M. Bessa, M. S. Dutra & E. Kreuzer, Depth Control of Remotely Operated Underwater Vehicles using an 
+Adaptive Fuzzy Sliding Mode Controller, Journal of Robotics and Autonomous System, 56, 670-677, 
+2008.
+

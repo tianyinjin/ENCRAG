@@ -1,0 +1,97 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page: 4 / 12
+
+================================================================================
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+FIGURE 3. Intelligent drone reconnaissance scenario and applied technologies.
+Military drones are classified according to their purpose of
+use into reconnaissance, attack, deception, electronic warfare,
+and as targets [38], [39]. In this case study, we focus on the
+intelligence of reconnaissance drones. The drone in the case
+study is modeled after the drone of the Korean Poongsan com-
+pany, as shown in Figure 2. The model can perform a variety
+of tasks depending on the applied modules. However, in this
+study, a drone equipped with reconnaissance modules is used.
+The module includes sensors and systems such as cameras,
+LRF, GNSS, and others. For specification assumptions, it is
+presumed that the drone is capable of being equipped with an
+object detection and reinforcement learning neural network.
+A. SCENARIO
+The scenario assumes specific conditions and objectives
+for research purposes. An intelligent reconnaissance drone,
+equipped with the capability to detect enemies, is deployed
+for the mission. The drone’s task is to locate and track enemy
+tanks, identified as key targets, in a designated sector during
+clear daytime weather conditions. After tracking, the drone
+provides information about these tanks to the final decision-
+makers for attack planning. It is assumed that a communi-
+cation system has been pre-established between the drone
+and the decision-makers, allowing for data transmission and
+reception. The sector assigned for the drone’s reconnaissance
+contains trees and structures, offering potential concealment
+or camouflage for the tanks. Additionally, there is a risk of the
+drone being shot down if it flies too low, due to the possibility
+of unexpected anti-aircraft fire from the enemy within the
+sector.
+B. TECHNOLOGY APPLIED IN THE SCENARIO
+Given such a scenario, what specific technologies could be
+applied to make the drone intelligent? Let’s examine this
+based on Figure 3. The technologies mentioned here are
+not yet at a stage where they can be implemented in real-
+world environments. Therefore, it is important to note that
+all subsequent content discussed has been implemented and
+tested within the Unity simulator.
+1) Firstly, as drones need "eyes" for intelligence, we apply
+the lightweight algorithm YOLOv4-tiny, considering
+the limited computational speed and memory of em-
+bedded systems. This choice is also influenced by the
+fact that YOLOv4-tiny is a relatively recent algorithm
+that is compatible with the Unity simulator.
+2) Drones, with cameras facing downward from above,
+require top-view images of tanks for effective object
+detection. However, most publicly available online re-
+sources predominantly feature frontal photos of tanks.
+Getting pictures of military equipment from specific
+angles is challenging due to security reasons. There-
+fore, this study uses synthetic data from Unity and
+augmented real images. The training and validation
+data are divided into three categories, which include
+real images, synthetic data, and augmented data derived
+from real images. Among these categories, the real
+images consist of 1180 tank photos taken from various
+angles, including 30 aerial view tank photos, which
+are similar in size to those observed by drones. We
+use 700 images of Unity synthetic data and create 400
+augmented images from 30 real aerial view photos of
+tanks. These 400 augmented images are further divided
+into two groups where the first consists of 150 images
+transformed through methods like geometric resizing,
+Gaussian blur, image inversion, color inversion, and
+grayscale conversion, and the second comprises the re-
+maining 250 images augmented using Alias-Free Gen-
+erative Adversarial Networks, known as StyleGAN3
+[40]. The test dataset uses 100 aerial view real images
+not included in the training and validation data. As
+shown in Table 1, the best performance is achieved
+when real images, Unity synthetic data, and augmented
+data are combined.
+TABLE 1. Training results by dataset.
+Dataset
+F1 Score
+AP (Average Precision)
+Real
+0.85
+0.90
+Real, Synthetic
+0.85
+0.91
+Real, Synthetic, Augmentation
+0.89
+0.94
+4
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4

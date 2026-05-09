@@ -1,0 +1,77 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 42 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+42
+Vers des IA vérifiables
+Les systèmes d’intelligence artificielle (SIA) sont de plus 
+en plus intégrés à notre vie quotidienne, et sont même 
+désormais en mesure de nous fournir des conseils 
+grâce aux IA génératives. Cependant, à mesure que 
+ces systèmes gagnent en importance, les appels à la 
+transparence se multiplient. En effet, s’il est légitime de 
+protéger les fournisseurs de SIA contre la violation de 
+leurs secrets de fabrication, il est tout autant légitime 
+de demander à ces mêmes fournisseurs de garantir 
+l’intégrité de leurs modèles. Cette tension entre les 
+exigences d’intégrité et de confidentialité est inhérente 
+aux SIA « fermés ». Pourtant, elle peut être surmontée 
+par le dernier cri des technologies cryptographiques 
+: les preuves à divulgation nulle de connaissance. 
+Une preuve à divulgation nulle de connaissance (ZKP, 
+Zero Knowlege Proof) est un protocole cryptographique 
+permettant à une entité dite « prouveur » de démontrer 
+à une autre entité dite « vérificateur » qu’une information 
+est vraie, sans révéler aucune information à son sujet 
+(autre que sa véracité). Apparues dans les années 80, les 
+ZKP sont aujourd’hui incontournables sitôt qu’existe une 
+double exigence de transparence et de confidentialité 
+des données. C’est la raison pour laquelle on les trouve 
+implémentées dans des domaines aussi différents que le 
+web, l’internet des objets, le vote électronique, la Défense, 
+la santé ou encore les cryptomonnaies. Aujourd’hui, les 
+ZKP font irruption dans les SIA au regard des enjeux 
+éthiques, juridiques et financiers, et il est possible 
+qu’elles figurent un jour parmi les exigences imposées 
+aux IA de confiance (a minima aux IA stratégiques).
+Si les ZKP sont aussi efficaces, c’est parce qu’elles 
+fournissent deux propriétés idéales : il est impossible 
+pour le vérificateur de refuser une preuve valide et, 
+réciproquement, il est impossible pour le prouveur de 
+convaincre sans preuve le vérificateur que l’information 
+est vraie. Techniquement, on parle respectivement de 
+complétude et de robustesse. Mais ce qui fait la force des 
+ZKP, c’est que ces propriétés essentielles sont obtenues 
+sans divulgation du « témoin » de la preuve. Là réside, dans 
+cette troisième propriété, l’aspect révolutionnaire des ZKP.
+Des preuves d’inférence à base de ZKP
+L’intérêt du monde de l’IA pour les ZKP est récent et c’est 
+encore essentiellement une affaire de chercheurs. Les ZKP 
+posent en réalité deux défis aux fournisseurs de SIA privés :
+1.	
+Comment peuvent-ils certifier le calcul de leurs 
+modèles ?
+2.	
+Comment peuvent-ils certifier les calculs effectués 
+pendant l’entraînement de leurs modèles ?
+La première question conduit à la notion de « preuve 
+d’inférence à base de ZKP». Les preuves d’inférence 
+sont apparues récemment, notamment depuis les 
+travaux sur les safetynets (2017) [1] et VeriML (2021) 
+[2]. Au départ, l’objectif était de vérifier l’exactitude 
+des calculs effectués (par un serveur ML-as-a-service) 
+sans exigence particulière sur la confidentialité du 
+modèle du serveur. C’est cette exigence manquante 
+que visent les preuves d’inférence à base de ZKP, 
+pour garantir le secret du calcul tout en conservant la 
+garantie que le calcul a bien été effectué par le modèle 
+putatif. Les ZKP permettent aux fournisseurs de SIA 
+de produire une preuve qu’un calcul demandé s’est 
+produit honnêtement, c’est-à-dire qu’une matrice de 
+Arnaud VALENCE
+Enseignant-chercheur en cybersécurité au 
+laboratoire Confiance Numérique et Sécurité 
+ESIEA

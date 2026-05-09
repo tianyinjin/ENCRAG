@@ -1,0 +1,121 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 45 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+88 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 89
+L’ensemble des éléments présentés dans les précédents chapitres de ce document 
+peut nécessiter à un moment ou à un autre l’utilisation de plateformes. Un des 
+objectifs du pôle d’excellence est donc de s’assurer que la disponibilité de plate-
+formes adaptées (incluant aussi celles intervenant sur des données) permette le 
+développement des actions des partenaires du Pôle d’excellence cyber, et, plus 
+généralement, de la filière cybersécurité et cyberdéfense. 
+Au sens du Pôle d’excellence cyber, une plateforme de cybersécurité (et de cyber-
+défense) est un environnement maîtrisé constitué de moyens techniques, humains, 
+organisationnels, permettant d’appréhender de manière générale différents aspects 
+liés à la cybersécurité. 
+Une plateforme de cybersécurité est considérée comme un ensemble de « ressources », 
+un « magasin » de moyens (techniques, services, contenus, humains) permettant de 
+répondre à des enjeux (montée en compétence, qualification de produit, capitalisation 
+de savoir et de données...). C’est un socle, un collectif de plusieurs ressources permet-
+tant de bâtir des projets, des usages ou des services. 
+Cinq types de plateformes ont été identifiés au sein du GT plateforme du Pôle 
+d’excellence cyber25 : 
+• Recherche et développement en cybersécurité (R&D) ;
+• Formation et entraînement à la sécurité numérique ;
+• Validation et certification de produits ;
+• Industrialisation de produits de sécurité ;
+• Plateforme en contexte opérationnel.
+Une plateforme de recherche en cybersécurité est une plateforme fournissant un 
+environnement et des moyens d’expertiser des systèmes, de mettre en lumière les 
+vulnérabilités de ces systèmes et de proposer des solutions ou des recommandations 
+permettant d’améliorer leur sécurité. Ces plateformes adressent à la fois la recherche 
+académique et la recherche industrielle.
+Une plateforme de développement fournit les moyens techniques permettant de 
+mettre en œuvre des produits ou des solutions de cybersécurité. Elle concerne de 
+fait plus particulièrement la production industrielle mais peut aussi faire l’objet de 
+développements dans un contexte académique. Elle peut par exemple, sans être 
+limitative, permettre le développement d’outils ou de scénarios pour les besoins 
+d’expertise en cybersécurité.
+Une plateforme de formation constitue un support permettant principalement de 
+répondre aux besoins de sensibilisation, d’enseignement et d’apprentissage. Elle 
+fournit des moyens techniques, organisationnels, humains, ainsi que des contenus 
+(cours, exercices…) permettant de répondre à ces besoins. 
+La formation peut être dispensée en présentiel sur des équipements physiques mettant 
+à disposition les cours et les exercices et permettant de réaliser des travaux pratiques 
+sur des configurations matérielles et/ou logicielles. Elle peut également être dispensée 
+en ligne.
+L’entraînement se distingue de la formation de par son objectif, qui est de mettre en 
+situation réelle des personnels afin de leur permettre d’acquérir des automatismes 
+et des savoir-faire sur la base de leurs connaissances. 
+Deux aspects de l’entraînement sont à distinguer :
+• L’entraînement au sens « répétition de procédure » (training) permettant d’acquérir 
+des automatismes ;
+• L’entraînement au sens « exercice en situation inconnue », permettant notamment 
+d’évaluer les compétences en situation inattendue, en situation de crise.
+Une plateforme de validation fournit des moyens de tests permettant d’une part de 
+valider la conformité fonctionnelle d’un produit par rapport à ses spécifications et à 
+la documentation associée, et d’autre part de tester sa fiabilité et sa robustesse de 
+fonctionnement dans un environnement représentatif d’une configuration réelle y 
+compris au-delà du domaine d’emploi spécifié. Les validations peuvent par exemple 
+être réalisées par des tiers de confiance qui ont pour mission d’éprouver une confi-
+guration proposée par un fournisseur à un client. 
+La certification s’appuie sur une évaluation généralement réalisée par des centres 
+d’évaluation de la sécurité des technologies de l’information (CESTI ou ITSEF) 
+agréés par l’ANSSI et qui possèdent les moyens matériels, logiciels et humains 
+nécessaires à cette évaluation. 
+Dans ce contexte, l’évaluation est réalisée suivant des critères normalisés, tels que, 
+par exemple, les critères communs (CC) (norme internationale) ou la Certification de 
+Sécurité de Premier Niveau (CSPN) à l’issue de laquelle une certification est délivrée 
+par l’ANSSI. 
+Les plateformes de certification nécessitent des compétences d’experts permettant 
+d’élaborer des tests de vulnérabilités (connus ou spécifiques au produit) en vue de 
+rédiger un rapport technique d’évaluation (RTE ou ETR).
+Une plateforme de pré-production peut par exemple permettre de pré-configurer et 
+de qualifier une solution ou un produit vis-à-vis des autres composants d’une architec-
+ture. Cela permet notamment de vérifier et contrôler l’impact de l’intégration de ces 
+nouveaux composants dans un environnement technique opérationnel réel.
+Les plateformes de démonstration ont pour principal objectif de montrer les vulné-
+rabilités potentielles des systèmes et de promouvoir les produits et les solutions de 
+cybersécurité permettant d’y faire face. Elles permettent de montrer la faisabilité 
+des solutions et les bénéfices que ces dernières peuvent apporter. Elles contribuent 
+de fait au développement industriel et commercial des produits de sécurité.
+Les plateformes dites d’« usage » sont des plateformes techniques réelles (matérielles) 
+et opérationnelles dans lesquelles des solutions de cybersécurité peuvent être intégrées. 
+Ces plateformes sont soit des environnements de fonctionnement nécessitant des 
+moyens de sécurisation, soit des environnements qui vont assurer la sécurité d’une 
+infrastructure. Ces plateformes d’usage ne sont pas nécessairement des plateformes 
+de cybersécurité, mais peuvent contribuer au développement de la filière en tant que 
+support de validation de produits ou de solutions de cybersécurité. 
+Plateformes d’audit ou de pentest : dans un contexte opérationnel, il peut être néces-
+saire de contrôler et valider la sécurité des infrastructures qui sont déjà en place. 
+Les tests peuvent alors être réalisés en mode in-situ (sur des plateformes réelles en 
+fonctionnement) ou ex-situ (sur des plateformes indépendantes reproduisant des 
+environnements réels). 
+G.1 
+Recherche et 
+développement 
+en cybersécurité 
+(R&D)
+G.2 
+Formation 
+et entraînement 
+à la sécurité 
+numérique
+G.3 
+Validation  
+et certification  
+de produits
+G.4 
+Industrialisation  
+de produits  
+de sécurité
+G.5 
+Plateforme  
+en contexte  
+opérationnel
+25 https://www.pole-excellence-cyber.org/wp-content/uploads/2018/02/Typologie-de-plateformes-V1.4.pdf

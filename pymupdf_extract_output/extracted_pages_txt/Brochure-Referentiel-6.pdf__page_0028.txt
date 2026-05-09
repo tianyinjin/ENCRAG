@@ -1,0 +1,76 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 28 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+54 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 55
+On va retrouver dans ce domaine l’ensemble des produits, technologies et services 
+décrits au chapitre § B.1 ci-dessus. 
+Leurs besoins et leurs enjeux découlent donc directement de ceux-ci.
+Le Cloud public pose un ensemble de problèmes de sécurité notamment pour le 
+contrôle de l’accès aux données. La protection de ces données en confidentialité 
+ou intégrité vis-à-vis de tiers, que ceux-ci soient au sein du fournisseur de service 
+ou qu’ils soient externes et non autorisés, est bien entendu une préoccupation 
+constante. 
+Pour cette raison, les techniques de chiffrement pourront être utilisées aux 
+niveaux transport, stockage ou applicatif. Les contraintes particulières du cloud 
+pourront nécessiter le développement de nouvelles techniques cryptogra-
+phiques (chiffrement homomorphe, par exemple). 
+À la croisée d’autres domaines, il existe également la gestion des identités pour 
+garantir un accès sécurisé quels que soient le lieu ou le moyen d’accès aux données. 
+Le contrôle des organisations ou des personnes et des moyens qui administrent 
+ou exploitent les données est en particulier nécessaire si l’on souhaite préserver 
+les intérêts d’un état, assurer la protection de ses citoyens ou encore éviter 
+l’espionnage industriel.
+Précisément sur ce point l’extraterritorialité du droit états-unien prolongée 
+avec le Cloud ACT du 23 mars 2018 (Clarifying Lawful Overseas Use of 
+Data) renforce l’intérêt pour les états de disposer de services Clouds 
+souverains. 
+En effet, cette loi contraint, sur simple réquisition judiciaire, tous fournisseurs 
+de services de communications électroniques, dont les fournisseurs de 
+services d’hébergement dans le Cloud, soumis à la juridiction états-unienne, 
+indépendamment de leur localisation physique ou de leur nationalité, à 
+fournir les données de communications en leur possession et contrôle, 
+pouvant inclure des données stratégiques d’entreprise ainsi que des 
+données à caractère personnel de leurs clients. 
+Compte tenu des critères d’appréciation étendus de soumission au 
+droit états-unien (nature, degré de contact avec les États-Unis…), cette 
+disposition fait légitimement craindre que des données à caractère 
+personnel hébergées par un fournisseur européen de services Cloud 
+puissent être communiquées aux autorités judiciaires états-uniennes, 
+hors de tout contrôle des clients dudit prestataires de services Cloud.
+De plus, ce texte pose la question de la licéité des transferts de données 
+d’un fournisseur européen vers les autorités états-uniennes, au regard du 
+droit de l’Union européenne, à travers l’article 48 du RGPD, établissant 
+que « toute décision d’une juridiction ou d’une autorité administrative d’un 
+pays tiers exigeant d’un responsable du traitement ou d’un sous-traitant 
+qu’il transfère ou divulgue des données à caractère personnel ne peut être 
+reconnue ou rendue exécutoire de quelque manière que ce soit qu’à la 
+condition qu’elle soit fondée sur un accord international », lequel n’existe 
+pas encore. 
+C.6.1 _OS Sécurisés et OS Multi-niveaux
+Le paragraphe B.1.2.2.4.4 détaille cette rubrique. 
+C.6.2 _Progiciels applicatifs & Solutions intégrées
+Dans ce domaine, il est nécessaire d’accompagner les évolutions des 
+architectures applicatives afin de les sécuriser au juste niveau :
+• Travail collaboratif ;
+• Serveurs applicatifs ;
+• Clients légers ;
+• Applicatifs Java ;
+• …
+En complément, il reste de gros enjeux autour de la sécurisation des bases 
+de données, tant pour la protection de leurs contenus que du contrôle de 
+leurs accès. 
+C.4 
+Analyseurs, 
+gestion et 
+supervision
+C.5 
+Cloud
+C.6 
+OS et  
+applications

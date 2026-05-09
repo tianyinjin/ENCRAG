@@ -1,0 +1,40 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 120 / 136
+
+================================================================================
+
+120 
+Ainsi, pour les lasers embarqués actuels et anticipables aux horizons de l’étude, il n’est pas question 
+de percer la structure d’une cible réalisée en fibre de carbone-époxy comme l’ALTIUS-600M ni même 
+d’ailleurs le fuselage en kevlar-époxy d’un drone Perdix. 
+Les structures en fibre de verre époxy constituent un cas particulier. Ce matériau est semi-transparent 
+à 1 µ ; une partie de l’énergie le traverse et peut provoquer simultanément un effet thermique sur les 
+composants embarqués. Ce type de structure se perce très bien et très vite. 
+O LA VULNERABILITE DES DISPOSITIFS ELECTRO-
+OPTIQUES 
+Les cibles de référence disposent généralement d’un guidage terminal par voie optique. L’analyse de la 
+vulnérabilité d’un système optronique en bande II (moyen infrarouge, de 3 à 5 µm), soumis à un 
+rayonnement laser en proche infrarouge est relativement délicat à mener sans connaissance précise 
+des substrats et traitements optiques. En revanche, les caméras à matrice silicium ont des optiques en 
+verre ou en polymères transparents à la longueur d’onde laser. On distingue alors classiquement trois 
+cas de figure : 
+- Agression « dans le champ » : la pupille du laser est « vue » par la caméra. Le rayonnement laser 
+est alors focalisé sur la matrice du capteur, par l’objectif. Les fluences sont bien au-delà des seuils 
+d’endommagement. Une zone de pixels plus ou moins importante est détruite quasiment 
+instantanément ; 
+- Agression « hors champ » : le rayonnement laser pénètre dans l’objectif et interagit avec les 
+montures et le diaphragme. Il y a de multiples réflexions internes qui éblouissent le capteur ; 
+- Agression « hors bande » : un ou plusieurs composants optiques ne sont pas compatibles avec 
+la longueur d’onde laser. Le capteur est généralement ébloui, mais pas nécessairement détruit. 
+En revanche, l’objectif peut être endommagé, si la fluence est suffisante (Figure 11). 
+A noter que les capteurs à infrarouge sont souvent dotés d’optiques en Germanium qui ne sont pas 
+perméables aux lasers à 1 µ. 
+O LA TOURELLE 
+La tourelle orientant le laser conditionne le temps de réaction de l’arme et la stabilité de la tache laser 
+sur la cible. Ce dernier point influe de manière déterminante sur le temps de perçage de la structure 
+visée. Il est donc nécessaire de retenir une tourelle gyrostabilisée deux axes, performante. Au vu de 
+l’état de l’art, on la caractérisera pour l’essentiel par :  
+Figure 11– destruction d’un objectif, suite à une agression laser hors bande. La monture du 
+capteur, en plastique, est également endommagée. Cependant, la caméra fonctionne toujours 
+(avec un objectif neuf)

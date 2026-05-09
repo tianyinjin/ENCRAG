@@ -1,0 +1,55 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 18 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 18 | 79 
+6. 
+PRINCIPES ET DÉMARCHES DE SÉCURISATION 
+La présente directive définit les principes et démarches à mettre en œuvre en matière de sécurité 
+numérique d’un système industriel de manière globale ou selon la phase du cycle de vie du 
+système. Ces principes et démarches donnent lieu à des exigences définies en annexe 5 et les 
+précisent. 
+6.1. Principes de sécurisation 
+Les principes de sécurisation applicables sur un système numérique sont à mettre en œuvre dans 
+la conception d’un système industriel de manière pragmatique afin de prendre en compte ses 
+spécificités et ses particularités qu’il faut donc identifier de manière globale, c’est-à-dire sans le 
+séparer de la sécurité numérique des systèmes qu’il soutient et de son environnement. 
+La sécurité numérique d’un système industriel est souvent très dépendante de sa conception14. 
+Un des principaux efforts de sécurisation porte donc sur la phase de conception et de réalisation. 
+Elle engendre nécessairement des coûts, parfois difficiles à estimer. La définition d’objectifs 
+de sécurité clairs et atteignables est donc primordiale.  
+Selon la nature du système industriel, l’application d’une mesure de sécurité propre au numérique 
+peut mettre le maitre d’œuvre face à une impossibilité technique. Le principe de la défense en 
+profondeur15 doit donc être appliqué avec rigueur et englober la protection physique, la 
+sensibilisation et la formation des utilisateurs ainsi qu’un corpus documentaire complet et exact, 
+et une cartographie bien documentée et associée à une localisation des ressources en sont aussi 
+des éléments majeurs.  
+Compte tenu de la durée de vie particulièrement longue de certains systèmes industriels, la 
+gestion des compétences et la gestion de la cartographie du système industriel sont des 
+points essentiels de leur maintien en condition de sécurité (MCS). Il est nécessaire d’y veiller tout 
+au long de leur cycle de vie. La documentation apparaît alors un élément clé dans son suivi. Les 
+risques de rupture de compétences sont aussi à prendre en compte, notamment dans une 
+analyse de risques.  
+Afin d’éviter que les dispositifs de continuité d’activité prévus en cas de dysfonctionnement 
+soient de nouvelles sources de risques en matière de sécurité numérique, ils doivent, dans la 
+mesure du possible, ne pas contenir des composants numériques afin de ne pas être vulnérables 
+aux attaques informatiques. 
+Si le système industriel est segmenté en zones de sécurité, la sécurisation porte sur chaque zone 
+de sécurité* en fonction de son niveau de classe* mais aussi sur les conduits* ou interactions 
+entre les zones de sécurité selon le principe de filtrage* de flux initiés depuis une zone de 
+classe* élevée vers une zone de classe* moindre (voire équivalente). 
+Enfin, des négligences peuvent conduire à la réalisation d’attaques informatiques ou à la diffusion 
+des codes malveillants sur le système industriel, engendrant des impacts bien réels. L’analyse 
+de risques portant sur les systèmes industriels doit donc prendre en compte ces risques. Les 
+mesures à mettre en œuvre comprennent alors nécessairement des actions durables sur le 
+personnel (formation, sensibilisation, …).  
+                                               
+14 Ou des choix d’intégration avant sa mise en œuvre.  
+15 La défense en profondeur consiste en la combinaison de dispositifs juridiques, 
+organisationnels, techniques et humains, distribués en lignes successives, visant à affaiblir 
+l’agression en vue d’en prévenir ou d’en limiter les effets (Source : Instruction ministérielle n°1544 
+relative à la défense sécurité).

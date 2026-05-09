@@ -1,0 +1,51 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 21 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+19/47 
+RO 16 : il est OBLIGATOIRE pour l’AH, dans une démarche sommaire, de fournir au RSSI le CUC 
+qu’il devra renseigner.  
+ 
+RO 17 : il est OBLIGATOIRE pour l’AE, dans une démarche sommaire, de valider le CUC 
+correctement renseigné.  
+ 
+Démarche simplifiée 
+La démarche simplifiée repose sur une analyse de conformité à un ensemble d’exigences de sécurité 
+vérifiables, déterminées en fonction de la nature des données traitées par le SI, des activités qu’il porte 
+ou encore des éléments (techniques, logiciels) qui le constituent. Il regroupe ainsi un ensemble de 
+règles provenant de textes réglementaires, de normes et de bonnes pratiques préalablement définies, 
+adaptées et applicables au SI. Cet ensemble d’exigences de sécurité à appliquer associées à leur 
+référentiel constitue le CUC spécifique au périmètre d’homologation du SI. 
+L’analyse de conformité consiste alors à évaluer l’état d’application des exigences puis à identifier et 
+justifier les écarts. Le CUC correctement renseigné forme le socle de sécurité du SI. Des mesures de 
+sécurité dérogatoires peuvent être définies puis autorisées par l’autorité compétente pour limiter les 
+risques que font peser les non-conformités sur le SI. Elles complètent le socle de sécurité. 
+Si le référentiel et les exigences de sécurité sont insuffisants pour prendre en compte tout le périmètre 
+d’homologation et les besoins de sécurité du SI, l’analyse de conformité devrait être complétée par une 
+analyse de risques appropriée. Cette analyse de risques complémentaire à l’analyse de conformité peut 
+aussi être exigée par l’AH. 
+RO 18 : il est OBLIGATOIRE, pour une démarche simplifiée, de procéder à une analyse de conformité 
+à partir d’un CUC, formé d’exigences adaptées au périmètre d’homologation et aux besoins de 
+sécurité du SI (socle de sécurité).  
+ 
+RO 19 : il est RECOMMANDÉ, pour une démarche simplifiée, de compléter l’analyse de conformité 
+par une analyse de risques lorsque le CUC est insuffisant pour prendre en compte les 
+composants essentiels du périmètre d’homologation ou encore les besoins de sécurité du SI.  
+Un outil d’analyse de risques dédié à la démarche d’homologation simplifiée (OARDHS du [GUIDE 7]) 
+pour un SI non industriel est fourni et maintenu par la DGNUM.  
+ 
+Démarche standard 
+La démarche standard s’appuie obligatoirement sur une analyse de risques complète selon une 
+méthode préconisée par le ministère (EBIOS RM).  
+RO 20 : il est OBLIGATOIRE, pour une démarche standard, de mener une analyse de risques 
+complète selon une méthode préconisée par le ministère.  
+L’analyse de risques donne alors lieu à l’élaboration des livrables suivants : 
+● une fiche d’expression rationnelle des objectifs de sécurité (FEROS) ; 
+● une cible de sécurité, éventuellement. Elle identifie les fonctions de sécurité réalisant 
+les objectifs de sécurité ; 
+● un plan de sécurité (PDS). Il regroupe l’ensemble des mesures organisationnelles, 
+physiques et techniques qui réalisent les fonctions de sécurité prévues ou encore les 
+objectifs de sécurité définis.

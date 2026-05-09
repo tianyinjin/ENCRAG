@@ -1,0 +1,96 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 76 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 76 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+MCS26 
+ORG 
+Mettre en place un plan de gestion de l’obsolescence pour remplacer les 
+équipements et applications obsolètes. 
+O
+ 
+ 
+ 
+ 
+MCS27 
+ORG 
+TECH 
+Mettre en place des mesures palliatives, techniques ou organisationnelles, pour 
+réduire les risques que pose l’obsolescence d’équipements toujours en 
+exploitation. Ces équipements font l’objet d’une plus grande surveillance. 
+O
+ 
+ 
+ 
+ 
+MCS28 
+ORG 
+Recenser l'ensemble des équipements matériels et logiciels dans la gestion du 
+parc afin qu'ils soient bien identifiés et maintenus à jour. 
+O
+ 
+ 
+ 
+ 
+Assurer la continuité de l’activité et sa reprise 
+CONT1 
+ORG 
+Mettre en place un plan de sauvegarde et de restauration des données sensibles 
+afin de permettre leur restauration en cas d’incident et en fonction du besoin de 
+disponibilité. 
+Il précise les moyens utilisés, les modalités et les fréquences de mises en œuvre 
+des sauvegardes, des tests, et des restaurations ainsi que le nombre de 
+sauvegardes à conserver. Il doit être adapté aux évènements et sinistres redoutés.  
+ 
+R 
+O 
+O 
+ 
+CONT2 
+TECH 
+Sauvegarder les configurations a minima avant et après toutes modifications. Les 
+configurations sont sauvegardées hors du système industriel.  
+ 
+R 
+O 
+O 
+ 
+CONT3 
+ORG 
+Tester régulièrement le processus de sauvegarde et de restauration des données 
+et des configurations a minima avant toute évolution ou modification majeure. Le 
+processus pourrait être testé sur un échantillon limité mais représentatif du 
+système industriel dans son ensemble. 
+ 
+R 
+O 
+O 
+ 
+CONT4 
+ORG 
+Mettre en place un plan de reprise et de continuité d’activité lié au fonctionnement 
+du procédé industriel*. 
+ 
+C 
+R 
+O 
+Selon le besoin de disponibilité du SI. 
+CONT5 
+TECH 
+Intégrer des modes dégradés du système industriel, leur permettant soit de 
+s’arrêter sans provoquer de dégâts, matériels ou humains, soit de continuer à 
+fonctionner par un pilotage en mode manuel. Les modes dégradés ne doivent pas 
+s’appuyer sur des dispositifs numériques. 
+ 
+C 
+R 
+O 
+Selon le besoin de disponibilité du SI.

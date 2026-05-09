@@ -1,0 +1,46 @@
+Source file: 20240416_NP_NOTE_D-24-001879_directive de pilotage budgétaire 2024.pdf
+Relative path: 20240416_NP_NOTE_D-24-001879_directive de pilotage budgétaire 2024.pdf
+Page: 67 / 92
+
+================================================================================
+
+67/92 
+Cette typologie doit toujours être précisée dans la colonne données physique. Elle 
+doit être en cohérence pour ce dernier point avec les fiches d’aléa présentées lors 
+des suivis de gestion.  
+Ces deux colonnes doivent faire l’objet d’une évaluation la plus précise possible. 
+Elles permettent en effet de définir l’atterrissage prévisionnel des BdD et 
+éventuellement, en fonction de leur nature, de faire remonter les informations liées 
+aux aléas. A partir du RAMSES SG1, ces données doivent être actualisées avant 
+chaque envoi du fichier. 
+Précision importante : les dépenses incompressibles ne doivent en aucun cas 
+être sous-programmées. Le RàE AE ne doit pas être utilisé pour y parvenir.  
+3.5. Mise en cohérence de la programmation 
+A chaque étape de la programmation, les SUO doivent vérifier sur l’onglet cumulé les points suivants : 
+ le montant total programmé des AE et CP doit correspondre aux enveloppes notifiées ; 
+ pour les AEP, le montant total programmé doit correspondre aux mises à disposition typées 
+AEP dans chorus. La prévision de consommation des AEP doit être faite sur le mois 
+d’engagement de ces derniers dans Chorus ;  
+ les RàE AE et les RàP CP doivent faire l’objet d’une réactualisation avant chaque envoi au B. 
+BUD. 
+Il faut obligatoirement prévoir des RàP CP associés aux RàE AE. Dès lors, le montant des RàP CP doit 
+être supérieur ou égal au montant des RàE AE. 
+Pour les RàP CP sur EJ antérieurs, son montant ne doit faire l’objet d’un ajustement qu’en fonction du 
+nettoyage de flux effectué sur les engagements juridiques des années antérieures. 
+La programmation en CP doit être supérieure ou égale au RàP CP mais inférieure ou égale à la somme 
+des montants de la programmation AE et des RàP CP, déduction faite des RàE AE. 
+Par domaine RAMSES, le montant cumulé de la part forfaitaire des marchés, de celui de la part non 
+forfaitaire et du hors marchés doit correspondre au montant des AE programmées. 
+Le montant en AE et CP dans les colonnes « réalisé Chorus » de l’onglet cumulé doit correspondre à 
+l’INFBUD40. 
+La somme de la colonne « REJB-recyclage » doit correspondre aux montants des REJB de l’INFBUD43 
+moins les recyclages ayant fait l’objet d’une MADI par le CICoS/B. BUD. 
+La programmation annuelle par domaine doit être supérieure ou égale au montant réalisé réel.  
+Le calcul des écarts entre la programmation et le réalisé est automatique. L’analyse des écarts cumulés 
+mensuels doit permettre aux SUO de s’assurer de leur capacité à atteindre leur programmation annuelle 
+par domaine, en identifiant notamment les domaines nécessitant une reprogrammation ainsi que les 
+éventuelles restitutions à envisager. 
+4. 
+LES DOMAINES RAMSES 
+Il s’agit ici de décrire ce qui est à programmer par nature de dépenses fléchées RAMSES tout en 
+s’assurant que le référentiel est appliqué.

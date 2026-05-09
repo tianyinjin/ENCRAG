@@ -1,0 +1,465 @@
+Source file: falohun-2016-ijca-908473.pdf
+Relative path: falohun-2016-ijca-908473.pdf
+Page count: 5
+Extracted pages: 5
+
+================================================================================
+
+[Page 1 / 5 | chars: 5187]
+--------------------------------------------------------------------------------
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+30 
+Dangerous Gas Detection using an Integrated Circuit 
+and MQ-9 
+Falohun A.S. 
+Dept. of Computer Sc. & Eng. 
+Ladoke Akintola Univ. of Tech. 
+ 
+Oke A.O. 
+Dept. of Computer Sc. & Eng. 
+Ladoke Akintola Univ.of Tech. 
+Abolaji B.M., Oladejo 
+O.E. 
+Dept. of Computer Sc. & Eng. 
+Ladoke Akintola Univ.of Tech.     
+ 
+ABSTRACT 
+Natural gas is an odourless one which consists of compounds 
+made of two elements: carbon and hydrogen called 
+hydrocarbons. Sometimes, due to an accident or if the valve is 
+not properly closed, the gas leaks. This system is aimed at 
+detecting the leakage and sounding an alert so that occupants 
+in the building can maintain optimal ventilation and turn off 
+all electrical appliances or evacuate the vicinity until a redress 
+is made. 
+An MQ-9 chemical sensor coupled with an Integrated Circuit 
+was used to build the system and on testing, the system gave 
+adequate visual information, audible and timely alert on 
+detecting a gas leakage. 
+General Terms 
+Security, Safety, Signal, Gas, Casing. 
+Keywords 
+Sensor, Buzzer, Embedded, Soldering, Alarm. 
+1.  INTRODUCTION 
+In this fast developing society, electronics has come to stay as 
+the most important branch of Engineering. Electronic devices 
+are being used in almost all industries for quality control and 
+automation and they are fast replacing the present vast army 
+of workers engaged in processing and assembling in the 
+factories. These devices supplement the human ability to 
+sense, monitor, calculate, observe, and control. [8]  
+An uncontrolled combination of fuel with oxygen releases 
+heat and any unintended contact with a spark can cause 
+burning. Automatic gas detecting systems are intended to 
+notify the building occupants to evacuate in the event of the 
+gas leakage or other emergency, report the event to an off-
+premises location in order to summon emergency services, 
+and to prepare the structure and associated systems to control 
+the spread of gas and fire. [3]  
+This work is about the design and construction of a gas 
+detector with audible alarm. This gas detector with audible 
+alarm is designed with the intention to ensure that the event of 
+gas 
+is 
+intelligently 
+detected, 
+promptly 
+notified 
+and 
+interactively managed than what is obtainable with 
+conventional ``ring-ring´´ fire alarm systems. 
+„Jet Age‟ is what the age is called as the growing desire of 
+human, is that things are done in the twinkle of an eye (i.e. 
+food get cooked in a minute, uninterrupted power supply, fast 
+transportation of people and loads, fast access to knowledge 
+base 
+(Internet), 
+Internet 
+banking, 
+social 
+media 
+communication, online classes). And these have led to breath-
+taking inventions to cater for these desires. One of such is the 
+gas-cooker, whose work is of great benefit. It is observed that 
+the destruction caused by fire due to gas leakage is quite 
+alarming and building occupants are slow in responding to 
+alarm systems. Dr. Guylène Proulx in [6] discussed three 
+reasons why occupants may ignore the alarm signal as: 
+ 
+Failure to recognize the signal as a fire alarm. 
+ 
+Loss of confidence in the system because of 
+nuisance alarms, or, 
+ 
+Failure to hear the signal if there is other source of 
+sound apart from the alarm system or the resident is 
+partly with deafness disability. 
+Therefore, a gas detector with audible/visual alarm presented 
+herein tends to solve these identified problems through the 
+design and construction of a low-cost, easy to construct gas 
+detection system via gas sensor. Figure 1 gave a hint on the 
+alarm system built around a Timer which is easy to work with, 
+affordable and easy to design and construct, instead of a 
+Microcontroller. 
+ 
+ 
+ 
+ 
+Figure 1: Block diagram of the user-interactive fire alarm 
+system. 
+2. LITERATURE REVIEW 
+2.1 Gas Alarm Systems 
+An automatic gas alarm system is designed to detect the 
+unwanted presence of fire by monitoring environmental 
+changes associated with combustion. [2] 
+In general, a fire alarm system is classified as either 
+automatically actuated, manually actuated, or both. [5]. 
+Automatic fire alarm systems are intended to notify the 
+building occupants to evacuate in the event of a fire or other 
+emergency, report the event to an off-premises location in 
+order to summon emergency services, and to prepare the 
+structure and associated systems to control the spread of fire. 
+2.2 Parts of a Fire Alarm System 
+Primary Power supply: Commonly the non-switched 120 or 
+240 Volt Alternating Current source supplied from a 
+commercial power utility. In non-residential applications, a 
+branch circuit is dedicated to the fire alarm system and its 
+constituents. "Dedicated branch circuits" should not be 
+confused with "Individual branch circuits" which supply 
+energy to a single appliance. 
+Secondary (backup) Power supplies: This component, 
+commonly consisting of sealed lead-acid storage batteries or 
+other emergency sources including generators, is used to 
+supply energy in the event of a primary power failure. 
+GAS 
+SENSOR 
+TIMER 
+AUDIO ALERT 
+UNIT 
+VISUAL ALERT 
+UNIT
+
+[Page 2 / 5 | chars: 5634]
+--------------------------------------------------------------------------------
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+31 
+Initiating Devices: This component acts as an input to the fire 
+alarm control unit and are either manually or automatically 
+actuated. Examples would be devices pull stations, heat 
+detectors, or gas detectors. Heat and gas detectors have 
+different categories of both kinds. Some categories are beam, 
+photoelectrical, aspiration, and duct. 
+Notification appliances: This component uses energy 
+supplied from the fire alarm system or other stored energy 
+source, to inform the proximate persons of the need to take 
+action, usually to evacuate. This is done by means of a 
+flashing light, strobe light, electromechanical horn, "beeper 
+horn", chime, bell, speaker, or a combination of these devices. 
+Building Safety Interfaces: This interface allows the fire 
+alarm system to control aspects of the built environment and 
+to prepare the building for fire, and to control the spread of 
+gas fumes and fire by influencing air movement, lighting, 
+process control, human transport and exit. [13]   
+Microcontrollers are designed for small or dedicated 
+applications. Microcontrollers are used in automatically 
+controlled products and devices, such as automobile engine 
+control systems, implantable medical devices, remote 
+controls, office machines, appliances, power tools, and toys. 
+By reducing the size and cost compared to a design that uses a 
+separate microprocessor, memory, and input/output devices, 
+microcontrollers make it economical to digitally control even 
+more devices and processes. Mixed signal microcontrollers 
+are common, integrating analog components needed to control 
+non-digital electronic systems. [14]  
+2.3 Embedded Design 
+A microcontroller can be considered a self-contained system 
+with a processor, memory and peripherals and can be used 
+with an embedded system. (Only the software needs be 
+added). The majority of microcontrollers in use today are 
+embedded in other machinery, such as automobiles, 
+telephones, appliances, and peripherals for computer systems. 
+These are called embedded systems. While some embedded 
+systems are very sophisticated, many have minimal 
+requirements for memory and program length, with no 
+operating system, and low software complexity. Typical input 
+and output devices include switches, relays, solenoids, LEDs, 
+small or custom LCD displays, radio frequency devices, and 
+sensors for data such as temperature, humidity, light level etc. 
+[6] .Embedded systems usually have no keyboard, screen, 
+disks, printers, or other recognizable I/O devices of a personal 
+computer, and may lack human interaction device. [1] .The 
+amount and type of detectors and the type of fire alarm system 
+that one chooses for property protection will depend on the 
+owner‟s property protection goals, the value of the property 
+and the requirements of the owner‟s insurance company. 
+Generally, heat detection will be used in all areas that are not 
+considered high value. Here again, one of the most common 
+mistakes in fire alarm system application is to provide partial 
+protection of a building and expect high performance from the 
+installed systems of any kind . [5] 
+ 
+Figure 2: A typical Fire Alarm System (Source: [1]). 
+2.4 Review of Related Works 
+[15] developed a system to counter the problems of gas 
+accidents in coal mines and family safety from gas usage 
+through the use of a new infrared detection optics principle. 
+The infrared optics gas detection was high in detection 
+accuracy, long range service life. It the system allowed the 
+passage of infrared signal to the gas intended for measurement 
+while its molecules will absorb the light energy. The 
+absorption relationship followed Lamber-Beer law. 
+In the year 2014, [12] stated that an efficient and smooth 
+working controller is needed to continuously sense both 
+leakage and level of the gas. And also fast response is 
+required when leakage is found and the monitoring system 
+must provide additional leakage information which can be 
+used in further processing. The detection system includes 
+Arduino duemilanove, microcontroller board compatible with 
+ATmega328p. coupled with the system is the weight sensor, 
+LCD display, GSM and DC motor. 
+[4] designed and implemented a GSM-Based Remote 
+Monitoring System. The  paper  focused  on  wireless  
+monitoring because  the  wireless  remote  monitoring  system  
+has  a wider  application. The hardware and software 
+architecture of the system was designed where the remote 
+signal is transmitted through GSM network. The system has 
+two parts: the monitoring center and the remote monitoring 
+station.  The monitoring center consists of a computer and a 
+TC35 communication module for GSM.  The computer and 
+the TC35 are connected by RS232.  The remote monitoring 
+station consist of a TC35 communication module  for GSM, 
+an MSP430F149 MCU, a display unit, sensors  and a data  
+gathering and processing unit. The software for the 
+monitoring center and the remote monitoring station were 
+designed using VB. 
+A review of gas leak detection techniques was done by [9] 
+with a classification of leak detection methods in a gas 
+pipeline to monitor the integrity of a pipeline. 
+In terms of mode of operation, [12] settled for the use an 
+Arduino board, which is quite expensive and bulky. [10] used 
+microcontroller (PIC16F877), which in turn is a soft real time 
+system. It is said that “A hard real time system should always 
+respond to an event within the deadline or else the system 
+fails and endangers human lives but in soft real time system,
+
+[Page 3 / 5 | chars: 3281]
+--------------------------------------------------------------------------------
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+32 
+failing to meet the deadline produces false output and does 
+endanger the human lives.” 
+3. DESIGN ANALYSIS 
+3.1 Circuit Diagram 
+The schematic diagram in Figures 3a and 3b diagrammatically 
+depicts the gas detection system (i.e. from the power stage, 
+detection and alarm stage).  
+The amount of supplied power into the circuit is dependent on 
+the combined power usage on each component in the circuit. 
+From the right-most part of Figure 3 is written 12V, 300mA 
+i.e. the calculated average power that was sufficient to power 
+the whole circuit. And this power was generated from an AC-
+DC adapter which can step down, rectify and stabilize 
+outputs. 
+The adapter gets connected to the circuit board via a polarized 
+adapter jack port which is not fixed on the board but screwed 
+to the casing that houses the whole circuit. From the supplied 
+12V, 300mA, is connected the U1, 78L05 a three (3) pin 
+voltage regulator which is supplied with any DC < 35V and 
+will always give the DC output of 5V. 
+This DC output of 5V is where other components tap from. 
+First, is the gas sensor (MQ-9), then the 555Timer, and most 
+importantly, the alarm systems (the four (4) red led and 
+buzzer) and other components as the resistors and capacitors. 
+ 
+Figure 3a: Circuit diagram for the gas detector with 
+audible alarm system with ISIS Professional 
+ 
+Figure 3b: Close Circuit diagram for the gas detector with 
+audible alarm system. 
+ 
+3.2 Principle of operation 
+The gas detector alarm system is designed with the intention 
+to ensure that the event of gas is intelligently detected, 
+promptly notified and interactively managed. It is built around 
+a timer to accept input from the gas sensor, MQ-9, and 
+activate a buzzer and set of led that alerts in the event of gas. 
+The sensor used is the MQ-9 and from the datasheet, it 
+specializes in gas detection equipment for carbon monoxide 
+and CH4, LPG family and any other relevant industry or car 
+assemblage. 
+3.3 Sensor 
+For detecting the event of gas which is associated with fire is 
+monitored using a gas sensor.  
+It advantage is that it has; 
+ 
+Good sensitivity to CO/Combustible gas  
+ 
+High sensitivity to Methane, Propane and CO  
+ 
+Long life and low cost  
+ 
+Simple drive circuit 
+The  enveloped  MQ-9  has  6  pins, 4  of  which  are  used  to 
+fetch  signals, and  other  2  for providing heating current. The 
+sensor works with voltages between 5V and 12V AC or DC. 
+A 5V supply voltage was used for this design. Once powered, 
+the output of the sensor is normally HIGH but goes LOW 
+when gas is sensed.  
+ 
+ 
+ 
+Figure 3c:The MQ-9 gas sensor. 
+4. IMPLEMENTATION AND TESTING 
+4.1 Construction 
+The physical realization of the project is very vital. This is 
+where the fantasy of the whole idea meets reality. Here the 
+paper work is transformed into a finished hardware.  
+Notables on the Design; 
+1. 
+Set of pore holes for proper ventilation and proper 
+communication between the circuit and the external 
+environment. 
+2. 
+When the circuit is ON, a green led comes ON, and 
+red when gas is sensed. 
+3. 
+ A protruded sensor for proper contact in detecting 
+gas. 
+4. 
+The packaged container fit the size of the circuit
+
+[Page 4 / 5 | chars: 1052]
+--------------------------------------------------------------------------------
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+33 
+After carrying out all the paper design and analysis, the idea 
+was implemented, constructed and tested to ensure its 
+working ability. 
+4.2 Implementation 
+The implementation of the principles on bread board was 
+successful and it met the desired design aim with each stage 
+performing as anticipated. 
+ 
+Figure 4a: Solder-less Arrangement 
+ 
+Figure 4b: Powering and Troubleshooting on the Solder-
+less Board 
+ 
+Figure 4c: A components layout on printed circuit board. 
+4.3 Casing and Boxing. 
+The third phase is the boxing done in a plastic casing. The 
+casing material being plastic was designed with special 
+perforation and vents and also well labelled to give ecstatic 
+value. 
+ 
+Figure 4d:Circuit Boxing 
+ 
+Figure 4e: Circuit Casing 
+4.4 Testing 
+The testing was done in stages according to the block 
+representation on the breadboard, before soldering of circuit 
+commenced on printed circuit board.  
+ 
+Figure 4f: The PCB layout of the circuit
+
+[Page 5 / 5 | chars: 3532]
+--------------------------------------------------------------------------------
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+34 
+5. CONCLUSIONAND 
+RECOMMENDATION 
+5.1 Summary of Work. 
+From the achievement of this research, the following can be 
+deduced. 
+(i) The design will find great use in an environment 
+where someone is, or people are deaf and dumb as 
+the combination of the red LEDs glow with intense 
+danger signs. 
+(ii) In the case of blind occupants, the buzzer alert will 
+offer a means of informing the former of an 
+impending danger. 
+5.2 Conclusion 
+The gas detector system implemented met certain favourable 
+conditions such as low cost, vast application, design economy, 
+availability of components (locally sourced) and research 
+materials, efficiency, compatibility, portability and also 
+durability. The performance of the project after test, met 
+design specifications. However, the general operation of the 
+system and performance is dependent on the user who is 
+prone to human error such as entering wrong timing. The 
+construction was done in such a way that it makes 
+maintenance and repairs an easy task and affordable for the 
+user should there be any system breakdown.   
+5.3 Recommendation.  
+Future work can include an integration of other means of 
+sending information to relevant, official authorities like the 
+Fire Service Operators.  
+6. REFERENCES 
+[1] A Practical Guide to Fire Alarm Systems 2011 Third 
+Edition Central Station Alarm Association 8150 
+Leesburg Pike Suite 700 Vienna, VA 22182. 
+[2] A.I.C.E (1999): “American Institute of Chemical 
+Engineers”. 95(7): 137. 
+[3] Bernard Kleane and Russell Sander (2007): “Structural 
+Firefighting”, Strategy and Tactics: 1st edition Jones & 
+Bartlett Learning. 
+[4] Chen P. and Jiang X. (2008) Design and Implementation 
+of Remote Monitoring System Based on GSM. 
+Proceedings of IEEE conference on Computational 
+Intelligence and Industrial Application, 2008. PACIIA 
+'08. Pacific-Asia Workshop on 1:678-681. 
+[5] FULLWIKIPEDIA (2014) [Online] Available from: 
+http://www.thefullwiki.org/Microcontroller 
+[6] Guylène Proulx 2000. Why Building Occupants Ignore 
+Fire Alarms. Construction Technology Update No. 42 © 
+National Research Council of Canada. 
+[7] Heath, Steve 2003. Embedded systems design. EDN 
+series for design engineers (2 ed.). Newnes. pp. 11–
+12. ISBN 9780750655460. 
+[8] Mehta V.K (2003): “Principles of Electronics”. 
+.Published By S.Chand & Company Ltd. 
+[9] Puran G., Bhausaheb S., and Sagar S. (2014) Review on 
+Gas Leak Detection Techniques. International Journal of 
+scientific Engineering and Technology Research. 3(15): 
+3204-3207.  
+[10] Ramya V. and Palaniappan B. (2012) Embedded system 
+for Hazardous gas detection and alerting. International 
+Journal of Distributed and parallel systems (IJDPA), 
+3:287-300 
+[11] Song L. and Xiong H. (2011) Advances in Computer 
+Science, Environment, Ecoinformatics and Education”, 
+Part II: International Conference CSEE: 331. 
+[12] Soundarya T., Anchitaalagammai J.V, Deepa P., and 
+Karthick Kumar S.S. (2014) C-leakage: Cylinder LPG 
+Gas leakage Detection for home safety. IOSR Journal of 
+Electronics and Communication (IOSR-JECE). 9(1):53-
+58 
+[13] WIKIPEDIA 
+(2014) 
+[Online] 
+Available 
+from: 
+http://en.wikipedia.org/wiki/Microcontroller 
+[14] WIKIPEDIA 
+(2014) 
+[Online] 
+Available 
+from: 
+http://en.wikipedia.org/wiki/Security 
+[15] Xie Z. Tan Q. (2006) A Mini Multi-Gas Detection 
+System Based on Infrared Principle, International Journal 
+Mill waves. Pp. 1639-1649. 
+ 
+ 
+IJCATM : www.ijcaonline.org
+

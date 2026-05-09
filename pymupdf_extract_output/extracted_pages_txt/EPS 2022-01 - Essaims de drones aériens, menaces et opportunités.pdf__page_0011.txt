@@ -1,0 +1,58 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 11 / 136
+
+================================================================================
+
+11 
+L’ESSAIM, UN SYSTEME MULTI-AGENTS SUR-ADDITIF 
+L’essaim de drones aérien, objet de cette étude, y est défini comme un système aérien multi-agents. 
+Lorsqu’il ne suit pas un script préétabli ou n’est pas la résultante de multiples vecteurs téléopérés par 
+autant de pilotes, on parlera d’autonomie collaborative pour en caractériser le fonctionnement. 
+La finalité d’une mise en œuvre en essaim est d’être sur-additive, c’est-à-dire de dépasser largement 
+dans ses effets ou ses bénéfices les gains résultant de la seule juxtaposition1. Ainsi, le phénomène de 
+saturation est un exemple simple de sur-additivité, résultant de la seule colocalisation du nombre. Cette 
+sur-additivité s’accroît lorsque des tâches différentes et complémentaires des agents sont accomplies 
+simultanément et en coordination. Elle sort renforcée lorsque la résilience de l’ensemble s’enrichit de 
+l’aptitude à compenser instantanément les pertes. Elle va plus loin en réaffectant de manière dynamique 
+les tâches prioritaires. L’enjeu d’un essaim est d’être franchement sur-additif et de le rester. Revers de 
+la médaille, son intégration mal maîtrisée à un dispositif de haut niveau peut en dégrader la performance 
+et rendre l’ensemble sous-additif : c’est le défi posé aux pays les plus avancés et le motif de l’attention 
+portée à la collaboration homme/machines (« man-unmanned teaming » en anglais). A titre d’exemple, 
+le savoir-faire démontré par l’OTAN en matière d’opérations aériennes illustre la sur-additivité résultant 
+de l’emploi coordonné des moyens, quand les opérations aériennes russes en Ukraine manifestent la 
+difficulté à exprimer une sur-additivité à partir d’une simple juxtaposition de moyens, pourtant 
+performants. 
+Une autre motivation pour l’adoption de fonctionnements en essaim est de retourner le paradigme de 
+la première génération de drones : passer des nombreuses personnes nécessaires à la mise en œuvre 
+d’un seul RPAS2 à un unique superviseur pour un essaim de drones à l’efficacité accrue. Beaucoup y 
+voient une solution à la pénurie de militaires ainsi qu’une piste de réduction de coût3. C’est aussi cela 
+la sur-additivité de l’essaim. 
+Une partie de ce qu’on appelle « l’intelligence artificielle » est au cœur du fonctionnement en autonomie 
+collaborative et conditionne la sur-additivité de l’essaim qui y a recours. Par facilité, nous adopterons le 
+terme d’essaim « intelligent » pour qualifier ce type de fonctionnement, tandis que les essaims qui 
+juxtaposent des agents à travers un script préétabli seront qualifiés de « scriptés » et ceux ayant recours 
+à la coordination humaine de multiples vecteurs pilotés à distance seront appelés « téléopérés ». Le 
+terme humanisant « intelligent » ne doit pas induire en erreur et il n’est pas inutile de rappeler que les 
+algorithmes auxquels il se réfère interviennent au niveau des procédés, n’expriment pas de volonté 
+propre, n’ont pas d’intuition et ne font preuve d’aucune vertu guerrière. Tout au plus optent-ils entre 
+diverses représentations symboliques dans un champ des possibles limité, au regard des données qui 
+leur sont accessibles. Plus que jamais, le vieil adage trivial des informaticiens « bullshit in : bullshit out » 
+s’applique, et l’essaim ne peut se prémunir des biais cognitifs introduits lors de sa mise en œuvre. 
+On comprend dès lors que, pour envisager des modes d’action élaborés, l’acceptabilité et la 
+performance d’un système multi-agents en autonomie collaborative résultent d’un niveau de délégation 
+maîtrisé et s’appuient sur une représentation partagée du réel. 
+On entrevoit aussi que, pour le commandement, la transparence dans l’action d’un essaim autonome 
+est illusoire ; la pratique démontre aussi que toute intervention humaine dans les modalités 
+d’accomplissement d’une tâche en sous-performe le résultat : c’est sans appel. La réussite de la 
+collaboration homme/machine se concentre donc sur la conception de l’essaim, la préparation de sa 
+tâche et le dépouillement en boucle courte, une fois son action accomplie. 
+En corollaire, pour intégrer l’essaim « intelligent » à une action offensive, la transition de la notion de 
+ 
+1 En 2018, une étude de l’US Army considérait qu’un fonctionnement en essaim offensif pouvait 
+accroître la létalité de 50% et réduire les pertes d’autant (“Swarm Weapons: Demonstrating a Swarm 
+Intelligent Algorithm for Parallel Attack”, School of Advanced Military Studies US Army Command 
+and General Staff College Fort Leavenworth, Kansas, Maj (US Air Force) Sean Williams). 
+2 Remotely Piloted Aircraft System. 
+3 C’est une des affirmations de Peter W. Singer, stratège au think tank New America et qui fait 
+autorité en matière de guerre des drones.

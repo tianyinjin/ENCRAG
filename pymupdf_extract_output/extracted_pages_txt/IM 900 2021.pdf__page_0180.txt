@@ -1,0 +1,56 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 180 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES 
+DE DROIT PRIVE 
+6.10 
+
+174 
+6.10: SECURITE DU CABLAGE ET CIRCUITS APPROUVES 
+Référence :  
+IGI 1300 – 6.4.1 
+Point clé: 
+Sous réserve de conditions techniques et d’environnement, les circuits approuvés 
+permettent de faire circuler de façon permanente et en clair des informations 
+classifiées tout en assurant leur protection. 
+ 
+L’installation du câblage d’un réseau transportant des informations classifiées respecte 
+les exigences de la réglementation relative à la protection contre les signaux parasites 
+compromettants163. 
+Le câblage véhiculant en clair des informations classifiées est confiné à l’intérieur de 
+l’environnement de sécurité local et, à minima, selon les dispositions prévues par le titre 
+5 de la présente instruction. Il permet de constituer des réseaux physiquement dissociés 
+et autorise le contrôle de l’infrastructure de câblage. 
+Pour un système d’information homologué au niveau Secret, dans le cas où l’autorité 
+d’homologation prend la responsabilité d’utiliser des circuits approuvés164 entre 
+différents environnements de sécurité locaux implantés au sein de la même emprise 
+physique, en remplacement de la mise en œuvre de moyens de chiffrement agréés, une 
+cartographie précise du câblage est détenue par l’officier de sécurité des systèmes 
+d’information et l’officier de sécurité. Le câblage de chaque circuit approuvé doit 
+pouvoir être contrôlé. Les locaux, volumes ou cheminements doivent être protégés soit 
+physiquement, soit par un système d’alarme, soit par un dispositif permettant de vérifier 
+l’intégrité du circuit approuvé comme de la réflectométrie. En complément de ces 
+dispositions, les informations Spécial France ne peuvent circuler sans chiffrement que 
+dans le cas où le circuit approuvé est sous maîtrise et utilisation nationale. Des 
+procédures spécifiques d’exploitation de la sécurité sont établies (contrôles d’intégrité 
+du câblage, etc.). Il est de la responsabilité de l’autorité qualifiée d’inspecter 
+régulièrement les moyens de protection physique, d’assurer la mise en œuvre des 
+systèmes d’alarme, de contrôler l’intégrité de l’infrastructure de câblage et de s’assurer 
+que les interventions soient effectuées par du personnel habilité (ou accompagné par 
+des agents habilités). L’utilisation d’un circuit approuvé doit faire l’objet de l’accord de 
+l’autorité contractante. Les éléments relatifs au circuit approuvé (cartographie, mesures 
+de sécurité, procédures d’exploitation, …) sont transmis à l’autorité contractante sur 
+simple demande.  
+
+163 Directive n° 495/ANSSI/DR du 20 novembre 2013 de zonage TEMPEST – protection contre les signaux 
+parasites compromettantset directive n° 495/SGDN/TTS/SSI du 20 novembre 2013 relative à l’installation 
+des sites et systèmes d’information pour la protection contre les signaux parasitaires compromettants. 
+164 Un circuit approuvé est un circuit qui fait l’objet de mesures spécifiques de protection physique et visuelle 
+afin de permettre son emploi pour la transmission d’informations classifiées de défense sans protection 
+par des moyens de chiffrement agréés.

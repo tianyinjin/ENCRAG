@@ -1,0 +1,32 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 91 / 108
+
+================================================================================
+
+91
+POLE D'EXCELLENCE CYBER
+Choisissez l’emplacement (par exemple, sur le bureau, dans un dossier particulier ou 
+sur une clé USB), nommez le fichier, et enregistrer votre choix 6 . Enfin, cliquez sur le 
+bouton Suivant 7  :
+IMPORTANT : Notez que VeraCrypt ne chiffre pas les fichiers existants. Si à cette 
+étape vous choisissez un fichier existant, il sera écrasé et remplacé par le container 
+créé. Vous pourrez chiffrer vos fichiers existants en les déplaçant vers le container 
+VeraCrypt que vous créez maintenant.
+À l’étape suivante, vous avez la 
+possibilité de modifier les options 
+de chiffrements, vous pouvez aussi 
+laisser les valeurs par défaut et 
+cliquer sur Suivant 8  :
+Maintenant, définissez la taille du volume 9 , puis un mot de passe robuste qui 
+permettra de le déchiffrer 10
+10 . Sous le champ du mot de passe, vous avez la possibilité 
+d’activer une option de sécurité supplémentaire « Utiliser fichiers clés ». Cette option 
+est facultative et vous permet de ne pouvoir monter le volume (c’est-à-dire, le rendre 
+disponible) qu’en fournissant un certain fichier, appelé un fichier-clé.
+8
+9
+6
+10
+10
+7

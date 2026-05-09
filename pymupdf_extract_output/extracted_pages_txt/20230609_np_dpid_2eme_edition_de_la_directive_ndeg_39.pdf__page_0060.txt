@@ -1,0 +1,88 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 60 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 60 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+RSO29 
+TECH 
+Constituer une zone de sécurité* contenant le réseau sans-fil.  
+O
+ 
+ 
+ 
+Les communications sans fil devraient 
+être cloisonnées au maximum en isolant 
+les périphériques sans fil dans un 
+réseau physique ou logique séparé. 
+RSO30 
+TECH 
+Les points d’accès sans fil devraient mettre en place les mécanismes suivants :  
+- l’authentification du point d’accès et du dispositif qui se connecte à l’infrastructure 
+; 
+- les fonctionnalités de contrôle d’accès réseau (ex : EAP) ; 
+ 
+- la journalisation des connexions. 
+ 
+R 
+O 
+O 
+ 
+RSO31 
+ORG 
+Lorsque les événements de sécurité ne sont pas supervisés par un dispositif 
+centralisé, examiner régulièrement les événements générés par les équipements 
+sans fil. 
+ 
+R 
+O 
+O 
+ 
+Maîtriser les équipements 
+EXP1 
+TECH 
+Durcir la configuration des équipements en désactivant ou supprimant :  
+-  les comptes par défaut ou non utilisés ; 
+ 
+-  les ports physiques inutilisés (ports de maintenance inclus) ; 
+ 
+-  les supports amovibles, s’ils ne sont pas utilisés ; 
+ 
+-  les services non indispensables (service Web par exemple) ; 
+ 
+-  les logiciels non indispensables. 
+ 
+R 
+O 
+O 
+ 
+EXP2 
+TECH 
+Restreindre la connexion d’équipement en désactivant ou bloquant les ports 
+physiques (ports USB, port maintenance) lorsque leur utilisation n’est pas 
+nécessaire. 
+ 
+R 
+O 
+O 
+Mesures possibles :  
+Par exemple, on pourrait envisager les 
+mesures suivantes :  
+- blocage des ports USB à l’aide de 
+mécanismes de sécurité physiques ou 
+logiques, comme les verrous USB 
+physiques (avec clés) ou par un logiciel
+- de 
+sécurité 
+capable 
+de 
+bloquer 
+l’utilisation de clés USB et autres 
+périphériques ;

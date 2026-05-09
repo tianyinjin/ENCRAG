@@ -1,0 +1,61 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 12 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 12 | 79 
+Objectifs de la sécurité numérique d’un système industriel 
+3.4. Systèmes industriels, cibles ou vecteurs de risques 
+Les systèmes industriels se sont rapprochés tardivement mais progressivement des standards 
+du monde numérique et notamment du protocole IP11. Des systèmes hétérogènes ont été ainsi 
+interconnectés dans un souci majeur de productivité, tout en cherchant à préserver la sûreté de 
+fonctionnement* mais sans prise en compte systématique de la sécurité numérique. Les 
+interconnexions avec des réseaux non maîtrisés, comme Internet, la multiplication des 
+applications numériques et l’usage croissant des technologies de communication dans les 
+équipements font croître la numérisation des systèmes industriels et leur capacité de 
+communication. Les dernières technologies (informatique en nuage, Internet des objets 
+connectés (IoT*), robotique, SmartGrid, …) contribuent également à cette tendance. 
+La numérisation des systèmes industriels les rend ainsi particulièrement vulnérables aux 
+incidents en matière numérique, notamment aux attaques informatiques. L’intrusion dans un 
+système de vidéosurveillance, l’infection virale dans un système de production ou encore le 
+piratage d’une chaîne de production par un objet connecté à l’Internet sont désormais des modes 
+d’actions d’attaques courantes. 
+Or par leur rôle, les systèmes industriels constituent une cible privilégiée pour les attaquants 
+informatiques. Leurs actions peuvent en effet avoir un impact direct et conséquent sur les 
+missions du ministère, voire porter atteinte à l’intégrité des personnes et des biens.  
+Pourtant, les systèmes industriels ne sont guère reconnus comme des systèmes d’information à 
+part entière, ce qui explique une moindre vigilance sur leur niveau de sécurité et sur les risques 
+qui pèsent sur eux. 
+Pour autant, les systèmes industriels ne peuvent être considérés comme des systèmes 
+numériques classiques. Ils demeurent spécifiques de par leur histoire, leur conception, et leur 
+fonctionnement. Pour mettre en place des mesures efficaces, il est donc nécessaire de prendre 
+en compte leurs spécificités, leurs contraintes et leurs exigences particulières, parmi lesquelles : 
+- 
+une difficulté à appliquer les mesures classiques de sécurité (antivirus, correctifs, …) ; 
+- 
+des vulnérabilités techniques spécifiques liées aux composants et protocoles employés ;  
+- 
+une architecture peu sujette aux modifications dans le temps ; 
+- 
+une nécessité de fonctionnement en continu, avec seulement des arrêts planifiés 
+(maintenance, …) ; 
+- 
+une nécessité de durée (très courte) de traitement déterminée et non sujette aux 
+interférences pour certains systèmes fonctionnant en temps réel* ; 
+- 
+une durée de vie pouvant –être conséquente (supérieure à 20 ans et parfois même au-
+delà de 40 ans) ; 
+- 
+un besoin croissant d’interconnexions avec d’autres systèmes, cette interdépendance 
+augmentant le risque mutuel sur l’ensemble des systèmes ; 
+- 
+la nécessité fréquente, parfois contractuelle, d’une interconnexion avec Internet pour 
+garantir la maintenance du système. 
+La démarche d’homologation doit identifier et prendre en compte les différents impératifs et 
+contraintes qui s’imposent au système industriel afin de mettre en place des mesures répondant 
+aux justes besoins. 
+                                               
+11 IP : Internet Protocol

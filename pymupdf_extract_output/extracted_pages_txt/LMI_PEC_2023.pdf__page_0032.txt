@@ -1,0 +1,68 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 32 / 68
+
+================================================================================
+
+Pôle d’excellence cyber
+32
+Le terme de « bot », dérivé du mot « robot », désigne 
+les entités partiellement ou entièrement automatisées 
+qui fonctionnent sur des plateformes en ligne. Cette 
+définition générale recouvre une très grande diversité 
+de technologies, qui ont été conçues différemment 
+(par exemple, les bots peuvent être entièrement ou 
+partiellement automatisés), fonctionnent différemment 
+(certains recueillent de la donnée, d’autres interagissent 
+avec les utilisateurs) et servent différents usages (privé, 
+commercial ou politique). On inclut sous le terme de bot 
+aussi bien le chabot que le gaming bot, les web robots 
+(crawlers et scrapers), les spam bots, les bots sociaux 
+(social bots), les cyborgs, les sock puppets et les trolls(1). 
+Les bots sociaux, qui ont vocation à imiter des utilisateurs 
+authentiques afin de manipuler l’opinion publique sur les 
+plateformes et les réseaux, sont l’un des outils mobilisés 
+par les acteurs politiques dans le cadre d’opérations 
+d’influence en ligne. Le cas le plus connu est leur utilisation 
+par la Russie en 2016, dans le cadre d’une campagne 
+d’influence sur les élections américaines. Poussés par les 
+enjeux démocratiques sous-jacents, tant les chercheurs 
+en sciences sociales qu’en science de l’informatique 
+se sont intéressés aux méthodes de détection des 
+bots sociaux. Twitter, la plateforme sur laquelle ce 
+phénomène est le plus flagrant, concentre les efforts 
+de recherche. Cependant, en fonction des acteurs, des 
+campagnes et des objectifs visés, le comportement des 
+bots sociaux varie. Aussi, des stratégies diverses, reposant 
+sur différents types de critères, ont été élaborées.
+Les approches de détection des bots sociaux
+Les chercheurs en sciences sociales et en OSINT 
+spécialisés dans la manipulation de l’information 
+s’appuient généralement sur un ou plusieurs critères 
+pour identifier les bots. Certains catégorisent comme 
+des bots les utilisateurs qui produisent plus de 50 
+publications par jour(2). D’autres s’appuient sur la 
+similarité du contenu des publications et des noms de 
+comptes pour affirmer qu’un groupe de comptes est 
+constitué de bots(3). Le caractère inauthentique des 
+photos de profils des comptes (copiées ou générées 
+par des GAN – generative adversarial networks) est 
+également mobilisé. Enfin, les plateformes spécialisées 
+dans la détection de bots, comme Botometer, sont 
+employées pour tester le « score de bot » des comptes 
+identifiés comme suspicieux. Ces approches souffrent 
+néanmoins d’importantes limites  : lorsque les analyses 
+sont réalisées manuellement, elles gagnent en fiabilité 
+mais perdent en exhaustivité ; inversement, lorsqu’un 
+critère unique est mobilisé, elles gagnent en rapidité mais 
+deviennent insensibles à la diversité des bots sociaux.
+Du côté des chercheurs en science de l’informatique, 
+Alors que les campagnes de manipulation de l’information en ligne se multiplient, 
+la détection des bots sociaux, qui jouent un rôle central au sein de ces campagnes, 
+devient un enjeu d’une importance croissante.
+Les Bots sociaux
+et la manipulation de l’information
+Claire Mabille
+Analyste chez Sahar
+Étudiante en Master 2 
+Cyber-stratégie et terrain numérique

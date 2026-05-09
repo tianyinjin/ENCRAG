@@ -1,0 +1,53 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 4 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+implementations. A common interface helps to easily integrate new technologies with minor or no 
+modifications to the existing systems, and to expand existing systems with new sensors or capabilities. 
+1.2 
+NATO Standardization Agreement (STANAG) 
+Shortly after the establishment of NATO, it was recognized that the co-ordinated development of policies, 
+procedures and equipment of the member nations held great potential for enhancing the military 
+effectiveness and efficiency of the fledgling Alliance. As a result, the Military Agency for Standardization 
+(MAS) was established in London in January 1951 for the purpose of fostering the standardization of 
+operational and administrative practices and war material [8].  
+In 1971 the MAS moved to NATO Headquarters in Brussels, Belgium, where, following the 1998-2000 
+review of the NATO Standardization Process, it was combined with the Office of NATO Standardization 
+(which addressed broader standardization issues such as identifying overall Alliance standardization goals 
+and co-ordination between operational and material activities). The Charter of the resultant NATO 
+Standardization Agency (NSA), approved in August 2001, gave the NSA expanded responsibilities for the 
+co-ordination of standardization activities within NATO [8].  
+In July 2014, as a result of the NATO Agencies Reform, the NSA became without change in its mission the 
+NATO Standardization Office (NSO). It is an integrated NATO Headquarters staff element, reporting to the 
+Military Committee and the Committee for Standardization [8]. 
+The STANAG (Standardisation Agreement) standards are published in English and French by NATO to 
+provide common military or technical procedures for NATO members. They define processes, procedures, 
+terms, and conditions for common procedures or equipment between the member countries of the alliance. 
+STANAGs also form the basis for technical interoperability between a wide variety of communication and 
+information systems (CIS). Some are publicly available in NATO's online library [8]. 
+2.0 STANAG 4586 
+In 1998, a NATO Specialist Team comprising members of government and industry (including CDL 
+Systems) began work on NATO Standardization Agreement 4586 (STANAG 4586), a document conceived 
+to standardize UCS interfaces to help enable UAV systems interoperability. STANAG 4586 Edition 1 was 
+completed in 2003 and ratified by the member countries by 2004, Edition 2 was promulgated in 2007 and 
+Edition 3 was promulgated in 2012 [4]. 
+STANAG 4586 is divided into two annexes: the first annex provides a glossary to support the second annex, 
+the second annex provides an overview of the communication architecture, which is supported by three 
+appendices: appendix B1 discusses the data link interface, appendix B2 discusses the command and 
+control interface (more specifically B2 covers the military architecture that connects the ground control 
+station with the military command hierarchy), appendix B3 discusses the Human and Computer Interfaces 
+(HCI) [4].  
+Current or “legacy” UAV´s have been designed and procured nationally and contain system elements that 
+are generally unique and system specific. They do not have standard interfaces between the system elements. 
+This results in a variety of non-interoperable “stovepipe” systems. Although commonality of hardware and 
+software would be a solution to achieve interoperability and may be desirable from an economic standpoint, 
+commonality is not mandatory [4]. 
+The objective of STANAG 4586 is to specify the interfaces that shall be implemented in order to achieve the 
+required Level of Interoperability (LOI) according to the defined concept of operations (CONOPS). This will 
+3 - 4 
+STO-EN-SCI-271

@@ -1,0 +1,58 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 20 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 20 | 79 
+- 
+les risques d’intrusion et de corruption du système industriel en provenance d’une source de 
+menace intentionnelle externe ou interne ; 
+- 
+la propagation d’une infection virale non ciblée ; 
+- 
+la fuite ou la divulgation d’informations sensibles. 
+Les risques peuvent survenir lors de la réalisation ou de l’utilisation du SI mais surtout lors des 
+opérations de maintenance.  
+L’analyse de risques portant sur un système industriel ne peut être générique en raison de la 
+multiplicité et de l’hétérogénéité des systèmes industriels. Elle s’appuie notamment sur un socle 
+de sécurité et un référentiel (impact, menace, vraisemblance, etc.) adaptés à la nature du 
+système, aux activités auxquelles il contribue et à sa catégorie d’appartenance. 
+Les impacts sur un système industriel ne peuvent être identifiés, définis et évalués sans l’avis de 
+l’autorité d’emploi ou bénéficiaire, voire d’interlocuteurs représentatifs du secteur d’activité. Les 
+RSSI des systèmes d’information qui dépendent de systèmes industriels prennent en compte 
+dans leur démarche les risques induits par une attaque informatique sur ces systèmes industriels.  
+L’autorité d’emploi ou bénéficiaire du système industriel est nécessairement impliquée dans la 
+gestion de risques portant sur le système industriel. Si elle n’est pas l’autorité d’homologation 
+(AH) du SI, les décisions portant sur les objectifs de sécurité et les risques nécessitent sa 
+validation.  
+Le traitement des risques ne peut être réalisé sans le concours d’interlocuteurs qualifiés 
+(ingénierie sûreté de fonctionnement*, responsable sûreté physique, etc.) afin de s’assurer de sa 
+pertinence avec des domaines connexes (sûreté de fonctionnement*, sûreté des bâtiments, etc.) 
+et d’éviter la redondance des mesures, voire leurs contradictions.  
+6.4. Socle de sécurité 
+Le socle de sécurité d’un système industriel comporte l’ensemble des exigences de sécurité qu’il 
+convient de respecter. Il est associé de manière globale à tout le système industriel ou par zones 
+de sécurité selon leur niveau de classe*. La liste des règles telles que définies en annexe 5 
+constitue le socle de sécurité générique de tout système industriel. 
+RO 3. 
+Il est OBLIGATOIRE de définir et d’utiliser un socle de sécurité, tel que celui défini 
+en annexe 5 (ou équivalent), en prenant en compte le niveau de classe* des zones de 
+sécurité qui le constituent.  
+6.5. Spécification du système industriel16 
+La sécurité numérique est prise en compte dès la spécification du besoin. Elle est établie à partir : 
+- 
+de la réglementation applicable, à partir de laquelle est constitué le socle de sécurité ; 
+- 
+des résultats d’une analyse de risques, même succincte portant sur un périmètre précis et 
+des contextes d’emploi ; 
+- 
+des exigences de sécurité spécifiques au métier ; 
+- 
+des dispositifs de sécurité apportés par l’environnement ainsi que ses contraintes. 
+                                               
+16 Selon la nature du système industriel et du référentiel qui s’applique à son développement, la 
+spécification peut avoir lieu soit en phase de préparation soit en phase de réalisation. La directive 
+porte sur l’activité même de la spécification.

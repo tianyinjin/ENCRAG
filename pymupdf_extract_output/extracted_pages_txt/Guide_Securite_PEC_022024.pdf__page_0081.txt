@@ -1,0 +1,40 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 81 / 108
+
+================================================================================
+
+81
+POLE D'EXCELLENCE CYBER
+Afficher les extensions des fichiers
+L’absence d’extension peut tromper sur la véritable nature d’un fichier, par exemple, un 
+fichier image peut en réalité être un exécutable contenant un programme malveillant. 
+Il suffit pour cela de nommer un fichier image.jpg.exe : si l’extension .exe est masquée, 
+vous ne verrez que image.jpg en pensant qu’il s’agit juste d’une image1. Lorsque vous 
+allez l’ouvrir, c’est l’exécution du code malveillant que vous allez lancer.
+Afin d’activer l’affichage des 
+extensions des fichiers, vous avez 
+besoin d’utiliser la zone de recherche 
+Windows. Si votre zone de recherche 
+ne s’affiche pas correctement ou est 
+masquée2, cliquez avec le bouton 
+droit sur la barre des tâches, puis 
+sélectionnez Rechercher 
+1  et 
+Afficher la zone de recherche 2  : 
+Dans la zone de recherche Windows saisissez « options de l’explorateur de fichiers » 3 , 
+puis lancez l’outil trouvé 4 . Dans la fenêtre qui s’ouvre, choisissez l’onglet Affichage 5
+. En déroulant la liste, trouvez et décochez la case de l’option Masquer les extensions 
+des fichiers dont le type est connu 6 , puis cliquez sur le bouton OK 7  :
+1 https://www.commentcamarche.net/informatique/windows/185-afficher-les-extensions-et-
+les-fichiers-caches-sous-windows/
+2 https://support.microsoft.com/fr-fr/help/4028221/windows-10-locating-the-search-box-in-
+windows-10
+1
+2
+5
+6
+3
+4 
+4 
+7

@@ -1,0 +1,68 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 47 / 84
+
+================================================================================
+
+47
+Parallèlement, la mise en place d’un mécanisme de 
+validation neuro-symbolique est recommandée. Ce 
+système effectuera une vérification automatique des 
+résultats par des techniques d’IA symbolique tels que 
+des systèmes à base de règles ou des graphes de 
+connaissance. Il attribuera un score de fiabilité basé sur des 
+modèles alternatifs, et vérifiera la conformité aux normes 
+de sécurité pour éviter toute dérive du modèle principal.
+4.	 Maîtrise des modèles et amélioration continue 
+Un ou plusieurs grands modèles de langage (LLM) 
+pourront être utilisés selon les cas d’usages, sachant 
+que des modèles généralistes seront plus souples à 
+l’usage mais moins précis que des modèles spécialistes, 
+notamment pour la production de code ou d’architectures 
+techniques. On privilégiera des modèles souverains ou 
+open sources contrôlées pour limiter les dépendances à 
+des solutions propriétaires non maîtrisées. Leur précision 
+à l’usage pourra être améliorée par des techniques 
+d’affinement ou de renforcement. L’intégration d’un 
+mécanisme de récompense par feedback humain 
+permettra d’alimenter une boucle d’amélioration 
+continue. Toutefois, l’empoisonnement des données 
+d’affinage ou des récompenses sont des menaces internes 
+à surveiller. Des mécanismes de signature, de détection 
+et de correction des biais du modèle peuvent y remédier.
+ 
+5.	
+Supervision et gestion des incidents
+Une détection proactive et une réponse rapide aux 
+menaces sont essentielles. Les personnels du Centre 
+d’Opérations de Sécurité (SOC) doivent être formés 
+à reconnaître et traiter des attaques spécifiques à 
+l’IA, telles que l’empoisonnement, l’évasion, l’inversion 
+de modèle ou l’injection de prompt. Une analyse en 
+temps réel des journaux système et du comportement 
+des utilisateurs est recommandée afin d’identifier 
+toute anomalie, gérer centralement les incidents de 
+cyber-sécurité et mettre en place des contre-mesures 
+adaptées. Une veille systématique sur les menaces et 
+les vulnérabilités spécifiques à l’IA devra être assurée. 
+De plus, il conviendra de surveiller les évolutions 
+réglementaires et d’assurer une mise en conformité 
+continue de la plateforme avec les normes de sécurité.
+Conclusion
+L’intégration de l’IA générative dans l’ingénierie des 
+systèmes critiques est une avancée majeure qui 
+soulève des défis de sécurité, de souveraineté et 
+d’explicabilité. Le présent article propose une réponse 
+à ces enjeux à travers des préconisations : 1) Protection 
+de l’Infrastructure Matérielle, 2) Sécurisation des 
+interactions homme-machine, 3) Contrôle des sources 
+et vérification des sorties, 4) Maîtrise des modèles et 
+amélioration continue, 5) Supervision et gestion des 
+incidents. Une application des bonnes pratiques en 
+vigueur en matière de sécurité informatique traite déjà 
+une grande partie des risques identifiés. Néanmoins, 
+une compréhension des menaces et vulnérabilités 
+spécifiques à l’IA, et notamment à l’IA générative, est 
+nécessaire. Pour cela, nous orientons le lecteur vers 
+quelques solides références : ENISA[1], ANSSI[2] MITRE 
+ATLAS[3], NIST AI 600-1[4], OWASP[5], CWE AI WG[6].

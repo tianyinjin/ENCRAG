@@ -1,0 +1,188 @@
+Source file: pec-cadette-cyber.pdf
+Relative path: pec-cadette-cyber.pdf
+Page: 20 / 37
+
+================================================================================
+
+39
+38
+LES CADETTES DE LA CYBER
+CYBERSÉCURITÉ : UN DÉFI CITOYEN ET STRATÉGIQUE
+Une transformation accélérée… mais à 
+risque
+Depuis 2020, le télétravail s’est imposé comme un 
+mode 
+d’organisation 
+incontournable, 
+largement 
+amplifié par la pandémie de COVID-19. Si cette 
+pratique offre flexibilité et continuité des activités, 
+elle expose également les entreprises et les salariés à 
+des cybermenaces accrues. D’après une étude du site 
+Infogene, près de 20 % des organisations ont subi une 
+cyberattaque due au télétravail pendant la pandémie, 
+souvent via des rançongiciels, avec des conséquences 
+pouvant aller jusqu’à l’arrêt de l’activité. 48
+Travailler depuis chez soi signifie en effet quitter 
+l’environnement sécurisé du réseau de l’entreprise 
+pour se connecter via un réseau domestique, souvent 
+moins protégé. Cela multiplie les opportunités pour 
+les cybercriminels. Selon Cybermalveillance.gouv.fr, 
+la généralisation du télétravail nécessite « l’ouverture 
+vers l’extérieur du système d’information », ce qui 
+constitue un risque majeur en cas de rançongiciel ou 
+de vol de données.49 
+Des exemples concrets l’illustrent. Aux États-Unis, 
+le géant Target a été victime d’un vol massif de 
+données bancaires de clients après qu’un prestataire a 
+compromis l’accès à son réseau, entraînant des millions 
+de dollars de pertes et le départ de son PDG50. En France, 
+plusieurs hôpitaux ont dû reporter des opérations 
+à cause de rançongiciels bloquant totalement leurs 
+systèmes médicaux51, tandis que le logiciel Zoom, 
+massivement adopté pour la visioconférence, a vu 
+ses lacunes en chiffrement exposées au grand jour au 
+début de la pandémie.52 
+Des 
+cybermenaces 
+opportunistes 
+et 
+ciblées
+Les campagnes d’hameçonnage et particulièrement 
+celles ciblées ont explosé depuis 2020, exploitant la 
+peur du coronavirus pour inciter les télétravailleurs à 
+48 Infogene, « Cybersécurité et télétravail : quelles sont les bonnes pratiques ? » : https://www.infogene.fr/publications/cybersecurite-teletravail
+49 Cybermalveillance.gouv.fr, « La sécurisation du télétravail » : https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/securisation-du-
+teletravail
+50 New York Times, « Target C.E.O. Resigns After Data Breach », 2014
+51 Le Monde, « Rançongiciels : les hôpitaux français en première ligne », 2021
+52 The Verge, « Zoom says it will offer end-to-end encryption to all users », juin 2020
+53 Pinsent Masons, « Cybersécurité et télétravail : difficile cohabitation » : https://www.pinsentmasons.com/fr-fr/out-law/analyses/cybersecurite-et-teletravail
+54 RDP (Remote Desktop Protocol) : protocole développé par Microsoft permettant de prendre le contrôle d’un ordinateur à distance via une interface graphique. Il 
+facilite le télétravail mais, mal configuré, il peut devenir une porte d’entrée privilégiée pour les cyberattaques.
+55 VPN (Virtual Private Network) : un réseau privé virtuel est un tunnel sécurisé entre l’ordinateur de l’utilisateur et le réseau de l’entreprise. Il chiffre les données 
+qui transitent, empêche les interceptions sur des réseaux publics et permet d’accéder aux ressources internes comme si l’on était physiquement dans les locaux.
+56 CNIL, « Quels outils pour les visioconférences ? », avril 2020
+57 Cybermalveillance.gouv.fr, « La sécurisation du télétravail » : https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/securisation-du-
+teletravail
+cliquer sur des liens malveillants. Le cabinet d’avocat 
+Pinsent Masons relève que 39 % des cyberattaques 
+entraînent des perturbations prolongées de l’activité, 
+et 19 % des pertes directes de données ou d’argent.53
+Les cybercriminels adaptent aussi leurs techniques 
+aux nouveaux outils de collaboration à distance. Zoom, 
+par exemple, a été pointé du doigt pour des failles de 
+sécurité, permettant parfois une prise de contrôle du 
+micro ou de la webcam. Les attaques via le protocole 
+RDP54 (Remote Desktop Protocol) ou l’exploitation de 
+VPN55 mal configurés sont également fréquentes.56
+Protéger l’entreprise : les bonnes pratiques 
+incontournables
+Face à cette évolution des risques, les recommandations 
+des experts convergent. Cybermalveillance.gouv.fr 
+insiste sur la nécessité pour les entreprises de fournir 
+des équipements professionnels sécurisés plutôt que 
+de laisser les salariés utiliser leur matériel personnel, 
+difficile à contrôler. Il s’agit aussi de limiter et filtrer 
+les accès distants, en cloisonnant les systèmes 
+sensibles et en utilisant des pares-feux adaptés, tout 
+en imposant un VPN avec authentification forte pour 
+restreindre les accès aux seuls équipements autorisés. 
+La gestion des mots de passe demeure cruciale 
+: ils doivent rester longs, complexes et uniques, 
+accompagnés d’une double authentification quand 
+c’est possible. À cela s’ajoute l’importance de déployer 
+sans attendre les mises à jour pour corriger les failles, 
+de sauvegarder régulièrement les données sur des 
+solutions indépendantes pour contrer les rançongiciels, 
+ou encore d’installer des antivirus professionnels 
+différenciés selon qu’il s’agit de l’infrastructure ou des 
+terminaux. Enfin, la supervision des activités réseau 
+permet de détecter rapidement toute anomalie, 
+tandis que la sensibilisation des collaborateurs et un 
+soutien technique réactif restent le socle de la sécurité 
+numérique.57
+Infogene 
+une 
+ESN 
+experte 
+en 
+transformation 
+digitale, 
+va 
+plus 
+loin en conseillant de « profiler 
+les télétravailleurs », c’est-à-dire 
+d’adapter précisément les droits 
+d’accès 
+aux 
+besoins 
+effectifs 
+de chaque poste, afin de limiter 
+l’exposition inutile des données 
+sensibles et réduire d’autant la 
+surface d’attaque.58 
+Au-delà des mesures techniques, l’entreprise a 
+également un rôle déterminant dans la mise en place 
+d’une véritable culture de cybersécurité. Elle doit 
+définir une politique claire encadrant le télétravail 
+(chartes d’utilisation, règles d’accès aux données, plan 
+de réponse aux incidents) et veiller à ce que chaque 
+collaborateur en ait connaissance. La responsabilité ne 
+peut pas reposer uniquement sur les salariés : c’est à 
+l’organisation de fournir un cadre, des outils adaptés et 
+un accompagnement constant.
+Télétravailleurs : des réflexes simples mais 
+essentiels
+La cybersécurité au quotidien n’est pas qu’une 
+affaire de direction informatique. Les salariés en 
+télétravail doivent eux aussi adopter des pratiques 
+rigoureuses pour éviter que leur domicile ne devienne 
+la porte d’entrée des cybercriminels. Cela passe 
+par la sécurisation de leur box internet et du WiFi, 
+en changeant les mots de passe par défaut et en 
+utilisant le mode de protection le plus récent proposé 
+dans les réglages de la box (chiffrement WPA2 ou 
+WPA3), ainsi que par une stricte séparation entre 
+usages professionnels et personnels pour éviter toute 
+contamination croisée. Utiliser systématiquement 
+le VPN fourni par l’entreprise et éviter de se 
+connecter sur des WiFi publics non sécurisés réduit 
+58 Infogene, « Cybersécurité et télétravail : quelles sont les bonnes pratiques ? » : https://www.infogene.fr/publications/cybersecurite-teletravail
+considérablement les risques. Il est tout aussi essentiel 
+de mettre à jour antivirus et systèmes pour corriger les 
+failles exploitées par les attaquants, et de sauvegarder 
+régulièrement son travail sur des supports validés par 
+l’entreprise.
+Rester vigilant face aux e-mails suspects demeure une 
+règle de base, surtout lorsque le message cherche à 
+créer un sentiment d’urgence pour pousser à cliquer 
+trop vite. Enfin, protéger son écran et verrouiller la 
+session à chaque absence évite que des informations 
+confidentielles ne soient exposées, même dans le cadre 
+familial. Comme le rappelle Agiris, la cybersécurité 
+reste fragile quand « 62 % des salariés utilisent leur 
+ordinateur professionnel à des fins personnelles et 42 
+% ne mettent pas à jour régulièrement leurs systèmes 
+de sécurité », laissant la porte ouverte à des incidents 
+pourtant évitables.
+Une vigilance qui s’inscrit dans la durée
+Les données du rapport scientifique publié sur arXiv, 
+une archive ouverte de pré-publications et de post-
+publications, montrent que le passage massif au 
+télétravail pendant la pandémie a doublé le nombre 
+de violations de données observées dans l’étude (de 
+242 000 à plus de 400 000 personnes affectées). Si la 
+durée des attaques a diminué, traduisant une meilleure 
+détection, le délai de notification s’est allongé, preuve 
+que l’adaptation complète à ce nouveau contexte 
+prend encore du temps.
+Le télétravail continuera d’être une modalité forte du 
+monde professionnel. C’est pourquoi il est crucial que 
+chaque acteur - entreprise, manager, collaborateur 
+- fasse de la cybersécurité une routine du quotidien. 
+Les organisations doivent donner les moyens, les 
+salariés doivent appliquer les bonnes pratiques, et les 
+managers doivent créer un climat de confiance et de 
+vigilance partagée.
+Par Leina SI LAKHAL

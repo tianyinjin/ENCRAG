@@ -1,0 +1,81 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 34 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+34
+Standardisation et industrialisation 
+des tests de cyber résilience des IA
+Ces dernières années, la vitesse d’évolution et 
+d’adoption des technologies d’IA générative dépasse 
+largement la capacité des organisations à déployer 
+des protocoles de sécurité adaptés. Cela engendre une 
+augmentation significative des risques et des menaces. 
+Dans ce contexte, comment assurer la cyber-
+résilience des IA dans des domaines sensibles ? 
+Nous pensons que ce défi peut être relevé grâce à 
+une collaboration ouverte et une standardisation 
+rapide, soutenues par des plateformes numériques qui 
+accélèrent la pratique des checklists de tests de sécurité.
+L’histoire et l’importance des checklists
+Depuis l’Antiquité, les sociétés utilisent des checklists 
+pour standardiser des savoirs complexes, comme 
+en architecture ou en médecine. Au XXe siècle, leur 
+efficacité les a rendues indispensables dans des 
+secteurs clés de notre modernité tels que l’aviation, 
+la médecine, l’industrie, et l’exploration spatiale.
+Avec l’explosion de l’Internet au début du XXIe siècle, 
+la sécurité des applications web est devenue critique. 
+C’est à ce moment-là que la fondation OWASP a 
+révolutionné le domaine en mettant en place une 
+approche collaborative pour identifier les vulnérabilités, 
+prioriser les risques et produire des ressources open-
+source, comme le célèbre Top 10 OWASP. Par son action, 
+l’OWASP a amélioré la sécurité des systèmes, standardisé 
+les pratiques et influencé des normes internationales 
+(ISO, PCI DSS) tout en facilitant l’intégration de la sécurité 
+dès la conception des systèmes (Security by Design).
+Depuis 2023, OWASP a élargi ses travaux à l’intelligence 
+artificielle avec l’AI Security and Privacy Guide et, plus 
+récemment, la checklist OWASP Top 10 LLM (2025), qui 
+est devenue une référence pour atténuer les risques 
+des IA génératives. Cependant, ces standards généraux 
+doivent être adaptés à la variété des assets et des 
+contraintes des systèmes d’information qui les abritent, y 
+compris les plus sensibles, tout en créant les conditions de 
+l’industrialisation des tests tout au long de leur cycle de vie.
+Expérimentations récentes : une méthodologie 
+éprouvée
+En 2023 et 2024, deux initiatives ont émergé dans des 
+contextes variés afin de répondre à un même enjeu : 
+l’absence de tests de sécurité standardisés pour certains 
+assets critiques. La première initiative menée par le 
+Groupe ADP (Aéroport de Paris) et Yogosha visait à 
+industrialiser les tests de sécurité des équipements 
+de sécurité (scanners de personnes et d’équipements, 
+détecteurs d’explosifs, etc.) tandis que la seconde entre 
+le CNES et Yogosha avait pour objectif d’industrialiser 
+les tests de sécurité sur les systèmes spatiaux (stations 
+sols, systèmes spatiaux, systèmes de liaisons, etc).
+Une démarche structurée en plusieurs étapes a été 
+expérimentées dans les deux cas  :
+1.	
+Déploiement d’une plateforme digitale pour piloter 
+les tests offensifs, centraliser les vulnérabilités et 
+s’adapter aux contraintes d’hébergement (SecNum 
+Cloud, on-premise connecté ou déconnecté).
+2.	
+Collaboration interdisciplinaire : réunir des 
+experts internationaux et des membres 
+de l’organisation pour tester les systèmes 
+pendant plusieurs jours à distance ou sur site.
+3.	
+Analyse collaborative : partager les scénarios 
+Nicolas KALMANOVITZ
+Chief Operating Officer 
+Yogosha
+Christophe MARNAT
+SVP Sales Europe & Africa 
+Yogosha

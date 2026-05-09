@@ -1,0 +1,59 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 172 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE 
+DROIT PRIVE 
+6.7 
+
+166 
+6.7: EQUIPEMENTS MOBILES ET SUPPORTS AMOVIBLES 
+Références :  
+•
+IGI 1300 – 6.7 et 6.8 
+•
+Instruction interministérielle relative à la protection des systèmes d’information 
+sensibles n°901/SGDSN/ANSSI152. 
+•
+Guide ANSSI-PA-054 recommandations sur le nomadisme numérique 
+Points clés: 
+• Le chiffrement permet d’assurer la protection des informations traitées par des 
+équipements mobiles ou stockées sur des supports amovibles, particulièrement en 
+dehors des locaux protégés. Ce chiffrement doit être qualifié (standard ou 
+renforcé) ou agréé en fonction du niveau de protection des informations. 
+• Les équipements utilisés et leur configuration doivent être gérés logistiquement et 
+administrés par l’entité conformément aux procédures d’exploitation de la 
+sécurité définies lors de la démarche d’homologation. 
+ 
+1. Généralités 
+Le traitement d’informations sensibles, Diffusion Restreinte ou classifiées, en dehors des 
+locaux adaptés, nécessite la mise en place de mesures techniques et organisationnelles 
+afin de sécuriser l’accès aux données et aux matériels. Ces mesures visent à atteindre un 
+niveau de sécurité le plus proche possible du SI interne de l’entité. 
+L’exploitation d’informations Secret sur un poste mobile est conditionnée par l’existence 
+d’une zone permettant de respecter le besoin d’en connaître de l’information traitée. En 
+conséquence, elle est interdite dans un espace ouvert au public (aéroport, train, …). Les 
+périphériques (clavier, souris, …) sans fils et les protocoles et technologies de 
+communication sans fil susceptibles d’induire des signaux compromettants sont 
+interdits153. 
+Pour l’exploitation d’informations Secret sur un poste mobile en dehors des locaux de 
+l’entreprise prévus à cet effet, il est recommandé de privilégier le fonctionnement sur 
+batterie et non sur secteur. Par ailleurs, un éloignement d’un mètre des sources de 
+conduction (radiateurs, réseaux électriques, réseaux informatiques ou téléphonique, … 
+doit être respecté. 
+Pour mémoire, l’exploitation d’information Très Secret n’est possible qu’en zone 
+réservée. 
+ 
+2. Protection des informations contre la perte ou le vol 
+Les informations doivent être chiffrées avec un produit agréé154, tout en appliquant des 
+règles de sécurité particulières liées à la mobilité ou aux supports amovibles.  
+
+152 http://circulaires.legifrance.gouv.fr/index.php?action=afficherCirculaire&hit=1&retourAccueil=1&r=39217 
+153 Exception possible : cage de Faraday. 
+154 Utilisation de ACID, de Cryhod… jusqu’au niveau Diffusion Restreinteet stockage sur un support amovible 
+de type Globull par exemple pour le niveau Secret.

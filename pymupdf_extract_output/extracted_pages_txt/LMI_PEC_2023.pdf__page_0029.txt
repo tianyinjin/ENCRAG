@@ -1,0 +1,89 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 29 / 68
+
+================================================================================
+
+29
+Soulignons que tant que la 2G reste active sur les réseaux, 
+elle impose certains mécanismes moins sécurisés aux 
+téléphones utilisant la 2G. De même, le protocole Diameter, 
+toujours actif en 4G LTE et 5G NSA, peut ouvrir certaines 
+failles. Heureusement, des solutions existent pour se 
+protéger, tels que les pare-feux SS7 ou les infrastructures 
+PKI : il incombe aux opérateurs leur mise en place 
+ainsi qu’une configuration adéquate de leur réseau.
+Authentifier voire localiser l’usager
+Côté usager, grâce au chiffrement et aux clefs des cartes 
+SIM, les téléphones doivent s’authentifier avec le réseau 
+mobile, instaurant la confiance envers une information 
+provenant directement d’une personne du même 
+opérateur, comme lors d’un appel téléphonique. Depuis 
+la 3G, l’authentification est même réciproque, obligeant 
+le réseau de l’opérateur à prouver son identité auprès du 
+téléphone. La carte SIM, et dorénavant la eSIM intégrée 
+au hardware, reste la pierre angulaire de l’authentification 
+des usagers. Bien sûr, ce mécanisme ne permet pas de 
+certifier que la bonne personne utilise cet appareil en cas 
+de vol du téléphone ou de la carte SIM. Certaines attaques 
+comme le SIMjacking ou le SIMcloning existent, mais les 
+opérateurs occidentaux mènent des contrôles sur les 
+cartes SIM, sur les comportements frauduleux et sur les 
+adhésions. Cette sécurité est clairement cruciale pour le 
+partage d’information et les réseaux sociaux qui doivent 
+maintenir cette confiance dans l’origine des informations.
+Au-delà d’identifier une source, la localiser est également 
+très utile, pour accroître la confiance dans la source 
+ou déterminer l’origine du contenu. Les réseaux 
+mobiles peuvent jouer un rôle important dans cette 
+perspective en fournissant une preuve de localisation. 
+Même si celle-ci n’est pas accessible aux abonnés, les 
+autorités peuvent requérir des opérateurs les détails 
+de géolocalisation. A l’heure de « fake news », des 
+images et vidéos factices, et de l’altération des données 
+GPS d’un fichier, une telle possibilité s’intègre dans 
+le process de validation des sources d’information.
+Maîtriser les configurations
+Les opérateurs deviennent donc une pierre angulaire 
+de la transmission d’information et les standards 3GPP 
+de téléphonie mobile aident à identifier, formaliser 
+et standardiser les mesures de sécurité, améliorant 
+sans cesse le degré de sécurité de la 2G à la 5G. Les 
+opérateurs doivent cependant être très vigilants sur les 
+configurations des équipements puisque les standards 
+émettent souvent des recommandations et non des 
+obligations. De mauvais paramétrages mettent en péril 
+la sécurité d’un réseau, avec de potentielles fuites ou 
+modifications de données. Les équipementiers télécom 
+ont bien compris cette menace et ont d’ailleurs développé 
+des services de sécurisation adaptés aux environnements 
+télécom pour aider opérateurs et entreprises utilisatrices 
+de tels réseaux à définir leur stratégie de cybersécurité 
+et les configurations dans un soucis d’équilibre entre 
+sécurité et performance. Par ailleurs, les opérateurs vont 
+héberger de plus en plus d’applications B2B et B2B2C 
+sur leurs réseaux 5G : si ces applications portent sur 
+la création ou le partage d’information, les opérateurs 
+seront de facto partie prenante dans la sécurisation 
+de ces applications et non plus seulement dans la 
+transmission sécurisée de données à travers leur réseau.
+D’autres challenges à  venir
+Une nouvelle menace plane sur la sécurité des données : 
+les ordinateurs quantiques pourraient compromettre 
+l’authentification et le chiffrement par les algorithmes 
+à clefs actuels. La maturité est encore insuffisante pour 
+être une menace imminente, mais les investissements 
+augmentent et certains états semblent s’y lancer 
+massivement.  Heureusement, quelques algorithmes 
+sont toujours considérés comme résistants au calcul 
+quantique. Bien que non finalisés et standardisés, le 
+NIST a ainsi publié en 2022 un algorithme « quantum 
+resistant » pour le chiffrement de données et trois autres 
+pour les signatures digitales. Equipementiers télécom 
+et opérateurs devront s’atteler à de grands chantiers : 
+assurer la disponibilité de cryptographie post-quantique 
+dans les produits, la compatibilité des architectures, des 
+procédures et des nouveaux paramétrages qui seront 
+à nouveau une source de faiblesses et des plans de 
+migration à l’échelle des réseaux. Tout cela pour conserver 
+nos informations à l’abri de l’espionnage ou de l’altération.

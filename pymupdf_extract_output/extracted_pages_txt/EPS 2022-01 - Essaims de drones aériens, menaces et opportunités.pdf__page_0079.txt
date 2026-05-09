@@ -1,0 +1,44 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 79 / 136
+
+================================================================================
+
+79 
+- COORDINATION REACTIVE 
+De la même façon que l’architecture de décision individuelle réactive permet de concevoir des agents 
+artificiels aux comportements adaptés à leur tâche et à leur environnement, il est possible d’utiliser des 
+ensembles de règles de comportement assez simples pour coordonner un essaim de drones, tant que 
+la tâche dévolue à l’essaim reste simple. 
+o BOIDS 
+Un des exemples les plus classiques de comportement de groupe est le modèle BOIDS de Reynolds199. 
+Il a permis de mettre en évidence en simulation la possibilité de répliquer les comportements naturels 
+de nuées d’oiseaux, essaims d’insectes ou bancs de poissons à l’aide de trois comportements 
+élémentaires : 
+- 
+La cohésion : pour former un groupe, les boids se rapprochent les uns des autres ; 
+- 
+La séparation : deux boids ne peuvent pas se trouver au même endroit au même moment ; 
+- 
+L'alignement : pour rester groupés, les boids essayent de suivre un même chemin. 
+ 
+En ajoutant à chaque agent un mécanisme qui combine de façon pondérée les trois comportements, et 
+en paramétrant correctement les distances de perception, on obtient des résultats très naturels : une 
+nuée est capable de garder sa cohésion tout en évitant les collisions entre agents ou avec des obstacles, 
+voire de fuir des prédateurs de manière coordonnée. 
+o TÂCHES PLUS COMPLEXES 
+La situation la plus facile à appréhender correspond aux tâches collectives qui se prêtent naturellement 
+à une division horizontale du travail. L’exemple le plus parlant est la recherche d’un ou plusieurs objets 
+dans une zone. La zone de travail totale est divisée au démarrage de la mission de l’essaim en sous-
+secteurs qu’un engin est capable de traiter seul. La coordination de l’essaim se fait alors par l’échange 
+de messages qui expriment qu’un agent X prend la responsabilité du secteur Y, ou que l’agent X a 
+terminé de traiter le secteur Y. Lorsqu’il n’a plus de secteur à traiter, un agent en sélectionne un nouveau 
+parmi ceux restant et l’annonce aux autres. Pour peu que chaque engin soit effectivement capable de 
+ 
+199 Craig W. Reynolds, « Flocks, herds and schools: A distributed behavioral model », ACM SIGGRAPH 
+Computer Graphics, vol. 21, no 4, juillet 1987, p. 25-34. 
+(a)  Separation rule 
+(b) Alignement rule 
+(c) Cohesion rule 
+Figure 2 : les différentes règles de comportement du système BOIDS (on notera le rayon de 
+perception associé à chaque règle).

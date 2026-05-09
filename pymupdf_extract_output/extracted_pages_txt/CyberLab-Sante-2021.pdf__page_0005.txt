@@ -1,0 +1,111 @@
+Source file: CyberLab-Sante-2021.pdf
+Relative path: CyberLab-Sante-2021.pdf
+Page: 5 / 21
+
+================================================================================
+
+Pôle d’excellence cyber
+CyberLab Catalogue de services et de prestataires cyber appliqués au domaine de la santé
+9
+8
+Novembre 2021 
+Le secteur de la santé utilise massivement les technologies numériques et de 
+communication. « On évalue entre 95 et 99 % la dépendance au numérique 
+dans un hôpital selon les services », affirme Vincent Trély, président de l’As-
+sociation pour la sécurité des systèmes d’information de santé (APSSIS). Il 
+ajoute que l’hôpital est particulièrement attaqué car jugé techniquement plus 
+vulnérable par les pirates. 
+Trois facteurs expliquent la cible du secteur de la santé en termes de cyber 
+attaques, d’après le « Cyber Peace Institute » : 
+• Les hôpitaux représentent une cible idéale pour l’extorsion des données 
+numériques car la santé des patients en dépend.
+• Les établissements de santé possèdent énormément d’informations per-
+sonnelles particulièrement visées par le vol et le cyber-espionnage. En effet, 
+un dossier médical peut être vendu 250$ sur le darknet, d’après Trustwave. 
+La pandémie de la Covid-19 a également mis en exergue que les informa-
+tions médicales ne se limitent pas seulement au dossier médical du patient, 
+mais comprennent également des données relatives aux activités de santé 
+publique, de recherche et de la propriété intellectuelle. 
+• La santé se retrouve également au centre de rivalités stratégiques qui 
+conduisent à des activités malveillantes. 
+Ensuite, la multiplication des échanges d’information et de données entre les 
+professionnels de santé, l’interconnexion entre les centres de soins, la sécurité 
+sociale, les mutuelles et autres entités publiques, offrent un terrain propice à 
+la cyber-malveillance.
+Enfin, l’hétérogénéité des systèmes d’informations, applications métiers et 
+autres équipements connectés rend ce secteur plus vulnérable que d’autres 
+aux cyber-attaques.
+Les conséquences de cyber-attaques dans le secteur de la santé peuvent être 
+d’une extrême gravité et peuvent avoir des répercussions sur divers acteurs : 
+les établissements de santé ainsi que les patients. De nombreux exemples et 
+faits divers sont là pour nous rappeler l’importance du sujet : 
+Rappelons la terrible attaque en mars 2017 du logiciel de rançon WannaCry 
+qui a paralysé le système de santé britannique NHS. Des milliers de consul-
+tations, examens et interventions chirurgicales ont dû être annulés dans plus 
+de 40 établissements en raison du blocage des terminaux. 
+En septembre 2020, aux Etats-Unis, Universal Health Services a subi une ran-
+çon logicielle, le contraignant à déconnecter et couper ses réseaux pour éviter 
+la propagation d’un virus sur 250 autres sites de soins et hôpitaux. 
+En 2020, au Royaume-Uni, l’institut de recherche biomédicale Hammersmith 
+Medicines Research a subi un blocage du système informatique et de mail 
+pendant un jour avec une fuite de données médicales de 2300 anciens 
+patients, un vol. 
+Également, en septembre 2020 a eu lieu le premier décès européen dans 
+une clinique de Düsseldorf à la suite d’une attaque informatique. Le fonc-
+tionnement de l’établissement a été paralysé 2 jours par un rançongiciel et a 
+empêché les soignants de prodiguer les soins nécessaires. 
+Plus récemment, en février 2021, le centre hospitalier de Dax a fait l’objet 
+d’une attaque informatique qui a mis hors service le système d’information 
+de l’hôpital. Les dossiers patients ainsi que certains équipements médicaux 
+n’étaient alors plus accessibles. 
+En mai 2021, l’organisation publique de la santé en Irlande a subi une attaque 
+informatique, plus de 40 établissements de santé ont été impactés. Le groupe 
+de hackers a publié un échantillon de données de santé sur le darknet et 
+réclame maintenant une rançon de 20 millions de dollars.  
+D’après l’Observatoire des signalements d’incidents de sécurité des systèmes 
+d’information pour le secteur de la santé, publié par l’Agence Nationale de 
+santé, en 2020, 250 établissements de santé ont déclaré 369 incidents. La 
+part d’origine malveillante est en constante augmentation depuis trois ans 
+(60% en 2020 contre 41% en 2018), et pour la moitié des incidents décla-
+rés, tout ou partie des données présentes sur le SI de la structure étaient 
+impactées. 
+Répartition selon les types de données impactées – en France
+A chaque fois le constat est le même, les hôpitaux ou organismes de santé qui 
+ont subi des attaques ont implémenté des solutions ou utilisent des processus 
+métier non suffisamment cyber-protégés et ils n’ont pas non plus intégré des 
+mécanismes de défense ou de résilience aux cyber-attaques.
+Les attaques cyber ne visent et n’impactent pas seulement les établissements 
+de santé, en effet, les DM connectés, les équipements de mesure ou les big 
+pharma peuvent aussi en être la cible. 
+Prenons l’exemple des équipements médicaux de GE Healthcare. La FDA1 a 
+alerté en janvier 2020 d’une faille de sécurité qui pourrait permettre à un tiers 
+d’altérer les appareils de surveillance des patients.
+Citons également les attaques en cascade qu’ont subi les laboratoires déve-
+loppant des vaccins dans le cadre de la crise Covid, la biotech Moderna 
+visée par des cyberattaques chinoises en juillet 2020, suivie du laboratoire 
+AstraZeneca en novembre. 
+DONNÉES 
+PERSONNELLES 
+DE SANTÉ 
+(DOSSIER PATIENT, 
+RÉSULTATS D'ANALYSES…) 
+INFORMATIONS 
+CONFIDENTIELLES / 
+STRATÉGIQUES 
+NON PERSONNELLES 
+DONNÉES 
+PERSONNELLES 
+(DONNÉES RELATIVES 
+AUX SALARIÉS DE 
+L'ÉTABLISSEMENT, 
+DONNÉES D'ACCÈS, 
+RESSOURCES HUMAINES)
+DONNÉES 
+TECHNIQUES 
+SENSIBLES 
+(MOTS DE PASSE, 
+CLÉS CRYPTOGRAPHIQUES, 
+DOCUMENTS D'ARCHITECTURE 
+ET DE CONFIGURATION…) 
+1 FDA : Food, Drug and Administration indication
+Source : Rapport observatoire des signalements d’incidents de sécurité des SI

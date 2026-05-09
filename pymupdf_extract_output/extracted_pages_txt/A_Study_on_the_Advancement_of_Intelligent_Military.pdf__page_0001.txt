@@ -1,0 +1,78 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page: 1 / 12
+
+================================================================================
+
+Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.
+Digital Object Identifier 00.0000/ACCESS.2023.0000000
+A Study on the Advancement of Intelligent
+Military Drones: Focusing on Reconnaissance
+Operations
+MINHO LEE1, MINWOO CHOI1, TAEHOON YANG2, JINGU KIM3, JAEOH KIM2, OJEONG KWON4,
+NAMSUK CHO1
+1Department of Operation Research, Korea National Defense University, Nonsan 33021, South Korea
+2Department of Data Science, Inha University, Incheon 22212, South Korea
+3Defence R&D Institute, Poongsan, Daejeon 34027, South Korea
+4Department of Industrial Engineering, Korea Advanced Institute of Science and Technology, Daejeon 34141, South Korea
+Corresponding author: Namsuk Cho (e-mail: ncho64@gmail.com)
+This research was conducted with the support of the Poongsan-KAIST Future Technology Research Center
+ABSTRACT Drones have become integral in modern warfare, and their evolution towards greater autonomy
+is inevitable. This study explores the trajectory towards intelligent, minimally human-dependent military
+drones, detailing the necessary technological advancements. We simulate drone reconnaissance operations to
+identify and analyze emergent challenges. This study delves into various technologies critical for enhancing
+drone intelligence, with a focus on reinforcement learning based on object detection, and presents practical
+implementation examples to illustrate these advancements. Our findings confirm the significant potential for
+enhancing the intelligence of military drones, paving the way for more autonomous and effective combat
+solutions.
+INDEX TERMS
+Intelligent military drones, reconnaissance drone, reinforcement learning, autonomy,
+simulation, object detection.
+I. INTRODUCTION
+D
+RONES have been recognized as essential forces
+through various proven instances in recent conflicts
+such as the Russian Invasion of Ukraine and the Armenia-
+Azerbaijan War. Currently, the majority of combat-ready
+drones are remotely controlled. Although there is some level
+of automation in drones, operators are still required due to
+technical and ethical issues. From a tactical perspective, the
+best advantages of drones are “low cost” and “mass deploy-
+ment.” However, these two advantages only work when the
+drone can be controlled without operators, that is, when the
+drone is intelligent.
+Autonomous drones alone are not a novel concept, as
+extensive research has already been conducted. For instance,
+we live in an era where unmanned drones are used for deliv-
+eries and search and rescue missions [1], [2], [3]. However,
+can civilian intelligent drone technology be used directly for
+military purposes? Our answer is “no,” because military drone
+operations show clear differences from civilian drones in the
+following situations. First, the environment in the military
+is more complex than that in the civilian sector. Consider
+when Tesla is on Autopilot on an unpaved road how often
+a driver must intervene. Military operations do not occur on
+‘‘well-paved roads.’’ Moreover, military operations involve
+missions assigned in arbitrary locations. Second, countless
+enemy counteractions accompany military operations. These
+counteractions include both active and passive denial, with
+active denial involving interception attempts and passive de-
+nial including concealment and deception. Such enemy ac-
+tivities increase the complexity of the problem. Third, due to
+the military’s uniqueness and security, there is a lack of data
+related to military operations. For example, there is a shortage
+of aerial view data of tanks and Transporter Erector Launchers
+(TELs), which are used targets of object detection. Fourth,
+safety and ethical aspects need to be considered when a mili-
+tary intelligent drone performs a mission. An intelligent drone
+lacking stability during operations can result in unpredictable
+behaviors, leading to indiscriminate casualties and mission
+failure. As an ethical consideration, even though overall drone
+operation becomes intelligent, there is a need for the concept
+that the final attack decision is made by humans. In other
+words, the key consideration should not be whether drones
+VOLUME 11, 2023
+1
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4

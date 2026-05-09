@@ -1,0 +1,78 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page: 2 / 12
+
+================================================================================
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+FIGURE 1. Engineering research on intelligent drones in civilian applications.
+can autonomously make decisions about attacks on their own,
+but rather how they can provide information to assist humans
+in making the final decision regarding an attack. These ethical
+issues are related to human responsibility and the role of
+machines.
+Given these military considerations, the research on the au-
+tonomous military drones and civilian drones should progress
+with different concepts. Research on military intelligent
+drones is actively underway, but unlike civilian research, most
+of it is not in the public domain. Therefore, this study has the
+following objectives.
+• First, the study examines the concepts of intelligent mil-
+itary drones, considering the special nature of military
+operations.
+• Second, we conduct a case study on various issues that
+arise in this field, viewing them from an engineer’s
+perspective and discussing the intuition derived from the
+case study.
+II. LITERATURE REVIEW
+Intelligent drones integrate artificial intelligence technolo-
+gies to be autonomous and optimize drone functions and
+operations. These drones possess capabilities beyond simple
+remote control, being able to sense their environment and
+respond autonomously to perform various tasks. Studies are
+ongoing to utilize these advanced functionalities, but publicly
+accessible information is limited. In military documentation
+that is available to the public, especially regarding mixed
+manned and unmanned systems, intelligent drones are often
+mentioned as one player among many [4], [5], [6], [7], [8],
+[9], [10]. This means that the discussion isn’t fully focused or
+detailed specifically on military drones.
+Papers focusing on intelligent military drones can be
+broadly categorized into two types. Those centered on engi-
+neering and those that are not. The latter type includes papers
+discussing policies, military strategies, and ethics related to
+intelligent military drones. There are diverse opinions in these
+papers regarding military intelligent drones. From a negative
+viewpoint, concerns are raised about ethical issues, the un-
+predictability of AI, military ethics, and stability problems
+[11]. Conversely, from a positive perspective, some argue
+that intelligent drones, when used appropriately, can be more
+objective and ethical in performing tasks than humans, who
+might be influenced by emotions such as revenge or anger
+[12]. Regarding making attack decisions with drones, many
+papers recommend that humans should be the ones to make
+the final decision. Yet, some advocate that drones could inde-
+pendently make such decisions if equipped with an ethical
+system [13]. While these papers provide a comprehensive
+overview of various aspects of military intelligent drones,
+they often lack an in-depth engineering perspective on how
+to enhance the intelligent capabilities of these drones.
+On the other hand, papers on intelligent military drones
+from an engineering perspective in the military domain are
+few [14], [15] and often lack sufficient reflection of military
+specificity. In contrast, research on the intelligence of civilian
+drones is progressing, as illustrated in Figure 1, which we
+have personally compiled and summarized. From this point
+on, the review will be based on Figure 1.
+• The applications of artificial intelligence in civilian
+drones are being researched for drones equipped with
+sensors and systems such as Electro-Optics (EO), Infra-
+Red (IR), Laser Range Finder (LRF), Light Detection
+and Ranging (LiDAR), Radio Detection And Ranging
+(RADAR), Global Navigation Satellite System (GNSS),
+Inertial Measurement Unit (IMU), Ultrasound, and Syn-
+2
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4

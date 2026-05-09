@@ -1,0 +1,140 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 5 / 34
+
+================================================================================
+
+Radar- 
+based 
+•
+Resilient 
+under
+low 
+visibility/weather conditions  
+•
+Uses
+micro-Doppler 
+signatures
+•
+Long 
+range, 
+constant 
+tracking, accurate positioning  
+•
+Able to handle many objects
+simultaneously
+•
+Able to detect any flying
+object with radar signature
+regardless of its operating
+modality
+•
+Higher hardware costs and calibration
+demands
+•
+Many systems lack resolution for very
+small drones
+•
+Active emitting nature of sensors adds
+complexity and licensing requirements
+•
+“Dead zones” due to curvature of the
+earth and undulating terrain features
+•
+Clutter interference in urban/dense
+environments
+•
+Integration 
+complexity 
+with 
+other
+sensors
+Vision- 
+based 
+•
+Targets UAV recognition via
+optical images
+•
+Provides visuals for forensic
+evidence
+•
+Real-time and cost-effective
+solutions
+•
+Promising 
+rapid
+enhancement by advances in
+AI and CV, and consumer-
+grade 
+image 
+capturing
+technologies
+•
+High false-alarm rates due to 2-
+dimensional nature of returns
+•
+Environmental 
+variability 
+(light,
+weather, obscurants) significantly affect
+performance consistency
+•
+Challenges with small object size and
+motion blur
+•
+High computational demands for high-
+resolution streams
+•
+Relies on line-of-sight, vulnerable to
+camouflage and obfuscation
+Multi- 
+Modal 
+Fusion 
+•
+Mitigates single-sensor blind
+spots
+•
+Significantly 
+improves 
+robustness and accuracy   
+•
+Crucial 
+for 
+small-object 
+detection and erratic flight 
+•
+Adaptive sensor weighting
+and 
+deep 
+embedding
+methods
+•
+Increases 
+complexity 
+in 
+real-time
+deployment
+•
+Requires precise sensor calibration and
+synchronization
+•
+Consumes power and bandwidth for
+large-scale deployments
+•
+System integration complexity and cost,
+including data synchronization and
+fusion protocol standardization
+•
+Requires 
+significant 
+computational
+resources or hardware optimisation for
+real-time processing on edge devices
+Second, in networked warfighting, each of these systems are likely to be embedded into larger systems-of-
+systems operating across the tactical, operational and theatre level. This is because each sensor modality has 
+inherent limitations as highlighted in Table 1: for example, radar may struggle with small, low-flying 
+drones, optical cameras can confuse drones with birds, and RF direction finders are ineffective against 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 5

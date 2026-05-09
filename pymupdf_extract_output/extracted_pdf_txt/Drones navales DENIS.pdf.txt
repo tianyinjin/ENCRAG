@@ -1,0 +1,4033 @@
+Source file: Drones navales DENIS.pdf
+Relative path: Drones navales DENIS.pdf
+Page count: 107
+Extracted pages: 102
+
+================================================================================
+
+[Page 1 / 107 | chars: 389]
+--------------------------------------------------------------------------------
+
+PROMOTION P28 
+ 
+2020-2021 
+ 
+ 
+Drones navals :  y aura-t-il encore des marins sur les bâtiments dans trente ans ? 
+Perspectives d’emploi des systèmes automatisés dans la Marine nationale. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[Photo ou carte ou illustration] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CF DENIS Guillaume 
+ 
+ 
+Sous la direction de 
+ 
+M. Cyrille Poirier-Coutansais 
+ 
+Centre d’Etudes Stratégique de la Marine
+
+[Page 4 / 107 | chars: 2664]
+--------------------------------------------------------------------------------
+
+4 
+ 
+Résumé 
+ 
+Au cours des vingt dernières années, l’usage du drone aérien s’est généralisé dans les conflits armés. 
+Aujourd’hui, la maturité des technologies de l’autonomie décisionnelle autorise un nouveau champ de missions et 
+de milieux pour les systèmes automatisés : les immenses étendues océaniques et les profondeurs sous-marines, 
+terrains d’opération particulièrement propices à l’exploitation de leurs qualités intrinsèques. 
+ 
+Conjointement au développement de nouveaux drones aériens, ce sont maintenant les projets de drones de 
+surface et sous-marins qui prolifèrent. Les forces armées françaises se doivent d’avancer rapidement pour rattraper 
+leur retard. Un nouvel échec capacitaire, semblable à celui des drones aériens, pourrait cette-fois-ci provoquer un 
+déclassement opérationnel au regard de la rupture attendue. Cependant, afin que l’intérêt légitime pour ces 
+nouvelles technologies ne tourne pas à la fascination aveugle pour le « tout technologique », une approche 
+prudente mais résolue est nécessaire. 
+ 
+En retournant au cœur des spécificités des systèmes automatisés et à la lumière de certaines erreurs du passé, 
+on observe que les problématiques de coût sont fondamentales pour faire émerger l’intérêt du drone. De plus, les 
+spécificités des milieux marins nécessitent de favoriser les qualités d’endurance et d’axer les efforts de 
+développement sur l’autonomie décisionnelle. L’analyse des risques génériques des systèmes de drones montre 
+que, sans préjuger du futur, la coopération entre systèmes habités et systèmes automatisés (cobotisation) permet 
+d’en mitiger les conséquences tout en assurant une performance maximale. 
+ 
+ Par ailleurs, l’étude des ambitieux programmes de l’US Navy confirme la nécessité de revenir à une méthode 
+incrémentale de développement basée sur l’utilisation de démonstrateurs, ceci avant même que les besoins 
+opérationnels soient bien définis. Avec cette approche, la Marine nationale pourrait s’appuyer sur un 
+environnement industriel local favorable pour consolider le capital volet exploratoire de ses programmes 
+capacitaires SLAM-F1 et CHOF2. 
+ 
+ Enfin, les ressources humaines et financières limitées des forces armées françaises rencontrent les évolutions 
+des contextes opérationnel et stratégique pour confirmer la nécessité de concentrer les efforts sur des drones 
+navals spécialisés, autonomes et au coût maitrisé. La lutte anti sous-marine défensive dans le cadre de la protection 
+du bastion de la FOST constituerait à ce titre un terrain d’exploration et d’opération privilégié. 
+ 
+1 Système de Lutte Anti-Mines Futur. 
+2 Capacité Hydrographique et Océanographique Future.
+
+[Page 5 / 107 | chars: 2173]
+--------------------------------------------------------------------------------
+
+5 
+ 
+Abstract 
+ 
+The past two decades have seen the widespread rise of unmanned aerial vehicles (UAV) in armed conflict. 
+Recent technological advances in artificial intelligence have enabled a new range of missions in unprecedented 
+environments: the vast ocean and its depths, where the abilities inherent to AI may be most crucial. 
+ 
+Together with new UAVs, it is now time for programs of Unmanned Surface Vehicles (USV) and Autonomous 
+Underwater Vehicle (AUV) to proliferate. French armed forces must advance swiftly to fill the gap. Another 
+procurement failure, after the UAV’s one, could lead to an operational offset, considering the anticipated 
+disruption. However, a careful but resolute attitude is necessary here to avoid being overly fascinated by advanced 
+technology. 
+ 
+By focusing on the core characteristics of unmanned systems, and by analysing some mistakes of the past, one 
+can notice that the cost issue is fundamental to validate their interest. Furthermore, the inherent characteristics of 
+the maritime environment force us to favour endurance qualities and to focus on the development of autonomous 
+decision-making. The risk analysis about autonomous systems shows that the cooperation between unmanned 
+vehicles and manned ones will be a key factor to mitigate risk and ensure performance at the same time. 
+ 
+On another note, by looking at the ambitious procurement programs of the US Navy, one can confirm the 
+necessity for an incremental approach, based on the use of demonstrators, without waiting for the operational 
+needs to be thoroughly defined. Using such an approach, the French Navy could leverage a favourable local industry 
+to consolidate the fundamental R&D component of its procurement programs SLAM-F and CHOF. 
+ 
+Finally, the limited human and financial resources of the French armed forces meet the evolving operational 
+and strategic context to confirm the need to focus on concepts of USVs and AUVs which are specialized, 
+autonomous, and low-cost. In this respect, defensive anti-submarine warfare, to ensure the freedom of action of 
+the FOST in its bastion, would be an opportune field of exploration and operation.
+
+[Page 7 / 107 | chars: 1394]
+--------------------------------------------------------------------------------
+
+7 
+ 
+Introduction 
+ 
+Au cours des vingt dernières années, l’usage du 
+drone s’est généralisé dans les conflits armés. Parmi les 
+différents types de systèmes employés, le plus 
+emblématique a certainement été le drone MALE3 qui a 
+vu une utilisation particulièrement intensive justifiée par 
+l’adaptation de ses qualités intrinsèques aux théâtres 
+d’opérations d’alors. 
+Après une impulsion américaine, les réticences 
+initiales de nombreux pays à l’égard du drone militaire 
+ont progressivement été effacées, et son emploi s’est 
+développé à travers le monde. La France, après avoir 
+longtemps tergiversé, notamment sur l’armement de ses 
+drones, emploie aujourd’hui au moins un drone Reaper 
+en permanence au Sahel depuis 2016. 
+Ainsi, en deux décennies, la silhouette du Predator4 
+ou du Reaper5 volant au-dessus d’un théâtre est devenue 
+un classique de l’imaginaire collectif militaire et le drone 
+aérien, ou UAV6, un pilier des programmes d’armement. 
+ 
+Aujourd’hui donc, lorsqu’on entend le mot « drone », 
+le premier réflexe est généralement de lever les yeux. 
+Ceci est à porter au crédit du succès technico-
+opérationnel de l’UAV MALE ; succès néanmoins relatif, 
+au regard de l’emploi restrictif, uniquement dans un 
+contexte de basse intensité, et de l’ancienneté du 
+ 
+3 Medium Altitude, High Endurance. 
+4 Drone aérien MALE. 
+5 Successeur du Predator. 
+6 Unmanned Aerial Vehicle.
+
+[Page 8 / 107 | chars: 1663]
+--------------------------------------------------------------------------------
+
+8 
+ 
+concept. En effet, le drone MALE d’aujourd’hui n’est 
+guère plus qu’un système d’armes télé-opéré, relié à tout 
+moment à son opérateur par une liaison de 
+communication. S’il perd ce lien, il passe à une phase 
+d’attente puis un retour à sa base selon un plan de vol 
+programmé, annulant de fait sa mission. Considérant le 
+vol sans pilote d’un avion Voisin effectuée par Max 
+Boucher en 1917 comme la première expérimentation de 
+drone aérien, on ne peut qu’observer une bien faible 
+évolution du concept d’emploi, en plus d’un siècle. Ainsi 
+le drone MALE pourrait être décrit comme un simple 
+aéronef télécommandé magnifié grâce aux progrès en 
+télécommunications, aéronautique et avionique des 
+années 1990. 
+Aujourd’hui 
+ce 
+sont 
+les 
+technologies 
+de 
+l’information, en particulier celles liées à l’intelligence 
+artificielle, qui arrivent à une maturité suffisante pour 
+changer la donne. Avec l’intégration possible d’une part 
+croissante d’autonomie décisionnelle dans les drones, 
+c’est tout un nouveau champ de missions et de milieux 
+qui s’offrent à eux. Après les airs en basse intensité, ce 
+sont également la surface et les profondeurs des océans, 
+dans tout le spectre de l’engagement, qui doivent être 
+envisagés pour le développement des systèmes 
+automatisés. 
+ 
+En juillet 2019 lors de son audition par la commission 
+de défense de l’Assemblée Nationale, L’amiral Prazuck, 
+chef d’état-major de la Marine, présentait l’ambition de 
+de la Marine nationale à ce sujet :  
+« Mon objectif, vous le savez, c’est de disposer d’un 
+drone par bateau en 2030 – petit drone, petit bateau ; 
+gros drone, gros bateau. J’estime donc qu’en 2030, dans
+
+[Page 9 / 107 | chars: 1557]
+--------------------------------------------------------------------------------
+
+9 
+ 
+la Marine, il y aura environ 1200 drones : 900 drones 
+aériens pour équiper les bateaux, les bases à terre et les 
+sémaphores ; une cinquantaine de drones de surface 
+pour la surveillance et deux cents drones et gliders sous-
+marins pour la guerre des mines et la surveillance de 
+l’environnement. »i 
+ 
+Parties avec un retard significatif, les forces 
+armées françaises se doivent d’avancer rapidement pour 
+être à la hauteur des enjeux. En effet, si le virage manqué 
+des décennies 2000 et 2010 nous amène aujourd’hui 
+principalement à acheter sur étagères du matériel 
+américain, le cadre d’emploi limité de ces armes et 
+l’environnement opérationnel de basse intensité ont 
+limité les conséquences de cet échec. Demain, avec 
+l’adjonction 
+des 
+progrès 
+des 
+technologies 
+de 
+l’information aux systèmes automatisés, un tel retard 
+pourrait conduire à un potentiel déclassement. Nos 
+compétiteurs stratégiques ou alliés s’y attellent. Les 
+Américains en particulier ont théorisé depuis longtemps 
+cette stratégie du déclassement des compétiteurs (Offset 
+Strategyii). Après la dissuasion nucléaire, puis le 
+développement des technologies informatiques des 
+années 
+1970, 
+le 
+développement 
+des 
+systèmes 
+automatisés pourrait être le pilier principal de la Third 
+Offset Strategy. 
+Dans le domaine naval, les immenses étendues 
+océaniques et les profondeurs sous-marines constituent 
+un terrain d’opération particulièrement propice à 
+l’exploration et l’exploitation des qualités des systèmes 
+automatisés. Conjointement au développement des UAV,
+
+[Page 10 / 107 | chars: 1610]
+--------------------------------------------------------------------------------
+
+10 
+ 
+ce sont maintenant les projets d’USV7 et d’AUV8 qui 
+prolifèrent. 
+ 
+ 
+Au milieu de ce foisonnement technologique, que 
+faire à l’échelle de la Marine nationale, en particulier dans 
+le nouveau champ des USV et AUV ? Parmi toutes les 
+formes de systèmes automatisés possibles, lesquelles 
+privilégier à court terme et pour quelles missions ? Des 
+drones pour la Marine soit, mais pour quoi faire ? 
+ 
+L’intérêt 
+nécessaire 
+pour 
+ces 
+nouvelles 
+technologies et leurs applications militaires ne doit pas 
+tourner à la fascination aveugle pour le « tout 
+technologique ». D’une part, parce que les capacités 
+nationales et/ou européennes limitées en termes de 
+recherche 
+et 
+développement 
+nous 
+astreindront 
+nécessairement à une forme de frugalité. Surtout parce 
+que les systèmes automatisés ne doivent pas devenir les 
+nouvelles wunderwaffeniii9, occasionnant des dépenses 
+excessives pour des gains opérationnels chimériques. En 
+effet, si les qualités intrinsèques des systèmes 
+automatisés laissent entrevoir des applications multiples, 
+leur emploi pose encore de nombreuses questions 
+techniques et éthiques, et présentent des risques qui ne 
+peuvent être écartés pour le moment. Il convient donc 
+d’avoir une approche résolue mais prudente pour 
+avancer sur ce sujet foisonnant. 
+ 
+7 Unmanned Surface Vehicle. 
+8 Autonomous Underwater Vehicle. L’acronyme UUV 
+(Unmanned Underwater Vehicle) est également utilisé. 
+9 Désigne certains projets de l’armée allemande de fin de la 
+2nde guerre mondiale, très novateurs mais au nombre et à la 
+fiabilité insuffisants pour influencer la fin du conflit.
+
+[Page 11 / 107 | chars: 1150]
+--------------------------------------------------------------------------------
+
+11 
+ 
+ 
+Dans un premier temps (I), il semble utile de de 
+faire le point sur les problématiques génériques des 
+systèmes automatisés, puis en s’appuyant notamment 
+sur la comparaison des milieux de mettre en évidence les 
+qualités et faiblesses intrinsèques portés par certains 
+choix de conception. Ceci doit permettre de dégager des 
+lignes directrices qui permettent d’éviter les écueils les 
+plus évidents ou les risques trop difficilement évaluables.  
+Une fois ces éléments posés, le programme 
+d’armement ambitieux de l’US Navy, doit être évoqué (II) 
+car il constitue un exemple pratique de feuille de route 
+relativement aboutie. L’étude des programmes français 
+permet de cerner l’état de l’art local sur lequel nous 
+pouvons nous appuyer. Quant aux avancées du monde 
+civil, elles éclairent et illustrent certains défis et enjeux de 
+la dronisation navale. 
+Enfin (III), en passant ces concepts généraux et les 
+exemples de développements récents au filtre de 
+certaines caractéristiques et problématiques de la Marine 
+nationale, il est possible d’évoquer des scénarios 
+d’emploi qui pourraient être explorés au cours des 
+années à venir.
+
+[Page 13 / 107 | chars: 1357]
+--------------------------------------------------------------------------------
+
+13 
+ 
+Généralités des systèmes de drone 
+appliqués aux opérations militaires  
+ 
+A. Définitions des systèmes automatisés 
+ 
+1. Drones VS systèmes automatisés 
+ 
+Depuis 
+maintenant 
+de 
+nombreuses 
+années, 
+l’utilisation d’automatismes s’est généralisée dans les 
+systèmes d’armes et dans les véhicules, avec une très 
+grande variété d’emploi. De la stabilisation d’un mirage 
+2000 par ses commandes de vol électriques aux missiles 
+de croisière, en passant par les modes de tir de certains 
+systèmes anti-aériens10, nous sommes entourés de 
+systèmes qui nous aident à agir avec des degrés plus ou 
+moins sophistiqués et transparents d’automatisme. 
+Le terme d’autonomie est souvent utilisé pour 
+décrire l’étendue grandissante des tâches et choix 
+explorés par ces systèmes, à la faveur des progrès 
+technologiques. Citant les travaux MCDC (Multinational 
+Capability 
+Development 
+Campaign), 
+le 
+concept 
+exploratoire interarmées sur l’emploi de l’intelligence 
+artificielle et des systèmes automatisésiv  définit 
+l’autonomie de tels systèmes ainsi : « capacité (…) à agir 
+sous la supervision d’une programmation humaine, selon 
+ses tâches, ses règles, ses états internes et ses 
+connaissances, 
+sans 
+intervention 
+extérieure ». 
+ 
+10 Le système ASTER 15 équipant les frégates de la Marine 
+nationale peut-être utilisé en mode d’engagement 
+automatique.
+
+[Page 14 / 107 | chars: 1463]
+--------------------------------------------------------------------------------
+
+14 
+ 
+L’autonomie est donc une forme d’automatisme 
+caractérisée 
+par 
+une 
+variance 
+plus 
+grande 
+de 
+l’environnement et des choix possibles. 
+ 
+Le terme de drone a historiquement été utilisé pour 
+désigner des véhicules téléopérés, le plus souvent 
+aériens, à même de se déplacer et d’effectuer un certain 
+nombre de tâches. Aujourd’hui, on peut utiliser ce terme 
+pour décrire un type de robot, c’est-à-dire « un 
+équipement disposant de capteurs, d’un système de 
+commande logique et d’actionneurs (…), capable de 
+manipuler des objets, de se mouvoir ou d’exécuter des 
+opérations selon un programme fixe, modifiable ou 
+adaptable ». 
+Par 
+ailleurs, 
+il 
+« calcule, 
+selon 
+sa 
+programmation, ses stratégies de fonctionnement selon 
+un état final recherché »v. Le drone est donc un système 
+automatisé mobile, qui peut opérer selon quatre grands 
+modes de fonctionnement :  
+ 
+- 
+Drone téléopéré : il est à tout moment lié à son 
+opérateur par un système de communication, 
+avec un déport des tâches de l’équipage. Il peut 
+se 
+charger 
+de 
+tâches 
+de 
+bas 
+niveau 
+automatiquement, à commencer par celle qu’un 
+système piloté effectuerait (maintien en ligne de 
+vol d’un aéronef, atterrissage automatique, 
+etc.) ; 
+ 
+- 
+Drone supervisé : les tâches de bases sont 
+automatisées (pilotage, navigation, observation, 
+pointage des armements, etc.), mais la situation 
+est en permanence supervisée par un opérateur 
+humain qui décide des tâches de haut niveau à
+
+[Page 15 / 107 | chars: 1265]
+--------------------------------------------------------------------------------
+
+15 
+ 
+effectuer (changement de zone, étape de la 
+mission, assignations capteurs, désignations, 
+engagements, etc.) ; 
+ 
+- 
+Drone semi-autonome : ce système effectue des 
+tâches de bas et haut niveau sans intervention 
+humaine. Il ne peut modifier les tâches, les règles 
+et le cadre spatio-temporel, le plus souvent fixés 
+avant la mission, sans intervention humaine. Un 
+missile de croisière SCALP, suivant son plan de 
+vol, adaptant son pilotage à son environnement 
+et reconnaissant son objectif pré programmé 
+fonctionne comme un drone semi-autonome 
+simple. Les drones de type « munition rôdeuse », 
+comme le drone Harpy11 qui patrouille sur une 
+zone prédéfinie avant de désigner et détruire 
+automatiquement les radars adverses en 
+émission est un drone semi-autonome avec une 
+capacité de désignation et d’engagement 
+automatique ; 
+ 
+- 
+Drone pleinement autonome. Il effectue sa 
+mission en modifiant potentiellement son cadre 
+et ses règles au-delà de sa programmation 
+initiale. Il dispose d’une capacité d’adaptation 
+maximale avec une capacité de contrôle de 
+l’humain minimale. Il n’existe pas à ce jour de tels 
+systèmes. 
+ 
+Il faut noter que ces dénominations doivent être 
+liées au degré maximal d’autonomie atteignable par le 
+ 
+11 UAV israëlien.
+
+[Page 16 / 107 | chars: 1466]
+--------------------------------------------------------------------------------
+
+16 
+ 
+drone, ce dernier pouvant passer d’un mode de 
+fonctionnement à l’autre en cours de mission. Par 
+exemple, un missile air-air moderne peut être supervisé à 
+son lancement, avec une liaison avion-missile (LAM) 
+active permettant au pilote de redésigner la cible, puis 
+semi-autonome une fois la LAM coupée, utilisant son 
+autodirecteur pour assurer la recherche et la poursuite 
+finale de sa cible. 
+En ce qui concerne ce mémoire, nous nous 
+intéresserons particulièrement aux drones supervisés et 
+semi-autonomes. 
+ 
+ 
+2. Intelligence artificielle : GOFAI vs deep learning 
+ 
+L’expression « Intelligence Artificielle » (IA) est 
+aujourd’hui largement répandue dans le champ 
+sémantique. On peut considérer que les travaux d’Alan 
+Turing au cours de la Seconde guerre mondiale 
+constituent la théorie mathématique à l’origine de 
+l’informatique.  Après la création du premier ordinateur 
+électronique en 1945, l’informatique n’a eu de cesse de 
+vouloir transformer des données en résultats, afin de 
+suppléer l’intelligence humaine. 
+Historiquement, il s’agissait pour les systèmes 
+informatiques d’accélérer le calcul d’algorithmes basés 
+sur de la logique (si A : alors B). Les progrès de la 
+programmation (c’est-à-dire, la capacité à complexifier 
+ces algorithmes) et du matériel informatique (capacité à 
+stocker les données et à traiter rapidement des 
+opérations logiques) ont permis d’améliorer sans cesse 
+les performances informatiques. En 1997 un pas
+
+[Page 17 / 107 | chars: 1828]
+--------------------------------------------------------------------------------
+
+17 
+ 
+symbolique a été franchi lorsque l’ordinateur Deep Blue 
+d’IBM a fini par battre aux échecs Garry Kasparov, le 
+champion du monde d’alors. Il ne s’agissait plus alors 
+pour l’IA de suppléer l’homme mais d’être plus 
+performante que lui dans certains cas. Pourtant, l’IA de 
+Deep Blue ne consistait qu’en un algorithme classique, 
+dont le succès était fondé sur la puissance brute 
+informatique capable de passer en revue des millions de 
+combinaisons possibles en quelques secondes. Cette 
+GOFAIvi (Good Old’Fashionned AI), était encore basée sur 
+la modélisation complète d’un environnement et ses 
+règles, ici un jeu, et la formalisation de liens de causalités 
+par un cerveau humain. On comprend que ce type d’IA, 
+aux raisonnements complètements maitrisés, est très 
+adapté aux systèmes fermés mais peut atteindre ses 
+limites pour gérer des environnements complexes. 
+Les progrès de l’IA dont nous parlons de nos jours 
+sont le plus souvent liés aux progrès du machine learning 
+(auto-apprentissage). Là où la GOFAI est un pur produit 
+logique, l’IA auto-apprenante (que nous nommerons IA 
+pour simplification) est un pur produit empirique qui se 
+base sur l’analyse d’une quantité immense de donnée 
+pour établir des liens de corrélation. C’est le retour à une 
+utilisation de la technique des réseaux neuronaux, couplé 
+à la mise à disposition des bases de données colossales 
+fournies 
+par 
+l’internet, 
+qui 
+permettent 
+son 
+développement actuel. L’IA présente notamment 
+l’avantage de ne pas avoir à modéliser un problème ou 
+son environnement trop complexe. Elle donne d’ailleurs 
+des résultats objectifs : la victoire récente d’Alpha-GO 
+contre le champion du monde de GOvii, les diagnostiques 
+de cancer à partir d’images médicalesviii, ou plus proches 
+des considérations militaires, la victoire 5-0 d’une IA
+
+[Page 18 / 107 | chars: 1422]
+--------------------------------------------------------------------------------
+
+18 
+ 
+contre un pilote humain lors de combats aériens 
+simulésix. 
+Mais malgré ses succès récents et son potentiel 
+avéré, l’IA auto-apprenante apporte deux contraintes 
+dimensionnantes pour son utilisation dans des systèmes 
+d’armes. D’abord, elle nécessite un grand volume de 
+données préalable pour pouvoir être entrainée (« Alors 
+que notre esprit incroyablement agile peut reconnaître 
+tous les chats à partir d’un chat, la très laborieuse IA ne 
+peut reconnaître un chat qu’à partir de tous les chats »x). 
+Cela constitue une difficulté au développement de 
+certaines fonctionnalités, et doit d’ailleurs nous inciter à 
+avancer dès-à-présent sur les problématiques de collecte 
+et de valorisation des données. De plus, le résultat d’une 
+IA ne peut être prédit théoriquement. Il convient donc 
+d’imaginer des méthodes extensives de test qui devront 
+être effectués tout au long de la vie et du développement 
+du système d’armes. 
+ 
+ 
+B. La règle des 4 Ds et les avantages comparatifs 
+du drone 
+ 
+Pourquoi utiliser un drone pour une tâche 
+habituellement effectuée par un humain ou système 
+habité ? Afin de répondre à cette question, on a 
+historiquement fait référence à la règle des 3 D « Dull, 
+Dirty, and Dangerous »xi auquel on rajoute souvent 
+aujourd’hui un 4ème D : « Dear » ou « Difficult ». Si cette 
+règle élémentaire permet de défricher quelques aspects 
+de l’avantage comparatif du drone pour certaines
+
+[Page 19 / 107 | chars: 1280]
+--------------------------------------------------------------------------------
+
+19 
+ 
+missions, il convient néanmoins de préciser la 
+signification que chacun de ces termes peut revêtir. 
+ 
+ 
+1. Dull – fastidieux 
+ 
+On fait référence ici aux tâches difficilement 
+effectuées par des humains parce qu’elles sont 
+répétitives, fastidieuses, et/ou nécessitent une grande 
+endurance. Pour être plus précis, on peut caractériser 
+deux qualités différentes du drone : 
+- 
+Capacité à répéter une tâche quasi-parfaitement 
+en s’affranchissant des limites de concentration 
+d’un cerveau humain. Le système automatisé 
+apporte 
+une 
+garantie 
+de 
+performance 
+continue (pilote automatique, robot industriel, 
+traitement de données, etc.) ;   
+- 
+Capacité à effectuer sa tâche dans la durée, au-
+delà des limites de la fatigue physique humaine. 
+ 
+L’apparition en 1801 du métier à tisser Jacquard, est 
+probablement l’un des premiers exemples d’utilisation 
+d’un système semi-automatique remplaçant l’homme 
+pour des tâches répétitives. 
+Remarquons que l’autonomie du système est ici 
+centrale dans l’expression de cet avantage comparatif. En 
+effet, un drone complètement télé-opéré reste limité par 
+l’endurance de son équipage déporté. Si le changement 
+d’équipage en cours de mission permet de contourner ce 
+problème, le gain opérationnel global s’en trouve affecté.
+
+[Page 20 / 107 | chars: 1367]
+--------------------------------------------------------------------------------
+
+20 
+ 
+2. Dirty – sale 
+ 
+Initialement Le concept de travail « sale » faisait 
+notamment référence à un environnement hostile : zone 
+polluée, irradiée, souterraine… etc. Si on utilise cette 
+acception, on observe sa redondance évidente avec la 
+notion de tâche dangereuse, traitée plus loin. Le drone 
+permet dans ce cas simplement de réduire les coûts et les 
+entraves liées à la protection de l’opérateur humain vis-
+à-vis des dangers liés à l’environnement de sa mission. 
+Il apparait plus judicieux de considérer ici les tâches 
+effectuées dans des environnements désagréables ou 
+pénibles : le drone ne fait pas forcément mieux, mais 
+l’humain ne veut pas ou ne veut plus faire. C’est une 
+notion plus subjective, qui évolue avec la société. Mais ses 
+conséquences sont bien réelles, notamment en termes de 
+problématique 
+RH. 
+On 
+notera 
+notamment 
+que 
+l’ensemble des missions qui amène à isoler et 
+déconnecter les individus peuvent entrer aujourd’hui 
+dans cette catégorie. 
+Comparativement aux missions répétitives, la télé-
+opération est là un moindre frein pour exprimer les 
+qualités intrinsèques du drone. 
+ 
+ 
+3. Dangerous – dangereux 
+ 
+C’est probablement la première idée qui vient à 
+l’esprit, surtout pour des militaires : un drone peut 
+prendre plus de risques qu’un système habité. C’est une 
+évolution naturelle de la portée des capteurs et des
+
+[Page 21 / 107 | chars: 1529]
+--------------------------------------------------------------------------------
+
+21 
+ 
+effecteurs qui permet de préserver la vie de nos soldats 
+en les éloignant des armes adverses. 
+Cet avantage du drone vis-à-vis du danger se décline 
+sous deux aspects principaux : 
+- 
+La capacité à respecter les consignes de maitrise 
+de risque, tant en termes de précision de 
+l’exécution que de fidélité de l’intention. Plus 
+prosaïquement : pour un drone, la perception du 
+risque n’est pas altérée par des phénomènes 
+physiologiques ou psychologiques (peur, colère, 
+focalisation de l’attention, etc.), et sa capacité à 
+respecter les mesures de maitrise du risque non 
+plus ; 
+- 
+On peut lui faire prendre plus de risques, car il n’y 
+pas vie humaine en jeu.  
+ 
+ Le premier point a été clairement illustré lors de la 
+démonstration AlphaDogfight Trials de 2020xii. Dans le 
+cadre de cet évènement organisé par la DARPA12, une IA 
+a battu nettement et à plusieurs reprises un pilote de l’US 
+Air Force lors de combats aériens rapprochés simulés. Au-
+delà de la qualité et de la rapidité des réactions de l’IA 
+(côté difficult de la tâche, voir plus bas), c’est bien sa 
+capacité à s’affranchir de certaines marges de sécurité, 
+donc sa gestion objective du risque et de l’agressivité, qui 
+a été identifiée comme un facteur clé de sa victoire. 
+ 
+La seconde assertion concernant l’acceptabilité du 
+risque pour le drone mérite d’être développé. En effet, le 
+risque est la combinaison de la probabilité et des 
+ 
+12 Defense Advanced Research Projects Agency : l’éminente 
+agence de l’innovation de défense américaine.
+
+[Page 22 / 107 | chars: 1747]
+--------------------------------------------------------------------------------
+
+22 
+ 
+conséquences d’un évènement négatif. Dans le cadre de 
+l’emploi d’un drone, on considère qu’il sera toujours 
+moins grave de perdre une machine qu’un individu. Si 
+cela est difficilement discutable moralement, les réalités 
+opérationnelles nous amènent à nuancer cette idée. Le 
+caractère consommable d’une arme, comme de toute 
+autre ressource, est liée à sa rareté qui elle-même dépend 
+du nombre possédé et de la capacité à remplacer. Quand 
+vous possédez une demi-douzaine de Reaper, comme 
+l’armée française, vous allez probablement les employer 
+avec autant de précaution que la plupart de vos systèmes 
+habités. On voit ici que la notion de coût, et donc de 
+complexité, est au cœur de cette qualité potentielle du 
+drone, qui n’est pas acquise intrinsèquement. 
+Qui plus est, plus un système est précieux, plus vous 
+allez dépenser d’autres ressources pour le protéger. En 
+l’équipant 
+de 
+contre-mesures 
+ou 
+de 
+systèmes 
+d’autoprotection, on augmentera encore le coût du 
+drone, qui deviendra encore plus précieux. Il est vraiment 
+regrettable de ne pas tenter de briser ce cercle vicieux, 
+alors que le drone peut enfin offrir cette possibilité.  
+Au cours de ces dernières années, l’évolution des 
+concepts d’UCAV13 couteux et furtifsxiii vers des projets 
+d’UAV où le caractère consommable est au cœur du 
+concept, peut être vue comme une prise de conscience 
+de certaines incohérences des premiers projets sur ce 
+point. Le nouveau projet de l’US Air Force, le Valkyriexiv 
+issu du programme LCASD14 montre probablement le 
+ 
+13 Unmanned Combat Aerial Vehicle : type d’UAV aux 
+performances et missions d’un avion de chasse. 
+14 Low-Cost Attritable Aircraft Strike Demonstrator : low cost 
+et consommable sont dans l’acronyme.
+
+[Page 23 / 107 | chars: 1510]
+--------------------------------------------------------------------------------
+
+23 
+ 
+chemin vers une meilleure application de cette qualité 
+typique du drone. 
+ 
+ 
+4. Dear / Difficult – délicat / difficile 
+ 
+La prise en compte de ce type de tâches comme aires 
+privilégiées d’expression des qualités des systèmes 
+automatisé est plus récente. Il s’agit dans ce cas d’une 
+notion liée à la performance supérieure du système 
+automatisée dans la réalisation d’une tâche. Cette 
+supériorité n’est pas directement liée à la répétitivité de 
+la tâche et à ses conséquences physiologiques sur 
+l’opérateur humain mais bien à une supériorité de la 
+machine dans la réalisation de la tâche. Cette supériorité 
+peut être caractérisée par la vitesse d’exécution et le taux 
+d’erreur. 
+Depuis maintenant longtemps, les robots industriels 
+effectuent des tâches difficiles (et ennuyeuses) avec une 
+bien meilleure précision que les humains. Dans le 
+domaine militaire, les systèmes d’auto-protection ou de 
+défense aérienne, où le temps de réaction est critique, 
+peuvent fonctionner selon des modes automatiques.  
+ Les progrès plus récents de l’IA et des capteurs (ces 
+derniers souvent oubliés, mais ils conditionnent la qualité 
+d’observation et in fine de décision) ont permis d’étendre 
+spectaculairement le champ d’application de ces 
+systèmes automatisés, vers des tâches plus complexes ou 
+dans des environnements plus variants.  
+Les tâches d’analyse de données font partie 
+intégrante de cette catégorie et certaines applications 
+médicales en constituent une illustration. Aux Etats-Unis,
+
+[Page 24 / 107 | chars: 1760]
+--------------------------------------------------------------------------------
+
+24 
+ 
+le National Lung Screening Trialxv a été l’occasion 
+d’évaluer la performance d’une IA dans la prédiction du 
+cancer du poumon à partir de l’étude d’une radiographie. 
+L’IA a été systématiquement plus performante que les six 
+radiologues en compétition, réduisant le taux d’erreur 
+jusqu’à 11%. Cela est plus impressionnant encore si l’on 
+prend en compte que les radiologues avaient des années 
+d’études et d’expérience pour arriver à ce résultat. 
+Cependant il faut noter deux points d’attention. D’une 
+part, plus de 43000 radiographies ont dû être analysées 
+par ce programme pour arriver à ce résultat. L’IA a bien 
+besoin d’une immense quantité de données pour établir 
+des corrélations. Par ailleurs, si une nouvelle forme de 
+tumeur apparaissait, le programme serait probablement 
+incapable de prédire un cancer. En effet, l’IA prédit le 
+futur à partir du passé. Dans ce cas, le travail des experts 
+humains 
+reste 
+fondamental 
+pour 
+faire 
+évoluer 
+l’algorithme et l’adapter aux évolutions de la réalité. 
+ 
+L’IA et les systèmes automatisés peuvent donc 
+démultiplier une expertise en améliorant son efficacité et 
+en évitant de longs temps d’entrainement et de 
+formation. Mais elle ne permettra probablement jamais 
+de réduire l’expertise humaine en dessous d’une certaine 
+masse critique. Par exemple, il faudra encore très 
+longtemps former des radiologues pour faire évoluer les 
+systèmes automatiques d’analyse de radiographies.  
+Ce phénomène est exacerbé par la diversité et 
+l’évolutivité 
+des 
+environnements 
+de 
+travail 
+ou 
+d’opération. Car plus un environnement est changeant, 
+plus sa prise en compte globale sera un défi pour l’IA, 
+nécessitant 
+des 
+moyens 
+d’entrainement 
+exponentiellement complexes. En effet, si un système
+
+[Page 25 / 107 | chars: 1551]
+--------------------------------------------------------------------------------
+
+25 
+ 
+automatisé peut agir plus efficacement dans un cadre 
+donné, il aura de grandes difficultés à improviser hors de 
+son domaine. Trois grandes options s’imposent alors : soit 
+on accepte le risque d’un comportement incontrôlé, soit 
+on interdit d’agir hors domaine, soit on pallie ces 
+difficultés en faisant de nouveau rentrer un humain dans 
+la boucle. Or les opérations militaires sont par leur nature 
+même le lieu privilégié de l’expression de la surprise. On 
+peut supposer sans grand risque qu’un adversaire 
+adapterait sans relâche ses tactiques pour opérer au 
+maximum aux limites du domaine d’efficacité de nos 
+systèmes automatisés. Cela constitue une dialectique 
+autonomie contre complexité des tâches, que seule la 
+cobotisation15 permet de dépasser aujourd’hui. 
+ 
+ 
+5. Avantages comparatifs du drone 
+ 
+Si la règle des « 4 D » permet d’appréhender 
+certaines spécificités d’emploi d’un système automatisé, 
+elle n’est qu’une approche parcellaire 
+dans la 
+caractérisation des qualités intrinsèques de ce système. 
+Or, comme nous le verrons plus loin, l’utilisation de 
+drones apporte également son lot de risques et de 
+limites. Il est donc primordial dans une logique 
+d’efficacité, de bien identifier les qualités potentielles de 
+ces systèmes dans un premier temps, afin de pouvoir en 
+ 
+15 Coopération entre humains, par extension systèmes 
+habités, et robots. Cette approche permet de pallier un 
+certain nombre de difficultés de conception en en recherchant 
+une synergie et un partage des tâches entre l’humain et le 
+drone.
+
+[Page 26 / 107 | chars: 1118]
+--------------------------------------------------------------------------------
+
+26 
+ 
+tirer un bénéfice opérationnel maximal. Pour cela, on doit 
+étudier certaines opportunités de conception d’un drone 
+et les conséquences qui en découlent : 
+ 
+Il n’y a pas d’humain à bord (critère H) : 
+- 
+Il peut être considéré comme consommable 
+(H1) : 
+o On 
+peut 
+dégrader 
+la 
+sûreté 
+de 
+fonctionnement de certains systèmes 
+(H1a) ; 
+o On peut prendre plus de risques 
+opérationnels dans son utilisation (H1b) 
+; 
+o On 
+peut 
+limiter 
+les 
+besoins 
+de 
+protection, contre-mesures ou auto-
+protection (H1c) ; 
+- 
+Il peut s’affranchir de certaines limites humaines 
+(H2) : 
+o On peut élargir son domaine d’emploi 
+physique (pression, accélération, etc.) 
+(H2a) ; 
+o On peut rallonger la durée des missions 
+au-delà de la fatigue humaine  (H2b) ; 
+o La source d’énergie peut-être la seule 
+limite 
+d’autonomie, 
+pas 
+de 
+ravitaillement en vivres (H2c, ce critère 
+est modulé par l’abrasivité du milieu) ; 
+- 
+Sa forme peut être complètement liée à sa 
+mission, son environnement et à sa charge utile 
+(H3) : 
+o Pas besoin de cockpit/ passerelle (H3a) 
+o Pas besoin de lieu de restauration ou de 
+repos (H3b) ;
+
+[Page 27 / 107 | chars: 1174]
+--------------------------------------------------------------------------------
+
+27 
+ 
+o Absence 
+de 
+tous 
+les 
+systèmes 
+environnementaux liés au maintien de la 
+vie (pressurisation, oxygène) (H3c) ; 
+o Opportunité 
+en 
+termes 
+de 
+miniaturisation (H3d) ; 
+- 
+Il peut embarquer une forme d’autonomie (A1) : 
+o Il peut effectuer un certain nombre de 
+tâches individuelles plus efficacement et 
+rapidement qu’un humain (A1a) ; 
+o Il n’est pas nécessaire d’avoir un 
+équipage déporté pour chaque drone, 
+un gain en termes de ressources 
+humaines 
+est 
+possible, 
+tant 
+en 
+opérations qu’à l’entrainement (A1b). 
+ 
+Cette liste ne vise pas l’exhaustivité mais permet de 
+poser une grille de lecture sur la plus-value d’un drone vis-
+à-vis d’un système habité. 
+A titre exemple, regardons comment les concepts 
+d’UCAV furtifs des années 2010 comme le Neuron16 ou 
+ses cousins interagissent avec cette grille. Nous 
+utiliserons une note (0 : avantage pas exploité, à 4 : 
+avantage exploité de manière décisive) afin de 
+caractériser l’expression de l’avantage comparatif du 
+drone vis-à-vis d’un système habité (en l’occurrence un 
+avion de chasse). 
+ 
+ 
+ 
+16 Le Neuron était bien un démonstrateur technologique plus 
+qu’un démonstrateur « preuve de concept ».
+
+[Page 28 / 107 | chars: 1254]
+--------------------------------------------------------------------------------
+
+28 
+ 
+H1A Economie sur 
+fiabilité 
+1 
+ 
+ 
+H1B 
+Prise de risque ops 
+1 
+ 
+ 
+H1C 
+Economie protection 
+0 
+ 
+ 
+H2A 
+Domaine d’emploi 
+0 
+ 
+Le domaine  de vol est plus limité d’un 
+chasseur habité. 
+H2B 
+Endurance 
+1 
+ 
+Les gains de forme ont permis de gagner 
+légèrement sur les réservoirs, mais sans 
+influence décisive sur l’endurance. 
+H2C 
+Indépendance rav. 
+vivres 
+N/A 
+ 
+ 
+H3A 
+Absence poste pil. 
+4 
+ 
+ 
+H3B 
+Absence zone repos 
+N/A 
+ 
+ 
+H3C 
+Absence sys environ. 
+(02…) 
+4 
+ 
+ 
+H3D 
+Miniaturisation 
+2 
+ 
+Un Neuron est certes plus petit qu’un 
+chasseur habité mais l’emport s’en 
+ressent. 
+A1A 
+Efficacité tâche 
+N/A 
+ 
+ 
+A1B 
+Gain RH 
+? 
+ 
+ 
+ 
+Cette approche doit évidemment être nuancée. On 
+observe cependant que l’UCAV furtif de grande taille 
+peine à démontrer sa valeur ajoutée, seuls les gains de 
+forme s’exprimant de manière nette. Cette relative faible 
+performance est principalement liée aux choix de 
+conception liés à la furtivité, qui nécessite de fortes 
+contraintes de formes et de coût. On remplace donc les 
+contraintes liées à la présence de l’homme (H3a) par 
+d’autres contraintes de conception. Par ailleurs 
+l’utilisation de formes furtives limite singulièrement les 
+gains possibles en termes de domaine de vol (H2b). Enfin,
+
+[Page 29 / 107 | chars: 1631]
+--------------------------------------------------------------------------------
+
+29 
+ 
+les gains attendus en capacité d’attrition (H1*) sont 
+fortement limités par l’utilisation d’une technologie par 
+nature coûteuse et complexe. 
+Le concept d’UCAV furtif se trouve ainsi dans une 
+situation paradoxale : en se parant d’une technologie 
+défensive potentiellement dispensable par sa nature 
+même de drone, il neutralise une bonne partie de son 
+potentiel de système non habité. D’une manière 
+générale, cela met bien en lumière la dialectique 
+coût/performance ou coût/complexité qui est au cœur de 
+l’efficacité du drone. 
+A l’analyse de cet exemple, on voit que le gain 
+potentiel en ressources humaines (RH) est l’un des 
+derniers domaines ou l’UCAV furtif (ou d’une manière 
+générale complexe) peut amener une vraie valeur 
+ajoutée. Mais n’oublions pas que cette capacité est 
+fortement liée au degré d’autonomie, sous peine de 
+devoir mettre un ou plusieurs opérateurs derrière chaque 
+drone. Or, plus un système et/ou son environnement de 
+mission sont complexes, plus les questions d’autonomie 
+amènent leur lot de risques associés.  Là encore, un drone 
+de combat trop complexe ou coûteux peine à dépasser 
+ses propres limites actuelles pour exprimer pleinement sa 
+pertinence. 
+L’évolution du programme MQ25 Stingray constitue 
+un autre exemple. Le programme initial de 2006 
+s’intitulait UCLASS (Unmanned Carrier-Launched Airborne 
+Surveillance and Strike). Il s’agissait alors d’un projet 
+d’UCAV furtif multi-mission embarqué sur porte-avions. 
+Après une première réorientation en 2012 vers un 
+aéronef ISR17 aux capacités d’engagement limitées, ce 
+ 
+17 Intelligence, Surveillance and Reconnaissance.
+
+[Page 30 / 107 | chars: 1477]
+--------------------------------------------------------------------------------
+
+30 
+ 
+programme a encore évolué en 2016 vers le concept 
+CBARS (Carrier-Based Aerial-Refueling System). Le 
+résultat aujourd’hui est le Stingray, qui est un ravitailleur 
+en vol furtif avec quelques capacités d’ISR et de relais de 
+communications.  
+Il est fort probable, qu’en ayant constaté les 
+difficultés de conception d’un tel drone, les responsables 
+du programme ont drastiquement revu leur ambition à la 
+baisse en termes de diversité de mission. En se 
+concentrant sur le ravitaillement, une mission  Dull (et 
+même un peu Dirty car elle n’attire pas les foules), au 
+cadre relativement simple qui permet d’envisager une 
+relative autonomie de décision18 et ne nécessite pas des 
+qualités dynamiques particulières, l’outil a retrouvé une 
+vraie cohérence et utilité19.  
+ 
+ 
+C. Les risques génériques liés à l’utilisation des 
+systèmes automatisés et leurs conséquences 
+ 
+Après avoir balayé certains avantages opérationnels 
+potentiels des drones, il convient de s’intéresser à 
+certains risques associés. Là encore, il ne s’agit pas d’être 
+exhaustif, mais d’identifier des points d’attention 
+pouvant guider des choix de conception. 
+Ici l’étude de la doctrine interarmées françaises 
+concernant l’emploi des drones aériensxvi ou l’IAxvii, ainsi 
+que de certains rapports spécialisés du centre de 
+ 
+18 Ceci d’autant plus que la cobotisation est possible. 
+19 La furtivité est ici utile dans le cadre du ravitaillement en 
+vols de chasseurs F35, eux-mêmes furtifs.
+
+[Page 31 / 107 | chars: 1485]
+--------------------------------------------------------------------------------
+
+31 
+ 
+recherche du congrès américainxviii, constitue une 
+première approche pertinente. 
+ 
+ 
+1. Perte de contrôle du système automatisé  
+ 
+Un des premiers risques qui vient à l’esprit à propos 
+de l’utilisation des drones est lié au danger de perte de 
+liaison avec son pilote ou superviseur ou à la possibilité 
+d’interférences ennemies. Comme vu plus tôt, l’emploi 
+d’un drone pleinement automatisé reste aujourd’hui 
+éloigné. Les communications demeurent donc un point 
+central dans le fonctionnement des drones, en particulier 
+leur fiabilité et leur débit.  
+Le développement de l’autonomie des systèmes 
+limite la dépendance à ces deux qualités. D’une part, elle 
+réduit la nécessité d’une communication continue pour 
+effectuer la mission. D’autre part, le traitement en 
+interne des données par le drone limite également le 
+volume 
+de 
+informations 
+descendante 
+vers 
+son 
+superviseur. Ce second point est crucial au regard de la 
+potentielle saturation rapide de nos ressources spectrales 
+liée à la multiplication d’objets communicants sur le 
+champ de bataille. 
+L’élongation 
+des 
+communications 
+constitue 
+également un défi. En particulier dans le cadre des 
+communications 
+BLOS20, 
+la 
+multiplication 
+des 
+intermédiaires de communications (relais, satellites, etc.) 
+constituent également une multiplication de possibles 
+dysfonctionnements, de goulots d’étranglements, ou de 
+ 
+20 Beyond Line Of Sight : au-delà de l’horizon, par opposition à 
+LOS (Line Of Sight).
+
+[Page 32 / 107 | chars: 1532]
+--------------------------------------------------------------------------------
+
+32 
+ 
+points d’entrés de cyber-attaques ennemis. Par ailleurs, 
+la 
+militarisation 
+accrue 
+de 
+l’espace 
+questionne 
+singulièrement le recours aux satellites pour le contrôle 
+BLOS de nos futurs drones pour des missions de haute 
+intensité. La cobotisation doit donc être privilégiée pour 
+le moment dans les nouveaux programmes parce qu’elle 
+règle en partie cette question épineuse par la réduction 
+des distances entre l’humain et le drone. 
+Concernant le risque cyber, on pourrait considérer 
+que l’utilisation de logiciels de prise de décision augmente 
+la probabilité ou l’efficacité des cyber-attaques sur nos 
+drones. Il n’est pas certain que ce risque soit 
+significativement plus important que le risque similaire 
+déjà existant vis-à-vis de nos systèmes d’armes modernes 
+qui reposent d’ores-et-déjà sur de l’informatique 
+sophistiquée et des réseaux de communication. Si une 
+conception centrée sur la SSI21 est évidemment 
+primordiale, ici encore l’autonomie croissante, par sa 
+capacité à réduire les flux de communications, peut 
+participer à la diminution du risque cyber. 
+ 
+ 
+2. Erreur de jugement / précision 
+ 
+Comme 
+vu 
+précédemment, 
+les 
+systèmes 
+automatisés, notamment grâce à de l’AI, peuvent à 
+termes être plus performant que l’humain dans la 
+réalisation de certaines tâches, en particulier sous 
+pression temporelle. Par exemple, en environnement 
+opérationnel, la recherche et la désignation d’objectifs 
+pourraient 
+constituer 
+des 
+domaines 
+d’expression 
+ 
+21 Sécurité des Systèmes d’Information.
+
+[Page 33 / 107 | chars: 1753]
+--------------------------------------------------------------------------------
+
+33 
+ 
+privilégiés des qualités des systèmes automatisés. Ils sont 
+utilisés d’ailleurs depuis longtemps dans des cadres 
+défensifs : le système de défense courte portée anti-
+missile Phalanx est conçue pour détecter, désigner et 
+engager ses cibles automatiquement depuis les années 
+1970. Mais l’IA peut permettre d’élargir le spectre 
+d’emploi de tels concepts.  
+Cependant, l’IA, telle une boite noire, ne peut par 
+construction être totalement prédictible. L’utilisation de 
+tels algorithmes ne peut jamais tout à fait exclure 
+l’émergence d’un comportement imprévu. La doctrine 
+française encadre ce risque par l’omniprésence de 
+l’homme dans les décisions d’engagement : « l’homme 
+supervise en permanence les systèmes de drones aériens 
+et prend les décisions d’engagement d’une cible et 
+d’ouverture de feu »xix. Cependant, cette solution 
+apporte ses limites. Les questions de pression temporelle 
+et de temps de réaction étant ici fondamentales. 
+Imaginons un système de défense aérien qui ne fait que 
+détecter et désigner des missiles et qui laisse l’ordre 
+d’engagement à l’humain. Imaginons qu’il n’y ait que trois 
+secondes pour prendre la décision (dont une seconde 
+sera déjà perdue par le temps de réaction humain) : quel 
+jugement va être capable de formuler l’opérateur en deux 
+secondes ? Il va simplement réagir trop tard, ou accepter 
+la proposition sans avoir la capacité de l’analyser. 
+L’imprédictibilité de la réaction du cerveau humain sous 
+forte pression temporelle n’est-elle pas ici au moins 
+équivalente à l’imprédictibilité du drone muni d’une IA ? 
+N’est-on pas dans ce cas plutôt dans l’illusion d’un 
+contrôle humain ? 
+Le biais qui consiste à attendre d’un système 
+autonome 
+des 
+niveaux 
+de 
+taux 
+d’erreurs 
+très
+
+[Page 34 / 107 | chars: 585]
+--------------------------------------------------------------------------------
+
+34 
+ 
+significativement inférieurs à celui des humains peut nous 
+mener au paradoxe de ne pas utiliser des systèmes 
+nettement plus sûrs et fiables que les anciens, 
+simplement parce qu’ils ne sont pas parfaitement sûrs et 
+fiablesxx. 
+L’utilisation mixte de modes automatiques ou semi-
+automatiques en fonction des circonstances, alliée à des 
+évaluations poussées des réactions des différentes IA 
+d’un système de drone tout au cours de sa vie 
+opérationnelle, sont le chemin vers une utilisation 
+réaliste et efficace de ces outils, en particulier dans un 
+cadre de haute intensité.
+
+[Page 35 / 107 | chars: 1689]
+--------------------------------------------------------------------------------
+
+35 
+ 
+3. Risque d’escalade tactique 
+ 
+Si, par une conception ad hoc, un drone exprime son 
+potentiel consommable et peut prendre plus de risques, 
+on pourrait craindre un danger d’escalade tactique. « Un 
+engagement moindre sur le terrain et la diminution des 
+risques de pertes humaines offertes par ces systèmes 
+pourraient amener à redouter un recours plus désinhibé 
+à l’usage de la force »xxi.  
+La notion de symétrie du combat parait importante 
+pour étudier cette question. Dans le cadre d’un combat 
+entre une unité classique contre des drones, il semble 
+acquis que le seuil d’emploi de la force ou de la coercition 
+pour détruire ou saisir un drone est abaissé. Le nombre 
+relativement important de drones abattus ou saisis 
+atteste d’une forme de désinhibition naturelle de la 
+violence envers ce qui n’est qu’une machine. 
+A l’opposé, si l’on a pu s’interroger sur la 
+déshumanisation de l’opérateur de drones tuant un 
+terroriste à des dizaines de milliers de kilomètres, son 
+expérience est-elle si différente du pilote de chasse qui 
+tire une bombe à 15000 pieds d’altitude ou de l’artilleur 
+qui délivre ses obus sans même voir sa cible ? Il semble 
+plus réaliste de considérer que l’absence de peur (et de 
+colère dans le cas d’un drone non télé-opéré) et la 
+négation potentielle du concept de légitime défense (en 
+particulier si le drone est plutôt consommable) réduisent 
+le risque d’emploi intempestif de la violence à travers un 
+système automatisé.  
+Dans le cas d’un combat dronisé de part-et-d’autres, 
+les 
+influences 
+contradictoires 
+des 
+moindres 
+conséquences de la violence et de l’absence d’effets 
+émotionnels permettent difficilement d’évaluer le risque
+
+[Page 36 / 107 | chars: 1640]
+--------------------------------------------------------------------------------
+
+36 
+ 
+d’escalade. Dans certaines conditions, elle pourrait en 
+tout cas être très rapide, car non limitée par la lenteur des 
+réactions humaines… mais non incontrôlée, les règles 
+d’engagement 
+étant 
+parfaitement 
+respectées. 
+L’environnement du combat devrait y jouer un rôle 
+important. En effet, dans un pur combat drones contre 
+drones, les seuls morts ou blessés proviendraient 
+uniquement des dommages collatéraux. Au-delà des 
+aspects éthiques, il est probable qu’un tel combat verrait 
+sa violence fortement inhibée. Car si l’on peut accepter 
+de prendre des risques de dommages collatéraux pour 
+dégager nos soldats lors d’une situation de Troop In 
+Contact22, en s’appuyant sur la notion de proportionnalité 
+issue du droit des conflits armés, cela semble bien plus 
+difficile pour défendre une machine. 
+Ici le drone montre une de ses faiblesses. D’une part, 
+il est intrinsèquement plus difficile à défendre, à appuyer 
+au sens de l’appui feu, s’il est seul au contact dans des 
+zones au risque de dommages collatéraux avérés. A 
+l’opposé, s’il est employé seul dans une zone à faibles 
+risques collatéraux, il offre une grande liberté dans 
+l’application de la violence à son adversaire. Dans les deux 
+cas, la cobotisation peut à nouveau constituer un moyen 
+de moduler la difficulté, en permettant à l’humain de faire 
+bénéficier au drone proche d’une partie de sa valeur 
+morale, et en inhibant par là même la violence adverse. 
+ 
+ 
+ 
+22 Ou TIC : notion utilisée pour caractériser l’urgence d’un 
+appui feu, elle permet le plus souvent de faire évoluer les 
+règles d’engagement en termes de calcul de dommages 
+collatéraux.
+
+[Page 37 / 107 | chars: 1664]
+--------------------------------------------------------------------------------
+
+37 
+ 
+4. Risque d’escalade politique 
+ 
+La notion d’escalade se pose évidemment à des 
+niveaux plus élevés. On peut évidemment considérer que 
+la réduction du risque de pertes humaines désinhibe 
+l’utilisation de la force d’une armée équipée de drones 
+pour le décideur politique. C’est d’ailleurs bien l’objet de 
+tout système d’armes de minimiser les risques de ses 
+troupes avec un effet maximal pour l’ennemi. Cette 
+forme de liberté d’action est au cœur même du concept 
+de systèmes de drones. 
+Le procès des nouvelles armes qui seraient 
+dangereuses ou immorales car donnant un avantage trop 
+important à leur utilisateur est vieux comme le monde, et 
+il a rarement freiné leur emploi.  
+De manière plus objective, la question de la licéité 
+des armes au sens du droit des conflits armés s’appuie 
+principalement sur les notions de proportionnalité et de 
+distinction mais n’a jamais fait cas d’un concept 
+d’avantage disproportionné au combat. Même si, au 
+demeurant, une prise de risques disproportionnée entre 
+les deux parties d’un conflit peut constituer une 
+vulnérabilité dans le champ des perceptions pour le 
+belligérant favorisé. 
+Imaginons maintenant un combat plus symétrique 
+entre deux armées dronisées. Celui qui accepte de mettre 
+également des troupes humaines en jeu ne bénéficiera-t-
+il pas d’une légitimité plus forte, et d’une visibilité de sa 
+volonté politique plus affirmée ? Ne sera-t-il pas plus aisé 
+de rechercher la sympathie et l’appui d’autres acteurs 
+pour une force comportant des soldats humains ? S’il est 
+difficile de trancher ces questions (la raison du plus fort 
+n’est-elle pas toujours la meilleure ?), on ne peut que
+
+[Page 38 / 107 | chars: 1591]
+--------------------------------------------------------------------------------
+
+38 
+ 
+concéder que la valeur politique du soldat humain sera 
+toujours supérieure à celle du robot. Ce qui fait la valeur 
+tactique du robot, fait ici sa faiblesse politique. Cet 
+argument plaide encore pour la recherche de synergie 
+entre l’homme et la machine au sein de forces hybrides.  
+ 
+ 
+5. Risques juridiques 
+ 
+Conformément au droit des conflits armés (DCA), la 
+licéité d’emploi des drones au combat est lié au respect 
+« des principes de distinction, nécessité militaire, 
+proportionnalité, précaution et humanité »xxii. Sans 
+entrer dans le détail des complexes questions juridiques, 
+on peut noter que si le sujet des systèmes autonomes 
+létaux fait l’objet de discussion au sein de la Convention 
+sur 
+Certaines 
+Armes 
+Classiques 
+(CCAC), 
+aucune 
+proposition d’interdiction n’est en vue. D’une part, on 
+peut estimer raisonnablement que l’utilisation à bon 
+escient du jugement humain dans les chaines de décision 
+permettra d’assurer les principes du DCA. D’autre part, 
+toutes les grandes puissances militaires s’engagent dans 
+la dronisation de leur outil militaire et vont constituer un 
+lobby puissant en faveur de sa licéité. 
+Au-delà de ce sujet, certaines spécificités de 
+conception apporteront un nécessaire rééquilibrage des 
+responsabilités en cas de dysfonctionnement. De nos 
+jours, le dysfonctionnement d’un système automatisé 
+avec de la GOFAI peut-être disséqué et finement analysé. 
+Par rétro-ingénierie, on est capable d’identifier la ligne de 
+code défaillante et d’éventuellement mettre en cause la 
+responsabilité du fabriquant. Le caractère de « boite
+
+[Page 39 / 107 | chars: 1542]
+--------------------------------------------------------------------------------
+
+39 
+ 
+noire » des nouvelles technologie d’IA limitera fortement 
+cette capacité. Dans les couloirs de l’EPNER23, on peut lire 
+cette citation de Ferdinand Ferber24 : « Concevoir une 
+machine volante n’est rien, Fabriquer est peu, l’essayer 
+c’est tout ». Si cette affirmation peut être aujourd’hui 
+nuancée dans le cadre de l’aéronautique, elle illustre bien 
+le défi des systèmes basés sur de l’IA. En termes de 
+performance et fiabilité du résultat, seule la qualité et 
+l’étendue de l’évaluation des systèmes pourront faire foi. 
+Les capacités de tests et d’expérimentations des 
+industriels, des armées et de la DGA devront 
+nécessairement monter encore en puissance pour relever 
+ce défi ; sous peine de ne pouvoir assurer sereinement un 
+transfert de responsabilité juridique de l’industriel vers 
+l’Etat, prérequis à toute utilisation d’un système d’armes. 
+ 
+ 
+D. Spécificités des milieux aériens et maritimes au 
+regard des systèmes automatisés  
+ 
+Comme tous les systèmes d’armes, les systèmes de 
+drones interagissent avec un environnement particulier. 
+Les spécificités de chacun des milieux physiques 
+permettent d’exprimer plus ou moins les qualités et 
+limites potentielles de ces outils. Afin de caractériser ces 
+interactions l’utilisation d’une matrice SWOT25 permet 
+ 
+23 Ecole du Personnel Navigant d’Essai et de Réception : Ecole 
+des essais en vol. 
+24 Pionner de l’aviation française, décédé en 1909. 
+25 Strenghts Weaknesses Opportunities Threats : forces et 
+faiblesses (endogènes), opportunités et menaces (exogènes)
+
+[Page 40 / 107 | chars: 1421]
+--------------------------------------------------------------------------------
+
+40 
+ 
+d’identifier quelles qualités intrinsèques potentielles du 
+drone sont privilégiées en fonction du milieu. 
+ 
+ 
+1. Milieu aérien 
+ 
+Il s’agit du milieu le plus exploré jusqu’à présent. Les 
+raisons en sont multiples. Avant les progrès relativement 
+récents de l’automatisation, la télé-opération était la 
+seule possibilité envisageable. Or, le milieu aérien, par sa 
+perméabilité aux ondes, sa « transparence », permet une 
+communication relativement aisée, la prise d’altitude des 
+mobiles permettant également d’allonger les distances 
+effectives de communication LOS. 
+Par ailleurs, pour les mêmes raisons, ce milieu 
+permet d’avoir une situation tactique claire de l’ensemble 
+des mobiles. Cela autorise la gestion de l’anti-abordage 
+sans que des capteurs dévolus à cette tâche soient 
+embarqués. De plus, le développement depuis de 
+nombreuses années du vol aux instruments, a créé un 
+environnement technique (GPS, radio-navigation, etc.) et 
+procédural (contrôle aérien, règles de navigation 
+aérienne, etc.) propices à l’utilisation de drones. Enfin, 
+c’est un milieu avec peu de friction, où, en dehors du cas 
+particulier des orages violents, l’environnement nécessite 
+rarement à lui seul une modification de la mission et de la 
+navigation. 
+C’est donc principalement pour des raisons de 
+simplicité et de maturité technique que le milieu aérien a 
+été le premier terrain d’opérations pour les drones.
+
+[Page 41 / 107 | chars: 766]
+--------------------------------------------------------------------------------
+
+41 
+ 
+Forces : 
+- 
+Les élongations de communications LOS peuvent 
+être significatives entre plusieurs mobiles 
+aériens ; 
+- 
+La transparence du milieu facilite l’efficacité des 
+capteurs embarqués et donc le développement 
+de l’autonomie (A1*) ; 
+- 
+Les gains de formes liés à l’absence de cockpit et 
+systèmes environnementaux (H3a et H3d) sont 
+significatifs au regard de la sensibilité de la 
+question de la masse ; 
+- 
+La réduction importante des coûts liés à la 
+fiabilité de l’aéronautique habitée peut être 
+significative (H1a) ; 
+- 
+La fluidité du milieu permet d’atteindre des 
+accélérations et des altitudes qui ne peuvent être 
+supportées par l’homme (H2a). 
+ 
+Faiblesses : 
+- 
+Le caractère énergivore du vol limite les qualités 
+d’endurance (H2b et H2c).
+
+[Page 42 / 107 | chars: 1086]
+--------------------------------------------------------------------------------
+
+42 
+ 
+Opportunités : 
+- 
+On peut s’appuyer sur le marché civil pour le 
+développement du vol autonome. 
+ 
+Menace : 
+- 
+Ce milieu est perméable aux futures armes à 
+énergie dirigée anti-drones ; 
+- 
+Le Counter-UAV26 est en plein développement. 
+ 
+Etant donné la grande sensibilité de l’aéronautique 
+aux questions de forme (aérodynamisme) et de fiabilité, 
+on peut légitimement interroger le concept d’aéronefs 
+optionnellement habitables qui est parfois utilisés pour 
+décrire certains programmes futurs. En repassant ce 
+concept à la lumière de l’analyse supra, il semble bien 
+difficile de justifier d’un outil qui semble combiner les 
+contraintes d’un de conception d’un aéronef habité avec 
+les limitations et risques d’un UAV. 
+ 
+ 
+2. La surface des mers 
+ 
+Forces : 
+- 
+La combinaison de zones immenses avec des 
+vitesses limitées permet d’employer à plein les 
+qualités d’endurance du drone (H2b). Ceci est 
+amplifié par une consommation métrique 
+d’énergie comparativement faible pour des 
+charges utiles lourdes ; 
+ 
+26 Doctrines et technologies de défense anti-drones aériens.
+
+[Page 43 / 107 | chars: 1287]
+--------------------------------------------------------------------------------
+
+43 
+ 
+- 
+Un certain nombre de mission de recherche ou 
+de surveillance (surface ZEE27, approches sous-
+marines) sont fastidieuses (Dull) en plus de 
+nécessiter de l’endurance ; 
+- 
+Les tâches constitutives de certaines missions 
+(lutte anti sous-marine, guerre des mines) 
+combinent le caractère Dull et Dear et 
+permettrait d’exprimer les qualités d’une AI ; 
+- 
+L’éloignement social intrinsèque aux missions en 
+mer en font des tâches Dirty qui trouvent moins 
+de candidats dans une société hyper-connectée. 
+ 
+Faiblesses : 
+- 
+La portée de communication LOS est faible. En 
+effet, sans prendre en compte des effets non 
+permanents de propagation, la distance de 
+communication à la surface de la mer est 
+directement liée à la hauteur des antennes de 
+l’émetteur 
+et 
+du 
+récepteur 
+et 
+dépasse 
+difficilement 
+quelques 
+dizaines 
+de 
+milles 
+nautiques. Cela limite fortement les capacités de 
+télé-opération (en dehors de l’utilisation de 
+relais, aériens ou satellitaires) et implique de 
+développer l’automatisation de tels systèmes. Ce 
+sont d’ailleurs bien les progrès récents de l’IA qui 
+autorisent le développement actuel des USV. 
+ 
+Opportunités : 
+- 
+L’augmentation de la pression adverse aux 
+abords de nos approches ou de nos ZEE nécessite 
+ 
+27 Zone Economique Exclusive.
+
+[Page 44 / 107 | chars: 1328]
+--------------------------------------------------------------------------------
+
+44 
+ 
+un effort croissant de surveillance et de 
+présence. 
+ 
+Menaces : 
+- 
+La mer est un milieu abrasif. L’exposition répétée 
+aux chocs et aux intempéries constituent un des 
+freins à l’endurance d’un USV. L’absence 
+d’humains à bord limitant les possibilités de 
+réparation, une attention particulière doit être 
+apporté à la redondance et la fiabilité des 
+systèmes. Pour des USV de petites tailles ou 
+tailles moyenne, la capacité à subir des 
+opérations de maintenance directement en mer, 
+par interaction avec un navire habité, peut 
+démultiplier son endurance et son efficacité ;  
+- 
+La mer est un milieu mouvant, quasi discontinu. 
+Les phénomènes de houle peuvent constituer 
+une limite à la miniaturisation des USV, dans un 
+souci de tenue à la mer. D’autre part la grande 
+variation des conditions météorologiques et de 
+courants nécessitent un niveau de conscience 
+situationnelle élevé ; 
+- 
+Les interactions avec des systèmes habités civils 
+sont basés sur l’évitement à vue et une grande 
+variété de mobiles et de règles associées. Cette 
+difficulté est amplifiée par la limitation de portée 
+des capteurs, et l’absence, hors zone très 
+spécifiques, 
+d’organisme 
+de 
+contrôle. 
+La 
+complexité de l’intégration des drones de 
+surfaces au milieu du trafic civil constitue donc 
+un défi pour la conception des USV.
+
+[Page 45 / 107 | chars: 1342]
+--------------------------------------------------------------------------------
+
+45 
+ 
+En synthèse, la surface des mers permet d’exprimer 
+très efficacement les qualités d’endurance du drone. La 
+communication et la détection y sont par contre plus 
+délicates, et nécessitent des efforts sur le développement 
+de l’autonomie. A court terme, la cobotisation ou 
+l’utilisation en environnement côtier, à portée de 
+communication de la terre, constituent un moyen 
+d’explorer ces capacités à moindres coûts et risques. 
+ 
+ 
+3. Le milieu sous-marin 
+ 
+Forces : 
+- 
+Les 
+missions 
+de 
+lutte 
+anti 
+sous-marine 
+nécessitent une analyse de donnée fine et dans 
+la durée (tâche Dull / Dear) ; 
+- 
+Il est très compliqué et dangereux de faire vivre 
+un être humain sous l’eau. A ce titre, le gain en 
+liberté de conception lié à l’abandon des 
+systèmes environnementaux (pression, O2, 
+vivres…) et de sécurité est maximal (H1a, H3*) ; 
+- 
+Plus encore qu’à la surface, la conjugaison de 
+zones immenses et faibles vitesses est exacerbée 
+par les faibles portées des capteurs et permet de 
+maximiser 
+le 
+rendement 
+des 
+qualités 
+d’endurance du drone (H2b) ; 
+- 
+C’est un espace encore peu utilisé par des 
+applications civiles. D’une part, cela limite 
+drastiquement 
+l’ampleur 
+des 
+questions 
+règlementaires. D’autre part, les problématiques 
+d’intégration dans un trafic civil et de capacités 
+d’évitement sont largement absentes.
+
+[Page 46 / 107 | chars: 802]
+--------------------------------------------------------------------------------
+
+46 
+ 
+ 
+Faiblesses : 
+- 
+La communication y est extrêmement complexe 
+avec des portées faibles : cela nécessite une 
+conception accès sur l’autonomie. 
+ 
+Opportunités : 
+- 
+La pression sous-marine adverse est en 
+constante augmentation ; 
+- 
+Le fond des océans va devenir un enjeu fort, se 
+territorialiser et probablement se militariser 
+(seabed warfarexxiii). 
+ 
+Menaces : 
+- 
+A l’heure actuelle, il n’existe pas de menace 
+spécifique au milieu sous-marin. 
+ 
+Le milieu sous-marin semble ainsi constituer un 
+terrain très favorable pour l’utilisation des systèmes 
+automatisés. 
+Les 
+difficultés 
+de 
+communication 
+nécessitent certes de mettre l’accent sur l’autonomie des 
+AUV, mais cette tâche est facilitée par un environnement 
+stable et l’absence d’interaction avec d’autres véhicules 
+habités.
+
+[Page 47 / 107 | chars: 1236]
+--------------------------------------------------------------------------------
+
+47 
+ 
+Programmes de drones navals 
+ 
+A. L’US Navy 
+ 
+Les programmes d’AUV et d’USV de l’US Navy sont 
+sans nul doute les exemples les plus aboutis et les plus 
+ambitieux (parmi les projets dont les sources sont 
+atteignables et fiables). Ils constituent un repère adéquat 
+pour mesurer les défis que doit relever la France. 
+ 
+ 
+1. Le concept de redistribution des forces 
+ 
+Il y a quelques années, l’US Navy a ré-affirmé sa 
+volonté de faire évoluer son format drastiquement d’ici 
+2045xxiv. Considérant la menace grandissante des forces 
+adverses potentielles, tant en qualité qu’en quantité, la 
+transition vers une architecture de flotte distribuée sur un 
+plus grand nombre d’unités (jusqu’à 500), de tailles et de 
+capacités variables a été décidée. En réponse au 
+développement des capacités d’A2/AD28 adverses une 
+telle architecture basée sur le nombre apporterait 
+notamment les avantages opérationnels suivantsxxv : 
+- 
+Augmentation de la complexité d’identification 
+et de ciblage pour l’adversaire ; 
+- 
+Diminution des conséquences de la perte d’une 
+unité sur les capacités globales d’une force ; 
+- 
+Meilleure capacité d’adaptation de la force aux 
+changements de situation et de mission. 
+ 
+28 Anti-Access / Aera-Denial.
+
+[Page 48 / 107 | chars: 539]
+--------------------------------------------------------------------------------
+
+48 
+ 
+Afin de rendre possible cette augmentation de masse 
+dans un environnement toujours contraint en termes de 
+budget, et surtout de ressources humaines, l’utilisation 
+en nombre d’USV est envisagée (cf fig. 1xxvi). 
+Dans cette future flotte, les différents types d’USV 
+spécialisés 
+constitueraient 
+70% 
+du 
+nombre 
+de 
+plateformes de surface. Par ailleurs, le nombre d’unités 
+de surface de grande taille (LSC29) diminuerait au profit du 
+ 
+29 Large Surface Combattant. 
+Figure 1 : Redistribution des forces de surface dans l’US Navy
+
+[Page 49 / 107 | chars: 1126]
+--------------------------------------------------------------------------------
+
+49 
+ 
+nombre d’unités de taille moindre (SSC30), cela étant 
+rendu possible par le déport de capacités sur les USV 
+accompagnant la force. Ces USV agiraient principalement 
+comme « chargeurs » de munitions supplémentaires, 
+démultipliant la capacité de feu, ou comme capteurs 
+déportés, participant au réseau de données de la force à 
+la mer. 
+Pour être efficace, cette utilisation de drones devrait 
+utiliser les principes de la cobotisation, permettant en 
+cascade la spécialisation des drones, donc la maitrise de 
+leurs coûts (financiers et RH), et in fine leur nombre 
+important, qui est cœur du concept de cette architecture. 
+ 
+ 
+2. La typologie des USV et AUV américains 
+ 
+Afin d’atteindre cet ambitieux objectif de dronisation 
+de sa flotte, l’US Navy a lancé depuis quelques années 
+différents programmes d’essais et d’expérimentations 
+d’USV et d’AUV. Ces programmes, centrés sur les 
+plateformes, ont été différenciés par la taille des unités 
+considérées. Ils sont nommés du plus lourd au plus léger : 
+LUSV, MUSV, SUSV, VSUSV ainsi que XLUUV, LUUV, 
+MUUV, SUUV (cf. fig. 2 et 3). 
+ 
+30 Small Surface Combattant.
+
+[Page 50 / 107 | chars: 53]
+--------------------------------------------------------------------------------
+
+50 
+ 
+ 
+ 
+Figure 2 : Typologie des USV dans l’US Navy
+
+[Page 51 / 107 | chars: 421]
+--------------------------------------------------------------------------------
+
+51 
+ 
+ 
+3. Les programmes LUSV – Ghost fleet Overlord 
+ 
+Le programme LUSV de l’US Navy a été lancé en mars 
+2019 et vise une première utilisation opérationnelle en 
+2024. Il suit une logique incrémentale pour laquelle le 
+développement des technologies de l’automatisation 
+sont prioritaires, l’ambition finale étant d’opérer des 
+LUSV capables de fonctionner de manière semi-
+Figure 3 : Typologie des UAV dans l’US Navy
+
+[Page 52 / 107 | chars: 395]
+--------------------------------------------------------------------------------
+
+52 
+ 
+autonomone 
+à 
+autonome, 
+indépendamment 
+ou 
+conjointement à des navires habités. Il s’appuie sur deux 
+programmes expérimentaux distincts 
+En 2018, l’expérimentation Ghost Fleet Overlord 
+(GFO)a été lancée par le Strategic Capabilities Office 
+(SCO) afin d’accélérer le processus d’acquisition des 
+LUSV.  
+Figure 4 : Chronologie prévisionnelle des différents programmes USV de l’US Navy
+
+[Page 53 / 107 | chars: 1675]
+--------------------------------------------------------------------------------
+
+53 
+ 
+Durant la première phase, clôturée en septembre 
+2019, des navires commerciaux ont été convertis en USV 
+afin de développer et tester les technologies liées à 
+l’automatisation de la navigation et l’intégration des 
+systèmes. Plus de 600 heures de fonctionnement 
+autonome ont été exécutées dont plusieurs transits dans 
+des environnements complexesxxvii. En particulier en juin 
+2020, un bâtiment a effectué un transit de plus de 3200 
+nautiques, sur quatre jours, dont 180 heures d’opérations 
+en 
+situation 
+d’anti-abordage 
+en 
+respectant 
+la 
+réglementation internationale COLREG31. La phase deux 
+du programme GFO, se concentre aujourd’hui sur 
+l’intégration de systèmes C232 et de diverses charges 
+utiles, tout en poursuivant des expérimentations avec 
+deux LUSV supplémentaires (amenant le total à quatre). 
+En parallèle, le programme de production d’un 
+nouveau prototype intermédiaire a été lancé en 2020. 
+Avec une conception plus proche du système final, il 
+devrait permettre de préciser les spécifications et de 
+mitiger les risques du programme général LUSV, alors que 
+le programme GFO continue à développer les briques 
+technologiques 
+et 
+expérimente 
+les 
+premières 
+intégrations dans la flotte. 
+Cette méthode programmatique est un bon exemple 
+du volontarisme et du pragmatisme nécessaires pour 
+relever le défi des technologies de rupture. Il est 
+volontariste parce qu’il ne fait pas l’impasse sur 
+l’utilisation de démonstrateurs qui n’ont pas vocation à 
+déboucher 
+directement 
+sur 
+une 
+utilisation 
+opérationnelle, mais bien à développer les briques 
+ 
+31 International Regulations for Preventing Collisions at Sea. 
+32 Command and Control.
+
+[Page 54 / 107 | chars: 1358]
+--------------------------------------------------------------------------------
+
+54 
+ 
+technologiques 
+souveraines 
+indispensables. 
+Il 
+est 
+pragmatique, parce qu’il n’hésite pas à utiliser des 
+prototypes ou des porteurs existants, pour mieux se 
+concentrer sur l’essence de la rupture technologique. 
+Cette stratégie de développement et d’acquisition 
+incrémentale, où l’on en apprend en marchant, semble 
+être la plus efficace pour aborder l’application des 
+technologies de rupture. 
+ 
+ 
+4. Les programme MUSV – Le Sea Hunter 
+ 
+En 2010, la DARPA33 a lancé le programme ACTUV34 
+qui a notamment donné lieu à la mise à l’eau en 2016 d’un 
+démonstrateur : le Sea Hunter.  
+Ce trimaran, préfigure ce que l’US Navy envisage 
+pour ces futurs MUSV. Ils doivent être des systèmes à bas 
+coûts, forte endurance et modulaires. Ils sont conçus 
+pour être des unités potentiellement consommables dans 
+un conflit de haute intensité équilibréxxviii. 
+Le Sea Hunter, long de 40 mètres et déplaçant 145 
+tonnes, est censé être opérationnel jusqu’à un état de 
+mer 5 et résister à un état de mer 735. Il est propulsé par 
+deux moteurs diesel et peut atteindre une vitesse 
+maximale de 27 nœuds, avec une autonomie maximale 
+théorique de 90 joursxxix. 
+ 
+33 Defense Advanced Research Projects Agency. 
+34 Anti-submarine Warfare Continuous Trail Unmanned Vessel. 
+35 Echelle de Douglas : Mer 5 équivaut à 4 mètres de creux, 
+Mer 7 à 9 mètres de creux.
+
+[Page 55 / 107 | chars: 515]
+--------------------------------------------------------------------------------
+
+55 
+ 
+A l’automne 2018, il a effectué une navigation 
+autonome longue distance lors d’un aller-retour San 
+Diego – Pearl Harbor. Lors de l’aller, il a subi trois 
+maintenances en mer par l’équipage du navire 
+accompagnateur, afin de rétablir la redondance de 
+certains systèmes. Lors du voyage retour de dix jours, il a 
+accompli sa navigation sans aucune aide extérieure, 
+validant une étape significativexxx. Un deuxième 
+exemplaire est aujourd’hui en construction. 
+ 
+ 
+Figure 5 : MUSV Sea Hunter (photo US Navy)
+
+[Page 56 / 107 | chars: 1064]
+--------------------------------------------------------------------------------
+
+56 
+ 
+5. L’expérimentation pratique des USV 
+ 
+En mai 2019, le Surface Development Squadron 1 
+(SURFDEVRON-1) a été créé afin, notamment, de 
+superviser les expérimentations et de définir les futures 
+doctrines d’emploi des USV au sein de l’US Navy36. D’ici la 
+fin de l’année 2021, deux USV du programme GFO et les 
+deux 
+Sea 
+Hunter 
+seront 
+transférés 
+sous 
+son 
+commandement, avec une cible de sept USV à la fin de 
+l’année 2023. L’année 2021 devrait voir les premières 
+expérimentations d’intégration d’un MUSV et d’un LUSV 
+au sein d’un groupe aéronavalxxxi. 
+Alors même que les premiers jalons de programmes 
+d’acquisition plus classiques de LUSV et MUSV ont été 
+lancés récemment, les efforts sont poursuivis sur de 
+nouveaux démonstrateurs. En menant de front ces deux 
+phases habituellement plus séquencées, l’US Navy 
+accepte le risque d’obtenir des premières capacités 
+imparfaitement définies, mais redémontre sa volonté 
+d’aller le plus vite possible. 
+ 
+36 Cette unité est également chargée de l’armement des 
+premiers destroyers de classe Zumvalt.
+
+[Page 57 / 107 | chars: 617]
+--------------------------------------------------------------------------------
+
+57 
+ 
+Cela souligne à nouveau la nécessité d’accepter une 
+phase d’exploration technique et opérationnelle pour ces 
+nouvelles armes. En effet, l’utilisation de drones à haut 
+niveau d’automatisation correspond à une rupture 
+technologique et opérationnelle. Or, le sens même du 
+mot rupture nous indique que, si l’on peut imaginer 
+certains concepts d’emploi, il est très difficile de les 
+définir précisément. On touche ici aux limites de 
+l’approche programmatique par le besoin. Lorsque des 
+capacités sont réellement novatrices seule l’exploration 
+Figure 6 : Chronologie d'expérimentation des USV dans l'US Navy
+
+[Page 58 / 107 | chars: 1015]
+--------------------------------------------------------------------------------
+
+58 
+ 
+progressive pratique permet d’affiner les concepts 
+d’emploi. Les coûts initiaux supplémentaires de 
+recherche et développement, de financement de 
+démonstrateurs, redeviennent une nécessité. 
+ 
+ 
+6. Les programme d’AUV 
+ 
+Un des programmes majeurs d’AUV américain est le 
+programme ORCA. En février 2019, Boeing a été désigné 
+par l’US Navy pour fournir les cinq premiers exemplaires 
+d’ici 2024, avec un objectif total de neuf XLUUVxxxii. 
+Si les spécifications de ces futurs XLUUV ne sont pas 
+précisément 
+annoncées, 
+L’AUV 
+Echo 
+Voyagerxxxiii, 
+démonstrateur initial de Boeing, préfigure les grandeurs 
+caractéristiques du futur ORCA. Drone cylindrique d’un 
+diamètre de presque trois mètres et d’une longueur de 26 
+mètres, il déplace 50 tonnes. Il peut opérer de la surface 
+à 3000 mètres de profondeur et affiche une autonomie 
+de 6500 milles nautiques sur une durée de plusieurs mois. 
+Initialement utilisé pour des tâches de cartographie des 
+fonds marins, il offre une capacité d’emport modulaire.
+
+[Page 59 / 107 | chars: 827]
+--------------------------------------------------------------------------------
+
+59 
+ 
+Le programme ORCA s’inscrit dans le plan de 
+développement de la capacité AUV à l’horizon 2025xxxiv. 
+Ce plan envisage l’utilisation de l’ensemble du spectre des 
+AUV, combinés avec des planeurs sous-marins et des 
+planeurs sur vagues. Qu’ils soient lancés et/ou récupérés 
+depuis un quai, un navire ou un sous-marin, l’étendue 
+envisagée des futures tâches et missions est large. Les 
+missions historiques des forces sous-marines y sont 
+combinées 
+aux 
+nouvelles 
+missions 
+émergentes37. 
+L’ambition est forte : parmi les quarante tâches 
+identifiées38, seules six ne sont pas envisagées pour des 
+AUV à ce stadexxxv (couvrant principalement les différents 
+ 
+37 Seabed warfare, Counter-AUV warfare, Deception, Non-
+lethal sea control. 
+38 Pour treize missions considérées. 
+Figure 7 : XLUUV Echo Voyager (photo Boeing)
+
+[Page 60 / 107 | chars: 906]
+--------------------------------------------------------------------------------
+
+60 
+ 
+types 
+d’engagement). 
+Parmi 
+les 
+capacités 
+dimensionnantes attenduesxxxvi, on peut noter : 
+- 
+Déploiement de charge utiles ou utilisations de 
+capteurs (dont désignation d’objectifs BLOS) 
+dans des zones difficilement atteignables (trop 
+dangereuses, trop lointaines) ; 
+- 
+Surveillance au long cours sur des zones 
+étendues ; 
+- 
+Démultiplication des capacités des sous-marins 
+habités par leurrage et déception ; 
+- 
+Nœuds de communications ; 
+- 
+Opposition 
+aux 
+menaces 
+sous-marines 
+émergentes (AUV adverses, infrastructures sous-
+marines). 
+ 
+Parmi ces capacités, le seabed warfare tient une 
+place toute particulière en tant que nouveau domaine de 
+lutte quasi exclusivement dévolu aux futurs AUV. Les 
+infrastructures et systèmes amis du fond des mers 
+devront pouvoir être surveillés, tandis que les systèmes 
+adverses devront pouvoir être détectés, suivis, et 
+éventuellement détruits.
+
+[Page 61 / 107 | chars: 1180]
+--------------------------------------------------------------------------------
+
+61 
+ 
+B. L’état de l’art en France 
+ 
+1. Le programme SLAM-F 
+ 
+Le SLAM-F39 est le volet français de l’initiative franco-
+britannique MMCM40 lancée officiellement en mars 2015, 
+dont les maitres d’œuvre industriels sont Thalès et BAE 
+Systemsxxxvii. Afin de remplacer les onze CMT41 français 
+mis en service avant 1988, il est basé sur l’utilisation de 
+modules de luttes anti-mines composés d’USV, d’AUV et 
+de ROV42. 
+Chaque module est composé de deux USV, et de 
+deux AUV. Le premier USV est principalement affecté aux 
+tâches de détection, notamment par la mise à l’eau d’un 
+sonar remorqué, le second USV mettant en œuvre un 
+ROV afin d’affiner l’identification et de détruire la mine 
+(par dépose d’un explosif). Les AUV sont utilisés en 
+complément pour étendre les zones de surveillance et de 
+détection. Initialement déployés depuis un quai, ces 
+modules ont vocation à être embarqués sur des 
+bâtiments dédiés lors d’une étape ultérieure du 
+programmexxxviii. 
+ 
+39 Système de Lutte Anti-Mines Futur. 
+40 Maritime Mine Counter Measure. 
+41 Chasseurs de Mines Tripartites. 
+42 Remotely Operated Vehicle : type d’AUV téléopéré lié 
+directement par câble à son navire mère.
+
+[Page 62 / 107 | chars: 490]
+--------------------------------------------------------------------------------
+
+62 
+ 
+Au cours du mois d’octobre 2020, le CEPN43 a mené, 
+auprès 
+des 
+industriels, 
+une 
+phase 
+d’essai 
+et 
+d’évaluationxxxix. 
+Depuis 
+un 
+central 
+opérations 
+temporaire, implanté à terre, des scénarii opérationnels 
+ont été menés aux abords de la baie de Douarnenez avec 
+plus de trente mines d’exercices mouillées. A la suite de 
+cette évaluation, la phase de réalisation du programme a 
+ 
+43 Centre d’Expertise des Programmes Navals. 
+Figure 8 : Vue d'artiste système SLAM-F (Thalès)
+
+[Page 63 / 107 | chars: 705]
+--------------------------------------------------------------------------------
+
+63 
+ 
+été approuvée. Il devrait aboutir à la livraison des quatre 
+premiers modules avant 2024. 
+L’utilisation de drones en guerre des mines est une 
+transition naturelle pour des opérations qui utilisent des 
+ROV depuis longtemps. Les caractères Dangerous et Dull 
+des opérations dans un champ de mines sont évidents, et 
+cette évidence a facilité le choix innovant d’une 
+architecture basée sur des drones. Au-delà de la 
+diminution du risque, une amélioration des performances 
+est également attendue, tant en vitesse d’exécution des 
+tâches qu’en domaine exploré44. 
+ 
+44 Objets détectés trente fois plus petits à une profondeur 
+trois plus importante. 
+Figure 9 : USV du système SLAM-F (photo Thalès)
+
+[Page 64 / 107 | chars: 1423]
+--------------------------------------------------------------------------------
+
+64 
+ 
+L’importance de ce programme dépasse l’enjeu déjà 
+critique du maintien de nos capacités de guerres des 
+mines. D’une part, l’extension du domaine exploré en fait 
+le premier effecteur de la capacité seabed warfare de la 
+marine, au moins sur l’ensemble du plateau continental. 
+Il conviendrait donc probablement d’étudier son format 
+et ses fonctions au-delà des missions actuelles de guerre 
+des mines. 
+Par ailleurs, il s’agit du premier système d’USV et 
+d’UUV militaire français, et à ce titre il devrait permettre 
+d’explorer toutes les problématiques afférentes. Hélas, 
+au regard de la relative urgence du besoin et du risque de 
+retard, il est fort possible que ce programme soit accéléré 
+et n’embrasse pas son caractère exploratoire. En 
+particulier, au regard des difficultés probables vis-à-vis 
+des questions d’autonomie et d’intégration dans la 
+circulation maritime civile, le choix de se reposer sur une 
+grande part de télé-opération pourrait permettre 
+d’obtenir une capacité militaire acceptable, sans 
+permettre de consolider les briques technologiques 
+centrales de la dronisation. 
+ 
+La Royal Navy, aux moyens comparables à la Marine 
+nationale, adopte une attitude plus volontariste. 
+Partenaire de la France sur le programme SLAM F, elle 
+mène en parallèle d’autres développements d’USV. Ainsi, 
+en septembre 2019, le prototype d’un Pacific 24 dronisé 
+a effectué sa première démonstrationxl.
+
+[Page 65 / 107 | chars: 788]
+--------------------------------------------------------------------------------
+
+65 
+ 
+Il est opéré par NavyX, la nouvelle branche chargée 
+de l’innovation accélérée dans la Royal Navy. L’absence 
+de définition précise des missions d’un tel USV est 
+assumée45. Il s’agit bien d’un premier pas dans 
+l’appropriation des technologies de l’autonomie par des 
+militaires. Ce premier projet de douze mois, au budget 
+évalué à 3,2 millions de livres sterling, fait partie d’une 
+approche 
+pragmatique et 
+incrémentale, 
+qui est 
+complémentaire des programmes classiques. Au regard 
+des risques d’accélération du programme SLAM-F, une 
+telle approche multi-programme ne permettrait-elle pas 
+à la Marine de mieux assurer le développement de sa 
+ 
+45 Les 3 règles de Navyx : « Learn while doing – Fast / Fail – 
+Show don’t tell ». 
+Figure 10 : USV Pacific 24 (photo Royal Navy)
+
+[Page 66 / 107 | chars: 1046]
+--------------------------------------------------------------------------------
+
+66 
+ 
+composante drones navals, notamment en s’appuyant 
+sur certaines expertises encore souveraines ? 
+ 
+ 
+2. Programmes civils 
+ 
+Certaines entreprises françaises sont en pointe dans 
+l’exploration de l’emploi des USV et AUV et constituent 
+des potentiels points d’appui pour des développements 
+futurs.  
+En septembre 2020, la société SeaOwl a effectué une 
+démonstration de télé-opération novatrice d’un navire. 
+Le VN Rebel, un bâtiment de quatre-vingts mètres, a 
+appareillé depuis le port de Toulon pour effectuer une 
+navigation et revenir accoster, ceci en l’absence de tout 
+équipage à bord. Le poste de pilotage était à Palaiseau, 
+dans la cour de l’école Polytechnique, la liaison étant 
+assurée par des moyens satellitaires redondants. Par la 
+démonstration de son niveau de sécurité nautique, ce 
+navire est le premier à avoir reçu un permis de navigation 
+officiel en télé-opérationxli. Au regard des difficultés 
+réglementaires liées à la navigation des drones au milieu 
+du trafic civil, ceci constitue une avancée significative.
+
+[Page 67 / 107 | chars: 723]
+--------------------------------------------------------------------------------
+
+67 
+ 
+La société française IXblue travaille également dans 
+ce domaine et développe son propre SUSV. Le DriX, d’une 
+longueur de 7,7 mètres pour trois mètres de haut, peut 
+atteindre une vitesse de quatorze nœuds et une 
+autonomie de dix jours. 
+Après une campagne d’essais conduite en octobre 
+2019, il a été choisi par la NOAA46 pour être intégré dans 
+son futur système hydrographiquexlii où il effectuera des 
+tâches de bathymétrie, ainsi que de suivi et de 
+positionnement d’engins sous-marins. Fort de ce succès, 
+il a également été testé par la Marine nationale à 
+l’automnexliii 2020 dans le cadre des travaux préparatoires 
+ 
+46 National Oceanic and Atmospheric Administration. 
+Figure 11 : USV DriX (photo IXblue)
+
+[Page 68 / 107 | chars: 1262]
+--------------------------------------------------------------------------------
+
+68 
+ 
+du programme CHOF47. Il faut noter que le DriX comprend 
+une architecture modulaire qui lui permet d’envisager 
+différentes missions. En coopération avec l’industriel 
+britannique SEA, IXblue travaille d’ailleurs sur le concept 
+du SeaDriXxliv, qui combine son SUSV avec une antenne 
+sonar tractée, afin de constituer un système de détection 
+et de traque anti-sous-marins. 
+ 
+La marine marchande n’est pas en reste. Depuis de 
+nombreuses années les logiques d’automatisation ont 
+permis de rationnaliser au maximum les équipages des 
+géants des mers. Depuis peu, les réflexions avancent sur 
+le développement d’USV commerciaux. Si l’intérêt 
+d’exécuter des opérations de maintenance en cours de 
+transit devrait limiter la disparition totale des équipages 
+pour les navigations au long cours, l’utilisation d’USV pour 
+les transferts de marchandises en cycles courts devrait se 
+développer rapidement. A la fin de l’année 2020, le 
+premier navire commercial autonome au monde, le Yara 
+Birkelandxlv, a été finalisé par l’industriel norvégien 
+Kongsberg. Ce bâtiment sera utilisé dans le cadre d’une 
+ 
+47 Capacité Hydrographique et Océanographique Future : 
+programme de remplacement des capacités hydrographiques 
+de la Marine nationale à l’horizon 2026.
+
+[Page 69 / 107 | chars: 726]
+--------------------------------------------------------------------------------
+
+69 
+ 
+liaison logistique entre plusieurs sites industriels distants 
+d’une quarantaine de milles nautiques. 
+L’essor des drones de surfaces marchands devrait 
+évidemment 
+permettre 
+une 
+accélération 
+du 
+développement des technologies clés. Mais ce sont 
+surtout les volets réglementaires et juridiques de 
+l’intégration des USV dans le trafic civil qui vont être 
+fortement influencés. Les futurs opérateurs d’USV 
+militaires doivent être donc très attentifs au pouvoir 
+normatif du lobby du transport maritime, qui va 
+influencer lourdement l’évolution de la législation. Dès-à-
+présent, une coopération entre les forces armées et la 
+direction des affaires maritimes pourrait permettre de 
+Figure 12 : l'USV Yara Birkeland
+
+[Page 70 / 107 | chars: 1483]
+--------------------------------------------------------------------------------
+
+70 
+ 
+suivre cette problématique avec vigilance au sein de 
+l’OMI48. 
+ 
+Enfin, en ce qui concerne les grandes profondeurs et 
+le seabed warfare, beaucoup reste à faire. Cependant, 
+l’expertise en exploration sous-marine de niveau mondial 
+de l’IFREMER demeure un atout pour la France. Son 
+nouvel LUAV, l’ULYX, a été construit en 2020 et fait partie 
+du club très fermé des systèmes opérant jusqu’à 6000 
+mètres de profondeurxlvi. Si le passage à l’échelle de telles 
+capacités nécessiterait des moyens importants, il est 
+capital de préserver ces technologies et savoir-faire 
+souverains. 
+Les avancées des leaders mondiaux de l’industrie 
+pétrolière ne doivent pas être oubliés. En effet, avec le 
+développement de l’Off-Shore profond, ils deviennent les 
+premiers opérateurs du fond des mers. L’entreprise 
+française Total est en pointe sur ces sujets, et débute les 
+expérimentations d’utilisation d’UVA pour la surveillance 
+de ses installations sous-marines profondesxlvii. 
+ 
+Ainsi, l’écosystème industriel français peut constituer 
+un atout non négligeable pour relever le défi des drones 
+navals, en particulier si l’on considère les coopérations 
+possibles dans un environnement européen au sens large. 
+La 
+combinaison 
+des 
+enjeux 
+capacitaires 
+et 
+de 
+souveraineté doivent nous inciter à accélérer, et à 
+accepter des dépenses plus significatives en recherche et 
+développement, y compris sous une égide multi-
+nationale. 
+ 
+ 
+ 
+48 Organisation Maritime Internationale.
+
+[Page 71 / 107 | chars: 1276]
+--------------------------------------------------------------------------------
+
+71 
+ 
+Perspectives pour la Marine nationale 
+ 
+A. Contexte d’emploi de la Marine nationale 
+ 
+1. Des RTC49 face à des besoins qui augmentent 
+ 
+Lors de sa dernière audition par la commission des 
+affaires étrangères, de la défense et des forces armées du 
+Sénatxlviii, l’amiral Pierre Vandier, chef d’état-major de la 
+marine, a souligné les défis qui attendent la Marine 
+nationale au cours des prochaines années. 
+D’une part, la Marine devrait faire face à certain 
+nombre de RTC, notamment : 
+- 
+Un seul patrouilleur en Polynésie comme en 
+Nouvelle-Calédonie jusqu’en 2025 ; 
+- 
+Remplacement 
+tardif 
+des 
+patrouilleurs 
+océaniques en métropole ; 
+- 
+Remplacement tardif de la composante de 
+surveillance maritime par l’arrivée des premiers 
+Falcon 2000 Albatros en 2025. 
+D’autre part, le format du nombre de frégate de 1er 
+rang reste taillé au plus juste pour continuer à assurer le 
+contrat opérationnel. 
+Ces RTC conjoncturelles, au sein d’un format 
+structurellement sous-critique, sont particulièrement 
+mises en lumière à la faveur du retour d’une expression 
+désinhibée 
+de 
+la 
+puissance 
+navale 
+et 
+de 
+la 
+territorialisation des espaces maritimes. Elles soulignent 
+également le chemin à parcourir pour atteindre les neufs 
+ 
+49 Rupture Temporaire de Capacité.
+
+[Page 72 / 107 | chars: 1320]
+--------------------------------------------------------------------------------
+
+72 
+ 
+facteurs de supériorité opérationnelle50 décrits dans la 
+nouvelle version du Concept d’Emploi des Forcesxlix, en 
+particulier la masse et l’endurance. 
+ 
+ 
+2. Les limites RH et économiques 
+ 
+Les RTC actuelles sont les conséquences des 
+douloureux choix financiers faits au cours de la dernière 
+décennie. Si on ne peut nier l’impulsion favorable de la 
+dernière loi de programmation militaire (LPM), elle ne 
+constitue pour le moment qu’une inflexion après des 
+décennies à la baisse. Elle nécessitera donc du temps pour 
+avoir un effet, tout en étant soumise à une possible 
+remise en question, notamment par les conséquences 
+financières de la crise COVID. Le format des forces armées 
+françaises ne vivra donc pas de révolution à court terme. 
+Par ailleurs, les limites financières rencontrent les 
+limitations en termes de ressources humaines. Si la 
+Marine a réalisé ses objectifs de recrutement en 2020 
+(4000 recrutements), augmentant sa masse salariale pour 
+la première fois après plus de trente années de déflation, 
+le combat des ressources humaines restera un défi, 
+recrutement comme fidélisation. De plus, le lancement 
+du programme du porte-avions nouvelle génération 
+ 
+50 Performance du commandement, force morale, 
+compréhension, agilité, influence, endurance, foudroyance, 
+crédibilité, masse.
+
+[Page 73 / 107 | chars: 1316]
+--------------------------------------------------------------------------------
+
+73 
+ 
+devrait 
+absorber 
+une 
+partie 
+significative 
+de 
+l’augmentation des effectifs de la Marine nationale51. 
+ 
+ 
+3. Les conséquences pour les programmes de 
+drones 
+ 
+D’une manière similaire à ce qu’envisage l’US Navy, 
+les drones peuvent être un moyen de maitriser 
+effectivement les facteurs de supériorité opérationnelles 
+de masse et d’endurance au sein de la Marine nationale. 
+Si l’on combine les limites RH et financières avec cet 
+objectif, tout en considérant les spécificités des systèmes 
+de drones (cf. Partie 1) et le contexte de retour de la 
+haute intensité, un certain nombre de conclusion 
+s’imposent en termes de conception. 
+L’objectif de masse nécessite par définition des 
+drones peu couteux, consommables, et donc spécialisés. 
+La nécessaire frugalité en ressources humaines amène à 
+privilégier une forte autonomie des systèmes. Enfin, la 
+combinaison des risques cyber et de fragilité de 
+communication, des risques non encore maitrisés liés à 
+l’IA, avec l’objectif de crédibilité52 nous amène à 
+privilégier le concept de cobotisation.  
+ 
+51 La transition entre les deux PA devrait nécessiter de 
+constituer un second équipage avant l’arrêt du Charles-de-
+Gaulle. 
+52 Dans le CEF, la crédibilité consiste à garantir la performance 
+et le respect des règles, donc à limiter les risques.
+
+[Page 74 / 107 | chars: 75]
+--------------------------------------------------------------------------------
+
+74 
+ 
+ 
+ 
+Figure 13 : Objectifs, contraintes et conséquences de conception.
+
+[Page 75 / 107 | chars: 1613]
+--------------------------------------------------------------------------------
+
+75 
+ 
+B. Le cas particulier de la lutte anti sous-marine 
+ 
+4. Spécificités de la mission 
+ 
+Si l’on comprend aisément comment l’utilisation 
+d’UAV pourrait aider à mieux combler nos déficits 
+capacitaires de surveillance et d’interventions dans nos 
+ZEE, l’emploi de drones dans le cadre de la lutte anti sous-
+marine mérite un développement. 
+En combinant étendue des zones, courte portée des 
+capteurs, et faible vitesse des plateformes de capteurs et 
+d’effecteurs53, le terrain d’opérations de la lutte anti sous-
+marine est particulièrement sensible aux formes 
+d’ubiquité donnée par le nombre. La recherche d’un sous-
+marin ennemi est une opération complexe qui demande 
+un grand nombre de moyens. La difficulté de cette tâche 
+est évidemment exponentielle par rapport à l’étendue de 
+la zone de recherche initiale. En conséquence, de 
+nombreuses doctrines anti-sous-marines prévoient de 
+détecter les sous-marins au plus tôt (départ de leurs 
+ports, passages par des points obligatoires) pour ensuite 
+assurer une quasi-continuité du suivi du contact sonar.  
+Du point de vue du sous-marin, il s’agit d’un milieu 
+opaque, où l’on doit se reposer sur très peu d’information 
+et 
+des 
+capteurs 
+passifs 
+pour 
+appréhender 
+un 
+environnement tactique mouvant. Ainsi, la multiplication 
+des mobiles adverses et la variété de leurs modes d’action 
+(sonars actifs ou passifs) complexifient la tâche du sous-
+marin de manière significative. 
+ 
+53 Hors évidemment les aéronefs. Cependant l’intermittence 
+et le volume faible couverts par leurs moyens de détection 
+limitent également leurs capacités de recherche.
+
+[Page 76 / 107 | chars: 1402]
+--------------------------------------------------------------------------------
+
+76 
+ 
+On comprend donc le défi posé aux marines 
+occidentales par l’augmentation significative de la 
+pression sous-marine adverse (russe en particulier) au 
+regard de la limitation du format de nombres de frégates, 
+comme cela est souligné par les travaux du think-tank 
+américain Hudson Institutel : « The Navy’s current ASW 
+approach works when opposing submarines deploy 
+infrequently, but is likely to break down during a large-
+scale submarine deployment or as submarines become 
+quieter and harder to track (…) US and allied ASW 
+concepts are also expensive, requiring significant 
+manpower and tying up multi-mission platforms like 
+DDGs and SSNs that are needed elsewhere for other 
+operations (…) . 
+L’utilisation d’USV, d’AUV et d’UAV, combinés à des 
+capteurs re localisables (TRAPS54)  pourrait permettre de 
+démultiplier l’effet d’une force ASM à une fraction du 
+coût. 
+ 
+ 
+5. Exemple d’une force ASM dronisée 
+ 
+L’idée maitresse d’une force ASM dronisée repose 
+sur un partage des tâches entre les unités coûteuses et 
+multimissions, habitées, et différents types de systèmes 
+autonomes : 
+- 
+Détection initiale : concentrée sur des points de 
+passages obligés ou sur les approches des 
+sanctuaires 
+à 
+défendre, 
+elle 
+privilégierait 
+l’utilisation de capteurs passifs relocalisables 
+ 
+54 Transformationnal Reliable Acoustic Path Sensor : antennes 
+sonar communicantes relocalisables.
+
+[Page 77 / 107 | chars: 1224]
+--------------------------------------------------------------------------------
+
+77 
+ 
+(TRAPS), de sonars passifs emportés par des 
+planeurs de surface ou sous-marins et de MUSV 
+équipés de sonars remorqués. 
+ 
+- 
+Confirmation / poursuite : la combinaison de 
+MUSV, de moyens aériens (avions de patrouille 
+maritime PATMAR, UAV) et éventuellement 
+d’une frégate permettrait d’affiner la détection 
+et la classification du contact. La multiplicité des 
+capteurs, 
+permettrait 
+le 
+multi-statisme55,  
+démultipliant leur efficacité et dégradant la 
+perception du sous-marin ; 
+ 
+- 
+Suivi : si le sous-marin ne constitue pas une 
+menace suffisante pour être engagé dès le début 
+de la poursuite, il s’ensuit une longue période de 
+suivi du contact. Cette tâche peut nécessiter 
+moins de moyens en nombre, mais nécessite une 
+très grande endurance. Actuellement, elle doit 
+être effectuée par une combinaison d’aéronefs 
+de PATMAR et de frégate ASM. On comprend 
+aisément 
+le 
+caractère 
+peu 
+rentable 
+de 
+l’utilisation d’une frégate moderne multi-mission 
+pour suivre en poisson pilote un sous-marin. 
+Durant cette longue période de suivi, un ou 
+plusieurs MUSV équipés de sonar passif 
+économiserait l’emploi d’unités plus précieuses ; 
+ 
+55 Travail collaboratif entre différents sonars, actifs et passifs.
+
+[Page 78 / 107 | chars: 474]
+--------------------------------------------------------------------------------
+
+78 
+ 
+- 
+Engagement : si l’engagement pour destruction 
+peut être effectué par des moyens habités 
+classiques, un MUSV ou un UAV pourrait tirer des 
+munitions de faible taille pour neutraliser56 ou 
+dissuader le sous-marin adverse ; 
+ 
+ 
+ 
+56 Un MUSV est à même de s’approcher suffisamment près 
+pour délivrer des grenades ou roquettes sous-marines 
+capables d’endommager le sous-marin ou de forcer son 
+désengagement. 
+Figure 14 : Sustaining the Undersea Advantage (…) p. 7
+
+[Page 79 / 107 | chars: 900]
+--------------------------------------------------------------------------------
+
+79 
+ 
+- 
+Occupation : En l’absence de menace détectée, 
+les moyens dronisés pourraient assurer une 
+présence dissuasive, au moyen de longues 
+patrouilles et d’insonifications57 aléatoires. 
+ 
+Dans cette force ASM dronisée, les frégates et les 
+aéronefs de patrouille maritimes se concentrent sur les 
+tâches les plus complexes de traque et de relocalisation, 
+et assurent la supervision des systèmes autonomes et le 
+C2 de l’ensemble du dispositif. L’autonomie des IA 
+embarquées doit être suffisante pour autoriser une 
+simple supervision intermittente des missions et éviter 
+des transferts de données continus. Les moyens de 
+communications doivent combiner des nœuds de 
+communications 
+LOS 
+avec 
+des 
+systèmes 
+BLOS 
+ 
+57 Utilisation intensive d’un sonar actif dans une zone de 
+manière à détecter ou dissuader l’emploi de sous-marins.  
+Figure 15 : Sustaining the Undersea Advantage (...) p. 7
+
+[Page 80 / 107 | chars: 963]
+--------------------------------------------------------------------------------
+
+80 
+ 
+redondants58 (satellites / relais UAV MALE HALE basés à 
+terre ou UAV embarqués sur frégates). 
+ 
+Si une telle force semble capable de traiter 
+l’augmentation de la pression sous-marine adverse, elle 
+doit le faire à une fraction du coût d’une force sans drone. 
+Afin de caractériser cet avantage comparatif, l’étudeli de 
+l’Hudson Institute étudie deux scénarii caractéristiques : 
+- 
+Opposition à un déploiement massif de sous-
+marins russes autour des détroits du GIUK59 ; 
+- 
+Opposition à un déploiement massif de sous-
+marins chinois à la sortie nord de la mer de Chine 
+méridionale. 
+Pour ces deux scénarii, en comparant les moyens 
+nécessaires pour assurer un mois d’opérations ASM, il est 
+possible d’évaluer les économieslii potentielles. 
+ 
+ 
+ 
+58 Satellites / UAV HALE-MALE basés à terre / UAV embarqués 
+sur frégates. 
+59 Groenland-Islande-United Kingdom : ensemble des points 
+de passages obligés des sous-marins russes vers l’Atlantique 
+nord.
+
+[Page 81 / 107 | chars: 1266]
+--------------------------------------------------------------------------------
+
+81 
+ 
+Type d’unité 
+Coût 
+possession 
+hors MCO60  
+(1 mois) 
+(M$) 
+Coût 
+d’opération 
+(1 mois) 
+(M$) 
+Concept 
+ASM 
+actuel 
+Concept 
+ASM 
+dronisé 
+Variation 
+Coût total 
+(1 mois) 
+(M$) 
+Avion PATMAR (P-
+8A) 
+0,8 
+5,2 
+14 
+4 (-10) 
+-60 
+Frégate 
++ 
+2 
+hélicoptères (DDG-
+51 + MH60) 
+7,9 
+7,2 
+4 
+0 (-4) 
+-60,4 
+SNA (SSN-774) 
+12,9 
+6,1 
+3 
+0 (-3) 
+-57 
+TRAPS 
+0,05 
+0,1 
+0 
+10 (+10) 
++1,5 
+MUSV 
+0,21 
+0,8 
+0 
+16 (+16) 
++16,2 
+MALE UAV (MQ-9B) 
+0,12 
+0,5 
+0 
+9 (+9) 
++5,6 
+Total 
+-154 
+Figure 16 : Comparaison de format de forces ASM 
+On observe une économie théorique de 154 millions 
+de dollars par mois d’opération pour 201 millions initiaux 
+(soit environ 75% d’économie). Il s’agirait cependant 
+d’une force très spécialisée ASM qui serait évidemment 
+complétée par les capacités de plateformes multi-
+missions, en tant qu’effecteurs ponctuels ou en tant que 
+C2 supplémentaires. Si l’on rajoute une frégate et un SNA 
+à ce format afin de mieux modéliser cette contribution 
+intermittente, on obtient une économie finale de 60%. Il 
+s’agit évidemment de projections avec une large marge 
+ 
+60 L’étude de l’Hudson Institute compare les coûts 
+d’acquisition totaux. Ils sont ici rapportés à un coût mensuel 
+(hors MCO) avec durée de possession générique de 20 ans.
+
+[Page 82 / 107 | chars: 1231]
+--------------------------------------------------------------------------------
+
+82 
+ 
+d’erreur61, cependant, elle permet d’espérer des gains 
+opérationnels substantiels. 
+ 
+ 
+6. Applications possibles 
+ 
+Si l’échelle d’une telle opération ASM n’est pas visée 
+par la Marine nationale, la protection du bastion de la 
+dissuasion française, autour des approches brestoises 
+pourrait constituer un champ d’opérations intéressant 
+pour le développement de telles capacités.  
+En effet, en se concentrant sur une mission défensive 
+à faible élongation, un certain nombre de risques 
+potentiels sont mitigés : 
+- 
+Contrôle de la durée des missions et des enjeux 
+de fiabilité afférents ; 
+- 
+Possibilité d’utiliser un C2 à terre ; 
+- 
+Limitation des durées de transit et maximisation 
+du temps utile de mission et d’expérimentations 
+/ entrainement ; 
+- 
+Capacité d’intervention en cas de problème 
+technique ; 
+- 
+Pas de ravitaillement à la mer. 
+ 
+De plus, le nombre limité de FREMM (et la 
+multiplicité de leur mission), la diminution du nombre de 
+PHM62 et le désarmement des FASM F7063 constituent 
+ 
+61 Le coût d’un USV fixé à 50 millions de dollars est l’une des 
+hypothèses dimensionnantes (à comparer aux 800 millions 
+d’une FREMM). 
+62 Patrouilleur de Haute Mer (ex Aviso A69). 
+63 Frégate Anti Sous-Marine.
+
+[Page 83 / 107 | chars: 1502]
+--------------------------------------------------------------------------------
+
+83 
+ 
+une baisse importante du nombre d’effecteurs qui n’est 
+que partiellement compensée par les meilleures 
+performances des nouveaux sonars. Que ce soient en 
+démultipliant 
+les 
+capacités 
+des 
+dispositifs 
+ASM 
+d’accompagnement des sorties de nos SNLE, ou en 
+assurant des créneaux de présence et d’insonification 
+dissuasifs très régulièrement, un ou plusieurs MUSV 
+pourraient singulièrement renforcer la protection du 
+bastion brestois. 
+ 
+ 
+C. Le counter unmanned warfare 
+ 
+Naturellement, Il est possible que des considérations 
+financières et de format limitent significativement les 
+ambitions de dronisation de la marine à court terme. 
+Cependant, cela ne doit pas limiter notre volonté à 
+explorer rapidement ces capacités afin de maitriser les 
+technologies clés. Au-delà des aspects capacitaires et de 
+souveraineté future, il s’agit d’être capable de contrer les 
+drones adverses, déjà existants ou à venir. 
+En effet, dans la dialectique du bouclier et de l’épée, 
+c’est bien les progrès offensifs qui impulsent le 
+mouvement. Pour fabriquer un bouclier efficace, il est 
+nécessaire d’avoir une connaissance intime des 
+caractéristiques d’une épée, et donc de sa fabrication. 
+Pour contrer les drones adverses, nous avons donc besoin 
+de comprendre leurs forces et leurs limites. Si la rétro-
+ingénierie peut aider à évaluer leurs performances 
+physiques, seul leur emploi en propre permet de 
+percevoir leurs limites opérationnelles, en particulier en 
+termes de domaine d’autonomie.
+
+[Page 84 / 107 | chars: 892]
+--------------------------------------------------------------------------------
+
+84 
+ 
+Or, ces drones sont déjà présents. Nous sommes 
+donc condamnés à développer nos capacités à contrer 
+cette 
+menace 
+spécifique : 
+le 
+counter-unmanned 
+warfareliii. Les programmes russes et chinois foisonnent 
+de projets de drones navals sous toutes leurs formes. 
+Mais il n’est nul besoin de considérer uniquement des 
+acteurs militaires majeurs ou de regarder aussi loin. En 
+février 2021 à Antalya, les sociétés Ares Shipyard et 
+Meketsan Defence ont débuté les premiers essais à la mer 
+de leur LUSV ULAQliv. 
+Sans préjuger des capacités ou de l’emploi d’un tel 
+système, savoir que les essais de tirs réels seront 
+effectués au cours des prochains mois doit nous 
+permettre de mesurer notre retard.  
+La menace est réelle et il y a urgence à développer 
+nos capacités CUW, tant sur les aspects de détection que 
+Figure 17 : LUSV turque ULAQ (photo Ares Shipyard / Meteksan Defence)
+
+[Page 85 / 107 | chars: 281]
+--------------------------------------------------------------------------------
+
+85 
+ 
+de destruction (cinétique, cyber, brouillage, énergie 
+dirigée64, etc.). Cela doit nous encourager à explorer 
+l’emploi des drones, quand ce ne serait que pour mieux 
+contrer ceux de nos concurrents et adversaires. 
+ 
+64 EM dirigé, LASER, micro-ondes, particules, acoustique.
+
+[Page 87 / 107 | chars: 1516]
+--------------------------------------------------------------------------------
+
+87 
+ 
+Conclusion 
+ 
+A la fin de l’année 2020, l’emploi massif de drones 
+lors du conflit au Haut-karabakh a fait couler beaucoup 
+d’encrelv. De nombreux observateurs y ont vu la 
+démonstration que l’ère du drone débutait enfin et 
+qu’elle s’accompagnait d’une révolution du champ de 
+bataille. En effet, après des décennies d’utilisation sur 
+différents théâtres, ce conflit a marqué un de leur 
+premier usage décisif, qui plus est dans un cadre de haute 
+intensité. 
+Si l’on peut arguer que les drones ont principalement 
+agit ici comme des cost killer en abaissant le coût du ticket 
+d’entrée de la puissance aérienne, on ne peut nier que la 
+menace drones est dorénavant incontournable, au 
+minimum dans le cadre des opérations aéro-terrestres. 
+ 
+Lorsqu’on 
+observe 
+avec 
+quelle 
+efficacité 
+l’Azerbaïdjan (certes avec l’appui de son allié turque), 
+90ème PIB mondial, a été capable d’utiliser ces systèmes, 
+on peut légitimement interroger les capacités et 
+ambitions françaises à propos des systèmes automatisés. 
+La cour des comptes donne une partie de la réponse dans 
+son rapport public annuel de 2020lvi : « La France a tardé à 
+tirer les conséquences de l’intérêt des drones dans les 
+opérations militaires modernes. L’effet conjugué des 
+mésententes entre industriels, du manque de vision 
+prospective des armées et des changements de pied des 
+pouvoirs 
+publics 
+ont 
+eu 
+pour 
+conséquences, 
+dommageables et coûteuses, de prolonger la durée de vie 
+de matériels vieillissants. Il a également conduit à
+
+[Page 88 / 107 | chars: 1574]
+--------------------------------------------------------------------------------
+
+88 
+ 
+l’acquisition de matériels américains aux conditions 
+d’utilisation contraignantes et restrictives. » 
+ 
+Aujourd’hui il est primordial de ne pas manquer à 
+nouveau ce virage qui, avec l’arrivée à maturité de 
+certaines technologies de l’information, risque d’être 
+bien plus disruptif et porteur d’enjeux de souveraineté. 
+L’urgence est avérée et il faut avancer rapidement. Cela 
+signifie éviter certaines erreurs du passé en ayant une 
+approche résolue mais réaliste de la dronisation de nos 
+armées.  
+D’abord, il faut se concentrer sur les applications ou 
+l’emploi du drone apporte une réelle plus-value, basée 
+sur 
+ses 
+qualités 
+intrinsèques 
+et 
+son 
+rapport 
+coût/efficacité. Les technologies et choix de conceptions 
+devront privilégier la résilience opérationnelle au 
+détriment de la pure performance technique. A ce titre, 
+la recherche d’une dépendance faible à tous moyens de 
+communication ainsi que les contraintes de ressources 
+humaines doivent nous amener à privilégier l’autonomie 
+dans le fonctionnement de nos systèmes et à mesurer nos 
+ambitions d’élongation. 
+Des drones donc, mais des drones en nombre et 
+automatisés, nécessairement spécialisés car d’un coût 
+maitrisé, et complémentaires des systèmes habités. 
+ 
+Pour la Marine nationale, ces considérations de 
+résilience technico-opérationnelle doivent rencontrer les 
+carences de notre format actuel et les programmes déjà 
+lancés. Dans le cadre de la protection de nos ZEE, 
+l’utilisation de drones aériens endurants peut décupler 
+nos capacités de surveillance et d’identification, en
+
+[Page 89 / 107 | chars: 1656]
+--------------------------------------------------------------------------------
+
+89 
+ 
+permettant aux moyens habités de mieux se concentrer 
+sur les missions d’intervention. 
+En ce qui concerne la lutte anti sous-marins, l’emploi 
+combiné d’USV et d’AUV peut multiplier l’efficacité des 
+dispositifs existants ; en permettant une bien meilleure 
+connaissance de l’environnement sous-marin tout en 
+assurant une endurance inédite dans les tâches de traque 
+et de pistage. Initialement concentrée sur la défense de 
+nos approches maritimes étendues, l’exploration de ces 
+capacités sera cohérente avec le besoin grandissant de 
+maîtrise des espaces sous-marins, à des fins de défense 
+ou d’exploitation. 
+Enfin, pour répondre à la menace drone proliférante, 
+nos plateformes navales doivent être équipées dès-à-
+présent de systèmes défensifs spécifiques. Cette réponse 
+à une quasi-urgence opérationnelle, sera également très 
+bénéfique dans l’appréhension des failles de nos propres 
+systèmes en devenir. 
+Si un équilibre entre développements franco-
+européens et achats extra-européens peut être 
+nécessaire pour rattraper une partie de notre retard, les 
+technologies de l’autonomie et de l’information devront 
+être souveraines, car au cœur de la performance et de la 
+résilience 
+de 
+ces 
+systèmes. 
+Nos 
+légitimes 
+questionnements éthiques ne doivent en aucun cas nous 
+freiner dans l’exploration résolue de l’IA. Il ne s’agit plus 
+ici de discuter théoriquement de ses faiblesses et des 
+risques associés comme on disserterait du « sexe des 
+anges », mais d’avancer vers une expérimentation 
+pratique de ses applications. 
+ 
+Cependant, il n’est pas souhaitable de succomber au 
+tout technique en cherchant systématiquement à évincer
+
+[Page 90 / 107 | chars: 1679]
+--------------------------------------------------------------------------------
+
+90 
+ 
+l’homme, bien au contraire. Eric Pourcel décrit ainsi la 
+complémentarité 
+entre 
+rusticité 
+et 
+performance 
+technologique : « il nous faut tout à la fois nous préparer 
+à une guerre de hautes technologies et à une guerre 
+rustique.  Une guerre de hautes technologies qui est celle 
+de la dronisation IA des forces, du soldat augmenté et de 
+l’emploi de toutes les techniques permettant d’avoir un 
+temps d’avance sur l’ennemi potentiel. Mais aucune 
+technique n’est invulnérable : (…). Une nation qui 
+miserait uniquement sur le tout technologique comme 
+doctrine militaire s’exposerait donc à une défaite certaine 
+à l’issue d’un premier choc qui détruirait l’ensemble de 
+son système électronique et IA. Il nous faut donc 
+concourir avec les autres nations vers l’outil technique 
+tout en conservant en parallèle une capacité à faire la 
+guerre en situation dégradée : (…). »lvii 
+Il y aura donc bien encore des marins en mer dans 
+trente ans, mais ils seront accompagnés de drones de 
+surface, aériens et sous-marins. Ces systèmes habités et 
+automatisés 
+devront 
+évidemment 
+être 
+efficaces 
+ensembles mais surtout capables d’effectuer leurs 
+missions 
+dans 
+des 
+contextes 
+dégradés, 
+l’un 
+indépendamment de l’autre. C’est seulement ainsi qu’ils 
+participeront à une véritable « épaisseur stratégique »65 
+apte à répondre aux défis opérationnels futurs. 
+ 
+ 
+ 
+65 Général Vincent Desportes : « Anticiper l’imprévisible, lui 
+survivre, c’est y croire, admettre le caractère fondamental des 
+notions de résilience et de capacité d’adaptation. (…) C’est la 
+suffisance de l’épaisseur stratégique d’un système qui lui 
+permet de survivre et de reprendre l’ascendant. »
+
+[Page 91 / 107 | chars: 1380]
+--------------------------------------------------------------------------------
+
+91 
+ 
+Bibliographie 
+ 
+Auger-Ottavi Anthony, Réflexions sur le Seabed Warfare, Ecole 
+de Guerre, 2020. 
+ 
+Byrd Daniel, « An AUV to Optimize Pipeline Inspections », sur 
+Exploration & Production, 1er août 2016 (en ligne : 
+https://www.ep.total.com/en/areas/deep-offshore/auv-
+optimize-pipeline-inspections ; consulté le 19 février 2021). 
+ 
+Centre 
+interarmées 
+de 
+concepts, 
+de 
+doctrines 
+et 
+d’expérimentation, Emploi des sytèmes de drones aériens en 
+opérations, Paris, Imprimerie nationale, 2020. 
+ 
+Centre 
+interarmées 
+de 
+concepts, 
+de 
+doctrines 
+et 
+d’expérimentations, « Concept d’Emploi des Forces », 2020. 
+ 
+Centre 
+interarmées 
+de 
+concepts, 
+de 
+doctrines 
+et 
+d’expérimentations, Emploi de l’intelligence artificielle et des 
+sytèmes automatisés, Paris, Imprimerie nationale, 2018. 
+ 
+Chief of Naval Operations, Autonomous Undersea Vehicle 
+Requirement for 2025, US Navy, 2016. 
+Clark Bryan, Seth Cropsey et Timothy A Walton, « Sustaining 
+the Undersea Advantage: Disrupting Anti-Submarine Warfare 
+Using Autonomous Systems », 2020, p. 76. 
+ 
+Cour des comptes, Rapport public annuel 2020, 2020. 
+Dixon Robyn, « Azerbaijan’s drones owned the battlefield in 
+Nagorno-Karabakh — and showed future of warfare », 
+Washington 
+Post, 
+sans 
+date 
+(en 
+ligne : 
+https://www.washingtonpost.com/world/europe/nagorno-
+karabkah-drones-azerbaijan-aremenia/2020/11/11/441bcbd2-
+
+[Page 92 / 107 | chars: 1565]
+--------------------------------------------------------------------------------
+
+92 
+ 
+193d-11eb-8bda-814ca56e138b_story.html ; consulté le 9 
+décembre 2020). 
+ 
+Dujardin Olivier, « Le retour des « Wunderwaffen » » Centre 
+Français de Recherche sur le Renseignement », sur Centre 
+Français de Recherche sur le Renseignement, sans date (en 
+ligne : 
+https://cf2r.org/rta/le-retour-des-wunderwaffen/ ; 
+consulté le 30 novembre 2020). 
+ 
+Eckstein Megan, « SECDEF Esper Calls for 500-Ship Fleet by 
+2045, With 3 SSNs a Year and Light Carriers Supplementing 
+CVNs », sur USNI News, 6 octobre 2020 (en ligne : 
+https://news.usni.org/2020/10/06/secdef-esper-calls-for-500-
+ship-fleet-by-2045-with-3-ssns-a-year-and-light-carriers-
+supplementing-cvns ; consulté le 20 octobre 2020). 
+ 
+Eckstein Megan, « Sea Hunter Unmanned Ship Continues 
+Autonomy Testing as NAVSEA Moves Forward with Draft RFP », 
+sur 
+USNI 
+News, 
+29 
+avril 
+2019 
+(en 
+ligne : 
+https://news.usni.org/2019/04/29/sea-hunter-unmanned-
+ship-continues-autonomy-testing-as-navsea-moves-forward-
+with-draft-rfp ; consulté le 20 octobre 2020). 
+ 
+Gain Nathan, « French Navy Tests iXblue’s DriX Unmanned 
+Surface Vessel », sur Naval News, 2 novembre 2020 (en ligne : 
+https://www.navalnews.com/naval-news/2020/11/french-
+navy-tests-ixblues-drix-unmanned-surface-vessel/ ; consulté le 
+12 février 2021). 
+ 
+Groizeleau Vincent, « MMCM : Focus sur le programme franco-
+britannique de guerre des mines », sur Mer et Marine, 19 
+octobre 
+2016 
+(en 
+ligne : 
+https://www.meretmarine.com/fr/content/mmcm-focus-sur-
+le-programme-franco-britannique-de-guerre-des-mines ; 
+consulté le 11 février 2021).
+
+[Page 93 / 107 | chars: 1594]
+--------------------------------------------------------------------------------
+
+93 
+ 
+Kœnig Gaspard, La fin de l’individu: voyage d’un philosophe au 
+pays 
+de 
+l’intelligence 
+artificielle, 
+Paris, 
+Éditions 
+de 
+l’Observatoire, coll. « Collection “De Facto” », 2019. 
+Langloit Philippe, « Les UCAV sont-ils condamnés ? », sur DSI, 
+14 
+janvier 
+2020 
+(en 
+ligne : 
+https://www.areion24.news/2020/01/14/les-ucav-sont-ils-
+condamnes%e2%80%89/ ; consulté le 19 novembre 2020). 
+Lucas Nathan J, Lethal Autonomous Weapon Systems: 
+Issues for Congress, 2016. 
+ 
+Manaranche Martin, « Ghost Fleet Overlord Test Vessels 
+Continue to Accelerate U.S. Navy’s USV programs », sur Naval 
+News, 
+6 
+juin 
+2020 
+(en 
+ligne : 
+https://www.navalnews.com/naval-news/2020/06/ghost-
+fleet-overlord-test-vessels-continue-to-accelerate-u-s-navys-
+usv-programs/ ; consulté le 20 octobre 2020). 
+ 
+Mozur Paul, « Google’s AlphaGo Defeats Chinese Go Master in 
+Win for A.I. (Published 2017) », The New York Times, rubrique 
+« Business », 
+23 
+mai 
+2017 
+(en 
+ligne : 
+https://www.nytimes.com/2017/05/23/business/google-
+deepmind-alphago-go-champion-defeat.html ; consulté le 12 
+janvier 2021). 
+ 
+Nationale 
+Assemblée, 
+« Http://www.assemblee-
+nationale.fr/dyn/15/comptes-
+rendus/cion_def/l15cion_def2021008_compte-rendu », 
+sur 
+Assemblée 
+nationale, 
+sans 
+date 
+(en 
+ligne : 
+http://www.assemblee-nationale.fr/dyn/15/comptes-
+rendus/cion_def/l15cion_def2021008_compte-rendu ; 
+consulté le 25 novembre 2020). 
+ 
+Nichols R. K., J. J. C. H. Ryan, H. C. Mumm, Candice Carter, W. 
+D. Lonstein et J. P. Hood, Counter Unmanned Aircraft Systems 
+Technologies and Operations, sans lieu, R. K Nichols, 2020.
+
+[Page 94 / 107 | chars: 1568]
+--------------------------------------------------------------------------------
+
+94 
+ 
+O’Rourke Ronald, Navy Large Unmanned Surface and Undersea 
+Vehicles: Background and Issues for Congress, 2019. 
+ 
+Pourcel Éric, Dronisation et robotisation intelligentes des 
+armées (DRIA): de la dynamique conflictuelle et opérationnelle 
+mixte Homme-machine ... à la dynamique conflictuelle et 
+opérationnelle machine IA--machine IA?, sans lieu, 2018. 
+ 
+Releases DP Press, « SEA, iXblue Develop SeaDrix Long Range 
+Submarine Hunting System », sur DefPost, 14 novembre 2019 
+(en ligne : https://defpost.com/sea-ixblue-develop-seadrix-
+long-range-submarine-hunting-system/ ; consulté le 12 février 
+2021). 
+ 
+Savage Neil, « How AI is improving cancer diagnostics », Nature, 
+vol. 579, no 7800, Nature Publishing Group, 25 mars 2020, 
+p. S14-S16. 
+ 
+The Boeing company, « Echo Voyager Product Sheet », 2017. 
+ 
+Vavasseur Xavier, « Royal Navy Launched its First “crewless 
+Pacific 24 boat” USV », sur Naval News, 24 juin 2020 (en ligne : 
+https://www.navalnews.com/naval-news/2020/06/royal-
+navy-launched-its-first-crewless-pacific-24-boat-usv/ ; 
+consulté le 25 novembre 2020). 
+ 
+« La réalisation du Système de lutte anti-mines futur est 
+officiellement lancée », sur Zone Militaire, 3 novembre 2020 
+(en 
+ligne : 
+http://www.opex360.com/2020/11/03/la-
+realisation-du-systeme-de-lutte-anti-mines-futur-est-
+officiellement-lancee/ ; consulté le 11 février 2021). 
+ 
+« SeaOwl décroche le premier permis français de navigation 
+pour un navire télé-opéré », sur Mer et Marine, 11 septembre 
+2020 
+(en 
+ligne : 
+https://www.meretmarine.com/fr/content/seaowl-decroche-
+
+[Page 95 / 107 | chars: 1572]
+--------------------------------------------------------------------------------
+
+95 
+ 
+le-premier-permis-francais-de-navigation-pour-un-navire-
+teleopere ; consulté le 11 février 2021). 
+ 
+« Artificial Intelligence Easily Beats Human Fighter Pilot in 
+DARPA Trial », sur Air Force Magazine, 20 août 2020 (en ligne : 
+https://www.airforcemag.com/artificial-intelligence-easily-
+beats-human-fighter-pilot-in-darpa-trial/ ; 
+consulté 
+le 
+12 
+janvier 2021). 
+ 
+« One Year In, SURFDEVRON Ready to Speed Up At-Sea Testing, 
+Prototype Deliveries », sur USNI News, 15 juin 2020 (en ligne : 
+https://news.usni.org/2020/06/15/one-year-in-surfdevron-
+ready-to-speed-up-at-sea-testing-prototype-deliveries ; 
+consulté le 10 février 2021). 
+ 
+« La Third Offset Strategy américaine :: DEFENSE&Industries :: 
+Fondation pour la Recherche Stratégique :: FRS », sans date (en 
+ligne : 
+https://frstrategie.org/publications/defense-et-
+industries/third-offset-strategy-americaine-2016 ; consulté le 
+1er décembre 2020). 
+ 
+« Dull, dirty, dangerous mission? Send in the robot vehicle », 
+sur 
+www.army.mil, 
+sans 
+date 
+(en 
+ligne : 
+https://www.army.mil/article/154248/dull_dirty_dangerous_
+mission_send_in_the_robot_vehicle ; consulté le 13 janvier 
+2021). 
+ 
+« Kratos XQ-58A / Kratos XQ-222 Valkyrie / Low-Cost Attritable 
+Strike Demonstrator (LCASD) », sans date (en ligne : 
+https://www.globalsecurity.org/military//systems/aircraft/lca
+sd.htm ; consulté le 3 décembre 2020). 
+« SLAM-F : Le CEPN au cœur de l’action | colsbleus.fr : le 
+magazine de la Marine Nationale », sans date (en ligne : 
+https://www.colsbleus.fr/articles/12552 ; consulté le 11 février 
+2021).
+
+[Page 96 / 107 | chars: 1196]
+--------------------------------------------------------------------------------
+
+96 
+ 
+« IXblue : le drone DriX retenu par la NOAA américaine | Mer 
+et 
+Marine », 
+sans 
+date 
+(en 
+ligne : 
+https://www.meretmarine.com/fr/content/ixblue-le-drone-
+drix-retenu-par-la-noaa-americaine ; consulté le 25 novembre 
+2020). 
+ 
+« Autonomous ship project, key facts about YARA Birkeland », 
+sans 
+date 
+(en 
+ligne : 
+https://www.kongsberg.com/maritime/support/themes/auto
+nomous-ship-project-key-facts-about-yara-birkeland/ ; 
+consulté le 12 février 2021). 
+ 
+« UlyX », sur Flotte océanographique française opérée par 
+l’Ifremer, 
+sans 
+date 
+(en 
+ligne : 
+https://www.flotteoceanographique.fr/Nos-moyens/Navires-
+engins-et-equipements-mobiles/Systemes-sous-marins/UlyX ; 
+consulté le 13 janvier 2021). 
+ 
+« Commission des affaires étrangères, de la défense et des 
+forces armées : compte rendu de la semaine du 26 octobre 
+2020 », sans date (en ligne : http://www.senat.fr/compte-
+rendu-commissions/20201026/etr.html ; 
+consulté 
+le 
+7 
+décembre 2020). 
+ 
+« Turkey’s ULAQ armed USV prototype enters sea trials », sur 
+Janes.com, 
+sans 
+date 
+(en 
+ligne : 
+https://www.janes.com/defence-news/news-detail/turkeys-
+ulaq-armed-usv-prototype-enters-sea-trials ; consulté le 18 
+février 2021).
+
+[Page 97 / 107 | chars: 1050]
+--------------------------------------------------------------------------------
+
+97 
+ 
+Tables des matières 
+ 
+Résumé ..................................................... 4 
+ 
+Introduction .............................................. 5 
+ 
+I. 
+Généralités des systèmes de drone 
+appliqués aux opérations militaires ......... 13 
+A. 
+Définitions des systèmes automatisés ............ 13 
+1. 
+Drones VS systèmes automatisés .................. 13 
+2. 
+Intelligence artificielle : GOFAI vs deep learning
+ 
+16 
+B. 
+La règle des 4 Ds et les avantages comparatifs 
+du drone............................................................... 18 
+1. 
+Dull - fastidieux .............................................. 19 
+2. 
+Dirty – sale ..................................................... 20 
+3. 
+Dangerous – dangereux ................................ 20 
+4. 
+Dear / Difficult – délicat / difficile ................. 23 
+5. 
+Avantages comparatifs du drone .................. 25 
+C. 
+Les risques génériques liés à l’utilisation des 
+systèmes automatisés et leurs conséquences ......... 30 
+1. 
+Perte de contrôle du système automatisé ..... 31
+
+[Page 98 / 107 | chars: 1248]
+--------------------------------------------------------------------------------
+
+98 
+ 
+2. 
+Erreur de jugement / précision ...................... 32 
+3. 
+Risque d’escalade tactique ............................ 35 
+4. 
+Risque d’escalade politique ........................... 37 
+5. 
+Risques juridiques .......................................... 38 
+D. 
+Spécificités des milieux aériens et maritimes au 
+regard des systèmes automatisés .......................... 39 
+1. 
+Milieu aérien .................................................. 40 
+2. 
+La surface des mers ....................................... 42 
+3. 
+Le milieu sous-marin ...................................... 45 
+ 
+II. 
+Programmes de drones navals ........ 47 
+A. 
+L’US Navy ...................................................... 47 
+1. 
+Le concept de redistribution des forces ......... 47 
+2. 
+La typologie des USV et AUV américains ....... 49 
+3. 
+Les programmes LUSV – Ghost fleet Overlord51 
+4. 
+Les programme MUSV – Le Sea Hunter ......... 54 
+5. 
+L’expérimentation pratique des USV ............. 56 
+6. 
+Les programme d’AUV ................................... 58 
+B. 
+L’état de l’art en France ................................. 61 
+1. 
+Le programme SLAM-F .................................. 61 
+2. 
+Programmes civils .......................................... 66
+
+[Page 99 / 107 | chars: 840]
+--------------------------------------------------------------------------------
+
+99 
+ 
+III. 
+Perspectives pour la Marine nationale
+ 
+71 
+A. 
+Contexte d’emploi de la Marine nationale ...... 71 
+1. 
+Des RTC face à des besoins qui augmentent . 71 
+2. 
+Les limites RH et économiques ...................... 72 
+3. 
+Les conséquences pour les programmes de 
+drones .................................................................... 73 
+B. 
+Le cas particulier de la lutte anti sous-marine . 75 
+4. 
+Spécificités de la mission ............................... 75 
+5. 
+Exemple d’une force ASM dronisée ............... 76 
+6. 
+Applications possibles .................................... 82 
+C. 
+Le counter unmanned warfare ....................... 83 
+ 
+Conclusion ............................................... 87 
+ 
+Bibliographie ........................................... 91 
+ 
+Références bibliographiques ................. 100
+
+[Page 100 / 107 | chars: 1199]
+--------------------------------------------------------------------------------
+
+100 
+ 
+Références bibliographiques 
+ 
+i A. NATIONALE, « Http://www.assemblee-
+nationale.fr/dyn/15/comptes-
+rendus/cion_def/l15cion_def2021008_compte-rendu », sur 
+Assemblée nationale, s. d. (en ligne : http://www.assemblee-
+nationale.fr/dyn/15/comptes-
+rendus/cion_def/l15cion_def2021008_compte-rendu ; 
+consulté le 25 novembre 2020) 
+ 
+ii « La Third Offset Strategy américaine :: 
+DEFENSE&Industries :: Fondation pour la Recherche 
+Stratégique :: FRS », s. d. (en ligne : 
+https://frstrategie.org/publications/defense-et-
+industries/third-offset-strategy-americaine-2016 ; consulté le 
+1er décembre 2020) 
+ 
+iii O. DUJARDIN, « Le retour des « Wunderwaffen » » Centre 
+Français de Recherche sur le Renseignement », sur Centre 
+Français de Recherche sur le Renseignement, s. d. (en ligne : 
+https://cf2r.org/rta/le-retour-des-wunderwaffen/ ; consulté le 
+30 novembre 2020) 
+ 
+iv CENTRE INTERARMEES DE CONCEPTS, DE DOCTRINES ET 
+D’EXPERIMENTATIONS, Emploi de l’intelligence artificielle et des 
+sytèmes automatisés, Paris, Imprimerie nationale, 2018 
+ 
+v Id. 
+ 
+vi G. KŒNIG, La fin de l’individu: voyage d’un philosophe au pays 
+de l’intelligence artificielle, Paris, Éditions de l’Observatoire, 
+2019
+
+[Page 101 / 107 | chars: 1379]
+--------------------------------------------------------------------------------
+
+101 
+ 
+ 
+vii P. MOZUR, « Google’s AlphaGo Defeats Chinese Go Master in 
+Win for A.I. (Published 2017) », The New York Times, 23 mai 
+2017 (en ligne : 
+https://www.nytimes.com/2017/05/23/business/google-
+deepmind-alphago-go-champion-defeat.html ; consulté le 12 
+janvier 2021) 
+ 
+viii N. SAVAGE, « How AI is improving cancer diagnostics », 
+Nature, vol. 579, no 7800, Nature Publishing Group, 25 mars 
+2020, p. S14-S16 
+ 
+ix « Artificial Intelligence Easily Beats Human Fighter Pilot in 
+DARPA Trial », sur Air Force Magazine, 20 août 2020 (en ligne : 
+https://www.airforcemag.com/artificial-intelligence-easily-
+beats-human-fighter-pilot-in-darpa-trial/ ; consulté le 12 
+janvier 2021) 
+ 
+x G. KŒNIG, La fin de l’individu, op. cit. 
+ 
+xi « Dull, dirty, dangerous mission? Send in the robot vehicle », 
+sur www.army.mil, s. d. (en ligne : 
+https://www.army.mil/article/154248/dull_dirty_dangerous_
+mission_send_in_the_robot_vehicle ; consulté le 13 janvier 
+2021) 
+ 
+xii « Artificial Intelligence Easily Beats Human Fighter Pilot in 
+DARPA Trial », op. cit. 
+ 
+xiii P. LANGLOIT, « Les UCAV sont-ils condamnés ? », sur DSI, 14 
+janvier 2020 (en ligne : 
+https://www.areion24.news/2020/01/14/les-ucav-sont-ils-
+condamnes%e2%80%89/ ; consulté le 19 novembre 2020) 
+ 
+xiv « Kratos XQ-58A / Kratos XQ-222 Valkyrie / Low-Cost 
+Attritable Strike Demonstrator (LCASD) », s. d. (en ligne :
+
+[Page 102 / 107 | chars: 1036]
+--------------------------------------------------------------------------------
+
+102 
+ 
+ 
+https://www.globalsecurity.org/military//systems/aircraft/lca
+sd.htm ; consulté le 3 décembre 2020) 
+ 
+xv N. SAVAGE, « How AI is improving cancer diagnostics », 
+op. cit. 
+ 
+xvi CENTRE INTERARMEES DE CONCEPTS, DE DOCTRINES ET 
+D’EXPERIMENTATION, Emploi des sytèmes de drones aériens en 
+opérations, Paris, Imprimerie nationale, 2020 
+ 
+xvii CENTRE INTERARMEES DE CONCEPTS, DE DOCTRINES ET 
+D’EXPERIMENTATIONS, Emploi de l’intelligence artificielle et des 
+sytèmes automatisés, op. cit. 
+ 
+xviii N. J. LUCAS, Lethal Autonomous Weapon Systems: Issues for 
+Congress, 2016 
+ 
+xix CENTRE INTERARMEES DE CONCEPTS, DE DOCTRINES ET 
+D’EXPERIMENTATION, Emploi des sytèmes de drones aériens en 
+opérations, op. cit. 
+ 
+xx N. J. LUCAS, Lethal Autonomous Weapon Systems: Issues for 
+Congress, op. cit. p. 17 
+ 
+xxi CENTRE INTERARMEES DE CONCEPTS, DE DOCTRINES ET 
+D’EXPERIMENTATION, Emploi des sytèmes de drones aériens en 
+opérations, op. cit. 
+ 
+xxii Id. 
+ 
+xxiii A. AUGER-OTTAVI, Réflexions sur le Seabed Warfare, Ecole de 
+Guerre, 2020
+
+[Page 103 / 107 | chars: 1493]
+--------------------------------------------------------------------------------
+
+103 
+ 
+ 
+xxiv M. ECKSTEIN, « SECDEF Esper Calls for 500-Ship Fleet by 
+2045, With 3 SSNs a Year and Light Carriers Supplementing 
+CVNs », sur USNI News, 6 octobre 2020 (en ligne : 
+https://news.usni.org/2020/10/06/secdef-esper-calls-for-500-
+ship-fleet-by-2045-with-3-ssns-a-year-and-light-carriers-
+supplementing-cvns ; consulté le 20 octobre 2020) 
+ 
+xxv R. O’ROURKE, Navy Large Unmanned Surface and Undersea 
+Vehicles: Background and Issues for Congress, 2019 p. 7 
+ 
+xxvi Id. p. 4 
+ 
+xxvii M. MANARANCHE, « Ghost Fleet Overlord Test Vessels 
+Continue to Accelerate U.S. Navy’s USV programs », sur Naval 
+News, 6 juin 2020 (en ligne : 
+https://www.navalnews.com/naval-news/2020/06/ghost-
+fleet-overlord-test-vessels-continue-to-accelerate-u-s-navys-
+usv-programs/ ; consulté le 20 octobre 2020) 
+ 
+xxviii R. O’ROURKE, Navy Large Unmanned Surface and Undersea 
+Vehicles, op. cit. p. 14 
+ 
+xxix M. ECKSTEIN, « Sea Hunter Unmanned Ship Continues 
+Autonomy Testing as NAVSEA Moves Forward with Draft 
+RFP », sur USNI News, 29 avril 2019 (en ligne : 
+https://news.usni.org/2019/04/29/sea-hunter-unmanned-
+ship-continues-autonomy-testing-as-navsea-moves-forward-
+with-draft-rfp ; consulté le 20 octobre 2020) 
+ 
+xxx Id. 
+ 
+xxxi « One Year In, SURFDEVRON Ready to Speed Up At-Sea 
+Testing, Prototype Deliveries », sur USNI News, 15 juin 2020 
+(en ligne : https://news.usni.org/2020/06/15/one-year-in-
+surfdevron-ready-to-speed-up-at-sea-testing-prototype-
+deliveries ; consulté le 10 février 2021)
+
+[Page 104 / 107 | chars: 1334]
+--------------------------------------------------------------------------------
+
+104 
+ 
+ 
+ 
+xxxii R. O’ROURKE, Navy Large Unmanned Surface and Undersea 
+Vehicles, op. cit.p. 16 
+ 
+xxxiii THE BOEING COMPANY, « Echo Voyager Product Sheet », 2017 
+xxxiv CHIEF OF NAVAL OPERATIONS, Autonomous Undersea Vehicle 
+Requirement for 2025, US Navy, 2016 
+ 
+xxxv Id.p. 9 
+ 
+xxxvi Id. p. 8 
+ 
+xxxvii V. GROIZELEAU, « MMCM : Focus sur le programme franco-
+britannique de guerre des mines », sur Mer et Marine, 19 
+octobre 2016 (en ligne : 
+https://www.meretmarine.com/fr/content/mmcm-focus-sur-
+le-programme-franco-britannique-de-guerre-des-mines ; 
+consulté le 11 février 2021)V. Groizeleau, « MMCM : Focus sur 
+le programme franco-britannique de guerre des mines », Mer 
+et Marine, 19 octobre 2016. URL : 
+https://www.meretmarine.com/fr/content/mmcm-focus-sur-
+le-programme-franco-britannique-de-guerre-des-mines.. 
+Consulté le 11 février 2021. 
+ 
+xxxviii « La réalisation du Système de lutte anti-mines futur est 
+officiellement lancée », sur Zone Militaire, 3 novembre 2020 
+(en ligne : http://www.opex360.com/2020/11/03/la-
+realisation-du-systeme-de-lutte-anti-mines-futur-est-
+officiellement-lancee/ ; consulté le 11 février 2021) 
+xxxix « SLAM-F : Le CEPN au cœur de l’action | colsbleus.fr : le 
+magazine de la Marine Nationale », s. d. (en ligne : 
+https://www.colsbleus.fr/articles/12552 ; consulté le 11 
+février 2021)
+
+[Page 105 / 107 | chars: 1540]
+--------------------------------------------------------------------------------
+
+105 
+ 
+ 
+xl X. VAVASSEUR, « Royal Navy Launched its First “crewless 
+Pacific 24 boat” USV », sur Naval News, 24 juin 2020 (en ligne : 
+https://www.navalnews.com/naval-news/2020/06/royal-
+navy-launched-its-first-crewless-pacific-24-boat-usv/ ; 
+consulté le 25 novembre 2020) 
+ 
+xli « SeaOwl décroche le premier permis français de navigation 
+pour un navire télé-opéré », sur Mer et Marine, 11 septembre 
+2020 (en ligne : 
+https://www.meretmarine.com/fr/content/seaowl-decroche-
+le-premier-permis-francais-de-navigation-pour-un-navire-
+teleopere ; consulté le 11 février 2021) 
+ 
+xlii « IXblue : le drone DriX retenu par la NOAA américaine | 
+Mer et Marine », s. d. (en ligne : 
+https://www.meretmarine.com/fr/content/ixblue-le-drone-
+drix-retenu-par-la-noaa-americaine ; consulté le 25 novembre 
+2020) 
+ 
+xliii N. GAIN, « French Navy Tests iXblue’s DriX Unmanned 
+Surface Vessel », sur Naval News, 2 novembre 2020 (en ligne : 
+https://www.navalnews.com/naval-news/2020/11/french-
+navy-tests-ixblues-drix-unmanned-surface-vessel/ ; consulté le 
+12 février 2021) 
+ 
+xliv D. P. RELEASES, « SEA, iXblue Develop SeaDrix Long Range 
+Submarine Hunting System », sur DefPost, 14 novembre 2019 
+(en ligne : https://defpost.com/sea-ixblue-develop-seadrix-
+long-range-submarine-hunting-system/ ; consulté le 12 février 
+2021) 
+ 
+xlv « Autonomous ship project, key facts about YARA 
+Birkeland », s. d. (en ligne : 
+https://www.kongsberg.com/maritime/support/themes/auto
+nomous-ship-project-key-facts-about-yara-birkeland/ ; 
+consulté le 12 février 2021)
+
+[Page 106 / 107 | chars: 1157]
+--------------------------------------------------------------------------------
+
+106 
+ 
+ 
+ 
+xlvi « UlyX », sur Flotte océanographique française opérée par 
+l’Ifremer, s. d. (en ligne : 
+https://www.flotteoceanographique.fr/Nos-moyens/Navires-
+engins-et-equipements-mobiles/Systemes-sous-marins/UlyX ; 
+consulté le 13 janvier 2021) 
+ 
+xlvii D. BYRD, « An AUV to Optimize Pipeline Inspections », sur 
+Exploration & Production, 1er août 2016 (en ligne : 
+https://www.ep.total.com/en/areas/deep-offshore/auv-
+optimize-pipeline-inspections ; consulté le 19 février 2021) 
+ 
+xlviii « Commission des affaires étrangères, de la défense et des 
+forces armées : compte rendu de la semaine du 26 octobre 
+2020 », s. d. (en ligne : http://www.senat.fr/compte-rendu-
+commissions/20201026/etr.html ; consulté le 7 décembre 
+2020) 
+ 
+xlix CENTRE INTERARMEES DE CONCEPTS, DE DOCTRINES ET 
+D’EXPERIMENTATIONS, « Concept d’Emploi des Forces », 2020 
+ 
+l B. CLARK, S. CROPSEY et T. A. WALTON, « Sustaining the 
+Undersea Advantage: Disrupting Anti-Submarine Warfare 
+Using Autonomous Systems », 2020, p. 76 p. 6 
+ 
+li Id. 
+ 
+lii Id. p. 46 
+ 
+liii R. K. NICHOLS et al., Counter Unmanned Aircraft Systems 
+Technologies and Operations, s. l., R. K Nichols, 2020
+
+[Page 107 / 107 | chars: 873]
+--------------------------------------------------------------------------------
+
+107 
+ 
+ 
+liv « Turkey’s ULAQ armed USV prototype enters sea trials », 
+sur Janes.com, s. d. (en ligne : 
+https://www.janes.com/defence-news/news-detail/turkeys-
+ulaq-armed-usv-prototype-enters-sea-trials ; consulté le 18 
+février 2021) 
+ 
+lv R. DIXON, « Azerbaijan’s drones owned the battlefield in 
+Nagorno-Karabakh — and showed future of warfare », 
+Washington Post, s. d. (en ligne : 
+https://www.washingtonpost.com/world/europe/nagorno-
+karabkah-drones-azerbaijan-aremenia/2020/11/11/441bcbd2-
+193d-11eb-8bda-814ca56e138b_story.html ; consulté le 9 
+décembre 2020) 
+ 
+lvi COUR DES COMPTES, Rapport public annuel 2020, 2020 
+ 
+lvii É. POURCEL, Dronisation et robotisation intelligentes des 
+armées (DRIA): de la dynamique conflictuelle et opérationnelle 
+mixte Homme-machine ... à la dynamique conflictuelle et 
+opérationnelle machine IA--machine IA?, s. l., 2018 p. 118
+

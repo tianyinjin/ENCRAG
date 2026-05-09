@@ -1,0 +1,319 @@
+Source file: 20240131_np_dpid_dir33-directive-retour-experience-en-securite-numerique.pdf
+Relative path: 20240131_np_dpid_dir33-directive-retour-experience-en-securite-numerique.pdf
+Page count: 7
+Extracted pages: 7
+
+================================================================================
+
+[Page 1 / 7 | chars: 889]
+--------------------------------------------------------------------------------
+
+14 rue Saint-Dominique  
+75700 PARIS SP 07 
+stephane.laugiert@intradef.gouv.fr 
+Dossier suivi par : CF Laugier 
+1/2 
+Direction de la Protection des Installations 
+Moyens et activités de la Défense (DPID) 
+ 
+ 
+Paris, le 31 janvier 2024 
+ 
+N°DEP-00041/2024/ARM/DPID/NP 
+NOTE 
+OBJET 
+: directive portant sur 
+expérience en sécurité numérique au sein du 
+ministère des Armées. 
+RÉFÉRENCE 
+: instruction ministérielle n°7326/ARM/CAB du 25 juin 2018. 
+PIECE JOINTE 
+: directive ministérielle n°33/ARM/DPID/NP édition 2. 
+ABROGÉ 
+: directive ministérielle n°33/DEF/DGSIC/NP édition 1 approuvée par lettre 
+n°70/DEF/DGSIC/SDSSI/NP du 5 février 2015. 
+ 
+ 
+diffusion aux acteurs concernés. 
+ 
+ 
+ 
+Le vice-amiral Denis Bertrand, 
+ 
+Directeur de la protection des installations, 
+moyens et activités de la défense, 
+haut fonctionnaire correspondant de 
+défense et de sécurité adjoint 
+ 
+ORIGINAL SIGNÉ
+
+[Page 2 / 7 | chars: 149]
+--------------------------------------------------------------------------------
+
+2/2 
+LISTE DE DIFFUSION 
+ 
+DESTINATAIRES 
+: 
+- DGA 
+- EMA 
+- SGA 
+- DRSD 
+- DGSE 
+COPIES 
+: 
+- COMCYBER 
+- DGA/SSDI 
+- SGA/DTPM 
+- DGNUM 
+- archives.
+
+[Page 3 / 7 | chars: 645]
+--------------------------------------------------------------------------------
+
+directive n°33 portant 
+sécurité numérique  Ed 2 
+1/5 
+ 
+ 
+ 
+ 
+Direction de la Protection des Installations 
+Moyens et activités de la Défense (DPID) 
+ 
+ 
+ 
+ 
+DIRECTIVE N°33  
+PORTANT SUR 
+ 
+CE EN SÉCURITÉ NUMÉRIQUE 
+AU SEIN DU MINISTÈRE DES ARMEES 
+(DIR RETEX) 
+ 
+2ème édition 
+(approuvée par la note n°DEP- 00041/2024/ARM/DPID/NP du 31/01/2024) 
+ 
+ 
+ 
+ 
+ 
+ 
+Rédaction 
+DPID/DSDN avec le soutien de la DGNUM et des RAQ SSI 
+Validation 
+ICA Sophie Griffe 
+DPID/FSSI 
+Approbation 
+VA Denis Bertrand 
+DPID 
+ 
+ 
+ 
+ 
+L'édition en vigueur de ce document est celle accessible via le site SynopTIC. 
+S'assurer de la validité de toute copie avant usage.
+
+[Page 4 / 7 | chars: 676]
+--------------------------------------------------------------------------------
+
+directive n°33 portant 
+sécurité numérique  Ed 2 
+2/5 
+ 
+ 
+ 
+TABLE DES MATIERES 
+ 
+ 
+1. 
+PRÉSENTATION GÉNÉRALE ........................................................................................... 3 
+2. 
+DOCUMENTS APPLICABLES ET RÉFÉRENCE ............................................................... 3 
+3. 
+LE RETEX EN SÉCURITÉ DU NUMÉRIQUE AU SEIN DU MINISTÈRE ........................ 3 
+3.1. Généralités .................................................................................................................... 3 
+3.2. Processus 
+ ..... 4 
+4. 
+GOUVERNANCE MINISTERIELLE .................................................................................. 4
+
+[Page 5 / 7 | chars: 2127]
+--------------------------------------------------------------------------------
+
+directive n°33 portant 
+sécurité numérique  Ed 2 
+3/5 
+ 
+ PRÉSENTATION GÉNÉRALE 
+La présente directive définit et orga
+ (RETEX) 
+dans le domaine de la sécurité numérique au niveau ministériel. Ce processus a pour 
+sécurité numérique, en proposant des solutions 
+aux lacunes constatées. 
+À cet effet, les responsabilités des grands acteurs de la sécurité numérique y sont 
+précisées. 
+ DOCUMENTS APPLICABLES ET RÉFÉRENCE 
+[PSSI-M] 
+Instruction ministérielle n°7326/ARM/CAB du 25 juin 2018. Politique de 
+ense.  
+https://synoptic.intradef.gouv.fr/securite-des-systemes-
+dinformation/instruction-ministerielle-ndeg7326armcab-du-25-juin-2018 
+ 
+[PIA] 
+N°13 /DEF/CICDE/NP du 26 janvier 2017 
+http://portail-cicde.intradef.gouv.fr/index.php/le-retex 
+ LE RETEX EN SÉCURITÉ NUMÉRIQUE AU SEIN DU MINISTÈRE  
+ Généralités 
+ en sécurité numérique (RETEX SECNUM) au sein du ministère 
+est une démarche qui vise à améliorer la sécurité des systèmes numériques du 
+ministère dans tous ses aspects et à tous les niveaux par la détermination et la 
+chaînes de responsabilité. Ces mesures peuvent porter sur la correction de déficiences 
+constatées comme sur la validation ou la consolidation de bonnes pratiques à 
+pérenniser. 
+Cette démarche consiste en une analyse m
+événement 
+en vue 
+et en vue de signaler les dysfonctionnements afin de pouvoir y remédier. 
+Cet événement peut être une activité, un exercice, un incident, une situation 
+constatée émanant de divers organismes ou audit. 
+de comprendre les causes et les mécanismes mis en 
+ayant conduit aux dysfonctionnements constatés 
+r. En particulier, elle s
+écarts entre les pratiques et les 
+référentiels, aux organisations, aux mécanismes de gestion des événements, au facteur 
+humain. Les enseignements peuvent conduire, entre autres, à faire évoluer les 
+processus, le corpus réglementaire, la formation du personnel ou les moyens. 
+Le RETEX 
+ le personnel. L
+, dans la 
+mesure où cela ne dénature pas les événements analysés 
+connaitre, sur des informations et des faits décontextualisés (lieux, systèmes, 
+domaines 
+ainsi faciliter la circulation et le partage des informations.
+
+[Page 6 / 7 | chars: 1912]
+--------------------------------------------------------------------------------
+
+directive n°33 portant 
+sécurité numérique  Ed 2 
+4/5 
+ 
+ 
+sécurité numérique 
+sécurité numérique comporte trois phases : 
+ 
+La collecte ou le recueil des faits, qui consiste à rassembler sans interférer avec 
+pour décrire le plus finement possible un incident passé ou une activité observée. 
+ 
+ des enseignements, qui consiste déterminer et analyser les 
+caus
+événement
+ 
+et 
+de 
+formuler 
+des 
+recommandations afin d
+un nouvel incident ou 
+. 
+ sont à classer en 
+suivant la catégorisation « DORESE » rappelées infra. 
+ 
+, qui consiste à valider les propositions émises lors 
+de la phase précédente et décider des actions à conduire. Il convient de prévoir 
+ 
+obtient les effets recherchés. 
+ 
+Catégories DORESE appliquées au RETEX Cyber : 
+Doctrines : 
+ 
+Organisation :  organisation des entités ministérielles, dialogue et fonctionnement ; 
+Ressources : ressources humaines (RH), fi
+ 
+Équipements 
+ 
+Soutien général et/ou spécifique ; 
+Entraînement : formation, sensibilisation. 
+ 
+ permet de mobiliser 
+éventuellement les acteurs du domaine concerné pour obtenir une expertise 
+ 
+ GOUVERNANCE MINISTERIELLE 
+Le GC RETEX SECNUM 
+Un groupe de coordination ministérielle sur le RETEX en sécurité numérique (GC 
+RETEX SECNUM) est animé par la DPID. Les AQSSI sont membres de droit. Les 
+membres du comité ministériel de la sécurité du numérique (CMSN) y sont conviés 
+autant que de besoin. Des experts ou sachant sur les domaines évoqués pourront être 
+conviés. Le groupe se réunit à la demande de la DPID, ou sur proposition de l
+membres. 
+Ses objectifs sont de : 
+ 
+partager le RETEX 
+ ; 
+ 
+analyser les enseignements ; 
+ 
+prendre des décisions sur le fonctionnement de la chaîne RETEX ministérielle et 
+son organisation ; 
+ 
+préparer les décisions ministérielles à soumettre au HFCDS ou au CMSN ; 
+ 
+RETEX sur les événements dont les implications 
+les parties pour lesquelles elles sont 
+compétentes.
+
+[Page 7 / 7 | chars: 1354]
+--------------------------------------------------------------------------------
+
+directive n°33 portant 
+sécurité numérique  Ed 2 
+5/5 
+ 
+ 
+Les AQSSI 
+ 
+Les AQSSI organisent leur propre RETEX. Trois types de RETEX sont distingués :  
+- 
+les 
+AQSSI ; 
+- 
+les 
+avec les autre AQSSI ; 
+- 
+les 
+. 
+ 
+Les AQSSI adressent à la DPID 
+les RETEX avec les enseignements et les 
+décisions prises pour les deux derniers types de RETEX et proposent des décisions qui 
+nécessitent 
+portées par la DPID ou par le HFCDS. 
+Ils communiquent annuellement à la DPID, avant le CMSN thématique RETEX, une 
+synthèse présentant :   
+- 
+des événements survenus sur la période sur tous les types 
+de RETEX (interne également) ; 
+- 
+une appréciation de situation, 
+- 
+le rappel des références des courriers adressés à la DPID concernant les 
+événements significatifs ; 
+- 
+les enseignements dont ceux : 
+o 
+événements du domaine du chiffre ; 
+o relat
+. 
+ 
+Les AQSSI sont responsables de la capitalisation et de la diffusion du RETEX à leur 
+niveau et proposent des évolutions de la présente directive et du guide sur le RETEX.  
+ 
+La DPID 
+La DPID capitalise et assure le partage de RETEX entre les AQSSI et analyse les 
+travaux sur les évolutions réglementaires. Elle identifie les éventuelles problématiques 
+communes et les grands axes à porter 
+. 
+La DPID maintient la présente directive et le guide RETEX associé et préside les 
+réunions du GC RETEX SECNUM.
+

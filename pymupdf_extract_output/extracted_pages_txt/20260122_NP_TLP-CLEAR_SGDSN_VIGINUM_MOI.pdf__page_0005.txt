@@ -1,0 +1,56 @@
+Source file: 20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI.pdf
+Relative path: 20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI.pdf
+Page: 5 / 14
+
+================================================================================
+
+5 
+TLP:CLEAR 
+2. 
+DEFINITIONS 
+2.1 Les dimensions de la manipulation de l’information 
+Pour bien comprendre l’intérêt du concept de MOI, il convient de clarifier dans un premier temps la 
+façon dont sont schématisées les activités informationnelles numériques malveillantes. Le concept 
+s’articule en effet avec d’autres dénominations existantes, permettant ainsi de représenter de manière 
+holistique les « échelles » de la manipulation de l’information : depuis les activités visibles en ligne (un 
+compte de réseau social diffusant un contenu) jusqu’aux personnes physiques qui en sont à l’origine 
+(opérateurs, voire commanditaires). Cette représentation s’appuie sur des concepts issus de la doctrine 
+militaire, qui sépare traditionnellement la guerre en cinq « niveaux » ou « dimensions » : politique, 
+stratégique, opérative, tactique et technique. 
+Transposés à la manipulation de l’information, ces cinq niveaux correspondent : 
+• 
+politique : aux acteurs ou « commanditaires » qui décident d’exploiter le levier des activités 
+informationnelles numériques parmi une gamme d’actions possibles, qu’il s’agisse d’un État 
+ou de tout autre type d’acteur (entreprise privée, ONG, influenceur, etc.) ; 
+• 
+stratégique : aux acteurs ou « opérateurs » missionnés, recrutés ou financés pour traduire les 
+objectifs politiques en actions, quel que soit leur type (État, organisation, individu), les 
+commanditaires ne possédant pas systématiquement ces moyens en propre ; 
+• 
+opératif : aux campagnes informationnelles conduites par les opérateurs pour atteindre les 
+objectifs stratégiques, traduits en objectifs informationnels (promouvoir, dénigrer, polariser, 
+inciter à l’action dans le champ physique, etc.) ; 
+• 
+tactique : aux opérations informationnelles conduites par les opérateurs pour remplir les 
+objectifs opératifs et décliner en actions les campagnes, par exemple la publication de 
+contenus polarisants, et qui exploitent une ou plusieurs infrastructures numériques ; 
+• 
+technique : aux infrastructures numériques (« digital assets ») contrôlées et exploitées par les 
+opérateurs pour remplir les objectifs tactiques, qu’il s’agisse de comptes de réseaux sociaux, 
+de sites Internet, d’adresses courriels, etc.  
+Néanmoins, comme c’est également le cas pour les attaques informatiques, les opérateurs des activités 
+informationnelles numériques malveillantes ne sont pas toujours connus, et les défenseurs doivent alors 
+créer des ensembles fictifs (« Matriochka », « Spamouflage », « Doppelgänger ») regroupant les éléments 
+techniques, comportementaux et contextuels identifiés qui sont estimés imputables à un seul acteur 
+malveillant. Indispensable pour analyser les activités numériques malveillantes dans le brouillard des 
+opérations informationnelles et suivre la menace sur le long terme, VIGINUM propose de définir ce 
+niveau d’abstraction avec la notion de « mode opératoire informationnel ». 
+2.2 Définition d’un « mode opératoire informationnel » 
+VIGINUM définit un mode opératoire informationnel (MOI) comme un ensemble de comportements, 
+d’outils et de tactiques, techniques et procédures (TTP) adverses présumés liés au même acteur 
+malveillant ou groupe d’acteurs malveillants, qui peut être inconnu. Un ou plusieurs MOI peuvent être 
+attribués techniquement à un acteur malveillant, et une ou plusieurs campagnes peuvent être imputées 
+à un MOI. Un MOI ne doit pas être confondu avec un acteur malveillant (« Threat Actor »), qui peut être 
+un État, une organisation ou un individu. Enfin, un MOI peut être exploité pour conduire des campagnes 
+informationnelles, qui peuvent être constituées de plusieurs opérations informationnelles (ou 
+incidents).

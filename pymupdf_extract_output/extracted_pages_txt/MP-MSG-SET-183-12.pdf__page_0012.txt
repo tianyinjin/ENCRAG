@@ -1,0 +1,40 @@
+Source file: MP-MSG-SET-183-12.pdf
+Relative path: MP-MSG-SET-183-12.pdf
+Page: 12 / 16
+
+================================================================================
+
+Commercial UAVs Multispectral Detection 
+12 - 12 
+STO-MP-MSG-SET-183 
+used. In the case of a lack of time or during a high-density attack, effector use can also be decided 
+autonomously, but lethal elimination (weapons) should be controlled only by a human operator (for ethical 
+and safety reasons) to avoid friendly fire or collateral damage. 
+Research on the C-UAV domain is now focused on active defence against the UAV. There are works on 
+lethal or nonlethal elimination by AD C-UAVs [19], [44], but this research is still in progress. This topic has 
+been discussed and researched intensively [45], [46], [47], [48]. These reflect recent UAV incidents 
+(attacks). The final step of this research will consist of result fusion (detection and elimination) and 
+implementation into real systems. 
+5.0 CONCLUSIONS 
+This paper covers several years of research and supports the design concept of future defence and protection 
+systems against UAS threats. Together with the development of radar for LSS targets, there is a great 
+potential for the development of robust and reliable systems that are able to detect and eliminate UAV 
+threats. The key attribute of the suggested system is its modularity. Potential users (military, air traffic 
+control, security services, etc.) can adjust the system to their needs. However, many conceptual and technical 
+aspects of the C-UAV systems still need to be concerned. Of course, a general solution that reflects all 
+possible situations does not exist - hence the phrase, “there is no silver bullet.” 
+Hypothesis, confirmed by this study defines a detection area of up to 2000 m and a terminal area of up to 300 
+m around a guarded location. These are key areas for sensor network installation and for the use of counter 
+UAS equipment - effectors. 
+The last phase of the work will consist of an analysis of current detection methods of small-sized targets, 
+from mini or micro UAS categories, across the entire alert system. This last step concludes the logical link 
+among the three basic pillars of air defence—sensors, assessment systems (command and control systems), 
+and effectors (lethal or nonlethal engagement against UAS). 
+ACKNOWLEDGEMENTS 
+The work presented in this article was supported by the Czech Republic Ministry of Defence—the 
+University of Defence Brno development program “Research of sensor and control systems to achieve 
+battlefield information superiority,” DZRO FVT ELEKTRO. 
+We thank members of the Department of Weapons and Ammunition and the Department of Communication 
+Technologies, Electronic Warfare and Radiolocation, University of Defence, for the special equipment 
+provided and the technical support. We would also like to express our gratitude to Mr. Pavel Šedivý (Retia 
+Inc.) for cooperating during the research and experiments.

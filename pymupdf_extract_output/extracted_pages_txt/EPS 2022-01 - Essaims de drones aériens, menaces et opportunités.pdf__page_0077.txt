@@ -1,0 +1,43 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 77 / 136
+
+================================================================================
+
+77 
+croissantes d’embarquer des capacités de calculs importantes font que ces données peuvent de plus 
+en plus facilement être traitées, analysées et utilisées localement dans le drone ou de façon distribuée 
+dans l’essaim. Cela est désirable pour deux raisons : 
+- 
+Les canaux de communication avec le poste de contrôle ont une bande passante limitée. Il est 
+plus facile de faire descendre les résultats d’une analyse plutôt que les données brutes ; 
+- 
+Le drone ou l’essaim peut avoir besoin du résultat de l’analyse pour déterminer son propre 
+comportement. Procéder localement à cette analyse de données permet d’économiser du 
+temps et de la bande passante, et donc de gagner en réactivité et en robustesse. 
+Ce concept est à rapprocher de l’idée de « edge computing », développée dans le domaine du cloud, 
+et qui consiste à traiter les données à la périphérie du réseau, près de leurs sources. Une réalisation 
+telle que l’Agile Condor High-Performance Embedded Computing198, qui consiste à embarquer dans un 
+pod un calculateur très puissant, permet ainsi des traitements avancés sur de très gros volumes et 
+débits de données, tout en s’affranchissant des contraintes de bande passante. 
+- DETECTION / IDENTIFICATION OPTRONIQUE 
+Les progrès récents des techniques de Deep Learning (utilisation de réseaux de neurones massifs) ont 
+permis une augmentation spectaculaire des performances de la classification automatique d’images 
+ainsi que sa très large démocratisation. Ainsi, il est possible de mettre œuvre des modèles extrêmement 
+efficace de détection et de classification même sur un smartphone bas de gamme grâce à des outils 
+logiciels libre d’accès comme TensorFlow. Ces techniques sont efficaces, aussi bien sur image fixe que 
+sur flux vidéo, et sont capable de segmenter, localiser et identifier de multiples objets en parallèle. 
+On voit bien tout l’intérêt que cela peut représenter pour concevoir des robots qui ont besoin de 
+modéliser leur environnement pour agir. Les usages incluent bien sûr la détection et le suivi de cible, 
+mais aussi la détection d’obstacles ou encore d’amers dans l’environnement pour faciliter la navigation. 
+Toutefois, les modèles largement accessibles concernent des domaines assez restreints, comme les 
+objets du quotidien, ou encore la reconnaissance faciale. Développer de nouveaux modèles adaptés 
+au combat aéromaritime est techniquement assez simple mais nécessitera en revanche de très grands 
+volumes de données d’exemple, difficiles à obtenir (il s’agit de techniques d’apprentissage par 
+renforcement). 
+Il apparaît probable que les vecteurs opérant à des vitesses relativement faibles et à faible altitude 
+soient très utilisateurs de ces techniques. 
+ 
+198 Embarqué sur drone MALE. 
+Figure 1 : illustration de reconnaissance automatique d'objets de la vie quotidienne par un système tel que TensorFlow, pouvant 
+fonctionner sur un smartphone classique.

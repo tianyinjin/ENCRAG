@@ -1,0 +1,75 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 50 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 50 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+PERS2 
+ORG 
+Former à la sécurité numérique le personnel amené à intervenir sur les systèmes 
+industriels. La formation doit être adaptée à sa fonction, à son profil ou encore à 
+ses droits d'accès dans le système. Un point d'attention est à porter sur :
+- les administrateurs techniques et fonctionnels ainsi que sur les opérateurs* ;
+- les RSSI (RSSI-A, RSSI-P) s'ils ne sont pas accompagnés de spécialistes en 
+sécurité numérique des systèmes industriels. 
+O
+ 
+ 
+ 
+ 
+PERS3 
+ORG 
+Disposer d’administrateurs techniques et fonctionnels compétents et qualifiés. 
+Tout système industriel doit être en effet administré par des personnels formés à 
+cet effet. 
+O
+ 
+ 
+ 
+ 
+PERS4 
+ORG 
+Pour un système Non Protégé, disposer d'un contrôle élémentaire pour détenir des 
+privilèges particuliers (compte administrateur). 
+R  
+ 
+ 
+ 
+Maîtriser les données 
+INFO1 
+ORG 
+Identifier les données portant sur le procédé industriel*, le système numérique en 
+lui-même, la sécurité numérique ou encore sur le projet, puis leur niveau de 
+classification et enfin leur sensibilité en termes de confidentialité, de disponibilité, 
+d’intégrité et de traçabilité. Les traiter en conséquence. 
+O
+ 
+ 
+ 
+Voir §3.6 de la directive 39. 
+INFO2 
+ORG 
+Définir le niveau de sensibilité de la documentation et le faire apparaître clairement 
+sur les documents. L’ensemble des documents relatifs à la conception, à la 
+configuration ou au fonctionnement du système industriel sont à considérer 
+comme des informations a minima sensibles. Les documents devraient être traités 
+en conséquence. 
+O
+ 
+ 
+ 
+ 
+INFO3 
+ORG 
+Stocker les documents relatifs à la conception, à la configuration ou au 
+fonctionnement dans un système d’information externe au système industriel. Le 
+système doit satisfaire à leurs besoins de sécurité en matière de disponibilité, 
+d’intégrité et de confidentialité.  
+O

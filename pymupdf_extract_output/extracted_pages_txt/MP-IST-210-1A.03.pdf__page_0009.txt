@@ -1,0 +1,59 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 9 / 34
+
+================================================================================
+
+images and videos containing multiple UAVs operating in a swarm or otherwise, or armed UAVs, and lack 
+representations of adversarial behavior or other potential deployment, as Yifei Dong et. al (ibid.) noted in 
+their comprehensive review of benchmarks [5]: ‘analysis of representative datasets revealed gaps in 
+adversarial robustness and scalable swarm tracking.” 
+Another structural critique of public benchmarks is also noteworthy here as the modality of these 
+benchmarks, being public in nature, can also encourage researchers to overfit to specific datasets rather than 
+fostering robust and generalizable solutions. While there is no precise evidence that this is occurring on 
+UAV-specific benchmarks, Singh et al. have confirmed the advantage of ‘gaming’ such benchmarks through 
+real world experiments on an LLM benchmark, Chatbot Arena, through selective reporting of results. [13] 
+They note that ‘undisclosed testing policy permits preferred providers to bias reporting of results’, where ‘a 
+small group of preferred providers… test multiple models privately and only submit the score of the final 
+preferred version’, and that such ‘selective disclosure violates [the central] unbiased sampling 
+assumption...which systematically inflates model rankings, distorting the leaderboard ranking”. In any case, 
+when multiple submissions are allowed and some stochasticity is inherent within the results, the best version 
+of each developer team’s models rise to the top of the leaderboards and obfuscate a more comprehensive 
+view of their overall performance. On UAV-specific benchmarks for researchers with arguably lower stakes, 
+the existence of the incentive itself may indicate such activity ongoing – for example, on the premier 
+benchmark, the 4th Anti-UAV Workshop, the top 3 winners across the participants in 3 distinct tracks 
+(detection, classification, and multi-drone tracking) had each submitted between 8 - 29 entries before 
+achieving their distinction, suggesting evidence of such phenomenon in effect. Note that up to 100 
+submissions were permitted under this benchmark’s rules. 
+2.2.2 
+Limitations of Organization and Project-Centric Evaluations of CV Systems 
+The above issues of public benchmarks are presumably well-known by organizations seeking to deploy or 
+procure AI and CV in their products and services, especially defense, security and intelligence agencies with 
+a keen interest in applying these technologies to their vast collection of operational data. However, they face 
+another problem of data sensitivity, as well as the often extremely specialized and under-represented nature 
+of their use cases, which prevent them from sharing this data in partnerships with broader benchmark 
+providers. Hence, the organizations Resaro work with often turn to independent internal evaluations, which 
+tend to be project or use-case centric, and are certainly restricted to their own organizations even if there are 
+attempts to propagate their use through establishing internal leaderboards or benchmarks. While these 
+internal evaluations may be well-tailored for the specific operational requirements of their designers, they 
+also present their limitations.  
+First, their bespoke nature means that they can be much more resource-intensive and time-consuming, 
+hindering agile development and development cycles. Even in the case of the United States, with an 
+extremely technologically advanced military, and sophisticated defense industrial base and with many 
+notable past AI breakthroughs, testing and evaluation remains a problem that requires long timelines. The 
+inaugural director of the DOD’s Joint Artificial Intelligence Center (JAIC) Retired Air Force Lt. Gen. John 
+“Jack” Shanahan noted at the virtual event at the Center for New American Security titled “Safe and 
+Effective: Advancing Department of Defense Test and Evaluation for AI and Autonomous Systems” [19] 
+that the Pentagon “is not well postured yet” for testing and evaluation, or T&E, “of artificial intelligence, or 
+any other kind of cutting edge software that requires continuous updating… under the conditions of 
+combat… people have a vested interest in coming after and making your models not work the way you want 
+them to work. You have explosions, you have fog, you have day, you have night… even though [our past 
+models] were trained with operational data, once you put them in the operational environment, sometimes 
+they’re just not gonna work the way you want them to work.” He went on to note that the DOD would “have 
+got to get used to the fact that these updates [of AI models, to take into account changing operational 
+conditions] may be happening in hours and days, not months and years.” The development of each internal 
+evaluation of a CV system typically involves a business case or use case analysis, the creation of 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 9

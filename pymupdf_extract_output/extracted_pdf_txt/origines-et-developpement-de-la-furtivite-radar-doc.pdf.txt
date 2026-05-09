@@ -1,0 +1,441 @@
+Source file: origines-et-developpement-de-la-furtivite-radar-doc.pdf
+Relative path: origines-et-developpement-de-la-furtivite-radar-doc.pdf
+Page count: 6
+Extracted pages: 6
+
+================================================================================
+
+[Page 1 / 6 | chars: 1673]
+--------------------------------------------------------------------------------
+
+Les origines
+L’invention du radar au début du XXème 
+siècle [1] et ses applications pendant la 
+2ème guerre mondiale allaient susciter, 
+comme à chaque introduction d’une 
+nouvelle technologie dans le domaine 
+militaire, le développement de technolo­
+gies susceptibles de le mettre en défaut.
+Durant la dernière moitié du XXème 
+siècle, au cours des conflits en Extrême 
+Orient et au Moyen Orient, les avions 
+de combat subirent des pertes impor­
+tantes, dues essentiellement aux déve­
+loppements rapides des radars de dé­
+tection, des radars de conduite de tir et 
+des missiles Sol-Air ou SAM (Surface to 
+Air Missiles). 
+Aux frontières de l’Europe occidentale, 
+pendant cette période de « guerre froide  », 
+une barrière de radars fut installée en pro­
+tection de l’URSS et des autres pays du 
+Pacte de Varsovie, afin de prévenir tout 
+franchissement d’avions non autorisés.
+Plusieurs événements allaient mettre en 
+première ligne de l’actualité la vulnérabilité 
+Jean-Louis Guiraud
+Professeur des universités émérite,
+ISAE-SUPAERO
+Florent Christophe
+Conseiller émérite, ONERA
+Gros plan
+Si la presse grand public parle d’avions invisibles, on invoque 
+également Harry Potter dans des revues scientifiques de 
+renom en faisant référence à sa cape d’invisibilité… 
+Il est proposé ici le survol du domaine pluridisciplinaire de la 
+réduction des signatures radar, bien évidemment soumis aux 
+contraintes de la confidentialité industrielle et de Défense.
+Origines et développements
+de la furtivité radar
+100 ◗ REE N°2/2021
+ Station radar expérimentale HYCAM qui permet notamment l’analyse haute résolution de la signature radar en vol des aéronefs. Source ONERA/J.P. Bébert.
+
+[Page 2 / 6 | chars: 3241]
+--------------------------------------------------------------------------------
+
+REE N°2/2021 ◗ 101
+...
+ Origines et développements de la furtivité radar ı
+d’avions américains. Tout d’abord, l’inci­
+dent du 1er avril 1960, où un avion espion 
+de type U2 survolant, à très haute altitude 
+le territoire de l’URSS, a été abattu ; puis 
+les débuts de la guerre du Vietnam où les 
+bombardiers des Etats-Unis essuyèrent de 
+grosses pertes, 1641 avions abattus de 
+1962 à 1973. La guerre du Yom Kippour 
+en 1973 entre Israël et ses voisins arabes 
+confirma le besoin pour les avions de 
+combats d’échapper à la détection radar. 
+Les Israéliens perdirent ainsi 109 avions 
+en 18 jours, abattus par les SAM-5, des 
+missiles guidés par radar, armes fournies 
+par l’URSS. L’introduction de ces nouveaux 
+missiles dans la défense aérienne fut un 
+véritable choc pour les armées de l’air 
+occidentales. La prise de conscience des 
+constructeurs d’avions de combat fut gé­
+nérale, et l’histoire de la « furtivité », terme 
+encore peu utilisé à l’époque, commença 
+véritablement dans ces années 70. 
+Dans le contexte international de guerre 
+froide, la décision a été prise aux Etats-Unis 
+de lancer la conception d’un avion présen­
+tant une faible « signature » aux radars. 
+Les avionneurs travaillant pour la Défense 
+proposèrent des solutions. C’est la société 
+Lockheed qui fut chargée de concevoir et 
+de réaliser cet avion à très faible observa­
+bilité, Ben Rich était alors le président des 
+Skunk Works [3]. Le secret de ces travaux, 
+classés dans les «  Programmes noirs », 
+fut bien gardé pendant de nombreuses 
+années, et ce n’est qu’en 1988 qu’une 
+photographie du F117 (considéré comme 
+le premier avion furtif) a été présentée à 
+la presse [2]. 
+De nouvelles techniques spécifiques, 
+capables de ramener à un très faible ni­
+veau la visibilité des cibles, se sont alors 
+développées, et elles font toujours l’objet 
+d’études et de développements chez tous 
+les industriels du domaine de l’aéronau­
+tique militaire, mais le détail des procédés 
+utilisés comme leurs performances sont 
+rarement publiés… 
+L’essor de la furtivité 
+Dans le domaine de la Défense, les 
+avions mais également les missiles, les 
+navires, voire les véhicules blindés ter­
+restres, sont les cibles potentielles des 
+radars de l’adversaire. Les techniques 
+de furtivité mises au point pour réduire 
+leur portée de détection, proportionnelle 
+toutes choses égales par ailleurs à la ra­
+cine quatrième de la surface équivalente 
+radar ou SER, (voir  [4, 5, 6, 7] et l’enca­
+dré 1), donneront à ces vecteurs une plus 
+grande probabilité de réussite de leur 
+mission, et une meilleure chance de sur­
+vie à leur équipage.  Réduire la SER d’un 
+véhicule, c’est aussi réduire proportion­
+nellement la puissance de brouillage ou 
+la densité de leurres nécessaires dans les 
+scénarios mettant également en œuvre 
+des moyens de guerre électronique.
+Les notions de furtivité peuvent être 
+étendues à d’autres familles de systèmes 
+de détection (acoustique, infrarouge, …) 
+mais la moyenne et longue portée étant 
+l’apanage exclusif des radars, la priorité 
+va au traitement de la signature des vé­
+hicules ou vecteurs aux longueurs d’onde 
+électromagnétiques des menaces radar, 
+à savoir :
+ Figure 1 : Le F 117, premier bombardier furtif - Source : Wikipedia.
+
+[Page 3 / 6 | chars: 3366]
+--------------------------------------------------------------------------------
+
+102 ◗ REE N°2/2021
+- quelques millimètres (pour des auto­
+directeurs de missiles bénéficiant d’une 
+bonne précision angulaire avec une an­
+tenne de faible diamètre),
+- quelques décimètres pour la surveillance 
+lointaine, 
+- voire au-delà du mètre, si on prend en 
+compte les radars transhorizon fonction­
+nant dans la bande HF pour bénéficier 
+de la réflexion ionosphérique ou d’un gui­
+dage par onde de surface au-dessus de la 
+mer, ou les radars « passifs » exploitant les 
+émissions de radiodiffusion. 
+La réduction de surface 
+équivalente radar
+Les méthodes pour réduire la SER d’un véhi­
+cule peuvent jouer tout d’abord sur le choix 
+et l’orientation des formes, et leur recouvre­
+ment par des matériaux absorbants [8]. 
+Dans le cas du F117, les surfaces et les 
+arêtes sont orientées de manière que la 
+réflexion spéculaire des ondes incidentes 
+(le plus énergétique des mécanismes de 
+diffraction) ne soit pas dans la direction 
+des menaces radar, situées a priori dans le 
+secteur avant. 
+Les matériaux absorbants recouvrant 
+les parties métalliques peuvent être dis­
+posés en couches diélectriques super­
+posées, avec des indices de réfraction 
+progressifs et des pertes conductrices 
+apportées par une densité optimisée de 
+particules de carbone conductrices mais 
+leur fonctionnement est limité vers les 
+basses fréquences par l’épaisseur néces­
+saire. Des solutions résonnantes pour­
+raient présenter une épaisseur moindre 
+mais restent à bande étroite. Vis-à-vis 
+de radars basse fréquence, les peintures 
+chargées en ferrite exploitant les pertes 
+magnétiques sont efficaces, mais leur 
+coût et leur densité élevée limitent leur 
+utilisation. Tous ces matériaux doivent 
+bien sûr supporter les conditions d’envi­
+ronnement spécifiques à leur emploi, et 
+ne pas se dégrader trop rapidement. 
+Les antennes doivent nécessairement 
+contenir des diélectriques, créant des 
+discontinuités avec la peau métallique 
+(ou absorbante) du véhicule et par 
+conséquent des diffractions supplémen­
+taires ; elles peuvent faire l’objet de trai­
+tements comme l’adjonction de surfaces 
+sélectives gommant cette discontinuité 
+en dehors de la bande de fonctionne­
+ment de l’antenne. 
+Les armements classiquement emportés 
+sous voilure avec laquelle ils interagissent 
+en provoquant des points diffractants im­
+portants sont ici mis en soute  ; les en­
+trées d’air qui peuvent avec le conduit 
+d’air et le compresseur en entrée du 
+réacteur produire un effet de cavité si­
+gnificatif sont placées en extrados de 
+la voilure, et donc masquées depuis le 
+sol. La manœuvrabilité réduite du véhi­
+cule entraînée par ces formes, la perte 
+d’efficacité des entrées d’air dans une 
+phase de vol en incidence, sont alors des 
+handicaps mineurs pour cet avion dont 
+la seule mission est de pénétrer les dé­
+fenses adverses sans être détecté.
+Le concept d’aile volante est par ailleurs 
+illustré aux USA avec le bombardier B2 
+de Northrop (1979), dont les formes 
+inspirent également le développement 
+plus récent de drones de combat, 
+comme le démonstrateur Neuron de 
+Dassault.
+La furtivité est devenue une contrainte 
+majeure de conception pour les princi­
+paux constructeurs dans le monde, elle 
+entraîne nécessairement des compro­
+mis avec les autres caractéristiques des 
+aéronefs militaires.    
+...
+ Figure 2 : le bombardier stratégique B2 – Source :  Wikipedia.
+Gros plan
+
+[Page 4 / 6 | chars: 2929]
+--------------------------------------------------------------------------------
+
+REE N°2/2021 ◗ 103
+...
+Le futur de la furtivité
+Au-delà des améliorations incrémen­
+tales permises par le perfectionnement 
+des simulations numériques, ou plus 
+médiatiques (la cape d’invisibilité…) par 
+la mise au point de métamatériaux élar­
+gissant la gamme des caractéristiques 
+diélectriques ou magnétiques réali­
+sables [10], de nouveaux concepts bien 
+sûr couverts par le secret sont parfois 
+évoqués dans la littérature ouverte, par 
+exemple dans les revues Aviation Week, 
+DSI, Air & Cosmos, mais leur crédibilité 
+est incertaine. C’est le cas de la « furtivité 
+active » qui consisterait à opposer vec­
+toriellement à l’écho de peau du véhi­
+cule à protéger un écho artificiellement 
+créé par un répondeur cohérent. Encore 
+faudrait-il connaître très précisément cet 
+écho de peau, dont on sait qu’il varie ra­
+”  La furtivité devra 
+de plus en plus 
+être complétée 
+par des techniques 
+de guerre 
+électronique  ”
+ Figure 3 : Démonstrateur de drone de combat Neuron en vol - © Dassault Aviation- A. Pecchi
+ Origines et développements de la furtivité radar ı
+La Surface Equivalente Radar 
+Physiquement, le radar émet un champ électromagnétique porteur d’une énergie qui 
+se propage vers la cible, et qui est diffracté par celle-ci dans toutes les directions de 
+l’espace. Ce phénomène de diffraction électromagnétique caractérise la perturbation 
+causée par la présence d’un obstacle dans un champ incident [5, 6, 7, 8].
+Pour décrire ces effets de diffraction, on utilise la représentation d’une surface de 
+captation fictive qui rerayonnerait de façon isotrope la puissance reçue et diffracte­
+rait dans la direction du radar la même puissance que la cible. Cette surface fictive 
+est appelée Surface Equivalente Radar (SER, notée σ) ou parfois Signature Radar, et 
+s’exprime mathématiquement en fonction des champs incident Ei et diffracté Ed à 
+distance R sous la forme :
+      
+Cette surface se mesure en m², elle caractérise l’écho radar reçu traduisant la pré­
+sence de la cible qui est la signature de l’objet (cible). Elle ne dépend pas de la dis­
+tance R cible-radar, car le champ diffracté |Ed |² varie en 1/R² à grande distance.
+
+Relation entre SER et portée du radar
+Il est bien connu que le bilan qui donne la puissance captée dans une liaison monodi­
+rectionnelle de type télécom varie avec l’inverse du carré de la distance ; la définition 
+ci-dessus montre qu’une dépendance identique se produira sur le trajet retour, le 
+bilan de liaison radar qui relie la puissance reçue à la puissance émise sera donc 
+proportionnel à σ R-4
+La portée du radar correspond à la distance pour laquelle la puissance reçue produit 
+le rapport signal-à-bruit minimal compatible avec le traitement de détection. Toutes 
+choses égales par ailleurs, réduire à 10 km la portée d’un radar qui serait de 100 km 
+pour une SER de 10 m2 nécessiterait ainsi de réduire la SER à 0,001 m2, ce qui illustre 
+la difficulté du problème…
+
+[Page 5 / 6 | chars: 3055]
+--------------------------------------------------------------------------------
+
+104 ◗ REE N°2/2021
+Gros plan
+pidement, en phase notamment, avec la 
+fréquence, l’incidence, la polarisation du 
+champ incident qu’il serait nécessaire de 
+caractériser en permanence. 
+La création d’un nuage de plasma absor­
+bant autour d’un aéronef a également 
+été médiatisée [11,12], faisant suite à des 
+annonces russes, mais sa persistance 
+dans le flux aérodynamique semble né­
+cessiter un apport permanent d’énergie 
+considérable. En outre ce plasma – ain­
+si que les parasites électriques liés aux 
+hautes tensions nécessaires à sa créa­
+tion – perturberait le fonctionnement 
+de toute liaison ou capteur fonctionnant 
+à bord dans une large gamme de fré­
+quences.
+Conclusion   
+L’intérêt majeur des techniques de fur­
+tivité sur le plan opérationnel est de 
+réduire le temps de réaction disponible 
+pour l’adversaire, ce qui permet d’amé­
+liorer les chances de survie au combat, 
+et d’exécution effective de la mission. La 
+mise en œuvre de ces techniques, qui 
+peut réagir sur de nombreuses carac­
+téristiques du véhicule, doit se faire de 
+plus en plus dans une démarche d’ingé­
+nierie  concourante. 
+Le développement en parallèle de nou­
+veaux capteurs « anti-furtifs » pouvant 
+par exemple exploiter de nouveau les 
+basses fréquences, ou associer en ré­
+seau  des radars multistatiques, voire 
+passifs, nécessitera probablement de 
+systématiser la combinaison des tech­
+niques de la furtivité avec celles de la 
+guerre électronique. n
+...
+ Figure 4 : Courants de surface (partie réelle) excités par un champ incident frontalement sur une surface métallique de référence selon la polarisation (verticale à gauche, horizon­
+tale à droite). La SER est produite par le rayonnement de ces courants. Source : workshop EM ISAE.
+Les auteurs 
+Jean-Louis Guiraud, membre senior de la SEE, professeur des universités émérite. Chercheur associé 
+à ISAE-SUPAERO, il a dirigé la recherche « Antennes pour satellites » au département Etudes d’antennes 
+du CNET-La Turbie (06), pendant 11 ans comme Ingénieur en chef. Invité comme enseignant-chercheur à 
+ENSICA, établissement sous tutelle du Ministère de la Défense, il dirige depuis 1990, pour la DGA et les 
+industriels de l’armement, le Workshop « Signatures Radar ». Fondateur du congrès JINA, « International 
+Symposium on Antennas  », il est initiateur de nombreuses journées d’études pour la SEE Côte d’Azur et 
+Midi-Pyrénées en électromagnétisme. 
+
+
+Florent Christophe, conseiller émérite au département Electromagnétisme et Radar de l’ONERA, dont 
+il a dirigé les équipes toulousaines pendant une trentaine d’années. Il a présidé le conseil d’évaluation 
+externe du métier Guerre Electronique de la Direction générale de l’armement et appartenu au Conseil 
+de la science et de la technologie de l’OTAN. Il anime depuis 2015 un stage de formation continue sur la 
+guerre électronique.
+Actifs pendant des années au sein de la SEE, les 2 auteurs ont créé conjointement en son nom à Toulouse en
+2006 les Journées Electromagnétisme et guerre électronique, dont la 8ème édition se tiendra en décembre 2021
+
+[Page 6 / 6 | chars: 5121]
+--------------------------------------------------------------------------------
+
+REE N°2/2021 ◗ 105
+ Origines et développements de la furtivité radar ı
+Le Professeur Pyotr Ufimtsev,
+un des parrains de la furtivité 
+
+A la fin des années 80, le sujet des « Avions furtifs » connut une 
+popularité étonnante dans les médias et le grand public, avec la 
+publication de la première photo de l’avion furtif F-117A en 1987 
+par la société Lockheed. Les spécialistes en construction aéro­
+nautique savaient depuis les années 70 que les industriels US 
+de ce domaine travaillaient sur le type d’aéronefs afin de réduire 
+leur détection par les radars. 
+Ce que l’on ne savait pas, c’était que les travaux pour la concep­
+tion du premier avion furtif avaient été considérablement avan­
+cés, environ de l’ordre de 30 à 40 % d’après Alan Brown de chez 
+Lockheed [3], en utilisant une méthode de calcul suffisamment 
+performante compte tenu des ordinateurs alors disponibles, dé­
+veloppée dans une monographie parue en 1962 sur la diffrac­
+tion électromagnétique, par un auteur inconnu, P.  Ufimtsev. 
+Ce professeur était membre de l’Institute of Radio Engineering 
+and Electronics de l’Académie des Sciences de l’URSS. Il ignora 
+l’utilisation de ses travaux par les Américains, dans le domaine 
+de la furtivité, jusqu’à son arrivée aux Etats-Unis en 1990.
+En France nous avions les traductions des revues soviétiques, 
+et la plupart des articles du Professeur Ufimtsev traitaient de 
+la diffraction électromagnétique. Sa méthode était connue 
+sous l’appellation : Physical Theory of Diffraction (PTD) [ 9], 
+elle permettait notamment le calcul des densités de courants 
+induits sur un obstacle diffractant. C’était particulièrement 
+utile pour les comparaisons avec les résultats obtenus par 
+d’autres méthodes, qui calculaient les mêmes courants in­
+duits. En 1971, la monographie originale de 1962 fut traduite 
+en Anglais.
+Au début des années 90, les médias US se sont emparés de 
+cette histoire : un « savant » citoyen soviétique, avait « contri­
+bué à l’avion furtif américain » ! Cette gloire internationale 
+facilita grandement son installation en Californie.
+Par la suite, le Professeur Ufimtsev fut invité à deux reprises 
+aux Journées Internationales de Nice sur les Antennes (JINA) 
+organisées par le groupe régional Côte d’Azur de la SEE. Sa 
+première conférence en 1992, sur le thème « Black bodies 
+and the problem of invisible object », fut suivie d’une réaction 
+enthousiaste de l’auditoire et la deuxième en 1998 « Surface 
+Waves in Absorbing Layers », fut brillante, devant un public 
+averti.*
+Aujourd’hui, P. Ufimtsev est Professeur à l’UCLA, et consul­
+tant chez Northrop Grumann. L’algorithmie optimisée pour la 
+résolution des équations de l’électromagnétisme continue à 
+progresser dans de nombreuses équipes, de même que la 
+puissance des ordinateurs….
+La supériorité aérienne des Etats-Unis ayant été défiée par le 
+déploiement de nouvelles batteries de missiles au cours de la 
+guerre du Vietnam, ceux-ci ont entrepris de mettre au point des 
+avions furtifs, selon des méthodes de conception qui depuis un 
+demi-siècle se sont perfectionnées grâce notamment au calcul 
+électromagnétique à haute performance, au développement de 
+nouveaux matériaux et à des concepts innovants. La quasi-totalité 
+des vecteurs et plates-formes militaires modernes obéit ainsi à 
+des contraintes de réduction de leur signature radar devant per­
+mettre leur survie sur le champ de bataille. n
+The deployment of new Surface to Air Missiles during Vietnam 
+war having challenged air superiority of US forces, develop­
+ment of stealth aircraft was then decided. Their design rules 
+have improved for half a century thanks to high performance 
+electromagnetic computing, development of new materials as 
+well as innovative concepts. Presently most military vehicles 
+or platforms are facing strong radar cross section limitations in 
+order to survive in the battlefield. n
+Résumé
+Abstract
+[1] Y. Blanchard : « Le Radar 1904-2004 », Ellipses, 2004.
+[2] D. Richardson : « Les Avions furtifs », Atlas, 1990 ; « Stealth    Airplanes », MIB , 2001.
+[3] B. Rich : « Skunk Works », Little, Brown and Co., 1994.
+[4] Crispin and Siegel : « Methods of Radar Cross Section Analysis »,  Academic Press, 1968.
+[5] Ruck, Barrick, Stuart, Kirchbaum : « Radar Cross Section Handbook”, vol.1 et 2, 1970.
+[6] Knott, Shaefer, Tuley : « Radar Cross Section ”, Artech House, 1993.
+[7] Allen E. Fuhs : « Radar Cross Section Lectures”, American Inst. of Aeronautics and Astronautics, 2006.
+[8] P. Ufimstev : « Comments on Diffraction Principles and limitations, RCS Reduction Techniques,  Proc. of  IEEE, vol. 84, n°12, 1996.
+[9] J.L. Guiraud :  « Une approche spectrale de la Théorie Physique de la Diffraction ». Annales des Télécommunications, vol. 38, n°3-4, 1983.
+[10] Schurig,  Mock, Justice, Cummer, Pendry, Starr, Smith : “Metamaterial Electromagnetic Cloak at Microwave Frequencies »,  Science, vol. 314, pp. 977-980, 2006
+[11] Singh, Antony, Jha : « Plasma-based Radar Cross Section Reduction”, Springer, 2016.
+[12] Bahman Zohuri : « Radar Energy Warfare and the Challenges of  Stealth Technology”, Springer, 2020.
+Références
+

@@ -1,0 +1,106 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 66 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 66 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP36 
+TECH 
+Mettre en place une authentification forte (carte à puce, OTP) ou multifacteur pour 
+accéder, et lorsque cela est possible : 
+ 
+- à des comptes à privilège sur les postes, les serveurs ;   
+- aux équipements de terrain (automates*, entrées/sorties, déportés, etc.) ; 
+ 
+- aux équipements exposés (ordinateurs portables, consoles de programmation*, 
+pare-feu, VPN, etc.). 
+ 
+N
+A 
+R 
+R 
+ 
+EXP37 
+TECH 
+Mettre en place une authentification pour accéder aux différents composants 
+(équipements 
+et 
+logiciels) 
+lorsque 
+cela 
+est 
+techniquement 
+possible.
+Elle s’appuie sur des identifiants personnels afin de permettre une imputabilité 
+individuelle des accès et des actions. 
+O
+ 
+ 
+ 
+ 
+EXP38 
+ORG 
+TECH 
+En cas d’impossibilité d’authentification forte, renforcer le paramétrage de mots de 
+passe et appliquer des mesures compensatoires. Celles-ci sont définies dans les 
+procédures d’exploitation de sécurité (PES). 
+ 
+C 
+O 
+O 
+À titre d’exemple : 
+ 
+- contrôle d’accès physique ;  
+- 
+limitation 
+des 
+fonctionnalités 
+accessibles 
+(consultation 
+sans 
+modification, par exemple) ;  
+- mise en place d’une authentification 
+par 
+carte 
+à 
+puce 
+sans 
+code 
+;
+- cloisonnement* de l’équipement plus 
+fort ; 
+  
+- etc. 
+EXP39 
+TECH 
+Configurer les paramètres des mots de passe de manière à les rendre robustes 
+(durée de validité minimale et maximale, nombre de mots de passe non 
+réutilisable, …) en tenant compte des risques et des dérives possibles des 
+pratiques des utilisateurs en cas de règles trop contraignantes (changement trop 
+fréquent de mots de passe). 
+O
+ 
+ 
+ 
+ 
+EXP40 
+TECH 
+Modifier les mots de passe par défaut si cela est réalisable. Identifier ceux qui ne 
+peuvent être modifiés afin d'y appliquer une surveillance particulière. 
+O
+ 
+ 
+ 
+ 
+EXP41 
+TECH 
+Privilégier une temporisation d’inhibition par rapport au blocage en cas d’échec 
+d’authentification. 
+R

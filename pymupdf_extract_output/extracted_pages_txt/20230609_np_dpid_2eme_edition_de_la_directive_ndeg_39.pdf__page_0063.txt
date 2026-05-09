@@ -1,0 +1,83 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 63 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 63 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP16 
+TECH 
+Appliquer les règles suivantes aux stations d’ingénierie* :  
+-  ne pas les connecter à Internet ;  
+-  les installer dans des locaux maîtrisés (sous contrôle d’accès) ;  
+-  les éteindre lorsqu’elles ne sont pas utilisées. 
+ 
+Activer la veille avec verrouillage de session si la station et l’activité le permettent
+O
+ 
+ 
+ 
+ 
+EXP17 
+TECH 
+Appliquer les règles suivantes aux consoles de programmation* :  
+-  ne pas les connecter à Internet ;  
+-  ne pas les connecter à d’autres systèmes que le système industriel ; 
+ 
+Appliquer les règles pour les terminaux mobiles ;  
+-  les stocker dans un local sécurisé ; 
+ 
+-  les rendre facilement identifiables (marquage visuel par exemple) ; 
+Activer la veille avec verrouillage de session si la station et l’activité le permettent
+O
+ 
+ 
+ 
+ 
+EXP18 
+TECH 
+Appliquer les règles suivantes aux postes d’administration : 
+ 
+- ne pas les connecter  à Internet ;  
+- ne pas les connecter à un réseau de gestion ; 
+ 
+- les installer dans des locaux maîtrisés (sous contrôle d’accès) ;  
+- les éteindre lorsqu’ils ne sont pas utilisés ; 
+Activer la veille avec verrouillage de session si la station et l’activité le permettent
+O
+ 
+ 
+ 
+ 
+Maîtriser la gestion des accès et des comptes 
+EXP19 
+ORG 
+Définir et gérer les droits d’accès aux ressources selon les principes du besoin 
+d’en connaître et du moindre privilège. 
+O
+ 
+ 
+ 
+ 
+EXP20 
+ORG 
+Décrire dans la documentation du système les processus d'affectation, de révision 
+et de suppression des droits d'accès applicables aux utilisateurs et 
+administrateurs. 
+O
+ 
+ 
+ 
+ 
+EXP21 
+ORG 
+Définir et maintenir la liste des utilisateurs autorisés à accéder au système 
+industriel, notamment aux postes sensibles (stations d'ingénierie*, consoles de 
+programmation*, postes d'administration). 
+O

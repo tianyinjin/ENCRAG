@@ -1,0 +1,92 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 96 / 136
+
+================================================================================
+
+96 
+CICADA (Close-in Covert Autonomous Disposable Aircraft) 
+Dates :  
+2006 – 2019 
+Acteurs :  
+Naval Research Laboratory, Office of Naval Research, 
+Zepher et Platform Aerospace (vecteur) 
+Porteurs potentiels :  
+Aéronefs, ballons, munitions de précision 
+(mise en œuvre par canon évoquée pour un 
+modèle spécialement conçu). 
+Cas d’usage affichés :  METOC, NRBC, SIGINT à terre, saturation. 
+ 
+PERFORMANCES DES VECTEURS : 
+Vecteur : CICADA (2006-2017) 
+Lancement par tube, taille « A229 » ou « G », d’un 
+conteneur cylindrique freiné par parachute avant 
+libération des drones. Chaque vecteur rallie une 
+position préprogrammée pour y orbiter avant de 
+descendre (1000 ft/mn) se poser (précision < 15ft) 
+et établir la communication avec la plate-forme de 
+supervision. Lancement par mini-drones également 
+réalisé (par la NASA en particulier). 
+Altitude maximale de largage : ~57 000 ft 
+Non récupérable. 
+Structure de coûts : 1000$ (proto), 250 $ (série). Un 
+circuit imprimé et des pièces imprimées en 3D. 
+Poids : 65g (mk5), dont des MEMS (pour mesure des 
+taux d’humidité, de la température et de la 
+pression, et de la vitesse du vent vertical) et un 
+modem de téléphone cellulaire. 
+Longueur : <12 cm 
+Envergure : <12cm 
+Livré en conteneur taille « A » (32 vecteurs mk5) ou 
+Taille « G » (10 vecteurs mk5). 
+Propulsion : aucune (planneur). 
+Rayon d’action : 40 Nq (mk5 au max, finesse de 
+3,5)230 
+Autopilote : proto NRL, navigation GPS 
+Communication : réseau téléphone (SMS), radio en 
+réseau maillé auto-configurable (antenne intégrée 
+dans l’aile). Emission jusqu’à épuisement de la 
+batterie pour une portée de moins de 1500 m). 
+ 
+ 
+ 
+ 
+229 Taille « A » OTAN : 91,44 cm de long (3 pieds), 12,38 cm 
+de diamètre (4,875 pouces). (Bouées acoustiques). La 
+Taille « G » est une demi-taille A. 
+ 
+PERFORMANCES DE L’ESSAIM : 
+Lancements de 100 puis 1000 agents réalisés. 
+CICADA constitue un exemple d’essaim scripté, 
+préprogrammé, où les capteurs sont en réseau. 
+Aucune véritable autonomie n’est décrite dans la 
+documentation accessible. C’est un automate multi-
+agents programmable. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+230 Exemple : largage à haute altitude ; dérive de 9,5 NQ pour une 
+orbite à 18 000 ft avant descente. 
+         mk2 
+ 
+ 
+    mk3  
+ 
+     mk4  
+ 
+mk5 
+           gun-launched

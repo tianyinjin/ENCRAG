@@ -1,0 +1,63 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 96 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+ 
+ 
+ 
+93 
+-
+les flux d’administration sont cloisonnés à l’égard des flux métier au niveau des 
+ressources administrées. Les ressources d’administration accèdent aux ressources 
+administrées au moyen d’une interface réseau dédiée à l’administration. Cette interface 
+est physique ou, à défaut, logique. L’interface réseau utilisée pour les actions 
+d’administration n’est accessible qu’aux seules ressources d’administration. En 
+l’absence de mesure d’isolation physique de cette interface, un filtrage logique assure 
+cette restriction d’accès. Quand des raisons techniques ou opérationnelles ne permettent 
+pas l’administration des ressources administrées par des interfaces réseau dédiées, les 
+actions d’administration sont faites par l’unique interface réseau de la ressource 
+administrée. Ce cas de figure est justifié dans le dossier d’homologation ; 
+-
+les flux réseau entre les ressources administrées et les ressources d’administration sont 
+filtrés. Afin de réduire le risque de compromission des ressources d’administration 
+depuis les ressources administrées, les ressources d’administration sont déployées sur 
+un réseau dédié à cet usage. Ce réseau portant les ressources d’administration est un 
+réseau physiquement cloisonné de préférence ou, à défaut, un réseau logiquement 
+cloisonné à l’aide de mécanismes de chiffrement et d’authentification réseau. Un filtrage 
+strict des flux réseau entre les ressources administrées et les ressources d’administration 
+est mis en place. Pour minimiser les possibilités de rebonds entre ressources 
+administrées en cas de compromission de l’une d’entre-elles, un mécanisme de filtrage 
+restreint les possibilités de communication sur ce réseau d’administration. 
+Maîtrise des logiciels en exploitation 
+L’autorité d’emploi du système d’information installe, sur un système d’information classifié, 
+les seuls services et fonctionnalités qui sont indispensables au fonctionnement ou à la sécurité 
+du système d’information. Le responsable de la sécurité des systèmes d’information s’assure 
+que les services et les fonctionnalités qui ne sont pas indispensables, notamment ceux installés 
+par défaut, sont désactivés et les fait désinstaller si cela est possible. Lorsque la désinstallation 
+n’est pas possible, cela est mentionné dans le dossier d’homologation du système d’information 
+classifié en précisant les services et fonctionnalités concernés, ainsi que les mesures de 
+réduction du risque mises en œuvre. 
+L’autorité d’emploi du système prévoit des dispositifs pour empêcher l’installation de services 
+et fonctionnalités hors de ces procédures. En cas d’impossibilité, il y est fait mention dans le 
+dossier d’homologation. 
+Contrôle d’accès aux systèmes d’information classifiés 
+Gestion des droits d’accès sur la base du principe du moindre privilège, 
+corolaire du respect du besoin d’en connaître 
+Par principe, toute personne habilitée accédant à des informations ou support classifiés depuis 
+un système d’information classifié utilise, à cette fin, un compte utilisateur individuel assorti 
+des droits d’accès correspondant à son profil et à son besoin d’en connaître. Ce compte ne 
+dispose pas de droits d’administration sur le système d’information classifié. Ainsi, 
+l’administrateur d’un système d’information classifié et l’administrateur de sécurité disposent 
+de comptes individuels dédiés pour chacune de ces fonctions, distincts de leur compte 
+utilisateur. 
+Par défaut, un administrateur est habilité au niveau d’habilitation correspondant au moins au 
+niveau de classification du système d’information classifié administré. Lorsque les droits qui 
+lui sont octroyés sur le système d’information classifié sont étendus, lui permettant notamment 
+d’outrepasser ses droits ou de masquer ses actions sur le système d’information classifié, 
+l’administrateur doit être habilité au niveau Très Secret, sans incidence sur le niveau 
+d’habilitation de la personne morale.

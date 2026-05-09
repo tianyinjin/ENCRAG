@@ -1,0 +1,226 @@
+Source file: pec-cadette-cyber.pdf
+Relative path: pec-cadette-cyber.pdf
+Page: 32 / 37
+
+================================================================================
+
+63
+62
+LES CADETTES DE LA CYBER
+CYBERSÉCURITÉ : UN DÉFI CITOYEN ET STRATÉGIQUE
+QR Code : fonctionnement et détournement
+Si dans l’industrie ils suivent un standard approuvé 
+par 
+l’Agence 
+Nationale 
+de 
+la 
+Sécurité 
+des 
+Systèmes d’Information (MH10.8.2)  et le standard 
+SQRL compatible avec la norme ISO 15434 afin 
+d’homogénéiser les informations fournies et s’assurer 
+qu’elles soient lisibles par les applications agréées 
+pour les utilisateurs de ces produits et les partenaires 
+logistiques99, les QR codes réguliers du quotidien sont 
+quant à eux produits selon un standard ouvert.
+Un QR code est une sorte de code barre qui est 
+une matrice de points pouvant encoder jusqu’à 
+7089 caractères numériques et 4296 caractères 
+alphanumériques. Il utilise la correction d’erreur Reed-
+Solomon pour rester lisible même s’il est partiellement 
+endommagé. Un code QR est un moyen facile d’envoyer 
+les clients vers une destination numérique. Ils encodent 
+en quelque sorte un itinéraire numérique100. L’encodage 
+suit les étapes suivantes :
+1.	
+Conversion des données : l’URL (ex. https://
+faux-site.fr/login qui n’existe pas) est convertie 
+en binaire selon un mode d’encodage (numérique, 
+alphanumérique, byte, etc.);
+2.	
+Ajout de données de format : niveau de correction 
+d’erreur, masque, etc;
+3.	
+Distribution dans la matrice : les bits sont répartis 
+dans un schéma prédéfini ;
+4.	 Génération visuelle : une image carrée avec motifs 
+détectables par les scanners.
+Les cybercriminels exploitent divers canaux pour 
+diffuser des QR codes malveillants, souvent en jouant 
+sur la confiance et/ou la distraction des utilisateurs. 
+L’une des méthodes les plus répandues consiste à faire 
+un détournement physique en collant des QR falsifiés 
+sur des supports existants. Cette superposition 
+discrète transforme un objet familier en piège 
+99 https://rla.org/resource/12n-documentation
+100 https://www.fortinet.com/fr/resources/cyberglossary/what-is-a-qr-code
+numérique. D’autres vecteurs passent par le phishing 
+par email ou SMS, avec des messages alarmants ou 
+attrayants du type “Votre colis est en attente, scannez 
+ce code pour le suivre”. Les bots sur les applications 
+de messagerie sont également mobilisés pour diffuser 
+massivement des QR codes piégés, souvent sous forme 
+de fausses promotions ou de jeux-concours. Enfin, les 
+réseaux sociaux deviennent un terrain fertile pour ce 
+type d’attaque, via des publications sponsorisées, des 
+vidéos virales ou des visuels contenant des QR codes 
+frauduleux menant à des sites d’hameçonnage ou à 
+des téléchargements malveillants.
+Le Quishing redirige l’utilisateur vers un site frauduleux 
+imitant une banque, une plateforme de messagerie ou 
+pire, un service administratif. L’objectif est d’amener la 
+victime à saisir ses identifiants, coordonnées bancaires 
+ou autres données sensibles. L’aspect anonyme du QR 
+code rend ce type d’attaque particulièrement difficile 
+à détecter.
+D’autres QR codes peuvent servir à distribuer des 
+malwares en redirigeant alors vers des fichiers 
+exécutables malveillants, souvent présentés comme 
+des applications utiles (par exemple, un scanner ou 
+un outil de sécurité). Une fois installés, ces logiciels 
+peuvent intercepter les SMS, accéder aux contacts 
+ou détourner des sessions bancaires. Certains QR 
+codes contiennent les informations nécessaires pour 
+se connecter automatiquement à un réseau Wi-Fi. Un 
+utilisateur peu méfiant peut ainsi se retrouver connecté 
+à un point d’accès malveillant, utilisé pour intercepter 
+le trafic.
+Enfin, des QR codes peuvent déclencher l’envoi 
+automatique de SMS ou d’appels vers des numéros 
+surtaxés. Cette méthode repose sur des failles de 
+configuration des appareils Android, et peut entraîner 
+une surfacturation importante sans que l’utilisateur ne 
+s’en rende compte immédiatement. 
+Le Quishing tire son efficacité d’un enchaînement de 
+facteurs techniques, contextuels et psychologiques 
+qui exploitent la crédulité des victimes en contournant 
+les protections classiques. L’opacité du QR code, dont 
+le contenu reste invisible avant le scan, constitue la 
+faille majeure. Contrairement à un lien cliquable, l’URL 
+encodée n’est pas directement lisible, ce qui empêche 
+toute évaluation préalable.S’ajoute à cela une confiance 
+largement répandue dans la fiabilité du QR code, 
+perçu comme un outil moderne et pratique, rarement 
+remis en question. Cette perception, renforcée chez 
+certaines populations comme les personnes âgées, 
+renvoie souvent au code-barres traditionnel, synonyme 
+d’authenticité. La faiblesse des protections sur mobile, 
+notamment sous Android, accentue cette vulnérabilité 
+car peu d’utilisateurs disposent d’un antivirus actif et 
+les mécanismes natifs ne bloquent pas toujours les 
+actions malveillantes déclenchées via un QR. Enfin, 
+l’effet de surprise joue un rôle central car un QR code 
+discrètement apposé sur une affiche, un distributeur 
+ou un menu attire l’attention et inspire confiance, 
+créant ainsi un contexte idéal pour la fraude.
+Des cas concrets
+Il y a une diversité des contextes d’utilisation 
+frauduleuse des QR codes, allant de la rue aux grands 
+événements internationaux, en passant par le courrier 
+postal. En Allemagne, dès 2021, des QR codes affichés 
+dans les transports publics (notamment les métros 
+et bus) redirigeaient vers de faux sites de traçage 
+COVID-19. Ces pages collectaient des données 
+personnelles et des identifiants sous couvert de 
+participation à la gestion sanitaire, alors qu’il s’agissait 
+de tentatives sophistiquées de vol d’informations. En 
+France lors des Jeux Olympiques de Paris 2024, le 
+dispositif officiel “Pass Jeux”, reposant sur un QR code 
+permettant d’accéder aux zones sécurisées, a été la 
+cible de tentatives de falsification et de contrefaçon, 
+dans le but d’usurper des accès ou de tromper les 
+forces de sécurité.101
+ 
+Par ailleurs, certaines arnaques prennent des formes 
+plus insidieuses, comme en témoignent les fausses 
+contraventions déposées dans les boîtes aux lettres de 
+particuliers en France. Des escrocs impriment de faux 
+avis d’amende, accompagnés d’un QR code redirigeant 
+vers un site frauduleux de paiement, visuellement 
+proche du site officiel de l’administration.102
+Que dit la législation française à ce sujet ?
+En France, aucun texte ne régit spécifiquement 
+l’usage ou le détournement des QR codes. Néanmoins, 
+plusieurs articles du Code pénal103 permettent de 
+sanctionner leurs usages malveillants.
+	
+–
+L’article 313-1 punit l’escroquerie, applicable 
+notamment aux QR codes usurpant un site officiel 
+ou menant à un faux paiement.
+	
+–
+Les articles 323-1 à 323-3 sanctionnent l’accès 
+ou la modification frauduleuse d’un système 
+informatique, ce qui couvre l’installation de 
+malwares via QR.
+	
+–
+Les articles 226-16 à 226-24 protègent les 
+données personnelles ; un QR redirigeant vers un 
+faux formulaire entre dans ce cadre.
+	
+–
+L’article 226-4-1 s’applique en cas d’usurpation 
+d’identité, possible lorsqu’un QR simule un site 
+bancaire ou administratif.
+101 Le Monde. (2024). Paris 2024 : au bord de la Seine, les forces de l’ordre face au casse-tête du « Pass Jeux », 25 juillet 2024.
+102 TF1 Info. (2024). Faux QR codes : comment déjouer les pièges ? Bonjour ! La matinale, TF1.
+103 Legifrance. (2024b). Code pénal – Partie législative.
+104 Legifrance. (2024a). Code de la consommation – Section abrogée sur la portabilité des données.
+105 France Num. (2024). QR Code : quelle sécurité et quelles précautions ? Guide cybersécurité PME.
+En revanche, le Code de la consommation104 ne traite 
+pas spécifiquement des QR codes, et ses articles sur 
+la portabilité des données ont été abrogés depuis 
+l’entrée en vigueur du RGPD en 2018. Enfin, l’usage de 
+QR codes pour générer des appels ou SMS surtaxés 
+constitue une escroquerie électronique (art. 313-1), 
+aggravée si la victime est vulnérable.
+Quelques contre-mesures 
+Côté utilisateur
+Côté entreprise
+Vérifier l’URL affichée avant 
+d’ouvrir le lien.
+Vérifier régulièrement les 
+supports contenant des QR.
+Éviter de scanner des QR 
+dans l’espace public sans 
+contexte clair.
+Intégrer un marquage visuel 
+(logo, style) pour distinguer 
+les QR légitimes.
+Ne pas installer d’application 
+via un QR.
+Préférer des QR temporaires 
+(lien à usage unique).
+Utiliser des scanners qui 
+montrent l’URL en clair (ex: 
+Kaspersky QR Scanner).
+Sensibiliser les collaborateurs 
+au Quishing.
+Éviter les connexions WI-FI 
+par QR code dans les lieux 
+sécrurisés.
+Surveiller les QR codes 
+diffusés via Google Images, 
+réseaux sociaux, etc.
+Les bonnes pratiques de sécurité liées aux QR codes105  
+Le QR code, symbole d’innovation et surtout de 
+simplicité, s’est imposé dans notre quotidien comme 
+un outil pratique… mais aussi, dans l’ombre, comme 
+une arme redoutablement discrète entre les mains des 
+cybercriminels. Son opacité intrinsèque et sa facilité de 
+fabrication en font un vecteur idéal pour des attaques 
+de phishing, de diffusion de malwares ou encore 
+d’interception de données, souvent sans éveiller le 
+moindre soupçon. La sensibilisation des usagers, la 
+formation continue des professionnels du numérique, 
+et la mise en place d’un cadre réglementaire plus 
+précis sont des piliers indispensables pour renforcer 
+notre résilience. Car derrière ce simple carré noir se 
+cache parfois bien plus qu’un raccourci, une faille. Il 
+est donc urgent d’adopter une culture de vigilance, où 
+chaque scan devient un acte conscient, réfléchi et non 
+un automatisme naïf.
+Par Joseline  YOUEGO

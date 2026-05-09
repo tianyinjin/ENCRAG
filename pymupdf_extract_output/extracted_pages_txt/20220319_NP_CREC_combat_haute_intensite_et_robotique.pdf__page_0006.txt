@@ -1,0 +1,59 @@
+Source file: 20220319_NP_CREC_combat_haute_intensite_et_robotique.pdf
+Relative path: 20220319_NP_CREC_combat_haute_intensite_et_robotique.pdf
+Page: 6 / 10
+
+================================================================================
+
+6 
+Niveau L1 - Système armé dupliquant automatiquement l’action de l’opérateur. 
+L’opérateur humain est augmenté par un système qui l’assiste en dupliquant 
+automatiquement ses actions. La composante de traction peut suivre et reproduire les 
+déplacements du superviseur humain via ses capteurs. Les capteurs du système détectent 
+les objets que l’opérateur a détecté. L’acquisition des cibles est identique à celle de 
+l’opérateur humain via le système de visée de son arme, connecté à celui du système. Le 
+système ouvre le feu sur une cible si et seulement si l’opérateur ouvre le feu sur cette cible. 
+L’intensité du combat associée au niveau L1 est notée IC-L1. 
+ 
+Niveau L2 - Système armé semi-autonome en déplacement et en détection de cibles. 
+L’opérateur humain supervise le système en lui fournissant un plan de route et des 
+indications de cibles. Le système choisit le meilleur chemin en fonction des indications de 
+localisation fournies par l’opérateur. Les capteurs du système détectent automatiquement les 
+objets et cibles potentielles. Le système suggère des objets comme cibles potentielles à 
+l’opérateur humain qui définit les cibles à prendre en compte. Le système ouvre le feu sur la 
+cible après autorisation du superviseur humain. L’intensité du combat associée au niveau 
+d’automatisme L2 est notée IC-L2. 
+ 
+Niveau L3 - Système armé autonome soumis à autorisation de tir. 
+L’opérateur humain n’intervient que pour donner l’autorisation d’ouvrir le feu sur une cible 
+proposée par le système. Les déplacements sont décidés par le système en fonction de sa 
+perception du terrain et de ses objectifs de mission. Les capteurs détectent et reconnaissent 
+les objets de manière autonome. L’acquisition de cibles s’effectue de manière automatique 
+ou dirigée via les capteurs du système et ses capacités de reconnaissance. Le système 
+propose une cible et ouvre le feu après autorisation du superviseur humain. L’intensité du 
+combat associée au niveau L3 est notée IC-L3. 
+ 
+Niveau L4 - Système armé autonome sous tutelle humaine. 
+L’opérateur humain peut désactiver et reprendre le contrôle du système pleinement 
+autonome. Les déplacements sont décidés par le système en fonction de sa perception du 
+terrain et de ses objectifs de mission. Les capteurs détectent et reconnaissent les objets de 
+manière autonome. L’acquisition de cibles s’effectue de manière automatique via les 
+capteurs du système et ses capacités de reconnaissance et d’analyse. Le système décide 
+de l’ouverture du feu sur la cible qu’il a sélectionnée mais peut être désactivé par son 
+superviseur. L’intensité du combat associée au niveau L4 est notée IC-L4. 
+ 
+Niveau L5 - Système armé autonome sans tutelle humaine. 
+L’opérateur humain n’a pas la possibilité de reprendre le contrôle du système pleinement 
+autonome. Les déplacements sont décidés par le système en fonction de sa perception du 
+terrain et de ses objectifs de mission. Les capteurs détectent et reconnaissent les objets de 
+manière autonome. L’acquisition de cibles s’effectue de manière automatique via les 
+capteurs du système et ses capacités de reconnaissance et d’analyse. Le système décide 
+de l’ouverture du feu sur la cible qu’il a sélectionnée sans possibilité de désactivation (sauf 
+destruction). L’intensité du combat associée au niveau L5 est notée IC-L5. 
+ 
+Le dernier niveau (L5) de ce classement correspond à celui d’un robot de type 
+« Terminator » fortement ancré dans l’imaginaire « grand public » mais avec très peu 
+d’intérêt opérationnel pour les forces armées. Les niveaux utiles s’échelonnent de L0 à L4 et 
+ne disposent pas tous du même degré de maturité technologique. Le niveau L0 est celui des 
+drones et robots pleinement téléopérés par un opérateur humain et ne disposant d’aucune 
+fonctionnalité échappant au contrôle humain. Le niveau L1 est celui d’un système armé 
+dupliquant automatiquement les actions et les tirs d’un superviseur (humain ou système).

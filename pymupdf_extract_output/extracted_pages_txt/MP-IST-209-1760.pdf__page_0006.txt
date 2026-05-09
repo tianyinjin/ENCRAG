@@ -1,0 +1,91 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 6 / 10
+
+================================================================================
+
+The use of a military radio in the UGV is only for commu-
+nication with CNR and depends on the weight and volume
+of the radio, taking into account the payload capacity of the
+UGV. The G-Mouse GPS VK-162 with a USB connection
+to the Raspberry Pi was adopted. The hardware used in the
+LAFVIN UGV for Wi-Fi communication is represented by
+Figure 7.
+Fig. 7: Hardware in LAFVIN UGV for Wi-Fi communication.
+The GCS consists of the following components:
+• Computer;
+• Gembird Gamepad;
+• Radio.
+As with the UGV, military radios are used in the GCS only
+for communication with CNR. It is important to note that
+in this study, the camera used for transmission is from the
+same manufacturer as the onboard unit. This makes it easier to
+integrate the camera with the onboard unit; it is only necessary
+to configure the camera in the settings without the need for
+specific software.
+D. Software Modules
+In this section, three software scripts were developed, which
+will be described in the corresponding subsections. The soft-
+ware developed was also integrated with the GCS software.
+The delay block in sending heartbeat logic allows the
+control of the frequency of sending HEARTBEAT messages.
+The delay block, in send position logic, present in both
+scripts allows adjusting the frequency of position messages,
+GPS RAW
+INT in the case of Figure 8, and XML messages
+to the BMS with the identification of the UGV and its position,
+in the case of Figure 9. This frequency adjustment makes
+it possible to communicate in scenarios with less bandwidth
+available.
+1) Script 0 — Arduino: The LAFVIN UGV manufac-
+turer code, represented by Script 0 in the general archi-
+tecture, had to be adapted as communication is now via a
+serial cable, and the manufacturer did not plan this mode
+of communication; it runs on the Arduino. In Arduino,
+the function processRaspberryPiCommand(String
+command) allows commands to be received via a serial
+connection to the Raspberry Pi. The manufacturer code did
+not include this communication mode. To avoid problems, all
+the other communication modes — Infrared and Bluetooth —
+were deactivated.
+2) Script 1 — Management of the link between Raspberry
+Pi, Arduino, and GCS: Script 1, shown in Figure 8, represents
+a link between the UGV and the ground station used to send
+the UGV position to the GCS. It also is used to send command
+controls to the UGV. This script runs on the Raspberry Pi.
+In the case of communication using military radios, it is
+necessary to initiate two connections to MAVProxy, one for
+the radios and the other for Wi-Fi, since both are used.
+The Raspberry Pi ↔Arduino connection is used to send the
+control commands to the Arduino. All commands between the
+GCS and the Raspberry Pi are sent via Wi-Fi in the configura-
+tion using Wi-Fi. In the case of the configuration using tactical
+radios, the heartbeats are sent by both communication channels
+so that the availability of both can be seen. The UGV position,
+through the send position(latitude, longitude,
+altitude) function, is only sent using tactical radios.
+This is the most critical communication component since it
+displays the UGV position. By using military radios, it is
+possible to exploit the encryption they offer and thus make
+communication more secure.
+Fig. 8: Script 1 — Management of the link between Raspberry Pi,
+Arduino, and GCS.
+3) GPS: To get the UGV position, the “gpsd”, “gpsd-
+clients”, and “python-gps” libraries were used to obtain the
+GPS data using the get_gps_data() function. These li-
+braries had to be installed on Raspberry Pi. The initial step
+was to start the session, and then the latitude, longitude and
+altitude variables were updated in real-time.
+Once
+it
+had
+the
+variables
+to
+update,
+it
+created
+Integration of a Commercial 
+Unmanned Vehicle into the Army Communications System
+STO-MP-IST-209 
+1760 - 6

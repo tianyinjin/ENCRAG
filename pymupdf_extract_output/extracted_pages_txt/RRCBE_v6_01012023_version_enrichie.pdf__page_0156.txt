@@ -1,0 +1,67 @@
+Source file: RRCBE_v6_01012023_version_enrichie.pdf
+Relative path: RRCBE_v6_01012023_version_enrichie.pdf
+Page: 156 / 224
+
+================================================================================
+
+Partie 5 – Les crédits de personnel et les emplois – Illustrations 
+156  
+Direction du budget | Recueil des règles de comptabilité budgétaire de l’Etat | janvier 2023 
+V.B.3.4. Les modalités de décompte des emplois hors PSOP dans Chorus 
+Les consommations d’ETPT pour les agents non pris en charge par les applications de paye de la PSOP 
+ou par les applications de solde du ministère de la Défense et de la Gendarmerie nationale sont 
+calculées dans Chorus, par convention, à partir des dépenses hors PSOP divisées par une valeur 
+moyenne par programme, qui peut-être actualisée chaque année. 
+Les dépenses hors PSOP sont converties dès lors : 
+- 
+qu’elles sont imputées sur un compte qui consomme le plafond d’emplois ; 
+- 
+qu’elles correspondent aux pièces de dépenses suivantes : 
+- 
+les demandes de paiement directes typées ‘RS’ au statut payé ; 
+- 
+les opérations diverses typées ‘SD’, pour les comptables (domaine d’activité Chorus) des 
+COM, hors société ‘DEFE’ du ministère de la Défense. Fonctionnellement, ces pièces 
+correspondent au mode opératoire de l’intégration de la paye des COM dans Chorus ; 
+- 
+les opérations diverses typées ‘HP’ ou ‘CH’ qui correspondent à des corrections des 
+comptables sur des DP directes au statut payé. 
+Au niveau du budget général, la part des consommations d’ETPT calculées par approximation reste 
+limitée (autour de 3 %). Toutefois, à l’échelle d’un programme ou d’un BOP, elle peut être plus 
+importante. 
+V.B.3.5. Les modalités de décompte dans Chorus des emplois pris en 
+charge par les applicatifs de solde du ministère de la défense et de la 
+gendarmerie nationale 
+Les consommations d’ETPT calculées par les applicatifs de solde sont transmises par interface à 
+Chorus par le ministère de la Défense et par la Gendarmerie Nationale. Les données couvrent le 
+périmètre du plafond d’emplois de la Défense et de la Gendarmerie Nationale, mais également les 
+plafonds d’emplois d’autres ministères (Affaires étrangères, Outre-mer, Ecologie, Intérieur). Dans ce 
+dernier cas, il convient de noter que les consommations d’emplois restituées par Chorus sont associées 
+aux catégories d’emplois du ministère de la Défense et du ministère de l’Intérieur. 
+ 
+Agents payés après ordonnancement 
+(HPSOP)
+Autres agents non 
+indiciés 
+(ETPT = nb de 
+dossiers agent)
+1,7 %
+ETPT calculés en divisant les dépenses 
+HPSOP imputées sur des comptes qui 
+consomment le plafond d'emplois par une 
+valeur moyenne d'ETPT fixée 
+annuellement en accord avec la DB
+1,5 %
+Ouvriers non indiciés, rémunérés sur la base d'un taux horaire
+1,7 %
+Agents pris en charge
+par les applicatifs de paye de la DGFIP 
+(PSOP)
+ETPT calculés sans approximation
+96,8 %
+Solde des militaires
+(applicatifs de solde du MINDEF)
+ETPT approximés selon des conventions méthodologiques
+3,2 %
+Agents indiciés
+95,1 %

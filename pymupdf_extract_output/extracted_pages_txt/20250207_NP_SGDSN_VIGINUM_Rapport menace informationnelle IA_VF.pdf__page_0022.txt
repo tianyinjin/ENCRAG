@@ -1,0 +1,37 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 22 / 28
+
+================================================================================
+
+22 
+ 
+ 
+Si les fournisseurs de services d’IA privés peuvent mettre en place des mesures de sécurité pour 
+limiter les usages malveillants, il est plus difficile de sécuriser l’usage de modèles téléchargeables 
+tels que les modèles open source. En revanche, le développement de modèles open source ou de 
+modèles à poids ouverts54 est un enjeu majeur pour permettre aux acteurs et entités mobilisés dans 
+la lutte contre la manipulation de l’information d’utiliser des modèles pré-entraînés dans un 
+environnement informatique maîtrisé. 
+ 
+Au-delà de l’analyse exploratoire de contenus, les outils d’IA sont également utilisés pour identifier des 
+marqueurs d’inauthenticité, par exemple via l’identification de contenus massivement dupliqués. 
+ 
+                                                        
+53 Comme le souligne le PEReN, la définition de l’open source dans le domaine de l’IA n’est pas encore consensuelle. L’Open Source 
+Institute (OSI) a proposé une définition en octobre 2024 mais peu de modèles sont conformes à la définition de l’OSI 
+(https://www.peren.gouv.fr/actualites/2024-10-29_comparateur_iag_open_source/).  
+54 L’OSI définit les modèles à poids ouverts (open weights models) des modèles dont les poids sont diffusés sous une licence libre 
+sans que le code ou le jeu de données d’entraînement soit disponible (https://opensource.org/ai/open-weights) . 
+De l’importance open source et de la maîtrise de l’hébergement des modèles 
+Parmi les grands modèles pré-entraînés d’IA, certains sont fermés, et mis à disposition des 
+utilisateurs uniquement sous la forme de service par l’entreprise qui les a développés. D’autres sont 
+accessibles publiquement sous une licence open source à l’instar de Mistral 7B mis à disposition par 
+l’entreprise Mistral, ou une licence plus restrictive comme les modèles LLama mis à disposition par 
+Meta dont les poids sont téléchargeables mais les usages restreints par une licence spécifique53.  
+Pour les services de lutte contre les manipulations de l’information, il est important de maîtriser les 
+conditions d’hébergement de leurs outils pour des raisons de sécurité informatique, de sécurité 
+opérationnelle, de protection des données à caractère personnel ainsi que pour des enjeux de 
+souveraineté. VIGINUM s’est doté d’une infrastructure informatique en propre pour pouvoir 
+héberger les données et réaliser les traitements dans un environnement informatique maîtrisé et 
+sur des serveurs situés sur le territoire national.

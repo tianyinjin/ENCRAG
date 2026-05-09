@@ -1,0 +1,95 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 122 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 5 : SECURITE DES LIEUX ABRITANT DES INFORMATIONS ET SUPPORTS 
+CLASSIFIES 
+
+116 
+-
+deux barrières physiques et d’une barrière logique. 
+Les tableaux suivants définissent, pour chaque niveau de classification, la classe minimale 
+du meuble et celle de la protection logique en fonction des classes de protection 
+physique du bâtiment et du local. 
+La lettre en majuscule désigne la classe du meuble dans lequel on entrepose l’ISC, la lettre 
+grecque la classe du SI classifié. 
+ 
+Classe minimale du meuble et du SI pour le niveau Secret 
+Classe du 
+bâtiment 
+Classe du local 
+a 
+b 
+c 
+d 
+1 
+C / Ȗ 
+C / Ȗ 
+C/ ȕ 
+C / ȕ 
+2 
+C / Ȗ 
+C / Ȗ 
+C / ȕ 
+C / ȕ 
+3 
+C / Ȗ 
+C / Ȗ 
+C / ȕ 
+B / Į 
+4 
+C / Ȗ 
+C / Ȗ 
+B / Į 
+interdit 
+ 
+Si des informations et supports ou systèmes d’information classifiés au niveau Secret ne 
+peuvent être conservés dans un meuble de sécurité en raison de leur dimension, ils seront 
+alors stockés dans un local renforcé correspondant aux caractéristiques suivantes: 
+-
+l’emprise ou le bâtiment est au minimum de classe 3. Un contrôle permanent de la 
+zone est organisé en s’appuyant sur un dispositif de détection-alarme relié à un 
+élément d’intervention extérieur; 
+-
+le local est au minimum de classe c avec un dispositif de détection-alarme 
+indépendant de ceux de l’emprise/bâtiment118.  
+Dans l’hypothèse où les barrières physiques sont assurées par le local et un meuble 
+adapté119, sans considération du niveau de protection du bâtiment, le tableau suivant 
+définit, pour le seul niveau de classification Secret, la classe minimale de protection 
+logique: 
+ 
+Cas particulier: classe minimale du SI pour le niveau Secret 
+Classe du 
+meuble 
+Classe du local 
+a 
+b 
+c 
+d 
+A 
+Ȗ 
+Ȗ 
+ȕ 
+Į 
+B 
+Ȗ 
+Ȗ 
+ȕ 
+Į 
+C 
+Ȗ 
+ȕ 
+Į 
+Į 
+ 
+
+118 Les détecteurs sont généralement raccordés à une centrale locale placées dans le local ou la zone, sans 
+qu’aucun élément (câblage par exemple) ne sorte de la zone à protéger. C’est la liaison entre centrale locale 
+et générale qui peut sortir de la zone, pour peu qu’elle soit chiffrée. C’est en cela que le système est 
+indépendant. Il ne s’agit donc pas obligatoirement de déployer deux SI de détection d’intrusion. 
+119 Par exemple, baie technique blindée ou armoire forte dédiée aux serveurs.

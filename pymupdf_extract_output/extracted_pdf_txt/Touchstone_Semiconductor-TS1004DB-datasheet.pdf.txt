@@ -1,0 +1,562 @@
+Source file: Touchstone_Semiconductor-TS1004DB-datasheet.pdf
+Relative path: Touchstone_Semiconductor-TS1004DB-datasheet.pdf
+Page count: 7
+Extracted pages: 7
+
+================================================================================
+
+[Page 1 / 7 | chars: 1755]
+--------------------------------------------------------------------------------
+
+TS1002/TS1004 Dual/Quad Op Amps 
+ Demo Board 
+Page 1 
+© 2011 Touchstone Semiconductor, Inc. All rights reserved. 
+FEATURES 
+ 0.65V to 2.5V Single-supply operation 
+ AC-coupled Non-inverting and Inverting 
+configurations supplied 
+ Fully Assembled and Tested 
+ 2mm x 2mm 2-layer demo board 
+ 
+DESCRIPTION 
+The demo boards for the TS1002 and the TS1004 are 
+completely assembled and tested circuit boards that 
+can be used for evaluating the TS1002 and the 
+TS1004, respectively. The TS1002 and the TS1004 
+are the industry’s first and only dual and quad single-
+supply, precision CMOS operational amplifiers fully 
+specified to operate at 0.8V while consuming less 
+than 0.6µA supply current per amplifier. Optimized for 
+ultra-long-life 
+battery-powered 
+applications, 
+the 
+TS1002 and the TS1004 join Touchstone’s TS1001 
+operational amplifier in the “NanoWatt Analog™” 
+high-performance analog integrated circuits portfolio. 
+Both op amps exhibit a typical offset voltage of 
+0.5mV, a typical input bias current of 25pA, and rail-
+to-rail input and output stages. The TS1002 and the 
+TS1004 can operate from single-supply voltages from 
+0.65V to 2.5V. 
+ 
+The TS1002 and the TS1004 are fully specified at 
+VDD = 0.8V and over the industrial temperature range 
+(−40°C to +85°C). The TS1002 is available in PCB-
+space saving 8-lead MSOP surface-mount packages. 
+The TS1004 is available in a 14-pin TSSOP package. 
+ 
+Product data sheets and additional documentation 
+can 
+be 
+found 
+on 
+factory 
+web 
+site 
+at 
+www.touchstonesemi.com. 
+ 
+Ordering Information 
+ 
+Order Number 
+Description 
+TS1002DB 
+TS1002 Dual Op Amp  
+Demo Board 
+TS1004DB 
+TS1004 Quad Op Amp  
+Demo Board 
+ 
+ 
+ 
+Figure 1. TS1002 Evaluation Board 
+ 
+ 
+Figure 2. TS1004 Evaluation Board
+
+[Page 2 / 7 | chars: 3332]
+--------------------------------------------------------------------------------
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+ 
+Page 2   
+ 
+ 
+TS1002DB/TS1004DB r1p0 
+ 
+ 
+ 
+RTFDS 
+Description 
+The TS1002 and the TS1004 demo boards provide 
+two configurations for evaluating the TS1002 dual 
+and the TS1004 quad operational amplifiers. A non-
+inverting gain of +2 configuration is located on the 
+left-hand side of each board and an inverting gain of -
+1 configuration is located on the right-hand side of 
+each board. In both cases, the input to each circuit is 
+AC-coupled. The demo boards provide a re-biasing 
+scheme at one-half the power supply or VDD/2 for the 
+inverting configuration and at VDD/4 for the non-
+inverting configuration. 
+ 
+The TS1004 demo board provides resistor pads R3-
+R10 and Jumpers B and C in order to access op 
+amps B and C. The default configuration for op amps 
+B and C is a unity-gain.The non-inverting inputs are 
+shorted to ground with 1Ω resistors on resistor pads 
+R5 and R8 and the outputs are connected to the 
+inverting inputs with 1Ω resistors on resistor pads R3 
+and R9.  
+ 
+In 
+both 
+the 
+non-inverting 
+and 
+the 
+inverting 
+configuration, the AC-coupling capacitor creates a 
+high pass filter. The resulting cut-off frequency, fC, is 
+given as:  
+ 
+fC= 
+ 
+   C 
+ 
+In the non-inverting circuit on the TS1002 demo 
+board, R=R4=1MΩ and C=C2=0.1µF. In the inverting 
+case, R=R6=1MΩ and C=C3=0.1µF. In the non-
+inverting circuit on the TS1004 demo board, 
+ = 17=1MΩ and C=C5=0.1µF. In the inverting case, 
+R=R14=1MΩ and C=C4=0.1µF. In both cases, these 
+component values generate a high-pass cut-off 
+frequency of 1.6Hz.  
+ 
+Default Configurations 
+ 
+Non-Inverting Configuration 
+In the non-inverting configuration, the circuit’s transfer 
+function is given by the following equation:  
+ 
+  
+   T
+  N  = 1+   
+   
+ 
+With  1=  =2MΩ and  2=  =2MΩ on the TS1002 
+demo board and  12=  =2MΩ and  11=  =2MΩ 
+on the TS1004 demo board, the circuit signal gain is 
++2 with a circuit bandwidth of 2kHz. This results in an 
+overall circuit bandwidth range of 1.6Hz to 2kHz.  
+ 
+Inverting Configuration 
+In an inverting configuration, the circuit’s transfer 
+function is given by the following equation: 
+ 
+   T
+  N
+ = -
+  
+   
+ 
+In this case,  3=  =1MΩ and  6=  =1MΩ on the 
+TS1002 
+demo 
+board 
+and 
+ 13=  =1MΩ 
+and 
+ 14=  =1MΩ on the TS1004 demo board. This 
+results in a signal gain of -1 with a circuit bandwidth 
+of 2kHz and an overall circuit bandwidth range of 
+1.6Hz to 2kHz. 
+ 
+Quick Start Procedures 
+ 
+Required Equipment 
+ 
+ TS1002 or TS1004 demo board 
+ DC Power Supply, Single or Dual Output 
+ Function Generator 
+ 4-channel Oscilloscope 
+ Two 1MΩ oscilloscope probes 
+Pin 
+Non-Inverting 
+Circuit 
+Inverting 
+Circuit 
+VDD 
+VDD 
+VDD 
+VSS 
+GND 
+GND 
+INA, INB 
+VIN 
+VIN-1 
+OUTA, OUTB 
+VOUT 
+VOUT-1 
+         Table 1. TS1002 Demo Board Test Points 
+Pin 
+Non-Inverting 
+Circuit 
+Inverting 
+Circuit 
+VDD 
+VDD 
+VDD 
+VSS 
+GND 
+GND 
+INA, IND 
+VIN 
+VIN-1 
+OUTD, OUTD 
+VOUT 
+VOUT-1 
+        Table 2. TS1004 Demo Board Test Points 
+Non-Inverting Configuration 
+In order to evaluate the TS1002 dual or TS1004 quad 
+operational 
+amplifiers 
+in 
+the 
+non-inverting 
+configuration, the following steps are to be performed: 
+ 
+1) Before connecting the DC power supply to the 
+demo board power test points, turn on the power 
+supply and set the DC voltage to 2.5V and then 
+turn it off.
+
+[Page 3 / 7 | chars: 2139]
+--------------------------------------------------------------------------------
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+TS1002DB/TS1004DB r1p0 
+ 
+Page 3 
+ 
+ 
+ 
+RTFDS 
+ 
+2) Set the function generator frequency to 500Hz 
+and output level with a VOH = 1.45V and a         
+VOL = 1.05V. This sets the input signal swing to 
+400mVPP, centered at 1.25V.  
+3) In order to monitor the input and output signal, 
+select two channels on the oscilloscope and set 
+the vertical voltage scale and the coupling setting 
+on each channel to 200mV/DIV and AC, 
+respectively. Set the input and output vertical 
+position to +400mV and -200mV, respectively.  
+Set the horizontal time scale to 500µs/DIV.  
+4) Connect the positive terminal of the DC power 
+supply to test point VDD and the negative 
+terminal to test point GND on the TS1002 or 
+TS1004 demo board. For all other connections, 
+please refer to Table 1 and 2.  
+5) Connect the signal output of the function 
+generator to test point VIN on the TS1002 or 
+TS1004 demo board. Connect the ground 
+terminal to test point GND.  
+6) To monitor the input, connect the signal terminal 
+of one of the oscilloscope probes to test point VIN 
+on the TS1002 or TS1004 demo board. Connect 
+the ground terminal to test point GND. To monitor 
+the output, use the second probe to connect the 
+signal terminal to test point VOUT on the TS1002 
+or TS1004 demo board. Connect the ground 
+terminal to test point GND.  
+7) Turn on the power supply and check that the 
+power supply current is approximately 4.4µA for 
+the TS1002 demo board and 5.5µA for the 
+TS1004 demo board. 
+8) Turn on the function generator.  
+9) Observe the input and output signal. The output 
+signal is an amplified version of the input signal 
+with an output swing of approximately 800mVPP, 
+corresponding to a signal gain of two. Figure 5 
+shows what the input and output signal should 
+look like. The input signal is in yellow and the 
+output signal is in green.  
+ 
+ 
+ 
+ 
+Figure 3. TS1002 Amp ‘A’ Non-Inverting 
+Configuration 
+ 
+ 
+Figure 4. TS1004 Amp ‘A’ Non-Inverting 
+Configuration 
+ 
+ 
+ 
+ 
+Figure 5. TS1002 and TS1004 Non-Inverting Configuration Input and Output signals 
+500µs/DIV  
+VIN 
+200mV/DIV 
+VOUT 
+200mV/DIV
+
+[Page 4 / 7 | chars: 2359]
+--------------------------------------------------------------------------------
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+ 
+Page 4   
+ 
+ 
+TS1002DB/TS1004DB r1p0 
+ 
+ 
+ 
+RTFDS 
+Inverting Configuration 
+In order to evaluate the TS1002 dual or TS1004 quad 
+operational amplifiers in the inverting configuration, 
+the following steps are to be performed:  
+ 
+1) Before connecting the DC power supply to the 
+demo board, turn on the power supply and set 
+the DC voltage to 2.5V and then turn it off.  
+2) Set the function generator output frequency to 
+500Hz and output level with a VOH = 1.45V and a 
+VOL = 1.05V. This sets the input swing to 
+400mVPP, centered at 1.25V.   
+3) In order to monitor the input and output signal, 
+select two channels on the oscilloscope and set 
+the vertical voltage scale and the coupling setting 
+on each channel to 200mV/DIV and AC, 
+respectively. Set the input and output vertical 
+position to +400mV and -400mV, respectively.  
+Set the horizontal time scale to 500µs/DIV. 
+4) Connect the positive terminal of the DC power 
+supply to test point VDD and the negative 
+terminal to test point GND on the TS1002 or 
+TS1004 demo board. For all other connections, 
+please refer to Table 1 and 2.  
+5) Connect the signal output of the function 
+generator to test point VIN-1 on the TS1002 or 
+TS1004 demo board. Connect the ground 
+terminal to test point GND.  
+6) To monitor the input, connect the signal terminal 
+of one of the oscilloscope probes to test point 
+VIN-1 on the TS1002 or TS1004 demo board. 
+Connect the ground terminal to test point GND. 
+To monitor the output, use the second probe to 
+connect the signal terminal to test point VOUT-1 
+on the TS1002 or TS1004 demo board. Connect 
+the ground terminal to test point GND.   
+7) Turn on the power supply and check that the 
+power supply current is approximately 4.4µA for 
+the TS1002 demo board and 5.5µA for the 
+TS1004 demo board. 
+8) Turn on the function generator.  
+9) Observe the input and output signal. The output 
+signal is an inverted version of the input signal 
+with an output swing of approximately 400mVPP, 
+corresponding to a signal gain of negative one. 
+Figure 8 shows what the input and output signal 
+should look like. The input signal is in yellow and 
+the output signal is in green. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6. TS1002 Amp ‘B’ Inverting Configuration 
+ 
+ 
+Figure 7. TS1004 Amp ‘D’ Inverting Configuration
+
+[Page 5 / 7 | chars: 1103]
+--------------------------------------------------------------------------------
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+TS1002DB/TS1004DB r1p0 
+ 
+Page 5 
+ 
+ 
+ 
+RTFDS 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COMPONENT LIST 
+ 
+ 
+DESIGNATION 
+TS1004 
+QTY 
+DESCRIPTION 
+C1, C4, C5 
+3 
+0.1µF ± 10% 
+capacitors (0805)  
+C2, C3 
+2 
+1µF ±10% 
+capacitors (0805) 
+R15 
+1 
+665kΩ ± 1% 
+resistor (0805) 
+R18 
+1 
+500kΩ ± 1% 
+resistor (0805) 
+R13, R14, R17 
+3 
+1MΩ ± 1% 
+resistors (0805) 
+R1, R2 
+2 
+1.25MΩ ± 1% 
+resistors (0805) 
+R11, R12, R16 
+3 
+2MΩ ± 1% 
+resistors (0805) 
+U1 
+2 
+TS1004 Quad Op-
+Amps 
+VDD, VIN, VIN-1, 
+VOUT, VOUT-1, 
+Out_B, Out_C 
+7 
+Test points  
+ 
+DESIGNATION 
+TS1002 
+QTY 
+DESCRIPTION 
+C1, C2, C3 
+3 
+0.1µF ± 10% 
+capacitors (0805)  
+C4, C5 
+2 
+1µF ±10% 
+capacitors (0805) 
+R8 
+1 
+665kΩ ± 1% 
+resistor (0805) 
+R5 
+1 
+500kΩ ± 1% 
+resistor (0805) 
+R3, R4, R6 
+3 
+1MΩ ± 1% 
+resistors (0805) 
+R9, R10 
+2 
+1.25MΩ ± 1% 
+resistors (0805) 
+R1, R2, R7 
+3 
+2MΩ ± 1% 
+resistors (0805) 
+U1 
+1 
+TS1002 Dual Op-
+Amps 
+VDD, VIN, VIN-1, 
+VOUT, VOUT-1 
+5 
+Test points  
+ 
+ 
+ 
+ 
+Figure 8. TS1002 and TS1004 Non-Inverting Configuration Input and Output signals 
+500µs/DIV  
+VIN-1 
+200mV/DIV 
+VOUT-1 
+200mV/DIV
+
+[Page 6 / 7 | chars: 240]
+--------------------------------------------------------------------------------
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+ 
+Page 6   
+ 
+ 
+TS1002DB/TS1004DB r1p0 
+ 
+ 
+ 
+RTFDS 
+ 
+ 
+ 
+ 
+Figure 9. TS1002 Top Layer Component View 
+ 
+ 
+ 
+Figure 10. TS1002 Bottom Layer (GND) #1 
+ 
+ 
+ 
+Figure 11. TS1002 Bottom Layer (GND) #2
+
+[Page 7 / 7 | chars: 336]
+--------------------------------------------------------------------------------
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+Touchstone Semiconductor, Inc. 
+ 
+Page 7 
+630 Alder Drive, Milpitas, CA 95035 
+ 
+TS1002DB/TS1004DB r1p0 
++1 (408) 215 - 1220 ▪ www.touchstonesemi.co 
+ 
+RTFDS 
+ 
+ 
+ 
+Figure 12. TS1004 Top Layer Component 
+ 
+ 
+Figure 13. TS1004 Bottom Layer (GND) #1 
+ 
+ 
+Figure 14. TS1004 Bottom Layer (GND) #2
+

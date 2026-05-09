@@ -1,0 +1,52 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 20 / 28
+
+================================================================================
+
+20 
+ 
+ 
+b. Cas d’usage de l’IA pour la lutte contre les ingérences numériques étrangères 
+Le Datalab mobilise l’IA à la fois pour faciliter l’exploration des données, et pour identifier des marqueurs 
+d’inauthenticité, afin de caractériser une ingérence numérique étrangère. 
+i. Analyse sémantique de contenus textuels 
+Dans le cadre de sa mission de détection et de caractérisation des ingérences numériques étrangères, 
+VIGINUM analyse des données textuelles en langage naturel, telles que des messages collectés sur les 
+plateformes de réseaux sociaux (X, Facebook, Telegram, Threads, etc) ou sur des sites web (blogs, faux 
+médias, etc). Dans ce domaine, les progrès accomplis depuis dix ans en matière de traitement automatique 
+du langage, et en particulier le développement de modèles de langage pré-entraînés, ont permis d’obtenir 
+des gains significatifs dans de nombreuses tâches de traitement automatique du langage naturel, 
+notamment concernant l’analyse sémantique de contenus textuels44.  
+A titre d’exemple, dans le cadre d’un appui aux opérations, le Datalab utilise régulièrement des modèles 
+de détection de thématiques (topic modeling), qui reposent sur des modèles de plongements vectoriels 
+(embeddings), ainsi que sur des modèles de reconnaissance d’entités nommées45. 
+Les modèles de topic modeling de type BERTopic permettent de détecter les sujets traités dans un corpus 
+de textes, et de regrouper les contenus traitant du même sujet46. Ces méthodes permettent d’identifier 
+les thématiques abordées par un acteur (« narratifs ») ou un ensemble d’acteurs dans un corpus, de 
+déterminer si les sujets abordés sont d’intérêt pour le service, ou encore de cibler un sous-ensemble 
+d’intérêt. Dans le cadre de l’appui aux investigations, la détection de thématiques constitue une brique 
+importante de l’analyse exploratoire de contenus textuels. La veille technologique continue menée par le 
+Datalab, notamment sur le sujet du topic modeling, permet au Datalab de se maintenir à l’état de l’art. 
+Au-delà de la détection de thématiques, le traitement automatique du langage permet également 
+d’identifier des entités nommées au sein d’un corpus de contenus textuels. A titre d’exemple, le Datalab a 
+mis en place une chaîne de traitement pour détecter les messages qui parlent d’un pays donné, que ce soit 
+en le mentionnant en toute lettre, ou en mentionnant une ou plusieurs de ses localités. Cette chaîne de 
+traitement permet notamment de repérer la publication de contenus concernant la France par des acteurs 
+étrangers de la menace informationnelle. Parmi les méthodes testées, certaines s’appuient sur la 
+réconciliation d’entités avec une base de connaissance existante, afin de relier les localités à un pays 
+donné47. D’autres méthodes s’appuient sur des instructions (prompts) données à de grands modèles de 
+langage (tels que Mistral 7B) pour identifier les pays associés aux localités mentionnées dans un texte. 
+                                                        
+44 Publié en 2013, le modèle Word2vec a rencontré un grand succès en permettant de projeter des mots dans un espace 
+sémantique (Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean, 2013, « Efficient Estimation of Word Representations in Vector 
+Space, arXiv:1301.3781 [cs.CL]). A partir de 2018, les modèles de langage pré-entraînés comme BERT (Kenton, J. D. M. W. C., & 
+Toutanova, L. K., 2019, « BERT: Pre-training of deep bidirectional transformers for language understanding », Proceedings of naacL-
+HLT, vol. 1, n°2.) puis GPT permettent une modélisation du sens des mots en fonction de leur contexte. Pour une histoire des 
+modèles de langage jusqu’à ChatGPT, voir Pierre-Carl Langlais (7 février 2023), « ChatGPT : comment ça marche ? » Sciences 
+communes, https://doi.org/10.58079/twxr  
+45 La reconnaissance d’entités nommées est une tâche d’extraction d’informations qui cherche à localiser et classifier des éléments 
+dans du texte en catégories prédéfinies comme un lieu, une personne, une organisation, une date, etc.  
+46 https://github.com/MaartenGr/BERTopic  
+47 Par exemple, la méthode Spacyfishing (https://spacy.io/universe/project/spacyfishing) permet d’associer une entité à la base de 
+connaissance Wikidata.

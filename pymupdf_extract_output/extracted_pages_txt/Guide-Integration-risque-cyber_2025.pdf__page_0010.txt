@@ -1,0 +1,87 @@
+Source file: Guide-Integration-risque-cyber_2025.pdf
+Relative path: Guide-Integration-risque-cyber_2025.pdf
+Page: 10 / 29
+
+================================================================================
+
+Pôle d’excellence cyber
+19
+18
+La sécurité d’un Système d’Information (SI) repose avant tout sur la réduction des risques qui le menacent.
+Pour bien protéger votre SI, il est indispensable de commencer par évaluer les risques existants et les mesures de sécurité 
+déjà en place. Cette étape permet d’avoir une vision claire de la situation et de définir une stratégie de sécurisation adaptée. 
+Pour ce faire, vous pouvez vous référer au chapitre IX : Comment savoir où en est la résilience des systèmes et le niveau de 
+protection des données : éléments d’analyse de risque…
+1.	
+Prioriser les actions selon les faiblesses identifiées 
+Il est important d’identifier les points faibles de votre SI et de concentrer les efforts sur ces éléments en priorité. Rappelez-
+vous :
+La sécurité globale de votre SI sera toujours limitée par la protection de son maillon le plus faible.
+Par exemple, installer une porte blindée très sécurisée à l’entrée d’une maison n’aura que peu d’effet si les autres portes ou 
+fenêtres restent faciles à ouvrir. Il en va de même pour votre SI : un attaquant cherchera toujours le chemin le plus simple, 
+c’est-à-dire le moins protégé.
+2.	
+Protéger les données, un enjeu central 
+Les données sont au cœur de l’activité de chaque commune. Elles doivent donc être protégées en priorité. Pour cela, il 
+est fortement recommandé de mettre en place un plan de sauvegarde régulier comprenant une copie des données conservée 
+hors ligne ou sur un site distinct. Cela permet de limiter les conséquences en cas de cyberattaque (destruction, altération, etc.).
+La fréquence des sauvegardes (quotidienne, hebdomadaire, mensuelle) dépendra de vos besoins et de votre tolérance à la 
+perte de données. Pour les services externalisés (hébergement, cloud ou SaaS), vérifiez que le prestataire propose un plan 
+de sauvegarde adapté à vos objectifs. Sinon, envisagez une sauvegarde indépendante.
+3.	
+La sauvegarde seule ne suffit pas 
+Attention : sauvegarder vos données ne suffit pas à sécuriser votre SI. Si vous restaurez des données sur un système vulnérable, 
+vous risquez une nouvelle compromission rapidement. Il est donc essentiel de renforcer l’ensemble des protections autour 
+de vos données, en combinant plusieurs mesures de sécurité.
+À toutes fins utiles, pour ceux qui souhaiterait approfondir ce sujet, vous trouverez en annexe J quelques éléments sur les 
+objectifs de sécurité et les mesures de réduction de risques ainsi que la liste des produits et services qualifiés ou certifiés.
+Chapitre VII : Spécification pour la commande du juste nécessaire en solutions 
+de cybersécurité
+Chapitre VIII : Comment prendre en compte la cybersécurité dans l’achat de 
+produits et services 
+1.	
+Quelques recommandations pratiques
+La prise en compte de la sécurité dans les achats de logiciels, matériels, …
+Les exigences de cybersécurité lors de l’achat d’une solution logicielle et matérielle doivent dépendre de la sensibilité de 
+cette solution : il faut s’interroger sur les impacts de perte de confidentialité des données du système, de perte d’intégrité ou 
+de perte de disponibilité du système. Plus les impacts sont élevés, plus les exigences doivent être fortes.
+De la même façon, lors de l’achat d’une solution logicielle destinée à traiter des données personnelles, il est essentiel d’adapter 
+les mesures de sécurité au niveau de sensibilité des données concernées. Plus les données seront sensibles, plus les mesures 
+de sécurité devront être fortes. Il convient également de formaliser, dans les contrats, l’ensemble des exigences relatives à la 
+protection des données personnelles.
+Lors d’un achat, le point le plus important à négocier concerne la sauvegarde. Il s’agit de s’assurer de pouvoir restaurer les 
+données et programmes en cas de compromission. Cette sauvegarde doit être réalisée à intervalles réguliers pour éviter la 
+perte de données, sur un site différent du site de production pour pallier des risques comme l’incendie. Et elles doivent être 
+déconnectées du système d’information pour être sûr qu’un pirate l’ayant compromis ne peut pas porter atteinte à la sauvegarde. 
+Attention, une sauvegarde n’est pas une réplication. La réplication d’un système corrompu est également corrompue…
+Sur l’hébergement externe, la vérification majeure concerne la sécurité physique du site, la redondance des services essentiels 
+comme l’alimentation électrique, les liaisons opérateurs, la climatisation, … Les labels ou certifications amènent un certain 
+nombre de garanties faciles à contrôler : HDS, ISO 27001, Tier 3 ou 4 ou encore pour les plus exigeants, le label SecNumCloud. 
+Le lieu d’hébergement est à regarder aussi : préférer des hébergements en France voire en Europe.
+Un système d’authentification peu robuste constitue également un angle d’attaque facile. Il est aujourd’hui considéré 
+que l’authentification multi facteurs constitue un rempart intéressant contre le piratage. Il s’agit d’associer un facteur de 
+connaissance (un mot de passe, un code connu) avec un facteur de possession (un smartphone, un badge, une clé physique, 
+…) pour autoriser l’authentification. Exiger une authentification multi facteurs pour les systèmes les plus sensibles est un gage 
+de résilience. Pour les autres, il faut travailler sur la robustesse des mots de passe : longueur de 12 caractères minimum, avec 
+une complexité imposée (1 minuscule, 1 majuscule, 1 caractère spécial, 1 chiffre par exemple). Et surtout ne pas oublier la 
+formation et la sensibilisation des utilisateurs qui doivent utiliser un mot de passe différent sur chaque système et gérer leurs 
+mots de passe sur un outil logiciel appelé coffre-fort de mots de passe.
+Pour éviter les fuites de données, il est intéressant d’exiger du chiffrement : chiffrement des données lors de leur stockage sur 
+les systèmes informatiques (dit chiffrement au repos) ou lors de leur mouvement (dit chiffrement des flux) avec des protocoles 
+tels que TLS. Sur ce point, une exigence de base peut être de demander le respect des recommandations ANSSI (RGS et 
+Recommandations de sécurité relatives à TLS par exemple).
+Un point essentiel concerne le maintien en conditions de sécurité de la solution. En effet, au fil du temps, des vulnérabilités 
+sont publiées sur les solutions informatiques et les attaquants n’ont qu’à les exploiter pour pénétrer dans un système. Toute 
+solution informatique mise en place doit avoir un mainteneur qui s’occupe de surveiller les vulnérabilités et de faire les mises 
+à jour de sécurité.
+Enfin, lors de tout achat, il faut exiger un droit à l’audit qui permet de demander à un «hacker éthique» d’établir un 
+diagnostic sur la robustesse d’une solution informatique et de dresser un plan d’action de remédiation priorisé en cas 
+de découverte de vulnérabilités. Exiger préalablement l’exécution du plan de remédiation dans le cadre d’un contrat de 
+maintenance permet de diminuer les frais en cas de problème également.
+2.	
+15 bonnes questions à poser à son prestataire de site web
+Une cyberattaque de votre site Internet peut avoir de multiples conséquences sur votre activité : arrêt de services, pertes 
+financières, vol d’informations, pertes de confiance et de crédibilité, coût de remédiation, responsabilité juridique…
+Voici 15 questions à poser à votre support informatique pour évaluer le niveau de sécurité de votre site Internet et définir les 
+axes d’améliorations nécessaires : 
+https://www.cybermalveillance.gouv.fr/medias/2022/04/Fiche_mon-site-internet-est-il-securise.pdf

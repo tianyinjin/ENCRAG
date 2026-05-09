@@ -1,0 +1,70 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 95 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+ 
+ 
+ 
+92 
+Recours à des dispositifs de sécurité agréés 
+Un dispositif de sécurité mis en place dans un système d’information qui traite d’informations 
+classifiées est agréé par l’agence nationale de la sécurité des systèmes d’information100 lorsqu’il 
+est utilisé, en complément de mesures organisationnelles de sécurité, comme un moyen 
+essentiel de protection contre les accès non autorisés aux informations classifiées ou au système. 
+À titre exceptionnel, et sur le fondement d’une analyse de risques réalisée par le responsable de 
+la sécurité du système d’information dans le cadre de l’homologation, l’autorité 
+d’homologation peut autoriser le recours à des matériels et logiciels agréés à un niveau 
+inférieur, voire non agréés lorsqu’il n’existe pas de dispositif de sécurité agréé au bon niveau. 
+La justification de cette autorisation est motivée dans le dossier d’homologation du système. 
+CONCEPTION ET EXPLOITATION DU SYSTEME D’INFORMATION
+Administration des systèmes d’information classifiés 
+Les actions d’administration permettent de maintenir le système d’information classifié en 
+condition de sécurité et en condition opérationnelle. Qu’il s’agisse d’actions liées à des 
+évolutions du système d’information ou à l’exploitation courante, celles-ci nécessitent des 
+privilèges. Elles constituent à ce titre une activité critique. 
+De manière générale, les principes suivants doivent être appliqués : 
+-
+les actions d’administration sont menées par du personnel spécialement formé et 
+sensibilisé ; 
+-
+le système d’information d’administration est classifié au même niveau que le système 
+d’information administré ; 
+-
+l’administration d’un système d’information classifié au niveau Secret est faite dans une 
+zone protégée et au niveau Très Secret dans une zone réservée. 
+Les pratiques d’administration, en particulier pour la gestion des comptes privilégiés et la 
+protection de leurs mécanismes d’authentification, sont établies suivant les recommandations 
+de l’agence nationale de la sécurité des systèmes d’information. Toute non-conformité est 
+justifiée et intégrée dans les risques résiduels présentés lors de la commission d’homologation 
+après avoir été notifiée à l’autorité qualifiée en sécurité des systèmes d’information et au service 
+du haut fonctionnaire de défense et de sécurité compétents. Au niveau Très Secret, les non-
+conformités sont également déclarées à l’agence nationale de la sécurité des systèmes 
+d’information, au plus tard lors de la commission d’homologation. 
+L’autorité d’emploi d’un système d’information classifié applique les règles suivantes au 
+système d’information d’administration et aux flux correspondants : 
+-
+les 
+ressources 
+matérielles, 
+les 
+ressources 
+logicielles 
+et 
+les 
+informations 
+d’authentification sont strictement séparées selon leur usage. Ainsi, toute action 
+d’administration est réalisée exclusivement par un administrateur depuis un compte 
+administrateur individuel et dédié à cet usage. En outre, les actions d’administration sont 
+conduites depuis des ressources d’administration dédiées (postes de travail, serveurs, ou 
+autres équipements spécifiques). Les ressources d’administration, matérielles et 
+logicielles, en particulier les postes d’administration, sont utilisées exclusivement pour 
+les actions d’administration. Ces ressources sont gérées et configurées par l’autorité 
+responsable de l’administration du système d’information classifié ou par le prestataire 
+qu’elle a mandaté pour réaliser les actions d’administration ; 
+100 Article 3 du décret n° 2009-834 du 7 juillet 2009 portant création d’un service à compétence nationale dénommé 
+« Agence nationale de la sécurité des systèmes d’information ».

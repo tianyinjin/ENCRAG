@@ -1,0 +1,58 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 4 / 10
+
+================================================================================
+
+Fig. 3: General architecture — Wi-Fi.
+Fig. 2: ARX Robotics GEREON RCS — Medium Autonomous
+Transportation Platform [28].
+III. SOLUTION FOR INTEGRATING A COMMERCIAL UGV
+INTO THE ARMY COMMUNICATIONS SYSTEM
+For the communication without autopilot hardware, two
+architectures were used: one with Wi-Fi communication, pre-
+sented in Figure 3 and the other using Combat-Net Ra-
+dio (CNR), represented in Figure 4. The LAFVIN Multi-
+Functional Smart Car Kit was used for this implementation,
+representing the UGV and Arduino.
+The onboard Raspberry Pi device connects to different
+components of the architecture. The onboard Raspberry Pi ↔
+Arduino connection is designed to send the control commands
+received by the Raspberry Pi to the Arduino.
+The Raspberry Pi ↔GCS connection is designed to send
+the control commands to the Raspberry Pi and GPS and image
+to the GCS.
+Figure 4 depicts the scenario with a radio connected to
+the UGV. This scenario makes sense when the UGV is large
+enough to carry a radio. In this specific application, the
+LAFVIN UGV is not used with a vehicular radio in moving
+tests, given its size, it can only be used in static tests or with
+small radios. In situations without a radio, all communications
+with the UGV are via Wi-Fi.
+When communicating with CNR, the computer on the GCS
+and the Raspberry Pi connect to the radio via a network cable.
+The radios on both sides need to be connected to the antenna,
+which is made using a coaxial cable with an N connector. The
+used antenna will depend on the type of radio, manpack, or
+vehicle version used in each scenario. On the GCS side, the
+gamepad connects to the computer via USB; on the UGV side,
+the GPS connects to the Raspberry Pi via USB. In distinction,
+the Raspberry Pi and the camera are connected using a Flexible
+Printed Circuit (FPC). The Arduino connects to the Raspberry
+Pi via a serial cable.
+In Wi-Fi communication, all connections are used except
+the ones to the tactical radios since Wi-Fi is used for commu-
+nication, and this is done via the network boards integrated
+into each device (GCS computer and Raspberry Pi).
+A. GCS Architecture
+The GCS MAVProxy software establishes a connection with
+the Raspberry Pi. The system GCS is a proxy server between
+the Raspberry Pi, Mission Planner, and BMS. The architecture
+of the GCS has to be like this so that data can be sent/received
+simultaneously to the BMS and the Mission Planner. This
+architecture also makes it possible to filter the messages sent
+to each of the software programs.
+Integration of a Commercial 
+Unmanned Vehicle into the Army Communications System
+STO-MP-IST-209 
+1760 - 4

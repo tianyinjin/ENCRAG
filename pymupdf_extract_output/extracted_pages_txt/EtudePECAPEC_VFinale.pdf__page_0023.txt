@@ -1,0 +1,48 @@
+Source file: EtudePECAPEC_VFinale.pdf
+Relative path: EtudePECAPEC_VFinale.pdf
+Page: 23 / 75
+
+================================================================================
+
+23
+Dès les années 2000, des groupes d’activistes ou étatiques cyber ont perpétué des attaques de très grande envergure vers de 
+grandes organisations ou des États. Citons l’Estonie, l’Iran, l’Ukraine, les États-Unis, la France, etc. On parle de déni de service 
+distribué, ou Distributed Denial of Service (DDoS), de nom comme Olympic Games, Titan Rain, Stuxnet, Duqu, Flame, Night 
+Dragon, Nitro ou encore Energic Bear. Les grands états cyber avaient commencé à se faire la guerre, s’octroyant parfois au prix fort 
+les compétences de groupes d’activistes ou de cybercriminels. Ces États légiférèrent aussi, car ils prenaient du même pas la pleine 
+conscience de l’urgence à mieux maîtriser la sécurité de leurs SI.
+États et entreprises se battaient déjà pour embaucher les rares spécialistes du domaine, et demandaient que leurs ingénieurs ou 
+universitaires à BAC+5 soient formés tout au long de la vie. C’est dans ces années-là que les organisations nomment un responsable 
+du périmètre cyber (la fonction de Responsable de la Sécurité des Systèmes d’Information, RSSI, (Chief information security officer 
+ou CISO en anglais), définit par l’Organisation internationale de normalisation, International Organization for Standardization en 
+anglais, ISO/CEI1  27002 & ISO/CEI 27001 en 2005) qui va motiver le déploiement d’outils de sécurité au sein des réseaux, des 
+systèmes, des Directions des Systèmes d’Information, DSI.
+Dans les années 2005 la cybersécurité prend son indépendance de l’IT, elle se professionnalise, se normalise, s’adapte aux évolutions 
+complexes du SI qui s’outille face à une menace toujours croissante. Dans les années 2010 le RSSI gagne en indépendance par 
+rapport au DSI, son chef, il devient le garant de la bonne décision en termes de choix techniques, de la parole de l’ANSSI, de la 
+bonne sécurité de son organisation, un mandat qui pourrait aller jusqu’à s’opposer à certaines décisions de sa DSI. Ainsi, certaines 
+organisations modernes ont ainsi choisis de faire en sorte que le RSSI dépende directement de la Direction générale et non pas du 
+DSI, ce qui facilite véritablement son travail.
+Dès 2013, des problématiques de souveraineté du cloud apparaissent, et les documents publiés par Edward SNOWDEN ne vont 
+que venir renforcer la volonté européenne d’indépendance face aux outils étrangers, cela étant d’autant plus une préoccupation au 
+sein des administrations qui ont le devoir d’archiver.
+De plus, la multiplication des attaques qui engendraient des incidents fréquents dans les organisations, qui impactaient souvent 
+des données à caractère personnel ou sensible, très encadrées par la Loi Informatique & Libertés et la CNIL, et métadonnées des 
+administrés, des patients des hôpitaux ou clients des banques, poussèrent les organisations à nommer un Délégué à la protection 
+des données (DPD, ou DPO en anglais pour Data Protection Officer) à plein temps en remplacement du Correspondant Informatique 
+et Libertés (CIL)), fonction que cumulait souvent le RSSI.
+Ce métier de RSSI (CISO) est très complexe, ce sont souvent des gens très expérimentés, qui ont touché dans leur début de 
+carrière à de nombreuses fonctions techniques au sein des SI, ont tenu des postes très opérationnels et connaissent généralement 
+bien les produits et services de sécurité du marché, les architectures et leurs problématiques. Toutefois, la sécurité des systèmes 
+d’information d’une organisation ne peut pas, ne doit pas à l’évidence, être l’apanage d’une seule femme ou d’un seul homme. 
+La plupart des RSSI manquent cruellement de budget, ils ont de grandes difficultés pour embaucher des personnels techniques et 
+se sentent aussi isolés dans l’organigramme. Ainsi, soumis à de trop fortes responsabilités, à un stress quasi permanent, 50% des 
+RSSI disent vouloir changer d’emploi d’ici à 2025, et 25 % d’entre eux envisagent même de changer de métier (analyse de Gartner). 
+Enfin, l’ancienneté moyenne d’un CISO n’est que de 26 mois (rapport de Nominet), ce qui est très inquiétant pour la filière2.
+Dans les années qui viennent, le métier de RSSI devra donc nécessairement faire l’objet d’adaptations, d’évolutions, la fonction 
+pourrait par exemple être portée par plusieurs personnes dans l’organisation, avec un responsable présent au sein des CoDir. 
+Ensuite, puisque tout métier comporte des prérequis en termes de connaissances & de compétences, Grandes Écoles et Universités 
+devraient pouvoir proposer des formations initiales de RSSI aux étudiants pour former à ce métier complexe, des cursus qui 
+prendraient aussi en compte la gestion du stress et la gestion de crise. De tels cursus devraient voir le jour rapidement.
+1 Commission électrotechnique internationale.
+2 https://www.lesechos.fr/tech-medias/hightech/cybersecurite-une-profession-au-bord-du-burn-out-1933733

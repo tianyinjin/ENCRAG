@@ -1,0 +1,18 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 62 / 108
+
+================================================================================
+
+62
+POLE D'EXCELLENCE CYBER
+Vous pouvez également autoriser l’accès à la localisation de votre appareil pour 
+certaines applications seulement (voir le tutoriel « Restreindre les autorisations 
+accordées aux applications »).
+Notez que cette méthode a pour effet de polluer les journaux Windows à chaque 
+tentative de démarrage du service. Pour les réseaux administrés, préférez plutôt 
+la désactivation de la géolocalisation par stratégie de groupe (GPO). Pour cela, 
+appuyez-vous sur le guide « Préoccupations relatives au respect de la vie privée et à 
+la confidentialité des données sous Windows 101 » proposé par l’ANSSI. 
+1 https://www.ssi.gouv.fr/uploads/2017/01/np_securisation_windows10_collecte_de_
+donnees_v1.2.pdf

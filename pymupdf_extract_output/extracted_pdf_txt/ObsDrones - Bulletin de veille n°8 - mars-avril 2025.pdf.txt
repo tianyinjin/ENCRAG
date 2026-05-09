@@ -1,0 +1,934 @@
+Source file: ObsDrones - Bulletin de veille n°8 - mars-avril 2025.pdf
+Relative path: ObsDrones - Bulletin de veille n°8 - mars-avril 2025.pdf
+Page count: 17
+Extracted pages: 17
+
+================================================================================
+
+[Page 1 / 17 | chars: 258]
+--------------------------------------------------------------------------------
+
+2025
+OBSERVATOIRE        
+DES DRONES
+Mars - Avril
+Bulletin de veille d’actualité n°8
+Etude financée par la 
+Direction générale des relations 
+internationales et de la stratégie
+Marché : 2023.1050131206 
+20250428_NP_Obsdrones_Bulletin-de-veille-n08-mars-avril
+
+[Page 2 / 17 | chars: 629]
+--------------------------------------------------------------------------------
+
+2
+Avertissement
+Les opinions et analyses exprimées dans ce livrable n’engagent que la responsabilité de leurs auteurs. Elles
+ne sauraient représenter ou traduire une prise de position de l’organisme pilote de l’étude, de la Direction
+générale des relations internationales et de la stratégie ou du ministère des Armées.
+The opinions and analyses expressed in this document are solely the responsibility of their authors. They 
+cannot be considered as representing or reflecting a stance of the lead organization of the study, the 
+Directorate General for International Relations and Strategy, or the Ministry of the Armed Forces.
+
+[Page 3 / 17 | chars: 3388]
+--------------------------------------------------------------------------------
+
+AVANT-PROPOS
+L'observatoire des drones vise à exposer les événements récents liés à l'utilisation
+opérationnelle des drones, les avancées technologiques, les concepts d'emploi, ainsi que les
+perspectives économiques (contrats, acquisitions). Les informations présentées ici ne sont
+qu'un condensé extrait de 400 articles couvrant la période de mars à avril 2025.
+Les forces ukrainiennes ont intensifié leur usage offensif des UAV, menant des frappes en
+profondeur contre des raffineries, dépôts de munitions et infrastructures critiques russes, parfois
+situées à plus de 1 000 km de la frontière. Pour soutenir ce rythme, Kiev table sur une
+production mensuelle de 200 000 UAV/FPV, majoritairement de type kamikaze, dont certains sont
+filoguidés ou conçus pour l’interception. En réponse, Moscou a accéléré la fabrication des
+Geran-2 sur ses sites d’Izhevsk et d’Alabuga et renforcé leur résilience électronique via
+l’intégration d’antennes antibrouillage chinoises. Parallèlement, les deux camps multiplient les
+expérimentations autour des plateformes hybrides : les ballons-relais ukrainiens, les UGV
+lanceurs de munitions téléopérées ou drones armés de fusils à pompe pour la lutte anti-drone.
+Cette dynamique s’étend également au domaine naval, ou la Turquie a dévoilé un USV kamikaze
+doté d’une charge explosive de 200 kg, tandis que le Royaume-Uni a mobilisé le destroyer
+Dauntless pour des exercices de neutralisation d’essaims d’UxV.
+En matière d’avancées technologiques, les salons SOFINS 2025 à Bordeaux et LAAD à Rio de
+Janeiro ont été l’occasion de confirmer l’intérêt croissant porté aux systèmes autonomes.
+L’intelligence artificielle embarquée tend à s’imposer comme un standard, en témoigne le TB2T-
+AI turc capable de corriger une vrille, ou le système C-UAV Asterodyn-Hawai conçu pour
+intercepter sans supervision humaine. Dans le même temps, la résilience en environnement
+GNSS-denied devient une exigence opérationnelle, portée par des systèmes comme le drone
+Oskar de KNDS et Delair ou la munition rodeuse allemande Virtus. Enfin, l’architecture des
+vecteurs évolue également vers des configurations multi-milieux et multirôles, comme en
+témoignent l’USV Arrow de SEAair ou le Super Şimşek de TUSAŞ.
+Confirmant la prise en compte du RetEx ukrainien, l’US Army a conduit en Bavière, dans le cadre
+du projet Shiv, son premier exercice de tirs réels par drones FPV. Simultanément, l’Ukraine a
+officialisé la création d’un régiment d’UAV spécialisé, appuyé par une doctrine de protection anti-
+drones. En soutien à l’effort capacitaire européen, l’Estonie a inauguré un centre de formation
+dédié aux drones sur l’aérodrome de Koigi, financé à hauteur de 5 millions d’euros par le
+Luxembourg, tandis que l’USMC a mené au Japon des essais logistiques d’USV Sea Specter et
+Sea Archer.
+Enfin, sur le plan économique, le marché des drones poursuit son expansion, porté notamment
+par le développement accru d’initiatives bilatérales. Moscou envisage l’implantation d’une usine
+de fabrication de drones en Biélorussie, dotée d’une capacité annuelle de 100 000 unités.
+Parallèlement, Baykar accélère la mise en service de son site de production en Ukraine. Le
+segment des munitions rôdeuses connaît également une croissance soutenue à l’échelle
+mondiale : le ministère allemand a récemment annoncé l’acquisition massive de ces équipements
+auprès de deux fournisseurs nationaux.
+3
+
+[Page 4 / 17 | chars: 3453]
+--------------------------------------------------------------------------------
+
+1 - USAGES OPÉRATIONNELS
+▪Les Etats-Unis ont perdu 6 MQ-9 Reaper en un mois et demi| Etats-Unis
+U Un chasseur américain abat un UAV houthi avec un missile APKWS II | Etats-Unis / Yémen
+▪Des Kurdes abattent un Akinci turc en Irak | Irak
+▪Destruction d’un Akinci malien par l’Algérie | Mali / Algérie
+▪Moscou et sa région attaquée par des UAV ukrainiens | Russie
+▪Les Russes modifient des UAV pour se protéger contre les drones intercepteurs ukrainiens | Russie
+▪La Russie modifie ses tactiques d’attaques par UAV | Russie
+▪L’Ukraine attaque une raffinerie à 1400 km de sa frontière | Ukraine
+▪L’Ukraine développe des UAV intercepteurs lancés à partir d’un ballon | Ukraine
+▪Un UAV ukrainien frappe un système Buk russe | Ukraine
+▪Les forces ukrainiennes utilisent un « drone mère » pour frapper la région russe de Koursk | Ukraine
+▪L’armée israélienne déploie l’UGV Robdozer | Israel
+▪La Pologne va déployer 96 UGV Tarantulas | Pologne
+2 - BRIQUES TECHNOLOGIQUES
+▪La Corée du Sud développe un drone kamikaze | Corée du Sud
+▪Ascent Aerosystems présente le nano drone coaxial HELIUS | Etats-Unis
+▪L’UAV kamikaze de Cumming Aerospace’s effectue son 1er vol sur un site de l’US Army | États-Unis
+▪Maxar lance un logiciel qui utilise la caméra d’un drone pour naviguer sans GPS | États-Unis
+▪Airbus lance le LOAD | Europe
+▪MBDA révèle 2 nouvelles Loitering Munitions (LM) | Italie
+▪Le Bayraktar TB2T-AI atteint 25 000 ft | Turquie
+▪Le TUSAS Aksungur réalise des tests avec les LGK-81 et LGK-82 | Turquie
+▪L’Ukraine développe un UAV d’une portée de 3000 km | Ukraine
+▪L’Ukraine développe un UAV pour intercepter les Shahed russes | Ukraine
+▪Présentation d’un concept d’USV de combat en Corée du Sud | Corée du Sud
+▪L3Harris lance une nouvelle technologie pour contrôler les essaims autonomes | Etats-Unis
+▪Serco et la DARPA lancent l’USX-1 Defiant du programme NOMARS | Etats-Unis
+▪Anduril dévoile le Copperhead-M : une torpille conçue spécifiquement pour les drones | Etats-Unis
+3 - CONCEPTS D’EMPLOI
+▪L’armée chinoise commence à s’entrainer pour contrer les UAV/FPV | Chine
+▪L’USMC s’appuie sur un UAV cargo pour réapprovisionner les troupes sur le champ de bataille | Etats-Unis
+▪L’US Army teste des UAV/FPV en Allemagne dans le cadre du « Projet Shiv » | États-Unis
+▪L’US Army teste un UAV de ravitaillement futuriste | États-Unis
+▪L’OTAN progresse vers le déploiement d’un mur d’UAV sur son flanc Est pour contrer la Russie | OTAN
+▪Baykar annonce un tir réussi de Kemankes 1 | Turquie
+▪L’US Navy teste un essaim d’USV | Etats-Unis
+▪L’USMC teste des USV pour des concepts logistiques en Indo Pacifique | États-Unis
+4 - PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+▪L’Allemagne modernise son arsenal militaire en achetant massivement des LM | Allemagne
+▪Northrop obtient un contrat de 257 M$ pour fournir des drones MQ-4C Triton à l’US Navy | Etats-Unis
+▪Leonardo et Baykar vont former une coentreprise pour développer la prochaine génération d’UAV | Turquie / Italie
+▪L’Ukraine achètera 4,5 millions d’UAV/FPV en 2025 | Ukraine
+▪Des startups américaines se tournent vers l’Ukraine pour construire de meilleurs drones | Ukraine / Etats-Unis
+▪Le Nigéria présente le 1er UAV kamikaze d’Afrique | Nigéria
+▪La Suède achète un UGV Viking | Suède
+▪L’industrie de défense ukrainienne multiplie par 15 sa production d’UGV | Ukraine
+SOMMAIRE
+5
+5
+5
+5
+5
+6
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+8
+9
+9
+9
+9
+9
+9
+10
+10
+10
+10 
+11
+11
+11
+11
+11
+12
+12
+12
+12
+13
+13
+13
+13
+13
+14
+14
+14
+14
+4
+
+[Page 5 / 17 | chars: 4129]
+--------------------------------------------------------------------------------
+
+AIR
+L’intensification de l’emploi de drones, tous types confondus, au cours de la période récente, vient
+confirmer les dynamiques déjà à l’œuvre sur les théâtres ukrainien et moyen-oriental. Au Yémen, la
+multiplication des incidents impliquant des MQ-9 Reaper s’accompagne d’un recours accru par l’USAF à
+des munitions à bas coût, comme l’APKWS II, pour abattre les UAV. En Ukraine, les innovations tactiques se
+diversifient tandis que la Russie renforce ses attaques par essaims de Shahed. Dans le même temps, la
+Pologne consolide ses capacités à travers le déploiement de nouveaux UGV, tandis que la Turquie finalise
+la mise en service opérationnelle de ses premiers USV kamikazes.
+1/ USAGES OPÉRATIONNELS
+Un chasseur américain abat un UAV houthi avec un missile APKWS II
+Source : Defense Mirror
+Analyse : L’USAF comme l’US Navy cherchent une arme, à bas coût, adaptée au traitement des
+cibles bas-coût comme les UAV.
+Un avion de chasse américain a abattu un UAV houthi à l’aide d’un missile à guidage laser AGR-20
+(APKWS II) de 70 mm. Selon l’USAF, ce type de missile a été utilisé pour la 1ère fois en 2024
+comme l’une des options pour contrer les UAV houthis. L’un des principaux avantages de
+l’utilisation d’APKWS II (15 000 $ + le moteur et la charge) est son coût nettement inférieur à celui
+du missile air-air AIM-9X (420 000 $).
+20/03/2025
+ETATS-UNIS / 
+YEMEN
+5
+Dans la nuit du 16 au 17 mars, les militants du PKK annoncent avoir utilisé un système anti-aérien non spécifié pour abattre un UAV
+MALE Akinci Turc. L’épave est tombée près du village de Sofia, dans la province de Souleimaniyeh, situé à moins de 20 km de la
+frontière iranienne. Selon les analystes, il est possible que l’arme utilisée soit un missile iranien 358 dont la présence est confirmée en
+Irak depuis 2021.
+Des Kurdes abattent un Akinci turc en Irak
+Source : Militarnyi
+Analyse : Si cette destruction est confirmée, il s’agirait de la 1ère perte au combat d’un Akinci. L’information ne précise pas l’altitude à
+laquelle volait l’Akinci. L’incident montre aussi que le conflit entre la Turquie et les Kurdes est toujours actif.
+IRAK
+17/03/2025
+Les États-Unis ont perdu 6 MQ-9 Reaper en un mois et demi
+Source : Militarnyi
+Analyse : Le Reaper montre ainsi sa relative vulnérabilité vis-à-vis de la menace anti-aérienne. Toutefois, pour avoir une vraie
+évaluation, il faudrait mettre en relation ces pertes avec le nombre d’heures de vol réalisées par les Reaper dans la zone.
+19/04/2025
+ETATS-UNIS
+Les Houthis ont abattu un 6ème MQ-9 Reaper au-dessus du Yémen depuis le 3 mars. La vidéo de la destruction d’un drone a été
+publiée par la publication houthie MMY. Les images montrent le Reaper suivi par un système optoélectronique et touché par un
+missile anti-aérien. La destruction a été confirmée par les correspondants américains au Pentagone de l’Associated Press et de Fox
+News. Il s’agit du 6ème Reaper abattu par les Houthis depuis le 3 mars, et du 5ème depuis le 15 mars. Depuis le début du conflit entre
+Israël et le Hamas en octobre 2023, les Houthis ont abattu au moins 16 UAV américains. En décembre 2024, il y avait 230 MQ-9 en
+service dans les forces américaines.
+Analyse : Les circonstances exactes de la destruction de l’Akinci ne sont pas connues, notamment la manière dont il a été détecté et
+le système d’armes intercepteur. Officiellement, il s’agit du 2ème Akinci détruit en peu de temps (le 1er ayant été abattu par les
+Kurdes). Cette interception est symptomatique d’une augmentation récente et rapide des tensions dans la zone.
+Destruction d’un Akinci malien par l’Algérie 
+Source : RFI
+MALI / 
+ALGERIE
+02/04/2025
+Dans la nuit du lundi 31/03 au 01/04, l’Algérie a détruit près de Tinzaouatène, à la frontière algéro-malienne, un Akinci malien. Selon
+l’Algérie, l’UAV aurait pénétré son espace aérien, ce que le Mali réfute. Selon l’Algérie, ce n'est pas la 1ère mais la 3ème fois qu'un
+UAV malien entre en Algérie. Ces précédentes incursions seraient survenues, selon Alger, les 27 août et 29 décembre 2024. Le 6
+avril, le collège des chefs d'État de l'AES a décidé de rappeler pour consultations ses ambassadeurs en Algérie.
+
+[Page 6 / 17 | chars: 4559]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°8 / Mars-Avril 2025
+1/Usages opérationnels
+6
+Moscou et sa région attaquée par des UAV ukrainiens
+Source : Euronews
+Analyse : Les chiffres annoncés par la Russie sont « globaux » et il est donc impossible de savoir exactement combien d’UAV ont
+touché Moscou et sa région. Il semble s’agir de la 1ère attaque de cibles « civiles » de la part de l’Ukraine. Cette attaque montre aussi
+que malgré l’arrêt du soutien américain, l’Ukraine dispose d’une force d’UAV d’attaque conséquente.
+11/03/2025
+RUSSIE
+Dans la nuit du 10/11 mars, l’Ukraine a attaqué Moscou et sa région avec des UAV. Le maire de Moscou et le gouverneur de la région
+ont confirmé l’attaque. La défense aérienne russe a été impliquée, en particulier les systèmes Pantsir-S1 et les systèmes de guerre
+électronique. Cette attaque est considérée par la Russie comme la plus importante depuis le début du conflit.
+Les Russes modifient des UAV pour se protéger contre les drones intercepteurs ukrainiens
+Source : Militarnyi
+Analyse : Les performances de ce système restent à confirmer. La démarche est intéressante mais l’installation sur le dos de l’appareil
+restreint le volume d’emploi. De plus, un tel système a forcément un impact sur la masse de la charge utile de l’appareil.
+17/03/2025
+RUSSIE
+Les ingénieurs russes ont commencé à installer une caméra supplémentaire sur les UAV/ISR pour
+détecter les UAV/intercepteurs ukrainiens et éviter les attaques. Un module de ce type a été
+retrouvé sur un Zala Z16. Il semblerait que lorsque le système détecte un UAV, le porteur exécute
+automatiquement un algorithme de manœuvre programmé pour éviter la frappe.
+La Russie modifie ses tactiques d’attaques par UAV 
+Source : Defence-Blog
+Analyse : Pour l’Ukraine cette tactique est critique en raison du manque de missiles anti-aériens performants. L’Ukraine va devoir
+réagir très rapidement à cette nouvelle tactique en innovant mais aussi en sollicitant ses soutiens pour lui livrer plus de missiles.
+22/04/2025
+RUSSIE
+La Russie a modifié ses tactiques de frappe d’UAV en Ukraine, en employant des formations plus
+importantes et des approches à plus haute altitude lors des récentes attaques contre les grandes
+villes. Ces nouvelles tactiques visent à surmonter les défenses aériennes de l’Ukraine. Au cours
+des dernières semaines, les Shahed-136 ont commencé à voler à des altitudes de 2 000 à 2 500
+mètres, formant des groupes allant jusqu’à 20 drones pour des attaques simultanées sur des
+cibles urbaines. L’augmentation de l’altitude met les Shahed à l’abri des canons et des petits
+systèmes anti-aériens. Une fois en position, les UAV attaquent en piqué, atteignant des vitesses
+allant jusqu’à 320 km/h. Cette tactique complique les interceptions, obligeant souvent les défenses
+aériennes ukrainiennes à utiliser des missiles intercepteurs plus coûteux et plus rares comme
+l’IRIS-T ou le Patriot.
+L’Ukraine développe des UAV intercepteurs lancés à partir d’un ballon 
+Source : Geo
+Analyse : Le concept est intéressant. Le but est certainement de réduire le délai de réaction et d’augmenter la portée d’action des
+UAV/Intercepteurs. La faiblesse pourrait résider dans la faible résistance aux conditions climatiques du ballon.
+13/03/2025
+UKRAINE
+L’Ukraine développe un nouveau système pour contrer les Shahed russes attaquant son territoire.
+Le concept consiste à utiliser un ballon comme plate-forme pour lancer des intercepteurs
+UAV/FPV. Le système est développé par la société Aerobavovna en collaboration avec ses
+partenaires. Les caractéristiques et les performances du système ne sont pas divulguées.
+Toutefois, le ballon « mère » pourrait atteindre 800 m d’altitude, embarquer 10 kg de CU et
+assurer des missions de surveillance et de GE. Il semble aussi que l’Ukraine utilise depuis 2024
+des ballons comme relais de communication pour des UAV/FPV.
+L’Ukraine attaque une raffinerie à 1 400 km de sa frontière 
+Source : Slate
+Analyse : L’attaque est remarquable par la distance. Le nombre et le type d’UAV engagés ne sont pas connus mais cet événement
+montre que l’Ukraine se donne les moyens de mener des attaques très en profondeur du territoire russe.
+04/03/2025
+UKRAINE
+Dans la nuit du 3 au 4 mars, des UAV ont attaqué une raffinerie de pétrole à Oufa, située à environ 1400 km de l’Ukraine. Deux
+explosions ont été enregistrées, ayant entraîné un incendie de grande ampleur. Selon les habitants, l’explosion a été si puissante
+qu’une grande partie de la ville a ressenti un choc semblable à un tremblement de terre. 2 ou 3 réservoirs auraient été touchés.
+
+[Page 7 / 17 | chars: 3244]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°8 / Mars-Avril 2025
+1/Usages opérationnels
+7
+Les forces ukrainiennes utilisent un « drone mère » pour frapper la région russe de Koursk
+Source : Militarnyi
+Analyse : Les USF ne diffusent pas, bien sûr, le type d’UAV mère ni les UAV/FPV employés. Le concept est très intéressant. Il ne fait
+aucun doute que dans un avenir très proche des UAV tactiques ou MALE embarqueront des UAV/FPV kamikaze ou des Loitering
+Munitions.
+13/04/2025
+UKRAINE
+Les USF ont utilisé un « drone mère » transportant des UAV/FPV pour frapper des cibles au cœur (55 km) de la région de Koursk. Le
+système est basé sur un UAV/ISR à voilure fixe et 2 UAV/FPV. L’UAV/ISR sert aussi pour le relais des UAV/FPV vers leurs pilotes. La
+portée du système serait de 60 km. Chaque UAV/FPV transporte une charge explosive de 400 g.
+Un UAV ukrainien frappe un système Buk russe 
+Source : Kyivpost
+Analyse : Le type d’UAV n’est pas précisé. L’information reste toutefois crédible.
+06/04/2025
+UKRAINE
+Le 4 avril, près du village Sokolohirsk dans la région de Luhansk, un UAV ukrainien a touché un véhicule de transport du système
+russe Buk-M2. Le véhicule visé était un 9A316, utilisé dans le système de missiles sol-air Buk-M2. Selon le groupe de renseignement
+open source Oryx, les forces ukrainiennes ont détruit ou endommagé 27 Buk-M2 depuis le début de la guerre.
+Un UAV ukrainien livre du sang directement sur le front 
+Source : Defence-Blog
+Analyse : L’emploi d’UAV dans ce rôle est important. Il démontre l’adaptabilité des systèmes et le pragmatisme des Ukrainiens.
+10/04/2025
+UKRAINE
+Les forces ukrainiennes ont utilisé un UAV pour livrer du sang à un soldat blessé sur le front. L’action s’est déroulée lors d’intenses
+combats près de Pokrovske, où un soldat a subi une blessure mettant sa vie en danger. La zone étant sous le feu nourri des Russes,
+une évacuation médicale immédiate était impossible. Face à une course contre la montre, un conteneur de sang a été préparé dans
+une unité médicale mobile à l’arrière, sécurisé pour le transport aérien et envoyé par UAV.
+TERRE
+La Pologne a signé un contrat pour l’acquisition de 96 UGV ISR, Tarantulas, avec une option pour
+porter la commande à 130 unités. Le contrat, d’une valeur d’environ 13 M$, a été signé le 7 mars.
+Les UGV ISR seront livrés entre 2026 et 2027 par le réseau de recherche Łukasiewicz – Institut
+industriel pour l’automatisation et les mesures (PIAP).
+La Pologne va déployer 96 UGV Tarantulas
+Source : Defense Mirror
+POLOGNE
+10/03/2025
+Analyse : La Pologne veut droniser son armée. Il s’agit sans nul doute des leçons de l’Ukraine.
+L’armée israélienne a déployé un nouvel UGV à Gaza. Version UGV du bulldozer D9, le Robdozer
+est conçu pour effectuer des tâches telles que le déblaiement des routes, l’enlèvement des
+gravats et le nivellement du terrain, le tout sans exposer les opérateurs au danger. Le Robdozer a
+déjà fait l’objet d’un déploiement limité dans des opérations contre les militants du Hamas à Gaza.
+L’armée israélienne déploie l’UGV Robdozer
+Source : Defense Post
+ISRAEL
+23/04/2025
+Analyse : Les caractéristiques de l’engin ne sont pas précisées. Ce type d’engin montre que
+l’armée israélienne veut absolument limiter ses pertes dans ce type d’engagement.
+
+[Page 8 / 17 | chars: 4390]
+--------------------------------------------------------------------------------
+
+AIR
+L’accélération du développement des MTO et des drones kamikazes se confirme à l’échelle mondiale. Ces
+deux derniers mois ont notamment permis à la Corée du Sud de dévoiler une LM de moyenne portée ainsi
+qu’un USV de combat, tandis que l’Ukraine mettait en lumière ses avancées concernant les drones
+intercepteurs, marquant ainsi un progrès significatif dans la lutte contre les UAV. Parallèlement, les États-
+Unis poursuivent leur stratégie d’innovation en multipliant les initiatives dans les domaines des nano-drones
+et des logiciels de navigation sans appui GNSS. De son côté, l’Europe structure son offre autour de solutions
+modulaires, à l’image des LM développées par MBDA Italia et du projet anti-drone LOAD porté par Airbus.
+2/ BRIQUES TECHNOLOGIQUES
+La firme américaine Ascent AeroSystems a présenté au salon Verticon (ex HAI Heli-Expo) son
+nano-UAV Helius. L’Helius est conçu pour être une option abordable basée sur l’IA, fabriquée aux
+États-Unis pour les forces de l’ordre, les interventions d’urgence, les gouvernements et les
+opérateurs d’entreprises industrielles. L’Helius pèse moins de 250 g et est doté de rotors
+coaxiaux. Il embarque une caméra EO et basse luminosité. Il est annoncé avec une vitesse
+maximale de 70 km/h et une endurance de 30 min. Son prix serait de l’ordre de 5 000 $.
+Ascent AeroSystems présente le nano drone coaxial HELIUS
+Source : UAS Vision
+Analyse : Le concept est innovant et se positionne potentiellement comme un concurrent du Black Hornet, bien que manquant de
+maturité opérationnelle en comparaison. Son acquisition par un premier client déterminera son avenir commercial.
+ETATS-UNIS
+13/03/2025
+8
+Cummings Aerospace a réalisé avec succès le 1er vol d’essai de son UAV kamikaze Hellhound S3
+sur un champ de tir de l’US Army. Le tir a été réalisé dans le cadre de l’AEWE 2025. Le Hellhound
+S3 est une LM imprimée en 3D, propulsée par un turboréacteur, conçue pour des capacités de
+frappe de précision à longue portée. Elle est annoncée avec une vitesse de pointe de plus de 610
+km/h. Le Hellhound S3 aurait une masse de 11,3 kg. Sa conception modulaire permet d’alterner
+les charges utiles entre ogives cinétiques, CU GE ou capteurs ISR en moins de cinq minutes et
+sans outils. Cummings Aerospace prévoit d’autres essais en vol au cours des prochains mois pour
+faire progresser le système jusqu’à TRL-7. La société a également candidaté pour le programme
+LASSO de l’US Army.
+L’UAV kamikaze de Cummings Aerospace’s effectue son 1er vol sur un site de l’US Army 
+Source : Defense-industry EU
+Analyse : Le programme progresse vite. Les choix de la vitesse, de l’impression 3D et de la modularité sont intéressants.
+ETATS-UNIS
+27/03/2025
+La firme américaine Maxar Intelligence a lancé une suite logicielle basée sur la vision qui permet aux UAV de naviguer et de se
+localiser avec précision sans signaux GPS.
+Maxar lance un logiciel qui utilise la caméra d’un drone pour naviguer sans GPS
+Source : Defense Post
+Analyse : L’annonce est succincte mais intéressante. Avoir la capacité de naviguer sans GPS ou en GNSS denied a un véritable sens.
+Il reste à savoir le coût de cette suite logicielle et les conditions de son emploi et de son intégration dans les logiciels de navigation
+des UAV.
+ÉTATS-UNIS
+27/03/2025
+La Corée du Sud a lancé le développement d’une nouvelle LM. Le projet lancé par la DAPA et l’ADD porte sur une LM/MP (Moyenne
+Portée) avec une liaison de données satellitaires LEO. Le développement doit se dérouler d’ici septembre 2026 avec un budget de 340
+M$. La future LM/MP devra intégrer une capacité ATR et la capacité d’intégrer différentes ogives. Les caractéristiques annoncées sont
+: une MTOW de 150 kg, une ogive de 20 kg, une portée maximale supérieure à 1 000 km et une endurance de 10 hdv. La propulsion
+sera assurée par un moteur hybride entrainant une hélice. L’envergure et la longueur devraient être de 2 m. La vitesse devrait rester
+inférieure à 200 km/h.
+La Corée du Sud développe un drone kamikaze
+Source : Defence-Blog
+Analyse : La Corée du Sud a acquis 240 WB Warmate polonais en 2024 . Les performances sont celles d’un système « haut du
+spectre ». Ni la DAPA, ni l’ADD ne précisent qui développe cette LM et quand les premiers systèmes débuteront les essais ou seront
+livrés aux forces sud-coréennes. L’annonce montre que la Corée du Sud souhaite jouer un rôle actif sur ce segment.
+COREE DU SUD
+07/04/2025
+
+[Page 9 / 17 | chars: 4368]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°8 / Mars-Avril 2025
+2/Briques technologiques
+Lors de l’exercice « Volpe Bianca 2025 », MBDA Italia a présenté deux nouvelles munitions rôdeuses (LM) développées avec les PME
+Siralab (VTOL) et Sky Eyes Systems (aile fixe). La Mini est un quadricoptère de 2 kg, avec 1,5 km de portée et 0,5 kg de charge
+explosive. La Small est un drone à aile fixe de 8 kg, lancé pneumatiquement, avec 10-15 km de portée et une charge de 1,5 kg
+modulaire. Les deux modèles partagent les logiciels de navigation, algorithmes, la station sol et les capteurs optroniques. KNDS
+Ammo Italy fournit les charges HE/FRAG, et des modules d’IA sont prévus.
+MBDA Italia révèle 2 nouvelles Loitering Munition (LM) 
+Source : EDR Magazine
+Analyse : À ce stade, les deux systèmes seraient en phase finale de développement et de démonstration. Leur avenir n’est pas connu.
+La Small ressemble beaucoup à une Switchblade 300. Ces développements montrent que MBDA Italie a décidé d’intervenir sur le
+marché. L’alliance avec des PME pour avancer rapidement est intéressante.
+ITALIE
+17/03/2025
+La nouvelle version du TB2, le Bayraktar TB2T-AI, avec un moteur turbocompressé, a atteint une altitude de 25 500 ft lors de son
+3ème vol d’essai. Le TB2T-AI se rapproche de l’objectif de plafond opérationnel de 30 000+ ft. Le moteur turbocompressé permet des
+altitudes plus élevées, une vitesse de 300 km/h et une plus grande capacité d’emport. Le TB2T-AI est annoncé avec 3 ordinateurs
+dotés de modules IA assurant le vol en toute autonomie grâce à la reconnaissance de terrain pour l’indépendance GNSS, la
+reconnaissance automatique et l’optimisation dynamique des trajectoires de vol.
+Le Bayraktar TB2T-AI atteint 25 500 ft
+Source : Turdef
+Analyse : Le TB2T-AI débute ses essais. Cette version semble tirer les leçons de l’emploi du TB2 au combat en Ukraine. Il sera
+intéressant de voir si Baykar propose de rétrofiter des TB2 en TB2T-AI.
+TURQUIE
+09/03/2025
+Le président ukrainien annonce que l’Ukraine a développé un UAV de 3 000 km de portée et qu’il vient de réussir ses essais. Avec
+cette portée, la plus grande raffinerie de pétrole de Russie, située à Omsk, est désormais accessible pour l’Ukraine.
+L’Ukraine développe un UAV d’une portée de 3 000 km
+Source : Midi Libre 
+Analyse : L’annonce reste succincte. Il ne fait aucun doute qu’il s’agisse d’un UAV kamikaze mais dont les caractéristiques restent
+largement inconnues (configuration, réacteur, charge, etc…) L’Ukraine pourrait avoir développé une version « long range » du Peklo.
+Toutefois, il faudra attendre les premières utilisations pour obtenir plus de détails techniques.
+UKRAINE
+17/03/2025
+L’industrie de la défense ukrainienne a présenté un UAV conçu pour intercepter les drones russes Shahed. Les images du drone ont
+été présentées dans une vidéo du Président Volodymyr Zelensky. Selon les développeurs, ce drone est activement utilisé pour
+intercepter les Shahed russes et a détruit plus de 20 Shahed au cours des deux derniers mois.
+Bien que les spécifications restent inconnues, les développeurs indiquent que sa vitesse maximale est de 200 km/h et que son altitude
+de vol maximale est de 5 km.
+L’Ukraine développe un UAV pour intercepter les Shahed russes
+Source : Militarnyi
+Analyse : L’annonce n’est pas surprenante. Le système reste encore assez mystérieux : performances, système de lancement, de
+détection, de guidage, etc… L’information ne précise pas le coût de fabrication et d’emploi ainsi que la cadence de production.
+L’Ukraine continue de développer une large gamme de systèmes anti-Shahed et plus largement anti-UAV. Des versions à grande
+vitesse pour intercepter des missiles de croisière subsoniques pourraient aussi émerger.
+UKRAINE
+09/04/2025
+Airbus Defence a dévoilé cette semaine un concept d’UAV anti-drone de fabrication européenne, le
+LOAD. Le système s’appuie sur le Do DT-25 avec une capacité de 3 missiles guidés. Selon Airbus,
+son rayon d’action sera de 100 km et il serait lancé par catapulte et récupéré via un parachute. Un
+prototype avec 2 missiles volera d’ici la fin 2025 avec l’objectif d’avoir un produit final en 2027.
+Airbus lance le LOAD
+Source : UAS Vision 
+Analyse : La solution, bien qu’originale, n’est pas forcément simple à mettre en œuvre. Elle se
+rapproche davantage d’un drone armé qui n’a fondamentalement que peu d’éléments Low Cost.
+EUROPE
+17/03/2025
+9
+
+[Page 10 / 17 | chars: 4255]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°8 / Mars-Avril 2025
+2/Briques technologiques
+Analyse : AMPORPHOUS pourrait devenir une sorte de standard pour les essaims de différents types de drones. Les Etats-Unis
+prennent ainsi les devants et pourraient imposer leurs normes.
+L3Harris lance une nouvelle technologie pour contrôler les essaims autonomes
+Source : UAS Vision
+ETATS-UNIS
+L3Harris Technologies a présenté AMORPHOUS, son nouveau logiciel doté d’une IHM unique
+pour faire fonctionner des « milliers » de systèmes autonomes simultanément (y compris
+différents modèles de différents constructeurs). AMORPHOUS dispose d’une architecture ouverte
+et signifie : Autonomous Multi-domain Operations Resiliency Platform for Heterogeneous
+Unmanned Swarms. L3Harris développe actuellement des prototypes utilisant l’architecture
+AMORPHOUS dans le cadre de contrats pour l’US Army et la DIU.
+03/03/2025
+Présentation d’un concept d’USV de combat en Corée du Sud 
+Source : Naval News
+Analyse : La ROKN a décidé d’accélérer ses programmes d’USV (mais aussi d’UUV et UAV) pour augmenter sa puissance de feu et sa
+masse de combat. De manière pragmatique, elle a décidé de lancer une démarche incrémentale qui est probablement la meilleure
+méthode pour progresser rapidement en limitant les risques et en capitalisant sur le RetEx.
+COREE DU SUD
+04/03/2025
+Lors du DSK 2025, la marine de la République de Corée (ROK Navy) a dévoilé un modèle conceptuel d’un USV de combat « élargi ».
+C’est la 1ère fois que la ROKN présente un modèle conceptuel physique d’un USV de combat lors d’une exposition liée à la défense.
+Le modèle conceptuel présenté au DSK 2025 est appelé le « modèle élargi » car il intègre 5 systèmes d’armes et capteurs
+actuellement utilisés par la marine de la République de Corée, ainsi que les futurs systèmes à l’étude. Le Batch-I aura moins de
+puissance de feu que le modèle élargi (environ 200 t) en raison de la taille de sa plate-forme plus petite (environ 100 t). Le Batch-I
+sera armé d’un RCWS de 20 mm et de roquettes guidées de 130 mm. Pour les capteurs, il sera équipé d’EO/IR, EOTS, LiDAR. La
+principale distinction entre le Batch-I et le Batch-II sera l’intégration d’un système de lancement d’essaim de Loitering Munition.
+Serco et la DARPA lancent l’USX-1 Defiant du programme NOMARS
+Source : Naval News
+ETATS-UNIS
+04/03/2025
+Serco a lancé en février l’USV USX-1 Defiant du programme NOMARS de la DARPA. L’USX-1, long de 54,9 m avec un déplacement de
+240 t, vise à démontrer des « avantages significatifs », notamment la fiabilité en mer, l’efficacité hydrodynamique et des
+caractéristiques furtives. Le programme a été lancé en 2020 et Serco a été sélectionné en 2022. Le NOMARS vise une fiabilité de 90
+% en mer pendant un an et une capacité de ravitaillement autonome. Les USV Mariner et Ranger ont démontré la capacité de
+ravitaillement de SERCO lors d’un test en septembre dernier. Le Defiant va subir deux mois d’essais en mer avant « une
+démonstration très large du navire et de ses capacités ».
+Analyse : Avec l’USX-1 Defiant, la DARPA marque une étape importante et devrait pousser l’USN à faire des choix et progresser
+rapidement dans le domaine. La suite logique, une fois les démonstrations validées, est le lancement par l’USN d’un programme.
+NAVAL
+Anduril annonce le lancement de la famille Copperhead, conçue pour être lancée par des systèmes
+autonomes. La série Copperhead comprend deux modèles, le Copperhead-100 et le Copperhead-500,
+offrant des tailles, des capacités de charge utile, des portées différentes et une vitesse maximale de
+30 nœuds. La Copperhead-M est une munition semblable à une torpille destinée aux véhicules
+autonomes avec un faible coût et une capacité de production en grand nombre. Selon Anduril, son
+UUV Dive-XL peut transporter plusieurs Copperhead 100M ou 500M.
+Anduril dévoile le Copperhead-M : une torpille conçue spécifiquement pour les drones
+Source : Naval News
+Analyse : L’approche est intéressante et montre qu’Anduril cherche en permanence à s’adapter voire à devancer le marché. Le
+développement d’armes anti-sous-marines spécifiques pour les UAV/USV/UUV ne fait aucun doute. Anduril se positionne en tête mais
+sera rejoint rapidement par d’autres acteurs du secteur.
+ETATS-UNIS
+04/04/2025
+10
+
+[Page 11 / 17 | chars: 4165]
+--------------------------------------------------------------------------------
+
+AIR
+Les États-Unis intensifient actuellement les expérimentations de drones UAV/FPV ainsi que de drones
+logistiques (UAV, USV), testés par leurs forces terrestres comme navales. Dans cette dynamique, l’US Navy
+structure également l’intégration de ses futurs essaims d’USV autour du logiciel de commandement
+Leviathan. Parallèlement, la Chine et l’Ukraine réorientent leur formation militaire afin de renforcer leurs
+capacités de lutte anti-drones, face à l’évolution rapide des menaces. Enfin, l’initiative Drone Wall, conduite
+par les États baltes, s’inscrit comme une avancée majeure vers une posture de défense réseau-centrée et
+résiliente sur le flanc Est de l’Europe.
+3/ CONCEPTS D’EMPLOI
+11
+L’armée américaine a mené son 1er exercice d’entraînement au tir réel à l’aide d’UAV/FPV transportant des munitions. Les vols d’essai
+se sont déroulés du 17 au 20 février 2025 dans la zone d’entraînement de Grafenwoehr en Bavière. L’exercice, baptisé Project Shiv,
+s’inscrit dans le cadre d’une initiative plus large de l’US Army visant à moderniser les tactiques de combat sur le champ de bataille à
+l’aide d’UAV/FPV. C’était la 1ère fois que l’US Army effectuait des frappes de munitions réelles à l’aide de ces systèmes dans un pays
+hôte. Les UAV/FPV ont été construits et testés par une équipe du 173rd Airborne Brigade’s UAS Platoon.
+L’US Army teste des UAV/FPV en Allemagne dans le cadre du « Projet Shiv »
+Source : UK Defence Journal
+Analyse : L’US Army semble vouloir accélérer dans ce domaine et elle essaie de capitaliser sur le RetEx ukrainien.
+ETATS-UNIS
+06/04/2025
+L’USMC intègre activement des UAV dans ses opérations logistiques. L’UAV/VTOL T150/TRV150 est devenu un atout essentiel dans
+l’amélioration des capacités de réapprovisionnement de l’USMC. Le TRV150 UAV/VTOL est un UAV électrique octorotors conçu pour la
+livraison autonome ou télécommandée de fournitures.
+L’USMC veut intégrer des TRUAS dans tous les bataillons logistiques d’ici 2028, en allouant 3 à 6 TRUAS par unité. En avril 2023,
+Malloy Aeronautics et Survice Engineering ont obtenu un contrat de production avec l’US Navy et l’USMC pour près de 200 TRUAS.
+L’US Army explore aussi le domaine des HVTOL capables de transporter au moins 362 kg sur 160 km. Plusieurs contrats ont déjà été
+attribués pour des démonstrateurs.
+L’USMC s’appuie sur un UAV cargo pour réapprovisionner les troupes sur le champ de 
+bataille
+Source : UAS Vision
+Analyse : Le déploiement de plus en plus d’UAV cargo dans toutes les forces, y compris les forces navales, n’est qu’une question de
+temps. Toutefois, l’USMC fait la course en tête en accumulant dès aujourd’hui du Retex.
+ETATS-UNIS
+01/04/2025
+L’armée chinoise a ajouté à sa formation des exercices de lutte contre les UAV/FPV. Le commandement militaire chinois équipe ses
+troupes de contre-mesures UAV. En particulier, l’armée reçoit des fusils anti-drones, des fusils de chasse et des fusils à filet.
+L’armée chinoise commence à s’entraîner pour contrer les UAV/FPV
+Source : Militarnyi
+Analyse : Que l’armée chinoise prenne en compte l’expérience UAV/FPV est normal. Toutefois, il est impossible de savoir la
+profondeur (et l’efficacité) de ces exercices.
+CHINE
+11/04/2025
+L’US Amy a testé en mars, durant l’exercice Convergence-Capstone 5, l’UAV cargo MULE
+développé par WaveAerospace. Selon l’entreprise, le MULE a été spécialement conçu pour les
+environnements logistiques contestés sur terre et en mer. Le MULE est annoncé avec une
+endurance de 4 heures, une capacité de transport de 40 kg, une vitesse de 50 à 70 nœuds, une
+résistance à des vents de force 10 (ce qui parait beaucoup) et peut fonctionner à des
+températures de -17 °C à 50 °. Les moteurs électriques des 4 rotors, orientés vers le bas, sont
+alimentés par une batterie rechargée en vol par un moteur thermique. La majorité de la cellule est
+en carbone.
+L’US Army teste un UAV de ravitaillement futuriste
+Source : Defence-Blog
+Analyse : Le système reste encore obscur, et sa forme étonne pour un UAV cargo. Son avenir n’est pas connu et actuellement l’US
+Army ne semble pas l’avoir commandé. Il est possible qu’il reste au stade de démonstrateur technologique.
+ETATS-UNIS
+09/04/2025
+
+[Page 12 / 17 | chars: 4663]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°8 / Mars-Avril 2025
+3/Concepts d’emploi des drones
+Analyse : L’USN progresse dans le domaine des essaims et semble avoir décidé de développer ses propres logiciels pour gagner du
+temps mais aussi en indépendance.
+L’US Navy teste un essaim d’USV
+Source : Defence-Blog
+ETATS-UNIS
+Le PEO USC a annoncé une démonstration réussie de 8 USV fonctionnant avec un minimum d’intervention humaine. Selon le PEO
+USC, les USV étaient dotés du progiciel Leviathan de l’USN qui rassemble une suite de capacités sous un seul cadre de contrôle
+autonome. L’essai a été mené par les programmes PMS 420 (Unmanned Maritime Systems) et PMS 420 (Littoral Combat Ship
+Mission Modules). La suite Leviathan comprend la bibliothèque ABL (Autonomy Baseline Library), le CCS, l’ATR et des outils de
+perception. L’USN souligne que l’architecture ouverte de Leviathan permet un développement plus rapide des capacités, évite la
+dépendance vis-à-vis d’un fournisseur et réduit les coûts de maintenance à long terme des USV.
+09/04/2025
+NAVAL
+Baykar annonce un tir réussi de Kemankes 1 
+Source : Defence-Industry
+Analyse : L’engin est plus qu’une LM, il s’agit d’un mini-missile de croisière qui dope la capacité de combat des TB2/TB3/Akinci. Son
+coût, s’il est exact, est très avantageux. Il ne fait aucun doute que la Turquie va en acquérir. Il sera intéressant de voir si la Turquie
+autorise son exportation et à qui.
+TURQUIE
+17/03/2025
+Baykar a annoncé le 16 mars la réussite d’un nouveau test du Kemankeş-1. Le missile a été lancé à partir d’un TB2, confirmant
+l’avancement du programme après un 1er test réussi le 1er mars 2025. Le Kemankes 1 est annoncé avec une MTOW de 30 kg, une
+longueur de 1,8 m, une charge explosive de 6 kg (explosive ou à fragmentation) et une portée de 200 km. Il serait capable de rester 1
+h sur zone (distance non précisée) avant d’attaquer. Sa propulsion est assurée par un réacteur. Sa vitesse maximale serait de 600
+km/h et son plafond de 18 000 ft. Il serait résistant au brouillage EM et son CEP serait inférieure à 5 m. Le Kemankes 1 est annoncé
+comme compatible avec les TB2, TB3 et Akinci. Son coût unitaire serait inférieur à 50 000 $. Baykar annonce une capacité de
+production annuelle de 100 unités pour 2026.
+L’OTAN progresse vers le déploiement d’un mur d’UAV sur son flanc Est pour contrer 
+la Russie 
+Source : Newsweek
+Analyse : Le projet est ambitieux mais techniquement crédible et à la portée de l’Europe. Il s’agit aussi d’un symbole de la cohésion de
+la défense européenne qui se veut de plus en plus autonome.
+25/04/2025
+OTAN
+Dans un article publié le 23 avril 2025, Newsweek a rendu compte de l’avancement de l’initiative Drone Wall. Ce projet envisage un
+réseau continu d’UAV/ISR et de systèmes C-UAV s’étendant de la Norvège à la Pologne, soit près de 3 000 km sur le flanc oriental de
+l’Alliance. Les États baltes, frontaliers avec la Russie, jouent un rôle clé dans les premières phases du projet. L’Estonie a alloué 12 M€
+sur trois ans pour soutenir le projet. La ministre lituanienne de l’Intérieur décrit le Drone Wall comme une « nouvelle forme de défense
+frontalière ». La Finlande et la Norvège sont également engagées dans l’initiative. La Pologne a débuté des travaux d’infrastructure sur
+700 km. Les États baltes ont annoncé la construction de plus de 1 000 bunkers en béton, ainsi que de tranchées, de barrières
+antichars, de champs de mines et de dépôts de munitions le long de leurs frontières avec la Russie et la Biélorussie. Pour ceux qui
+dirigent Drone Wall, l’objectif n’est pas seulement de renforcer la posture défensive de l’OTAN, mais aussi de mettre en valeur la
+capacité de l’Europe à développer et à déployer des solutions technologiques intégrées et souveraines.
+12
+L’USMC a déployé des USV au Japon pour des tests logistiques. Les USV étaient développés par
+Leidos. Il s’agissait de l’ALPV Sea Specter, et du SUSV Sea Archer. Les deux sont proposés comme
+plates-formes logistiques pour les environnements contestés, adoptant deux approches opposées
+pour manœuvrer sous le feu. Les deux USV sont annoncés comme « low observables », le Sea
+Specter est classé comme « lent » alors que le Sea Archer est annoncé avec une grande vitesse.
+L’USMC teste des USV pour des concepts logistiques en Indo Pacifique
+Source : Naval News
+Analyse : L’USMC s’intéresse donc aussi aux USV logistiques et teste deux approches différentes.
+Les caractéristiques précises ne sont pas diffusées et il ne semble pas que l’USMC ait déjà lancé un
+véritable programme. Il sera intéressant de voir si l’USMC et l’USN harmonisent leurs programmes
+pour des raisons de délais et de coûts.
+ETATS-UNIS
+25/04/2025
+
+[Page 13 / 17 | chars: 3585]
+--------------------------------------------------------------------------------
+
+AIR
+L’activité économique dans le secteur semble poursuivre sa belle dynamique. Aux Etats-Unis, Northrop
+Grumman a obtenu une nouvelle commande MQ-4C Triton, tandis que la Defense Innovation Unit (DIU)
+encourage la coopération avec des fabricants ukrainiens afin de tirer parti de leur retour d’expérience
+industriel. En Europe, la coentreprise Leonardo-Baykar soulève des interrogations d’ordre stratégique,
+alors que la Suède amorce un processus de robotisation de ses forces terrestres. Le continent africain
+s’inscrit également dans cette dynamique, comme en témoigne la présentation par le Nigéria de son
+premier drone d’attaque développé localement.
+4/ PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+Analyse : L’accord est assez original sachant que Leonardo développe ses propres UAV et surtout participe à l’EuroDrone. Un UAV
+développé par une telle JV pourrait être un concurrent de l’EuroDrone.
+Leonardo et Baykar vont former une coentreprise pour développer la prochaine génération 
+d’UAV 
+Source : Defence-Industry
+TURQUIE / 
+ITALIE
+06/03/2025
+Leonardo et Baykar Technologies ont signé un MoU pour établir une coentreprise (JV) axée sur les UAV. L’accord vise à combiner
+l’expertise de Leonardo en matière de systèmes de mission avec la technologie avancée de plate-forme sans pilote de Baykar. La
+coentreprise, qui sera basée en Italie, couvrira la conception, le développement, la production et la maintenance des UAS.
+Analyse : À terme l’USN envisage toujours une flotte de 64 MQ-4C pour équiper 5 bases dans le
+monde. À noter qu’avec ce type de contrat, il est impossible d’avoir le coût précis d’un MQ-4C.
+Northrop obtient un contrat de 267 M$ pour fournir des drones MQ-4C Triton à l’US Navy
+Source : Defence Post
+ETATS-UNIS
+14/03/2025
+Northrop Grumman a obtenu un contrat de 267 M$ pour produire 2 MQ-4C Triton pour l’US Navy.
+L’accord s’inscrit dans le cadre du plan visant à doter l’USN d’une flotte de 27 MQ-4C pour renforcer
+ses capacités ISR. En plus des MQ-4C, Northrop fournira à l’USN une base d’opérations principale
+ainsi que des services de soutien associés. Ces travaux doivent être achevés d’ici octobre 2028.
+L’Ukraine achètera 4,5 millions d’UAV/FPV en 2025
+Source : Forbes
+Analyse : Pour l’Ukraine, les UAV/FPV sont indispensables pour soutenir les combats. L’Ukraine vise à acquérir localement ces
+systèmes.
+UKRAINE
+10/03/2025
+Le gouvernement ukrainien s’apprête à augmenter considérablement ses achats d’UAV/FPV, avec l’intention d’en acquérir 4,5 millions
+en 2025 (alors que l’Ukraine en a acheté 1,5 million en 2024).
+13
+L’Allemagne modernise son arsenal militaire en achetant massivement des LM 
+Source : Army Recognition
+Analyse : L’Allemagne fait un virage rapide vers le réarmement à grande échelle et en favorisant son industrie nationale. Les types de
+LM ne sont pas encore indiqués mais il existe plusieurs options possibles en Allemagne. Il sera intéressant de voir le RetEx qui sera
+tiré de ces expérimentations à grande échelle. Il serait intéressant que l’Europe puisse harmoniser ces types de LM pour optimiser à la
+fois l’emploi, la production en masse et les coûts.
+21/04/2025
+ALLEMAGNE
+Le 17 avril 2025, le MoD allemand a annoncé l’achat à grande échelle de LM auprès de deux fournisseurs nationaux. La Bundeswehr
+va déployer un nombre important de LM directement dans les unités de 1ère ligne pour des tests immédiats et une intégration
+tactique. Le RetEx recueilli orientera les décisions d’approvisionnement futures. Ce déploiement accéléré souligne la reconnaissance
+par la Bundeswehr du rôle des LM dans la guerre moderne.
+
+[Page 14 / 17 | chars: 3574]
+--------------------------------------------------------------------------------
+
+4/Perspectives économiques
+Bulletin de veille d’actualité n°8 / Mars-Avril 2025
+TERRE
+Analyse : La Suède débute la robotisation de sa défense. À ce stade, il s’agit d’études dont les
+résultats devraient guider les futurs choix. Il est très probable que dès 2026, la Suède lance un
+programme d’acquisition de ce type de matériels.
+La Suède achète un UGV Viking
+Source : Defence-industry
+SUEDE
+18/03/2025
+Le FMV a acquis un UGV Viking d’IDV (Iveco Defence Vehicles) dans le cadre de son programme
+DAMM. Il s’agit d’explorer l’intégration de systèmes autonomes dans les opérations militaires.
+Dans ce cadre, la Suède devrait acquérir 4 UGV différents entre 2024/2026. Le Viking dispose de
+modes autonomes basés sur l’IA. Sa conception modulaire permet de remplir de multiples
+missions : logistique, reconnaissance, surveillance, soutien au combat et la défense NRBC.
+L’armée nigériane a dévoilé le « 1er et le plus grand » UAV d’attaque d’Afrique. Le système a été
+développé par la société nigériane Briech UAS.
+Le Nigeria présente le 1er UAV kamikaze d’Afrique
+Source : Defense Post
+Analyse : Les caractéristiques de ce système ne sont pas diffusées. L’image présentée montre
+un UAV avec une double voilure, une capacité VTOL, un moteur thermique arrière et une mini-
+tourelle EO mais difficile d’en savoir plus. De même, le statut exact du système : prototype, prés-
+série, série, est inconnu. Le Nigéria dispose déjà d’UAV Wing Loong II et AeroSonde.
+NIGERIA
+03/04/2025
+En 2024, l’industrie de défense ukrainienne a considérablement augmenté la production d’UGV en multipliant par 15 sa production
+d’UGV par rapport à 2022. Plus de 200 entreprises en Ukraine travaillent à la production d’UGV à des fins diverses. Plus de 40
+développements ont déjà été codifiés selon les normes de l’OTAN. Les UGV jouent un rôle de plus en plus important dans les
+opérations militaires modernes. Ils ont débuté par des missions de soutien logistique/sanitaire/déminage mais maintenant, ils sont
+armés.
+L’industrie de défense ukrainienne multiplie par 15 sa production d’UGV
+Source : Les Echos
+Analyse : Dans ce domaine l’Ukraine progresse à grands pas tant sur le plan des concepts d’emploi que de la production. Elle est
+probablement aujourd’hui l’armée la plus avancée dans ce domaine avec en plus une expérience au combat unique.
+UKRAINE
+12/04/2025
+14
+Des startups américaines se tournent vers l’Ukraine pour construire de meilleurs drones
+Source : Militarnyi
+Analyse : Le WSJ est souvent bien informé. Toutefois, ces informations bien que crédibles sont difficiles à confirmer. Il est certain
+que l’industrie ukrainienne des UAV accumule actuellement un grand RetEx sur le plan opérationnel mais aussi sur le plan industriel.
+Ce RetEx est précieux et attire les convoitises. Toutefois, il reste de nombreux obstacles avant que l’US Army commande des UAV
+ukrainiens (notamment l’origine de certains composants).
+Des startups américaines de défense collaborent avec des fabricants ukrainiens pour développer des UAV destinés à l’armée
+américaine, selon le Wall Street Journal. L’intérêt du Pentagone pour les UAV ukrainiens souligne à la fois les défis des industriels
+américains et les avancées ukrainiennes depuis l’invasion russe. L’Ukraine a produit plus de 2 millions d’UAV en 2024, contre 100 000
+par an aux États-Unis. Cette coopération devrait se poursuivre après la guerre, pour dynamiser l’économie ukrainienne. Enfin, la DIU a
+récemment signé des contrats avec deux partenariats ukraino-américains pour tester des drones d’attaque longue portée
+UKRAINE / 
+ETATS-UNIS
+12/03/2025
+
+[Page 15 / 17 | chars: 2266]
+--------------------------------------------------------------------------------
+
+PUBLICATIONS
+▪
+Ukraine’s Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare, Center for 
+Strategic & International Studies, Kateryna Bondar, Mars 2025
+▪
+Defense Industrial Base Lessons from Russia-Ukrainie : Conflict in Focus, Center for Strategic & International 
+Studies, Phllip Karber, Mark Valentine, Kateryna Bondar, Luke Slivinski, Mars 2025
+▪
+Ukraine’s embrace of drone warfare has paid off, The Economist, Mars 2025
+▪
+Death on Delivery : Drone proliferation and Civilian Harm in Africa, Cora Morris, Drone Wars UK, Mars 2025
+▪
+Armed Drone Proliferation : Continued Exports Leading to Civilian Casualtie, Chris Cole, Drone Wars UK, Mars 
+2025
+▪
+A New and More Deadly Drone on Russia’s Battlefields, CEPA, David Kirichenko, Mars 2025
+▪
+The Myth of the Gamechanger : Drones and Military Power in Africa, MEGATRENDS Afrika, Gerrit Kurtz, 
+Wolfman Lacher et Denis M. Tull, Mars 2025
+▪
+On the Horizon : The Ukraine War and the Evolving Threat of Drone Terrorism, CTCSENTINEL, Don Rassler et 
+Yannick Veilleux-Lepage, Mars 2025
+▪
+David vs. Goliath : Cost Asymmetry in Warfare, RAND, James Black, Mars 2025
+▪
+Ukraine’s Drone Ecosystem and the Defence of Europe : Lessons Lost Can’t be Learned, LSE Ideas, Jon-
+Wyatt Matlack, Sebastian Schwartz, Oliver Gill, Avril 2025
+▪
+Russia doubles down on the Shahed, International Institute for Strategic Studies, Matthew Bint et Fabian Hinz, 
+Avril 2025
+▪
+Comment les drones pilotés au casque révolutionnent la guerre en Ukraine, Le Monde, Alexandre Horn et 
+Marceau Bretonnier, Avril 2025
+▪
+Adaptation Under Fire : Mass, Speed, and Accuracy Tranform Russia’s Kill Chain in Ukraine, CEPA, Federico 
+Borsari, Avril 2025
+▪
+Ukraine’s Drones Can Inspire Taiwan’s Naval Defense, CEPA, Peter Roberto, Avril 2025
+▪
+Wash the Sky Clean of Drones, USNI, Captain Karl Flynn, Avril 2025
+▪
+Electronic Warfare Cyberattacks, Countermeasures and Modern Defensive Strategies of UAV Avionics : A 
+Survey, Aaron YU, Iuliia Kolotylo, Hashim A. Hashim et A. E.E. Eltoukhy, Avril 2025
+▪
+Military Drone Proliferation Marks Destabilizing Shift in Africa’s Armed Conflicts, Africa Center for Strategic 
+Studies, Nate Allen, Avril 2025
+▪
+Examining Small Uncrewed Aircraft Systems in Divisional Brigades, RAND, Avril 2025
+15
+
+[Page 16 / 17 | chars: 1695]
+--------------------------------------------------------------------------------
+
+GLOSSAIRE
+Abréviation / Sigle
+Signification
+ADD
+Agency for Defense Development
+AES
+Alliance des États du Sahel
+AEWE
+Army Expeditionary Warrior Experiment
+ALPV
+Autonomous Low-Profile Vessel
+ASuW
+Anti-surface Warfare
+ATR
+Automatic Target Recognition
+CBRN
+Chemical, Biological, Radiological, and Nuclear
+CCS
+Système de contrôle commun 
+CEP
+Circular Error probable
+CU
+Charge utile
+DAMM
+Autonomous Multifunctional Ground Vehicle Demonstrator Programme
+DAPA
+Defense Acquisition Program Administration (Corée du Sud)
+DARPA
+Defense Advanced Research Project Agency (Etats-Unis)
+DIU
+Defense Innovation Unit (Etats-Unis)
+DSK
+Drone Show Korea
+EM
+Electro-magnétique
+EO/IR
+Electro Optique / Infra Rouge
+FMV
+Administration suédoise du matériel de défense
+FPV
+First Person View
+HE
+Hautement explosif (High Explosive)
+HVTOL 
+Heavy-lift Vertical Take Off and Landing
+ISR
+Intelligence, Surveillance and Reconnaissance
+LASSO
+Low Altitude Stalking and Strike Ordnance
+LEO
+Low Earth Orbit
+LM
+Loitering Munition
+LOAD
+Low-Cost Air Defence
+MALE 
+Medium Altitude Long Endurance
+MTOW
+Maximum Take-off Weight
+MULE
+Multi-Mission, Utility, Logistics & Expedition
+NOMARS
+No Manning Required Ship
+OTAN
+Organisation du Traité de l’Atlantique Nord
+PEO USC
+Program Executive Office for Unmanned and Small Combattants (Etats-Unis)
+PKK
+Kurdistan Workers’ Party
+RetEx
+Retour d’Expérience
+TRUAS
+Tactical Resupply Unmanned Aircraft Systems
+UAS
+Unmanned Air System
+UAV
+Unmanned Air Vehicle
+UGV
+Unmanned Ground Vehicle
+USAF
+United States Air Force
+USMC
+United States Marine Corps
+USN 
+United States Navy
+USV
+Unmanned Surface Vehicle
+UUV
+Unmanned Underwater Vehicle
+UxV
+Unmanned Vehicle (tous types)
+VTOL
+Vertical Take Off and Landing
+16
+
+[Page 17 / 17 | chars: 103]
+--------------------------------------------------------------------------------
+
+www.eurocrise.com
+8 rue de Bellefond
+75009 Paris
+affinis-defense.fr 
+126 Rue de Tocqueville
+75017 Paris
+

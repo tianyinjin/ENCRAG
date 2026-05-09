@@ -1,0 +1,95 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 19 / 34
+
+================================================================================
+
+small 
+multiple 
+high 
+bright 
+foliage 
+2 
+0.43 
+small 
+multiple 
+high 
+dark 
+urban 
+0 
+0 
+small 
+multiple 
+high 
+dark 
+sky 
+0 
+0 
+small 
+multiple 
+high 
+dark 
+foliage 
+0 
+0 
+medium 
+single 
+low 
+bright 
+sky 
+1 
+0.27 
+medium 
+single 
+low 
+dark 
+sky 
+2 
+0.43 
+medium 
+single 
+high 
+bright 
+sky 
+5 
+0.65 
+medium 
+single 
+high 
+dark 
+sky 
+1 
+0.27 
+Evaluating performance across such a high-dimensional parameter space requires a strategic methodology. A 
+simplistic approach of evaluating each parameter individually while holding others constant is insufficient, 
+as it fails to account for the significant interaction effects that frequently occur. For instance, the performance 
+impact of varying an object's distance is not independent of the ambient fog level or the camera's resolution; 
+findings from one specific combination are not directly transferable to others. To address this complexity, 
+methods from the field of Uncertainty Quantification (UQ) are utilized. [14] This involves a sophisticated 
+toolbox of techniques, including space-filling Design of Experiments (DoE)—such as maximin Latin 
+hypercubes—to strategically select a minimal yet informative set of parameter combinations for testing. 
+Subsequently, modeling techniques like Gaussian Processes are employed to interpolate system performance 
+and predict outcomes in untested regions of the parameter space and to perform sensitivity analysis, i.e. to 
+learn which parameters are important to have a high impact on performance changes. The primary 
+advantages of this UQ-based approach are its ability to efficiently determine input variable importance (e.g., 
+quantifying whether an object's color significantly affects detection) and to identify the extremal points of 
+performance, revealing the specific combination of parameters that result in best-case and worst-case 
+scenarios, all while optimizing the collection and usage of simulation data and keeping the required number 
+of simulation runs as low as possible. [15] Overall, while there are quite a few cases above in which there are 
+insufficient test cases to have a high confidence in any results obtained, it is also cost-prohibitive to generate 
+test cases for each of the areas of low confidence. To move further towards a reasonable test methodology, 
+we can further condense the search space through incorporating expert judgement to identify the most 
+significant pairwise combinations of dimensions to consider in our evaluation, therefore shrinking the search 
+space from five original dimensions (drone size, drone quantity, noise, brightness, background) to two. This 
+would also have the benefit of focusing the required generation of simulation scenarios to those areas that are 
+lacking in data, reducing the overall computational complexity. 
+The first pairwise combination to consider arises from the usage of the (background, light) tuple, which 
+attempts to answer the potential question “will our CV system perform consistently in all-weather, all-terrain 
+scenarios?” Given the number of observations in Table 5, we see that we have sufficient coverage to answer 
+this question, with resulting confidence intervals ranging from 0.8 to 0.98. The lowest confidence interval at 
+0.8 arises from there being only 11 instances of observed dark environments within foliage, which will be 
+the focus of additional data generation, as well as any subsequent live trials conducted after this exercise. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 19

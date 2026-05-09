@@ -1,0 +1,39 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 3 / 34
+
+================================================================================
+
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+measurement framework should assess the accuracy, speed, and reliability of CV algorithms in identifying 
+and tracking drones under diverse and challenging conditions, and allow for objective comparisons between 
+different systems, enabling informed decisions and fostering continuous improvement in counter-drone 
+technology. 
+2.1 
+Complexity of Performance Measurement in Networked, Inter-dependent Counter-
+Drone Systems 
+ 
+Figure 1: ASUL being presented at BAAINBw in Koblenz. Image was released by the 
+ 
+Bundeswehr for public distribution.
+Measuring the performance of CV systems for counter-drone missions can be a complex and multi-
+faceted subject. Firstly, contained counter-drone systems are themselves becoming significantly more 
+complex, comprising a mix of sensors, effectors, and coordination and processing software, in order 
+to match the complexity and diversity of the range of threats they are required to face. For example, 
+the Bundeswehr announced in Aug 2022 its deployment of the ASUL counter-drone system, highlighting 
+its components [1]: “the sensor system… is composed of… three radars and a camera system with day and 
+night vision. A radio frequency (RF) direction finder used to identify control signals and, if possible, also 
+locate the position of the drone pilot… Once an aircraft has been detected by the radars and the 
+direction finder, the system will compare its data with information available from data bases. In such a 
+way, the system determines whether the aircraft could be a drone. After an alleged target has been 
+detected, the system’s operator will be informed in real time and will be able to verify, with the help 
+of the camera system, if the drone is to be classified as a threat.” While the exact specifications and 
+workflows of the system are classified, within one counter-drone system, there is already a variety of 
+visual data generated through its radar, electro-optical sensor, and thermal sensors. The system will 
+likely also be engineered to handle the inherent variability in size, speed, materials, behavior, and 
+payloads of various adversary drones of differing signatures, and function across a range of 
+environmental conditions including electromagnetic interference and expected weather phenomena 
+(sunlight, moonlight, rain, fog, or snow), and have differing levels of tolerance and 
+STO-MP-IST-210
+1A.03 - 3

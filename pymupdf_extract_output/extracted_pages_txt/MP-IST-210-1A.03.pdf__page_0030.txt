@@ -1,0 +1,58 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 30 / 34
+
+================================================================================
+
+the model’s performance on IR data, further engineering efforts might be needed to optimize a different set 
+of model architectures for IR data within the CV system, with perhaps a switching function to ensure that the 
+appropriate model is used on the various data streams (for instance, for sensors with both thermal and 
+electro-optical imaging modes). Further live testing before full procurement or deployment in the case of 
+internally-developed models, scoped to certain areas of results requiring higher confidence not available in 
+these tests, may also be required. Having gone through the rigor of the above methodology, evaluators will 
+be able to focus live testing scenarios on the specific areas of concern, for instance focusing on replicating 
+scenarios of multiple small drones ‘swarming’ at dusk and testing the limits of the CV system to a greater 
+extent. 
+Even after a vendor is awarded the contract and its systems subsequently deployed with attendant re-tuning 
+or improvements, this information would be useful for operators to understand the operational limitations of 
+their chosen solution, and if necessary, re-design operational or system processes to account for them. For 
+example, while the initial formulation of these system operational requirements could have been based on the 
+initial aim of replacing human sensor operators, enhanced human operator oversight could be re-introduced 
+for certain known envelopes of underperformance such as dawn/dusk hours or cloudy days, whereby the 
+sensor system itself could alert the operator of such conditions by detecting and reporting on ambient light 
+conditions.  
+4.2 
+Supporting Information-sharing Across Partner Organizations 
+We developed this framework and its enabling technical toolkits and simulation platform, with the intent to 
+enable better collaboration between trusted partner organizations, many of which may be exploring or 
+evaluating similar vendor systems for similar use cases. There are current frictions in how such technical 
+evaluations are currently shared. Some of the largest issues arising from the inability to share classified 
+datasets from operational sensors and lacking sufficient granularity to discuss the composition of such 
+datasets which vary greatly in their imaging modalities, terrain and environments deployed, and targets of 
+interest. Moreover, it is not always feasible to share large imagery datasets or spend additional effort 
+tailoring documentation of detailed test methodology for understanding by another partner operating in a 
+different language, cultural and organizational context.  
+The framework we propose in this paper attempts to mitigate these frictions while preserving the 
+confidentiality of sensitive operational sensor datasets. While the principles of the framework’s construction 
+itself is intended to be at PUBLIC RELEASE, further customization along more bespoke use cases may be 
+required amongst partner militaries which can lead to the resulting ASQI, metrics and results being adapted 
+to NATO RESTRICTED to facilitate information-sharing, even while the sensors themselves could be at 
+NATO CONFIDENTIAL level or above. The ability to break down test methodology for any such use case 
+into defined parameters of quality, mapped to technical testing and metrics, will allow partner organizations 
+to communicate their findings at a high-level while sharing a common aligned understanding of the rigor and 
+nuance of the evaluation methodology of each. 
+4.3 
+Future Work 
+Given the significant time constraints in writing this paper, we selected a subset of data to work with under a 
+hypothetical scenario; further parallel use cases such as testing drone tracking and perception systems on 
+flying counter-drone platforms – which would require datasets taking into consideration those view angles to 
+capture sufficient representation of different hostile drone aspects (i.e. with fields of view relating to ‘look-
+ahead’ and ‘look-down’). We also had to use an open-source, non-fine-tuned zero-shot model (YOLOE) to 
+validate how our framework would generate insights for defense and security users, as we had reached out to 
+several CV system developers from both industry and academia but were unable to receive a favorable reply 
+to evaluate their models. This meant that when the performance of the model on an IR dataset turned out to 
+be so poor that further analyses would have been insignificant, we were unable to demonstrate the power of 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment
+1A.03 - 30
+STO-MP-IST-210

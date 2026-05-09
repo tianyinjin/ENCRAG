@@ -1,0 +1,45 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 30 / 108
+
+================================================================================
+
+30
+POLE D'EXCELLENCE CYBER
+FICHE N°7
+........................................
+APPAREILS NOMADES
+Le développement du télétravail et l’utilisation des appareils nomades (smartphone, tablette, ordinateur portable) est rentré 
+dans les usages dans toutes les organisations publiques et privées. Cependant, ces pratiques exposent le système d’information 
+à de nouveaux risques, la gestion des accès distants au réseau interne, l’utilisation des appareils nomades personnels dans 
+un contexte professionnel (AVEC en français pour « apportez votre équipement personnel de communication » ou BYOD1  en 
+anglais), des pratiques que nous conseillons de bannir.
+Les recommandations suivantes permettront de faire face à ces enjeux et de sensibiliser l’ensemble des acteurs du nomadisme :
+• Respectez les recommandations élémentaires de sécurité  R1  : les recommandations issues des fiches précédentes, 2 « Poste 
+de travail », 3 « Mots de passe », 4 « Messagerie électronique » et 5 « Applications », sont applicables dans le cadre d’utilisation des 
+appareils nomades :
+- Installez un logiciel anti-virus ;
+-  Appliquez les mises à jour de sécurité du système et des applications installées ;
+- N’installez que des applications officielles et nécessaires ;
+- Limitez les autorisations et les accès accordées aux applications : la plupart des applications n’ont pas besoin d’accéder à votre carnet 
+de contact ou à votre géolocalisation pour bien fonctionner ;
+- Désactivez les services de connexion lorsque vous ne les utilisez pas (Bluetooth, Wi-Fi, 3G, 4G, etc.) et évitez les connexions aux 
+réseaux publics ou inconnus ;
+- Activez le verrouillage automatique de vos appareils ;
+- Activez le chiffrement des données stockées sur vos appareils nomades et sur les cartes d’extension mémoire si vous les utilisez ;
+- Faites des sauvegardes ou des synchronisations régulières.
+• Séparez les usages  R2  : n’utilisez pas des appareils nomades personnels à des fins professionnelles, car l’utilisation d'appareils 
+non maitrisés par la collectivité expose considérablement son réseau aux risques de sécurité. Avec les BYOD, la distinction entre 
+les données privées et professionnelles devient de surcroit impossible, ce qui augmente également les risques juridiques. En effet, 
+d’après la CNIL « l’employeur est responsable de la sécurité des données personnelles de son organisation, y compris lorsqu’elles sont 
+stockées sur des terminaux dont il n’a pas la maitrise physique ou juridique2 » .
+• Sécurisez les accès distants aux ressources  R3  : lorsque les agents se déplacent ou ont recours au télétravail, tous les accès aux 
+ressources de la collectivité (données, applications métiers, serveurs) doivent être maitrisés et sécurisés. Seules les connexions utilisant 
+un VPN3 (Virtual Private Network) ou de personnes utilisant les appareils sécurisés et administrables doivent être autorisées. Les accès 
+distants doivent être contrôlé par un dispositif d’authentification de l’utilisateur (si possible multifacteurs, ce moyen d’authentification 
+peut prendre par exemple la forme d’un mot de passe associée à un certificat électronique4)  et strictement filtrés à l’aide d’un pare-feu.
+1  bring your own device.
+2 https://www.cnil.fr/fr/byod-quelles-sont-les-bonnes-pratiques
+3 Un réseau privé virtuel qui permet des échanges de données sécurisés entre un poste de travail distant et le réseau interne de la 
+collectivité.
+4 https://www.ssi.gouv.fr/guide/recommandations-relatives-a-lauthentification-multifacteur-et-aux-mots-de-passe/

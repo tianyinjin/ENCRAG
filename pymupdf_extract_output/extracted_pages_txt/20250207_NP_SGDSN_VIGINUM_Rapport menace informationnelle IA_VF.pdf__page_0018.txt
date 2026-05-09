@@ -1,0 +1,51 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 18 / 28
+
+================================================================================
+
+18 
+ 
+ 
+III. L’IA comme opportunité en appui des opérations de 
+lutte contre les manipulations de l’information 
+Si l’intelligence artificielle peut être utilisée de manière malveillante dans le cadre de campagnes de 
+manipulation de l’information, elle peut aussi servir des causes plus nobles et notamment se montrer d’une 
+redoutable efficacité dans l’analyse des comportements inauthentiques et autres modes opératoires.  
+A cet égard, les développements récents de l’intelligence artificielle, et notamment la mise à disposition 
+de modèles pré-entraînés, offrent aux acteurs de la lutte contre les manipulations de l’information de 
+nouvelles possibilités pour explorer, analyser et caractériser des profils sur des plateformes en lignes, des 
+contenus textuels, audios, visuels ou vidéos, ou encore les dynamiques de diffusion d’un récit sur les 
+réseaux sociaux. 
+1. L’expérience du service VIGINUM 
+a. Le Datalab de VIGINUM : l’analyse avancée de données au service des opérations 
+Afin de renforcer ses capacités d’investigation et d’analyse, VIGINUM a investi des ressources dans 
+l’innovation technologique en se dotant, dès sa création en 2021, d’un Datalab. Au-delà d’une mission 
+première d’appui aux investigations du service, le Datalab de VIGINUM mène une activité de recherche et 
+développement (R&D), qui lui permet de mettre en place des méthodologies innovantes au service des 
+missions opérationnelles, mais également de publier des articles académiques ainsi que, pour la première 
+fois en 2025, du logiciel libre. L’activité de R&D du Datalab permet ainsi non seulement de fournir un appui 
+technique et analytique aux investigations du service, et mais également d’outiller l’ensemble de la 
+communauté mobilisée dans la lutte contre les manipulations de l’information (société civile, chercheurs, 
+médias…). 
+Dans le cadre de ces travaux de R&D, le Datalab met en œuvre une large palette de méthodes et d’outils 
+d’analyse de données, dont des solutions utilisant l’IA. Si l’IA permet en effet un gain significatif dans 
+l’analyse (cf infra), celle-ci ne constitue néanmoins pas une solution miracle, et son utilisation nécessite une 
+solide expertise technique, alliée à une bonne connaissance des forces et des limites de chaque modèle. 
+Le Datalab adopte ainsi une approche pratique et pragmatique de l’IA, qui représente un ensemble de 
+modèles et d’outils mobilisables en fonction des besoins, parmi un plus vaste ensemble de solutions. 
+De nombreux traitements de données mis en œuvre par le Datalab ne relèvent ainsi pas de l’IA. Par 
+exemple, le coefficient de manipulation du trafic proposé par Ben NIMMO est un indicateur simple qui 
+permet de mesurer l’amplification d’un hashtag sur la plateforme X, et qui ne repose pas sur de l’IA37. De 
+la même manière, la méthodologie de détection de trending topics sur la plateforme X développée par 
+VIGINUM repose sur de simples méthodes de détection d’anomalies statistiques38. 
+ 
+ 
+ 
+ 
+                                                        
+37 Ben Nimmo, « Measuring Traffic Manipulation on Twitter. » Working Paper 2019.1. Oxford, UK: Project on Computational 
+Propaganda. 35 pp., https://demtech.oii.ox.ac.uk/wp-content/uploads/sites/12/2019/01/Manipulating-Twitter-Traffic.pdf  
+38 Cristian Brokate, Manon Richard, Lisa Giordani, and Jean Liénard. 2024. « SWATTING Spambots: Real-time Detection of Malicious 
+Bots on X », Companion Proceedings of the ACM Web Conference 2024 (WWW '24)., Association for Computing Machinery, New 
+York, NY, USA, 818–821. https://doi.org/10.1145/3589335.3651564

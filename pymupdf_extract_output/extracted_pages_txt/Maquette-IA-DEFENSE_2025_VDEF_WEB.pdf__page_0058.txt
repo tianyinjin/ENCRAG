@@ -1,0 +1,95 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 58 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+58
+La cybersécurité de l’IA au cœur du champ de bataille
+L’Agence nationale de la sécurité des systèmes 
+d’information (ANSSI) déploie une politique globale 
+de cybersécurité et en assure la coordination à 
+l’échelle interministérielle. Les travaux de l’ANSSI 
+portent notamment sur la sécurisation des systèmes 
+d’IA pour renforcer le niveau de cybersécurité des 
+organisations publiques et privées. Dans le cadre de 
+ce livre blanc, nous appliquons les axes de réflexion 
+et recommandations de cybersécurité de l’ANSSI au 
+contexte de la défense.
+L’IA est déjà un acteur incontournable du champ de 
+bataille et ses capacités sont désormais pleinement 
+intégrées aux stratégies des armées sur le terrain 
+– notamment pour ce qui est de de l’analyse de 
+signaux (images, sons, signaux électromagnétiques), 
+de l’aide à la décision, ou encore de la gestion de 
+systèmes d’armes complexes.  Dans ce contexte 
+opérationnel particulièrement délicat car porteur 
+de multiples contraintes d’environnement, il est 
+particulièrement important de s’assurer de la 
+cybersécurité des systèmes d’IA (SIA), c’est-à-dire 
+de l’ensemble de composants matériels et logiciels 
+visant à intégrer et exécuter un ou plusieurs modèles 
+d’IA dans un système d’information. 
+Nous étudierons, dans cet article, les éléments 
+pouvant avoir un impact sur la cybersécurité des SIA 
+possédant les caractéristiques suivantes :
+•	
+implémentation 
+dans 
+des 
+composants 
+matériels locaux (on parle d’« IA embarquée ») 
+et exposition à des contraintes opérationnelles 
+fortes pouvant impacter leur fonctionnement : 
+températures extrêmes, vibrations, interférences 
+électromagnétiques ou limites de bande passante 
+réseau (exemple : drones de combat) ;
+•	
+gestion de capacités temps-réel, notamment 
+pour fournir une aide à la décision rapide sur 
+le champ de bataille (exemple : systèmes de 
+détection d’objets et de cartographie du terrain). 
+Disponibilité du SIA 
+La disponibilité du SIA est un réel enjeu de 
+cybersécurité qui amène à se poser les questions 
+suivantes :
+•	
+Quels sont les composants du SIA qui vont réaliser 
+le calcul d’inférence[1]? Où sont-ils localisés 
+physiquement ? Le calcul est-il distribué ?
+Recommandation : Cartographier l’ensemble des 
+composants logiciels et matériels des SIA ainsi que 
+les dépendances entre ces composants[2].
+•	
+L’architecture du SIA est-elle complètement 
+autonome ou bien s’appuie-t-elle sur une 
+interconnexion avec des services centralisés 
+situés hors de l’environnement contraignant ?
+Recommandation : Sécuriser les interconnexions 
+entre les éléments de terrain et les services centralisés. 
+Assurer une redondance des réseaux de transport 
+avec des technologies distinctes.
+•	
+La continuité des applications est-elle assurée, 
+en cas d’indisponibilité ou d’altération de son 
+fonctionnement ? En cas de réponses erronées 
+du modèle, est-il prévu un système de secours ?
+Recommandation : Mettre en place des modes 
+dégradés des SIA en cas de dysfonctionnement. 
+Prévoir un mode dégradé sans IA.
+Protection physique du matériel
+En second lieu, la protection physique du matériel est 
+également un enjeu à plusieurs titres :
+•	
+La protection contre le vol des équipements : les 
+modèles d’IA peuvent être considérés comme 
+des éléments critiques à protéger comme des 
+secrets industriels. Il faut considérer les attaques 
+d’extraction de modèles[3] en cas de perte ou de 
+vol ;
+Lucie DUCHATEAU
+Division industrie et technologies
+Agence nationale de la sécurité des systèmes d’information (ANSSI)
+Nicolas CHARBONNIER
+Hugo MANIA

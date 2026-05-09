@@ -1,0 +1,103 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 50 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+50
+De la sécurité du Machine Learning
+Étudier la sécurité intrinsèque de l’apprentissage 
+automatique (Machine Learning, ML, en anglais), 
+un des piliers de l’Intelligence Artificielle, est d’une 
+grande importance. Le ML possède d’excellentes 
+performances en termes de généralisation et de 
+robustesse, ce qui nous donne un faux sentiment 
+de sécurité. Or, généralisation, robustesse et sécurité 
+sont trois concepts souvent confondus : 
+•	
+La généralisation est la capacité du ML à 
+fonctionner sur des données de test non 
+vues mais de même nature que les données 
+d’apprentissage. 
+•	
+La robustesse est la capacité du ML à fonctionner 
+sur des données de test de nature légèrement 
+différente que les données d’apprentissage. 
+•	
+La sécurité est la capacité de fonctionner sur 
+des 
+données 
+délibérément 
+perturbées 
+par 
+des attaquants, ou au moins de sentir que les 
+conditions ne sont pas réunies pour fonctionner 
+en toute sécurité.
+ 
+L’intention des attaquants, mais surtout la recherche 
+d’attaques efficaces tirant parti de leur connaissance 
+du système ciblé, fait une grande différence entre la 
+sécurité et la robustesse. La littérature récente fait 
+état d’une multitude de dangers. Être un expert en 
+sécurité de l’IA implique de connaître l’ensemble de 
+ces menaces. 
+ 
+Le ML consiste à apprendre un modèle à partir de 
+données d’entraînement et à appliquer ce modèle 
+à des données de test pour produire un résultat. Les 
+données d’entraînement, le modèle et les données 
+de test sont des actifs qui doivent être protégés pour 
+que le résultat soit fiable. Protéger signifie défendre 
+certaines dimensions classiques de la Cybersécurité : 
+la confidentialité, la privacy et l’intégrité. 
+Ainsi, 3 actifs × 3 valeurs donnent lieu à 9 familles de 
+scénarios d’attaque.
+1.	
+Protection des données d’apprentissage
+Les données d’entraînement possèdent une grande 
+valeur en raison des efforts considérables investis 
+dans leur collecte et leur annotation.
+ 
+Confidentialité.
+Comment apprendre un modèle quand on a des 
+données sensibles mais pas les compétences ML 
+nécessaires ? Le calcul multipartite[1] ou le chiffrement 
+homomorphique [2] protègent les données tout en 
+permettant des calculs. Cela revient à apprendre 
+un modèle sur des données chiffrées. Une autre 
+alternative est l’apprentissage fédéré où plusieurs 
+propriétaires apprennent collectivement un modèle 
+sans jamais révéler leurs données. 
+Privacy
+Le modèle est le résultat d’un apprentissage 
+sur les données d’entraînement, il dépend donc 
+de ces données et laisse potentiellement filtrer 
+des 
+informations 
+sur 
+celles-ci. 
+Une 
+procédure 
+d’apprentissage avec confidentialité différentielle[3] 
+offre un compromis entre l’utilité du modèle (par 
+exemple, sa précision) et la confidentialité des 
+données (moins de fuite d’informations). Ainsi le 
+modèle ne divulgue pas (ou seulement dans une 
+faible mesure contrôlable) si une donnée particulière 
+faisait partie de l’ensemble d’apprentissage.
+ 
+Intégrité
+Un attaquant peut introduire une porte dérobée dans 
+le modèle en altérant des données d’entraînement. 
+En manipulant de manière cohérente certaines 
+données associées à une classe cible, le modèle 
+apprend, lors de son entraînement, à associer ces 
+modifications spécifiques à cette classe. Ainsi, toute 
+requête modifiée selon le même schéma activera 
+la classe cible en sortie du modèle compromis. En 
+résumé, l’attaquant parvient à prendre le contrôle du 
+modèle à notre insu.
+Teddy FURON
+Directeur de Recherche au Centre de Recherche Inria de l’Université de Rennes / IRISA
+Responsable de l’équipe-projet ARTISHAU

@@ -1,0 +1,75 @@
+Source file: Touchstone_Semiconductor-TS1004DB-datasheet.pdf
+Relative path: Touchstone_Semiconductor-TS1004DB-datasheet.pdf
+Page: 3 / 7
+
+================================================================================
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+TS1002DB/TS1004DB r1p0 
+ 
+Page 3 
+ 
+ 
+ 
+RTFDS 
+ 
+2) Set the function generator frequency to 500Hz 
+and output level with a VOH = 1.45V and a         
+VOL = 1.05V. This sets the input signal swing to 
+400mVPP, centered at 1.25V.  
+3) In order to monitor the input and output signal, 
+select two channels on the oscilloscope and set 
+the vertical voltage scale and the coupling setting 
+on each channel to 200mV/DIV and AC, 
+respectively. Set the input and output vertical 
+position to +400mV and -200mV, respectively.  
+Set the horizontal time scale to 500µs/DIV.  
+4) Connect the positive terminal of the DC power 
+supply to test point VDD and the negative 
+terminal to test point GND on the TS1002 or 
+TS1004 demo board. For all other connections, 
+please refer to Table 1 and 2.  
+5) Connect the signal output of the function 
+generator to test point VIN on the TS1002 or 
+TS1004 demo board. Connect the ground 
+terminal to test point GND.  
+6) To monitor the input, connect the signal terminal 
+of one of the oscilloscope probes to test point VIN 
+on the TS1002 or TS1004 demo board. Connect 
+the ground terminal to test point GND. To monitor 
+the output, use the second probe to connect the 
+signal terminal to test point VOUT on the TS1002 
+or TS1004 demo board. Connect the ground 
+terminal to test point GND.  
+7) Turn on the power supply and check that the 
+power supply current is approximately 4.4µA for 
+the TS1002 demo board and 5.5µA for the 
+TS1004 demo board. 
+8) Turn on the function generator.  
+9) Observe the input and output signal. The output 
+signal is an amplified version of the input signal 
+with an output swing of approximately 800mVPP, 
+corresponding to a signal gain of two. Figure 5 
+shows what the input and output signal should 
+look like. The input signal is in yellow and the 
+output signal is in green.  
+ 
+ 
+ 
+ 
+Figure 3. TS1002 Amp ‘A’ Non-Inverting 
+Configuration 
+ 
+ 
+Figure 4. TS1004 Amp ‘A’ Non-Inverting 
+Configuration 
+ 
+ 
+ 
+ 
+Figure 5. TS1002 and TS1004 Non-Inverting Configuration Input and Output signals 
+500µs/DIV  
+VIN 
+200mV/DIV 
+VOUT 
+200mV/DIV

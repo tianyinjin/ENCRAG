@@ -1,0 +1,106 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 55 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 55 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+PHY9 
+ORG 
+Insérer les locaux techniques et les locaux abritant des serveurs dans des zones 
+protégées (ZP).  
+ 
+R 
+R 
+O 
+ 
+PHY10 
+ORG 
+Ne rendre accessibles les unités centrales des stations, les équipements réseaux 
+industriels et les automates* qu'au personnel autorisé et ayant besoin d'y accéder. O
+ 
+ 
+ 
+ 
+PHY11 
+TECH 
+Mettre en place un dispositif de détection d’ouverture avec remontée d’alarme sur 
+les armoires des équipements sensibles. A minima, sur les coffrets extérieurs 
+contenant des composants sensibles, un moyen de contrôle visuel, comme la pose 
+de scellés par exemple, doit être installé. Le retrait de ces moyens visuels doit 
+suivre une procédure bien définie et être soumis à autorisation préalable. 
+ 
+C 
+R 
+O 
+ 
+PHY12 
+ORG 
+Interdire la libre accessibilité aux prises d’accès au système industriel si les 
+équipements sont accessibles au public ou dans des zones sans surveillance. 
+O
+ 
+ 
+ 
+ 
+PHY13 
+ORG 
+Protéger le câblage du système industriel pour prévenir ou détecter tout accès en 
+vue d’une écoute, d’une modification ou d’une perturbation du fonctionnement du 
+système. 
+ 
+R 
+O 
+O 
+Par exemple, mise en place du capotage 
+pour le câblage. 
+Il 
+est 
+possible 
+de 
+s’inspirer 
+des 
+exigences 
+portant 
+sur 
+les 
+circuits 
+approuvés (cf. DTM 63). Dans le cas de 
+systèmes classifiés, ces exigences sont 
+obligatoires. 
+PHY14 
+TECH 
+Obturer les prises dédiées à la maintenance lorsqu’elles ne sont pas utilisées 
+(bouchons, plaques d’occultation, etc.). Le retrait de l’obturateur suit une 
+procédure bien définie et il est soumis à autorisation préalable. 
+O
+ 
+ 
+ 
+ 
+PHY15 
+ORG 
+En cas de locaux mutualisés ou partagé avec un organisme, mettre en place une 
+convention de services définissant les responsabilités en matière de sécurité entre 
+entité hébergée et hébergeant. 
+O
+ 
+ 
+ 
+ 
+PHY16 
+ORG 
+En cas de locaux mutualisés ou partagés avec un autre organisme, mettre en place 
+des réseaux physiquement séparés. 
+O
+ 
+ 
+ 
+ 
+Maîtriser les zones de sécurité au sein du système industriel

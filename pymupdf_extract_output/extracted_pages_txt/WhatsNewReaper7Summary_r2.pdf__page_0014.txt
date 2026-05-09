@@ -1,0 +1,90 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 14 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+Mouse Modifiers for Power Users
+Below are summarised REAPER’s default mouse modifiers and a sample of the many actions. Chapter 15 of the 
+User Guide includes information about how these can be customized. 
+Mouse Modifiers
+Fixed lane comp area  – Left drag
+Default action
+Move comp area.
+Shift
+Move comp area ignoring snap.
+Ctrl
+Copy comp area and media item together.
+Shift Ctrl
+Copy comp area and media item together ignoring snap.
+Alt
+Move comp area and media items.
+Shift Alt
+Move comp area and media items ignoring snap.
+Shift Ctrl Alt
+Move comp area and adjacent comp area edges ignoring snap.
+Fixed lane comp area – Left click
+Default action
+Move comp area to lane under mouse.
+Shift
+Comping, Copy edited media items to new lane and re-comp.
+Alt
+Delete comp area including media item.
+Shift Alt
+Heal comp area with previous adjacent comp area in same lane
+Ctrl Alt
+Delete comp area but not media item.
+Shift Ctrl Alt
+Extend comp area to next comp area or end of media.
+Fixed lane comp area – Double click
+Shift
+Set loop points to comp area.
+Ctrl
+Extend comp area to next comp area or end of media.
+Fixed lane header button – Left click
+Default action
+Play only this lane.
+Ctrl
+Toggle playing this lane.
+Alt
+Play only this lane while mouse button is pressed.
+Fixed lane header button – Double click
+Default action
+Comp into lane.
+Shift
+Select items in lane.
+Ctrl
+Toggle playing this lane.
+Shift Ctrl
+Insert lane.
+Alt
+Delete lane (including media items).
+Fixed lane comp area checkboxes: The two checkboxes to avoid empty track space when clicking source 
+lane and when mouse editing a comp area can be enabled to limit comp area edits to within media item edges.
+Assignable Actions
+The actions list includes numerous fixed lane comp area actions which can be assigned to keyboard shortcuts, or 
+toolbar buttons, or as mouse modifiers. Here is a brief summary of categories. For more detailed descriptions of 
+options, see the Actions List (Actions, Show actions list).
+Add comp area for lane under mouse
+Move comp area up/down
+Set loop points 
+(inc with half or one second 
+preroll/postroll
+Split comp area 
+Split media items
+Move comp area
+Razor edit: create comp area
+Copy comp lane items
+Move items down to next available lane
+Delete lanes
+Turn comping on/off
+Explode takes on selected tracks to fixed lanes
+Preferences and Options
+REAPER’s Appearance, Track Control 
+Panel preferences settings include an 
+option to specify default behavior when 
+clicking on the fixed lane collapse button. This can be set to toggle between showing one or many lanes, and 
+displaying big lanes or small lanes.
+In Project, Track/Send Defaults there is an option to make fixed item lanes the default for new tracks.
+Page 14

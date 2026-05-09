@@ -1,0 +1,93 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 8 / 10
+
+================================================================================
+
+Generally speaking, the solution is to generate and send the
+XML files containing the UGV’s position to the BMS, this
+was executed using Script 2 and can be achieved using Wi-
+Fi, Military Radios or other IP-based radio communication
+technologies.
+The Wi-Fi tests were divided into two scenarios: one using
+existing network infrastructure and the other using the RAD-
+MAVLink-Bridge architecture, which transforms the Rasp-
+berry Pi into a wireless access point. The military radio tests
+were divided into two scenarios: one exclusively using P/PRC-
+525 Tactical Radios and the other using TR5000H radios.
+The computer representing the GCS has Windows 11, a
+Ryzen 7 3700U processor, and 16 GBytes of RAM.
+The computer representing the BMS is the Getac used by
+the Portuguese Army, which has Windows 10 Pro, an Intel
+Core i5-6300U processor, and 8 GBytes of RAM.
+A. Scenario 1: Wi-Fi
+All the data was sent via Wi-Fi in the Wi-Fi tests shown
+in Figure 10. The only requirement is that the GCS and the
+Raspberry Pi be on the same network. The Wi-Fi protocol
+used in the Wi-Fi tests was Wi-Fi 4 (802.11n) at a frequency
+of 2.4 GHz.
+Fig. 10: Network Architecture — Wi-Fi.
+The BMS could be running on GCS by sending the XML,
+by TCP, to localhost. In either case, Script 2 is required.
+B. Scenario 2: Wi-Fi-RAD-MAVLink-Bridge
+The RAD-MAVLink-Bridge script turns the Raspberry Pi
+into a wireless access point. A Wi-Fi network (rad-bridge)
+connects the GCS to this network and sends the necessary
+commands. The Wi-Fi protocol used in the Wi-Fi-RAD-
+MAVLink-Bridge tests was Wi-Fi 4 (802.11n) at a frequency
+of 2.4 GHz. The architecture is similar to the one in Figure 10,
+but considering that the network is generated on the Raspberry
+Pi.
+The BMS could be running on GCS by sending the XML,
+by TCP, to localhost. In either case, Script 2 is required.
+C. Scenario 3: Military Radios — P/PRC-525
+In the configuration with P/PRC-525 Tactical Radio, VHF
+(SECOM-V 102-104 MHz) radio communication in IPoA was
+used to send the HEARTBEAT and GPS RAW INT messages
+from the Raspberry Pi to the GCS and the XML with the UGV
+position to the BMS; it is represented in Figure 11. All the
+other data (control commands and video) was sent via Wi-Fi,
+as in Figure 10.
+Fig. 11: Network Architecture — P/PRC-525.
+The choice of this scenario with the P/PRC-525 is because
+these are the radios of most significant use in the Portuguese
+Army. This scenario can be transported to a situation where
+there are two manned tactical vehicles, a UGV and a vehicle
+that symbolises the command vehicle (GCS).
+Given the size of LAFVIN’s UGV, this configuration only
+makes sense in a static situation. In a dynamic situation, data
+from the UGV to the GCS would only be sent via Wi-Fi.
+D. Scenario 4: Military Radios — TR5000H
+In the configuration with TR5000H Tactical Radio, VHF
+(225-228 MHz) radio communication in IPoA with continuous
+phase modulation in balanced mode. It was used to send
+the HEARTBEAT and GPS RAW INT messages from the
+Raspberry Pi to the GCS and the XML with the UGV
+position to the BMS; it is similar to the network architecture
+represented in Figure 11. All the other data (control commands
+and video) was sent via Wi-Fi, like in Figure 10.
+This architecture was chosen because the TR5000 is the
+radio most recently acquired by the Portuguese Army.
+E. Solution Evaluation
+The network performance results were determined using the
+iPerf3 software in a configuration where the Raspberry Pi was
+the server (sender), and the GCS was the client (receiver). In
+the case of Wi-Fi tests, the iPerf3 commands were executed
+in a scenario where communication was fully established,
+representing an additional throughput consumption already
+existing by the UGV C2. The tests with military radios
+were carried out in two scenarios: one with no data to be
+transmitted on the communication channel and the other with
+HEARTBEAT, GPS RAW INT, and XML messages to be
+sent.
+Each iPerf test was conducted for approximately 60 seconds,
+covering the following scenarios:
+1) Measurement of throughput using TCP;
+2) Bidirectional TCP bandwidth testing;
+3) UDP testing for jitter and data loss analysis.
+In the case of the tests with military radios, UDP and TCP
+tests were performed simultaneously.
+Integration of a Commercial 
+Unmanned Vehicle into the Army Communications System
+STO-MP-IST-209 
+1760 - 8

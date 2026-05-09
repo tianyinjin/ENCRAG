@@ -1,0 +1,171 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 18 / 34
+
+================================================================================
+
+sizes, hypothetical confidence intervals are added to the combinatorial table based on the available videos. In 
+our reasoning, we construct a binomial data distribution for the object detection system, i.e. it either detected 
+everything in an image/video correctly or it did not and further assume a perfect result reflecting that the 
+object detection system did achieve its main objective in the cases we observed. We can then calculate a 
+confidence interval for the pass rate, which reflects the uncertainty for similar performance to be observed in 
+new videos from the same combination of parameters, even if empirically a system did perform perfectly for 
+the known examples. This uncertainty is statistically reflected by the width of the confidence interval, which 
+we generate using Wilson’s method for a one-sided confidence test for a 95% threshold, as implemented in 
+the popular data science library scipy through the method BinomTestResult.proportion_ci. Examining the 
+confidence interval (ci_low) in each scenario gives us an indication of where the test data may need to be 
+further augmented, especially if certain scenarios are of higher mission importance. 
+Table 4. Combinatorial coverage showing the number of observations (n_observations) and 
+resulting confidence interval (ci_low) given the data available in the visual segment. Note that IR 
+data was not included in this calculation as it does not contain context on the background and
+considerations involving ambient light do not apply. Nonetheless, most of the IR data contains 
+single small drones against a ‘sky’ backdrop.   
+drone_size drone_quantity noise 
+light 
+background 
+n_observed 
+ci_low 
+small 
+single 
+low 
+bright 
+urban 
+20 
+0.88 
+small 
+single 
+low 
+bright 
+sky 
+10 
+0.79 
+small 
+single 
+low 
+bright 
+foliage 
+18 
+0.87 
+small 
+single 
+low 
+dark 
+urban 
+5 
+0.65 
+small 
+single 
+low 
+dark 
+sky 
+2 
+0.43 
+small 
+single 
+low 
+dark 
+foliage 
+2 
+0.43 
+small 
+single 
+high 
+bright 
+urban 
+107 
+0.98 
+small 
+single 
+high 
+bright 
+sky 
+78 
+0.97 
+small 
+single 
+high 
+bright 
+foliage 
+103 
+0.97 
+small 
+single 
+high 
+dark 
+urban 
+43 
+0.94 
+small 
+single 
+high 
+dark 
+sky 
+62 
+0.96 
+small 
+single 
+high 
+dark 
+foliage 
+0 
+0 
+small 
+multiple 
+low 
+bright 
+urban 
+2 
+0.43 
+small 
+multiple 
+low 
+bright 
+sky 
+3 
+0.53 
+small 
+multiple 
+low 
+bright 
+foliage 
+3 
+0.53 
+small 
+multiple 
+low 
+dark 
+urban 
+0 
+0 
+small 
+multiple 
+low 
+dark 
+sky 
+2 
+0.43 
+small 
+multiple 
+low 
+dark 
+foliage 
+1 
+0.27 
+small 
+multiple 
+high 
+bright 
+urban 
+0 
+0 
+small 
+multiple 
+high 
+bright 
+sky 
+2 
+0.43 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 18
+STO-MP-IST-210

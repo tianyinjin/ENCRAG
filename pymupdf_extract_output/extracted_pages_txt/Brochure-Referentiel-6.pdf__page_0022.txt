@@ -1,0 +1,98 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 22 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+42 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 43
+B.7.1 _Introduction, calculs quantiques
+Le calcul quantique promet d’exploiter les phénomènes de la physique quan-
+tique pour effectuer des tâches de traitement de l’information. Cette direction 
+est particulièrement intéressante d’un point de vue théorique.
+D’une part, elle constitue une rupture fondamentale dans l’histoire de l’infor-
+matique: tous les autres dispositifs de calcul proposés jusqu’ici, qu’ils soient 
+numériques ou analogiques, mécaniques ou électroniques, sont basés sur les 
+règles de la physique classique.
+D’autre part, le potentiel par rapport au calcul classique est établi: pour cer-
+tains problèmes, on connaît un algorithme quantique de meilleure complexi-
+té asymptotique que les algorithmes classiques connus. En particulier, l’algo-
+rithme quantique de Shor remet en cause une grande partie de la cryptographie 
+actuelle en promettant de factoriser des nombres en temps polynomial.
+Par opposition aux bits déterministes d’un ordinateur actuel, les ordinateurs 
+quantiques manipulent des qubits qui possèdent chacun un état probabiliste 
+entre 0 et 1, on parle aussi de superposition d’états. A la manière du fameux 
+chat de Schrödinger qui est à la fois mort et vivant, les qubits, bien que géné-
+ralement initialisés à 0, vont être à la fois 0 et 1 lors les calculs effectués sur un 
+ordinateur quantique, avant de prendre selon certaines probabilités la valeur 0 
+ou 1 au moment de la lecture de ceux-ci. Cependant, ce n’est pas directement 
+dans la richesse de la superposition d’états que réside la force de l’ordinateur 
+quantique, mais plutôt dans sa capacité à intriquer un grand nombre de qubits 
+qui partagent alors un même état quantique indissociable. Par ce phénomène, 
+la lecture de l’un de ces qubits aura instantanément un effet sur les autres, ce 
+qui permet, dans certains cas seulement, d’explorer en un temps linéaire un 
+nombre exponentiel de possibilités.
+Si l’ordinateur quantique relève toujours de la science-fiction dans l’inconscient 
+collectif, les développements récents montrent que le concept est viable. De-
+puis 2016, IBM met un prototype en libre accès à disposition des program-
+meurs. Google prévoyait en 2017 une rentabilité commerciale dans des do-
+maines de niche dans les 5 ans, et annonce la suprématie quantique par un 
+calcul sur un ordinateur à 54 qubits. En France, Atos construit des simulateurs 
+d’ordinateurs quantiques.
+Ces développements concrets promettent de mettre finalement en application 
+les travaux théoriques menés depuis les années 1990 sur le calcul quantique.
+Néanmoins, il existe un gouffre entre les capacités des architectures quan-
+tiques envisageables dans un futur proches et les prérequis des algorithmes 
+quantiques. Pour le combler, il faudra non seulement des progrès dans les ca-
+pacités du matériel, mais aussi réduire nos ambitions sur les applications et les 
+couches logicielles dans un premier temps.
+En effet, les ordinateurs quantiques de première génération restent très limi-
+tés. On atteint aujourd’hui une cinquantaine de qubits utilisables, mais ceux-ci 
+sont très sensibles au bruit. Par exemple, les auteurs de l’expérience de supré-
+matie quantique de Google estiment à 0,2% seulement la chance de succès 
+d’un calcul qui implique 53 qubits et opère 1113 opérations sur des qubits indi-
+viduels, 430 opérations sur des paires de qubits ainsi que 53 mesures.
+Malgré ces limitations, il est crucial de considérer dès maintenant la pro-
+grammation de ces ordinateurs quantiques. En effet, l’industrie vise ac-
+tuellement une rentabilité à court terme des ordinateurs quantiques sur 
+quelques applications ciblées.
+En cas de succès, cela permettra de justifier des investissements impor-
+tants qui permettront d’envisager des applications plus ambitieuses.
+À l’inverse, un échec de la première génération d’ordinateurs quantiques à 
+être utilisables provoquerait certainement un désintérêt pour le domaine 
+et un « hiver quantique » à l’instar de l’hiver de l’IA.
+Compilation pour le calcul quantique
+Les enjeux actuels consistent non seulement à développer les capacités 
+du matériel quantique, mais aussi à adapter les environnements logiciels 
+pour les capacités modestes de la première génération d’ordinateurs 
+quantiques. 
+Ce domaine de recherche encore peu exploré mais en croissance rapide 
+consiste à revisiter l’architecture des ordinateurs, des systèmes, et la com-
+pilation pour l’adapter au nouveau contexte du calcul quantique. En parti-
+culier, le calcul quantique demande de revisiter en profondeur les environ-
+nements de compilation, qui se trouvent à l’interface entre l’algorithmique 
+et le matériel.
+Gestion du bruit
+En l’absence de mécanisme de correction d’erreur, le temps d’exécution 
+d’un programme quantique est limité par le bruit et le phénomène de dé-
+cohérence. 
+Plus un programme quantique met de temps à s’exécuter et plus il opère 
+d’opération, moins son résultat est précis.
+Les optimisations de compilation minimisant le temps d’exécution et la 
+complexité du calcul sont donc cruciales, non seulement pour la vitesse 
+mais surtout pour la précision.
+Les codes correcteurs d’erreurs quantiques représentent un champ de re-
+cherche actif qui promet à long terme de pallier à ces limitations. Cepen-
+dant, le surcoût imposé par la plupart des techniques de correction d’erreur 
+rend leur emploi rédhibitoire sur les premières générations d’ordinateurs 
+quantiques. Il est probable qu’il faille se contenter de techniques de miti-
+gation d’erreur ou de correction partielle d’erreur à court et moyen terme.
+Au niveau langage, il faudra permettre de spécifier des algorithmes par-
+tiellement tolérants au bruit, afin de profiter de codes correcteurs d’erreurs 
+à couverture partielle.
+B.7 
+Émergence 
+des technologies 
+quantiques en 
+cybersécurité

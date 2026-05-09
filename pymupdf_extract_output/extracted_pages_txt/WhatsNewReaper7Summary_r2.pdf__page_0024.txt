@@ -1,0 +1,56 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 24 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+Envelope Color Overrides
+Envelope color overrides offer you a greater capability to customise the colors used for your envelopes. To use it 
+to its full extent you will need to understand something about boolean logic, explained in Chapter 6.
+To access this feature, choose Options, Preferences, Appearance, Envelope Colors.
+The number of ways in which this can be used is almost limitless, and everyone will have their own ideas. Here 
+are some example.
+To create an override rule, click the Add button then create your definition. Here are two simple examples. 
+You might use a variety of compressors and often need to automate ratio and threshold. You can define a color 
+override so that ratio and threshold envelopes always use your preferred color, regardless of the actual plug-in.
+1.
+Click on the Add button. You will be asked to type a name. Type ratio, click OK.
+2.
+Double click on the color shown, select your color and click OK.
+3.
+Click again on Add, type thresh, click OK pick a color as before 
+and click OK.
+4.
+For both of these, if Enabled is not selected by default, click in the 
+Enabled column to enable them. You should see a mark (as shown 
+on the right).
+5.
+Now add a compressor of your choice to any track and add envelopes for both ratio and threshold. They 
+should conform to your color choices.
+Let’s get a bit more clever. 
+We might use delay and reverb often in our mixes, and also often want 
+to automate the wet parameter. We also want to color code the 
+envelopes so it is visually obvious whether this is a delay envelope or a 
+reverb one. The rules shown here (right) will achieve this. Note that 
+you will need to type spaces both before and after the AND.
+Now let’s throw a spanner in the works! Suppose your FX library includes a reverb plugin that doesn’t have 
+“verb” in its name? Let’s call it “SuperDoop.” What then? You can edit the rule to allow for this!
+We amend the second rule to read:
+( Super OR verb ) AND wet
+Note that a space is required after opening and before closing brackets. Spaces are required before and after the 
+OR and the AND.
+You can also use a NOT operator. For example, look at these two rules:
+gain AND rea and
+gain NOT rea
+This would allow you to apply separate color coding to a Gain parameter depending on whether it is one of the 
+Cockos Rea plug-ins or not.
+That should give you enough ideas to get you started! The better your understanding of boolean logic, the 
+greater use you will be able to make of this facility.
+Note also:
+The Remove button will remove a currently selected rule from the list.
+The Export button can be used to export your current overrides to a .EnvColorList file.
+The Import button can be used to import any previously exported color list file.
+Note: If (presumably in error) two or more of your rules contradict each other, then REAPER will apply 
+whichever one is higher up in the list.
+Page 24

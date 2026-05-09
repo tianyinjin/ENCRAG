@@ -1,0 +1,50 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 115 / 136
+
+================================================================================
+
+115 
+regardent à l'œil nu ou qui portent des verres correcteurs. Les Hautes Parties contractantes ne 
+transfèrent de telles armes à aucun État ni à aucune entité autre qu'un État. 
+Article 2 : Dans l'emploi des systèmes à laser, les Hautes Parties contractantes prennent toutes 
+les précautions réalisables pour éviter les cas de cécité permanente chez des personnes dont 
+la vision est non améliorée. De telles précautions comprennent l'instruction de leurs forces 
+armées et d'autres mesures pratiques. 
+Article 3 : L'aveuglement en tant qu'effet fortuit ou collatéral de l'emploi militaire légitime de 
+systèmes à laser, y compris les systèmes à laser utilisés contre les dispositifs optiques, n'est 
+pas visé par l'interdiction énoncée dans le présent protocole. 
+On le voit, pour les HEL, même si le fortuit et le collatéral sont acceptés, des précautions d’emploi 
+doivent être appliquées pour les éviter. A cet effet, l’emploi des lasers est régi par un certain nombre de 
+textes, en particulier l’arrêté du 11 décembre 2014, relatif à la mise en œuvre du règlement d’exécution 
+(UE) n°923/2012 (FRA.7024 alinéa e), qui se réfère au document 9815 de l’OACI sur les émetteurs 
+lasers et la sécurité des vols. 
+O CONSEQUENCES 
+Si rien aujourd’hui n’interdit l’usage d’une arme laser, son emploi n’est pas anodin au regard de la 
+maîtrise des dommages collatéraux potentiels et de la prévention des interférences ou des méprises. 
+Pour ces raisons, et sans s’arrêter à son efficacité propre, qui sera néanmoins examinée par la suite, 
+on peut douter fortement de l’avenir de l’arme HEL à 1 µ pour contrer les essaims de drones en combat 
+aéromaritime. 
+A 2 µ, les distances nominales de risque oculaire sont plus réduites et s’appliquent au cristallin et non 
+à la rétine. A la différence des lunettes de protection pour laser à 1 µ, celles qui sont adaptées à 2 µ 
+n’altèrent quasiment pas la perception visuelle287. 
+- AUTRES FACTEURS DETERMINANTS 
+Cette partie offre une réflexion à partir d’éléments de vulnérabilité laser des cibles considérées vis-à-vis 
+d’un rayonnement de l’ordre de 1 μ et pour des densités de puissance réalistes, dans la gamme 500 à 
+3000 W/cm2. Le cas de l’optronique dans le visible et en bande I (longueur d’onde inférieure à 1 100 nm 
+(soit les caméras à capteur silicium)) est également abordé. Enfin, la puissance laser est discutée sous 
+l’angle portée vs durée d’engagement. 
+O LA DENSITE DE PUISSANCE 
+La densité de puissance (I en kW/cm2) n’est que le rapport entre la puissance photonique déposée sur 
+la structure et la surface de la zone irradiée. En négligeant les pertes dans l’atmosphère, la puissance 
+est donnée par la source. Il reste donc à déterminer la surface irradiée. Contrairement aux idées reçues, 
+un faisceau laser n’est pas parfaitement collimaté (ce n’est pas un cylindre de lumière). Il y a toujours 
+une divergence, idéalement très faible, qui dépend de la qualité de la cavité laser, de l’ouverture et de 
+la longueur d’onde. 
+La puissance laser d’une source est une donnée fortement dimensionnante d’un point de vue système 
+et intégration. Mais d’un point de vue effet terminal, c’est le produit densité de puissance par le temps 
+ 
+287 A 2 µ, les optiques en plexiglass ou en plastique CR39 absorbent énormément, ce qui limite 
+considérablement les réflexions potentielles sur les optiques planes. A la même longueur d’onde, 
+les traitements anti-reflets du verre risquent de se dégrader et d’absorber. 
+A 2 µ, il est envisageable de se passer de protection oculaire au-delà de quelques mètres.

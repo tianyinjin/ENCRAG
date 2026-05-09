@@ -1,0 +1,80 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 51 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 51 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+INFO4 
+TECH 
+Lorsqu’un équipement présente des risques non négligeables de perte, de vol ou 
+de sabotage susceptibles de porter atteinte au système industriel, et qu'il contient 
+des données a minima Diffusion Restreinte, chiffrer la mémoire de stockage. Cette 
+règle est notamment applicable sur les postes de maintenance et les équipements 
+mobiles susceptibles de quitter une zone sécurisée. 
+R  
+ 
+ 
+ 
+Intégrer la sécurité numérique dans le projet 
+ISSIP1 
+ORG 
+Identifier la réglementation relative aux activités auxquelles concourt le système 
+industriel et intégrer leurs exigences dans le socle de sécurité du SI (ensemble des 
+exigences de sécurité applicables sur le système). 
+O
+ 
+ 
+ 
+ 
+ISSIP2 
+ORG 
+Définir des procédures et des moyens techniques pour permettre des opérations 
+de maintenance préventive et curative et ainsi maintenir le niveau de sécurité dans 
+la durée. 
+O
+ 
+ 
+ 
+Des modes dégradés pourraient être 
+prévus pour réaliser des mises à jour. 
+On pourra configurer les sorties d’un 
+automate* pour qu’elles restent sur leurs 
+derniers états, pendant la mise à jour de 
+son firmware. 
+ISSIP3 
+ORG 
+Prendre en compte le besoin de sécurité physique des équipements pour définir 
+leur localisation et les moyens de protection physique. 
+ 
+R 
+O 
+O 
+ 
+ISSIP4 
+ORG 
+Exiger que les opérations non indispensables à la conduite du système industriel 
+soient effectuées sur un autre système d’information. Les équipements et logiciels 
+associés ne devraient pas être présents sur le système industriel. À titre 
+d’exemple, des postes bureautiques non connectés au système industriel 
+devraient être prévus pour permettre la consultation de la documentation, le 
+remplissage de feuilles de suivi, etc. 
+R  
+ 
+ 
+ 
+ISSIP5 
+ORG 
+Insérer dans le cahier des charges la liste des documents attendus, au moins :  
+-  une analyse fonctionnelle ou organique ;  
+-  un dossier d’exploitation et de maintenance ; 
+ 
+-  une ou des cartographies adaptées à la complexité du système et aux enjeux de 
+sécurité. 
+O

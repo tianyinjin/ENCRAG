@@ -1,0 +1,37 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 70 / 88
+
+================================================================================
+
+Pôle d’excellence cyber
+70
+une phrase en entrée, un transformeur peut analyser 
+simultanément différentes parties du texte, sans devoir 
+commencer par le début. Cette caractéristique permet 
+aux transformeurs d’offrir une parallélisation supérieure 
+à celle des RNN, réduisant ainsi le temps d’entraînement 
+des modèles. (Wikipédia)
+Transformeurs multimodaux
+Transformeurs acceptant en entrée des données de 
+nature différente (texte, image, sons, etc.). (Rédacteurs 
+de l’ouvrage)
+Typo-squatting
+Faute de frappe ou coquille opportuniste : action 
+malveillante qui consiste à déposer un nom de domaine 
+très proche d’un autre nom de domaine, dont seuls un 
+ou deux caractères diffèrent. (ANSSI)
+Réseau privé virtuel (Virtual private network, VPN)
+Interconnexion de réseaux locaux via une technique de 
+tunnel sécurisé ou pas, généralement à travers l’Internet. 
+(ANSSI)
+Vulnérabilité EFAIL
+Faille de sécurité permettant de compromettre les 
+échanges de courriels sécurisés par les mécanismes de 
+chiffrement S/MIME et OpenPGP. Cette faille permet à 
+des attaquants de déchiffrer le contenu d’un message 
+s’il contient du contenu actif comme du HTML, CSS ou 
+du JavaScript, ou si le chargement de contenu externe 
+a été activé dans le client de messagerie. Les clients de 
+messagerie affectés incluent Thunderbird, Gmail, Apple 
+Mail et Microsoft Outlook. (Wikipédia)

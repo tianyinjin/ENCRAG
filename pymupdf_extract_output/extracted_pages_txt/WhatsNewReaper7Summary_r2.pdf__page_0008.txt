@@ -1,0 +1,39 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 8 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+Power Editing with General Editing
+Power editing when using marquee is even simpler than 
+it is for razor editing. Click on the 
+marquee button on the toolbar to 
+activate it. The button will become 
+illuminated and animated as it 
+activates Arrange view override A.
+The various marquee tasks that you have been 
+performing with your right mouse button can now be 
+accomplished using the left button. Choose Options, 
+Preferences, Mouse Modifiers and select Arrange 
+view override A if you wish to change any of these.
+Also as with Arrange view override B, click on the marquee button again to deactivate it and restore REAPER’s 
+default assignments. The button will cease to be illuminated or animated.
+Tip: Even if you prefer not to use these alternative mouse modifiers A and/or B for marquee/razor editing, you 
+might still find them handy. There are many other tasks you can assign them to (e.g. scrolling, scrubbing), in 
+which case they can be activated/deactivated from the Actions List and assigned to toolbar buttons.
+Media Item Editing with Track Group Items
+ Here we are looking at grouping not track 
+controls but media items within and across 
+the tracks, so that an item selection can be 
+edited together. 
+For example, you might want to adjust the 
+item volume handle for a selection of 
+items, or move or copy them together 
+across several tracks.
+Track item grouping behavior can in part 
+be managed via the item and track media 
+grouping tool on the main toolbar. Right-clicking over this tool displays the menu shown above.
+With REAPER 7, a new option has been added, Track media razor edit grouping affects only items that 
+start and end at the same time. By default, this option is set to on.
+Page 8

@@ -1,0 +1,53 @@
+Source file: 20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR.pdf
+Relative path: 20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR.pdf
+Page: 39 / 51
+
+================================================================================
+
+39 
+ 
+ 
+ 
+ 
+TLP:CLEAR 
+TLP:CLEAR 
+Cette analyse repose sur la méthode D3lta développée par le Datalab de VIGINUM186 : D3lta permet de 
+mesurer la similarité entre deux textes en prenant en compte leurs sémantiques, leurs graphèmes et 
+leurs langues. Les paires d'articles obtenant un score supérieur ou égal à un certain seuil sont considérés 
+comme étant très proches : soit parce qu’ils ont été traduits d’une langue à l’autre (du russe au français 
+par exemple), soit parce qu’ils ont été légèrement reformulés (probablement à l’aide d’un modèle 
+d’intelligence artificielle).  
+Sur les 20 % d’articles de newstop.africa considérés comme identiques ou très proches d’articles publiés 
+par le site d’African Initiative, afrinz.ru, au moins 19 articles ont obtenu le score de 1, c’est à dire 
+parfaitement « identique ». Par exemple, l’article d’afrinz.ru intitulé « Les légionnaires au service de 
+Washington. Enquête sur les mercenaires américains en RCA », publié le 23 janvier 2024, a été repris tel 
+quel, et le même jour, par le site newstop.africa187. Autre exemple, un article de newstop.africa, intitulé 
+« Les pays africains se plaignent du « colonialisme climatique » de l’Occident », est un copié-collé d’un 
+article d’afrinz.ru et comporte un même lien interne renvoyant vers un autre article d’African Initiative188.  
+Newstop Afrique a repris des publications directement issues de la chaîne Telegram @africaninitiativefr. 
+Par exemple, un article intitulé « Pourquoi les pays occidentaux craignent-ils une coopération entre la 
+Russie et le Niger ? » est un copié-collé d’un post publié quelques minutes plus tôt sur la chaîne 
+@africaninitiativefr, qui est lui-même un extrait d’un article plus long diffusé sur le site d’African Initiative. 
+L’article de Newstop Afrique se termine ainsi par « lire le texte d’Andrei Dubrovsky, rédacteur en chef 
+de African Initiative ».189  
+Ces différents éléments permettent d’émettre l’hypothèse selon laquelle le réseau AI-Freak serait lié à 
+African Initiative, qui a probablement sous-traité ce MOI à une entreprise.  
+5.3.2 L’application Afree: un probable projet d’African Initiative  
+À partir de novembre 2024, le MOI AI-Freak a fait la promotion du site afree.ltd, enregistré le 19 
+décembre 2023190. En effet, depuis le 13 novembre 2024, la publication épinglée du compte X 
+@newstop_africa renvoie vers afree.ltd Sur le site web de Newstop Afrique figure également un encart 
+publicitaire cliquable qui redirige vers Afree. Enfin, depuis janvier 2025, une icône de réseaux sociaux 
+cliquable qui génère la page newstop.africa/goto/africbanner puis redirige vers afree.ltd est apparue sur 
+le site. Cela représente un lien technique plus fort qu’une simple redirection.191  
+L’application mobile « AFree » associée à ce site pourrait être un projet non revendiqué de l’agence 
+African Initiative. Cette application se présente comme « la nouvelle génération de réseau social pour 
+                                                        
+186 https://github.com/VIGINUM-FR/D3lta. 
+187 La seule différence est la présence de photos dans l’article d’afrinz.ru (https://archive.ph/4tyGM), disparues dans celui de newstop.africa : 
+https://archive.ph/1rnUe.   
+188 Article de afrinz.ru: https://archive.ph/sZrwo. Article de newstop.africa: https://archive.ph/YuF1G.   
+189 Publication par @africaninitiativefr : https://t.me/africaninitiativefr/702 (le 18 janvier 2024 à 11h39). Article de newstop.africa : https://archive.ph/k
+DrRy (publié le 18 janvier 2024 à 11h47).  
+190 IP: 162.0.217[.]108, NAMECHEAP-NET (NL), AS 22612. 
+191 https://archive.ph/ps3IZ.   
+L’apparition de cette icône noire renforce le lien technique entre newstop.africa et afree.ltd

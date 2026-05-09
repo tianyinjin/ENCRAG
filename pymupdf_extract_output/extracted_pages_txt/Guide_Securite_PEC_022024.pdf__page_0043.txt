@@ -1,0 +1,26 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 43 / 108
+
+================================================================================
+
+43
+POLE D'EXCELLENCE CYBER
+Afin de comprendre, configurer et sécuriser les services les plus visés, mais aussi pour aller plus loin, vous pouvez vous appuyer sur les 
+documentations et les notes techniques suivantes :  
+- CNIL : « Sécurité des sites web : les 5 problèmes les plus souvent constatés1 » ,
+- ANSSI : « Recommandations pour la sécurisation des sites web2 » , « Recommandations pour un usage sécurisé d’(Open)SSH3 » ,
+« Comprendre et anticiper les attaques DDoS4 » ,
+- « Recommandations de configuration d’un système GNU/Linux5 » , « Recommandations relatives à l’administration sécurisée des 
+systèmes d’information6 » .
+Cette fiche contient  11  recommandations.
+Références : 
+https://www.cnil.fr/fr/securite-securiser-les-serveurs
+https://www.cnil.fr/fr/securite-proteger-les-locaux
+ 
+1 https://www.cnil.fr/fr/securite-des-sites-web-les-5-problemes-les-plus-souvent-constates
+2 https://www.ssi.gouv.fr/guide/recommandations-pour-la-securisation-des-sites-web/
+3 https://www.ssi.gouv.fr/uploads/2014/01/NT_OpenSSH.pdf
+4 https://www.ssi.gouv.fr/uploads/2015/03/NP_Guide_DDoS.pdf
+5 https://www.ssi.gouv.fr/uploads/2016/01/linux_configuration-fr-v1.2.pdf
+6 https://www.ssi.gouv.fr/uploads/2015/02/guide_admin_securisee_si_anssi_pa_022_v2.pdf

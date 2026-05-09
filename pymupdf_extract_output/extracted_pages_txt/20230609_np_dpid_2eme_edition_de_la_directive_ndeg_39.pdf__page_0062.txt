@@ -1,0 +1,107 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 62 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 62 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP9 
+TECH 
+Appliquer le principe du moindre privilège sur les applications. Elles doivent 
+s’exécuter avec des privilèges strictement nécessaires à leur fonctionnement. 
+ 
+R 
+O 
+O 
+ 
+EXP10 
+TECH 
+Pour les automates*, lorsque les équipements le permettent, activer les 
+mécanismes suivants : 
+ 
+-  protection d’accès à la CPU et/ou au programme ; 
+ 
+-  restriction des adresses IP pouvant se connecter (liste blanche) ; 
+ 
+-  désactivation du mode de programmation à distance. 
+ 
+R 
+R 
+O 
+ 
+EXP11 
+TECH 
+Mettre en place, dans le processus de livraison, un mécanisme de vérification de 
+contrôle d’intégrité des équipements et programmes applicatifs, et d’authenticité 
+de l’émetteur des composants du système industriel (signature), notamment dans 
+le processus de livraison. 
+ 
+La vérification doit s’effectuer au chargement du composant et de manière 
+périodique par mesure de contrôle. 
+ 
+C 
+R 
+O 
+Éléments 
+concernés 
+: 
+firmwares, 
+systèmes 
+d'exploitation 
+et 
+logiciels 
+standards, 
+progiciels 
+SCADA*, 
+programmes 
+d'automates 
+et 
+de 
+SCADA*, fichier de configuration des 
+équipements réseau, etc. 
+EXP12 
+TECH 
+Vérifier l’intégrité des équipements et logiciels au chargement du composant et de 
+manière périodique par mesure de contrôle. Cette vérification concerne :  
+-  les systèmes d’application et firmware ;  
+-  les logiciels et progiciels SCADA* ; 
+ 
+-  les paramètres de configuration durcis. 
+ 
+R 
+O 
+O 
+ 
+EXP13 
+TECH 
+Ne pas installer d’outils de développement sur les machines de production. Seuls 
+les environnements de production (runtime) doivent être installés sur les serveurs 
+et stations SCADA* par exemple. En cas d’impossibilité, mettre en place des 
+mesures palliatives pour réduire la surface d’attaque. 
+ 
+R 
+O 
+O 
+ 
+EXP14 
+TECH 
+Dédier les consoles de programmation*, les stations d’ingénierie*, les postes 
+d’administration et les stations de maintenance, fixes ou nomades, à leur seul 
+usage. 
+O
+ 
+ 
+ 
+ 
+Maîtriser les postes sensibles du système (consoles de programmation, stations d’ingénierie, poste de maintenance, poste d’administration) 
+EXP15 
+TECH 
+Durcir la configuration des consoles de programmation*, des stations d’ingénierie*, 
+des postes d’administration et des stations de maintenance 
+O

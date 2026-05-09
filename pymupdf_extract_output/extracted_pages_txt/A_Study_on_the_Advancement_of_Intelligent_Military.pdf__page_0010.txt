@@ -1,0 +1,130 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page: 10 / 12
+
+================================================================================
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+including altitude maintenance and enemy tracking, depends
+on a traditional feedback control system, specifically a PID
+controller. Lastly, to provide high confidence level as useful
+information for those making attack decisions, the intelligent
+drone utilizes a reinforcement learning neural network. This
+enables autonomous movement and camera angle adjustment.
+This paper has the following two limitations. First, there
+is a lack of appropriate and fair judgment methods for the
+results of reinforcement learning. This indicates that addi-
+tional verification and evaluation are needed before applying
+these reinforcement learning outcomes in real-world environ-
+ments. To overcome this limitation, future research should
+concentrate on developing and validating more sophisticated
+equitable evaluation methods to enhance the reliability of the
+research findings.
+Second, there is no confirmation that the series of processes
+for intelligent reconnaissance drones can be successfully ap-
+plied and function in actual environments. In particular, the
+critical aspect of communication, which may present real
+challenges, is missing. Therefore, the sim-to-real aspect re-
+mains a future task to be explored through procedures like
+those shown in Figure 13. This paper represents Step 1,
+where experiments are conducted within a simulator. As a
+future research task for Step 2, the reinforcement learning
+neural network will be implemented on a mission computer
+to test its interoperability with the simulator. In Step 3, real
+environments and sensors will be used, along with connecting
+a flight controller for operation and enabling the monitoring
+of drone information through the Ground Control System
+(GCS). Through this process, it will be possible to refine
+the procedures for intelligent reconnaissance drones to ensure
+their suitability for actual environments.
+FIGURE 13. Future research direction.
+LIST OF ABBREVIATIONS
+Abbreviation
+Term
+CNN
+Convolutional Neural Network.
+DEM
+Digital Elevation Model.
+EO
+Electro-Optics.
+GAN
+Generative Adversarial Network.
+GCS
+Ground Control System.
+GNSS
+Global Navigation Satellite System.
+IMU
+Inertial Measurement Unit.
+IR
+Infra-Red.
+LiDAR
+Light Detection and Ranging.
+LRF
+Laser Range Finder.
+PCA
+Principal Component Analysis.
+PID
+Proportional-Integral-Derivative.
+PPO
+Proximal Policy Optimization.
+RADAR
+RAdio Detection And Ranging.
+SAR
+Synthetic Aperture Radar.
+TEL
+Transporter Erector Launcher.
+REFERENCES
+[1] E. Ackerman and M. Koziol, "The blood is here: Zipline’s medical delivery
+drones are changing the game in Rwanda," IEEE Spectrum, vol. 56, no. 5,
+pp. 24-31, 2019.
+[2] H. Shakhatreh et al., "Unmanned aerial vehicles (UAVs): A survey on civil
+applications and key research challenges," IEEE Access, vol. 7, pp. 48572-
+48634, 2019.
+[3] D. C. Schedl, I. Kurmi, and O. Bimber, "An autonomous drone for search
+and rescue in forests using airborne optical sectioning," Science Robotics,
+vol. 6, no. 55, eabg1188, 2021.
+[4] J. K. Choi, Y. T. Lee, H. Park, B. Kim, and B. W. Kim, "Challenges to
+the Development of Manned and Unmanned Combat Systems," in Proc.
+2022 13th International Conference on Information and Communication
+Technology Convergence (ICTC), Oct. 2022, pp. 2362-2364.
+[5] M. Mayer, "Trusting machine intelligence: artificial intelligence and
+human-autonomy teaming in military operations," Defense & Security
+Analysis, 2023, pp. 1-18.
+[6] N. R. Gans and J. G. Rogers, "Cooperative multirobot systems for military
+applications," Current Robotics Reports, vol. 2, 2021, pp. 105-111.
+[7] M. L. Cummings, "Lethal autonomous weapons: Meaningful human con-
+trol or meaningful human certification?," IEEE Technology and Society
+Magazine, vol. 38, no. 4, pp. 20-26, 2019.
+[8] D. Patil et al., "A survey on autonomous military service robot," in Proc.
+2020 International Conference on Emerging Trends in Information Tech-
+nology and Engineering (ic-ETITE), Feb. 2020, pp. 1-7.
+[9] G. E. Marchant et al., "International governance of autonomous military
+robots," Columbia Science and Technology Law Review, vol. 12, pp. 272,
+2011.
+[10] M. Kopuletý and T. Palasiewicz, "Advanced military robots supporting
+engineer reconnaissance in military operations," in Modelling and Simula-
+tion for Autonomous Systems: 4th International Conference, MESAS 2017,
+Rome, Italy, October 24-26, 2017, Revised Selected Papers 4, Springer
+International Publishing, 2018, pp. 285-302.
+[11] T. De Swarte, O. Boufous, and P. Escalle, "Artificial intelligence, ethics
+and human values: The cases of military drones and companion robots,"
+Artificial Life and Robotics, vol. 24, pp. 291-296, 2019.
+[12] A. Konert and T. Balcerzak, "Military autonomous drones (UAVs)-from
+fantasy to reality. Legal and Ethical implications," Transportation Re-
+search Procedia, vol. 59, pp. 292-299, 2021.
+[13] R. C. Arkin, "The case for ethical autonomy in unmanned systems,"
+Journal of Military Ethics, vol. 9, no. 4, pp. 332-341, 2010.
+[14] J. H. Byeon et al., "Simulation based reinforcement learning for the intel-
+ligence behavior of autonomous weapon system," Journal of the Korean
+Society for Simulation, vol. 32, no. 2, pp. 91-111, 2023.
+[15] A. Petrovski, M. Radovanović, and A. Behlić, "Application of Drones With
+Artificial Intelligence for Military Purposes," in Proc. 10th International
+Scientific Conference of Defensive Technologies–OTEH, 2022, pp. 92-100.
+[16] L. P. Osco et al., "A review on deep learning in UAV remote sensing,"
+International Journal of Applied Earth Observation and Geoinformation,
+vol. 102, 102456, 2021.
+10
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4

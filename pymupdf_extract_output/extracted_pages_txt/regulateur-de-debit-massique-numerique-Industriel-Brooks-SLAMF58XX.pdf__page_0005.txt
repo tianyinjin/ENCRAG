@@ -1,0 +1,126 @@
+Source file: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Relative path: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Page: 5 / 14
+
+================================================================================
+
+Caractéristiques des produits
+Caractéristiques des produits
+5
+Protocole de communication
+RS485
+Profibus®
+DeviceNet™
+EtherNet / IP™ et PROFINET
+Raccordement électrique
+Raccordements du bornier par tube ½" NPT (F)
+Option : manchon de câble PG11 ou tube M20 × 1,5
+1 × connecteur Nano-Change M8 mâle 
+5 broches / 
+2 × connecteur D M12 femelle 
+4 broches
+E / S analogiques
+0 – 5 V, 1 – 5 V, 0 – 10 V,
+0 – 20 mA, 4 – 20 mA
+S. o.
+S. o.
+Tension max. / purge 
+De +13,5 V C.C. à +27 V C.C.
+De +11 V C.C. à +25 V C.C.
+De +13,5 V C.C. à +27 V C.C.
+Puissance requise en watts, max.
+Orifice vanne > 0,032" : 8 W
+Orifice vanne ≤ 0,032" : 5 W
+Sans vanne : 2 W
+Orifice vanne > 0,032" : 10 W
+Orifice vanne ≤ 0,032" : 7 W
+Sans vanne : 4 W
+Orifice vanne > 0,032" : 11 W
+Orifice vanne ≤ 0,032" : 7 W
+Sans vanne : 3 W
+Interface navigateur intégrée
+S. o.
+S. o.
+Adresse réseau par défaut :
+192.168.1.100.
+Configuration réseau EtherNet / IP 
+par défaut :DHCP
+Nom par défaut PROFINET :
+« brooks-sla »
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (TENSION)
+Plage nominale
+0 – 5 V C.C., 1 – 5 V C.C. ou 0 – 10 V C.C.
+Plage intégrale
+(−0,5) – 11 V C.C.
+Max. absolu
+18 V (sans dommage)
+Impédance d’entrée
+> 990 kΩ
+Courant absorbé max. requis
+0,002 mA
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (COURANT)
+Plage nominale
+4 – 20 mA ou 0 – 20 mA
+Plage intégrale
+0 – 22 mA
+Max. absolu
+24 mA (sans dommage)
+Impédance d’entrée
+100 Ω
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (COURANT)
+Plage nominale
+4 – 20 mA ou 0 – 20 mA
+Plage intégrale
+0 – 22 mA
+Max. absolu
+24 mA (sans dommage)
+Impédance d’entrée
+100 Ω
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (COURANT)
+Plage nominale
+4 – 20 mA ou 0 – 20 mA
+Plage intégrale
+0 – 22 mA
+Max. absolu
+24 mA (sans dommage)
+Impédance d’entrée
+100 Ω
+E / S ANALOGIQUE SORTIE D’ALARME*
+Type
+Collecteur ouvert
+Courant max. fermé (marche)
+25 mA
+Fuite max. ouvert (arrêt)
+1 μA
+Tension max. ouvert (arrêt)
+30 V C.C.
+E / S ANALOGIQUE SIGNAL DE SURRÉGULATION DE VANNE**
+Flottant / hors connexion
+L’instrument commande la vanne pour déterminer le point de 
+consigne
+VOR < 0,3 V C.C.
+Vanne état fermé
+1 V C.C. < VOR < 4 V C.C.
+Vanne état normal
+VOR > 4,8 V C.C.
+Vanne état ouvert
+Impédance d’entrée
+800 kΩ
+Max. absolu entrée
+(−25 V C.C.) < VOR < 25 V C.C. (sans dommage)
+*	 La sortie d’alarme est un 
+collecteur ouvert ou un « type de 
+contact » FERMÉ (marche) lors 
+de l’activation d’une alarme. La 
+sortie d’alarme peut être réglée 
+pour indiquer un état d’alarme 
+quelconque, parmi plusieurs 
+possibilités.
+**	Le signal de surrégulation de 
+vanne (VOR, pour Valve Override 
+Signal) est mis en œuvre en tant 
+qu’entrée analogique mesurant la 
+tension à l’entrée et commandant 
+la vanne en fonction des valeurs 
+de mesure relevées, comme 
+détaillé ici.

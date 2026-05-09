@@ -1,0 +1,944 @@
+Source file: Obs_Drone_Bulletin de veille d'actualité - Janvier 2026.pdf
+Relative path: Obs_Drone_Bulletin de veille d'actualité - Janvier 2026.pdf
+Page count: 18
+Extracted pages: 18
+
+================================================================================
+
+[Page 1 / 18 | chars: 270]
+--------------------------------------------------------------------------------
+
+2026
+OBSERVATOIRE        
+DES DRONES
+Janvier - Février
+Bulletin de veille d’actualité n°13
+Etude financée par la 
+Direction générale des relations 
+internationales et de la stratégie
+Marché : 2023.1050131206 
+20260227_NP_Obsdrones_Bulletin-de-veille-n013-janvier-février
+
+[Page 2 / 18 | chars: 629]
+--------------------------------------------------------------------------------
+
+2
+Avertissement
+Les opinions et analyses exprimées dans ce livrable n’engagent que la responsabilité de leurs auteurs. Elles
+ne sauraient représenter ou traduire une prise de position de l’organisme pilote de l’étude, de la Direction
+générale des relations internationales et de la stratégie ou du ministère des Armées.
+The opinions and analyses expressed in this document are solely the responsibility of their authors. They 
+cannot be considered as representing or reflecting a stance of the lead organization of the study, the 
+Directorate General for International Relations and Strategy, or the Ministry of the Armed Forces.
+
+[Page 3 / 18 | chars: 3110]
+--------------------------------------------------------------------------------
+
+AVANT-PROPOS
+L'observatoire des drones vise à exposer les événements récents liés à l'utilisation
+opérationnelle des drones, les avancées technologiques, les concepts d'emploi, ainsi que les
+perspectives économiques (contrats, acquisitions). Les informations présentées ici ne sont
+qu'un condensé extrait de 549 articles couvrant la période de janvier à février 2026.
+Les systèmes sans pilote poursuivent leur diffusion à l’ensemble des échelons tactiques et
+opératifs. L’enjeu ne se limite plus à disposer de plateformes performantes, mais à en assurer la
+production en volume, la disponibilité logistique et l’intégration dans des chaînes de
+commandement numérisées. Les annonces industrielles récentes confirment cette logique
+d’industrialisation
+:
+montée
+en
+cadence,
+diversification
+des
+fournisseurs,
+recherche
+de
+composants
+alternatifs
+et
+rationalisation
+des
+coûts.
+La
+question
+n’est
+plus
+seulement
+technologique, elle devient capacitaire et économique.
+Les retours d’expérience opérationnels alimentent un cycle d’amélioration rapide portant sur
+l’autonomie, la résistance au brouillage, la navigation en environnement contesté, ou encore
+l’intégration d’armements et de charges utiles modulaires. Ces évolutions ne constituent pas des
+sauts technologiques majeurs, mais leur accumulation produit un effet significatif sur la
+performance globale des dispositifs. Cette logique d’itération rapide, proche des cycles
+d’innovation civils, s’installe durablement dans le champ militaire.
+Les frappes documentées, la multiplication des missions de reconnaissance armée, la destruction
+des capacités de production énergétique et la recherche de saturation défensive indiquent que
+ces systèmes ne constituent plus des capacités périphériques. Leur emploi s’inscrit dans des
+logiques de volume, de harcèlement et d’usure. Cette évolution exerce une pression directe sur
+les chaînes logistiques, les stocks de munitions et la résilience des infrastructures militaires. En
+conséquence, la défense anti-drone tend à devenir un impératif permanent plutôt qu’une capacité
+spécialisée mobilisée ponctuellement.
+C’est pourquoi les capacités de lutte anti-UAV poursuivent leur structuration. Les approches
+monocouches laissent place à des architectures combinant détection multi-capteurs, guerre
+électronique, interception cinétique et solutions à énergie dirigée. La période récente montre une
+volonté accrue d’intégrer ces briques dans des dispositifs cohérents plutôt que de multiplier les
+solutions ponctuelles. Toutefois, des écarts persistent entre annonces politiques, démonstrateurs
+technologiques et déploiements réellement opérationnels.
+Au-delà du théâtre russo-ukrainien, la période confirme également l’élargissement géographique
+de ces dynamiques. Programmes nationaux, coopérations industrielles, annonces budgétaires et
+initiatives réglementaires témoignent d’une appropriation croissante des enjeux liés aux systèmes
+sans pilote. Les dimensions maritime et sous-marine, en particulier, suscitent un intérêt accru,
+traduisant une extension progressive du champ d’application des technologies autonomes.
+3
+
+[Page 4 / 18 | chars: 4179]
+--------------------------------------------------------------------------------
+
+SOMMAIRE
+4
+1 - USAGES OPÉRATIONNELS
+▪La Chine déploie des Wing Loong II pour les patrouilles de la Garde côtière autour de Taïwan | Chine
+▪Les forces armées américaines déploient des UAV/OWA LUCAS lors d’opérations de combat | États-Unis / Iran
+▪Les États-Unis auraient utilisé des LUCAS au Venezuela | États-Unis / Venezuela
+▪Tentative d’attaque de l’aéroport de Kisangani par des UAV Baykar Yiha-III | République Démocratique du Congo
+▪Transfert d’avions de combat vers l’Ukraine pour la lutte anti-UAV | République tchèque / Ukraine 
+▪La Russie continue de doter certains Shahed de R-60 mais dans une nouvelle position | Russie
+▪Le TB3 réalise sa 1ère démonstration opérationnelle lors d’un exercice OTAN en mer Baltique | Turquie
+▪Des UAV ukrainiens frappent les derniers radars russes S-350 et des lanceurs Tor et Buk | Ukraine
+▪En un an, l’Ukraine a formé et entrainé plus de 5 000 opérateurs d’UAV | Ukraine
+▪Les frappes ukrainiennes ont coûté plus de 13 Md$ au secteur pétrolier russe en 2025 | Ukraine
+▪Des UAV ukrainiens détruisent deux systèmes de défense aérienne Tor et un dépôt pétrolier | Ukraine
+▪Des opérateurs d’UAV ukrainiens ont vaincu le groupe de combat de l’OTAN lors d’exercices | Ukraine / OTAN
+▪Un blessé ukrainien sauvé grâce à un UGV Maul | Ukraine
+▪En janvier, les forces ukrainiennes auraient réalisé plus de 7 000 missions avec des UGV | Ukraine
+▪La marine japonaise met en service des UUV produits localement | Japon
+▪La Royal Navy reçoit son premier XLUUV Excalibur | Royaume-Uni
+▪La marine américaine abat un drone iranien Shahed-139 volant vers l’USS Abraham Lincoln | États-Unis
+▪L’Ukraine transforme l’An-28 en chasseur de Shahed | Ukraine
+▪En Ukraine, une cible aérienne sur 3 est abattue par un UAV/Intercepteur | Ukraine
+▪L’US Army met en œuvre le système C-UAS EAGLS à l’aide de roquettes guidées par laser | États-Unis
+▪La Russie déploie des systèmes de défense aérienne Zubr pour contrer les UAV | Russie
+▪Le système mobile de défense aérienne ukrainien TEMPEST a abattu au moins 21 Shahed | Ukraine
+2 - BRIQUES TECHNOLOGIQUES
+▪Les Russes équipent des Shahed d’un projecteur LED infrarouge pour aveugler les pilotes | Russie
+▪L’Ukraine découvre un UAV susceptible de servir de répéteur pour les UAV Molniya | Ukraine
+▪L’US Navy et les industriels poussent vers la mise en œuvre rapide d’UCAV sur porte-avions | États-Unis
+▪Le Coyote de Raytheon efficace contre un essaim d’UAV | États-Unis
+▪Le nouvel UAV/Intercepteur Salyut ukrainien | Ukraine
+▪Rheinmetall dévoile un canon antidrone intelligent pour véhicules et bases | Allemagne
+▪Les forces russes utilisent un laser de fabrication chinoise pour contrer les drones | Russie
+▪De nouvelles munitions pour les Kalachnikov pour lutter contre les petits UAV | Russie
+▪L’Ukraine développe un laser C-UAS | Ukraine
+3 - CONCEPTS D’EMPLOI
+▪L’Iran annonce disposer de 1000 UAV développés dans le cadre d’un conflit avec les USA | Iran
+▪Les Royal Marines testent le T150B en conditions arctiques | Royaume-Uni
+▪La Russie modernise la structure organisationnelle de son armée | Russie
+▪L’Akinci réalise son 1er tir air-air en utilisant des munitions Eren contre un UAV type Shahed | Turquie
+▪La Turquie déploie l’UGV Aslan lors de l’exercice Steadfast Dart 26 de l’OTAN | Turquie
+▪La Russie révèle de nouvelles tactiques de chars équipés de drones | Russie
+▪Les Russes minent le fleuve Dnipro à l’aide d’un USV Sirius-82 | Russie
+▪L’US Navy déploiera cette année des USV avec ses forces de surface | États-Unis
+4 - PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+▪La Grèce acquiert des Schiebel Camcopter S-100 pour ses frégates FDI HN | Grèce
+▪Des USV américains au Japon | Japon
+▪Taïwan vise l’achat de 1600 USV d’attaque dans le cadre d’un plan de défense de 39,8 Md$ | Taïwan
+▪L’USAF approuve un budget de 145M$ pour des roquettes de lutte contre les essaims d’UAV | États-Unis
+▪La Roumanie va acquérir le système de contre-drone MEROPS éprouvé en Ukraine | Roumanie
+▪Commande de fusils Mossberg 590A1 avec canons spécifiques pour intercepter les UAV | États-Unis
+5
+5
+5
+5
+5
+6
+6
+6
+6
+6
+6
+7
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+10
+10
+10
+10
+10
+11
+11
+11
+11
+11
+12
+12
+12
+12
+12
+13
+13
+13
+13
+14
+14
+14
+14
+15
+15
+15
+
+[Page 5 / 18 | chars: 4216]
+--------------------------------------------------------------------------------
+
+AIR
+Les actualités américaines sont l’occasion d’observer l’utilisation de drones dans d’autres contextes qu’en
+Ukraine, où la stratégie d’attaque des installations énergétiques se maintient mais ralentit. Les deux camps
+continuent de faire évoluer leur matériel et de placer les drones au centre du conflit. Au sol, les forces
+continuent de s’équiper pour lutter contre les drones : balles anti-drones, défense antiaérienne mobile…
+En parallèle des conflits impliquant des forces régulières, des drones continuent d’être utilisés dans le
+cadre de guerres civiles, comme en République Démocratique du Congo, où un drone Baykar a été abattu
+avant de pouvoir atteindre l’aéroport.
+1/ USAGES OPÉRATIONNELS
+5
+Analyse : La mise en œuvre de WL-2 par la Garde Côtière chinoise marque une rupture. Désormais la CG chinoise dispose d’un
+système moderne et endurant. De même, le déploiement de WL-2 en coopération avec des navires et des PatMar montre la volonté
+chinoise de renforcer considérablement ses moyens dans ce domaine. En ce sens, la Chine se rapproche des exercices américains
+mettant en œuvre des SeaGuardian, des P-8 et certains navires avec la limite que l’US Navy ne dispose pas, encore, de SeaGuardian
+en propre.
+La Chine déploie des Wing Loong II pour les patrouilles de la Garde côtière autour de Taïwan
+Source : Army Recognition
+27/01/2026
+CHINE
+La Garde Côtière chinoise a officiellement commencé à faire voler des Wing Loong II dans le cadre d’opérations de patrouille maritime
+autour de Taïwan. C’est la 1ère reconnaissance publique de tels déploiements. La Garde Côtière chinoise ne précise pas si la version
+du WL-2 qu’elle utilise est armée ou non. Lors de la « Justice Mission 2025 », le WL-2 a effectué des vols coordonnés avec des
+patrouilleurs Hai Jing et des PatMar Y-8, formant un réseau intégré de capteurs et de commandement au-dessus des eaux à proximité
+de Taïwan.
+Analyse : Il s’agirait du 1er emploi à grande échelle du LUCAS par les forces américaines
+bien que celles-ci ne le confirment pas et que le nombre de LUCAS utilisés soit inconnu.
+Les forces américaines ont aussi, probablement, profité de cette opération pour tester en
+conditions opérationnelles ce nouveau système.
+Les États-Unis auraient utilisé des LUCAS au Venezuela 
+Source : Defence blog
+Les forces américaines ont utilisé des UAV/OWA lors des frappes sur Caracas, le 3
+janvier, dans le cadre de l’opération Absolute Resolve. Des LUCAS auraient été employés
+au début de l’opération.
+06/01/2026
+ÉTATS-UNIS
+/ VENEZUELA
+Analyse : Le LUCAS est l’équivalent du Shahed 136 dont il reprend globalement la configuration. Ses caractéristiques ne lui permettent
+pas de traiter des cibles défendues ou blindées mais il permet de saturer des défenses aériennes adverses en les obligeant à les
+engager. Il reste à savoir de combien de LUCAS, les forces américaines disposent sur zone et quelle est son rythme de production.
+Les forces armées américaines déploient des UAV/OWA LUCAS lors d’opérations de combat
+Source : Defence Industry 
+Les forces américaines ont utilisé des UAV/OWA LUCAS (Low-cost Unmanned Combat Attack System) lors de l’attaque de l’Iran. Cet
+UAV/OWA est produit par SpektreWorks à un prix unitaire d’environ 35 000 $. Il s’agit d’une évolution de la cible aérienne FLM-135. Le
+LUCA est long de d’environ 3 m, a une envergure de 2,5 m, une CU explosive de 18 kg, une portée d’environ 820 km, une vitesse de
+croisière de 137 km/h et une vitesse maximale de 194 km/h. les États-Unis disposent d’une capacité de lancement du sol ou à partir
+de navire de combat.
+28/02/2026
+ÉTATS-UNIS
+/ IRAN
+Tentative d’attaque de l’aéroport de Kisangani par des UAV Baykar Yiha-III
+Source : Militarnyi
+Analyse : Les données sur cette attaque restent encore très floues. La présence des Yiha III est aussi à prendre avec précaution.
+Cependant, cela montre que les UAV sont de plus en plus présents dans les conflits, y compris internes.
+03/02/2026
+RDC
+En République Démocratique du Congo, la tentative d’attaque contre l’aéroport de Kisangani aurait été réalisée par des UAV Baykar
+YIHA-III dirigés par le groupe armé M23. Les UAV ont été abattus avant d’atteindre l’aéroport. Le Yiha-III serait fabriqué en Turquie et
+au Pakistan.
+
+[Page 6 / 18 | chars: 4525]
+--------------------------------------------------------------------------------
+
+6
+Analyse : La destruction de ces systèmes de défense aérienne est un handicap important pour la Russie. Ces systèmes sont majeurs
+pour la sécurité de leurs forces mais ils sont aussi très difficiles à remplacer (coûts et délais). Pour l’Ukraine, si ces destructions sont
+confirmées, il s’agit de succès majeurs qui pourraient aussi ouvrir la voie vers plus de liberté d’action dans le domaine aérien.
+Des UAV ukrainiens frappent les derniers radars russes S-350 et des lanceurs Tor et Buk
+Source : Defence industry
+02/01/2026
+UKRAINE
+Les soldats du groupe FPV Asgard de la 412ème Brigade des UAV, Nemesis, ont détruit le radar du nouveau système de défense
+aérienne russe S-350 Vityaz, ainsi que les lanceurs automoteurs des systèmes de défense aérienne Tor et Buk. Le radar 50N6E et un
+système Tor ont été détruits le 1er janvier dans la région de Donetsk. Le radar 50N6E est un élément clé du relativement rare système
+S-350 à moyenne portée. Celui-ci serait capable de détecter automatiquement jusqu’à 100 cibles simultanément et de suivre jusqu’à 8
+cibles. Le S-350 pourrait engager des cibles jusqu’à 120 km et à des altitudes allant jusqu’à 30 km. De plus, le 31 décembre, les
+soldats de l’unité ont frappé les lanceurs des systèmes de défense aérienne Buk-M3 (défense anti-aérienne moyenne portée : 70 km)
+et Tor (système anti-aérien mobile avec une portée de 25 km) l’un après l’autre en l’espace d’une heure, dans les secteurs de
+Huliaipole et d’Orikhiv.
+Analyse : Baykar présente le TB3 comme un UCAV alors qu’il s’agit d’un ISR/Armé. Toutefois,
+une telle démonstration montre une réelle maitrise de la mise en œuvre d’UAV à partir de navires
+à pont plat.
+Le TB3 réalise sa 1ère démonstration opérationnelle lors d’un exercice OTAN en mer Baltique
+Source : Defence industry
+17/02/2026
+TURQUIE
+Le Bayraktar TB3 a participé à l’exercice Steadfast Dart 2026 de l’OTAN, effectuant sa 1ère
+démonstration opérationnelle à l’étranger lors de la phase navale en mer Baltique. À partir du
+TCG Anadolu, le TB3 a tiré une double salve MAM-L, atteignant des impacts directs sur des
+cibles de surface.
+Bulletin de veille d’actualité n°13 / Janvier-Février 2026
+La Russie continue de doter certains Shahed de R-60 mais dans une nouvelle position 
+Source : Militarnyi
+Analyse : Le 1er Shahed R60 a été vu en décembre 2025. Les Russes semblent augmenter le nombre de Shahed/R60 et cela permet
+probablement de faire peser une menace sur les systèmes d’interception ukrainiens. Toutefois, à ce jour, il ne semble pas encore
+avoir obtenu de victoire.
+08/02/2026
+RUSSIE
+Les forces ukrainiennes ont abattu, avec un UAV/Intercepteur, un Shahed doté de missiles R-60 et contrairement aux versions
+précédentes, le R-60 était orienté vers l’arrière et non vers l’avant. Cette configuration vise probablement à contrer les hélicoptères et
+avions légers ukrainiens qui interceptent les Shahed. Le missile est monté sur le dos du Shahed qui est équipé de 2 caméras, une
+dans le nez et une autre derrière le lanceur. Les signaux vidéo et de contrôle sont transmis via un modem Mesh Xingkay Tech XK-F358
+chinois.
+Analyse : L’Ukraine a mis en place les moyens pour former des générations importantes d’opérateurs d’UAV afin de disposer d’une
+ressource devenue indispensable pour la suite des opérations.
+En un an, l’Ukraine a formé et entrainé plus de 5 000 opérateurs d’UAV
+Source : Militarnyi
+02/01/2026
+Le MoD ukrainien annonce avoir, en 2025, formé et entrainé plus de 5 000 opérateurs d’UAV. Cette performance a été rendue possible
+grâce à un vaste réseau d’écoles de formation.
+UKRAINE
+Analyse : Ces chiffres montrent que la stratégie ukrainienne est payante.
+Les frappes ukrainiennes ont coûté plus de 13 Md$ au secteur pétrolier russe en 2025
+Source : Militarnyi
+11/02/2026
+Selon des analystes, le secteur pétrolier russe a subi des pertes de plus de 13 Md$ à la suite des frappes ukrainiennes en 2025. Les
+calculs de Bloomberg, basés sur des déclarations de responsables ukrainiens et russes, montrent que l’Ukraine a mené 120 attaques
+contre des installations énergétiques russes en 2025. Les principales cibles étaient les raffineries qui ont subi 81 attaques. Les
+infrastructures maritimes, y compris des champs pétroliers et gaziers en mer, ont été attaquées 27 fois. Des pipelines et des pétroliers
+ont également été ciblés, 8 et 4 fois, respectivement. Août a enregistré le plus grand nombre d’attaques contre des raffineries de
+pétrole (14), tandis que décembre a enregistré le plus grand nombre d’attaques au total (24).
+UKRAINE
+
+[Page 7 / 18 | chars: 3918]
+--------------------------------------------------------------------------------
+
+7
+Analyse : Outre la poursuite de la stratégie anti-installations pétrolières, l’Ukraine semble
+avoir défini la destruction des systèmes de DA comme une priorité majeure. Il s’agit sans
+doute de regagner une certaine maitrise de l’espace aérien qui pourrait être le prélude à de
+nouvelles offensives ukrainiennes.
+Des UAV ukrainiens détruisent deux systèmes de défense aérienne Tor et un dépôt pétrolier
+Source : Militarnyi
+23/02/2026
+UKRAINE
+Dans la nuit du 22 février, des unités des Unmanned Systems Forces ukrainiennes ont frappé
+2 systèmes de défense aérienne russes Tor dans la région de Donetsk. En plus des systèmes
+de défense aérienne, des UAV ukrainiens ont frappé un dépôt pétrolier à Louhansk.
+Bulletin de veille d’actualité n°13 / Janvier-Février 2026
+Analyse : Il est difficile de tirer des conclusions d’une telle annonce sans avoir accès aux données précises. Ce type d’exercice permet
+justement aux membres de l’OTAN de profiter du RetEx ukrainien.
+Des opérateurs d’UAV ukrainiens ont vaincu le groupe de combat de l’OTAN lors d’exercices
+Source : Wall Street Journal
+02/01/2026
+Selon le Wall Street Journal, lors des exercices Hedgehog 2025 en mai 2025, des opérateurs d’UAV ukrainiens ont vaincu un groupe
+de combat combiné de plusieurs milliers de soldats de l’OTAN, dont des soldats britanniques et estoniens, qui tentaient de mener une
+attaque mécanisée. Lors des exercices, l’armée ukrainienne a utilisé Delta, un système moderne de gestion du champ de bataille
+ukrainien. Il collecte des renseignements en temps réel, utilise l’IA pour analyser de grandes quantités d’informations, identifie les
+cibles et coordonne les frappes entre le commandement et les unités. Cela assure une chaîne de destruction rapide.
+UKRAINE 
+OTAN
+TERRE
+Un blessé ukrainien sauvé grâce à un UGV Maul 
+Source : Militarnyi
+Analyse : Il semble s’agir de la 1ère opération de ce type réussie mais il est probable que d’autres vont suivre.
+23/01/2026
+UKRAINE
+Un UGV ukrainien Maul a réussi à évacuer un soldat blessé placé dans la capsule blindée de l’UGV.
+Analyse : Pour les forces ukrainiennes, l’emploi d’UGV est devenu une routine. L’UGV développe aussi de plus en plus des UGV
+armés. Dans ce domaine comme dans celui des UAS et USV le RetEx ukrainien est unique et précieux. Il va offrir aux industriels
+ukrainiens une place de choix.
+En janvier, les forces ukrainiennes auraient réalisé plus de 7 000 missions avec des UGV
+Source : Defence industry
+18/02/2026
+Le DoD ukrainien annonce qu’en janvier, les UGV ont réalisé plus de 7 000 missions de combat et logistiques en 1ère ligne. Selon le
+DoD ukrainien, l’évacuation des blessés à l’aide d’UGV au sol était limitée il y a 6 mois mais est devenue une routine. La plupart des
+missions entreprises en janvier impliquaient des tâches logistiques le long de la ligne de front. L’objectif de l’Ukraine est de réaliser un
+maximum de logistique de 1ère ligne avec des UGV. Les plans pour 2026 incluent une augmentation de la production d’UGV et des
+mises à niveau des systèmes de communication et de commandement et de contrôle. La plateforme Brave1 Market recense
+actuellement 13 modèles d’UGV que les unités militaires peuvent obtenir.
+UKRAINE
+NAVAL
+La marine japonaise met en service des UUV produits localement 
+Source : Defence blog
+Analyse : Le Japon mène un vaste programme mixant des UUV et des USV pour renforcer ses défenses. La non-diffusion des
+données techniques va dans le sens de la discrétion et de la sensibilité du sujet. Le Japon cherche toujours à renforcer sa BITD et à
+augmenter ainsi son indépendance en matière d’armement.
+20/01/2026
+JAPON
+La Force maritime d’autodéfense japonaise (JMSDF) a confirmé le 20 janvier avoir reçu un petit UUV développé localement et conçu
+pour des missions de défense sous-marine. Le système est destiné à soutenir les missions de surveillance et de défense sous-
+marines. La JMSDF ne diffuse aucune donnée technique.
+
+[Page 8 / 18 | chars: 3463]
+--------------------------------------------------------------------------------
+
+1/Usages opérationnels
+Bulletin de veille d’actualité n°13 / Janvier-Février 2026
+8
+La Royal Navy reçoit son premier XLUUV Excalibur
+Source : Naval news
+Analyse : L’Excalibur a déjà réalisé ses essais constructeurs et la RN va maintenant mener des essais opérationnels pour mieux définir
+ses futurs systèmes. À ce stade, l’Excalibur est un système unique mais la RN va ainsi accumuler un RetEx très intéressant et elle se
+positionne en leader sur ce segment en Europe.
+05/01/2026
+ROYAUME-UNI
+La Royal Navy a reçu, le 11 décembre 2025, l’XLUUV Excalibur. L’Excalibur est long de 12 m avec un déplacement de 19 t. Il s’agit du
+plus gros UUV en cours de tests dans la RN. Le système a été développé en moins de 3 ans dans le cadre du projet Cetus.
+L’Excalibur va maintenant mener un programme d’essais de 2 ans.
+Analyse : Le nombre d’An-28 modifié pour la lutte C-UAS reste inconnu. La vitesse
+maximale de l’An-28 (355 km/h) est compatible de la vitesse du Shahed 136. La
+question majeure reste la détection initiale et le guidage.
+L’Ukraine transforme l’An-28 en chasseur de Shahed
+Source : Militarnyi
+L’Ukraine utilise le bimoteur léger An-28 comme « chasseur » pour intercepter des
+UAV/OWA de type Shahed. Les Shahed sont détruits à l’aide de mitrailleuses M134 à
+6 canons. La détection et le guidage initiaux sont faits par des contrôleurs extérieurs
+qui dirigent l’An-28 vers le contact qui est ensuite pris en compte par l’équipage.
+05/02/2026
+UKRAINE
+Transfert d’avions de combat vers l’Ukraine pour la lutte anti-UAV
+Source : Militarnyi
+Analyse : Le nombre d’appareils prévus et le calendrier ne sont pas diffusés. Ce type d’appareil n’a pas de moyen de détection interne,
+radar ou pod EO/IR. Ils devront, pour lutter contre des Shahed, disposer d’un guidage externe. Toutefois, l’intégration d’un pod EO/IR
+(qui existe) et d’un canon ou mitrailleuses en pod pourrait régler le problème mais il faudra aussi former les pilotes et les entrainer. La
+solution est donc intéressante mais demandera un peu de temps.
+17/01/2026
+REP TCHEQUE / 
+UKRAINE
+Le président tchèque annonce, le 16 janvier, que la République tchèque va transférer bientôt des avions de combat à l’Ukraine pour la
+lutte anti-UAV. Il pourrait s’agir de L-159 ALCA d’Aero Vodochody qui peuvent utiliser des pistes non goudronnées et disposent de
+sept points d’emport pour les armes.
+LUTTE ANTI-DRONE
+Analyse : À ce stade, l’US Navy ne confirme pas la méthode employée pour détruire l’UAV.
+La marine américaine abat un drone iranien Shahed-139 volant vers l’USS Abraham Lincoln
+Source : Militarnyi
+Un F-35 Lightning II de l’US Navy a abattu un Shahed-139, qui approchait du porte-avions
+USS Abraham Lincoln, en mer d’Arabie.
+03/02/2026
+ÉTATS-UNIS
+/ IRAN
+Analyse : Les UAV/Intercepteurs émergent comme une nouvelle composante majeure des systèmes de défense aérienne. Ils sont
+encore appelés à progresser. L’enjeu étant de maintenir le couple performances/prix et une capacité de production en masse.
+En Ukraine, une cible aérienne sur 3 est abattue par un UAV/Intercepteur
+Source : Militarnyi
+23/02/2026
+Le commandant adjoint des systèmes de défense aérienne sans pilote des Forces armées d’Ukraine a annoncé qu’une cible aérienne
+sur trois est éliminée par des UAV/Intercepteurs. L’utilisation des UAV/Intercepteurs réduit la charge sur les systèmes de missiles
+antiaériens et autres composants de la défense aérienne. Cela permet également d’économiser des missiles antiaériens coûteux.
+UKRAINE
+
+[Page 9 / 18 | chars: 2785]
+--------------------------------------------------------------------------------
+
+1/Usages opérationnels
+9
+Bulletin de veille d’actualité n°13 / Janvier-Février 2026
+La Russie déploie des systèmes de défense aérienne Zubr pour contrer les UAV 
+Source : Militarnyi
+Analyse : L’annonce ne précise pas le nombre de systèmes livrés. Il est probable que la Russie
+les déploie en priorité sur des sites stratégiques. Le déploiement de ces systèmes montre que
+la menace UAV ukrainienne est prise très au sérieux.
+28/01/2026
+RUSSIE
+L’armée russe a reçu de nouveaux systèmes de défense aérienne à courte portée Rostec Zubr
+conçus pour contrer les UAV. La station radar intégrée au système pourrait détecter à la fois de
+grandes et de petites cibles aériennes à des distances allant jusqu’à 1,5 km. Le système
+comprend
+quatre modules
+de tir autonomes
+7,62×54 mm, un centre
+centralisé de
+commandement et de contrôle, ainsi qu’un radar intégré.
+Analyse : Le nombre de Tempest/Hellfire en service en Ukraine reste inconnu à ce jour. Ce système démontre que des réponses
+rapides et pragmatiques pour lutter contre les UAV/OWA sont possibles.
+Le système mobile de défense aérienne ukrainien TEMPEST a abattu au moins 21 Shahed
+Source : Militarnyi
+13/01/2026
+UKRAINE
+L’unité mobile de missiles antiaériens de l’Armée de l’air ukrainienne a déjà détruit au moins 21
+Shahed avec ses systèmes Tempest. Le système Tempest a été développé par la société
+américaine V2X et présenté pour la 1ère fois en octobre 2025. Le lanceur est monté sur un
+châssis Can-Am Maverick X3 conçu pour des opérations où la grande mobilité et la faible visibilité
+sont essentielles. Le lanceur embarque 2 Hellfire, probablement des AGM-114L Hellfire Longbow,
+équipés d’une tête à guidage radar. Un radar et des antennes de communication radio sont
+également installés sur le toit.
+Analyse : EAGLS est l’un des nombreux systèmes C-UAS développés aux États-Unis. Il s’agit, pour les forces américaines, de
+disposer au plus vite de différents systèmes pouvant leur assurer une défense multicouche contre une large gamme d’UAV. Les types
+de systèmes et de technologies sont encore assez variés, mais devraient peu à peu se réduire afin de tendre vers une rationalisation.
+L’US Army met en œuvre le système C-UAS EAGLS à l’aide de roquettes guidées par laser
+Source : Army Recognition
+12/01/2026
+L’US Army annonce que le système EAGLS (Electronic Advanced Ground Launcher System) a tiré une roquette guidée APKWS lors de
+l’exercice Sky Shield au Koweït. L’EAGLS est un système C-UAS mobile qui utilise des radars et des capteurs EO/IR pour détecter et
+suivre les cibles, puis les détruit avec 4 roquettes guidées laser APKWS de 70 mm, à des distances allant jusqu’à environ 10 km.
+EAGLS est produit par MSI Defense Solutions qui a obtenu un contrat de 24 M$ du Naval Air Systems Command pour ce système.
+ÉTATS-UNIS
+
+[Page 10 / 18 | chars: 3424]
+--------------------------------------------------------------------------------
+
+La Russie et l’Ukraine poursuivent une dynamique d’innovation rapide autour des drones. Les plateformes
+Shahed évoluent, intégrant parfois des équipements additionnels (projecteurs LED, capacités air-air),
+traduisant une logique d’adaptation continue et de contre-mesures embarquées. Ces innovations tactiques
+s’inscrivent dans une intensification de la lutte anti-drone. Parallèlement, de nombreuses puissances
+accélèrent leurs programmes de recherche. Les systèmes à énergie dirigée notamment les lasers anti-drones
+émergent comme une option technologique prioritaire, récemment mise en avant par la Chine, l’Ukraine et
+Israël.
+2/ BRIQUES TECHNOLOGIQUES
+10
+Analyse : À ce stade, l’efficacité de ce type de systèmes reste difficile à évaluer. Il semble que les
+Russes essaient toutes les voies possibles pour améliorer la survivabilité de leurs Shahed.
+Les Russes équipent des Shahed d’un projecteur LED infrarouge pour aveugler les pilotes
+Source : Militarnyi
+02/01/2026
+RUSSIE
+Pour la 1ère fois, un Shahed a été vu en Ukraine avec un système de Led IR. En théorie, ils peuvent
+aveugler temporairement les dispositifs de vision nocturne utilisés par les pilotes ukrainiens, voire
+désactiver complètement les appareils des générations précédentes. Selon l’Ukraine, les dispositifs
+de vision nocturne récents ne seraient pas leurrés par ces systèmes.
+AIR
+Analyse : L’engin est nouveau et montre que la Russie chercher à améliorer le guidage de ces systèmes soit par souci de précision soit
+pour optimiser un nombre d’UAV limité.
+L’Ukraine découvre un UAV susceptible de servir de répéteur pour les UAV Molniya
+Source : Militarnyi
+09/01/2026
+UKRAINE
+Les Forces de défense ukrainiennes ont abattu un UAV/VTOL qui pourrait servir de répéteur pour les drones d’attaque Molniya et
+Lancet. Il porte la désignation UAV 25G 12V. L’engin était équipé d’une caméra EO bas coût et d’un modem réseau Mesh pour assurer
+la mission relais. L’UAV a été identifié comme un drone 12VVP fabriqué par 25G située dans le kraï de Primorie, en Fédération de
+Russie. Il aurait une MTOW de 18 kg et une endurance de 1,4 h.
+LUTTE ANTI-DRONE
+Analyse : Raytheon a fait évoluer son Coyote en plusieurs versions et étendu ainsi son spectre d’emploi.
+Le Coyote de Raytheon efficace contre un essaim d’UAV
+Source : UAS vision
+12/02/2026
+ÉTATS-UNIS
+Raytheon annonce avoir démontré avec succès les capacités du Coyote Block 3 Non-Kinetic (NK) lors d’une récente démonstration de
+l’US Army. Le système a vaincu les essaims d’UAV lancés pendant l’exercice et a démontré des capacités de lancement, de vol,
+d’interception et de récupération. Le Coyote Block 3NK est un C-UAS capable d’abattre les essaims d’UAV en utilisant une charge utile
+non cinétique pour minimiser le risque de dommages collatéraux. Le système peut alors être rappelé et redéployé pour des
+engagements supplémentaires.
+Analyse : La compétition sera rude. GA et Anduril, en compétition pour l’Inc 1 du CCA semblent favoris mais Boeing avec l’expérience
+des MQ-28 et MQ-25 apparait comme très compétitif.
+L’US Navy & les industriels poussent vers la mise en œuvre rapide d’UCAV sur porte-avions
+Source : ArmyRecognition
+09/02/2026
+ÉTATS-UNIS
+L’US Navy veut disposer rapidement d’UCAV sur ses porte-avions et General Dynamics et Anduril travaillent déjà sur le sujet mais
+Boeing et Northrop Grumman aussi. Les futurs appareils de l’USN seront des versions très différentes de celle de l’USAF.
+
+[Page 11 / 18 | chars: 3934]
+--------------------------------------------------------------------------------
+
+2/Briques technologiques
+11
+Bulletin de veille d’actualité n°13 / Janvier-Février 2026
+Analyse : L’information est difficile à confirmer. Si elle est vraie cela pourrait indiquer que la Chine, ou des industriels chinois,
+utilisent le théâtre ukrainien pour expérimenter voire tester des armements.
+Les forces russes utilisent un laser de fabrication chinoise pour contrer les drones
+Source : Defence blog
+19/01/2026
+RUSSIE
+Une chaîne médiatique russe pro-Kremlin a publié de nouvelles images montrant ce qu’elle affirme être l’utilisation au combat d’une
+arme laser C-UAS dans la région russe de Belgorod. L’arme serait d’origine chinoise. Il s’agirait du système LASS (Low-Altitude
+Laser Defending System) aussi connu sous le nom de Silent Hunter.
+Analyse : La Russie adapte son armement aux menaces ce qui n’a rien d’étonnant. Les performances restent floues et difficiles à
+confirmer. Les deux questions clefs restent la détection des UAV et la production en masse de ces munitions.
+De nouvelles munitions pour les Kalachnikov pour lutter contre les petits UAV
+Source : Army recognition
+27/01/2026
+RUSSIE
+Rostec a annoncé le 22 janvier que des unités des forces russes seront bientôt équipées d’une nouvelle munition, la Mnogotochie,
+destinée aux fusils d’assaut Kalachnikov pour leur permettre d’engager, à courte portée, des petits UAV. La famille Mnogotochie
+existerait en 2 versions 5.45×39 mm et 7.62×54 mm. La portée, contre des UAV, serait de 300 m.
+Analyse : L’information est très succincte et ne permet pas de juger de sa crédibilité. Toutefois, elle montre que l’Ukraine s’oriente
+aussi vers les laser comme C-UAS
+L’Ukraine développe un laser C-UAS
+Source : NextGenDefense
+12/02/2026
+UKRAINE
+L’Ukraine développerait un C-UAS utilisant un laser, le Sunray. Le développement a duré 2 ans et coûté des millions de dollars.
+L’appareil serait en phase finale d’essais et suffisamment petit pour être installé sur le toit d’un pick-up.
+Analyse : Encore une nouvelle arme C-UAS courte portée pour renforcer une défense aérienne multicouches. Rheinmetall se
+positionne sur ce marché porteur.
+Rheinmetall dévoile un canon antidrone intelligent pour véhicules et bases
+Source : Nextgendefense
+25/02/2026
+ALLEMAGNE
+Lors d’Enforce Tac 2026, Rheinmetall a exposé son RCWS320C-UAS, une arme intelligente
+télécommandée conçue pour protéger les véhicules et les bases contre les UAV. La plateforme
+combine données de capteurs, contrôles automatisés de tir et options de destruction dure ou
+douce, offrant aux opérateurs des défenses flexibles contre les UAV et autres cibles aériennes.
+L’armement comprend la mitrailleuse Dillon Aero M134D, capable de tirer contre des UAV en
+essaim. Le RCWS320C-UAS peut être monté sur des véhicules chenillés ou à roues, des UGV
+ou des sites fixes. Sa masse est de 430 kg à vide et 530 kg à plein charge. Il tire 3 000 cp/min
+et peut engager des menaces jusqu’à 600 m.
+Le nouvel UAV/Intercepteur Salyut ukrainien 
+Source : Militarnyi
+Analyse : Le Salyut a une configuration quadrirotor tail seater mais avec une courte voilure droite. Il serait déjà employé sur le front
+mais son coût et sa cadence de production sont inconnus.
+07/01/2026
+UKRAINE
+Une équipe d’ingénieurs ukrainiens a développé un nouvel UAV/Intercepteur, le Salyut, qui est
+produit localement. Seulement deux mois se seraient écoulés entre le début des travaux et les
+premières interceptions d’UAV russes. Le Salyut aurait déjà abattu, dans l’ordre : Gerbera, Zala et
+Shahed. Selon ses créateurs, le Salyut a été développé sur la base du RetEx et en étroite
+coopération avec les unités de 1ère ligne. Les ingénieurs se sont déplacés directement sur la ligne
+de front pour cela. Le Salyut est annoncé avec une vitesse de croisière de 180/200 km/h, une
+vitesse maximale de 320 km/h, une endurance de 20 min, un rayon de combat de 20 km. Il
+disposerait d’un système EO/IR et d’un système d’acquisition et de pistage automatique de cible.
+
+[Page 12 / 18 | chars: 4429]
+--------------------------------------------------------------------------------
+
+AIR
+À travers le monde, les armées se dotent de drones pour faire face aux menaces, tantôt en améliorant des
+systèmes très sophistiqués, tantôt en créant des flottes importantes capables de submerger les défenses
+adverses. La Turquie continue de bien se positionner en réalisant des démonstrations de ses capacités
+technologiques. Les drones permettent aujourd’hui, sur terre, en mer et dans les airs, de réaliser des tâches
+similaires à celles effectuées par des humains sans mettre en danger de pilote : minage, sauvetage,
+patrouilles, tirs complexes…
+3/ CONCEPTS D’EMPLOI
+12
+L’armée régulière iranienne annonce avoir officiellement intégré 1 000 nouveaux UAV dans ses forces. L’Iran ne précise pas les types
+d’UAV mais il s’agirait de Shahed 136, Shahed 131, Shahed 238 et Mohajer 6.
+L’Iran annonce disposer de 1000 UAV développés dans le cadre d’un conflit avec les USA 
+Source : ArmyRecognition
+Analyse : Les images diffusées montrent plusieurs types d’UAV mais il est difficile de savoir s’il s’agit de systèmes opérationnels ou
+de maquettes. La part de désinformation est à prendre en compte.
+IRAN
+01/02/2026
+Les Royal Marines britanniques ont réalisé une série de premières opérationnelles avec des drones lourds lors d’un déploiement en
+Norvège, renforçant les capacités de combat arctiques. Pendant l’opération, les opérateurs ont testé des quadricoptères T150B lourds
+pour des missions logistiques. Les T150B soutenaient les troupes de mortiers des 40 et 45 Commando, transportant des canons de
+mortier de 81 mm, des trépieds, des plaques de base et des boîtes de munitions. Ils ont également déplacé des mitrailleuses
+polyvalentes et des trépieds sur de nouvelles positions et livré un robot de déminage, réduisant ainsi la charge physique du personnel.
+De plus, les systèmes transportaient du sang et des fournitures médicales, tandis que les médecins étaient formés aux procédures
+appropriées de chargement et de réception.
+Les Royal Marines testent le T150B en conditions arctiques
+Source : TheDefensePost
+Analyse : Les Britanniques progressent très vite dans le domaine de l’emploi d’UAV/Cargo dans toutes les conditions. Ils sont bien
+aidés par le BAe System T-150 qui se positionne comme un leader du marché.
+ROYAUME-UNI
+25/02/2026
+L’Akinci réalise son 1er tir air-air en utilisant des munitions Eren contre un UAV type Shahed
+Source : ArmyRecognition
+Analyse : L’Akinci élargit encore une fois son spectre d’armement et d’emploi. Une version alerte en vol d’un Akinci doté de plusieurs
+Eren pourrait avoir un sens pour la lutte anti-UAV/OWA voire anti-hélicoptère.
+22/02/2026
+TURQUIE
+Le 21 février 2026, Baykar Technologies a annoncé que l’Akinci avait mené son 1er engagement air-air réussi en utilisant la munition
+Eren et en détruisant un UAV cible, simulant un Shahed, au-dessus de la mer Noire au large de Sinop. L’Eren est un missile développé
+par Roketsan. Il pèse 35 kg, est long de 2 m, a une portée de 100 km et il est propulsé par réacteur.
+Selon l’Ukraine, la Russie modernise la structure organisationnelle de son armée en s’appuyant sur l’expérience de la guerre en
+Ukraine. L’accent est mis sur le développement des composants sans pilote. En plus du Centre Rubicon pour les technologies sans
+pilote et du Centre spécial BARS-SARMAT, la Russie a déjà formé 7 régiments, 25 bataillons, 1 division et 3 détachements de
+systèmes sans pilote. Le nombre total de personnels est déjà de 87 000. C’est la 1ère étape. Une 2nde étape est prévue en 2026.
+Selon l’Ukraine, en 2026, la Russie prévoit de déployer des brigades de systèmes sans pilote et de réorganiser les unités existantes.
+L’Ukraine annonce que la Russie prévoit de créer 1 brigade, 4 régiments, 96 bataillons, 2 divisions et 82 compagnies de systèmes
+sans pilote en 2026. Ils prévoient également de réorganiser le centre existant BARS-SARMAT et 5 régiments sous commandement de
+district en 6 brigades des Forces des Systèmes Sans Pilote.
+La Russie modernise la structure organisationnelle de son armée 
+Source : Militarnyi
+Analyse : La Russie prend de plus en plus en compte la composante « sans pilote » des combats et cherche à adapter sa structure à
+la part croissante de cette composante. Toutefois, si la structure est une chose importante, la formation, l’entrainement et
+l’équipement des forces avec du matériel performant restent les clefs du succès et sur ces points, la Russie semblent encore un peu
+en retard.
+RUSSIE
+03/02/2026
+
+[Page 13 / 18 | chars: 2840]
+--------------------------------------------------------------------------------
+
+4/Perspectives économiques
+13
+Bulletin de veille d’actualité n°13 / Janvier-Février 2026
+TERRE
+La Turquie déploie l’UGV Aslan lors de l’exercice Steadfast Dart 26 de l’OTAN 
+Source : ArmyRecognition
+Analyse : À travers ce déploiement, la Turquie et Aselsan cherchent à acquérir de
+l’expérience et du RetEx pour améliorer le système mais aussi attaquer le marché export.
+25/02/2026
+TURQUIE
+Le 19 février 2026, le Commandement conjoint des forces de l’OTAN à Brunssum a rapporté
+que les forces turques avaient déployé l’UGV Aslan lors de l’exercice Steadfast Dart 26 dans
+le nord de l’Allemagne. Steadfast Dart 26 sert de terrain d’essai pour la nouvelle Force de
+réaction alliée ainsi que pour les systèmes robotiques et autonomes. L’Aslan est développé
+par Aselsan et est conçu pour des missions ISR et acquisition de cibles. Il mesure 1,85 m
+de long, est large de 1,35 m et haut de 1,45 m. Sa masse est de 750 kg. L’Aslan peut
+recevoir divers types d’armements et de capteurs EO/IR.
+La Russie révèle de nouvelles tactiques de chars équipés de drones
+Source : Defence-Blog
+Analyse : En mettant en place de telles tactiques, la Russie reconnait donc que la menace UAV/FPV est conséquente, mais démontre
+aussi que des solutions sont envisageables.
+07/01/2026
+RUSSIE
+La Russie a révélé un nouvel ensemble de tactiques pour ses unités de chars, décrivant des manœuvres coordonnées associant des
+véhicules blindés à des UAV. Les unités de 1ère ligne utilisent désormais une méthode à deux chars dans laquelle un véhicule tire
+depuis des positions de sécurité tandis que le second exécute une manœuvre rapide vers l’avant vers la ligne de contact. Les actions
+des deux chars sont coordonnées par des UAV utilisés pour le repérage, la correction des cibles et la conscience du champ de
+bataille. Cette approche a été développée pour réduire l’exposition aux frappes de précision ukrainiennes et aux UAV/FPV.
+Les Russes minent le fleuve Dnipro à l’aide d’un USV Sirius-82
+Source : Militarnyi
+Analyse : L’emploi d’USV pour miner des rivières n’a rien d’étonnant. Les Russes innovent.
+14/01/2026
+RUSSIE
+Les forces russes posent des mines fluviales ancrées sur le fleuve Dnipro à l’aide d’un USV Sirius-82. D’après les images diffusées, 2
+mines sont montées à bord de la plateforme et relâchées après que les loquets de retenue ont été déverrouillés. Chaque mine pèse 13
+kg dont 3 de TNT.
+NAVAL
+L’US Navy déploiera cette année des USV avec ses forces de surface
+Source : Defensenews
+Analyse : L’US Navy a déjà utilisé ces systèmes lors d’exercices mais elle semble clairement
+décidée à franchir une nouvelle étape dans l’emploi des USV.
+15/01/2026
+L’US Navy envisage de déployer en 2026 des USV avec ses forces de surface. Selon l’US Navy,
+les MUSV Seahawk et Sea Hunter seront déployés. Le Seahawk devrait intégrer un Carrier Strike
+Group.
+ÉTATS-UNIS
+
+[Page 14 / 18 | chars: 4065]
+--------------------------------------------------------------------------------
+
+AIR
+Les armées du monde entier tirent les conclusions du conflit ukrainien et passent des commandes pour
+faire face à la menace drone et disposer de capacités de frappe accrues. Les États-Unis continuent de
+réaliser de nombreuses ventes auprès de leurs partenaires. Plusieurs plans d’investissement, valorisés en
+milliards, sont en cours de programmation, tandis que d’autres armées procèdent à des acquisitions
+progressives sans modifier en profondeur leur doctrine, oscillant entre amélioration incrémentale et
+évolution organisationnelle. Les entreprises éprouvées sur le front conservent un avantage compétitif.
+4/ PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+14
+Analyse : La configuration est très proche de celle des S-100 français. Les FDI françaises disposent nativement de la capacité de
+mettre en œuvre des S-100 et potentiellement à terme des S-300.
+La Grèce acquiert des Schiebel Camcopter S-100 pour ses frégates FDI HN 
+Source : NavalNews
+13/02/2026
+GRÈCE
+Le 13 février, la Grèce a signé un contrat pour acquérir 4 systèmes Schiebel S-100 pour ses frégates de classe Kimon (FDI HN). Le
+1er système (2 VA) sera déployé sur HS Kimon au printemps 2026, aux côtés d’un système terrestre pour la formation, les premiers
+équipages terminant leur formation dans la même période. Les S-100 grecs seront dotés de MX10 et de PT-8. Les S-100 seront
+intégrés au CMS SETIS des frégates. L’installation et l’intégration seront assurées par Naval Group en Grèce, avec tout le câblage et
+l’intégration des systèmes effectués localement.
+NAVAL
+Des USV américains au Japon
+Source : Defence-Blog
+Analyse : À travers ce contrat, le Japon se dote rapidement d’USV de surveillance maritime de grande endurance. Il est probable qu’il
+ne s’agisse que d’une 1ère étape en attendant la mise au point par la BITD japonaise de systèmes équivalents. Le type de CU n’est pas
+précisé mais selon le constructeur, le Wave Glider peut recevoir une large gamme de capteurs.
+18/02/2026
+ÉTATS-UNIS / JAPON
+L’USAF a attribué à Liquid Robotics Inc (Virginie) un contrat de 25 M$ pour fournir 20 USV dans
+le cadre d’une vente FMS (Foreign Military Sales) à destination du Japon. Le contrat devra être
+achevé en février 2028. Le type d’USV n’a pas été précisé. Cependant, le Japon a manifesté,
+lors de l’exercice Talisman Sabre 2025 mettant en œuvre des USV Wave Glider de Liquid
+Robotics, son intérêt pour ce type de système. Le Wave Glider est un USV hybride avec deux
+parties : une partie surface intégrant des panneaux solaires et une partie immergée utilisant
+l’effet des vagues pour générer de l’énergie. Un gouvernail assure la direction, tandis qu’un
+propulseur auxiliaire permet de manœuvrer lors de conditions marines difficiles telles que des
+vents faibles ou des courants forts. Le système permet d’obtenir une très longue endurance
+nécessaire pour la surveillance de grandes zones maritimes.
+Taïwan vise l’achat de 1600 USV d’attaque dans le cadre d’un plan de défense de 39,8 Md$
+Source : TheDefensePost
+Analyse : Le projet est ambitieux mais l’information ne précise pas les dates de livraisons envisagées. Le système apparait clairement
+destiné à lutter contre une flotte de débarquement.
+29/12/2025
+TAÏWAN
+L’armée taïwanaise a annoncé son intention de produire jusqu’à 1 600 USV d’attaques dans le cadre d’un budget spécial de défense de
+39,8 Md$ visant à renforcer la dissuasion. Les responsables ont indiqué que la construction de la coque est relativement simple,
+tandis que le principal défi technique réside dans l’équipement des plateformes de systèmes d’armes. Pour accélérer la production, le
+Commandement de la Marine de Taipei devrait désigner l’Institut national Chung-Shan des sciences et technologies (NCSIST) comme
+entrepreneur principal. NCSIST possède l’expérience avec son USVN Kuai Chi et a signé un accord de coopération avec MARTAC. Le
+futur USV doit atteindre une vitesse maximale d’au moins 35 nds, pouvoir être mis en œuvre par mer 4, disposer d’une CU EO/IR, être
+apte aux missions en essaim et pouvoir être contrôlé en temps réel jusqu’à 24 nq.
+
+[Page 15 / 18 | chars: 1607]
+--------------------------------------------------------------------------------
+
+4/Perspectives économiques
+15
+Bulletin de veille d’actualité n°13 / Janvier-Février 2026
+L’USAF approuve un budget de 145M$ pour des roquettes de lutte contre les essaims d’UAV 
+Source : ArmyRecognition
+Analyse : En faisant ce choix, l’USAF réagit vite et réduit les budgets nécessaires pour se doter rapidement d’un moyen « bas coût »
+(version US) de lutte contre les UAV et les essaims d’UAV.
+17/02/2026
+ÉTATS-UNIS
+BAE System a obtenu un contrat du DoD, de 145 M$, pour adapter la roquette APKWS II comme C-UAS contre les essaims d’UAV.
+La Roumanie va acquérir le système de contre-drone MEROPS éprouvé en Ukraine
+Source : Militarnyi
+Analyse : Le système Merops, avec les UAV/Intercepteur Surveyor sont déjà en service en Pologne.
+La Roumanie veut renforcer ses défenses C-UAS et choisit un système opérationnel.
+22/01/2026
+La Roumanie annonce le déploiement prochain du C-UAS Merop fabriqué aux États-Unis. Le MoD
+roumain a annoncé sa mise en service rapide. Les forces roumaines sont déjà en formation sur le
+système.
+ROUMANIE
+Commande de fusils Mossberg 590A1 avec canons spécifiques pour intercepter les UAV
+Source : ArmyRecognition
+Analyse : Ce type d’armes a montré son efficacité contre les petits UAV. L’US Army tire ainsi les leçons du conflit en Ukraine.
+25/02/2026
+ÉTATS-UNIS
+L’US Army a effectué une commande pour la fourniture d’un lot de fusils à pompe Mossberg 590A1. Cette commande porterait sur 12
+à 14 000 armes. Les armes commandées sont dotées d’un canon de 17 pouces et compatibles avec des munitions au tungstène de 57
+g. Ces spécificités en font des armes anti-UAV.
+LUTTE ANTI-DRONE
+
+[Page 16 / 18 | chars: 1807]
+--------------------------------------------------------------------------------
+
+▪
+Ukraine as a Model, a Warning, and a Partner for Taiwan’s Drone Industry. Samara Duerr. The Diplomat, 
+Janvier 2026.
+▪
+Peut-on stocker des drones ? L'Europe est aux prises avec un dilemme en matière d'armes, Charles Clover,
+Sylvia Pfeifer, Laura Pitel, Christophe Miller, Financial Times, février 2026
+▪
+L'OTAN réunit l'industrie à Bruxelles pour la Semaine de la lutte contre les drones, Inside unmanned systems,
+janvier 2026
+▪
+Guerre en Ukraine : ces drones navals qui ont « interdit » la mer Noire à la flotte militaire russe, Emmanuel
+Grynszpan, Le Monde, Février 2026
+▪
+Édition 2026 du calepin des entreprises internationales de défense, Direction générale de l'armement, janvier
+2026
+▪
+Physical Protection of Critical Infrastructure : Reframing Critical Infrastructure Security for the Drone Threat,
+Joint Interagency Task Force 401, US Department of Defence, janvier 2026.
+▪
+Pretoriani: a machine-human concept in the drone age. Davide Montingelli, Defense & Security Analysis,
+janvier 2026.
+▪
+Countering the drone threat to heavy armour. Alexey Tarasov, European Security & Defence, Janvier 2026.
+▪
+Achieving strategic efficiency: Ukrainian drone strikes on Russian oil infrastructure. Camryn C. Huff, Patti J.
+Clark& Hans-Joachim K. Ruff-Stahl. Journal of Strategic Studies, janvier 2026.
+▪
+A European ‘Drone Wall’: A Tall Order? James M Page. RUSI, Janvier 2026.
+▪
+Drones and the War for the Transparent Battlefield. Robert Tollast, RUSI, Janvier 2026.
+▪
+The Potential of Reserve Combat Aviation for the Counter Drone Mission. Nick Reynolds. RUSI, février 2026.
+▪
+Constrained Innovation: Drones and the Russo-Ukrainian War. Mark Sauser. Survival, février 2026. 
+▪
+Machines in the Alleyways: China’s Bet on Autonomous Urban Warfare. Michael C. Loftus. The Diplomat, 
+février 2026.
+PUBLICATIONS
+16
+
+[Page 17 / 18 | chars: 1406]
+--------------------------------------------------------------------------------
+
+GLOSSAIRE
+Abréviation / Sigle
+Signification
+AESA
+Active Electrinocally Scanned Array
+ALE
+Air Launched Effects
+ANC
+Avanced Naval Capabilities
+ATLA
+Acquisition, Technology & Logistics
+CCA
+Combat Collaborative Aircraft
+CU
+Charge Utile 
+CUAS
+Counter UAS 
+EO/IR
+Electro-Opticol / InfraRed
+EW
+Electronic Warface
+FPV
+First Person View
+GE
+Guerre électronique
+IA
+Intelligence artificielle
+IFDL
+Intra Flight Data Link
+IRST
+InfraRed Search and Track
+ISR
+Intelligence, Surveillance and Reconnaissance
+LEA 
+Long Endurance Aircraft
+LTDF
+Land Tactical Deep Find
+LUCAS
+Low Cost Uncrewed Combat Attack System
+LUSV 
+Large Unmanned Surface Vessels
+MALE
+Medium Altitude Long Endurance
+MTOW
+Maximum Take-Off Weight
+MUGEM
+Multipurpose Unmanned Ground Effect Maritime
+OTAN
+Organisation du Traité de l’Atlantique Nord
+OWA
+One Way Attack
+ReTex
+Retour d’expérience
+SAR
+Search and Recue 
+SBU
+Services de renseignement ukrainien
+SMI 
+Slow Movers Intercept
+TACAIR
+Tactical Aircraft
+TRUAS
+Tactical Reach Unmanned Aircraft System
+UAS
+Unmanned Air System
+UAV
+Unmanned Aircraft Vehicle
+UCAV
+Unmanned Combat Aerial Vehicle
+UGV
+Unmanned Ground Vehicle
+USAF
+United States Air Force
+USMC
+United States Marine Corps
+USV
+Unmanned Surface Vehicle
+UUV
+Unmanned Underwater Vehicle
+VA
+Vecteur Aérien 
+VLS
+Vertical Launch System
+VTOL
+Vertical Take-Off and Landing
+XLAUV 
+Extra Large Autonomous Underwater Vehicle
+XLUUV 
+Extra Large UUV – (US Navy)
+17
+
+[Page 18 / 18 | chars: 103]
+--------------------------------------------------------------------------------
+
+www.eurocrise.com
+8 rue de Bellefond
+75009 Paris
+affinis-defense.fr 
+126 Rue de Tocqueville
+75017 Paris
+

@@ -1,0 +1,55 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 25 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+23/47 
+Une décision d’homologation conditionnelle ou restrictive doit préciser les critères ou les 
+actions nécessaires pour procéder à une homologation ferme. Les actions à réaliser complètent le 
+PACS du SI. Il sera inséré dans le dossier d’homologation et mis à jour tout le long du cycle de vie du 
+SI. 
+RO 24 : il est OBLIGATOIRE d’insérer dans la décision d’homologation le niveau de protection 
+maximal des données pouvant être traitées par le SI et leurs éventuelles mentions de 
+manipulation ou de diffusion. 
+Un refus d’homologation engage directement la responsabilité de l’AE et éventuellement celle 
+des opérateurs. L’AH les informe des risques encourus et de leurs responsabilités. 
+ La durée de validité de la décision d’homologation 
+RO 25 : il est OBLIGATOIRE d’assortir la décision d’homologation d’une durée de validité et de fixer 
+les conditions de validité.  
+La durée de validité d’une décision d’homologation est laissée à l’appréciation de l’AH. Toutefois, elle 
+ne doit pas dépasser : 
+● 2 ans pour les systèmes traitant des informations au moins de niveau de classification 
+TRÈS SECRET ; 
+● 3 ans pour les systèmes traitant des informations de niveau de classification SECRET ; 
+● 5 ans pour des systèmes traitant des informations sensibles, y compris celles portant la 
+mention DIFFUSION RESTREINTE ; 
+● 7 ans pour les autres systèmes. 
+Dans le cas de systèmes industriels traitant des informations non classifiées, la durée de validité de 
+l’homologation doit être inférieure ou égale à : 
+● 3 ans pour les SI de classe 3 ; 
+● 5 ans pour les SI de classe 2 ; 
+● 7 ans pour les SI de classe 1.  
+Au-delà de sa date de validité et jusqu’au renouvellement de la décision d’homologation, l’utilisation du 
+SI doit être suspendue. 
+ Suspension d’une homologation 
+RO 26 : il est OBLIGATOIRE de remettre en cause une décision d’homologation quand : 
+● 
+les conditions de sa validité ne sont plus respectées ; 
+● 
+les conditions de configuration ou d'exploitation du SI ont été modifiées de manière 
+significative ; 
+● 
+le SI ne correspond plus au périmètre d’homologation (ajout de fonctionnalités, 
+d’applications, d’interconnexions non prévues) ; 
+● 
+des vulnérabilités ont été détectées et peuvent remettre en cause le niveau de sécurité 
+du SI de manière inacceptable pour l’AH ; 
+● 
+les menaces sur le SI ont significativement évolué ; 
+● 
+des problèmes d’application des mesures de sécurité ont été identifiés, notamment lors 
+d’un contrôle ou d’un audit de sécurité ; 
+● 
+le MCS du SI n’est pas applicable ou suffisamment appliqué, ou a été défaillant ;

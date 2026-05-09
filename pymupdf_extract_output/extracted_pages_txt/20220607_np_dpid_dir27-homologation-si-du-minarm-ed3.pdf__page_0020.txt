@@ -1,0 +1,49 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 20 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+18/47 
+Les PES doivent : 
+● être adaptées au public visé (RSSI, administrateurs, utilisateurs)10 ; 
+● ne contenir que les informations strictement nécessaires aux destinataires. 
+ 
+La liste de risques résiduels 
+L’ensemble des risques portant sur le SI et subsistant toujours après l’implémentation des mesures de 
+sécurité doit être présenté à l’AH avec les niveaux de gravité et de vraisemblance.  
+Le SI est soumis à un ensemble d’exigences de sécurité de niveaux d’importance variés en raison de 
+la nature de ses données, des activités qu’il porte ou des éléments qui le constituent. Ces exigences 
+sont extraites d’un référentiel préalablement défini. Lorsque des exigences ne sont pas applicables pour 
+des raisons justifiées, des mesures sont définies pour réduire les risques que cette non-conformité peut 
+générer. La liste des risques résiduels prend aussi en compte les risques subsistant après la 
+mise en place de ces mesures dérogatoires. 
+RO 14 : il est OBLIGATOIRE pour l’AH de délivrer une décision d’homologation à partir d’une liste de 
+risques résiduels après avoir autorisé les mesures dérogatoires relevant de son périmètre. 
+ 
+Le plan d’amélioration continue de la sécurité 
+Le plan d’amélioration continue de la sécurité (PACS) définit et suit dans le temps les mesures de 
+sécurité à appliquer à un SI pour réduire les risques, traiter les non-conformités et les vulnérabilités du 
+SI.  
+Le PACS identifie le responsable de chaque mesure et les difficultés de mise en œuvre, évalue le coût 
+nécessaire pour la réaliser, son échéance et son état de réalisation. Chaque mesure est associée à au 
+moins un risque. 
+Le PACS est initié et mis à jour par le RSSI dès la phase de développement du SI et tout au long du 
+cycle de vie. 
+ Trois types de démarche 
+La présente directive définit trois types de démarche d’homologation : sommaire, simplifiée et standard. 
+Les types de démarches d’homologation se différencient par : 
+● la nature et la profondeur de l’analyse de risques (cf. ANNEXE 2) ; 
+● la composition du dossier d’homologation (cf. ANNEXE 1) ; 
+● la composition de la commission d’homologation. 
+RO 15 : il est OBLIGATOIRE, pour homologuer un SI, d’appliquer l’une des trois démarches 
+d’homologation identifiées : sommaire, simplifiée ou standard. 
+ 
+Démarche sommaire 
+La démarche sommaire repose sur une analyse de risques réalisée à partir d’un certificat d’usage et 
+de conformité (CUC) fondé sur le [GUIDE SSI], éventuellement complété par la [PSSIM], les politiques 
+de sécurité du SI qui l’héberge, voire de la [DIR 39] lorsqu’elle s’applique.  
+Le [GUIDE 7] propose un modèle de CUC que les AH peuvent adapter. 
+                                               
+10 Des PES peuvent en annexe fournir des fiches réflexes par public visé.

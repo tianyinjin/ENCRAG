@@ -1,0 +1,20 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 93 / 108
+
+================================================================================
+
+93
+POLE D'EXCELLENCE CYBER
+Si le mot de passe est correct, le containeur est monté en tant qu’un lecteur local 
+(disque dur) sous la lettre que vous avez choisie 5 . Il est visible, par exemple, dans 
+le gestionnaire de fichiers. Vous pouvez l’ouvrir comme un simple disque dur et y 
+déposer des fichiers que vous voulez protéger :
+Lorsque vous avez fini de vous servir de votre containeur, n’oubliez pas de le 
+démonter. Pour cela rendez-vous sur l’interface principale de VeraCrypt, sélec­
+tionnez votre conteneur dans la liste, puis cliquez sur le bouton Démonter 6  :
+Si vous voulez supprimer le conteneur créé, il suffit de supprimer le fichier correspon­
+dant puis de vider la corbeille. Cependant, toutes les données qu’il contenait seront 
+supprimées également.
+5
+6

@@ -1,0 +1,81 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 45 / 88
+
+================================================================================
+
+45
+pour échanger des informations avec le reste du monde. 
+Cette architecture réseau iranienne réussit à concilier 
+contrôle et résilience. Le contrôle est assuré par 
+les trois AS gouvernementaux, qui surveillent et 
+régulent les flux de données aux frontières du réseau. 
+Parallèlement, la forte interconnectivité du réseau 
+domestique crée un riche écosystème de chemins 
+de routage internes, rendant le réseau résilient face 
+à la congestion du trafic et aux attaques potentielles. 
+Contrôle et résilience du réseau iranien
+Le réseau iranien, structuré en forme d’entonnoir, permet 
+un filtrage rigoureux des flux de données entrants 
+et sortants. Les trois AS principaux, contrôlés par 
+le gouvernement, constituent les points de passage 
+obligatoires pour tout échange d’informations avec 
+l’extérieur. Cela signifie que toutes les données, qu’elles 
+soient destinées à entrer ou à sortir du pays, doivent 
+passer par ces goulots d’étranglement contrôlés. Ce 
+contrôle centralisé facilite l’implémentation de diverses 
+techniques de censure, telles que le blocage de sites 
+Web (notamment par DNS poisoning), le filtrage de 
+mots-clés, et l’inspection approfondie des paquets (Deep 
+Packet Inspection, DPI). Ces méthodes permettent aux 
+autorités de surveiller et de filtrer efficacement les 
+contenus indésirables ou perçus comme menaçants pour 
+le régime. Par exemple, les réseaux sociaux, messageries 
+instantanées (Instagram, WhatsApp, Twitter, etc.) et 
+les sites d’information indépendants peuvent être 
+facilement bloqués, limitant ainsi l’accès de la population 
+à des sources d’information variées et non censurées.
+L’architecture centralisée du réseau iranien permet 
+également une coupure quasi totale d’Internet en 
+cas de troubles civils ou de mouvements sociaux. Un 
+exemple frappant est celui de novembre 2019, lorsque 
+des manifestations contre la hausse des prix du carburant 
+ont éclaté à travers le pays. En réponse, les autorités 
+iraniennes ont presque totalement coupé l’accès à 
+l’Internet pendant plusieurs jours. Cette capacité de 
+coupure est rendue possible par le contrôle exercé sur 
+les principaux points d’interconnexion avec l’extérieur. En 
+fermant ou en limitant les capacités des trois principaux 
+AS, le gouvernement peut isoler efficacement le pays 
+du reste du monde. Cela empêche la diffusion rapide 
+d’informations et de vidéos de manifestations, réduit ainsi 
+la visibilité internationale de ces événements et entrave 
+la possibilité de coordination entre les manifestants à 
+l’intérieur du pays. Le risque d’isolement de la population 
+iranienne est d’autant plus grand que cette coupure totale 
+de l’Internet mondial n’affecterait pas la vie quotidienne 
+du pays, car l’interconnexion dense du réseau interne 
+permettrait de ne maintenir l’accès qu’aux sites dont le 
+contenu est accepté par le régime, et aux messageries 
+et applications conçues localement. Cet Intranet national 
+est la réalisation du projet de « réseau national de 
+l’information » (RNI), lancé en 2012 par les autorités.
+L’utilisation de VPN pour contourner la situation actuelle
+Aujourd’hui, une coupure quotidienne de l’Internet a 
+été instaurée de 16h à minuit en Iran, tel un couvre-
+feu. Pour contourner cela de plus en plus d’iraniens 
+se tournent vers les VPN (réseaux privés virtuels) qui 
+leur permettent d’obtenir une adresse IP étrangère, et 
+d’échapper ainsi à la surveillance et aux restrictions 
+imposées par le régime. Cependant, les autorités 
+iraniennes mettent en place des techniques de blocage 
+de VPN de plus en plus sophistiquées, qui leur permettent 
+de bloquer l’accès aux sites qui contournent la censure 
+dans 69 % des cas(2). Elles utilisent notamment des 
+interférences DNS et des perturbations HTTP/HTTPS 
+pour détecter et bloquer les connexions VPN. Ces 
+mesures rendent l’accès à un l’Internet libre et non 
+censuré de plus en plus difficile pour la population, 
+malgré leurs efforts pour contourner ces restrictions. 
+Retrouvez les références bibliographiques de cet 
+article dans la rubrique “Notes et références” - p.78

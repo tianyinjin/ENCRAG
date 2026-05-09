@@ -1,0 +1,51 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 18 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+16/47 
+ Dossier d’homologation 
+L’AH doit s’appuyer sur des livrables produits par la démarche d’homologation pour prononcer la 
+décision d’homologation. L’ensemble des livrables constitue le dossier d’homologation. 
+RO 9 :  il est OBLIGATOIRE, afin que la décision d’homologation soit motivée et justifiée, que l’AH 
+s’appuie sur un dossier d’homologation conforme à la démarche d’homologation choisie et dont 
+les pièces constitutives sont définies par la stratégie d’homologation. 
+Quelle que soit la démarche d’homologation, le dossier d’homologation est a minima constitué des 
+éléments suivants : 
+● la stratégie d’homologation, pièce maîtresse de la démarche, qui définit le périmètre 
+d’homologation, identifie les responsabilités, les tâches à réaliser (éventuellement 
+assorties de conditions), les livrables à fournir (cf. §4.4.2) ; 
+● les procédures d’exploitation de sécurité (PES) qui précisent les mesures 
+organisationnelles de sécurité à appliquer au SI (cf. §4.4.3) ; 
+● la liste des risques résiduels portant sur le SI (cf. §4.4.4) ; 
+● le plan d’amélioration continue de sécurité (cf. §4.4.5). 
+Si la mise sous supervision de sécurité du SI par un SOC est décidée, la démarche d’homologation doit 
+vérifier que les prérequis nécessaires à cette mise sous supervision ont bien été pris en compte. Le 
+SOC peut fournir un compte-rendu de faisabilité qui sera alors inséré dans le dossier d’homologation.  
+Dans le cas d’une prestation informatique confiée à un tiers externe au ministère, notamment une 
+prestation d’hébergement, le dossier d’homologation doit comprendre un plan d’assurance sécurité 
+(PAS) produit par le prestataire accompagné d’un certificat attestant de sa conformité. 
+RO 10 : il est OBLIGATOIRE pour le RSSI de constituer le dossier d’homologation tel qu’il est défini 
+dans la stratégie d’homologation et de le faire valider par le CEAH. 
+Par sa validation, le CEAH atteste que le dossier d’homologation est conforme aux attendus de la 
+stratégie d’homologation approuvée par l’AH. Il prononce un avis sur sa complétude et sur le contenu 
+des pièces le constituant. 
+L’approbation et la validation d’un dossier d’homologation impliquent l’approbation et la validation de 
+toutes les pièces qui le constituent.  
+Le dossier d’homologation, initié dès la phase de conception du SI, est tenu à jour tout au long du cycle 
+de vie du SI. Il est revu et contrôlé à chaque renouvellement d’homologation et à chaque 
+changement de RSSI.  
+ 
+Le périmètre d’homologation 
+RO 11 : il est OBLIGATOIRE pour le RSSI de documenter le périmètre d’homologation, validé par 
+l’AH, et de l’actualiser au fur et à mesure de l’évolution du SI. 
+Le périmètre d’homologation précise a minima les éléments suivants au fur et à mesure du projet : 
+● les différents contextes d’emploi possibles du SI ; 
+● les enjeux et les besoins de sécurité exprimés par l’AE ; 
+● les acteurs du SI (AE, opérateur, organisme utilisateur, etc.) ; 
+● les principales fonctionnalités du SI ou cas d’usage ; 
+● la nature des données traitées par le SI, notamment leur niveau de confidentialité ; 
+● les différents profils d’utilisateurs ; 
+● la configuration technique du SI ;

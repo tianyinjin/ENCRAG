@@ -1,0 +1,77 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 100 / 136
+
+================================================================================
+
+100 
+V-BAT 
+La dernière version du produit, le V-BAT 128 a une autonomie et 
+une charge utile accrue par rapport à la précédente version, le V-
+BAT 118. En 2019, le V-BAT a remporté la compétition Multi-
+Mission Tactical UAS du Naval Air Warfare Center Aircraft Division 
+(NAWCAD). Depuis juin 2022, il bénéficie du programme 
+d’accélération APFIT  (Accelerate the Procurement and Fielding of 
+Innovative Technologies). Désormais associé au logiciel Hivemind 
+de Shield AI, il peut être utilisé en essaim. 
+Dates et historique :  
+2010 - . 
+Acteurs : DARPA238, Shield AI (Martin UAV et auparavant MLB 
+Company), Brigham Young University1, US Navy. 
+Porteurs potentiels :  
+Bâtiments de surface. 
+Cas d’usage affichés :  ISTAR, GE, relais de communications. 
+ 
+PERFORMANCES DES VECTEURS D’ESSAI :  
+Vecteurs : V-BAT 128 (Shield AI et sa filiale Martin 
+UAV) (2021). Le V-BAT s’est révélé bien adapté à 
+un emploi aéromaritime. Son exploitation en 
+sécurité par les équipes de pont d’envol a fait 
+l’objet d’une attention particulière (pas de zone de 
+sécurité), ainsi que son montage rapide239. Il 
+pourrait être mis en œuvre par des vents de 25 nds 
+et résisterait bien aux rafales. 
+Lancement 
+et 
+récupération 
+verticaux 
+sans 
+installation autre qu’une petite surface plane240. 
+Transition vers un vol horizontal en moins de 15s. 
+Poids : 56,6 Kg dont charge utile modulaire : 
+11,3 Kg. Le rapport charge utile/poids est un point 
+fort du V-BAT. 
+Longueur : 2,74 m 
+Envergure : 2,95 m 
+Propulsion thermique 
+Vitesse max : 90 Nds 
+Autonomie : 11 h241 (45’ en stationnaire) 
+Rayon d’action : ~300 Nq 
+Plafond : 20 000 fts 
+Traitement et filtrage embarqué des données. 
+Communication : liaison de donnée et mesh. 
+PERFORMANCES DE L’ESSAIM : 
+Hivemind, « edge autonomy » de Shied AI, permet 
+aux essaims d’opérer de manière autonome, sans 
+GPS ni communication ni supervision : Hivemind 
+« lit » le champ de bataille et réagit de lui-même. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+238 Projet initial en 2010. 
+239 30 minutes à deux. 
+240 3,6 x 3,6 m 
+241 En vol horizontal

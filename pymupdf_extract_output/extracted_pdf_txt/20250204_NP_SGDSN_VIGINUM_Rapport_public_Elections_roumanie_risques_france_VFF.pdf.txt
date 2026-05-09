@@ -1,0 +1,599 @@
+Source file: 20250204_NP_SGDSN_VIGINUM_Rapport_public_Elections_roumanie_risques_france_VFF.pdf
+Relative path: 20250204_NP_SGDSN_VIGINUM_Rapport_public_Elections_roumanie_risques_france_VFF.pdf
+Page count: 14
+Extracted pages: 14
+
+================================================================================
+
+[Page 1 / 14 | chars: 183]
+--------------------------------------------------------------------------------
+
+Manipulation d’algorithmes et 
+instrumentalisation d’influenceurs  
+Enseignements de l’élection présidentielle  
+en Roumanie & risques pour la France 
+Enjeux systémiques 
+Février 2025
+
+[Page 2 / 14 | chars: 2479]
+--------------------------------------------------------------------------------
+
+2 
+ 
+Au titre des attributions qui lui sont confiées par l’article 3 du décret n°2021-922 du 13 juillet 2021, le 
+service de vigilance et de protection contre les ingérences numériques étrangères (VIGINUM) a pour 
+missions de détecter et de caractériser des opérations d’ingérences numériques étrangères (OINE) en 
+analysant les contenus publiquement accessibles sur les plateformes et les médias en ligne. Afin 
+d’anticiper la menace et de préserver le débat public français des manipulations de l’information 
+impliquant des acteurs étrangers sur les plateformes numériques, VIGINUM travaille également à 
+documenter des modes opératoires observés dans d’autres contextes, qui pourraient être transposés 
+à l’occasion d’opérations visant la France. VIGINUM remplit ainsi son rôle de sensibilisation de la société 
+face aux opérations d’ingérence numérique étrangères dont elle pourrait faire l’objet.  
+Le présent rapport informe sur les manipulations de l’information ayant ciblé l’élection présidentielle 
+roumaine de 2024, dont les résultats du premier tour ont été annulés par la Cour constitutionnelle 
+roumaine le 6 décembre. Il analyse plus particulièrement les modes opératoires observés sur la 
+plateforme 
+TikTok, 
+destinés 
+à 
+promouvoir 
+artificiellement 
+certains 
+contenus, 
+ainsi 
+que 
+l’instrumentalisation d’influenceurs. Il évalue ensuite le risque de leur transposition en France. 
+La description de la manipulation observée sur TikTok en Roumanie se fonde principalement sur des 
+éléments d’analyse réalisés par des tiers et disponibles en sources ouvertes. Cela comprend notamment 
+les notes déclassifiées partagées par l’administration roumaine, les rapports d’observateurs et de 
+structures spécialisées dans la lutte contre la désinformation, les rapports fournis par TikTok, ainsi que 
+des enquêtes de médias roumains et français.  
+Ce rapport comprend également des éléments techniques complémentaires issus des investigations de 
+VIGINUM sur les structures ayant démarché des influenceurs de manière non transparente. 
+Par la publication des éléments présents dans ce rapport, VIGINUM souhaite notamment alerter les 
+internautes sur le risque de manipulation des systèmes de recommandation de contenus sur les 
+plateformes. Le service souhaite également sensibiliser les créateurs de contenus bénéficiant d’une 
+communauté importante en ligne sur les risques d’instrumentalisation dont ils pourraient faire l’objet 
+de la part d’acteurs malveillants.
+
+[Page 3 / 14 | chars: 3225]
+--------------------------------------------------------------------------------
+
+3 
+ 
+I. 
+RETOUR D’EXPERIENCE DES MANIPULATIONS DE L’INFORMATION 
+AYANT CIBLÉ L’ÉLECTION PRÉSIDENTIELLE ROUMAINE SUR TIKTOK 
+1. Contexte 
+Dimanche 24 novembre 2024, lors du premier tour de l’élection présidentielle roumaine, l’arrivée en 
+tête du scrutin du candidat Călin GEORGESCU a suscité la surprise. Ayant présenté sa candidature en 
+octobre et n’ayant déclaré aucun budget de campagne, le candidat a obtenu près de 23 % des voix (soit 
+plus de 2 millions de votes) en faisant campagne presque exclusivement en ligne, principalement sur la 
+plateforme TikTok. Peu connu du grand public avant l’élection présidentielle, il était crédité de moins 
+de 1 % d’intentions de vote dans les sondages réalisés quatre semaines avant le scrutin, et de 10,6 % 
+d’intentions de vote entre les 20 et 21 novembre1.  
+A la suite de ces résultats, de nombreuses analyses ont pointé l’existence de phénomènes numériques 
+inauthentiques visant à perturber le bon déroulé de l’élection. Les autorités roumaines ont notamment 
+rendu publiques des notes de renseignement préalablement déclassifiées faisant état de manipulations 
+observées sur la plateforme TikTok et du recours dissimulé à des influenceurs à des fins de propagande 
+électorale, tout en suggérant l’implication d’un acteur étatique étranger. Ces irrégularités ont conduit 
+la Cour constitutionnelle roumaine à annuler les résultats de l’élection le 6 décembre 20242. 
+TikTok est un réseau social particulièrement populaire en Roumanie, avec près de 9 millions 
+d’utilisateurs pour une population de 19 millions d’habitants. Son usage est donc plus répandu que celui 
+qui en est fait en France. La plateforme concurrence ainsi Facebook en termes de pratiques et de 
+nombre d’utilisateurs, et occupe aujourd’hui une place centrale dans l’espace informationnel du pays, 
+y compris sur les sujets politiques. 
+Il est enfin important de souligner que les phénomènes inauthentiques observés n’étaient pas limités à 
+TikTok, d’autres modes opératoires ayant par exemple été identifiés sur les plateformes du groupe Meta 
+(Facebook et Instagram)3. Ces manœuvres informationnelles ont également été accompagnées d’un 
+nombre important de cyberattaques visant les systèmes informatiques liés au processus électoral, 
+témoignant du déploiement d’un dispositif d’ampleur destiné à déstabiliser un grand rendez-vous 
+démocratique. 
+Après la Géorgie et la Moldavie, la Roumanie est le troisième pays européen touché par des 
+manipulations d’ampleur en contexte électoral en fin d’année 2024. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                        
+1 Document déclassifié n°1 du renseignement intérieur roumain publié le 4 décembre 2024, Document CSAT Serviciul Român de 
+Informații I, https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+2 Cour constitutionnelle roumaine, Décision n°32 du 6 décembre 2024 portant sur l’annulation du processus électoral 
+concernant l’élection du Président de la Roumanie en 2024, https://www.ccr.ro/wp-
+content/uploads/2024/12/Hotarare_32_2024.pdf 
+3 Etude CheckFirst & Reset Tech, Meta’s Role in Romania’s 2024 Presidential Election, https://checkfirst.network/research-note-
+metas-role-in-romanias-2024-presidential-election/
+
+[Page 4 / 14 | chars: 2697]
+--------------------------------------------------------------------------------
+
+4 
+ 
+2. Une campagne sophistiquée visant à manipuler l’algorithme de TikTok 
+La popularité du candidat GEORGESCU a connu une croissance particulièrement rapide sur TikTok, en 
+particulier dans les deux semaines précédant l’élection4. A titre d’exemple, le nombre d’abonnés et le 
+nombre de vues du compte TikTok de Călin GEORGESCU auraient été multipliés par trois entre le 10 et 
+le 24 novembre 20245. Les hashtags associés au candidat ont également bénéficié d’une popularité 
+fulgurante, à l’instar de #calingeorgescu qui aurait obtenu plus de 73.2 millions de vues en sept jours 
+d’après l’European Digital Media Observatory6. D’après TikTok, la croissance du nombre d’abonnés des 
+comptes faisant la promotion du candidat ne suivrait pas un schéma organique habituel et trahirait une 
+coordination7. 
+Cette croissance fulgurante de la visibilité du candidat sur la plateforme semble avoir été obtenue grâce 
+à une campagne d’astroturfing8 sophistiquée, consistant en une manipulation coordonnée de 
+l’algorithme de recommandation, via la publication massive de vidéos et de commentaires comportant 
+certains hashtags et mots-clés. En effet, cette campagne a reposé, d’une part, sur l’action coordonnée 
+de réseaux de comptes, et d’autre part, sur l’instrumentalisation de la popularité d’influenceurs 
+rémunérés de manière dissimulée.  
+Le recours à ces modes opératoires témoigne d’une bonne connaissance des dynamiques propres à la 
+plateforme de la part des auteurs de cette campagne, et d’une parfaite maîtrise des procédés de 
+contournement des politiques de modération.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                        
+4 Rapport Expert Forum, From Underdog to Contender: The Rise of Călin Georgescu in the Polls, 
+https://expertforum.ro/en/files/2024/11/Policy-Brief-190-From-Underdog-to-Contender-The-Rise-of-Calin-Georgescu-in-the-Polls-
+4.pdf 
+5 Données issues de la plateforme d’analyse social media Exolyt. 
+6 EDMO, Algorithmic Influence on Elections: Insights from Romania’s Case Study, https://edmo.eu/blog/algorithmic-influence-on-
+elections-insights-from-romanias-case-study/ 
+7 Document déclassifié n°2 du renseignement intérieur roumain publié le 4 décembre 2024, Document CSAT Serviciul Român 
+de Informații II, https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+8 Mode opératoire consistant à conférer de la visibilité à un sujet en faisant croire qu’il est un phénomène de masse alors même 
+qu’il émane de la coordination de quelques comptes seulement qui produisent un volume important de publications sur un 
+même sujet. 
+Schéma récapitulant les manœuvres observées sur TikTok visant à promouvoir le candidat GEORGESCU
+
+[Page 5 / 14 | chars: 3575]
+--------------------------------------------------------------------------------
+
+5 
+ 
+Des dispositifs prépositionnés sur TikTok et Telegram 
+Cette manœuvre informationnelle a reposé avant tout sur la mobilisation coordonnée de plusieurs 
+milliers de comptes, afin d’amplifier artificiellement la popularité de mots-clés associés au candidat et 
+manipuler ainsi l’algorithme de recommandation de TikTok afin qu’ils apparaissent dans le fil d’actualité 
+des utilisateurs. 
+Selon les services de renseignement roumains, près de 25 000 comptes TikTok pro-GEORGESCU sont 
+devenus particulièrement actifs deux semaines avant la date du premier tour de l’élection9. Parmi eux, 
+797 comptes existaient depuis 2016. Leur activité serait restée très faible jusqu’au 11 novembre 2024, 
+date à laquelle le réseau de comptes aurait été activé à pleine capacité. Toujours selon les services 
+roumains, ces comptes utilisaient des adresses IP uniques pour se connecter à la plateforme, ne 
+permettant pas de les rattacher à un même réseau. 
+Les documents déclassifiés par l’administration roumaine, de même que le média roumain G4Media.ro10, 
+révèlent également l’existence de plusieurs canaux Discord et boucles Telegram, dont certains étaient 
+prépositionnés depuis septembre 2022, visant à mettre en œuvre et coordonner une stratégie 
+d’amplification artificielle des contenus liés au candidat sur TikTok. 
+Une campagne d’astroturfing pour manipuler l’algorithme de recommandation 
+Les chaînes Discord et Telegram précitées avaient pour rôle de diffuser auprès de leur audience des 
+instructions précises sur les contenus à partager, ainsi que des consignes sur la manière de manipuler 
+l’algorithme de la plateforme sans être détecté par ses outils de modération.  
+Elles partageaient des contenus prêts à être publiés et conseillaient de modifier ces vidéos à l’aide des 
+outils d’édition proposés par TikTok ou Instagram, afin qu’elles aient l’air de contenus originaux et non 
+dupliqués, pour ne pas être pénalisées par la plateforme11. Elles donnaient également des consignes sur 
+la manière de publier des commentaires favorables au candidat GEORGESCU sous des publications 
+populaires en Roumanie, en particulier celles d’autres candidats, suggérant l’utilisation de hashtags ou 
+d’emojis spécifiques. 
+Ces actions avaient pour but de faire remonter le nom du candidat et les mots-clés qui lui étaient 
+associés en tête des recommandations de la plateforme, sans que l’écosystème qui en était à l’origine 
+ne soit détecté et considéré comme inauthentique par les systèmes de modération de la plateforme. 
+TikTok a effectivement reconnu auprès des autorités roumaines qu’il s’agissait là de l’action de 
+« bénévoles coordonnés », équivalente à une « campagne de guérilla politique de masse »12. 
+ 
+ 
+ 
+                                                        
+9 Document déclassifié n°1 du renseignement intérieur roumain publié le 4 décembre 2024, Ibid., 
+https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+10 G4Media.ro, https://www.g4media.ro/cum-fac-sa-primesc-bani-depinde-de-implicarea-ta-mecanismul-prin-care-sunt-viralizate-
+postarile-lui-calin-georgescu-pe-retelele-sociale-mii-de-voluntari-din-grup.html 
+11 D’après les règles de la communauté TikTok, les contenus copiés ou non originaux, publiés sans modifications, ne sont pas mis 
+en avant sur la page d’accueil de la plateforme (Fil « Pour Toi ») : https://www.tiktok.com/community-guidelines/fr/integrity-
+authenticity#5 
+12 Document déclassifié n°2 du renseignement intérieur roumain publié le 4 décembre 2024, Ibid., 
+https://www.presidency.ro/ro/media/comunicat-de-presa1733327193
+
+[Page 6 / 14 | chars: 4942]
+--------------------------------------------------------------------------------
+
+6 
+ 
+Une analyse réalisée par l’ONG Center for AI & Digital Humanism13 confirme et souligne qu’une majeure 
+partie de cette manœuvre est passée par la publication massive de commentaires sur la plateforme, 
+notamment sous les publications issues des comptes des autres candidats. Cette analyse révèle que le 
+fait de mentionner de façon massive et positive le nom GEORGESCU, associé à certains mots-clés en 
+commentaires, a contribué à faire remonter des contenus liés au candidat dans l’algorithme de 
+recommandation, qui est au cœur du fonctionnement de TikTok et a contribué à sa popularité.  
+Les communiqués de TikTok sur les opérations d’influence en ligne concernant la Roumanie font pour 
+leur part état d’un réseau de 27 199 comptes inauthentiques ayant ciblé la Roumanie pour promouvoir 
+le parti de l’Alliance pour l’Unité des Roumains (AUR) et « dans une moindre mesure », du candidat Călin 
+GEORGESCU14. TikTok indique que « ces comptes publiaient des commentaires plutôt que des vidéos » 
+et les avoir modérés entre décembre 2024 et janvier 2025. 
+Pour résumer, ce procédé contribue à tromper l’algorithme, en générant artificiellement une tendance 
+émergente autour d’un sujet (en l’occurrence le candidat GEORGESCU et son programme), y compris 
+au sein des communautés qui regardent des vidéos portant sur d’autres sujets. L’algorithme va donc 
+plus régulièrement proposer aux utilisateurs des contenus vidéos en lien avec ces thématiques, qui sont 
+alors surreprésentées. 
+La surreprésentation d’un candidat dans l’espace numérique ne suffit bien évidemment pas à expliquer 
+un vote en sa faveur. Les règles communautaires de TikTok précisent que les manœuvres de ce type 
+sont interdites15. Par ailleurs, se pose également la question de l’identification du ou des 
+commanditaires de cette manœuvre coordonnée, l’hypothèse d’un acteur étranger n’étant que 
+suggérée par les autorités roumaines. Enfin, si ce mode opératoire visait ici à donner de la visibilité à un 
+candidat spécifique dans le cadre d’un scrutin électoral, il pourrait également être reproduit pour 
+promouvoir des contenus répondant à d’autres objectifs. 
+Le recrutement d’influenceurs instrumentalisés à leurs dépens 
+Cette manœuvre informationnelle a également reposé en grande partie sur l’instrumentalisation 
+d’influenceurs. Plus d’une centaine d’influenceurs TikTok, sans affinité particulière avec la politique16, et 
+ayant un total de plus de 8 millions d’abonnés actifs17 ont ainsi été recrutés pour participer malgré eux 
+à une campagne visant à donner de la visibilité au candidat GEORGESCU sur la plateforme. La 
+mécanique a consisté à faire publier notamment par des micro et macro-influenceurs18 des messages 
+d’apparence anodine relatifs à l’élection présidentielle, avant de créer artificiellement, toujours via les 
+commentaires, un engagement coordonné visant à promouvoir le candidat GEORGESCU.  
+                                                        
+13 Digihumanism, Digihumanism unveils massive astroturfing on TikTok biaising the Romanian presidential elections, publié le 
+06/12/2024, https://www.digihumanism.eu/publications-and-news/digihumanism-unveils-massive-astroturfing-on-tiktok-biaising-
+the-romanian-presidential-elections 
+14 TikTok, Continuing to protect the integrity of TikTok during Romanian elections, https://newsroom.tiktok.com/en-
+eu/continuing-to-protect-the-integrity-of-tiktok-during-romanian-elections 
+15 Les opérations d’influence secrètes sont définies par TikTok comme un « comportement coordonné et inauthentique, dans le 
+cadre duquel des réseaux de comptes travaillent stratégiquement ensemble pour induire en erreur les gens ou nos systèmes et ainsi 
+influencer les débats publics », https://www.tiktok.com/transparency/fr-fr/countering-influence-operations/ 
+16 Le ministère de l’intérieur roumain évoque l’implication de 130 comptes d’influenceurs aux lignes éditoriales diverses : 
+lifestyle, mode, beauté, divertissement, etc. 
+17 Document déclassifié du ministère de l’intérieur roumain publié le 4 décembre 2024, Document CSAT Ministerul Afacerilor 
+Interne, https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+18 Dans le marketing d’influence, les créateurs de contenus peuvent être classés en fonction de la taille de leur nombre 
+d’abonnés. S’il n’existe pas de seuil officiel, des influenceurs avec moins de 10 000 abonnés sont généralement considérés 
+comme des « nano-influenceurs » tandis que les « micro-influenceurs » auraient entre 10 000 et 100 000 abonnés, par opposition 
+aux macro- et méga-influenceurs qui dépassent les 100 000 abonnés. En termes de stratégie d’influence, il est parfois 
+recommandé de faire appel à des micro-influenceurs plutôt qu’à de plus gros influenceurs, car leur communauté, dont ils sont 
+réputés plus proches, est davantage affinitaire et réactive. Ils sont par ailleurs moins sollicités, donc moins chers et plus 
+facilement activables.
+
+[Page 7 / 14 | chars: 4168]
+--------------------------------------------------------------------------------
+
+7 
+ 
+Ce mode opératoire s’inscrivait pleinement dans la manœuvre d’astroturfing précédemment décrite et 
+a contribué à manipuler l’algorithme de recommandation de la plateforme afin de donner l’impression 
+d’un soutien massif pour le candidat.  
+Ces influenceurs ont été recrutés via la plateforme de marketing d’influence roumaine FameUp, qui met 
+en relation des annonceurs souhaitant mener des campagnes publicitaires sur TikTok et YouTube avec 
+des influenceurs pouvant relayer leurs messages contre rémunération. FameUp aurait ainsi été utilisée 
+par deux structures : Progresia et Fundament19. Celles-ci ont proposé à des influenceurs de publier, 
+contre rémunération, des contenus suivant un script et certaines instructions. 
+Ainsi, les influenceurs contactés devaient diffuser des vidéos appelant les électeurs à se rendre aux 
+urnes, sans mentionner le nom d’un candidat spécifique, dans le cadre d’une campagne dont l’objectif 
+apparent était de sensibiliser les citoyens roumains à l’importance du vote. Dans leurs messages vidéo, 
+ils décrivaient les qualités attendues d’un « candidat idéal » et partageaient en description les hashtags 
+#EchilibruSiVerticalitate (« équilibre et verticalité »), #Prezidentiale2024 et #unliderpotrivitpentrumine 
+(« un dirigeant qui me convient »). 
+Une fois ces vidéos publiées, des réseaux coordonnés de comptes inondaient alors l’espace 
+commentaires de messages de soutien à Călin GEORGESCU, présenté comme possédant les qualités du 
+« candidat idéal », et ce pour donner l’impression d’un soutien populaire massif au candidat, tout en 
+permettant à son nom et son compte de bénéficier des processus de recommandation par le moteur 
+de recherche de la plateforme. D’après le ministère de l’Intérieur roumain, les contenus vidéos et les 
+hashtags associés à la campagne seraient ainsi parvenus à atteindre la 9e place mondiale des tendances 
+TikTok20. 
+À la suite du premier tour des élections, certains influenceurs ayant participé à l’opération ont confirmé 
+avoir été rémunérés entre quelques dizaines et quelques centaines d’euros pour publier ces contenus. 
+Le ministère de l’Intérieur roumain évoque une grille de rémunération proportionnelle à l’influence des 
+comptes recrutés, à hauteur de 390 RON (soit l’équivalent de 78 €) par tranche de 20 000 abonnés. 
+Il doit être précisé que la plupart de ces messages n’étaient pas identifiés ni identifiables comme faisant 
+l’objet d’un partenariat rémunéré. Cela contrevient non seulement aux règles européennes concernant 
+la responsabilité des créateurs de contenus sur les partenariats rémunérés, mais aussi à la 
+règlementation roumaine en matière de publicité électorale, et enfin, aux règles de TikTok concernant 
+l’interdiction sur la plateforme de toute forme de publicité politique, y compris lorsqu’il s’agit de 
+contenus financés par un tiers. 
+ 
+3. Des modes opaques de recrutement et de rémunération d’influenceurs  
+La rémunération détournée d’influenceurs soutenant publiquement le candidat 
+Les services de renseignement roumains mentionnent également l’implication d’influenceurs ayant 
+soutenu publiquement le candidat GEORGESCU.  
+Que le soutien de ces influenceurs ait été spontané ou commandité, ceux-ci semblent en tout cas avoir 
+été rémunérés de manière détournée par le système de dons disponible sur TikTok. Ainsi, entre le 24 
+octobre et le 24 novembre, au moins 381 000 dollars ont été versés par l’intermédiaire de ce dispositif 
+à des influenceurs ayant affiché leur soutien au candidat21.  
+                                                        
+19  Noms communiqués par la plateforme FameUp. Il n’a pas été possible de retrouver en sources ouvertes des informations sur 
+ces sociétés qui ne semblent pas avoir d’existence en ligne. 
+20 Document déclassifié du ministère de l’intérieur roumain publié le 4 décembre 2024, Document CSAT Ministerul Afacerilor 
+Interne, https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+21 Document déclassifié n°1 du renseignement intérieur roumain publié le 4 décembre 2024, mentionnant un représentant de 
+TikTok, Ibid., https://www.presidency.ro/ro/media/comunicat-de-presa1733327193
+
+[Page 8 / 14 | chars: 3294]
+--------------------------------------------------------------------------------
+
+8 
+ 
+Ces dons ont été effectués par le citoyen roumain Bogdan PESCHIR, sous le pseudonyme de BOGPR sur 
+la plateforme. Ces dons pourraient s’apparenter à du financement de campagne politique, constituant 
+là encore une violation des conditions d’utilisation de TikTok et de la législation roumaine. 
+L’implication d’une entreprise étrangère dans le recrutement d’influenceurs 
+Le service de renseignement intérieur roumain indique que parmi les influenceurs recrutés pour faire la 
+promotion de la candidature de Călin GEORGESCU, certains auraient été contactés par e-mail, via 
+l’entreprise de communication sud-africaine FA Agency, qui proposait une rémunération de 1 000 € par 
+vidéo22. 
+Les 6 et 13 décembre 2024, le journal Le Monde23 a publié deux enquêtes successives démontrant que 
+l’entreprise sud-africaine FA Agency serait une société écran gérée par la branche polonaise24 de Gambling 
+Media Group (GMG). GMG est une entreprise spécialisée dans les services de marketing de casinos en ligne, 
+mettant en œuvre des stratégies d’influence sur les réseaux sociaux, dont TikTok25. Elle ferait partie d’une 
+« constellation d’entreprises » liée à une agence de publicité ukrainienne nommée Zlodeï26.  
+Les investigations menées en parallèle par VIGINUM ont effectivement permis d’établir des liens 
+techniques entre FA Agency, GMG et Zlodeï. Une première analyse du nom de domaine de FA Agency 
+(faagency[.]org), détecté par les journalistes du Monde, a permis de déterminer que ce dernier partageait 
+plusieurs caractéristiques techniques avec influue[.]agency. En effet, ces deux noms de domaine sont 
+hébergés sur une même adresse IP27 et partagent un même identifiant d’obfuscation d’adresse mail dans 
+leur code source respectif28. Influe UE Agency se présente ainsi comme une agence de marketing 
+numérique mais ne semble pas avoir d’existence légale. Toutefois, la description de l’entreprise sur son site 
+web est quasiment identique à celle de GMG, dont les sites officiels semblent être gmg[.]win et 
+boostaxis[.]click.  
+                                                        
+22 Document déclassifié n°1 du renseignement intérieur roumain publié le 4 décembre 2024, Ibid., 
+https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+23 https://www.lemonde.fr/pixels/article/2024/12/06/roumanie-des-videos-pro-georgescu-liees-a-une-enigmatique-agence-d-
+influenceurs-polonaise_6434393_4408996.html et https://www.lemonde.fr/pixels/article/2024/12/13/roumanie-influenceurs-
+comptes-automatises-et-publicites-illegales-au-service-d-une-campagne-d-ingerence-hors-normes_6445661_4408996.html 
+24 Des investigations complémentaires ont permis d’établir que les locaux de GMG en Pologne se trouvaient probablement à 
+l’adresse suivante : Wioślarska 8, 00-411 Warszawa. 
+25 La description officielle de GMG précise que ses 300 employés travaillent également sur les Google Ads, Facebook Ads, 
+Instagram, SEO, ASO, In-app et Meta Ads. 
+26 Numéro fiscal : 41270481. 
+27 A la date de rédaction de la présente note, la commande linux curl -k https 5.61.42[.]22 -H « nom_de_domaine » affiche les 
+sites faagency et influue. 
+28 Identifiant d’obfuscation commun : data-cfemail="9fd6d1d9d0dfd6d1d9d3cacadab1ded8dad1dcc6". 
+Schéma des liens techniques entre FA Agency, GMG et Zlodeï.
+
+[Page 9 / 14 | chars: 3961]
+--------------------------------------------------------------------------------
+
+9 
+ 
+D’après les informations disponibles en sources ouvertes, plusieurs offres d’emplois en ligne de GMG 
+invitent les candidats à contacter des adresses mails hébergées sur zlodei[.]space29, un nom de domaine 
+désormais inactif auparavant utilisé par Zlodeï. Inversement, au moins une annonce de recrutement 
+pour Zlodeï contient une URL redirigeant vers gmg[.]win30 (voir schéma ci-dessus). 
+Outre ces liens techniques, Zlodeï et GMG partageraient la même adresse physique au Mechnykova St, 
+2, Kyiv, Ukraine, 02000, dans des bureaux partagés avec d’autres entreprises. 
+Zlodeï est une entreprise spécialisée dans le marketing digital dirigée par Dmitriy MAKAROV31, 
+entrepreneur ukrainien de 32 ans ayant déjà officiellement soutenu l’Ukraine face à l’agression russe32. 
+MAKAROV administre notamment un site spécialisé33 sur les jeux d’argent en ligne avec Oleksandr 
+DOVJENKO34, le directeur commercial de Zlodeï. Les locaux de l’entreprise ont notamment été 
+perquisitionnés en 202035 lors d’une enquête ouverte pour la création de jeux d’argent en ligne36 ainsi 
+que pour blanchiment d’activités criminelles.  
+À ce stade, le commanditaire derrière la campagne pro-GEORGESCU demeure inconnu, de même que 
+le rôle exact joué par FA Agency et par les entreprises affiliées à Zlodeï dans l’ensemble de la campagne 
+du candidat roumain, hormis leur recrutement d’influenceurs par mail.  
+4. Réaction des autorités roumaines et de la plateforme TikTok  
+Les révélations de ces différentes manipulations ont suscité de fortes réactions de la part des autorités 
+roumaines et européennes. 
+Le 6 décembre 2024, la Cour constitutionnelle roumaine a ainsi pris la décision d’annuler « l’ensemble 
+du processus électoral relatif à l’élection du président de la Roumanie »37, et a justifié cette décision en 
+dénonçant de « multiples irrégularités et violations de la législation électorale qui ont faussé le caractère 
+libre et équitable du vote », pointant notamment des infractions à la loi électorale et plus 
+particulièrement en termes de transparence du financement de campagne38. La Commission 
+européenne a quant à elle ouvert une procédure formelle à l’encontre de TikTok dans le cadre du DSA39. 
+Au-delà des accusations de manipulation de l’information, il est notamment reproché à la plateforme 
+de ne pas avoir été en mesure d’identifier que les vidéos publiées par le compte du candidat Călin 
+GEORGESCU présentaient un caractère électoral. Celles-ci auraient dès lors bénéficié d’un traitement 
+préférentiel par rapport aux publications des comptes des autres candidats, qui, en étant associées à la 
+campagne électorale, ont été filtrées par l’algorithme de recommandation.  
+ 
+                                                        
+29 https://jobs.dou.ua/companies/gmg/offices/ 
+30 https://ghostarchive.org/archive/m9bMI 
+31 Dmitriy MAKAROV (макаров дмитро ігорович) est probablement né le 19/08/1992 en Ukraine. 
+32 https://ghostarchive.org/archive/ySd25/ 
+33 https://pirates.com[.]ua. 
+34 Oleksandre DOVJENKO (довженко олександр анатолійович) est probablement né le 08/04/1994 en Ukraine. 
+35 https://ain.ua/ru/2020/01/27/kiberpoliciya-provela-obyski-v-kompanii-zlodei/ et  
+https://cyberpolice.gov.ua/news/kiberpolicziya-prypynyla-diyalnist-masshtabnoyi-grupy-yaka-zajmalasya-organizacziyeyu-
+diyalnosti-platform-dlya-onlajn-kazyno-5815/ 
+36 Les jeux d’argent étaient illégaux en Ukraine entre mai 2009 et juillet 2020. 
+37 Communiqué de presse de la Cour constitutionnelle roumaine du 6 décembre 2024, https://www.ccr.ro/comunicat-de-presa-
+6-decembrie-2024/ 
+38 Cour constitutionnelle roumaine, Décision n°32 du 6 décembre 2024 portant sur l’annulation du processus électoral concernant 
+l’élection du Président de la Roumanie en 2024, https://www.ccr.ro/wp-content/uploads/2024/12/Hotarare_32_2024.pdf 
+39 Communiqué de presse de la Commission européenne du 17 décembre 2024, 
+https://ec.europa.eu/commission/presscorner/detail/en/ip_24_6487
+
+[Page 10 / 14 | chars: 2095]
+--------------------------------------------------------------------------------
+
+10 
+ 
+Dès le 20 novembre, le Bureau Électoral Central a ainsi signalé à la plateforme des contenus de 
+propagande électorale ne respectant pas les exigences légales roumaines, en particulier l’identification 
+du mandataire fiscal. Bien que TikTok ait déclaré avoir bloqué ces contenus pour les audiences 
+roumaines, les services de renseignement roumains ont affirmé que ces contenus étaient en réalité 
+toujours accessibles sur la plateforme40. 
+De son côté, TikTok a assuré avoir appliqué « rigoureusement [ses] règles contre la désinformation 
+électorale » et affirme qu’il est « catégoriquement faux de prétendre » que le compte de Călin 
+GEORGESCU aurait été traité différemment de celui des autres candidats. Lors de son audition devant 
+le Parlement européen le 3 décembre, la plateforme a affirmé avoir respecté le DSA, et s’est déchargée 
+de toute responsabilité concernant la labellisation de contenus politiques, estimant que l’obligation de 
+marquage « n’incombe pas à TikTok mais à l’auteur des contenus ». Elle a enfin indiqué avoir démantelé 
+deux « très petits » réseaux d’influence visant la Roumanie le 29 novembre41 et informe depuis de la 
+poursuite de ses actions pour protéger l’intégrité des élections en Roumanie42. 
+Le candidat GEORGESCU, qui avait déclaré n’avoir aucun budget de campagne, a quant à lui nié avoir 
+eu recours à des fermes à trolls, et certifié avoir obtenu cette popularité numérique à l’aide de seuls 
+« bénévoles ». 
+ 
+ 
+                                                        
+40 Document déclassifié n°1 du renseignement intérieur roumain publié le 4 décembre 2024, Ibid., 
+https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+41 IMCO Debate on the compliance of TikTok with the EU Digital Services Act,  
+https://multimedia.europarl.europa.eu/en/event/imco-debate-on-the-compliance-of-tiktok-with-the-eu-digital-services-act_av-
+20241127-3809. 
+42 TikTok, Continuing to protect the integrity of TikTok during Romanian elections, https://newsroom.tiktok.com/en-
+eu/continuing-to-protect-the-integrity-of-tiktok-during-romanian-elections
+
+[Page 11 / 14 | chars: 4153]
+--------------------------------------------------------------------------------
+
+11 
+ 
+II. 
+UN RISQUE DE MANIPULATION SIMILAIRE EN FRANCE  
+Comme le rappelle le service de renseignement extérieur roumain43, le mode opératoire consistant à 
+manipuler à la fois des influenceurs locaux ainsi que l’algorithme d’une plateforme a déjà été observé 
+depuis 2022 dans le cadre du conflit entre la Russie et l’Ukraine ou plus récemment lors des élections 
+moldaves de 2024.  
+De fait, il est donc légitime d’estimer qu’il existe un risque de transposition de ces modes opératoires 
+dans le débat public numérique francophone afin de viser une audience française.  
+Place de TikTok en France : un usage croissant pour suivre l’actualité politique 
+Par de nombreux aspects, l’utilisation de TikTok en France diffère de celle qui en est faite en Roumanie. 
+En effet, la plateforme occupe à ce stade une place moins centrale dans le débat public numérique 
+français, bien qu’elle ne soit pas négligeable.  
+En France, TikTok comptait fin 2023 plus de 21 millions d’utilisateurs mensuels d’après la plateforme 
+(soit plus d’un Français sur trois)44. TikTok est également le réseau social sur lequel les utilisateurs français 
+passeraient le plus de temps, avec en moyenne 38h38 par mois de temps passé sur l’application45. La 
+plateforme est populaire auprès d’une audience jeune, mais ne se limite pas à celle-ci. 
+Si TikTok semble être avant tout utilisé à des fins de divertissement, plusieurs études, notamment celle 
+de l’Institut Reuters pour l’étude du journalisme46, soulignant qu’une part croissante de la population, 
+notamment parmi les 18-24 ans, utilise la plateforme pour s’informer, suivant ainsi une tendance de 
+recours aux réseaux sociaux comme source d’information. L’étude de l’Institut Reuters indique que près 
+de 8 % des internautes français s’informeraient sur l’actualité de manière hebdomadaire via TikTok.  
+La plateforme est également un lieu d’expression politique croissant en France pour les personnalités 
+publiques et les citoyens, comme cela a pu être observé lors des élections législatives de 2024. 
+Ainsi, bien que l’audience et les usages de la plateforme TikTok diffèrent d’un pays à l’autre, des acteurs 
+étrangers malveillants pourraient être tentés de choisir cette plateforme – du fait de son rôle croissant 
+auprès de certaines audiences – pour mettre en œuvre le même schéma opérationnel, que ce soit dans 
+le but de déstabiliser le débat autour d’un rendez-vous électoral ou celui de faire émerger des 
+thématiques spécifiques dans l’espace informationnel français. 
+Une manipulation de l’algorithme aisément reproductible 
+Les manipulations de l’algorithme TikTok mises en œuvre dans le cadre des élections roumaines 
+semblent aujourd’hui facilement reproductibles à grande échelle. Le média roumain Recorder a par 
+exemple démontré qu’un compte TikTok obtenant un million de vues et des milliers de commentaires, 
+grâce à quelques milliers de comptes inauthentiques était rapidement recommandé dans les fils 
+d’actualité de vrais utilisateurs47. 
+Avec davantage de moyens financiers, et en recourant à d’autres leviers comme celui des influenceurs, 
+cette manipulation pourrait donc être reproduite, afin d’orienter les recommandations de l’algorithme. 
+Par ailleurs, l’hypothèse de l’existence sur la plateforme de comptes dormants pré-positionnés, et 
+pouvant être activés pour toucher une audience française, n’est pas à exclure, comme en témoigne 
+l’ancienneté de certains comptes impliqués dans la campagne roumaine. 
+                                                        
+43 Document déclassifié du renseignement extérieur roumain publié le 4 décembre 2024, Document CSAT Serviciul de Informații 
+Externe, https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+44 https://newsroom.tiktok.com/fr-fr/france-mau-octobre-2023 
+45 Digital report 2024, We Are Social/Meltwater, https://wearesocial.com/fr/blog/2024/02/digital-report-france-2024-🇫🇷/ 
+46 2024 Digital News Report, Reuters Institute, https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024 
+47 Recorder.ro https://recorder.ro/marea-bresa-a-tiktok-cat-de-usor-poate-un-candidat-sa-obtina-1-milion-de-vizualizari/
+
+[Page 12 / 14 | chars: 4247]
+--------------------------------------------------------------------------------
+
+12 
+ 
+Des outils permettant de recruter facilement des créateurs de contenus 
+Le recrutement d’influenceurs nationaux à des fins d’ingérence est un mode opératoire connu et 
+documenté48. La variante observée en Roumanie, à savoir la possibilité de procéder à un recrutement 
+massif de nano- ou de micro-influenceurs présents sur TikTok via une plateforme de mise en relation 
+entre influenceurs et annonceurs afin de partager massivement un message de manière dissimulée, est 
+elle aussi tout à fait envisageable et relativement facile à mettre en œuvre.  
+A l’instar de la plateforme FameUp, de nombreuses plateformes de marketing d’influence offrent des 
+outils permettant de gérer l’intégralité de la relation avec des créateurs de contenus s’adressant à une 
+audience francophone. Ces plateformes proposent l’accès à un nombre important de profils 
+d’influenceurs et mettent à disposition des espaces d’échanges pour les contacter, des modèles 
+standardisés de propositions de collaboration, permettant d’assurer jusqu’au paiement de la 
+collaboration, « en un clic », via un abonnement à leur solution. 
+ 
+VIGINUM souhaite donc alerter les créateurs de contenus et influenceurs présents sur les réseaux 
+sociaux, au-delà de TikTok, sur le risque d’instrumentalisation dont ils pourraient faire l’objet par des 
+acteurs étrangers malveillants se dissimulant derrière des structures d’intermédiation commerciale. Les 
+plateformes proposant des services de marketing d’influence devraient également intégrer la prise en 
+compte de ce risque dans leur feuille de route. 
+Des viviers de comptes francophones diffusant de la désinformation politique 
+L’algorithme de la plateforme TikTok favorise la diffusion des contenus générant de l’engagement et 
+propose un système de rémunération à ses créateurs en fonction de leur volume de vues et de leur taux 
+d’engagement. Ce fonctionnement favorise l’émergence de publications clickbait49, qui visent 
+uniquement à créer de l’engagement, ainsi que la création de comptes diffusant du contenu aux 
+formulations et propos alarmistes, pour attirer l’attention des utilisateurs et générer du partage. 
+L’entreprise NewsGuard alertait ainsi dans un rapport paru en juillet 2024 sur des « fermes à contenu », 
+anglophones et francophones, produisant « de la mésinformation politique de masse » en recourant à 
+des contenus générés par IA et diffusant des messages inexacts et trompeurs portant sur la politique 
+des États-Unis, de l’Europe, ou encore la guerre entre la Russie et l’Ukraine50. Si certains de ces comptes 
+ont été supprimés par la plateforme suite à la publication du rapport, VIGINUM a pu identifier 
+l’existence d’autres comptes TikTok aux caractéristiques similaires agissant de manière coordonnée afin 
+de diffuser des messages manifestement inexacts ou trompeurs portant sur la politique française et 
+l’actualité internationale. Des éléments identifiés en sources ouvertes permettent d’affirmer que ces 
+comptes sont animés depuis l’étranger. 
+Si ces comptes semblent répondre d’abord à un objectif économique en cherchant à générer des 
+revenus publicitaires, VIGINUM estime qu’ils constituent en soi un risque. En effet, déjà influents et 
+prépositionnés auprès de certaines audiences, ces écosystèmes de comptes sont susceptibles d’être 
+« récupérés » et activés à l’avenir par un acteur étatique étranger, afin de contribuer à une opération 
+d’ingérence numérique. 
+ 
+                                                        
+48 Le Monde, https://www.lemonde.fr/pixels/article/2024/12/18/guerre-en-ukraine-des-milliers-d-influenceurs-dont-des-francais-
+approches-pour-diffuser-de-la-propagande-prorusse_6455494_4408996.html 
+49 Un contenu « piège-à-clic » ou « clickbait » en anglais, désigne un contenu conçu pour maximiser le taux de clic et d’engagement, 
+généralement au détriment de la qualité de ce contenu. Il s’agit le plus souvent de messages racoleurs ou sensationnalistes 
+destinés à tromper l’internaute en suscitant sa curiosité. 
+50 Newsguard, Des fermes de contenu sur TikTok utilisent des voix off générées par IA pour produire de la mésinformation politique 
+en masse https://www.newsguardtech.com/fr/special-reports/tiktok-fermes-contenu-voix-off-ia-mesinformation/
+
+[Page 13 / 14 | chars: 1979]
+--------------------------------------------------------------------------------
+
+13 
+ 
+III. 
+ CONCLUSION 
+Premier scrutin démocratique majeur en Europe à avoir fait l’objet d’une décision d’annulation des 
+résultats pour des soupçons d’ingérences étrangères, l’élection présidentielle roumaine de novembre 
+2024 marque un tournant dans la prise en compte de l’impact des manipulations de l’information sur 
+les réseaux sociaux.  
+Alors que les scrutins en Géorgie et en Moldavie de la fin de l’année 2024 avaient déjà fait l’objet 
+d’actions de nature hybride, l’élection présidentielle roumaine semble avoir été la cible d’une campagne 
+numérique plus sophistiquée dans sa conception, centrée sur la manipulation de l’algorithme d’une 
+plateforme particulièrement populaire en Roumanie, TikTok, et impliquant des écosystèmes de 
+comptes prépositionnés ainsi que le recrutement d’influenceurs.  
+L’analyse de cette campagne a notamment mis en lumière d’une part, la relative facilité avec laquelle il 
+est aujourd’hui possible d’imposer aux utilisateurs la visibilité d’un sujet sur un réseau social tel que 
+TikTok, sans que le dispositif utilisé ne soit d’emblée modéré ou considéré comme inauthentique par la 
+plateforme, et d’autre part, le rôle et la vulnérabilité des influenceurs, exposés à un risque croissant 
+d’instrumentalisation de la part d’acteurs malveillants utilisant des approches dissimulées. 
+Par ailleurs, cette manipulation de l’algorithme témoigne également du manque d’efficacité des 
+mesures mises en œuvre par les opérateurs de plateforme en ligne pour détecter et atténuer ces 
+phénomènes inauthentiques, et bien qu’ils demeurent soumis à des obligations strictes en matière de 
+modération ou de labellisation, tant du point de vue des lois nationales que du règlement européen sur 
+les services numériques (Digital Services Act).  
+Enfin, il semble juste de souligner que l’un des principaux préjudices causés par cette campagne de 
+manipulation a été d’altérer la confiance des électeurs dans la fiabilité des processus électoraux.
+
+[Page 14 / 14 | chars: 694]
+--------------------------------------------------------------------------------
+
+14 
+ 
+À PROPOS DE VIGINUM 
+ 
+Créé le 13 juillet 2021 et rattaché au SGDSN, le service de vigilance et de protection contre les ingérences 
+numériques étrangères (VIGINUM) a pour raison d’être la protection du débat public numérique touchant 
+aux intérêts fondamentaux de la Nation. 
+Ce service technique et opérationnel de l’État a pour mission de détecter et caractériser les campagnes 
+de manipulation de l’information sur les plateformes numériques, impliquant des acteurs étrangers dans 
+le but de nuire à la France et à ses intérêts. 
+  Service de vigilance et protection contre les ingérences numériques étrangères | SGDSN 
+ 
+ 
+Crédit photo couverture : Photo de Akshar Dave🌻 sur Unsplash
+

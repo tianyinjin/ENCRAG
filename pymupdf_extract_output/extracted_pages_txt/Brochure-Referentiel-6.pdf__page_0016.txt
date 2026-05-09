@@ -1,0 +1,90 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 16 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+30 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 31
+Ces sondes relèvent des données qu’il est nécessaire de faire remonter par un 
+réseau. Ce réseau de collecte peut être soit confondu avec le réseau opération-
+nel, soit dédié. Ces flux sont à sécuriser en eux-mêmes.
+Les sondes peuvent fonctionner par détection de signatures ou suivant une 
+analyse comportementale (les sondes métiers sont plutôt exclusivement dans 
+cette seconde catégorie).
+La détection d’intrusion peut être considérée selon un axe domaine d’emploi 
+afin de s’adapter à des catégories de systèmes différentes (SI, systèmes d’armes, 
+systèmes industriels). Elle peut aussi être considérée selon un axe technique 
+avec les différents types de sondes (réseaux, systèmes) et différents modes de 
+détection, notamment la détection comportementale (déviance par rapport à 
+un usage normal). 
+B.3.2.3 _Prévention d’intrusion (Firewalls, Anti-virus, Anti-malwares)
+Les anti-virus ou les firewalls se présentent souvent comme des outils de pré-
+vention d’intrusion. Ils peuvent se placer au niveau réseau ou au niveau système 
+et ont comme caractéristique de détecter et de bloquer les attaques.
+Les anti-virus peuvent être classés comme des outils de prévention ou de défense 
+(ils protègent contre les agressions en éliminant les logiciels malveillants 
+détectés et ils génèrent des alertes). Il existe globalement deux grandes familles : 
+ceux utilisant des bases de signatures et les anti-virus comportementaux. 
+Les deux modes peuvent être mixés et sont parfois associés à des fonctions de 
+type Cloud pour des estimations de risques (réputation de logiciels…). Pour ces 
+produits, il s’agit de conserver une capacité à identifier de nouvelles menaces 
+toujours plus complexes sans trop pénaliser le fonctionnement des postes ou 
+des serveurs. 
+Concernant les malwares, pour en comprendre le fonctionnement et les éradiquer 
+il est nécessaire de disposer d’outils spécifiques. En effet, pour des raisons évi-
+dentes, l’analyse de ces logiciels ne peut être réalisée que dans un environnement 
+maîtrisé afin d’éviter leur propagation. Par ailleurs, le degré de sophistication 
+avancée de ces malwares commande d’effectuer leur analyse dans des environ-
+nements hautement réalistes, au risque qu’ils ne déploient pas l’ensemble de 
+leurs fonctionnalités. 
+L’analyse de ces logiciels peut aussi demander des outils évolués de rétro- 
+conception pour comprendre le détail de leur fonctionnement.
+Une description des méthodes et outils est proposée en complément au sein du 
+chapitre consacré au cyber-renseignement.
+B.3.2.4 _Outils d’investigation numérique
+Les outils d’investigation numérique sont utilisés pour rechercher les traces laissées 
+par une agression informatique et reconstruire la chronologie des événements, 
+ou encore pour reconstruire des données effacées. 
+Certains de ces outils peuvent être utilisés dans le cadre d’actions judiciaires 
+et doivent donc garantir une forte intégrité et une parfaite traçabilité des 
+actions. 
+L’évolution des technologies et des usages conduit à réaliser des investigations 
+numériques non seulement sur des supports physiques et des postes de 
+travail, mais aussi sur des réseaux, des systèmes ou des architectures de type 
+Cloud. Les volumes de données à traiter sont de plus en plus considérables 
+(investigation numérique et big data). Cette évolution demande de nouvelles 
+méthodes et de nouveaux outils.
+Une description complémentaire de méthodes et outils d’investigation 
+numérique est proposée au sein du chapitre dédié au cyber-renseignement.
+B.3.3 _Services
+B.3.3.1 _Formation
+B.3.3.1.1 _Formation cybersécurité
+L’ANSSI propose sur son site4 une liste de profils. Cette liste est résumée 
+au chapitre E. Des formations initiales ou continues doivent être proposées 
+afin d’être en mesure de disposer de ressources humaines en quantité et 
+de qualité pour tenir les postes qui sont à pouvoir dans les sphères privée 
+ou étatique. Ce besoin en formation nécessite des outils et systèmes de 
+formation à la cyberdéfense, à la supervision de la sécurité, et à la gestion 
+de crise.
+Ces moyens doivent servir à la formation de personnels de différents niveaux 
+(utilisateurs, techniciens, ingénieurs, experts), civils ou militaires et dans ce 
+dernier cas pour des systèmes en métropole ou sur les théâtres d’opérations 
+extérieures. 
+B.3.3.1.2 _Entrainement supervision et gestion de crise
+Ces formations plus spécifiques doivent permettre de disposer de personnels 
+de différents niveaux, aptes à réagir efficacement en cas de crise cyber. 
+Ces formations peuvent aussi inclure la dimension juridique liée à la cyber-
+défense (quels sont les droits en cas d’attaque, quelles limites à la réac-
+tion…), des aspects éthiques, et prendre en compte des aspects psycho-
+logiques, telle la gestion du stress. Afin de mieux spécifier les contrats de 
+service ou de développement de produits, les aspects contractuels doivent 
+aussi être abordés.
+B.3.3.2 _Evaluation de sécurité
+Il est vital de pouvoir estimer le niveau de sécurité des outils ou services de 
+LID. Leur évaluation par des entreprises de confiance est donc indispensable. 
+Les outils et enjeux sont identiques à ceux développés pour les outils de 
+protection (cf. B.1.3.1).
+4 http://www.ssi.gouv.fr/entreprise/formations/profils-metiers/

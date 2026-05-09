@@ -1,0 +1,138 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 46 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+44/47 
+ANNEXE 4. 
+LISTES DES EXIGENCES 
+ 
+N° 
+Statut (cf. §1.3) 
+Intitulé de la règle 
+Acteur20 
+RO 1 
+: 
+Obligatoire 
+Pour tout SI du ministère, désigner formellement une AH pour un 
+périmètre d’homologation donné. 
+AQSSI 
+RO 2 
+: 
+Recommandé 
+Désigner une AH pour tout SI au sein de la chaîne d’emploi du SI. 
+AQSSI 
+RO 3 
+: 
+Obligatoire 
+En cas de changement d’AH au cours du cycle de vie du SI, procéder 
+formellement à un transfert de responsabilités au cours duquel le dossier 
+d’homologation du SI est transmis à la nouvelle AH. 
+AQSSI 
+RO 4 
+: 
+Obligatoire 
+Renouveler la décision d’homologation en cas de transfert de 
+responsabilité d’AH. La mise en œuvre de ce renouvellement est laissée 
+à l’appréciation de l’AH prenante. 
+AH 
+(prenante) 
+RO 5 
+: 
+Obligatoire 
+Pour une AH, disposer d’au moins un spécialiste SSI formé à la 
+démarche d’homologation. 
+AH 
+RO 6 
+: 
+Obligatoire 
+Pour l’AH, constituer une commission d’homologation, adaptée au 
+système à homologuer et en fixer les règles générales de 
+fonctionnement. 
+AH 
+RO 7 
+: 
+Obligatoire 
+Dans le cadre d’une démarche d’homologation standard, constituer la 
+commission d’homologation au minimum des acteurs suivants : 
+● l’AH ou son représentant ; 
+● le responsable SSI (RSSI) en charge de la démarche d’homologation ; 
+● le responsable de projet (RCP ou équivalent)/programme ou son 
+représentant ; 
+● l’AE ou son représentant. 
+AH 
+RSSI 
+RO 8 
+: 
+Obligatoire 
+Renseigner les informations relatives à la démarche d’homologation 
+dans l’outil de suivi du patrimoine applicatif du ministère des Armées 
+(SICLADE) et les réactualiser au fur et à mesure de la démarche 
+d’homologation (sous réserve du niveau de classification de ces 
+informations). 
+AE 
+RSSI 
+RO 9 
+: 
+Obligatoire 
+Afin que la décision d’homologation soit motivée et justifiée, pour l’AH, 
+s’appuyer sur un dossier d’homologation conforme à la démarche 
+d’homologation choisie et dont les pièces constitutives sont définies par 
+la stratégie d’homologation. 
+AH 
+RO 
+10 : 
+Obligatoire 
+Pour le RSSI, constituer le dossier d’homologation tel qu’il est défini dans 
+la stratégie d’homologation et le faire valider par le CEAH. 
+RSSI 
+RO 
+11 : 
+Obligatoire 
+Pour le RSSI, documenter le périmètre d’homologation, validé par l’AH, 
+et l’actualiser au fur et à mesure de l’évolution du SI. 
+RSSI 
+RO 
+12 : 
+Obligatoire 
+Pour le RSSI, établir une stratégie d’homologation puis la faire 
+approuver par l’AH. 
+RSSI 
+RO 
+13 : 
+Obligatoire 
+Pour le RSSI, rédiger des PES puis les faire approuver par l’AH, après 
+accord de l’AE. 
+RSSI 
+RO 
+14 : 
+Obligatoire 
+Pour l’AH, délivrer une décision d’homologation à partir d’une liste de 
+risques résiduels après avoir autorisé les mesures dérogatoires relevant 
+de son périmètre. 
+AE 
+AH 
+RO 
+15 : 
+Obligatoire 
+Pour homologuer un SI, appliquer l’une des trois démarches 
+d’homologation identifiées : sommaire, simplifiée ou standard. 
+AH 
+RSSI 
+RO 
+16 : 
+Obligatoire 
+Pour l’AH, dans une démarche sommaire, fournir au RSSI le CUC qu’il 
+devra renseigner. 
+AH 
+RO 
+17 : 
+Obligatoire 
+Pour l’AE, dans une démarche sommaire, valider le CUC correctement 
+renseigné. 
+AE 
+                                               
+20 AQSSI autorité qualifiée en matière de SSI, AE autorité d’emploi, AH autorité d’homologation, RSSI responsable 
+SSI (RSSI-A ou P)

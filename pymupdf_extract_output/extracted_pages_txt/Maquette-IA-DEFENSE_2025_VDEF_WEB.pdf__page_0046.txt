@@ -1,0 +1,86 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 46 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+46
+Recommandations de sécurité pour la mise-en œuvre 
+de plateformes d’IA générative dédiées à l’ingénierie 
+des systèmes critiques.
+L’ingénierie des systèmes critiques englobe la 
+conception, le développement, la vérification et la 
+maintenance de systèmes dont la défaillance pourrait 
+entraîner des conséquences graves, telles que des pertes 
+humaines, des dommages environnementaux ou des 
+pertes économiques significatives. L’introduction de l’IA 
+générative offre des opportunités d’automatisation et 
+d’amélioration de ces processus d’ingénierie. Cependant, 
+elle introduit également des risques spécifiques qui 
+peuvent compromettre la sécurité intrinsèque des 
+systèmes. Par exemple, l’interaction entre un utilisateur 
+et une IA générative peut exposer des informations 
+techniques sensibles relatives à ces systèmes. Par 
+ailleurs le risque d’hallucination des modèles génératifs 
+peut entrainer des erreurs de conception et des 
+défaillances graves. L’utilisation de l’IA générative 
+dans l’ingénierie des systèmes critiques requiert donc 
+une approche rigoureuse en matière de sécurité, de 
+souveraineté et d’explicabilité. Afin d’assurer l’intégrité 
+des systèmes et de protéger les données sensibles, nous 
+recommandons la mise en place des mesures suivantes :
+ 
+1.	
+Protection de l’Infrastructure Matérielle
+Il est essentiel de déployer l’infrastructure matérielle 
+sur site, en évitant les services cloud non maîtrisés, afin 
+de garantir la souveraineté des données. L’architecture 
+matérielle doit être renforcée en utilisant des processeurs 
+et GPU dédiés, accompagnés d’une segmentation 
+réseau stricte pour limiter les risques de compromission. 
+L’interconnexion avec internet ou avec une infrastructure 
+de niveau de sécurité différent doit être sécurisée par 
+l’usage de passerelles et de pare-feu. Des contrôles 
+d’accès rigoureux, incluant une authentification 
+forte et une gestion fine des permissions utilisateur, 
+doivent être mis en place. Une surveillance continue 
+est nécessaire, avec l’enregistrement des actions 
+critiques et la collecte d’évènements qui seront 
+remontés en centre de supervision de sécurité pour 
+être analysés. Enfin, la plateforme doit subir des tests 
+de pénétration réguliers et une homologation au 
+niveau de sécurité requis par les projets adressés.
+ 
+2.	
+Sécurisation des interactions homme-machine
+Pour prévenir les risques liés à l’exploitation malveillante 
+des modèles d’IA générative, il est recommandé de 
+mettre en place une interface de prompts sécurisée. Cette 
+interface doit filtrer et valider les entrées afin d’éviter 
+les biais et hallucinations des modèles, contrôler la 
+fréquence des requêtes pour limiter les abus et détecter 
+les usages suspects, et enregistrer les interactions pour 
+assurer la traçabilité et prévenir les injections malicieuses. 
+De plus, le développement d’une bibliothèque de 
+prompts pré-validés est conseillé. Ces prompts certifiés 
+encadreront l’utilisation des modèles et seront mis à jour 
+continuellement pour répondre aux nouveaux besoins et 
+sécuriser les interactions. Ils offriront le double avantage 
+d’améliorer la productivité des équipes d’ingénierie et 
+réduire le risque d’erreurs liées à la qualité des prompts.
+ 
+3.	
+Contrôle des sources et vérification des sorties
+Pour renforcer la cohérence et la fiabilité des résultats 
+produits par l’IA, il est recommandé d’intégrer un 
+mécanisme de génération augmentée par récupération 
+(RAG). Cela implique l’utilisation d’une base de 
+connaissances contrôlée pour améliorer la précision 
+des réponses, le filtrage des mises à jour pour éviter 
+les attaques de type empoisonnement, une indexation 
+et recherche sécurisées pour garantir un accès rapide 
+aux informations pertinentes sans compromission. 
+Adrien BECUE
+Expert en IA et Cybersécurité 
+Thales

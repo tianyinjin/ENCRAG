@@ -1,0 +1,38 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 22 / 108
+
+================================================================================
+
+22
+POLE D'EXCELLENCE CYBER
+Instrument essentiel de communication interne ou externe pour les organisations, la messagerie électronique est aujourd’hui la 
+principale cible des attaquants, qui cherchent à dérober, corrompre ou détruire des données, le patrimoine de toute collectivité. 
+Bien des messages électroniques envoyés ou reçus par des agents de la collectivité sont sensibles (gestion de données 
+personnelles, documents officiels, accès utilisateurs, etc.) et soumis aux différentes réglementations (RGPD, déclaration CNIL1, 
+etc.).
+Les recommandations et les précautions suivantes sont essentielles pour protéger vos échanges électroniques, prévenir les attaques 
+ou en diminuer les effets.
+La messagerie électronique 
+• Privilégiez les messageries qui garantissent le respect de la vie privée sur Internet  R1 . Plus largement, préférez les logiciels 
+de sociétés françaises ou européennes plutôt que ceux de multinationales étrangères qui analysent et conservent vos conversations.
+• Chiffrez les messages lorsque les données échangées sont à caractère personnel ou sensibles2  R2  : vous pouvez le faire par 
+vous-même, les solutions gratuites existent (OpenPGP), mais leurs mise en œuvre nécessite de bonnes compétences en informatique. 
+Vous pouvez aussi choisir une messagerie sécurisée intégrant un module de chiffrement des données. Ces messageries sont en général 
+payantes, mais leur utilisation est simple, intuitive.
+Le courrier électronique n'est pas un moyen de communication sécurisé pour échanger des données personnelles. Une simple erreur de 
+manipulation peut provoquer la divulgation de données à des destinataires non autorisés. Afin de protéger les échanges, et notamment 
+lorsque les informations échangées sont sensibles (données à caractère personnel, données financières, etc.), les collectivités peuvent 
+se tourner vers le service de coffre-fort numérique. En outre, un coffre-fort numérique3 peut servir également d’espace de stockage 
+sécurisé, ce qui n’est pas le cas de la messagerie électronique.
+• Évitez les messageries des fournisseurs d'accès à l'Internet  R3  : utilisez des messageries privées de préférences européennes. 
+N’utilisez pas, par facilité, l'adresse offerte par votre fournisseur d'accès Internet (FAI), car celle-ci ne vous appartient pas, et si vous 
+changez de prestataire vous perdrez cette adresse au bout de quelques mois.
+• Paramétrez votre messagerie  R4  : les paramètres par défaut des messageries et des logiciels clients de messageries (Thunderbird, 
+Outlook, etc.) sont souvent trop permissifs et contraires aux principes élémentaires de précaution.
+1 La mise en place d’un dispositif de contrôle de la messagerie électronique par l’employeur doit être déclaré à la CNIL.
+2 Voir la fiche « Gestion des données et RGPD ».
+3 Voir la partie « Service coffre-fort numérique » de la fiche « Stockage des données ».
+FICHE N°4
+........................................
+MESSAGERIE ÉLECTRONIQUE

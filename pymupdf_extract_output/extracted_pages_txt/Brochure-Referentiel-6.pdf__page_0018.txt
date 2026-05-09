@@ -1,0 +1,90 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 18 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+34 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 35
+B.4.1.4 _La gouvernance
+Le renseignement militaire est une activité de nature régalienne, sa gouvernance 
+n’est pas détaillée dans ce document6. 
+B.4.2 _Produits et technologies
+B.4.2.1 _Sondes et capteurs réseaux
+Se reporter au paragraphe B 3.2.2.
+B.4.2.2 _Outils d’investigation
+Les outils d’investigation ont pour objectif d’identifier les vulnérabilités résiduelles 
+des systèmes d’information, les menaces qui leurs sont associées, ils aident à 
+caractériser les attaques que ces systèmes pourraient subir ou subissent. 
+Les outils d’investigation sont de natures très variées, ils dépendent du support 
+de stockage, de transport, ou d’exploitation des informations qui sont à protéger. 
+Leur terrain d’application est extrêmement étendu (depuis les couches maté-
+rielles jusqu’aux applications), protéiforme et mouvant. 
+À titre d’exemple nous avons cité : les fouilles de données, les agents conver-
+sationnels, les outils de corrélation et de classification, les tests à données 
+aléatoires (fuzzing), les scanners de vulnérabilités, liste loin d’être exhaustive. 
+Le lecteur pourra s’adresser pour plus de détails aux services et agences de 
+l’État, tels que la DGSI ou l’ANSSI en France, ou vers des sociétés privées 
+spécialisées dans ce domaine.
+B.4.3 _Services
+B.4.3.1 _Renseignements sur la menace et rapports de Threat Intelligence
+Le renseignement sur la menace consiste à caractériser la menace sous ses dif-
+férents aspects :
+• Son origine : de qui provient-elle ?
+• Pourquoi ? Dans quel contexte ?
+• Qui en est la cible ?
+• Quels sont les lieux concernés par la menace ?
+• Quand peut-elle être exercée ?
+• Sous quelles formes peut-elle s’exprimer ?
+• Quels sont les moyens et les modes opératoires de l’attaquant ?
+• Quelles sont les solutions pour s’en protéger ?
+Le renseignement sur la menace fait l’objet de rapports de Threat Intelligence 
+(TI) ou Cyber Threat Intelligence (CTI) synthétisant tout ou partie des réponses 
+aux questions adressées.
+Le monitoring des activités souterraines de la cybercriminalité et des trafi-
+quants et la surveillance du cyberespace pour la lutte contre le terrorisme 
+illustrent l’importance de l’activité de suivi des cyber-menaces.
+B.4.3.2 _Lutte contre l’espionnage
+Le cyber espionnage consiste à récupérer des données sensibles ou des droits 
+afin d’obtenir un avantage sur une entreprise ou une entité gouvernementale.
+Le site gouvernemental dédié à la lutte contre l’espionnage7 en expose les 
+risques et les moyens de prévention. Le Service de l’Information Stratégique 
+et de la Sécurité Economique (SISSE) propose 26 fiches autour de la sécurité 
+économique8. L’Institut National des Hautes Études de la Sécurité et de la 
+Justice (INHESJ) a également publié un kit de sensibilisation des atteintes à 
+la sécurité économique9. 
+La règlementation pour la cybersécurité des entreprises est évoquée au 
+chapitre H.3
+B.4.3.3 _Constitution de bases de données
+La constitution de bases de données permet de capitaliser les connais-
+sances issues du renseignement, de les représenter sous différents angles 
+de vues selon les problématiques à adresser, et de les rendre disponibles 
+pour une exploitation numérique par un calculateur et ses logiciels. 
+Divers types d’objets peuvent être capitalisés et mis en base ou en cata-
+logue pour être réemployés à des fin de lutte informatique défensive (LID) 
+ou offensive (LIO). Sans exhaustivité nous pouvons citer :
+• Les logiciels malveillants (vers, chevaux de Troie, portes dérobées, 
+spywares, keyloggers, rootkits, ransomwares…) ;
+• Les signatures de logiciels malveillants ;
+• Les indicateurs de compromission ;
+• Les vulnérabilités matérielles, logicielles, ou des systèmes ;
+• Les incidents observés ;
+• Les scans réseau via l’Internet ;
+• Les certificats et les mots de passe interceptés ou décryptés.
+B.4.3.4 _Cyber Threat Intelligence Platform (Capitalisation de renseignements)
+Un service de CTI performant utilise une plateforme pour pouvoir :
+• Agréger plusieurs sources de données sur une même plateforme ;
+• Corréler, qualifier et valider les informations, via des processus ou par 
+investigation ;
+• Disséminer l’information via des capacités d’interfaçage avec l’environnement.
+Dans un environnement interconnecté, complexe et changeant, il est essentiel 
+de comprendre l‘évolution rapide des menaces afin d’adapter les processus et 
+les opérations de cyberdéfense.
+6 Pour plus d’informations, les éléments publics figurent à l’adresse :  
+https://www.defense.gouv.fr/content/download/551555/9394645/El%C3%A9ments%20publics%20de%20doctrine%20militaire%20de%20lutte%20informatique 
+%20OFFENSIVE.pdf
+7 https://www.gouvernement.fr/risques/espionnage
+8 https://sisse.entreprises.gouv.fr/fr/outils/la-securite-economique-au-quotidien-26-fiches-thematiques
+9 https://inhesj.fr/kit-de-sensibilisation-des-atteintes-la-securite-economique

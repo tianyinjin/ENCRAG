@@ -1,0 +1,102 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 78 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 78 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+INC3 
+TECH 
+Mettre en place une solution de SIEM ainsi que les ressources (RH, matérielles, 
+etc.) pour garantir son efficience. 
+ 
+D 
+C 
+R 
+Une solution de SIEM n’est efficace que 
+si elle dispose de ressources humaines 
+et matérielles suffisantes. Elle peut 
+notamment être liée à un SOC (centre 
+opérationnel de sécurité).  
+INC4 
+ORG 
+Dans le cas d'une mise en place d'une supervision de sécurité, prendre en compte 
+le guide de détection pour les systèmes industriels publiés par l’ANSSI. 
+ 
+C 
+R 
+O 
+Voir Doctrine de détection pour les 
+systèmes 
+industriels, 
+ANSSI, 
+3 
+décembre  2020. 
+INC5 
+ORG 
+Déterminer en cas d’incident : 
+ 
+-  que faire lors de la détection d’un incident ; 
+ 
+-  qui alerter ;  
+-  qui doit coordonner les actions en cas de crise ;  
+-  quelles sont les premières mesures à appliquer. 
+O
+ 
+ 
+ 
+ 
+INC6 
+ORG 
+Adapter la procédure d’alerte au système industriel et à son organisation. Les 
+autorités d’emploi et bénéficiaires y sont intégrés. Ils sont informés des incidents 
+avérés et de leurs conséquences sur leurs activités et les systèmes auxquels il 
+concourt. 
+ 
+C 
+R 
+O 
+ 
+INC7 
+ORG 
+TECH 
+Un incident donne lieu à une analyse dont le but est de déterminer l’origine de 
+l’incident et d’améliorer la cybersécurité du système industriel. 
+ 
+C 
+R 
+O 
+ 
+INC8 
+ORG 
+Le processus de gestion de crise doit également contenir une procédure 
+d’escalade pour gérer les incidents au bon niveau de responsabilité et décider en 
+conséquence : 
+- s’il faut déclencher un plan de reprise d’activité ;  
+- si une action judiciaire est nécessaire. 
+ 
+C 
+R 
+O 
+ 
+Contrôler l’état de sécurité du système 
+CTRL1 
+ORG 
+En cas d’audit, les tests doivent être réalisés dans le cadre de la maintenance ou 
+avant la mise en production du système industriel, voire sur une plateforme de test 
+s'ils présentent des risques de dysfonctionnement. 
+O
+ 
+ 
+ 
+Les audits  peuvent comprendre 
+ 
+-  des tests aux limites ; 
+ 
+-  des tests d’erreur des fonctions métier

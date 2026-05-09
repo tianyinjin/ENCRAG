@@ -1,0 +1,88 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 74 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 74 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+MCS13 
+ORG 
+TECH 
+Tracer les mises à jour et modifications apportées au système industriel. 
+O
+ 
+ 
+ 
+ 
+MCS14 
+ORG 
+Avant mise en production, valider les impacts des modifications par le RSSI et 
+l’autorité d’emploi ou bénéficiaire. 
+ 
+R 
+O 
+O 
+ 
+MCS15 
+ORG 
+Mettre en place un processus de vérification des versions de programme en cours 
+d’exécution par rapport à une version de référence. 
+ 
+C 
+R 
+O 
+ 
+MCS16 
+TECH 
+Faire évaluer et valider les modifications ou évolutions dans un environnement de 
+test préalable avant leur déploiement.  
+ 
+C 
+R 
+O 
+ 
+MCS17 
+ORG 
+Mettre en place un processus de test pour évaluer les impacts de toute 
+modification, notamment de l'application de correctifs de sécurité.  
+ 
+C 
+R 
+O 
+ 
+MCS18 
+TECH 
+Mettre en œuvre un environnement de test représentatif du système en production 
+afin de s’assurer de sa non-régression après l’application des correctifs. 
+ 
+C 
+R 
+O 
+ 
+Garantir une gestion des vulnérabilités 
+MCS19 
+ORG 
+Mettre en place un processus de veille sur les menaces, en particulier sur 
+l'évolution des techniques d'attaque, et vulnérabilités pour les éléments 
+préalablement définis dans une stratégie de maintien en condition de sécurité 
+(MCS). Le processus commence dès la phase de réalisation.  
+ 
+R 
+O 
+O 
+ 
+MCS20 
+ORG 
+Contractualiser la diffusion par les fournisseurs des bulletins de vulnérabilité pour 
+l’ensemble des équipements, matériels et logiciels utilisés dans le système 
+industriel. 
+ 
+C 
+R 
+O

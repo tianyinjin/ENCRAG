@@ -1,0 +1,103 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 52 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+52
+Intelligence Artificielle responsable et de confiance 
+pour la Défense : vers de nouvelles pratiques 
+d’ingénierie ?
+Intégrant depuis plusieurs décennies des algorithmes 
+de Recherche Opérationnelle, la Défense n’a pas 
+échappé à l’impact de la dernière vague d’algorithmes 
+d’Intelligence Artificielle (IA) considérant notamment 
+l’apprentissage machine qui s’appuie principalement 
+sur des données et moins sur des règles pensées 
+par des humains. Du fait de risques opérationnels 
+parfois plus importants que dans le monde civil (ex : 
+aéronautique), une ingénierie d’IA de confiance digne 
+de ce nom est requise pour qualifier ou certifier ces 
+systèmes militaires critiques.
+Le point de départ est le partage des principes (avec 
+une base éthique) que l’on doit prendre en compte 
+pour atteindre la confiance visée. Si le groupe 
+d’experts de haut niveau européen en IA [1] avait initié 
+cette voie en 2019 en ciblant 4 principes éthiques 
+(« respect for human autonomy, prevention of harm, 
+fairness, explicability ») déclinés en 7 exigences clés 
+(apparentés à des critères de confiance), l’OTAN a 
+quant à elle annoncé ses 6 principes d’utilisation 
+responsable de l’IA[2] en 2021 : « Lawfulness, 
+Responsibility and Accountability, Explainability and 
+Traceability, Reliability, Governability, Bias mitigation ». 
+Les ministères de la Défense des Etats-Unis ou du 
+Royaume Uni par exemple ont choisi des principes du 
+même ordre. 
+Ces principes vont guider la façon dont on va mesurer 
+(quantitativement ou qualitativement) la confiance 
+d’un système militaire intégrant de l’IA. Ces systèmes 
+étant de nature complexe, ils nécessitent des 
+processus de développement rigoureux adaptés à l’IA 
+et intégrant aussi des mécanismes de surveillance du 
+comportement de l’IA après déploiement. En effet, 
+les différents types d’IA ne peuvent adresser le même 
+niveau de risque. Ainsi, on ne peut imaginer s’appuyer 
+sur une IA générative de type grand modèle de 
+langage (LLM) embarquée en phase d’exécution 
+de mission opérationnelle, compte tenu de la forte 
+probabilité actuelle de générer des hallucinations. 
+Par contre, utiliser un algorithme de détection ou 
+classification de cibles militaires basé sur de la vision 
+peut être envisageable à condition de développer cet 
+algorithme en assurant la confiance de bout-en-bout 
+de son cycle de vie. Cela suppose une ingénierie qui 
+considère les spécificités de ces IA. 
+On pense souvent à l’IA comme une application 
+logicielle mais il ne faut pas oublier qu’elle s’exécute 
+sur un composant matériel qui lui aussi doit être de 
+confiance. La communauté RISC V[3] contribue à cet 
+effort en délivrant des architectures ouvertes. D’une 
+manière générale, considérer des IA de type « boite 
+blanche » (connaissance des entrées et sorties du 
+modèle, ainsi que du modèle ou de l’algorithme lui-
+même et de la façon dont il a été construit) accroît 
+nativement la confiance. Néanmoins des méthodes 
+ou processus outillés de confiance existent pour 
+des IA « boites noires », améliorant par exemple leur 
+explicabilité. 
+Ainsi, l’IA doit être considérée d’un point de 
+vue 
+ingénierie 
+système 
+(agnostique 
+de 
+toute 
+implémentation IA), logicielle (en s’appuyant aussi sur 
+des outils de développement matures et appropriés 
+aux besoins de l’IA), matérielle (souvent avec des 
+contraintes d’embarquabilité), mais aussi et surtout 
+algorithmique à base d’IA et c’est là la nouveauté 
+majeure. 
+Les récents travaux (confiance.ai[4] rassemblant 
+notamment 
+plusieurs 
+industriels 
+de 
+systèmes 
+critiques, EASA et SAE G34 / EUROCAE WG114[5] 
+avec le futur standard ED-324/ARP6983) décrivant 
+Michel BARRETEAU
+Expert en Intelligence Artificielle 
+de confiance de bout-en-bout
+Thales cortAIx Labs France
+Patricia BESSON
+Responsable du laboratoire Analyse 
+et Raisonnement dans les Systèmes 
+Complexes
+Thales cortAIx Labs France
+Fateh KAAKAI
+Expert Safety & Chercheur 
+en IA de Confiance
+Thales cortAIx Labs France

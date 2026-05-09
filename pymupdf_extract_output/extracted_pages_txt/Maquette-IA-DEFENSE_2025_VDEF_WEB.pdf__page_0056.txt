@@ -1,0 +1,118 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 56 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+56
+Les principales vulnérabilités des LLMs face aux 
+attaques malveillantes
+L’intégration 
+de 
+l’IA 
+générative 
+(GenAI), 
+et 
+notamment des LLMs (Large Language Models), 
+dans les entreprises et grandes institutions offre 
+un potentiel immense : automatisation des tâches 
+complexes, gain de temps pour les utilisateurs, 
+et innovation des services. Cependant, ces outils 
+introduisent de nouvelles vulnérabilités dans les 
+systèmes d’information. En effet, qu’il s’agisse des 
+données traitées, des modèles eux-mêmes, voire des 
+logiciels incorporant des composants de GenAI, ces 
+innovations ouvrent des fenêtres d’attaque exploitées 
+par des acteurs malveillants. Ces derniers peuvent 
+perturber le fonctionnement des services ou exfiltrer 
+des données sensibles. Identifier et mettre en œuvre 
+des contre-mesures efficaces est désormais une 
+priorité majeure pour la cybersécurité.
+A. Qu’est-ce qu’un système d’IA fiable ?
+L’intégration 
+des 
+LLMs 
+dans 
+des 
+systèmes 
+complexes ouvre de nouvelles voies pour des 
+attaquants potentiels, capables de perturber le bon 
+fonctionnement d’un service. Un système génératif 
+est attendu sur quatre aspects fondamentaux :
+•	
+Fiabilité : il doit exécuter avec précision et qualité 
+la tâche assignée.
+•	
+Respect des formats prescrits : essentiel pour 
+assurer 
+l’interopérabilité 
+dans 
+des 
+chaînes 
+d’agents IA autonomes.
+•	
+Confidentialité : Un système d’IA doit garantir la 
+sécurité des données personnelles de l’utilisateur 
+et de l’institution.
+•	
+Performance : il doit maintenir un temps de 
+réponse acceptable, même sous forte charge.
+Toute altération compromettant ces attentes — 
+qu’elle se manifeste par des résultats incohérents, 
+des latences accrues, ou des formats non conformes 
+— peut perturber le système avec des conséquences 
+variables, allant d’une simple inefficacité à des 
+dysfonctionnements critiques.
+B.  Les différents types d’attaques 
+Les experts en cybersécurité ont développé une 
+taxonomie 
+des 
+attaques 
+visant 
+les 
+systèmes 
+génératifs, notamment selon les techniques utilisées 
+par les attaquants. Cette taxonomie est bien sûr en 
+constante évolution avec l’apparition de nouvelles 
+menaces. A date les principaux types d’attaques 
+répertoriées sont :
+•	
+jailbreaking : Tentative par des techniques de 
+prompting spécifiques de désaligner le LLM de 
+son paramétrage initial (production de contenu 
+toxique, de biais…) ou de sa mission actuelle 
+(«  oublie toutes les instructions précédentes et 
+…»), voire de générer un contenu dangereux si 
+exécuté, comme des redirections vers des url 
+frauduleuses. Ce genre d’attaque impacte la 
+fiabilité des systèmes.
+•	
+prompt leaking  (fuite de prompt) : Technique 
+visant à « sonder » le système génératif en lui 
+faisant avouer son system prompt. Souvent phase 
+de repérage pour dévoiler des secrets industriels 
+ou pour avoir de meilleurs outils pour améliorer 
+les autres formes d’attaques pas prompt injection. 
+Le but est d’exfiltrer des données confidentielles.
+•	
+attaque par code exécutable :   L’attaquant 
+pousse le LLM à générer du code malicieux 
+puis à l’exécuter ; nota : seulement dans des 
+environnements où le LLM a la permission de 
+générer et d’exécuter du code (coding agents). 
+Cela impacte la fiabilité mais aussi l’intégrité 
+même du système.
+•	
+data poisoning (empoisonnement des données) : 
+Modification des données d’entraînement, de 
+fine tuning d’un modèle ou des données qu’il 
+requête lors de l’exécution de ses tâches de façon 
+à influencer son comportement général (une 
+modification de 0.1 % du corpus d’entraînement 
+Louis JOURDAIN
+Ingénieur IA/NLP
+Groupe Chapsvision
+Christian LANGEVIN
+Chief Product Officer IA/NLP
+Groupe Chapsvision

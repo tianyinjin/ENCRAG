@@ -1,0 +1,83 @@
+Source file: 20240416_NP_NOTE_D-24-001879_directive de pilotage budgétaire 2024.pdf
+Relative path: 20240416_NP_NOTE_D-24-001879_directive de pilotage budgétaire 2024.pdf
+Page: 71 / 92
+
+================================================================================
+
+71/92 
+ 
+Ce travail de vérification s’effectue avec l’onglet cumulé du RAMSES : 
+N° 
+Point de contrôle 
+Précisions 
+Cellule du 
+Ramsès 
+1 
+Les enveloppes en AE/CP 
+correspondent 
+aux 
+notifications de référence 
+Initiale 
+SG1 
+Post SG2 
+Elles sont saisies à l’euro près et sans 
+décimale 
+AE = E3 
+CP = G4 
+2 
+Le 
+montant 
+des 
+AEP 
+programmées est égal aux 
+MADI AEP 
+Afin d’être en corrélation avec CICoS/B. 
+BUD, il est important de ne prendre en 
+compte que les MADI typées AEP dans 
+Chorus 
+F4 
+3 
+Les AEP sont programmées 
+sur le mois d’engagement du 
+marché 
+ 
+ 
+4 
+Les RàE en AE et CP ont bien 
+fait l’objet d’une actualisation 
+(avant 
+chaque 
+envoi 
+au 
+CICoS) 
+ 
+H et I 
+5 
+Les RàP en CP sont toujours 
+supérieurs ou égaux aux RàE 
+en AE identifiés 
+ 
+ 
+6 
+A chaque actualisation de la 
+programmation, 
+la 
+programmation en CP doit 
+être supérieure ou égale au 
+RàP CP 
+ 
+ 
+7 
+A chaque actualisation de la 
+programmation, le RàE AE 
+doit être inférieur ou égal à la 
+programmation AE 
+ 
+ 
+8 
+A chaque actualisation de la 
+programmation, 
+la 
+programmation en CP doit 
+être inférieure ou égale à : 
+Prog AE + RàP CP – RàE AE

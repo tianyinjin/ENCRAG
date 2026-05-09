@@ -1,0 +1,93 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 17 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+32 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 33
+B.3.3.3 _Services juridiques
+Les services juridiques interviennent de manière transverse sur les différentes 
+activités, soit pour borner et sécuriser les différentes prestations de services, 
+soit pour définir le cadre d’emploi de certains outils, ou pour encadrer la mise 
+en place de procédures ou d’outils de cybersécurité au sein des entreprises.
+B.3.3.4 _Réaction aux incidents
+Dans le cas où une attaque a atteint son but, la remise en service du système 
+d’information de l’organisation attaquée peut demander des ressources 
+humaines conséquentes à la fois en quantité (s’il faut par exemple une inter-
+vention physique sur un grand nombre d’équipements) et en qualité (pré-
+servation des traces, expertise technique pour l’éradication des malwares…). 
+Ces équipes peuvent être internes ou externes à l’organisation mais doivent 
+être formées et entrainées.
+B.3.3.5 _CERT5 / CSIRT
+Les CERT (Computer Emergency Response Team) ou CSIRT (Computer Security 
+Incident Response Team) sont des entités publiques ou privées qui assurent 
+le traitement des alertes informatiques, l’entretien et la diffusion de bases de 
+vulnérabilités et la diffusion de messages d’alertes ou de prévention.
+Le cyber-renseignement désigne l’ensemble des opérations de collecte, d’enri-
+chissement sémantique (traitement, analyse, fusion, interprétation) et de diffu-
+sion des informations issues ou à destination du cyberespace.
+Il est d’origine cyber lorsqu’il est issu du cyberespace. Il est d’intérêt cyber lors-
+qu’il est à destination du cyberespace.
+B.4.1 _Méthodes
+B.4.1.1 _Orientation préparation et planification des opérations de collecte
+L’orientation consiste à identifier la nature et les supports des informations à 
+recueillir, à définir la suite des opérations nécessaires au recueil, et à invento-
+rier les moyens à mettre en œuvre.
+Les capacités matérielles et humaines et leur préparation préalable condi-
+tionnent la réussite des opérations de recueil.
+B.4.1.2 _Le recueil d’informations
+Le recueil d’informations concerne l’ensemble des activités permettant d’agglo-
+mérer les informations et d’en tirer profit. 
+Le renseignement technique couvre des formes très variées, liées à la nature 
+de l’information et à son mode de recueil.
+Si nous excluons le renseignement au profit des activités de la Défense 
+Nationale et sans prétention d’exhaustivité, nous citerons comme princi-
+pales sources de renseignement technique :
+• L’OSINT (Open Source INTelligence) qui concerne les informations 
+accessibles au grand public en source ouverte. Ces sources incluent 
+les journaux, l’Internet, les écrits, les diffusions, les fuites d’information 
+quelle que soit leur origine ;
+• Le SOCMINT (SOCial Media INTelligence) qui fait référence aux méthodes 
+et moyens dédiés à la surveillance des médias sociaux, de manière à anti-
+ciper ou agir sur les besoins et les comportements des utilisateurs ;
+• La recherche de vulnérabilités sur les logiciels et les équipements. Que 
+ce soit en provoquant l’apparition de défauts ou de pannes par des 
+tests tous azimuts hors du champ d’utilisation de l’équipement (tests à 
+données aléatoires (fuzzing)), ou par la recherche de voies d’infiltration 
+et d’exploitation de failles ; ces activités ont pour but d’identifier les 
+vulnérabilités afin d’organiser la défense des infrastructures ; 
+• La rétro-ingénierie ou le reverse engineering. Consiste à étudier et à 
+décortiquer un objet pour en déterminer son fonctionnement ou sa 
+méthode de fabrication. Ces études peuvent être, par exemple, l’ana-
+lyse d’un binaire malicieux, d’un virus, la recherche de vulnérabilités en 
+vue de leur éradication, ou l’étude d’un objet (physique ou logique) 
+pour lutter contre la copie et les contrefaçons.
+B.4.1.3 _Analyses
+Les analyses ont pour vocation d’apporter une compréhension rapide et 
+exhaustive sur le déroulement d’un événement (campagnes d’attaque), sur 
+le mode opératoire d’un groupe déterminé, ou sur le fonctionnement d’un 
+malware et/ou sur son évolution. 
+Sur le plan technique, elles apportent les informations sur la structure d’un 
+malware et/ou sur des indicateurs de compromission (Indicators of com-
+promise (IoC)). Les descriptions techniques issues des analyses amènent à 
+l’écriture de règles de détection et permettent d’avoir une démarche proactive 
+et non pas uniquement réactive.
+Les descriptions techniques sont complétées par une analyse contextuelle 
+et stratégique, qui, à partir des éléments techniques obtenus grâce à l’in-
+vestigation, vise à déterminer la motivation réelle de l’attaquant. Pour cela, 
+la compréhension de l’écosystème international qui entoure l’attaque (ju-
+ridique, financier, social, culturel) est essentielle pour saisir les tendances 
+stratégiques qui expliquent l’événement.
+L’analyse du contexte stratégique permet une compréhension accrue des 
+facteurs déclencheurs des événements et donc la mise en place de démarches 
+proactives.
+Idéalement les rapports d’analyse contiennent une description des secteurs 
+industriels et géographiques touchés, l’origine de l’attaquant, ses Tactiques, 
+Techniques et Procédures (TTP), et ses motivations.
+B.4 
+Cyber- 
+renseignement
+5 Le terme CERT est une marque déposée de l’université Carnegie Mellon et ne peut être utilisé sans leur accord

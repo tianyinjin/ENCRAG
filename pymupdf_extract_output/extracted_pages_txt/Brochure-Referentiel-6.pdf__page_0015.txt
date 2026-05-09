@@ -1,0 +1,84 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 15 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+28 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 29
+B.2.3 _Services
+Les services permettant d’améliorer la cyber-résilience sont tout d’abord les 
+services de surveillance de réseau, qui permettent de détecter les attaques et 
+éventuellement de prendre des mesures de défense pour s’en prémunir. Ensuite, 
+il est possible d’identifier les services de maintien en condition opérationnelle 
+(MCO) et de maintien en condition de sécurité (MCS). En effet, de nombreuses 
+attaques informatiques peuvent se diffuser à cause de la mauvaise configuration 
+des systèmes : versions obsolètes, bases antivirales non mises à jour… 
+Le MCS de systèmes enfouis ou de systèmes industriels, dont il est parfois 
+difficile d’interrompre le fonctionnement, pose de nombreuses difficultés 
+qu’il est nécessaire d’étudier.
+La réalisation de PCA/PRA (plans de continuité d’activité, plans de reprise 
+d’activité) constitue aussi un volet important pour identifier les services 
+essentiels, et la manière dont l’organisation peut fonctionner en cas d’attaque 
+puis revenir à un mode de fonctionnement nominal.
+Pour l’ensemble de ces activités, il est nécessaire de disposer de méthodes 
+et d’outils qui permettent d’évaluer les niveaux de résilience d’un SI et d’une 
+architecture, notamment par l’évaluation des niveaux de risque et l’identifi-
+cation des points de panne unique.
+B.3.1 _Méthodes de Lutte Informatique Défensive (LID)
+B.3.1.1 _Connaissance de la menace
+Pour connaître la menace externe, il est nécessaire de la mesurer par une 
+veille active, notamment sur les sites d’information non officiels (Internet 
+clandestin ou dark Web). L’exploration du Web profond (deep Web) via des 
+techniques de « crawling » est à ce titre pertinente.
+Pour connaître la menace sur le SI, il est nécessaire de disposer d’outils de 
+collecte et de traitement d’informations en sources ouvertes et en sources 
+fermées, sur les technologies, produits ou systèmes des technologies de 
+l’information, mais aussi de systèmes connexes, comme par exemple les 
+systèmes de contrôle industriel.
+L’exploitation de ces données peut nécessiter des compétences dans les 
+domaines des bases de données, du « big data », du « DATA mining »… 
+Les méthodes et outils dédiés à la connaissance de la menace sont détaillés 
+au paragraphe B.4 dédié au cyber-renseignement.
+B.3.2 _Produits et technologies de LID
+B.3.2.1 _Administration de la sécurité
+B.3.2.1.1 _SIEM (Security Information and Event Management)
+Les SIEM sont des outils qui intègrent des fonctions de collectes d’évé-
+nements générés par des sondes (voir ci-après), de normalisation de 
+ces informations, d’agrégation et de corrélation, puis de visualisation 
+vers un opérateur. Les SIEM peuvent ensuite être connectés à un SOC 
+(Security Operation Center, voir ci-après). 
+B.3.2.1.2 _SOC / Réaction à incident
+Des fonctions basiques peuvent être intégrées dans les SIEM, mais elles sont 
+plus généralement identifiées dans les SOC (Security Operation Center). 
+Le SOC a pour rôle d’agréger les données issues des sondes, de les analyser, 
+puis d’en donner une vue pertinente au regard des décisions à prendre 
+pour assurer la sécurité du SI et du processus qu’il sous-tend.
+Par ordre de difficulté croissante, les techniques d’aide à la décision sont :
+• La présentation de solutions techniques possibles vers un opérateur 
+(de type fiche réflexe par exemple) ;
+• La présentation de solutions techniques priorisées selon les impacts 
+métier ou processus ;
+• La réaction automatique sur scénarios : possibilité de basculer dans 
+des modes de repli en fonction de conditions préétablies ;
+• La réaction automatique par système expert.
+Ces fonctions de réaction sont très critiques, une réaction inappropriée ou 
+disproportionnée pouvant entraîner des conséquences désastreuses pour 
+le fonctionnement de l’entreprise ou de l’organisme concerné.
+B.3.2.2 _Produits de détection d’intrusion (sondes et capteurs réseaux)
+Les produits de détection d’intrusion désignent des sondes qui vont capter 
+l’information alimentant ensuite le reste de la chaîne de LID. 
+Il convient de citer :
+• Les capteurs basiques qui enregistrent l’activité du système (journali-
+sation des événements) ;
+• Les sondes réseaux, qui analysent le trafic pour identifier des événements 
+anormaux ;
+• Les sondes hôtes qui vont analyser le fonctionnement d’un poste de 
+travail ou d’un serveur pour identifier les comportements anormaux ;
+• Les sondes métiers qui vont analyser un processus (process) pour 
+identifier des déviations par rapport à un comportement normal ou 
+acceptable. 
+B.3 
+Cyberdéfense

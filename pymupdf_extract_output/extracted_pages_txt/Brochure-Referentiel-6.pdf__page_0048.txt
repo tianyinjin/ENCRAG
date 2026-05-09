@@ -1,0 +1,95 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 48 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+94 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 95
+Limitations des référentiels d’entreprise
+La forme la plus simple du contrôle des accès au SI peut être réalisée grâce 
+aux fonctionnalités des annuaires d’entreprise : par exemple, la solution 
+Microsoft Active Directory permet de structurer les ressources de l’entreprise 
+dans des groupes disposant de droits d’accès spécifiques. 
+Cependant, ces méthodes sont trop complexes et trop statiques pour prendre 
+en compte la mobilité et l’hétérogénéité des cas d’usage actuels. De plus, la 
+vue d’ensemble des droits et permissions des personnes est tout simplement 
+impossible à consolider compte tenu de l’imbrication des différentes struc-
+tures ; la différence entre les droits apparents et les droits réels d’un employé 
+peut engendrer des risques graves de violations de règle du RGPD si toutes les 
+relations ne sont pas correctement interprétées. 
+En effet, la prise en compte des principes de protection des données à 
+caractère personnel dès la conception et par défaut29 sont partie intégrante 
+de l’évaluation de la conformité (art.25). 
+Par ailleurs, les autorisations attribuées à un employé à travers les fonctionnalités 
+de l’annuaire central ne reflètent pas forcément les droits de cette personne 
+dans une application donnée si la correspondance est réalisée « manuellement ». 
+L’automatisation du processus est la seule façon de garantir que les droits 
+attribués sont correctement et immédiatement appliqués (à un delta temporel 
+près lié à la fréquence de synchronisation des référentiels, le cas échéant).
+Enfin, il existe de nombreux cas d’usage dans lesquels il est essentiel de 
+garantir, à tout moment, que des ensembles de droits toxiques, c’est-à-dire 
+incompatibles entre eux, ne sont pas simultanément attribués à une personne 
+ou un groupe de personnes30. Si tel était le cas, ce serait à nouveau un cas de 
+violation des règles du RGPD.
+En résumé
+Le RGPD définit les objectifs qui doivent être atteints en termes de protections 
+des données à caractère personnel, sans imposer de méthodes ou de tech-
+nique spécifique. Cette protection que le RGPD définit et encadre exige que 
+les organisations contrôlent et restreignent l’accès aux données personnelles.
+Aussi, étant donné la complexité inhérente aux volumes et à l’hétérogénéité de 
+ces données ainsi qu’au nombre de demandes d’accès à traiter, l’authentification 
+des personnes et des objets qui accèdent aux données ainsi que la supervision 
+et la traçabilité des droits d’accès sont fondamentaux pour respecter les 
+exigences du RGPD, ce que la gestion - es fonction - des accès à privilège doit 
+garantir.
+Issue de la feuille de route de la commission européenne de 2017 en ma-
+tière de sécurité économique, le règlement européen Cybersecurity Act 
+(CSA), est paru au Journal Officiel de l’Union européenne le 7 juin 2020. 
+Il poursuit deux objectifs :
+• L’adoption d’un mandat permanent de l’ENISA, l’Agence européenne 
+pour la cybersécurité ;
+• La mise en place  d’un cadre européen de certification de produits, ser-
+vices et processus permettant de structurer le marché européen de la 
+cybersécurité et d’assurer à l’Europe une autonomie stratégique dans 
+ce domaine.
+L’initiative de créer un cadre de certification européen porté par une 
+gouvernance commune est née de la recrudescence des schémas de cer-
+tification nationaux au sein des États-membres de l’Union Européenne. 
+L’objectif du Cybersecurity Act est donc de diminuer le risque de frag-
+mentation du marché unique européen. 
+Les schémas cibles devront en outre respecter un ensemble commun 
+d’exigences techniques et de procédures, afin d’assurer une cohérence 
+de certification des produits et des services. Parmi ces exigences, trois 
+niveaux d’assurance ont été défini :
+• Élémentaire (basic), ciblant typiquement des objets grand public, non 
+critiques (exemple : IoT);
+• Substantiel (substantial), ciblant un risque de compromission médian;
+• Élevé (high), qui cible les solutions pour lesquelles il existe un risque 
+d’attaques menées par des acteurs avec des compétences et ressources 
+significatives (exemple : véhicules ou dispositifs médicaux connectés).
+Le certificat ainsi octroyé aux solutions et services sera reconnu à 
+l’échelle européenne, contrairement aux schémas nationaux qui peinent 
+à traverser les frontières.
+Afin de conseiller la Commission Européenne et l’ENISA sur les points 
+stratégiques relatifs à la certification en cybersécurité, un consortium 
+a été créé : le Stakeholder Cybersecurity Certification Group (SCCG), 
+regroupant académiques, industriels, associations de consommateurs, 
+organismes de standardisation, organismes d’accréditation, organismes 
+d’évaluation de la conformité (Conformity Assessment Bodies) ainsi que 
+le Comité européen de la protection des données (EDPB). Parmi ses mis-
+sions, ce consortium doit participer à la préparation et la consultation 
+du Union rolling work programme (URWP), dédié à l’identification des 
+priorités stratégiques des futurs schémas de certification européens en 
+matière de cybersécurité. Il doit également inclure une liste des produits 
+(ou de leurs catégories), services et processus aptes à être inclus dans 
+le périmètre d’un schéma de certification. La première occurrence de ce 
+programme a été repoussée à fin 2020.
+29 « privacy by design » et « privacy by default » en anglais.
+30 Voir http://www.rfi.fr/asie-pacifique/20151016-vanuatu-president-parlement-arrestation-auto-amnistie-deputes-grace pour un exemple amusant.
+H.2 
+Certifications  
+(Cyber Security  
+Act - CSA -)

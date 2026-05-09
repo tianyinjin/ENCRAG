@@ -1,0 +1,47 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 19 / 108
+
+================================================================================
+
+19
+POLE D'EXCELLENCE CYBER
+Ordinateur personnel, messageries électroniques, sites en ligne, logiciels métiers, etc., les mots de passe constituent la première 
+ligne de protection des comptes utilisateurs. Un mot de passe mal choisi ou mal protégé peut compromettre la sécurité de vos 
+accès, et donc de l'ensemble de votre système d’information. Il incombe donc à tous les agents, aux prestataires et fournisseurs 
+ayant accès au système d'information de la collectivité, de prendre les mesures appropriées pour bien choisir et sécuriser leurs 
+mots de passe.
+Voici les bonnes pratiques à adopter pour gérer efficacement vos mots de passe :
+• Bien choisir son mot de passe  R1  : un mélange aléatoire de lettres majuscules et minuscules, de chiffres et des caractères spéciaux, 
+suffisamment long, d'au moins 15 caractères. Le choix d'un mot de passe doit aussi se faire au regard de la criticité du service, le mot 
+de passe administrateur d'une application ou d'un équipement sera considéré comme étant très critique, il sera donc plus long et 
+plus complexe encore. Votre messagerie électronique doit également être considérée comme un service critique, car votre adresse 
+électronique est généralement associée à de nombreux comptes en ligne. 
+Les mots de passe à bannir :
+- Un mot ou une combinaison des mots d’un dictionnaire, une phrase prise dans un livre (même longue) ;
+- Une chaîne de caractères basée sur les lettres adjacentes de votre clavier : azerty, qwerty, 123456, etc.
+- Un mot de passe qui contient des informations personnelles ou qui peuvent être facilement devinées : date de naissance, prénom 
+de votre enfant, etc.
+- Enfin, faites également attention à ne pas utiliser des variations de ces mauvais exemples de mots de passe, par exemple, en 
+remplaçant la lettre « o » par « 0 » (zéro) ou en ajoutant un caractère spécial à la fin d’un mot du dictionnaire, car toutes ces variantes 
+usuelles sont répertoriées dans des « dictionnaires de mots de passe », facilement téléchargeables sur Internet et utilisés par les pirates.
+Un outil en ligne qui vous aide à construire un mot de passe fort et simple à retenir est disponible sur le site de la CNIL1 . Vous pouvez 
+également tester à la suite la robustesse de celui-ci sur le site de l'ANSSI2 . 
+• Utilisez un mot de passe unique pour chaque service  R2  : en particulier, les mots de passe de votre messagerie électronique 
+personnelle et professionnelle doivent être différents. Il peut être tentant d'utiliser le même mot de passe pour tous vos comptes, 
+afin de ne pas avoir à mémoriser une multitude de données. Cependant, en cas de perte ou de vol de votre mot de passe, tous vos 
+comptes peuvent être impactés.
+N’utilisez jamais le mot de passe de votre messagerie électronique pour vous inscrire sur un site en ligne. Les sites Web sont sujets à 
+de très nombreuses attaques informatiques et par conséquent à des fuites de données massives. Il existe des outils en ligne, comme 
+haveibeenpwened.com3 ou Firefox Monitor4 , qui recensent les comptes de messageries électroniques qui ont été compromis à 
+l’occasion de fuites massives de données. En entrant votre adresse électronique, vous pouvez ainsi savoir si elle figure dans l'une 
+des bases de données qui ont été piratées, quel site est à l’origine de la fuite, et si votre mot de passe ou d’autres données vous 
+concernant sont potentiellement entre les mains de personnes malveillantes (voir le tutoriel « Vérifier si une fuite de données en ligne 
+vous concerne »).
+1 https://www.cnil.fr/fr/generer-un-mot-de-passe-solide	
+2 https://www.ssi.gouv.fr/administration/precautions-elementaires/calculer-la-force-dun-mot-de-passe/
+3 https://haveibeenpwned.com
+4 https://monitor.firefox.com/
+FICHE N°3
+........................................
+MOTS DE PASSE

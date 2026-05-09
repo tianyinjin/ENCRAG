@@ -1,0 +1,41 @@
+Source file: INSTALLATION-WATER-COIL_SAVE_VSR_700.PDF
+Relative path: INSTALLATION-WATER-COIL_SAVE_VSR_700.PDF
+Page: 7 / 10
+
+================================================================================
+
+13 Connect the valve actuator control cable to the analogue
+output 3 (AO3) on the connection board.
+Caution
+Do not use the 24 V DC output on the
+connection board to power the actuator.
+14 Install the control board if it was removed. Install the con-
+trol board cover.
+15 Install the fan.
+Reconnect the pressure measurement tubes.
+Connect the fan cables.
+16 Install the internal electrical heater cover.
+17 Put the door on.
+3.3
+To configure
+1.
+Go to Service menu.
+2.
+Enter the password (default 1111).
+3.
+Set the heater type Components Ø Heater Ø Water.
+Set the actuator voltage type.
+4.
+If the product has an internal electric heater, set the elec-
+tric heater control as inactive. Go to Service Ø Output
+Ø ANALOG Ø TRIAC OUTPUT Ø Inactive Output.
+5.
+Go to Service Ø Output Ø ANALOG. Select the ana-
+logue output to which the actuator is connected, set the
+value to Y1 Heating.
+6.
+Configure the frost protection sensor (FPT). Go to Serv-
+ice Ø Input Ø ANALOG. Select the analogue input to
+which the sensor is connected, set the value to Frost
+Protection Temp. Sensor (FPT).
+5

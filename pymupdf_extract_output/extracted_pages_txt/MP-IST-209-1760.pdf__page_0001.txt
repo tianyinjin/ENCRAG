@@ -1,0 +1,110 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 1 / 10
+
+================================================================================
+
+Integration of a Commercial Unmanned Vehicle
+into the Army Communications System
+Jo˜ao Pedro Ara´ujo Silva
+Academia Militar
+silva.jpa3@exercito.pt
+Ant´onio Manuel Cordeiro Grilo
+Instituto Superior T´ecnico
+antonio.grilo@inov.pt
+Artur Jorge Coutinho Machado
+Ex´ercito Portuguˆes
+machado.ajsc@exercito.pt
+Abstract—This study explores the integration of commercial
+Unmanned Vehicles (UxVs) in military operations, focusing on
+enhancing communication between these vehicles and their con-
+trol centres. Global conflicts, particularly the Ukraine war, have
+accelerated the development of autonomous military systems.
+The Portuguese Army is investing in these technologies to lower
+costs and speed up the acquisition, development, and integration
+of these capabilities. These platforms have improved decision-
+making and operational efficiency and can be applied in the
+Portuguese Army and the other branches of the Armed Forces
+(AF). This study contributes by developing an MAVLink library
+for UxV communication, hybrid tools for data transmission using
+military radios, Wireless Fidelity (Wi-Fi), and unmanned vehicle
+navigation without dedicated autopilot hardware.
+The solution developed was implemented using LAFVIN UGV,
+and the tests were carried out with the support of the Tactical
+Information and Communications System (SIC-T) project team.
+After obtaining the results, it was possible to draw important
+values and conclusions regarding using military radios — P/PRC-
+525 and TR5000H — for integrating a UGV into the Battlefield
+Management System (BMS).
+Index Terms—UGV, BMS, MAVLink, Military Radios, Wi-Fi.
+I. INTRODUCTION
+H
+UMAN life is priceless, and the loss of life can be
+reduced considerably with the use of robots and au-
+tonomous systems in the armed forces. Today, almost all
+military organisations use robots to perform dangerous tasks
+in high-risk environments [1].
+A UxV is a vehicle that operates without a human on-
+board, either remotely controlled or autonomously. There are
+several types of UxVs: Unmanned Ground Vehicle (UGV),
+Unmanned Aerial Vehicle (UAV), and Unmanned Maritime
+Vehicle (UMV) [2]. Communications in a UxV are essential
+to enable remote control and data transmission between the
+vehicle and the operator [1].
+In recent years, in the face of increasing military tensions
+at a global level, especially with the start of the conflict
+in Ukraine on 24 February 2022, there has been a notable
+rush towards military technology. The purpose of this cam-
+paign was to improve defence capabilities. The North Atlantic
+Treaty Organization (NATO) identified Autonomous Systems
+and Communications as technologies that will play a highly
+disruptive role over the next two decades, playing a crucial role
+in improving human performance and promoting symbiosis
+between man and machine [3].
+The Portuguese Army, through the 2023 Military Program-
+ming Law, is making a significant investment in Autonomous
+Systems through Project EXE02 - Remote and Autonomous
+Systems. This study is aligned with this work package, which
+aims to develop a communication subsystem to be applied in
+UGVs. This capability will help military command decisions
+and reduce human exposure to threats.
+A. Objectives
+The main objective of this project is to design an architec-
+ture and develop software for the integration of commercial
+UGVs into the SIC-T. The primary purpose of communications
+in UGVs is to guarantee reliable, real-time data transmission.
+This allows the operator to receive information from the
+vehicle, such as sensor data, images, and video, and send con-
+trol commands to remotely guide the UGV. Communication
+protocols are crucial in establishing a reliable and efficient
+connection between an UGV and the control centre [4].
+Within this main objective, this study has the following
+secondary objectives:
+• To support piloting of a commercial UGV, without the
+need for specific autopilot hardware such as Pixhawk line
+or Ardupilot Mega;
+• Development of a library that connects a UxV to the SIC-
+T;
+• Testing and evaluation of the developed solution.
+II. BACKGROUND AND RELATED WORK
+The UGVs can navigate in spaces that would be dangerous
+or inaccessible to humans and can operate in increasingly
+complex environments through intelligence and efficiency. By
+equipping a UGV with a camera or other sensors, operators
+can quickly analyse objects and regions of interest with
+precision [5]. Space exploration, particularly on the Moon and
+Mars, is among the most important. In recent years, NASA has
+developed five UGV platforms: Sojourner (1997), Opportunity
+(2004), Spirit (2004), Curiosity (2012), and Perseverance
+(2021). In parallel, the China National Space Administration
+has also developed an UGV, the Zhurong (2021) [6].
+As for military UGVs, they have a long lineage, descending
+from the Teletank of Russian origin and the Goliath of German
+origin, both used in the Second World War. UGVs, as we
+know them today, emerged in the second half of the 20th
+century, around 1970, with the flourishing of microprocessor
+technology. Many developments in robotics originated from
+research and development projects by the Department of De-
+fense (DoD) of the United States of America (USA). Despite
+STO-MP-IST-209 
+1760 - 1

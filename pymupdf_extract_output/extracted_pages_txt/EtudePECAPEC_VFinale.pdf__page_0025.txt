@@ -1,0 +1,148 @@
+Source file: EtudePECAPEC_VFinale.pdf
+Relative path: EtudePECAPEC_VFinale.pdf
+Page: 25 / 75
+
+================================================================================
+
+25
+Les IOV et OSE sont les premières organisations à avoir recruté des gens diplômés à BAC+5 pour assurer même des missions de 
+techniciens, ils se sont donc aperçus très tôt de la nécessité de réhabiliter les métiers de techniciens à BAC+2/3. A cette époque, 
+autour des années 2013, la cybersécurité n’était enseignée que comme spécialité de fin d’études dans les Universités ou Grandes 
+Écoles, seules des formations continues comme certains Mastères spécialisés (validés par la Conférence des Grandes Ecoles, CGE) 
+permettaient de monter véritablement en compétence sur ces métiers.
+Dès 2013 l’ANSSI créait le label et l’association CyberEdu, des supports pédagogiques pour les enseignants d’informatique non 
+spécialisés en cybersécurité, afin qu’ils tissent au sein de leurs cours existants les notions qui ont trait à leur discipline (composants, 
+systèmes d’exploitation, développement, authentification, gestion d’identité). Dans la continuité, le Pôle d’excellence cyber a 
+travaillé dès 2014 avec le Rectorat de Rennes afin de former les enseignants des filières Sciences et Technologies de l’Industrie et du 
+Développement Durable, STI2D, puis Services Informatiques aux Organisations, SIO, à la cybersécurité. Un M@gistère cybersécurité 
+a été créé pour les enseignants du Rectorat. L’ANSSI a récemment publié un panorama des métiers de la cybersécurité1, mais aussi 
+une liste des métiers cyber dans le cadre d’un groupe de travail, GT, du Campus Cyber2.
+Grâce au calcul haute performance (HPC, High Performance Computing) et bientôt à l’arrivée de l’ordinateur quantique, de 
+nouveaux métiers émergent. Cette grande capacité de calcul rend possible l’utilisation des intelligences dites « artificielles », disons 
+plutôt augmentées, et des algorithmes d’apprentissages sur les lacs de données et de métadonnées (data lakes), des intelligences 
+qui vont devenir une formidable aide à la compréhension et à la décision, mais vont aussi encore un peu plus remplacer les humains 
+(c’est déjà le cas pour ce qui est des développeurs, avec l’arrivée de Chat GPT et des autres outils de type GPT3 (Bard de Google, 
+copy.ai, YouChat, Rytr, Chatsonic, GPT-3 Playground ou Jasper, etc.) ou pour les traducteurs en ligne (tel Deepl), rendant du même 
+pas les machines de plus en plus autonomes, et potentiellement indépendantes de leurs créateurs.
+L’éthique doit revenir au centre des préoccupations, et il apparait que la morale devrait aussi être enseignée à ces intelligences, Chat 
+GPT, par exemple, a ainsi été bridé. Comme pour les « hackers », pour les robots l’éthique revient aux centre des préoccupations. 
+L’ordinateur qui tendra bientôt à concurrencer les réflexions et les décisions humaines doit-il être bridé par nos Lois ? N’oublions pas 
+que nous avons créé ces matériels et ces logiciels pour qu’ils soient une aide aux productions humaines, pas pour que les hommes 
+soient contraints par les machines. Pourtant, il apparait évident que l’addiction aux outils informatiques et aux informations qu’ils 
+véhiculent nous guette tous.
+1 https://www.ssi.gouv.fr/uploads/2021/10/anssi-panorama_metiers_cybersecurite-2020.pdf
+2 https://campuscyber.fr/resources/referentiel-des-competences-des-metiers-de-la-cyber/
+3 Generative Pre-Trained Transformer.
+Cybersécurité
+Cyber-protection
+Avant
+Transformation/Process
+Comment vais-je faire ?
+Cyber-défense
+Pendant
+Opérations/Run/CID
+Comment administrer/gérer ?
+Cyber-résilience
+Après
+Analyser/Investiguer/Preuve
+Comprendre, prévoir l’avenir
+Je me prépare
+Pré-action
+Je sécurise
+Pro-action
+Action
+Attention
+Réaction
+Résister/Gestion
+Récupération
+Réponse/
+Recouvrer
+Investigation
+Comprendre
+Processus
+Améliorer
+Former
+S’entrainer
+Se défendre
+Réparer
+Plan/Planifier
+Do/Développer
+Check/Contrôler
+Act/Ajuster
+Check
+Act
+Plan
+Conseil 
+Analyse 
+de 
+risques 
+Conformité 
+Matériels Logiciels RH 
+Gouvernance
+Architecture réseau
+Gouvernance PSSI
+C l o i s o n n e m e n t 
+Accréditation
+DMZ
+Audit technique
+Scan/Pentest
+Threat intelligence
+Sondes 
+IDS/IPS 
+Analyse des logs
+Firewall Chiffrement 
+Authentification
+Maintenance
+Contrats
+Veille des incidents 
+Détection
+Analyse des logs
+Administration SI
+MCO/MCS
+MAJ
+Gestion 
+des prestataires
+Respect 
+du 
+Droit 
+(DPO)
+Sauvegarder
+Gestion des incidents
+Gestion de crise
+Gouvernance
+Activation du PCA/PRA
+Sauvegardes
+Gestion de crise
+Gestion des prestataires
+Gestion de l’image
+Se documenter
+Préserver la preuve
+Forensic
+Analyse des logs
+Juridique
+Nettoyer
+Corriger les vulnérabilités
+Améliorer le PCA/PRA
+Plainte
+Assurance
+1- Security informa-
+tion management 
+system (SIEM)
+2- Security Operation Center (SOC)
+(<-- nécessite un SIEM)
+3- Computer Security Incident Response Team (CSIRT) ou Com-
+puter Emergency Response Team (CERT)
+(<-- nécessite un SOC)
+4-Amélioration continue 
+gestion du changement
+Géopolitique - Renseignement (CTI, OSINT, HUMINT, SIGINT, SOCMINT) - Loi    <<<<  Lutte Informatique d’Influence   >>>>   Debriefing
+<<   Lutte Informatique Défensive (LID)   >>
+<<   Lutte Informatique Offensive (LIO/MinArm)   >>
+arché Français
+roduits et services 
+ertifiés
+onseils ANSSI
+uides, ...
+réation d’une 
+ière souveraine
+Copyright ©Patrick ERARD

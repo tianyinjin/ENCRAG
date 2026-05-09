@@ -1,0 +1,39 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 21 / 28
+
+================================================================================
+
+21 
+ 
+ 
+ii. Construction d’une chaîne de traitement pour explorer le contenu de vidéos 
+ 
+Chaîne de traitement combinant différents modèles d’intelligence artificielle pour explorer le contenu d’un corpus de vidéos. 
+L’analyse exploratoire de contenus vidéos, issus par exemple des plateforme TikTok ou YouTube, est 
+généralement plus complexe que l’analyse de contenu textuel pour les analystes. Il est néanmoins possible 
+d’utiliser des grands modèles de vidéos et de langage48 (large language video models) ou de grands modèles 
+multimodaux (large multimodal models) pour analyser le contenu des vidéos, mais également d’utiliser des 
+méthodes plus simples en se concentrant sur l’analyse de la bande-son de la vidéo. 
+En combinant différents modèles d’IA, le Datalab a par exemple mis en place une chaîne de traitement de 
+données pour appuyer une investigation dans l’analyse exploratoire d’un ensemble de chaînes YouTube ou 
+TikTok, et ce en utilisant uniquement l’analyse de la bande-son. Cette chaîne de traitement combine une 
+brique de transcription, une brique de traduction, une brique de résumé automatique, et une brique de 
+détection de thématique. Pour la transcription, il est possible d’utiliser des modèles open source comme 
+la famille de modèles WhisperAI49. Cette brique peut ensuite être combinée à un grand modèle de langage 
+pour obtenir un résumé automatique de la transcription de chaque vidéo.  
+Depuis 2023, de nombreux modèles de langage à poids ouverts, à l’instar de LLama50, ou open source 
+comme Mistral7B51 ou Mixtral8x7B52, peuvent être utilisés pour synthétiser le contenu des transcriptions. 
+Les modèles de topic modeling (cf supra) peuvent alors être utilisés pour regrouper les vidéos traitant des 
+mêmes thématiques. C’est la combinaison de ces modèles pré-entraînés qui facilite l’analyse exploratoire 
+d’un corpus de vidéos.  
+ 
+ 
+ 
+ 
+                                                        
+48 Par exemple https://llava-vl.github.io/blog/2024-04-30-llava-next-video/  
+49 https://openai.com/index/whisper/  
+50 https://github.com/meta-llama/llama3  
+51 https://huggingface.co/mistralai/Mistral-7B-v0.1  
+52 https://huggingface.co/mistralai/Mixtral-8x7B-v0.1

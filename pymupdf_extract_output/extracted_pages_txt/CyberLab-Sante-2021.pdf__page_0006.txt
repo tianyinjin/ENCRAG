@@ -1,0 +1,94 @@
+Source file: CyberLab-Sante-2021.pdf
+Relative path: CyberLab-Sante-2021.pdf
+Page: 6 / 21
+
+================================================================================
+
+Pôle d’excellence cyber
+CyberLab Catalogue de services et de prestataires cyber appliqués au domaine de la santé
+11
+10
+Novembre 2021 
+3. Evolution des règlementations en santé numérique 
+La feuille de route du numérique en santé présentée en 2019 impose la mise 
+en place d’un cadre réglementaire opposable afin d’échanger, partager et 
+sécuriser les données de santé. Pour cela, depuis deux ans, est publiée la 
+« Doctrine technique du numérique en santé », permettant de matérialiser 
+l’« Engagement collectif vers une e-Santé au service des usagers ». Ce docu-
+ment permet de fixer le cadre du numérique en santé, d’engager les acteurs 
+privés et publics à développer des services respectant les valeurs et le cadre 
+définis par le ministère. 
+Un certain nombre des référentiels et services ont été développés (ou sont 
+en cours de développement) afin de sécuriser les données sensibles que sont 
+les données de santé. Nombre d’entre eux sont opposables2. Nous pouvons 
+ainsi citer l’Identité Nationale de Santé (INS) permettant l’utilisation par l’en-
+semble des acteurs d’une identité unique et pérenne pour chaque usager ; 
+des services de messagerie sécurisée particulièrement adaptés à l’échange de 
+données de santé (MSSanté) ; la Politique Générale de Sécurité des Systèmes 
+d’Information de Santé (PGSSI-S), des référentiels permettant de répondre 
+aux problèmes d’interopérabilité des systèmes et services de santé, etc. Il 
+existe de nombreux référentiels centrés sur la cybersécurité des Systèmes 
+d’Information de Santé et/ou des dispositifs médicaux connectés. Une prise 
+de connaissance de l’ensemble est nécessaire afin d’optimiser les développe-
+ments et assurer la sécurité du service proposé. 
+Le règlement européen Cybersecurity Act paru le 7 juin 2019 marque une 
+avancée pour l’autonomie stratégique européenne. Il poursuit un double objec-
+tif, d’une part l’adoption d’un mandat permanent pour l’ENISA3, valorisant et 
+développant son rôle de facilitateur des échanges entre les Etats membres ; 
+d’autre part, la définition d’un cadre européen de certification de cybersécu-
+rité pour harmoniser à l’échelle européenne les méthodes d’évaluation. 
+Information importante : Ces informations réglementaires sont applicables 
+au marché français, il est donc nécessaire de se tenir informé du cadre nor-
+matif des autres pays si la stratégie de l’entreprise se dirige vers l’international. 
+4. La cybersécurité des systèmes de santé
+Les établissements de santé publics comme privés ont pour mission d’as-
+surer la production des soins pour le compte des patients de leur bassin 
+géographique en continu (24h/24 – 7j/7 – 365j/an). La forte dépendance au 
+numérique de la production des soins impose aux établissements de santé de 
+mettre en place, opérationnellement et réglementairement, des procédures et 
+des produits de cybersécurité visant à assurer la continuité de leurs services 
+informatiques.
+Forte dépendance des établissements de santé à l’outil numérique 
+pour assurer le cœur de son activité : la production des soins
+Réglementairement, les établissements de santé peuvent être soumis à une 
+vaste réglementation dont notamment l’instruction 3094, la PGSSIS-S5 et la 
+certification hébergeur de données de santé (certification HDS). Cette der-
+nière repose principalement sur la mise en œuvre de deux standards interna-
+tionaux, l’un portant sur le management de la sécurité de l’information (ISO 
+27001), l’autre sur la protection des données de santé, données dites à carac-
+tère sensible (ISO 27018). 
+Pour faciliter la mise en œuvre de mesures de sécurité au sein des établis-
+sements, les instances nationales de la santé, le ministère de la Santé et des 
+Solidarités (MSS) et la Direction Générale de l’Offre de Soins (DGOS), tra-
+vaillent sur un dispositif de certification des SI, dit MATURIN-H, qui comprend 
+un volet SSI. Il devrait voir le jour au 1er trimestre 2023 à la suite d’une phase 
+pilote en qui aura lieu en 2022. A la différence de la certification HDS, ce 
+dispositif de labellisation vise à être plus incitatif, via l’octroi de financement 
+IFAQ (Incitation Financière à l’Assurance Qualité), et à fédérer l’ensemble de la 
+réglementation SSI. Il aura aussi pour particularité d’intégrer la réglementation 
+européenne de la directive NIS (Network and Information System Security). 
+Or, depuis les cyber-attaques médiatiques du CHU de Rouen en 2019, des CH 
+de Dax et de Villefranche-sur-Saône en février 2021, le Premier ministre a dési-
+gné Opérateurs de Services Essentiels (OSE) les établissements supports des 
+135 Groupements Hospitaliers de Territoire, et donc par contrecoup impose à 
+ces 135 établissements de santé de respecter la directive NIS.
+Un poids réglementaire SSI très élevé pour les établissements 
+de santé et des impacts pour les éditeurs 
+Par ailleurs, un grand nombre d’établissements de santé sont engagés dans 
+les programmes nationaux de développement de la maturité des SI hospi-
+taliers (HOPEN et SEGUR USAGE NUMERIQUE (SUN)) qui comprennent la 
+mise en œuvre de nombreuses exigences de sécurité. Pour ce qui est de SUN, 
+les premiers travaux envisagent une labellisation SSI pour les applications 
+des éditeurs. L’Agence du Numérique en Santé réfléchit également à rendre 
+opposable aux établissements de santé et aux éditeurs la politique générale 
+de la sécurité des systèmes d’informations.
+Dans ce contexte, la cybersécurité prend une importance accrue, elle devient 
+majeure pour les établissements de santé et pour les éditeurs. La nécessité 
+pour les éditeurs d’intégrer la sécurité dès la phase de conception logicielle 
+deviendra donc vraisemblablement un prérequis à la commercialisation de 
+ses produits, si nos Grandes Écoles et Universités arrivent à former ces rares 
+profils aujourd’hui de DevSecOps.
+2 Opposable : terme juridique ayant pour signification l’obligation d’application
+3 ENISA : European Network and Information Security Agency – L’agence de l’union européenne de cybersécurité
+4 Instruction 309 : relative à la mise en œuvre du plan d’action sur la sécurité des systèmes d’information
+5 PGSSI-S : Politique Générale de Sécurité des Systèmes d’Information de Santé

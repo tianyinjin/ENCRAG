@@ -1,0 +1,48 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 82 / 136
+
+================================================================================
+
+82 
+lieu de cela, si l'agent μ disparaît, JPG(Θ, p) est dissout uniquement si μ avait un rôle critique 
+dans l'accomplissement de JPG(Θ, p). 
+Pour mettre en œuvre le cadre modifié des intentions communes vu précédemment, un système fondé 
+sur une hiérarchie d'opérateurs individuels et d'équipe a été développé. Ce principe de hiérarchie 
+d'opérateurs est largement inspiré du modèle SharedPlan204. Qu'il soit relatif à l'équipe ou à un agent, 
+un opérateur se décompose en trois parties: 
+- 
+Des règles de sélection qui déterminent quand l'opérateur peut être sélectionné ; 
+- 
+Des règles d'application (les opérateurs complexes produisent des sous-buts) ; 
+- 
+Des règles de terminaison. 
+Un opérateur individuel, tel que Mask, représente l'activité d'un agent (dans le cadre de l'activité de 
+l'équipe), tandis qu'un opérateur d'équipe tel que [Engage] exprime l'intention commune de l'équipe de 
+mener à bien une action. Les opérateurs d'équipe sont liés à l'état de l'équipe, il s'agit de la 
+représentation que se fait un agent de l'état et des croyances de l'équipe à un moment donné. Par 
+exemple, l'état de l'équipe inclut le statut des membres de l'équipe ou encore la route à suivre pour 
+atteindre la zone de combat. Les règles d'application d'un opérateur d'équipe peuvent générer des sous-
+buts liés à l'équipe ou à l'individu ; ainsi, [Fly-flight-plan] se décompose uniquement en opérateurs 
+d'équipe (la navigation est typiquement une activité conjointe), tandis que [Engage] se décompose en 
+activités individuelles Mask, Unmask ou Employ-weapons. 
+À un moment donné, tous les membres de l'équipe doivent avoir les mêmes opérateurs d'équipe, ce qui 
+correspond à un ensemble de joint persistent goals. Ceci assure la cohérence de l'activité de l'équipe. 
+Cette seule contrainte permet d'éviter les dysfonctionnements 2, 3 et 4 cités plus haut. Ainsi, quand le 
+commandant détermine que la mission est accomplie, il forme comme weak goal de le faire savoir à 
+toute l'équipe, ce qui permettra de dissoudre l'opérateur [Engage], ce qui permettra ensuite d'engager 
+la procédure pour rentrer à la base. De la même manière, c'est l'équipe toute entière qui doit valider les 
+points de navigation, et c'est l'équipe qui exécute [Engage]. 
+Les membres de l'équipe doivent avoir les mêmes opérateurs d'équipe mais ont éventuellement des 
+opérateurs individuels différents, notamment en fonction de leur rôle dans l'équipe. Un rôle peut être vu 
+comme restreignant un agent ou une sous-équipe à un sous-ensemble d'opérateurs. En complément 
+des rôles, un mécanisme permet de réaffecter dynamiquement les rôles, selon des règles prédéfinies 
+et les compétences des agents. Ainsi, le rôle de commandant est réaffecté selon une hiérarchie stricte 
+en cas de destruction de celui-ci, de même que le rôle d'éclaireur, selon les capacités des agents 
+survivants. C'est ce mécanisme qui permet d'éviter le premier type de dysfonctionnement : si l'éclaireur 
+s'écrase pendant [Wait-while-battle position-scouted] et qu'elle s'en aperçoit, l'équipe se 
+ 
+204 B. Grosz et S. Kraus (1996). Collaborative plans for complex group actions. Artificial Intelligence, 
+86:269–358.  
+Figure 4 : une partie d’une hiérarchie des tâches de la mission « attaque » : depuis les tâches communes (encadrées) jusqu’aux 
+tâches individuelles.

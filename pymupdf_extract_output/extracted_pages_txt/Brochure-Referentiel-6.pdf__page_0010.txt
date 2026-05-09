@@ -1,0 +1,114 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 10 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+18 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 19
+Ces schémas servent de support à l’identification des besoins sectoriels et 
+opérationnels liés à la cybersécurité pour la défense et le secteur civil. 
+L’engagement et le renseignement militaire étant des activités de nature ré-
+galienne, les rubriques associées ne sont pas développées dans ce document. 
+Les sections suivantes exposent un certain nombre de thématiques critiques 
+en termes de positionnement de la filière.
+Figure 5 : 
+Besoins en produits/ 
+services/méthodes 
+en cyber-renseignement
+Cyber  
+renseignement
+Sécurité  
+des systèmes  
+d’information
+Orientation préparation et planification  
+des opérations de collectes
+Recueil
+Analyses
+Gouvernance
+Sondes et capteurs réseaux 
+Se reporter aux méthodes aux produits  
+et technologies de la cyberdéfense
+Outils d’investigation
+Renseignements sur la menace  
+et rapports de Threat Intelligence
+ 
+Espionnage 
+Constitution de data - bases 
+Cyber Threat Intelligence Platform 
+(Capitalisation de renseignements)
+Méthodes
+Services
+Produits &
+Technologies
+Renseignements OSINT (Open Source)
+Détection et suivi des fuites d’informations
+Renseignements SOCMINT (SOCial Média)
+Recherche de pannes et de vulnérabilités
+Reverse engineering
+Codes malveillants adverses (Hunting & analitics)
+Analyse des modes opératoires et des contextes d’attaques
+Analyse comportementale
+Analyse géopolitique - incidentologie
+Encadrement juridique
+Gestion des risques d’emploi
+Gestion des coopérations
+Fouille de données / data mining
+Agents conversationnels (chat-bots)
+Outils de corrélation 
+Outils de Fuzzing, 
+Scan de vulnérabilités
+Investigateurs et espions
+Virus, Malwares, Signatures
+Marqueurs de compromission (IOC)
+Vulnérabilités, Incidents
+Exploits et backdoors, codes adverses
+Scans réseau Internet
+Signatures, Mots de passe exfiltrés
+B.1.1 _Méthodes
+B.1.1.1 _Analyse de risques
+L’analyse de risque est l’outil de base de toute activité de cybersécurité. 
+En effet, avant de mettre en place des solutions, il est impératif de bien 
+identifier les enjeux, les besoins en sécurité, les menaces et scénarios 
+de menaces contre lesquels il convient de se protéger. Ensuite, un processus 
+d’analyse de risques doit être intégré à toutes les décisions d’évolutions 
+d’un système. 
+L’ISO/IEC 27005 « Gestion des risques en sécurité de l’information » décrit 
+les grands principes de cette analyse de risque.
+La méthode de référence française EBIOS3, proposée par l’ANSSI, permet 
+par exemple d’accompagner les organisations dans l’identification et la 
+compréhension des risques numériques qui leurs sont propres. 
+Cette méthode permet de déterminer les mesures de sécurité adaptées à 
+la menace et de mettre en place le cadre de suivi et d’amélioration continue 
+à l’issue d’une analyse de risque partagée au plus haut niveau. 
+B.1.1.2 _Modélisation de la menace et des attaques
+La modélisation de la menace peut être vue comme l’une des briques des 
+méthodes d’analyse de risques. Il apparaît également opportun de réaliser 
+des bibliothèques de menaces et d’attaques qui pourraient être utilisées 
+au sein de plateformes de test ou d’entraînement et mises à jour en fonction 
+de la capitalisation sur le sujet. Dans les deux cas, il est nécessaire de définir 
+des modèles partagés pour décrire les différents éléments et des outils 
+pour les réaliser et les valider. L’équilibre entre la sensibilité potentielle de 
+ces éléments et la nécessité de partage au sein de la communauté pour 
+l’amélioration du niveau de sécurité doit être recherché entre les différents 
+acteurs.
+B.1.1.3 _Modélisation d’architectures sécurisées
+Il existe de nombreux outils de modélisation système utilisés dans 
+l’industrie. L’expérience a montré qu’il était difficile de les utiliser directement 
+pour des analyses de sécurité. En effet, l’intérêt de la modélisation d’archi-
+tectures sécurisées est de pouvoir utiliser ce modèle pour, par exemple, 
+simuler l’impact de la menace ou d’un scénario d’attaque. 
+Il faut donc pouvoir intégrer des modèles d’attaques (cf. ci-dessus), des 
+attributs de sécurité, prendre en compte l’aspect non probabiliste des 
+attaques informatiques… des choses aujourd’hui indisponibles dans les 
+outils standards. 
+B.1.1.4 _Environnement de conception sécurisé
+Pour limiter les failles de sécurité dans les produits de cyberdéfense, mais 
+aussi de manière générale dans l’ensemble des produits logiciels ou inté-
+grants du logiciel, il est indispensable de disposer de méthodes et d’outils 
+adaptés. 
+B.1 
+Cyber-protection
+3 https://www.ssi.gouv.fr/administration/management-du-risque/la-methode-ebios-risk-manager/

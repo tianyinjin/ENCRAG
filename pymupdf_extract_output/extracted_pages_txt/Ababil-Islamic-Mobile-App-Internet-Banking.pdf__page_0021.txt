@@ -1,0 +1,20 @@
+Source file: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Relative path: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Page: 21 / 27
+
+================================================================================
+
+© Copyright 2018 
+Security and Architecture 
+Security Issues of Mobile Banking Through Mobile App: 
+We will use Two Factor Authentication in case of password lost by customers. Customers will 
+have to provide more than their password to access our mobile banking. Once they successfully 
+provide password, a SMS (or email, configurable) will be sent with one time pin number. They 
+will have to get that pin number from their device (or email account) and provide to our system 
+to get access. We will also use IMEI (International Mobile Station Equipment Identity) Number, 
+which is unique for each device and each customer can register maximum of three devices from 
+where he wants to access the services. We will also give option to use software as second factor 
+along with password where the software will generate unique pin number for each device and 
+help to verify transaction. The software will be installed in the mobile device prior to use it in 
+transaction or login verification. 
+Two (2) – Factor Authentication for (SMS):

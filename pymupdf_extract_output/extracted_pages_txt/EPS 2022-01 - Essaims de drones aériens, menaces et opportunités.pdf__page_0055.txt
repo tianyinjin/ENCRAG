@@ -1,0 +1,99 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 55 / 136
+
+================================================================================
+
+55 
+Modérée :  
+Une telle vulnérabilité perturbe l’essaim, diffère ou amoindri son résultat. 
+Type 
+Vulnérabilités modérées 
+spécifiques 
+Vulnérabilités modérées 
+communes 
+Scripté 
+ 
+Epuisement 
+Eblouissement 
+Téléopéré 
+ 
+« Intelligent » 
+Brouillage des liens156 
+- EVALUATION DES HYPOTHESES SOUS-JACENTES 
+Ces vulnérabilités et leur plus ou moins grande criticité reposent sur l’analyse de la technologie des 
+essaims et donc sur un certain nombre d’hypothèses qu’il convient de passer en revue, car leur 
+pertinence peut évoluer aux horizons de l’étude. 
+Vulnérabilité 
+Hypothèse associée 
+Evolution anticipée aux horizons 
+de l’étude 
+Impact cinétique 
+Les cellules et leur contenant sont 
+détruits par impact cinétique 
+Aucune 
+Echauffement 
+localisé 
+Les matériaux des cellules se 
+percent rapidement sous un 
+échauffement intense et localisé 
+La généralisation de matériaux 
+résistants compromet l’exploitation 
+efficace de cette vulnérabilité, au 
+moins jusqu’à l’avènement des 
+lasers à 2µ de puissance suffisante, 
+au-delà de 2030 
+Les montures et capteurs optiques 
+dans le visible y sont très sensibles 
+et peuvent être rapidement traitées 
+Aucune : les capteurs dans le visible 
+devraient demeurer prépondérants 
+sur la menace considérée et recourir 
+aux mêmes technologies, ne serait-
+ce que pour des raisons de coût 
+Epuisement 
+A la mer, la faible vitesse du drone et 
+sa sensibilité au vent peuvent être 
+exploitées, au moins pour différer 
+l’arrivée de la menace et en accroître 
+le temps de traitement 
+Cela restera valable pour la plupart 
+des drones artisanaux et grand 
+public. Ce sera de moins en moins 
+vrai pour les drones industriels, en 
+général plus véloces et moins 
+sensibles au vent 
+Perturbations 
+électriques 
+Les moteurs de rotors ou les 
+actionneurs de gouvernes sont 
+sensibles aux courants générés dans 
+leurs bobines157  
+Cela restera exploitable. 
+(Le recours, très peu probable, à des 
+actionneurs hydrauliques ou 
+pneumatiques pourrait 
+éventuellement en limiter l’impact sur 
+les drones à voilure fixe) 
+Surtensions 
+L’électronique est vulnérable aux 
+surtensions provoquées par les 
+champs électriques intenses. 
+Aucune : un blindage efficace n’est ni 
+crédible, ni accessible 
+Brouillage 
+Il est possible de brouiller 
+efficacement les liens de navigation, 
+vers le C2 ou internes à l’essaim 
+Aucune, mais le recours au mesh, à 
+l’agilité en fréquence, au satellite et à 
+la frugalité des échanges, ainsi que 
+ 
+156 En l’absence de lien intra-essaim, les drones retombent sur un comportement non-coordonné. 
+Si l’essaim à une architecture maître-esclaves, les esclaves sont démunis. En tout état de cause, 
+l’essaim tombe en mode dégradé comme une simple superposition des comportements individuels 
+avec les informations disponibles avant le brouillage. Par exemple, si des cibles ont été assignées 
+avant le brouillage, chaque drone va garder la sienne. 
+157 A noter que ces moteurs font partie des très rares composants vulnérables à une attaque 
+électromagnétique en « front door » (cf annexe IV sur les armes HPM). Ils sont dépourvus de 
+protection et le resteront longtemps, faute de solution pour les protéger de manière satisfaisante.

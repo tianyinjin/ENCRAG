@@ -1,0 +1,33 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 6 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+ 
+Figure 3: UCS Functional Architecture [4]. 
+2.2.1 
+Vehicle Specific Module (VSM) 
+Provides unique/proprietary communication protocols, interface timing, data formats and “translation” of 
+the DLI protocols and message formats that the respective Air Vehicle (AV) requires. This software 
+provides a set of functions, such as [4]: 
+• 
+Translation of STANAG 4586 messages from the CUCS from/to the AV via DLI; 
+• 
+Packs/unpacks data to optimize transmission bandwidth; 
+• 
+Act as database; 
+• 
+Manage interfaces for data link messages control and monitoring; 
+• 
+Manage interfaces for launch and recovery operations; 
+• 
+Analogue to digital conversion of sensor data. 
+VSM module is usually vehicle specific, provided by its manufacturer. However, this module is not 
+necessary if the data links used by the vehicle are STANAG 4586 compatible [4]. 
+ 
+3 - 6 
+STO-EN-SCI-271

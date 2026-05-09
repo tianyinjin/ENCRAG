@@ -1,0 +1,42 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 25 / 34
+
+================================================================================
+
+to detect hostile drones in low-light scenarios such as at dawn, dusk, or on cloudy or winter days. 
+Figure 8. Proprietary image noise analysis on EO/visual (left) and IR (right) datasets. 
+Another point of consideration in evaluating the completeness of the datasets would be the introduction of 
+general image noise under operational conditions, which may manifest through variations in sharpness, 
+contrast, edges, entropy, and similarity of the target against its background. To that extent, we developed a 
+proprietary metric to consider these manifestations of overall image noise which could make objects hard to 
+detect in each image, called the Hard-to-Detect Score (HDS). The HDS takes into account a blended set of 
+the above metrics, and produce a single score that would attempt to explain how likely it was that targets 
+within said image would be hard to detect on a scale from 0-6; the lower the score, the more likely it is that 
+targets within the image would be easier to detect, and the higher the score, the less likely. These scores were 
+tested on our curated collections of real-world data across visual data from ground-based, airborne, and 
+remote sensing imagery, with input from domain experts, to arrive at a confidence (R2 > 0.6) that it would 
+have sufficient explanatory power to indicate if image noise was complicating object detection algorithms on 
+said images. In Figure 8 above comparing the IR segment of the dataset (left), and the electro-optical/ visual 
+segments (right), we observe that that the IR segments are on average less noisy (mode = 0), while the 
+EO/visual segments are noisier (mode = 2); the latter also demonstrates more diversity in the levels of noise 
+represented within the dataset. This suggests that any evaluation based on these datasets should account for 
+the differences in confidence between the CV system under test under scenarios of noisy IR images. As our 
+simulation platform is currently unable to simulate noisy IR data, we opted to apply random noise 
+perturbations to a part of the IR dataset to raise the representation of noisy conditions. 
+Overall, we weighted the sim dataset towards scenarios with ‘sky’ and ‘foliage’ backgrounds, ‘multiple’ and 
+‘small, drones, as well as ‘dark’ lighting scenarios. After creating this simulation data to augment the parts 
+lacking in real-world test data, the distribution and resulting confidence intervals are as below (Table 7), 
+showing significant improvements in the ‘small-multiple’ category and ‘foliage-dark’ category. Note that in 
+so doing, we had to employ some degree of bounded randomization to the parameters in the simulation, 
+necessary for enhancing realism and select for instances where the drones would be captured performing 
+‘organic’ maneuvers under realistic conditions. These led to natural limitations within the resource 
+boundaries of this project in generating significant numbers of foliage-dark scenarios that would still have 
+clearly visible drones within the test data, especially as foliage often led to complete occlusion, although the 
+‘foliage-dark’ nonetheless showed considerable improvement. Combining all three segments of the dataset, 
+we now have a benchmark with sufficient test coverage to test the hypothetical vendors’ models in question, 
+and a framework through which we can link the results to our operational objectives through the ASQI.  
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 25

@@ -1,0 +1,58 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 76 / 136
+
+================================================================================
+
+76 
+Une architecture réactive peut-être suffisante pour la coordination. Toutefois, bien qu'en général très 
+robuste, un système multi-agent qui fonctionne par coordination et utilise des agents réactifs n'est 
+capable ni d'accomplir des tâches complexes, ni de s'adapter facilement à une nouvelle tâche. Pour 
+obtenir des comportements plus élaborés, il faut que les agents soient dotés de buts, et plus 
+généralement d'attitudes propositionnelles197 envers leur environnement. On désigne par attitude 
+propositionnelle une modalité telle que la croyance, le désir, l'intention ou même l'espoir, envers une 
+proposition ayant trait au monde. Par exemples : « je crois que la cible est illuminée » ou encore « j'ai 
+l'intention de tirer ». 
+-  ARCHITECTURE DELIBERATIVE 
+Bien que nous ne l'abordions qu'après, l'architecture réactive, l'architecture délibérative la précède dans 
+l'histoire de l'intelligence artificielle. À partir de 1957, et jusqu'au début des années 60, Ernst, Newell, 
+Simon et Shaw développent le General Problem Solver. Ils comparent un raisonnement exprimé au fur 
+et à mesure et à voix haute par un sujet humain à la « trace » de leur raisonneur artificiel : le 
+raisonnement artificiel ne correspond, au mieux, qu'à un sous-ensemble des raisonnements humains. 
+Il n'empêche que l'approche délibérative, qui est à la base du General Problem Solver, permet 
+théoriquement à une machine de résoudre tout problème correctement formalisé. 
+Un agent fondé sur une telle architecture délibérative possède un modèle du monde, qui lui permet de 
+prédire l'évolution naturelle de l'environnement, ainsi qu'un modèle de ses actions, qui lui permet de 
+prédire l'effet de ses actions sur l'environnement (ces deux modèles opèrent sur des représentations 
+internes de l'environnement). On peut résumer le principe de cette architecture par : percevoir - 
+modéliser - planifier – agir : on distingue clairement une inspiration cognitiviste, que l’on retrouve 
+également dans le modèle OODA. Un agent délibératif perçoit son environnement, il est capable de 
+mettre à jour un modèle de cet environnement pour prédire son évolution, il planifie ses actions dans 
+l'optique de satisfaire ses buts et il agit en fonction de ces plans. 
+Pour permettre à un agent de choisir ses actions, l'architecture délibérative utilise généralement le 
+principe de la recherche dans un graphe. Ce graphe est construit grâce aux modèles dont dispose 
+l'agent, avec, comme état de départ, la représentation courante que se fait l'agent de son 
+environnement. 
+Les modèles du monde et des actions sont utilisés pour générer les mondes possibles futurs sous 
+l'hypothèse des différents enchaînements d'actions envisageables par l'agent. Ces mondes possibles 
+sont comparés aux buts de l'agent et on choisit l'action qui amène au monde possible correspondant 
+aux buts ou s'en rapprochant le plus. 
+Nous n'aborderons pas ici la façon dont les mondes possibles et les modèles sont représentés dans 
+l'agent (approche symbolique, utilitariste, probabiliste, etc.). Toutefois, c'est là que se situe la principale 
+différence entre un agent délibératif et un agent réactif à états. S'il est possible de décrire une 
+architecture délibérative comme un ensemble de règles (les modèles du monde et des actions ainsi que 
+les règles de comparaison entre mondes possibles et buts) et d'états internes (l'état courant du monde 
+et les mondes possibles) sur lesquels opèrent ces règles, la différence tient d'une part à la complexité 
+des règles, et d'autre part à la nature des états internes. Un agent réactif n'a que des états internes 
+statiques du type « cible détectée (oui/non) » ou encore « dernière position de la cible », tandis qu'un 
+agent délibératif manipule des structures de données symboliques de manière dynamique en mémoire. 
+Concrètement, un robot moderne « avancé » utilise une architecture hybride : un système de type 
+délibératif « pilote » le comportement abstrait du robot en planifiant et replanifiant régulièrement, tandis 
+que des sous-systèmes réactifs assurent les fonctions sensori-motrices plus concrètes, telles que la 
+locomotion, la détection, l’utilisation des charges utiles, etc. 
+TRAITEMENTS EMBARQUES AVANCES 
+Les drones emportent des capteurs susceptibles de produire des volumes considérables de données, 
+principalement sous forme de séries temporelles. Nous pensons ici principalement à des données 
+vidéos, mais il peut s’agit d’enregistrements ESM, MAD, microphoniques ou autres. Les possibilités 
+ 
+197 J. Fodor (1987). Psychosemantics. The MIT Press.

@@ -1,0 +1,50 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 14 / 136
+
+================================================================================
+
+14 
+Les systèmes de préparation de mission associés sont principalement fondés sur des menus déroulants 
+ou des commandes vocales très simples. Une fois paramétré et déployé avec un plan d’équipe (issu du 
+Playbook), et tout en restant dans le cadre fixé, l’essaim est largement autonome dans l’exécution pour 
+sélectionner des comportements adaptés aux tactiques prescrites, eux-mêmes découpés en actions 
+élémentaires, combinées par la machine. Ces multiples actions, entreprises en parallèle par l’essaim 
+sur un tempo élevé, réduisent alors considérablement la lisibilité de son action pour le superviseur.  
+Il n’est peut-être pas inutile de rappeler que, si la manière de déléguer est une chose, la tâche elle-
+même en est une autre. A partir du moment où une liaison montante est maintenue avec l’essaim, il est 
+bien sûr possible, par exemple, de mettre fin à sa tâche, d’en transférer la supervision ou d’en mettre à 
+jour les cibles. 
+La levée du verrou technologique du contrôle par délégation, en lien avec la simplification des exigences 
+de supervision par l’exploitant, est à l’origine du développement spectaculaire de l’autonomie 
+collaborative aux Etats-Unis : c’est bien là que se situe le point d’inflexion qui a déclenché la montée 
+vers les TRL les plus élevés. 
+- 
+LES BRIQUES TECHNOLOGIQUES DE L’ESSAIM 
+Hors système de lancement7 ou de récupération, l’essaim est considéré suivant :  
+- Trois sous-ensembles : 
+- Les vecteurs qui le composent ; 
+- Leur charge utile ; 
+- La coordination, au sens large, du système multi-agents ; 
+- Et trois typologies, déjà évoquées : 
+- Essaim scripté, qui se conforme strictement à un script préétabli (d’un point de vue technique 
+c’est l’essaim des spectacles lumineux et d’un point de vue militaire, ce sont les salves de 
+Shahed-136 iranien ou, en leur temps, de V1) ; 
+- Essaim téléopéré, où chaque vecteur est mis en œuvre à distance par un opérateur dédié à cette 
+tâche (on retrouve ici un mode opératoire fréquemment mis en œuvre par différentes milices 
+armées au Levant, c’est aussi celui retenu pour les attaques ukrainiennes contre les ports de 
+Crimée et c’est très probablement la technologie sous-jacentes des chasseurs J-6 et J-7 
+« dronisés » de l’APL) ; 
+- Essaim « Intelligent », c’est-à-dire fonctionnant en autonomie collaborative (collaboration entre 
+agents et entre hommes et agents ; on retrouve ici la plupart des expérimentations américaines). 
+Au titre des briques technologiques, on considèrera successivement les liens, les charges utiles et les 
+vecteurs, en faisant, autant que de besoin, la distinction entre chaque type d’essaim. 
+O LES LIENS DE L’ESSAIM 
+On en distingue trois : 
+- Le lien de navigation peut être divers : liaison GNSS pour un positionnement par satellite, lien 
+inter-agents pour une navigation collaborative en réseau maillé (« mesh » en anglais) ou 
+ 
+7 On parle souvent de « ruche » pour décrire les dispositifs de lancement dédiés qui permettent 
+une mise en œuvre presque simultanée et en tous cas très rapide des vecteurs de l’essaim. Le temps 
+nécessaire pour être lancé, se constituer et entamer sa tâche est un critère essentiel de la 
+performance d’un essaim.

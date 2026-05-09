@@ -1,0 +1,53 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 26 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 26 | 79 
+ANNEXE 1 – GLOSSAIRE 
+Actionneur  
+Un actionneur est l’élément opposé au capteur* physique. Il introduit une action physique dans 
+un procédé industriel*. Dans un système numérique, l’actionneur est souvent associé à un 
+convertisseur numérique / analogique, ou à une sortie tout ou rien (TOR). Exemple : ouverture 
+de gâche de porte, commande de débit, commande de moteur pas à pas.  
+Le terme actionneur ne doit pas être confondu avec le terme « effecteur », caractéristique d’un 
+système d’arme.  
+Automate 
+Un automate est un dispositif se comportant de manière automatique, c'est-à-dire sans 
+intervention humaine. Ce comportement peut être figé, le système fera toujours la même chose.  
+On nomme Automate Programmable Industriel (API) un dispositif électronique programmable 
+destiné à la commande de processus industriels par un traitement séquentiel. Il envoie des ordres 
+vers les pré-actionneurs (Partie Opérative ou PO côté actionneur) à partir de données d’entrées 
+(capteurs*, Partie Commande
+ ou PC côté capteur*), de consignes et d’un programme 
+informatique. 
+CADIVS Contrôles d’accès, détection d’intrusion, et vidéosurveillance. 
+Canal de communication 
+Liaison spécifique de communication logique ou physique entre les actifs. 
+Capteur physique (ou capteur) 
+Le capteur physique est le composant matériel qui mesure une grandeur ou un état physique 
+dans un procédé physique*. Dans un système numérique, le capteur physique est généralement 
+associé à un convertisseur analogique / numérique ou à une entrée tout ou rien (TOR). Exemple : 
+détecteur de porte ouverte ou fermée, mesure de température, de courant. Le terme capteur 
+physique ne doit pas être confondu avec le terme « capteur » utilisé dans les systèmes d’arme 
+pour identifier les composants ou sous-systèmes qui permettent de constituer la situation tactique 
+ou opérative.  
+Classe de sécurité (ou classe) 
+Niveau de sécurité attribué à des fonctions d’un système industriel, à des zones de sécurité* ou 
+à un système industriel réparti sur plusieurs sites ou déployé sur un site. Le terme de « classe » 
+peut être équivalent à « niveau de classe ». 
+Cloisonnement 
+Fait de mettre en place des séparations logiques ou physiques au sein ou entre des systèmes 
+d’information pour créer des zones homogènes distinctes.  
+Cloisonnement physique : mise en place de réseaux physiquement distincts, utilisant notamment 
+des éléments actifs dédiés à chaque réseau. 
+Cloisonnement logique : mise en place par exemple de VLAN, de VPN. 
+Conduit 
+Groupement de canaux de communication* partageant des exigences de sécurité communes et 
+connectant deux ou plusieurs zones. 
+Console de programmation 
+Poste contenant les outils permettant de programmer, de configurer et de réaliser des opérations 
+d’administration sur un automate* industriel.

@@ -1,0 +1,40 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 86 / 136
+
+================================================================================
+
+86 
+- 
+D’une part dans la conception d’IHM de C2 pour manipuler ces informations. Il s’agit ici 
+d’imaginer des objets informationnels nouveaux (placer des sortes de balises virtuelles qui vont 
+attirer les drones plutôt que de tracer un plan de vol, par exemple) ; les concepteurs doivent 
+bien souvent partir de zéro plutôt que de pouvoir capitaliser sur des systèmes existants ; 
+- 
+Et d’autre part dans la capacité des opérateurs à déterminer quelle action va permettre d’obtenir 
+l’effet désiré ; ces systèmes multi-agents réactifs ont en effet des comportements fortement 
+imprévisibles, non linéaires, etc : pour continuer notre exemple : combien de balises faut-il 
+placer et avec quels paramètres pour obtenir un certain effet ? Cela nécessite un long 
+apprentissage, nécessairement fondé sur de la simulation pour se confronter à différents cas 
+de figure. 
+- PLAYBOOK 
+Seuls les Etats-Unis, semblent avoir poussé les recherches sur la voie de la délégation en s’appuyant 
+sur les travaux tels que STEAM décrit plus haut. Le terme Playbook correspond aux tactiques pré-
+définies par les entraîneurs sportifs pour leurs équipes. De nombreux travaux ont été soutenus par la 
+DARPA pour appliquer la métaphore du Playbook au domaine du contrôle d’équipes de drones, en 
+élaborant des bibliothèques de plans d’équipe hiérarchiques, semblables à ceux développés dans 
+STEAM, mais en y ajoutant la notion de délégation. 
+Le principe général de l’approche Playbook est de permettre à un acteur d’un système (le superviseur) 
+de décider de manière granulaire de la délégation d’une tâche à un autre acteur (le subordonné). Ainsi, 
+dans l’exemple ci-dessous, tiré d’une publication de SIFT214, le superviseur peut choisir de déléguer 
+entièrement la tâche Overfly, ou bien d’avoir une approche plus fine et déléguer toutes les sous-tâches 
+sauf Photograph Target (par exemple, car il la juge plus critique). 
+ 
+Au-delà de la simple délégation binaire (je fais/tu fais), les travaux de SIFT vont jusqu’à recommander 
+de permettre d’appliquer un spectre de niveau de délégation d’autorité à différents niveaux du plan 
+d’équipe hiérarchique. L’extrait ci-dessous du rapport technique215 SIFT de 2004 l’illustre : 
+ 
+214 Smart Information Flow Technologies (entreprise). 
+215 Dr. Christopher A. Miller Dr. Robert P. Goldman Mr. Harry B. Funk. Delegation in LoA3 Space. 
+SIFT Technical Report 05-TUSC-01  
+Figure 5 : décomposition simplifiée de la tâche "Overfly" (survol).

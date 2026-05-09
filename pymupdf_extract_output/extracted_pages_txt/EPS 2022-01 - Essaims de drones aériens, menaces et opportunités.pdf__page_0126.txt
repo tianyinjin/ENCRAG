@@ -1,0 +1,56 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 126 / 136
+
+================================================================================
+
+126 
+des antennes AESA ou sur l’optique de capteurs CCD suffit à les protéger en faisant arquer le champ 
+électrique appliqué. 
+En couplage indirect, dit « back door », l’onde électromagnétique agressive pénètre dans l’équipement 
+par diffraction et/ou réflexions multiples, pour exciter (voir faire résonner) l’électronique298, en 
+s’attaquant aux boucles (avec le champ magnétique) ou aux fils susceptibles de faire antenne299, afin 
+de générer des signaux parasites, de même niveau que les signaux utiles. Les boucles et fils 
+généralement ne sont autres que les pistes des circuits imprimés, l’ensemble du câblage et les moteurs 
+actionnant les gouvernes ou les rotors. Les cavités deviennent quasiment des antennes et donc des 
+récepteurs de l’onde ; des résonances peuvent se produire selon les dimensions des cavités. 
+Théoriquement, les armes HPM « hard kill » sont classées en deux types : Bande étroite (BE) ou large 
+bande (LB). Selon les types, les bandes émises sont plus ou moins larges et plus ou moins accordables. 
+Le type BE serait plus orienté attaque « front door » alors que le type LB serait adapté à une agression 
+en « back door » (recherche de couplage). 
+En pratique, les puissances nécessaires pour obtenir l’un ou l’autre effet sont comparables : le surcroît 
+d’énergie nécessaire en « back-door » est compensé par la protection des composants attaqués en 
+« front door » : les ordres de grandeurs sont identiques. Bien sûr, l’agression HPM est facilitée par une 
+électronique « front door » sans protection. 
+o ETAT DE L’ART 
+▪ POUR DES EFFETS « HARD KILL » DE 
+NIVEAU 3 A 5 
+La génération d’une impulsion de forte puissance est nécessaire à ce type d’arme HPM pour : 
+- exciter l’électronique en dehors de son fonctionnement nominal par génération d’un spectre large 
+pour attaquer toutes les entrées possibles : effet obtenu par une impulsion300 courte et un front 
+montant raide ; 
+- vaincre les pertes de propagation, dans l’atmosphère, ce qui nécessite une forte puissance crête 
+(Pe x Ge), et dans l’équipement, ce qui requiert à la fois de très forts champs (en V/m) et de 
+l’énergie (en Joule). A ce titre, plus la distance augmente, plus la pluie compromet fortement 
+l’efficacité de l’arme. 
+Les technologies connues pour réaliser ce type d’impulsion sont les suivantes : 
+- Générateurs de Marx (décharge rapide de condensateurs, pour une tension de sortie de 50 kV à 
+1 MV)301, 
+- EPFCG (Explosive Pumped Flux Compressive Generator302) : charge explosive, et donc « one 
+ 
+298 Du fait de la miniaturisation électronique (moins d’électrons pour commuter (aujourd’hui gravure 
+à 3 nm pour une grille, soit 30 atomes, nécessitant des tensions d’alimentation en baisse, proches 
+de 0.5 V)), les composants sont plus sensibles au couplage électromagnétique dont la surtension 
+risque davantage de perturber le fonctionnement ou d’endommager les composants électroniques. 
+299 Une grande part du câblage externe n’est pas protégée : fils ou pistes en l’air (le fil du reset reste 
+souvent en l’air, formant une excellente antenne) et boucles (un fil lové en boucle traversé par un 
+champ magnétique va générer une force électromotrice qui peut être parfois du même ordre de 
+grandeur que les signaux utiles (quelques V)). 
+300 Pour des raisons de rendement thermique et de besoin en énergie primaire il est impossible de 
+rayonner de telle puissance en continu. 
+301 N Capacités, décharge synchronisée via des éclateurs => durée de vie ou nombre d’impulsions 
+limités (Il existe de multiples variantes mais ce principe est limité en nombre d’impulsion (usure). 
+50 kV à 1 MV. Volume H= 40 cm D=10 cm. Autre variante : bobines supraconductrices permettant 
+de transformer le courant continu (batterie) en une impulsion de 50 kV à 1 MV. 
+302 100 MJ (c’est 100 000 fois l’énergie d’une impulsion Vircator (technologie à tubes) mais sans 
+aucune directivité).

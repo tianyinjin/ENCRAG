@@ -1,0 +1,28 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 21 / 34
+
+================================================================================
+
+Hence, we created the third and final part of the benchmark dataset methodology, intended to generate the 
+test cases deemed to be necessary but lacking in the above coverage analysis for any given curated dataset. 
+This dataset will be created using a realistic simulation platform that will recreate the expected real-world 
+operating environment, given a set of parameters relevant to the tester, and if necessary, with a reproduction 
+of the relevant sensor in the actual simulation environment based on its technical specifications. For instance, 
+as the above test coverage analysis revealed a need to focus on scenarios involving dark foliage 
+environments, as well as multiple small drones, concrete simulation scenarios will be established with these 
+parameters, and the ground truth and sensor outputs of these scenarios recorded into still images and videos 
+as a test case. See Figure 5 for some examples. 
+Another important advantage of the usage of a simulation to enhance and enlarge datasets is that  even 
+after the conclusion of a test, iteratively new simulation runs can be added to search for points of 
+weak performance for a system, allowing very specific criteria can be derived to identify and 
+investigate edge cases, e.g. when an object detection system experiences catastrophic model failure due to 
+partial occlusion of the target object by foliage. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 21
+Figure 5. Some simulation scenarios focusing on a combination of darker 
+environments, multiple small drones, and accompanying foliage as parameterized 
+scenario variables. An advantage of generating data is the ability to generate 
+ground-truth bounding boxes within images, economizing on labelling effort.

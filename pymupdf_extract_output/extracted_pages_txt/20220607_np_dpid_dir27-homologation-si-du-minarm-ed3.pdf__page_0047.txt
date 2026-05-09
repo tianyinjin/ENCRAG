@@ -1,0 +1,119 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 47 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+45/47 
+N° 
+Statut (cf. §1.3) 
+Intitulé de la règle 
+Acteur20 
+RO 
+18 : 
+Obligatoire 
+Pour une démarche simplifiée, procéder à une analyse de conformité à 
+partir 
+d’un 
+CUC, 
+formé 
+d’exigences 
+adaptées 
+au 
+périmètre 
+d’homologation et aux besoins de sécurité du SI (socle de sécurité). 
+RSSI 
+RO 
+19 : 
+Recommandé 
+Pour une démarche simplifiée, compléter l’analyse de conformité par une 
+analyse de risques lorsque le CUC est insuffisant pour prendre en compte 
+les composants essentiels du périmètre d’homologation ou encore les 
+besoins de sécurité du SI. 
+RSSI 
+RO 
+20 : 
+Obligatoire 
+Pour une démarche standard, mener une analyse de risques complète 
+selon une méthode préconisée par le ministère. 
+RSSI 
+RO 
+21 : 
+Obligatoire 
+Pour toute démarche standard, réaliser un audit d’homologation. Les 
+résultats et les actions qui en découlent sont étudiés lors de la 
+commission d’homologation. 
+RSSI 
+RO 
+22 
+Obligatoire 
+Insérer la décision d’homologation dans l’outil de suivi du patrimoine 
+applicatif du ministère des Armées (SICLADE) (sous réserve du niveau 
+de classification de cette décision). 
+RSSI 
+RO 
+23 :3 
+Obligatoire 
+Prendre une décision d’homologation à l’issue d’une démarche 
+d’homologation. La décision peut être assortie de conditions ou de 
+restrictions d’emploi (temporelles, fonctionnelles) pour une durée 
+déterminée. La démarche peut aussi conduire à un refus d’homologation. 
+AH 
+Erreu
+r ! 
+Sour
+ce 
+du 
+renv
+oi 
+intro
+uvabl
+e. 
+Obligatoire 
+Insérer dans la décision d’homologation le niveau de protection maximal 
+des données pouvant être traitées par le SI et leurs éventuelles mentions 
+de manipulation ou de diffusion. 
+ 
+RO 
+25 : 
+Obligatoire 
+Assortir la décision d’homologation d’une durée de validité et fixer les 
+conditions de validité. 
+AH 
+RO 
+26 : 
+Obligatoire 
+Remettre en cause une décision d’homologation quand : 
+● les conditions de sa validité ne sont plus respectées ; 
+● les conditions de configuration ou d'exploitation du SI ont été modifiées 
+de manière significative ; 
+● le SI ne correspond plus au périmètre d’homologation (ajout de 
+fonctionnalités, d’applications, d’interconnexions non prévues) ; 
+● des vulnérabilités ont été détectées et peuvent remettre en cause le 
+niveau de sécurité du SI de manière inacceptable ; 
+● les menaces sur le SI ont significativement évolué ; 
+● des problèmes d’application des mesures de sécurité ont été identifiés, 
+notamment lors d’un contrôle ou d’un audit de sécurité ; 
+● le MCS du SI n’est pas applicable ou suffisamment appliqué, ou a été 
+défaillant ; 
+● le système a fait l'objet d'un incident de sécurité significatif. 
+AH 
+RSSI 
+AE 
+RO 
+27 :7 
+Obligatoire 
+Pour un renouvellement d’homologation, procéder a minima à : 
+● une revue des informations figurant dans le dossier d’homologation ; 
+● une revue des informations d’enrôlement dans l’outil de suivi du 
+patrimoine applicatif du ministère des Armées ; 
+● une vérification des hypothèses de l’analyse de risques ; 
+● une vérification de la pertinence des exigences de sécurité appliquées 
+au SI ; 
+● une revue du PACS ; 
+● un bilan des contrôles et audits réalisés sur le SI ; 
+● un bilan de l’activité liée au MCS pour évaluer sa performance et 
+identifier les événements marquants. 
+AH 
+RSSI

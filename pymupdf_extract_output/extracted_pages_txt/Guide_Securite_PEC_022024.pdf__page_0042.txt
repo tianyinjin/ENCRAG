@@ -1,0 +1,42 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 42 / 108
+
+================================================================================
+
+42
+POLE D'EXCELLENCE CYBER
+• Interdisez ou sécurisez les connexions distantes aux serveurs  R3  : certains services ne doivent jamais être accessibles directement 
+de l’extérieur (serveur de sauvegarde, bases de données, etc.). A l’inverse, quand le but même du service est d’assurer les connexions 
+ou requêtes distantes (serveur VPN, serveur Web, etc.), vous devez limiter et sécuriser ces accès :
+- Mettez en œuvre les moyens de connexion et les protocoles sécurisés (VPN, SSH, TLS1 , https, etc.).
+- Lorsque cela est possible, n’accordez les accès distants qu’aux comptes et aux adresses IP spécifiques.
+- Bloquez les accès distants aux comptes administrateurs ou à ceux ayant des privilèges élevés.
+- Activez la double authentification si la technologie que vous utilisez vous le permet.
+• Désactivez les comptes existants par défaut et évitez les noms d’utilisateur trop communs  R4  : une partie des tentatives 
+d’intrusion aux serveurs se fait avec un nom d’utilisateur connu ou crée par défaut. Désactivez les comptes par défaut, comme « admin » 
+et « user ». Pour administrer votre serveur, créez un nouveau compte avec les privilèges adéquats nécessaires, en évitant les noms tels 
+que « admin », « administrateur » ou « root ».
+• Mettez en place une politique de gestion des droits d’accès aux ressources  R5  : attribuez le minimum de privilèges nécessaires 
+au bon fonctionnement d’un service sur un serveur spécifique. Il est également important d’appliquer le principe du moindre privilège 
+aux utilisateurs. Seuls les agents ayant un besoin légitime en lien avec leur mission doivent pouvoir accéder aux serveurs.
+• Créez un compte par utilisateur  R6  : chaque agent doit disposer d’un identifiant personnel et d’un mot de passe qu’il doit protéger 
+(voir la fiche 3 « Mots de passe »). Deux (ou plusieurs) personnes ne doivent jamais utiliser/partager le même compte.
+• Effectuez les mises à jour de manière régulière  R7  : mettez à jour le système d’exploitation de chaque serveur, ainsi que tous les 
+logiciels qui y sont installés, appliquez les derniers correctifs de sécurité. N’installez jamais les versions « beta » des mises à jour. Ces 
+versions ne sont pas stables et peuvent comporter des bogues.
+• Supprimez ou désactivez les modules et paquets inutiles  R8 : tout comme sur votre poste de travail, de nombreux logiciels sont 
+installés par défaut sur un serveur. Gardez à l’esprit que plus le nombre de services fonctionnant sur un système d’exploitation est 
+grand, et plus il y a de possibilités pour l'attaquant de profiter d'une vulnérabilité de votre système. Seuls les logiciels, services ou 
+modules strictement nécessaires au bon fonctionnement du serveur doivent y être installés.
+• Séparez les services et les environnements  R9  , en particulier :
+- Les serveurs hébergeant les bases de données ou traitant des données sensibles ne doivent jamais être utilisés pour d’autres fonctions 
+(serveur Web, messagerie, etc.).
+- Sur un serveur Web, les fichiers de site Web et les scripts doivent toujours être séparés du système d’exploitation, être sur une 
+partition séparée.
+- Les applications Web en cours de développement ne doivent jamais utiliser ou se connecter à des bases de données en production.
+• Activez les notifications et surveillez les journaux  R10  : activez les messages d’alertes et inspectez les journaux (logs), ils permettent 
+de retracer l'activité des utilisateurs et des serveurs ; cela fait partie des règles de base de la sécurité.
+• Définissez le plan et la stratégie de sauvegarde  R11  : automatique ou manuelle, sur quel support et à quelle fréquence (voir la 
+fiche « Plan et stratégies de sauvegarde »). Pensez également à sauvegarder les configurations des serveurs.
+1 https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-a-tls/

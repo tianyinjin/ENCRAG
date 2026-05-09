@@ -1,0 +1,114 @@
+Source file: eCosProFlyer.pdf
+Relative path: eCosProFlyer.pdf
+Page: 2 / 2
+
+================================================================================
+
+eCos RTOS Overview 
+ 
+Designed from the ground up to meet the needs of deeply embedded applications, eCos places an emphasis on 
+minimizing the resource footprint and ensuring real-time responsiveness. The RTOS is configurable at the source 
+code level via a highly intuitive graphical configuration tool, and can easily be tailored to the precise needs of 
+your application, avoiding the bloat of a traditional operating system. 
+ 
+eCos has been engineered to work in situations where many operating systems simply will not fit. It 
+accommodates scaling down to a few tens of kilobytes for deployment in low-cost and SoC based designs with 
+stringent hardware resource constraints and minimal functionality requirements. Equally, it can be easily scaled 
+up, for example, to include full TCP/IP networking, USB and file system functionality. eCos is fully pre-emptible, 
+delivering real-time behaviour with minimal interrupt latencies and a rich set of synchronization primitives for full 
+multi-threading support. SMP is available for multi-core processors and includes CPU thread affinity locking and 
+spinlocks for fast synchronization. The configurability of eCos extends down to the most fundamental levels, 
+providing, for example, a choice of scheduling policies; interrupt handling mechanisms and alternative semantics 
+for dealing with priority inversions. 
+ 
+eCos provides all the drivers, libraries, and services you would expect from an embedded operating system, 
+alongside compatibility layers to comply with industry standards and assist with application code migration. 
+ 
+Target Hardware 
+Embedded Application 
+ 
+RedBoot 
+Bootstrap and Debug 
+Firmware 
+ 
+Device Drivers 
+Ethernet 
+Serial 
+Flash 
+SPI 
+... 
+I2C 
+USB 
+IDE 
+... 
+uITRON 
+POSIX 
+Compatibility Layers 
+ 
+LWIP 
+... 
+BSD TCP/IP 
+Networking Stacks 
+... 
+Math 
+ISO C 
+libstdc++ 
+Libraries 
+ 
+Filesystems 
+ROM  
+JFFS2 
+Journaling 
+Flash FS 
+ 
+MS-DOS 
+FAT 
+... 
+ 
+Hardware Abstraction layer (HAL) 
+ 
+ 
+Platform HAL 
+Variant HAL 
+Architectural HAL 
+Real-Time Kernel 
+ 
+ 
+An elegant and highly portable hardware abstraction layer (HAL) allows for rapid porting of eCos to prototype 
+hardware and deployment in real products. BootUp, RedBoot and eCos share the same HAL infrastructure, 
+making it possible to bring up both bootstrap, debug firmware and operating system on a new board in one 
+painless exercise. eCos supports all the main processor families as well as many less well known architectures 
+and numerous models within each family. 
+ 
+ ARM 7/9/11 
+ Cortex A5/A7/A9/A53 
+ Cortex M3/M4/M7 
+ ColdFire 
+ Intel x86 
+ microMIPS 
+ MIPS 
+ NIOS II 
+ PowerPC 
+ SPARC 
+ SuperH 
+ TileGX 
+ 
+eCosPro is currently available for over one hundred development and evaluation boards, as well as commercial 
+modules. These scale from efficient Cortex-M based boards, through FPGA based dual-core Cortex-A9 systems, 
+to massively parallel TileGX designs. Of particular note is the support for the Raspberry Pi range of boards, 
+which can provide an excellent low-cost base for evaluation, prototyping, deployment and educational purposes. 
+ 
+eCos’s open source nature confers many benefits. On the commercial side, the absence of any royalty or 
+product licensing fees make it particularly cost effective, especially in high volume designs. On the engineering 
+side, eCos puts the developer in control. The availability of all the source code provides the ultimate in flexibility, 
+aiding the debugging of complex application code, and enabling the customization and enhancement of the 
+system’s functionality as required. 
+ 
+ 
+ 
+Tel +44 1223 245571                 www.ecoscentric.com 
+Fax +44 1223 248712                info@ecoscentric.com 
+ 
+Copyright © 2017 eCosCentric Limited. All rights reserved. eCosCentric, eCosPro and eCos are registered trademarks of eCosCentric Limited in the USA and United 
+Kingdom. RedBoot is a trademark of Red Hat Inc. in the USA. Linux is a registered trademark of Linus Torvalds. Windows is a registered trademark of Microsoft 
+Corporation in the USA and other countries. All other trademarks are the property of their respective owners. V16 March 2017.

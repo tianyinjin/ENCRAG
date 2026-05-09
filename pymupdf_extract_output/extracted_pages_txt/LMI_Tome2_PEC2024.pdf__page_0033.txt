@@ -1,0 +1,81 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 33 / 88
+
+================================================================================
+
+33
+connu dans le domaine de la propagande, la manipulation 
+d’information en ligne a su gagner son statut d’arme 
+informationnelle à part entière : préparation, ciblage, 
+planification, opération, etc. sont des étapes désormais 
+classiques que l’on retrouve dans les campagnes 
+de désinformation orchestrées à grande échelle, 
+sophistiquées techniquement, et à visée géopolitique.
+ 
+Sur la détection et l’importance de détecter tôt
+Un des fondamentaux du journalisme est de distinguer 
+les sources fiables de celles qu’il faudrait éviter. Le monde 
+de la presse s’est donc doté de services dédiés à la 
+vérification des informations (par exemple, AFP Factuel). 
+Malheureusement, l’arrivée de LLM produisant des textes 
+et images très crédibles sur les réseaux sociaux fait qu’il est 
+devenu de plus en plus difficile au fil du temps de détecter, 
+vérifier et arrêter ces campagnes de désinformation. 
+Par ailleurs, il est très difficile pour un cerveau humain 
+d’identifier suffisamment tôt l’émergence de fausses 
+informations. Or c’est justement au moment où celles-ci 
+émergent qu’il est possible d’empêcher leur propagation, 
+et d’éviter que ces fausses informations polluent les esprits 
+d’une population (par exemple, les théories du complot).
+Les IA et autres algorithmes permettent d’apporter des 
+solutions pouvant traiter rapidement une très grande 
+quantité de données, idéalement en temps réel. De 
+nombreuses méthodes qui permettent d’identifier les 
+infox s’appuient sur l’analyse de graphes, notamment 
+d’utilisateurs. En effet, une proportion importante de 
+vecteurs de propagation sont des botnets, pour lesquels 
+il est possible d’identifier le schéma de fonctionnement, 
+en particulier leurs interactions avec les utilisateurs 
+des réseaux sociaux (par exemple via des « copier-
+coller » ou des « re-tweets » systématiques). Toutefois, 
+ces approches ont l’inconvénient de nécessiter une 
+construction de graphe qui n’est pas aisée à analyser 
+en temps réel. D’autres approches reposent sur du 
+traitement automatique des langues. L’analyse des 
+sentiments permet, par exemple, d’identifier tous les 
+messages particulièrement négatifs ciblant des individus, 
+des organisations ou des lieux pouvant être la cible de 
+désinformation(2). La détection automatique de textes 
+contradictoires permet d’identifier à partir de textes de 
+référence – la « vérité » – tous les messages sur les réseaux 
+sociaux qui cherchent à contredire des faits (par exemple, 
+tout message qui prétend que la Terre est plate). Le topic 
+modeling permet de regrouper automatiquement et de 
+manière non supervisée tous les documents traitant d’un 
+même sujet. En utilisant des approches incrémentales(3), 
+il devient possible d’identifier de nouveaux sujets le plus 
+tôt possible, en particulier afin d’identifier des anomalies 
+dans les sujets qui émergent sur les réseaux sociaux.
+Ces différentes approches permettent de détecter de 
+potentielles fausses informations, et l’IA permet de 
+vérifier qu’elles en sont. Une méthode fréquemment 
+utilisée s’appuie sur la similarité entre images (avec des 
+approches sémantiques ou des fonctions de hachage), 
+en comparant des images suspectes avec des bases 
+de données regroupant des images produites dans le 
+passé. Avec l’apparition de modèles très performants 
+pour générer (ou modifier) des images, des vidéos 
+et des textes de manière très réaliste, de nombreuses 
+méthodes, fondées elles-mêmes sur des méthodes 
+d’apprentissage automatique, ont été développées afin 
+de détecter ces créations automatiques. Par exemple, 
+InVID permet de vérifier si des fichiers vidéo ont été 
+altérés en utilisant des approches de Deep Learning(4). 
+Toutefois, ces approches doivent constamment être 
+améliorées pour rester performantes face à l’amélioration 
+très rapide des modèles de génération, mais aussi 
+devenir beaucoup plus rapides pour pouvoir répondre 
+à l’augmentation importante du nombre de contenus 
+produits tous les jours, en particulier au format vidéo sur 
+des plateformes telles que TikTok, Instagram ou YouTube.

@@ -1,0 +1,60 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 70 / 136
+
+================================================================================
+
+70 
+- 
+Le pistage est un point clé, à la fois pour obtenir rapidement une piste dotée d’élément 
+cinématiques et diffusable à la force, mais aussi pour permettre la mise en œuvre efficace 
+des effecteurs et le « kill assessment », qui tous deux conditionnent la désaturation 
+recherchée, face à ce type de menace. 
+Aux horizons de l’étude, seule une détection radar tridimensionnelle dédiée184 de l’essaim 
+est en mesure d’apporter un préavis utile et fiable, qui ne dépassera pas une à deux 
+minutes. Une attention particulière doit être apportée à la détection des profils plongeants. 
+o IDENTIFICATION 
+L’identification couvre ici la reconnaissance et l’identification proprement dite ainsi que la classification : 
+- 
+L’analyse de l’interception d’une fréquence de guidage d’un essaim téléopéré peut 
+permettre de reconnaitre une liaison d’essaim avec un certain degré de confiance ; 
+- 
+Appliquée aux multiples détections d’un essaim, l’analyse micro-doppler automatique 
+d’un radar dédié185 fournira, de manière récurrente, une forte probabilité de 
+reconnaissance des vecteurs assaillants ; 
+- 
+Pour la même fonction, le recours à l’optronique ou la vue ne peut s’envisager qu’à faible 
+distance, quelques centaines de mètres, trop tardivement pour permettre une 
+classification qui reste un acte de commandement, encore moins pour faire face à la 
+saturation. Sauf, bien sûr, si les éléments sont fournis par un aéronef en vol. 
+Aux horizons de l’étude, un déroulé nominal d’une phase d’identification visuelle est 
+impraticable et, quand bien même on y parviendrait, il ne resterait pas assez de temps 
+pour engager convenablement. Seuls des radars dédiés permettent de traiter 
+correctement la phase d’identification en se limitant à la reconnaissance, quel que soit le 
+type d’essaim. 
+o NEUTRALISATION 
+La neutralisation couvre la décision d’engagement, l’évaluation de la menace, la manœuvre des 
+éventuels verrous et vétos ainsi que de la situation de contrôle des armes, l’affectation des effecteurs, 
+leur action et le « kill assessment » : 
+- 
+La décision d’engagement lance la phase de neutralisation de l’essaim ; elle est prise 
+sous contrainte de temps et au vu d’éléments qui peuvent paraître relativement ténus ; 
+s’en suit la manœuvre des verrous/veto des effecteurs lorsque cette phase est 
+nécessaire. 
+- 
+Pour un essaim un tant soit peu étoffé, et pour un engagement aux armes dures, 
+l’évaluation de la menace ne peut être qu’automatique, sur la base d’un pistage en trois 
+dimensions, afin de déterminer « le chemin le plus court en durée » de recalage de l’arme 
+au regard des « times on target » des vecteurs assaillants. 
+- 
+Il est alors possible d’affecter les effecteurs, là aussi en privilégiant l’automatisation. 
+- 
+La neutralisation des drones peut s’effectuer de différentes manières qui ont déjà été 
+ 
+184 Il est illusoire d’espérer modifier à coût raisonnable l’existant et l’intégration de modes anti-
+drones à des radars de veille air excèderait le coût et l’intégration d’un équipement dédié. 
+185 Pour assurer ces traitements, les radars dédiés sont dotés de fortes puissances de calcul, sous un 
+facteur de forme compact, afin de fournir une reconnaissance en quelques secondes et de la 
+confirmer régulièrement par la suite. La perception des pales en rotation permet, a minima, de 
+distinguer le drone de l’oiseau. A noter que plus la fréquence d’émission est élevée, plus le traitement 
+micro-doppler sera efficace : fort logiquement, les radars dédiés se situent en bande Ka et Ku.

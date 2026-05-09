@@ -1,0 +1,58 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 84 / 136
+
+================================================================================
+
+84 
+modèle peut être utilisé par un agent pour estimer l’état actuel de la tâche de l’essaim (avancement 
+dans les étapes de l’activité commune, statut des membres, etc.), en fonction des échanges entre 
+agents jusqu’à l’instant T et des observations sur l’environnement. Un tel calcul est possible pour soi, 
+mais également pour les autres : un agent peut être capable de calculer une estimation de l’état des 
+connaissances des autres membres à un instant T. 
+S’il est en plus capable de calculer une probabilité que cette estimation soit juste, il est possible pour 
+un agent qui devrait théoriquement émettre un message de coordination vers son équipe, de calculer 
+un rapport coût bénéfice entre (1) émettre le message et risquer d’être détecté ; et (2) ne pas l’émettre 
+et risquer de mettre en cause le bon fonctionnement du collectif. 
+Une telle approche a été mise en œuvre par des chercheurs américains avec SAM (Socially-Attentive 
+Monitoring)206, puis par une série de travaux inspirés de l’écoute flottante207. Des réductions très 
+importantes de trafic ont pu être obtenues en réduisant, notamment, les messages de routine. 
+- COMMUNICATION VIA L’ENVIRONNEMENT 
+Dans l’immense majorité des cas, la coordination se fera via l’usage d’un ou plusieurs modes de 
+communication dédiés (typiquement radiofréquence). Toutefois, l’usage de communications implicites 
+via l’environnement ne doit pas tout à fait être négligé. Si l’on reprend l’exemple de la paire de drones 
+tireur/illuminateur, utilisé plus haut, on peut imaginer se passer de communication explicite de la part 
+de l’illuminateur pour indiquer que la cible est prête à être attaquée, si le tireur est capable de détecter 
+la tache de désignation laser par lui-même. Si le tireur perçoit une tache laser, il peut considérer que 
+l’illuminateur a accompli sa tâche et tire. 
+De manière générale, si les actions des agents ont un effet dans l’environnement, perceptible par les 
+autres agents, ou si les agents peuvent, par exemple, percevoir leurs positions respectives, un essaim 
+peut être capable de se coordonner sans communication explicite. On parle alors de communication 
+implicite, ou via l’environnement, par observation. 
+SUPERVISER UN ESSAIM 
+Nous avons vu qu’il est possible de concevoir des essaims d’agents capables de coordonner leurs 
+actions pour atteindre des objectifs donnés de manière quasiment autonomes. Ceci peut se faire en 
+utilisant deux grandes familles d’approches décrites plus haut : coordination réactive et travail d’équipe. 
+Si l’on met de côté les systèmes d’essaims de type « tire et oublie », ces essaims doivent rester sous 
+la responsabilité d’un ou plusieurs opérateurs humains, mais leur capacité à s’autodéterminer fait que 
+l’on ne peut pas parler strictement de pilotage ou de contrôle. Les notions développées dans la (riche) 
+littérature scientifique existant à ce sujet sont : le partage d’autorité208, l’initiative mixte, man-unmanned 
+teaming, le contrôle supervisé ou encore la délégation. Nous retiendrons ici le terme de supervision. 
+L’enjeu de la supervision d’essaim de drones est double : 
+- 
+La compréhension des algorithmes d’IA individuels ou en essaim est, par essence, peu 
+naturelle pour l’Homme et peut facilement aboutir à des contre-sens générant des commandes 
+contre-productives pour la tâche et donc pour la mission ; 
+- 
+Le nombre important d’agents composant un essaim rend difficile la supervision individuelle des 
+agents. C’est donc l’essaim en tant qu’entité qui doit être supervisé ; 
+Il est donc nécessaire de mettre en place des moyens d’interaction Homme-Système adaptés, non 
+seulement au fonctionnement interne du système technique, mais surtout aux capacités cognitives des 
+opérateurs humains chargés de les superviser. 
+ 
+206 G. Kaminka et M. Tambe (1998). What is wrong with us? Improving robustness through social 
+diagnosis. In Proceedings of the National Conference on Artificial Intelligence. AAAI.  
+207 G. Kaminka, D. Pynadath, et M. Tambe (2002). Monitoring teams by overhearing: a multi-agent 
+plan-recognition approach. Journal of Artificial Intelligence Research (JAIR), 17:83–135.  
+208 Voir par exemple, le PEA « Étude des Facteurs Humains (FH) et partage d’autorité 
+Homme/Système dans les systèmes de drones » 2008-2011.

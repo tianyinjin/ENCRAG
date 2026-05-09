@@ -1,0 +1,84 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 35 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+68 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 69
+D.1.4 _Santé
+Le contexte :
+Tout d’abord, le secteur de la santé doit garantir :
+• La résilience du système de soins condition essentielle à la prise en charge des 
+patients.
+• La protection des données de santé qui sont par nature persistantes. En effet, 
+une information médicale récente ou ancienne conserve de la valeur même si 
+la personne concernée est décédée.
+Ces enjeux doivent être pris en compte par des acteurs d’une grande diversité 
+ayant une maturité en matière de cybersécurité globalement faible. Dans ce 
+secteur nous retrouvons des acteurs du monde libéral (médecins, kiné, infir-
+miers, Soins à Domicile…), d’établissements médicaux sociaux (Ehpad…), d’éta-
+blissements sanitaires (CHU, CH, CLCC, EPSM…) ou d’industriels de la santé qui 
+concourent tous au parcours du patient. Sa particularité repose sur les éléments 
+suivants.
+• Les données traitées sont hautement sensibles et sont persistantes. 
+• La vie des patients tient aussi aux services délivrés par l’informatique. En sep-
+tembre 2020 et suite au blocage d’un établissement par une cyber-attaque, 
+une patiente allemande est décédée durant son transfert vers un autre établis-
+sement. Il s’agit du premier décès officiellement imputable à une cyber-attaque. 
+• Les établissements de santé sont accessibles à tous et à toute heure.
+Dans ce contexte, l’environnement réglementaire est assez riche. Bien évidem-
+ment, le RGPD s’applique à tous les acteurs du monde de la santé. Des obliga-
+tions spécifiques viennent le compléter selon les acteurs. Les établissements 
+publics de santé sont, entre autre, soumis à la PGSSI-S, doivent se soumettre à 
+une procédure de remontée d’incidents de sécurité et certains sont reconnus 
+OIV (Opérateurs d’Importance Vitale) ou OSE (Opérateur de Services Essen-
+tiels). Le marquage CE est imposé aux dispositifs médicaux et les hébergeurs 
+de données doivent être certifiés « Hébergeur de données de santé ».
+Les acteurs de la santé se caractérisent par :
+• Un niveau faible de maturité des utilisateurs face au risque cyber. Ainsi 
+bien que la confidentialité, l’intégrité et la disponibilité aient toujours été 
+au cœur des préoccupations des professionnels de santé, ces derniers 
+n’ont souvent pas intégré les risques cyber et ont des difficultés à accep-
+ter certaines contraintes qui en découlent. 
+• Une réglementation sectorielle importante sur les aspects protection 
+des droits des patients mais avec peu d’exigences opposables en termes 
+de cybersécurité. Le respect des exigences de sécurité est bien souvent 
+garanti sur le mode déclaratif et les contrôles sont insuffisamment pré-
+sents par manque de ressources.
+• Des systèmes d’information de santé complexes avec des dispositifs mé-
+dicaux connectés qui sont bien souvent hors de la responsabilité de la 
+DSI. Ces dispositifs médicaux, le plus souvent connectés, ont une durée 
+de vie très importante et leur mise à jour n’est pas toujours assurée ou 
+même possible.
+• Les acteurs de la santé n’ont pas pris la pleine mesure du risque cyber 
+contrairement au risque sanitaire qu’ils savent appréhender. Plusieurs 
+établissements stratégiques sont classés comme Opérateur de Service 
+Essentiel ou Opérateur d’importance Vitale pour assurer la continuité du 
+soin. Ces établissements mettent des moyens pour se protéger parce 
+qu’ils sont contraints réglementairement.
+L’état de l’art cyber : 
+Les attaques par ransomware se multiplient et sont les principales me-
+naces identifiées dans les établissements de santé et le secteur libéral.
+Le vol de données de santé est une source de revenu importante en raison 
+de failles identifiées dans les applications gérées par les établissements ou 
+dans les logiciels tiers. Ces données s’échangent à des prix dépassant le 
+prix des données bancaire. En effet, une donnée médicale volée concer-
+nant par exemple un chef d’Etat ou un grand dirigeant peut déstabiliser 
+tout un pays ou conduire à la faillite une entreprise. 
+Des groupes cybercriminel comme Orangeworm ciblent également les in-
+dustriels de la santé dans un but d’espionnage industriel. 
+Ils exploitent des vulnérabilités extrêmement diverses. Un SI de santé 
+contient des dispositifs médicaux parfois hors d’âge, des postes de travail 
+partagés et peu protégés. L’hôpital est interconnecté ce qui augmente la 
+surface d’attaque. La multitude d’intervenants trop souvent insuffisam-
+ment sensibilisés augmente la vulnérabilité des structures de santé.
+Un incident de sécurité peut perturber très fortement le fonctionnement 
+d’un établissement de santé. Les conséquences, par exemple d’un ran-
+congiciel, peuvent alors être tragiques avec une perte de chance pour les 
+patients comme cela a été le cas en Allemagne. Une violation des don-
+nées à caractère personnel peut rendre le citoyen méfiant vis-à-vis de 
+son système de santé ce qui constitue un risque important en matière de 
+santé publique.

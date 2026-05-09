@@ -1,0 +1,28 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 8 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+2.2.6 
+Command and Control Interface Specific Module (CCISM) 
+The CCISM provides a function similar to the VSM, that is, the encapsulation of the CCI data and any 
+translation required to be compatible/interoperable with the physical communication links between the UCS 
+and the C4I systems [4]. 
+The CCISM is mainly intended for communication with legacy C4I systems that are not directly compatible 
+with STANAG 4586 specified standards, protocols or physical layer and can be hosted on and collocated 
+with the UCS. The UCS architecture shall make provision for the integration of a CCISM [4]. 
+The CCISM provides the encapsulation of the CCI data and translations required ensure interoperability 
+with physical communications links between the UCS and C4I systems [4]. 
+3.0 OTHER STANDARDIZATION AGREEMENTS RELEVANT FOR UAV 
+As illustrated in Figure 4, there are already a number of existing or emerging Standardization Agreements 
+(STANAGs) that are applicable to UAV´s. They provide standards for interoperable data links (STANAG 
+7085), digital sensor data transfer between the payload and the UAV element of the data link (STANAG 
+7023, 4545, 4607, and 4609), and for on-board recording device(s) (STANAG 7024 and 4575) [4]. 
+ 
+ 
+3 - 8 
+STO-EN-SCI-271

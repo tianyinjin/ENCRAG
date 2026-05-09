@@ -1,0 +1,53 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 23 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+Animated Icons
+Some icons on your toolbar are animated by default. Most icons, including toggle icons and those that you add 
+yourself, can be animated if you wish. The main exceptions are tools that simply execute as command, such as 
+new project. The item grouping and move envelope points with media items tool are animated by default, but 
+you can turn this off if you wish. 
+Toolbar animation is managed within the Customize menus/toobars dialog.
+1.
+Right click over the toolbar background area and choose Customize toolbar … from the menu. This will 
+open the Customize menus/toolbar dialog with Main toolbar selected.
+2.
+Right-click on the name of the tool that you wish to modify. From the context menu choose Highlight 
+with animation based on toggle state.
+3.
+A submenu of options will be displayed. These are explained below.
+4.
+Make your choice or choices from this submenu.
+5.
+Click the Apply button. When you have finished making your changes click on OK.
+Animation submenu options
+Do not animate, Animate if toggle state enabled, Animate if toggle 
+state disabled: these three options are self-explanatory and mutually 
+exclusive. Select whichever you require.
+Highlight animation or Armed animation: you can select either one of 
+these visual effects, or one of the blink options.
+Slow blink or Fast blink: these cause the selected tool to blink, or flash, 
+between two different color states. In the default theme these are red and 
+green.
+Opening a File in Recovery Mode
+Any computer program will crash given the right (or wrong?) circumstances. This can be because of a problem 
+with some third party plug-in. If this 
+happens, you should enable the option to 
+Open with FX offline (recovery mode) 
+when re-opening the file from the File, 
+Open project dialog box (see right). 
+This will open the file with all FX set offline. 
+By reintroducing them online one at a time, you should be able to identify which one is causing the problem. To 
+then fix the problem you should remove this plug-in and replace it with another of equivalent functionality.
+Another method is to hold down Alt while you open a file from the File, Recent projects menu.
+Track Channels
+REAPER now supports up to 128 channels for routing, etc.
+ARA Pooled Edits
+REAPER now supports ARA pooled edits. 
+Options, Preferences, Plugins, ARA
+See Melodyne documentation for more 
+information about editing.
+Page 23

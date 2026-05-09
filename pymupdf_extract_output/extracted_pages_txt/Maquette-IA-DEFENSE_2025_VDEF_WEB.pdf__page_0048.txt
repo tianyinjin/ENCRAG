@@ -1,0 +1,83 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 48 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+48
+IA raisonnante 
+pour les systèmes décisionnels critiques
+Cet article expose certaines des propriétés 
+fondamentales que doit valider une Intelligence 
+Artificielle (IA), lorsqu’elle est employée pour développer 
+et déployer des Systèmes Décisionnels (SD) critiques.
+Intelligibilité et Explicabilité des Systèmes 
+Décisionnels
+Une IA de confiance est définie par plusieurs critères 
+essentiels qui garantissent sa fiabilité et sa conformité 
+aux valeurs éthiques et aux exigences des Forces Armées, 
+dans un cadre juridique international et européen qui se 
+précise tous les jours. Après le premier sommet REAIM 
+en 2023 (Pays-Bas), le sommet de 2024 (Corée du Sud) a 
+permis de confirmer une feuille de route. Soutenue par 
+61 États, elle suggère des principes et un cadre pour la 
+gouvernance future, en soulignant qu’être responsable 
+implique de se conformer au droit international, de tenir 
+les humains responsables et comptables de leurs actes, 
+de garantir la fiabilité de l’IA, de maintenir une implication 
+humaine appropriée et d’améliorer l’explicabilité de l’IA.
+L’une de ses principales caractéristiques est d’être « 
+centrée sur l’humain ». L’humain ne doit pas seulement 
+être « dans la boucle » comme un point de contrôle 
+obligatoire dans un processus, mais l’IA doit être façonnée 
+pour être une extension de son action. L’autonomie 
+demandée aux SD étant grandissante, il faut donc être 
+parfaitement conscient du domaine de responsabilité 
+délégué et être en mesure de l’assumer. Cette nécessité 
+de contrôler la délégation plus formellement met en 
+avant deux autres propriétés essentielles : l’intelligibilité 
+(ou transparence) du SD et l’explicabilité de ses 
+prédictions. Au-delà de la validation statistique et tests 
+d’échantillons d’;un SD opaque (« boîte noire »), un SD 
+transparent subit une validation préalable formelle et 
+réfutable sur l’ensemble de son cadre d’emploi. Il s’agit 
+de vérifier l’intégralité des connaissances embarquées 
+dans le SD, formant sa logique interne décisionnelle, et 
+si elles sont adaptées et suffisantes au cadre d’emploi.
+Si le SD est intelligible, il sera nécessairement explicable : 
+chacune de ses décisions sera expliquée grâce aux 
+connaissances du SD, préalablement auditées et certifiées 
+avant son déploiement. Ainsi, et grâce aux propriétés 
+d’intelligibilité et d’explicabilité, la phase d’audit du 
+SD permet la détection d’erreurs dans l’ensemble de 
+données d’entraînement et de biais éventuels [1] : un 
+préalable pour un usage éthique et responsable des SD. 
+La relance automatique de l’induction (du modèle de 
+décision) sur cet ensemble de données mis à jour permet 
+de découvrir des SD plus performants et exempts de biais.
+De l’intérêt d’expliciter les connaissances d’un 
+SD pour en comprendre son adéquation au cadre 
+d’emploi
+Imaginons qu’au sein d’un essaim de drones, l’un 
+d’eux soit chargé de missions de reconnaissance et 
+de classification, tout en recevant des informations 
+transmises, en temps réel, par les autres drones de 
+l’essaim. Afin d’assurer un premier niveau de contrôle 
+des informations transmises à ce drone qui devra « 
+décider », nous lui donnons une capacité embarquée 
+de contrôle des types de données, comme avec l’outil 
+open-source Magika[2], afin de vérifier la fiabilité 
+et l’authenticité des informations communiquées 
+et de déceler d’éventuelles compromissions.
+Comment s’assurer que le réseau neuronal embarqué est 
+Stéphane DELAYE
+Directeur technique délégué à 
+l’Intelligence Artificielle
+Eviden
+Zyed ZALILA
+PDG-Fondateur & Directeur R&D
+INTELLITECH
+Professeur de mathématiques du flou et 
+d’Intelligence Artificielle
+Université de Technologie de Compiègne

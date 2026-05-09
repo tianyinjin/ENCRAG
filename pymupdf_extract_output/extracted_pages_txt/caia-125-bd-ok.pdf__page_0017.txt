@@ -1,0 +1,106 @@
+Source file: caia-125-bd-ok.pdf
+Relative path: caia-125-bd-ok.pdf
+Page: 17 / 104
+
+================================================================================
+
+15
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+NOUVEAUX DRONES, NOUVELLES TECHNOS, 
+NOUVELLES OPPORTUNITÉS
+Matthieu 
+Claybrough, 
+Président de 
+Donecle 
+Diplômé de l’École Polytechnique et de 
+Supaéro (X2009 & S2013), Matthieu Clay­
+brough s’est spécialisé en automatique 
+et aéronautique, menant notamment des 
+travaux sur la navigation automatique des 
+drones. Après trois ans chez Thales Avio­
+nics à travailler sur les lois de pilotages de 
+plusieurs aéronefs, il cofonde Donecle en 
+2015 en tant que directeur technique avant 
+d’en devenir Président en 2020.
+Des défauts détectés dix fois plus rapidement sur avion comme hélicoptère
+méthode repose sur l’utilisation 
+de deux réseaux de neurones : un 
+premier destiné à la détection ra­
+pide des défauts et un second à la 
+classification des défauts à partir de 
+régions extraites sur les images en 
+pleine résolution. Ainsi, les défauts 
+potentiels (objets petits ou ambigus) 
+sont rassemblés pour une étape 
+supplémentaire de classification. 
+Traiter la reconnaissance des dé­
+fauts comme un problème de clas­
+sification d’images permet d’utiliser 
+des techniques avancées qui sont 
+beaucoup plus complexes à intro­
+duire dans un algorithme de recon­
+naissance d’objets en une seule 
+étape, dans lequel la détection et 
+la classification sont indissociables.
+L’analyse et classification des dé­
+fauts sont effectuées automatique­
+ment et en temps réel. Après revue 
+par un inspecteur, un rapport d’ins­
+pection exhaustif peut être généré. 
+Les défauts peuvent ensuite être 
+stockés dans un espace dédié per­
+mettant de retracer l’historique des 
+inspections et d’observer l’évolution 
+des défauts à long terme.
+Depuis sa création, cette tech­
+nologie a démontré des résultats 
+concluant sur de nombreux avions 
+et est déployée dans de nombreux 
+programmes.  Les systèmes Done­
+cle sont notamment utilisés dans 
+le civil sur une vingtaine de type 
+d’avions, des Falcons au A320 
+et B737 en passant par les Em­
+braer, avec clients tels que Airbus, 
+Air France, AAR, Austrian Airlines, 
+Latam, Regional Jet Center, etc. 
+La solution fait également l’objet 
+d’expérimentations longues durées 
+sur le terrain militaire, notamment 
+sur les aéronefs Rafale, AWACS, 
+Atlantique 2 et A400M. Naviguant 
+de façon répétable et sécurisée au­
+tour de ses aéronefs, le drone se 
+démontre comme une méthode de 
+capture d’image rapide et fiable.
+Un des programmes phares est ré­
+alisé sur le Rafale et a pour objectif 
+d’adapter les algorithmes d’intelli­
+gences artificielles aux dommages 
+pouvant survenir sur ce dernier. 
+Le projet pluriannuel, réalisé en 
+partenariat avec Dassault, la DGA, 
+la Marine Nationale et l’Armée de 
+l’Air et de l’Espace, comporte une 
+phase d’acquisition de données 
+suivi d’une phase d’évaluation en 
+conditions réelles. C’est ainsi que 
+plus de cent inspections Rafale par 
+drone ont été réalisés en 2021 et 
+se poursuivent en 2022 sur les dif­
+férentes bases d’emplois. Les pre­
+miers résultats et retours utilisateurs 
+sont très positifs, avec plusieurs cas 
+d’usages identifiés. 
+D’inspection en inspection, l’his­
+torique numérique permettra de 
+suivre au mieux les tendances des 
+dommages, l’évolution des struc­
+tures et de manière générale amé­
+liorer notre compréhension de la vie 
+du fuselage d’un avion pour mettre 
+en place une maintenance prédic­
+tive. Chacune de ces étapes contri­
+bue à l’optimisation des opérations 
+de maintenance de l’aéronef pour 
+in-fine améliorer sa disponibilité.

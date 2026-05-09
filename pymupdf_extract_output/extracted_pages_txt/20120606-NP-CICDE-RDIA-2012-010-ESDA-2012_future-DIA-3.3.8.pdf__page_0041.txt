@@ -1,0 +1,71 @@
+Source file: 20120606-NP-CICDE-RDIA-2012-010-ESDA-2012_future-DIA-3.3.8.pdf
+Relative path: 20120606-NP-CICDE-RDIA-2012-010-ESDA-2012_future-DIA-3.3.8.pdf
+Page: 41 / 64
+
+================================================================================
+
+41
+423. 
+Les spécificités du contrôle à distance du vecteur dans les systèmes de drone rendent 
+particulièrement pertinente l’utilisation d’outils de simulation dans le cadre de la formation et de 
+l’entraînement des opérateurs de systèmes de drone. Au-delà de l’entraînement technique au 
+contrôle du vecteur, ces outils de simulation devront être pensés comme de véritables outils de 
+formation et d’entraînement aux missions des drones, en prenant en compte d’une part, le 
+travail en équipe pluridisciplinaire112 (partage des rôles, complémentarité des compétences, 
+etc.) et d’autre part, les aspects tactiques liés aux missions opérationnelles. 
+424. 
+En outre, la formation devra prendre en compte les problématiques de responsabilité et de 
+« distance » vis-à-vis de l’action et de l’acte de combat. Le principe de maintenir l'homme dans 
+la boucle implique une formation adaptée, mais aussi des moyens adaptés (aide à la décision, 
+reconstitution de la « proximité », etc.) décrits succinctement en annexe E. 
+Dimensionnement des ressources humaines 
+425. 
+Comme nous l’avons vu précédemment, un des apports déterminants des systèmes de drones 
+est la permanence (jusqu’à plusieurs dizaines d’heures en fonction des types de drones). Cette 
+permanence a un coût, notamment en terme de ressources humaines. Les effectifs doivent 
+donc être dimensionnés en conséquence afin d’assurer les relèves des équipes d’opérateurs, 
+des personnels de commandement, de soutien113 et de renseignement. Cette problématique 
+est particulièrement prégnante pour le personnel de cette dernière catégorie du fait même de la 
+quantité de données à traiter (images, vidéo, ou autres) collectée par des systèmes capables 
+de rester plusieurs heures sur zone. Ainsi, à la nécessité de relever le personnel s’ajoute celle 
+de multiplier la capacité de traitement et donc de redimensionner la chaîne de renseignement 
+(cf. section suivante). 
+426. 
+Pour chaque système de drones, l’optimisation des ressources humaines affectées visera à 
+tirer le meilleur parti de cette capacité et devra être évaluée au plus tôt durant le processus 
+d’acquisition. 
+427. 
+Cette problématique est à prendre en compte pour les aspects formation et entraînement ainsi 
+que dans le coût global de cette capacité. 
+Section III – Des échanges d’informations maîtrisés 
+428. 
+Les systèmes de drones sont avant tout des capteurs déportés permettant en temps réel 
+l’acquisition d’images, de données électromagnétiques ou d’autres types d’informations. La 
+longue durée d’observation offerte par certains systèmes de drones (classe III en l’occurrence) 
+engendre un flux de données important qu’il s’agira de traiter, d’en extraire le renseignement 
+puis le diffuser ou le partager. 
+429. 
+En outre, le segment aérien d’un système de drones ne peut être réduit à un ensemble de 
+capteurs de renseignement. En effet, son aptitude au temps réel procure au système de drones 
+une réelle capacité d’observation et ses liaisons aux réseaux C4I le rendent capable de diffuser 
+rapidement et efficacement une alerte. 
+430. 
+Le débit important des données engendre des difficultés de traitement et de diffusion qui 
+nécessitent de maîtriser le cycle de l’information au sein des systèmes de drones et conduisent 
+à rechercher : 
+a. 
+des liaisons haut débit fiables et sécurisées et des interconnexions des systèmes de 
+drones avec les différents réseaux au juste niveau (Il s’agit d’un compromis entre la 
+protection des données et la facilité d’utilisation et de diffusion via les réseaux 
+existants. Le risque réel de prise de contrôle malveillante du vecteur aérien est aussi 
+un paramètre à prendre en compte) ; 
+b. 
+des outils performants et un dimensionnement cohérent de l’organisation liée au 
+traitement des informations capable d’orienter en temps réel les informations 
+opérationnelles (notamment d’alerte) vers les utilisateurs concernés et les autres 
+informations vers la chaîne renseignement. Les progrès en matière de moyens de 
+traitement automatisé de l’information, embarqués ou déportés au sol, sont de nature à 
+                                                 
+112 Ce travail en équipe nécessite un entraînement spécifique et la prise en compte d’une formation aux techniques de travail en équipage de 
+type Cockpit Ressources Management (CRM). 
+113 Notamment ceux qui ont la tâche de la maintenance des liaisons entre les stations de contrôle, les vecteurs et les réseaux C4I.

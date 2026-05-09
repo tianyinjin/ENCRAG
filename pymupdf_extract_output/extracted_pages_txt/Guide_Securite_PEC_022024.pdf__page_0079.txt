@@ -1,0 +1,53 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 79 / 108
+
+================================================================================
+
+79
+POLE D'EXCELLENCE CYBER
+Pour certains utilisateurs, si rien ne se passe, faites un clic droit sur la barre des tâches 
+et choisissez Gestionnaire des tâches 6 . Dans la nouvelle fenêtre qui s’ouvre, sélec­
+tionnez le Processus hôte Windows (Rundll32) 7  et cliquez sur Fin de tâche 8  :
+ 
+Il s’agit d’un utilitaire Windows pouvant interférer avec l’outil de réinitialisation de 
+mot de passe.
+À la fin du processus, cliquez sur le bouton Terminer 15
+15  :
+8
+6
+7
+9
+1111
+10
+10
+Cliquez à nouveau sur Créer 
+un disque de réinitialisation 
+du mot de passe 5 . L’outil 
+« Assistant de mot de passe 
+oublié » va se lancer, cliquez sur 
+Suivant 9 , choisissez votre clé 
+USB dans la liste déroulante 10
+10  
+et continuez 1111  :
+À l’étape suivante, vous êtes 
+invité à entrer le mot de passe 
+du compte d’utilisateur actuel 
+12
+12. Cliquez sur Suivant 13
+13, atten­
+dez que la barre d’état atteigne 
+100%, puis continuez 14
+14  :
+Retirez la clé USB et conservez-la dans un lieu sûr dont 
+vous vous souviendrez. Notez qu’il n’est pas nécessaire de 
+créer un nouveau disque lorsque vous modifiez votre mot 
+de passe et ce, même à plusieurs reprises.
+12
+12
+13
+13
+14
+14
+15
+15

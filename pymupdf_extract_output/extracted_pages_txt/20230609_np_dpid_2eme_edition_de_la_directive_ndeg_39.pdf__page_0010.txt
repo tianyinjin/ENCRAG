@@ -1,0 +1,39 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 10 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 10 | 79 
+précédemment, l’autorité d’emploi ou bénéficiaire décide si effectivement ce système relève ou 
+non de la présente directive. 
+3.3. Périmètre de la sécurité numérique du système industriel 
+Une grande majorité des systèmes industriels est organisée selon une architecture de type CIM6, 
+qui répartit les équipements du système en cinq grands niveaux: 
+- 
+niveau 0 : composants (capteurs*, actionneurs*) qui assurent des fonctions de mesures 
+et de commandes. Ils assurent le lien entre la partie numérique et la partie physique ; 
+- 
+niveau 1 : composants (automates*) qui assurent les fonctions de pilotages des 
+actionneurs* en fonction des données fournies par les capteurs* ; 
+- 
+niveau 2 : composants (SCADA*7) qui réalisent des fonctions de supervision et de 
+contrôle du processus ; 
+- 
+niveau 3 : composants (MES8) qui assurent l’exécution et la gestion du 
+processus opérationnel ; 
+- 
+niveau 4 : composants (ERP9) qui assurent la gestion et la planification des ressources 
+(gestion des stocks, commande, facturation , etc.). 
+ 
+ 
+Schéma de fonctionnement d'un système industriel 
+ 
+                                               
+6 Le computer integrated manufacturing (CIM) est un concept décrivant l'automatisation des 
+procédés de fabrication.  
+7 Supervisory Control and Data Acquisition, équivalent au système de supervision industrielle. 
+8 Manufacturing Execution System. 
+9 Enterprise Resource Planning.

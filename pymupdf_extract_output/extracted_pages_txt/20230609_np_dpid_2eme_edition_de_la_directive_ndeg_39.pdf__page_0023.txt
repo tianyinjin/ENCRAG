@@ -1,0 +1,65 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 23 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 23 | 79 
+- 
+d’un RSSI-A pour son maintien en condition de sécurité (MCS) sous tous les aspects, le 
+renouvellement de la décision d’homologation et pour tout événement de sécurité impactant 
+le système du SI de manière significative ; 
+- 
+d’un ou plusieurs OSSI (ou CSSI) qui inscrivent le système industriel dans leur périmètre de 
+responsabilité et veillent au respect des mesures de sécurité au niveau local. 
+Le RSSI-A et les OSSI s’appuient sur un ou plusieurs administrateurs (réseau, système, sécurité, 
+fonctionnel, etc.) en charge de l’administration technique ou fonctionnelle du système industriel. 
+Les tierces parties (notamment prestataires) portent aussi des responsabilités en matière de 
+sécurité numérique selon un périmètre de responsabilités bien définies et connues des autres 
+acteurs.  
+Les utilisateurs du système industriel sont aussi responsables de l’usage des moyens qui leur 
+sont fournis ainsi que des données traitées ou générées.  
+Toute personne accédant au système est informée de ses responsabilités et doit être sensibilisée 
+aux risques spécifiques induits par sa fonction. La sensibilisation sur les risques portant sur un 
+système numérique générique est nettement insuffisante. L’autorité d’emploi ou bénéficiaire veille 
+donc à maintenir un niveau de sensibilisation adapté aux risques qui pèsent sur ses 
+systèmes industriels. 
+6.7.2. Maintien en condition de sécurité (MCS) 
+Certaines actions du maintien en condition de sécurité (MCS) peuvent avoir un impact sur le 
+processus industriel (ralentissement, redémarrage). Elles sont identifiées puis encadrées par des 
+procédures qui détaillent le protocole d’intervention, définissent la fenêtre de maintenance et 
+d’intervention possible et précisent le protocole à suivre pour un retour à un état normal. La 
+définition de la fenêtre de maintenance est réalisée avec le métier dont le système supporte les 
+activités. Des procédures de maintenance immédiates sont définies. 
+Le maintien en condition de sécurité (MCS) ne se réduit pas à l’aspect technique mais s’étend à 
+tous les aspects de la sécurité numérique (cartographie, compétence, documentaire, etc.). La 
+directive [Dir MCS], qui s’applique aux systèmes d’information et de communication, définit des 
+principes et des mesures qui peuvent être appliqués aux systèmes industriels. 
+En raison de la durée de vie d’un système industriel, il est parfois impossible d’assurer la 
+maintenance des composants du système industriel sur toute la durée de son cycle de vie. Il 
+convient alors d’identifier les composants obsolètes, de mettre à jour l’analyse des risques, de 
+mettre en œuvre des contre-mesures compensatoires adaptées lorsqu’elles sont possibles, et de 
+renforcer leur surveillance. 
+Les risques au cours des maintenances du système industriel sont identifiés et évalués afin de 
+prendre des mesures adaptées, notamment en cas de télémaintenance* ou d’intervention 
+d’agents ou de tierces parties sur le système. 
+Toute intervention de maintenance nécessite : 
+- 
+le contrôle de l’habilitation des intervenants et de celle de leur société ; 
+- 
+une sensibilisation des intervenants adaptée au système ; 
+- 
+la mise à jour de la cartographie et l’inventaire des équipements ainsi que leur vérification ; 
+- 
+la définition des fenêtres de maintenance ; 
+- 
+le cloisonnement* des données afin de faire respecter le principe du besoin d’en connaître ; 
+- 
+la revue des règles de filtrage* avec définition du processus de modification ; 
+- 
+le revue des accès logiques aux ressources ; 
+- 
+la modification de la configuration par défaut des équipements et applicatifs, ainsi que le 
+contrôle d’intégrité des correctifs appliqués ;

@@ -1,0 +1,60 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 295 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+ANNEXE 16 
+
+Ϯϴϵ
+
+ANNEXE 16 : MESURES CONSERVATOIRES ET CONDUITE A TENIR EN CAS DE COMPROMISSION 
+POSSIBLE AFFECTANT UN SYSTEME D’INFORMATION 
+1. Principes généraux 
+Il convient de mettre en œuvre des dispositions organisationnelles permettant au plus 
+tôt de: 
+-
+préserver le support numérique susceptible de contenir une compromission; 
+-
+rassembler les éléments techniques et humains en rapport avec l’incident en cours; 
+-
+informer la DRSD qui prend en charge les investigations. 
+Rappel: 
+Toutes les actions entreprises entrent dans le cadre d’une première réponse sur incident. 
+Elles doivent impérativement être répertoriées et horodatées. 
+Toute intervention (visualisation du contenu d’un message, fichier ou répertoire, etc.) sur 
+la machine est de nature à laisser des traces sur le disque dur et ainsi à compromettre la 
+recevabilité judiciaire de la preuve. 
+Aussi, dès la découverte d’une compromission possible, seules les interventions 
+techniques dûment mandatées par la DRSD sont autorisées. 
+ 
+2. Règles de base applicables par l’organisme touché par une compromission possible 
+(OSSI ou OS) 
+a. Compromission possible sur une machine isolée 
+Si l’équipement est en fonctionnement: 
+-
+laisser la machine en fonctionnement; 
+-
+ne pas retirer les médias amovibles connectés, s’il y en a; 
+-
+prendre une photo de l’écran si un élément anormal ou inhabituel apparaît. 
+Si l’équipement a été éteint, ne pas rallumer la machine. 
+ 
+b. Compromission possible sur machine connectée au réseau: 
+Appliquer les mêmes dispositions que celles prévues pour une machine isolée (§2.1). 
+En complément: 
+-
+noter le numéro de la prise murale du réseau; 
+-
+débrancher le câble à l’arrière de celui-ci; 
+-
+demander aux administrateurs du système de mettre à disposition de la DRSD les 
+journaux d’évènements des différents équipements liés (serveurs, commutateurs,…). 
+ 
+3. Premières constatations et investigations 
+Au-delà des règles de base ci-avant, les premières constatations et les investigations 
+ultérieures doivent être réalisées par un inspecteur de la DRSD dès qu’une suspicion de 
+compromission affectant un système d’information est signalée.

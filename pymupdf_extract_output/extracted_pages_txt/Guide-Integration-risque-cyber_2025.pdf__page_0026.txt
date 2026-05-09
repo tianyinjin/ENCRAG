@@ -1,0 +1,136 @@
+Source file: Guide-Integration-risque-cyber_2025.pdf
+Relative path: Guide-Integration-risque-cyber_2025.pdf
+Page: 26 / 29
+
+================================================================================
+
+Pôle d’excellence cyber
+51
+50
+Annexe J
+1.	
+Objectifs de sécurité et mesures de réduction des risques 
+Vous trouverez dans le tableau ci-dessous des éléments qui pourrons vous orienter dans le choix des éléments et mesures à 
+mettre en œuvre, par ordre de priorité :§ idem 5
+Outil / Mesure
+Objectifs de sécurité
+Risques
+Sauvegarde
+Protection des données
+Continuité et Reprise d’activité
+Chiffrement ou altération des données
+Perte de données
+Arrêt/disfonctionnement de l’activité
+Antivirus
+Protection contre les fichiers 
+malveillants sur les postes et serveurs
+Logiciel malveillants (Rançongiciel, …)
+Fuite/vol de données
+Antispam
+Filtrage des mails malveillants, 
+Filtrage des fichiers malveillants,
+Hameçonnage, 
+Logiciels malveillants
+Proxy
+Filtrage des sites malveillants ou 
+inadaptés,
+Filtrage des fichiers malveillants, 
+Traçabilité des accès internet 
+Logiciels malveillants
+Fuite de données
+Conformité règlementaire, traçabilité
+Parefeu
+Contrôle des accès et des flux de 
+données
+Segmentation du S.I.
+Zones de sécurité filtrée : zones 
+utilisateurs, zones serveurs, zones 
+DMZ
+Intrusion dans le S.I
+Fuite de données
+Propagation, latéralisation de l’attaque
+Non maitrise des flux de données
+Annuaire 
+Centralisation des comptes 
+utilisateurs
+Gestion des droits des utilisateurs et 
+des groupes
+Séparation des droits utilisateurs et 
+administrateurs
+Mauvaise Gestion et revue des comptes,
+Mauvaise gestion des droits utilisateurs,
+Accès illégitime
+Logiciels malveillants
+Défaut de confidentialité de données
+Supervision
+Informations sur le fonctionnement 
+des équipements et applications
+Traitement des incidents et alertes
+Détection tardive ou non traitement des 
+incidents ou des disfonctionnements.
+Outil / Mesure
+Objectifs de sécurité
+Risques
+Charte Informatique
+Responsabilisation des utilisateurs
+Droits et devoir d’utilisation du S.I
+Mauvais usages des outils numériques,
+Shadow IT, respect des réglementations et de 
+la Politique interne
+Sensibilisation
+Amélioration des pratiques et des 
+usages des outils numériques
+Renforcement de la culture et des 
+connaissances cyber
+Hameçonnage, Ingénierie sociale,
+Erreur de manipulation, 
+Mauvais usages des outils numériques,
+Non-Conformité règlementaire
+RSSI / DPO
+Pilotage et suivi de la sécurité
+Analyse de risques
+PSSI, Gestion de crise
+Conformité réglementaire
+Défaut de sécurisation
+Absence de pilotage et de suivi
+Non-conformité règlementaire
+VPN
+Chiffrement des accès distants et 
+interconnections réseaux (partenaires)
+Sécurisation des utilisateurs nomades
+Fuite de données
+Logiciels malveillants
+Expositions des applications
+Puits de logs
+Traçabilité des accès 
+Traçabilité des actions
+Surveillance des évènements
+Perte ou suppression des traces d’activités 
+malveillantes ou règlementaires.
+Reverse proxy
+Contrôler et sécuriser l’exposition 
+internet d’applications
+Exposition directe d’application
+Compromission, accès non maitrisés
+Bastion
+Contrôle des accès distants
+Contrôle des prestataires
+Contrôles des administrateurs
+Traçabilité des actions
+Accès distant non autorisé
+Détournement d’accès
+EDR / xDR
+Protection contre les fichiers et 
+actions malveillantes sur les postes et 
+serveurs 
+Surveillance des évènements
+Logiciel malveillants (Rançongiciel, … )
+Fuite/vol de données
+Passerelle API
+Filtrage et Contrôle des appels d’API 
+entrants et sortant vers les services 
+externes (Cloud, SaaS, partenaires, 
+hébergeurs, …)
+Détournement d’API
+Vol, extraction de données
+Non maitrise des flux API entrants/sortants

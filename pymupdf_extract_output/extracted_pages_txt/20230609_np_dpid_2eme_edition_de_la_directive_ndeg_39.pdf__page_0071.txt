@@ -1,0 +1,96 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 71 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 71 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+-  les modalités de l’intervention (motif, durée, fichiers modifiés, procédure de tests, 
+procédure 
+de 
+restauration) 
+doivent 
+être 
+définies 
+et 
+autorisées ;
+- les connexions doivent être réalisées à la demande de l’entité responsable ;
+- le télémainteneur doit utiliser un ID de connexion nominatif, non générique ;
+-  l’équipement de connexion distant et l’administrateur distant doivent être 
+authentifiés ;  
+-  le mot de passe de connexion doit être changé régulièrement ;  
+-  la journalisation des événements de sécurité doit être activée ;  
+- après un délai précis d’inactivité, la connexion doit être fermée ; 
+- l’équipement doit être cloisonné du reste du système industriel et seuls les flux 
+indispensables pour l'opération doivent être autorisés entre l’équipement et le reste 
+du système industriel ; 
+ 
+-  les opérations de télémaintenance* ne doivent réalisées qu’à l’aide de protocoles 
+sécurisés, assurant notamment l’intégrité, la confidentialité et l’authenticité des 
+échanges.  
+MAINT1
+3 
+TECH 
+Mettre en œuvre une authentification forte à deux facteurs pour opérer la 
+télémaintenance*. 
+ 
+R 
+O 
+O 
+ 
+MAINT1
+4 
+ORG 
+Dans le cas d’une connexion par modem n’offrant pas de système 
+d’authentification satisfaisant, utiliser un système de rappel (call-back) pour valider 
+le numéro de téléphone appelant. 
+ 
+R 
+O 
+O 
+ 
+MAINT1
+5 
+TECH 
+Utiliser pour la télémaintenance* un équipement de connexion labellisé. 
+ 
+C 
+R 
+O 
+ 
+MAINT1
+6 
+TECH 
+Interdire toute possibilité de modification non autorisée du cloisonnement*, du 
+filtrage*, des mécanismes d’authentification et de la journalisation par le prestataire 
+(depuis l'extérieur du système industriel). 
+O
+ 
+ 
+ 
+ 
+MAINT1
+7 
+TECH 
+Déployer une sonde de détection au niveau de la passerelle de connexion pour 
+pouvoir analyser l’ensemble du trafic entrant et sortant. 
+ 
+C 
+R 
+O 
+ 
+MAINT1
+8 
+TECH 
+Si des opérations de télémaintenance* sont impérativement nécessaires, les 
+équipements distants et la liaison doivent être intégrés dans le périmètre et être 
+ 
+C 
+R 
+O

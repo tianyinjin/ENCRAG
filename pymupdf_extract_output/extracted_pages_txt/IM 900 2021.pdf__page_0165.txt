@@ -1,0 +1,58 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 165 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE 
+DROIT PRIVE 
+6.5 
+
+159 
+6.5: SOUS-CONTRACTANCE A UN TIERS EN MATIERE INFORMATIQUE 
+Références :  
+•
+Décret n° 2016-361 du 24 mars 2016 relatif aux marchés de défense et de sécurité 
+•
+IGI 1300 – 6.3 
+•
+Guide de l’externalisation150, par l’ANSSI 
+Points clés: 
+• Pour les systèmes d’information classifiés ou Diffusion Restreinte, le recours par un 
+contractant du MINARM à une sous-contractance informatique doit être 
+explicitement autorisé par le plan contractuel de sécurité initial. 
+• Préalablement à la mise en place d’une sous-contractance, une analyse de risque 
+doit être menée. 
+• La contractualisation par l’entreprise à un tiers d’activités sur des systèmes 
+d’information sensibles, Diffusion Restreinte ou classifiés impose de formaliser les 
+objectifs de sécurité dans des documents dédiés et d’appliquer les mesures de 
+protection associées. 
+ 
+La sous-contractance informatique consiste à confier à un tiers tout ou partie de l’activité 
+dans le domaine des systèmes d’information. Il peut s’agir, entre autres, de MCO 
+(maintien en condition opérationnelle), de MCS (maintien en condition de sécurité), de 
+TMA (tierce maintenance applicative), d’ASP (Application Service Provider - fournisseur 
+d'applications en ligne), de SAAS (Software as a service - logiciel en tant que service), de 
+MSSP (Managed Security Service Provider - fournisseur de service de sécurité géré), etc. 
+Toute entreprise sous contrat avec le MINARM traitant des informations Diffusion 
+Restreinte ou classifiées est tenue d’appliquer les présentes dispositions. Le recours à une 
+sous-contractance doit être explicitement autorisé par le plan contractuel de sécurité. 
+Le cas échéant, les activités peuvent être identifiées comme des tâches essentielles151 qui 
+ne peuvent faire l’objet d’un sous-contrat. En particulier, les prestations d’administration 
+de la sécurité d’un système d’information classifié ne peuvent pas faire l’objet d’un sous-
+contrat. 
+ 
+1. Analyse de risque préalable par l’autorité contractante. 
+Une analyse de risque est nécessaire pour formaliser des objectifs de sécurité ainsi que 
+des mesures adaptées au contexte. Cette analyse de risque permettra à l’autorité 
+d’homologation d’autoriser ou non la sous-contractance. 
+L’entreprise doit veiller à conserver la maîtrise du système d’information (gouvernance, 
+dépendance technologique, etc.). 
+Trois sources de risques principales liées à la démarche de sous-contractance à un tiers 
+doivent être envisagées: 
+
+150 https://www.ssi.gouv.fr/uploads/IMG/pdf/2010-12-03_Guide_externalisation.pdf 
+151 Au sens de l’article 133 du décret de référence.

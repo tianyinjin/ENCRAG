@@ -1,0 +1,118 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 69 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 69 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP59 
+ORG 
+Dédier les équipements mobiles autorisés à se connecter sur le système industriel, 
+y compris ceux utilisés par des prestataires extérieurs. 
+ 
+R 
+O 
+O 
+ 
+EXP60 
+ORG 
+Proscrire la connexion ou le raccordement d’équipements personnels sur le 
+système industriel. 
+O
+ 
+ 
+ 
+ 
+EXP61 
+TECH 
+Faire signer par le fournisseur les éléments dont l’intégrité et l’authenticité doivent 
+être vérifiées (équipementier, développeur, intégrateur, etc.). La signature doit être 
+vérifiée par l’entité responsable à la réception et par l’équipement au chargement.
+Le fournisseur doit fournir un certificat d'innocuité. Celui-ci présente le résultat 
+d'une analyse antivirale et sa date, et précise l'éditeur du produit, la version du 
+moteur, la date et la version de la base de signature. 
+ 
+C 
+R 
+O 
+ 
+Maîtriser la maintenance 
+MAINT1 
+ORG 
+Mettre en place une procédure de gestion des interventions afin de pouvoir les 
+tracer en identifiant :  
+-  la personne qui exécute le travail et son donneur d’ordre ; 
+ 
+-  la date et l’heure de l’intervention ; 
+ 
+-  le périmètre sur lequel le travail est exécuté ; 
+ 
+-  les actions réalisées ; 
+ 
+-  la liste des équipements retirés ou remplacés (y compris, le cas échéant, les 
+numéros d’identification) ; 
+ 
+-  les modifications apportées et leur impact. 
+ 
+Ces informations sont enregistrées dans un registre d’accès qui peut être sous 
+forme numérique. 
+O
+ 
+ 
+ 
+Pour certaines emprises, certaines de 
+ces 
+informations 
+seront 
+déjà 
+enregistrées 
+via 
+les 
+procédures 
+inhérentes 
+aux 
+sites. 
+Les entités déclineront ces règles en 
+fonction 
+de 
+leurs 
+spécificités 
+et 
+procédures 
+afin 
+d’éviter 
+des 
+redondances inutiles. 
+MAINT2 
+ORG 
+Définir les modalités des interventions, en particulier le processus d'autorisation, 
+et les faire valider par le RSSI.  
+ 
+R 
+O 
+O 
+ 
+MAINT3 
+ORG 
+Interdire l’utilisation d’outils particuliers hors d’un cadre prévu par les politiques de 
+sécurité mises en place. 
+O
+ 
+ 
+ 
+ 
+MAINT4 
+ORG 
+Pour les cas particuliers où l’intervenant apporte ses propres outils (des outils de 
+diagnostic propres à l’équipementier par exemple), une procédure, même 
+succincte, doit être mise en place pour vérifier que les équipements de l’intervenant 
+ 
+R 
+O 
+O

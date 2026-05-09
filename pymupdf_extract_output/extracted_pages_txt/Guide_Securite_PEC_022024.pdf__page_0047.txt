@@ -1,0 +1,46 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 47 / 108
+
+================================================================================
+
+47
+POLE D'EXCELLENCE CYBER
+En matière de sécurité, l'union fait bien la force. Chaque agent qui applique les bonnes pratiques données dans ce guide et 
+qui reste en éveil sur celles de ses collègues, participe au quotidien à la sécurité globale de son service. Au-delà des matériels 
+et logiciels utilisés, au-delà des routines quotidiennes, ce guide est l'étape liminaire qui permettra à tout administrateur de 
+mieux évaluer quelles sont les vulnérabilités de son système d’information (SI) au regard des inconvénients ou dangers plus ou 
+moins probables auxquels il peut être exposé, afin qu'il prenne les meilleures mesures pour le protéger. L'analyse de risques est 
+un outil structurant qui permettra à la collectivité de gérer au mieux les risques pour réduire au maximum son exposition aux 
+menaces.
+Qu’est-ce que le risque ?
+En informatique, le risque est la possibilité de survenue d’un événement indésirable qui génère un préjudice portant atteinte à l’un 
+des composants du système d’information ou de son environnement, par exemple la perte de données, la dégradation d'un service 
+pouvant aller jusqu'à l’arrêt du système ou des applications, les conséquences en terme d'image ou juridiques. 
+Quatre facteurs entrent en jeu dans l’évaluation du risque :
+• La vulnérabilité : c'est une faiblesse ou une faille au regard de la sécurité du système d’information (SI composé de deux sous-
+systèmes, l’un social, composé de la structure organisationnelle et des personnes liées au SI, et l’autre technique, composé des 
+technologies et des processus d’affaires concernés par le SI) ;
+• La menace : elle exploite une vulnérabilité du SI, selon un scénario de menace précis, son action amène une dégradation ou la 
+destruction du SI, des services qu'il rend et des données qu'il contient, elle peut être d'origine humaine, volontaire ou involontaire, ou 
+résulter de phénomènes non humains (animal, végétal, climatique, physique) ;
+• La probabilité qu’une vulnérabilité soit exploitée par une menace ;
+• L’impact : évalue les conséquences physiques, financières (dommage corporel et/ou matériel), juridiques, ou concernant la réputation 
+(dommage moral), aussi vis-à-vis des usagers (indisponibilité d'un service, défiguration du site Web, vol, revente, exposition de données 
+à caractère personnel), etc.
+Qu’est-ce qu’une analyse de risques ?
+Dans le domaine de la sécurité informatique, une analyse de risques est un processus d'identification (composants du SI et schéma 
+des flux), d'évaluation et d'estimation de chaque composante du risque (vulnérabilité/scénarii de menace/probabilité/impact) liée au 
+SI. Cette analyse permettra à la collectivité de déterminer quel niveau de risque est acceptable pour elle au regard du budget qui est 
+dédié à sa sécurité, elle pourra alors prendre les mesures adéquates pour couvrir les risques jugés inacceptables et protéger ainsi les 
+biens et services essentiels de la collectivité, à commencer par les données.
+Quand faut-il mener une analyse de risques ?
+De nombreux facteurs peuvent motiver la réalisation d'une telle analyse. Par exemple, chaque fois que des changements importants 
+interviennent dans l’environnement informatique, comme l'ajout ou la suppression de matériel et/ou de logiciels, avant l’ouverture 
+d’un téléservice, avant d’externaliser tout ou une partie de la gestion du système d’information, en complément d’un audit de sécurité1 
+. Une analyse de risques devient indispensable lorsque le système est critique pour la productivité et/ou traite, stocke ou transmet des 
+données sensibles.
+1 Réalisé par un organisme extérieur et certifié, un audit de sécurité permet d’obtenir une vision du système d'information à un 
+moment précis, et d'en comparer l'état au regard d'un référentiel (RGS, RGPD, règles et textes de loi), afin d’aider la collectivité à 
+prendre les bonnes décisions.
+MENER UNE ANALYSE DES RISQUES

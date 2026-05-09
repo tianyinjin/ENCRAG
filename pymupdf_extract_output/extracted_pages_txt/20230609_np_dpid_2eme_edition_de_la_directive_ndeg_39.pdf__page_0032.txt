@@ -1,0 +1,86 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 32 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 32 | 79 
+2 
+Mineur 
+3 
+Modéré 
+4 
+Majeur 
+5 
+Critique 
+6 
+Intolérable 
+ 
+2.3. Détermination de la vraisemblance des événements redoutés 
+La vraisemblance est déterminée par la formule suivante : 
+   𝑉𝑟𝑎𝑖𝑠𝑒𝑚𝑏𝑙𝑎𝑛𝑐𝑒=  𝐸𝑥𝑝𝑜𝑠𝑖𝑡𝑖𝑜𝑛 + 𝑎𝑟𝑟𝑜𝑛𝑑𝑖. 𝑒𝑛𝑡𝑖𝑒𝑟. sup(𝐴𝑡𝑡𝑎𝑞𝑢𝑎𝑛𝑡 + 𝐴𝑐𝑐è𝑠−2 
+2
+)   
+𝐷𝑜𝑛𝑡 𝐴𝑐𝑐è𝑠=  𝑀𝑎𝑥(𝐼𝑛𝑡𝑒𝑟𝑣𝑒𝑛𝑎𝑛𝑡, 𝑃𝑟𝑜𝑡𝑒𝑐𝑡𝑖𝑜𝑛) 
+Les différents termes utilisés dans la formule sont définis dans les paragraphes suivants. 
+2.3.1. Détermination du facteur « Exposition » 
+                
+Connectivité 
+Fonctionnalité         
+C1 
+C2 
+C3 
+C4 
+C5 
+C6 
+F1 
+1 
+1 
+2 
+3 
+Non applicable 
+F2 
+1 
+2 
+3 
+4 
+4 
+5 
+F3 
+2 
+3 
+3 
+4 
+4 
+5 
+F4 
+3 
+3 
+4 
+4 
+5 
+5 
+ 
+2.3.1.1. 
+Détermination du facteur « Fonctionnalité » 
+Le critère évalue le niveau de complexité du système. 
+ 
+N. 
+Intitulé 
+Définition 
+F1 
+Système 
+minimal 
+Système contenant uniquement des éléments de niveau CIM 0 et 1 (contrôle 
+commande) à l’exclusion des consoles de programmation, à savoir : 
+capteurs*/actionneurs*, entrées/sorties déportées, automates*, pupitres, 
+systèmes embarqués, analyseurs. 
+F2 
+Système 
+complexe 
+Système contenant des éléments de niveau CIM 0, 1 et 2 (contrôle-
+commande et SCADA*). S’ajoutent aux éléments de niveau 1 : station de 
+supervision, serveurs d’historique local (Historian), base de données 
+locales.

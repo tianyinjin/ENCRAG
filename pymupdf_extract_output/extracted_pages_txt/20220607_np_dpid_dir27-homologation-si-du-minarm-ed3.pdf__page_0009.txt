@@ -1,0 +1,55 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 9 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+7/47 
+responsables de conduite de projet (RCP), les différents acteurs des projets en mode agile et les 
+opérateurs.  
+La directive ne s’applique pas aux SI ne relevant pas du ministère des Armées (SI interministériel, 
+OTAN, UE, etc.). Dans ce cas, il convient de se référer aux documents idoines. 
+L’homologation de sécurité d'un SI est globale : elle inclut dans son périmètre tout ce qui peut 
+impacter la sécurité numérique du système et des données. 
+Le [GUIDE 7] précise les modalités définies dans cette directive et propose des modèles de livrables. 
+Il est accessible via SynopTIC4. Son usage et sa large diffusion sont donc fortement recommandés. Les 
+modèles proposés peuvent être déclinés, sans les alourdir, par les AH pour répondre à leurs besoins 
+et à leurs spécificités tout en facilitant la démarche d’homologation.  
+Cette directive est applicable à partir de sa publication. Cette version annule et remplace la précédente 
+édition (version n°2 du 19 novembre 2019). 
+ Niveaux de préconisation 
+Les règles définies dans ce document ont différents niveaux de préconisation et sont conformes au 
+[RGI] et à la [RFC 2119]5 : 
+ 
+OBLIGATOIRE 
+Ce niveau de préconisation signifie que la règle édictée indique une exigence 
+absolue de la directive. 
+RECOMMANDÉ  Ce niveau de préconisation signifie qu’il peut exister des raisons valables, 
+dans des circonstances particulières, pour ignorer la règle édictée, mais les 
+conséquences doivent être comprises et pesées soigneusement avant de 
+choisir une voie différente. 
+CONSEILLÉ 
+Ce niveau de préconisation signifie que la règle édictée est une bonne 
+pratique de SSI. Il n’est pas nécessaire d’instruire une dérogation lorsqu’elle 
+n’est pas respectée. 
+DÉCONSEILLÉ 
+Ce niveau de préconisation signifie que la règle édictée indique une 
+prohibition qu’il est toutefois possible, dans des circonstances particulières, 
+de ne pas suivre, mais les conséquences doivent être comprises et le cas 
+soigneusement pesé. 
+INTERDIT 
+Ce niveau de préconisation signifie que la règle édictée indique une 
+prohibition absolue de la directive. 
+ Gestion des dérogations aux règles de la directive 
+Les dérogations à des règles de niveau OBLIGATOIRE ou INTERDIT sont du ressort de l’AQSSI. Le 
+FSSI et la DGNUM en sont tenus informés. 
+Les dérogations à des règles de niveau RECOMMANDÉ ou DÉCONSEILLÉ sont du ressort de l’AH. 
+L’AQSSI en est tenue informée. 
+Les dérogations octroyées sont à lister et à insérer dans le dossier d’homologation. 
+ 
+ 
+                                               
+4 https://synoptic.intradef.gouv.fr/securite-numerique/guide-ndeg7-portant-sur-lintegration-de-la-securite-
+numerique-dans-le-cycle-de 
+5 https ://www.ietf.org/rfc/rfc2119.txt – keys words for use in RFCs to indicate requirement levels.

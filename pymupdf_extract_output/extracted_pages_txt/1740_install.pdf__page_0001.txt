@@ -1,0 +1,72 @@
+Source file: 1740_install.pdf
+Relative path: 1740_install.pdf
+Page: 1 / 2
+
+================================================================================
+
+1740 Series
+Coaxial Surge Protector
+INSTALLATION INSTRUCTIONS
+Speciﬁ cations are subject to change without notice.
+The device characteristics and parameters in this data sheet can and do vary in different applications and actual device performance may vary over time.
+Users should verify actual device performance in their speciﬁ c applications.
+Bourns® Model 1740-15 (150V), 1740-23 (230V) and 1740-35 
+(350V) provide surge protection for coax cable.
+The protector may be installed indoors or outdoors, without or 
+within a compatible UL Listed enclosure. If located outdoors, 
+the protector should be oriented so the F connectors face down. 
+Rubber ‘boots’ or weatherproof male connectors should be used. 
+Video equipment protection will be improved if the protector is 
+installed close to the main electrical service panel (where the 
+power neutral is grounded). 
+The protector must be installed on the output side (video equip-
+ment side) of any Network Interface Device (NID) provided and 
+installed by the cable company (generally at the service entry 
+point of the cable into the building). This NID is used only when 
+network-powered broadband voice/data/video services are deliv-
+ered to the subscriber. This NID does not refer to the simple box 
+wherein the provider’s cable ends and the building cable takes 
+over, nor does it refer to a cable modem connecting a PC to an 
+unpowered CATV network.
+The protector can be secured to the mounting surface (wall, 
+joist, stud, etc.) employing the #10 AWG (5 mm) self-tapping 
+screw supplied with the protector.
+The protector is symmetric and bidirectional, so either end may 
+be used for connection to the input and output cables. The con-
+necting cables should be 75 ohm impedance with solid center 
+conductors, and with Type F male connectors.
+General
+Where to Install
+How to Install
+If the protector is installed further than approximately 30 feet 
+(10 m) from the cable service entry point, the overall protection 
+level to the video equipment can be improved if the cable shield 
+is grounded at the cable service entry. Refer to NEC 820-33 for 
+grounding of the shield basically, the grounding conductor should 
+be insulated copper wire, #14 AWG or larger, and should connect 
+to the electrical service grounding electrode system (a grounded 
+interior metal water pipe, building steel, electrical service 
+equipment enclosure, ground wire, or ground bar).
+The cable on the service side of the protector should be RG-
+59B/U or RG-59/U with a center conductor size of #22 or #23 
+AWG  with a diameter of .025 inches (.065 mm) or smaller. (Note 
+that RG-59/U is available with a range of center diameters from 
+#20 to #23). If the protector is installed at the service entry point, 
+then the restriction on center conductor size would apply to the 
+service provider’s cable drop.  Note: Most recent and new cable 
+service drops utilize RG-6/U which has a larger center diameter.   
+If the protector is located further downstream, then the restriction 
+on size can apply either to the cable drop or to the cable between 
+the service entry point and the protector. To ensure the proper 
+failsafe coordination with the protector, if the upstream center 
+conductor diameter(s) are larger than this, a 12 inch (300 mm) 
+or longer stub of RG-59B/U, or RG-59/U with a #22 or #23 sized 
+center conductor should be added in line, on the service side of 
+the protector.  
+The cable from the protector to the video equipment can be any 
+75 ohm cable of any center diameter (RG-59/U, RG-59B/U, 
+RG-6/U, or RG11/U).
+IMPORTANT: The Protector(s) described in this Installation 
+Instruction shall be installed in accordance to the applicable 
+requirements described in the National Electric Code, ANSIINFP 
+A 70, Article 800, Section C.

@@ -1,0 +1,48 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 39 / 108
+
+================================================================================
+
+39
+POLE D'EXCELLENCE CYBER
+Le cadre juridique actuel permet aux collectivités, sous certaines conditions et en fonction de leur statut (Régions, communes, EPCI, 
+EPL, etc.), d’externaliser (de confier à un tiers-archiveur) ou de mutualiser leurs archives électroniques. Voici donc quelques solutions 
+de base d’archivage électronique possibles pour une collectivité  :
+• Mettre en œuvre un système d’archivage électronique (SAE) associant des outils et des procédures pour la bonne gestion des 
+archives courantes, intermédiaires et/ou définitives. Un outil de SAE est conçu pour veiller à l’évolution des formats et garantit l’intégrité 
+et l’authenticité des documents. Une fois versé dans le SAE, le document devient non modifiable, ce qui certifie son authenticité1 .
+• Déposer, par convention, les archives auprès des structures tierces. Par exemple, les communes, les EPCI, les Régions et EPL peuvent 
+déposer leurs archives auprès du service d’archives départemental compétent2 . Le dépôt est obligatoire pour les communes de 
+moins de 2000 habitants.
+• Mutualiser la gestion des archives intermédiaires  des personnes publiques (la loi 3DS, le décret n°2022-1305). La mutualisation 
+peut donner lieu à la mise en commun d’infrastructures, de personnel ou de moyens matériels, logistiques ou financiers ainsi que de 
+connaissances ou de savoir-faire. Chaque partie à la mutualisation demeure responsable de ses données3 . Pour les archives définitives, 
+la mutualisation n’est possible que si au moins l’une des personnes publiques dispose d’un service public d’archives.
+• Externaliser la conservation de ses archives électroniques courantes et intermédiaires à l’aide d’un tiers-archiveur agréé4 . Dans ce 
+cas, la collectivité doit retenir une autre solution pour la conservation de ses archives électroniques définitives, car cette modalité est 
+exclue pour ces archives.
+Quelle que soit la solution retenue par la collectivité, un Contrôle Scientifique et Technique (CST) sur ses archives publiques sera assuré 
+par un représentant de l’État, qui validera ou invalidera alors la solution choisie. Enfin, il est important de noter que le statut de l’archive 
+(courante, intérmediaire, définitive) et sa nature (numérique, papier) ont des conséquences sur le régime juridique de la conservation 
+des documents et données concernés et, plus avant, sur les modalités relatives à l’externalisation de la conservation des archives en 
+cause5 .
+En complément, les collectivités peuvent s'appuyer sur le programme Vitam qui est une solution logicielle libre d'archivage électronique 
+porté par les ministères de la Culture, des Armées et de l’Europe et des Affaires Étrangères6 .
+Réglementation, normalisation et certification
+Le choix de la solution d’archivage électronique doit prendre en compte les réglementations (RGPD, eiDas, etc.), les normes et 
+les certifications en vigueur  R6  :
+• La norme française NF Z 42-013 (équivalent international de l’ISO 14641) sur le système d’archivage électronique (SAE) fixent le 
+cadre à mettre en œuvre pour l'enregistrement, l'archivage et la communication de documents numériques afin d'assurer la lisibilité, 
+l'intégrité et la traçabilité de ces documents pendant la durée de leur conservation et de leur utilisation.
+• La norme NF Z 42-020 défini les fonctions minimales que doit posséder un composant coffre-fort numérique (CCFN) piloté par 
+un système d'archivage électronique et destiné à la conservation d'objets numériques dans des conditions de nature à en garantir 
+leur intégrité dans le temps. En effet, un SAE peut intégrer nativement les fonctions de préservation de l'intégrité ou s'appuyer sur un 
+CCFN conforme à cette norme.
+1 https://www.lagazettedescommunes.com/836531/les-archives-negocient-le-virage-du-numerique-sur-et-qui-dure/?abo=1
+2 https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006195557
+3 https://www.lagazettedescommunes.com/830006/mutualisation-de-la-gestion-des-archives-le-decret-est-paru/
+4 Prestataires agréés pour la conservation d’archives publiques courantes et intermédiaires sur support numérique : https://certificats-
+attestations.afnor.org/referentiel/NF461 
+5 https://www.lagazettedescommunes.com/840004/le-point-sur-lexternalisation-de-la-conservation-des-archives-publiques/?abo=1
+6 https://www.programmevitam.fr/

@@ -1,0 +1,78 @@
+Source file: bem-48.pdf
+Relative path: bem-48.pdf
+Page: 46 / 88
+
+================================================================================
+
+Ingénieur sous contrat Arnaud Delloye – La synergie terre/mer a
+un impact assez immédiat. Elle va structurer le type de la solution, plu-
+tôt orientée vers ce qu’on appelle les VTOL (2), les drones-hélicoptères,
+pour une raison simple : la contrainte qui pèse sur les espaces disponibles
+sur les bâtiments qu’il faut réserver au décollage et à l’appontage. Clai-
+rement, le décollage et l’appontage restent des points durs et il faut dis-
+poser d’une solution qui soit sûre. Comme nous l’avons vu, nous visons
+des solutions relativement importantes : entre 750 kg et deux tonnes.
+Pourquoi autant ? C’est lié au double capteur. La charge utile, dans la
+gamme 100 à 150 kg, structure la taille du vecteur. Ensuite, il faut une
+solution sûre, avec un pourcentage de réussite très élevé, car il ne sera
+pas acceptable de perdre des systèmes de drones régulièrement. 
+Le deuxième aspect, qui est un défi technique, concerne les conditions
+de mer. Elles sont, par nature, difficiles à prévoir . On devra pouvoir faire
+apponter le drone par mer formée : on vise jusqu’à mer 5.  
+Monsieur Annet Sauty de Chalon – Et vous êtes en mesure de le
+faire aujourd’hui?
+Ingénieur sous contrat Arnaud Delloye – Clairement, cette tech-
+nologie du décollage et de l’appontage constitue aujourd’hui un point
+dur qui nous sépare de la mise à disposition sur les navires. Or, nous en
+avons besoin. Comme cela a été évoqué tout à l’heure, nous avons lancé
+une étude afin d’effectuer un développement préliminaire et mettre au
+point un démonstrateur qui permettra de vérifier que cela fonctionne.
+Monsieur Annet Sauty de Chalon – À quelle échéance ?
+Ingénieur sous contrat Arnaud Delloye – Les échéances corres-
+pondent à deux niveaux de démonstrations. Les démonstrations inter-
+médiaires sont prévues fin 2010 et les démonstrations finales fin 2011. 
+Monsieur Annet Sauty de Chalon – Par mer 5, donc?
+Ingénieur sous contrat Arnaud Delloye – Les démonstrations
+seront effectuées avec les conditions de mer les plus proches de ce
+niveau.
+Monsieur Annet Sauty de Chalon – Mais d’ici à fin 2011? C’est
+quand même la clef du test!
+Ingénieur sous contrat Arnaud Delloye – Ces démonstrations
+seront complétées dans l’ensemble du domaine de vol par des simula-
+tions. À l’issue du marché, nous serons donc capables de démontrer que,
+sur l’ensemble du domaine de vol, la solution peut satisfaire le besoin
+jusqu’à mer 5. 
+Monsieur Annet Sauty de Chalon – Pouvez-vous nous expliquer quel
+est le saut technique nécessaire pour faire décoller et apponter un drone dans
+de bonnes conditions par mer formée? Y a-t-il un point technique décisif?
+Ingénieur sous contrat Arnaud Delloye – Il faut, clairement, maî-
+triser deux grands aspects. Le premier est la prédiction, c’est-à-dire qu’il
+faut être capable de savoir comment va se comporter la plate-forme.
+C’est ce que font les pilotes d’hélicoptères : ils s’approchent de la plate-
+forme et, avant d’apponter, cherchent à intégrer comment se déplace la
+plate-forme. Le deuxième aspect est la trajectoire du drone pour rejoin-
+dre cette position future de la plate-forme. 
+Monsieur Annet Sauty de Chalon – Et quelle est la différence entre
+le cerveau du pilote d’hélicoptère et le cerveau du pilote déporté ?   
+Ingénieur sous contrat Arnaud Delloye – Soyons très clairs : il
+s’agit d’un drone, il n’est donc pas piloté ! En fait, c’est un calculateur
+qui va gérer cela. Sur le navire, l’opérateur acquittera simplement les dif-
+férentes étapes de l’appontage ; en aucun cas il n’interviendra sur les
+commandes de la machine. 
+Monsieur Annet Sauty de Chalon – Y a-t-il une part d’erreur
+humaine possible qui pourrait mener à des accidents?
+Ingénieur sous contrat Arnaud Delloye – Non. Le travail humain
+est limité à un travail d’acquittement. Si, à un moment donné, le com-
+mandement décide de reporter l’appontage, il demandera au drone de
+s’écarter pour autoriser d’autres manœuvres et réaliser l’appontage
+ensuite. Toutes les interventions sur les commandes de vol sont gérées
+entièrement par le système.
+Monsieur Annet Sauty de Chalon – Hormis cette question de l’ap-
+pontage sur laquelle sont concentrés tous vos efforts aujourd’hui, y a-t-il des
+aspects techniques déterminants pour le drone aérien dans l’espace mari-
+time?
+Ingénieur sous contrat Arnaud Delloye – Nous avons évoqué la
+charge utile. Nous menons des études complémentaires sur les radars
+afin de “droniser” un radar de patrouille maritime. Et, naturellement,
+– 45 –
+Lancement du SDTI

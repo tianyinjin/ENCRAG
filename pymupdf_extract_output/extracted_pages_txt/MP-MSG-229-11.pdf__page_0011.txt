@@ -1,0 +1,35 @@
+Source file: MP-MSG-229-11.pdf
+Relative path: MP-MSG-229-11.pdf
+Page: 11 / 14
+
+================================================================================
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 11 
+ 
+ 
+3) Observation Processing: This function processes the observation only if the target is within the 
+agent’s observation range Ro. process_observation(p) = {True if target within observation range 
+Ro, False otherwise} 
+4) Energy Feasibility Check for Targeting a Position: This determines if the agent has enough energy to 
+move to the next position or process the next observation. Can_move_to_next_position = {True if Ec 
+- Ed ≥ Ef, False otherwise} 
+Thus, the MUM-T systems relies on AI-based algorithm to enable efficient coordination, decision-making, 
+and resource management across both manned and unmanned agents. AI-driven autonomous decision-
+making ensures that agents adapt to dynamic mission environments, making real-time decisions based on 
+energy levels, target proximity, and mission goals in addition to remain human in control as it allows the 
+human to accept or reject the recommendation. Fig. 5 demonstrate the general architecture of the systems 
+which is composed of our MUM-T agents, Unreal, Cesium, and JCS-Controller which is the module where 
+our capability and tasking module implements and communicates to the Mission Viewer. 
+ 
+Figure 5: MUM-T System Architecture. 
+3.2 
+Orchestrator HMI 
+Once the algorithm is implemented, the asset present in the unreal engine simulator, a C2 platform is created 
+to display the tactical situation. The position of our blue forces and the position of the detected red enemy is 
+displayed on the C2 platform. The C2 platform receives the dynamic data from the simulator but also the 
+capabilities extracted from each agent in Figure 6. The recommendation displayed as “Accept “ or “Reject “ 
+which enabled human control and decision-making support, while capabilities used for this recommendation. 
+This enables the human to have explainability and transparency toward the tasking recommendation.

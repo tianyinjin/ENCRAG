@@ -1,0 +1,109 @@
+Source file: RCAM.pdf
+Relative path: RCAM.pdf
+Page: 154 / 170
+
+================================================================================
+
+154 
+Règlementation de la Circulation Aérienne Militaire  
+Appendice 4 
+Règles et services de la CAM 
+ 
+12 juin 2020 
+ 
+SPÉCIFICATIONS DE QUALITÉ DES DONNÉES AÉRONAUTIQUES 
+Tableau 1.   Latitude et longitude 
+ 
+Tableau 2.   Altitude topographique/altitude/hauteur 
+Latitude et longitude 
+Précision 
+Type de données 
+Intégrité 
+Classification 
+Points de limite de région d’information de vol… 
+2 km (1 NM) 
+déclarées 
+ordinaires 
+Points de limite de zone interdite, réglementée ou 
+dangereuse (hors région/zone de contrôle)…. 
+2 km (1 NM) 
+déclarées 
+ordinaires 
+Points de limite de zone interdite, réglementée ou 
+dangereuse (dans région/zone de contrôle)…. 
+100 m 
+calculées 
+essentielles 
+Points de limite de région/zone de contrôle…….. 
+100 m 
+calculées 
+essentielles 
+Aides de navigation et repères en route, points 
+d’attente, points STAR/SID………………… 
+100 m 
+mesurées/calculées 
+essentielles 
+Obstacles dans la zone 1 (ensemble du territoire 
+national)…………………………………… 
+ 
+50 m 
+mesurées 
+ordinaires 
+Obstacles dans la zone 2 (partie à l’extérieur des 
+limites de l’aérodrome/hélistation)………….. 
+5 m 
+mesurées 
+essentielles 
+Points/repères d’approche finale et autres 
+points/repères essentiels utilisés dans des 
+procédures d’approche aux instruments………… 
+3 m 
+mesurées/calculées 
+essentielles 
+Altitude/hauteur 
+Précision 
+Type de données 
+Intégrité 
+Classification 
+Hauteur de franchissement de seuil (hauteur du 
+point de repère), approches de précision …….. 
+0,5 m ou 1 ft 
+calculées 
+critiques 
+Altitude/hauteur de franchissement d’obstacles 
+(OCA/H)………………………………………… 
+conforme aux 
+spécifications des 
+PANS-OPS 
+(Doc 8168) 
+essentielles 
+Obstacles dans la zone 1 (ensemble du territoire 
+national)…………………………………… 
+30 m 
+mesurées 
+ordinaires 
+Obstacles dans la zone 2 (partie extérieur des 
+limites de l’aérodrome/hélistation) ……….. 
+3 m (10 ft) 
+mesurées 
+essentielles 
+Équipement de mesure de distance (DME)… 
+30 m (100 ft) 
+mesurées 
+essentielles 
+Altitudes de procédures d’approche aux 
+instruments………………………………
+ 
+ 
+conforme aux 
+spécifications des 
+PANS-OPS 
+(Doc 8168) 
+essentielles 
+Altitudes 
+minimales…………………
+ 
+ 
+50 m ou 100 ft 
+calculées 
+ordinaires

@@ -1,0 +1,109 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 69 / 88
+
+================================================================================
+
+69
+génératifs (RAG) parfois aussi appelés réseaux adverses 
+génératifs (generative adversarial networks ou GAN) sont 
+une classe d’algorithmes d’apprentissage non supervisé. 
+Ils permettent de générer des images avec un fort degré 
+de réalisme.
+Un GAN est un modèle génératif où deux réseaux de 
+neurones sont placés en compétition dans un scénario 
+de théorie des jeux. Le premier réseau est le générateur, 
+il génère un échantillon (par exemple une image), tandis 
+que son adversaire, le discriminateur essaie de détecter 
+si l’échantillon est réel ou s’il est le résultat du générateur. 
+Le générateur est entraîné avec comme but de tromper 
+le discriminateur. (Wikipedia)
+Réseau d’apprentissage profond
+L’apprentissage profond est un procédé d’apprentissage 
+automatique utilisant des réseaux de neurones possédant 
+plusieurs couches de neurones cachées. Ces algorithmes 
+possédant de très nombreux paramètres, ils demandent 
+un nombre très important de données afin d’être entraînés. 
+(CNIL)
+Sème
+Unité minimale de signification entrant, comme 
+composant, dans le sens d’une unité lexicale.
+•	
+Un mot contient un ou plusieurs sèmes.
+•	
+Le mot chaise et le mot fauteuil contiennent tous les
+deux le sème « où l’on s’assoit », mais seul fauteuil
+a celui « avec des bras ». 
+(Larousse et Wiktionnaire)
+Optimisation pour les moteurs de recherche ou Search 
+Engine Optimization (SEO)
+L’optimisation pour les moteurs de recherche, aussi 
+connue sous le nom de référencement naturel et sous 
+le sigle SEO, inclut l’ensemble des techniques qui visent 
+à améliorer le positionnement d’une page, d’un site ou 
+d’une application Web dans la page de résultats d’un 
+moteur de recherche.
+Ces techniques cherchent à améliorer la compréhension 
+et la prise en compte de la thématique et du contenu 
+d’une ou de l’ensemble des pages d’un site Web par 
+l’algorithme de classement des moteurs de recherche. 
+(Wikipédia)
+Spamming
+Envois en grand nombre de messages ou de courriers 
+électroniques non sollicités à des boîtes aux lettres 
+électroniques ou à des forums dans un but publicitaire, 
+commercial, d’hameçonnage ou de manipulation de 
+l’opinion. (D’après Larousse)
+Système autonome
+Un système autonome (autonomous system, AS) est un 
+ensemble de réseaux informatiques IP intégrés à l’Internet 
+et dont la politique de routage interne (routes à choisir 
+en priorité, filtrage des annonces) est harmonisée ou 
+organisée de façon logique.
+Un AS est généralement sous le contrôle d’une entité 
+ou organisation unique, typiquement un fournisseur 
+d’accès à l’Internet.
+Tatouage numérique
+Le tatouage numérique est une technique liée au 
+domaine de la stéganographie, un domaine proche 
+mais distinct de celui de la cryptographie. Comme pour 
+cette dernière, l’objectif est de transmettre de façon 
+sécurisée des informations. Cependant, alors que la 
+cryptographie consiste en une écriture indéchiffrable d’un 
+message ou d’une information (ainsi rendue secrète), la 
+stéganographie va plutôt s’attacher à cacher un message 
+dans un contenu pour qu’il soit, non pas indéchiffrable, 
+mais indiscernable. Le tatouage est un cas particulier à cet 
+égard, puisque l’objectif n’est pas toujours d’insérer une 
+marque indiscernable, mais plutôt qu’elle soit inséparable 
+de son support. L’information concernée peut être un 
+marquage sans signification, comme par exemple le 
+filigrane utilisé sur les photographies, ou bien un message 
+plus complexe. Il peut être directement visible à la vue 
+du document, ou invisible. (CNIL)
+Modélisation de thèmes incrémentale ou topic modeling 
+incrémental
+La modélisation de thèmes incrémentale (parfois appelée 
+modélisation de thèmes en ligne) permet de détecter 
+les thèmes abordés dans un corpus de texte, avec la 
+capacité d’apprendre de manière incrémentale à partir 
+d’un mini-lot d’instances. C’est un moyen de mettre à jour 
+votre modèle de thèmes avec des données sur lesquelles 
+il n’a pas été formé auparavant, identifier les nouveaux 
+sujets abordés par un corpus d’articles de recherche par 
+exemple. (Adapté d’une définition de M.Grootendorst)
+Transformeurs
+Un transformeur (ou modèle auto-attentif) est une 
+architecture d’apprentissage profond introduite en 2017. Il 
+est principalement utilisé dans le domaine du traitement 
+automatique des langues (TAL ou Natural Language 
+Processing NLP) en servant de base aux grands modèles 
+de langage, mais peut aussi servir à traiter d’autres 
+modalités comme les images, les vidéos ou le son, parfois 
+simultanément.
+À l’instar des réseaux de neurones récurrents (recurrent 
+neural network, RNN), les transformeurs sont conçus 
+pour gérer des données séquentielles, notamment pour 
+la traduction et la génération de texte. Cependant, 
+contrairement aux RNN, les transformeurs ne nécessitent 
+pas un traitement séquentiel des données. Ainsi, pour

@@ -1,0 +1,59 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 6 / 34
+
+================================================================================
+
+autonomous drones that do not rely on a control link, and ‘go dark’, i.e. stop broadcasting signals. ASUL’s 
+design incorporating a mix of sensors to compensate for each individual sensor’s limitations is an example of 
+attempting to overcome this problem at the platform level. However, platform-level limitations may still 
+exist, such as the ability to identify whether drones are friendly or hostile without an external validation 
+system with additional Identify-Friend-or-Foe (IFF) information. Moreover, handling of both false positives 
+(identifying non-drones as threats) and false negatives (failing to detect actual threats) may require decision-
+making capabilities beyond the operators and systems on this platform, within the short response window 
+typical for aerial threats, may require integration with Command, Control, Computers, Communications, 
+Intelligence & Technology (C4IT) systems available on base to ensure decision-makers are able to take the 
+best action based on the most complete set of available information. Since any CV tool would ultimately 
+form part of a broader defense system, it would be irrational to expect that any system component should 
+bear full responsibility for the ultimate outcome. Hence, the focus turns to selecting a suitable set of criteria 
+for performance of individual system components, which inevitably runs into the question of what ‘good 
+enough’ performance would entail. 
+Third, CV systems leveraging machine learning methods exhibit stochasticity in their outputs when deployed 
+in the real world because of the ways through which machine learning (ML) algorithms are generated, 
+involving stochasticity in data generation, modelling, and optimization. As noted by Sabuncu [12]: 
+“stochasticity features in many ML methods, affording them robustness, generalizability, and calibration”. 
+However, he also notes that, “the large degree of uncertainty means we have a strong distinction between the 
+data used to develop a model (often called training data) and the data used to objectively assess performance 
+(the validation and test datasets), sometimes under different conditions. Most ML models exhibit poorer 
+performance on independent data than on training data - a phenomenon called overfitting. Overfitting, or the 
+generalization gap (performance difference between training and test data), is one of the core challenges of 
+ML.” Burton and Herd (ibid.) asserts that uncertainty arising from attempting to assure such applications 
+“can thus manifest itself as a lack of knowledge of the difference between the estimated failure rate … and 
+the actual failure rate that occurs during operation. This “assurance gap” will typically need to be closed 
+based on a combination of quantitative (e.g., related to statistical confidence) and qualitative arguments (e.g., 
+based on the appropriateness of certain assumptions). [2]” Hence, the evaluation of CV systems should aim 
+not to provide a definitive and deterministic view of how they would perform in deployment, but rather 
+provide a sufficient confidence in having a stochastic outcome that would be acceptable given the level of 
+risk tolerated by their employers. The attendant methodology must thus consider having sufficient and 
+diverse test points to fulfil the requirements for such statistical confidence. 
+2.2 
+Limitations of Existing Methods 
+Existing evaluation methods for CV systems, particularly in critical applications like counter-drone 
+technology, present significant limitations. Current approaches primarily rely on two main categories: public 
+benchmarks and organization or project-centric evaluations. Each of these methods, while offering some 
+benefits, comes with inherent problems that hinder a comprehensive and trustworthy assessment framework. 
+Public benchmarks offer a transparent view of CV system performance across a standardized dataset but 
+have seen limited growth in adoption thus far. On the other hand, organization/project-centric evaluations 
+presumably generate higher impact for their sponsoring organizations but are rarely disclosed to other 
+ecosystem stakeholders outside the project or organization due to confidentiality or security considerations.  
+2.2.1 
+Approach and Limitations of Public Benchmarks 
+Public benchmarks attempt to provide a standardized platform for comparison across different algorithms 
+and models, often with the intention of furthering research and development in this space through convening 
+different research groups to optimise their algorithms along a similar baseline and dataset. Yifei Dong et al. 
+found in a seminal comprehensive literature review a wide-ranging overview of the benchmarking landscape 
+benchmarks with single and multi-modal datasets ranging across electro-optical red-green-blue (EO/RGB), 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 6
+STO-MP-IST-210

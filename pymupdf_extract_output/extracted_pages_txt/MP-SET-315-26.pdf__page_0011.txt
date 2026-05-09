@@ -1,0 +1,61 @@
+Source file: MP-SET-315-26.pdf
+Relative path: MP-SET-315-26.pdf
+Page: 11 / 12
+
+================================================================================
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+STO-MP-SET-315-26 
+11 
+ 
+ 
+The system’s architecture provides significant scope for scalability and adaptability responding to specific 
+logistics and threat profiles of protected areas. Ground sensor types, quantity, and spatial distribution can be 
+tailored according to user requirements, as can the number and payloads of the counter-UAVs.  
+One potential advancement could be the incorporation of an advanced visual and automatic threat level 
+assessment capability. This would provide operators with a comprehensive understanding of imminent 
+threats, reducing the risk for subjective errors whilst accelerating response time.  
+Strengthened by its resilience against evolving threats, adaptability to requirements, and the integration of 
+leading-edge AI technologies, our system addresses a critical gap in unmanned aerial security. By refining 
+and incorporating the system into existing infrastructure, we aim to safeguard restricted areas whilst 
+mitigating the associated risks of unmanageable drone technology.  
+In line with NATO’s vision toward reinforced security measures against drone threats, this research and 
+system development, undertaken in collaboration with subject matter experts, marks a significant advance in 
+counter-UAV technologies for real-flight operations. The envisaged future improvements and applications 
+promise new impetus for technology transfer and further research within the NATO S&T community. 
+8.0 ACKNOWLEDGEMENTS 
+This work was supported by the Canadian Safety and Security Program, which is led by Defence Research and 
+Development Canada’s Centre for Security Science (DRDC CSS), in partnership with Public Safety Canada. 
+The Canadian Safety and Security Program is a federally funded program to strengthen Canada’s ability to 
+anticipate, prevent/mitigate, prepare for, respond to, and recover from natural disasters, serious accidents, crime 
+and terrorism through the convergence of science and technology with policy, operations and intelligence. 
+The team also wants to acknowledge the contribution of the ThereSIS laboratory, a Thales entity providing 
+the SE-Star simulator, as well as LAS Thales Business Unit involved in the C-UAV domain for sharing their 
+domain expertise and knowledge pertaining to net capture, making our simulated neutralization realistic. 
+Last, the team would like to thank the Royal Canadian Mounted Police (RCMP) for its help and review on 
+the definition of the use cases and the red team behavior models. 
+9.0 REFERENCES 
+[1] H. Kang, J. Joung, J. Kim, J. Kang and Y. S. Cho, “Protect Your Sky: A Survey of Counter Unmanned 
+Aerial 
+Vehicle 
+Systems,” 
+in 
+IEEE 
+Access, 
+vol. 
+8, 
+pp. 
+168671-168710, 
+2020, 
+doi: 
+10.1109/ACCESS.2020.3023473. 
+[2] Michel, A. H. (2018). Counter-drone systems. Center for the Study of the Drone at Bard College.  
+[3] M. Germen, “Alternative cityscape visualisation: Drone shooting as a new dimension in urban 
+photography”, Proc. Electron. Vis. Arts, pp. 150-157, Jul. 2016. 
+[4] E. Kaufmann, M. Gehrig, P. Foehn, R. Ranftl, A. Dosovitskiy, V. Koltun, et al., “Beauty and the beast: 
+Optimal methods meet learning for drone racing”, Proc. Int. Conf. Robot. Automat. (ICRA), pp. 690-
+696, May 2019. 
+[5] E. Kaufmann, A. Loquercio, R. Ranftl, A. Dosovitskiy, V. Koltun and D. Scaramuzza, “Deep drone 
+racing: Learning agile flight in dynamic environments”, Proc. Conf. Robot. Learn. (CoRL), pp. 133-
+145, Oct. 2018.

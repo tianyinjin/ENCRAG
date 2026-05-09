@@ -1,0 +1,57 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 2 / 34
+
+================================================================================
+
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+made significant advancements from the increasing adoption of techniques in artificial intelligence (AI) 
+including machine learning, deep learning, and pattern recognition. Accordingly, CV systems have also seen 
+widespread use in defense applications and systems, augmenting human operators in processing and 
+analyzing data from a wide variety of imaging sensors for target detection, classification, tracking, and 
+prosecution. Applied to the counter-drone defense mission, CV systems can be useful in (a) extending 
+operators’ ability to perceive small-sized drones beyond relying on human sight, (b) ease classification, 
+tracking and prosecution tasks through computer automation and therefore handle more challenging targets, 
+(c) compensate for the other counter-drone sensors’ limitations and enhance system redundancy, at the
+expense of increased computational requirements and system complexity. In this paper, the term 'drone'
+refers to a flying vehicle without a pilot and should be understood as interchangeable with ‘unmanned aerial
+vehicle’ (UAV). The counter-drone mission specifically focuses on detecting, classifying, tracking, and
+targeting these drones/UAVs, excluding their ground control systems, pilots and support crew and their
+equipment, and other unmanned aerial system (UAS) components.
+2.0 RATIONALE 
+The rapid proliferation of drones across the inventories of potential adversaries, spurred by advances in 
+commercial and recreational applications but adapted for military uses, has concurrently given rise to a 
+critical challenge: the need for effective counter-drone measures. This escalating drone adoption has spurred 
+the development of numerous solutions aimed at detecting, tracking, and neutralizing unauthorized or hostile 
+drones. However, the sheer variety and complexity of these emerging technologies present significant 
+hurdles for decision-makers tasked with their deployment. The process of selecting the most appropriate 
+counter-drone systems for their specific missions involves a deep understanding of each system's 
+capabilities, limitations, and operational requirements. Beyond selection, there is also a need to comprehend 
+how best to integrate and employ these tools within existing security frameworks, which necessitates 
+detailed planning for system placement, operational protocols, and personnel training to maximize 
+effectiveness. 
+Crucially, decision-makers must also anticipate and understand the circumstances under which their chosen 
+systems might perform sub-optimally or even fail entirely. Simon Burton and Benjamin Herd from the 
+Fraunhofer Institute for Cognitive Systems in Germany note that “the role of safety assurance can be seen as 
+striving to facilitate decisions of type II wherever type I is not possible, whilst avoiding type III decisions” 
+[2], in reference to Knight’s “three types of decisions: decisions under certainty (type I) where the 
+consequences of all options are known; decisions under risk (type II) where possible futures are known, 
+probability distributions are known, and statistical analysis is possible; and decisions under uncertainty (type 
+III) where the future states are known but the probabilities are unknown” [8]. For decision-makers in defense
+and security, these activities of safety assurance are also relevant to objectives outside of system safety, such
+as the ability to complete the assigned mission, and mitigating the impact on manpower and materiel in
+operations should complications arise; recognizing these potential shortcomings is vital for designing
+redundancy in mission-critical systems, and robust contingency plans. These workarounds might involve the
+deployment of alternative tools, such as different sensor types or kinetic countermeasures, or the devising of
+innovative operational strategies that leverage human intervention or other available resources to compensate
+for system limitations.
+Any proposed counter-drone solution, whether a standalone system or a combination of technologies and 
+operational procedures, must undergo a comprehensive assessment of its associated costs and risks. This 
+includes not only financial and manpower investments in procurement, maintenance and operations, but also 
+the potential for collateral damage, legal implications, and public perception. The objective is to arrive at a 
+suitable outcome that effectively mitigates drone-related threats while ensuring overall mission success. 
+Therefore, there is a clear imperative to establish a performance measure for these counter-drone systems, 
+especially for stochastic elements within them such as CV or other AI models. This performance 
+1A.03 - 2
+STO-MP-IST-210

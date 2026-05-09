@@ -1,0 +1,100 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 12 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+22 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 23
+B.1.2.2.2 _Composants électroniques
+Comme la cryptographie à laquelle ils sont souvent associés, les composants de 
+sécurité constituent une brique de base indispensable. 
+Il convient de bien comprendre et savoir évaluer les fonctions de sécurité intrin-
+sèques des composants sur étagères. Il est aussi important de pouvoir disposer 
+de capacités de réalisation de composants spécifiques. 
+L’existence de catalogues d’IP sécurisées ou apportant des services de sécurité 
+est dans ce cadre une voie intéressante.
+B.1.2.2.3 _Informatique de confiance
+Indépendamment des initiatives mondiales comme le Trusted Computer Group 
+(TCG) qui peuvent poser des problèmes de maîtrise ou de gestion de la vie privée, 
+il existe un besoin réel de pouvoir garantir des transactions sûres, assurer la 
+gestion de droits pour la diffusion de produits numériques, et globalement 
+protéger les systèmes informatiques contre les agressions et les utilisations 
+frauduleuses. Les techniques faisant intervenir un tiers de confiance, les DRM, 
+la stéganographie (watermarking…) ou la blockchain font partie des éléments 
+utilisables pour répondre à ce besoin.
+La confiance est aussi nécessaire dans les outils de développement et de pro-
+duction du logiciel afin de garantir que le produit final est bien à l’image du code 
+source fourni en entrée. La maîtrise des outils de développement est dans ce 
+cadre un autre axe d’intérêt. 
+B.1.2.2.4 _Logiciel sécurisé
+ B.1.2.2.4.1 _Multi-niveaux
+Le multi niveau est un besoin prégnant dans le domaine de la défense où 
+coexistent des niveaux de classification et de sensibilité très divers. Il existe 
+aussi au sein des entreprises dans lesquelles il est possible de trouver conjoin-
+tement des informations ouvertes, des informations confidentielles liées aux 
+personnels, des informations financières, stratégiques, relevant du secret in-
+dustriel… Il apparaît également cohérent de vouloir séparer des réseaux de 
+type bureautique de réseaux de type industriels, ou des systèmes acces-
+sibles par des clients de systèmes internes à l’entreprise.
+Le besoin de multi-niveaux peut s’exprimer suivant plusieurs modalités :
+• Interconnecter des réseaux et systèmes de niveaux différents en permettant 
+des échanges selon une politique de sécurité définie (par exemple connecter 
+un réseau contenant des informations sensibles et des informations ouvertes 
+à l’Internet pour échanger de l’information non sensible) ;
+• Mettre à disposition sur un serveur, une base de données… des informations 
+de différents niveaux de sensibilité et permettre à des utilisateurs d’y accéder 
+selon des droits d’accès qui leurs sont propres ;
+• Permettre à un utilisateur d’accéder depuis le même poste de travail à 
+des environnements de niveaux de sensibilité différents.
+Tous ces sujets ont été étudiés depuis longtemps et des produits commer-
+ciaux ont même été mis sur le marché. Leur diffusion a jusque-là toujours 
+été freinée, à la fois par une difficulté d’exploitation certaine, mais aussi par 
+l’incapacité d’arriver à concilier un niveau de sécurité en adéquation avec 
+un niveau fonctionnel acceptable pour les utilisateurs. Il existe donc dans 
+ce domaine un vaste champ de recherche et de réalisations de produits.
+Les produits de type DLP (Data Leak/Loss Prevention) peuvent être ratta-
+chés à cette catégorie car ils utilisent sensiblement les mêmes concepts : 
+identification de l’information sensible, contrôle des flux selon le niveau 
+de sensibilité.
+ B.1.2.2.4.2 _OS sécurisé
+Les systèmes industriels souverains déploient des solutions intégrant des 
+OS sécurisés reposant sur des noyaux de tailles limitées pour en faciliter 
+leurs évaluations et en permettre leur maitrise. 
+Les systèmes informatiques grand public utilisent en revanche des sys-
+tèmes d’exploitation qui sont, non maîtrisés pour les OS propriétaires, 
+et difficiles à maîtriser pour les systèmes ouverts, à cause de leur taille 
+et de leur complexité. S’il parait aujourd’hui illusoire de vouloir dévelop-
+per un OS de type Windows ou iOS entièrement maîtrisé, la recherche 
+de solutions à base de virtualisation, par exemple, peut permettre de 
+reporter une partie du problème sur un logiciel de plus petite taille sus-
+ceptible d’être maîtrisé. Toutes les techniques de cloisonnement, de bac 
+à sable (sand boxing), d’hyperviseurs, etc sont donc d’un intérêt certain. 
+Elles sont notamment mises en œuvre pour bâtir des architectures mul-
+ti-niveaux, chaque niveau de sécurité fonctionnant dans une « cage » 
+étanche, sauf pour des échanges plus critiques qui passent alors par l’hy-
+perviseur.
+L’application de ces techniques peut concerner le monde bureautique 
+au sens large mais aussi les systèmes embarqués, les terminaux mobiles 
+et les objets connectés. Sans maîtrise des OS, il est en effet difficile de 
+prétendre à une maîtrise des produits qui les utilisent.
+En complément, il est nécessaire d’acquérir une bonne compréhension 
+du fonctionnement de ces différents OS afin de pouvoir les configurer 
+de la manière la plus sûre possible en fonction des besoins applicatifs. 
+Ceci peut se concrétiser par la publication de guides de sécurisation ou 
+bien par la réalisation d’outils de vérification ou de configuration auto-
+matiques.
+ B.1.2.2.4.3 _Protection contre la rétro-conception
+La protection contre la rétro-conception est une étape indispensable 
+pour la protection de droits (des licences d’utilisation, par exemple) mais 
+aussi pour la protection de savoir-faire industriels. Il est nécessaire de dis-
+poser de méthodes et d’outils facilement utilisables pour qu’ils soient mis 
+en œuvre par les industriels dans le but de mieux protéger leurs produits. 
+Ils doivent pouvoir s’adapter aux différents langages de programmation 
+aux différents environnements d’exécution et s’insérer dans les processus 
+de développement. Les techniques peuvent être purement logicielles 
+ou faire appel à des éléments matériels. Il reste un vaste champ de re-
+cherche tant pour les techniques de protection (obfuscation de code, par 
+exemple) que pour les outils qui les mettent en œuvre.

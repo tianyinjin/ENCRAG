@@ -1,0 +1,736 @@
+Source file: MP-MSG-229-11.pdf
+Relative path: MP-MSG-229-11.pdf
+Page count: 14
+Extracted pages: 14
+
+================================================================================
+
+[Page 1 / 14 | chars: 2610]
+--------------------------------------------------------------------------------
+
+STO-MP-MSG-229 
+11 - 1 
+ 
+  
+ 
+ 
+Orchestrating Manned-Unmanned Missions Using AI-Based  
+Tasking System Across Multi-Domain Operations in M&S 
+Tanya S. Paul 
+Thales, cortAIx Labs 
+1 avenue Augustin Fresnel, 91767 Palaiseau cedex 
+FRANCE 
+tanya.paul@thalesgroup.com  
+Nicolas Duclos-Hindie 
+Thales, cortAIx Labs 
+1405 boulevard du Parc-Technologique, Quebec, Qc G1P 4P5 Canada  
+CANADA  
+nicolas.duclos-hindie@thalesgroup.com  
+Daniel Lafond 
+Thales, cortAIx Labs 
+1405 boulevard du Parc-Technologique, Quebec, Qc G1P 4P5 Canada  
+CANADA  
+daniel.lafond@thalesgroup.com  
+ABSTRACT  
+The growing incorporation of unmanned systems (UAVs, UGVs, USVs, UUVs) within all domains is 
+reshaping military operations, from planning to mission execution. NATO regularly demonstrates interest in 
+training exercises such as REPMUS (Robotic Experimentation and Prototyping with Maritime Unmanned 
+Systems), where the synchronization of hybrid manned-unmanned teams is critical. STAR (Sharing Tasks 
+with Autonomous Resources) is an AI-driven tasking tool designed to share mission tasks across manned and 
+unmanned systems, supporting planning, tasking, orchestration, and execution of coordinated multi-domain 
+operations. STAR integrates multi-modal data, performs capability reckoning (assess capacity for 
+autonomous and human agents), and delivers AI-based tasking suggestions to Command and Control (C2) 
+systems with human oversight. Through modelling & simulation (M&S) environments like Unreal Engine, 
+Cesium 3D geospatial modeling, and JSBSim flight dynamics, STAR enables high-fidelity mission execution 
+including representative manned and unmanned vehicles with their appropriate assets and AI-based 
+capabilities in realistic scenarios such as underwater protection, air-sea-ground combat, or search and 
+rescue. STAR enables Man-Machine Interaction while allowing C2 operators to validate or override the 
+tasking recommendation. Achieving tasking accuracy up to 89% using machine learning models, STAR 
+shows promise to improve mission readiness and enhance coordination, interoperability, and 
+synchronization of effects across joint multi-domain operations. 
+1.0 INTRODUCTION 
+As unmanned systems play an increasingly prominent role in multi-domain operations, new challenges arise 
+in testing and training force readiness. These systems are reshaping warfare, prompting a need to redefine 
+roles, responsibilities, interdependencies, and trust within military operations. NATO has prioritized adapting 
+to these technological advances without fundamentally altering its operational doctrines. As unmanned
+
+[Page 2 / 14 | chars: 4901]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 2 
+STO-MP-MSG-229 
+ 
+ 
+systems increasingly shape modern warfare, NATO and its partners are working to adapt operational 
+strategies and enhance force readiness. Exercises like Dynamic Messenger 23 (DYMS23) and REPMUS 23 
+are critical in this effort, focusing on integrating Maritime Unmanned Systems (MUS) into complex, multi-
+domain operations. DYMS23, held in September 2023, brings together over 2,000 military and civilian 
+personnel from 16 NATO nations, along with partner Sweden. The exercise focuses on testing MUS 
+capabilities across various operational areas, including the protection of critical undersea infrastructure, naval 
+mine warfare, maritime security operations, and force protection against asymmetric threats [1]. It also 
+explores the interoperability of manned-unmanned systems in real-world scenarios, such as amphibious 
+operations and medical logistics. REPMUS 23, a precursor to DYMS23, serves as a platform for robotic 
+experimentation and prototyping, testing unmanned systems in Anti-Submarine Warfare (ASW), mine 
+countermeasures, and rapid environmental assessments [2]. Both exercises are designed to validate new 
+tactics, techniques, and procedures while refining Command and Control (C2) frameworks for unmanned 
+systems. Together, these exercises enhance operational readiness, interoperability, and the ability to adapt to 
+evolving technological landscapes, ensuring that NATO forces remain prepared for future challenges in 
+multi-domain operation. However, such exercises are resource-intensive and require complex coordination. 
+Modelling and Simulation (M&S) can address these challenges by reducing costs and improving efficiency, 
+enabling realistic mission demonstrations without the logistical burden of live exercises. This paper presents 
+ongoing work on a new AI-based test-bed that simulates NATO exercises, allowing both manned and 
+unmanned systems to co-train and collaborate in a simulated environment. The platform uses data from 
+sensors and situational awareness tools to assess team readiness, predict capabilities, and recommend 
+dynamic tasking, ultimately enhancing mission effectiveness in multi-domain operations. 
+1.1 
+Manned-Unmanned Teaming in Multi-Domain Operations 
+Manned-unmanned Teaming (MUM-T) refers to the coordinated operations of autonomous uncrewed 
+systems working along-side humans. It redefines team dynamics with new roles, authority, structures, 
+learning, coordination and task allocation processes. It allows multi-agent teams with different types of 
+capacities, knowledge and interdependence to be combined across domains, for diverse missions. MUM-T 
+can enhance teams’ capabilities, creating a force multiplier, minimizing cost of human risks and deployments 
+in operations, while enabling co-learning capabilities. In the following section we will discuss some of the 
+elements which make MUM-T challenging, and how AI and M&S can help address these.  
+1.1.1 
+Autonomous and Unmanned Agent  
+NIST defines autonomy in Unmanned Systems (UMS) as their ability to sense, perceive, analyze, 
+communicate, plan, make decisions, and execute tasks to achieve specific goals, often with little to no human 
+intervention. Autonomy is categorized by Human Independence (HI) and Contextual Autonomous 
+Capability (CAC), which takes into account the types of missions, environments, and the level of human 
+involvement allowed [3]. In practice, autonomous operations enable UMS to perform tasks assigned by 
+human operators or other systems, incorporating capabilities like navigation, targeting, and obstacle 
+avoidance. However, it is important to note that the idea of UMS fully replacing humans—either in 
+achieving the same mission outcomes or reducing casualties is overly simplistic. Unlike humans, UMS lack 
+the flexibility and adaptability needed in dynamic and unpredictable combat scenarios [3]. Broadly, 
+unmanned systems are defined as powered platforms without onboard operators, which rely on external 
+control units, computers, and communication systems to receive commands, gather data, and execute 
+missions [3]. Examples include unmanned ground (UGV), unmanned aerial (UAV), unmanned maritime 
+(UMV), unmanned underwater (UUV), unmanned water surface borne vehicles (USV), unattended 
+munitions (UM), and unattended ground sensors (UGS). These are increasingly becoming integral 
+components of various applications, from military operations to environmental monitoring. These systems 
+are typically equipped with a wide array of sophisticated autonomous capabilities, which allow them to 
+perform complex tasks such as target identification, detection, and tracking. A key technology that enables 
+these functions is computer vision, with algorithms such as YOLO (You Only Look Once) and
+
+[Page 3 / 14 | chars: 4152]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 3 
+ 
+ 
+Convolutional Neural Networks (CNNs) being widely used for real-time object recognition and scene 
+understanding. In addition to visual processing, these systems also rely on autonomous navigation, path 
+planning, and mission execution, often employing advanced techniques such as Deep Reinforcement 
+Learning (DRL) or optimization algorithms. These methods allow the systems to learn from dynamic 
+environments, make decisions in uncertain or unpredictable scenarios, and improve over time through 
+interaction with their surroundings. However, such capabilities demand vast amount of data for training and 
+validation, as well as significant computational resource to process and analyze data. To mitigate the 
+challenges of real-world testing and enhance team readiness, these systems are often initially trained and 
+evaluated in simulated environments. 
+1.1.2 
+Human Factors and Meaningful Control 
+Workload is a critical issue; operators managing multiple UAVs or unmanned systems often experience 
+performance degradation, particularly during communication-heavy tasks, with increased workload leading 
+to reduced trust in autonomous agents [4]-[5]. Trust, defined as confidence in an agent’s ability to support 
+goal achievement under uncertainty [6] is vital for collaboration. Lack of trust, driven by low transparency 
+and agent reliability, can increase stress and reduce mission effectiveness [7]. Overreliance or underuse of 
+autonomous systems may occur based on their perceived reliability, further impacting performance [8]-[9] 
+Human Factor studies are important as they explore how transparency, reliability, and task allocation impact 
+operator behavior and decision-making in HAT systems. As autonomous agent capabilities are becoming 
+more advanced and humanlike, the best method for humans and agents to effectively coordinate is still 
+unknown [10]. In order to overcome human factor challenges, some researches have tried modelling human 
+capabilities and cognition. However, many challenges come into play when we try to model humans [11]. 
+According to the Army Research Laboratory (ARL) there are the eleven gaps in human modelling: 1) 
+cognition, 2) decision science, 3) human physiology, 4) human psychology, 5) leadership, 6) morale, 7) 
+solider family, 8) solider resilience 9) stress, 10) unit as a complex dynamic, 11) unit cohesion. Thus, those 
+components are crucial elements to consider related to huma factors and understanding of human cognitive 
+capabilities when it comes of mission and performance. These factors are important to consider for force 
+readiness but also when designing intelligent systems for mission orchestration. We are particularly 
+interested in decision-making more specifically military decision-making process in the multi-domain 
+operating environment [13]. Based on [13] the Military Decision-Making Process (MDMP) consists of 
+several key phases, each contributing to the formulation and execution of an effective operational plan (see 
+Figure 1). The MDMP begins with the receipt of mission, where the commander receives tasks and provides 
+initial guidance on time and resources. During mission analysis, the commander synthesizes guidance, 
+higher-level orders, and available information to develop a problem statement, mission statement, and initial 
+intent, including identification of key intelligence requirements. COA development follows, generating 
+potential operational approaches, which are then war-gamed to assess decision points and assumptions. COA 
+comparison evaluates these options to recommend the most feasible course of action. In the COA approval 
+phase, the commander reviews and finalizes the chosen option, and the plan is communicated during order 
+production to ensure clear transition from planning to execution. In order to test MDMP for force readiness, 
+the use of training exercise using simulation and modelling should be necessary. 
+ 
+Figure 1: Military decision-making in multi-domain operating process (MDMP).
+
+[Page 4 / 14 | chars: 3651]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 4 
+STO-MP-MSG-229 
+ 
+ 
+1.1.3 
+MUM-Teams Orchestration in MDO 
+Table 1: Challenges in MUM-T Considerations. 
+Factor 
+Human Considerations 
+Unmanned Considerations 
+Cognition 
+Highly variable; affected by experience, 
+stress, fatigue, workload, and situational 
+awareness. Humans can generalize reasoning 
+and adapt to novel scenarios. However, do 
+possess many cognitive biases which may 
+impact (perception, reasoning, decision, 
+attention ...).  
+Encoded in algorithms; generally stable across 
+situations but may vary among agent types. 
+Performance depends on sensor input and 
+environment. Machine cognition refers to the 
+agent’s ability to process data, reason, and act 
+toward a goal. 
+Perception 
+Limited by human sensory capabilities and 
+attention; human concentration and focus 
+reducing external noise and distraction, can 
+be augmented by tools. It could also be 
+impacted by weather. Less training needed to 
+identify, 
+detect 
+and 
+assess 
+situation. 
+Agreement among other humans easier.  
+Algorithms process sensor data (vision, lidar, 
+radar). Perception quality depends on sensor 
+fidelity and algorithm robustness filtering and 
+preprocessing. It can extend and process large 
+amounts of data but needs large training data to 
+be able to detect and classify. More disagreement 
+among agents.  
+Decision 
+Highly varied among humans, some attempt 
+to regularize it through doctrine/ rule of 
+engagement. Humans tend to be more 
+capable of decision making under new 
+situations. 
+Algorithms follow programmed decision-making 
+logic; can be optimized for speed and consistency 
+but may struggle in novel, ambiguous situations. 
+Psychology 
+Human stress, fatigue, and PTSD affect 
+performance and team dynamics. 
+No psychological impacts; may include failure 
+modes from software errors, system degradation, 
+or adversarial attacks. 
+Leardership 
+Humans 
+provide 
+adaptive 
+leadership, 
+motivation, and mentoring. Human have 
+often the final control. 
+Usually 
+hard-coded 
+(predefined 
+command 
+hierarchies or behavior trees); advanced systems 
+may support emergent coordination rules. Linked 
+to a rule-based, doctrine, C2 mission management 
+controlled by human. 
+Intent  
+Humans have clear intentions shaped by 
+goals, ethics, and context. 
+Given by humans (operator, programmers, C2, 
+commanders). 
+Must 
+be 
+inferred 
+or 
+pre-
+programmed; 
+intent 
+can 
+be 
+explicitly 
+communicated (via command protocols) or 
+estimated by the system for planning and 
+coordination. 
+In MUM-T teams, human and unmanned agents exhibit fundamentally different characteristics that influence 
+collaboration and coordination. Human cognition is highly flexible but also subject to variability due to 
+stress, workload, experience, and other human factors, which can impact decision-making and situational 
+awareness. In contrast, unmanned agents have cognition encoded in algorithms, resulting in consistent 
+performance that depends primarily on sensor input and the quality of their reasoning models. Humans rely 
+on perception through biological senses, which can be augmented but remain limited, whereas unmanned 
+systems utilize algorithmic perception to process data from multiple sensors, enabling faster and more 
+precise environmental awareness. Decision-making in humans is adaptive and generalizable, often guided by 
+doctrine and experience, while machines follow pre-programmed or learned algorithms that prioritize 
+efficiency and consistency. Psychological factors such as fatigue, stress, or PTSD affect humans but have no
+
+[Page 5 / 14 | chars: 4601]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 5 
+ 
+ 
+analogy in unmanned agents, although system errors or failures can impact performance. Leadership and 
+intent in humans involve ethical judgment, motivation, and context-aware decisions, whereas unmanned 
+systems rely on hard-coded leadership structures or programmed goals, with intent often inferred for 
+coordination purposes. These differences highlight the need to carefully model both human variability and 
+unmanned system capabilities when simulating MUM-T operations for force readiness. Thus, challenges 
+might rise due to the major differences found among MUM-T teams as listed in Table 1. This table is based 
+on [3] and has been augmented and revised here.  
+1.1.4 
+AI for Decision-Support in MUM-T  
+The use of AI has gained interest on the battlefield on the tactical level. At both the operational and strategic 
+tiers of military operations, artificial intelligence significantly supports data analysis and planning efforts. Its 
+capacity to handle vast amounts of information enables AI to assist in decisions such as force deployment 
+and selecting plans that most effectively advance strategic objectives [14]. This suggests considerable 
+potential for AI to play a larger role in high-level military decision-making in the future [14]. While AI is not 
+yet widely deployed in this capacity, certain systems have demonstrated superior performance compared to 
+human military personnel at the tactical level, indicating strong potential for expanded AI involvement in 
+strategic military decision-making in the future. AI enables the synthesis of a large amount of data in short 
+amount of time, which might help counter human biological limitations. These systems employ AI-driven 
+targeting and control mechanisms capable of processing information and executing actions within fractions 
+of a second [14]. AI could similarly be applied to decision-support when it comes to counter rapidly 
+emerging threats, such as hypersonic missiles, where the response window is extremely limited, although no 
+such defenses are currently known to exist. The growing presence of autonomous weapons on the battlefield 
+highlights AI’s tactical significance, as its speed and responsiveness in dynamic combat scenarios can 
+provide a decisive advantage over conventional systems. At higher levels of warfare, including operational 
+and strategic planning, AI contributes substantially to data analysis and decision support. Its ability to 
+process large volumes of information allows it to inform choices such as force deployment and selection of 
+plans that best advance strategic objectives. It can help solve difficult questions such as “where to commit 
+forces, what plan would get the closest to the strategic objective and more [14]. Thus, this can help support 
+the MDMP during mission to re-adjust COA based on constant data streaming, dynamic changes in MUM-T 
+capabilities, and situational awareness.  
+2.0 STAR (SHARING TASKS WITH AUTONOMOUS RESSOURCES) 
+STAR is designed in order to facilitate the OODA loop for decision-making in the three phases of missions: 
+i) Mission pre-operations - via supporting war gaming simulation and determination the best course of action 
+based on if-then scenario, ii) in-operation - as it can help support decision-making surrounding dynamic 
+tasking since often plans and orders given prior to the mission might change due to change of events, iii) 
+STAR could also help support after-action analysis to better prepare and support future mission, help assess 
+current states of each agent capability to perform their tasks and duties, it could be used to calibrate training / 
+performance of human and autonomous agent through modelling and simulation. STAR could facilitate the 
+readiness of forces by providing a system capable of plugging into a simulator which can help generate and 
+put in place mission operations, launch team, and test and evaluate different strategies while receiving AI 
+recommendation towards tasking of MUM-T. STAR is composed of several components which are 
+described in Section 2.1. The three main modules presented are i) multi-modal pipeline; ii) capability 
+reckoning, iii) dynamic tasking module. Each of those three can be fed from simulation and modelling data 
+which enables the system to be tested on specific use-cases which are of interest and can help gather data and 
+potential behavioral insight towards how each manned or unmanned agent might behave in the mission.
+
+[Page 6 / 14 | chars: 1805]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 6 
+STO-MP-MSG-229 
+ 
+ 
+2.1 
+System Components and Architecture 
+The STAR macro-level architecture modules are shown in Figure 2, including i) multi-modal, ii) capability 
+reckoning and dynamic tasking, all leading to human meaningful control. 
+ 
+Figure 2: STAR Components demonstrated in C2 Decision awareness for Manned-Unmanned 
+Teaming in Critical Undersea Infrastructure Protection. 
+1) Multi-Modal Pipeline and Pre-Processing: This module processes situational awareness data, 
+extracting relevant features for dynamic tasking. It filters and engineers the data, transforming it into 
+actionable mission parameters, like trajectory calculations from GPS data. It also allows 
+customization based on vehicle types, mission objectives, and operational needs, supporting a 
+variety of mission scenarios. 
+2) Reckoning: STAR evaluates which agent—human or autonomous—is best suited for a task by 
+analyzing both past and current behaviors. It uses data from the multi-modal pipeline, such as 
+mission status and environmental sensing, to determine the interdependence between agents. This 
+helps identify capacity gaps and whether agents can act independently or need support. 
+3) Dynamic Adaptive Tasking: This module focuses on task allocation for manned-unmanned 
+teaming (MUM-T). It takes into account pre-operation prerequisites, doctrine, and the commander’s 
+requirements while enabling real-time adjustments. It analyzes the interdependence among team 
+members (both human and autonomous) and recommends which agent should lead or support based 
+on the operational context. The commander can either accept or modify these recommendations and 
+adjust the level of autonomy as needed.
+
+[Page 7 / 14 | chars: 4615]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 7 
+ 
+ 
+4) Human-in-the-Loop and Meaningful Control for Decision Awareness: STAR maintains human 
+oversight, allowing decision-makers to retain control over task allocation and strategic changes, 
+while AI optimizes recommendations. The system provides transparency through explainable AI, 
+detailing task suggestions based on agent capabilities and mission needs, ensuring human decision-
+makers maintain meaningful control and understanding. 
+STAR can be plugged into real databases and systems or simulated and modelling platforms such as Gazebo, 
+Unreal, Unity or other platforms. This enables us to feed the system and allows for mission analysis. It takes 
+a mission plan as input as well as doctrines and rule of engagements, as well as data received ahead of 
+operations such as the assets specifications, limitations, and capabilities. It can consider environmental data 
+which might affect the performance of the team (wind, visibility, snow, icing) which could affect either the 
+manned/ human but also the unmanned systems. In addition, the modelling and simulation allows agents to 
+be trained and tested in the same environment to assess individual but also team performance 
+and collaboration. 
+2.1.1 
+Modelling and Simulation 
+Modelling and simulation enables answering several challenges for STAR. It first enables to simulate the 
+actual mission operations, which involve many factors, actors and events. The first benefit is that it enables 
+creating situational awareness data required for STAR to understand the operational context. This allows 
+collecting multi-modal data (sensors, human, environment). The second benefit is that it allows co-hosting 
+manned and unmanned agent systems which can both benefit from this simulated world where on one hand 
+humans-in-the-loop can be immersed in a close to reality environment, which helps get human behavioral 
+data such as performance, mental workload or stress which could be close to the real environment. Using 
+M&S such as Unreal enables the creation of diverse scenarios such as search and rescue missions in water 
+environment; ISR mission in MDO operations, or critical infrastructure operations such as NATO 
+Experiment. On the other hand, it enables the autonomous vehicles such as UAV and UUV to be trained and 
+tested in the same world or environment as human agent. Diverse plug-ins can be used to enhance the 
+realism of the simulation and fulfil the need of data generation. Vigilante offers a platform for integrating 
+manned and unmanned vehicles in realistic simulations, supporting a range of MDO operations ranging from 
+air, ground, projectile and sea types of assets. These assets can be controlled via human operator within the-
+loop simulation or can be completely autonomous. Based on the use-case, STAR can enable python scripts 
+and different AI capabilities which can be integrated within those assets such as deep reinforcement learning 
+algorithms, computer vision, path planning and more. This allows STAR to have realistic assets composed of 
+battlefield capabilities used in operations. Secondly, one essential plug-in for the air domain is JSBSim. It is 
+an open-source flight dynamics software used for realistic ranging from 737, B17, f-15, f-16 and more. It is 
+widely referenced in both academic and industry research, with applications in reinforcement learning for 
+flight control, as seen in studies like [15] and [16] (JSBSim on GitHub). Cesium provides 3D geospatial 
+visualization, crucial for simulating large-scale operational environments and real-time geospatial awareness 
+in MDOs. It can be integrated with game engines like Unreal for enhanced terrain modeling and operational 
+planning (Cesium Unreal Plugin). Cesium World Bathymetry integrates bathymetric data, vital for naval, 
+submarine, and amphibious operations, adding realism to underwater and coastal simulations (Cesium World 
+Bathymetry). These tools collectively offer a comprehensive simulation ecosystem, essential for training, 
+mission planning, and operational execution in modern military contexts. 
+3.0 STAR FOR CRITICAL UNDERSEA INFRASTRUCTURE  
+In this section we will discuss how STAR could be applied to a Critical Undersea Infrastructure Protection 
+scenario, inspired from the NATO Dynamic Messenger Exercise. We will present how we were able to 
+generate the scenario using M&S, implement the assets MDO MUM-T, and tasking algorithm for C2 
+Decision support in CUIP mission orchestration.
+
+[Page 8 / 14 | chars: 3092]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 8 
+STO-MP-MSG-229 
+ 
+ 
+3.1 
+Use-Case: Critical Undersea Infrastructure Protection  
+Hybrid threats in the maritime domain are evolving, with covert attacks on undersea infrastructure becoming 
+a major concern. The Nord Stream pipeline sabotage and Baltic Connector pipeline damage highlight the 
+challenges in distinguishing between accidental and deliberate actions, especially when attackers use civilian 
+vessels or covert tactics. The rise of Autonomous Underwater Vehicles (AUVs) and specialized sabotage 
+vessels, such as those used by Russia, further complicates protection of critical undersea infrastructure 
+(CUI). At the 2023 NATO Vilnius Summit, allies established the Maritime Centre for the Security of Critical 
+Underwater Infrastructure within MARCOM, focusing on deterring and defending against hybrid threats 
+targeting energy and communication networks. This includes addressing incidents like the Nord Stream 
+attack, the damage to the Baltic Connector pipeline and data cables between Finland and Estonia in October 
+2023, and ongoing threats to Norwegian gas pipelines and fiber-optic cables, underscoring NATO’s 
+commitment to securing Europe’s vital undersea assets.  
+3.2 
+Modeling & Simulation and System Integration 
+This use-case models the defense of critical undersea infrastructure against a range of asymmetric threats in a 
+contested maritime environment. The Red Team simulates a series of offensive actions aimed at disrupting 
+or destroying vital subsea assets, including communication cables, offshore platforms, and sensor networks. 
+These actions include the deployment of UUVs from submarines or surface vessels to sabotage subsea 
+cables, cyberattacks to compromise control systems and exfiltrate data via UUVs, signal jamming using 
+surface drones or UUVs to disrupt communication, and direct physical assaults on offshore platforms. In 
+response, the Blue Team employs a layered defense strategy that integrates advanced assets for detection, 
+interdiction, and neutralization of threats. The defense relies on UAVs, such as the Camcopter S-100, for 
+aerial surveillance and signal jamming detection, while Iver-3 UUVs perform subsea patrols to inspect 
+cables and intercept hostile UUVs. Submarines are deployed for long-range sonar detection and 
+counterattacks, supported by swarm drones for persistent coverage and jammer localization. Frigates provide 
+surface surveillance and anti-submarine warfare (ASW) capabilities, while RHIBs enable rapid deployment 
+for personnel extraction and anti-sabotage operations. The use-case examines the interplay between these 
+assets to evaluate force readiness and response capabilities in the face of cyber, physical, and electronic 
+warfare tactics aimed at critical undersea infrastructure. The use-case uses the same location as Rempus and 
+Dynamic messenger which occurs in Troia, Portugal. 
+ 
+ 
+ 
+Figure 3: Example of manned and unmanned asset of Vigilante implemented in Unreal Engine.
+
+[Page 9 / 14 | chars: 3953]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 9 
+ 
+ 
+Table 2: Manned and Unmanned Assets Capabilities and Specifications. 
+Agent 
+Capabilities 
+Known Specification 
+UAV 
+Navigation, target detection 
+and identification, signal 
+jamming detection, 
+communications interception, 
+intelligence collection 
+Model: Camcopter S-100, Speed: 102 km/h, Autonomy: 6 hours, 
+Energy: 240 kWh, Range: 612 km, Max Speed: 185 km/h, Motor 
+Power: 40 kW, Energy Consumption: 240 kWh at typical speed. 
+UUV 
+Subsea patrol, tampering 
+detection, enemy UUV 
+interception 
+Model: Iver 3 AUV, Speed: 4.63 km/h, Autonomy: 8 hours, 
+Energy: 0.8 kWh, Range: 37.04 km, Max Speed: 7.408 km/h, 
+Motor Power: 0.1 kW, Energy Consumption: 0.8 kWh at typical 
+speed. 
+Submarine Sonar detection, counterattack 
+and interception, diver 
+deployment 
+Model: Boston Whaler 350, Speed: 48.28 km/h, Max Speed: 
+91.89 km/h, Motor Power: 895 kW, Energy Consumption: Range 
+depends on speed. 
+Frigate 
+Surface surveillance, anti-
+submarine warfare (ASW), 
+anti-surface warfare (ASuW), 
+anti-air warfare (AAW), UAV 
+and RHIB deployment. 
+Model: HMCS Halifax-Class, Speed: 27.78 km/h, Autonomy: 
+1583.33 hours, Energy: 30,000 km, Range: 18,322.48 km, Max 
+Speed: 55.56 km/h, Motor Power: 240 kW, Energy Consumption: 
+4715 kW (estimated). / 2nd Submarine used Model: Akula-Class, 
+Speed: 46.3 km/h, Max Speed: 61.116 km/h 
+RIHB 
+Fast deployment, personnel 
+extraction, rapid interdiction, 
+anti-sabotage operations, 
+manned 
+Model: Boston Whaler 350, Speed: 48.28 km/h, Autonomy: N/A, 
+Energy: N/A, Range: N/A, Max Speed: 91.89 km/h, Motor Power: 
+895 kW, Energy Consumption: Range depends on speed. 
+3.3 
+Dynamic Tasking of MUM-T in MDO  
+The algorithm presented here addresses a dynamic, energy-constrained decision-making problem for 
+autonomous agents operating in complex environments. The agent, modeled with capabilities for target 
+detection, observation, and engagement, is tasked with navigating towards a final destination while 
+optimizing energy consumption. The system operates by reading a JSON configuration file, which details the 
+agent’s energy levels, capabilities, and environmental factors such as observation and engagement range. 
+The agent’s reasoning process is driven by continuous updates of its energy state, simulating time 
+progression and movement through a series of predefined positions determined during mission planning. As 
+the agent moves, it computes the energy required to reach subsequent positions or the final destination, 
+adjusting its route if it detects insufficient energy to proceed. At each decision point, the algorithm checks 
+whether the agent’s current energy level is adequate for reaching the target positions, considering both 
+observation and engagement capabilities. If the agent’s energy falls below the required threshold to reach the 
+final destination, it reassesses its route, discarding positions that are unreachable. If the agent has enough 
+energy to proceed, it makes decisions based on the optimal route and energy consumption. This decision-
+making is extended to multi-agent scenarios, where the algorithm allows for the sharing of information 
+regarding target observations and the assignment of tasks based on the least energy-expensive agent. In cases 
+where observations are unreachable by any agent, they are flagged and excluded from the task list. The 
+algorithm’s ability to dynamically adjust to changing energy levels and environmental conditions, while 
+considering agent capabilities and task prioritization, showcases its potential for real-time, energy-efficient 
+decision-making in autonomous systems and MUM-T coordination.  
+In order to break down the nodes present in the decision-tree for the tasking model, here are the variable 
+names and descriptions: i) kWh: Energy levels (initial and maximum) in kilowatt-hours (kWh),
+
+[Page 10 / 14 | chars: 1969]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 10 
+STO-MP-MSG-229 
+ 
+ 
+ii) Ec: Current energy at any given time (in kWh), iii) Ef: Energy required to get to a final destination (in 
+kWh), iv) Ed: Energy required to reach a new position (in kWh). v) Re: Engagement capability range radius 
+of the agent, vi) Ro: Observation/detection capability range radius, vii) Sim_time: Simulation time for agent 
+movement or decision-making. The following function were used and implemented as capabilities based on 
+dynamic present data: 
+ 
+Figure 4: Algorithm based on decision-tree for dynamic Tasking of MUM-T. 
+1) Energy Computation: This function calculates the energy needed to reach a final destination based 
+on the current position. Ef = f(final destination, current position) 
+2) Observation and processing time for decision; process(p) = {Observation if within Ro, Processed if 
+within Re}; where p is a potential target position or observation point. 
+3) Energy Update and Decision Making: This updates the agent’s energy level after each tick or time 
+step. Ec(t) = Ec(t-1) - Ed 
+4) Energy Feasibility Check: This function ensures the agent is capable of reaching the final destination 
+and return safely. If Ec ≤ Ef, it means the agent cannot reach the final destination; If Ec > Ef, it 
+means the agent can proceed. 
+Capabilities related to anticipation:  
+1) Energy for Next Position (Ed):Ed = Energy required to move from current position to next position = 
+Distance(pi, pj) × Energy consumption rate; Where pi and pj are two points on the map (e.g., current 
+and next positions), and Energy consumption rate is a constant dependent on the agent’s model. 
+2) Energy for Final Destination (Ef): Ef = Energy required to reach the final destination = 
+Distance(current, destination) × Energy consumption rate. Where current is the agent’s current 
+position, and destination is the final destination.
+
+[Page 11 / 14 | chars: 2001]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 11 
+ 
+ 
+3) Observation Processing: This function processes the observation only if the target is within the 
+agent’s observation range Ro. process_observation(p) = {True if target within observation range 
+Ro, False otherwise} 
+4) Energy Feasibility Check for Targeting a Position: This determines if the agent has enough energy to 
+move to the next position or process the next observation. Can_move_to_next_position = {True if Ec 
+- Ed ≥ Ef, False otherwise} 
+Thus, the MUM-T systems relies on AI-based algorithm to enable efficient coordination, decision-making, 
+and resource management across both manned and unmanned agents. AI-driven autonomous decision-
+making ensures that agents adapt to dynamic mission environments, making real-time decisions based on 
+energy levels, target proximity, and mission goals in addition to remain human in control as it allows the 
+human to accept or reject the recommendation. Fig. 5 demonstrate the general architecture of the systems 
+which is composed of our MUM-T agents, Unreal, Cesium, and JCS-Controller which is the module where 
+our capability and tasking module implements and communicates to the Mission Viewer. 
+ 
+Figure 5: MUM-T System Architecture. 
+3.2 
+Orchestrator HMI 
+Once the algorithm is implemented, the asset present in the unreal engine simulator, a C2 platform is created 
+to display the tactical situation. The position of our blue forces and the position of the detected red enemy is 
+displayed on the C2 platform. The C2 platform receives the dynamic data from the simulator but also the 
+capabilities extracted from each agent in Figure 6. The recommendation displayed as “Accept “ or “Reject “ 
+which enabled human control and decision-making support, while capabilities used for this recommendation. 
+This enables the human to have explainability and transparency toward the tasking recommendation.
+
+[Page 12 / 14 | chars: 2651]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 12 
+STO-MP-MSG-229 
+ 
+ 
+ 
+Figure 6: Mission Viewer. 
+4.0 CONCLUSION 
+Through the use of M&S STAR has been able to train and test different mission with an AI capable of 
+reaching 72% [17] 89% [18] 88.1% [19]. This study demonstrated a proof-of-concept implementation for the 
+integration of modeling and simulation into NATO’s force readiness framework, specifically in the context 
+of MDO. The potential of such a tool is underscored by NATO initiatives like the Innovation Continuum, 
+which seeks to advance Intelligence, Surveillance, and Reconnaissance (ISR). Effective tasking and 
+coordination of MUM-T remain significant challenges; however, the STAR system offers a promising 
+solution by enabling comprehensive training and evaluation of MDO scenarios. This approach helps both 
+manned and unmanned platforms identify operational strengths, weaknesses, and opportunities for 
+optimization. Looking ahead, future research will focus on refining STAR’s ability to integrate performance 
+metrics for evaluating team effectiveness. By incorporating such metrics, the system can provide reflective 
+feedback that drives continuous improvement, enhancing team efficiency and interoperability. In parallel, the 
+STAR tasking algorithm will be further developed to enhance its predictive capabilities, enabling more 
+accurate dynamic tasking and mission execution. The inclusion of expert feedback into the tasking process 
+will foster a “teacher-student “ relationship between the operator and the system, promoting trust, 
+transparency, and the explainability of AI-driven models which could evolve over time where the AI can be 
+capable of assisting the human as a team member when human is overwhelmed or incapacitated due to 
+cognitive degradation. This will ultimately strengthen decision-making in C2 systems, ensuring more 
+informed and reliable operational choices to facilitate the MDMP and OODA loop. Additionally, research 
+will explore the refinement of human meaningful control mechanisms within STAR, empowering operators 
+to actively engage with and steer dynamic tasking scenarios through the recommendation algorithm. This 
+balance between human vs AI decision-making is crucial for ensuring that the system remains adaptive to 
+evolving operational needs. By enhancing the human-machine collaboration, STAR has the potential to 
+significantly improve NATO’s readiness, enabling a more agile, resilient, and responsive force capable of 
+navigating the complexities of modern, rapidly changing operational environments.
+
+[Page 13 / 14 | chars: 3248]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 13 
+ 
+ 
+5.0 REFERENCES 
+[1] North Atlantic Treaty Organization, Factsheet - Dynamic Messenger. www.mc.nato.int: Allied 
+Command Directorate of Communication, Public Affairs Office, 2023. 
+[2] North Atlantic Treaty Organization, “Factsheet Exercise REPMUS 23, “ Public Diplomacy Division 
+(PDD) – Press & Media Section, Sep. 2023. Accessed: Jan. 13, 2024. [Online]. Available: 
+https://www.nato.int/nato_static_fl2014/assets/pdf/2023/9/pdf/factsheet-REPMUS23.pdf  
+[3] C. Blais, “Challenges in Representing Human-Robot Teams in Combat Simulations, “ Lecture notes in 
+computer science, pp. 3–16, Jan. 2016, doi: https://doi.org/10.1007/978-3-319-47605-6_1. 
+[4] M. Schneider, J. McGrogan, J.M. Colombi, M.E. Miller, and D.S. Long, “7.1.1 Modeling Pilot 
+Workload for Multi-Aircraft Control of an Unmanned Aircraft System, “ INCOSE International 
+Symposium, vol. 21, no. 1, pp. 796–810, Jun. 2011, doi: https://doi.org/10.1002/j.2334-
+5837.2011.tb01244.x. 
+[5] J.Y.C. Chen and M.J. Barnes, “Supervisory Control of Multiple Robots, “ Human Factors: The Journal 
+of the Human Factors and Ergonomics Society, vol. 54, no. 2, pp. 157–174, Feb. 2012, doi: 
+https://doi.org/10.1177/0018720811435843. 
+[6] J. Lee and N. Moray, “Trust, control strategies and allocation of function in human-machine systems, “ 
+Ergonomics, 
+vol. 
+35, 
+no. 
+10, 
+pp. 
+1243–1270, 
+Oct. 
+1992, 
+doi: 
+https://doi.org/10.1080/00140139208967392. 
+[7] J.C. Joe, J. O’Hara, H.D. Medema, and J.H. Oxstrand, “Identifying Requirements for Effective Human-
+Automation Teamwork, “ Osti.gov, Jun. 2014. https://www.osti.gov/biblio/1149012 (accessed Sep. 26, 
+2025). 
+[8] J.Y.C. Chen and M.J. Barnes, “Human–Agent Teaming for Multirobot Control: A Review of Human 
+Factors Issues, “ IEEE Transactions on Human-Machine Systems, vol. 44, no. 1, pp. 13–29, Feb. 2014, 
+doi: https://doi.org/10.1109/thms.2013.2293535. 
+[9] J. van Diggelen et al., “Pluggable Social Artificial Intelligence for Enabling Human-Agent Teaming,” 
+arXiv.org, 2019. https://arxiv.org/abs/1909.04492 (accessed Sep. 26, 2025). 
+[10] S. Rebensky, K. Carmody, C. Ficke, M. Carroll, and W. Bennett, “Teammates Instead of Tools: The 
+Impacts of Level of Autonomy on Mission Performance and Human–Agent Teaming Dynamics in 
+Multi-Agent Distributed Teams, “ Frontiers in Robotics and AI, vol. 9, May 2022, doi: 
+https://doi.org/10.3389/frobt.2022.782134. 
+[11] F. Fazekas, “Military Command In Multi-Domain Environment, “ Land Forces Academy Review, vol. 
+29, no. 3, pp. 312–321, Sep. 2024, doi: https://doi.org/10.2478/raft-2024-0034. 
+[12] K. Fefferman et al., “A Study in the Implementation of a Distributed Soldier Representation, “ 
+Dtic.mil, 2015. https://apps.dtic.mil/sti/html/tr/ADA614616/ (accessed Sep. 26, 2025). 
+[13] E.M. Hughes, “The Military Decision-Making Process in the Multi-Domain Operating Environment, “ 
+Dtic.mil, May 23, 2019. https://apps.dtic.mil/sti/html/trecms/AD1161084/ (accessed Sep. 26, 2025). 
+[14] S. Laohmann, “Navigating New Threats: NATO’s Posture on Emerging Technologies - Task Force 
+Report, “ Henry M. Jackson School of International Studies, Mar. 2022.
+
+[Page 14 / 14 | chars: 1477]
+--------------------------------------------------------------------------------
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 14 
+STO-MP-MSG-229 
+ 
+ 
+[15] A. De Marco, P.M. D’Onza, and S. Manfredi, “A deep reinforcement learning control approach for 
+high-performance aircraft, “ Nonlinear dynamics, vol. 111, no. 18, pp. 17037–17077, Aug. 2023, doi: 
+https://doi.org/10.1007/s11071-023-08725-y. 
+[16] A.P. Pope et al., “Hierarchical Reinforcement Learning for Air Combat at DARPA’s AlphaDogfight 
+Trials, “ IEEE Transactions on Artificial Intelligence, vol. 4, no. 6, pp. 1371–1385, Dec. 2023, doi: 
+https://doi.org/10.1109/tai.2022.3222143. 
+[17] T.S. Paul and D. Lafond, “Adjustable Control for Enhanced Interoperability of Human-Autonomy 
+Teaming Within ISR Operations, “ International Conference on Military Communication and 
+Information Systems (ICMCIS), Apr. 2024, doi: https://doi.org/10.1109/icmcis61231.2024.10541005. 
+[18] T.S. Paul and D. Lafond, “AI-Driven Collaboration Mode Selection for Manned-Unmanned Teaming 
+in Future Combat Air Systems, “ International Conference on Military Communication and 
+Information 
+Systems 
+(ICMCIS), 
+pp. 
+1–10, 
+May 
+2025, 
+doi: 
+https://doi.org/10.1109/icmcis64378.2025.11047730. 
+[19] T.S. Paul and D. Lafond, “Meaningful Human Control in Multi-Agent Systems Through AI-Based 
+Dynamic Task Allocation Strategies, “ NATO Science and Technology Organization, vol. NATO 
+Symposium on Human Meaningful Control, no. STO-MP-HFM-377, Apr. 2025.
+

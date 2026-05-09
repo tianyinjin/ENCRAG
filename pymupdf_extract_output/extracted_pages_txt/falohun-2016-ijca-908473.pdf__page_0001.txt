@@ -1,0 +1,138 @@
+Source file: falohun-2016-ijca-908473.pdf
+Relative path: falohun-2016-ijca-908473.pdf
+Page: 1 / 5
+
+================================================================================
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+30 
+Dangerous Gas Detection using an Integrated Circuit 
+and MQ-9 
+Falohun A.S. 
+Dept. of Computer Sc. & Eng. 
+Ladoke Akintola Univ. of Tech. 
+ 
+Oke A.O. 
+Dept. of Computer Sc. & Eng. 
+Ladoke Akintola Univ.of Tech. 
+Abolaji B.M., Oladejo 
+O.E. 
+Dept. of Computer Sc. & Eng. 
+Ladoke Akintola Univ.of Tech.     
+ 
+ABSTRACT 
+Natural gas is an odourless one which consists of compounds 
+made of two elements: carbon and hydrogen called 
+hydrocarbons. Sometimes, due to an accident or if the valve is 
+not properly closed, the gas leaks. This system is aimed at 
+detecting the leakage and sounding an alert so that occupants 
+in the building can maintain optimal ventilation and turn off 
+all electrical appliances or evacuate the vicinity until a redress 
+is made. 
+An MQ-9 chemical sensor coupled with an Integrated Circuit 
+was used to build the system and on testing, the system gave 
+adequate visual information, audible and timely alert on 
+detecting a gas leakage. 
+General Terms 
+Security, Safety, Signal, Gas, Casing. 
+Keywords 
+Sensor, Buzzer, Embedded, Soldering, Alarm. 
+1.  INTRODUCTION 
+In this fast developing society, electronics has come to stay as 
+the most important branch of Engineering. Electronic devices 
+are being used in almost all industries for quality control and 
+automation and they are fast replacing the present vast army 
+of workers engaged in processing and assembling in the 
+factories. These devices supplement the human ability to 
+sense, monitor, calculate, observe, and control. [8]  
+An uncontrolled combination of fuel with oxygen releases 
+heat and any unintended contact with a spark can cause 
+burning. Automatic gas detecting systems are intended to 
+notify the building occupants to evacuate in the event of the 
+gas leakage or other emergency, report the event to an off-
+premises location in order to summon emergency services, 
+and to prepare the structure and associated systems to control 
+the spread of gas and fire. [3]  
+This work is about the design and construction of a gas 
+detector with audible alarm. This gas detector with audible 
+alarm is designed with the intention to ensure that the event of 
+gas 
+is 
+intelligently 
+detected, 
+promptly 
+notified 
+and 
+interactively managed than what is obtainable with 
+conventional ``ring-ring´´ fire alarm systems. 
+„Jet Age‟ is what the age is called as the growing desire of 
+human, is that things are done in the twinkle of an eye (i.e. 
+food get cooked in a minute, uninterrupted power supply, fast 
+transportation of people and loads, fast access to knowledge 
+base 
+(Internet), 
+Internet 
+banking, 
+social 
+media 
+communication, online classes). And these have led to breath-
+taking inventions to cater for these desires. One of such is the 
+gas-cooker, whose work is of great benefit. It is observed that 
+the destruction caused by fire due to gas leakage is quite 
+alarming and building occupants are slow in responding to 
+alarm systems. Dr. Guylène Proulx in [6] discussed three 
+reasons why occupants may ignore the alarm signal as: 
+ 
+Failure to recognize the signal as a fire alarm. 
+ 
+Loss of confidence in the system because of 
+nuisance alarms, or, 
+ 
+Failure to hear the signal if there is other source of 
+sound apart from the alarm system or the resident is 
+partly with deafness disability. 
+Therefore, a gas detector with audible/visual alarm presented 
+herein tends to solve these identified problems through the 
+design and construction of a low-cost, easy to construct gas 
+detection system via gas sensor. Figure 1 gave a hint on the 
+alarm system built around a Timer which is easy to work with, 
+affordable and easy to design and construct, instead of a 
+Microcontroller. 
+ 
+ 
+ 
+ 
+Figure 1: Block diagram of the user-interactive fire alarm 
+system. 
+2. LITERATURE REVIEW 
+2.1 Gas Alarm Systems 
+An automatic gas alarm system is designed to detect the 
+unwanted presence of fire by monitoring environmental 
+changes associated with combustion. [2] 
+In general, a fire alarm system is classified as either 
+automatically actuated, manually actuated, or both. [5]. 
+Automatic fire alarm systems are intended to notify the 
+building occupants to evacuate in the event of a fire or other 
+emergency, report the event to an off-premises location in 
+order to summon emergency services, and to prepare the 
+structure and associated systems to control the spread of fire. 
+2.2 Parts of a Fire Alarm System 
+Primary Power supply: Commonly the non-switched 120 or 
+240 Volt Alternating Current source supplied from a 
+commercial power utility. In non-residential applications, a 
+branch circuit is dedicated to the fire alarm system and its 
+constituents. "Dedicated branch circuits" should not be 
+confused with "Individual branch circuits" which supply 
+energy to a single appliance. 
+Secondary (backup) Power supplies: This component, 
+commonly consisting of sealed lead-acid storage batteries or 
+other emergency sources including generators, is used to 
+supply energy in the event of a primary power failure. 
+GAS 
+SENSOR 
+TIMER 
+AUDIO ALERT 
+UNIT 
+VISUAL ALERT 
+UNIT

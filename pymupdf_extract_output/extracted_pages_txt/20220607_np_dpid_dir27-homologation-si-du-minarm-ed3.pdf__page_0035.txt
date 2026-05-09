@@ -1,0 +1,51 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 35 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+33/47 
+Le périmètre d’homologation ne comprend que les données traitées et relevant du ministère des 
+Armées, les services numériques fournis par le prestataire ainsi que l’organisation mise en place pour 
+utiliser ce service. 
+RO 46 : il est OBLIGATOIRE pour l’AE d’établir une politique d’emploi pour pouvoir utiliser un service 
+numérique public de type SaaS. Elle est fournie à l’AH pour insertion dans le dossier 
+d’homologation. 
+La politique d’emploi dédiée à l’usage du service numérique précise : 
+● les conditions générales d’utilisation du service numérique avec les mesures de sécurité 
+associées relevant du ministère ainsi que les responsabilités correspondantes ; 
+● les dispositions relatives à la gestion de données à caractère personnel utiles aux 
+utilisateurs du service numérique ; 
+● la gestion des accès et leur contrôle ; 
+● les modalités de gestion des incidents et des crises ; 
+● les modalités de réversibilité et les mesures prises sur les données (transfert, 
+effacement et archivage) lors de la fin de prestation. 
+Il appartient à l’AH de définir le besoin de rédiger des PES selon les exigences de sécurité complétant 
+la politique d’emploi. 
+Lorsque le service numérique traite des données à caractère personnel, la politique de confidentialité 
+du prestataire est insérée dans le dossier d’homologation. Elle est prise en compte dans l’analyse de 
+risques. 
+ Homologation de systèmes de systèmes  
+Un système complexe peut être composé de plusieurs SI interdépendants techniquement, formant ainsi 
+un système de systèmes, dont l’homologation est à traiter de manière spécifique. En effet, il est possible, 
+selon les cas, d’homologuer ce système en homologuant successivement ou parallèlement ses 
+différents composants. 
+Néanmoins, des risques peuvent être identifiés et acceptés pour chacun de ses composants sans que 
+cela signifie nécessairement que l’ensemble des risques soient identifiés et acceptables au niveau du 
+système. De même, un système de systèmes ne perd pas nécessairement son homologation quand 
+l’un de ses composants n’est plus homologué. L’homologation d’un système de systèmes ne se 
+réduit donc pas à une succession d’homologations séparées. Elle doit aussi prendre en compte 
+les risques portant sur les interdépendances techniques et sur l’ensemble du système. 
+RO 47 : il est RECOMMANDÉ pour une homologation d’un système de systèmes de procéder à une 
+analyse de risques portant non seulement sur chacun de ses composants mais également sur 
+l’ensemble du système de systèmes et l’interdépendance de ces derniers.  
+L’homologation d’un système de systèmes est mise en œuvre par un RSSI unique. Celui-ci coordonne 
+les homologations des différents composants et s’assure de la gestion de risques d’ensemble. 
+La stratégie d’homologation doit préciser les conditions de l’homologation et les principes de sa 
+cohérence d’ensemble en matière de sécurité numérique. Les différents systèmes doivent être 
+homologués au titre de l’ensemble des missions qu’ils remplissent ou des activités auxquelles ils 
+contribuent. 
+ Dispositifs d’interconnexion ou d’interface 
+Pour toute interconnexion de SI de niveaux de classification différents ou entre un SI classifié et un SI 
+non-classifié, interdite en principe, il est nécessaire que l’AE la justifie formellement auprès de l’AH et

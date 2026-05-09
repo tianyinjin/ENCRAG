@@ -1,0 +1,66 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 28 / 68
+
+================================================================================
+
+Pôle d’excellence cyber
+28
+Authenticité de l’information 
+le rôle essentiel des opérateurs
+Une chaîne d’information complexe
+Dorénavant, l’interrogation porte sur le sérieux et 
+l’honnêteté des fournisseurs de contenus, mais entre 
+le fournisseur et le lecteur existe toute une chaîne de 
+transmission de l’information. Qu’il s’agisse de texte, de 
+son, d’image ou de vidéo, le contenu doit passer par un 
+grand nombre de relais et transformations intermédiaires. 
+Les opérateurs doivent s’assurer non seulement de la 
+disponibilité des informations, mais aussi de l’intégrité 
+et de la confidentialité, tout en sécurisant l’identification 
+des individus sources d’information. A notre époque, loin 
+d’être de simples « tuyaux » transférant des contenus, 
+les opérateurs et les équipementiers télécom sont au 
+contraire des acteurs clefs de la confiance numérique.
+Dans le cas des agrégateurs d’informations (journaux 
+en ligne, blogs,.. ), l’objectif est de s’assurer que le 
+lecteur obtient ses informations depuis la source 
+escomptée sans être modifiées jusqu’au téléphone 
+du lecteur. De ce point de vue, plusieurs mécanismes 
+informatiques se sont très répandus, tels que les 
+protocoles SSL/HTTPS, et garantissent l’identité auprès 
+de l’équipement de l’usager ainsi que l’intégrité des 
+données de la source jusqu’au lecteur à travers le réseau 
+de l’opérateur. Toutefois, avoir confiance en un flux 
+d’informations nécessite que l’identité du rédacteur ait 
+été sécurisée dès le début de la création de contenu.
+Une sécurité renforcée
+Beaucoup de rédacteurs se reposent désormais sur les 
+réseaux mobiles pour s’authentifier dans leur application 
+favorite. Actuellement, chaque équipement d’un réseau 
+mobile doit s’authentifier au sein du réseau pour instaurer 
+une confiance entre « voisins » et éviter les attaques de 
+type « man-in-the-middle » (MitM) ou d’usurpation. A 
+l’époque du GSM, en raison de faiblesses de design dans 
+les premières versions du standard 3GPP de téléphonie 
+mobile, les réseaux 2G (GSM) et leur protocole SS7 
+étaient insuffisamment sécurisés et sujets à des attaques 
+d’usurpation sur les éléments de réseau, pouvant 
+entraîner des attaques de type MitM avec interception 
+de SMS et même la redirection des SMS vers l’appareil 
+de l’attaquant. D’où un risque sur l’authentification à 
+double facteur permettant à l’attaquant un accès aux 
+applications d’information et donc de potentiellement 
+modifier les contenus. Les technologies 4G LTE et 5G 
+ont donc introduit une authentification très poussée. 
+Eric LABOURÉ
+Head of Business Operations 
+Managed Security Services
+NOKIA
+Au cours des trente dernières années, les techniques de partage de l’information 
+ont drastiquement évolué. Non seulement vers le digital, mais aussi en passant de 
+fournisseurs centralisés (agences de presse, journaux, télévision..) à une multitude 
+d’acteurs individuels via les réseaux sociaux. Cette révolution est largement due 
+à l’évolution du web et des applications mobiles, mais rien n’eût été possible sans 
+les opérateurs de télécommunication grâce au déploiement et à l’amélioration 
+constante des réseaux fixes et en particulier de la téléphonie mobile.

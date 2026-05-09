@@ -1,0 +1,111 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 52 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 52 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+ISSIP6 
+ORG 
+Insérer dans le cahier des charges des clauses demandant des tests de sécurité 
+numérique, 
+notamment 
+lors 
+des 
+recettes 
+usine 
+et 
+plateforme.
+Des procédures de test de conformité en matière de cybersécurité doivent être 
+définies et mises en place. 
+ 
+C 
+R 
+O 
+ 
+ISSIP7 
+ORG 
+En cas de prestation externalisée, insérer dans le cahier des charges un plan 
+d’assurance sécurité (PAS). Celui-ci décrit toutes les mesures répondant aux 
+exigences de sécurité numérique demandées. 
+ 
+R 
+O 
+O 
+ 
+ISSIP8 
+ORG 
+Insérer dans le cahier des charges une clause exigeant la fourniture 
+d’équipements matériels et logiciels labellisés sur le plan de la sécurité numérique.
+ 
+C 
+C 
+R 
+ 
+ISSIP9 
+ORG 
+Inclure dans une clause que les supports d'un équipement informatique 
+comportant une mémoire physique rémanente ayant vocation à stocker ou traiter 
+des informations sensibles (DR, DCP) ou classifiées soient identifiables et ne 
+retournent pas chez les tiers en cas de maintenance ou réparation. Cette mesure 
+ne s'applique pas aux dispositifs agréés. 
+O
+ 
+ 
+ 
+Les 
+mémoires 
+rémanentes 
+des 
+composants systèmes (de type disques 
+durs, 
+mémoires 
+flash, 
+etc.) 
+qui 
+contiennent ou ont contenu des données 
+classifiées de défense doivent pouvoir 
+être extraites des équipements. Les 
+modalités pratiques d’extraction dans le 
+cas de l’envoi en maintenance ou de 
+recyclage doivent être décrites dans les 
+procédures d'exploitation et de soutien. 
+ISSIP10 
+ORG 
+Définir, dès la phase de spécification, les modalités de démantèlement du système 
+industriel, notamment la gestion des données et des procédés classifiés. Elles sont 
+précisées au fur et à mesure du cycle de vie du système. 
+O
+ 
+ 
+ 
+ 
+ISSIP11 
+ORG 
+Intégrer au processus de choix les caractéristiques de sécurité numérique des 
+équipements répondant aux clauses de sécurité. 
+O
+ 
+ 
+ 
+ 
+ISSIP12 
+ORG 
+Intégrer dans chaque temps contractuel, notamment lors du choix du candidat, le 
+RSSI ou un expert en sécurité numérique selon la complexité du système et les 
+enjeux de sécurité. 
+O
+ 
+ 
+ 
+ 
+ISSIP13 
+ORG 
+Définir des rôles pour les personnels accédant aux systèmes industriels.  
+O

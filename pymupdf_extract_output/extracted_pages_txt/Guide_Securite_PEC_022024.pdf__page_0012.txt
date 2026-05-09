@@ -1,0 +1,45 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 12 / 108
+
+================================================================================
+
+12
+POLE D'EXCELLENCE CYBER
+DONNÉES PERSONNELLES ET RGPD
+Les collectivités territoriales ont une longue expérience de la gestion des données publiques, elles sont de véritables sanctuaires 
+de données, qu’elles conservent parfois pendant une durée illimitée (cas de l'archivage définitif). Entré en vigueur le 25 mai 
+2018, le Règlement Général sur la Protection des Données (RGPD) impose aux collectivités (et à tout organisme) de respecter 
+certaines règles qui visent à protéger les données à caractère personnel confiées par les administrés aux gestionnaires des 
+applications dont ils sont les utilisateurs et/ou les usagers. Le respect de ce règlement est une condition essentielle pour 
+mieux protéger les citoyens, un facteur de transparence et de confiance à leur égard, même s'il est parfois perçu comme une 
+contrainte supplémentaire. Ce règlement est aussi une garantie de sécurité juridique pour les élus, qui sont responsables des 
+données utilisées et stockées au sein de leur collectivité.
+Certains éléments de cette fiche sont issus du site Internet de la Commission nationale de l’informatique et des libertés (CNIL1) , 
+l'autorité référente et de contrôle en France en charge des questions de protection des données.
+Les données à caractère personnel
+L’Article 4 du RGPD indique que les données à caractère personnel sont toutes les informations se rapportant à une personne physique 
+identifiée ou identifiable, directement ou indirectement. Par exemple, un nom, une photo, une empreinte, une adresse postale, une 
+adresse électronique, un numéro de téléphone ou de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion 
+informatique, un enregistrement vocal, etc. Ces éléments sont régulièrement utilisés par les applications des systèmes d'information 
+des collectivités locales, pour toute opération qui concerne une personne physique, et font l’objet d’un traitement quotidien (collecte, 
+conservation, modification, consultation, diffusion, effacement, etc.) au sein des collectivités. Ces données peuvent être recueillies à 
+l'oral ou via un formulaire et figurer dans divers documents numériques gérés par les agents, par exemple les fichiers qui sont issus 
+de ressources humaines, d’un téléservice, de la vidéosurveillance.
+Les données sensibles : un cas particulier des données à caractère personnel
+L’Article 9 du RGPD fait le point sur une catégorie particulière de données à caractère personnel, appelée données sensibles. Il s’agit 
+de données qui révèlent, directement ou indirectement, l’origine raciale ou ethnique, les opinions politiques, philosophiques ou 
+religieuses, les appartenances syndicales des personnes, les données génétiques et biométriques ou encore celles qui sont relatives à 
+la santé ou l’orientation sexuelle. Par exemple, les dossiers contenant des données de santé, y compris les dossiers enfants avec une 
+partie médicale ou les données utiles pour les demandes d’aide au logement en lien avec le handicap.
+Attention à bien distinguer « données sensibles » et « données sensibles au sens de la Loi ». En effet, une confusion apparaît 
+souvent entre les données qui sont sensibles pour une collectivité (celles qui ont trait à l’organisation interne, les données financières, 
+des dossiers politiquement et médiatiquement sensibles, etc.) ou qui sont considérées sensibles par les agents (certaines données 
+sociales, les mariages entre personnes d’un même sexe2 , etc.), mais qui ne sont pas nécessairement des données sensibles au sens 
+du Règlement et de la Loi Informatique et Liberté et ne sont pas soumis au même régime juridique. 
+1 https://www.cnil.fr/professionnel
+2 Bien que l'orientation sexuelle entre dans la catégorie des données sensibles, la publication d'un mariage homosexuel, qui donne 
+clairement une telle indication, doit être légalement rendue public. Une telle indication n'est pas une donnée sensible au regard de 
+la Loi (« Étude pour le CREOGN : Données personnelles et collectivités territoriales :  usages actuels et recommandations »).
+FICHE N°1
+........................................

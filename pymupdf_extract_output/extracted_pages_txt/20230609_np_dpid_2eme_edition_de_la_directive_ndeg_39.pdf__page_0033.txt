@@ -1,0 +1,143 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 33 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 33 | 79 
+F3 
+Système 
+très 
+complexe 
+Système comprenant des éléments de niveau CIM 3 et/ou 4. En particulier, 
+système avec console de programmation*, système connecté à un système 
+d’exécution des fabrications, système comportant des bases de données 
+d’historiques centralisées. Le système industriel peut être interconnecté 
+avec d’autres systèmes pour partager des données. 
+F4 
+Système 
+mutualisé 
+La fonction de supervision, de pilotage ou d’historisation est mutualisée avec 
+d’autres systèmes industriels. Le système n’est plus autonome. 
+2.3.1.2. 
+Détermination du facteur « Connectivité » 
+Le niveau de « Connectivité » correspond à la catégorie la plus élevée définie dans le tableau 
+précédent. 
+N. 
+Intitulé 
+Besoins fonctionnels 
+Remarques 
+C1 
+Système isolé 
+ 
+Le système est dédié à un 
+site, à un ou plusieurs 
+bâtiments. Il ne sort pas du 
+site, du ou des bâtiment(s). 
+ 
+OU 
+ 
+La 
+maintenance 
+est 
+réalisée 
+sur 
+site 
+et 
+directement 
+sur 
+les 
+équipements, 
+si 
+nécessaire au moyen d’un 
+poste 
+de 
+maintenance 
+maîtrisé (sans déport). 
+Le 
+réseau 
+de 
+production 
+est 
+complétement fermé.  
+Les 
+services 
+sont 
+réalisés 
+directement sur le système ou à 
+distance au moyen d’un réseau 
+local dédié. 
+La maintenance n’est pas déportée 
+dans une autre pièce ou bâtiment 
+ou elle est déportée par une liaison 
+point à point. 
+Si 
+le 
+système 
+utilise 
+des 
+technologies sans fil, le niveau 
+est de 3.  
+Le 
+système 
+peut 
+utiliser 
+la 
+technologie sans contact. 
+C2 
+Système connecté à un 
+réseau d’information de 
+gestion maîtrisé 
+ 
+Le système échange des 
+données avec un système 
+d’information de gestion* 
+au moyen d’un réseau 
+local relevant du ministère.
+ET 
+Les données sont traitées 
+et stockées sur le site. 
+ET 
+Aucun service n’est réalisé 
+à partir de l’extérieur du 
+système industriel. 
+OU 
+La maintenance sur site 
+est 
+réalisée 
+à 
+partir 
+d’équipements 
+maîtrisés 
+Le 
+réseau 
+de 
+production 
+est 
+connecté au système d’information 
+de gestion* de l’entreprise. Celui-ci 
+peut 
+être 
+interconnecté 
+avec 
+Internet. 
+Cependant 
+aucune 
+opération depuis l’extérieur du 
+système d’information de gestion* 
+n’est autorisée. 
+Si 
+le 
+système 
+utilise 
+des 
+technologies sans fil, le niveau 
+est de 3. 
+Le 
+système 
+peut 
+utiliser 
+la 
+technologie sans contact.

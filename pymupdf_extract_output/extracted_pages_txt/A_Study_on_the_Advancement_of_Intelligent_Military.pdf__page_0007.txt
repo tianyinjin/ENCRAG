@@ -1,0 +1,56 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page: 7 / 12
+
+================================================================================
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+FIGURE 7. Setting up an environment in a Unity simulator.
+model to generalize its learning more effectively [47]. There-
+fore, in our domain randomization study, we implement this
+by positioning tanks at various angles and locations across
+different terrains. Additionally, we use a range of structures
+to conceal them. These include concrete roofs, fortified en-
+emy positions, and trees. This enhances the randomness and
+complexity of the training environment.
+2) Observation, Action, Reward
+Observations provided to the agent are categorized into image
+data and vector data as outlined in Table 2.
+TABLE 2. Types of observational inputs for reinforcement learning agent
+Type of Observation
+Description
+Image Data
+Bounding box included image
+Vector Data
+Detection confidence level
+Camera tilt angle
+Drone rotation angle
+Drone x-axis coordinate
+Drone z-axis coordinate
+Drone x-axis velocity
+Drone z-axis velocity
+* Drone y-axis altitude controlled by PID
+Image data comprises 84x84x3 images with bounding
+boxes marked in purple as illustrated in Figure 8. Vector
+data is comprised of seven variables, detailed as follows.
+The detection confidence level spans from 0% to 100%. The
+camera tilt angle refers to the angular position of the camera
+attached underneath the drone in relation to its tilting around
+the x-axis. The drone rotation angle represents the angular
+rotation of the drone itself around the y-axis. The units for the
+drone’s x and z-axis coordinates and velocities are in meters
+(m) and meters per second (m/s), respectively. Since the
+drone’s altitude, corresponding to the y-axis, is autonomously
+regulated by PID control, the agent is not required to manage
+it, hence it is omitted from the observations.
+FIGURE 8. Image observation at 84×84×3.
+FIGURE 9. Vision and vector-based reinforcement learning architecture.
+Figure 9 demonstrates the integration of image and vector
+data which is then utilized by the reinforcement learning
+algorithm. The image data undergoes processing through
+a ResNet [48] visual encoder to produce a feature map.
+VOLUME 11, 2023
+7
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4

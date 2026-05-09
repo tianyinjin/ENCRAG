@@ -1,0 +1,104 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 29 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+56 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 57
+Sécuriser les réseaux n’est pas suffisant pour contrer l’ensemble des menaces 
+sur les communications. Il est très souvent nécessaire de sécuriser les flux audio, 
+vidéo, de messagerie instantanée (chat) ou de données. De même, le dévelop-
+pement de la visio-conférence pour du travail collaboratif à haute valeur ajoutée 
+nécessite la mise en place de solutions adaptées. Les solutions VPN (Virtual 
+Private Network) utilisées notamment pour l’accès à distance à des réseaux 
+d’entreprises par des postes nomades sont également à prendre en compte 
+dans cette catégorie.
+Les nouvelles technologies dites de « blockchain » qui permettent de sécuri-
+ser les transferts d’information ou les transactions sans tiers de confiance ou 
+organe central de contrôle vont jouer un rôle majeur dans les années à venir 
+dans un certain nombre de domaines. Elles viennent compléter les solutions 
+plus historiques, qui restent toutefois indispensables pour la sécurisation des 
+transactions monétaires.
+Les réseaux industriels ou plus généralement les systèmes de contrôle indus-
+triel (SCI), parfois improprement appelés SCADA (Supervisory Control and 
+Data Acquisition, le logiciel du système de contrôle industriel), se retrouvent 
+dans une infinité de domaines que ce soit pour le pilotage de processus industriels, 
+la gestion technique bâtimentaire, ou de nombreux systèmes d’armes. 
+Leur positionnement à l’interface entre un domaine informatique (des applications 
+métiers) et un système physique via des ensembles de capteurs et d’actionneurs, 
+en font des systèmes particulièrement sensibles en terme de sécurité. 
+Comme l’ont prouvé des exemples médiatisés (Stuxnet, Flame…), une attaque 
+informatique sur des systèmes de ce type peut avoir des conséquences dans 
+le monde physique, provoquant des pertes de services (coupure électrique, 
+perturbation de l’alimentation en eau potable…) voire des accidents entrainant 
+des pertes humaines (blocage de la manœuvrabilité d’un navire dans un port 
+ou en mer…). 
+Ce domaine pose de nombreux défis, dus notamment aux spécificités de ce 
+milieu :
+• Systèmes souvent temps réel ;
+• Difficultés de mise à jour des équipements (coût de l’arrêt d’une ligne de 
+production, accessibilité…) ;
+• Protocoles parfois spécifiques ;
+• …
+Ce domaine inclut également la sécurisation des solutions de robotique et des 
+solutions de chaine logistique (supply chain).
+Les solutions informatiques existantes, dites « sur étagères », ne sont donc pas 
+capables de répondre à tous les besoins. Ce domaine est très vaste et encore 
+peu exploré, même si la profusion d’articles scientifiques sur le sujet et les pro-
+ductions des grands fournisseurs de solutions évoluent rapidement.
+Ce chapitre concerne l’ensemble des équipements et des solutions qui 
+constituent les réseaux de transmissions et de communications, du niveau 
+1 au niveau 3. Il regroupe les équipements de transmission électriques 
+ou optiques, les commutateurs des réseaux locaux (Local Area Network 
+(LAN) de niveau 2 ainsi que les routeurs d’accès, d’agrégation et de cœur 
+de réseau de niveau 3. 
+La sécurité des réseaux est un domaine historique de la SSI. En dehors 
+du chiffrement des liaisons qui est bien maîtrisé, se pose la question de la 
+maîtrise des équipements, des protocoles et des services qui constituent 
+le cœur des réseaux des opérateurs. Le fonctionnement global de notre 
+société repose sur la disponibilité des services de communication, et les 
+conséquences d’un arrêt général ces services aurait un impact considérable, 
+tant sur le fonctionnement de l’Etat que celui des entreprises. L’évolution 
+vers des architectures réseau dites SDN (Software Defined Networking), 
+la virtualisation et donc potentiellement la délocalisation de fonctions 
+intelligentes des réseaux ) va engendrer des problèmes de sécurité et de 
+confiance d’un genre nouveau.
+Dans un autre registre, l’interconnexion de réseaux de sensibilités différentes, 
+la connexion entre un Intranet et Internet, entre un réseau industriel et 
+un réseau bureautique, les nouveaux usages (par exemple Bring Your 
+Own Device (BYOD), en français Apportez Votre Equipement personnel 
+de Communication (AVEC)) génèrent de nouveaux problèmes: fuite des 
+données sensibles de l’entreprise, intégrité des données, pollution du SI 
+par des logiciels malveillants, déni de service… 
+C.10.1 _Mobilité-Nomadisme
+Le domaine du nomadisme va concerner plusieurs types de préoccupations :
+• La sécurité des terminaux : 
+Outils de travail au quotidien, les smartphones ou tablettes contiennent 
+des informations sensibles pour les entreprises et sont particulièrement 
+susceptibles d’être perdus ou volés. Par ailleurs ils ont souvent un 
+usage mixte (privé/professionnel) qui les rend vulnérables à de multiples 
+problèmes de sécurité. La généralisation des comportements de type 
+BYOD ne font qu’augmenter les risques encourus ;
+• La gestion des terminaux et des applications : 
+Les flottes de terminaux peuvent compter des centaines voire des milliers 
+d’objets qu’il faut pouvoir gérer, tracer, mettre à jour… Le problème est 
+identique pour les applications métiers ;
+• Les accès aux systèmes d’information de l’entreprise : 
+Les terminaux mobiles doivent se connecter au(x) SI de l’entreprise. Il 
+faut se prémunir contre les usurpations, les connexions suite à un vol 
+ou à une perte d’un terminal ou des données qu’il contient, des intrusions 
+via ces points d’accès externes.
+C.7 
+Communications 
+et transactions
+C.8 
+Réseaux 
+industriels 
+C.9 
+Réseaux
+C.10 
+Terminaux et  
+objets connectés

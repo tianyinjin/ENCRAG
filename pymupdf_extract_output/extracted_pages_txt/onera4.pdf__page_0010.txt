@@ -1,0 +1,43 @@
+Source file: onera4.pdf
+Relative path: onera4.pdf
+Page: 10 / 48
+
+================================================================================
+
+sorte de capteurs chimiques/biologiques capables de détecter pollution et 
+radiations).  
+• 
+Un éventuel traitement à bord des données, par des calculateurs, afin de les 
+rendre directement et plus rapidement exploitables, en vol (mise à un format 
+spécifique) ou au sol (restitution d'images pour interprétation par l'opérateur), 
+et suivi, si nécessaire, de leurs fusion/compression.  
+• 
+Une possible sélection à bord des informations «utiles» qui seront transmises 
+vers le sol, requérant une pré-analyse des données acquises (effectuée par 
+des processeurs, par comparaison aux critères entrés en mémoire). 
+L'ensemble des ces données peut aussi être enregistré à bord, pour envoi 
+différé ou pour dépouillement ultérieur après retour au sol.  
+ 
+Seeker II © Kentron 
+Un système spécifique produit l'énergie électrique nécessaire au fonctionnement de 
+l'ensemble des équipements embarqués. Comme sur un avion, cette énergie est 
+obtenue par transformation de l'énergie mécanique prélevée sur la partie tournante 
+du moteur (arbre de l'hélice ou de la turbine).  
+Certaines charges utiles requièrent une grande quantité d'énergie, qui s'ajoute à celle 
+consommée par les autres équipements. Ce paramètre peut devenir dimensionnant 
+pour le drone et sa mission. Dans certains cas, et sur les drones de grande taille, un 
+petit turboréacteur d'appoint ou APU (Auxiliary Power Unit) est nécessaire.  
+Un système de transmission de données entre le drone et le sol, achemine à la fois 
+les ordres venant du sol (en temps réel) et les informations envoyées par le drone 
+(en temps réel ou différé, le plus souvent par intermittence). Cette transmission 
+s'effectue par télécommunication, soit en portée optique (ligne directe) sur de courtes 
+distances - jusqu'à 150 km ; soit en utilisant un relais, ce dernier pouvant être un 
+satellite ou un autre vecteur aérien (avion ou drone).  
+Dans les deux cas, la densité des données transmises (malgré fusion et 
+compression) peut nécessiter des grands débits. En outre, la haute définition, en 
+matière d'imagerie, n'est pas compatible avec une vitesse de transmission trop 
+élevée.  
+La transmission par laser constitue une prospective qui demandera, d'une part, une 
+connaissance précise de la position du drone, d'autre part, une parfaite stabilité du 
+dispositif émetteur et ce, de façon à assurer avec précision et de façon constante la 
+projection des faisceaux.

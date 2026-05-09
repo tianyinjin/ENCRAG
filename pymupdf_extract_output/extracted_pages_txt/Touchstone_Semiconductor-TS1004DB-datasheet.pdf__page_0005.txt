@@ -1,0 +1,118 @@
+Source file: Touchstone_Semiconductor-TS1004DB-datasheet.pdf
+Relative path: Touchstone_Semiconductor-TS1004DB-datasheet.pdf
+Page: 5 / 7
+
+================================================================================
+
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board 
+TS1002DB/TS1004DB r1p0 
+ 
+Page 5 
+ 
+ 
+ 
+RTFDS 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COMPONENT LIST 
+ 
+ 
+DESIGNATION 
+TS1004 
+QTY 
+DESCRIPTION 
+C1, C4, C5 
+3 
+0.1µF ± 10% 
+capacitors (0805)  
+C2, C3 
+2 
+1µF ±10% 
+capacitors (0805) 
+R15 
+1 
+665kΩ ± 1% 
+resistor (0805) 
+R18 
+1 
+500kΩ ± 1% 
+resistor (0805) 
+R13, R14, R17 
+3 
+1MΩ ± 1% 
+resistors (0805) 
+R1, R2 
+2 
+1.25MΩ ± 1% 
+resistors (0805) 
+R11, R12, R16 
+3 
+2MΩ ± 1% 
+resistors (0805) 
+U1 
+2 
+TS1004 Quad Op-
+Amps 
+VDD, VIN, VIN-1, 
+VOUT, VOUT-1, 
+Out_B, Out_C 
+7 
+Test points  
+ 
+DESIGNATION 
+TS1002 
+QTY 
+DESCRIPTION 
+C1, C2, C3 
+3 
+0.1µF ± 10% 
+capacitors (0805)  
+C4, C5 
+2 
+1µF ±10% 
+capacitors (0805) 
+R8 
+1 
+665kΩ ± 1% 
+resistor (0805) 
+R5 
+1 
+500kΩ ± 1% 
+resistor (0805) 
+R3, R4, R6 
+3 
+1MΩ ± 1% 
+resistors (0805) 
+R9, R10 
+2 
+1.25MΩ ± 1% 
+resistors (0805) 
+R1, R2, R7 
+3 
+2MΩ ± 1% 
+resistors (0805) 
+U1 
+1 
+TS1002 Dual Op-
+Amps 
+VDD, VIN, VIN-1, 
+VOUT, VOUT-1 
+5 
+Test points  
+ 
+ 
+ 
+ 
+Figure 8. TS1002 and TS1004 Non-Inverting Configuration Input and Output signals 
+500µs/DIV  
+VIN-1 
+200mV/DIV 
+VOUT-1 
+200mV/DIV

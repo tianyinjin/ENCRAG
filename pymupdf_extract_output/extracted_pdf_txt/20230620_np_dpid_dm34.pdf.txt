@@ -1,0 +1,1684 @@
+Source file: 20230620_np_dpid_dm34.pdf
+Relative path: 20230620_np_dpid_dm34.pdf
+Page count: 34
+Extracted pages: 33
+
+================================================================================
+
+[Page 1 / 34 | chars: 442]
+--------------------------------------------------------------------------------
+
+1/34 
+ 
+ 
+ 
+ 
+DIRECTIVE CENTRALE 
+MINISTERIELLE N° 34 
+RELATIVE AUX ARTICLES 
+CONTRÔLÉS DE LA 
+SÉCURITÉ DES SYSTÈMES 
+MINISTÈRE DES ARMÉES 
+ 
+Edition n°2
+ 
+ 
+Le vice-amiral Denis Bertrand 
+ 
+Directeur de la protection des installations, 
+moyens et activités de la défense, 
+haut fonctionnaire correspondant de 
+défense et de sécurité adjoint 
+ 
+original signé et publié par note 
+n°128/2023/ARM/DPID/NP du 20 juin 2023 
+Paris, le 20 juin 2023
+
+[Page 3 / 34 | chars: 1094]
+--------------------------------------------------------------------------------
+
+3/34 
+ 
+INTRODUCTION 
+La présente directive a pour objet de préciser les exigences de gestion des articles contrôlés 
+de la 
+ du ministère
+générale interministérielle 1300 sur la protection du secret de la défense nationale [IGI1300], 
+ACSSI [II910] et 
+900 sur la protection du secret et des informations diffusion restreinte et sensibles [IM900]. 
+Elle abroge la directive 34  version du 10 mars 2015. 
+La présente directive ne traite ni des données liées au chiffre, ni de la gestion des réseaux 
+de chiffrement. Les ACSSI constituent l'une des composantes privilégiées de la sécurisation 
+d'un système d'information (cf. Instruction interministérielle 500bis relative au chiffre dans la 
+sécurité 
+[II500bis]). Les ACSSI concourent, en particulier, à la mise 
+e des réseaux de chiffrement. 
+Armées 
+(MINARM) détenant ou manipulant des ACSSI, ainsi qu'à toute personne physique ou morale 
+sous contrat ou sous tutelle du ministère détenant ou manipulant des ACSSI. 
+Elle peut être déclinée par chaque autorité qualifiée 
+(AQSSI) concernée afin 
+définitions restent applicables stricto sensu.
+
+[Page 4 / 34 | chars: 4079]
+--------------------------------------------------------------------------------
+
+4/34 
+ 
+TABLE DES MATIÈRES 
+INTRODUCTION......................................................................................................................................3 
+ 
+GÉNÉRALITÉS ...................................................................................................................................6 
+ 
+Définition et typologie des ACSSI .........................................................................................6 
+ 
+Attribution de la mention ACSSI ...........................................................................................7 
+ 
+Retrait de la mention ACSSI ...................................................................................................7 
+ 
+Gestion spécifique des ACSSI ................................................................................................7 
+ 
+ ........................................................................8 
+ 
+CHAINE FONCTIONNELLE ET RESPONSABILITÉS ......................................................................9 
+ 
+Responsabilités pour la gestion des ACSSI ..........................................................................9 
+ 
+Chaine fonctionnelle ACSSI ................................................................................................. 11 
+ 
+Rôles particuliers .................................................................................................................... 11 
+ 
+SUIVI EN GESTION DES ACSSI .................................................................................................... 13 
+ 
+Définition du suivi .................................................................................................................. 13 
+ 
+Principes généraux ................................................................................................................. 13 
+ 
+ .................................................................................... 13 
+ 
+Modalités de suivi ................................................................................................................... 14 
+ 
+G
+ .............................................................................................. 16 
+ 
+Principes................................................................................................................................... 16 
+ 
+ ........................................... 16 
+ 
+ ............................................. 17 
+ 
+Conditions de délivrance 
+non classifié ........................................................................................................................................ 17 
+ 
+non classifié ........................................................................................................................................ 17 
+ 
+MANIPULATION DES ACSSI ......................................................................................................... 18 
+ 
+Marquage des ACSSI .............................................................................................................. 18 
+ 
+Protection des ACSSI tout au long de leur cycle de vie ................................................... 18 
+ 
+CONTRÔLES ET INSPECTIONS ................................................................................................... 22 
+ 
+Contrôles récurrents prescrits par la chaîne organique .................................................. 22 
+ 
+Contrôles récurrents réalisés par la chaîne fonctionnelle .............................................. 23 
+ 
+GESTION DES INCIDENTS........................................................................................................... 24 
+ 
+Définitions .............................................................................................................................. 24 
+ 
+Principes.................................................................................................................................. 24 
+ 
+ ...................................................................................................... 24 
+ 
+ ........................... 25
+
+[Page 5 / 34 | chars: 931]
+--------------------------------------------------------------------------------
+
+5/34 
+ 
+ 
+ ........................................ 25 
+ 
+ ............................................................................................................. 25 
+ 
+Délais de traitement des incidents ..................................................................................... 26 
+ 
+ORGANISATION ET RESPONSABILITÉS RELATIVES AUX MOYENS ET INFORMATIONS 
+ÉTRANGERS .......................................................................................................................................... 26 
+ 
+Définitions .............................................................................................................................. 26 
+ 
+Organisation ........................................................................................................................... 26 
+ 
+Cohérence des mentions de classification ........................................................................ 27
+
+[Page 6 / 34 | chars: 2054]
+--------------------------------------------------------------------------------
+
+6/34 
+ 
+ 
+GÉNÉRALITÉS 
+ 
+Définition et typologie des ACSSI 
+ 
+Définition 
+« Certains moyens, tels que les dispositifs de sécurité ou leurs composants, et certaines 
+informations relatives à ces moyens (spécifications algorithmiques, documents de conception, 
+spécifique visant à assurer leur traçabilité et leur intégrité tout au long de leur cycle de vie. Ces 
+moyens et informations, appelés « articles contrôlés de la sécurité des systèmes 
+ » [IGI 1300]. 
+Au titre de la présente directive, ne sont considérés comme ACSSI que les moyens et supports 
+physiques 
+particulier en cas de compromission suspectée ou avérée (perte ou incident de sécurité 
+remettant en cause 
+ 
+). 
+Les 
+traçabilité tout au long de leur cycle de vie et à permettre de déceler et de traiter tout incident 
+de sécurité dans les meilleurs délais. À cet effet, les agents manipulant ou exploitant des ACSSI 
+doivent recevoir une formation spécifique. 
+Les ACSSI portent un marquage spécifique les identifiant comme tels. 
+mesures de protection.  
+ 
+ 
+Typologie 
+ complémentaires, 
+physiques, logiques et juridiques. 
+protection. 
+Les ACSSI sont répartis en deux catégories : 
+- les ACSSI classifiés, qui sont à la fois ACSSI et classifiés Secret ou Très Secret. Ils seront 
+désignés et marqués ACSSI S ou ACSSI TS ; 
+- les ACSSI non classifiés, qui sont à la fois ACSSI et non classifiés (Diffusion Restreinte ou 
+Non Protégé). Ils seront désignés et marqués ACSSI DR ou ACSSI NP. 
+Les deux mentions
+distinctes et complémentaires : 
+- distinctes car la dénomination « Non Protégé » 
+ie ; 
+- 
+contraintes de traçabilité et de manipulation. 
+La mention de classification peut être complétée, si nécessaire, par une mention 
+complémentaire de protection (exemple : « Spécial France »). 
+Sauf mention contraire, le terme ACSSI désignera indifféremment, dans la suite du document, 
+les ACSSI classifiés et les ACSSI non classifiés. 
+Le cas des équivalents étrangers des ACSSI est traité au chapitre 8 (Organisation et 
+responsabilités relatives aux moyens et informations étrangers).
+
+[Page 7 / 34 | chars: 1817]
+--------------------------------------------------------------------------------
+
+7/34 
+ 
+Cas particulier des équipements de cryptographie ACSSI : 
+Le niveau de protection des équipements de cryptographie dépend de leur état (stockage, 
+exploitation, maintenance, expertise, etc.). Le marquage1 
+équipements correspond à leur niveau de protection pour les phases de stockage. Le niveau 
+indiqué est utilisé pour le suivi des ACSSI. Les mesures de protection à appliquer durant toute 
+autre phase (et notamment lors du transport) sont détaillées dans la présente directive au 
+chapitre V : Manipulation des ACSSI. 
+ Attribution de la mention ACSSI 
+homologation). 
+ion de la mention ACSSI relève : 
+- lors des phases de conception et de développement des équipements de sécurité 
+numérique, de 
+ ou son représentant, au profit de laquelle le système est développé 
+en coordination avec 
+ 
+ANSSI) ; 
+- e
+ ; 
+- pour les équipements exclusivement conçus et utilisés par la direction générale de la 
+AQSSI DGSE ; 
+P
+ 
+opérations 
+les matériels 
+importés (OTAN, UE, pays alliés notamment) identifiés articles « Communication Security » 
+(COMSEC) 
+, la direction générale de 
+DGA) définit, dans le respect des accords internat
+matériel en indiquant les éventuelles mentions afférentes Controlled Cryptographic Item ou 
+Controlled COMSEC Item (CCI) 
+éléments sont communiqués aux AQSSI utilisatrices. Elles sont chargées de les faire appliquer 
+au sein de leur organisation. 
+e opération 
+AQSSI 
+e 
+, dans 
+le respect des accords de sécurité 
+matériel. 
+ispositifs du même 
+type présent au sein du MINARM. 
+ Retrait de la mention ACSSI 
+ayant attribué.  
+ Gestion spécifique des ACSSI 
+la sécurité (confidentialité, intégrité, disponibilité et authenticité) des ressources essentielles 
+otègent. 
+ 
+                                                          
+1 « ACSSI » + niveau de protection/classification
+
+[Page 8 / 34 | chars: 1721]
+--------------------------------------------------------------------------------
+
+8/34 
+ 
+Cette gestion spécifique, appelée gestion ACSSI, recouvre les fonctions suivantes : 
+- 
+-à-dire la concrétisation des actes de création, de prise en compte, 
+de modification ou de destruction liés à la « vie » des ACSSI et regroupés sous la 
+terminologie : « comptabilité ACSSI » ; 
+- 
+associés ; 
+- la validation2 
+par les chaînes « emploi » ; 
+- la réalisation des inventaires et le contrôle de la manipulation et de la protection conformes 
+des ACSSI3. 
+Cette gestion spécifique a pour but 
+détection et le traitement des incidents de sécurité sur les ACSSI4. 
+dispositif de sécurité appartient.  
+ 
+le suivi de 
+(cf. paragraphe suivant) et nécessairement : 
+- 
+une organisation dont les principes sont définis au chapitre 2 ; 
+- 
+ ; 
+- 
+ne le précise pas, le choix appartient à ou aux AQSSI 
+. 
+ P
+ 
+Le suivi en gestion des ACSSI se décline en suivi en gestion centralisée et suivi en gestion locale, 
+qui prend au MINARM et dans la suite de la présente directive 
+ suivi en gestion 
+déléguée ». 
+ 
+Suivi en gestion centralisée 
+ : 
+- un premier niveau central, en mesure de fournir une vision globale des ACSSI déployés au 
+organisme et, le cas échéant, ceux distribués aux niveaux déconcentrés ; 
+- 
+à une 
+entité des ACSSI mis à disposition par le premier niveau central. 
+ 
+Suivi en gestion déléguée 
+pas. Seules les AQSSI du MINARM 
+peuvent réaliser une délégation de gestion. 
+Le suivi en gestion déléguée repose sur des structures ayant reçu délégation des AQSSI. Les 
+ACSSI peuvent alors être gérés directement par ces structures selon leur organisation, sans que 
+ 
+                                                          
+2 
+ 
+3 
+ 
+4 La gestion des incidents de sécurité est décrite au chapitre 7.
+
+[Page 9 / 34 | chars: 2023]
+--------------------------------------------------------------------------------
+
+9/34 
+ 
+Les structures ayant reçu délégation communiquent sur demande, autant que de besoin, à 
+ 
+Un service (notamment un service de soutien interamées), peut se voir confier une délégation 
+de gestion au niveau ministériel pour des équipements appartenant à plusieurs AQSSI, chaque 
+AQSSI devant alors formaliser cette délégation. 
+La décision de délégation doit être formalisée et doit préciser les modalités selon lesquelles 
+traçabilité des ACSSI dont la gestion a été déléguée. Cette délégation précise également les 
+modalités 
+ 
+ 
+CHAINE FONCTIONNELLE ET RESPONSABILITÉS 
+ Responsabilités pour la gestion des ACSSI 
+ 
+Autorité responsable de la gestion des ACSSI 
+onnaire correspondant de 
+défense et de sécurité (HFCDS). Désigné par le ministre et relevant directement de lui, le 
+HFCDS veille au déploiement au sein du MINARM des moyens sécurisés de communication 
+ctionnement5. À ce titre, il a la 
+des ACSSI. 
+Cette responsabilité est déléguée 
+ 
+directeur de la protection des installations, moyens et activités de la défense (DPID). Ce dernier 
+cette responsabilité. 
+Les organismes soit sous la tutelle du MINARM, soit ayant des liens contractuels avec le 
+ministère les amenant à traiter des ACSSI, ont pour autorité responsable de la gestion des 
+ACSSI le HFCDS. 
+ 
+Autorités qualifiées 
+ 
+Conformément à l'[IGI1300], les AQSSI sont responsa
+réglementaires prescrites pour la gestion des ACSSI, y compris dans les échelons déconcentrés 
+de leur périmètre. 
+Chaque AQSSI 
+centralisée des ACSSI. 
+unique pour chaque AQSSI. 
+ 
+Niveau central : le gestionnaire central ACSSI 
+Situé au niveau haut de la chaîne fonctionnelle ACSSI 
+AQSSI, le gestionnaire central 
+ACSSI : 
+- dirige la gestion centralisée des ACSSI classifiés (obligatoire) et non-classifiés lorsque la 
+ ;  
+- e
+organe de synthèse de circonstance concernant les ACSSI (moyens ou informations) 
+gestion déléguée sur le périmètre de son AQSSI. 
+ 
+                                                          
+5 Article R1143-5 du code de la défense.
+
+[Page 10 / 34 | chars: 1800]
+--------------------------------------------------------------------------------
+
+10/34 
+ 
+AQSSI, 
+de son organisation. À ce titre, il entretient des liens fonctionnels avec les structures qui se 
+ Il contrôle les têtes de chaîne des 
+ACSSI au sein de leur chaîne. 
+Ainsi, au titre de la gestion des ACSSI, les missions du niveau central sont les suivantes : 
+- mission « suivi et traçabilité des ACSSI » : 
+ assurer le suivi et la traçabilité des ACSSI placés en gestion centrale ; 
+ 
+ été 
+déléguée. 
+- mission « contrôle » : 
+ 
+. 
+- mission « traitement des incidents » : 
+ assurer la détection des cas de perte, vol et altération des équipements en lien avec la 
+mission traçabilité ; 
+ t
+-
+ 
+ 
+Niveau déconcentré : les cellules ACSSI 
+Aux niveaux déconcentrés, les cellules ACSSI exécutent les actes de gestion décidés par le 
+gestionnaire central ACSSI et sont responsables de la conservation des ACSSI non attribués à 
+un utilisateur. 
+Ils mettent en place les moyens (matériels et/ou organisationnels) pour détecter les incidents, 
+en rendre compte au niveau central et prendre toute mesure immédiate appropriée sur leur 
+périmètre de responsabilité. 
+ 
+Niveau utilisateur : chef 
+et exploitant 
+Les détenteurs 
+ACSSI 
+es ACSSI leur sont confiés en exé
+ sont alors responsables de la conservation et du bon usage 
+de ces derniers. 
+Dans certaines entités exploitant des ACSSI, un agent de sécurité des ACSSI peut être désigné 
+par le commandement pour assurer certains actes de gestion des ACSSI et notamment faire 
+prendre en compte les ACSSI par les « exploitants », afin d assurer la traçabilité jusqu
+ la 
+personne qui utilise effectivement l ACSSI. L agent de sécurité des ACSSI est le point de 
+contact privilégié entre la chaîne fonctionnelle ACSSI et l entité. 
+responsabilités. 
+une formation spécifique pour assurer ses missions. 
+ 
+responsable de rend
+ACSSI.
+
+[Page 11 / 34 | chars: 1905]
+--------------------------------------------------------------------------------
+
+11/34 
+ 
+ Chaine fonctionnelle ACSSI 
+En lien avec les chaînes fonctionnelles de sécurité numérique, et de défense-sécurité, la chaîne 
+fonctionnelle ACSSI est chargée de prescrire, 
+appliquer (pour ce qui la concerne), de 
+ des mesures de 
+e traitement de ces derniers.  
+La chaîne fonctionnelle ACSSI du ministère est constituée par la réunion des parties 
+tités subordonnées. 
+échelon circonstanciel de coordination central qui dispose au besoin 
+concernant plusieurs AQSSI
+ 
+Sont inclus dans la chaîne fonctionnelle ACSSI :  
+- les AQSSI ; 
+- les gestionnaires centraux ACSSI ;  
+- les cellules ACSSI ; 
+- les gestionnaires délégués ; 
+- les agents de sécurité des ACSSI. 
+Les utilisateurs (i.e. 
+ 
+Une AQSSI peut décider de déléguer la gestion de ses ACSSI à une autre AQSSI du MINARM. 
+r à disposition de 
+ 
+ Rôles particuliers 
+ 
+Responsabilités vis-à-
+ 
+La National Distribution Agency (NDA) 
+responsable de la gestion centralisée 
+(limitée à la traçabilité) du matériel et des informations cryptographiques :  
+- mis à disposition du MINARM par des partenaires étrangers (OTAN, UE, autres partenaires 
+étatiques ou industriels étrangers) ; 
+- mis à disposition par le MINARM à des partenaires étatiques ou industriels étrangers ; 
+- acquis par le MINARM auprès de partenaires étatiques ou industriels étrangers. 
+Dans certains cas particuliers, le périmètre de responsabilité de la 
+spécifiques. 
+Concernant les acheminements, la NDA valide le plan de transport des matériels et 
+informations cryptographiques de son périmètre de gestion. 
+L
+ et informations cryptographiques fasse 
+comptabilisation complète et soit manipulé, conservé, et distribué dans les conditions de 
+sécurité6 prévues. 
+Pour assurer la traçabilité, conformément au [SDIP293/1] 
+[TECH-I01] pour 
+des autres partenaires étrangers : 
+ 
+                                                          
+6 Conformément au C-M(2002)49.
+
+[Page 12 / 34 | chars: 2424]
+--------------------------------------------------------------------------------
+
+12/34 
+ 
+- assurer la comptabilité des matériels et informations cryptographiques pris en compte ; 
+- 
+des matériels et informations cryptographiques 
+détenus ; 
+- pouvoir accéder aux informations rel
+chacun des matériels et informations cryptographiques, y compris pour les équipements 
+transmis à un industriel pour des opérations de maintien en condition opérationnelle ;  
+- faire inspecter ou contrôler les chaînes fonctionnelles ACSSI périodiquement. 
+ 
+Rôle 
+ 
+AQSSI DGA. A ce titre, il détermine le niveau de 
+gestion de tous les ACSSI acquis ou mis à disposition de la DGA. Cette gestion est à distinguer 
+de la gestion logistique des biens, qui doit être assurée par les gestionnaires de biens et/ou les 
+gestionnaires de biens délégués, et qui couvre l'ensemble des actions relatives à la vie logistique 
+conformément à [INSGESTLOG]. 
+particulières de gestion et de distribution pour que la sécurité des ACSSI soit maîtrisée par les 
+uniquement vis-à-vis de la gestion des ACSSI et ne couvre pas leur emploi. 
+En application de 
+ les entités de droit privé sont responsables 
+des procédures réglementaires prescrites pour la gestion des ACSSI.  Ces entités doivent être 
+en mesure de fournir au CRPA et au HFCDS, autant que de besoin, une vision globale des ACSSI 
+qu ils détiennent au titre de l ensemble des contrats passés avec les entités du MINARM.  
+Des inspections programmées ou inopinées sont menées par ou pour le compte du CRPA. Elles 
+mesures de protection. Les chaînes fonctionnelles de chacune des AQSSI du ministère des 
+armées sont en mesure de fournir au CRPA un recensement des ACSSI mis à disposition de 
+.  
+Vis-à-
+echnologique de 
+défense), il faut distinguer les cas décrits dans les paragraphes suivants. 
+ 
+ : 
+Les clauses de mise à disposition applicables sont celles du marché et de son plan contractuel 
+de sécurité (et du cahier des clauses administratives communes « armement »). Le CRPA 
+détermine le niveau de gestion des ACSSI avec le service propriétaire des ACSSI, notamment 
+ 
+Nominalement, le CRPA assure la traçabilité de tous les ACSSI suivis en gestion centralisée 
+auprès 
+DGA7 
+tous les ACSSI, ni la cession des biens ACSSI à la DGA. 
+mesures de sécurité prévues par les contrats, les instructions de sécurité de programme et les 
+accords de sécurité internationaux. 
+ 
+ 
+                                                          
+7 Et contrats de sous-traitance associés.
+
+[Page 13 / 34 | chars: 1439]
+--------------------------------------------------------------------------------
+
+13/34 
+ 
+ 
+ : 
+adre de 
+ 
+ 
+SUIVI EN GESTION DES ACSSI 
+La fonction de suivi et de traçabilité des ACSSI est réalisée pour chaque AQSSI au sein de la 
+chaîne fonctionnelle ACSSI au niveau central à partir des informations remontées par :  
+- le ou les niveaux déconcentrés de la chaîne fonctionnelle ACSSI ; 
+- 
+ifiés. 
+informent leur agent de sécurité des ACSSI qui assure alors le suiv
+ 
+ Définition du suivi 
+ : 
+- 
+ ; 
+- 
+échéant ou le 
+s actes de 
+comptabilité ACSSI) ; 
+- dans le cadre des mises à disposition, pouvoir identifier le gestionnaire central ou le 
+gestionnaire délégué 
+. 
+Dans la mesure du possible, le suivi cherchera également à pouvoir identifier la version 
+. 
+(cf. paragraphe 3.4).  
+Il est 
+. 
+ Principes généraux 
+tion de 
+AQSSI concernée. 
+Certains ACSSI non classifiés 
+AQSSI, être suivis en gestion 
+déléguée par les gestionnaires de biens ou par les gestionnaires de bien délégués du MINARM. 
+Conformément à [ARRGESTLOG], ces derniers assurent la gestion patrimoniale et logistique 
+des biens se substitue à la gestion ACSSI 
+centralisée. Les AQSSI 
+communiquer à leur gestionnaire central. 
+ts 
+gestionnaires de biens. Ils sont clairement identifiés par un marquant spécifique ACSSI dans 
+gestionnaire de bien et la chaîne ACSSI.  
+ 
+SI 
+Des prêts ou des mises à disposition peuvent être réalisés par des gestionnaires centraux et par 
+des gestionnaires délégués, à des AQSSI internes ou externes au MINARM.
+
+[Page 14 / 34 | chars: 2199]
+--------------------------------------------------------------------------------
+
+14/34 
+ 
+Le suivi des ACSSI mis à disposition ou prêtés est réalisé par le gestionnaire central unique de 
+AQSSI qui reçoit le prêt.  
+AQSSI (par exemple, un ACSSI 
+dans le cadre du contrat), le gestionnaire central en charge de la traçabilité du prêt doit 
+autoriser le 
+AQSSI à qui le prêt avait été consenti 
+initialement. 
+Dans tous les cas, le prêt ou la mise à disposition sont effectués dans le c
+liant les parties 
+marché comportant un plan contractuel de sécurité dont la 
+composition est précisée en annexe V à la présente directive. 
+Afin de faciliter les contrôles, chaque gestionnaire, central ou délégué, qui a effectué des prêts 
+est en mesure de fournir 
+ 
+destinataires des prêts. 
+ Modalités de suivi 
+ 
+ 
+Si leur suivi a été délégué, les ACSSI non classifiés sont suivis d
+logistique des gestionnaires de biens. 
+AQSSI, le 
+gestionnaires de biens pour les biens ACSSI ou peut a minima solliciter les gestionnaires ACSSI 
+délégués 
+[ARRGESTLOG]). 
+Pour chaque AQSSI, les ACSSI don
+ sont suivis dans un système 
+de gestion des ACSSI dédié, sous la responsabilité du gestionnaire central ACSSI 
+est réalisée par la chaîne fonctionnelle 
+ACSSI de AQSSI8. La 
+SECRET9. 
+Les données de traçabilité doivent être disponibles à tout moment. Même 
+AQSSI doit être en mesure de connaître 
+ad hoc : 
+- les ACSSI présents sur un site particulier ; 
+- 
+[ARRGESTLOG]) ; 
+- 
+SSI particulier (au sens gestion logistique des biens). 
+Le sui
+même base de données. Celle-ci sera traitée sur un système 
+ niveau de 
+classification adéquat. 
+ 
+Lots 
+Le suivi des ACSSI peut se faire individuellement ou par lot constitué (par exemple, un lot de 
+plusieurs ACSSI identiques conditionnés de manière à garantir globalement leur intégrité ou 
+une unité collective composée de plusieurs ACSSI comme un dispositif de transfert de clés 
+associé à un ou plusieurs bouchons crypto ignition key).  
+ 
+                                                          
+8 
+ 
+sous réserve que la classification des informations relatives aux mouvements de ces derniers soit compatible du système 
+ 
+ 
+9 Toutefois la mention de protection des fichiers ou impressions générées doit être ajustée aux informations effectivement
+
+[Page 15 / 34 | chars: 1862]
+--------------------------------------------------------------------------------
+
+15/34 
+ 
+Lorsque le lot est éclaté, le suivi devient individuel.  
+ 
+Identifiant unique 
+de suivi. En conséque
+n couple 
+ / numéro de nomenclature OTAN (ou, à 
+défaut, de la référence constructeur) 
+AQSSI de gestion.  
+ 
+Entrée en suivi des ACSSI 
+résulte de : 
+- sa prise en compte par un des gestionnaires centraux ou délégués 
+etc. ; 
+- 
+-ROM, transfert sur 
+secrets dont la traçabilité doit être assurée). 
+ 
+Traçabilité des transactions 
+Les transactions suivantes doivent être tracées : 
+- entrée en suivi ; 
+- 
+ ; 
+- inventaire ; 
+- 
+utilisateur, ou reversé par un 
+utilisateur à un comptable ACSSI ; 
+- maintenance (dont, si possible, les mises à jour) ; 
+- sortie du suivi (voir paragraphe 3.4.6) 
+Ces informations doivent a minima se retrouver dans les modèles mis en place par chaque 
+chaîne fonctionnelle ACSSI. 
+Une fois remplies, ces pièces sont les éléments constitutifs de la comptabilité ACSSI. 
+ 
+Sortie du suivi des ACSSI 
+réglementaires, de sa disparition (suite à une perte, un vol, etc.) une fois cet incident traité, du 
+retrait de la mention ACSSI dans le cas particulier des documents, ou de son archivage. 
+La sortie du suivi ne signifie pas que les données du suivi sont supprimées. En effet, les données 
+de traçabilité doivent être conservées au minimum 5 ans après la sortie de suivi. Les durées de 
+conservation effectives et les dérogations à cette règle sont instruites par les AQSSI. 
+identifiée dans le suivi 
+ainsi que la date de sa « récupération ». 
+gestionnaire délégué. 
+Dans les cas de déficits constatés après recensement, de pertes/vols, le responsable concerné : 
+gestionnaire, comptable, utilisateur ou agent de sécurité en charge des ACSSI selon les cas, 
+alerte dans les plus brefs délais la chaine de traitement des incidents.  
+En coordination avec celle-ci, la sortie du suivi de 
+ 
+gestionnaires centraux ACSSI.
+
+[Page 16 / 34 | chars: 2101]
+--------------------------------------------------------------------------------
+
+16/34 
+ 
+Dans les cas de destructions et de certaines détériorations, les gestionnaires centraux ACSSI 
+gestionnaire délégué si la délégation de gestion le prévoit. 
+(missiles notamment), seule une sortie du suivi est réalisée en précisant une mention 
+permettant de déterminer facilement la raison du retrait (« missile tiré » par exemple). Aucun 
+autre document n est exigé (compte-rendu de perte par exemple). 
+Dans le cas des équipements français exportés, les modalités de destruction doivent 
+accompagner le plan contractuel de sécurité. 
+À défaut, la DGA déterminera les modalités de destruction ad hoc. 
+ 
+ACCÈS AUX ACSSI 
+ Principes 
+La sensibilité 
+connaissance de son utilisateur et du personnel chargé de la mise à jour de la base de données 
+ 
+Tous les acteurs amenés à manipuler, gérer les ACSSI ou interagir avec eux doivent avoir fait 
+accès aux ACSSI (DACSSI) 
+manipulation des ACSSI, notamment : 
+- 
+eurs de fonctions de sécurité, etc.) ; 
+- les responsables du suivi des ACSSI aux niveaux central, déconcentré et délégué ; 
+- les manutentionnaires manipulant des ACSSI classifiés et non colisés ; 
+- 
+ 
+ 
+Pour les ACSSI classifiés détenus par des agents du MINARM 
+La gestion de 
+ 
+DACSSI. Celle-ci 
+ sur la nécissité de rendre compte dans les plus brefs délais en 
+ 
+a responsabilité. 
+ 
+Pour les ACSSI non classifiés détenus par des agents du MINARM 
+ est réalisé au travers 
+on à la 
+manipulation des ACSSI. 
+ 
+Pour les agents des entités de droit privé sous contrat avec le MINARM 
+Une DACSSI est obligatoire pour tous les ACSSI, classifiés ou non, conformément aux 
+dispositions de 
+ 
+ 
+ 
+D
+ : 
+- 
+lassifiées de défense au bon 
+niveau dans le cas où ses actions concernent des ACSSI classifiés ou dont les informations 
+manipulées sont classifiées ; 
+- a besoin, en raison de son emploi ou de sa fonction, de manipuler ou exploiter des ACSSI ; 
+- a reçu une form
+10 des ACSSI détenus dans le cadre de son emploi, qui inclut 
+nécessairement un socle commun composé de : 
+                                                          
+10 Manipulation, détention, administration, etc.
+
+[Page 17 / 34 | chars: 1618]
+--------------------------------------------------------------------------------
+
+17/34 
+ 
+ 
+et des opérations préventives pour limiter 
+ 
+ la destruction des moyens 
+informations confiées. 
+ 
+ 
+ 
+Sous réserve de satisfaire aux trois conditions visées au paragraphe précédent, une DACSSI11 
+est délivrée pour une durée maximale de 5 ans, 
+ 
+. Dès 
+lors que le titulaire ne remplit plus les conditions de sécurité requises (fin de validité ou retrait 
+, la DACSSI doit lui être immédiatement retirée. 
+ ou activités (inspections, convoyages, etc.), une DACSSI 
+spécifique peut être délivrée au demandeur. La durée de validité est précisée sur la décision. 
+Les DACSSI ne sont pas protégées. Chaque entité tient à jour un état des décisions en vigueur 
+concernant son personnel. 
+La délivrance et le retrait des DACSSI sont de la responsabilité de chaque AQSSI du ministère. 
+Elle peut déléguer ces fonctions à son gestionnaire central ACSSI ou 
+des DACSSI du personnel de son entité. 
+AQSSI du ministère. Pour les entités de la base industrielle et technologique de défense, hors 
+contractants avec la DGSE, 
+ formation organisée par le 
+c
+ de la DGA. 
+ Conditions de délivrance de 
+classifié 
+La formation est réalisée par un personnel détenant les compétences suffisantes pour détailler 
+les points suivants :  
+- 
+ 
+- 
+ ; 
+- 
+(effacement ou destruction);  
+- modalité de transport ;  
+- 
+ (importance du compte-rendu immédiat) ; 
+- 
+o
+disposition. 
+ Modalités de délivrance de 
+classifié 
+, 
+ comporte une reconnaissance de 
+. Elle est contre signée par le formateur. Elle est 
+  
+ion 
+. 
+                                                          
+11 Le modèle de décision figure en annexe III.
+
+[Page 18 / 34 | chars: 1455]
+--------------------------------------------------------------------------------
+
+18/34 
+ 
+ 
+MANIPULATION DES ACSSI 
+ Marquage des ACSSI 
+Secret ou S 
+/ Très Secret ou TS) ou de protection (Diffusion Restreinte ou DR). Les ACSSI non protégés sont 
+applique tout au 
+ doit toutefois, sauf dérogation, 
+respecter les principes suivants : 
+- le timbre ACSSI de couleur rouge doit être gravé, imprimé ou apposé par étiquette 
+indécollable sur les équipements ; 
+- les supports électroniques ACSSI doivent être identifiés ; 
+- les documents ACSSI doivent être paginés et identifiés12 ; 
+- 
+ 
+Si nécessaire, une mention complémentaire de protection peut être ajoutée (exemple : Spécial 
+France ou SF). 
+ Protection des ACSSI tout au long de leur cycle de vie 
+ 
+Conception et production industrielle 
+Certains moyens et 
+peuvent recev
+du projet seront mieux couverts à 
+ 
+via le fonctionnaire SSI (FSSI) du 
+ministère (en qualité de représentant du DPID). 
+doivent être 
+délivrance de celui-ci. 
+ : 
+- déclaré ACSSI ; 
+- 
+. 
+et susceptible de protéger des informations classifiées, doit comporter un plan contractuel de 
+sécurité. Les informations qui doivent y figurer sont énumérées en annexe V. 
+En outre, le contrat doit comporter des clauses interdisant les possibilités de réutilisation des 
+Il doit également préciser les modalités de destruction ou la 
+destination à donner en fin de contrat aux ACSSI, au travers son plan contractuel de sécurité. 
+donner un tel accord. 
+ 
+                                                          
+12
+
+[Page 19 / 34 | chars: 1754]
+--------------------------------------------------------------------------------
+
+19/34 
+ 
+ 
+Acheminement des ACSSI 
+Les ACSSI 
+[IGI1300] 
+[IM900]. 
+Le terme « acheminement » 
+induisant un risque supplémentaire, il convient de prendre connaissance des agréments de 
+contrac
+toute forme de transport. 
+Sauf contrainte opérationnelle, un plan de transport sera rédigé préalablement à tout 
+acheminement hors métropole. Un plan de transport est recommandé pour les 
+conditions de transport et prend ainsi en compte les risques spécifiques à chaque envoi. Pour 
+les entités ayant conclu un contrat avec le MINARM, les plans contractuels de sécurité doivent 
+inclure ou imposer de fournir 
+contenu. 
+Le transport13 
+profit d
+ACSSI. Il est 
+consécutif à un acte de gestion formalisé. 
+Pour tout transport, que les ACSSI soient classifiés ou non, les mesures suivantes doivent être 
+appliquées : 
+- l
+ACSSI 
+séparé ; 
+- s
+cident de sécurité doit 
+écarté et mis sous scellés. 
+AQSSI doit être informée et peut décider 
+ le FSSI, ce 
+dernier pouvant faire procéder à une expertise. 
+ 
+Transport des ACSSI classifiés 
+Les mesures complémentaires de protection à apporter aux ACSSI classifiés sont identiques à 
+celles indiquées dans les [IGI1300] et 
+[IM900] pour les informations et supports classifiés 
+de même niveau. Par exemple, 
+Secret sont celles du Secret. 
+Par exception, si le colis contenant les moyens et informations est acheminé dans un conteneur 
+ance permanente et directe, 
+notamment lors des passages en douane, sous réserve de respecter la procédure en vigueur au 
+sein du MINARM. 
+ 
+Transport des ACSSI non classifiés 
+[IM900] (fiche 
+7.8) traitant des informations de niveau diffusion restreinte, y compris pour les ACSSI non 
+protégés. 
+ 
+                                                          
+13 
+-
+au paragraphe 5.2.3.
+
+[Page 20 / 34 | chars: 2157]
+--------------------------------------------------------------------------------
+
+20/34 
+ 
+classifiés réalisé par une entité de droit privé, celle-ci doit le réaliser conformément aux 
+[IM900] (fiche 6.9), selon les règles applicables au Secret (sauf conditions 
+ 
+Le transport en conteneur sécurisé homologué par une AQSSI du MINARM ne nécessite pas de 
+sous réserve de respecter la 
+procédure en vigueur au sein du MINARM. 
+Les opérations suivantes sont tracées lors de ces transports : 
+- prise en compte du colis (dép
+ ; 
+- passage aux douanes (le cas échéant) ; 
+- remise du colis au destinataire ; 
+- 
+ 
+ 
+Transports simultanés des clés et des équipements 
+équipement à la clé) à condition que la révocation des clés puisse être effectuée sans impact 
+et que la protection et la 
+adaptées. 
+ 
+Utilisation et circulation 
+Lors de leur utilisation, les ACSSI doivent être manipulés conformément à leur classification 
+notam
+on. 
+Certains ACSSI (chiffreur isolé, équipements portables dont sont dotés les utilisateurs, 
+notamment téléphone chiffrant ou documents) peuvent être utilisés de manière nomade. 
+Dans ce cas, les conditions précises sont définies dans leurs instructions 
+communiquées 
+. 
+ 
+Stockage des ACSSI 
+Pour les ACSSI classifiés, la protection lors des phases de stockage est conforme aux 
+[IM900]14 
+ 
+Pour les ACSS
+stockage (armoires et locaux fermés à clé). Un processus permettant de vérifier cette intégrité 
+doit être mis en place et tout incident doit être remonté. Si cela est possible et raisonnable, 
+les sous-
+ation. 
+ 
+Maintenance 
+ACSSI doivent être soigneusement tracées. Elles font 
+ 
+Dans ce cadre les organismes habilités à réaliser des opérations de maintenance doivent être 
+connus du gestionnaire central ACSSI unique ainsi que la liste des opérations autorisées par 
+matériel (qui doivent figurer dans le plan de maintenance). 
+ 
+                                                          
+14 Comme indiqué précédemment dans la directive, les mesures complémentaires de protection à apporter aux équipements 
+ACSSI classifiés sont identiques à celles des équipements non ACSSI de même classification. Par exemple, les règles à appliquer 
+pour le stockage 
+ équipement ACSSI S sont celles du Secret.
+
+[Page 21 / 34 | chars: 1795]
+--------------------------------------------------------------------------------
+
+21/34 
+ 
+Durant ces opérations, la traçabilité doit porter sur : 
+- 
+ ; 
+- 
+mposants (réparation ou remplacement avec 
+précision de leur configuration) ; 
+- 
+ ; 
+- 
+ ; 
+- 
+ son stockage. 
+é de réaliser cette opération, 
+ conservé au niveau de classification des éléments secrets 
+ 
+ 
+Fin de vie 
+ 
+Destruction 
+énoncés au paragraphe 3.4.6. 
+Préalablement à toute élimination physique, l
+es ACSSI doit respecter le 
+processus décrit dans les instructions traitant de la gestion logistique des biens. Pour toute 
+acquisition 
+ACSSI, les gestionnaires de biens et gestionnaires de biens délégués sont 
+ 
+Tous les ACSSI sont détruits sur ordre du gestionnaire de biens ou du gestionnaire de biens 
+délégué, 
+ 
+Ils sont détruits localement selon les procédures décrites 
+[IM900] vis-à-vis de leur 
+mention de protection ou de classification. Un procès-verbal de destruction est établi 
+Le procès-
+Très Secret. 
+Cas particulier des équipements de cryptographie : 
+Les règles de destruction diffèrent selon leur type : ACSSI classifié, ACSSI non classifié dont au 
+moins un composant interne est classifié ou ACSSI non classifié dont aucun composant interne 
+n est classifié. 
+Les conditions suivantes doivent être réunies : 
+- la personne présente pour la destruction détient une habilitation du niveau des ACSSI 
+DACSSI ; 
+- 
+fié ou sensible pour détruire des 
+informations ou supports classifiés ; 
+- l
+technique de la DGA 
+doivent approuver la procédure de destruction afin de garantir le respect des règles 
+applicables aux composants cryptographiques et à la propriété intellectuelle. 
+Le procès-verbal de destruction doit être cosigné par les deux personnes présentes au moment 
+de la destruction. Le procès-verbal mentionne également les éventuels composants ou sous-
+ensembles eux-mêmes ACSSI.
+
+[Page 22 / 34 | chars: 2430]
+--------------------------------------------------------------------------------
+
+22/34 
+ 
+ : 
+est 
+en 
+eux-mêmes. La formation de chaque exploitant à cette procédure est une condition pour lui 
+délivrer 
+/ ou la DACSSI. 
+ 
+Autres cas 
+Certains équipements de sécurité peuvent être amenés à être volontairement abandonnés 
+(par exemple un chiffreur embarqué dans un missile ou un capteur abandonné sur le terrain) 
+ou non maîtrisés en permanence, avec parfois de fortes probabilités de perte (par exemple un 
+é
+c
+homologation doit 
+décrire les procédures permettant de gérer les différents événements sans entrainer 
+ 
+La mention ACSSI peut ne plus être pertinente sur certains documents. Il est alors possible, 
+après autorisation de 
+plus considérer un document comme ACSSI. Il est alors sorti du suivi, les données de traçabilité 
+on a été 
+retirée et faisant référence à la décision de retrait sur sa première page. 
+ 
+CONTRÔLES ET INSPECTIONS 
+On distinguera différents types de contrôles 
+ : 
+- les contrôles récurrents prescrits par la chaîne organique ou chaîne commandement dans 
+voir paragraphe 6.1 ci-dessous) ; 
+- les contrôles récurrents prescrits par chacune des AQSSI au sein de sa propre chaîne 
+fonctionnelle ACSSI et réalisés par les acteurs de la chaîne fonctionnelle (voir paragraphe 
+6.2 ci-dessous) ; 
+- l
+MINARM sur une entité appartenant à son périmètre de responsabilité, par des inspecteurs, 
+auditeurs et contrôleurs extérieurs à la chaîne fonctionnelle ACSSI mais appartenant au 
+MINARM. Le périmètre et les modalités de ces contrôles sont définis selon les attributions 
+et les méthodes de travail propres à ces inspections. Ils ne sont pas détaillés dans la présente 
+directive ; 
+- l
+MINARM, qui peuvent inclure des contrôles relatifs 
+aux ACSSI (contrôle externe), et se déroulent conformément aux dispositions de 
+ 
+Elles ne sont pas détaillées dans la présente directive ; 
+- les inspections réalisées par la DRSD dans le cadre de ses prérogatives de service enquêteur 
+[IM900]. Elles ne sont pas détaillées dans la présente 
+directive ; 
+- les inspections et audits réalisés par la DGA sur les entités de droit privé détenant des ACSSI 
+[IM900]. Ils ne sont pas détaillés dans la présente directive. 
+ Contrôles récurrents prescrits par la chaîne organique 
+Le commandement a des responsabilités en matière de contrôle interne. Le contrôle interne 
+relatif aux ACSSI porte notamment sur : 
+- la protection des locaux et la sécurité des installations abritant des ACSSI ; 
+- 
+ ;
+
+[Page 23 / 34 | chars: 2134]
+--------------------------------------------------------------------------------
+
+23/34 
+ 
+- les habilitations, DACSSI ainsi que les attestations de formation des personnels manipulant 
+des ACSSI ; 
+- 
+ACSSI, notamment ceux qui sont classifiés ; 
+- 
+inventaire périodique. 
+Les contrôles internes sont réalisés au moins une fois par an. Le résultat de ces opérations de 
+contrôle interne
+ventaire des ACS
+compte-rendu. 
+ Contrôles récurrents réalisés par la chaîne fonctionnelle 
+Chaque AQSSI est responsable de d
+ 
+Chacune des AQSSI du MINARM rend compte annuellement au FSSI du ministère des résultats 
+des contrôles réalisés au sein de sa chaîne fonctionnelle ACSSI. Les entités de droit privé 
+MINARM rendent compte annuellement au 
+CRPA des contrôles effectués. Les entités sous tutelle du MINARM détenant des ACSSI rendent 
+compte annuellement à leur AQSSI de tutelle des contrôles effectués. 
+Les contrôles portent sur : 
+- 
+ ; 
+- le soutien et la maintenance des ACSSI ; 
+- 
+15 
+notamment leur intégrité ; 
+- la vérification des procès-
+ ; 
+- la traçabilité des composants cryptographiques ACSSI ; 
+- le respect des délais de mise à disposition et la réintégration pour les ACSSI prêtés dans le 
+cadre des contrats ; 
+- la destruction des ACSSI ; 
+- 
+a 
+formation ; 
+- la conformité des locaux de stockage des ACSSI. 
+Ce contrôle est réalisé sous mandat du gestionnaire central ACSSI, selon un plan de contrôle 
+établi annuellement. La fréquence et la granularité des contrôles sont proposées par le 
+gestionnaire 
+AQSSI
+ 
+Chaque entité détenant des ACSSI sera contrôlée a minima tous les 5 ans. De plus, tout ACSSI 
+devra avoir été contrôlé dans une période de 5 ans. 
+s de mise en conformité ou de 
+-
+contrôles subséquents. 
+Concernant les ACSSI dont la gestion a été déléguée, les opérations de contrôle interne 
+logistique se substituent au contrôle ACSSI. Le résultat de ces opérations de contrôle interne 
+-rendu. 
+chez le 
+gestionnaire délégué. 
+ 
+                                                          
+15 Dans la liste des ACSSI à contrôler, le contrôleur peut procéder à un contrôle exhaustif ou à un contrôle par échantillonnage, en 
+fonction des objectifs fixés par le plan de contrôle annuel.
+
+[Page 24 / 34 | chars: 1997]
+--------------------------------------------------------------------------------
+
+24/34 
+ 
+Les contrôles réalisés par la chaîne organique (cf. paragraphe 6.1 ci-dessus) et les contrôles 
+réalisés par la chaîne fonctionnelle sont complémentaires. 
+ 
+entités ayant reçu délégation. 
+Dans un souci de rationalisation, les contrôles réalisés au titre de la gestion des ACSSI par la 
+chaîne fonctionnelle ACSSI peuvent être combinés aux contrôles portant sur le chiffre 
+(contrôle des réseaux de chiffrement). 
+ 
+GESTION DES INCIDENTS 
+ Définitions 
+[II910], un incident de sécurité est un événement indésirable ou inattendu présentant 
+une probab
+informations ou des systèmes protégés par les ACSSI. Un incident de sécurité peut ou non 
+conduire à une compromission. La liste des évènements qui doivent obligatoirement être 
+considérés comme des incidents de sécurité figure en annexe VI à la présente directive. 
+ Principes 
+ 
+ en coordination 
+avec les chaînes métiers et que les premières mesures conservatoires puissent être adoptées. 
+ident de sécurité peut impacter directement ou 
+informera le FSSI. 
+Chaque AQSSI doit, en outre, 
+r de la diffusion vers les entités détenant des ACSSI et 
+ux exploitants de fiches réflexes face à un incident de sécurité affectant un ACSSI et de 
+ 
+Les principales informations devant figurer dans le modèle de message diffusé par chaque 
+AQSSI du MINARM figurent en annexe VI. 
+ 
+ 
+Un message de primo-
+central ACSSI 
+. 
+ 
+ 
+Le gestionnaire central ACSSI ou le CRPA (dans le cas des entités de droit privé) sous couvert 
+ informeront le FSSI selon les modalités et délais 
+prescrits par la [PMSN] pour le traitement des incidents de sécurité pouvant impacter 
+directement ou indirectement le ministère, ses fournisseurs ou ses établissements sous tutelle.  
+Il convient que chaque AQSSI formalise les modalités de réaction à un incident de sécurité 
+affectant un ACSSI dans une fiche réflexe idoine.  
+également déclarer un incident ou une compromission. Ils adressent alors un message au FSSI 
+du ministère qui informe sans délais les AQSSI.
+
+[Page 25 / 34 | chars: 1393]
+--------------------------------------------------------------------------------
+
+25/34 
+ 
+En cas de compromission sur un réseau multi
+la National Distribution Agency et au secrétariat général de la défense et de la sécurité 
+nationale (SGDSN).  
+ 
+ 
+Sur la base des informations fournies par le message de primo-
+chiffrement et, le cas échéant, la DRSD.  
+présente directive 
+ gravité définie par la [PMSN]. 
+ 
+Dans le cas des ACSSI étrangers, les autorités multinationales ou étrangères concernées sont 
+averties sans délais par la NDA. 
+ 
+d
+ 
+moyens techniques du MINARM.  
+ces derniers. 
+[IM900]. 
+meilleurs délais.  
+En liaison avec ces autorités, des mesures correctives sont décidées pour permettre la 
+ 
+-rendus aux autorités désignées de la 
+part des entités qui en sont chargées. Le cas échéant, les services enquêteurs du ministère 
+(DRSD) sont saisis.  
+Un compte-rendu final 
+SSI et transmis au FSSI pour les incidents 
+critiques et, en cas de compromissions, à 
+ 
+Un bilan des incidents est adressé annuellement par chacune des AQSSI du ministère au FSSI.  
+MINARM adressent 
+un inventaire annuel au CRPA, qui consolide les résultats et les communique au FSSI.  
+des incidents survenus dans les entités sous tutelle et les transmet au FSSI.  
+Le FSSI consolide les éléments fournis sur le périmètre du MINARM pour adresser un inventaire 
+ 
+ 
+ 
+s 
+causes et les mesures correctives associées, y compris en cas de fausses alertes.  
+La [DIR RETEX] est applicable.
+
+[Page 26 / 34 | chars: 1711]
+--------------------------------------------------------------------------------
+
+26/34 
+ 
+ Délais de traitement des incidents 
+Les délais de traitement sont conditionnés par :  
+- 
+ 
+- les obligations vis-à-
+présente directive. 
+ 
+ORGANISATION ET RESPONSABILITÉS RELATIVES AUX MOYENS ET INFORMATIONS 
+ÉTRANGERS 
+ Définitions 
+Les moyens et informations cryptographiques étrangers équivalents aux ACSSI sont appelés 
+par la suite articles COMSEC. Leur traçabilité doit être assuré. 
+les ACSSI français. 
+des articles COMSEC requérant une gestion 
+spécifique visant à assurer leur traçabilité, doivent mentionner que ces derniers sont gérés de 
+zone où la réglementation 
+matériel. 
+Sur le territoire national, les articles COMSEC peuvent être sous deux positions : 
+- la position amont désigne la situation dans laquelle un moyen ou une information est utilisé 
+à des fins de conception, de développement, de production, de qualification ou de 
+maintenance industrielle (avant la mise en service opérationnelle de ce moyen) ; 
+- la position opérationnelle désigne la situation dans laquelle un moyen est homologué, agréé 
+ou qualifié et exploité à des fins opérationnelles ainsi que toute situation où une information 
+est utilisée pour servir ce moyen. Le maintien des articles COMSEC en condition 
+opérationnelle et le maintien en condition de sécurité relèvent de la position opérationnelle. 
+exceptionnellement, lors de sa qualification. 
+ Organisation 
+ 
+Position amont 
+T
+-
+e avec les 
+accords ou les règlements de sécurité établis entre la France et ses partenaires, doit être 
+[IM900]. 
+D
+autorités à qui elle délègue : 
+- 
+moyens et informations du programme ou du projet ; 
+- 
+ ;  
+- la protection et la distribution conformément aux annexes de sécurité des contrats ou 
+conventions.
+
+[Page 27 / 34 | chars: 1896]
+--------------------------------------------------------------------------------
+
+27/34 
+ 
+uels conclus entre les 
+nations participantes. 
+ 
+Position opérationnelle 
+ 
+Cas OTAN et UE 
+Marquage : certains 
+mention CCI ou CRYPTO. Le marquage CRYPTO concerne notamment des clés de chiffrement, 
+des documents et certains matériels de sécurité particulièrement sensibles. Ainsi, ces 
+équipements ne doivent pas être marqués ACSSI mais 
+ label conforme à celui des alliées. 
+Ces articles CCI ou CRYPTO seront toutefois assimilés à et gérés comme des ACSSI. 
+Le marquage CCI regroupe la grande majorité des matériels concourant à la sécurité des 
+ 
+Les moyens CRYPTO sont en général classifiés. Les moyens CCI sont, par spécification, non 
+classifiés. Ces moyens se conforment à des réglementations communes en matière de 
+manipulation et de transport appliquées par la France16. 
+Fonctions : l ANSSI est garante de la conformité aux réglementations et aux procédures de 
+-à-vis de 
+réglementations concernant la gestion nationale des COMSEC, ainsi que pour les décisions 
+techniques. 
+autorités à qui elle délègue : 
+- 
+ ; 
+- 
+ ; 
+- la protection et la distribution conformément à la présente directive ; 
+- la surveillance et la transmission des incidents relatifs à ces moyens et informations ; 
+- 
+exploitants au plus près du besoin opérationnel. 
+ 
+Autres cas interalliés 
+Les règles applicables à la gestion des COMSEC 
+ 
+ Cohérence des mentions de classification 
+Pour le suivi des moyens interalliés, la correspondance suivante doit être adoptée : 
+Réglementation interalliée 
+Réglementation française 
+CRYPTO 
+ACSSI classifié 
+CCI 
+ACSSI non classifié 
+ : le marquage d origine est conservé. Bien que présentant la 
+majorit
+exhaustif. Il est nécessaire pour les cas non listés de se 
+référer aux accords internationaux et aux plans contractuels de sécurité.  
+                                                          
+16 Respectivement [SDIP293/1] (OTAN) et [TECH-I01] (UE).
+
+[Page 28 / 34 | chars: 1826]
+--------------------------------------------------------------------------------
+
+28/34 
+ANNEXE I 
+RÉGLEMENTATION APPLICABLE 
+ 
+1- RÉGLEMENTATION NATIONALE 
+[IGI1300] 
+Arrêté du 9 août 2021 portant approbation de l'instruction générale 
+interministérielle n° 1300 sur la protection du secret de la défense 
+nationale 
+[II910] 
+Instruction interministérielle n° 910/SGDSN/ANSSI du 22 octobre 
+2013 relative aux articles contrôlés de la sécurité des systèmes 
+ 
+[II500bis] 
+Instruction interministérielle n° 500bis/SGDN/TTS/SSI/DR du 18 
+octobre 1996 relative au chiffre dans la sécurité des systèmes 
+ 
+[IM900] 
+ministérielle n° 900 sur la protection du secret et des informations 
+diffusion restreinte et sensibles  
+[IM1544] 
+Instruction ministérielle n° 1544/DEF/CAB/DR relative à la défense-
+sécurité des activités, moyens et installations relevant du ministre de 
+la défense, version du 10 août 2020 
+[PMSN] 
+Instruction ministérielle relative au volet stratégique de la politique 
+ministérielle de la sécurité numérique  
+[ARRGESTLOG] 
+Arrêté du 21 février 2012 relatif à la gestion logistique des biens 
+mobiliers affectés au ministère de la défense et des anciens 
+combattants 
+[INSGESTLOG] 
+Instruction n° 12-001262/ARM/EMA/DSA/MCO du 3 janvier 2023 
+relative aux modalités d'application de certains articles de l'arrêté 
+du 21 février 2012 relatif à la gestion logistique des biens mobiliers 
+affectés au ministère de la défense et des anciens combattants 
+[DT404329] 
+Directive technique n° 404329/DEF/DIRISI/SDSSI/DRSF du 23 aout 
+ 
+[DIR_RETEX] 
+Directive DGSIC n° 33/DEF/DGSIC/NP du 5 février 2015 portant sur 
+e de la 
+défense 
+ 
+ 
+2- RÉGLEMENTATION INTERNATIONALE 
+[SDIP293/1] 
+SDIP-293/1 (OTAN) March 2011  Instructions for the control and 
+safeguarding of NATO cryptomaterial 
+[TECH-I01] 
+TECH-I-01 (UE) version 1.0 15 January 2007  Instruction manual: 
+CRYPTO and COMSEC material management.
+
+[Page 29 / 34 | chars: 1416]
+--------------------------------------------------------------------------------
+
+29/34 
+ANNEXE II 
+GLOSSAIRE 
+ACSSI : 
+les objets 
+physiques, équipements ou documents au format papier
+localiser à tout moment et en particulier en cas de compromission suspectée ou avérée (perte 
+ou incident de sécurité remettant en cause la confidentialité, 
+ 
+Chaîne fonctionnelle ACSSI : 
+Sous-
+ACSSI, et de traiter les incidents sur ces derniers. 
+Comptabilité ACSSI : 
+Ensemble des actes formels de prise en compte, de création, de modification et de destruction 
+des ACSSI essentiels à leur suivi. 
+Éléments secrets : 
+On appelle éléments secrets les données servant pour des fonctions de sécurité et dont la 
+confidentialité doit être assurée comme des clés de chiffrement et des informations 
+la définition est étendue aux supports passifs permettant de stocker ces information ou clés 
+(canister, cartes à puce, etc.). En revanche, les éléments secrets traités dans ce document sont 
+ceux qui sont effectivement des ACSSI. 
+Gestion ACSSI : 
+La gestion des ACSSI recouvre les fonctions suivantes : 
+- 
+-à-dire la concrétisation des actes de comptabilité liés à la vie des 
+ACSSI ; 
+- 
+par les chaînes « emploi » ; 
+- la réalisation des inventaires et le contrôle de la manipulation et de la protection conformes 
+des ACSSI ; 
+- le traitement des incidents. 
+Gestion centralisée ACSSI : 
+AQSSI. Elle est placée 
+sous la responsabilité du 
+AQSSI. 
+Réseau de chiffrement : 
+-à-
+cryptographie 
+secret
+en commun.
+
+[Page 30 / 34 | chars: 1101]
+--------------------------------------------------------------------------------
+
+30/34 
+ANNEXE III 
+X ACSSI 
+__________ 
+Décision initiale(1) - provisoire(1) - de renouvellement(1) - de modification(1) 
+La présente décision 
+délivrée par 
+..................................................................................
+-dessous pour 
+(1) / ans(1) avec les limitations 
+indiquées : 
+ 
+ÉTAT CIVIL ET EMPLOI : 
+Nom et Prénoms : 
+Date et lieu de naissance : 
+Grade ou emploi : 
+Service employeur : 
+ 
+ : 
+SECRET (1)  TRES SECRET(1) - AUTRE(1) 
+Référence et date de validité : 
+__________ 
+OBSERVATIONS : Précisions quant aux ACSSI concernés ou limitations éventuelles (dont 
+programme ou système particulier), etc. 
+ 
+ 
+Je soussigné déclare : 
+- 
+ACSSI prise à mon endroit ; 
+- avoir pris connaissance de l instruction interministérielle 910 ainsi que la directive 
+ministérielle 34 de suivi des ACSSI; 
+- être pleinement conscient de mes responsabilités en ce qui concerne le traitement des 
+ACSSI. 
+ 
+En complém
+ 
+à (lieu), le (date) 
+(nom et signature du 
+demandeur) 
+à (lieu), le (date) 
+(
+ 
+responsable de la délivrance de la 
+présente décision) 
+(1) Rayer les mentions inutiles
+
+[Page 31 / 34 | chars: 664]
+--------------------------------------------------------------------------------
+
+31/34 
+ANNEXE IV 
+É
+DÉ
+È
+ACSSI 
+ 
+informations suivantes doivent être précisées : 
+- 
+protection associée à une éventuelle mention de manipulation (SPECIAL FRANCE - SF, etc.)) ; 
+- 
+ 
+- 
+(exclusivement par du personnel français par exemple) ; 
+- niveau maximum de classification/protection des informations pouvant être traitées ; 
+- mesures de protection pour les ACSSI non classifiés ; 
+- 
+ 
+- pour les équipements contenant plusieurs ACSSI, association de chaque ACSSI avec le profil 
+(utilisateur ou maintenance) ; 
+- conditions de transport (notamment pour les ACSSI « individuels » non classifiés) ; 
+- procédures particulières de fin de vie (cf. art. 17 
+).
+
+[Page 32 / 34 | chars: 1526]
+--------------------------------------------------------------------------------
+
+32/34 
+ANNEXE V 
+CONTRATS VISANT OU COMPORTANT DES ACSSI : CONTENU DES PLANS CONTRACTUELS 
+DE SÉCURITÉ 
+ 
+sécurité devra être conforme au modèle en vigueur fourni par la DGA. Il devra préciser a 
+minima : 
+- les textes règlementaires portant sur la sécurité des ACSSI applicables au contrat considéré ; 
+- la liste des ACSSI 
+ns 
+spéciales de classification ; 
+- le titulaire, les sous-traitants, les établissements étatiques concernés par les ACSSI et la liste 
+des 
+ ; 
+- la 
+ACSSI, aux 
+logiciels, prototypes, bancs de tests et outils de développement ; 
+- sauf disposition contraire, restituer les ACSSI 
+x 
+acquis après accord formel 
+ ; 
+- quantifier le besoin en décisions 
+ACSSI : indiquer une estimation du nombre de 
+personnes affectées à la manipulation, spécification et à la conception des équipements 
+ACSSI dans le cadre du contrat au sens de la directive centrale ministérielle de gestion des 
+ACSSI ; 
+- 
+culier du matériel et équipement ACSSI. 
+Le contrat devra en outre spécifier que :  
+- le titulaire, les sous-
+ ; 
+- 
+annuellement au CRPA par les gestionnaires centraux industriels ; 
+- Le contrat sera identifié dans le suivi comptable ; 
+- 
+ité des ACSSI, la chaîne fonctionnelle SSI doit 
+être avertie sans délais ; 
+- Les détenteurs, 
+n 
+connaître ;  
+- d
+ou inopinés, seront réalisés par la DGA sur son périmètre de responsabilité ; 
+- le titulaire devra établir à minima un plan de transport ACSSI 
+approuvé par les chaînes fonctionnelles ACSSI concernées du MINARM, et en particulier par 
+le CRPA.
+
+[Page 33 / 34 | chars: 1416]
+--------------------------------------------------------------------------------
+
+33/34 
+ANNEXE VI 
+RECOMMANDATIONS RELATIVES A LA GESTION DES INCIDENTS DE SÉCURITÉ 
+ 
+1- TYPOLOGIE DES INCIDENTS DE SÉCURITÉ ET LISTE DES ÉVÉNEMENTS DEVANT 
+OBLIGATOIREMENT ÊTRE CONSIDÉRES COMME DES INCIDENTS DE SÉCURITÉ 
+Les incidents de sécurité sont de trois types : 
+- les incidents cryptographiques ; 
+- les incidents de personnel ; 
+- les incidents physiques ou de conservation. 
+a. Incidents cryptographiques 
+Les incidents de nature cryptographique comprennent les fautes de chiffrement, les mises en 
+modifications ou maintenances non-
+système 
+cryptographique.  
+Évènements devant obligatoirement être considérés comme des incidents crytographiques :  
+- 
+hiffrement ; 
+- 
+ou 
+ 
+- 
+ 
+- extension non-
+ 
+- transmission de données en clair puis chiffrée (ou inversement) sur un canal non-sécurisé et 
+ ; 
+- 
+ACSSI. 
+b. Incidents de personnel 
+ACSSI 
+ 
+ 
+Évènements devant obligatoirement être considérés comme des incidents de personnel :  
+- non-
+matériel ; 
+- perte ou abandon 
+ 
+- actes de malveillance (dégradation, sabotage, vol) sur un ACSSI ; 
+- falsification délibérée de documents comptables ACSSI ; 
+- mauvaise tenue du suivi comptable et des documents de gestion pouvant conduire à une 
+perte de traçabilité ; 
+- négligence lors de la manipulation ou des contrôles 
+ ; 
+- absence de formation ; 
+- effacement accidentel 
+ 
+- non-traitement, mauvaise gestion des évènements et journaux de sécurité.
+
+[Page 34 / 34 | chars: 1606]
+--------------------------------------------------------------------------------
+
+34/34 
+c. Incidents physiques ou de conservation  
+Évènements devant obligatoirement être considérés comme des incidents physiques ou de 
+conservation : 
+- 
+ ; 
+- 
+ 
+- 
+autorisées ; 
+- accès à un ACSSI par une personne non-autorisée (matériel, document, clé) ; 
+- copie, reproduction ou photographie non-
+ 
+- 
+clé) ; 
+- acheminement non-
+ACSSI ; 
+- 
+ACSSI, accidentelle, non-motivée ou par des moyens non-conformes ; 
+- 
+ACSSI ; 
+- installation du matériel non confor
+homologation. 
+2- 
+ 
+Le cont
+-
+des ACSSI de chaque AQSSI. Il peut notamment contenir les informations suivantes : 
+- 
+précédent ; 
+- type de moyen concerné : identification du document ou du matériel et de son contexte ; 
+- niveau de classification et mention ACSSI ; 
+- identification du moyen concerné : code de gestion, désignation et numéro de l
+quipement 
+concerné, etc. ; 
+- 
+ : opérationnel, en stockage, en maintenance ; etc. ; 
+- 
+ : date, lieu, organisme et personne incriminés, 
+contexte, etc. ; 
+- identités et agent de sécurité des ACSSI : identité du rédacteur, identité de l agent de 
+sécurité 
+ concernée, etc. ; 
+- commentaires éventuels. 
+3- 
+ 
+Les d
+-rendu dit « immédiat » 
+ : 
+- pour tout incident sur des clés de chiffrement opérationnelles et tout incident avéré 
+(sabotage, vol, piégeage, copie non autorisée) : déclaration sous 24h, il est toutefois 
+recommandé de le faire immédiatement ; 
+- pour tout autre incident : déclaration sous 72 heures. 
+[PMSN] indique des délais différents, les délais 
+les plus contraignants sont retenus. Des recommandations supplémentaires peuvent être 
+données dans les agréments.
+

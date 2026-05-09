@@ -1,0 +1,92 @@
+Source file: caia-125-bd-ok.pdf
+Relative path: caia-125-bd-ok.pdf
+Page: 94 / 104
+
+================================================================================
+
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+92
+MICROFLUIDIQUE ET IMMUNOTHÉRAPIES
+Par Gustave Ronteix, IA, Thèse de doctorat soutenue le 15/12/2021 :
+Inférence des interactions cellule-cellule à partir de l’analyse quantitative d’images de microscopie
+L’interdisciplinarité permet de faire progresser la recherche. Ingénieurs, vous avez une 
+place à prendre dans la santé !
+JEUNES IA
+des “checkpoint inhibitors” et le 
+prix Nobel de médecine associé en 
+2018. L’idée directrice de mon travail 
+est de démontrer que les nouvelles 
+techniques de culture cellulaire em­
+ployant la microfluidique peuvent 
+être adaptées aux problématiques 
+spécifiques des immunothérapies. 
+Non seulement j’ai pu montrer que 
+cela fonctionne (les cellules immu­
+nitaires survivent dans nos puces 
+microfluidiques et tuent les cellules 
+tumorales de façon similaire à ce 
+qui a été rapporté dans la littérature 
+scientifique), mais j’ai aussi prouvé que l’élimination des 
+tumeurs repose sur plusieurs mécanismes coopératifs 
+entre les cellules immunitaires. Chaque expérience dans 
+nos puces permet la prise de milliers d’images qu’il faut 
+ensuite analyser de façon quantitative pour en extraire 
+les paramètres pertinents. Grâce à la qualité des don­
+nées récoltées et à des modèles mathématiques, j’ai pu 
+décrire dans le détail les mécanismes d’accumulation 
+collective des cellules immunitaires sur les tumeurs.
+Cependant, mes travaux ne sont qu’un point de départ 
+pour l’étude de l’activité anti-cancéreuse du système 
+immunitaire. Mon laboratoire a remporté une bourse 
+de recherche hospitalo-universitaire (RHU) afin d’utiliser 
+ce système pour étudier des cellules tumorales de pa­
+tientes atteintes du cancer du sein et analyser l’impact 
+de plusieurs traitements expérimentaux. 
+Le software à l’assaut de la biologie
+Mes travaux illustrent une tendance de fond de,la re­
+cherche pharmaceutique : allier hardware, software et 
+biologie pour débloquer des pistes thérapeutiques plus 
+rapidement et à moindre coût. Cette évolution fondée 
+sur la superposition des techniques se fait aussi sen­
+tir dans des domaines plus proches des missions de la 
+DGA, et le COVID-19 en est une illustration : en alliant 
+séquençage à très large échelle avec des outils infor­
+matiques puissants, les autorités britanniques suivent 
+l’évolution épidémique au jour le jour avec une granu­
+larité inimaginable il y a quelques années. Il y a dix ans, 
+l’investisseur Marc Andreessen déclarait que “software 
+is eating the world”, c’est au tour de la biologie de pas­
+ser à table. 
+(Gauche) Les puces microfluidiques utilisées au laboratoire de Microfluidique Physique et Bio-ingé­
+nierie. (Droite) Chaque puce contient 236 gouttes contenant des cellules tumorales et immunitaires.
+90% des molécules qui commencent leurs essais cli­
+niques échouent à obtenir leur autorisation de mise sur 
+le marché. Les raisons sont nombreuses : manque d’ef­
+ficacité chez les patients, effets secondaires trop dan­
+gereux etc. Une cause est la distance entre la paillasse 
+du laboratoire et le patient. Les chercheurs, pour des 
+raisons pratiques, effectuent le plus souvent leur travail 
+sur des cultures cellulaires en 2D (ici, imaginez les boîtes 
+de Petri que des scientifiques regardent avec attention 
+dans votre film préféré). Or, la susceptibilité des cellules 
+dans ces conditions artificielles est parfois très différente 
+de ce qu’elle est conditions réelles (i.e. dans le corps du 
+malade), ce qui cause des échecs lors du processus de 
+validation des médicaments.
+La microfluidique : une technologie prometteuse
+Entre ici la microfluidique. Au début des années 2000, 
+un trio de chercheurs de Harvard et du MIT - White­
+sides, Quake et Weitz - développe des techniques pour 
+créer et déplacer des gouttes de quelques milliardièmes 
+de litres (environ mille fois plus petites que des gouttes 
+de pluie). La France s’est imposée comme l’un des 
+pôles mondiaux de l’application de la microfluidique 
+en santé, tant en recherche (laboratoires de Jerome 
+Bibette, Andrew Griffiths ou Jean-Christophe Baret no­
+tamment) qu’en industrie (Stilla Technologies, Treefrog 
+Therapeuthics etc.).
+Une thèse interdisciplinaire
+A l’intersection de ces sujets, ma thèse cherche à al­
+lier microfluidique et immunothérapies. Cette nouvelle 
+classe de traitements contre le cancer a connu une ex­
+plosion depuis une dizaine d’années et la découverte

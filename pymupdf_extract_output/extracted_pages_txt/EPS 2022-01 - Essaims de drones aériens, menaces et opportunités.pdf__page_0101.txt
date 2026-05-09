@@ -1,0 +1,85 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 101 / 136
+
+================================================================================
+
+101 
+CODE (Collaborative Operations in Denied Environment) 
+CODE242 ouvre la voie au fonctionnement collaboratif des drones en 
+espace contesté. En 2016, l’Air Force affichait une capacité, jugée 
+insuffisante, de mise en œuvre simultanée de 60 « drone Combat Air 
+Patrols » (CAP). CODE permet à un seul opérateur de superviser un 
+groupe de drones en collaboration autonome, en espace contesté. 
+Dates :  
+2016 - 2019 
+Acteurs :  
+DARPA, Air Force Research Laboratory et Naval Air 
+Systems Command qui a pris la suite de la DARPA. 
+Daniel H. Wagner Associates, Scientific Systems 
+Company, Smart Information Flow Technologies, 
+Soar Technology, SRI International, Vencore Labs 
+dba Applied Communication Sciences, en phase I. 
+Raytheon, 
+Lockheed-Martin, 
+Johns 
+Hopkins 
+University Applied Physics Laboratory (White Force 
+Network), pour la phase II. 
+Porteurs potentiels :  
+Drones et armes en service, plates-formes de mise en œuvre y compris aéronefs habités. 
+Cas d’usage affichés :  Ceux des drones en service mais dans un environnement plus exigeant. 
+ 
+PERFORMANCES DES VECTEURS : 
+Vecteur : RQ-23 Tigershark (MALE) (2006) qui existe 
+en plusieurs versions, utilisés ici uniquement en 
+support de l’expérimentation. 
+Lancement par décollage sur piste. 
+Récupérable par atterrissage sur piste. 
+Prix : 50 000 $  
+Poids : > 205 Kg dont charge utile : 34 – 45 Kg 
+Longueur : 4,3 m 
+Envergure : 6,6 m 
+Propulsion thermique 
+Vitesse : 80 Nds (max), 55-60 Nds (croisière) 
+Autonomie : 7 à 15 h 
+Altitude maximale : 14 000 ft 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERFORMANCES DE L’ESSAIM : 
+En février 2019, 6 Tigershark ont été exploités 
+simultanément par un seul opérateur lors d’essais 
+d’ensemble englobant 14 drones supplémentaires 
+simulés (Live virtual constructive test environment). 
+Les responsables d’essais soulignent l’efficacité des 
+fonctionnements en environnement dégradé243, qui 
+évitent 
+aux 
+drones 
+de 
+devoir 
+reprendre 
+individuellement la dernière tâche programmée. 
+Les essais ont aussi porté sur le vol en formation, le 
+respect des « no-fly zones », la gestion dynamique 
+des trajectoires (cibles, menaces émergentes), la 
+gestion de l’attrition et la réaffectation des rôles. 
+CODE s’appuie sur des tactiques à base de « Plays » 
+permettant de couvrir les différentes tâches et leurs 
+variantes. Pour les actions coordonnées, CODE 
+présente des recommandations au superviseur qui 
+valide ou pas et ordonne les changements de tâche. 
+Dans le respect des règles d’engagement, les drones 
+détectent et engagent les cibles en collaboration, au 
+bénéfice d’une supervision minimale. 
+ 
+ 
+ 
+ 
+242 CODE possède une « modular open software architecture ». CODE est un logiciel propriété du gouvernement américain. 
+243 Navigation collaborative pour maintenir formation et trajectoire, communications en réseau maillé (mesh).

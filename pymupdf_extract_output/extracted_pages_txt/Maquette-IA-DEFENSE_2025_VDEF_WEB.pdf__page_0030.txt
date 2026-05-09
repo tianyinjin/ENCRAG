@@ -1,0 +1,83 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 30 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+30
+Vers la sécurisation et la frugalité 
+des fonctions IA embarquées
+Les fonctions d’intelligence artificielle se sont imposées 
+dans de nombreux domaines, permettant d’accélérer 
+des tâches répétitives, d’améliorer l’expérience utilisateur 
+et même de contribuer à la création. Jusqu’à récemment, 
+ces fonctions étaient essentiellement exécutées dans le 
+cloud afin de pouvoir accéder aux puissances de calcul 
+et d’énergie nécessaires. Mais on voit apparaître depuis 
+peu des architectures dédiées à l’IA, les NPU (Neural 
+Processing Unit), pendants neuronaux des classiques 
+CPU et GPU.  
+ 
+Du fait de leur conception et de leur spécialisation, 
+les NPU permettent l’exécution locale de fonctions 
+IA avec une consommation énergétique réduite. Ces 
+composants sont désormais présents sur la plupart des 
+smartphones haut de gamme, dans les téléviseurs ou 
+dans les ordinateurs portables.
+ 
+L’exécution locale représente un atout en matière de 
+confidentialité et d’intégrité. Toutefois, les capacités des 
+NPU restent souvent limitées, notamment en termes de 
+mémoire – réduisant ainsi la taille des modèles – et ne 
+prévoient généralement pas de mécanismes intégrés 
+de protection.
+ 
+Nous décrivons dans cet article deux approches 
+permettant de construire des réseaux compacts de 
+traitement du signal et d’assurer leur sécurité. 
+ 
+Algorithmes frugaux et interpolateurs neuronaux 
+ 
+Le traitement du signal en temps réel repose sur un 
+compromis délicat entre optimalité statistique et 
+simplicité algorithmique. Par exemple, l’exploration 
+exhaustive d’une fonction de vraisemblance dans le cadre 
+de problèmes d’estimation statistique présente souvent 
+une complexité combinatoire difficilement compatible 
+avec les matériels limités en mémoire et en puissance 
+de calcul. Dans ces cas, il est parfois nécessaire de faire 
+des compromis en sacrifiant une partie de la précision 
+statistique pour répondre aux contraintes d’exécution. 
+Parallèlement, les réseaux neuronaux se sont imposés 
+grâce à leur propriété d’approximation universelle. Ils 
+permettent d’approcher des fonctions non linéaires 
+complexes pour des tâches variées, mais ne répondent 
+pas toujours aux exigences statistiques, comme la 
+réduction des biais ou la résistance au bruit. 
+Pour concilier ces deux approches – optimalité statistique 
+et traitement en temps réel –, nous proposons d’utiliser 
+systématiquement des interpolateurs neuronaux 
+peu profonds (shallow neural networks) pour calculer 
+automatiquement les critères statistiques comme le 
+maximum de vraisemblance. 
+Ces architectures permettront de : 
+•	
+réduire la complexité de calcul tout en 
+maintenant des performances satisfaisantes, 
+•	
+et répondre aux contraintes des systèmes 
+embarqués, où la capacité de calcul et la 
+consommation énergétique sont limitées. 
+La conception de ces réseaux peut s’appuyer 
+sur des données simulées, en combinant des 
+modèles théoriques du signal et des mécanismes 
+d’apprentissage automatique. Cela pourrait marquer 
+ Gaëtan Le Guelvouit 
+Direction Performance 
+et Innovation
+b<>com
+Stéphane Paquelet 
+Direction Performance 
+et Innovation 
+b<>com

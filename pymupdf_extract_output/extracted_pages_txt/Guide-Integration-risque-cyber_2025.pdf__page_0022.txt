@@ -1,0 +1,169 @@
+Source file: Guide-Integration-risque-cyber_2025.pdf
+Relative path: Guide-Integration-risque-cyber_2025.pdf
+Page: 22 / 29
+
+================================================================================
+
+Pôle d’excellence cyber
+43
+42
+Guide d’Entretien pour Recueillir les Éléments de l’Étude
+Ce guide d’entretien vise à recueillir les informations nécessaires pour élaborer un PCA. Il ne doit pas nécessairement être 
+complété dans son intégralité, mais il fournit un support pour éviter les lacunes et adapter les questions aux interlocuteurs 
+et contextes spécifiques.
+1.	
+Identification des Tâches Critiques :
+•	
+Q1 : En cas d’interruption des outils informatiques, quelles tâches doivent absolument être maintenues sans impact majeur 
+pour l’activité ou la collectivité ? Quelles tâches peuvent supporter un report de 2 jours à 2 semaines ?
+2.	
+Fonctionnement Dégradé :
+•	
+Q2 : Comment pouvez-vous fonctionner de manière dégradée pour ces tâches en cas d’indisponibilité des SI ?
+3.	
+Existence et Opérationnalité des Solutions Dégradées :
+•	
+Q3 : Les solutions/procédures dégradées existent-elles ? Sont-elles opérationnelles ?
+•	
+Q4 : Si oui, sont-elles formalisées, partagées, et régulièrement mises en pratique ? Peuvent-elles être mises en œuvre 
+rapidement ?
+4.	
+Activation des Procédures Dégradées :
+•	
+Q5 : Qui peut activer ces procédures et pour quel motif ?
+5.	
+Manques Identifiés :
+•	
+Q6 : Si ces solutions n’existent pas, quels éléments manquent pour les rendre opérationnelles (procédures, outils, moyens 
+humains) ?
+6.	
+Durabilité des Solutions :
+•	
+Q7 : Ces solutions peuvent-elles être maintenues au-delà de 2 jours, 2 semaines, ou 1 mois ?
+•	
+Q8 : Comment pourriez-vous les rendre plus durables ? Quels moyens, applications ou données sont nécessaires lors de 
+la reprise progressive des SI?
+En suivant cette méthodologie, les collectivités peuvent se préparer efficacement à faire face aux crises et garantir la continuité 
+des services essentiels pour les citoyens.
+Identification des Matériels Essentiels pour la Continuité des Missions Prioritaires en Mode Dégradé
+Pour assurer la continuité des missions critiques en mode dégradé, il est impératif de déterminer les matériels essentiels dont 
+vous aurez besoin, ainsi que les délais associés à leur mise en place en situation de crise. Voici une liste des équipements et 
+ressources nécessaires, à spécifier par échelon temporel et nombre requis :
+1.	
+PC Hors Réseau
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais de mise à disposition : [Préciser les délais]
+2.	
+Besoin d’Impression
+•	
+Nombre d’imprimantes nécessaires : [Préciser le nombre]
+•	
+Délais pour obtenir et installer les imprimantes : [Préciser les délais]
+3.	
+Besoin de Photocopier
+•	
+Nombre de photocopieurs nécessaires : [Préciser le nombre]
+•	
+Délais pour obtenir et installer les photocopieurs : [Préciser les délais]
+4.	
+Moyens de Communication Vocale (Interne)
+•	
+Type de moyens (ex. : téléphones fixes, radios, etc.) : [Préciser]
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais pour mise en place : [Préciser les délais]
+5.	
+Moyens de Communication Vocale (Partenaires Externes)
+•	
+Type de moyens (ex. : téléphones mobiles dédiés, systèmes de conférence) : [Préciser]
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais pour mise en place : [Préciser les délais]
+6.	
+Moyens de Communication Vocale (Population)
+•	
+Type de moyens (ex. : systèmes de notification d’urgence, annonces publiques) : [Préciser]
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais pour mise en place : [Préciser les délais]
+7.	
+Moyens de Stockage de Documents Informatisés
+•	
+Type de moyens (ex. : clés USB, disques durs externes) : [Préciser]
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais pour mise en place : [Préciser les délais]
+•	
+Note : Prioriser les sauvegardes papier pour la sécurité.
+8.	
+Mail
+•	
+Nombre de boîtes de service nécessaires : [Préciser le nombre]
+•	
+Délais pour configuration : [Préciser les délais]
+9.	
+Boîte Mail Spécifique pour Échanges Confidentiels
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais pour configuration : [Préciser les délais]
+10.	 Coffre-Fort
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais pour mise en place : [Préciser les délais]
+11.	 Logiciels / Applications
+•	
+Liste des logiciels/applications nécessaires : [Préciser le nom et créer une ligne pour chaque logiciel]
+•	
+Délais pour configuration : [Préciser les délais]
+12.	 Moyens de Connexion Internet
+•	
+Type de moyens (ex. : modems, routeurs de secours) : [Préciser]
+•	
+Nombre nécessaire : [Préciser le nombre]
+•	
+Délais pour mise en place : [Préciser les délais]
+13.	 Accès aux Archives
+•	
+Type d’accès requis (ex. : accès physique, accès via réseau de secours) : [Préciser]
+•	
+Délais pour mise en place : [Préciser les délais]
+14.	 Plan de Communication en Absence de Téléphonie IP et Carnet d’Adresse Outlook
+•	
+Méthodes alternatives (ex. : listes de contacts papier, téléphones portables) : [Préciser]
+•	
+Délais pour mise en place : [Préciser les délais]
+•	
+Note : Tout document contenant des données personnelles doit être sécurisé (ex. : coffre-fort, mot de passe).
+Organisation pour Poursuivre les Missions Essentielles en Mode Dégradé
+1.	
+Documents Indispensables pour Fonctionner en Mode Dégradé
+•	
+Liste des documents nécessaires : [Préciser]
+•	
+Organisation de leur stockage et accessibilité : [Préciser]
+2.	
+Interdépendances avec Autres Services ou Partenaires
+•	
+Liste des services ou partenaires inter-dépendants : [Préciser]
+•	
+Éléments échangés : [Préciser]
+•	
+Moyens de transmission : [Préciser]
+•	
+Contraintes de délai : [Préciser]
+3.	
+Préparation à la Reprise Post-Crise
+•	
+Organisation nécessaire pour la reprise : [Préciser]
+•	
+Documents à ressaisir après crise : [Préciser]
+•	
+Plan pour gérer la surcharge de travail (ex. : recrutement de renfort, maintien de la priorisation des activités) : [Préciser]

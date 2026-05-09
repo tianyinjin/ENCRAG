@@ -1,0 +1,91 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 72 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 72 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+inclus dans une zone de classe 3. L’ensemble des mesures de classe 3 doivent 
+leur être appliquées. 
+MAINT1
+9 
+TECH 
+Mettre en place des solutions de télédiagnostic* sous réserve d’appliquer les 
+règles suivantes  
+: 
+-  la connexion distante ne s’effectue que sur un serveur cloisonné ; 
+ 
+-  les données nécessaires au télédiagnostic sont poussées sur ce serveur au 
+travers d’une diode labellisée. 
+ 
+N
+A 
+C 
+O 
+ 
+MAINT2
+0 
+ORGT
+ECH 
+En cas d’opérations de télégestion*, télémaintenance* ou télédiagnostic*, contrôler 
+les travaux réalisés. 
+O
+ 
+ 
+ 
+ 
+MAINT2
+1 
+TECH 
+Dans le cas d’un système industriel classifié ou portant une mention spécifique 
+(Spécial France, Diffusion Restreinte), utiliser une passerelle homologuée pour 
+réaliser des actions de télémaintenance*, de télégestion* ou de télédiagnostic*. 
+O
+ 
+ 
+ 
+ 
+Garantir le maintien en condition de sécurité 
+MCS1 
+ORG 
+Définir une stratégie de maintien en condition de sécurité (MCS) à partir de la 
+directive 47 de la DGNUM ou d’une directive portant sur le MCS et émanant des 
+EMDS. 
+O
+ 
+ 
+ 
+Voir Directive 47 portant sur le MCS 
+MCS2 
+ORG 
+Assurer une continuité contractuelle dans le maintien en condition de sécurité 
+(MCS) des systèmes industriels. Le cas échant, les ruptures doivent être identifiés 
+et donner lieu à une plus grande vigilance, voire à des mesures palliatives et 
+défensives supplémentaires. 
+O
+ 
+ 
+ 
+ 
+Garantir la connaissance du système 
+MCS3 
+ORG 
+Établir une cartographie physique et logique du système industriel. Le niveau de 
+granularité des informations à fournir dépend des enjeux du système. La stratégie 
+d’homologation définit les éléments de la cartographie. 
+O
+ 
+ 
+ 
+ 
+MCS4 
+ORG 
+Mettre à jour les informations insérées dans l’outil ministériel de patrimoine 
+applicatif (ou de l’outil de suivi de l’AQSSI). 
+O

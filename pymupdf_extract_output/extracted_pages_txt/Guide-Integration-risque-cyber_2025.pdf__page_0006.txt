@@ -1,0 +1,252 @@
+Source file: Guide-Integration-risque-cyber_2025.pdf
+Relative path: Guide-Integration-risque-cyber_2025.pdf
+Page: 6 / 29
+
+================================================================================
+
+Pôle d’excellence cyber
+11
+10
+Pour faire face à ces risques, il est impératif d’adopter une approche globale visant à renforcer la résilience des collectivités. 
+Cela inclut la mise en place de mécanismes garantissant la continuité des activités critiques, même en mode dégradé, en cas 
+d’indisponibilité des systèmes d’information due à une cyberattaque ou à d’autres perturbations. Cette résilience permet à 
+une collectivité de maintenir ses services essentiels en toutes circonstances, limitant ainsi l’impact d’une crise sur les citoyens.
+Une crise d’origine cyber est une crise comme les autres. Aussi les principes généraux de gestion de crise s’appliquent. C’est 
+pourquoi les collectivités dotées d’un PCS peuvent utiliser le dispositif de gestion de crise prévu dans ce cadre comme base 
+de travail. 
+Les spécificités principales d’une gestion de crise cyber à prendre en compte sont les suivantes :
+•	
+La dégradation ou la compromission possible des moyens de communication et des systèmes d’information sur lesquels 
+s’appuient les dispositifs de crise (et pour lesquels il faut définir des moyens et procédures dégradés)
+•	
+La nature transversale de la crise (ensemble des services et métiers de la collectivités impactés), les systèmes d’information 
+irriguant l’ensemble des services
+•	
+Des impacts immédiats, et dans le cas des cyberattaques par rançongiciel, un temps de remédiation qui peut être très 
+long et donc une cinétique de gestion de crise qui s’inscrit souvent dans le temps
+•	
+Une communication de crise difficile à appréhender étant donné les inconnues ou incertitudes en début de gestion de 
+crise autour du déroulé des faits.
+Pour ce faire dans le cadre d’une attaque cyber, tout repose sur la performance de la cellule de gestion de crise.
+Fonctionnement de la cellule de crise
+Qu’il s’agisse d’une cyberattaque ou d’une perturbation des moyens de communication (panne électrique, coupure réseau), la 
+mise en place d’une cellule de gestion de crise est cruciale. Cette cellule doit être capable de fonctionner en mode dégradé 
+et prévoir :
+•	
+Lignes de téléphonie RTC1 : Identifier les lignes encore fonctionnelles pour maintenir les communications en cas de 
+coupure internet ;
+•	
+Annuaire de contacts : Disposer d’un annuaire papier des numéros des interlocuteurs clés pour faciliter les alertes ;
+•	
+Équipements spécifiques : Prévoir des équipements de secours tels que des talkies-walkies ou des abonnements de 
+téléphones portables de secours pour pallier toute panne imprévue ;
+•	
+Messagerie instantanée sécurisée : l’usage d’une messagerie instantanée sécurisée facilite les échanges rapides en 
+asynchrone entre les membres de la cellule, notamment lorsqu’ils ne peuvent pas être présents simultanément. Tchap, 
+solution développée par l’État, est à privilégier par rapport aux messageries grand public (WhatsApp, Messenger, etc.), 
+car elle garantit un niveau de sécurité adapté aux communications sensibles et permet une interconnexion avec les agents 
+disposant d’une adresse professionnelle. Son utilisation doit être anticipée, avec la création des groupes de discussion 
+nécessaires et la vérification de l’accès pour chaque membre concerné.
+Il est à noter que, autant les services en propre de la commune risquent d’être impactés, il se peut que ceux externalisés 
+(comme la messagerie selon qu’elle est hébergée en interne ou pas) soient toujours fonctionnels. Un état des lieux sur ce 
+point doit être fait et mentionné dans le PCS.
+Gestion autonome lors d’une crise 
+Lors de l’activation de la cellule de crise, il est impératif de disposer d’un éclairage autonome et de matériel simple, comme 
+du papier et des crayons. Il faut également conserver des copies papier des documents essentiels (ex. : Plan Communal 
+de Sauvegarde - PCS), ainsi que des formulaires prêts à l’emploi pour enregistrer les décisions mais aussi communiquer en 
+particulier auprès des usagers. Les cartes de la commune doivent être accessibles et affichables pour la gestion sur le terrain.
+1	
+Lignes classiques encore fonctionnelles, qui ne dépendent pas d’une connexion Internet, pour assurer une solution de secours 
+en cas d’indisponibilité des lignes téléphoniques numériques (VoIP)
+Chapitre III : Quelques recommandations concernant la cellule de gestion de 
+crise cyber 
+LES ÉTAPES
+CLÉS
+P
+R
+E
+M
+I
+E
+R
+S
+ 
+R
+É
+F
+L
+E
+X
+E
+S
+ 
+  
+  
+C
+O
+N
+T
+A
+C
+T
+S
+  
+ 
+
+S
+O
+R
+T
+I
+R
+ 
+D
+E
+ 
+L
+A
+ 
+C
+R
+I
+S
+E
+P
+I
+L
+O
+T
+E
+R
+ 
+L
+A
+ 
+C
+R
+I
+S
+E
+ALERTEZ IMMÉDIATEMENT
+VOTRE SUPPORT INFORMATIQUE
+ISOLEZ LES SYSTÈMES ATTAQUÉS
+CONSTITUEZ UNE ÉQUIPE
+DE GESTION DE CRISE
+TENEZ UN REGISTRE 
+DES ÉVÉNEMENTS
+PRÉSERVEZ LES 
+PREUVES DE 
+L’ATTAQUE
+IDENTIFIEZ L’ORIGINE DE L’ATTAQUE
+ET SON ÉTENDUE
+DÉPOSEZ PLAINTE
+NOTIFIEZ L’INCIDENT À LA CNIL
+METTEZ EN PLACE
+DES SOLUTIONS
+DE SECOURS
+GÉREZ VOTRE 
+COMMUNI-
+CATION
+É
+L
+U
+É
+L
+U
+É
+L
+U
+É
+L
+U
+É
+L
+U
+É
+L
+U
+T
+E
+C
+H
+N
+I
+C
+I
+E
+N
+T
+E
+C
+H
+N
+I
+C
+I
+E
+N
+T
+E
+C
+H
+N
+I
+C
+I
+E
+N
+FAITES 
+UNE REMISE 
+EN SERVICE 
+PROGRESSIVE
+ET CONTRÔLÉE
+TIREZ LES 
+ENSEIGNEMENTS
+DE L’ATTAQUE ET 
+DÉFINISSEZ
+LES PLANS D’ACTION
+É
+L
+U
+T
+E
+C
+H
+N
+I
+C
+I
+E
+N
+T
+E
+C
+H
+N
+I
+C
+I
+E
+N
+DOCUMENT RÉALISÉ AVEC NOS MEMBRES :
+QUE FAIRE EN CAS DE CYBERATTAQUE ?
+(élus/dirigeants de collectivités)
+POUR PLUS D’INFORMATIONS
+www.cybermalveillance.gouv.fr
+VOTRE SUPPORT 
+INFORMATIQUE
+Nom du contact :
+N° de téléphone : 
+CONSEILS,
+SIGNALEMENT 24H/24
+www.cert.ssi.gouv.fr/contact
+CONSEILS
+ET ASSISTANCE
+www.cybermalveillance.gouv.fr
+NOTIFICATION DE VIOLATION
+DE DONNÉES PERSONNELLES
+www.cnil.fr/fr/notifier-une-violation-de-donnees-personnelles
+POLICE, GENDARMERIE 17
+1
+2
+3

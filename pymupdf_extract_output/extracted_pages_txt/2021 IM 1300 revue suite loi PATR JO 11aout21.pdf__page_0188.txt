@@ -1,0 +1,90 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 188 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+185 
+conforme au RGS**197 - 
+homologuée par 
+l’organisme
+Accès aux 
+dispositifs d’import 
+- export du poste 
+utilisateur 
+Réservé aux utilisateurs 
+authentifiés sur le 
+terminal 
++ 
+supports amovibles 
+préalablement 
+« enrôlés » sur le 
+système et autorisés 
+pour cet utilisateur
+Protection de la classe Ȗ
+Réservé aux utilisateurs 
+assurant une fonction 
+d’enregistrement des 
+documents classifiés ou 
+de gestion des échanges 
+Contrôle des 
+équipements 
+connectés au réseau
+Désactivation des 
+services non utilisés 
+(conformité) 
+Protection de la classe Ȗ
++ 
+Authentification des 
+équipements au réseau 
+Protection de la classe ȕ
+Cloisonnement et 
+filtrage 
+Cloisonnement par 
+fonction homogène au 
+sein du SI 
+(cloisonnement des 
+réseaux locaux-LANs- 
+par population)
+Cloisonnement entre les 
+utilisateurs d’une même 
+population, exemple P-
+VLAN. 
+Cloisonnement par le 
+chiffre pour chaque poste 
+utilisateur (tunnel dédié 
+vers les services) 
+Capacité à 
+restreindre la 
+visualisation des IC 
+par un tiers. 
+Disposition des 
+terminaux par rapport 
+aux ouvertures du local 
+(portes, fenêtres, 
+vasistas, hublots, etc.) et 
+protection des vis-à-vis
+Protection de la classe Ȗ
+Protection de la classe ȕ
+3. Tableaux de combinaison des classes 
+L’objectif final est d’égaler ou de surpasser le temps de freinage tel que défini au point 1 pour obtenir un 
+niveau de sécurité minimal pour les informations et supports classifiés. 
+La détermination de ce niveau est réalisée en deux temps : 
+-
+la classification des barrières (emprise (ou site) ou bâtiment, local, meuble ou moyen logique) à travers 
+les moyens de détection d’intrusion ou de freinage qui leur sont associées ; 
+-
+la vérification de la validité de la combinaison des classes des barrières en fonction du niveau de 
+classification des informations et supports classifiés. 
+Dans le cas où le niveau minimal de sécurité ne peut être atteint, il faut faire évoluer la classe d’une ou des 
+barrières pour atteindre ce niveau. 
+a.
+Protection des informations et supports classifiés 
+La protection des informations et supports classifiés est assurée par trois barrières physiques successives au 
+niveau de l’emprise (ou site) ou du bâtiment, du local et du meuble. 
+197 Le référentiel général de sécurité (RGS) publié par l’ANSSI est le cadre règlementaire permettant d’instaurer la confiance dans 
+les échanges au sein de l’administration et avec les citoyens. Son niveau est déterminé par le nombre d’étoiles (une, deux ou trois 
+étoiles).

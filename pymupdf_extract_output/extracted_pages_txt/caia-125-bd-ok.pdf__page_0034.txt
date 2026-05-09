@@ -1,0 +1,115 @@
+Source file: caia-125-bd-ok.pdf
+Relative path: caia-125-bd-ok.pdf
+Page: 34 / 104
+
+================================================================================
+
+32
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+Jérôme Lemaire, 
+IGA, Chef du 
+Service de la 
+Qualité à la DGA
+Après une thèse et près d’une dizaine d’an­
+nées en intelligence artificielle et robotique, 
+Jérôme Lemaire s’est orienté vers les sys­
+tèmes de systèmes, d’abord pour prépa­
+rer SCORPION puis comme directeur du 
+programme SCCOA. Après une immersion 
+dans les achats d’armement, le Délégué lui 
+a confié à partir de fin 2017 une mission 
+sur l’intelligence artificielle, puis une mission 
+sur la transformation numérique. Il a pris la 
+direction du Service de la Qualité le 1er jan­
+vier 2022.
+INNOVATIONS, FREINS ?
+Même si l’intelligence artificielle a 
+fait des progrès ces dernières an­
+nées, c’est surtout la réalisation de 
+tâches élémentaires qui a percé 
+avec la fouille de données structu­
+rées et la recherche de corrélation 
+entre celles-ci notamment dans le 
+commerce électronique (aide à la 
+fixation des prix, recommandations 
+de produits proches…), le marke­
+ting (ciblage des offres, anticipa­
+tion de tendances…), la mainte­
+nance industrielle… Les premières 
+applications sur des données non 
+structurées (traitement de la pa­
+role et traitement d’images) com­
+mencent à être industrialisées dans 
+des enceintes domestiques ou des 
+smartphones. 
+Elles 
+concernent 
+aujourd’hui des applications bien 
+circonscrites, comme la trans­
+cription de la parole, la recherche 
+d’informations simples ou la re­
+Figure  : Estimation prospective du temps nécessaire pour que l’IA atteigne ou dépasse les 
+performances humaines selon différents objectifs considérés, les ronds noirs représentant une 
+probabilité d’atteinte de 50%. Source :  When Will AI exceed human performance ? evidence from 
+AI experts – Oxford University – Yale University
+connaissance d’objets dans des 
+images (dans le visible). Même si 
+les progrès accomplis récemment 
+sont indéniables, il reste encore 
+beaucoup à faire pour aller au-delà 
+d’applications permettant d’effec­
+tuer de manière automatisée des 
+tâches élémentaires ou très spé­
+cialisées (jeu de go, robot aspira­
+teur). 
+Concernant 
+l’accessibilité 
+pour 
+un robot à des tâches complexes 
+via l’intelligence artificielle, plus de 
+300 chercheurs et spécialistes en 
+IA avaient été interviewés en 2016 
+et avaient fourni leur estimation 
+sur le délai nécessaire en fonction 
+des objectifs considérés (cf. figure 
+jointe). Les avancées de ces cinq 
+dernières années ont permis de 
+progresser mais ne remettent pas 
+en cause les ordres de grandeurs 
+mentionnés à l’époque (pour le sui­
+vi de l’évolution des performances 
+sur différentes tâches élémentaires 
+consulter 
+aiindex.stanford.edu). 
+Cela laisse des perspectives pour 
+des générations de chercheurs, y 
+compris d’ingénieurs de l’arme­
+ment ! 
+La robotique de défense bénéficie du dynamisme de la robotique ci­
+vile et de l’intelligence artificielle, via des algorithmes génériques qui 
+sont majoritairement disponibles en open-source. Néanmoins, plus 
+les sujets à traiter sont éloignés de cas d’usage civils (sujets et types 
+de données) et de plus la conception des chaînes algorithmiques et 
+leur paramétrage nécessitent un effort particulier pour le secteur de 
+la défense avec la nécessité de débuter les travaux à des niveaux 
+de TRL assez bas. La modélisation d’une situation opérationnelle 
+de combat terrestre comparée avec celle du jeu de go a déjà été 
+évoquée. Concernant les capteurs, on utilise des données d’imageur 
+thermique, de radar de surveillance aérienne, de guerre électronique 
+qui ne sont pas traités par le secteur civil. Autre exemple, concer­
+nant l’interface homme – machine : les grands acteurs du numérique 
+s’intéressent surtout à la traduction automatique entre des langues 
+courantes et l’anglais ou le chinois ; la défense a besoin d’assistan­
+ce à la traduction entre le français et des langues parfois rares que 
+l’on rencontre sur les théâtres d’opération. De manière générale, les 
+systèmes robotiques militaires présentent des caractéristiques par­
+ticulières : systèmes ne disposant pas forcément de liaisons haut 
+débit pour des raisons de discrétion ou de brouillage, robotique en 
+milieu non coopératif et non structuré (contrairement aux véhicules 
+sans chauffeur), haut niveau de sécurisation exigé...  Il est par ailleurs 
+nécessaire de tenir compte du besoin d’intégration de ces systèmes 
+avec les grandes plateformes dont ils dépendent (interopérabilité du 
+système robotique avec le système d’information de celle-ci). Tout 
+cela n’empêche pas le développement de robots et de drones qui 
+restent majoritairement téléopérés voire avec un certain niveau de su­
+pervision comme le montrent d’autres articles de ce numéro.

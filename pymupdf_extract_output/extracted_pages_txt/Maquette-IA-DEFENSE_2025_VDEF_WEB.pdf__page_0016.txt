@@ -1,0 +1,72 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 16 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+16
+Les enjeux et perspectives de l’IA de défense à l’échelle
+Le développement de l’IA de défense à l’échelle 
+représente la capacité à déployer des solutions d’IA 
+non pas comme des prototypes isolés, mais comme des 
+systèmes robustes, intégrés et utilisables de nombreux 
+utilisateurs sur le théâtre d’opérations. Contrairement 
+à des IA simples, implémentables rapidement dans 
+un cadre restreint, l’IA de défense à l’échelle exige une 
+industrialisation et une homologation des briques 
+technologiques pour les rendre fiables face à des 
+conditions réelles et changeantes, souvent imprévisibles.
+Cependant, ce déploiement nécessite de surmonter 
+les contraintes spécifiques à ce secteur telles que 
+la sensibilité, la disponibilité et le partage des 
+données entre l’État et les industriels, la maturité 
+des architectures de défense, le manque d’acteur 
+technologique majeur Européen, l’intégration dans 
+des systèmes complexes ou encore les contraintes de 
+recrutement et les réglementations internationales. 
+Nous proposons dans cet article des pistes d’accélération 
+sur lesquels travailler pour sécuriser le passage à l’échelle. 
+Vision stratégique
+Pour commencer, il est essentiel de définir une vision claire 
+des grandes thématiques d’IA sur lesquelles investir afin 
+de donner un cap à l’entreprise, par exemple autour des 
+drones, de la guerre électronique, du renseignement, des 
+centres de commandement, ou encore de la logistique. 
+Impliquer les Comités de Direction (CODIR) et Comités 
+Exécutifs (COMEX) dans ce choix permet de recueillir 
+leur vision à court, moyen et long terme. La vision doit 
+inclure des métriques pour évaluer les gains attendus 
+et le retour sur investissement (ROI). Une trajectoire 
+budgétaire ambitieuse sur plusieurs années doit 
+ensuite être sécurisée, couvrant les investissements en 
+ressources humaines, technologies, accompagnement 
+au changement, et justifié par les ROI escomptés.
+Modèle opérationnel
+La définition d’un modèle opérationnel (organisation, 
+gouvernance, processus, indicateurs) adapté est crucial. 
+Plusieurs critères doivent être pris en compte tels que 
+la taille de l’organisation, le volume et la typologie de 
+cas d’usage, le niveau de maturité en IA et la culture 
+d’entreprise. Si le modèle Hub-and-Spoke [1]  est de plus 
+en plus privilégié, il convient de noter que nous observons 
+plutôt des modèles centralisés pour des IA factory dans 
+le secteur de la défense, probablement du fait de la 
+maturité et des contraintes évoqués précédemment.
+Méthodologie agile appliquée à l’IA
+Le développement dans un mode agile est essentiel 
+pour co-construire avec les utilisateurs finaux, 
+améliorer la performance des modèles par itérations 
+successives et assurer un fonctionnement en boucle 
+courte. Néanmoins, les contraintes d’homologation 
+propres au secteur de la défense nécessitent de 
+bien prévoir les niveaux de maturité attendus, par 
+exemple sur la documentation des besoins et critères 
+d’acceptation, les exigences de cybersécurité, la qualité 
+du code ou encore les contraintes de performance.
+Majda Belhaj
+Capgemini Invent
+Florian Canderlé
+Senior Manager 
+ Directrice Data et IA
+Capgemini Invent

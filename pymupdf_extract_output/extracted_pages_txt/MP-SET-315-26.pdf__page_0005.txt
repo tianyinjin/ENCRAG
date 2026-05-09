@@ -1,0 +1,24 @@
+Source file: MP-SET-315-26.pdf
+Relative path: MP-SET-315-26.pdf
+Page: 5 / 12
+
+================================================================================
+
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+STO-MP-SET-315-26
+5
+The first simulator is a multiple particle environment. It is the fastest and simplest. It draws the agents as 
+simple particles where no physical constraints are considered other than speed limits, particle boundaries and 
+momentum. This multiple particle environment, due to its speed, is used for training initial Machine 
+Learning models. 
+The second simulator, Thales Group proprietary, is called SE-Star (Figure 3), and it approaches closer to the 
+general conditions a swarm could face during a mission in the real world. This simulator uses a general 
+physical dynamics model of the flying platforms. It is used for testing purposes and for fine-tuning the 
+Machine Learning models previously learned using the first simulator. 
+Figure 3: SE-Star simulates the ground sensors, the drones and their payloads. 
+The last simulator is embedded in SkyControl® (Figure 4), ARA Robotics®’ GCS software. This simulator 
+encompasses realistic dynamics of the actual quadcopters used for real-world demonstrations. It is used to 
+reduce risks of potential conflicts during real flights. SkyControl® allows us to carry out high-quality tests 
+and validation of our system prior to real world deployment. 
+Figure 4: SkyControl® user interface for simulation and real world flight trials.

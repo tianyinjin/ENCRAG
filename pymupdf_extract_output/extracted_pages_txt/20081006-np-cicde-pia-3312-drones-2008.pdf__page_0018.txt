@@ -1,0 +1,70 @@
+Source file: 20081006-np-cicde-pia-3312-drones-2008.pdf
+Relative path: 20081006-np-cicde-pia-3312-drones-2008.pdf
+Page: 18 / 25
+
+================================================================================
+
+14 
+Les autres utilisateurs de l’espace aérien engendrent également des brouillages nuisibles 
+pour l’action des drones. Dans certaines conditions d’utilisation, on peut observer des 
+interférences entre les liaisons LOS des drones SIDM et SDTI sur des distances atteignant 
+100 kilomètres. L’emploi de la liaison satellite permet cependant de s’affranchir de cette 
+contrainte. Lors de déploiement sur des théâtres d’opération en coopération avec d’autres 
+systèmes de drones (Predator, Warrior, Hermes, …), il sera nécessaire de vérifier la 
+compatibilité des liaisons utilisées. 
+Quant à l’utilisation de drones sur des théâtres peu permissifs, face à des adversaires 
+disposant de moyens de guerre électronique, il sera indispensable d’évaluer les capacités 
+d’immunité et de robustesse des liaisons avant de déployer les systèmes.  
+))
+))
+))
+)) 	*"	
+"'"",-.
+	*"	
+"'"",-.
+	*"	
+"'"",-.
+	*"	
+"'"",-.
+• 
+Les systèmes de drone reposent, pour fonctionner, sur la mise en place d’une 
+architecture SIC spécifique, dédiée au contrôle du vecteur, des senseurs et au recueil 
+des informations. 
+• 
+Pour être utilement exploitées, les informations fournies par les systèmes de drone 
+doivent pouvoir parvenir en temps utile aux niveaux pertinents de la chaîne C2, ce qui 
+nécessite un dimensionnement spécifique des autres réseaux SIC déployés. 
+Une fois assurées la disponibilité et la sécurité de la ressource nécessaire au sein du spectre 
+électromagnétique, il convient de mettre en place les différents réseaux idoines et leurs 
+matériels associés. 
+Deux architectures sont à considérer. 
+• 
+Architecture SIC dédiée au fonctionnement du système de drone
+L’architecture SIC comprend les liaisons nécessaires au pilotage du vecteur et des capteurs 
+ainsi qu’au recueil des informations. 
+- 
+Pour le DRAC, l’ensemble des moyens SIC nécessaires (émetteur-récepteur, antenne) 
+fait intégralement partie du système. Ils sont légers, mobiles et aisément déployables. 
+- 
+Le système SDTI dispose également de l’ensemble de ses SIC dédiés, à savoir ses 
+stations de contrôle, de communication et ses faisceaux hertziens, embarqués à bord de 
+véhicules spécifiques. 
+- 
+Le système SIDM dispose en propre de ses modules de pilotage et de ses antennes 
+d’émission-réception. En revanche, il dépend de la disponibilité d’un satellite de 
+télécommunication extérieur pour pouvoir exploiter ses vecteurs au-delà de la portée 
+visuelle. Cette ressource satellitaire n’est pas étatique, le service est acheté auprès 
+d’opérateurs privés du secteur concurrentiel. Les satellites de télécommunication se 
+situant majoritairement au niveau de l’équateur terrestre, la qualité des liaisons sera 
+moins bonne, voire insuffisante, aux latitudes élevées. Par ailleurs, les utilisateurs 
+potentiels des réseaux satellitaires étant nombreux (forces alliées, ONG, média,…), la 
+disponibilité de la ressource n’est pas toujours assurée et devra être vérifiée en amont du 
+déploiement.  
+• 
+Architecture SIC nécessaire à l’exploitation des informations recueillies
+Dans un second temps, l’information issue du drone, laissée brute ou traitée par un échelon 
+d’analyse initial au sein des systèmes, doit être transmise aux utilisateurs dans des délais 
+compatibles avec les buts poursuivis (analyse, planification, conduite, …). 
+Les systèmes de drone doivent donc être insérés au sein des réseaux SIC tactiques et/ou 
+d’infrastructure (RITA, Syracuse, réseaux HF, …), selon le niveau considéré, pour 
+retransmettre cette information.

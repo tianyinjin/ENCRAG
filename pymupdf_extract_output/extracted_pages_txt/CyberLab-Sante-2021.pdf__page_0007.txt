@@ -1,0 +1,170 @@
+Source file: CyberLab-Sante-2021.pdf
+Relative path: CyberLab-Sante-2021.pdf
+Page: 7 / 21
+
+================================================================================
+
+Pôle d’excellence cyber
+CyberLab Catalogue de services et de prestataires cyber appliqués au domaine de la santé
+13
+12
+Novembre 2021 
+Nécessité pour les éditeurs d’intégrer la sécurité dans 
+leurs produits pour assurer leur commercialisation
+Tout projet de système d’information doit, avant sa mise en service, bénéficier 
+d’une analyse formalisée des risques pesant sur sa sécurité. La gestion des 
+risques vise à renforcer la confiance des utilisateurs dans les outils numériques 
+et favorise donc le bon usage de ces systèmes d’information.
+L’analyse des risques numériques est un élément central de la méthodologie 
+SSI. Plus largement, elle rentre dans le périmètre réglementaire de l’homolo-
+gation de sécurité (obligation s’appliquant aux établissements de santé dans 
+le cadre de l’Instruction 309 du ministère des affaires sociales et de la santé). 
+Elle permet à un responsable, en s’appuyant sur l’avis des experts, de s’infor-
+mer et d’attester aux utilisateurs d’un système d’information que les risques 
+qui pèsent sur eux, sur les informations qu’ils manipulent et sur les services 
+rendus, sont connus et maîtrisés.
+Une analyse de risque est une combinaison entre :
+• Ses vulnérabilités du système : 
+	
+ Organisationnelle (chaîne fonctionnelle de responsabilité) ; 
+	
+ Réglementaire (Lois, PSSI, procédures et chartes) ; 
+	
+ Environnementale (infrastructure, protections physiques) ; 
+	
+ Informatique (architecture, configuration, virus, etc.) ; 
+	
+ Humaine (formation, comportement, motivation).
+• Des menaces réelles sur ce système (dangers dûs à des vulnérabilités 
+qui affectent un individu, un bien, un service, une organisation) ;
+• Il en découle des événements redoutés (mode opératoire d’une menace 
+qui exploite une vulnérabilité) dont on va juger le risque selon : 
+ Sa gravité (les impacts possibles) : x sur une échelle de 
+1 à 4 (négligeable, limitée, importante, critique) ;
+	
+ Sa vraisemblance (la possibilité qu’il se réalise) : y sur une 
+échelle de 1 à 4 (minime, significative, forte, maximale) ;
+• les 2 valeurs se multiplient (xy), et l’analyse de risque traitera en priorité 
+les risques graves et vraisemblables (fort coefficient de multiplication, xy), et 
+ne traitera pas (choix à opérer donc pour chaque organisation) les risques 
+peu graves et/ou peu vraisemblables (faible coefficient xy).
+Illustration graphique
+La démarche de gestion des risques au cœur de l’activité SSI
+Les risques numériques sont de quatre ordres :
+• Risque d’indisponibilité du matériel ou de l’application, donc de l’accès aux 
+données ;
+• Risque de perte d’intégrité des données : impact sur la complétude et 
+l’exactitude des données ;
+• Risque de rupture de la confidentialité : accès à des données par une 
+personne alors qu’elle ne dispose pas du niveau d’habilitation délivré par 
+l’organisation, espionnage, fuite ;
+• Risque de modification des traces informatiques compromettant l’impu-
+tabilité des actions sur le système d’information, la preuve.
+La démarche de gestion de risque vise à traiter ces risques, c’est-à-dire à les 
+réduire, éviter ceux qui sont critiques, partager ou accepter les autres, parce 
+qu’on est pleinement conscient des vulnérabilités de notre système et qu’ont 
+a apprécié l’impact d’un potentiel incident de sécurité.
+Une politique globale de cybersécurité, qui comprend une fine évaluation 
+des risques et de leurs conséquences, doit être mise en place, et cela pour 
+chacune des phases du cycle de vie du produit. On pourra par exemple s’ap-
+puyer sur le « framework » de cybersécurité des infrastructures critiques défini 
+par l’institut Américain des normes et technologies (NIST) pour définir une 
+analyse de risques et une politique de cybersécurité pour chaque étape du 
+cycle de vie.
+Cycle de vie et cybersécurité
+L’Institut national Américain des normes 
+et de la technologies (NIST), 
+« Framework IPDRR »
+LES DANGERS 
+UN VIRUS INFORMATIQUE 
+EN CIRCUALTION
+LES VULNÉRABILITÉS 
+UNE MISE À JOUR OU UN 
+CORRECTIF NON APPLIQUÉ
+UNE SITUATION
+DANGEREUSE
+CRÉE UNE
+MENACE
+L’ARRIVÉE DU VIRUS 
+DANS LE SYSTÈME
+TOUS LES FICHIERS
+DES SERVEURS
+INFORMATIQUES
+SONT CHIFFRÉS
+PLUS D’ACCÈS POSSIBLE
+AU DOSSIER PATIENT
+PLUS D’ACCÈS POSSIBLE
+AU DOSSIER PATIENT
+DÉSORGANISATION DE
+LA PRISE EN CHARGE
+DU PATIENT
+IMPACT 
+SUR LA SÉCURITÉ 
+DU PATIENT
+LA RÉALISATION D’UN
+ÉVÉNEMENT
+REDOUTÉ
+L’OUVERTURE D’UNE
+PIÈCE JOINTE
+INCIDENT
+DE SÉCURITÉ
+LES RISQUES
+Source : Mémento de cybersécurité 2017
+IDENTIFIER
+RESTAURER
+RÉPONDRE
+DÉTECTER
+PROTÉGER
+ 
+M
+a
+i
+n
+t
+e
+n
+a
+n
+c
+e
+ 
+>
+ 
+C
+o
+n
+c
+e
+p
+t
+i
+o
+n
+ 
+>
+ 
+F
+a
+b
+r
+i
+c
+a
+t
+i
+o
+n
+ 
+>
+ 
+o
+p
+é
+r
+a
+t
+i
+o
+n
+ 
+>

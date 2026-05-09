@@ -1,0 +1,46 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 176 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+DROIT PRIVE
+6.8 
+
+170 
+déploiement et d’une stratégie d’exploitation approuvées par l’AQSSI. La stratégie de 
+déploiement s'assure notamment que l'ensemble des flux de données échangé avec 
+d'autres systèmes d’information est analysé. 
+L'architecture de déploiement des systèmes de détection ne doit pas remettre en cause 
+la sécurité du système d’information. Les systèmes de détection journalisent l’ensemble 
+des éléments qu’ils détectent. 
+Si la mise en œuvre des systèmes de détection de type sonde d’analyse de fichiers et 
+de protocoles est impossible pour des raisons techniques ou organisationnelles ou sur 
+le fondement d’une analyse de risques réalisée par le responsable de la sécurité du 
+système d’information dans le cadre de l’homologation, l’autorité d’homologation peut 
+autoriser, après accord de l’autorité contractante, la non mise en place d’un système de 
+détection. La justification figure dans le dossier d’homologation. 
+3. Déclaration des incidents
+En cas d’incident détecté, l’opérateur privé doit le déclarer à l’administration, 
+notamment si la confidentialité, l’intégrité ou la disponibilité peut être impactée. De 
+plus, il se doit de déclarer tout incident survenant dans le périmètre d’un SI classifié, 
+Diffusion Restreinte ou sensible ou ayant une adhérence ou une proximité avec celui–ci. 
+Une campagne d’appui à la détection de compromission157 peut être initiée par le service 
+enquêteur voire un audit conseil. 
+Sauf cas particulier (contrôle gouvernemental ou si l’autorité contractante est la DGSE, 
+etc.), la déclaration initiale d’incident se fait de façon unique à l’administration, c’est-à-
+dire avec l’usage d’un même formulaire (formulaire type ANSSI) qui est transmis à 
+l’ANSSI, copie DRSD et DGA/SSDI. 
+Suite à un incident ou dans le cadre d’une suspicion de compromission158, la DRSD et la 
+DGA\SSDI159 peuvent mener, en coordination avec l’ANSSI et le COMCYBER, des 
+contrôles sur les SI classifiés ou Diffusion Restreinte ainsi que les systèmes sensibles ou 
+non protégés qui appartiennent à l’environnement d’un réseau classifié ou Diffusion 
+Restreinte. 
+
+157 Cf. définition au paragraphe 1 de la fiche introductive du titre 8. 
+158 Idem 
+159 Ou la DGSE pour son périmètre de compétence.

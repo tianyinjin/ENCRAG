@@ -1,0 +1,924 @@
+Source file: ObsDrones -Bulletin de veille n°9 - mai-juin 2025.pdf
+Relative path: ObsDrones -Bulletin de veille n°9 - mai-juin 2025.pdf
+Page count: 17
+Extracted pages: 17
+
+================================================================================
+
+[Page 1 / 17 | chars: 253]
+--------------------------------------------------------------------------------
+
+2025
+OBSERVATOIRE        
+DES DRONES
+Mai - Juin
+Bulletin de veille d’actualité n°9
+Etude financée par la 
+Direction générale des relations internationales et de la stratégie
+Marché : 2023.1050131206 
+20250628_NP_Obsdrones_Bulletin-de-veille-n09-mai-juin
+
+[Page 2 / 17 | chars: 629]
+--------------------------------------------------------------------------------
+
+2
+Avertissement
+Les opinions et analyses exprimées dans ce livrable n’engagent que la responsabilité de leurs auteurs. Elles
+ne sauraient représenter ou traduire une prise de position de l’organisme pilote de l’étude, de la Direction
+générale des relations internationales et de la stratégie ou du ministère des Armées.
+The opinions and analyses expressed in this document are solely the responsibility of their authors. They 
+cannot be considered as representing or reflecting a stance of the lead organization of the study, the 
+Directorate General for International Relations and Strategy, or the Ministry of the Armed Forces.
+
+[Page 3 / 17 | chars: 3448]
+--------------------------------------------------------------------------------
+
+AVANT-PROPOS
+L'observatoire des drones vise à exposer les événements récents liés à l'utilisation
+opérationnelle des drones, les avancées technologiques, les concepts d'emploi, ainsi que les
+perspectives économiques (contrats, acquisitions). Les informations présentées ici ne sont
+qu'un condensé extrait de 469 articles couvrant la période de mai à juin 2025.
+Les forces ukrainiennes poursuivent une stratégie d’attrition visant les infrastructures critiques
+de la BITD russe — usines de munitions, de composants, d’explosifs ou de microélectronique —
+afin de perturber les chaînes logistiques et de freiner la montée en puissance des capacités de
+production de drones, notamment FPV. L’opération SpiderWeb marque une inflexion doctrinale
+majeure : elle repose sur l’emploi coordonné de mini-drones FPV longue portée, infiltrés en
+profondeur via des moyens civils et équipés de modules d’IA embarquée pour l’identification
+automatique de cibles à haute valeur. En réaction, la Russie développe des contre-mesures à
+faible coût, en réaffectant des plateformes existantes comme les Yak-52 ou les intercepteurs
+V2U. Parallèlement, elle intensifie ses frappes de saturation, soutenues par une capacité
+industrielle en expansion, vraisemblablement renforcée par des transferts iraniens et nord-
+coréens.
+En matière d’avancées technologiques, les salons du Bourget (SIAE), MADEX (Corée du Sud) et
+IndoDefence 2025 (Indonésie), ont été l’occasion de confirmer une montée en puissance des
+systèmes autonomes, combinant frappe, ISR ou encore logistique, dans des formats plus légers,
+modulaires et économiques. Les munitions rodeuses gagnent en portée et précision, tandis que
+la robotique terrestre se diversifie avec des UGV modulaires comme le Protector ukrainien, ou
+des programmes d’obusier automoteur autonome, à l’image du K9A3 sud-coréen. Des
+innovations émergent aussi dans la logistique low-cost (Airvolve), l’interception d’UAV par IA (UAV
+Blaze), ou encore la détection de mines par UAV multicapteurs (UADamage).
+Dans un contexte de transformation doctrinale marqué par l’évolution de la guerre maritime et les
+retours d’expérience récents, la Corée du Sud a chargé HD Hyundai de concevoir un navire de
+commandement intégrant UAV, USV et munitions rôdeuses, en remplacement du porte-avions
+CVX (présentation prévue en mai 2025). En mer Baltique, l’OTAN a engagé la Task Force X, une
+initiative structurante visant à protéger les infrastructures sous-marines critiques grâce au
+déploiement de systèmes autonomes interopérables, dans une logique de combat naval en
+réseau. Parallèlement, le Royaume-Uni a dévoilé une nouvelle doctrine terrestre misant sur une
+force à 80 % automatisée, reposant sur un équilibre entre drones ISR, munitions rôdeuses et
+plateformes lourdes.
+Enfin, les coopérations industrielles dans le domaine des drones s’intensifient à l’échelle
+européenne et internationale. Quantum Systems (Allemagne) relocalise en Ukraine sa production
+des fuselages pour l’UAV Vector. Anduril (Etats-Unis) s’implante en Pologne et au Monténégro via
+une ligne de production conjointe liée au soutien à l’Ukraine. En parallèle, Rheinmetall (Allemagne)
+et Anduril s’associent pour développer des UAV (Barracuda, Fury) pour le marché européen. Enfin,
+Leonardo (Italie) et Baykar (Turquie) créent la coentreprise LBA Systems, dédiée au
+développement, à la production et à la maintenance de drones pour les marchés européens et
+internationaux.
+3
+
+[Page 4 / 17 | chars: 3294]
+--------------------------------------------------------------------------------
+
+1 - USAGES OPÉRATIONNELS
+Le Mossad israélien a mis en œuvre des UAV à partir d’un site près de Téhéran | Israel
+▪La Russie contrôle les drones Shahed en Ukraine via Telegram, Messenger | Russie
+▪La Russie lance une attaque record de 479 UAV sur l’Ukraine pendant la nuit du 8 au 9 juin | Russie
+▪Des UAV ukrainiens détruisent un radar naval russe Zaslon sur roues | Ukraine
+▪Un avion de combat russe abattu par un USV ukrainien | Ukraine
+▪L’Ukraine diffuse les premières images d’un UAV/intercepteur Sting Interceptor | Ukraine
+▪Un UAV/FPV/FO de l’unité Magyar Birds frappe un char russe à 42km de la ligne de front | Ukraine
+▪L’Ukraine frappe des bases de bombardiers russes avec des essaims d’UAV/FPV| Ukraine
+▪La marine ukrainienne utilise des TB2 pour attaquer des navires russes | Ukraine
+▪L’armée ukrainienne met en service un UGV lance-flamme, le Krampus | Ukraine
+▪Premières images du Magura V7 armé de missiles Sidewinder | Ukraine
+▪Les renseignements ukrainiens dévoilent des USV utilisés dans les frappes en Crimée | Ukraine
+2 - BRIQUES TECHNOLOGIQUES
+▪L’Australie accélère le développement des Loitering Munitions de conception locale | Australie
+▪L’Australie, Boeing et la RAAF réalisent le 1er contrôle aérien du MQ-28 Ghost Bat | Australie
+▪Le drone innovant d’une start-up lituanienne : Airvolve | Lituanie
+▪Origin Robotics lance l’intercepteur d’UAV Blaze alimenté par l’IA | Lettonie
+▪Le nouvel UAV d’attaque russe Dan-M | Russie
+▪La Russie confirme l’utilisation d’un laser de combat chinois au combat | Russie
+▪La Russie montre une version à réaction d’un Shahed | Russie
+▪Saab s’associe à General Atomics pour proposer une capacité AEWC sur MQ-9B | Suède / Etats-Unis
+▪L’Ukraine développe un UAV doté d’un module IA pour la détection de mines | Ukraine
+▪La Corée du Sud développe une version UGV de son obusier K9 | Corée du Sud
+▪L’Ukraine va mettre en service l’UGV lourd Protector | Ukraine
+3 - CONCEPTS D’EMPLOI
+▪La Corée du Sud se tourne vers la puissance navale sans pilote | Corée du Sud
+▪La RAF déploie un nouveau UAV, le StormShroud pour brouiller les radars ennemis | Royaume-Uni
+▪Les Etats-Unis lancent « Replicator 2 » pour développer une technologie C-UAS | États-Unis
+▪Le Royaume-Uni dévoile un nouveau concept de guerre terrestre | Royaume-Uni
+▪L’OTAN renforce la sécurité sous-marine dans les pays baltes | OTAN
+▪Le Japon teste avec succès un USV de Guerre des Mines (GdM) | Japon
+4 - PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+▪Anduril et Rheinmetall vont développer des drones pour l’Europe | Allemagne / Etats-Unis
+▪L’Arabie Saoudite est en pourparlers pour acheter jusqu’à 200 MQ-9 | Arabie Saoudite
+▪La Russie va aider la Corée du Nord à produire des Shahed | Corée du Nord / Russie
+▪Leonardo et Baykar lancent une coentreprise LBA Systems | Italie / Turquie
+▪Le Montenegro va produire des drones pour l’Ukraine | Montenegro
+▪La Pologne commande 10 000 UAV kamikazes Warmate | Pologne
+▪Le Protector entre en service dans la RAF | Royaume-Uni
+▪Le Royaume-Uni va fabriquer des drones ukrainiens pour l’armée ukrainienne | Royaume-Uni
+▪L’industrie de défense ukrainienne serait capable de produire 10 millions d’UAV par an | Ukraine
+SOMMAIRE
+5
+5
+5
+5
+5
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+9
+10
+10
+10
+10
+11
+11
+11
+11
+12
+12
+12
+13
+13
+13
+13
+13
+14
+14
+14
+14
+14
+4
+
+[Page 5 / 17 | chars: 3958]
+--------------------------------------------------------------------------------
+
+AIR
+L’accroissement manifeste de l’usage de tous types de drones au cours de la période confirme les
+tendances observées ces derniers mois, sur le front ukrainien. L’opération SpiderWeb révèle la capacité de
+Kiev à mener des frappes en profondeur via des UAV/FPV infiltrés, dotés de modules d’identification
+embarqués. En parallèle, l’introduction de drones intercepteurs comme le Sting et d’USV armés de missiles
+sol-air marque une rupture dans la lutte anti-aéronef. En réaction, la Russie adapte ses vecteurs en misant
+sur la vitesse et la navigation mobile pour contourner le brouillage GNSS.
+1/ USAGES OPÉRATIONNELS
+5
+Le Mossad israélien a mis en œuvre des UAV à partir d’un site près de Téhéran 
+Source : Time of Israël
+Analyse : L’information est à prendre avec précaution. Si elle se révèle vraie, on assisterait à un nouveau mode d’action, à l’image de
+l’opération Spider Web en Russie.
+13/06/2025
+ISRAEL
+Selon le Times of Israël, le Mossad a établi une base d’UAV en Iran. Le site, situé près de Téhéran, a été activé dans la nuit du 13 juin
+pour exécuter des frappes sur des installations de missiles visant Israël. En parallèle, des véhicules ont introduit clandestinement des
+systèmes d’armes en Iran. Ce sont précisément ces systèmes qui ont été utilisés pour neutraliser les défenses aériennes iraniennes.
+Analyse : Ces informations doivent encore être vérifiées, mais elles montrent bien le jeu d’adaptation constant entre ceux qui
+attaquent et ceux qui défendent. Les drones n’échappent pas à cette logique. Il est très probable que les Ukrainiens cherchent déjà,
+voire aient trouvé, des moyens pour répondre à ces nouvelles techniques.
+La Russie contrôle les drones Shahed en Ukraine via Telegram Messenger
+Source : UAS Vision
+RUSSIE
+28/05/2025
+Selon des rapports récents d’ingénieurs ukrainiens examinant l’épave des Shahed abattus, une note manuscrite, prétendument laissée
+par un ingénieur russe, détaillant un nouveau système de contrôle a été saisie. La note affirme que les Geran (version russe du
+Shahed) sont exploités par des bots Telegram. Ce système permettrait de contourner la navigation GPS en exploitant les réseaux
+mobiles ukrainiens, les rendant très résistants au brouillage des signaux. Cette révélation, si elle est exacte, marque une évolution
+significative dans la guerre, soulevant des questions sur l’utilisation d’une plate-forme de messagerie sociale largement accessible
+comme outil dans les conflits actifs. Selon d’autres rapports, le taux de réussite (destruction) de l’Ukraine contre les Shahed est passé
+de plus de 90 % en 2024 à environ 30 % au début de 2025. De plus, les Shahed voleraient maintenant plus haut, rendant les armes de
+petits calibres et certains systèmes anti-aériens moins performants.
+Analyse : La Russie continue de mener des frappes massives sur l’Ukraine. On peut se demander combien de temps elle sera capable
+de maintenir un tel rythme.
+La Russie lance une attaque record de 479 UAV sur l’Ukraine pendant la nuit du 8 au 9 juin 
+Source : Defense Post
+RUSSIE
+09/06/2025
+La Russie a tiré un nombre record de 479 UAV sur l’Ukraine dans la nuit du 8 au 9 juin. Des frappes aériennes russes ont été
+enregistrées à 10 endroits. L’armée de l’air ukrainienne a déclaré avoir abattu ou intercepté 460 UAV, ainsi que 19 des 20 missiles
+tirés par la Russie pendant la nuit.
+Des UAV ukrainiens détruisent un radar naval russe Zaslon sur roues
+Source : UAS Vision
+Analyse : Pour les Ukrainiens, il s’agit d’un grand succès ; pour les Russes, d’une perte importante. L’information ne précise pas
+.comment le système a été détecté, localisé, ni combien et quel type d’UAV ont été employés.
+08/05/2025
+UKRAINE
+Des UAV ukrainiens ont détruit, le 5 mai, un radar russe Zaslon installé sur un véhicule terrestre (alors qu’il s’agit initialement d’un
+radar de navire). Le lieu de l’attaque n’a pas été divulgué. Avec cette frappe, les forces ukrainiennes ont neutralisé un système évalué
+à plus de 50 M$.
+
+[Page 6 / 17 | chars: 4483]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°9 / Mai-Juin 2025
+1/Usages opérationnels
+6
+L’Ukraine diffuse les premières images d’un UAV/intercepteur Sting Interceptor
+Source : Militarnyi
+Analyse : Le Sting serait l’un des UAV/intercepteur utilisés par l’Ukraine mais pas le seul. Son coût et sa cadence de production sont
+inconnus. Son guidage manuel ne facilite pas forcément son emploi.
+19/05/2025
+UKRAINE
+Les forces de défense ukrainiennes ont déployé des UAV/ intercepteur Sting, pour lutter contre les
+Shahed. Une vidéo de l’utilisation de l’intercepteur a été publiée par le groupe ukrainien Wild
+Hornets. Cette vidéo est la 1ère vidéo connue d’un Sting. Les images, capturées avec une caméra
+thermique, semblent montrer le Sting frappant le Shahed par le bas. Le Sting est conçu comme une
+alternative peu coûteuse aux missiles anti-aériens. Il s’agit d’un quadricoptère pouvant atteindre des
+vitesses supérieures à 160 km/h et des altitudes d’environ 3 000 m. Sa section centrale en forme de
+dôme abrite une ogive et une caméra thermique. Il est piloté manuellement à l’aide de lunettes VR.
+Selon ses développeurs, il peut recevoir un système de ciblage assisté par l’IA.
+Un UAV/FP/FO de l’unité Magyar Birds frappe un char russe à 42 km de la ligne de front
+Source : Militarnyi
+Analyse : La distance est remarquable pour un système de cette catégorie, et pourrait avoir un impact significatif sur les dynamiques
+opérationnelles.
+29/05/2025
+UKRAINE
+Un UAV/FPV/FO exploité par la 414ème brigade d’UAV d’attaque, connu sous le nom de Magyar Birds, a frappé des véhicules blindés
+russes à une distance de 42 km de la ligne de front. Un opérateur a guidé l’UAV dans un hangar dont il a été confirmé plus tard qu’il
+contenait 4 véhicules blindés russes. Une fois à l’intérieur, l’UAV a manœuvré pour identifier la cible la plus précieuse et a frappé le
+char, touchant la trappe de son conducteur.
+L’Ukraine frappe des bases de bombardiers russes avec des essaims d’UAV/FPV
+Source : UAS Vision
+Analyse : L’opération reste remarquable par sa complexité et son audace. Le nombre d’appareils détruits ou fortement endommagés
+reste encore sujet à caution et incertain. Toutefois, au-delà de l’audace, il s’agit à la fois d’un affront majeur pour la Russie qui ne peut
+garantir sa sécurité, y compris en profondeur, mais aussi d’une « catastrophe » militaire. Tous les types d’appareils cités existent en
+quantité limitée en Russie et les réparations, si elles sont possibles, seront longues et très coûteuses.
+02/06/2025
+UKRAINE
+L’Ukraine a frappé le 1er juin, 4 bases aériennes russes Belaya, Diaghilevo, Olenya et Ivanovo (la
+plus lointaine étant à 4 000 km de l’Ukraine) qui abritent des bombardiers stratégiques utilisés
+dans des attaques à longue distance contre l’Ukraine. L’opération menée par le SBU a utilisé des
+UAV/FPV/OWA introduits clandestinement en Russie et cachés dans des camions (cf. image). 150
+UAV/FPV auraient été engagés. L’opération désignée sous le nom de SpiderWeb aurait nécessité
+18 mois de préparation. Les UAV/FPV ont été cachés sous les toits de cabines mobiles en bois,
+déjà placées sur des camions. Selon l’Ukraine, 41 aéronefs russes seraient détruits dont des A-50,
+TU-95, Tu-22M3 et Tu-160. Les UAV/FPV utilisés seraient spécifiques et dotés de modules d’IA
+leur permettant d’identifier les différents types d’aéronefs et leurs points sensibles.
+Un avion de combat russe abattu par un USV ukrainien 
+Source : Defence-Blog
+Analyse : C’est la 1ère fois dans l’histoire qu’un appareil de combat à réaction piloté est abattu par un USV. Il s’agit d’une véritable
+révolution.
+03/05/2025
+UKRAINE
+Des sources affiliées à l’armée russe ont reconnu la perte d’un biplace Su-30SM (coût estimé 50 M$) à la suite d’une attaque, le 2 mai,
+d’USV près du port de Novorossiysk, en mer Noire. Le Su-30 aurait été atteint par un missile sol-air R-73 lancé d’un USV du Group 13
+ukrainien (probablement un Magura V5). L’équipage s’est éjecté et a été récupéré par un cargo. L’aéronef appartiendrait au 43ème
+Naval Attack Aviation Regiment de la flotte russe de la mer Noire. Ce n’est pas le 1er cas signalé d’USV ukrainien engageant des
+aéronefs russes. Les engagements précédents auraient impliqué des frappes réussies contre des hélicoptères et des tentatives
+d’endommager des avions opérant au-dessus de la mer Noire. L’intégration de missiles R-73 sur les USV reflète l’évolution de la
+capacité de l’Ukraine à projeter les menaces de déni aérien au-delà des systèmes terrestres.
+
+[Page 7 / 17 | chars: 3718]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°9 / Mai-Juin 2025
+1/Usages opérationnels
+7
+Les renseignements ukrainiens dévoilent des USV utilisés dans les frappes en Crimée
+Source : Militarnyi
+Analyse : Les modèles d’USV mais aussi UAV utilisés en Ukraine ne sont donc pas tous connus. Le GUR semble développer ses
+propres systèmes, par nature très spécialisés et très confidentiels.
+09/05/2025
+UKRAINE
+Le GUR a révélé l’utilisation d’USV porte-UAV pour des missions de frappe en mer Noire, y compris
+des attaques contre des cibles en Crimée. Les plates-formes ont été montrées dans le
+documentaire « Sea Battle ». L’un des modèles révélés est équipé d’un moteur à hélice
+conventionnel plutôt que d’un jet d’eau, et est équipé de 4 conteneurs de lancement pour les
+UAV/FPV. Un 2ème modèle présente une coque complètement différente et est équipé d’un lanceur
+pour quatre drones à voilure fixe. Cet USV aurait été utilisé par l’unité d’élite Prymary du GUR dans
+de multiples missions à longue portée contre des cibles russes en Crimée. Les deux USV porte-
+UAV sont équipés de terminaux satellites Starlink.
+Premières images du Magura V7 armé de missiles Sidewinder
+Source : Naval News
+Analyse : Les informations commencent à filtrer. Elles montrent que l’Ukraine développe une vraie capacité USV/anti-aérien en utilisant
+tous les systèmes qu’elle possède. Il est probable que les prochaines attaques d’USV contre des navires soient escortées par des V7.
+04/05/2025
+UKRAINE
+L’Ukraine a réussi à abattre 2 avions russes en mer Noire à partir d’USV (dont au moins un Su-30).
+De sources ukrainiennes, les USV armés de missiles sol-air seraient des Magura V7 dotés de
+missiles américains Sidewinder. Le Magura V7 est assez différent de l’USV utilisé pour transporter
+les missiles Sea Dragon (Magura V5 avec missile A-11 Archer). Il s’agissait d’une coque plus large
+avec de grands rails de lancement fixes. Le V7 est essentiellement un Magura V5 agrandi. Il mesure
+environ 8 m de long, contre 5,5 m pour le V5. La proue serait différente pour une meilleure tenue
+en mer (utile pour les opérations en hiver). Les 2 Sidewinder sont montés sur leurs rails de
+lancement d’avion, qui semblent pouvoir être surélevés pour le lancement. La portée opérationnelle
+et les performances du missile sont similaires à celles des AA-11 Archer dii Dragon. Le V7 semble
+être une capacité mature, le Sea Dragon étant considéré comme le prototype.
+NAVAL
+TERRE
+Le MoD ukrainien a officiellement approuvé l’utilisation de l’UGV lance-flammes Krampus développé
+localement. Il combine mobilité, autonomie et puissance de feu dans une forme compacte et
+capable de furtivité. Le Krampus est un UGV à chenilles animées par 2 moteurs électriques.
+L’armée ukrainienne met en service un UGV lance-flammes, le Krampus
+Source : Defence-Blog
+UKRAINE
+19/05/2025
+Analyse : L’Ukraine ne précise pas les performances du système et le nombre de Krampus en
+service. Encore une fois, la BITD ukrainienne montre son adaptabilité et sa réactivité.
+La marine ukrainienne utilise des TB2 pour attaquer des navires russes
+Source : Naval News
+Analyse : Le TB2 est de retour sur le front. Il est probable qu’il ait subi, entre temps, des modifications pour mieux résister au
+brouillage et que les forces ukrainiennes les déploient dans des zones moins risquées.
+24/06/2025
+UKRAINE
+Le 24 juin 2025, des TB2 ont permis à la marine ukrainienne de détruire une péniche de débarquement russe en mouvement dans la
+région de Kherson à l’aide d’une munition MAM-L (turque). L’opération, partagée par le vice-amiral Oleksii Neizhpapa, confirme le
+nouveau déploiement des TB2 après des mois d’inactivité apparente. Les images et les détails ont été publiés par les forces navales
+ukrainiennes.
+
+[Page 8 / 17 | chars: 3749]
+--------------------------------------------------------------------------------
+
+AIR
+L’intégration de capacités avancées aux UxV s’accélère à l’échelle mondiale. En Australie, l’opération
+Mission Talon Strike encadre le développement d’une loitering munition à guidage inertiel tandis que le
+Ghost Bat franchit un seuil opérationnel avec un pilotage multi-drones depuis un E-7A Wedgetail. En
+parallèle, les pays baltes misent sur des solutions innovantes, à l’instar du développement de l’intercepteur
+Blaze en Lettonie ou encore du drone logistique en Lituanie. Quant à la Russie, elle renforce ses capacités
+de saturation en transformant cibles aériennes et Shahed à réaction en OWA low cost.
+2/ BRIQUES TECHNOLOGIQUES
+8
+Le gouvernement australien lance l’opération « Mission Talon Strike » pour accélérer la mise au
+point de LM pour ses forces armées. Elle appuiera la conception et la production de LM moyenne
+portée équipées de charges utiles cinétiques et de capacités de frappe de précision comparables à
+des missiles guidés. La société de défense australienne Innovaero a récemment élargi sa gamme
+de LM à deux nouvelles versions : Owl X et Owl-A. Owl-A a une ogive de 1,5 kg, une portée de 45
+km et des capacités ISR complètes. Le prototype Owl X incarne la prochaine étape du
+développement, tandis que l’Owl B a déjà effectué des tirs d’essai avec l’armée australienne.
+L'Australie accélère le développement des Loitering Munitions de conception locale 
+Source : Defense Mirror
+Analyse : L’Australie décide de renforcer ses forces tout en développant sa propre BITD. Toutefois, il est probable qu’en cas
+d’urgence, elle se tourne vers les Etats-Unis pour disposer rapidement d’une capacité minimale.
+AUSTRALIE
+16/05/2025
+Boeing et la RAAF ont réalisé une première en contrôlant à partir d’un E-7A Wedgetail, 2 MQ-28
+Ghost Bat en vol - et un 3ème simulé. Le contrôle était assuré par un seul opérateur à bord de l’E-7A.
+L’essai s’inscrit dans le cadre du « Capability Demonstration 2025 », une série d’essais prévus tout
+au long de 2025. Le CD25 présentera les capacités opérationnelles du MQ-28 et son intégration
+avec les avions habités, y compris les collaborations futures avec le F/A-18F et le F-35.
+L'Australie, Boeing et la RAAF réalisent le 1er contrôle aérien du MQ-28 Ghost Bat
+Source : The Australian Defence Magazine
+Analyse : Le programme progresse. Pour Boeing, il s’agit aussi d’acquérir du RetEx qui va lui servir
+à préparer l’entrée en service des MQ-28 en Australie mais aussi à consolider sa future offre pour
+le CCA Inc 2 de l’USAF.
+AUSTRALIE
+27/06/2025
+La startup lituanienne Airvolve développe actuellement un UAV décrit comme une alternative
+radicalement simplifiée et moins coûteuse aux hélicoptères conventionnels. Au cœur de l’approche
+d’Airvolve se trouve un « système de propulsion réinventé » qui s’appuierait sur des principes
+aérodynamiques vieux de près d’un siècle et qui sont maintenant rendus viables par les progrès de
+la science des matériaux. Le prototype actuel est de taille réduite et il s’insère dans un conteneur
+d’expédition standard de 20 pieds, fonctionne avec du carburant conventionnel. Il a une CU de 200
+kg, une portée de 100 km et de plus de 5 m3 de volume de fret interne. Sa construction coûterait
+moins de 0,5 M$. Le prototype est en cours d’assemblage, avec des essais en vol prévus pour
+l’été. L’Airvolve se concentre sur la logistique militaire et l’évacuation des blessés, des domaines
+où les hélicoptères traditionnels sont soit trop vulnérables, soit trop coûteux à déployer. Airvolve se
+dit en mesure de produire 60 appareils par an.
+Le drone innovant d’une start-up lituanienne : Airvolve
+Source : Next Gen Defense
+Analyse : L’engin reste encore assez obscur mais il ouvre des voies intéressantes. Sa MTOW et sa propulsion reste inconnues.
+LITUANIE
+26/05/2025
+
+[Page 9 / 17 | chars: 4701]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°9 / Mai-Juin 2025
+2/Briques technologiques
+Une chaîne de propagande russe a diffusé une vidéo prétendant montrer « les tirs d’un laser de combat d’une unité mobile de
+défense aérienne », utilisé en Ukraine. Les Russes admettent que le système laser montré dans la vidéo est un système chinois
+appelé LASS. Le nom Silent Hunter apparaît également en ligne. Il s’agit d’une version améliorée du système LASS d’une puissance
+de 30 kW, disponible en versions stationnaires et mobiles. Selon une infographie, le LASS a une puissance estimée de 10 à 20 kW,
+une portée allant jusqu’à 1,5 km pour détruire de petites cibles lentes et un temps de fonctionnement du laser d’environ 10 s pour
+engager une cible. Les cibles peuvent être « aveuglées » à une distance allant jusqu’à 3 km. Le radar du système peut détecter des
+cibles à des distances allant de 0,5 à 5 km. Le temps de déploiement du système est inférieur à 5 min. On sait que ce type de laser a
+été repéré non seulement en Chine mais aussi en Iran.
+La Russie confirme l’utilisation d’un laser de combat chinois au combat
+Source : UAS Vision
+Analyse : Si cette information est confirmée, elle montre une implication de la Chine dans le conflit ukrainien.
+RUSSIE
+04/06/2025
+9
+Les Russes ont montré une version du Shahed avec un moteur à réaction. La vidéo a été publiée par l’une des chaînes de propagande
+russe Telegram. Les images montrent le lancement d’un UAV similaire au Shahed-238, qui serait désigné localement comme le
+Geran-3. Le Geran 3 aurait une installation motrice et un moteur différent ainsi qu’un avant renforcé. Le Shahed 238 a été révélé par
+l’Iran en novembre 2023. Selon des informations russes, le Geran 3 aurait une MTOW de 380 kg (250 kg pour le Geran 2), une
+envergure de 3 m, une longueur de 3,5 m, une autonomie de 2 h et une vitesse maximale de 800 km/h (mais probablement pas en
+permanence).
+La Russie montre une version à réaction d’un Shahed
+Source : Militarnyi
+Analyse : L’existence d’un Geran 3 n’est pas nouvelle. Les chiffres annoncés sont toujours à prendre avec prudence. Il est probable
+que les Russes aient adapté le système de propulsion avec des réacteurs dont ils disposaient en grande nombre (type missile de
+croisière par exemple). L’augmentation de masse, si elle est confirmée peut avoir deux objectifs : plus de rayon d’action ou plus de
+charge. Il reste à savoir si la Russie va produire massivement le Geran 3. La nature des prochaines frappes russes en Ukraine devrait
+permettre d’obtenir quelques réponses.
+RUSSIE
+12/06/2025
+Dans la matinée du 29 mai, la Russie a lancé contre l’Ukraine, à partir de la Crimée, un nouveau
+type d’UAV d’attaque à réaction, le Dan-M. Il est annoncé avec une vitesse de 450/750 km/h et une
+endurance de vol de 25/40 min. Le Dan-M est long de 4,6 m et a une envergure de 2,7 m. Le Dan-
+M est lancé en vol d’un hélicoptère (Mi-8 ou Mi-17) mais il peut aussi être lancé du sol
+(probablement avec un booster). Le Dan-M est à l’origine une cible aérienne destinée à
+l’entrainement qui a été modifiée en UAV/OWA avec une ogive d’environ 40 kg.
+Le nouvel UAV d’attaque russe Dan-M 
+Source : UAS Vision
+Analyse : L’approche n’est pas nouvelle et les Ukrainiens ont fait de même avec certains de leurs anciens UAV de reconnaissance
+d’origine russe. Le Dan-M du fait de sa taille et sa vitesse peut poser des difficultés à la défense anti-aérienne ukrainienne. Il peut être
+considéré comme un missile de croisière low cost. Il reste à savoir combien de cibles aériennes de ce type possède la Russie et
+combien coûte (délai/budget) sa conversion en UAV/OWA.
+RUSSIE
+30/05/2025
+L’entreprise lettone Origin Robotics dévoile l’UAV Blaze, un intercepteur rapide d’UAV (quadrirotor/
+VTOL). Il combine le suivi radar avec la vision par ordinateur alimentée par l’IA pour offrir une
+alternative rentable aux défenses traditionnelles basées sur les missiles. Le Blaze fonctionne avec
+une autonomie supervisée par l’opérateur, détectant et suivant automatiquement les menaces,
+mais nécessitant l’approbation finale de l’opérateur avant de l’engager. Équipé d’une ogive à
+fragmentation hautement explosive, le Blaze peut neutraliser ses cibles soit par impact direct, soit
+par détonation. La configuration et la préparation au lancement se font en moins de 10 min. Le
+développement a été soutenu par un contrat de R&D avec le MoD letton et une subvention du Fond
+européen de la défense.
+Origin Robotics lance l’intercepteur d’UAV Blaze alimenté par l’IA 
+Source : Defence-Industry
+Analyse : Un système qui semble prometteur bien que ses performances réelles et la date de sa disponibilité sur le champ de bataille
+soient encore inconnues.
+LETTONIE
+06/05/2025
+
+[Page 10 / 17 | chars: 3754]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°9 / Mai-Juin 2025
+2/Briques technologiques
+10
+TERRE
+La Corée du Sud a présenté le concept du K9A3, une version de nouvelle génération,
+optionnellement UGV, de l’obusier automoteur K9 Thunder de Hanwha Aerospace. Le K9A3
+système sera capable de fonctionner à distance ou en mode entièrement autonome, gérant à la fois
+les fonctions de mouvement et de tir. Il serait doté d’un canon de 155 mm avec un canon de calibre
+58 (portée potentielle de 80 km).
+La Corée du Sud développe une version UGV de son obusier K9
+Source : Militarnyi
+COREE DU SUD
+02/05/2025
+Analyse : À ce stade, il semble s’agir encore d’un concept mais il s’inscrit parfaitement dans
+l’évolution « robotique » des forces terrestres.
+L’entreprise ukrainienne UADamage a créé un UAV capable de détecter les mines à l’aide
+d’équipements spéciaux et d’IA. Selon le cluster Brave1, un tel UAV peut surveiller jusqu’à 10 000
+m² en une journée. L’UAV dispose de 4 types de capteurs : une caméra RVB, une caméra IR et un
+magnétomètre. Un radar à pénétration de sol est en cours de développement pour étendre les
+fonctionnalités du système. Le système est formé pour détecter automatiquement les objets
+explosifs en analysant les cartes de champs magnétiques. L’un des principaux avantages du
+système est sa facilité d’utilisation : une fois le survol terminé, l’opérateur retire simplement la clé
+USB, l’insère dans l’ordinateur et, en 5 à 10 min, une carte prête à l’emploi apparaît sur la plate-
+forme UADamage. Il ne s’agit plus d’un modèle expérimental : l’entreprise a arpenté plus de 61 000
+m² de champs de mines et numérisé 520 000 m² de territoire.
+L’Ukraine développe un UAV doté d’un module IA pour la détection de mines
+Source : Militarnyi
+Analyse : Dans un contexte où les mines constituent un danger durable en Ukraine, une telle capacité offre un levier important pour
+accélérer la sécurisation et la réutilisation des territoires.
+UKRAINE
+28/06/2025
+Saab annonce un partenariat stratégique avec General Atomics pour développer des capacités AEWC sur le MQ-9B. Le partenariat
+intégrera les capteurs de Saab sur SkyGuardian et SeaGuardian. GA annonce les premiers vols d’une version MQ-9B AEWC en 2026.
+La Saab s’associe à General Atomics pour proposer une capacité AEWS sur MQ-9B
+Source : Alert 5
+Analyse : L’annonce est intéressante et montre que le domaine d’emploi des UAV s’élargit de plus en plus. Outre les versions MQ-9B
+AEWC, la version probablement la plus intéressante sera une version AEWC du MQ-9B/STOL qui ouvrirait à des navires moyens, à
+pont plat continu (PHA/ LPD), de nouvelles capacités.
+SUEDE / 
+ETATS-UNIS
+12/06/2025
+Le MoD ukrainien a officiellement approuvé l’utilisation opérationnelle de l’UGV Protector. Cet UGV
+construit par Ukrainian Armor, a été développé sur la base du RetEx des opérations et des
+commentaires des unités en 1ère ligne. Il est capable de transporter des munitions, du matériel et
+du personnel blessé, et peut être configuré pour des missions GE / ISR / combat. Le Protector a
+une CU de 700 kg. Il est propulsé par un moteur thermique. Le développement a commencé à l’été
+2023. Sa conception modulaire prend en charge l’intégration de différentes CU.
+L’Ukraine va mettre en service l’UGV lourd Protector
+Source : Defence Blog
+UKRAINE
+27/06//2025
+Analyse : L’annonce ne précise pas le nombre d’UGV qui vont entrer en service. Ce secteur est en croissance constante en Ukraine.
+Le Protector n’est que l’un des nombreux systèmes développés et mis en service dans des délais très courts. Il convient de rappeler
+qu'en 2025, l'État ukrainien s'est fixé pour objectif de fournir 15 000 systèmes robotiques terrestres à l'armée. En 2025, les
+commandes de drones terrestres sont dix fois plus élevées qu'en 2024.
+
+[Page 11 / 17 | chars: 4659]
+--------------------------------------------------------------------------------
+
+AIR
+Ces dernières semaines, la marine sud-coréenne a abandonné son projet de son porte-avion léger au profit
+d’un bâtiment de commandement dédié à l’emploi coordonné d’UAV, USV et UUV, tandis que le Japon a
+conduit le 1er déminage par USV au large d’Iwo Jima. De son coté, l’OTAN déploie en mer Baltique la Task
+Force X, avec plus de 60 plateformes autonomes pour surveiller et protéger les infrastructures sous-marines
+critiques. Simultanément, le Royaume-Uni dévoile une doctrine de guerre terrestre reposant sur une
+structure de force à 80% unmanned.
+3/ CONCEPTS D’EMPLOI
+11
+La marine sud-coréenne abandonne son programme de porte-avions légers, optant pour un navire de commandement destiné à
+mettre en œuvre une large gamme de drones. Cette décision serait basée sur la nature évolutive de la guerre maritime et les leçons
+tirées des conflits récents, en particulier de la guerre en Ukraine. Le nouveau navire transportera des dizaines de drones, y compris
+des drones de combat, des LM et des plates-formes ISR. Un nombre limité de plates-formes habitées, telles que des hélicoptères
+amphibies et d’attaque, sont toujours attendus à bord, mais la composante aérienne sera « unmanned ». Bien que le nouveau
+programme conserve des dimensions similaires à celles du concept de porte-avions précédent, les coûts globaux du projet devraient
+diminuer considérablement. En avril, la Marine a chargé HD Hyundai Heavy Industries de commencer les travaux de conception, avec
+une présentation officielle, devant les chefs d’état-major interarmées, prévue en mai 2025. Si le projet est approuvé, la conception et
+la construction du navire pourraient commencer d’ici la seconde moitié des années 2030.
+La Corée du Sud se tourne vers la puissance navale sans pilote
+Source : Defence-Blog
+Analyse : La Marine sud-coréenne a déjà franchi de nombreuses étapes vers une dronisation croissante de ses forces (UAV, UUV,
+USV). Il s’agit là d’une nouvelle étape majeure. Il sera intéressant de voir quel sera le projet final retenu notamment en termes de
+types de drones (UAV, UUV, USV) destinés à être mis en œuvre. Il pourrait s’agir d’un modèle pour de nombreuses marines.
+COREE DU SUD
+11/05/2025
+La RAF déploie un nouveau UAV, le StormShroud pour brouiller les radars ennemis
+Source : UK Defence Journal
+Analyse : Bien qu’annoncé comme britannique, le système est en fait britannique par sa CU et portugais par la cellule et le système
+UAV. Compte tenu de la vitesse de l’AR-3, la programmation des vols avec des F-35B et des FGR4 ne s’annonce pas simple. En fait, il
+est probable que ce système reste expérimental et prépare la suite pour un CCA britannique ou américain.
+02/05/2025
+ROYAUME-UNI
+Le 2 mai 2025, le Royaume-Uni a marqué l’entrée officielle en service du StormShroud qui est
+conçu pour fonctionner en coordination avec les F-35B Lightning et le Typhoon FGR4. Le
+StormShroud est basé sur le Tekever AR3. En s’appuyant sur le RetEX ukrainien, la RAF a adapté
+l’AR3 pour un emploi dédié à la GE en intégrant la charge utile BriteStorm de Leonardo UK.
+BriteStorm est un « brouilleur de secours » léger et modulaire conçu pour perturber les systèmes
+de défense aérienne en utilisant des techniques de brouillage numérique. Le BriteStorm bénéficie
+également d’une architecture logicielle reprogrammable et ouverte permettant d’être mis à jour
+rapidement. Le StormShroud sera exploité par le Squadron 216, l’unité spécialisée de la RAF pour
+les UAV et leurs tests. Le StormShroud est destiné à voler devant les avions habités, brouillant et
+trompant les systèmes radar ennemis pour créer des failles dans les défenses aériennes hostiles.
+Analyse : Cette annonce montre que la menace C-UAS est devenue une priorité pour les forces américaines.
+Les États-Unis lancent « Replicator 2 » pour développer une technologie C-UAS
+Source : Defence Post
+ETATS-UNIS
+07/05/2025
+La DIU a officiellement lancé la deuxième phase du programme Replicator, visant à développer une
+technologie innovante de lutte contre les systèmes aériens sans pilote (C-UAS), capable de
+neutraliser les drones hostiles (s-UAS) tout en limitant les dommages collatéraux. Un appel d’offres
+publié le 5 mai appelle à des solutions évolutives et rentables pour détecter, identifier, suivre et
+neutraliser les s-UAS. La DIU prévoit de sélectionner jusqu’à 10 finalistes, chacun éligible à un
+financement pouvant aller jusqu’à 1 M$ pour participer à l’exercice Falcon Peak en septembre. Les
+meilleurs éléments obtiendront des financements supplémentaires. La DIU a décrit cet effort
+comme répondant au « besoin pressant » de solutions à faible coût pour compléter les systèmes «
+haut de gamme » existants.
+
+[Page 12 / 17 | chars: 4169]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°9 / Mai-Juin 2025
+3/Concepts d’emploi des drones
+NAVAL
+12
+Analyse : La marine japonaise robotise, comme toutes les grandes marines, sa lutte contre les mines mais elle le fait avec un système
+national. Les essais révélés montre qu’elle a déjà atteint un très bon niveau de maturité.
+Le Japon teste avec succès un USV de Guerre des Mines (GdM)
+Source : Defence-Blog
+JAPON
+La JMSDF a mené à bien son 1er déminage réel à l’aide d’un USV. Le chef d’état-major de la
+JMSDF a annoncé le 17 juin que le JS Mogami avait déployé avec succès un USV de déminage
+pour neutraliser une mine réelle au large des côtes d’Iwo Jima. L’USV utilisé dans le test a été
+développé par JMU Defense Systems, une division de Japan Marine United Corporation,
+spécialisée dans les technologies navales avancées. La plate-forme fait partie d’une suite plus
+large de systèmes de lutte contre les mines sans pilote intégrés à la classe Mogami. La JMSDF
+prévoit de poursuivre une variété d’essais et d’exercices d’entraînement pour perfectionner cette
+capacité et l’intégrer en tant qu’élément permanent de ses opérations.
+27/06/2025
+Analyse : Avec la TF-X Baltic, l’OTAN se transforme et prépare son avenir dans les UUV/USV, en étant pragmatique. Reste à savoir si
+cette approche inspirera les membres de l’Alliance.
+L’OTAN renforce la sécurité sous-marine dans les pays baltes 
+Source : Le Marin
+OTAN
+L’OTAN a officiellement lancé la Task Force X Baltic, une initiative relevant de son Commandement du développement de la guerre
+stratégique. Lancé fin 2024, ce projet multinational transforme la posture de l’OTAN en mer Baltique en intégrant des systèmes
+maritimes autonomes, l’IA et le prototypage opérationnel rapide pour protéger les infrastructures critiques des fonds marins. Avec des
+déploiements en direct désormais actifs dans toute la région, la TF X est la réponse la plus ambitieuse de l’OTAN à ce jour aux
+menaces croissantes posées par le sabotage, les opérations hybrides et les incursions sous-marines sans pilote ciblant des réseaux
+sous-marins essentiels.
+Cette initiative repose sur plus de 60 plates-formes USV et UUV, déployées depuis le Danemark, la Finlande, la Suède et la Pologne,
+avec une connaissance de la situation en temps réel et une interopérabilité renforcée avec les forces navales de l’OTAN. Ces systèmes
+sont soumis à des tests de résistance dans des conditions réelles afin de détecter et de contrer les menaces inférieures aux seuils qui
+échappent souvent à la surveillance conventionnelle. La TF-X se concentre sur des systèmes commerciaux prêts à l’emploi qui
+peuvent être déployés, testés et affinés en quelques semaines, et non en quelques années. La TF-X jette les bases d’un nouvel état
+d’esprit opérationnel, axé sur la mission et les résultats, et intégré dans tous les domaines. L’amiral Pierre Vandier (NATO’s Supreme
+Allied Commander Transformation) a souligné qu’il ne s’agissait pas simplement d’une démonstration de capacités, mais d’un élément
+concret de dissuasion. En institutionnalisant la TF-X dans le cadre du développement et de la planification de la guerre de l’OTAN,
+l’Alliance veille à ce que cette capacité ne soit pas une innovation ponctuelle, mais une doctrine évolutive.
+27/06/2025
+Le 26 mai, l’armée britannique a dévoilé une doctrine de guerre terrestre avec la stratégie 20-40-40. Le concept 20-40-40 propose
+une composition de forces plus agile : 20 % de plates-formes lourdes (ex : char Challenger 3) et des systèmes d’artillerie automoteurs
+; 40 % de LM à usage unique et de UAV/OWA pour des frappes rapides et ciblées et 40 % d’UAV haut de gamme pour les missions
+ISR et frappes. Cela crée une structure autonome à 80 % unmanned qui privilégie la capacité de survie, le déploiement rapide et la
+domination numérique.
+Le Royaume-Uni dévoile un nouveau concept de guerre terrestre 
+Source : Defense Post
+Analyse : L’Army britannique annonce que ce concept prend en compte le RetEx ukrainien et les guerres modernes. Il est certain que
+le RetEx ukrainien doit être pris en compte mais faut-il pour autant tout construire autour de lui ? C’est la difficulté majeure.
+ROYAUME-UNI
+27/05/2025
+TERRE
+
+[Page 13 / 17 | chars: 4427]
+--------------------------------------------------------------------------------
+
+AIR
+L’activité économique dans le domaine des drones et des systèmes autonomes reste particulièrement
+dynamique. Aux États-Unis, General Atomics négocie la vente de 200 MQ-9B à l’Arabie Saoudite, illustrant
+un retour offensif face à la concurrence turco-chinoise sur ce marché. En Pologne, la commande de 10 000
+UAV kamikaze Warmate confirme la stratégie polonaise de réarmement massif. En Europe, la création de la
+coentreprise LBA Systems par Leonardo et Baykar reflète une volonté de consolidation. L’Ukraine
+revendique de son côté une capacité annuelle de production de 10 millions d’UAV, tandis que le
+Monténégro s’intègre à cet écosystème par le biais d’une coproduction destinée à Kiev.
+4/ PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+13
+L’Arabie saoudite est en pourparlers pour acheter jusqu’à 200 MQ-9
+Source : UAS Vision
+Analyse : La commande n’est pas encore passée. L’accord du Congrès sera nécessaire et il faudra aussi déterminer le type de vente
+(FMS ou vente directe). Il est probable que ce chiffre ne soit pas atteint lors de la 1ère commande mais qu’il s’agisse d’un objectif.
+Cependant un tel accord marque le retour des Etats-Unis comme fournisseur important d’UAV en Arabie Saoudite qui a entretemps
+acquis des UAV chinois et turcs.
+28/05/2025
+ARABIE 
+SAOUDITE
+General Atomics annonce être en pourparlers pour vendre à l’Arabie Saoudite jusqu’à 200 MQ-9. Les discussions s’inscrivent dans le
+cadre des 142 Md$ d’accords de défense revendiqués par le président Trump lors de sa récente visite dans le Golfe. Le contrat
+porterait sur des MQ-9B SeaGuardian et SkyGuardian.
+Analyse : L’information, si elle est validée, est majeure. La production de Shahed 136 en Corée du Nord mettrait à sa portée une
+grande partie de la Corée du Sud. D’autre part, la Corée du Nord pourrait réexporter les Shahed produits sur son territoire vers la
+Russie assurant ainsi à la Russie une nouvelle voie d’approvisionnement.
+Il serait intéressant de connaître la réaction de l’Iran sur ce point.
+La Russie va aider la Corée du Nord à produire des Shahed
+Source : Militarnyi
+COREE DU 
+NORD / RUSSIE
+10/06/2025
+Selon l’Ukraine, la Russie va aider la RPDC à produire des Shahed-136 d’origine iranienne. Cette coopération implique le transfert de
+technologie et d’expertise de fabrication. Selon le chef du renseignement de la défense de l’Ukraine, des accords ont été conclus pour
+commencer à établir des installations de production de Garpiya et Geran-2 en Corée du Nord. Actuellement la Russie produirait 2 000
+Shahed par mois et travaille pour passer à 5 000 /mois.
+Analyse : Avec cet accord, Anduril entre sur le marché européen par l’Allemagne. Une version allemande du Fury comme Loyal
+Wingman pour la Luftwaffe, à court terme, parait possible.
+Anduril et Rheinmetall vont développer des drones pour l’Europe
+Source : Armées
+ALLEMAGNE/
+ETATS-UNIS
+19/06/2025
+La firme allemande Rheinmetall et la firme américaine Anduril ont annoncé un partenariat stratégique visant à codévelopper et à
+fournir une suite d’UAV (Barracuda, Fury d’Anduril) pour l’Europe. Le partenariat explore également des possibilités de moteurs-fusées
+à propergol solide pour l’Europe en s’appuyant sur les nouvelles approches de production d’Anduril. Ces systèmes seront développés
+et produits conjointement par les deux sociétés, en associant des fournisseurs souverains et des partenaires industriels dans toute
+l’Europe.
+Leonardo et Baykar lancent une coentreprise LBA Systems
+Source : TRT Global
+Analyse : Cette alliance donne naissance à un grand consortium UAV mais elle pose des questions. Notamment, que deviendront
+certains produits Leonardo : Falco versus TB2 ? Falco Explorer versus TB3 ? De plus, cette société va-t-elle prendre la place de
+Leonardo sur l’EuroDrone ? Que deviennent les projets de Leonardo en cours de développement ? Notamment l’UAV/VTOL Proteus ?
+Encore beaucoup de questions et de points d’ombre.
+ITALIE / 
+TURQUIE
+16/06/2025
+Au Salon du Bourget 2025, Leonardo et Baykar Technologies ont annoncé la création d’une coentreprise à 50/50, LBA Systems,
+dédiée au développement des UAV. LBA Systems sera légalement et opérationnellement basée en Italie. La société couvrira
+l’ensemble du cycle de vie des UAS : conception, développement, production et la maintenance. Par le biais de LBA Systems, les deux
+sociétés visent à saisir des opportunités commerciales sur les marchés européens et internationaux de la défense.
+
+[Page 14 / 17 | chars: 3932]
+--------------------------------------------------------------------------------
+
+4/Perspectives économiques
+Bulletin de veille d’actualité n°9 / Mai-Juin 2025
+14
+L’industrie de défense ukrainienne serait capable de produire 10 millions d’UAV par an
+Source : Militarnyi
+Analyse : Ce chiffre comprend surtout des UAV/FPV (avec FO ou non) et moins de gros UAV. Toutefois, l’Ukraine a réussi à bâtir et à
+pérenniser, en peu de temps, une véritable BITD UAV bénéficiant d’un RetEx unique.
+Le vice-ministre ukrainien de la Défense annonce, lors du Forum de sécurité de Shangri-La, à Singapour, que l’industrie ukrainienne
+est en capacité de produire, annuellement, 10 millions d’UAV. De plus, ces UAV seraient moins onéreux que leurs homologues
+étrangers et surtout « combat proven ».
+UKRAINE
+02/06/2025
+La Pologne commande 10 000 UAV Kamikaze Warmate
+Source : Defense Post
+Analyse : Avec cette commande, la Pologne sécurise la production du Warmate, tout en assurant la pérennité du programme pour WB
+Electronics, qui pourrait ainsi réduire ses coûts et faciliter l’export. Reste à déterminer si l’industriel pourra répondre simultanément à
+la demande nationale et aux éventuels contrats à l’export. Cette initiative confirme par ailleurs la stratégie polonaise de réarmement
+massif reposant en priorité sur son industrie de défense locale.
+POLOGNE
+16/05/2025
+La Pologne a commandé, à WB Group, 10 000 LM Warmate. La commande concerne la dernière
+version du Warmate. Ces LM seront livrées par lot de 1 000 jusqu’en 2025. Le Warmate est long
+de 1,1 m, a une envergure de 1,6 m, une MTOW m de 6 kg et peut transporter différents types
+d’ogives (notamment thermobarique). Sa portée maximale est de 30 km.
+Le Protector entre en service dans la RAF
+Source : Royal Air Force
+Analyse : Pour la RAF, il s’agit d’une étape décisive qui ouvre la voie au retrait progressif de ses Reaper - dont l’avenir reste incertain -
+et à la constitution de l’une des flottes d’UAV MALE les plus modernes d’Europe.
+16/06/2025
+ROYAUME-UNI
+La RAF a officiellement mis en service le Protector RG Mk1. Il s’agit du 1er UAV autorisé à opérer
+dans l’espace aérien britannique, établissant une référence en matière de flexibilité opérationnelle
+et de conformité réglementaire. Le Protector RG1 est la variante certifiable du MQ-9B SkyGuardian,
+spécialement conçu pour être utilisé dans l’espace aérien civil contrôlé. La Royal Air Force a reçu 4
+appareils, tandis que 3 autres sont en cours d’essais aux États-Unis. Le Protector RG1 est armé de
+missiles Brimstone 3 et de bombes à guidage laser Paveway IV. Le ministère de la Défense
+britannique prévoit d’acquérir 16 Protector, tous stationnés à la RAF Waddington.
+Analyse : L’annonce est intéressante et ouvre une nouvelle voie d’approvisionnement en UAV pour l’Ukraine. Toutefois, elle ne donne
+aucun détail sur les dates de livraison, les quantités et les modèles qui seront produits.
+Le Monténégro va produire des drones pour l’Ukraine
+Source : Militarnyi
+MONTENEGRO
+05/06/2025
+Le Monténégro annonce qu’il prévoit de lancer la production d’UAV en coopération avec une entreprise américaine (non citée). Le 1er
+lot sera livré à l’Ukraine. Cette initiative s’aligne sur les engagements du Monténégro à renforcer ses capacités de défense. Cependant,
+l’annonce ne précise pas quand la production commencera et quel sera le budget alloué.
+Le Royaume-Uni et l’Ukraine ont convenu de lancer la production conjointe d’UAV de conception ukrainienne pour répondre aux
+besoins de l’Ukraine. Dans le cadre d’un l’accord de trois ans, le gouvernement britannique financera l’acquisition d’une large gamme
+d’UAV ukrainiens, qui seront coproduits sur le sol britannique. Cette collaboration marque une étape majeure dans le renforcement de
+la coopération militaro-industrielle entre les deux pays.
+Le Royaume-Uni va fabriquer des drones ukrainiens pour l’armée ukrainienne
+Source : Militarnyi
+Analyse : L’Ukraine délocalise ainsi sa production d’UAV et le Royaume Uni renforce sa BITD.
+ROYAUME-UNI
+24/06/2025
+
+[Page 15 / 17 | chars: 2511]
+--------------------------------------------------------------------------------
+
+PUBLICATIONS
+▪
+The Russia-Ukraine Drone War : Innovation on the Frontlines and Beyond, Center for Strategic & International 
+Studies, Gregory C. Allen, Kateryna Bondar, Samuel Bendett, Mai 2025
+▪
+Drones, AI and new technology will dramatically change nature of war, UK defence review to warn, The 
+Guardian, Dan Sabbagh, Mai 2025
+▪
+The Terrifying new weapon changing the war in Ukraine, BBC News, Yogita Limaye, Mai 2025
+▪
+India-Pakistan drone and missile conflict : differing and disputed narrative, International Institute for Strategic 
+Studies, Rahul Roy-Chaudhury, Mai 2025
+▪
+Inside Ukraine’s Fiber-Optic Drone War, TWZ, Howard Altman, Mai 2025
+▪
+La proliferation des drones militaires marque un tournant déstabilisateur dans les conflits armés en Afrique, 
+Centre d’Etudes Stratégiques de l’Afrique, Nate Allen, Mai 2025
+▪
+Ukrainian Innovations are redefining the role of drones in modern warfare, Atlantic Council, Vitali Nabukhotny, 
+Juin 2025
+▪
+Ungentlemanly Robots : Israel’s Operation Rising Lion and the New Way of War, Center for Strategic & 
+International Studies, Benjamin Jensen, Juin 2025
+▪
+Relative Superiority in the Drone Age : McRaven’s Playbook Metts Ukraine’s Airfield Assaults, Center for 
+Strategic & International Studies, Benjamin Jensen, Juin 2025
+▪
+Tried and tested in war : For European drone manufactures, Ukraine is the place to be, APnews, John 
+Leicester, Juin 2025
+▪
+How Ukraine’s Operation “Spider’s Web” redefines Asymetric warfare, Center for Strategic & International 
+Studies, Kateryna Bondar, Juin 2025
+▪
+UAE drones have given rise to a new arms economy, LSE, Andras Krieg, Juin 2025
+▪
+Africa’s Scary new age of high-tech warfare, The Economist, Addis Ababa, Juin 2025
+▪
+Ukraine’s Operation Spider’s Web shows Future of Drone Warfare, Council on Foreign Relations, Michael C. 
+Horowitz, Juin 2025
+▪
+Drone makers battle for air dominance with “Wingman” aircraft, Reuters, Joe Brock, Juin 2025
+▪
+Beyond the drone lines : Lessons from the drone war in Ukraine, European Security & Defence, Mark Cazalet, 
+Juin 2025 
+▪
+L’industrie du drone se voit bouleversée par la guerre, Le Monde, Jean-Michel Normand, Juin 2025
+▪
+Retour d’experience et défis de la lutte anti-drones, RDN, Boris Pomirol, Juin 2025
+▪
+Missiles, drones et munitions rodeuses : les nouveaux paramètres de l’équation pour la longue portée, RDN, 
+Bastien Cardot, Baptiste Meoglin, Juin 2025
+▪
+Drones sous-marins, aériens ou terrestres : comment la France prepare la guerre du futur, France Bleu, Juin 
+2025
+15
+
+[Page 16 / 17 | chars: 1547]
+--------------------------------------------------------------------------------
+
+GLOSSAIRE
+Abréviation / Sigle
+Signification
+AA
+Anti Aircraft
+AES
+Alliance des États du Sahel
+AEWEC
+Airborne Early Warning and Control
+ALPV
+Autonomous Low-Profile Vessel
+ASuW
+Anti-surface Warfare
+ATR
+Automatic Target Recognition
+CBRN
+Chemical, Biological, Radiological, and Nuclear
+CCS
+Système de contrôle commun 
+CD 25
+Capability Demonstration 2025
+CU
+Charge utile
+DAMM
+Autonomous Multifunctional Ground Vehicle Demonstrator Programme
+DAPA
+Defense Acquisition Program Administration (Corée du Sud)
+DARPA
+Defense Advanced Research Project Agency (Etats-Unis)
+DIU
+Defense Innovation Unit (Etats-Unis)
+DSK
+Drone Show Korea
+EO/IR
+Electro Optique / Infra Rouge
+FO
+Forward Observer
+FPV
+First person View
+GE
+Guerre électronique
+GUR
+Direction principale du renseignement ukrainien 
+JMSDF 
+Japan Maritime Self-Defense Force
+JMU
+Japan Marine United
+LASS
+Low-Altitude Laser Defense System
+LEO
+Low Earth Orbit
+LM
+Loitering Munition
+LOAD
+Low-Cost Air Defence
+LUSV
+Large Unmanned Surface Vehicle
+MoD
+Ministry of Defence
+MTOW
+Multi-Mission, Utility, Logistics & Expedition
+MULE
+Multi-Use Logistics Enhancement
+MUSV
+Medium Unmanned Surface Vehicle
+OTAN
+Organisation du Traité de l’Atlantique Nord
+RAF
+Royal Air Force (Royaume-Uni)
+RAAF
+Royal Australian Air Force
+RDPC
+République Démocratique et Populaire de Corée
+RetEx
+Retour d’Expérience 
+RVB
+Rouge Vert Bleu
+SBU
+Ukraine’s Security Service
+S-UAS
+Small UAS
+TF-X
+Task Force - X
+UAV
+Unmanned Air Vehicle
+UGV
+Unmanned Ground Vehicle
+USV
+Unmanned Surface Vehicle
+UUV
+Unmanned Underwater Vehicle
+VR
+Virtual Reality
+16
+
+[Page 17 / 17 | chars: 103]
+--------------------------------------------------------------------------------
+
+www.eurocrise.com
+8 rue de Bellefond
+75009 Paris
+affinis-defense.fr 
+126 Rue de Tocqueville
+75017 Paris
+

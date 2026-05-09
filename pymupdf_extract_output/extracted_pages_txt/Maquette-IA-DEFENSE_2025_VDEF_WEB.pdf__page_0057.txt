@@ -1,0 +1,104 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 57 / 84
+
+================================================================================
+
+57
+peut avoir des effets notables et discrets, ce qui 
+est dangereux dans des systèmes de classification 
+utilisés pour la prise de décision par exemple). La 
+fiabilité peut être drastiquement impactée.
+•	
+attaque par DDOS (Distributed Denial of Service 
+ou attaque en déni de service) : Faire tourner 
+un système d’IA est coûteux et les institutions 
+disposent de ressources de calcul limitées. 
+Dès lors requêter trop souvent les services ou 
+forcer les LLM à générer du texte à l’infini peut 
+fortement perturber les performances pour tous 
+les utilisateurs.
+Là où auparavant, attaquer une infrastructure 
+nécessitait des compétences informatiques avancées 
+et la maîtrise de plusieurs langages de programmation 
+et des protocoles réseaux, les attaques par injection 
+de prompts ne nécessitent que peu de compétences 
+techniques et on peut en élaborer à partir de ressources 
+sur le prompt engineering que l’on trouve en ligne. 
+Les attaques plus avancées comme le data poisoning 
+ou l’injection de prompt indirecte requièrent toutefois 
+une 
+meilleure 
+connaissance 
+de 
+l’infrastructure 
+attaquée (accès aux points d’indexation des données 
+et à l’architecture du service qu’on veut déstabiliser). 
+Ces attaques sont donc plus accessibles à des 
+menaces internes ou à des acteurs ayant les capacités 
+techniques de sonder en profondeur l’architecture 
+data de la cible.
+Cette taxonomie n’est évidemment pas exhaustive. 
+D’autres types d’attaques plus techniques existent, 
+telles que la falsification de requêtes serveur ou 
+l’exploitation des sandbox[1] dans des contextes 
+d’agents autonomes. Par ailleurs, cet article se 
+concentre sur les méthodes d’attaque et ne prend pas 
+en compte les vulnérabilités intrinsèques des modèles, 
+comme les hallucinations[2] ou leurs problèmes 
+d’alignement avec les préférences humaines.
+C. Face à la malveillance, quelles solutions ? 
+Pour se prémunir des attaques, il est essentiel de 
+mettre en place des mécanismes de filtrage appliqués 
+à la fois :
+•	
+Aux entrées utilisateur, pour s’assurer que les 
+interactions respectent les attentes et prévenir les 
+comportements perturbateurs.
+•	
+Aux sorties du système, pour détecter tout 
+détournement potentiel de son comportement.
+Ces filtres peuvent être basés sur des tests automatisés, 
+inspirés des tests unitaires en programmation, utilisant 
+des règles, des expressions régulières ou des modèles 
+d’IA spécialisés dans la détection d’anomalies. Par 
+exemple, l’injection de prompt peut être identifiée par 
+des modèles de classification entraînés à reconnaître 
+des instructions suspectes.
+En revanche, l’injection de prompt indirecte est 
+plus complexe à détecter, notamment lorsque des 
+données corrompues ou erronées sont insérées dans 
+des bases de données. Ces attaques peuvent être 
+subtiles, comme l’ajout de valeurs incorrectes dans 
+une application financière. Pour limiter ces risques, 
+plusieurs mesures doivent être prises :
+1.	
+Contrôle strict des droits d’accès : Chaque insertion 
+dans la base de données doit être autorisée 
+et effectuée par des utilisateurs disposant des 
+privilèges appropriés.
+2.	
+Surveillance 
+active 
+: 
+Mettre 
+en 
+place 
+un 
+système de monitoring permettant d’identifier 
+rapidement les documents problématiques ou 
+les comportements suspects.
+3.	
+Validation rigoureuse des données : Les nouvelles 
+entrées doivent être systématiquement vérifiées, 
+notamment par des processus automatisés ou 
+manuels pour s’assurer de leur conformité.
+ 
+Ces pratiques combinées permettent de réduire les 
+surfaces d’attaque et de mieux protéger les systèmes 
+génératifs contre des tentatives malveillantes, qu’elles 
+soient directes ou indirectes. Elles ne sont bien sûr 
+pas exhaustives car chaque type d’attaque demande 
+sa contre mesure spécifique, mais constituent un 
+ensemble de bonnes pratiques à adopter pour 
+sécuriser les systèmes d’IA générative.

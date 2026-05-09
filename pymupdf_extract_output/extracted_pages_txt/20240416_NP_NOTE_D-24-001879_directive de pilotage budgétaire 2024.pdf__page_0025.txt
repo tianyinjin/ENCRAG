@@ -1,0 +1,52 @@
+Source file: 20240416_NP_NOTE_D-24-001879_directive de pilotage budgétaire 2024.pdf
+Relative path: 20240416_NP_NOTE_D-24-001879_directive de pilotage budgétaire 2024.pdf
+Page: 25 / 92
+
+================================================================================
+
+25/92 
+ en CP : émettre un besoin en fonction du disponible budgétaire pour préenregistrer les 
+demandes de paiement (DP)56. Cette consigne n’est valable, généralement, que jusqu’à courant 
+novembre. A cette période en effet, B. BUD/CG reprend la main sur la trésorerie CP des UO 
+pour optimiser les paiements. Les MADI sont alors fonction des flux de factures et des dates 
+d’exigibilité de ces dernières. 
+2.1. Cas particulier des réservations de crédits (RC) 
+C’est la seule procédure pour sanctuariser une ressource déterminée au sein d’une UO. Elle est 
+matérialisée dans Chorus par le service exécutant (SE) compétent, seul habilité à les réaliser. La RC 
+ne consomme pas d’AE. Elle les rend indisponibles, les sanctuarise pour une dépense donnée. Cette 
+procédure est recommandée pour préserver la ressource des marchés sous AEP. Elle peut être utile 
+pour piloter au mieux la ressource en attendant par exemple la notification ou le visa de certains 
+marchés.  
+Elle est spécifiquement recommandée, outre pour les AEP, pour toutes les AE destinées à des 
+engagements sensibles en fin de gestion, au moment où la moindre ressource est susceptible d’être 
+mobilisée rapidement pour un engagement (ou récupérée par le BOP).  
+Précision importante : les RC sont supprimées dans Chorus vers mi-décembre. Cette suppression libère 
+leur ressource, qui n’est ainsi plus sanctuarisée. Le but est d’éviter toute non-consommation pour des 
+raisons techniques et donc toute perte de ressource. Les COMBdD doivent anticiper cette échéance.  
+2.2. La réserve programme (au sens « P178 ») 
+Les enveloppes en AE/CP des bases de défense sont comme chaque année notifiées réserve levée57. 
+Les COMBdD doivent en effet programmer « comme si la réserve était levée », pour garantir 
+l’engagement de toute leur ressource58. Le contenu physique de la réserve programme doit être 
+programmé dans l’idée de procéder à son engagement dès la levée de celle-ci. Les BdD n’obtiendront 
+ainsi la totalité de leur ressource en trésorerie que lorsque la réserve sera levée. Cette levée intervient 
+généralement autour de la mi-novembre, début décembre.  
+Si la réserve programme n’était pas levée, les crédits mis en réserve seraient perdus et le physique 
+associé ne pourrait pas être engagé. Les gestionnaires d’UO, afin de ne pas obérer l’engagement des 
+dépenses incompressibles, doivent prendre en compte ce point dans leur programmation budgétaire 
+mensuelle (i.e., dans le principe, ne pas programmer de dépenses incompressibles sur la réserve). 
+ 
+Les enveloppes des UO BdD sont notifiées « réserve programme levée », c’est-à-dire « comme si elle 
+était levée ». Les COMBdD doivent, comme en 2023 avec la RP, l’assortir d’un « contenu physique » 
+répondant à deux critères cumulatifs : 1° il doit correspondre à des dépenses « non incompressibles » 
+et 2° ces dépenses doivent être prévues pour être engagées en décembre, à l’exclusion de tout autre 
+mois.  
+3. 
+LES RESSOURCES CONDITIONNELLES DES UO BDD  
+Deux objectifs annuels fixés au B. BUD déterminent la ressource finale de l’année. Il s’agit : 
+ de certaines recettes non fiscales (RNF) que sont les attributions de produits et les fonds de 
+concours ; 
+                                                          
+56 Un solde négatif pour préenregistrer les DP doit justifier une MADI jusqu’à mi-novembre. A partir de la fin novembre et 
+jusqu’à la date limite des paiements les MADI sont effectuées si un solde négatif apparait dans le disponible pour facturer.  
+57 C’est-à-dire « comme si la réserve était levée » : ça ne veut pas dire qu’elle est levée.  
+58 C’est-à-dire ne pas se retrouver sans « besoin prêt à engager » lorsque la réserve sera levée.

@@ -1,0 +1,102 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 47 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+92 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 93
+Le Règlement Général de l’UE sur la Protection des Données (RGPD26 et GDPR27 en 
+anglais) dont les sanctions sont entrées en vigueur le 25 mai 2018 renforce et 
+harmonise la protection des données à caractère personnel28 pour l’ensemble 
+des citoyens de l’UE. Il remplace la directive sur la protection des données per-
+sonnelles de 1995. Contrairement à une directive qui fait l’objet d’une transpo-
+sition inévitablement différente dans chaque droit national, une règlementa-
+tion s’impose ex abrupto dans tous les Etats Membres de façon homogène à 
+quelques exceptions près. Le RGPD s’applique à toute organisation, publique 
+et privée, qui traite des données personnelles pour son compte ou en tant que 
+sous-traitant, dès lors qu’elle est établie sur le territoire de l’Union européenne 
+ou que son activité cible directement des résidents européens. 
+Ce règlement impose des exigences entièrement nouvelles quant à la façon 
+dont les organisations doivent traiter ces données, ce qui implique, pour les en-
+treprises, d’accroitre leurs efforts dans la gestion de la sécurité des informations 
+et les investissements associés. Il est important de noter que le règlement (qui 
+est déjà en application, seule l’application des sanctions est différée à mars 2018) 
+s’impose à toutes les entreprises, européennes ou extra-européennes, ayant une 
+activité qui accède à des données personnelles de citoyens de l’UE (art.3). 
+Le changement le plus important dans le cadre du RGPD est probablement l’ac-
+cent mis sur la responsabilisation, une combinaison de contrôles opérationnels 
+sur les systèmes et les données et la transparence de ces contrôles, y compris la 
+« protection des données par conception » (en tenant compte de la protection 
+de la vie privée lors de la conception des systèmes et des produits), la sécurité 
+appropriée des données, l’exécution d’analyses d’impact sur la vie privée et la 
+tenue de dossiers sur les activités de traitement. 
+Pour atteindre ces objectifs, le RGPD pose les principes suivants relatifs à la 
+collecte, la conservation et la manipulation des données à caractère personnel 
+(art. 5) :
+• Principe de licéité, loyauté et transparence : tous les traitements d’une 
+donnée à caractère personnel doivent correspondre à ce qui a été décrit  
+à la personne concernée ;
+• Principe de limitation des finalités : la collecte des données à caractère 
+personnel doit être effectuée pour des motivations « déterminées,  
+explicites et légitimes » ;
+• Principe de minimisation des données : au regard des traitements réalisés, 
+les données traitées doivent être « adéquates, pertinentes et limitées à ce 
+qui est nécessaire » ;
+• Principe d’exactitude : les données à caractère personnel doivent être  
+« exactes et, si nécessaire, tenues à jour » ;
+• Principe de limitation de la conservation : les données à caractère personnel 
+doivent être « conservées […] pendant une durée n’excédant pas celle  
+nécessaire au regard des finalités pour lesquelles elles sont traitées » ;
+• Principe d’intégrité et de confidentialité : les données à caractère personnel 
+doivent être « traitées de façon à garantir une sécurité appropriée ».
+Maîtrise des risques
+Les atteintes à la protection des données à caractère personnel ont donné lieu, 
+par le passé, à des situations désastreuses à la fois pour les entreprises et pour 
+les personnes touchées, avec pour conséquences des pénalités parfois élevées. 
+Avec l’activation prochaine des sanctions prévues par le RGPD, la conformité est 
+devenue cruciale puisque des pénalités allant jusqu’à 4 % du chiffre d’affaires 
+mondial pourront être prononcées à l’encontre des entreprises défaillantes (art. 
+83, 84 du RGPD et article 65 de la loi n°2016-1321 du 7 octobre 2016).
+À mesure que la complexité des systèmes d’information des entreprises augmente, 
+les risques liés à la gestion des accès augmentent. De plus, l’ubiquité d’Internet a 
+imposé d’une part le partage généralisé d’informations entre les sociétés et leurs 
+partenaires et prestataires et, d’autre part, la pervasivité des accès aux ressources 
+de l’entreprise. 
+De ce fait, si les fuites d’informations les plus retentissantes (Sony, Yahoo!, ...) 
+sont souvent l’œuvre d’acteurs extérieurs à l’entreprise, la majorité (en nombre 
+et probablement en valeur) des brèches de sécurité proviennent de l’intérieur de 
+l’organisation, où les conséquences d’un comportement négligent ou malfaisant 
+peuvent être démultipliées si une gestion rigoureuse des permissions et des 
+accès n’est pas opérationnelle. La protection des données se trouve au cœur du 
+RGPD (art.5).
+Volatilité des permissions
+Au sein du SI d’une entreprise, les données sont continuellement importées, 
+stockées, transférées vers et depuis des référentiels structurés (base de données, 
+annuaires…) ou non-structurés (messageries, fichiers…), voire hors du périmètre 
+physique de la société dans le Cloud. 
+Cette hétérogénéité ne permet pas, en général, aux responsables du SI (DSI), 
+de la sécurité (RSSI) et au Délégué à la Protection des Données (Guidelines on 
+Data Protection Officers, G29 2017) d’avoir la vision d’ensemble nécessaire pour 
+vérifier et valider que les employés aient les droits d’accès et les autorisations 
+strictement nécessaires à l’accomplissement de leurs missions. La validation 
+de la conformité de l’entreprise aux exigences du RGPD est alors une mission 
+impossible.
+De plus, ces mêmes employés peuvent être amenés à changer de rôle au sein 
+de l’organisation, en cas de mutation ou de promotion interne par exemple. Cela 
+signifie qu’ils acquièrent de nouveaux droits et accèdent à de nouveaux ensembles 
+de données, sans obligatoirement perdre les accès précédemment acquis (en 
+tout cas immédiatement). 
+Cette distorsion du modèle de droits initial peut constituer une menace en ce qui 
+concerne la légalité du traitement des données à caractère personnel puisque la 
+base juridique du traitement des données peut ne plus s’appliquer au nouveau 
+rôle du salarié (art.4). Ce serait alors une violation du RGPD puisque le principe de 
+responsabilité sous-jacent au RGPD impose à tout responsable d’être capable 
+de démontrer qu’il se conforme aux obligations du règlement (art.24).
+H.1 
+RGPD
+26 Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 https://www.cnil.fr/fr/reglement-europeen-protection-donnees
+27 https://www.ssi.gouv.fr/administration/reglementation/rgpd-renforcer-la-securite-des-donnees-a-caractere-personnel/
+28 Une « donnée à caractère personnel » est une information se rapportant à une personne physique identifiée ou identifiable.

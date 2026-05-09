@@ -1,0 +1,97 @@
+Source file: Guide-Integration-risque-cyber_2025.pdf
+Relative path: Guide-Integration-risque-cyber_2025.pdf
+Page: 3 / 29
+
+================================================================================
+
+Pôle d’excellence cyber
+5
+4
+La cyberattaque est un nouveau risque, de plus en plus prégnant, que les maires doivent prendre en compte en complément 
+des multiples risques déjà existant existants (catastrophes naturelles, industrielles…). 
+Ce document, dans cette nouvelle version, se focalise sur la sécurité des systèmes d’information (SSI), et plus précisément sur 
+la sécurité face aux actes malveillants ou attaques exploitant des vulnérabilités informatiques.
+Destiné aux petites communes typiquement de moins de 3500 habitants, il doit les aider à inclure ce risque dans leur Plan 
+Communal de Sauvegarde (PCS) afin de gérer efficacement une crise cyber au regard des ressources dont elles disposent.
+Vous y trouverez en complément quelques bonnes pratiques, en particulier pour prévenir en amont de tels risques, quelques 
+recommandations pour prendre en compte la cybersécurité dans les projets ou encore pour pouvoir estimer son niveau de 
+résilience ou de protection des données de son système d’information. Il est complété de la version précédente d’un volet 
+assuranciel, de quelques éléments sur les risques physique et psychologique d’une crise cyber sur les agents, de quelques 
+éléments sur les responsabilités et les mesures à mettre en place en matière de protection des données personnelles ainsi 
+que sur les bonnes pratiques cyber dans le cas d’achats de produits ou services.
+Ce document est le fruit d’un travail collectif entre les membres du CSF des industries de sécurité et du Pôle d’Excellence Cyber 
+qui, collectivement, s’attachent à travailler de concert pour la cybersécurité de nos territoires1 . Il a vocation à se bonifier au fil 
+du temps au regard des retours que pourront nous apporter les petites collectivités, comme pour cette version des éléments 
+complémentaires mentionnés supra.
+Il est déjà prévu d’y ajouter prochainement un volet sur la protection des données personnelles et un autre sur la prise en 
+compte d’exigence en cybersécurité pour les achats dans le numérique.
+Par ailleurs, ces échanges ont mis en évidence des axes de travaux complémentaires que nous approfondirons dans le cadre 
+des travaux du CSF des industries de sécurité et du Pôle d’Excellence Cyber. On identifie en particulier le sujet des RSSI 
+partagés, la mutualisation de moyens de secours à déployer en cas d’attaque (en particulier pour les communications) ou encore 
+des ressources communes entre collectivités à se partager pour spécifier les commandes d’équipements de cybersécurité 
+au juste nécessaire.
+Comme tous les ans, le fruit de ces travaux fera l’objet d’une présentation lors de la session «villes et territoires numériques 
+de confiance face à la menace cyber» organisée dans le cadre de l’European Cyber Week2, cette année 2025 le 18 novembre 
+à Rennes.
+Jean GODOT, 
+Ingénieur d’application chez ALL4TEC
+Paul-André PINCEMIN, 
+Délégué à la cybersécurité chez Rennes Ville & Métropole
+1	
+Vous trouverez en annexe F, l’historique de cette dynamique
+2	
+ECW participation gratuite sous réserve d’inscription : www.european-cyber-week.eu
+PRÉAMBULE 
+Nous tenons à remercier les différents contributeurs à l’élaboration de cette version du document :
+•	
+Pierre BARRIAL, RSSI mutualisé pour les communes de la métropole européenne de Lille, qui nous a éclairé de son retour 
+d’expérience ;
+•	
+François BELOT, responsable de la gestion des risques urbains de Rennes Ville et Métropole, qui nous a fait profiter de 
+son expérience, en particulier pour ce qui concerne l’élaboration des PCA ;
+•	
+Christian CEVAER et Jérôme LAINÉ délégué régional Bretagne de l’ANSSI successifs qui nous ont accompagné dans 
+cette initiative ;
+•	
+Guillaume CHÉREAU et Valentin CHUZEL responsables successifs du CSIRT Breton Breizh Cyber qui ont, en particulier 
+alimenté nos réflexions de retours terrains très concrets ;
+•	
+Amandine DEL AMO de Cybermalveillance.gouv.fr qui nous a apporté tout le retour d’expérience de sa structure
+•	
+Florian DUMAS, RSSI du département de l’Isère et représentant le club de la sécurité numérique des collectivités, club 
+regroupant plus de 120 RSSI de collectivités, pour ses contributions, en particulier sur le juste nécessaire dans la commande 
+de services et produits de cybersécurité, et le lien qu’il fait avec les membres de son club ;
+•	
+Jean GODOT, ingénieur d’application chez ALL4TEC, qui a copiloté ce groupe de travail avec Rennes Ville & Métropole ;
+•	
+Christine LE GOFF-PAGE, DPO de Rennes Ville et Métropole et animatrice du club des DPO des métropoles et des 
+grandes villes, et Jeanne DUGUE qui nous ont apporté leur regard quant à la protection des données personnelles ;
+•	
+Nathalie MARIN, RSSI de Rennes Ville et Métropole, qui entreprend de compléter le document sur des recommandations 
+à prendre en compte pour les achats dans le numérique ; 
+•	
+Martin PERZO conseiller numérique de la préfecture d’Ille-et-Vilaine qui nous a fait profiter de tout le travail déjà accompli 
+au profit des maires du département ;
+•	
+Paul-André PINCEMIN, délégué à la cybersécurité chez Rennes Ville & Métropole qui a copiloté ce groupe de travail 
+avec ALL4TEC en particulier quant à l’animation des sessions de travail et l’activation de son réseau ;
+•	
+Gilles PIRMAN, chargé de mission stratégie des territoires, qui nous a rejoint dès sa prise de poste et sur lequel nous 
+pouvons compter pour la promotion de ces travaux.
+•	
+Jean-Nicolas ROBIN, AVOXA avocat associé, docteur en droit pour sa contribution sur le volet des assurances cybers.
+•	
+Nathan VITAL – Doctorant en psychologie cognitive – en CIFRE chez Alcyconie et Stéphanie LEDOUX – CEO Alcyconie 
+pour leur contribution à la bonne prise en compte des effets physiques et psychologiques d’une crise cyber
+•	
+Nous remercions également Jérôme ALLAIRE, maire d’Entrammes (53260), qui nous a aidé à mieux appréhender le 
+contexte d’une petite commune notamment en nous aidant à identifier les activités gérées et réalisées par une collectivité 
+de cette échelle ainsi que Yann HUAUMÉ, vice-président numérique de Rennes Métropole et maire de Saint Sulpice 
+la Foret, ville de 1500 habitants, qui s’est assuré tout au long de nos travaux de l’adéquation du document au vécu et 
+contraintes des maires de petites communes.
+REMERCIEMENTS
+conseil national
+del’industrie
+CSF des industries de sécurité
+Ce guide a été élaboré dans le cadre du groupe de travail “Collectivités”, du Pôle d’excellence cyber, animé par Rennes 
+Métropole et All4Tech.

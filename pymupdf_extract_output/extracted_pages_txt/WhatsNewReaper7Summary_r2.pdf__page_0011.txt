@@ -1,0 +1,71 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 11 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+Menu option/Mouse option
+Comments
+Insert new empty lane above 
+this lane
+Inserts an empty lane as specified. Use drag and drop to insert 
+previously recorded media items into this lane. 
+This could, for example, be a reference track to be played along with 
+your newly recorded material. Alternatively, use Record into an 
+existing lane to record into it.
+Insert a media item into a new 
+lane.
+Drag and drop the item into the diagonally 
+striped parking area located below the last 
+lane.
+Rename lane
+By default lanes will be named in sequence – 1,2, 3 etc. To rename 
+any lane, right-click over the lane’s button, choose Rename lane 
+from menu, type the name and click OK.
+Delete lanes (with sub-menu)
+Options to Delete lanes (inc media items), Delete all lanes 
+with no media items, Delete lanes (inc media) that are not 
+playing, Delete lanes (inc media) with no comp areas and 
+Delete all lanes (inc media items).
+Automatically remove empty 
+lanes at bottom of track
+Will remove any unwanted empty lanes at bottom of track.
+Item colors
+Sub menu options to Set all items that share the same media 
+source to the same random color or Set items in all lanes to 
+one color per lane.
+Click/Shift click on arrow to 
+left of comp lane
+Click to toggle between Make lanes big and 
+Make lanes small. Shift Click to toggle 
+Show all lanes on/off.
+Change selected lane when  
+height is in collapsed state
+Click on Up/Down arrows on the single displayed 
+track button.
+Comping with Media Item Lanes
+Using your mouse you can quickly and easily build a comp (or comps) from your media item lanes. One 
+important difference between this and REAPER’s legacy comping system is that the material is 
+comped into new items. Your original items are not modified in any way.
+To turn comping on in a new lane, from the lane panel’s context menu choose Comping, 
+Comp into new empty lane. A new lane will be inserted above the existing lanes. Shown 
+here, it is labeled C1 –  Rename lane from the context menu lets you change this.
+To toggle comping on/off in an existing lane, double-click on the required lane button.
+It’s a good practice to finish any edits on your source media items before you begin comping. Comping, Allow 
+editing source media while comping can be toggled on/off from the context menu. Even with this option 
+turned off you will still be able to perform edits on the contents of comped lanes.
+Use left drag to define areas to be comped. Shown here an area has been 
+selected from each of the two media lanes. They do not meet up. To fix this, 
+simply drag the border on either of the two areas towards the other, as shown 
+below left. You can then if you wish drag this border either left or right to adjust 
+the relative comp areas, as shown below right.
+The vertical yellow marker lines in the comp lane can be used to adjust the borders between segments. 
+Note that these actions copy the comped segments 
+as new media items. The items in comp lanes can 
+be edited (e.g. by adding FX or fades) without 
+affecting the original media in the source lanes in 
+any way. 
+Below is a summary table of various comping tasks, 
+commands and actions.
+Page 11

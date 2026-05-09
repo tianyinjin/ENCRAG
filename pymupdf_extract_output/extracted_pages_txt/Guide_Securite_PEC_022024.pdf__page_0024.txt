@@ -1,0 +1,47 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 24 / 108
+
+================================================================================
+
+24
+POLE D'EXCELLENCE CYBER
+Si vous êtes certain que la pièce jointe que vous avez reçue ne contient pas de données personnelles ou sensibles, vous pouvez 
+l’analyser à l’aide d'un outil de multiscanning1 en ligne, comme VirusTotal (voir le tutoriel « Analyser un fichier ou un lien avec 
+VirusTotal »). En effet, les Conditions Générales de l’Utilisation (CGU) de ces services en ligne précisent généralement que tout fichier 
+qui serait soumis à l'analyse deviendrait alors la propriété de l’entreprise qui fournit le service, ce qui compromet donc la confidentialité 
+des fichiers analysées et limite fortement l'utilisation de tels outils.
+• Analysez les liens URL  R13  : avant de cliquer sur un lien, copiez-le et analysez-le à l’aide des outils de multiscanning en ligne (voire 
+le tutoriel « Analyser un fichier ou un lien avec VirusTotal »).
+• Ne cliquez pas sur des liens de désinscriptions  R14  : au mieux, de tels liens servent à confirmer aux spammeurs que votre adresse 
+électronique est réelle. Au pire, vous risquez d’infecter votre ordinateur. Ne vous désabonnez que des newsletters auxquelles vous 
+savez que vous vous êtes réellement abonné (par exemple, une liste de diffusion d'un magasin). Dans ce cas, désabonnez-vous des 
+newsletters indésirables dans les préférences de votre compte personnel en vous connectant directement au site légitime ou en 
+informant l'administrateur du site.
+• Faites attention aux liens raccourcis  R15  : par exemple de type http://bit.ly/..., ou http://goo.gl/..., etc. Ce type de lien sert à 
+dissimuler d'autres liens trop longs. Souvent utilisés par des réseaux sociaux, ces liens peuvent également vous rediriger vers un site 
+malveillant. Il existe des outils en ligne permettant de démasquer le site de destination qui est caché derrière de tels liens2 .
+• Désactivez le téléchargement automatique des images  R16  : des liens URL peuvent se cacher derrière des images contenues dans 
+des messages électroniques. Un clic accidentel peut alors vous rediriger vers un site malveillant. En outre, des images peuvent être 
+utilisées pour vous pister grâce à la technologie pixel espion3 . Il s’agit alors d'images de très petite taille, souvent invisibles et donc 
+non repérables par l’utilisateur, qui permettent la génération de cookies tiers, utilisés, par exemple, par des serveurs publicitaires pour 
+suivre votre comportement.
+Les alias
+Un alias est une adresse électronique secondaire que de nombreux logiciels de messagerie électronique vous autoriseront à créer. 
+Cette adresse secondaire redirigera les messages qui lui sont envoyés vers votre compte de messagerie principal. Vous trouverez 
+donc dans votre boîte de réception l’ensemble des messages provenant à la fois de votre compte de messagerie principal, mais aussi 
+des adresses alias. En fonction de votre opérateur de messagerie, vous avez la possibilité de créer un nombre déterminé d’alias, ces 
+adresses secondaires pointeront toutes vers votre boîte de réception.
+L’intérêt principal d’un alias est de créer des adresses supplémentaires qui servent à communiquer un identifiant différent à chacun 
+de vos interlocuteurs, selon vos besoins et sans que vous ayez à changer de boîte de réception. Vous pourrez ainsi séparer les usages 
+tout en protégeant votre véritable adresse électronique. Par exemple, si votre adresse principale est nom.prenom@votredomaine.fr, 
+vous pouvez créer des alias du type contact@votredomaine.fr ou nom_du_site_web@votredomaine.fr. Vous pouvez dédier l'une 
+des adresses alias pour vous inscrire sur un site Web particulier, et une autre pour un autre. Toutes les réponses envoyées à ces deux 
+adresses alias arriveront sur votre adresse de messagerie principale, vous verrez ainsi aisément quel sont les sites qui revendent vos 
+données. Une adresse alias peut être supprimée à tout moment, par exemple lorsque vous recevez trop de messages inhabituels ou 
+non souhaités (spams) sur l'une de ces adresses secondaires.
+1 Des outils en ligne qui analysent vos fichiers et facilitent la détection rapide de logiciels malveillants à l'aide de plusieurs antivirus ou 
+anti-logiciels malveillants.
+2 https://unshorten.it
+3 https://www.cnil.fr/fr/definition/tracking-pixelweb-beacon-ou-pixel-espion#:~:text=Le%20tracking%20pixel%20est%20une,­
+mais%20invisible%20pour%20l%27utilisateur.

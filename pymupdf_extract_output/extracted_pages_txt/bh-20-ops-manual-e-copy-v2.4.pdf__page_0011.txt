@@ -1,0 +1,68 @@
+Source file: bh-20-ops-manual-e-copy-v2.4.pdf
+Relative path: bh-20-ops-manual-e-copy-v2.4.pdf
+Page: 11 / 13
+
+================================================================================
+
+11 
+ 
+ 
+BH-20 Operations Manual v2.4 
+ 
+VALUE ADDED (continued) 
+ 
+AC-DC POWER:  Automatic Power Switching.  Use common household 110-240VAC outlets. 
+ 
+FASTER RESPONSE TIME:  Significant reduction in time taken to deploy PPV.  Advantage 
+Operational Response Factor. 
+ 
+ 
+TROUBLESHOOTING 
+ 
+Do not forcefully over-turn the POWER KNOB too far to the right or left because this will damage 
+the potentiometer and will result in the fan not starting or stopping.  The control potentiometer is 
+a robust industrial equipment component, but it is not indestructible.    
+ 
+When turning ON the fan, make sure the Power Knob “clicks” ON and is turned pass the dead-
+band to start the fan.   
+ 
+When turning OFF the fan, make sure the Power Knob “clicks” OFF to the left after the fan stops 
+and the steady GREEN LED is off.   
+ 
+Do not attempt to repair, replace, or modify motor, propeller, any battery components, any 
+electrical components or any electronic circuit board.  Doing so will void the warranty, and possibly 
+result in property damage and personal injury or death. 
+ 
+The following is a guide chart to troubleshoot the operation of the unit only and is not intended for 
+performing repairs to the fan: 
+ 
+SYMPTOM 
+CAUSE OF PROBLEM 
+ACTION 
+Blinking RED LED.  No 
+start 
+Battery is discharged and no AC 
+Run on AC, or recharge 
+battery 
+Steady RED LED.  No 
+start 
+Bad battery or BMS 
+Send out for Service 
+Steady GREEN LED. No 
+start 
+Knob is ON but in the dead-band 
+Turn clockwise slowly until 
+it starts 
+No LED No start 
+Dead battery or bad BMS, ESC 
+Send out for Service 
+Rattling Noise 
+Loose fastener/nuts and bolts 
+Inspect fasteners and 
+tighten 
+Scraping Noise 
+Fan Blade touching shroud 
+Send out for Service 
+Smoke or smell  
+Over heat, bad electronics 
+Send out for Service

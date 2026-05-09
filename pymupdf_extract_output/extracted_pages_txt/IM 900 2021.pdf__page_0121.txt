@@ -1,0 +1,109 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 121 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 5 : SECURITE DES LIEUX ABRITANT DES INFORMATIONS ET SUPPORTS 
+CLASSIFIES 
+
+115 
+Accès aux 
+dispositifs 
+d’import - 
+export du 
+poste 
+utilisateur 
+Réservé aux 
+utilisateurs 
+authentifiés sur le 
+terminal 
++ 
+supports amovibles 
+préalablement 
+enrôlés sur le 
+système et autorisés 
+pour cet utilisateur 
+Protection de la 
+classe Ȗ 
+Réservé aux 
+utilisateurs assurant 
+une fonction 
+d’enregistrement des 
+documents classifiés 
+ou de gestion des 
+échanges 
+Contrôle des 
+équipements 
+connectés au 
+réseau 
+Désactivation des 
+services non utilisés 
+(conformité) 
+Protection de la 
+classe Ȗ 
++ 
+Authentification des 
+équipements au 
+réseau 
+Protection de la 
+classe ȕ 
+Cloisonneme
+nt et filtrage 
+Cloisonnement par 
+fonction homogène 
+au sein du SI 
+(cloisonnement des 
+réseaux locaux-LANs- 
+par population) 
+Cloisonnement entre 
+les utilisateurs d’une 
+même population, 
+exemple P-VLAN. 
+Cloisonnement par le 
+chiffre pour chaque 
+poste utilisateur 
+(tunnel dédié vers les 
+services) 
+Capacité à 
+restreindre la 
+visualisation 
+des IC par un 
+tiers. 
+Disposition des 
+terminaux par 
+rapport aux 
+ouvertures du local 
+(portes, fenêtres, 
+vasistas, hublots, etc.) 
+et protection des vis-
+à-vis 
+Protection de la 
+classe Ȗ 
+Protection de la 
+classe ȕ 
+ 
+3. Tableaux de combinaison des classes 
+L’objectif final est d’égaler ou de surpasser le temps de freinage énoncé dans les 
+principes généraux pour obtenir un niveau de sécurité minimal pour les ISC. 
+La détermination de ce niveau est réalisée en deux temps : 
+-
+La classification des barrières (emprise, bâtiment, local, meuble ou moyen logique) à 
+travers les moyens de détection d’intrusion ou de freinage qui leurs sont associés. 
+-
+La vérification de la validité de la combinaison des classes des barrières en fonction 
+du niveau de classification de l’ISC. 
+Dans le cas où le niveau minimal de sécurité ne peut être atteint, il faut faire évoluer la 
+classe d’une ou des barrières pour atteindre ce niveau. 
+La protection des informations et supports classifiés est assurée par un minimum de trois 
+barrières physiques successives au niveau de l’emprise ou du bâtiment, du local et du 
+meuble. 
+La protection des systèmes d’information classifiés est assurée au choix par la 
+combinaison de:  
+-
+trois barrières physiques successives au niveau de l’emprise ou du bâtiment, du local 
+et du meuble de façon identique à la protection des informations et supports 
+classifiés);

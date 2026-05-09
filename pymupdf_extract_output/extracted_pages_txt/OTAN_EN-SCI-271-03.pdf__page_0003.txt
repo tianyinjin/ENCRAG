@@ -1,0 +1,33 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 3 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+Figure 2: UAV System Elements [4]. 
+ 
+Nowadays cooperative missions are in great demand. Missions using heterogeneous vehicles to perform 
+complex operations are demanding more complex infrastructures to support them. There are many issues to 
+address when working with different kinds of vehicles from different vendors, different capabilities and 
+more important different interfaces to the end user. Interoperability is one of the most problematic issues. 
+This is because there is no common acceptable interface. There are several interoperability efforts at several 
+stages of development, but still not one widely accepted and used [6].  
+1.1 
+Standard and interoperability 
+International Organization for Standardization (ISO) defines a standard as a set of “requirements, 
+specifications, guidelines or characteristics that can be used consistently to ensure that materials, products, 
+processes and services are fit for their purpose” [7]. To ensure an appropriate level of development, 
+advantage should be taken from existing standardization approaches while avoiding the risk of inheriting 
+undesirable or restrictive complexity. The existing standards for interoperability are a mean to provide rules 
+for the robots inner/outer communications. They define data and message types, operation modes and 
+optionally transport protocols.  
+Interoperability can be defined as the ability of robots to operate in synergy to the execution of assigned 
+missions and the capability of diverse systems and organizations to work together, sharing data, intelligence 
+and resources. The use of interoperability standards implies a secondary advantage. It also facilitates the 
+compatibility with existing or future platforms and Command, Control and Intelligence (C2I) systems from 
+other providers. Interoperability standards provide a common framework, working as the “glue” for 
+unmanned systems. They minimize the integration time and development costs by avoiding custom 
+STO-EN-SCI-271 
+3 - 3

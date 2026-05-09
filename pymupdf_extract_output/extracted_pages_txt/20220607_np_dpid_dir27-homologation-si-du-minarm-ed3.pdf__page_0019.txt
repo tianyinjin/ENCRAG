@@ -1,0 +1,47 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page: 19 / 49
+
+================================================================================
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+17/47 
+● les dispositifs d’échanges, d’interconnexion et d’interfaces avec d’autres SI ; 
+● les références relatives au SI ayant un impact sur la sécurité numérique et la démarche 
+d’homologation (CCTP, contrat MCO, contrat d’hébergement, etc.). 
+En raison de son usage récurrent dans différents livrables et de ses possibles évolutions, le périmètre 
+d’homologation peut faire l’objet d’un document de référence. Il est alors joint à la stratégie 
+d’homologation ou à tout document le nécessitant. 
+ 
+La stratégie d’homologation 
+RO 12 : il est OBLIGATOIRE pour le RSSI d’établir une stratégie d’homologation puis de la faire 
+approuver par l’AH.  
+La stratégie d’homologation précise a minima les informations suivantes : 
+● le périmètre d’homologation (ou référence du document définissant ce périmètre) ; 
+● les acteurs de la démarche d’homologation ; 
+● le référentiel réglementaire ; 
+● le type de démarche d’homologation (cf. §4.5) ; 
+● les analyses de risques à réaliser et les méthodes à employer ; 
+● le parcours (séquence, cas d’usage traités) de l’homologation à instruire ; 
+● les éléments de la stratégie de MCS du SI ; 
+● les modalités de mise sous supervision de sécurité9 ;  
+● les livrables à produire avec les responsabilités, les échéances et les approbateurs ; 
+● les modalités de la commission d’homologation (composition, nature de la réunion) ; 
+● les contraintes et les impératifs, notamment calendaires. 
+ 
+Les procédures d’exploitation de sécurité 
+RO 13 : il est OBLIGATOIRE pour le RSSI de rédiger des PES et de les faire approuver par l’AH, après 
+accord de l’AE. 
+Les PES définissent a minima : 
+● les différentes responsabilités des acteurs en matière de SSI et d’exploitation ; 
+● les mesures organisationnelles de sécurité spécifiques au SI, dont nécessairement : 
+o la gestion des accès et des droits ; 
+o l’organisation du MCS ; 
+o la supervision de sécurité (stratégie de détection, politique de journalisation, etc.) ; 
+o les modalités de sauvegarde et de restauration ; 
+● les mesures dérogatoires à des exigences de sécurité ; 
+● les mesures conservatoires, notamment à des fins pédagogiques ; 
+● les limitations d’utilisation du SI ; 
+● les modalités de retrait de service du SI en matière de sécurité numérique. 
+                                               
+9 Par un SOC, une surveillance périodique des journaux, etc.

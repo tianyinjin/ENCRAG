@@ -1,0 +1,59 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 134 / 136
+
+================================================================================
+
+134 
+ 
+Leonidas 
+Pod 
+d’Epirus 
+applique 
+sa 
+technologie de modules GaN à l’emport par un 
+drone réutilisable (ici un quadcopter) pour agir 
+de la même manière contre les drones 
+assaillants. On peut considérer une puissance 
+autour d’1 kW et une efficacité de l’ordre de 
+10 m. 
+ 
+O QUELQUES REPERES 
+En conclusion, on peut donner les ordres de grandeur suivants qui, s’ils sont un peu simplificateurs, 
+donnent de bons repères et reflètent bien les réalisations emblématiques évoquées précédemment : 
+ 
+Effet 
+recherché 
+Ordre de grandeur des 
+portées maximales 
+Ordre de grandeur des 
+PIRE315 à générer 
+3 à 5 
+Kilomètre 
+10 TW 
+Centaines de mètres 
+100 GW 
+Dizaines de mètres 
+1 GW 
+2 
+Kilomètre 
+10 MW 
+Dizaine de mètre 
+1 KW 
+ 
+Ces chiffres restent valables aux deux horizons de l’étude : ils reflètent des limites physiques. 
+- UNE VULNERABILITE SIGNANTE 
+A noter, qu’à terre, la vulnérabilité des équipements électroniques à l’arme HPM s’obtient en lecture 
+directe lors d’un survol aérien ou satellite : la densité des ondes électromagnétiques issues d’un poste 
+de commandement est à la fois une signature, qui le localise et l’identifie, mais aussi un marqueur de 
+son niveau de vulnérabilité dans le domaine. Ça ne dit rien du caractère « front door » ou « back door » 
+de la vulnérabilité, mais celle-ci est réelle et exploitable. La guerre en Ukraine, illustre parfaitement cette 
+vulnérabilité des postes de commandement316. A la mer, les navires de guerre sont tout aussi signants ; 
+les installations sont plus soignées qu’à terre mais, on l’a vu, pas nécessairement moins vulnérables. 
+ 
+315 Puissance isotrope rayonnée équivalente (PIRE) EIRP en anglais : puissance rayonnée dans la 
+direction de l'antenne où la puissance émise est maximale. 
+316 On se réfèrera utilement à l’article « The graveyard of command posts, what Chornobaivka should 
+teach us about command and control in large-scale combat operations”, Lt. Gen. Milford “Beags” 
+Beagle, U.S. Army, Brig. Gen. Jason C. Slider, U.S. Army, Lt. Col. Matthew R. Arrol, U.S. Army, Military 
+Review Online Exclusive, mars 2023. Article dont l’image est extraite.

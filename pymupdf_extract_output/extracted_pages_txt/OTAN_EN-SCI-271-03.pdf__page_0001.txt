@@ -1,0 +1,50 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 1 / 14
+
+================================================================================
+
+STANAG 4586 –Standard Interfaces of UAV Control System (UCS) for 
+NATO UAV Interoperability 
+Mário Monteiro Marques 
+Escola Naval - Afeite 
+2810 – 001 Almada 
+PORTUGAL 
+mario.monteiro.marques@marinha.pt 
+ABSTRACT  
+Unmanned Aerial Vehicles (UAV) are changing the way military and civil operations are carried out. New 
+types of vehicles, from different providers, each with its own specifications and characteristic, are 
+continuously being developed. This diversity leads to an increased level of difficulty in terms of 
+interoperability. The objective of STANAG 4586 is to specify the interfaces that shall be implemented in 
+order to achieve the required Level of Interoperability (LOI) between different UAV systems, so as to meet 
+the requirements of the concept of operations (CONOPS) defined by NATO countries. STANAG 4586 
+establishes a functional architecture for Unmanned Aerial Vehicle Control Systems (UCS) with the following 
+elements and interfaces: Air Vehicle (AV), Vehicle Specific Module (VSM), Data Link Interface (DLI), Core 
+UCS (CUCS), Command and Control Interface (CCI), Human Computer Interface (HCI), and Command 
+and Control Interface Specific Module (CCISM).  Besides STANAG 4586, there are already a number of 
+existing or emerging Standardization Agreements (STANAGs) that are applicable to UAV´s. They provide 
+standards for interoperable data link (STANAG 7085), digital sensor data between the payload and the UAV 
+element of the data link (STANAG 7023, 4545, 4607, and 4609), and for on-board recording device(s) 
+(STANAG 7024 and 4575).  Although not providing a complete solution for interoperability, STANAG 4586 
+is certainly a crucial step taken in that direction, providing a roadmap for future developments. 
+1.0 INTRODUCTION 
+During the last years, Unmanned Aircraft Vehicles (UAV) became a niche in continuous expansion within 
+the aerospace market. With an investment that may exceed billions of dollars by 2015, it is predictable that 
+the next generation will possess even more capabilities than today’s [1].  
+The UAV´s are changing the way military and civil operations are carried out. This technology is gaining 
+increasing awareness and promises to bring a higher level of efficiency to tasks such as data and image 
+acquisition of areas of interest, localization and tracking of specific targets (target detection, classification 
+and identification), map building, communication relays, pipeline surveying, border patrolling, military 
+operations, policing duties, persistent wide area surveillance, search and rescue, and traffic surveillance. 
+Therefore, the use of such systems provides a credible alternative to manned aircraft. They operate in 
+conditions more dangerous with more autonomy and can be very cost-effective when compared to manned 
+aircraft.  
+A North Atlantic Treaty Organisation (NATO) Interoperability Design Study was conducted in the early 
+1990s to investigate ways to enable interoperability of electronic systems. One of the approaches considered 
+was to mandate that all nations procure and operate the same systems. However, it was emphasised at this 
+time that NATO could not mandate interoperability of national reconnaissance systems, but that 
+interoperability among national systems would be purely voluntary. It was not considered a good idea to 
+have one contractor monopolise the reconnaissance systems in NATO. Instead, a comparison was drawn 
+between communications between reconnaissance systems and computer-to-computer communications. By 
+STO-EN-SCI-271 
+3 - 1

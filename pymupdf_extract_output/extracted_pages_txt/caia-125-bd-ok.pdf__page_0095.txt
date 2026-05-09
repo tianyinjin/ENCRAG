@@ -1,0 +1,100 @@
+Source file: caia-125-bd-ok.pdf
+Relative path: caia-125-bd-ok.pdf
+Page: 95 / 104
+
+================================================================================
+
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+93
+JEUNES IA
+DES SYSTÈMES COMPLEXES À LA 
+RÉSISTANCE ANTIBIOTIQUE
+Thèse de doctorat de Clément Roussel soutenue le 2/12/20212 : Apprentissage et échantillonnage de paysages énergétiques 
+complexes avec des machines de Boltzmann restreintes : de la théorie à la fitness de la protéine TEM-1
+« Le comportement de grands et complexes agrégats de particules élémentaires ne peut 
+être compris en termes de simple extrapolation des propriétés de quelques particules. » 
+(Philip Warren Anderson, More is Different, Science, 1972). 
+Les systèmes complexes : du gaz parfait à la nuée 
+d’étourneaux 
+Un système complexe est un ensemble constitué d’un 
+nombre macroscopique d’entités en interaction, dont les 
+propriétés émergent au niveau du système lui-même, et 
+ne peuvent donc pas être comprises à l’échelle de l’entité 
+élémentaire. 
+L’étude de ces systèmes a commencé au milieu du XIXe 
+siècle, avec les travaux fondateurs de James Maxwell, 
+Ludwig Boltzmann et William Gibbs sur les gaz, qui 
+ont donné naissance à la physique statistique. Depuis, 
+l’étude de ces systèmes s’est généralisée à de nombreux 
+autres domaines : les phénomènes collectifs en biologie, 
+pour comprendre par exemple la dynamique des nuées 
+d’oiseaux, la finance de marché, pour modéliser les bulles 
+spéculatives et les krachs boursiers, ou encore l’informa­
+tique pour étudier les réseaux de neurones artificiels. 
+L’étude de ces systèmes complexes a été couronnée par 
+le prix Nobel de Physique 2021, récompensant Syukuro 
+Manabe et Klaus Hasselmann pour leurs travaux fonda­
+teurs sur la modélisation physique du climat et Giorgio 
+Parisi pour ses travaux sur les systèmes désordonnés.
+Ma thèse : voyage au sein des systèmes complexes
+Durant ma thèse au sein du département de physique de 
+l’ENS Ulm, sous la direction de Simona Cocco et Rémi 
+Monasson (professeur à l’X), tous deux anciens collabora­
+teurs de Giorgio Parisi, j’ai étudié les systèmes complexes 
+dans un but double : comprendre et améliorer les perfor­
+mances de réseaux de neurones profonds et les appliquer 
+à la prédiction d’effets de mutations de protéines. 
+Sur l’échantillonnage des machines de Boltzmann 
+restreintes 
+Les réseaux de neurones profonds sont depuis une dizaine 
+d’années une brique essentielle de l’intelligence artificielle 
+et permettent de réaliser des tâches diverses et variées, 
+de la traduction automatique de langues à la génération 
+d’images, une fois qu’ils ont été entraînés sur de grandes 
+quantités de données. Ces réseaux, comme leur nom l’in­
+dique, sont constitués d’un grand nombre de neurones 
+artificiels connectés les uns aux autres et sont donc un 
+système complexe à part entière. Durant ma thèse, nous 
+avons utilisé des outils issus de la physique statistique pour 
+étudier et améliorer les performances génératives de ces 
+réseaux de neurones, c’est-à-dire leur capacité à générer 
+des nouvelles données, comme par exemple des images, 
+après que ces réseaux ont été entrainés. 
+Sur la résistance antibiotique causée par les β-lac­
+tamases
+Un autre domaine d’application des systèmes complexes 
+est l’étude des protéines. Grâce à une collaboration avec 
+des chercheurs de l’hôpital Bichat (INSERM), j’ai eu la 
+chance d’étudier la protéine β-lactamase TEM-1 qui est 
+responsable de la résistance antibiotique à la pénicilline.
+Expérimentalement, Olivier Tenaillon et son groupe ont 
+modifié certains acides aminés de la protéine TEM-1 pour 
+créer des mutants de cette protéine afin de mesurer leurs 
+effets sur la résistance antibiotique et essayer de prévoir 
+quels futurs variants de cette protéine pouvaient apparaître 
+dans la nature. Ces procédures expérimentales sont lon­
+gues et coûteuses et il est impossible d’étudier tous les 
+mutants expérimentalement.
+Néanmoins, depuis une dizaine d’années et grâce à l’amé­
+lioration des techniques de séquençages de l’ADN, des 
+bases de données comportant des millions de protéines 
+sont accessibles à la communauté scientifique. Il est donc 
+possible d’entrainer des réseaux de neurones profonds sur 
+ces bases de données et de les utiliser pour prévoir l’ef­
+fet des mutations sur une protéine donnée : c’est ce que 
+nous avons fait dans le cadre de cette collaboration. Ce 
+dernier pan de ma thèse montre la richesse des systèmes 
+complexes : nous avons utilisé un système complexe, les 
+réseaux de neurones, pour étudier un autre système com­
+plexe, les protéines.
+Et le Corps de l’Armement dans tout ça ?
+Les systèmes complexes, dans le sens de la gestion 
+d’un programme industriel complexe, sont le cœur de 
+métier de l’Ingénieur de l’Armement. Nos systèmes 
+complexes d’armement se rapprochent de plus en plus 
+des systèmes complexes au sens physique du terme. Il 
+suffit de regarder le programme SCAF ou SCORPION, 
+où les avions, drones ou bien chars sont interconnectés 
+et dont la finalité n’apparaît qu’à l’échelle du système 
+lui-même. Le More is different de Philip Warren Ander­
+son a encore de beaux jours devant lui !

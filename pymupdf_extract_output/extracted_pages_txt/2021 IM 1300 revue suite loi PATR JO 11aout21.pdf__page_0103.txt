@@ -1,0 +1,60 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 103 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+ 
+ 
+ 
+100 
+l’accès à distance à ces systèmes d’information en ayant recours à des équipements mettant en 
+œuvre des dispositifs de sécurité agréés au niveau de classification du système d’information 
+auquel il donne accès. 
+SUPPORTS AMOVIBLES
+La connexion ou l’installation d’équipements personnels à un système d’information classifié 
+est strictement interdite. 
+La connexion d’un support amovible non classifié à un système d’information classifié est 
+possible sous réserve de la mise en place de mesures techniques de protection, notamment des 
+mesures de détection ou de protection contre l’introduction de codes malveillants ou 
+d’exfiltration d’information. 
+Avant toute utilisation sur un système d’information traitant d’informations classifiées, 
+l’innocuité de tout support est vérifiée. 
+Si l’utilisation de supports amovibles est autorisée, ceux-ci sont intégrés au périmètre 
+d’homologation du système d’information classifié (cf. 6.1.1) lorsqu’ils sont gérés, administrés 
+et mis à disposition par l’autorité d’emploi du système d’information classifié.
+Tout support amovible susceptible de contenir ou d’avoir contenu de l’information classifiée 
+d’un niveau donné est classifié au moins au même niveau et est soumis à ce titre aux obligations 
+décrites au chapitre 7. En aucun cas, un support amovible classifié ne peut être connecté à un 
+système d’information non-classifié ou de classification inférieure.  
+Lorsque des informations classifiées sont transportées à l’aide de supports amovibles, les 
+supports amovibles respectent les exigences en matière de transport d’informations classifiées 
+sur un support amovible (cf. 7.3.2.2). 
+L’officier de sécurité des systèmes d’information sensibilise les utilisateurs aux mesures de 
+sécurité à respecter dans l’emploi des supports amovibles. 
+Supports amovibles au sein du système d’information classifié 
+Seuls les supports amovibles gérés, administrés et mis à disposition par l’autorité d’emploi du 
+système d’information classifié sont autorisés à se connecter à ce système d’information 
+classifié. 
+Des dispositifs de sécurité permettant de prévenir la connexion ou l’installation de supports 
+amovibles non autorisés sont mis en place. 
+Supports amovibles entre un système d’information classifié et d’autres 
+systèmes 
+Lorsque des supports amovibles sont utilisés pour importer et exporter des informations à partir 
+d’un système d’information classifié, ce transfert d’information est réalisé exclusivement en 
+connectant ces supports amovibles à des points de connexion appartenant au système 
+d’information classifié. Ces points de connexion des supports amovibles sont dédiés à cet usage 
+et garantissent notamment les exigences de sécurité suivantes :
+-
+contrôle d’autorisation (approbation de la sortie d’information) ; 
+-
+rupture protocolaire : (rupture du flux transitant entre le support amovible et le système 
+d’information émetteur ou destinataire) ; 
+-
+traçabilité et imputabilité du transfert. 
+Les exportations d’informations classifiées réalisées à partir de supports amovibles sont tracées 
+par des moyens techniques ou organisationnels qui permettent notamment d’horodater le 
+transfert et de l’imputer à un utilisateur du système d’information classifié.

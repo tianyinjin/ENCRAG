@@ -1,0 +1,55 @@
+Source file: MP-SET-315-26.pdf
+Relative path: MP-SET-315-26.pdf
+Page: 10 / 12
+
+================================================================================
+
+A Novel Swarm Defense End-to-End System 
+for Autonomous Drone Detection, Tracking, and Neutralization 
+10 
+STO-MP-SET-315-26 
+ 
+ 
+1) Monitoring and Detection: After arming and take-off, the system effectively classified 
+environmental noise as non-threatening, keeping the drone idle. 
+2) Intrusion and Identification: As with the simulations, the system identified and classified drones as 
+they entered the buffer zone. 
+3) System Engagement: In this phase, our system behaved similarly as during the simulated 
+experimentations with the only difference that real-world perturbations (noise) were identified as 
+neutral entities (e.g., birds) to allow our AI agent to take them into account for collision avoidance.  
+4) Capture Progression: In real-world operations, deploying the net was a virtual action conducted only 
+in simulation. The success (or not) of the capture was therefore assessed in the simulated 
+environment mirroring the actual situation. Upon capture, the behavior of the captured red drone was 
+no longer mirrored in the real world. The simulated captured red drone was dragged by the 
+simulated blue drone that captured it into the retrieval area. The real red drone however simply put 
+itself out of the game by lowering its altitude below the buffer zone and remained ignored by the 
+system until the end of the scenario. The real capturing blue drone moved towards the retrieval area, 
+mimicking the fact of dragging the captured red drone and releasing it in that area. Its simulated 
+counter-part was mirroring this behavior. 
+These adaptations in the system allowed us to successfully test various scenarios, encompassing the 
+detection, localization, classification, tracking, neutralization and safe retrieval of captured targets in matches 
+of two defending drones against two intruders. 
+6.0 CONTRIBUTION TO ADVANCEMENT OF SECURITY MEASURES 
+Our research design successfully exhibits the ability to tackle escalating drone threats, as demonstrated by 
+our theoretical and practical executions. Notably, our system is designed to address an equal number of 
+threats to the defensive swarm drones. Although, we must emphasize that this system is, for the moment, 
+validated for small swarms only. This was substantiated during our simulated experiments and real-flight 
+trials, where five drones managed to track an equivalent number of enemy drones in simulations, achieving a 
+secure interception of all infiltrating units. In real-flight operations, our small defensive swarm of two drones 
+coped with two enemy drones, confirming our system’s adaptability and scalability under different 
+conditions and its promising application to real-world scenarios for future versions. To be noted also that our 
+system is agnostic of the hardware equipment it is using. The drone make and model, the sensors type or the 
+neutralization payload type can all be easily replaced or changed by different ones. 
+7.0 CONCLUSION 
+Our designed system showcased the integration of ground and air segments, entailing a range of sensors and 
+countermeasure capabilities. By employing ground radar and PTZ camera, the system enabled long-range 
+detection, classification, and localization of potential threats. Simultaneously the air segment contained a 
+fleet of autonomous counter-UAVs, each equipped with an Electro-Optic sensor and a net deployment 
+mechanism for neutralization purposes.  
+By synchronizing sensor data, facilitating communication among resources, and utilizing artificial 
+intelligence, the counter-UAV system provided an end-to-end solution from detection to neutralization of 
+intrusive drones. Priority was given to maintaining human oversight via a manned ground control station, 
+thereby keeping the human operator in the loop for monitoring and a stop mechanism in case it was 
+necessary for safety reasons. The stop mechanism consists of a “stop all” button that interrupts the 
+commands during a mission from the AI agent to the drones. The stop button freezes the movement of all 
+drones, defending or intruding, and gives back the control to the human pilots to manage the situation.

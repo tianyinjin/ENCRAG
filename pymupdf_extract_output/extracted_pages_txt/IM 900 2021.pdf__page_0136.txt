@@ -1,0 +1,57 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 136 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 5 : SECURITE DES LIEUX ABRITANT DES INFORMATIONS ET
+SUPPORTS CLASSIFIES 
+5.5
+
+130 
+5.5: PROTECTION CONTRE LES COMPROMISSIONS VIA LES 
+EQUIPEMENTS ELECTRONIQUES 
+Référence: 
+IGI 1300 – 6.5.1 
+Points clés: 
+•
+Les équipements électroniques sont des vecteurs possibles pour capter des
+informations sensibles, Diffusion Restreinte ou classifiées par piégeage. Le
+piégeage de certains équipements électroniques (exemple smartphone) est
+considéré comme facile sans nécessiter l’accès à l’équipement.
+•
+Il est de la responsabilité de l’officier de sécurité de fixer les règles applicables au
+sein de son organisme.
+•
+Dans les zones réservées les équipements électroniques personnels (ou assimilés)
+sont interdits, les équipements électroniques professionnels peuvent être
+acceptés ou tolérés sous certaines conditions.
+•
+Un affichage doit être mis en place et permettre de s’assurer que chacun connait
+les règles applicables.
+1. Vulnérabilités spécifiques des équipements électroniques
+Les équipements électroniques sont des vecteurs possibles pour capter des informations 
+sensibles, Diffusion Restreinte ou classifiées et sont susceptibles d’être piégés et en 
+capacité d'exfiltrer les données classifiées, Diffusion Restreinte ou sensibles (échanges 
+verbaux, fichiers informatiques, images...) à l'insu de l'utilisateur, en temps réel ou en 
+temps différé. 
+Il s’agit principalement de traiter les vulnérabilités dues aux équipements électroniques 
+munis d'un dispositif technique de captation sonore ou vidéo (ordinateurs portables, 
+téléphones mobiles, tablettes, montres, dictaphone, écouteurs/micro sans fils, caméra,…) 
+connectés à l’espace cybernétique (Internet, GSM, WIFI, Bluetooth, indirectement par 
+synchronisation ou mise à jour,…). 
+Pour exemple, il peut s’agir d’une application pour smartphone, a priori banale, 
+disponible en téléchargement sur un store et installée par le propriétaire du 
+téléphone qui se révèle être malveillante en déclenchant un enregistrement audio sur 
+mot-clé ou dès que le téléphone est mis en mode avion ou lorsqu’elle détecte une 
+absence de réseau GSM (entrée en cage de faraday), l’enregistrement étant transmis 
+dans un second temps. Ce piégeage est considéré comme facile et ne nécessite pas 
+d’accès à l’équipement électronique. Il est également possible d’utiliser une vulnérabilité 
+ou une porte dérobée préexistantes. 
+Les équipements professionnels, voire ayant fait l’objet d’un agrément par l’ANSSI 
+(Diffusion Restreinte ou classifié), entrent également dans le champ de cette menace, 
+même si leur vulnérabilité est moindre en raison des dispositions techniques ou 
+organisationnelles prises.

@@ -1,0 +1,1128 @@
+Source file: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Relative path: A_Study_on_the_Advancement_of_Intelligent_Military.pdf
+Page count: 12
+Extracted pages: 12
+
+================================================================================
+
+[Page 1 / 12 | chars: 4566]
+--------------------------------------------------------------------------------
+
+Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.
+Digital Object Identifier 00.0000/ACCESS.2023.0000000
+A Study on the Advancement of Intelligent
+Military Drones: Focusing on Reconnaissance
+Operations
+MINHO LEE1, MINWOO CHOI1, TAEHOON YANG2, JINGU KIM3, JAEOH KIM2, OJEONG KWON4,
+NAMSUK CHO1
+1Department of Operation Research, Korea National Defense University, Nonsan 33021, South Korea
+2Department of Data Science, Inha University, Incheon 22212, South Korea
+3Defence R&D Institute, Poongsan, Daejeon 34027, South Korea
+4Department of Industrial Engineering, Korea Advanced Institute of Science and Technology, Daejeon 34141, South Korea
+Corresponding author: Namsuk Cho (e-mail: ncho64@gmail.com)
+This research was conducted with the support of the Poongsan-KAIST Future Technology Research Center
+ABSTRACT Drones have become integral in modern warfare, and their evolution towards greater autonomy
+is inevitable. This study explores the trajectory towards intelligent, minimally human-dependent military
+drones, detailing the necessary technological advancements. We simulate drone reconnaissance operations to
+identify and analyze emergent challenges. This study delves into various technologies critical for enhancing
+drone intelligence, with a focus on reinforcement learning based on object detection, and presents practical
+implementation examples to illustrate these advancements. Our findings confirm the significant potential for
+enhancing the intelligence of military drones, paving the way for more autonomous and effective combat
+solutions.
+INDEX TERMS
+Intelligent military drones, reconnaissance drone, reinforcement learning, autonomy,
+simulation, object detection.
+I. INTRODUCTION
+D
+RONES have been recognized as essential forces
+through various proven instances in recent conflicts
+such as the Russian Invasion of Ukraine and the Armenia-
+Azerbaijan War. Currently, the majority of combat-ready
+drones are remotely controlled. Although there is some level
+of automation in drones, operators are still required due to
+technical and ethical issues. From a tactical perspective, the
+best advantages of drones are “low cost” and “mass deploy-
+ment.” However, these two advantages only work when the
+drone can be controlled without operators, that is, when the
+drone is intelligent.
+Autonomous drones alone are not a novel concept, as
+extensive research has already been conducted. For instance,
+we live in an era where unmanned drones are used for deliv-
+eries and search and rescue missions [1], [2], [3]. However,
+can civilian intelligent drone technology be used directly for
+military purposes? Our answer is “no,” because military drone
+operations show clear differences from civilian drones in the
+following situations. First, the environment in the military
+is more complex than that in the civilian sector. Consider
+when Tesla is on Autopilot on an unpaved road how often
+a driver must intervene. Military operations do not occur on
+‘‘well-paved roads.’’ Moreover, military operations involve
+missions assigned in arbitrary locations. Second, countless
+enemy counteractions accompany military operations. These
+counteractions include both active and passive denial, with
+active denial involving interception attempts and passive de-
+nial including concealment and deception. Such enemy ac-
+tivities increase the complexity of the problem. Third, due to
+the military’s uniqueness and security, there is a lack of data
+related to military operations. For example, there is a shortage
+of aerial view data of tanks and Transporter Erector Launchers
+(TELs), which are used targets of object detection. Fourth,
+safety and ethical aspects need to be considered when a mili-
+tary intelligent drone performs a mission. An intelligent drone
+lacking stability during operations can result in unpredictable
+behaviors, leading to indiscriminate casualties and mission
+failure. As an ethical consideration, even though overall drone
+operation becomes intelligent, there is a need for the concept
+that the final attack decision is made by humans. In other
+words, the key consideration should not be whether drones
+VOLUME 11, 2023
+1
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 2 / 12 | chars: 4179]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+FIGURE 1. Engineering research on intelligent drones in civilian applications.
+can autonomously make decisions about attacks on their own,
+but rather how they can provide information to assist humans
+in making the final decision regarding an attack. These ethical
+issues are related to human responsibility and the role of
+machines.
+Given these military considerations, the research on the au-
+tonomous military drones and civilian drones should progress
+with different concepts. Research on military intelligent
+drones is actively underway, but unlike civilian research, most
+of it is not in the public domain. Therefore, this study has the
+following objectives.
+• First, the study examines the concepts of intelligent mil-
+itary drones, considering the special nature of military
+operations.
+• Second, we conduct a case study on various issues that
+arise in this field, viewing them from an engineer’s
+perspective and discussing the intuition derived from the
+case study.
+II. LITERATURE REVIEW
+Intelligent drones integrate artificial intelligence technolo-
+gies to be autonomous and optimize drone functions and
+operations. These drones possess capabilities beyond simple
+remote control, being able to sense their environment and
+respond autonomously to perform various tasks. Studies are
+ongoing to utilize these advanced functionalities, but publicly
+accessible information is limited. In military documentation
+that is available to the public, especially regarding mixed
+manned and unmanned systems, intelligent drones are often
+mentioned as one player among many [4], [5], [6], [7], [8],
+[9], [10]. This means that the discussion isn’t fully focused or
+detailed specifically on military drones.
+Papers focusing on intelligent military drones can be
+broadly categorized into two types. Those centered on engi-
+neering and those that are not. The latter type includes papers
+discussing policies, military strategies, and ethics related to
+intelligent military drones. There are diverse opinions in these
+papers regarding military intelligent drones. From a negative
+viewpoint, concerns are raised about ethical issues, the un-
+predictability of AI, military ethics, and stability problems
+[11]. Conversely, from a positive perspective, some argue
+that intelligent drones, when used appropriately, can be more
+objective and ethical in performing tasks than humans, who
+might be influenced by emotions such as revenge or anger
+[12]. Regarding making attack decisions with drones, many
+papers recommend that humans should be the ones to make
+the final decision. Yet, some advocate that drones could inde-
+pendently make such decisions if equipped with an ethical
+system [13]. While these papers provide a comprehensive
+overview of various aspects of military intelligent drones,
+they often lack an in-depth engineering perspective on how
+to enhance the intelligent capabilities of these drones.
+On the other hand, papers on intelligent military drones
+from an engineering perspective in the military domain are
+few [14], [15] and often lack sufficient reflection of military
+specificity. In contrast, research on the intelligence of civilian
+drones is progressing, as illustrated in Figure 1, which we
+have personally compiled and summarized. From this point
+on, the review will be based on Figure 1.
+• The applications of artificial intelligence in civilian
+drones are being researched for drones equipped with
+sensors and systems such as Electro-Optics (EO), Infra-
+Red (IR), Laser Range Finder (LRF), Light Detection
+and Ranging (LiDAR), Radio Detection And Ranging
+(RADAR), Global Navigation Satellite System (GNSS),
+Inertial Measurement Unit (IMU), Ultrasound, and Syn-
+2
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 3 / 12 | chars: 5477]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+thetic Aperture Radar (SAR). Notably, there is extensive
+research on applying computer vision to drones, actively
+merging with other subjects like navigation [16], [17],
+[18].
+• The field of object detection in computer vision, par-
+ticularly the detection of tiny objects from aerial per-
+spectives using drones, is an area of active research
+[19]. In transportation [20] and agriculture [21], image
+segmentation is applied to divide images into multiple
+regions, ensuring each region has consistent meaning or
+characteristics. This technique is used for distinguishing
+roads, soil, and various types of trees.
+• Mapping involves creating 2D or 3D maps using drone
+sensor data, which include features like terrain, build-
+ings, roads, and trees. Navigation is about determining
+and following a route to a destination in a given en-
+vironment. There are studies on drones simultaneously
+performing mapping and navigation in simplified grid
+environments, applying reinforcement learning for this
+purpose [22]. When considering navigation in a broad
+sense to include localization, path planning, and flight
+control, it can be said that navigation is the most actively
+researched area in the field of drone intelligence, where
+deep learning and reinforcement learning are extensively
+applied [23], [24], [25].
+• Another promising research field related to the intelli-
+gence of drones is Multi Agent Systems [26]. Swarm
+drones apply multi-agent reinforcement learning for
+tasks like target tracking [27], network resource alloca-
+tion [28], and weapon-target assignment [29].
+• In the field of Communication & Security [30], research
+focuses on applying AI technologies to enhance network
+systems for drone-to-ground or drone-to-drone data ex-
+change. In a more detailed examination of security, there
+is research utilizing reinforcement learning to determine
+the optimal trajectory for UAVs to avoid jamming [31].
+Jamming involves the intentional physical disruption
+of wireless signals, leading to the obstruction of com-
+munication channels. Furthermore, studies are apply-
+ing PCA (Principal Component Analysis), CNN (Con-
+volutional Neural Network), and LSTM (Long Short-
+Term Memory) in combination to detect GNSS spoofing
+[32]. Spoofing is a deceptive practice where signals
+are manipulated to mimic or imitate specific devices
+or users, misleading the system. Adversarial attacks,
+designed to confuse machine learning models, especially
+deep learning models, involve adding subtle changes
+to model input data, leading to incorrect predictions or
+classifications [33]. Research on adversarial attacks and
+defenses against deep learning-based drones includes
+studies on adversarial patch attacks [34]. These attacks
+significantly decrease the image detection accuracy of
+drone networks.
+• Just as network issues are considered constraints in
+drone operations, the field of power and energy manage-
+ment also faces challenges. In this area, there are stud-
+ies on using reinforcement learning to improve energy
+efficiency during drone navigation [35], and research
+into automated recharging systems for drones that are
+battery-operated and autonomous [36].
+• Finally, the embedded systems installed in drones have
+performance limitations in terms of computational ca-
+pacity, memory, and power consumption. Due to this, the
+integration of heavy deep learning models is restricted,
+leading to research on lightweight deep learning models
+[37].
+A. THE CONTRIBUTION OF RESEARCH
+Our study’s primary contribution lies in providing intuition
+for the intelligence of military drones from an engineering
+perspective, based on a high level of understanding in the
+military domain. The details are as follows.
+• First, we construct a scenario from a military domain
+perspective, focusing on a reconnaissance mission car-
+ried out by a military intelligent drone. This scenario
+describes the process of the drone scouting a specific
+sector, detecting and tracking an enemy, and provid-
+ing information with high detection reliability to the
+decision-maker responsible for attack. Based on this
+scenario, we create a custom simulation environment.
+• Second, we examine the engineering technologies re-
+quired for the operation of military intelligent drones.
+These technologies encompass a wide range, from tradi-
+tional rule-based and Proportional-Integral-Differential
+(PID) control to recent advancements in artificial intel-
+ligence. Specifically, we conduct experiments on data
+augmentation using Generative Adversarial Network
+(GAN) and the training of object detection algorithms,
+as well as reinforcement learning for drone movement.
+The examination of these engineering technologies ulti-
+mately provides insights into how reinforcement learn-
+ing can be applied at specific stages to enhance drone
+intelligence, presenting solutions to the challenges en-
+countered.
+III. INTELLIGENT RECONNAISSANCE DRONE CASE STUDY
+FIGURE 2. Poongsan corporation’s drone in Unity simulator.
+VOLUME 11, 2023
+3
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 4 / 12 | chars: 4595]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+FIGURE 3. Intelligent drone reconnaissance scenario and applied technologies.
+Military drones are classified according to their purpose of
+use into reconnaissance, attack, deception, electronic warfare,
+and as targets [38], [39]. In this case study, we focus on the
+intelligence of reconnaissance drones. The drone in the case
+study is modeled after the drone of the Korean Poongsan com-
+pany, as shown in Figure 2. The model can perform a variety
+of tasks depending on the applied modules. However, in this
+study, a drone equipped with reconnaissance modules is used.
+The module includes sensors and systems such as cameras,
+LRF, GNSS, and others. For specification assumptions, it is
+presumed that the drone is capable of being equipped with an
+object detection and reinforcement learning neural network.
+A. SCENARIO
+The scenario assumes specific conditions and objectives
+for research purposes. An intelligent reconnaissance drone,
+equipped with the capability to detect enemies, is deployed
+for the mission. The drone’s task is to locate and track enemy
+tanks, identified as key targets, in a designated sector during
+clear daytime weather conditions. After tracking, the drone
+provides information about these tanks to the final decision-
+makers for attack planning. It is assumed that a communi-
+cation system has been pre-established between the drone
+and the decision-makers, allowing for data transmission and
+reception. The sector assigned for the drone’s reconnaissance
+contains trees and structures, offering potential concealment
+or camouflage for the tanks. Additionally, there is a risk of the
+drone being shot down if it flies too low, due to the possibility
+of unexpected anti-aircraft fire from the enemy within the
+sector.
+B. TECHNOLOGY APPLIED IN THE SCENARIO
+Given such a scenario, what specific technologies could be
+applied to make the drone intelligent? Let’s examine this
+based on Figure 3. The technologies mentioned here are
+not yet at a stage where they can be implemented in real-
+world environments. Therefore, it is important to note that
+all subsequent content discussed has been implemented and
+tested within the Unity simulator.
+1) Firstly, as drones need "eyes" for intelligence, we apply
+the lightweight algorithm YOLOv4-tiny, considering
+the limited computational speed and memory of em-
+bedded systems. This choice is also influenced by the
+fact that YOLOv4-tiny is a relatively recent algorithm
+that is compatible with the Unity simulator.
+2) Drones, with cameras facing downward from above,
+require top-view images of tanks for effective object
+detection. However, most publicly available online re-
+sources predominantly feature frontal photos of tanks.
+Getting pictures of military equipment from specific
+angles is challenging due to security reasons. There-
+fore, this study uses synthetic data from Unity and
+augmented real images. The training and validation
+data are divided into three categories, which include
+real images, synthetic data, and augmented data derived
+from real images. Among these categories, the real
+images consist of 1180 tank photos taken from various
+angles, including 30 aerial view tank photos, which
+are similar in size to those observed by drones. We
+use 700 images of Unity synthetic data and create 400
+augmented images from 30 real aerial view photos of
+tanks. These 400 augmented images are further divided
+into two groups where the first consists of 150 images
+transformed through methods like geometric resizing,
+Gaussian blur, image inversion, color inversion, and
+grayscale conversion, and the second comprises the re-
+maining 250 images augmented using Alias-Free Gen-
+erative Adversarial Networks, known as StyleGAN3
+[40]. The test dataset uses 100 aerial view real images
+not included in the training and validation data. As
+shown in Table 1, the best performance is achieved
+when real images, Unity synthetic data, and augmented
+data are combined.
+TABLE 1. Training results by dataset.
+Dataset
+F1 Score
+AP (Average Precision)
+Real
+0.85
+0.90
+Real, Synthetic
+0.85
+0.91
+Real, Synthetic, Augmentation
+0.89
+0.94
+4
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 5 / 12 | chars: 4141]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+(a) Real
+(b) Synthetic (Unity)
+(c) Augmentation (StyleGAN3)
+FIGURE 4. Images of tracked vehicles used to train the YOLOv4-tiny object detection model.
+3) When a drone is deployed for scouting in a specific
+area to search for enemies, without precise details
+about their location, it is essential for the drone to
+conduct a comprehensive survey of the entire area it has
+been assigned. There’s no easy way around this task.
+Therefore, using GNSS to set waypoints, the drone
+should cover the area in systematic patterns, such as
+grids or spirals, to ensure no part is overlooked. To
+navigate to designated waypoints, control over speed
+and direction is necessary. This speed and direction
+control is achieved by regulating the drone’s rotat-
+ing propeller motors. For this purpose, Proportiona l-
+Integral-Differential (PID) control, a type of feedback
+control system that adjusts the system’s output to the
+desired state, is applied. PID control is a fundamental,
+efficient, and stable method widely used in various
+automatic control systems, including robot control [41].
+The formula for PID control is as shown in Equation
+(1), where u(t) is the input value at time t related to
+the signal or command adjusting the propeller motors.
+The error, e(t), as defined in Equation (2), represents
+the difference between the target value r(t) and the
+output value y(t). For example, during waypoint nav-
+igation, r(t) becomes the coordinates of the waypoint
+to be reached, and the output value y(t) is the current
+coordinate. The control input value u(t) is calculated by
+applying proportional, integral, and derivative compo-
+nents to reduce this error, that is the difference between
+r(t) and y(t). In Equation (1), Kpe(t) represents the
+proportional component, which is related to the current
+error, Ki
+R t
+0 e(τ)dτ is the integral component associated
+with the accumulated error over time, and Kd d
+dt e(t) is
+the derivative component linked to the rate of change
+of the error. Kp, Ki, and Kd are the parameters for each
+of these components, respectively.
+u(t) = Kpe(t) + Ki
+Z t
+0
+e(τ)dτ + Kd
+d
+dt e(t)
+(1)
+e(t) = r(t) −y(t)
+(2)
+4) Maintaining a specific altitude also utilizes PID con-
+trol. The altitude is measured using an LRF sensor,
+and PID control is applied to reduce the difference
+between the target value, which is the desired altitude,
+and the output value, which is the current altitude
+[42]. Maintaining a certain altitude is advantageous as
+it ensures the consistent size of the observed object.
+Maintaining a uniform object size aids in better de-
+tection. This is because, generally, if an object detec-
+tion model is trained primarily with small objects for
+detecting smaller items, it tends to perform poorly in
+detecting larger objects. Conversely, if it is trained with
+larger objects to detect bigger items, smaller objects are
+not detected as effectively [43]. This trade-off is why
+having a consistent object size helps in improving the
+overall detection accuracy.
+5) In line with this, as illustrated in Figure 5, PID con-
+trol is also implemented for tracking when an enemy
+tank is detected. During the drone’s reconnaissance and
+tracking phases, the camera is consistently oriented
+to face straight down. Consequently, the center of the
+camera’s image (0.5, 0.5) corresponds to the drone’s
+two-dimensional location. When an enemy is detected
+at a position like (0.8, 0.8) in the camera view, the
+discrepancy from the drone’s location at (0.5, 0.5) is
+considered the error. PID control is then engaged to
+minimize this error, enhancing tracking accuracy.
+FIGURE 5. Physical object tracking using drone camera image.
+VOLUME 11, 2023
+5
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 6 / 12 | chars: 6059]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+6) The issue lies in part 6, where the confidence in detect-
+ing incompletely obscured tanks by trees or structures
+is low. For those making the final decisions on attacks,
+this level of uncertainty in detection isn’t practical.
+Thus, it is essential to focus on improving detection
+accuracy to offer more trustworthy information for such
+critical judgments. One possible approach to address
+this issue is improving the detection neural network
+[44]. However, relying entirely on the object detection
+model is problematic. This is because object detection
+models exhibit varying confidence levels based on the
+angle of the object they are trying to detect [45]. More-
+over, for objects that are partly obscured, the difference
+in confidence levels depending on the angle is likely to
+be even greater. Figure 6 shows the results of examining
+the confidence levels for partially obscured tanks using
+an object detection algorithm in the Unity simulator.
+In this case, the images are from a drone’s perspec-
+tive, looking downwards from directly above the trees.
+Here, the tanks are identified by the object detection
+algorithm in a purple color. The confidence levels vary
+significantly based on the tank’s angle and the degree of
+obscuration, with the tank in the left picture even failing
+to be detected.
+FIGURE 6. Confidence level for an incompletely occluded tank in Unity
+simulator.
+This implies that relying solely on the detection neural
+network is not the best strategy. Therefore, moving the
+drone and adjusting the angle of the camera attached to
+it to secure a line of sight on the object can be another
+way to enhance the confidence level. However, could
+such movements be addressed with a sort of rule-based
+approach? Considering the constraints of maintaining
+a certain altitude and the drone’s requirement to look
+downwards from the air, resolving this issue with a
+rule-based approach is not as straightforward as it may
+seem. Let’s think of a situation where, if something
+like a tree is hiding a tank, the drone has a rule to fly
+away from that tree and turn its camera to look at the
+tank. For this strategy to work effectively, it’s crucial
+to recognize the kinds of objects that could conceal the
+tank and figure out which portion of the tank is hidden.
+However, training the system to segment and identify
+every potential concealing object, such as various trees
+and structures, poses a significant challenge, especially
+with limited computational resources. Additionally, the
+task of detecting a tank that is partly masked is com-
+plex, as it requires pinpointing which part of the tank
+is covered. While it might look like an easy problem
+to solve with basic rules from a human perspective,
+for a drone, the situation is much more complex and
+not as easy to handle. This is exactly the point where
+advanced technology is needed to realize the concept
+of intelligence.
+Therefore, this paper proposes using reinforcement
+learning to solve the issue of securing a line of sight on
+incompletely concealed objects and increasing object
+confidence levels. For this, we utilize images where
+objects have been detected along with various vec-
+tor observations to autonomously control the drone’s
+movement and the camera angle. In the next chapter,
+we delve deeper into the fundamental concepts of re-
+inforcement learning, conduct experiments, and then
+discuss the results.
+C. REINFORCEMENT LEARNING
+In reinforcement learning, an agent in the environment, which
+is the space where the agent is located, selects actions based
+on the current situation information, known as the state. The
+environment then changes in response to these actions, and
+the agent receives rewards as a result. The goal of reinforce-
+ment learning is to maximize the cumulative rewards [46].
+In this study, the environment is partially observable from the
+agent’s perspective. When the drone scouts for enemies in the
+Unity simulator space, it doesn’t initially know the location of
+the enemies. It observes only part of the environment using its
+camera, not having complete information about the enemies
+from the start. This is different from fully observable games
+like chess or Go, where the positions and movements of all
+pieces are known. In partially observable situations, the term
+‘observation’ is used instead of ‘state’ to describe the current
+situation information. The following sections introduce the
+components of reinforcement learning and the algorithms
+used.
+1) Environment
+In this research, the reinforcement learning aims to achieve
+advanced intelligent behaviors in scenarios occurring after
+relatively basic tasks like waypoint reconnaissance and en-
+emy tracking. Therefore, the reinforcement learning envi-
+ronment concentrates on the drone’s autonomous actions to
+enhance the detection confidence level after tracking a tank,
+especially when the confidence level is low. As depicted in
+Figure 7, at the start of learning, the drone is positioned
+above a partially obscured tank. The drone receives visual
+input through a red camera located on its underside, which is
+essential for the detection process. This red box represents the
+drone’s "eye." The grey camera and the large grey square are
+used to observe the drone’s behavior for verification purposes
+and are not directly involved in the learning process.
+To prevent the model from overfitting to a specific envi-
+ronment during training, domain randomization is employed
+in each episode. This process involves randomly varying
+elements within the simulation environment, which helps the
+6
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 7 / 12 | chars: 2565]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+FIGURE 7. Setting up an environment in a Unity simulator.
+model to generalize its learning more effectively [47]. There-
+fore, in our domain randomization study, we implement this
+by positioning tanks at various angles and locations across
+different terrains. Additionally, we use a range of structures
+to conceal them. These include concrete roofs, fortified en-
+emy positions, and trees. This enhances the randomness and
+complexity of the training environment.
+2) Observation, Action, Reward
+Observations provided to the agent are categorized into image
+data and vector data as outlined in Table 2.
+TABLE 2. Types of observational inputs for reinforcement learning agent
+Type of Observation
+Description
+Image Data
+Bounding box included image
+Vector Data
+Detection confidence level
+Camera tilt angle
+Drone rotation angle
+Drone x-axis coordinate
+Drone z-axis coordinate
+Drone x-axis velocity
+Drone z-axis velocity
+* Drone y-axis altitude controlled by PID
+Image data comprises 84x84x3 images with bounding
+boxes marked in purple as illustrated in Figure 8. Vector
+data is comprised of seven variables, detailed as follows.
+The detection confidence level spans from 0% to 100%. The
+camera tilt angle refers to the angular position of the camera
+attached underneath the drone in relation to its tilting around
+the x-axis. The drone rotation angle represents the angular
+rotation of the drone itself around the y-axis. The units for the
+drone’s x and z-axis coordinates and velocities are in meters
+(m) and meters per second (m/s), respectively. Since the
+drone’s altitude, corresponding to the y-axis, is autonomously
+regulated by PID control, the agent is not required to manage
+it, hence it is omitted from the observations.
+FIGURE 8. Image observation at 84×84×3.
+FIGURE 9. Vision and vector-based reinforcement learning architecture.
+Figure 9 demonstrates the integration of image and vector
+data which is then utilized by the reinforcement learning
+algorithm. The image data undergoes processing through
+a ResNet [48] visual encoder to produce a feature map.
+VOLUME 11, 2023
+7
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 8 / 12 | chars: 3642]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+This feature map, combined with normalized vector obser-
+vations, provides comprehensive observational inputs for the
+reinforcement learning algorithm. In this setting, the image
+and vector information are provided as stacked information,
+which facilitates the agent’s comprehension of the environ-
+ment [49]. The reinforcement learning algorithm outputs ac-
+tions based on these observations.
+An action refers to a decision or measure that an agent can
+take in a particular state. Here, the actions are divided into
+a total of four continuous behaviors as shown in Figure 10.
+Since the drone’s vertical movement is controlled by PID, it
+takes action in all other directions excluding the vertical.
+FIGURE 10. Types of reinforcement learning actions.
+A reward, which is feedback from the environment in
+response to an agent’s action, is given based on the confidence
+level, with differential rewards as detailed in Table 3. The
+configuration of these rewards reflects the objective of the
+reinforcement learning to achieve a high confidence level of
+over 90%. The condition of a confidence level of 0% for
+5 seconds serves as an episode termination criterion. If this
+situation occurs before reaching the max step, the episode is
+reset.
+TABLE 3. Description of reward functions.
+Type of Reward
+Reward Value
+Confidence level ≥90%
++1
+80% ≤Confidence level < 90%
++0.1
+50% ≤Confidence level < 80%
++0.01
+Confidence level = 0%
+-0.01
+Confidence level = 0% for 5 seconds
+-1
+3) Algorithms, hyper-parameters
+In this research, the Proximal Policy Optimization (PPO)
+algorithm [50] from the Unity ML-Agents package [51] is
+used for reinforcement learning. Unity offers a set of tools
+that simplify the application of such algorithms once the
+environment is set up. The PPO algorithm, chosen for its
+specific attributes, is a policy-based algorithm widely used
+in reinforcement learning. Here, policy essentially means the
+set of rules or strategy the agent follows to decide its actions
+based on the environment. PPO is known for its gradual and
+steady approach in updating these policies. It uses a clipping
+technique to limit the extent of these updates, ensuring that
+the new policy doesn’t veer too far from the old one. This
+balance helps maintain stability in learning. The hyperparam-
+eters for PPO, as applied in our study, are detailed in Table 4
+and were selected based on empirical testing and continuous
+refinement.
+TABLE 4. PPO algorithm hyperparameters.
+Hyperparameter
+Value
+Description
+batch_size
+2048
+Data processed before model update
+buffer_size
+40960
+Size of the data storage buffer
+learning_rate
+0.0003
+Controls the speed of learning
+beta
+0.005
+Balances exploration and stability
+epsilon
+0.2
+Limits policy variation range
+lambda
+0.95
+Weighting for future rewards
+epochs
+3
+Number of training iterations
+gamma
+0.995
+Emphasis on long-term rewards
+max_steps
+5M
+Total allowed steps
+4) Result
+Figure 11 shows the cumulative reward and episode length as
+a result of training with the PPO algorithm for 5 million steps.
+(a) Cumulative reward
+(b) Episode length
+FIGURE 11. Training results of reinforcement learning with the PPO
+algorithm.
+8
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 9 / 12 | chars: 4883]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+The graph shows that the pink line is the result of re-
+inforcement learning using the observational data presented
+in this study. It shows an upward trend in both cumulative
+rewards and episode length, suggesting effective learning.
+The blue line, on the other hand, represents the outcomes
+of learning using only the vector data such as confidence
+level, camera angle, drone coordinates, and speed, excluding
+the image from the original observational data. This line
+shows a relatively milder upward trend. When comparing
+the results between the two lines from 3 to 5 million steps,
+where the result begins to stabilize, the pink line shows an
+average cumulative reward and episode length of 230 and
+987, respectively, while the blue line shows 137 and 734. This
+difference indicates that using images effectively enhances
+the drone’s intelligence.
+Additionally, the experimental results hold the following
+significance. For drones, the real-time processing and cate-
+gorization of numerous objects encountered, including roads,
+trees, and structures, present significant challenges due to
+constraints on battery life and computational power. However,
+the experiments show that using images with light object
+detection algorithms without the need for complex prepro-
+cessing can still lead to a high degree of intelligence.
+D. COMPREHENSIVE APPLICATION AND VALIDATION OF
+TECHNOLOGIES
+Finally, we were able to confirm that the series of processes,
+which include using rule-based waypoints for reconnaissance
+and tracking upon enemy detection, followed by activating
+reinforcement learning to enhance detection confidence level,
+proceeded smoothly. The following explains how the process
+was implemented and verified through Figure 12. In Figure
+12(a), the waypoint setup is indicated in yellow, and the
+drone and tank hidden in a structure are marked with sky-
+blue circles. Figure 12(b) shows the view of the drone in the
+sky from the perspective of an enemy on the ground. Figure
+12(c) depicts the start of the drone’s reconnaissance mission.
+The text in the top right of the figure indicates the altitude
+and step count, a concept of discrete time. Here, it’s evident
+that the drone maintains an altitude of about 150 meters. As
+the drone patrols the designated waypoints, it discovers a
+tank as shown in Figure 12(d). Then, as seen in Figure 12(e),
+the drone moves directly to track the tank, positioning it at
+the center of the drone camera’s image. Up to this point,
+before the activation of the reinforcement learning neural
+network, the camera continuously faces directly downward.
+Once the tank is centered in the drone’s camera view, the
+confidence level is checked to see if it exceeds the arbitrarily
+set benchmark of 90% specifically designated for this study.
+Here, the confidence level is below 90%, so the reinforcement
+learning neural network is activated as shown in Figure 12(f).
+This allows the drone to move and adjust the camera angle
+towards the tank, securing visibility and ultimately increasing
+the confidence level to over 90%.
+(a) Setting waypoints
+(b) Ground-to-air view
+(c) Start reconnaissance
+(d) Tank detection
+(e) Tracking tank
+(f) Precise calibration
+FIGURE 12. Validation of technologies application according to scenario
+in Unity.
+IV. CONCLUSION
+This paper offers an engineering perspective within the mil-
+itary field on using drones with object detection capabilities
+for military purposes. This is explored through a case study
+based on specific scenarios. When thinking about using smart
+drones in the military, it’s important to consider factors such
+as the complexity of the environment, efforts by enemies to
+interfere, lack of data, the need for stable operation, and the
+provision of information for making attack decisions. The
+environmental complexity in this scenario is highlighted by
+the task of identifying enemies concealed under structures
+or trees in varied terrains, including urban and mountainous
+regions. In fulfilling this mission, the drone is programmed
+to maintain a certain altitude to enhance the detection of
+hidden enemies and to safeguard against unforeseen threats.
+To address the challenge of data scarcity, we used synthetic
+data generated by the Unity simulator alongside real image
+data that has been augmented, utilizing both to enhance the
+overall dataset. For operational stability, the drone’s flight,
+VOLUME 11, 2023
+9
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 10 / 12 | chars: 6059]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+including altitude maintenance and enemy tracking, depends
+on a traditional feedback control system, specifically a PID
+controller. Lastly, to provide high confidence level as useful
+information for those making attack decisions, the intelligent
+drone utilizes a reinforcement learning neural network. This
+enables autonomous movement and camera angle adjustment.
+This paper has the following two limitations. First, there
+is a lack of appropriate and fair judgment methods for the
+results of reinforcement learning. This indicates that addi-
+tional verification and evaluation are needed before applying
+these reinforcement learning outcomes in real-world environ-
+ments. To overcome this limitation, future research should
+concentrate on developing and validating more sophisticated
+equitable evaluation methods to enhance the reliability of the
+research findings.
+Second, there is no confirmation that the series of processes
+for intelligent reconnaissance drones can be successfully ap-
+plied and function in actual environments. In particular, the
+critical aspect of communication, which may present real
+challenges, is missing. Therefore, the sim-to-real aspect re-
+mains a future task to be explored through procedures like
+those shown in Figure 13. This paper represents Step 1,
+where experiments are conducted within a simulator. As a
+future research task for Step 2, the reinforcement learning
+neural network will be implemented on a mission computer
+to test its interoperability with the simulator. In Step 3, real
+environments and sensors will be used, along with connecting
+a flight controller for operation and enabling the monitoring
+of drone information through the Ground Control System
+(GCS). Through this process, it will be possible to refine
+the procedures for intelligent reconnaissance drones to ensure
+their suitability for actual environments.
+FIGURE 13. Future research direction.
+LIST OF ABBREVIATIONS
+Abbreviation
+Term
+CNN
+Convolutional Neural Network.
+DEM
+Digital Elevation Model.
+EO
+Electro-Optics.
+GAN
+Generative Adversarial Network.
+GCS
+Ground Control System.
+GNSS
+Global Navigation Satellite System.
+IMU
+Inertial Measurement Unit.
+IR
+Infra-Red.
+LiDAR
+Light Detection and Ranging.
+LRF
+Laser Range Finder.
+PCA
+Principal Component Analysis.
+PID
+Proportional-Integral-Derivative.
+PPO
+Proximal Policy Optimization.
+RADAR
+RAdio Detection And Ranging.
+SAR
+Synthetic Aperture Radar.
+TEL
+Transporter Erector Launcher.
+REFERENCES
+[1] E. Ackerman and M. Koziol, "The blood is here: Zipline’s medical delivery
+drones are changing the game in Rwanda," IEEE Spectrum, vol. 56, no. 5,
+pp. 24-31, 2019.
+[2] H. Shakhatreh et al., "Unmanned aerial vehicles (UAVs): A survey on civil
+applications and key research challenges," IEEE Access, vol. 7, pp. 48572-
+48634, 2019.
+[3] D. C. Schedl, I. Kurmi, and O. Bimber, "An autonomous drone for search
+and rescue in forests using airborne optical sectioning," Science Robotics,
+vol. 6, no. 55, eabg1188, 2021.
+[4] J. K. Choi, Y. T. Lee, H. Park, B. Kim, and B. W. Kim, "Challenges to
+the Development of Manned and Unmanned Combat Systems," in Proc.
+2022 13th International Conference on Information and Communication
+Technology Convergence (ICTC), Oct. 2022, pp. 2362-2364.
+[5] M. Mayer, "Trusting machine intelligence: artificial intelligence and
+human-autonomy teaming in military operations," Defense & Security
+Analysis, 2023, pp. 1-18.
+[6] N. R. Gans and J. G. Rogers, "Cooperative multirobot systems for military
+applications," Current Robotics Reports, vol. 2, 2021, pp. 105-111.
+[7] M. L. Cummings, "Lethal autonomous weapons: Meaningful human con-
+trol or meaningful human certification?," IEEE Technology and Society
+Magazine, vol. 38, no. 4, pp. 20-26, 2019.
+[8] D. Patil et al., "A survey on autonomous military service robot," in Proc.
+2020 International Conference on Emerging Trends in Information Tech-
+nology and Engineering (ic-ETITE), Feb. 2020, pp. 1-7.
+[9] G. E. Marchant et al., "International governance of autonomous military
+robots," Columbia Science and Technology Law Review, vol. 12, pp. 272,
+2011.
+[10] M. Kopuletý and T. Palasiewicz, "Advanced military robots supporting
+engineer reconnaissance in military operations," in Modelling and Simula-
+tion for Autonomous Systems: 4th International Conference, MESAS 2017,
+Rome, Italy, October 24-26, 2017, Revised Selected Papers 4, Springer
+International Publishing, 2018, pp. 285-302.
+[11] T. De Swarte, O. Boufous, and P. Escalle, "Artificial intelligence, ethics
+and human values: The cases of military drones and companion robots,"
+Artificial Life and Robotics, vol. 24, pp. 291-296, 2019.
+[12] A. Konert and T. Balcerzak, "Military autonomous drones (UAVs)-from
+fantasy to reality. Legal and Ethical implications," Transportation Re-
+search Procedia, vol. 59, pp. 292-299, 2021.
+[13] R. C. Arkin, "The case for ethical autonomy in unmanned systems,"
+Journal of Military Ethics, vol. 9, no. 4, pp. 332-341, 2010.
+[14] J. H. Byeon et al., "Simulation based reinforcement learning for the intel-
+ligence behavior of autonomous weapon system," Journal of the Korean
+Society for Simulation, vol. 32, no. 2, pp. 91-111, 2023.
+[15] A. Petrovski, M. Radovanović, and A. Behlić, "Application of Drones With
+Artificial Intelligence for Military Purposes," in Proc. 10th International
+Scientific Conference of Defensive Technologies–OTEH, 2022, pp. 92-100.
+[16] L. P. Osco et al., "A review on deep learning in UAV remote sensing,"
+International Journal of Applied Earth Observation and Geoinformation,
+vol. 102, 102456, 2021.
+10
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 11 / 12 | chars: 7344]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+[17] A. Bouguettaya et al., "Vehicle detection from UAV imagery with deep
+learning: A review," IEEE Transactions on Neural Networks and Learning
+Systems, vol. 33, no. 11, pp. 6047-6067, 2021.
+[18] M. Y. Arafat, M. M. Alam, and S. Moh, "Vision-based navigation tech-
+niques for unmanned aerial vehicles: Review and challenges," Drones, vol.
+7, no. 2, 89, 2023.
+[19] M. Liu et al., "Uav-yolo: Small object detection on unmanned aerial
+vehicle perspective," Sensors, vol. 20, no. 8, 2238, 2020.
+[20] M. N. Mahmud et al., "Road image segmentation using unmanned aerial
+vehicle images and DeepLab V3+ semantic segmentation model," in 2021
+11th IEEE International Conference on Control System, Computing and
+Engineering (ICCSCE), pp. 176-181, Aug. 2021.
+[21] Y. Chen et al., "Citrus tree segmentation from UAV images based on
+monocular machine vision in a natural orchard environment," Sensors, vol.
+19, no. 24, 5558, 2019.
+[22] A. Guerra et al., "Reinforcement learning for UAV autonomous navigation,
+mapping and target detection," in 2020 IEEE/ION Position, Location and
+Navigation Symposium (PLANS), pp. 1004-1013, Apr. 2020.
+[23] D. Chen et al., "Mean field deep reinforcement learning for fair and
+efficient UAV control," IEEE Internet of Things Journal, vol. 8, no. 2, pp.
+813-828, 2020.
+[24] S. Rezwan and W. Choi, "Artificial intelligence approaches for UAV
+navigation: Recent advances and future challenges," IEEE Access, vol. 10,
+pp. 26320-26339, 2022.
+[25] L. Xin et al., "Vision-based autonomous landing for the UAV: A review,"
+Aerospace, vol. 9, no. 11, 634, 2022.
+[26] J. Cui, Y. Liu, and A. Nallanathan, "Multi-agent reinforcement learning-
+based resource allocation for UAV networks," IEEE Transactions on Wire-
+less Communications, vol. 19, no. 2, pp. 729-743, 2019.
+[27] S. Li, X. He, X. Xu, T. Zhao, C. Song, and J. Li, "Weapon-Target As-
+signment Strategy in Joint Combat Decision-Making based on Multi-head
+Deep Reinforcement Learning," IEEE Access, 2023.
+[28] C. H. Liu et al., "Distributed energy-efficient multi-UAV navigation
+for long-term communication coverage by deep reinforcement learning,"
+IEEE Transactions on Mobile Computing, vol. 19, no. 6, pp. 1274-1285,
+2019.
+[29] R. Alyassi et al., "Autonomous recharging and flight mission planning for
+battery-operated autonomous drones," IEEE Transactions on Automation
+Science and Engineering, vol. 20, no. 2, pp. 1034-1046, 2022.
+[30] V. Hassija et al., "Fast, reliable, and secure drone communication: A
+comprehensive survey," IEEE Communications Surveys & Tutorials, vol.
+23, no. 4, pp. 2802-2832, 2021.
+[31] N. Gao et al., "Anti-intelligent UAV jamming strategy via deep Q-
+networks," IEEE Transactions on Communications, vol. 68, no. 1, pp. 569-
+581, 2019.
+[32] Y. Sun et al., "A Deep-Learning-Based GPS Signal Spoofing Detection
+Method for Small UAVs," Drones, vol. 7, no. 6, 370, 2023.
+[33] J. Tian et al., "Adversarial attacks and defenses for deep-learning-based
+unmanned aerial vehicles," IEEE Internet of Things Journal, vol. 9, no.
+22, pp. 22399-22409, 2021.
+[34] Y. Zhang et al., "Adversarial patch attack on multi-scale object detection
+for UAV remote sensing images," Remote Sensing, vol. 14, no. 21, 5298,
+2022.
+[35] Y. Zhou, B. Rao, and W. Wang, "UAV swarm intelligence: Recent advances
+and future trends," IEEE Access, vol. 8, pp. 183856-183878, 2020.
+[36] Z. Xia et al., "Multi-agent reinforcement learning aided intelligent UAV
+swarm for target tracking," IEEE Transactions on Vehicular Technology,
+vol. 71, no. 1, pp. 931-945, 2021.
+[37] L. Deng et al., "Lightweight aerial image object detection algorithm based
+on improved YOLOv5s," Scientific Reports, vol. 13, no. 1, 7817, 2023.
+[38] S. Ilsoo and K. Yongwoo, "Research Report on the Development Strategies
+of Drone-Bot Combat Systems," Korea Drone Innovation Association,
+2021.
+[39] H. Wang, H. Cheng, and H. Hao, "The use of unmanned aerial vehicle
+in military operations," in International Conference on Man-Machine-
+Environment System Engineering, Singapore: Springer Singapore, Sep.
+2020, pp. 939-945.
+[40] T. Karras et al., "Alias-free generative adversarial networks," Advances in
+Neural Information Processing Systems, vol. 34, pp. 852-863, 2021.
+[41] R. P. Borase, D. K. Maghade, S. Y. Sondkar, and S. N. Pawar, "A review
+of PID control, tuning methods and applications," International Journal of
+Dynamics and Control, vol. 9, pp. 818-827, 2021.
+[42] A. T. Bayisa and G. Li-Hui, "Controlling quadcopter altitude using PID-
+control system," International Journal of Engineering Research & Tech-
+nology (IJERT), vol. 8, 195-199, 2019.
+[43] Z. Deng, H. Sun, S. Zhou, J. Zhao, L. Lei, and H. Zou, "Multi-scale object
+detection in remote sensing imagery with convolutional neural networks,"
+ISPRS J. Photogramm. Remote Sens., vol. 145, pp. 3-22, 2018.
+[44] N. G. Polson and J. Scott, AIQ: how people and machines are smarter
+together, St. Martin’s Press, 2018.
+[45] A. Wang, Y. Sun, A. Kortylewski, and A. L. Yuille, "Robust object de-
+tection under occlusion with context-aware compositionalnets," in Proc.
+IEEE/CVF Conf. Comput. Vis. Pattern Recognit., 2020, pp. 12645-12654.
+[46] R. S. Sutton and A. G. Barto, "Reinforcement Learning: An Introduction,"
+MIT Press, 2018.
+[47] F. Muratore, F. Ramos, G. Turk, W. Yu, M. Gienger, and J. Peters, "Robot
+learning from randomized simulations: A review," Front. Robotics AI, vol.
+31, 2022.
+[48] K. He, X. Zhang, S. Ren, and J. Sun, "Deep residual learning for image
+recognition," in Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition, 2016, pp. 770-778.
+[49] V. Mnih et al., "Playing atari with deep reinforcement learning," arXiv
+preprint arXiv:1312.5602, 2013.
+[50] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, "Proximal
+policy optimization algorithms," arXiv preprint arXiv:1707.06347, 2017.
+[51] A. Juliani, V. P. Berges, E. Teng, A. Cohen, J. Harper, C. Elion, and D.
+Lange, "Unity: A general platform for intelligent agents," arXiv preprint
+arXiv:1809.02627, 2018.
+MINHO LEE received the B.S. degree in chemistry
+from the Korea Military Academy, South Korea, in
+2013, and the M.S. degree in operation research
+from Korea National Defense University, South
+Korea, in 2022, where he is currently pursuing the
+Ph.D. degree in operation research. His research
+interests include military operation research, arti-
+ficial intelligence, and statistical analysis.
+MINWOO CHOI received the B.S. degree in me-
+chanical engineering from the Kumoh National
+Institute of Technology, South Korea, in 2008,
+and the M.S. degree in operations research from
+Korea National Defense University, South Korea,
+in 2019, where he is currently pursuing the Ph.D.
+degree in operation and research. Since 2008, he
+has been conducting research and work on military
+M&S, artificial intelligence, and statistical analy-
+sis.
+VOLUME 11, 2023
+11
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+
+[Page 12 / 12 | chars: 3466]
+--------------------------------------------------------------------------------
+
+M. Lee et al.: Intelligent Military Drone: A Case Study of a Reconnaissance Drone
+TAEHOON YANG has been pursuing his under-
+graduate studies in the Data Science Department
+at Inha University in South Korea since 2022. His
+research interests include multi-object detection
+in the military sector, data augmentation within
+military contexts, and the automation of military
+operations.
+JINGU KIM received the B.S. degree in Control
+and Instrumentation Engineering from the Hanbak
+National University, South Korea, in 2008, and
+the M.S. degree in Aerospace Engineering, with a
+focus on Structures and Control, from Chungnam
+National University, South Korea, in 2015. He is
+currently a Senior Researcher in the Defense Sci-
+ence and Technology Institute at Poongsan Corpo-
+ration. His research interests include System Engi-
+neering, Unmanned Aerial Vehicles, Robotics, and
+Artificial Intelligence.
+JAEOH KIM received his B.S. degree in Civil
+Engineering from the Korea Military Academy,
+South Korea, in 2003, and both his M.S. degree
+in Industrial Engineering in 2006 and his Ph.D.
+degree in Statistics in 2018 from Korea University,
+South Korea. A former lieutenant colonel in the
+Republic of Korea army, he is currently an Assis-
+tant Professor in the Department of Data Science
+at Inha University. His research spans data mining,
+data science, and statistical computation, with a
+unique focus on analyzing military data. This intersection of statistical rigor
+and military acumen positions him, contributing to both academic discourse
+and practical military applications.
+OJEONG KWON received the B.S. degree in En-
+glish from the Korea Military Academy in 1985,
+the M.S. degree in Operational Analysis from Ko-
+rea National Defense University, South Korea, in
+1988, and the Ph.D. degree in Industrial Engi-
+neering from KAIST in 1998. He served as the
+Commander of the Center for Army Analysis and
+Simulation from 2014 to 2015 and was the Presi-
+dent of the Military Operations Research Society
+of Korea from 2017 to 2019. He is currently a
+invited Professor in the Department of Industrial and Systems Engineering at
+KAIST and Director of the Poongsan-KAIST Future Technology Research
+Center. His research interests include Combat Modeling & Simulation,
+Operations Research/System Analysis, and Multi-criteria Decision Making
+Methodology.
+NAMSUK CHO received the B.S. degree in com-
+puter science from the Korea Military Academy,
+the M.S. degree in operations research from the
+Air Force Institute of Technology, OH, USA, and
+the Ph.D. degree in industrial engineering from the
+University of Wisconsin-Madison, USA, in 2016.
+He is currently an Associate Professor with the
+Military Operations Research, Korea National De-
+fense University. His work focuses on optimiza-
+tion and simulation model for various problems
+in defense and military domain. He has been involved in many research
+project including Military Medical Planning, Critical Infrastructure Protec-
+tion, Computer Generated Forces Modeling, and Models for Reconnaissance
+Drone.
+12
+VOLUME 11, 2023
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and 
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4
+

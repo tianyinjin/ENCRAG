@@ -1,0 +1,54 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 12 / 136
+
+================================================================================
+
+12 
+« kill chain » vers celle de « kill web » doit être envisagée, dès lors que certaines phases d’une 
+séquence d’engagement, voire toutes, sont susceptibles d’échapper à l’intervention temps réel d’un 
+opérateur4. Il en va ainsi de l’affectation dynamique des armes constituées par les différents vecteurs 
+de l’essaim, pour ne citer que cet exemple. On échange alors une moindre visibilité dans l’action au 
+bénéfice d’une létalité accrue, conséquence d’une supériorité décisionnelle qui exploite sans délai les 
+capacités latentes. 
+On le voit, la collaboration homme/machine, c’est-à-dire la bonne prise en compte du facteur humain, 
+constitue bien la clé d’accès à la capacité de mise en œuvre d’essaims « intelligents » et aux gains qui 
+en résultent. A défaut, seuls les modes d’action les plus primitifs et, potentiellement, les moins sur-
+additifs, restent accessibles, besoin bien souvent couvert par des essaims scriptés ou téléopérés. 
+LES TECHNOLOGIES SOUS-JACENTES 
+Un panorama plus détaillé des technologies nécessaires à la mise en œuvre des essaims de drones 
+figure en annexe I. Les éléments les plus saillants en sont repris ci-dessous. 
+- 
+IA DES AGENTS, IA DE L’ESSAIM : L’AUTONOMIE 
+COLLABORATIVE 
+Deux approches d’IA sont combinées pour mettre en œuvre un essaim fonctionnant en autonomie 
+collaborative :  
+- L’approche réactive illustrée, dans sa plus simple expression, par l’aspirateur de type Roomba 
+qui perçoit son environnement et y réagit ; en combinant des comportements simples on parvient 
+à mettre en œuvre des comportements complexes ; 
+- L’approche délibérative illustrée, dans sa plus simple expression, par les jeux d’échec où la 
+machine envisage les futurs possibles sous l'hypothèse des différents enchaînements 
+envisageables afin de les comparer aux buts du jeu pour choisir l'action qui y mène ou en 
+rapproche le plus. 
+L'approche délibérative donne une représentation symbolique de son environnement à l'agent. Cette 
+représentation est une abstraction des sorties des capteurs de l'agent, l'agent manipule ensuite ces 
+symboles en interne grâce à un « modèle du monde » et décide de ses actions. On peut résumer le 
+principe de cette architecture par : percevoir - modéliser - planifier - agir. Un agent délibératif perçoit 
+son environnement, il est capable de mettre à jour un modèle de cet environnement pour prédire son 
+évolution, il planifie ses actions dans l'optique de satisfaire ses buts et il agit en fonction de ces plans. 
+Il est possible de décrire une architecture délibérative comme un ensemble de règles (les modèles du 
+monde et des actions, ainsi que les règles de comparaison entre mondes possibles et buts) et d'états 
+internes (l'état courant du monde et les mondes possibles) sur lesquels opèrent ces règles. Un agent 
+délibératif manipule des structures de données symboliques de manière dynamique, en mémoire. 
+L'approche réactive considère que « le monde est son meilleur modèle ». Dans sa version la plus 
+simple, cette approche ne comporte pas d'état interne, les sorties des capteurs sont directement traitées 
+par de simples circuits électriques qui calculent en continu le signal à envoyer aux effecteurs. Quand il 
+en a, un agent réactif n'a que des états internes statiques du type « cible détectée (oui/non) » ou encore 
+« dernière position de la cible ». Bien qu'en général très robuste, un système multi-agents qui fonctionne 
+par coordination, et utilise des agents réactifs, n'est capable ni d'accomplir des tâches complexes, ni de 
+ 
+4 Un modèle connu de « kill chain » est le "F2T2EA" ; il comprend les phases suivantes, qui toutes 
+sont susceptibles de se dérouler suivant un mode automatique, une fois que la tâche d’engager la 
+cible a été attribuée à une IA et aux moyens qu’elle opère ou perçoit (les termes anglais ont été 
+conservés à dessein) : Find, Fix: (locate), Track, Target (Select an appropriate weapon), Engage, 
+Assess.

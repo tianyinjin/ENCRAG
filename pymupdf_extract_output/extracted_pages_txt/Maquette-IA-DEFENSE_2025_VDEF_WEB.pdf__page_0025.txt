@@ -1,0 +1,100 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 25 / 84
+
+================================================================================
+
+25
+Elles seront utilisées pour constituer les jeux de 
+données d’apprentissage, pour définir un processus 
+d’annotation rigoureux incluant l’expertise métier 
+des forces et pour les tests en conditions réelles. 
+Lors de la conception, une attention particulière doit 
+être portée sur l’écart entre les données d’entraînement 
+et les données réelles. L’utilisation de données 
+souveraines classifiées suppose de disposer d’un 
+système d’information homologué pouvant les héberger.
+Lors du développement, la traçabilité constitue un 
+pilier fondamental de l’IA de confiance. Chaque 
+jeu de données doit être rigoureusement tracé et 
+accessible, avec une séparation claire entre les données 
+d’entraînement et celles servant de validation et de test. 
+3. Assurer une traçabilité des expérimentations
+L’historique complet des expérimentations menées 
+par les Data Scientists doit être conservé et indexé. 
+Ces explorations, même infructueuses, font partie 
+intégrante du processus de développement et peuvent 
+s’avérer précieuses pour la compréhension des choix 
+effectués et les travaux ultérieurs. Un registre centralisé 
+des modèles, associant algorithmes et métadonnées, 
+permet d’éviter toute désynchronisation. Cette 
+documentation exhaustive garantit la reproductibilité 
+de chaque algorithme, condition indispensable pour :
+•	
+Conduire des audits approfondis ;
+•	
+Prévenir 
+les 
+contaminations 
+entre 
+jeux 
+de 
+données ;
+•	
+Évaluer 
+l’impact 
+d’anomalies 
+découvertes 
+ultérieurement ;
+•	
+Permettre la reproduction des algorithmes ;
+•	
+Faciliter l’amélioration des modèles.
+4. Industrialiser les processus de développement 
+L’automatisation des tâches répétitives et manuelles 
+réduit le risque d’erreur et améliore la vélocité 
+de conception des systèmes d’IA. Elle incite à la 
+standardisation et permet au Data Scientist de concentrer 
+son effort sur la démarche scientifique. Il reste chargé de 
+la sélection et de la préparation des données, de définir 
+la stratégie algorithmique, d’analyser qualitativement les 
+résultats et d’explorer de nouvelles méthodes ou outils 
+permettant de repousser les limites de performances. 
+Dans le domaine de la défense, la robustesse du 
+code est cruciale, Étant donné la complexité et le 
+coût élevés des redéploiements (les solutions sont 
+souvent hébergées on-premise), il est essentiel de 
+mettre en place, en amont, une stratégie de tests 
+exhaustifs couvrant l’intégralité des composants logiciels.
+5. Garantir la performance opérationnelle
+Le secteur de la Défense exige des performances optimales. 
+Les protocoles de test, définis en collaboration étroite 
+avec l’utilisateur final, constituent un facteur de confiance 
+essentiel. Ces tests, automatisés et diversifiés, incluent :
+•	
+L’évaluation 
+des 
+métriques 
+de 
+qualité 
+(F1, 
+précision, rappel, etc.)[1] sur une large base de test 
+représentative de l’utilisation opérationnelle de 
+l’outil ;
+•	
+La vérification des cas limites et des jeux de test 
+spécialisés par contexte d’utilisation ;
+•	
+Le contrôle des ressources matérielles (a minima 
+RAM[2] et VRAM [3]) et des temps de calcul ;
+•	
+Des évaluations qualitatives ciblées.
+Chaque amélioration de l’algorithme d’IA fait l’objet 
+d’une évaluation sur le nouveau périmètre ainsi que de 
+tests de non-régression. Ces cinq enseignements sont 
+au cœur de notre méthodologie de développement, et 
+irriguent à la fois les expérimentations algorithmiques, 
+mais aussi les investissements dans l’outillage et nos 
+échanges avec les utilisateurs. Ils permettent ainsi 
+de fournir des systèmes d’IA à forte valeur ajoutée 
+et offrant une grande confiance à l’utilisateur.

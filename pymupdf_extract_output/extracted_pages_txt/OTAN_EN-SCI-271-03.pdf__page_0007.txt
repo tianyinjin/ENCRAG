@@ -1,0 +1,60 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 7 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+2.2.2 
+Data Link Interface (DLI) 
+The DLI, between the CUCS and the VSM element, enables the CUCS to generate and understand specific 
+messages for control and status of air vehicles and payload [4]. DLI specifies the mechanism to process and 
+display specific messages, which are air vehicle and payload independent. 
+2.2.3 
+Core UCS (CUCS) 
+The CUCS should provide a user interface that enables the operator to conduct all phases of an UAV 
+mission, and support all requirements from the DLI, CCI and HCI [4]. The computer generated graphic user 
+interface should also enable the operator to control different types of UAVs and payloads. 
+Depending on the desired level of interoperability in the respective UAV system, the CUCS should [4]: 
+• 
+Receive,  process  and  disseminate  payload  data  from  the  AV  and  its payload; 
+• 
+Perform mission planning; 
+• 
+Monitor and control the AV, payloads, and data links; 
+• 
+Support additional future AV and payload capabilities; 
+• 
+Provide  the  UAV  operator  the  necessary  tools  for  computer  related communications, mission 
+tasking, mission planning, mission execution; 
+• 
+Be able to host VSM and CCISM functions. 
+2.2.4 
+Command and Control Interface (CCI) 
+CCI defines the standard message set and accompanying protocols that have been selected to be C4I 
+System/node independent, avoiding placing additional requirements on the C4I System [4]. 
+The CCI is intended to cover all types of messages and data that need to be exchanged in both directions 
+between the CUCS and the C4I systems during all the phases of a UAV mission, including [4]: 
+• 
+Before the flight: tasking messages, tactical situation, environmental data, general mission 
+constraints and mission plans; 
+• 
+During the flight: status and service messages, payload data, progress reports; 
+• 
+After the flight: status and service messages, payload data, post-flight exploitation reports, mission 
+reports. 
+The networks and communications used to support the CCI interface should be NATO C3 Technical 
+Architecture (NC3TA) compliant, which is a framework that provides interoperability among military 
+command, control and communications systems, maximizing the exploitation of commercial off-the-shelf 
+(COTS), and reducing proliferation of non-standard systems [4]. 
+2.2.5 
+Human Computer Interface (HCI) 
+The STANAG specifies the requirements levied upon the CUCS, and does not impose any design 
+requirements on human factors (HF) and ergonomics, (e.g., number of displays, manual controls, switches 
+etc.)[4]. 
+The HCI establishes the operator display and input requirements that the CUCS shall support. Although not 
+specifically defining the format of the data to be displayed, there are some identified requirements that the 
+CUCS shall provide in order to ensure an effective operation of the UAV system [4], such as display and 
+operator interactions imposed on the CUCS by the CCI and DLI [4]. 
+STO-EN-SCI-271 
+3 - 7

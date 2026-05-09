@@ -1,0 +1,56 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 99 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+ 
+ 
+ 
+96 
+Supervision logicielle de la sécurité et traçabilité 
+Synchronisation des horloges 
+Pour les besoins en traçabilité, les composantes d’un système d’information classifié sont 
+synchronisées sur une source de temps unique. Lorsque des raisons techniques ou 
+opérationnelles ne le permettent pas, cette impossibilité est mentionnée dans le dossier 
+d’homologation et des mesures palliatives sont mises en place par le responsable de la sécurité 
+des systèmes d’information. 
+Journalisation des événements 
+À des fins d’investigation, de suivi a posteriori des échanges, de traitement des incidents et 
+d’archivage, une journalisation des événements est mise en place pour tracer et imputer les 
+actions réalisées sur les systèmes d’information classifiés selon les recommandations de 
+l’agence nationale de la sécurité des systèmes d’information. 
+Les événements enregistrés par le système de journalisation sont horodatés au moyen de sources 
+de temps synchronisées entre elles. Ils sont, pour chaque système d’information classifié, 
+centralisés et archivés pour une durée d’au moins trois ans pour le niveau Secret et d’au moins 
+cinq ans pour le niveau Très Secret. Le format d’archivage des événements permet de réaliser 
+des recherches automatisées sur ces événements. Si la mise en œuvre de tels mécanismes est 
+impossible pour des raisons techniques ou organisationnelles et, après en avoir rendu compte à 
+l’autorité qualifiée en sécurité des systèmes d’information et au service du haut fonctionnaire 
+de défense et de sécurité compétents, des mesures palliatives sont prises et décrites dans le 
+dossier d’homologation. 
+Protection de l’information journalisée 
+Les journaux des événements ne doivent pas être conçus pour contenir d’informations 
+permettant de retrouver les informations d’authentification (de type mots de passe, codes PIN, 
+clés privées, etc.). 
+Les journaux d’événements sont sauvegardés et protégés de manière à assurer leur intégrité et 
+leur disponibilité. 
+Accès aux journaux 
+Pour chaque système d’information classifié, une procédure portant sur la manipulation des 
+journaux est élaborée par le responsable de la sécurité des systèmes d’information. Elle précise 
+les personnes autorisées à y accéder, leurs modes de traitement ainsi que les moyens techniques 
+et opérationnels mis en œuvre pour assurer le respect du besoin d’en connaître et la traçabilité 
+des accès. 
+Les données de traçabilité des accès sont archivées sur une durée d’au moins trois ans pour le 
+niveau Secret et cinq ans pour le niveau Très Secret. 
+Systèmes de détection 
+Une procédure de détection des incidents de sécurité affectant le système d’information classifié 
+est établie. 
+Cette procédure prévoit des mesures organisationnelles et techniques destinées à détecter les 
+incidents de sécurité affectant le système d’information classifié. Les mesures 
+organisationnelles comprennent les modalités d’exploitation des dispositifs de détection et 
+décrivent la chaîne de traitement des événements de sécurité identifiés par ces dispositifs. Les 
+mesures techniques précisent la nature et le positionnement des dispositifs de détection.

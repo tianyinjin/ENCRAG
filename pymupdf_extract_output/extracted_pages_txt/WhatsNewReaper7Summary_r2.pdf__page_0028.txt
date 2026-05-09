@@ -1,0 +1,72 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 28 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+Enhanced File Backup Preferences and Options
+Make yourself 
+familiar with the 
+various backup 
+options described 
+here.
+Good management 
+of backup 
+procedures can 
+achieve the twin 
+objectives of 
+keeping secure 
+copies of your 
+projects and media 
+files without 
+overloading your 
+disk(s) with 
+unnecessary file 
+clutter.
+By default, when 
+you first install 
+REAPER these 
+options are all set 
+to off.
+Backup options are:
+
+Backups when saving project. 
+
+Preserve previous saved version as rpp-bak file, or
+
+Preserve all previously saved versions of project in one large rpp-bak file, or 
+
+Preserve previously saved versions of project as timestamped rpp-bak file, or
+
+None of these.
+
+Save timestamped backups to Backups project subdirectory. Helps to keep backup files 
+organised and accessible.
+
+Limit [number of] backups to most recent n copies or unique days. Sets a limit to prevent 
+obsolete or redundant backups creating too much file clutter on your disk(s).
+Auto-save options are:
+
+Auto-save to timestamped file in project directory.
+
+Save auto-saved project backups to Auto-Saves project subdirectory.
+
+Limit auto-saved backups to most recent nn copies or unique days.
+
+Specify directory for auto-saves to timestamped file.
+
+Limit backups to most recent nn 
+copies for current project, or unique 
+days for current project, or copies for 
+all projects, or unique days for all 
+projects.
+
+Auto-save to project file.
+
+Set auto save interval to nn minutes when not recording, or when stopped, or any time.
+
+Save undo history (RPP-UNDO) (if enabled in General Prefs) with auto-saved projects. 
+
+Specify auto-save path for unsaved projects.
+Page 28

@@ -1,0 +1,91 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 33 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+64 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 65
+Les chapitres précédents ont abordé le sujet via une approche technologique. 
+Il est maintenant utile de croiser cette approche avec une analyse des cas 
+d’usage, c’est-à-dire des domaines métiers où ces technologies, produits et ser-
+vices peuvent être utilisés. Pour ce faire, il nous semble intéressant d’identifier 
+des critères qui peuvent être dimensionnant pour les solutions ou les produits. 
+Dans un premier temps, nous nous proposons d’utiliser deux critères :
+• Son domaine d’activité, et donc les risques devant être adressés ;
+• La taille de l’entité utilisatrice des produits ou services de cybersécurité. 
+D’autres critères différenciant peuvent être envisagés, comme par exemple l’im-
+plantation internationale qui peut entrainer l’obligation de répondre à des lé-
+gislations ou des directives nationales de sécurité différentes. Les retours d’ex-
+périences de l’utilisation des différents cas d’usages conduiront à introduire si 
+nécessaires d’autres critères.
+Chaque produit ou service cyber pourra au final être caractérisé selon :
+• Ses briques technologiques (chapitre B) ;
+• Son domaine fonctionnel (chapitre C) ;
+• Son (ou ses) cas d’usage(s) (chapitre D).
+Cette analyse peut permettre d’identifier la nécessité d’adaptation de produits 
+existants, de développement de nouveaux produits, ou de travaux de R&D :
+• Adaptation à un nouveau cas d’usage pour un produit existant ;
+• Déclinaison en gamme d’outils ou de services pour répondre aux moyens 
+techniques susceptibles d’être financés selon le type de client ;
+• …
+Chaque secteur d’activité a ses propres contraintes, techniques, organisation-
+nelles, réglementaires voire culturelles. Il est donc crucial que les produits et 
+services proposés soient en adéquation avec ces réalités. 
+L’analyse détaillée des cas d’usage et donc des besoins afférents devra être 
+réalisée en collaboration avec les acteurs concernés, qui seuls peuvent ex-
+primer un besoin pertinent. À titre d’exemple, voici une première liste de cas 
+d’usages liés à des activités essentielles :
+• Transports : 
+- Automobile et infrastructure routière connectée ; 
+- Aéronautique ; 
+- Navires et navigation maritimes ; 
+- Infrastructures ferroviaires ; 
+- Production et distribution d’énergie (smart energy, y compris smart grids) ;
+• Gestion de l’eau (distribution et retraitement) ;
+• Santé ;
+• Systèmes de communication ;
+• Domotique / gestion technique bâtimentaire ;
+• Banques / assurances ;
+• Usine du futur : 
+- Industries agro-alimentaires ; 
+- Cobotique et robotique industrielle ; 
+- Industries culturelles et créatives ;
+• Drones et robots ;
+• Protection de la vie privée ;
+• Villes intelligentes (smart cities).
+D.1.1 _Transports
+Le domaine des transports se caractérise par un nombre d’opérateurs très 
+importants (c’est un peu moins vrai pour le ferroviaire) et donc une organisa-
+tion extrêmement distribuée. Cette structure apporte de manière générale une 
+meilleure résilience que dans d’autres domaines. 
+Par contre, il est possible d’identifier un risque commun pour tous les acteurs, 
+le risque de pertes humaines et de dysfonctionnement majeur de la société 
+dans le cas d’un accident lié à une cyber-attaque.
+D.1.1.1 _Automobile connectée
+L’automobile devient un objet connecté, que ce soit dans le cadre d’une 
+utilisation personnelle ou professionnelle (gestion de flotte, suivi de trajets, 
+hyper-connectivité, ...). De nombreux articles ont montré la vulnérabilité 
+potentielle des architectures actuelles et des travaux ont été lancés pour les 
+sécuriser. Les risques sont liés à la multiplication des calculateurs, à la connexion 
+entre des bus temps réels pour les fonctions de conduite et de sécurité (ABS, 
+ESP, gestion moteur…) et des bus utilisés pour des fonctions de confort ou de 
+divertissement. 
+L’arrivée de ports de type USB permettant la connexion de supports amovibles 
+courants et la généralisation de l’intégration de fonctions de téléphonie 
+mobile offrent tout à la fois des portes d’entrées pour l’introduction de 
+logiciels malveillants, et des liens pour les activer ou les piloter à distance. Il 
+convient alors d’imaginer des attaques ciblées ou aléatoires pouvant causer 
+des dommages matériels pouvant aller jusqu’à des pertes humaines. 
+Les travaux qui sont menés sur les véhicules autonomes (fonctionnement 
+automatique sans intervention du conducteur) renforcent bien évidemment 
+le besoin de disposer de solutions de sécurité éprouvées. Cette dynamique 
+suppose que le niveau de sécurité exigé se rapproche de celui des applications 
+aéronautiques critiques.
+D.1 
+Analyse 
+des cas d’usage 
+selon le secteur 
+d’activité

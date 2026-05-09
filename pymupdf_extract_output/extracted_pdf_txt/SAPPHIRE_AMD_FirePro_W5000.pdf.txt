@@ -1,0 +1,252 @@
+Source file: SAPPHIRE_AMD_FirePro_W5000.pdf
+Relative path: SAPPHIRE_AMD_FirePro_W5000.pdf
+Page count: 2
+Extracted pages: 2
+
+================================================================================
+
+[Page 1 / 2 | chars: 4036]
+--------------------------------------------------------------------------------
+
+The most powerful mid-range workstation graphics 
+card ever created.
+AMD FirePro™ W5000  is the most powerful 
+mid-range workstation graphics card in the market. 
+It delivers signiﬁcantly higher performance than 
+the competing cards measured against a wide set 
+of parameters and in real world workﬂows.3
+This powerful product, designed for delivering 
+superior performance for CAD/CAE and Media 
+workﬂows, can process up to 1.65 billion triangles 
+per second. This means during the design process 
+you can easily interact and render your 3D models, 
+while the competition can only process up to 0.41 billion 
+triangles per second (up to four times less 
+performance).3 It also offers double the memory  
+of competing products (2GB vs. 1GB) and 2.5x  
+the memory bandwidth.3 It’s the ideal solution  
+for professionals working with a broad range of 
+applications, moderately complex models and 
+datasets, and advanced visual effects.
+Product features: 
+ >  Optimized and certiﬁed for major CAD and M&E 
+applications delivering 1 TFLOP of single precision 
+and 80 GFLOPs of double precision performance 
+with outstanding reliability for the most demanding 
+professional tasks.
+ >  The use of GeometryBoost allows the GPU to 
+process geometry data at a rate of twice per clock 
+cycle resulting in a doubling in the rate of primitive 
+and vertex processing. Triangle rates increase  
+two-fold relative to a GPU that is not enabled  
+with GeometryBoost. 
+ >  Full support of DisplayPort 1.2 allows simultaneous 
+output of  multiple, independent audio streams and 
+display content at resolutions beyond standard HD 
+(maximum resolution of 4096x2160).2,4
+ >  An energy-efﬁcient design uses AMD PowerTune 
+technology to dynamically optimize GPU power 
+usage while AMD ZeroCore Power technology 
+signiﬁcantly reduces power consumption at idle.
+ >  The Industry-leading multi-display technology,  
+AMD Eyeﬁnity,  enables highly immersive and 
+unrivaled multi-tasking experience across up to  
+four displays, powered by a single AMD FirePro
+TM 
+W5000 graphics card.1
+ >  AMD ZeroCore Power technology leverages  
+AMD’s leadership in notebook power efﬁciency  
+to enable our desktop GPUs to power down  
+when your monitor is off, also known as the  
+“long idle state.”
+ >  AMD PowerTune is an intelligent system that 
+performs real-time analysis of applications that 
+utilize a GPU. In the event that an application is not 
+making the most of the power available to the GPU, 
+AMD PowerTune can improve that application’s 
+performance by raising the GPU’s clockspeed  
+by up to 30% automatically.
+ >  Video Codec Engine (VCE)—A multi-stream 
+hardware H.264 HD encoder in the AMD FirePro™ 
+W5000 results in power-efﬁcient and quick  
+video encoding.
+AMD FirePro
+™ W5000 
+Key Features:
+ > Utilizes Graphics Core Next (GCN) to 
+efﬁciently balance compute tasks with 
+3D workloads, enabling multi-tasking 
+that is designed to optimize utilization 
+and maximize performance.
+ > Unmatched application 
+responsiveness in your workﬂow, 
+whether in advanced visualization, 
+complex models, large data sets or 
+video editing. 
+ > AMD ZeroCore Power Technology 
+enables your GPU to power down when 
+your monitor is off.
+ > GeometryBoost— the GPU processes 
+geometry data at a rate of twice per 
+clock cycle, doubling the rate of primitive 
+and vertex processing. 
+ > AMD Eyeﬁnity Technology— 
+Industry-leading multi-display 
+technology enabling highly immersive 
+and unrivaled multi-tasking experience 
+across up to 4 displays, powered by a 
+single AMD FirePro™ W5000 card and 
+up to six utilizing DisplayPort 1.2.1,2
+ > DisplayPort 1.2  compliant, allowing for 
+display of content at resolutions beyond 
+standard HD.4 
+ > Energy Efﬁcient Design— AMD 
+PowerTune technology dynamically 
+optimizes GPU power usage and AMD 
+ZeroCore Power technology signiﬁcantly 
+reduces  power consumption at idle. 
+ > Video Codec Engine (VCE) —  
+A multi-stream hardware H.264 HD 
+encoder, for power-efﬁcient and quick 
+video encoding.
+Be Limitless, 
+When Every Detail Counts.
+
+[Page 2 / 2 | chars: 7076]
+--------------------------------------------------------------------------------
+
+PRODUCT DETAILS
+© 2012 Advanced Micro Devices, Inc. All rights reserved. AMD, the AMD Arrow logo, FirePro, the FirePro logo, and combinations thereof are trademarks of Advanced Micro Devices, Inc. Microsoft, Windows and DirectX are registered trademarks of Microsoft 
+Corporation in the United States and/or other jurisdictions. PCI Express is a registered trademark of PCI-SIG. OpenCL is a trademark of Apple, Inc. used with permission from the Khronos Group. Other names are for informational purposes only and may be 
+trademarks of their respective owners.
+1   AMD Eyefinity technology can support up to six DisplayPort displays using a single enabled AMD graphics card. The number of supported displays varies by card model and board design; confirm 
+specifications with the manufacturer before purchase. Additional hardware may be required. Utilizing DisplayPort 1.2 and Multi-Stream technology-enabled displays, connectors and/or hubs, a single 
+graphics card may support up to two more displays than it has display outputs; limit six displays. Microsoft® Windows
+® 7, Windows Vista®, or Linux® is required to support more than 2 displays; Windows 
+XP is no longer supported. AMD Eyefinity technology works with applications that support non-standard aspect ratios, which is required for panning across multiple displays. SLS (“Single Large Surface”)
+functionality requires an identical display resolution on all displays. See www.amd.com/firepro or www.amd.com/eyefinity for details.
+2  AMD FirePro™ W5000 supports DisplayPort 1.2 with a max resolution of 4096x2160, can drive three displays at once, features 2GB GDDR5 memory, a 256-bit memory interface and 102.3 GB/s memory 
+bandwidth. Compared to Nvidia Quadro 2000 supporting DisplayPort 1.1 with a max resolution of 2560x1600, can only drive two displays at once, features 1GB GDDR5 memory, a 128-bit memory interface 
+and 41.6 GB/s memory bandwidth. Visit http://www.nvidia.com/object/product-quadro-2000-us.html for Nvidia product details. FP-41
+ 3  AMD FirePro™ W5000 has a triangle rate of 1.65 billion triangles per second compared to Nvidia Quadro 4000 that is capable of  410 million triangles per second. Visit http://www.nvidia.com/content/PDF/
+product-comparison/Product_Comparison_Master_mobile_5_17.pdf. FP-47
+ 4  Full HD resolution is considered 1080p (1920x1080 = ~2.1 megapixels). One AMD FirePro W9000 graphics card with AMD Eyefinity technology supports up to 2560x1600x6 = ~24.6 megapixels for 12 x full 
+HD resolution.
+ 5  W5000 (2xDP + 1XDVI-I) supports a maximum of 5 x 2560x1600 displays (2 x DP1.2 MST (2 per DP) + 1 x native DLDVI) or 6 x 1920x1200 (2 x DP1.2 MST (3 per DP)). Based off DP1.2 bandwidth 
+availability for MST supports up to:4 x 1920x1200 @24bpp 60Hz displays, 2 x 2560x1600 @24bpp 60Hz displays, 1 x 4096x2160 @24bpp 60Hz display
+ 6 Toll free hotline available in United States and Canada
+FEATURES
+BENEFITS
+Advanced multi-display technology delivering the 
+most immersive graphics/computing experience 
+with innovative display capabilities supporting 
+massive desktop workspaces. 1
+AMD PowerTune Technology
+A state-of-the-art power management technology 
+that provides direct control over GPU power usage. 
+AMD PowerTune dynamically optimizes the GPU 
+clock, while keeping the workstation energy-
+conscious, conserving electricity when it isn’t 
+needed.
+Applications enjoy ultimate performance while 
+intelligently conserving electricity. 
+Graphics Core Next (GCN) 
+Architecture
+AMD ZeroCore Power 
+Technology
+Exceptional idle power reduction by shutting  
+down GPU
+Discrete Digital Multi-Point 
+Audio (DDMA)
+Simultaneously output multiple, independent audio 
+streams using DisplayPort 1.2.
+Video Codec Engine (VCE)
+Multi-stream hardware H.264 HD Encoder. Power 
+GeometryBoost
+Utilizes the unique new hardware architecture that 
+features dual graphics engines, allowing the GPU to 
+process two primitives per clock cycle and provide 
+ultra-high geometry processing performance.
+Allows users to unleash their creativity by ensuring 
+ultra-high geometry performance and smooth 
+handling of complex models. 
+D.O.P.P.
+By enabling application access to the framebuffer 
+before content reaches the display engine, 
+we empower ISVs to create new, exciting and 
+innovative solutions.
+AutoDetect Technology
+As a user moves between applications, or opens 
+new ones, the graphics driver settings are 
+Full 30-bit Display Pipeline
+Enables four times more color values than 24-bit 
+products for more accurate color reproduction and 
+HydraVision
+Use HydraVision to manage desktop displays and 
+workspaces in multi-display environments: 
+>   Explicitly set the behavior of pop-up windows  
+and dialogs in different applications though  
+Desktop Manager. 
+>    Provide multiple layers of the desktop workspace 
+through Multi Desktop. 
+>   Restrict application window placement across 
+multiple desktops through HydraGrid.
+AMD FirePro
+™ W5000 
+AMD FirePro
+TM W5000 Graphics Display Port
+Features
+ > GPU with Graphics Core Next  
+(GCN) technology
+ > 2GB GDDR5 graphics memory
+ >
+1
+ > Full 30-bit precision display pipeline
+ > Advanced support for 8-bit, 10-bit,  
+and 16-bit per RGB color component
+ > PCI Express® 3.0 compliant
+System Requirements
+ > 1x PCI® Express x16 (singleslot) 
+ >  Windows® 7 / XP / Windows Vista®  
+or Linux® (32-bit or 64-bit)
+ > 512MB of system memory
+ >  Internet connection for driver installation
+Display Capabilities
+ > 2x DisplayPort 1.2 outputs
+ > 1x Dual-link DVI-I output
+ > Additional DVI (single link and dual link) 
+display support via DisplayPort to DVI 
+adaptor 5
+ > Independent multi-monitor resolution and 
+refresh rate selection
+ > VGA analog support 5
+AMD Warranty and Support
+ >  Three year limited product repair /  
+replacement warranty
+ >  Direct toll free phone and email access  
+to dedicated workstation technical  
+support team 6
+ > Advanced parts replacement option
+API and OS Support
+ > OpenGL® 4.2 with OpenGL  
+Shading Language
+ > OpenCL 1.1
+ > Microsoft® DirectX® 11.1
+ >  Windows® 7, Windows XP, Windows XP64, 
+Windows Vista and Windows Vista64
+ > Linux® 32 and Linux 641
+TM
+AMD FirePro
+TM professional graphics cards have been engineered to  
+deliver innovation and reliability for a wide range of professional operating 
+systems, including Microsoft® Windows® 7, Windows® XP, Windows Vista® 
+and Linux.® The uniﬁed driver, which supports all AMD FirePro products, 
+helps reduce the total cost of ownership by simplifying installation, 
+deployment and maintenance. 
+About Sapphire PGS
+Sapphire PGS (Professional Graphics Solution) provides various types of professional display solutions for workstation and professional 
+clients.  PGS supports full range of 3D professional applications for 3D professional users. For industrial customers, Sapphire PGS 
+integrates all display related graphics application solutions for broadcasting wall, digital signage, medical, surveillance, ATC etc.  Sapphire 
+PGS will continuously provide the most appropriate solutions and the best after sales services.
+Visit website:  www.SapphirePGS.com
+

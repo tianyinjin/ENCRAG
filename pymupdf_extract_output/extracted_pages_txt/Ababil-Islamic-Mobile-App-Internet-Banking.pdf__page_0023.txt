@@ -1,0 +1,30 @@
+Source file: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Relative path: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Page: 23 / 27
+
+================================================================================
+
+© Copyright 2018 
+General Features: 
+❖ Programming Language: 
+o Java to develop server-side coding 
+o Deploy solution in any platform  
+o Client Bank can choose platform with highly secured system 
+ 
+ 
+❖ Memory Management: 
+o Java has garbage collection mechanism to free unused memory 
+o Helps to mitigate buffer overflow 
+o Secure java code provided by OWASP and Oracle  
+o Helps to mitigate input validation related vulnerabilities like Denial of Service and 
+(SQL/XPath) Injection  
+ 
+❖ Platform: 
+o J2EE platform to develop service level development. 
+o Application server will run under JBoss. 
+o Ensure standard authentication including certificate-based authentication 
+ 
+❖ Architectural System: 
+o System is SOA and REST based architecture 
+o Helps to integrate with other systems with very few changes 
+o Allows further development on tab-based application

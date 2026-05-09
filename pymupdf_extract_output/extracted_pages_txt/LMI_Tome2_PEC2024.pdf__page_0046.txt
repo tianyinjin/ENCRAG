@@ -1,0 +1,78 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 46 / 88
+
+================================================================================
+
+Pôle d’excellence cyber
+46
+Un prestataire SEO et sa ferme d’avatars impliqués 
+dans une campagne d’influence pro-russe
+Détection d’un prestataire de service SEO lié à la campagne d’influence Doppelgänger : l’importance de l’analyse 
+des backlinks et du modus opérandi des bots.
+S’il est aujourd’hui courant d’aborder l’impact des 
+avatars sur les réseaux sociaux, il est moins courant 
+de présenter le sujet sous l’angle de la méthode et des 
+idées de manœuvres avant la diffusion sur les réseaux 
+sociaux. En effet, on constate couramment le recours 
+à des intermédiaires spécialisés dans la diffusion de 
+fausses informations ; ceux-ci utilisent eux-mêmes des 
+avatars. Nous détaillons ci-dessous un cas d’école : 
+l’analyse des backlinks d’un site lié aux Doppelgänger 
+qui révèle l’utilisation d’un tiers et de sa ferme d’avatars.
+Doppelgänger
+En septembre 2022, EU DISINFOLAB et QURIUM 
+révèlent une campagne d’influence russe nommée « 
+Doppelganger » qui vise l’Europe et plus particulièrement 
+la France. Le mode opératoire est simple : développer 
+de faux sites de presse en utilisant une technique de 
+typo-squatting. Cette tactique ne peut aboutir sans 
+l’optimisation du référencement des sites, le SEO.
+Le site Lavirgule.news – un site actif contre 
+l’OTAN – a démontré dans son étude en 2023 
+comment 
+identifier 
+un 
+prestataire 
+mobilisé 
+dans 
+l’optimisation 
+de 
+son 
+référencement. 
+Modus operandi
+L’analyse des liens entrants de Lavirgule.news permet 
+de comptabiliser plusieurs dizaines de backlinks mis 
+en place dans des temps courts et dont la manœuvre 
+générale s’apparente à une campagne d’installation 
+d’une chambre d’écho. Cette campagne s’étale 
+précisément entre le 26 et le 30 juin 2023 et met en 
+lumière 75% de forums parmi les backlinks étudiés. 
+La graine est plantée simplement par un ensemble de 
+botnets qui se répondent sur un forum : un premier 
+pose la question : « Où lire l’actualité ? ». Un second 
+répond : « Voici un site Web passionnant : https://
+lavirgule.news ». Au total, ce sont environ vingt botnets 
+qui interagissent entre eux et relayent ce site de la 
+même manière. La répétition grossière de cette méthode 
+de référencement rend donc certaine l’utilisation 
+administrée d’une ferme d’avatars hors réseaux sociaux.
+A ce stade, il n’est pas impossible d’imaginer que ces 
+botnets soient liés directement au commanditaire 
+des sites « Doppelgänger ». Afin d’approfondir, il 
+est nécessaire d’étudier les sujets de discussion des 
+profils identifiés afin de détecter d’autres liens avec 
+des sites pro-russes ou issus des Doppelganger.
+Thèmes & Intérêts
+En l’état des recherches, ce sont des centaines 
+d’autres sites qui sont relayés de la même façon par 
+cette ferme. Parmi les thèmes abordés : « les jeux 
+d’argent en ligne », « la vente de produits de beauté 
+», des cours particuliers, des sites pornographiques 
+etc. Pour être précis, les sites Web pro-russes 
+diffusés ne représentent environ qu’1% des contenus.
+Au-delà des thèmes, la géographie des sites est intéressante 
+car diverse : jeux d’argent aux Philippines, média au 
+Pierre BISCHETTI 
+Analyste et Chef de Projet OSINT
+CHAPSVISION

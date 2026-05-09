@@ -1,0 +1,51 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 19 / 28
+
+================================================================================
+
+19 
+ 
+ 
+  Exemples d’utilisation de l’IA mis en œuvre par le Datalab de VIGINUM : 
+Utilisation directe d’un modèle via un prompt  
+Les modèles génératifs (Mistral 7B instruct, Llama, Gemma) étant pré-entraînés sur un corpus massif 
+de textes, ils contiennent un ensemble de connaissances sur un grand nombre de domaines 
+spécialisés. Cela leur confère de bonnes capacités en apprentissage zero-shot39, qui leur permet 
+d’être directement utilisés via des instructions (prompt). L’une des problématiques rencontrées avec 
+ce type d’usages est la variabilité des réponses du modèle, ainsi que de leurs formats en fonction du 
+prompt d’entrée40. Dans le cadre de ses opérations, le Datalab a recours à l’optimisation de prompts 
+(prompt engineering), comme par exemple, pour détecter les pays mentionnés dans des publications 
+issues de réseaux sociaux. Cette utilisation permet notamment de filtrer des publications ciblant 
+spécifiquement la France au sein d’un corpus donné.  
+ 
+ 
+Un plongement vectoriel (ou embedding) est une représentation de la sémantique des contenus dans un espace 
+mathématique. 
+ 
+Utilisation de plongements vectoriels (embeddings) 
+Un plongement vectoriel (ou embedding) est une représentation numérique d’un document (texte, 
+image, audio, etc.) qui capture sa sémantique. Des modèles d’IA entraînés sur des corpus massifs de 
+documents permettent ainsi de représenter des documents hétérogènes en une liste fixe de 
+nombres dans un espace mathématique41. Cette représentation permet ensuite d’appliquer 
+d’autres algorithmes, comme le calcul de distances entre documents, la détection d’images ou de 
+textes proches sémantiquement ou la segmentation. Elle est utilisée par le Datalab dans sa 
+méthodologie de détection des contenus dupliqués42.  
+ 
+Ajustement (fine-tuning) de modèles  
+L’ajustement de modèles permet de spécialiser un modèle d’IA pré-entraîné sur une tâche et un jeu 
+de données annotées. Cela permet d’utiliser les connaissances généralistes d’un modèle pour le 
+spécialiser sur une tâche donnée. Le Datalab a par exemple utilisé ce principe pour classifier 
+automatiquement les publicités dans le registre des contenus publicitaires de Meta43. 
+ 
+ 
+                                                        
+39 L’apprentissage zero-shot est la capacité d’un modèle d’IA à faire des prédictions sur des tâches ou des concepts sans jamais les 
+avoir vus au court de son entraînement.  
+40 Les réponses d’un modèle génératif peuvent parfois respecter la structure de réponse imposée par un prompt sans respecter la 
+consigne.  
+41 Par exemple, le modèle très connu BERT transforme une phrase en un vecteur de 768 nombres.  
+42 Richard et al., « Unmasking information manipulation: A quantitative approach to detecting Copy-pasta, Rewording, and 
+Translation on Social Media », 2023, https://arxiv.org/abs/2312.17338   
+43 Voir les travaux présentés à la FOSDEM 2024 : https://archive.fosdem.org/2024/events/attachments/fosdem-2024-3204-detecting-
+propaganda-on-facebook-and-instagram-ads-using-meta-api/slides/22323/Fbads_FOSDEM_20240203103844_MlWExhL.pdf

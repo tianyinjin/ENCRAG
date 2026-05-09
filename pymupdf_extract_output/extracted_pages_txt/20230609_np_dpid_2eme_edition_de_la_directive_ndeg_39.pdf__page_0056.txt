@@ -1,0 +1,89 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 56 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 56 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+RSO1 
+TECH 
+Découper les systèmes industriels par zones de sécurité auxquelles est attribué 
+un niveau de classe*. 
+O
+ 
+ 
+ 
+Un système industriel peut être réduit à 
+une seule zone de sécurité*. 
+RSO2 
+TECH 
+Mettre en place un cloisonnement* entre les zones de sécurité*.  
+Le cloisonnement* est physique entre les zones de classe 3 et les zones de classe* 
+inférieure. L’utilisation de cloisonnement* logique est alors interdite.  
+Pour les autres niveaux de classe*, privilégier autant que possible un 
+cloisonnement* physique entre les zones de sécurité.  
+O
+ 
+ 
+ 
+ 
+RSO3 
+ORG 
+Lorsque la séparation physique n'est pas possible entre des zones de sécurité de 
+classes* différentes, mettre en place une solution de tunnel VPN labellisée. 
+ 
+R 
+O 
+O 
+ 
+RSO4 
+ORG 
+Lorsque la séparation de tunnel VPN n'est pas possible entre des zones de 
+sécurité de classes* différentes, mettre en place un cloisonnement* logique de 
+type VLAN. 
+ 
+R 
+O 
+O 
+ 
+RSO5 
+TECH 
+Mettre en place une politique de filtrages* entre les zones de sécurité. Les flux sont 
+limités au strict besoin.  
+O
+ 
+ 
+ 
+Pour définir une politique de filtrage*, on 
+pourra notamment se reporter au guide 
+de l’ANSSI. 
+ 
+Pour les flux utilisant le protocole IP, on 
+en rappelle néanmoins ici quelques 
+grands principes : 
+ 
+- un flux est identifié par l’adresse IP 
+source, l’adresse IP destination, le 
+protocole de transport (par exemple 
+UDP ou TCP) et, le cas échéant, les 
+numéros de port source et destination ;
+ 
+ 
+- les flux sont refusés par défaut ;
+- 
+seuls 
+les 
+flux 
+nécessaires 
+au 
+fonctionnement du système industriel 
+sont autorisés ; 
+ 
+- les flux rejetés doivent être journalisés 
+et analysés ;

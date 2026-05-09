@@ -1,0 +1,97 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 70 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 70 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+ont un niveau de sécurité satisfaisant. Leur innocuité virale doit être garantie. 
+L'intervenant doit alors fournir un certificat d'innocuité. Celui-ci présente le résultat 
+d'une analyse antivirale et sa date, et précise l'éditeur du produit, la version du 
+moteur, la date et la version de la base de signature. 
+MAINT5 
+ORG 
+Contrôler le processus d’intervention avant d’homologuer ou de ré-homologuer le 
+système industriel. 
+O
+ 
+ 
+ 
+ 
+MAINT6 
+ORG 
+Assurer la protection du système industriel et des données sensibles en respectant 
+les exigences minimales suivantes :  
+-  cloisonnement* des informations ;  
+-  habilitation des entreprises responsables de l’exécution des prestations ; 
+ 
+-  habilitation et qualification des intervenants ; 
+ 
+-  surveillance de l’intervention et contrôle des travaux réalisés. 
+O
+ 
+ 
+ 
+ 
+Maîtriser la télémaintenance 
+MAINT7 
+ORG 
+Insérer dans le périmètre d’homologation les fonctions de télégestion*, de 
+télémaintenance* ou de télédiagnostic*.  
+O
+ 
+ 
+ 
+ 
+MAINT8 
+TECH 
+Insérer les dispositifs de télégestion*, de télémaintenance* ou de télédiagnostic* 
+dans une ou des zones de sécurité spécifiques. 
+O
+ 
+ 
+ 
+ 
+MAINT9 
+ORG 
+Vérifier les exigences d’habilitation (au sens métier et de la protection du secret de 
+la défense nationale) des intervenants et des entreprises responsables de 
+l’exécution des prestations (télégestion*, télémaintenance* ou télédiagnostic*) et 
+des personnels effectuant les prestations.  
+O
+ 
+ 
+ 
+ 
+MAINT1
+0 
+TECH 
+Limiter les prestations (télégestion*, télémaintenance* ou télédiagnostic*) au strict 
+nécessaire et pendant une durée limitée.  
+O
+ 
+ 
+ 
+ 
+MAINT1
+1 
+TECH 
+Activer la liaison de télémaintenance* autant que de besoin sous la responsabilité 
+d’un administrateur du système industriel. La liaison ne doit pas être permanente. O
+ 
+ 
+ 
+ 
+MAINT1
+2 
+TECH 
+En cas d’opérations de télégestion*, télémaintenance* ou télédiagnostic*, 
+appliquer les règles suivantes : 
+ 
+O

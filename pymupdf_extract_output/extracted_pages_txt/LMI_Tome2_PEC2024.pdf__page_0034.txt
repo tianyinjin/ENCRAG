@@ -1,0 +1,68 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 34 / 88
+
+================================================================================
+
+Pôle d’excellence cyber
+34
+On observe depuis quelques années une utilisation 
+croissante de l’IA pour la conduite d’attaques 
+informationnelles et de tentatives de déstabilisation 
+politique. Quelques cas réels sont la production de 
+fausses vidéos lors des élections malaisiennes de 
+2018, l’usage de réseaux de robots sur Twitter et 
+Facebook lors des élections présidentielles américaines 
+de 2016, la production de fausses vidéos par la 
+Russie en prétexte à l’invasion de l’Ukraine en 2022. 
+Simultanément, on observe une contribution croissante 
+de l’IA à la lutte contre la désinformation. Quelques 
+exemples connus sont l’algorithme de modération de 
+contenu de Facebook, l’outil de vérification des faits de 
+Google, la production de démentis par GPT-3 d’OpenAI, 
+la plateforme de vérification des faits de Factmata, l’API 
+Perspective d’alerte de Jigsaw, les outils de détection 
+d’EUvsDisinfo. Cet article présente un panorama des 
+cas d’usage de l’IA en matière de lutte informationnelle. 
+Il permet de dégager les grandes tendances coté attaque 
+et défense tout en évaluant les grandes familles de 
+techniques et leur potentiel de développement à moyen 
+terme dans le contexte de la lutte informationnelle.
+Utilisation de l’IA pour produire des attaques 
+informationnelles
+Les attaques informationnelles ont recours à l’utilisation 
+de l’IA, pour manipuler, tromper ou influencer 
+l’opinion publique, semer la discorde ou atteindre 
+des objectifs politiques ou stratégiques spécifiques. 
+Voici quelques exemples de la manière dont l’IA peut 
+être utilisée dans des attaques informationnelles :
+•	
+Analyse des sentiments : les algorithmes d’exploration 
+de données peuvent analyser de grands volumes de 
+publications sur les réseaux sociaux, d’articles de 
+presse ou de commentaires en ligne pour identifier les 
+tendances d’opinion et exploiter les divisions sociales(1) .
+•	
+Manipulation des résultats de recherche : les 
+techniques sémantiques utilisées par les moteurs 
+de recherche et les plateformes de médias 
+sociaux peuvent être manipulés pour prioriser 
+certains contenus, influençant la perception 
+du public sur des questions spécifiques(2).
+•	
+Communication ciblée : les techniques de traitement 
+de langage peuvent être utilisées par les plateformes 
+de médias sociaux pour cibler un groupe d’individus 
+avec un contenu personnalisé tel que présenté 
+par la Red Team Défense dans son scénario « 
+chronique d’une mort culturelle annoncée »(3).
+•	
+Vidéo et audio deepfakes : les techniques d’IA 
+Utilisation de l’IA pour produire et contrer des 
+attaques informationnelles
+L’IA prend une place de plus en plus importante pour la conduite d’attaques informationnelles et de tentatives 
+de déstabilisation politique. Dans le même temps, les outils d’intelligence artificielle prennent une place de plus 
+en plus grande dans la lutte contre la désinformation. Faisons le point sur les outils et les enjeux.
+Adrien BECUE
+AI & Cybersecurity Expert
+Thales

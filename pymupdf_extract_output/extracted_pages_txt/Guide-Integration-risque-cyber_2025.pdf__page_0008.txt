@@ -1,0 +1,108 @@
+Source file: Guide-Integration-risque-cyber_2025.pdf
+Relative path: Guide-Integration-risque-cyber_2025.pdf
+Page: 8 / 29
+
+================================================================================
+
+Pôle d’excellence cyber
+15
+14
+1.	
+Faire un test de maturité cyber de son organisation en 5mn
+La maturité cyber reflète le niveau global de prise en compte des enjeux de cybersécurité par une organisation. Répondez à 
+6 questions pour obtenir votre évaluation indicative.
+https://messervices.cyber.gouv.fr/test-maturite/ 
+2.	
+Les 10 bonnes pratiques pour augmenter à moindre coût votre sécurité numérique
+De nombreuses sources présentent des mesures essentielles pour préserver votre sécurité numérique, la grande majorité 
+d’entre-elles sont actionnables à moindre frais.
+Parmi ces bonnes pratiques nous recommandons 10 actions :
+1.	
+Séparez strictement vos usages à caractère personnel de ceux à caractère professionnel
+2.	
+Mettez régulièrement à jour vos outils numériques
+3.	
+Protégez vos accès par une authentification double-facteur lorsque c’est possible, ou a minima par des mots de passe 
+complexes
+4.	
+Ne laissez pas vos équipements sans surveillance
+5.	
+Prenez soin de vos informations personnelles en ligne
+6.	
+Protégez votre messagerie électronique
+7.	
+Évitez les réseaux Wi-Fi publics ou inconnus
+8.	
+Sauvegardez régulièrement vos données
+9.	
+Protégez-vous des virus et autres logiciels malveillants
+10.	 Accordez le juste niveau de privilèges
+Vous retrouverez ces éléments en détail sur le site de l’ANSSI : https://cyber.gouv.fr/appliquer-les-dix-regles-dor-preventives 
+D’autres sources de confiance sont à votre disposition pour compléter votre protection numérique comme cybermalveillance.
+gouv.fr ou le guide de l’ANSSI « la cybersécurité pour le TPE/PME en 13 questions » également pertinent pour une collectivité.
+•	
+https://www.cybermalveillance.gouv.fr/bonnes-pratiques 
+•	
+https://cyber.gouv.fr/publications/la-cybersecurite-pour-les-tpepme-en-treize-questions
+Par ailleurs, en cas d’indisponibilité du réseau internet, certains opérateurs prévoient la mise à disposition d’offre 4G qui peut 
+s’avérer une bonne solution de secours. Il est recommandé de regarder ce qu’il en est dans votre contrat et de préciser dans 
+le PCS les modalités de basculement.
+3.	
+Sensibiliser élus et agents aux risques cyber ainsi qu’aux bonnes pratiques
+La sensibilisation des agents aux risques cyber et aux bonnes pratiques est un enjeu majeur tant pour éviter les risques que 
+pour permettre aux agents de se sentir à l’aise avec le numérique et sans doute de réduire d’autant l’exclusion numérique.
+Pour ce faire, une opportunité s’offre à tous : le «cybermois». Cet évènement national piloté par cybermalveillance. gouv.fr se 
+déroule durant tous les mois d’octobre. Il incite l’ensemble des acteurs à se mobiliser pour promouvoir les bonnes pratiques 
+et pour ce faire met à disposition des supports de sensibilisation. L’ensemble des évènements y est par ailleurs recensé. Vous 
+trouverez tous ces éléments sur le site : 
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/cybermois-2025 
+4.	
+Prise en compte de la protection des données personnelles lors d’une crise cyber
+Chaque collectivité doit désigner un délégué à la protection des données (DPO) chargé d’accompagner les services dans la 
+mise en conformité et la gestion des incidents liées aux données personnelles. 
+Il est à noter que pour une petite commune il n’est pas envisageable d’avoir un DPO à plein temps et il est très souvent difficile 
+d’avoir parmi son personnel une personne qualifié pour porter cette mission. Pour ce faire certains organismes mettent en place 
+des DPO partagés pour les collectivités au sein des centres de gestion départemental comme le CDG35, certains opérateurs 
+publics de services numériques (OPSN)… C’est, pour les petites collectivités, la solution à privilégier.
+Parmi ces incidents figure la violation de données qui survient lorsqu’un évènement compromet la sécurité des informations 
+relatives à des personnes physiques. Ce type d’incident peut avoir différentes origines : vol ou perte de supports, accès non 
+autorisé, modification accidentelle ou diffusion non maîtrisée de données. Il nécessite alors de s’interroger sur une possible 
+atteinte à la vie privée, si une utilisation malveillante de ses informations venait à être faite.
+Prévenir la survenance des risques en amont d’une crise cyber 
+L’intégration, dès la conception de vos traitements de données, des principes protection des données personnelles - telles 
+que la minimisation des données collectées, une durée de conservation limitée, un contrôle rigoureux tout au long de leur 
+utilisation, un encadrement contractuel approprié, des mesures de sécurité appropriées – permet de réduire significativement 
+le risque qu’une cyberattaque compromette la vie privée de vos citoyens et de vos agents. 
+Il est également indispensable de tenir à jour le registre des traitements et de disposer d’une cartographie précise des données 
+personnelles traitées, afin de pouvoir réagir rapidement et efficacement en cas de violation de données. Ces éléments vous 
+permettront de fournir des informations détaillées sur : la nature de la violation, les personnes impactées et les conséquences 
+potentielles pour celles-ci. 
+Agir pendant une crise cyber 
+En cas de cyberattaque entraînant une violation de données personnelles, une gestion rapide et structurée est indispensable. 
+Dès la réunion de crise, il convient d’évaluer le niveau de risque que cette violation fait peser sur les personnes concernées 
+et les obligations qui en découlent. 
+Cas où la violation de données ne présente aucun risque pour les personnes 
+Une violation de données ne présente aucun risque lorsque l’incident est maîtrisé et n’a pas d’impact potentiel sur les droits, la 
+sécurité ou la vie privée des personnes concernées. Cela signifie que les données n’ont pas été exposées, qu’elles sont toujours 
+protégées ou qu’elles sont inexploitables pour un tiers. Dans ce cas l’incident doit seulement être documenté en interne. 
+Exemple : Perte d’un support chiffré (ordinateur, clé USB) dont le chiffrement est robuste et les clés de déchiffrement sécurisées, 
+erreur de destinataire lors d’un envoi ne révélant pas d’informations sur les personnes.
+Cas où la violation de données présente un risque pour les droits et libertés des personnes 
+Une violation de données présente un risque lorsqu’elle peut entraîner un préjudice potentiel pour les personnes concernées 
+tel qu’une atteinte à la confidentialité, à la sécurité ou à une perte de contrôle des données. Dans ce cas l’incident doit être 
+documenté en interne et faire l’objet d’une notification à la CNIL dans les 72h après la prise de connaissance de la violation 
+de données via le portail suivant : https://notifications.cnil.fr/notifications/index
+Exemple : Accès non autorisé à un nombre limité de données (nom, prénom) sans éléments sensibles. 
+Cas où la violation de données présente un risque élevé pour les droits et libertés des personnes 
+Une violation de données présente un risque élevé lorsqu’elle entraîne des conséquences graves ou irréversibles pour les 
+personnes :  usurpation d’identité, exposition de données sensibles, fraude… Elle concerne souvent un volume important de 
+données et/ou une sensibilité élevée et/ou une large diffusion non maîtrisée. Dans ce cas, l’incident doit être documenté en 
+interne, faire l’objet d’une notification à la CNIL dans les 72h après la découverte de la violation de données et les personnes 
+concernées doivent être informées individuellement, dans les meilleurs délais, de la nature de la violation, de ses conséquences 
+et des mesures prises pour y remédier. 
+Exemple : Accès non autorisé à des données relatives à la santé physique ou mentale des personnes, un grand volume de 
+données de citoyens a été rendu publique, vol d’un mot de passe et d’un identifiant d’un compte possédant des droits 
+étendus type «administrateur» ou volonté de nuire aux personnes en diffusant via le compte des propos injurieux, des 
+messages malveillants. 
+Chapitre V : Quelques bonnes pratiques pour limiter l’impact d’une attaque 
+cyber ou les prévenir en amont

@@ -1,0 +1,602 @@
+Source file: MP-MSG-SET-183-12.pdf
+Relative path: MP-MSG-SET-183-12.pdf
+Page count: 16
+Extracted pages: 16
+
+================================================================================
+
+[Page 1 / 16 | chars: 3444]
+--------------------------------------------------------------------------------
+
+STO-MP-MSG-SET-183 
+12 - 1 
+Commercial UAVs Multispectral Detection 
+Miroslav Kratky, Jan Farlik, Josef Casar and Vadim Stary 
+University of Defence, Kounicova 65, 602 00 Brno 
+CZECH REPUBLIC  
+Miroslav.Kratky@unob.cz 
+ABSTRACT  
+Despite the fight against unmanned vehicles is nothing new, the arrival of new technologies - that are easily 
+accessible for the wider population – there has been arising new problems. The deployment of small, 
+unmanned aerial vehicles (UAVs) by paramilitary organizations during conflicts all around the world has 
+become a reality, non-lethal “paparazzi” actions have become a common practice, and thus, the fight 
+against unfriendly users of unmanned systems is on the top agenda for both military and security bodies. The 
+basic prerequisite for direct and successful defence against attacking UAVs is their prompt and sufficiently 
+accurate detection. The general outputs obtained from calculated, simulated, and experimentally detected 
+values confirmed, that the most effective detection should be realised by multispectral sensor systems. 
+1.0 INTRODUCTION 
+The producers of commercial drones compete for potential customers, and they innovate and improve their 
+products constantly. These innovations continuously improve flight parameters such as flying range, speed, 
+load capacity, and autonomous activity algorithms or artificial intelligence capable of transporting the drone 
+through a number of obstacles [1]. Like any technology, drones can be misused. The aim of this article is to 
+inform about the results of a study that examined the detectability of commercially available drones. The 
+authors of the study want to contribute to a greater awareness of drone misuse and offer defence options.  
+Governments aiming to protect their citizens from the consequences of UAV misuse have to deal with this 
+threat very seriously. This is due to the continuous development and innovation in the field of commercial air 
+vehicles and the constant struggle between potential aggressors and victims.  
+The risk of successful unmanned aerial systems (UAS) misuse is considerably increasing, and defence 
+effectivity is decreasing, for example, in the following ways [2], [3], [4]: 
+• 
+UAV is able to fulfil its task through autonomous flight, even without GPS; 
+• 
+swarm of UAVs can attack a target; 
+• 
+UAS is able to recognize a victims’ face and can aim crowds of people as well; 
+• 
+UASs have more remote control channels [15] and remote control options; 
+• 
+UASs can be used to paralyze civilian air traffic control. 
+However, the victims of UAV misuse are not limited to government institutions or infrastructure. The 
+victims of UAS misuse are more often individuals or companies. These private entities need to be 
+protected as well. 
+Successful air defence against UAVs should include the following activities: 
+• the evaluation of threats and risks for a person, company, infrastructure, or state interests and the 
+anticipation of vulnerability (Long-Term Threat Assessment and Anticipation); 
+• infrastructure adjustment against unwanted UAS operations (Infrastructure Assessment); 
+• surveillance of the surrounding area or eventually the entire airspace and UAS detection 
+(Surveillance); 
+• acquisition of additional UAS data during flight and risk assessment of its behaviour (Tracking and 
+Imminent Threat Assessment); 
+• rogue UAS identification and elimination (UAS Target Engagement);
+
+[Page 2 / 16 | chars: 1588]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 2 
+STO-MP-MSG-SET-183 
+• continuous attempts - if technology allows - to detect and capture the operator (UAS Operator 
+Detection and Capturing); 
+• initiation of destructive (lethal) or non-destructive (nonlethal) actions against UASs to prevent the 
+intentions of rogue drones; 
+• assessment of counteractions against UASs; 
+• improvement current measures to counter UASs.   
+ 
+This paper presents findings from the field of small UAV detection. Other sequences of the engagement 
+process, i.e. processing and elimination, are also - but only briefly discussed. The findings of the study [49], 
+which has preceded this article, confirm hypotheses regarding the abilities to detect small drones. 
+2.0 MATERIAL, EQUIPMENT AND METHODS 
+Typical drones of specific categories were selected for to be tested in the experiments. Drones from mini and 
+micro categories were chosen.  
+For internal/laboratory experiments there were: 
+• 
+Octocopter 3D Robotics 3DR X8; 
+• 
+Quadcopter DJI PHANTOM 2 Vision;  
+• 
+Quadcopter DJI Phantom 4; 
+• 
+Hexacopter: 3D Robotics 3DR Y6; 
+• 
+Quadcopter DJI MAVIC Pro. 
+In addition, for external experiments were selected:  
+• 
+Quadcopter DJI Inspire; 
+• 
+Hexacopter DJI S900, S800E; 
+• 
+Quadcopter TAROT F650. 
+ 
+Figure 1: Examples of selected drones: a) 3DR X8; b) 3DR Y6;   c) DJI PHANTOM 2; d) DJI 
+PHATNOM 4. 
+The selection was based on sales analysis of Amazon and Techradar and on a flight parameter analysis, 
+considering the flight time (operating time), the load capacity, and the teleoperation capability.
+
+[Page 3 / 16 | chars: 1324]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 3 
+2.1 
+Radar detection 
+The main goals of testing and calculation were to determine the targets radar cross-section (RCS) and 
+afterward the possibilities of their detection, localisation, tracking and identification 
+Drones were tested in several electromagnetic spectrum bands in accordance with [7]: radar (RL), radio-
+frequency (RF), electro-optical (EO), infrared (IR), and acoustic. In some cases, drones were tested in a 
+multispectral field through “combined sensors”. 
+The first phase of RL experiments included the simulation of objects and their RCS in SuperNEC software. 
+The software was used for the 3D modelling of objects (see Fig. 2.) and their subsequent analysis from a 
+theoretical RCS point of view. The simulation principle lies in the power gain measurement (Fig. 3.) and 
+subsequent RCS calculation. 
+ 
+ 
+Figure 2: The Quadcopter and Hexacopter model in SuperNEC software [23]. 
+ 
+Figure 3: The Quadcopter and Hexacopter power gain [23]. 
+For real RCS determination the selected drones were tested using the anechoic chamber (near radar zone), 
+ 
+Figure 4: The drones 3DR X8 and DJI PHATNOM 2. 
+For the distant radar zone, we carried out external experiments using experimental radar (Fig. 5.) and real 
+military equipment (Fig. 6.).
+
+[Page 4 / 16 | chars: 489]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 4 
+STO-MP-MSG-SET-183 
+ 
+Figure 5: External experiment: experimental radar parabolic antenna and drone 3DR Y6. 
+ 
+Figure 6: External experiment: military sensors ReVISOR and KBV-PZLOK Pandur II CZ. 
+ 
+Figure 7: External experiment scenario: detectability, and UAV (red) and observer post (blue) positions. 
+As shown on the Fig. 7, special radar and drone flight configuration was created for determine radar 
+capability to detect small drones.
+
+[Page 5 / 16 | chars: 3043]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 5 
+2.2 
+Radio frequency detection 
+Radio-frequency analysis of UAS signals is now very common in UAS detection. The principle is based on 
+the evaluation of the signal transmitted by the control station (RC controller signals—“uplink”) or the signal 
+transmitted by the UAV (“downlink”), e.g., telemetry data and video signals. 
+Popular commercial drones use WiFi frequencies (2.4 or 5.8 GHz). In accordance with national frequency 
+allocation tables (e.g., in Czech Republic, that of the National Radio Frequency Agency—NARFA), other 
+frequencies can be also used, e.g. UHF 433 or 434 MHz. National laws also regulate the maximum output 
+power of a transmitted signal.  
+One of the most important aspects in the detection and identification of UAS is the used data protocol. RF 
+detectors are designed based on knowledge of the system topology and structure, primarily knowledge of the 
+transport layer. For precise identification, a database (library) of UAV frequencies and protocols is needed. 
+A library allows a user to detect and identify the airborne target (drone) “online” based on its data signals. 
+The disadvantage of this approach is the possibility of detection and identification for only the drones with 
+known parameters (which are included in the database). Detection of non-standard drones in urban 
+environments may not be successful. 
+The main aim of the experiment was to evaluate the abilities and the possibility of RF drone detection by 
+commercial RF detection devices using allowed frequencies. 
+We used for experiments an RF detection device produced by Dedrone Inc. [USA & Germany], the 
+DroneTracker Event Kit in Demo configuration; this kit consists of a Drone Tracker Multi Sensor and a 
+DroneTracker RF Sensor. The multi sensor contains an RGB camera and a pair of microphones too. 
+Measurement was performed at distances from 70 m to 1.7 km, and successful/unsuccessful detection and 
+identification were evaluated. 
+ 
+Figure 8: Dedrone Tracker Event Kit. 
+2.3 
+Infra-Red detection 
+The method described here is based on other characteristic attributes of the UAV. The infrared spectrum is 
+part of the electromagnetic spectrum, with a wavelength from 760 nm to 1000 μm. The surveillance of the 
+aerial area in the IR domain is used mainly for the detection of low altitude aerial targets, and it is part of an 
+additional surveillance method whereby “blind” areas in the local air picture (LAP) are covered. 
+The thermal imaging camera (FLIR A40M) connected to PC and the appropriate control and evaluation 
+software were used for this experiment. For evaluation of the thermal image from the camera, ThermoCAM 
+Researcher Professional 2.9, ThermoCAM Explorer 9.9, and MATLAB r2011a were used. 
+The laboratory experiments consisted of two parts. The first part was focused on measurement of a thermal 
+image of the isolated UAV electric motor, and the second part was focused on a thermal image of the entire 
+UAV hovering in the laboratory.
+
+[Page 6 / 16 | chars: 1721]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 6 
+STO-MP-MSG-SET-183 
+The isolated electric motor was mounted on a static platform, and measured by the thermal imaging camera. 
+When measuring the flying UAV, there was a critical point: to keep the position of the UAV in the field of 
+view of the thermal camera. For this reason, the total power of the electric motors and their RPM values 
+depended on the UAV position and it could not be adjusted exactly. 
+ 
+Figure 9: Thermal image of the electric motor at output power (RPM) 80%  and hexacopter after 140 sec 
+hovering. 
+External detectability of UAVs was evaluated first on a terrain background and then on a sky background. 
+The flight direction was towards the observer. Accurate data of the UAV position were obtained from UAV 
+telemetry, and correlated with the actual situation. 
+ 
+Figure 10: Thermal IR image of the flying hexacopter from the FLIR A40M: a) 10 m away; b) 70 m away. 
+2.4 
+Optical detection 
+Elementary visual detection of the UAV can be done by human sight or with optical devices. 
+Human optical detection depends both on external and subjective factors. The series of UAV detection 
+experiments using human senses (sight and hearing – see in the next subchapter) in the real environment 
+were performed in these conditions: 
+• 
+number of evaluators/observers: 6; 
+• 
+age distribution of evaluators: 21–43 years; 
+• 
+term of experiment: July and September; 
+• 
+climate zone and place: temperate; Czech Republic; 
+• 
+weather and temperature: sunny, 25–30 °C; 
+• 
+visibility: 30+ km; 
+• 
+wind speed: 0–2.5 ms-1; 
+• 
+humidity: 45–50%. 
+The investigated flying object: drone DJI Phanton 2. An example of the visibility test is shown in the Fig. 11.
+
+[Page 7 / 16 | chars: 1215]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 7 
+ 
+Figure 11: Human eye visibility on the sky background [32]: DJI Phantom 2; distance: 100 m. 
+Optical detection using technical devices depends not only on environmental conditions, but – naturally, 
+on quality these devices and operator/observer’ skills as well.  Both commercial and military devices were 
+used, when these experiments were performed. 
+List of evaluated technical devices: 
+• 
+ReTOB (RETIA co.) - a military air observer device, maximal optical zoom -- 8×[27]; 
+• 
+LEICA GEOVID 7x42 BD - binoculars, maximal optical zoom 7× [28]; 
+• 
+NIKON D5100 - a digital camera, maximal optical zoom 6× [29]; 
+• 
+PANASONIC HC-WX979 - a digital 4K camera, maximal optical zoom 20× [30]; 
+• 
+TZK - air defence military binoculars, maximal optical zoom 10× [31]. 
+The commercial devices are commonly known, for notion about military ones – see Fig. 12. 
+ 
+Figure 12: Optical devices: TZK binoculars. 
+The level of involved observers’ skills:  
+o 
+beginner (researchers from UoD Brno); 
+o 
+in case of the ReTOB, professional (an air observer crew was involved from Czech Army). 
+ 
+Figure 13: Scanning methods for plain terrain, distant targets.
+
+[Page 8 / 16 | chars: 3004]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 8 
+STO-MP-MSG-SET-183 
+2.5 
+Acoustic detection 
+As much as optical detection, the acoustic one can be done similarly using human senses – ears, and with the 
+aid of technical acoustic devices.  
+Acoustic detection by human senses. The series of UAV detection experiments using human ears in the 
+real environment were performed in the same place, time and conditions like the Human optical detection 
+was done (see above).  
+The structure of these experiments was a little simplified: The UAVs were flying away from the evaluators 
+who did knew the time and the direction of the flight. In a real situation, the direction of the flight would 
+probably be the reverse one and acoustic observer will not exactly know the flight azimuth and altitude. 
+Acoustic detection using technical devices. This set of experiments was performed in a real environment. 
+The TAROT F650 quadcopter and the DJI S800E hexacopter were the representatives of the mini UAV 
+category. The UAV noise was recorded by microphones. These data were post-processed and evaluated 
+according to the noise level of the background. 
+The experiment condition was as follows: 
+• 
+climate zone and place: temperate; Czech Republic; 
+• 
+weather and temperature: sunny, 5 °C; 
+• 
+wind speed: 4 ms-1; 
+• 
+humidity: 70%; 
+• 
+background noise level: 55 dB (measured by SONY F-V120 device); 
+• 
+UAV distance from the sensor post: 8 m; 
+• 
+UAV flight altitude: 5 m AGL; 
+• 
+flight method: 
+o 
+stabilized altitude hold (constant motor RPM); 
+o 
+manoeuvre (variable motor RPM). 
+Noise data were acquired by the SONY F-V120 microphone and post-processed in MATLAB r2011a. 
+During post processing, data were transformed from time to frequency domain. 
+3.0 RESULTS 
+The main aim of the previous experiments, related study and then this paper was to verify, clarify, and 
+summarize the real-time detection of commercial drones. Real-time UAV detection is essential for possible 
+counter-action or elimination. Human senses without technical devices are the least effective method of 
+detection. However, in a terminal phase of UAV flight, human senses are usually the main means for 
+weapon aiming and drone elimination. 
+The first detection sentinel line is usually executed by X-band radars, which can provide early warnings. The 
+effectivity of this kind of system significantly depends on the skills and training of radar operators’ crew. 
+However, the availability and usage of radar are limited, and radars are used mostly by military or air traffic 
+control organizations. At present, several studies about those methods have been published, and the research 
+is in progress [33], [34], [35], [36]. 
+The average RCS of the evaluated UAVs was in the range from 0.05 to 0.2 m2 (in certain directions, the 
+value of the RCS peak was 0.5 - 0.75 m2). Measured values correlate with values from similar experimental 
+measures [37].  
+Fig 14 represents the illustrational example of RCS directional diagram.
+
+[Page 9 / 16 | chars: 1399]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 9 
+ 
+Figure 14: RCS directional diagram: DJI Phantom 4. 
+Radars, which are currently in operational use, are usually able to find a flying UAV (made “scan”), but they 
+are not able to “track” this type of target continuously, especially at longer distances, or can only do so for 
+a limited time, intermittently, with interruptions, etc. The probability of detection therefore depends on the 
+target RCS, terrain configuration, and other aspects. Generally, we can say, that radar and IR detection is 
+possible at distances of units kilometres. 
+Acoustic detection is strongly depending on the distance from a signal source and on the background noise 
+level as well.  
+For example, at the given distance, the acoustic signal level of the quadcopter was 72 dB, and that of the 
+hexacopter was 92 dB. The frequency peaks for the quadcopter were 22.86, 302, 969, 2113, 2551, 3756, and 
+5884 Hz, and those for the hexacopter were 2985, 82.18, 157, 464, 8800, and 9605 Hz. The noise frequency 
+spectrum of hexacopter is shown in the Fig. 15. 
+ 
+Figure 15: Hexacopter noise frequency spectrum. 
+General results of small UAV optical visibility (typal DJI Phantom 2) by human sight are possible to be 
+describe as follows: 
+• 
+100 m: The UAV is visible against a sky background and against an urban (forest) background with 
+minimal effort.
+
+[Page 10 / 16 | chars: 1663]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 10 
+STO-MP-MSG-SET-183 
+• 
+200 m: The UAV with no motion is hardly visible against an urban (forest) background; however, 
+during motion with low contrast, the UAV is visible with some effort; against the sky background the UAV 
+is visible. 
+• 
+300 m: The UAV is visible during motion with a high amount of effort against the sky background. 
+With knowledge of the probable position, it is visible against the urban (forest) background.  
+• 
+400 m: The UAV is visible during motion with a high amount of effort against the sky background. 
+With knowledge of the probable position, it is visible against the urban (forest) background. 
+• 
+500 m: The UAV is visible with a very high amount of effort and with knowledge of the probable 
+position against the sky background (with no clouds).  
+• 
+>500 m: 
+The UAV is almost invisible during motion. Against the sky background, it is 
+possible to detect the UAV, but persistent tracking is impossible. 
+Visibility results are graphically presented in the Figure 16. The mean value of each observation was 
+processed via fuzzy scoring. Blue marks represent the visibility against the sky background of the sky, 
+orange stands for the urban (forest) background, and grey represents the visibility on a dry grass background. 
+We concluded that the distance of effective UAV detection by human sight is about 200–300 m, which is 
+very close to the IR detection limits when using commercial IR detection devices. 
+The overview of the all results of the performed experiments is depicted in the Fig. 17. 
+ 
+Figure 16: . Linear regression of the results of subjective visibility.
+
+[Page 11 / 16 | chars: 2646]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 11 
+ 
+Figure 17:Overview of the results of the performed experiments. 
+ 
+4.0 DISCUSSION AND FUTURE DIRECTIONS 
+The results of the study show that X-band radars are usually able to detect LSS targets (micro and mini 
+UAV) reliably at distances about 3000 m. However, detection is mostly in the form of radar scans or plots 
+and not radar tracks. Based on these results, we recommend focusing on multispectral detection with a 
+combination of radar, IR, visual, acoustic, radio, etc. Initial detection (scan, plot) is executed by X-band 
+radar (or a radio receiver), and more precise detection at closer distances is achieved by other methods. Once 
+initial detection and localization of the UAV is achieved, further action can be taken (lethal or non-lethal 
+elimination). 
+Authors performed several experiments with standard radars (not specialized to detect small RCS objects), 
+however we do not have mandate to publish them in this paper. Radar, that is not primarily designated to 
+detect small RCS objects, could be used just as the early warning or alarm device. This early warning may be 
+triggered through the scan or several scans or short track on the radar scope before the track disappear due to 
+the radar threshold parameters. Authors admit that it would not be effective to implement radars, which are 
+not designed to detect small RCSs, to multi-sensor fields. Authors also think that producers should work on 
+innovations to cope with such disadvantage. There are some radars now, for example C-RAM radar Arthur, 
+which would be suitable for UAV detection when innovated. 
+Experiments in the IR, visual, and acoustic domains achieved approximately equal detection limits. All of 
+these domains (IR, visual, and acoustic) are appropriate for terminal UAV detection at closer distances (up to 
+300 m). However, this distance is usually not sufficient for the non-autonomous reaction procedures (a UAV 
+with a flight speed of about 10–15 ms-1 can pass this distance within 20–30 s). For this reason, we 
+recommend a C-UAV approach and the implementation of autonomous defence systems with a maximum 
+reaction time up to 20 s [42], [43].  
+For the crucial objects, complex defence a combination of various types of sensors and the corresponding 
+real-time data exchange with a command and control system (C2) or with a surveillance control system is 
+necessary in non-military applications. Such a system autonomously fuses the data from multiple sensors and 
+evaluates possible threats. The operator (the person in the loop concept) chooses which effectors should be
+
+[Page 12 / 16 | chars: 2817]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 12 
+STO-MP-MSG-SET-183 
+used. In the case of a lack of time or during a high-density attack, effector use can also be decided 
+autonomously, but lethal elimination (weapons) should be controlled only by a human operator (for ethical 
+and safety reasons) to avoid friendly fire or collateral damage. 
+Research on the C-UAV domain is now focused on active defence against the UAV. There are works on 
+lethal or nonlethal elimination by AD C-UAVs [19], [44], but this research is still in progress. This topic has 
+been discussed and researched intensively [45], [46], [47], [48]. These reflect recent UAV incidents 
+(attacks). The final step of this research will consist of result fusion (detection and elimination) and 
+implementation into real systems. 
+5.0 CONCLUSIONS 
+This paper covers several years of research and supports the design concept of future defence and protection 
+systems against UAS threats. Together with the development of radar for LSS targets, there is a great 
+potential for the development of robust and reliable systems that are able to detect and eliminate UAV 
+threats. The key attribute of the suggested system is its modularity. Potential users (military, air traffic 
+control, security services, etc.) can adjust the system to their needs. However, many conceptual and technical 
+aspects of the C-UAV systems still need to be concerned. Of course, a general solution that reflects all 
+possible situations does not exist - hence the phrase, “there is no silver bullet.” 
+Hypothesis, confirmed by this study defines a detection area of up to 2000 m and a terminal area of up to 300 
+m around a guarded location. These are key areas for sensor network installation and for the use of counter 
+UAS equipment - effectors. 
+The last phase of the work will consist of an analysis of current detection methods of small-sized targets, 
+from mini or micro UAS categories, across the entire alert system. This last step concludes the logical link 
+among the three basic pillars of air defence—sensors, assessment systems (command and control systems), 
+and effectors (lethal or nonlethal engagement against UAS). 
+ACKNOWLEDGEMENTS 
+The work presented in this article was supported by the Czech Republic Ministry of Defence—the 
+University of Defence Brno development program “Research of sensor and control systems to achieve 
+battlefield information superiority,” DZRO FVT ELEKTRO. 
+We thank members of the Department of Weapons and Ammunition and the Department of Communication 
+Technologies, Electronic Warfare and Radiolocation, University of Defence, for the special equipment 
+provided and the technical support. We would also like to express our gratitude to Mr. Pavel Šedivý (Retia 
+Inc.) for cooperating during the research and experiments.
+
+[Page 13 / 16 | chars: 2921]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 13 
+REFERENCES 
+[1] Kratky, M.; Farlik, J. Countering UAVs - the mover of research in military technology. Def. Sci. J. 
+2018. 
+[2] Card, B.A. Terror from Above - How the Commercial Unmanned Aerial Vehicle Revolution Threatens 
+the US Threshold. Air Sp. Power J. 2018, Spring 201, 16. 
+[3] Yemen soldiers killed in Houthi drone attack on base. bbc.com 2019, 1. 
+[4] Liam The world’s leading combat UAVs available online: https://www.airforce-
+technology.com/features/featureworlds-leading-combat-uav-unmanned-aerial-vehicles/ (accessed on 
+Jan 23, 2019). 
+[5] Glade, D. Unmanned Aerial Vehicles: Implications for Military Operations; 2000; 
+[6] Connor, R. The Predator, a Drone That Transformed Military Combat Available online: 
+https://airandspace.si.edu/stories/editorial/predator-drone-transformed-military-combat. 
+[7] Michel, A.H. Counter-Drone Systems Available online: 
+https://dronecenter.bard.edu/files/2018/02/CSD-Counter-Drone-Systems-Report.pdf. 
+[8] Zhang, M. Formation flight and collision avoidance for multiple UAVs based on modified tentacle 
+algorithm in unstructured environments. PLoS One 2017, 12, e0182006. 
+[9] Devos, A.; Ebeid, E.; Manoonpong, P. Development of autonomous drones for adaptive obstacle 
+avoidance in real world environments. In Proceedings of the 21st Euromicro Conference on Digital 
+System Design, DSD 2018; 2018. 
+[10] Vetrella, A.R.; Fasano, G. Cooperative UAV navigation under nominal GPS coverage and in GPS-
+challenging environments. In Proceedings of the 2016 IEEE 2nd International Forum on Research and 
+Technologies for Society and Industry Leveraging a better tomorrow (RTSI); IEEE, 2016; pp. 1–5. 
+[11] Kallenborn, Z. Modern War Institute. 2018, p. 1. 
+[12] Majd, A.; Ashraf, A.; Troubitsyna, E.; Daneshtalab, M. Using Optimization, Learning, and Drone 
+Reflexes to Maximize Safety of Swarms of Drones. In Proceedings of the 2018 IEEE Congress on 
+Evolutionary Computation, CEC 2018 - Proceedings; 2018. 
+[13] Saha, A.; Kumar, A.; Sahu, A.K. Face Recognition Drone. In Proceedings of the 2018 3rd International 
+Conference for Convergence in Technology (I2CT); IEEE: Pune, India, 2018; pp. 1–5. 
+[14] Tzelepi, M.; Tefas, A. Human crowd detection for drone flight safety using convolutional neural 
+networks. In Proceedings of the 2017 25th European Signal Processing Conference (EUSIPCO); IEEE, 
+2017; pp. 743–747. 
+[15] Holubnychyi, A.G.; Konakhovych, G.F. Spread-spectrum control channels for UAV based on the 
+generalized binary Barker sequences. In Proceedings of the 2013 IEEE 2nd International Conference 
+Actual Problems of Unmanned Air Vehicles Developments Proceedings (APUAVD); IEEE, 2013; pp. 
+99–103. 
+[16] Shi, Y.; Enami, R.; Wensowitch, J.; Camp, J. Measurement-based characterization of LOS and NLOS 
+drone-to-ground channels. In Proceedings of the 2018 IEEE Wireless Communications and
+
+[Page 14 / 16 | chars: 2855]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 14 
+STO-MP-MSG-SET-183 
+Networking Conference (WCNC); IEEE, 2018; pp. 1–6. 
+[17] Fengqing, Z.; Quancun, K. Distributed Remote Control System of UAV Based on Man-in-loop Real-
+time Operation. In Proceedings of the 2007 Chinese Control Conference; IEEE, 2006; pp. 119–122. 
+[18] Sandle, P. (Reuters) London drone attack lays bare airport vulnerabilities Available online: 
+https://www.reuters.com/article/us-britain-drones-gatwick-technology/catch-me-if-you-can-london-
+drone-attack-lays-bare-airport-vulnerabilities-idUSKCN1OK1VB (accessed on Dec 25, 2018).. 
+[19] Kratky, M.; Minarik, V. The non-destructive methods of fight against UAVs. In Proceedings of the 
+ICMT 2017 - 6th International Conference on Military Technologies; 2017. 
+[20] Dedrone Inc. Worldwide Drone Incidents Available online: 
+https://www.dedrone.com/resources/incidents/all?291d05c4_page=1 (accessed on Jan 4, 2019).. 
+[21] Davies, G.; Horton, H.; Joshi, A. Gatwick drone chaos continues into a third day Available online: 
+https://www.telegraph.co.uk/news/2018/12/20/gatwick-chaos-drones-cause-flights-cancelled-live-
+updates/ (accessed on Jan 4, 2019).. 
+[22] Counter drone systems Available online: https://www.qinetiq.com/what-we-do/c4isr/obsidian. 
+[23] Fuxa, L. Detection of the UAVs as the object of the GBAD, University of Defence, 2015. 
+[24] Li, X.; Wang, J. The definition of effective emissivity of land surface at the scale of remote sensing 
+pixels. Chinese Sci. Bull. 1999. 
+[25] Časar, J.; Fischer, J.; Starý, V. Measuring of Copter Motor Power Characteristics. Cybern. Lett. 2015, 
+I. 
+[26] NATO Standardization Agreement STANAG 4347 Available online: 
+http://everyspec.com/NATO/NATO-STANAG/STANAG_4347_13663/ (accessed on Jan 18, 2019).. 
+[27] Retia Co. ReTOB Available online: https://www.military-retia.eu/en/retob (accessed on Dec 18, 
+2018).. 
+[28] CNet Leica Geovid binoculars Available online: https://www.cnet.com/products/leica-geovid-
+binoculars-7-x-42-bd-series/ (accessed on Dec 18, 2018).. 
+[29] Nikon D5100. Available online: https://imaging.nikon.com/lineup/dslr/d5100/ (accessed on Dec 18, 
+2018). 
+[30] Panasonic HD Video Camera Available online: https://static.bhphotovideo.com/lit_files/113475.pdf. 
+[31] NPZoptics Anti-Aircraft Binoculars TZK Available online: 
+http://www.npzoptics.com/catalog/day_observant_devices/tzk/ (accessed on Dec 18, 2018).. 
+[32] Stary, V.; Krivanek, V.; Stefek, A. Optical detection methods for laser guided unmanned devices. J. 
+Commun. Networks 2018, 20, 464–472. 
+[33] Chang, E.; Sturdivant, R.L.; Quilici, B.S.; Patigler, E.W. Micro and mini drone classification based on 
+coherent radar imaging. In Proceedings of the IEEE Radio and Wireless Symposium, RWS; 2018. 
+[34] Jian, M.; Lu, Z.; Chen, V.C. Drone detection and tracking based on phase-interferometric Doppler
+
+[Page 15 / 16 | chars: 3408]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+STO-MP-MSG-SET-183 
+12 - 15 
+radar. In Proceedings of the 2018 IEEE Radar Conference, RadarConf 2018; 2018. 
+[35] Yamamoto, N.; Uchida, N. Improvement of image processing for a collaborative security flight control 
+system with multiple drones. In Proceedings of the Proceedings - 32nd IEEE International Conference 
+on Advanced Information Networking and Applications Workshops, WAINA 2018; 2018. 
+[36] Liu, Y.; Wan, X.; Tang, H.; Yi, J.; Cheng, Y.; Zhang, X. Digital television based passive bistatic radar 
+system for drone detection. In Proceedings of the 2017 IEEE Radar Conference, RadarConf 2017; 
+2017. 
+[37] Peto, T.; Bilicz, S.; Szucs, L.; Gyimóthy, S.; Pávó, J. The Radar Cross Section of small propellers on 
+Unmanned Aerial Vehicles. In Proceedings of the 2016 10th European Conference on Antennas and 
+Propagation, EuCAP 2016; 2016. 
+[38] Wagoner, A.R.; Schrader, D.K.; Matson, E.T. Towards a vision-based targeting system for counter 
+unmanned aerial systems (CUAS). In Proceedings of the 2017 IEEE International Conference on 
+Computational Intelligence and Virtual Environments for Measurement Systems and Applications, 
+CIVEMSA 2017 - Proceedings; 2017. 
+[39] Casasanta, G.; Petenko, I.; Mastrantonio, G.; Bucci, S.; Conidi, A.; Di Lellis, A.M.; Sfoglietti, G.; 
+Argentini, S. Consumer Drones Targeting by Sodar (Acoustic Radar). IEEE Geosci. Remote Sens. 
+Lett. 2018. 
+[40] Shi, L.; Ahmad, I.; He, Y.; Chang, K. Hidden Markov model based drone sound recognition using 
+MFCC technique in practical noisy environments. J. Commun. Networks 2018. 
+[41] Cho, S.; Kim, D.H.; Park, Y.W. Learning drone-control actions in surveillance videos. In Proceedings 
+of the International Conference on Control, Automation and Systems; 2017. 
+[42] Goppert, J.M.; Wagoner, A.R.; Schrader, D.K.; Ghose, S.; Kim, Y.; Park, S.; Gomez, M.; Matson, 
+E.T.; Hopmeier, M.J. Realization of an autonomous, air-to-air Counter Unmanned Aerial System 
+(CUAS). In Proceedings of the Proceedings - 2017 1st IEEE International Conference on Robotic 
+Computing, IRC 2017; 2017. 
+[43] Lee, D. rRoyr; Gyu La, W.; Kim, H. Drone Detection and Identification System using Artificial 
+Intelligence. In Proceedings of the 2018 International Conference on Information and Communication 
+Technology Convergence (ICTC); IEEE, 2018; pp. 1131–1133. 
+[44] Farlik, J.; Kratky, M.; Casar, J. Detectability and jamming of small UAVs by commercially available 
+low-cost means. In Proceedings of the IEEE International Conference on Communications; 2016. 
+[45] Donatti, M.; Frazatto, F.; Manera, L.; Teramoto, T.; Neger, E. Radio frequency spoofing system to take 
+over law-breaking drones. In Proceedings of the LAMC 2016 - IEEE MTT-S Latin America 
+Microwave Conference; 2017. 
+[46] Multerer, T.; Ganis, A.; Prechtel, U.; Miralles, E.; Meusling, A.; Mietzner, J.; Vossiek, M.; Loghi, M.; 
+Ziegler, V. Low-cost jamming system against small drones using a 3D MIMO radar based tracking. In 
+Proceedings of the European Microwave Week 2017: “A Prime Year for a Prime Event”, EuMW 2017 
+- Conference Proceedings; 14th European Microwave Conference, EURAD 2017; 2018. 
+[47] Parlin, K.; Alam, M.M.; Le Moullec, Y. Jamming of UAV remote control systems using software 
+defined radio. In Proceedings of the 2018 International Conference on Military Communications and 
+Information Systems, ICMCIS 2018; 2018.
+
+[Page 16 / 16 | chars: 436]
+--------------------------------------------------------------------------------
+
+Commercial UAVs Multispectral Detection 
+12 - 16 
+STO-MP-MSG-SET-183 
+[48] Yu, J.; Cho, B.M.; Park, K.J.; Kim, H. Simultaneous Attack on Drone and GCS in UAV Systems. In 
+Proceedings of the International Conference on Ubiquitous and Future Networks, ICUFN; 2018. 
+[49] FARLÍK, Jan, KRÁTKÝ, Miroslav, ČASAR, Josef, STARÝ, Vadim. Multispectral Detection of 
+Commercial Unmanned Aerial Vehicles. Sensors, 2019, 19(7), 1-28. ISSN 1424-8220.
+

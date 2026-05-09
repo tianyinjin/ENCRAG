@@ -1,0 +1,51 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 24 / 28
+
+================================================================================
+
+24 
+ 
+ 
+d’identifier les paires avec une forte proximité graphique et une forte proximité sémantique considérées 
+comme du copy-pasta, les paires avec une forte proximité sémantique, une même langue et une moindre 
+proximité graphique comme de la reformulation, et enfin, les paires avec une forte proximité sémantique, 
+une moindre proximité graphique et une langue différente comme de la traduction. Cette méthode 
+permet de détecter des groupes de messages qui sont anormalement similaires, et peuvent donc avoir été 
+dupliqués de manière inauthentique.  
+Dans le cadre du Sommet pour l’action sur l’IA, organisé par la France les 10 et 11 février 2025, VIGINUM 
+publie pour la première fois sous une licence libre la bibliothèque logicielle D3lta58 , afin de permettre aux 
+différents acteurs de l’écosystème impliqués dans la lutte contre les manipulations de l’information de 
+réutiliser et d’améliorer cette méthode.  
+iv. Détection de bots  
+L’utilisation non déclarée de comptes automatisés (ou bots59) est un marqueur d’inauthenticité. Au-delà 
+d’heuristiques de détection relativement simples, pertinentes pour des bots à régularité de comportement 
+(heures et fréquences des publications, publications similaires, …), l’IA peut être utilisée pour classifier 
+d’autres types de comptes comme des bots. Le Datalab a ainsi construit son propre classifieur de bots sur 
+X en s’appuyant sur l’analyse du réseau de followers et de following d’un compte donné60. 
+v. Détection de contenus générés par IA 
+Face à l’utilisation croissante de l’IA générative par les acteurs de la menace informationnelle pour créer 
+du contenu, les acteurs de la lutte contre les manipulations de l’information doivent se doter d’outils leur 
+permettant de détecter les contenus synthétiques, soit pour être en mesure de distinguer les contenus 
+synthétiques de contenus authentiques, soit pour caractériser le mode opératoire utilisé. A l’instar des 
+outils d’IA générative, les détecteurs de contenus synthétiques sont eux-mêmes des outils utilisant des 
+méthodes d’IA. Par exemple, la méthode Binocular, qui permet de détecter des contenus générés par des 
+grands modèles de langage, s’appuie elle-même sur des grands modèles de langage pour mesurer la 
+probabilité qu’un texte ait été écrit par un humain ou une IA61. 
+De nombreux détecteurs de contenus synthétiques existent, avec des performances généralement 
+variables en fonction des types de contenus analysés. Cela implique souvent pour les utilisateurs de tester 
+de multiples détecteurs pour déterminer le caractère synthétique d’un contenu donné. Aussi, en vue de 
+simplifier le processus de détection de textes et d’images synthétiques pour le grand public, VIGINUM et 
+le PEReN ont joint leurs compétences pour inviter chercheurs et experts à participer au développement 
+d’un commun numérique consistant en un méta-détecteur open-source de contenus artificiels, construit 
+sur la base d’exemples réalistes observés lors de campagnes de manipulation de l’information62. 
+ 
+                                                        
+58 https://github.com/VIGINUM-FR/D3lta  
+59 Bot : programme informatique automatisé pour simuler le comportement humain sur les réseaux sociaux. Un bot est capable de 
+faire des publications, de laisser des commentaires, de partager ou d’aimer d’autres publications. 
+60 L’approche s’appuie sur une méthode de réseaux de neurones convolutifs sur graphes hétérogènes développée par Feng et al., 
+2021, « BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks », arXiv:2106.13092 [cs.SI] 
+61 Hans, A., Schwarzschild, A., Cherepanova, V., Kazemi, H., Saha, A., Goldblum, M., ... & Goldstein, T. (2024). Spotting llms with 
+binoculars: Zero-shot detection of machine-generated text. arXiv preprint arXiv:2401.12070. 
+62 https://code.peren.gouv.fr/open-source/ai-action-summit

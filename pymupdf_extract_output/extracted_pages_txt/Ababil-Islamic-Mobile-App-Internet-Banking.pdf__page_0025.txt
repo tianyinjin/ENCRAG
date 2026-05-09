@@ -1,0 +1,43 @@
+Source file: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Relative path: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Page: 25 / 27
+
+================================================================================
+
+© Copyright 2018 
+❖ Security: 
+o Https 
+▪ 
+SSL 3.0 to mitigate Man in the Middle attack 
+o Certificate Selector 
+▪ 
+Support any certificate authority (CA) 
+o Supported certificate formats will be 
+▪ 
+Token (USB Token, Smart card) 
+▪ 
+.pfx (PKCS # 12) 
+▪ 
+.cer (Certificate format) 
+▪ 
+.der (DER encoded bytes) 
+o Browser applet will select a certificate from local location or from Token. 
+o User can select certificate from Hard Disk Driver (HDD), USB token, and smart 
+card with secure element. 
+❖ Authenticity: 
+o Digital signature with RSA (2048 bits) and SHA-256 
+o During transaction, a certificate selector window will open and user will select the 
+certificate. 
+o Browser applet will use private key to create digital signature.  
+o Signature will pass to server using PKCS#7 formats.  
+o Server will get this format and verify that 
+ 
+❖ Confidentiality: 
+o AES 128 bits for data encryption 
+o User will select certificate using certificate selector.  
+o Browser applet will generate a secret key and hence encrypt data and then prepare 
+PKCS#7 to send sensitive transactional data. 
+ 
+❖ Integrity: 
+o HMAC with SHA-256 for digesting 
+o Prepare PKCS#7 using browser applet to send to server

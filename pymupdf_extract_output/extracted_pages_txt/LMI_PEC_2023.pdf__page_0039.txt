@@ -1,0 +1,97 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 39 / 68
+
+================================================================================
+
+39
+manipulation des identités dans le contrôle collaboratif 
+d’une infrastructure critique. Imaginez un scénario dans 
+lequel un groupe d’individus est responsable du contrôle 
+et de la surveillance à distance d’une infrastructure 
+critique, telle qu’une centrale nucléaire ou un barrage. 
+Si un Deep Fake est utilisé pour usurper l’identité de 
+l’une des personnes impliquées dans la collaboration, 
+les conséquences pourraient être catastrophiques. 
+Par exemple, la personne malicieusement authentifiée 
+pourrait manipuler les systèmes de contrôle, perturber 
+le fonctionnement normal de l’infrastructure critique 
+ou causer des dommages encore plus importants.
+En outre, le Deep Fake pourrait également abuser des 
+relations de confiance pour convaincre les autres de 
+fausses informations, obtenir l’accès à des informations 
+sensibles ou manipuler le comportement des autres. 
+Parce que le Deep Fake donne l’impression d’être 
+un membre authentique et digne de confiance de la 
+collaboration, les autres sont plus susceptibles de croire 
+les informations ou les instructions de cette personne.
+ 
+L’authenticité et la fiabilité de l’identité de la personne 
+sont d’une importance capitale, car toute manipulation 
+pourrait avoir de graves conséquences. Cela souligne 
+l’importance non seulement de développer des 
+méthodes d’identification robustes, mais aussi 
+d’accroître la sensibilisation et la compréhension des 
+risques potentiels des “Deep Fakes” dans les scénarios 
+de contrôle à distance basés sur la RV. Ces mesures 
+permettront d’atténuer la menace des “Deep Fakes” 
+et de garantir la fiabilité et la sécurité des interfaces 
+de commande à distance basées sur la RV(2).
+ 
+Pour atténuer ces risques, il faut mettre au point 
+des méthodes d’identification robustes capables de 
+distinguer avec précision les Deep Fakes des personnes 
+authentiques(3). Il existe actuellement un certain nombre 
+d’approches, notamment celles qui analysent les signaux 
+visuels et sonores, ainsi que celles qui utilisent des 
+algorithmes d’apprentissage automatique pour détecter 
+les anomalies dans les médias synthétiques. Parmi les 
+méthodes les plus prometteuses figurent l’analyse des 
+mouvements et des expressions du visage, la modulation 
+de la voix et l’utilisation de réseaux neuronaux profonds 
+pour détecter des schémas dans les médias synthétiques.
+Malgré ces progrès, les deep fakes sont de plus en plus 
+sophistiqués et il reste beaucoup à faire pour que les 
+méthodes de détection des deep fakes restent efficaces 
+face à cette menace en constante évolution. Le défi de la 
+détection des deep fakes devient encore plus grand dans 
+le contexte des interfaces de commande à distance basées 
+sur la RV, où la dimension supplémentaire de l’interactivité 
+et les environnements visuels et sonores complexes 
+peuvent rendre la détection des deep fakes plus difficile.
+Dans de nombreux systèmes de RV actuels, tels que 
+le Metaverse de Meta, les personnes sont représentées 
+par des avatars, ce qui peut rendre difficile la 
+détermination précise de leur identité. Contrairement 
+à l’interaction en face à face, les interfaces de RV ne 
+donnent pas accès à des indices physiques tels que 
+le langage corporel et les expressions faciales qui 
+peuvent aider à authentifier l’identité d’une personne.
+ 
+Les systèmes basés sur des caméras et des sons en direct 
+peuvent partiellement atténuer ce problème. Toutefois, 
+les interfaces de RV peuvent également permettre aux 
+individus de manipuler ou de déguiser plus facilement 
+leur identité. Les informations sensorielles limitées 
+disponibles dans la RV signifient également qu’il est 
+plus difficile de détecter des contrefaçons profondes.
+Une autre approche de l’authentification des utilisateurs 
+humains dans un contexte de collaboration en RV consiste 
+à utiliser une approche hybride qui exploite plusieurs 
+facteurs. En combinant plusieurs sources de données, il 
+est plus difficile pour les acteurs malveillants d’usurper 
+l’identité d’un utilisateur réel, car ils doivent manipuler 
+plusieurs facteurs pour éviter d’être détectés. Par exemple, 
+les données d’accélération et la résistance de la peau d’une 
+personne pourraient être combinées avec les mouvements 
+oculaires et les données de température pour créer une 
+“empreinte digitale” unique pour chaque utilisateur.
+ 
+En résumé, l’utilisation d’interfaces de réalité virtuelle 
+(RV) pour le contrôle à distance dans les applications 
+d’infrastructures critiques pose un défi majeur pour 
+l’authentification des utilisateurs humains. Les “deep 
+fakes” représentent un risque particulièrement 
+important dans ce contexte, car ils peuvent être 
+utilisés pour usurper l’identité d’utilisateurs réels et 
+manipuler le comportement d’autres personnes.

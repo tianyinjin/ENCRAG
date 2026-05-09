@@ -1,0 +1,590 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page count: 14
+Extracted pages: 14
+
+================================================================================
+
+[Page 1 / 14 | chars: 3555]
+--------------------------------------------------------------------------------
+
+STANAG 4586 –Standard Interfaces of UAV Control System (UCS) for 
+NATO UAV Interoperability 
+Mário Monteiro Marques 
+Escola Naval - Afeite 
+2810 – 001 Almada 
+PORTUGAL 
+mario.monteiro.marques@marinha.pt 
+ABSTRACT  
+Unmanned Aerial Vehicles (UAV) are changing the way military and civil operations are carried out. New 
+types of vehicles, from different providers, each with its own specifications and characteristic, are 
+continuously being developed. This diversity leads to an increased level of difficulty in terms of 
+interoperability. The objective of STANAG 4586 is to specify the interfaces that shall be implemented in 
+order to achieve the required Level of Interoperability (LOI) between different UAV systems, so as to meet 
+the requirements of the concept of operations (CONOPS) defined by NATO countries. STANAG 4586 
+establishes a functional architecture for Unmanned Aerial Vehicle Control Systems (UCS) with the following 
+elements and interfaces: Air Vehicle (AV), Vehicle Specific Module (VSM), Data Link Interface (DLI), Core 
+UCS (CUCS), Command and Control Interface (CCI), Human Computer Interface (HCI), and Command 
+and Control Interface Specific Module (CCISM).  Besides STANAG 4586, there are already a number of 
+existing or emerging Standardization Agreements (STANAGs) that are applicable to UAV´s. They provide 
+standards for interoperable data link (STANAG 7085), digital sensor data between the payload and the UAV 
+element of the data link (STANAG 7023, 4545, 4607, and 4609), and for on-board recording device(s) 
+(STANAG 7024 and 4575).  Although not providing a complete solution for interoperability, STANAG 4586 
+is certainly a crucial step taken in that direction, providing a roadmap for future developments. 
+1.0 INTRODUCTION 
+During the last years, Unmanned Aircraft Vehicles (UAV) became a niche in continuous expansion within 
+the aerospace market. With an investment that may exceed billions of dollars by 2015, it is predictable that 
+the next generation will possess even more capabilities than today’s [1].  
+The UAV´s are changing the way military and civil operations are carried out. This technology is gaining 
+increasing awareness and promises to bring a higher level of efficiency to tasks such as data and image 
+acquisition of areas of interest, localization and tracking of specific targets (target detection, classification 
+and identification), map building, communication relays, pipeline surveying, border patrolling, military 
+operations, policing duties, persistent wide area surveillance, search and rescue, and traffic surveillance. 
+Therefore, the use of such systems provides a credible alternative to manned aircraft. They operate in 
+conditions more dangerous with more autonomy and can be very cost-effective when compared to manned 
+aircraft.  
+A North Atlantic Treaty Organisation (NATO) Interoperability Design Study was conducted in the early 
+1990s to investigate ways to enable interoperability of electronic systems. One of the approaches considered 
+was to mandate that all nations procure and operate the same systems. However, it was emphasised at this 
+time that NATO could not mandate interoperability of national reconnaissance systems, but that 
+interoperability among national systems would be purely voluntary. It was not considered a good idea to 
+have one contractor monopolise the reconnaissance systems in NATO. Instead, a comparison was drawn 
+between communications between reconnaissance systems and computer-to-computer communications. By 
+STO-EN-SCI-271 
+3 - 1
+
+[Page 2 / 14 | chars: 1774]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+carefully defining an interface between two computers we can be assured of a successful exchange of data 
+between them [2]. 
+The evolution leads to the development of even more types of vehicles, from even more different providers, 
+each with its own specifications and characteristics. This diversity leads to an increased level of difficulty in 
+terms of guaranteed interoperability in teams of heterogeneous vehicles [3]. Most of the times the current 
+operations with multiple vehicles and with multiple countries are as seen in Figure 1.  
+ 
+ 
+Figure 1: Current UAV´s Operations Example [4]. 
+ 
+The UAV´s have become valuable assets in helping Joint Force Commanders (JFCs) meet a variety of 
+theatre, operational and tactical objectives. The optimum synergy among the various national UAV´s 
+deployed requires close co-ordination and the ability to quickly task available UAV´s assets, the ability to 
+mutually control the UAV´s and their payloads, as well as rapid dissemination of the resultant information at 
+different command echelons. This requires the employed UAV´s to be interoperable [4]. 
+Often, UAV’s are used for reconnaissance missions, which make them the predominant collection systems 
+across virtually every echelon of command. As a consequence, the need to coordinate, share and integrate 
+the UAV into the larger war fighting community is becoming painfully apparent [5]. 
+UAV can be divided into these five different elements: vehicle (propulsion unit and avionics unit), payload 
+(mission payload and payload recorder), data link (vehicle data terminal and control data terminal), UAV 
+Control System (UCS) and launch/recovery, as shown in Figure 2. 
+3 - 2 
+STO-EN-SCI-271
+
+[Page 3 / 14 | chars: 2071]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+Figure 2: UAV System Elements [4]. 
+ 
+Nowadays cooperative missions are in great demand. Missions using heterogeneous vehicles to perform 
+complex operations are demanding more complex infrastructures to support them. There are many issues to 
+address when working with different kinds of vehicles from different vendors, different capabilities and 
+more important different interfaces to the end user. Interoperability is one of the most problematic issues. 
+This is because there is no common acceptable interface. There are several interoperability efforts at several 
+stages of development, but still not one widely accepted and used [6].  
+1.1 
+Standard and interoperability 
+International Organization for Standardization (ISO) defines a standard as a set of “requirements, 
+specifications, guidelines or characteristics that can be used consistently to ensure that materials, products, 
+processes and services are fit for their purpose” [7]. To ensure an appropriate level of development, 
+advantage should be taken from existing standardization approaches while avoiding the risk of inheriting 
+undesirable or restrictive complexity. The existing standards for interoperability are a mean to provide rules 
+for the robots inner/outer communications. They define data and message types, operation modes and 
+optionally transport protocols.  
+Interoperability can be defined as the ability of robots to operate in synergy to the execution of assigned 
+missions and the capability of diverse systems and organizations to work together, sharing data, intelligence 
+and resources. The use of interoperability standards implies a secondary advantage. It also facilitates the 
+compatibility with existing or future platforms and Command, Control and Intelligence (C2I) systems from 
+other providers. Interoperability standards provide a common framework, working as the “glue” for 
+unmanned systems. They minimize the integration time and development costs by avoiding custom 
+STO-EN-SCI-271 
+3 - 3
+
+[Page 4 / 14 | chars: 3821]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+implementations. A common interface helps to easily integrate new technologies with minor or no 
+modifications to the existing systems, and to expand existing systems with new sensors or capabilities. 
+1.2 
+NATO Standardization Agreement (STANAG) 
+Shortly after the establishment of NATO, it was recognized that the co-ordinated development of policies, 
+procedures and equipment of the member nations held great potential for enhancing the military 
+effectiveness and efficiency of the fledgling Alliance. As a result, the Military Agency for Standardization 
+(MAS) was established in London in January 1951 for the purpose of fostering the standardization of 
+operational and administrative practices and war material [8].  
+In 1971 the MAS moved to NATO Headquarters in Brussels, Belgium, where, following the 1998-2000 
+review of the NATO Standardization Process, it was combined with the Office of NATO Standardization 
+(which addressed broader standardization issues such as identifying overall Alliance standardization goals 
+and co-ordination between operational and material activities). The Charter of the resultant NATO 
+Standardization Agency (NSA), approved in August 2001, gave the NSA expanded responsibilities for the 
+co-ordination of standardization activities within NATO [8].  
+In July 2014, as a result of the NATO Agencies Reform, the NSA became without change in its mission the 
+NATO Standardization Office (NSO). It is an integrated NATO Headquarters staff element, reporting to the 
+Military Committee and the Committee for Standardization [8]. 
+The STANAG (Standardisation Agreement) standards are published in English and French by NATO to 
+provide common military or technical procedures for NATO members. They define processes, procedures, 
+terms, and conditions for common procedures or equipment between the member countries of the alliance. 
+STANAGs also form the basis for technical interoperability between a wide variety of communication and 
+information systems (CIS). Some are publicly available in NATO's online library [8]. 
+2.0 STANAG 4586 
+In 1998, a NATO Specialist Team comprising members of government and industry (including CDL 
+Systems) began work on NATO Standardization Agreement 4586 (STANAG 4586), a document conceived 
+to standardize UCS interfaces to help enable UAV systems interoperability. STANAG 4586 Edition 1 was 
+completed in 2003 and ratified by the member countries by 2004, Edition 2 was promulgated in 2007 and 
+Edition 3 was promulgated in 2012 [4]. 
+STANAG 4586 is divided into two annexes: the first annex provides a glossary to support the second annex, 
+the second annex provides an overview of the communication architecture, which is supported by three 
+appendices: appendix B1 discusses the data link interface, appendix B2 discusses the command and 
+control interface (more specifically B2 covers the military architecture that connects the ground control 
+station with the military command hierarchy), appendix B3 discusses the Human and Computer Interfaces 
+(HCI) [4].  
+Current or “legacy” UAV´s have been designed and procured nationally and contain system elements that 
+are generally unique and system specific. They do not have standard interfaces between the system elements. 
+This results in a variety of non-interoperable “stovepipe” systems. Although commonality of hardware and 
+software would be a solution to achieve interoperability and may be desirable from an economic standpoint, 
+commonality is not mandatory [4]. 
+The objective of STANAG 4586 is to specify the interfaces that shall be implemented in order to achieve the 
+required Level of Interoperability (LOI) according to the defined concept of operations (CONOPS). This will 
+3 - 4 
+STO-EN-SCI-271
+
+[Page 5 / 14 | chars: 2926]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+be accomplished through implementing standard interfaces in the UCS to communicate with different UAVs 
+and their payloads, as well as with different Command, Control, Communication, Computers and 
+Intelligence (C4I) systems. The implementation of standard interfaces will also facilitate the integration of 
+components from different sources as well as the interoperability of legacy systems. Compliant UAV´s shall 
+be certified and will increase NATO joint flexibility through the sharing of assets [4].  
+The standards in STANAG 4586, which are identified as mandatory, shall be implemented as a whole in 
+order to achieve the required LOI. It is assumed that air safety regulations will require the certification of 
+systems, which result from combining the operation of assets from different UAV´s. Compliance with 
+STANAG 4586, will ease this process and likely UAV system combinations can be certified in advance. [4]. 
+On this basis, UAV´s that are compliant with STANAG 4586 will increase NATO Combined/Joint Service 
+flexibility and efficiency to meet mission objectives through the sharing of assets and common utilization of 
+information generated from UAV´s [4]. 
+2.1 
+Level of Interoperability 
+This standard also identifies five levels of interoperability (LOI) to accommodate operational requirements 
+[4]. The respective operational requirements and CONOPS will determine or drive the required LOI that the 
+specific UAV System will achieve. 
+• 
+Level 1: Indirect receipt and/or transmission of sensor product and associated metadata, for 
+example Key Length Value Metadata Elements from the UAV. 
+• 
+Level 2:  Direct receipt of sensor product data and associated metadata from the UAV. 
+• 
+Level 3: Control and monitoring of the UAV payload unless specified as monitor only. 
+• 
+Level 4: Control and monitoring of the UAV, unless specified as monitor only, less launch and 
+recovery. 
+• 
+Level 5: Control and monitoring of UAV launch and recovery unless specified as monitor only. 
+LOI 2 monitor is conditional on the type of payload (station) and the number of payloads (stations) 
+implemented onboard the UAV. It is also conditional on the type of payload data format used by the UAV 
+[4]. 
+ LOI 3 monitor only or control and monitor is conditional on the type of payload (station) and the number of 
+payloads (stations) and the payload data format used by the UAV [4].   
+LOI 4 monitor only or control and monitor is not affected by the payloads onboard the UAV [4]. 
+2.2 
+UCS Functional Architecture 
+This architecture establishes the following elements and interfaces: Air Vehicle (AV), Vehicle Specific 
+Module (VSM), Data Link Interface (DLI), Core UCS (CUCS), Command and Control Interface (CCI), 
+Human Computer Interface (HCI), Command and Control Interface Specific Module (CCISM), as shown in 
+Figure 3. 
+STO-EN-SCI-271 
+3 - 5
+
+[Page 6 / 14 | chars: 946]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+ 
+Figure 3: UCS Functional Architecture [4]. 
+2.2.1 
+Vehicle Specific Module (VSM) 
+Provides unique/proprietary communication protocols, interface timing, data formats and “translation” of 
+the DLI protocols and message formats that the respective Air Vehicle (AV) requires. This software 
+provides a set of functions, such as [4]: 
+• 
+Translation of STANAG 4586 messages from the CUCS from/to the AV via DLI; 
+• 
+Packs/unpacks data to optimize transmission bandwidth; 
+• 
+Act as database; 
+• 
+Manage interfaces for data link messages control and monitoring; 
+• 
+Manage interfaces for launch and recovery operations; 
+• 
+Analogue to digital conversion of sensor data. 
+VSM module is usually vehicle specific, provided by its manufacturer. However, this module is not 
+necessary if the data links used by the vehicle are STANAG 4586 compatible [4]. 
+ 
+3 - 6 
+STO-EN-SCI-271
+
+[Page 7 / 14 | chars: 3027]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+2.2.2 
+Data Link Interface (DLI) 
+The DLI, between the CUCS and the VSM element, enables the CUCS to generate and understand specific 
+messages for control and status of air vehicles and payload [4]. DLI specifies the mechanism to process and 
+display specific messages, which are air vehicle and payload independent. 
+2.2.3 
+Core UCS (CUCS) 
+The CUCS should provide a user interface that enables the operator to conduct all phases of an UAV 
+mission, and support all requirements from the DLI, CCI and HCI [4]. The computer generated graphic user 
+interface should also enable the operator to control different types of UAVs and payloads. 
+Depending on the desired level of interoperability in the respective UAV system, the CUCS should [4]: 
+• 
+Receive,  process  and  disseminate  payload  data  from  the  AV  and  its payload; 
+• 
+Perform mission planning; 
+• 
+Monitor and control the AV, payloads, and data links; 
+• 
+Support additional future AV and payload capabilities; 
+• 
+Provide  the  UAV  operator  the  necessary  tools  for  computer  related communications, mission 
+tasking, mission planning, mission execution; 
+• 
+Be able to host VSM and CCISM functions. 
+2.2.4 
+Command and Control Interface (CCI) 
+CCI defines the standard message set and accompanying protocols that have been selected to be C4I 
+System/node independent, avoiding placing additional requirements on the C4I System [4]. 
+The CCI is intended to cover all types of messages and data that need to be exchanged in both directions 
+between the CUCS and the C4I systems during all the phases of a UAV mission, including [4]: 
+• 
+Before the flight: tasking messages, tactical situation, environmental data, general mission 
+constraints and mission plans; 
+• 
+During the flight: status and service messages, payload data, progress reports; 
+• 
+After the flight: status and service messages, payload data, post-flight exploitation reports, mission 
+reports. 
+The networks and communications used to support the CCI interface should be NATO C3 Technical 
+Architecture (NC3TA) compliant, which is a framework that provides interoperability among military 
+command, control and communications systems, maximizing the exploitation of commercial off-the-shelf 
+(COTS), and reducing proliferation of non-standard systems [4]. 
+2.2.5 
+Human Computer Interface (HCI) 
+The STANAG specifies the requirements levied upon the CUCS, and does not impose any design 
+requirements on human factors (HF) and ergonomics, (e.g., number of displays, manual controls, switches 
+etc.)[4]. 
+The HCI establishes the operator display and input requirements that the CUCS shall support. Although not 
+specifically defining the format of the data to be displayed, there are some identified requirements that the 
+CUCS shall provide in order to ensure an effective operation of the UAV system [4], such as display and 
+operator interactions imposed on the CUCS by the CCI and DLI [4]. 
+STO-EN-SCI-271 
+3 - 7
+
+[Page 8 / 14 | chars: 1334]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+2.2.6 
+Command and Control Interface Specific Module (CCISM) 
+The CCISM provides a function similar to the VSM, that is, the encapsulation of the CCI data and any 
+translation required to be compatible/interoperable with the physical communication links between the UCS 
+and the C4I systems [4]. 
+The CCISM is mainly intended for communication with legacy C4I systems that are not directly compatible 
+with STANAG 4586 specified standards, protocols or physical layer and can be hosted on and collocated 
+with the UCS. The UCS architecture shall make provision for the integration of a CCISM [4]. 
+The CCISM provides the encapsulation of the CCI data and translations required ensure interoperability 
+with physical communications links between the UCS and C4I systems [4]. 
+3.0 OTHER STANDARDIZATION AGREEMENTS RELEVANT FOR UAV 
+As illustrated in Figure 4, there are already a number of existing or emerging Standardization Agreements 
+(STANAGs) that are applicable to UAV´s. They provide standards for interoperable data links (STANAG 
+7085), digital sensor data transfer between the payload and the UAV element of the data link (STANAG 
+7023, 4545, 4607, and 4609), and for on-board recording device(s) (STANAG 7024 and 4575) [4]. 
+ 
+ 
+3 - 8 
+STO-EN-SCI-271
+
+[Page 9 / 14 | chars: 1376]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+Figure 4: UAV Interoperability Architecture [4]. 
+3.1 
+STANAG 4545: NATO Secondary Imagery Format (NSIF)  
+The NATO Secondary Imagery Format (NSIF) is the standard for formatting digital imagery files and 
+imagery-related products and exchanging them among NATO members. The NSIF is part of a collection of 
+related standards and specifications, known as the NATO ISR Interoperability Architecture (NIIA), 
+developed to provide a foundation for interoperability in the dissemination of intelligence-related products 
+among different computer systems [9]. 
+Secondary imagery is sensor data that has been previously exploited and/or processed into a human readable 
+picture. This format enables an operator at one workstation to compose and capture a multimedia image on 
+his workstation, and send it to another workstation where it is capable of being reproduced exactly as it was 
+composed on the first workstation [9]. 
+The NSIF format can be composed of images, graphics and text. Because of the wide variety of display 
+capabilities, the implementations of NSIF readers and writers are classified by their level of complexity, 
+where the highest level will handle very large images with many bands of data, and the simplest level will 
+only handle small, single band images [9]. 
+STO-EN-SCI-271 
+3 - 9
+
+[Page 10 / 14 | chars: 3574]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+ The NSIF standard alone does not guarantee interoperability. Other aspects of the interface between systems 
+(e.g. recording media, transmission protocols, etc.) must be considered based on other standards [2]. 
+3.2 
+STANAG 4575: NATO Advanced Data Storage Interface (NADSI) 
+NATO Advanced data storage interface defines the standard for an interface to allow cross-servicing of ISR 
+platforms by NATO nations´ground stations. The NADSI defines a multiple layer protocol for the lower 
+levels of  the interface channel as defined in the International Standards Organizations – Open Systems 
+Interconnection model (ISO/IEC 7498-1) [10].  
+The interface is a high data rate port to allow direct download of the imagery and auxiliary data, either at the 
+air platform or at the ground station. Once the memory has been transferred to a reconnaissance exploitation 
+ground station, it can be exploited using normal tools [2]. 
+This STANAG also defines the physical, electrical data/control, and power interface as well as the connector 
+specifications [10]. 
+The NADSI standard alone does not guarantee interoperability. Compatibility must also be assured at other 
+protocol layers. Certifiable implementation of the NADSI for support of interoperability is subject to 
+constraints not specified in this STANAG [10]. 
+3.3 
+STANAG 4607: NATO Ground Moving Target Indicator (GMTI) format 
+The NATO Ground Moving Target Indicator Format (GMTIF) defines a standard for the data content and 
+format for the products of ground moving target indicator radar systems and a recommended mechanism for 
+relaying tasking requests to the radar sensor system [11]. 
+The GMTIF is a binary, message-oriented format for the prompt dissemination of Moving Target Indicator 
+(MTI) data. It may be sent as a stand-alone format or it may be embedded in a frame-oriented format, such as 
+the NATO Secondary Imagery Format (NSIF, STANAG 4545) or the National Imagery Transmission 
+Format (NITF, Military Standard-2500) for the dissemination of secondary imagery, or in a message 
+oriented format such as the NATO Primary Imagery Format (STANAG 7023) for the dissemination of 
+primary imagery [11].  
+This STANAG includes a notional employment concept for using the GMTIF, a suggested technique for 
+embedding GMTIF data into NATO imagery formats, suggested groupings of GMTIF data fields to support 
+three data exploitation classes, and tutorial information pertaining to the GMTIF [11]. 
+The format provides a flexible format for target information, such that simple GMTI systems can use a small 
+subset of the format with limited bandwidth channels, while robust systems can encode all aspects of the 
+output data for use with wideband channels, including high range resolution (HRR) and pulse Doppler 
+modes. It is also configured to be used as a stand-alone format, or can be encapsulated in either STANAG 
+4545 or 7023 data streams. Target reports include such information as target location and radial velocity. 
+Further value-added processing of the target movement can produce track histories of the individual targets 
+[2].  
+3.4 
+STANAG 4609: NATO Digital Motion Imagery Standard 
+Motion Imagery (MI) is a valuable asset for commanders that enable them to meet a variety of theatre, 
+operational and tactical objectives for intelligence, reconnaissance and surveillance. STANAG 4609 is 
+intended to provide common methods for exchange of MI across systems within and among NATO nations 
+[12]. 
+3 - 10 
+STO-EN-SCI-271
+
+[Page 11 / 14 | chars: 2344]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+This standard addresses the applicability of commercial digital video standards and defines the metadata 
+requirements for airborne motion imagery collection. The standard specifies the commercial standards to be 
+used for the military community within NATO. In addition, careful consideration was taken to define the 
+relationship between the motion imagery standard and STANAG 7023 and STANAG 4545 [12].  
+The military-unique metadata considerations for motion imagery were analysed and included in the standard 
+[12]. 
+3.5 
+STANAG 7023: Air Reconnaissance Primary Imagery Data Standard 
+STANAG 7023 establishes a standard data format and a standard transport architecture for the transfer of 
+reconnaissance imagery and associated auxiliary data between reconnaissance Collection Systems and 
+Exploitation Systems [13].  
+NATO STANAG 7023 is not a communications protocol. NATO STANAG 7023 works in conjunction with 
+other NATO STANAGs 7085, 7024, 4575, 4545, 4559, 4607, 4609 and 3377 to complete the interface 
+between the Collection System and the Exploitation System [13].  
+The following list of top level design aims for NATO STANAG 7023 establishes a basis for the design [13]: 
+• 
+promote interoperability; 
+• 
+ handle primary imagery; 
+• 
+ handle mission/intelligence data; 
+• 
+work in real time; 
+• 
+minimise platform processing; 
+• 
+assume exploitation of imagery has no prior knowledge of source; 
+• 
+image format does not handicap sensor performance; 
+• 
+digital and analogue versions; 
+• 
+layered/modular architecture; 
+• 
+end-to-end protocol; 
+• 
+self-describing sensor data format; 
+• 
+addressable data files; 
+• 
+multi-sensor/multispectral; 
+• 
+hardware independent; 
+• 
+expandable. 
+NATO STANAG 7023 is a self-describing format. The auxiliary data defines the format of the image data. 
+This enables NATO STANAG 7023 to handle any image from any type of sensor [13]. 
+3.6 
+STANAG 7024: Air Reconnaissance Tape Recorder Interface  
+Reconnaissance systems have been film based. Now in the era of electo-optical digital (EO), radar 
+reconnaissance sensors and exploitation technology, common/standardised data exchange formats are 
+necessary to assure interoperability between a multiplicity of sensor and exploitation systems [14]. 
+STO-EN-SCI-271 
+3 - 11
+
+[Page 12 / 14 | chars: 3095]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+STANAG 7024 was established to ensure the ability to exchange air reconnaissance sensor recordings and 
+associated auxiliary data within NATO and Allied users, by the use of recording standards for media and 
+recording footprints [14]. 
+This STANAG establishes the physical format for the exchange of magnetic tape cartridges for 4 different 
+technologies of recorders [14]: 
+• 
+19mm helical scan ANSI ID-1 digital instrumentation recorder with large, medium and small   tape 
+cartridge formats; 
+• 
+8 mm helical scan Hi-8 digital, and 8mm analogue;  
+• 
+12.65 mm helical scan SVHS analogue recorder;  
+• 
+25.4 mm transverse scan AMPEX DCRSi digital instrumentation recorder).  
+All the recorders in STANAG 7024 are sequential access[14]. 
+3.7 
+STANAG 7085: Interoperable Data Links for Imaging Systems  
+This STANAG provides the interoperability standards for 3 classes of imagery data link used for primary 
+imagery data transmission: analogue links described in Annex A, point-to-point digital links described in 
+Annex B, and broadcast digital links described in Annex C. Command and control of the sensors and 
+platform is an auxiliary mission. Annex B is organized in 2 chapters “General Requirements” and 
+“Implementation Directives” which describe point-to-point digital links. Different implementation profiles 
+are possible: the U.S. Common Data Link (CDL) is described in Implementation 1 [2]. 
+This standard is structured to provide a number of options for the specific data link configuration, such as 
+simplex or duplex operation, data rate, carrier frequency, channel multiplexing, interleaving, encryption, and 
+many others that must be matched prior to passing data from transmitter to receiver [2]. 
+STANAG 7085 data links can handle any form of data (e.g. 7023, 4545, or GMTI), and can operate in 
+different configurations, including two way (half or full duplex) modes. 
+Sensitive information such as real-time terminal position that is transmitted via the data link may require 
+protection. This protection may be provided by encrypting all or portions of the data stream using any 
+equipment or technique that has been approved by the NATO Consultation, Command and Control Agency 
+(NC3A) [15]. 
+4.0 CONCLUSIONS 
+STANAG 4586 is a message based standard that was originally developed to meet the requirements of long 
+endurance UAV’s. 
+This standard includes messages that are specifically written to support communication with a UAV’s 
+payload. Since payload is not incorporated into the certification process, these messages may be eliminated 
+or modified. Fortunately, few messages incorporate both control and payload aspects.  
+NATO Standardization Agreements are constrained to NATO member states and may become a limitation to 
+intervene in non-NATO countries. For instance, STANAG 4586 is NATO "UNCLASSIFIED". This may (or 
+may not) become a barrier to many global suppliers & non- traditional innovators from non-NATO countries 
+such as robotics leaders in Japan [4]. 
+3 - 12 
+STO-EN-SCI-271
+
+[Page 13 / 14 | chars: 2367]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+STANAGs  are  predominantly  military  standards,  and even  though  they  have  been  promoted  for  civil 
+applications, their requirements are heavily demanding in terms of compliance. For instance, certifying a 
+platform against the STANAG 7085 Interoperable Data Links for Imaging Systems is costly and probably a 
+barrier for small platforms providers. In this sense, STANAG is perhaps very relevant for the interoperability 
+of military asset across the different NATO members, but it is hard to be adopted by civil or research 
+platforms without strong investment. 
+STANAG does not define a specific Common Operating Environment (COE), but only specifies that the 
+operating environment supports/ integrates the specified network/transport protocols and supports the 
+specified user applications [5]. Moreover, STANAG doesn’t take into account that the vehicles can be part of 
+a network with dynamic topology where communications can be unreliable and vehicle actions may be tied 
+to communication constraints. 
+Although not providing a complete solution for interoperability, STANAG 4586 is certainly a crucial step 
+taken in that direction, providing a roadmap for future developments. 
+5.0 ACKNOLEDGMENTS 
+The author wishes to thank Professor Fernando Coito and Professor Victor Lobo for their advice. 
+6.0 REFERENCES 
+ 
+[1] G. e. al., Automation and Interoperability Challenges for Heterogeneous UAS 
+Fleet Management, Spain: ATACCS'2011 Industrial papers, 2011. 
+[2] AEDP-2 Volume 1 Ed.1 Sep 2005, Architecture Description, NATO 
+Standardization Agency (NSA), 2005. 
+[3] e. a. Bagdatli, A Method for Examining the Impact of Interoperability on Mission
+Performance in a System-of-Systems, Georgia Institute of Technology, Atlanta GA:
+IEEE, 2010. 
+[4] STANAG 4586 Ed.3 Nov 2012, Standard Interfaces of UAV Control System (UCS)
+for NATO UAV Interoperability, NATO Standardization Agency (NSA), 2012. 
+ 
+[5] Unmanned Aircraft Systems Roadmap 2005-2030, Office of the Secretary of Defense,
+Washington, DC, 2005. 
+[6] Dias, Paulo Sousa, João Borges Sousa, and Fernando L. Pereira. "Networked
+Operations (with Neptus)." MAST–Maritime Systems and Technologies Conference.
+2008. 
+[7] “Standard”, http://www.iso.org/iso/home/standards.htm [Accessed 22 December
+2014]. 
+ 
+STO-EN-SCI-271 
+3 - 13
+
+[Page 14 / 14 | chars: 1036]
+--------------------------------------------------------------------------------
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+[8] “NSA”, http://nso.nato.int/nso/nso_background.html  [Accessed 22 December 2014]. 
+ 
+[9] STANAG 4545 Ed.2 May 2013, NATO Secondary Imagery Format (NSIF), NATO
+Standardization Agency (NSA), 2013. 
+[10] STANAG 4575 Ed.2 Mar 2005, NATO Advanced Data Storage Interface (NADSI),
+NATO Standardization Agency (NSA), 2005. 
+ 
+[11] STANAG 4607 Ed.3 Sep 2010, NATO Ground Moving Target Indicator (GMTI)
+Format, NATO Standardization Agency (NSA), 2010. 
+ 
+[12] STANAG 4609 Ed.3 May 2009, NATO Digital Motion Imagery Standard, NATO
+Standardization Agency (NSA), 2009. 
+ 
+[13] STANAG 7023 Ed.4 Oct 2009, Air Reconnaissance Primary Imagery Data Standard,
+NATO Standardization Agency (NSA), 2009. 
+ 
+[14] STANAG 7024 Ed.2 Aug 2001, Imagery Air Reconnaissance Tape Recorder
+Standard, NATO Standardization Agency (NSA), 2001. 
+ 
+[15] STANAG 7085 Ed.3 Oct 2011, NATO Interoperable Data Links for ISR Systems,
+NATO Standardization Agency (NSA), 2011. 
+ 
+ 
+3 - 14 
+STO-EN-SCI-271
+

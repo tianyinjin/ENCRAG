@@ -1,0 +1,2722 @@
+Source file: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Relative path: 20220607_np_dpid_dir27-homologation-si-du-minarm-ed3.pdf
+Page count: 49
+Extracted pages: 49
+
+================================================================================
+
+[Page 1 / 49 | chars: 1955]
+--------------------------------------------------------------------------------
+
+MINISTÈRE 
+DES ARMÉES 
+Liberrd 
+1:.~~11/ih' 
+Fr,lfallld 
+Direction de la Protection des Installations 
+Moyens et activités de la Défense (DPI D) 
+NOTE 
+Paris, le 07 juin 2022. 
+N°DEP-00337/2022/ARM/DPID/NP 
+OBI ET 
+: mise à jour de la directive ministériellè portant sur l'homologation des systèmes 
+d'information du ministère des armées. 
+RÉFÉRENCE : instruction ministérielle n°7326/ARM/CAB du 25 juin 2018. 
+T. ABROGÉ 
+: note n°453/ARM/DGNUM/DG/NP du 19 novembre 2019 relative à la deuxième 
+édition de la directive n°27 portant sur l'homologation des systèmes 
+d'information du ministère. 
+ANNEXE 
+:troisième édition de la directive n°27. 
+L'homologation de sécurité est obligatoire pour l'ensemble des sytèmes d'information du 
+ministère des armées. La directive 27 portant sur l'homologation des systèmes d'information 
+du ministère des armées définit l'organisation ministérielle correspondante et présente les 
+différents types de démarches applicables. 
+Cette troisième version, élaborée avec les autorités qualifiées du ministère en matière de 
+sécurité des systèmes d'information et avec leurs principales autorités d'homologations, 
+permet d'optimiser la documentation attendue et étend les cas d'usage présentés pour 
+faciliter l'appropriation du dispositif d'homologation. 
+Après la phase d'appropriation du document, les autorités qualifiées, les autorités d'emploi et 
+les DSI du ministère adapteront les stratégies d'homologation et le contenu des dossiers 
+d'homologation au juste besoin. 
+Les difficultés d'application et les propositions d'évolution sont à communiquer à la DPID via 
+les représentants des autorités qualifiées. 
+14 rue Saint-Dominique 
+75700 PARIS SP 07 
+cllurle!>·.J•illini(a,intrade[.guuv.{r 
+Dossier suivi par: COL Vittini 
+Le vice-amiral François Moreau 
+Directeur de la protection des installations, 
+moyens et acti~it 
+~ de la défense, 
+haut fonctionna· e corresp~ant de 
+défense et d s&urité pd~ nt 
+\ 
+- . 
+1/2
+
+[Page 2 / 49 | chars: 141]
+--------------------------------------------------------------------------------
+
+DESTI NATAl RES 
+-
+DGA 
+-
+EMA 
+-
+SGA 
+-
+DRSD 
+DGSE 
+COPIES 
+-
+COMCYBER 
+-
+DGA/SSDI 
+-
+SGA/DTMP 
+-
+DGNUM 
+-
+archives. 
+LISTE DE DIFFUSION 
+2/2
+
+[Page 3 / 49 | chars: 668]
+--------------------------------------------------------------------------------
+
+1/47 
+Direction de la Protection des Installations,  
+Moyens et activités de la Défense (DPID) 
+ 
+ 
+ 
+ 
+ 
+DIRECTIVE N°27 PORTANT SUR 
+L’HOMOLOGATION DES SYSTÈMES D’INFORMATION 
+ DU MINISTÈRE DES ARMÉES  
+ 
+ 
+3ème édition 
+(approuvée par la note n°DEP-00337/2022/ARM/DPID/NP du 07/06/2022) 
+ 
+ 
+ 
+ 
+Rédaction 
+LCL Jean-Sébastien REVY 
+DGNUM/SDSN/BCN 
+Vérification 
+ICDD Franck ROUSSET 
+DGNUM/SDSN/BCN 
+Vérification 
+ASC Jean-Michel BARBIER 
+DPID/DSDN 
+Vérification 
+ICA Sophie GRIFFE 
+DPID/FSSI 
+Approbation 
+VA François MOREAU 
+DPID 
+ 
+L'édition en vigueur de ce document est celle accessible via le site SynopTIC. 
+S'assurer de la validité de toute copie avant usage.
+
+[Page 4 / 49 | chars: 2576]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) - 3ème édition – 2022 
+2/47 
+ 
+ 
+ 
+ 
+RÉSUMÉ 
+Compte tenu de la forte dépendance des missions du ministère aux systèmes d’information (SI) et 
+des menaces toujours plus grandes qui pèsent sur eux, il est obligatoire de les homologuer, y 
+compris ceux qui sont déjà en service.  
+L’homologation des SI permet d’en connaître le périmètre et l’état de sécurité, d’évaluer les risques 
+qui pèsent sur les capacités opérationnelles auxquelles ces SI contribuent, d’assurer une prise en 
+compte de leurs besoins de sécurité à juste niveau et d’améliorer leur résilience. Elle concourt enfin 
+à maintenir le niveau de sécurité du SI au cours de son utilisation, à résoudre des incidents et à 
+gérer des crises. À noter qu’en cas d’incident sur des SI qui ne disposeraient pas de décisions 
+d’homologation valides, la responsabilité des autorités d’emploi serait directement engagée. 
+L’édition n°3 de la directive 27 rappelle les principes de l’homologation, maintient les trois types de 
+démarches d’homologation (sommaire, simplifiée, standard) et en clarifie les différentes modalités 
+en distinguant davantage les cas d’usage afin de rendre plus rapide et pertinent le processus 
+d’homologation, et en insistant sur la nécessité de prendre en compte, dans le processus, le contexte 
+de déploiement du SI afin de garantir le succès de la démarche. Cette édition complète la précédente 
+en prenant notamment en compte de nouveaux cas d’usages numériques (par exemple le cloud).  
+Cette édition résulte également d’un retour d’expérience mené dans les différents états-majors, 
+directions et services (EMDS). Elle fait désormais l’objet de précisions dans le nouveau guide n°7 
+portant sur l’intégration de la sécurité numérique dans le cycle de vie d’un SI.  
+Enfin, elle tient compte des évolutions de la réglementation, en particulier la nouvelle version de 
+l’instruction générale interministérielle 1300 sur la protection du secret de la défense nationale du 9 
+août 2021 ainsi que la directive DGNUM n°47 du 4 juin 2020 portant sur le maintien en condition de 
+sécurité (MCS) des SI du ministère. 
+ 
+Nota : 
+● les termes entre crochets ([ ]) figurent dans les documents de référence (cf. §2) ; 
+● le glossaire accessible sur SynopTIC1 définit les principaux termes utilisés ; 
+● des modèles de documents types sont également disponibles dans [GUIDE 7]. 
+ 
+ 
+ 
+                                               
+1 https://synoptic.intradef.gouv.fr/securite-numerique/glossaire-securite-numerique.
+
+[Page 5 / 49 | chars: 2763]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+3/47 
+TABLE DES MATIÈRES 
+ 
+Présentation _________________________________________________________________ 6 
+ 
+Champ et modalités d'application ________________________________________________ 6 
+ 
+Niveaux de préconisation _______________________________________________________ 7 
+ 
+Gestion des dérogations aux règles de la directive ___________________________________ 7 
+ 
+Documents applicables _________________________________________________________ 8 
+ 
+Autres documents et sites de référence __________________________________________ 10 
+ 
+Autorité d’emploi ____________________________________________________________ 10 
+ 
+Autorité d’homologation ______________________________________________________ 11 
+ 
+Désignation de l’autorité d’homologation ____________________________________ 11 
+ 
+Transfert de responsabilités ______________________________________________ 11 
+ 
+Centre expert de l’autorité d’homologation _______________________________________ 12 
+ 
+Responsable SSI du SI _________________________________________________________ 12 
+ 
+Commission d’homologation ___________________________________________________ 13 
+ 
+Objectifs ____________________________________________________________________ 14 
+ 
+Processus de maîtrise des risques _______________________________________________ 14 
+ 
+Méthode d’analyse de risques __________________________________________________ 15 
+ 
+Dossier d’homologation _______________________________________________________ 16 
+ 
+Le périmètre d’homologation _____________________________________________ 16 
+ 
+La stratégie d’homologation ______________________________________________ 17 
+ 
+Les procédures d’exploitation de sécurité ___________________________________ 17 
+ 
+La liste de risques résiduels ______________________________________________ 18 
+ 
+Le plan d’amélioration continue de la sécurité ________________________________ 18 
+ 
+Trois types de démarche _______________________________________________________ 18 
+ 
+Démarche sommaire ___________________________________________________ 18 
+ 
+Démarche simplifiée ____________________________________________________ 19 
+ 
+Démarche standard ____________________________________________________ 19 
+ 
+Détermination du choix de la démarche __________________________________________ 20 
+ 
+Principe de l’héritage _________________________________________________________ 21 
+ 
+Objectifs ____________________________________________________________________ 21 
+ 
+La forme de la décision d’homologation __________________________________________ 22 
+ 
+La durée de validité de la décision d’homologation _________________________________ 23
+
+[Page 6 / 49 | chars: 3206]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+4/47 
+ 
+Suspension d’une homologation ________________________________________________ 23 
+ 
+Abrogation d’une homologation ________________________________________________ 24 
+ 
+Renouvellement des homologations _____________________________________________ 24 
+ 
+Système d’information d’importance vitale _______________________________________ 24 
+ 
+Démarche d’homologation d’un SIIV _______________________________________ 25 
+ 
+Décision d’homologation d’un SIIV ________________________________________ 25 
+ 
+Traitement de données classifiées _______________________________________________ 26 
+ 
+Traitement de données à caractère personnel _____________________________________ 27 
+ 
+Urgence opérationnelle _______________________________________________________ 27 
+ 
+Déploiement opérationnel (OPEX, OPINT, exercice, etc.) _____________________________ 28 
+ 
+Déploiements successifs d’un même SI ___________________________________________ 28 
+ 
+Présentation __________________________________________________________ 28 
+ 
+Procédure ____________________________________________________________ 29 
+ 
+Homologation de déploiement dérogatoire __________________________________ 29 
+ 
+Renouvellement de l’homologation ________________________________________ 30 
+ 
+Suspension et abrogation de l’homologation de déploiement ____________________ 31 
+ 
+Homologation de SI similaires __________________________________________________ 31 
+ 
+Homologation de SI hébergés au ministère ________________________________________ 31 
+ 
+Homologation de SI utilisant un service d’informatique en nuage externalisé ____________ 32 
+ 
+Solution publique de type IaaS ou PaaS ____________________________________ 32 
+ 
+Solution publique de type SaaS ___________________________________________ 32 
+ 
+Homologation de systèmes de systèmes __________________________________________ 33 
+ 
+Dispositifs d’interconnexion ou d’interface ________________________________________ 33 
+ 
+Homologation spécifique ______________________________________________ 34 
+ 
+Désignation de l’autorité d’homologation __________________________________ 34 
+ 
+Capacités opérationnelles ______________________________________________________ 35 
+ 
+Homologation d’un SI développé en mode agile ____________________________________ 35 
+ 
+Homologation itérative ________________________________________________ 35 
+ 
+Décision d’homologation initiale _________________________________________ 36 
+ 
+Au cours du développement ____________________________________________ 36 
+ 
+Décision d’homologation ferme _________________________________________ 37 
+ 
+Cas de mise en exploitation pour test (autorisation d’exploitation pour test) ou 
+expérimentation ______________________________________________________________________ 37 
+ 
+Cas de régularisation __________________________________________________________ 38 
+ 
+Dossier d’homologation _______________________________________________ 38 
+ 
+Démarche d’homologation _____________________________________________ 39 
+ 
+Décision d’homologation ______________________________________________ 39
+
+[Page 7 / 49 | chars: 112]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+5/47
+
+[Page 8 / 49 | chars: 3277]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+6/47 
+ 
+PRÉSENTATION GÉNÉRALE ET GUIDE D’USAGE 
+ Présentation 
+« Tout système d’information doit être homologué au plan de la sécurité des systèmes d’information, 
+avant sa mise en exploitation dans les conditions d’emploi définies. » ([PSSIM]) 
+Le terme d’homologation recouvre deux réalités :  
+● la démarche d’homologation (cf. §4) ; 
+● la décision d’homologation (cf. §5).  
+La démarche d’homologation de sécurité est l’ensemble des activités, des études et des actions 
+coordonnées, destinées à obtenir une décision d’homologation. Elle permet de s’assurer que les risques 
+pesant sur le SI, dans son contexte d’emploi, sont connus et acceptés [PSSIM] tant du point de vue de 
+la sécurité que des ressources associées au regard des enjeux opérationnels, et cela tout au long du 
+cycle de vie du SI. Elle contribue ainsi à adapter le niveau de la sécurité numérique des activités que 
+porte le SI à leurs besoins de sécurité. Elle participe et veille enfin au MCS du SI dont les modalités de 
+mise en œuvre sont définies dans la directive [MCS]. 
+La décision d’homologation de sécurité d’un SI est l’attestation formelle prise par l’autorité qualifiée 
+en matière de SSI (AQSSI), ou toute autorité d’homologation (AH) qu’elle a formellement désignée (cf. 
+§3.2), à l’issue de la démarche d’homologation. Par cette décision, l’AQSSI ou l’AH assume les risques 
+résiduels pesant sur le SI considéré, et donc sur les activités qu’il porte, dans un périmètre d’emploi 
+donné. Dans le cadre d’un système classifié, elle atteste de la capacité de ce système à traiter des 
+informations classifiées pour un niveau de classification donné [IGI 1300]. 
+La présente directive définit les principes et modalités relatifs aux homologations de sécurité des SI au 
+sein du ministère des Armées. Elle tient compte des dispositions de la règlementation2 en vigueur et 
+des retours d’expérience en matière d’homologation de systèmes nationaux. 
+Les SI déjà en exploitation, non encore homologués, doivent faire l’objet d’une régularisation [PSSIM]. 
+La mise en exploitation d’un système :  
+- 
+sans décision d’homologation, ou autorisation provisoire (§6.4) ou autorisation 
+d’exploitation pour test (§6.14) ; 
+- 
+avant cette dernière ;  
+- 
+ou hors du périmètre d’homologation défini ; 
+est un cas de non-respect de la politique SSI du ministère et engage directement la 
+responsabilité de l’autorité d’emploi (AE) et éventuellement des opérateurs [PSSIM]. 
+Si les enjeux de sécurité du SI le permettent, des mesures dérogatoires à la démarche d’homologation 
+peuvent être autorisées par l’AQSSI pour faciliter son homologation. 
+ Champ et modalités d'application 
+La présente directive est applicable aux organismes du ministère des Armées directement ou par voie 
+de tutelle et, en tant que de besoin, aux prestataires3. 
+La directive concerne aussi bien les (AE) (cf. §3.1), les (AH) (cf. §3.2), leur centre d’experts de la SSI 
+(cf. §3.3), les responsables SSI (cf. §3.4) que les officiers et les directeurs de programmes, les 
+                                               
+ 
+3 Prestataire au sens de fournisseur lié par accord (contrat direct ou indirect, convention, etc.).
+
+[Page 9 / 49 | chars: 2890]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+7/47 
+responsables de conduite de projet (RCP), les différents acteurs des projets en mode agile et les 
+opérateurs.  
+La directive ne s’applique pas aux SI ne relevant pas du ministère des Armées (SI interministériel, 
+OTAN, UE, etc.). Dans ce cas, il convient de se référer aux documents idoines. 
+L’homologation de sécurité d'un SI est globale : elle inclut dans son périmètre tout ce qui peut 
+impacter la sécurité numérique du système et des données. 
+Le [GUIDE 7] précise les modalités définies dans cette directive et propose des modèles de livrables. 
+Il est accessible via SynopTIC4. Son usage et sa large diffusion sont donc fortement recommandés. Les 
+modèles proposés peuvent être déclinés, sans les alourdir, par les AH pour répondre à leurs besoins 
+et à leurs spécificités tout en facilitant la démarche d’homologation.  
+Cette directive est applicable à partir de sa publication. Cette version annule et remplace la précédente 
+édition (version n°2 du 19 novembre 2019). 
+ Niveaux de préconisation 
+Les règles définies dans ce document ont différents niveaux de préconisation et sont conformes au 
+[RGI] et à la [RFC 2119]5 : 
+ 
+OBLIGATOIRE 
+Ce niveau de préconisation signifie que la règle édictée indique une exigence 
+absolue de la directive. 
+RECOMMANDÉ  Ce niveau de préconisation signifie qu’il peut exister des raisons valables, 
+dans des circonstances particulières, pour ignorer la règle édictée, mais les 
+conséquences doivent être comprises et pesées soigneusement avant de 
+choisir une voie différente. 
+CONSEILLÉ 
+Ce niveau de préconisation signifie que la règle édictée est une bonne 
+pratique de SSI. Il n’est pas nécessaire d’instruire une dérogation lorsqu’elle 
+n’est pas respectée. 
+DÉCONSEILLÉ 
+Ce niveau de préconisation signifie que la règle édictée indique une 
+prohibition qu’il est toutefois possible, dans des circonstances particulières, 
+de ne pas suivre, mais les conséquences doivent être comprises et le cas 
+soigneusement pesé. 
+INTERDIT 
+Ce niveau de préconisation signifie que la règle édictée indique une 
+prohibition absolue de la directive. 
+ Gestion des dérogations aux règles de la directive 
+Les dérogations à des règles de niveau OBLIGATOIRE ou INTERDIT sont du ressort de l’AQSSI. Le 
+FSSI et la DGNUM en sont tenus informés. 
+Les dérogations à des règles de niveau RECOMMANDÉ ou DÉCONSEILLÉ sont du ressort de l’AH. 
+L’AQSSI en est tenue informée. 
+Les dérogations octroyées sont à lister et à insérer dans le dossier d’homologation. 
+ 
+ 
+                                               
+4 https://synoptic.intradef.gouv.fr/securite-numerique/guide-ndeg7-portant-sur-lintegration-de-la-securite-
+numerique-dans-le-cycle-de 
+5 https ://www.ietf.org/rfc/rfc2119.txt – keys words for use in RFCs to indicate requirement levels.
+
+[Page 10 / 49 | chars: 2460]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+8/47 
+ 
+CADRE DOCUMENTAIRE 
+ Documents applicables 
+[Audit] 
+Directive n°28/DEF/DGSIC du 23/10/2013 portant sur l’exécution des audits 
+https://synoptic.intradef.gouv.fr/securite-des-systemes-dinformation/directive-
+ndeg28defdgsic-du-17-octobre-2013-portant-sur (Intradef) 
+[CLOUD 
+État] 
+Circulaire n°6282/SG du 5/07/2021 relative à la doctrine d’utilisation de l’informatique 
+en nuage par l’État (« cloud au centre ») 
+https://synoptic.intradef.gouv.fr/securite-numerique/cloud-au-centre-nouvelle-
+doctrine-de-letat (Intradef) 
+[CLOUD 
+SaaS] 
+Directive provisoire relative à l’accès à des services cloud en mode SaaS hébergés 
+à l’extérieur du ministère, note n°485/ARM/DGNUM/DG/NP du 25/11/2019 
+https://portail-dirisi.intradef.gouv.fr/images/Achats/20191125_NP_DGNUM-DG_458-
+DP-services-Cloud-mode-SaaS-V4.pdf (Intradef) 
+[DEFEND] 
+Note n°D-16-008326/DEF/EMA/SCOPS/CYBER/DR du 6/09/2016 relative à la 
+défendabilité des SI 
+https://synoptic.intradef.gouv.fr/securite-des-systemes-dinformation/defendabilite-
+des-si-du-minarm (Intradef) 
+[DIR 39] 
+Directive n°39/DEF/DGSIC/DR de 1/07/2016 relative à la sécurité des systèmes 
+industriels (en cours de réactualisation) 
+https://synoptic.intradef.gouv.fr/securite-des-systemes-dinformation/directive-
+ndeg39defdgsicdr-du-01-juillet-2016-relative-la (Intradef) 
+[DPID] 
+Note n°215/DEF/DPID/NP du 29/07/2016, relative à la cartographie hiérarchisée des 
+systèmes d’information du ministère 
+https://synoptic.intradef.gouv.fr/securite-numerique/cartographie-hierarchisee-des-
+si-dpid (Intradef) 
+[GUIDE 7] 
+Guide n°7 portant sur l’intégration de la sécurité numérique dans le cycle de vie d’un 
+système d’information, note n°443/ARM/DGNUM/DG/NP du 19/11/2020 
+https://synoptic.intradef.gouv.fr/securite-numerique/guide-ndeg7-portant-sur-
+lintegration-de-la-securite-numerique-dans-le-cycle-de (Intradef) 
+[GUIDE 
+HYG] 
+Guide d’hygiène informatique - ANSSI 
+https://www.ssi.gouv.fr/uploads/2017/01/guide_hygiene_informatique_anssi.pdf 
+(Internet) 
+[GUIDE S2I] 
+Maîtriser la SSI pour les systèmes industriels - ANSSI 
+https://www.ssi.gouv.fr/uploads/IMG/pdf/Guide_securite_industrielle_Version_finale-
+2.pdf (Internet) 
+[GUIDE SSI] 
+Ensemble des guides [GUIDE HYG] et [GUIDE S2I] 
+[IGI 1300] 
+Instruction générale interministérielle n°1300 sur la protection du secret de la défense 
+nationale du 9/08/2021
+
+[Page 11 / 49 | chars: 2777]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+9/47 
+https://synoptic.intradef.gouv.fr/securite-numerique/igi-1300-protection-sur-le-secret-
+de-la-defense-nationale (Intradef) 
+[II 901] 
+Instruction interministérielle n°901/SGDSN/ANSSI relative à la protection des 
+systèmes d’information sensibles 
+https://synoptic.intradef.gouv.fr/securite-des-systemes-dinformation/publication-de-
+lii-901-sur-la-protection-du-sensible-et-du-dr (Intradef) 
+[IM DAJ-
+RGPD] 
+Instruction ARM/SGA/DAJ/D2P du 31/01/2020 relative à la mise en œuvre du 
+règlement européen sur la protection des données personnelles au ministère de la 
+défense 
+http://portail-sga.intradef.gouv.fr/sites/info-metier/affaires-juridiques/droit-prive-droit-
+public/donnees-personnelles-cada-cnil/Documents/20200218_NP_SGA-
+DAJ_Instruction%20RGPD%20du%2031%20janvier%202020.pdf (Intradef) 
+[LID] 
+Instruction ministérielle n°101000/ARM/CAB du 1/12/2018 relative à la politique de 
+lutte informatique et défensive du ministère des Armées 
+http://portail-
+cicde.intradef.gouv.fr/images/documentation/DIA/20180905_DR_CICDE_DIA-
+3.20A_OPS-CYBER-2018.pdf (Intradef) 
+[MCS] 
+Directive n°47 portant sur le maintien en condition de sécurité, note 
+n°200/ARM/DGNUM/DG/DR du 4/06/2020 
+https://synoptic.intradef.gouv.fr/securite-numerique/publication-de-la-directive-
+ndeg47-portant-sur-le-maintien-en-condition-de (Intradef) 
+[PSSIM] 
+Instruction ministérielle n°7326/ARM/CAB du 25/06/2018 relative à la politique de 
+sécurité des systèmes d’information du ministère des Armées 
+https://synoptic.intradef.gouv.fr/sites/synoptic/files/im7326_edition_2_du_25_juin_20
+18.pdf (Intradef) 
+[PSSIM-T] 
+Instruction ministérielle n°7362-2/ARM/CAB du 21/07/2021, édition 2, portant sur le 
+volet technique de la politique de sécurité du système d’information du ministère des 
+Armées 
+https://synoptic.intradef.gouv.fr/securite-numerique/pssi-m-volet-technique-2nd-
+edition (Intradef) 
+[RGS] 
+Référentiel Général de Sécurité, version 2.0 du 13/06/2014 
+http://www.ssi.gouv.fr/rgs (Internet) 
+[RGI] 
+Référentiel Général d’Interopérabilité, version 2 du 20/04/2016 
+https://synoptic.intradef.gouv.fr/architecture-technique-generale/referentiel-general-
+dinteroperabilite-rgi-v2-approuve-par-arrete-du (Intradef) 
+[SIIV] 
+Arrêté du 22/03/2021 fixant les règles de sécurité et les modalités de déclaration des 
+systèmes d’information d’importance vitale et des incidents de sécurité relatives au 
+sous-secteur d’importance vitale « Activités militaires de l’État 
+https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043310173 (Internet) 
+https://synoptic.intradef.gouv.fr/securite-numerique/les-systemes-dinformation-
+dimportance-vitale-s2iv-activites-militaires-de-letat (Intradef)
+
+[Page 12 / 49 | chars: 2213]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+10/47 
+[Traces] 
+Directive n°29/DEF/DGSIC du 12/11/2013 relative aux traces et leur gestion au sein 
+du ministère de la Défense 
+https://synoptic.intradef.gouv.fr/securite-des-systemes-dinformation/directive-
+ndeg29defdgsic-du-12-novembre-2013-relatives-aux (Intradef) 
+ Autres documents et sites de référence 
+[EBIOS 
+2010] 
+Expression des Besoins et Identification des Objectifs de Sécurité - ANSSI 
+http://www.ssi.gouv.fr/site_article173.html (Internet) 
+[EBIOS RM] 
+Expression des Besoins et Identification des Objectifs de Sécurité - Risk Manager - 
+ANSSI 
+https://www.ssi.gouv.fr/guide/la-methode-ebios-risk-manager-le-guide/ (Internet) 
+[FICHE 2 
+DCP] 
+Fiche n°2 de la direction des affaires juridiques portant sur l’AIPD et les actes 
+réglementaires portant création du traitement des données 
+http://portail-sga.intradef.gouv.fr/sites/info-metier/affaires-juridiques/droit-prive-droit-
+public/donnees-personnelles-cada-
+cnil/Documents/20190808_Fiche%20n%202%20-
+%20AIPD%20et%20Actes%20r%C3%A9glementaires%20vvalid%C3%A9eDAJ.pdf
+#search=fiche%20n%202%20%2D%20AIPD (Intradef) 
+[MAITRISK] 
+Directive 
+n°45/ARM/DGNUM/SDSNUM/DR 
+relative 
+à 
+l’emploi 
+de 
+l’outil 
+« MAITRISK » au ministère des Armées 
+https://synoptic.intradef.gouv.fr/securite-numerique/directive-
+ndeg45armdgnumsdsnumdr-relative-lemploi-de-loutil-maitrisk-au (Intradef) 
+[Site ANSSI] 
+Site de l’ANSSI   www.ssi.gouv.fr (Internet) 
+[Site 
+DGNUM] 
+Site SynopTIC   synoptic.intradef.gouv.fr (Intradef) 
+ 
+ORGANISATION 
+ Autorité d’emploi 
+L’AE veille : 
+● à la prise en compte de ses besoins de sécurité dans la conception et l’exploitation de 
+ses SI et dans le traitement de ses données ; 
+● à la cohérence des mesures mises en place dans ses SI avec ses besoins métiers ou 
+opérationnels et avec les risques en matière de sécurité numérique.  
+Elle s’assure que : 
+● tous les SI, qui relèvent de sa responsabilité, sont homologués ou font l’objet d’une 
+démarche d’homologation ou de ré-homologation ; 
+● les conditions de leur homologation et les restrictions d’emploi décidées par l’AH, si elles 
+sont définies, sont respectées ;
+
+[Page 13 / 49 | chars: 3189]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+11/47 
+● les besoins métiers ou opérationnels dans les contextes d’emploi de ses SI, c’est-à-dire 
+les fonctions et données métiers, les conditions d’exploitation et les enjeux métiers ou 
+opérationnels, sont bien pris en compte dans leur démarche d’homologation ; 
+● les mesures de continuité d’activité et de reprise d’activité sont adaptées aux risques 
+résiduels validés par l’AH.  
+ 
+L’AE du SI doit obligatoirement prendre en compte la décision de l’AH avant de décider sa première 
+mise en exploitation, y compris dans un cadre d’expérimentation. Idéalement, la décision 
+d’homologation et la décision de mise en service opérationnel devraient être portées par la même 
+autorité. 
+ 
+En cas d’absence de décision d’homologation (ou à défaut d’autorisation provisoire) pour un SI 
+en utilisation, l’AE assume la responsabilité, notamment pénale, des conséquences de tout 
+événement de sécurité numérique survenant sur le SI. La responsabilité des entités utilisatrices 
+ainsi que celle de l’autorité en charge de son exploitation technique peuvent aussi être 
+engagées.  
+ Autorité d’homologation 
+ 
+Désignation de l’autorité d’homologation 
+L’AH est l’autorité à qui l’AQSSI délègue tout ou partie de ses attributions relatives à la démarche 
+d’homologation [PSSIM]. Les règles de délégation sont fixées par l’AQSSI qui en précise les conditions 
+(attributions, périmètre de dérogation, niveau de confidentialité maximal, activité d'application, 
+possibilité éventuelle de subdélégation).  
+Pour porter les responsabilités d’AH, l’autorité doit maîtriser le besoin métier ou opérationnel, disposer 
+des moyens de maîtriser le risque en matière de sécurité numérique ou, à défaut solliciter les ressources 
+pour ce faire. Toutefois, l’AQSSI est responsable des ressources à affecter à la mise en œuvre de la 
+démarche d’homologation. 
+RO 1 :  il est OBLIGATOIRE que tout SI du ministère, pour un périmètre d’homologation donné, 
+dispose d’une seule AH formellement désignée. 
+RO 2 :  il est RECOMMANDÉ que l’AH soit désignée au sein de la chaîne d’emploi du SI.  
+ 
+Transfert de responsabilités 
+Au cours de son cycle de vie, l’homologation d’un SI, pour un périmètre donné, peut être réattribuée à 
+une nouvelle AH.  Lorsque l’AQSSI le décide ou lorsque le SI n’est plus dans le périmètre de l’AQSSI 
+d’origine, quand le SI est transféré vers une autre AE, ou encore suite à une réorganisation structurelle 
+ou à une évolution majeure du SI.  
+RO 3 :  il est OBLIGATOIRE, en cas de changement d’AH au cours du cycle de vie du SI, de procéder 
+formellement à un transfert de responsabilités au cours duquel le dossier d’homologation du SI 
+est transmis à la nouvelle AH. 
+Si le besoin est exprimé par l’une des AH, le transfert de responsabilités peut avoir lieu à l’issue d’une 
+réunion formelle présidée par le représentant de l’AQSSI, ou co-présidée par les AQSSI sortante et 
+prenante en cas de changement d’AQSSI. Cette réunion est composée au minimum des AE et des AH 
+concernées (prenantes et si possible sortantes) ainsi que d’un représentant de leur centre expert. Le
+
+[Page 14 / 49 | chars: 3122]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+12/47 
+FSSI peut y participer. Les risques résiduels sont présentés au cours de la réunion. La réunion donne 
+lieu à un procès-verbal qui mentionne notamment les remarques et restrictions de la partie prenante.  
+Une décision formelle notifie les nouvelles responsabilités. Tant que la notification n’est pas publiée, la 
+responsabilité de l’AH sortante est pleine et entière.  
+Si les risques résiduels, les conditions de MCS et le niveau de sécurité du SI ne sont pas acceptables 
+pour l’AH prenante, celle-ci mettra en œuvre une nouvelle démarche d’homologation. 
+RO 4 :  il est OBLIGATOIRE de renouveler la décision d’homologation en cas de transfert de 
+responsabilité d’AH. La mise en œuvre de ce renouvellement est laissée à l’appréciation de 
+l’AH prenante.  
+Le transfert de responsabilités est effectif à la publication de la décision d’homologation par la nouvelle 
+AH.  
+ Centre expert de l’autorité d’homologation 
+L’AH s’appuie sur un centre d’experts en SSI, dit centre expert de l’AH (CEAH), qui suit les démarches 
+d’homologation, vérifie le dossier d’homologation et prépare ses décisions. Il apporte son appui et son 
+expertise auprès des responsables SSI (RSSI) des SI qui relèvent de son périmètre de responsabilités. 
+RO 5 :  il est OBLIGATOIRE pour une AH de disposer d’au moins un spécialiste en sécurité du 
+numérique formé à la démarche d’homologation. 
+L’annexe 3 propose une liste de connaissances et de compétences qu’il convient de détenir pour mener 
+des démarches d’homologation. 
+ Responsable SSI du SI 
+Le RSSI projet (RSSI-P) conduit la démarche d’homologation sous la responsabilité de l’AE et au profit 
+du responsable de projet (RCP) ou de programme jusqu’à la première décision d’homologation, et tant 
+que le SI est en phase de conception ou de réalisation.  
+Le RSSI aval (RSSI-A) conduit les démarches d’homologation lorsque le SI n’est plus en phase de 
+réalisation pour renouveler la décision d’homologation, et ceci sous la responsabilité de l’AE6.  
+Les fonctions de RSSI-P et de RSSI-A peuvent ne pas être distinctes et être portées par un seul RSSI7. 
+En absence de RSSI, un SI ne peut être homologué ou ré-homologué, et en cas de SI déjà 
+homologué, la décision d’homologation peut être remise en cause. Il est de la responsabilité de 
+l’AE de s’assurer de la continuité de la fonction de RSSI, tout au long du cycle de vie du SI. 
+Le transfert de la fonction de RSSI, notamment de la fonction de RSSI-P à celle de RSSI-A en cas 
+d’attributaires différents, requiert au minimum : 
+● un transfert du dossier d’homologation du SI réactualisé, contenant notamment le plan 
+d’amélioration continue de sécurité (PACS, cf. §4.4.5) ; 
+                                               
+6 Si le SI n’est pas homologué alors qu’il est déjà en phase d’utilisation, il instruit une démarche d’homologation 
+pour régularisation. 
+7 Dans la présente directive, le terme de RSSI désigne les deux fonctions, RSSI-P et RSSI-A, qui se distinguent 
+selon la phase du cycle de vie du SI.
+
+[Page 15 / 49 | chars: 2894]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+13/47 
+● une désignation formelle du RSSI prenant et la date effective de sa prise de fonction. 
+Le transfert de responsabilité nécessite un procès-verbal qui définit les pièces transmises, les 
+remarques et les restrictions du RSSI prenant. Il est transmis à l’AE et à l’AH. 
+ Commission d’homologation 
+La commission d’homologation est une instance mise en place pour assister l’AH au moment de décider 
+de l’homologation du SI. Les éventuelles négociations entre l’AH et l’AE ou avec les autres parties 
+prenantes doivent être achevées avant la commission d’homologation. La commission peut se 
+rassembler de manière dématérialisée et émettre un avis sans nécessairement réunir physiquement 
+ses membres. 
+RO 6 :  il est OBLIGATOIRE que l’AH constitue une commission d’homologation, adaptée au système 
+à homologuer et en fixe les règles générales de fonctionnement.  
+La commission se rassemble sur demande du RSSI pour proposer à l’AH une décision au travers d’un 
+procès-verbal.  
+La composition de cette commission dépend de l’enjeu et de la nature de l’homologation. Dans les cas 
+les plus simples (démarche sommaire (cf. §4.5.1), simplifiée (cf. §4.5.2), homologation de déploiement 
+(cf. §6.6) par exemple), la composition de la commission reste à la diligence de l’AH. Elle peut se limiter 
+au CEAH et au RSSI en charge de la démarche d’homologation. Un certificat de conformité aux 
+exigences SSI peut faire office de procès-verbal.  
+Le FSSI et l’AQSSI sont des membres de droit des commissions d’homologation. Ils sont informés de 
+leur tenue et, à leur demande, ils peuvent accéder à l’ensemble du dossier d’homologation. 
+RO 7 :  il est OBLIGATOIRE que, dans le cadre d’une démarche d’homologation standard, la 
+commission d’homologation soit au minimum composée des acteurs suivants : 
+● 
+l’AH ou son représentant ; 
+● 
+le responsable SSI (RSSI) en charge de la démarche d’homologation ; 
+● 
+le responsable de projet (RCP ou équivalent)/programme ou son représentant ; 
+● 
+l’AE ou son représentant. 
+ 
+Dans le cas d’un renouvellement d’une homologation (cf. §5.6), la constitution de la commission 
+d’homologation est à la diligence de l’AH. La commission doit au moins comprendre : 
+● 
+le CEAH ; 
+● 
+le RSSI en charge de la démarche de renouvellement de l’homologation ; 
+● 
+le RSSI (ou RSSI-A) du SI (s’il est différent du RSSI en charge de la démarche 
+d’homologation) ; 
+● 
+le responsable du MCS (s’il est différent du RSSI). 
+Dans le cadre d’une régularisation d’une homologation d’un SI déjà en phase d’utilisation, la commission 
+comprend au moins : 
+● 
+l’AH ou son représentant ; 
+● 
+le RSSI en charge de la démarche d’homologation ; 
+● 
+le RSSI-A du SI (s’il est différent du RSSI en charge de la démarche d’homologation) ; 
+● 
+le représentant de l’opérateur ;
+
+[Page 16 / 49 | chars: 2618]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+14/47 
+● 
+l’AE ou son représentant. 
+ 
+DÉMARCHE D’HOMOLOGATION 
+ Objectifs  
+La démarche d’homologation a pour objectif : 
+● 
+d’une part : 
+o d’identifier, d’évaluer et de hiérarchiser les risques résiduels portant sur le SI dans un 
+périmètre bien défini selon les principes de gestion de risques ; 
+o de réduire la vraisemblance des risques, en particulier la surface d’attaque, ou le cas 
+échéant leurs impacts, par l’application de mesures de sécurité ; 
+o de mettre en place la capacité à réagir en cas d’incident ou de crise ; 
+o de s’assurer de l’effectivité des règles relatives au [MCS] et aux [Traces] ; 
+● d’autre part : 
+o de justifier le bon déroulement de la démarche ; 
+o de fournir à l’AH les justifications nécessaires pour prononcer sa décision. 
+La démarche d’homologation doit amener à une décision d’homologation (cf. §5). 
+ Processus de maîtrise des risques 
+L’AH décide des modalités de la démarche et peut la faire évoluer en conduite. 
+Toutefois, la démarche d’homologation doit être adaptée : 
+● en termes de méthode, aux enjeux portés par le SI en matière de niveau de risque et 
+de ressources tout au long de son cycle de vie ; 
+● en termes de mesures de sécurité, pour éviter d’entraver le développement du SI par 
+la « sur-sécurité » ; 
+● en termes de documentation, pour ne pas multiplier les livrables fastidieux, inadaptés 
+ou encore inefficaces. 
+Il s’agit donc de prioriser les démarches d’homologation en fonction du niveau de criticité des SI et de 
+leur exposition aux menaces afin d’éviter d’instruire des processus d’homologation complexes, longs et 
+coûteux qui finalement seraient inadaptés aux enjeux de sécurité des SI.  
+Toute démarche d’homologation repose sur un processus de maîtrise de risques qui se déroule en 
+plusieurs étapes : 
+● définition du périmètre d’homologation (cf. §4.4.1) ; 
+● description de la démarche dans une stratégie d’homologation (cf. §4.4.2) ; 
+● définition des objectifs de sécurité ; 
+● identification, évaluation et hiérarchisation des risques portés sur le SI au moyen d’une 
+analyse de risques ou de conformité à un référentiel préalablement défini (cf. RO 8 :) ; 
+● traitement des risques hiérarchisés ; 
+● réalisation et contrôle des mesures de sécurité destinées à atteindre les objectifs de 
+sécurité ; 
+● identification, évaluation et hiérarchisation des risques résiduels ; 
+● constitution et vérification du dossier d’homologation (cf. §4.4) ; 
+● décision de l’AH (cf. §5) sur avis de la commission d’homologation (cf. §3.5).
+
+[Page 17 / 49 | chars: 2820]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+15/47 
+ 
+Lors de la démarche d’homologation, le RSSI doit tenir compte au minimum : 
+● des attendus métiers (AE) 
+● du fondement juridique et réglementaire s’appliquant à la protection des données et des 
+SI ; 
+● des prérequis nécessaires à l’homologation (par exemple, la qualification de produits de 
+sécurité) ; 
+● de l’interconnexion avec d’autres systèmes ; 
+● des moyens d’hébergement des informations ; 
+● des solutions de chiffrement (logicielles et matérielles) ; 
+● de la gestion des documentations, notamment de la cartographie afin de garantir la 
+connaissance du système au cours de son cycle de vie ; 
+● de la gestion et de la protection des supports amovibles ; 
+● des accès à distance par des utilisateurs en mobilité ; 
+● des conditions de MCS conformément au [MCS] ou à ses déclinaisons au sein des 
+EMDS ; 
+● des modalités de supervision de sécurité ; 
+● des opérations de maintenance, d’exploitation ou de télégestion du système, notamment 
+lorsqu’elles sont effectuées par des prestataires externes ; 
+● des éléments mis en œuvre pour assurer le plan de continuité/reprise d’activité 
+(PCA/PRA) ; 
+● de la formation des utilisateurs et des administrateurs, y compris sur la sécurité ; 
+● des contraintes et des impératifs, notamment calendaires ; 
+● des modalités de retrait de service. 
+Si le besoin de mise en supervision de sécurité par un SOC est avéré, le processus de supervision doit 
+être pris en compte dans la démarche d’homologation et suffisamment tôt dans la réalisation du SI afin 
+de prendre en compte les prérequis et d’intégrer cette mise sous supervision dans le plan de charge du 
+SOC. 
+RO 8 :  il est OBLIGATOIRE de renseigner les informations relatives à la démarche d’homologation 
+dans l’outil de suivi du patrimoine applicatif du ministère des Armées8 et de les réactualiser au 
+fur et à mesure de la démarche d’homologation (sous réserve du niveau de classification de 
+ces informations). 
+ Méthode d’analyse de risques 
+La méthode d’analyse de risques à utiliser est EBIOS RM. D’autres méthodes peuvent être utilisées en 
+complément sur autorisation de l’AH (cf. [PSSIM-T] ENV13). Dans ce cas, il est nécessaire de le 
+préciser et de le justifier dans la stratégie d’homologation. Toutefois, de manière transitoire, en attendant 
+que tous les responsables SSI et fournisseurs de SI s’approprient cette méthode, l’ancienne méthode 
+EBIOS 2010 peut être utilisée. 
+Le renouvellement de l’homologation d’un système dont l’analyse de risques a été réalisée, selon la 
+méthode EBIOS 2010, peut utiliser la même méthode d’analyse de risques. 
+                                               
+8 SICLADE est l’outil de suivi du patrimoine applicatif du ministère des Armées.
+
+[Page 18 / 49 | chars: 3282]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+16/47 
+ Dossier d’homologation 
+L’AH doit s’appuyer sur des livrables produits par la démarche d’homologation pour prononcer la 
+décision d’homologation. L’ensemble des livrables constitue le dossier d’homologation. 
+RO 9 :  il est OBLIGATOIRE, afin que la décision d’homologation soit motivée et justifiée, que l’AH 
+s’appuie sur un dossier d’homologation conforme à la démarche d’homologation choisie et dont 
+les pièces constitutives sont définies par la stratégie d’homologation. 
+Quelle que soit la démarche d’homologation, le dossier d’homologation est a minima constitué des 
+éléments suivants : 
+● la stratégie d’homologation, pièce maîtresse de la démarche, qui définit le périmètre 
+d’homologation, identifie les responsabilités, les tâches à réaliser (éventuellement 
+assorties de conditions), les livrables à fournir (cf. §4.4.2) ; 
+● les procédures d’exploitation de sécurité (PES) qui précisent les mesures 
+organisationnelles de sécurité à appliquer au SI (cf. §4.4.3) ; 
+● la liste des risques résiduels portant sur le SI (cf. §4.4.4) ; 
+● le plan d’amélioration continue de sécurité (cf. §4.4.5). 
+Si la mise sous supervision de sécurité du SI par un SOC est décidée, la démarche d’homologation doit 
+vérifier que les prérequis nécessaires à cette mise sous supervision ont bien été pris en compte. Le 
+SOC peut fournir un compte-rendu de faisabilité qui sera alors inséré dans le dossier d’homologation.  
+Dans le cas d’une prestation informatique confiée à un tiers externe au ministère, notamment une 
+prestation d’hébergement, le dossier d’homologation doit comprendre un plan d’assurance sécurité 
+(PAS) produit par le prestataire accompagné d’un certificat attestant de sa conformité. 
+RO 10 : il est OBLIGATOIRE pour le RSSI de constituer le dossier d’homologation tel qu’il est défini 
+dans la stratégie d’homologation et de le faire valider par le CEAH. 
+Par sa validation, le CEAH atteste que le dossier d’homologation est conforme aux attendus de la 
+stratégie d’homologation approuvée par l’AH. Il prononce un avis sur sa complétude et sur le contenu 
+des pièces le constituant. 
+L’approbation et la validation d’un dossier d’homologation impliquent l’approbation et la validation de 
+toutes les pièces qui le constituent.  
+Le dossier d’homologation, initié dès la phase de conception du SI, est tenu à jour tout au long du cycle 
+de vie du SI. Il est revu et contrôlé à chaque renouvellement d’homologation et à chaque 
+changement de RSSI.  
+ 
+Le périmètre d’homologation 
+RO 11 : il est OBLIGATOIRE pour le RSSI de documenter le périmètre d’homologation, validé par 
+l’AH, et de l’actualiser au fur et à mesure de l’évolution du SI. 
+Le périmètre d’homologation précise a minima les éléments suivants au fur et à mesure du projet : 
+● les différents contextes d’emploi possibles du SI ; 
+● les enjeux et les besoins de sécurité exprimés par l’AE ; 
+● les acteurs du SI (AE, opérateur, organisme utilisateur, etc.) ; 
+● les principales fonctionnalités du SI ou cas d’usage ; 
+● la nature des données traitées par le SI, notamment leur niveau de confidentialité ; 
+● les différents profils d’utilisateurs ; 
+● la configuration technique du SI ;
+
+[Page 19 / 49 | chars: 2471]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+17/47 
+● les dispositifs d’échanges, d’interconnexion et d’interfaces avec d’autres SI ; 
+● les références relatives au SI ayant un impact sur la sécurité numérique et la démarche 
+d’homologation (CCTP, contrat MCO, contrat d’hébergement, etc.). 
+En raison de son usage récurrent dans différents livrables et de ses possibles évolutions, le périmètre 
+d’homologation peut faire l’objet d’un document de référence. Il est alors joint à la stratégie 
+d’homologation ou à tout document le nécessitant. 
+ 
+La stratégie d’homologation 
+RO 12 : il est OBLIGATOIRE pour le RSSI d’établir une stratégie d’homologation puis de la faire 
+approuver par l’AH.  
+La stratégie d’homologation précise a minima les informations suivantes : 
+● le périmètre d’homologation (ou référence du document définissant ce périmètre) ; 
+● les acteurs de la démarche d’homologation ; 
+● le référentiel réglementaire ; 
+● le type de démarche d’homologation (cf. §4.5) ; 
+● les analyses de risques à réaliser et les méthodes à employer ; 
+● le parcours (séquence, cas d’usage traités) de l’homologation à instruire ; 
+● les éléments de la stratégie de MCS du SI ; 
+● les modalités de mise sous supervision de sécurité9 ;  
+● les livrables à produire avec les responsabilités, les échéances et les approbateurs ; 
+● les modalités de la commission d’homologation (composition, nature de la réunion) ; 
+● les contraintes et les impératifs, notamment calendaires. 
+ 
+Les procédures d’exploitation de sécurité 
+RO 13 : il est OBLIGATOIRE pour le RSSI de rédiger des PES et de les faire approuver par l’AH, après 
+accord de l’AE. 
+Les PES définissent a minima : 
+● les différentes responsabilités des acteurs en matière de SSI et d’exploitation ; 
+● les mesures organisationnelles de sécurité spécifiques au SI, dont nécessairement : 
+o la gestion des accès et des droits ; 
+o l’organisation du MCS ; 
+o la supervision de sécurité (stratégie de détection, politique de journalisation, etc.) ; 
+o les modalités de sauvegarde et de restauration ; 
+● les mesures dérogatoires à des exigences de sécurité ; 
+● les mesures conservatoires, notamment à des fins pédagogiques ; 
+● les limitations d’utilisation du SI ; 
+● les modalités de retrait de service du SI en matière de sécurité numérique. 
+                                               
+9 Par un SOC, une surveillance périodique des journaux, etc.
+
+[Page 20 / 49 | chars: 2885]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+18/47 
+Les PES doivent : 
+● être adaptées au public visé (RSSI, administrateurs, utilisateurs)10 ; 
+● ne contenir que les informations strictement nécessaires aux destinataires. 
+ 
+La liste de risques résiduels 
+L’ensemble des risques portant sur le SI et subsistant toujours après l’implémentation des mesures de 
+sécurité doit être présenté à l’AH avec les niveaux de gravité et de vraisemblance.  
+Le SI est soumis à un ensemble d’exigences de sécurité de niveaux d’importance variés en raison de 
+la nature de ses données, des activités qu’il porte ou des éléments qui le constituent. Ces exigences 
+sont extraites d’un référentiel préalablement défini. Lorsque des exigences ne sont pas applicables pour 
+des raisons justifiées, des mesures sont définies pour réduire les risques que cette non-conformité peut 
+générer. La liste des risques résiduels prend aussi en compte les risques subsistant après la 
+mise en place de ces mesures dérogatoires. 
+RO 14 : il est OBLIGATOIRE pour l’AH de délivrer une décision d’homologation à partir d’une liste de 
+risques résiduels après avoir autorisé les mesures dérogatoires relevant de son périmètre. 
+ 
+Le plan d’amélioration continue de la sécurité 
+Le plan d’amélioration continue de la sécurité (PACS) définit et suit dans le temps les mesures de 
+sécurité à appliquer à un SI pour réduire les risques, traiter les non-conformités et les vulnérabilités du 
+SI.  
+Le PACS identifie le responsable de chaque mesure et les difficultés de mise en œuvre, évalue le coût 
+nécessaire pour la réaliser, son échéance et son état de réalisation. Chaque mesure est associée à au 
+moins un risque. 
+Le PACS est initié et mis à jour par le RSSI dès la phase de développement du SI et tout au long du 
+cycle de vie. 
+ Trois types de démarche 
+La présente directive définit trois types de démarche d’homologation : sommaire, simplifiée et standard. 
+Les types de démarches d’homologation se différencient par : 
+● la nature et la profondeur de l’analyse de risques (cf. ANNEXE 2) ; 
+● la composition du dossier d’homologation (cf. ANNEXE 1) ; 
+● la composition de la commission d’homologation. 
+RO 15 : il est OBLIGATOIRE, pour homologuer un SI, d’appliquer l’une des trois démarches 
+d’homologation identifiées : sommaire, simplifiée ou standard. 
+ 
+Démarche sommaire 
+La démarche sommaire repose sur une analyse de risques réalisée à partir d’un certificat d’usage et 
+de conformité (CUC) fondé sur le [GUIDE SSI], éventuellement complété par la [PSSIM], les politiques 
+de sécurité du SI qui l’héberge, voire de la [DIR 39] lorsqu’elle s’applique.  
+Le [GUIDE 7] propose un modèle de CUC que les AH peuvent adapter. 
+                                               
+10 Des PES peuvent en annexe fournir des fiches réflexes par public visé.
+
+[Page 21 / 49 | chars: 3163]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+19/47 
+RO 16 : il est OBLIGATOIRE pour l’AH, dans une démarche sommaire, de fournir au RSSI le CUC 
+qu’il devra renseigner.  
+ 
+RO 17 : il est OBLIGATOIRE pour l’AE, dans une démarche sommaire, de valider le CUC 
+correctement renseigné.  
+ 
+Démarche simplifiée 
+La démarche simplifiée repose sur une analyse de conformité à un ensemble d’exigences de sécurité 
+vérifiables, déterminées en fonction de la nature des données traitées par le SI, des activités qu’il porte 
+ou encore des éléments (techniques, logiciels) qui le constituent. Il regroupe ainsi un ensemble de 
+règles provenant de textes réglementaires, de normes et de bonnes pratiques préalablement définies, 
+adaptées et applicables au SI. Cet ensemble d’exigences de sécurité à appliquer associées à leur 
+référentiel constitue le CUC spécifique au périmètre d’homologation du SI. 
+L’analyse de conformité consiste alors à évaluer l’état d’application des exigences puis à identifier et 
+justifier les écarts. Le CUC correctement renseigné forme le socle de sécurité du SI. Des mesures de 
+sécurité dérogatoires peuvent être définies puis autorisées par l’autorité compétente pour limiter les 
+risques que font peser les non-conformités sur le SI. Elles complètent le socle de sécurité. 
+Si le référentiel et les exigences de sécurité sont insuffisants pour prendre en compte tout le périmètre 
+d’homologation et les besoins de sécurité du SI, l’analyse de conformité devrait être complétée par une 
+analyse de risques appropriée. Cette analyse de risques complémentaire à l’analyse de conformité peut 
+aussi être exigée par l’AH. 
+RO 18 : il est OBLIGATOIRE, pour une démarche simplifiée, de procéder à une analyse de conformité 
+à partir d’un CUC, formé d’exigences adaptées au périmètre d’homologation et aux besoins de 
+sécurité du SI (socle de sécurité).  
+ 
+RO 19 : il est RECOMMANDÉ, pour une démarche simplifiée, de compléter l’analyse de conformité 
+par une analyse de risques lorsque le CUC est insuffisant pour prendre en compte les 
+composants essentiels du périmètre d’homologation ou encore les besoins de sécurité du SI.  
+Un outil d’analyse de risques dédié à la démarche d’homologation simplifiée (OARDHS du [GUIDE 7]) 
+pour un SI non industriel est fourni et maintenu par la DGNUM.  
+ 
+Démarche standard 
+La démarche standard s’appuie obligatoirement sur une analyse de risques complète selon une 
+méthode préconisée par le ministère (EBIOS RM).  
+RO 20 : il est OBLIGATOIRE, pour une démarche standard, de mener une analyse de risques 
+complète selon une méthode préconisée par le ministère.  
+L’analyse de risques donne alors lieu à l’élaboration des livrables suivants : 
+● une fiche d’expression rationnelle des objectifs de sécurité (FEROS) ; 
+● une cible de sécurité, éventuellement. Elle identifie les fonctions de sécurité réalisant 
+les objectifs de sécurité ; 
+● un plan de sécurité (PDS). Il regroupe l’ensemble des mesures organisationnelles, 
+physiques et techniques qui réalisent les fonctions de sécurité prévues ou encore les 
+objectifs de sécurité définis.
+
+[Page 22 / 49 | chars: 2938]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+20/47 
+La cible de sécurité et le PDS permettent de vérifier le recouvrement de l’ensemble des objectifs de 
+sécurité. La cible de sécurité peut être incluse dans le PDS pour former un seul livrable. 
+Le SI fait l’objet d’un audit d’homologation [Audit]. Cet audit donne lieu à un rapport qui définit les 
+vulnérabilités identifiées et les risques associés, puis à un plan d’actions. 
+RO 21 : il est OBLIGATOIRE, dans toute démarche standard, de réaliser un audit d’homologation. Les 
+résultats et les actions qui en découlent sont étudiés lors de la commission d’homologation. 
+ Détermination du choix de la démarche  
+Les SI sont répartis en quatre catégories en fonction de la sensibilité et de l’exposition à la menace 
+[PSSIM-T] : 
+● SI d’importance vitale (SIIV) ; 
+● SI essentiel (SIE) ; 
+● SI important (SII) ; 
+● SI standard (SIS). 
+Les SI industriels font aussi l’objet d’une classification (classes 1 à 3) dont le niveau détermine les 
+mesures de sécurité à appliquer sur un périmètre bien défini ([DIR 39]). La catégorisation d’un système 
+industriel peut se déduire de son niveau de classe.  
+L’AH valide la catégorisation du SI sur proposition de l’autorité emploi au regard de l’importance du SI 
+pour le fonctionnement de l’entité ou la réalisation de la mission, et de l’exposition aux menaces. L’AE 
+est assistée par sa chaîne fonctionnelle SSI. 
+Le choix du type de démarche d’homologation doit être en accord avec la catégorisation du SI. 
+Typiquement, les correspondances suivantes peuvent être appliquées. 
+ 
+Système d’information 
+Système industriel 
+(ou sous-système) 
+Démarche standard 
+S2IV 
+SIE 
+classe 3 
+Démarche simplifiée 
+SII 
+classe 2 
+Démarche sommaire 
+SIS 
+classe 1 
+La complexité du SI et donc de maîtrise du SI peut aussi être un critère supplémentaire dans le choix 
+de la démarche. 
+La démarche sommaire peut correspondre à un SI d’architecture simple, dont l’exposition aux risques 
+et la criticité sont faibles et dont les règles de sécurité à appliquer n’excèdent pas celles prévues par 
+les [GUIDE SSI].  
+La démarche simplifiée peut correspondre à un SI d’architecture maîtrisée et dont l’exposition aux 
+risques ou la criticité est faible. Elle répond notamment au cas des SI s’appuyant sur un socle au travers 
+des usages, ou pouvant faire l’objet d’exigences de sécurité non couvertes par le socle ou par les 
+[GUIDE SSI] mais encadrées par des réglementations relatives aux informations et fonctions à protéger 
+(personnelles, médicales, financières, systèmes industriels, etc.).  
+La démarche standard s’applique aux autres SI, notamment à des SI dont l’exposition aux risques 
+n’est pas maîtrisée au travers du socle ou dont les exigences de sécurité ne sont pas couvertes par 
+des réglementations. Elle s’applique principalement à des SI du socle, des SI constituant leur propre
+
+[Page 23 / 49 | chars: 3027]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+21/47 
+socle (par exemple, les systèmes embarqués, les systèmes d’armes, etc.), des SI présentant un fort 
+niveau de criticité (un ou plusieurs critères de risques (DICT11) au niveau maximum).  
+Pour les systèmes non industriels, l’AH pourra s’appuyer sur le questionnaire d’évaluation initiale (QEI) 
+proposé par le [GUIDE 7] pour orienter ses choix. Pour les systèmes industriels, une méthode et des 
+outils sont proposés dans [DIR 39]. Toutefois, l’AH reste seule décisionnaire du choix de la 
+démarche, hormis pour les SI auxquels la réglementation et la présente directive peuvent 
+imposer une démarche standard (RGS, SIIV). 
+ Principe de l’héritage12 
+Dans le cadre des homologations, le principe d’héritage consiste à utiliser les résultats d’une analyse 
+de risques déjà conduite sur un modèle. Celui-ci peut désigner un composant (physique, logiciel), un 
+service, voire une architecture type. 
+Un modèle est constitué : 
+● d’une description permettant de l’identifier clairement ; 
+● d’un niveau de sécurité défini comme l’ensemble des résultats de l’analyse de risques 
+sous forme de critères de sécurité (DICT, etc.) et des risques résiduels ; 
+● de prérequis sous forme de recueil d’exigences vérifiables. 
+Tout modèle doit être validé par le CEAH.  
+L’objet hérite d’un modèle quand il utilise les éléments constituant ce modèle pour identifier, évaluer et 
+hiérarchiser les risques portant sur le SI.  
+Les risques13 associés à l’objet qui hérite doivent alors être évalués à partir : 
+● du niveau de sécurité du modèle hérité ; 
+● de l’état de conformité du SI au prérequis. 
+Les modèles hérités ainsi que l’évaluation des risques associés aux objets qui héritent sont insérés 
+dans le dossier d’homologation. 
+ 
+DÉCISION D’HOMOLOGATION 
+ Objectifs 
+La décision d’homologation est l’acte officiel par lequel l’AH atteste que : 
+● les risques résiduels sont bien identifiés, évalués et acceptés ; 
+● les ressources affectées à la démarche sont en adéquation avec les enjeux portés par 
+le SI ; 
+● le dossier d’homologation est satisfaisant et a fait l’objet d’une validation par le CEAH 
+(cf. §4.4) ; 
+● les mesures annoncées dans le dossier d’homologation sont effectives ou le seront au 
+terme de la réalisation du PACS dont la complétude devra être vérifiée par le RSSI ; 
+                                               
+11 Disponibilité, Intégrité, Confidentialité, Traçabilité au minimum. 
+12 Le principe d’héritage est implicitement utilisé pour les composants ou services certifiés ou labellisés. Le modèle 
+est alors défini par le certificat et le rapport de certification. 
+13 Dans le cadre de la méthode EBIOS RM, le composant ou le service du SI qui hérite est alors considéré 
+comme une partie prenante du SI dont le niveau de confiance ou de menace est évalué à partir des besoins 
+atteints par le modèle, des résultats de l’analyse de risques et de l’état de conformité du SI aux prérequis.
+
+[Page 24 / 49 | chars: 3134]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+22/47 
+● les solutions de chiffrement font l’objet d’un dossier cryptographique valide14 et leurs 
+risques résiduels sont intégrés dans la liste des risques acceptés ; 
+● les moyens nécessaires au MCS sont en place, notamment : 
+o une organisation de gestion du SI pérenne et documentée ; 
+o l’effectivité des contrats de MCS ; 
+o une stratégie de MCS mise en œuvre et adaptée à la criticité du SI et à ses 
+contraintes ; 
+● la supervision de la sécurité répond aux besoins de sécurité du SI et sa mise en 
+supervision par un SOC, si elle a été décidée, est réalisable ;  
+● les règles relatives à la défendabilité du SI sont appliquées ([DEFEND]) ; 
+● le SI est enrôlé dans l’outil de suivi du patrimoine applicatif du ministère des Armées. 
+Une décision d’homologation est nécessairement associée à un périmètre d’homologation. 
+La qualification, la certification ou l’agrément d’un équipement ne vaut pas homologation. Néanmoins, 
+l’AH peut et doit s’appuyer sur les conditions de la qualification, de la certification ou de l’agrément pour 
+établir sa décision d’homologation dans le périmètre d’emploi qui y est associé. 
+Avant toute décision d’homologation, le CEAH vérifie que le SI est enrôlé dans l’outil de suivi du 
+patrimoine applicatif du ministère des Armées et auprès d’un SOC pour la gestion et l’exploitation des 
+traces si ce besoin est avéré. 
+RO 22 : il est OBLIGATOIRE d’insérer la décision d’homologation dans l’outil de suivi du patrimoine 
+applicatif du ministère des Armées (sous réserve du niveau de classification de cette décision). 
+ La forme de la décision d’homologation 
+Lors de l’instruction d’un dossier d’homologation, il peut être constaté qu’un système ne remplit pas 
+toutes les conditions requises pour son homologation. L’AH peut apprécier les risques pris en cas de 
+mise en exploitation du système pour une durée ou un périmètre limités et les considérer comme 
+acceptables. Dans ce cas, elle peut alors prononcer une homologation d’une durée limitée15 
+(restriction temporelle), et/ou sur un périmètre réduit (restriction fonctionnelle), et assortie d’une 
+correction des éléments constatés. L’AH doit alors indiquer ses attentes pour éventuellement procéder 
+au renouvellement de l’homologation limitée ou à une homologation ferme, c’est-à-dire pleine et entière.  
+RO 23 : il est OBLIGATOIRE que toute décision d’homologation soit prise à l’issue d’une démarche 
+d’homologation. La décision peut être assortie de conditions ou de restrictions d’emploi 
+(temporelles, fonctionnelles) pour une durée déterminée. La démarche peut aussi conduire à 
+un refus d’homologation. 
+                                               
+14 Un dossier cryptographique a pour but de faciliter et de tracer l’expression de besoin capacitaire en solutions 
+de chiffrement, selon le modèle en vigueur. La durée de l’homologation doit être en cohérence avec la validité 
+d’autorisation d’usage des solutions de chiffrement utilisées. 
+15 La durée de validité est inférieure à celle prescrite dans le §5.3.
+
+[Page 25 / 49 | chars: 2692]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+23/47 
+Une décision d’homologation conditionnelle ou restrictive doit préciser les critères ou les 
+actions nécessaires pour procéder à une homologation ferme. Les actions à réaliser complètent le 
+PACS du SI. Il sera inséré dans le dossier d’homologation et mis à jour tout le long du cycle de vie du 
+SI. 
+RO 24 : il est OBLIGATOIRE d’insérer dans la décision d’homologation le niveau de protection 
+maximal des données pouvant être traitées par le SI et leurs éventuelles mentions de 
+manipulation ou de diffusion. 
+Un refus d’homologation engage directement la responsabilité de l’AE et éventuellement celle 
+des opérateurs. L’AH les informe des risques encourus et de leurs responsabilités. 
+ La durée de validité de la décision d’homologation 
+RO 25 : il est OBLIGATOIRE d’assortir la décision d’homologation d’une durée de validité et de fixer 
+les conditions de validité.  
+La durée de validité d’une décision d’homologation est laissée à l’appréciation de l’AH. Toutefois, elle 
+ne doit pas dépasser : 
+● 2 ans pour les systèmes traitant des informations au moins de niveau de classification 
+TRÈS SECRET ; 
+● 3 ans pour les systèmes traitant des informations de niveau de classification SECRET ; 
+● 5 ans pour des systèmes traitant des informations sensibles, y compris celles portant la 
+mention DIFFUSION RESTREINTE ; 
+● 7 ans pour les autres systèmes. 
+Dans le cas de systèmes industriels traitant des informations non classifiées, la durée de validité de 
+l’homologation doit être inférieure ou égale à : 
+● 3 ans pour les SI de classe 3 ; 
+● 5 ans pour les SI de classe 2 ; 
+● 7 ans pour les SI de classe 1.  
+Au-delà de sa date de validité et jusqu’au renouvellement de la décision d’homologation, l’utilisation du 
+SI doit être suspendue. 
+ Suspension d’une homologation 
+RO 26 : il est OBLIGATOIRE de remettre en cause une décision d’homologation quand : 
+● 
+les conditions de sa validité ne sont plus respectées ; 
+● 
+les conditions de configuration ou d'exploitation du SI ont été modifiées de manière 
+significative ; 
+● 
+le SI ne correspond plus au périmètre d’homologation (ajout de fonctionnalités, 
+d’applications, d’interconnexions non prévues) ; 
+● 
+des vulnérabilités ont été détectées et peuvent remettre en cause le niveau de sécurité 
+du SI de manière inacceptable pour l’AH ; 
+● 
+les menaces sur le SI ont significativement évolué ; 
+● 
+des problèmes d’application des mesures de sécurité ont été identifiés, notamment lors 
+d’un contrôle ou d’un audit de sécurité ; 
+● 
+le MCS du SI n’est pas applicable ou suffisamment appliqué, ou a été défaillant ;
+
+[Page 26 / 49 | chars: 2723]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+24/47 
+● 
+le système a fait l'objet d'un incident de sécurité significatif mettant en doute le niveau de 
+sécurité attendu. 
+Le RSSI ou l’AE peut proposer à l’AH, via son centre expert, une suspension d’une décision 
+d’homologation. Sur l’avis de son centre expert, l’AH peut réunir la commission d’homologation pour 
+statuer sur la décision d’homologation.  
+Après suspension d’une décision, une démarche d’homologation peut être reprise ou poursuivie, 
+totalement ou de manière partielle, après avis de la commission d’homologation. 
+ Abrogation d’une homologation  
+Une homologation est abrogée dès que le SI est retiré du service. Cette abrogation n’appelle pas de 
+formalisme particulier mais doit être notifiée dans l’outil de suivi du patrimoine applicatif du ministère 
+des Armées. L’AH est chargée de veiller à cette notification. 
+Le RSSI informe l’AH de l’abrogation de l’homologation. 
+ Renouvellement des homologations  
+La démarche d’homologation pour renouveler une décision d’homologation est réalisée par : 
+● le RSSI-A si le SI est uniquement en phase d’utilisation ; 
+● le RSSI-P lorsque le SI est encore en phase de réalisation. 
+Selon l’importance des évolutions et de la criticité du SI, et sur proposition de son centre expert, l’AH 
+peut renouveler la décision d’homologation sur simple présentation du dossier d’homologation 
+réactualisé ou à partir de l’avis d’une nouvelle commission d’homologation.  
+Si le SI n’a pas connu de changements significatifs ou d’incidents majeurs ayant remis en cause 
+ses besoins de sécurité, il n’est pas nécessaire de conduire à nouveau une démarche 
+d’homologation complète. 
+ 
+RO 27 : il est OBLIGATOIRE qu’un renouvellement d’homologation comporte a minima : 
+● 
+une revue des informations figurant dans le dossier d’homologation ; 
+● 
+une revue des informations d’enrôlement dans l’outil de suivi du patrimoine applicatif du 
+ministère des Armées ; 
+● 
+une vérification des hypothèses de l’analyse de risques ; 
+● 
+une vérification de la pertinence des exigences de sécurité appliquées sur le SI ; 
+● 
+une revue du PACS ; 
+● 
+un bilan des contrôles et audits réalisés sur le SI ; 
+● 
+un bilan de l’activité liée au MCS pour évaluer sa performance et identifier les 
+événements marquants.  
+ 
+Le renouvellement d’homologation peut donner lieu à un contrôle, à un audit de conformité ou 
+d’homologation. 
+La décision de renouvellement d’homologation est identique à celle d’une homologation et se présente 
+de la même manière (cf. §5.2). Elle précise la référence de la précédente homologation. 
+ 
+CAS D’USAGE 
+ Système d’information d’importance vitale
+
+[Page 27 / 49 | chars: 3008]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+25/47 
+ 
+Démarche d’homologation d’un SIIV 
+RO 28 : il est OBLIGATOIRE de mener une démarche d’homologation de type standard pour 
+homologuer un SI déclaré d’importance vitale. Toute dérogation à cette règle nécessite 
+l’autorisation formelle du FSSI. 
+L’AH du SI est l’opérateur d’importance vitale (OIV), sauf cas particulier précisé dans la règlementation 
+interministérielle ou ministérielle (cf. par exemple §6.11). S’il n’est pas l’AH du SI, il est membre de droit 
+de la commission d’homologation. L’opérateur est identifié dans la stratégie d’homologation. 
+Le périmètre d’homologation définit les activités remises en cause en cas de dysfonctionnement ou 
+d’atteinte à la sécurité numérique du SI ainsi que les fonctionnalités qui les portent. 
+Les exigences de sécurité à appliquer, c’est-à-dire le socle de sécurité, contiennent nécessairement les 
+règles définies par [SIIV]. Toute non-conformité à ces règles est dûment justifiée dans le dossier 
+d’homologation.  
+La démarche d’homologation comprend nécessairement un audit d’homologation dont les résultats et 
+les actions qui en découlent sont étudiées lors de la commission d’homologation. 
+Des indicateurs de sécurité prévus par [SIIV] sont élaborés au cours de la démarche d’homologation et 
+présentés à l’AH. Ils doivent permettre d’évaluer le niveau de sécurité du SI dont : 
+● le MCS du SI ; 
+● l’avancement de la démarche d’homologation ou de son renouvellement ; 
+● l’avancement du PACS mis en place.  
+Au-delà des documents correspondant à une démarche standard (cf. ANNEXE 1), le dossier 
+d’homologation contient en outre : 
+● le formulaire de déclaration en SIIV ainsi que les pièces le justifiant, dont l’analyse 
+d’impacts ; 
+● la liste des indicateurs de sécurité et les modalités pour les déterminer. 
+ 
+Décision d’homologation d’un SIIV 
+En plus des éléments classiques à prendre en compte (cf. §5.1) pour statuer sur l’homologation du SI, 
+l’AH doit aussi prendre en considération : 
+● la gestion des incidents ; 
+● la gestion de crise en cas d’attaques informatiques majeures ; 
+● les indicateurs de sécurité ; 
+● les rapports de sécurité prévus par [SIIV]. 
+La durée de validité de l’homologation d’un SIIV non classifié est au maximum de 5 ans. En cas de SIIV 
+classifié, elle dépend de son niveau de classification (cf. §5.3). 
+La décision et le dossier d’homologation sont à la disposition de l’agence nationale de la sécurité des 
+systèmes d’information (ANSSI). 
+Il est rappelé que la décision d’homologation et le dossier d’homologation sont « des documents 
+confidentiels susceptibles de contenir des informations dont la révélation est réprimée par les 
+dispositions de l’article 226-13 du code pénal. Il est, le cas échéant, couvert par le secret de la défense 
+nationale. » [SIIV]  
+La mention qu’un SI est SIIV est considérée a minima comme une information de niveau DIFFUSION 
+RESTREINTE SPÉCIAL FRANCE.
+
+[Page 28 / 49 | chars: 3511]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+26/47 
+RO 29 : il est OBLIGATOIRE de traiter et de protéger la décision d’homologation et le dossier 
+d’homologation d’un SIIV a minima comme des documents de niveau de confidentialité 
+DIFFUSION RESTREINTE et SPÉCIAL FRANCE. Selon les éléments qu’ils contiennent, ils 
+peuvent être classifiés. 
+Il est possible d’émettre un extrait de décision d’homologation sans éléments protégés afin de faciliter 
+sa diffusion. 
+La liste complète des SIIV d’un OIV est de niveau de classification SECRET et de mention SPÉCIAL 
+FRANCE. Par conséquent, tout outil permettant de recenser les SIIV doit être de niveau de classification 
+SECRET et de mention SPÉCIAL FRANCE. 
+RO 30 : il est INTERDIT d’enrôler les SIIV dans un outil non classifié si celui-ci mentionne sa 
+catégorisation de SIIV. 
+ Traitement de données classifiées 
+« Pour les systèmes d'information, la décision d'homologation du système vaut décision de 
+classification. » [IGI 1300] 
+Le secrétariat général de la défense et de la sécurité nationale (SGDSN) est l’AH pour les SI traitant 
+d’informations classifiées au niveau TRÈS SECRET faisant l’objet d’une classification spéciale ([IGI 
+1300]). 
+RO 31 : il est OBLIGATOIRE dans le cas de l’homologation d’un système traitant d’informations 
+classifiées TRÈS SECRET faisant l’objet d’une classification spéciale de saisir formellement le 
+haut fonctionnaire correspondant de défense et de sécurité (HFCDS) du lancement de toute 
+démarche d’homologation, l’AH étant dans ce cas le SGDSN. 
+Dans le cadre d’un SI traitant des informations classifiées, la décision d’homologation atteste que les 
+mesures nécessaires pour les protéger ont été mises en place et que le risque de compromission de 
+ces informations a fait l’objet d’un traitement approprié afin de réduire, de manière acceptable, son 
+niveau de vraisemblance [IGI 1300]. 
+RO 32 : il est OBLIGATOIRE de mettre en destinataire des décisions d’homologation de SI classifié, 
+le FSSI et l’ANSSI. 
+Des dérogations à des exigences définies dans [IGI 1300] nécessitent des justifications formelles à 
+insérer dans le dossier d’homologation. Pour les SI de niveau TRÈS SECRET, elles doivent être 
+notifiées à l’ANSSI et au FSSI, et requièrent leur autorisation. 
+« Un dispositif de sécurité mis en place dans un SI qui traite d’informations classifiées est agréé par 
+l’ANSSI lorsqu’il est utilisé, en complément de mesures organisationnelles de sécurité, comme un 
+moyen essentiel de protection contre les accès non autorisés aux informations classifiées ou au 
+système. » [IGI 1300] Son usage doit alors respecter les conditions d’emploi et exigences définies 
+dans leur agrément. 
+À titre exceptionnel et sur le fondement d’une analyse de risques complète, l’AH peut autoriser le 
+recours à des matériels et logiciels agréés à un niveau inférieur, voire non agréés lorsqu’il n’existe pas 
+de dispositif de sécurité agréé au bon niveau [IGI 1300]. 
+RO 33 : il est OBLIGATOIRE de procéder à une démarche standard pour homologuer des SI classifiés 
+dont les moyens essentiels de protection contre les accès non autorisés aux informations 
+classifiées ou au système sont assurés par des matériels et logiciels agréés à un niveau 
+inférieur exigé, voire non agréés lorsqu’il n’existe pas de dispositif de sécurité agréé au bon 
+niveau. L’AH justifie l’autorisation de leur utilisation. La justification est insérée dans le dossier 
+d’homologation.
+
+[Page 29 / 49 | chars: 3069]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+27/47 
+La règle RO33 ne s’applique pas pour une homologation d’un dispositif d’interconnexion ou d’un 
+segment d’interface (cf. §6.11.1). 
+ Traitement de données à caractère personnel 
+Le responsable de traitement (RT) a pour mission de déterminer les finalités et les moyens du 
+traitement. Il assume la responsabilité juridique et supporte les sanctions en cas de non-respect des 
+dispositions du RGPD.  
+L’homologation d’un SI traitant des données à caractère personnel relevant du périmètre du RT assure 
+à ce dernier que les risques sur la sécurité des données à caractère personnel et leur protection au sein 
+de ce SI ont été examinés et traités sur le plan technique, conformément aux exigences réglementaires.  
+Elle doit donc nécessairement prendre en compte les risques suivants portant sur les personnes 
+concernées : 
+● accès illégitimes à leurs données (confidentialité) ; 
+● modification non désirée de leurs données (intégrité) ; 
+● disparition de leurs données (disponibilité). 
+RO 34 : il est OBLIGATOIRE de préciser dans la décision d’homologation que le SI traite des données 
+à caractère personnel lorsque ce traitement donne lieu à un acte réglementaire16. 
+Les traitements de données à caractère personnel qui font l’objet d’un acte réglementaire sont rappelés 
+dans la [FICHE 2 DCP] publiée par la direction des affaires juridiques (DAJ). Ne sont pas soumis à la 
+publication d’un acte réglementaire les traitements mis en œuvre aux fins de : 
+● gestion des comptes et accès informatiques, de la téléphonie fixe et mobile, des SI ; 
+● gestion des procédures d’achat (fichiers fournisseurs) et des fichiers clients ; 
+● gestion des opérations de communication (gratuites) ; 
+● gestion du courrier et des dossiers ; 
+● gestion des biens. 
+La décision d’homologation d’un SI traitant des données à caractère personnel doit être transmise au(x) 
+responsable(s) de traitement concerné(s). 
+Lors d’un traitement de données à caractère personnel relevant de son périmètre, le RT peut être amené 
+à réaliser une analyse d’impact relative à la protection des données à caractère personnel (AIPD) sur 
+les personnes concernées [IM DAJ-RGPD]. L’AIPD n’est pas un prérequis à toute décision 
+d’homologation. 
+S’il est estimé nécessaire ou s’il est obligatoire de réaliser une AIPD, le RSSI contribue à l’élaboration 
+de son volet technique au profit du RT. L’AH peut être amenée à se prononcer sur l’efficacité et la 
+pertinence des mesures techniques mises en œuvre. 
+ Urgence opérationnelle 
+Lorsque l’urgence opérationnelle le requiert et pour permettre une mise en exploitation provisoire, l’AH 
+peut délivrer une autorisation provisoire d’emploi (APE) sans attendre l’homologation du SI, en 
+tenant compte de l’avancement de la procédure d’homologation et des risques résiduels de sécurité 
+[IGI 1300]. 
+                                               
+16 Acte réglementaire portant création du traitement (arrêté publié aux journaux officiels).
+
+[Page 30 / 49 | chars: 3417]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+28/47 
+RO 35 : il est CONSEILLÉ, dans des cas d’urgence opérationnelle, de délivrer une première décision 
+d’homologation, plutôt qu’une APE, en adaptant la démarche à l’urgence et en fixant ses 
+modalités dans la stratégie d’homologation.  
+Une APE est limitée à une durée courte, le temps que la démarche soit finalisée [IGI 1300]. Elle est 
+associée à un plan de mise en conformité. 
+Quelle que soit la démarche entreprise, l’APE nécessite a minima : 
+● une première stratégie d’homologation, comprenant obligatoirement le périmètre 
+d’homologation, même succinct ; 
+● une analyse de conformité par rapport aux exigences essentielles définies par l’AH ; 
+● l’identification et l’évaluation des principaux risques résiduels qui pèsent sur le SI dans 
+son contexte d’emploi ; 
+● la mise en place de procédures définissant la gestion des accès, des journaux et des 
+incidents ; 
+● la définition et le suivi des actions nécessaires pour obtenir une première décision 
+d’homologation.  
+L’AH doit s’assurer que la démarche d’homologation sera suivie jusqu’à son terme et aboutira à 
+une décision d’homologation avant sa fin de validité. 
+ Déploiement opérationnel (OPEX, OPINT, exercice, etc.) 
+Par déploiement opérationnel, la présente directive entend les exercices, les missions ponctuelles ou 
+les ouvertures de théâtre. Ils font l’objet d’une organisation SSI spécifique qui a la charge, entre autres, 
+des déploiements de l’ensemble des SI de la mission. Il est donc possible de faire des homologations 
+groupant tous les SI relevant de la responsabilité d’une même autorité, formellement définie dans le 
+cadre de la mission.  
+Les PES applicables sur les SI déployés pour la mission peuvent être regroupées dans un seul 
+document ou dans des CUC prédéfinis afin d’éviter d’inutiles redondances Dans ce cas, l’AH décide 
+d’une homologation de déploiement conformément à la procédure définie dans la présente directive (cf. 
+§6.6) en faisant référence aux homologations de référence des SI déployés.  
+En cas de déploiement d’un nouveau SI au cours de l’opération, soit l’homologation de déploiement 
+opérationnel doit être renouvelée pour intégrer ce SI, soit ce SI doit faire l’objet d’une homologation de 
+déploiement spécifique. 
+ Déploiements successifs d’un même SI  
+ 
+Présentation 
+Lorsqu’un SI dit de référence peut être déployé sur des instances, des sites ou dans des contextes 
+d’emploi différents, la démarche d’homologation du SI à déployer peut s’appuyer sur une démarche 
+d’homologation du SI de référence associée à des homologations de déploiement. 
+L’homologation du SI de référence est le préalable à toute autorisation d’exploitation en contexte 
+d’emploi. La décision d’homologation du SI de référence est identique à celle d’une décision 
+d’homologation classique et respecte les règles définies dans le présent document (cf. §5). Il est précisé 
+que la durée de validité doit être cohérente avec l’évolutivité du contexte sécuritaire du SI.  
+L’homologation du SI à déployer dans son contexte d’emploi, appelée homologation de déploiement, 
+est alors une déclinaison de l’homologation du SI de référence dans un contexte d’emploi et un 
+environnement donnés. L’homologation de déploiement est alors la décision préalable à l’exploitation 
+d’un SI de référence en contexte d’emploi.
+
+[Page 31 / 49 | chars: 3601]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+29/47 
+Le dossier d’homologation du SI à déployer est constitué d’éléments génériques, stipulant les 
+informations à compléter pour un déploiement dans le but de faciliter sa constitution et de limiter les 
+efforts de rédaction. 
+ 
+Procédure 
+RO 36 : il est OBLIGATOIRE de préciser formellement dans la stratégie d’homologation du SI de 
+référence la procédure de l’homologation de déploiement ainsi que les différents responsables 
+et les livrables attendus. 
+L’AH du SI de référence est aussi l’AH du SI déployé ou délègue une partie de ses attributions à une 
+autre autorité formellement désignée, notamment dans le cas d’un déploiement opérationnel (cf. §6.5).  
+Le RSSI du SI de référence conduit l’homologation du SI de référence et élabore la procédure 
+d’homologation de déploiement. Celle-ci doit être adaptée aux contextes d’emploi, à l’environnement 
+du déploiement, à sa pérennité et aux enjeux de sécurité. 
+Le responsable de la mise en œuvre de la procédure d’homologation de déploiement est défini par la 
+stratégie d’homologation. Agissant sous la responsabilité de l’AE du SI déployé, il est en étroite relation 
+avec le RSSI du SI de référence.  
+RO 37 : il est OBLIGATOIRE que le RSSI du SI de référence suive ses déploiements et leur état 
+d’homologation. Il coordonne les différentes démarches d’homologation de déploiement. 
+Le CEAH vérifie la régularité de la procédure d’homologation définie dans la stratégie d’homologation.  
+Pour obtenir une homologation de déploiement, l’AE du SI et, si besoin, l’autorité en charge de 
+l’exploitation technique du SI, doivent attester de la conformité au dossier d’homologation de référence 
+au titre du CUC correspondant à leur domaine de responsabilité et, le cas échéant, du traitement des 
+non-conformités.  
+Les éléments spécifiques du déploiement ainsi que les modalités de traitement des non-conformités 
+sont formellement définis dans les PES locales, qui sont les déclinaisons locales des PES du SI de 
+référence, ou encore dans un CUC selon le contexte de déploiement et des enjeux de sécurité. 
+La décision d’homologation de déploiement est identique à celle d’une décision d’homologation et se 
+présente sous la même forme. Cependant, la décision d’homologation du SI de référence, sa date de 
+fin de validité et sa référence doivent y être mentionnées. 
+La fin de validité d’une homologation de déploiement ne doit pas dépasser celle de 
+l’homologation de référence. 
+ 
+Homologation de déploiement dérogatoire 
+L’homologation de déploiement étant une déclinaison de l’homologation de référence, cette dernière est 
+un préalable obligatoire. Toutefois, de manière exceptionnelle, lorsque le besoin opérationnel 
+l’exige et si l’AH du SI déployé en accepte les risques, une homologation de déploiement par l’AH 
+peut être accordée sans attendre l’homologation complète du SI de référence. Elle est alors dite 
+dérogatoire17.  
+Pour mettre en œuvre une homologation de déploiement dérogatoire (HDD), il est nécessaire de : 
+● désigner localement un RSSI en charge de la démarche d’homologation de déploiement ; 
+● mener une analyse de conformité au niveau technique et organisationnel à partir de CUC 
+fournis par le RSSI du SI de référence ; 
+                                               
+17 La décision d’HDD est différente d’une APE. La HDD porte sur un SI déployé dont le SI de référence n’est pas 
+encore homologué (cas déploiement multiple d’un même SI) alors que l’APE porte sur un SI non homologué à 
+déployer.
+
+[Page 32 / 49 | chars: 2719]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+30/47 
+● présenter à l’AH du SI déployé les risques qui pèsent sur le SI. 
+La décision est limitée à une durée courte, le temps que la démarche d’homologation du SI de référence 
+soit finalisée. La durée doit aussi rester cohérente avec la nature du SI considéré et la pérennité du 
+déploiement. La dérogation est conditionnée par la poursuite de l’instruction de l’homologation 
+de référence. 
+RO 38 : il est OBLIGATOIRE, pour une homologation de déploiement, y compris dérogatoire, que la 
+décision d’homologation du SI déployé s’appuie sur des CUC et des PES locales.  
+L’HDD ne peut être renouvelée qu’une seule fois. Au-delà, si l’homologation de référence n’a 
+toujours pas pu être prononcée, il convient de revoir la conception du SI qui est manifestement 
+incompatible avec les objectifs de sécurité initialement validés.  
+Le RSSI du SI de référence est informé de la décision et informe l’AH du SI déployé. 
+RO 39 : il est RECOMMANDÉ de ne pas renouveler plus d’une fois une HDD.  
+ 
+Renouvellement de l’homologation  
+ 
+Renouvellement de l’homologation du SI de référence 
+Les conditions de renouvellement d’homologation du SI de référence sont identiques à celles d’une 
+homologation classique. Elles sont définies par la stratégie d’homologation. 
+À la procédure définie dans [§5.6], s’ajoutent : 
+● un point de situation des SI déployés et de leur état d’homologation ; 
+● un contrôle des procédures mises en œuvre pour homologuer les SI déployés et pour 
+garantir leur MCS. 
+Lors de la commission d’homologation, il est décidé de renouveler ou non les décisions d’homologation 
+des SI déployés. 
+ 
+Renouvellement de l’homologation du SI déployé 
+Les conditions de renouvellement sont définies dans la stratégie d’homologation du SI de référence. 
+Une décision d’homologation de déploiement doit être renouvelée lorsque : 
+● elle est arrivée en fin de validité ; 
+● l’AH du SI de référence le demande ; 
+● les conditions du déploiement ont changé de manière substantielle. 
+Le renouvellement d’homologation du SI déployé doit comporter a minima : 
+● un contrôle de conformité du SI à l’homologation de référence au travers des CUC 
+réactualisés par le RSSI du SI de référence ; 
+● un contrôle de la configuration du SI ; 
+● un contrôle de qualification des exploitants18 ; 
+● une revue et une mise à jour des procédures de sécurité. 
+Le RSSI du SI de référence est informé des résultats des contrôles ainsi que des modifications de 
+procédures de sécurité. 
+                                               
+18 Il s’agit de contrôler que le SI est toujours administré par un administrateur qualifié.
+
+[Page 33 / 49 | chars: 3193]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+31/47 
+RO 40 : il est CONSEILLÉ, lors d’un renouvellement d’homologation du SI de référence, de procéder 
+au renouvellement de l’homologation des SI déployés. 
+ 
+Suspension et abrogation de l’homologation de déploiement 
+Les cas de suspension et d’abrogation de décision d’homologation de déploiement sont identiques à 
+ceux d’une homologation classique (cf. §Erreur ! Source du renvoi introuvable. et §0). 
+En cas de suspension ou d’abrogation de l’homologation du SI de référence, l’AH du SI de référence 
+peut suspendre la décision d’homologation des SI déployés.  
+ Homologation de SI similaires 
+Des SI différents peuvent être constitués de composants et d’une architecture similaires, déployés dans 
+un même environnement, ayant les principaux besoins de sécurité identiques et relevant d'une même 
+AH. Leur homologation peut alors être facilitée.  
+À partir de l'homologation d'un premier SI, dit générique, il est possible d'homologuer un SI qui lui est 
+similaire en réalisant une analyse de conformité par rapport à un CUC. Celui-ci définit les exigences de 
+sécurité qu'il doit respecter pour être homologué. 
+Les homologations de SI similaires s’appuient sur une même stratégie d’homologation et un même 
+dossier d’homologation, elles sont dites génériques. 
+La stratégie d’homologation générique définit les conditions pour rendre éligible un SI et précise les 
+modalités à mettre en œuvre pour l’homologuer. 
+À chaque nouvelle homologation générique, le dossier d'homologation est réactualisé. 
+Une seule version de PES peut aussi s’appliquer à l’ensemble des SI similaires, les éléments 
+spécifiques à un SI pouvant être réunis en annexes.  
+ Homologation de SI hébergés au ministère 
+Le niveau de sécurité numérique du SI hébergé dépend de celui du SI hébergeur et du niveau de 
+sécurité que celui-ci apporte au SI hébergé. La démarche d’homologation d’un SI hébergé dans un 
+système relevant du ministère doit prendre en compte a minima : 
+● les services de sécurité proposés par le SI hébergeur ; 
+● les conditions d’utilisation du SI hébergeur, et particulièrement les exigences de sécurité 
+qu’il impose au SI hébergé, par exemple sous la forme d’un CUC fourni par l’opérateur 
+en charge du SI hébergeur ; 
+● les objectifs de sécurité du SI hébergeur, définis dans sa politique de sécurité ; 
+● l’homologation du SI hébergeur et ses conditions de validité. 
+La décision d’homologation du SI hébergeur et ses conditions d’utilisation, notamment les exigences de 
+sécurité qu’il impose au SI hébergé, et ses objectifs de sécurité doivent être connus du RSSI du SI 
+hébergé et insérés dans le dossier d’homologation. 
+La décision d’homologation du SI hébergeur demeure valide si les SI qu’il héberge ne remettent pas en 
+cause ses conditions de validité ou son niveau de sécurité. 
+La décision d’homologation du SI hébergé peut être remise en cause par : 
+● la suspension de la décision d’homologation du SI hébergeur ; 
+● un changement conséquent dans le SI hébergeur et les services qu’il fournit au SI 
+hébergé ; 
+● un incident majeur survenant sur le SI hébergeur.
+
+[Page 34 / 49 | chars: 3225]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+32/47 
+RO 41 : il est OBLIGATOIRE pour tout hébergeur relevant du ministère d’avertir les autorités clientes 
+ou d’emploi des SI qu’il héberge de tout élément, dysfonctionnement ou incident pouvant 
+remettre en cause leur niveau de sécurité. 
+ Homologation de SI utilisant un service d’informatique en nuage externalisé 
+L’homologation dépend du niveau de maîtrise dont dispose le ministère des Armées à l’égard des 
+solutions proposées par le prestataire de service d’informatique en nuage.  
+RO 42 : il est OBLIGATOIRE d’homologuer les systèmes ou services numériques fournis par un 
+prestataire de service d’informatique en nuage pour traiter des données relevant du ministère 
+des Armées selon un périmètre d’homologation défini en fonction de la nature du service rendu 
+ou du produit fourni. 
+ 
+RO 43 : il est OBLIGATOIRE de demander au prestataire d’informatique en nuage externalisé de 
+fournir un PAS. Le PAS produit par le prestataire est alors inséré dans le dossier 
+d’homologation. 
+ 
+Solution publique de type IaaS ou PaaS 
+La solution dans sa totalité ne peut pas faire l’objet d’une décision d’homologation. Le périmètre 
+d’homologation doit en effet s’appuyer sur une distinction précise des responsabilités relevant du 
+ministère et du fournisseur de service. Les composants relevant du seul prestataire n’entrent pas dans 
+le périmètre d’homologation, même si la démarche d’homologation les prend nécessairement en 
+compte dans l’analyse de risques. Il ne s’agit pas d’homologuer le SI du prestataire. 
+RO 44 : il est OBLIGATOIRE de considérer dans le périmètre d’homologation l’utilisation et le cadre 
+d’utilisation du service IaaS ou PaaS tant dans sa dimension fonctionnelle que sécuritaire. 
+Les garanties et les éléments de confiance que peut produire le prestataire de service d’informatique 
+en nuage participent à l’appréciation du risque. Ils doivent être recherchés et analysés. Les difficultés 
+d’obtention et l’absence d’informations de la part des prestataires sont également des éléments de 
+confiance à prendre en compte dans l’analyse.  
+ 
+Solution publique de type SaaS  
+L’utilisation d’un service numérique public de type SaaS nécessite au préalable : 
+● une appréciation d’usage du service numérique validée par l’AE ; 
+● un visa de la DGNUM conformément à [CLOUD SaaS] ; 
+● une décision d’homologation portant sur l’usage du service numérique. 
+L’appréciation d’usage est un document formel qui identifie et évalue les risques portant sur l’usage 
+des services et sur les données traitées en termes juridique et de sécurité numérique. Elle est validée 
+par l’AE et transmise à l’AH. L’AE peut s’appuyer sur le CEAH et sur le représentant du RT concerné 
+(lorsque des données à caractère personnel y sont traitées).  
+L’analyse de risques ainsi que la décision d’homologation doivent s’appuyer sur l’appréciation d’usage 
+du service numérique. L’appréciation d’usage est insérée dans le dossier d’homologation. 
+RO 45 : il est OBLIGATOIRE pour l’AE de fournir une appréciation d’usage à l’AH avant d’initier la 
+démarche d’homologation portant sur l’usage du service numérique.
+
+[Page 35 / 49 | chars: 3443]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+33/47 
+Le périmètre d’homologation ne comprend que les données traitées et relevant du ministère des 
+Armées, les services numériques fournis par le prestataire ainsi que l’organisation mise en place pour 
+utiliser ce service. 
+RO 46 : il est OBLIGATOIRE pour l’AE d’établir une politique d’emploi pour pouvoir utiliser un service 
+numérique public de type SaaS. Elle est fournie à l’AH pour insertion dans le dossier 
+d’homologation. 
+La politique d’emploi dédiée à l’usage du service numérique précise : 
+● les conditions générales d’utilisation du service numérique avec les mesures de sécurité 
+associées relevant du ministère ainsi que les responsabilités correspondantes ; 
+● les dispositions relatives à la gestion de données à caractère personnel utiles aux 
+utilisateurs du service numérique ; 
+● la gestion des accès et leur contrôle ; 
+● les modalités de gestion des incidents et des crises ; 
+● les modalités de réversibilité et les mesures prises sur les données (transfert, 
+effacement et archivage) lors de la fin de prestation. 
+Il appartient à l’AH de définir le besoin de rédiger des PES selon les exigences de sécurité complétant 
+la politique d’emploi. 
+Lorsque le service numérique traite des données à caractère personnel, la politique de confidentialité 
+du prestataire est insérée dans le dossier d’homologation. Elle est prise en compte dans l’analyse de 
+risques. 
+ Homologation de systèmes de systèmes  
+Un système complexe peut être composé de plusieurs SI interdépendants techniquement, formant ainsi 
+un système de systèmes, dont l’homologation est à traiter de manière spécifique. En effet, il est possible, 
+selon les cas, d’homologuer ce système en homologuant successivement ou parallèlement ses 
+différents composants. 
+Néanmoins, des risques peuvent être identifiés et acceptés pour chacun de ses composants sans que 
+cela signifie nécessairement que l’ensemble des risques soient identifiés et acceptables au niveau du 
+système. De même, un système de systèmes ne perd pas nécessairement son homologation quand 
+l’un de ses composants n’est plus homologué. L’homologation d’un système de systèmes ne se 
+réduit donc pas à une succession d’homologations séparées. Elle doit aussi prendre en compte 
+les risques portant sur les interdépendances techniques et sur l’ensemble du système. 
+RO 47 : il est RECOMMANDÉ pour une homologation d’un système de systèmes de procéder à une 
+analyse de risques portant non seulement sur chacun de ses composants mais également sur 
+l’ensemble du système de systèmes et l’interdépendance de ces derniers.  
+L’homologation d’un système de systèmes est mise en œuvre par un RSSI unique. Celui-ci coordonne 
+les homologations des différents composants et s’assure de la gestion de risques d’ensemble. 
+La stratégie d’homologation doit préciser les conditions de l’homologation et les principes de sa 
+cohérence d’ensemble en matière de sécurité numérique. Les différents systèmes doivent être 
+homologués au titre de l’ensemble des missions qu’ils remplissent ou des activités auxquelles ils 
+contribuent. 
+ Dispositifs d’interconnexion ou d’interface 
+Pour toute interconnexion de SI de niveaux de classification différents ou entre un SI classifié et un SI 
+non-classifié, interdite en principe, il est nécessaire que l’AE la justifie formellement auprès de l’AH et
+
+[Page 36 / 49 | chars: 1884]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+34/47 
+de l’AQSSI par un besoin opérationnel [IGI 1300]. La justification formelle est insérée dans le dossier 
+d'homologation. 
+RO 48 : il est OBLIGATOIRE pour toute interconnexion de SI de niveaux de classification différents ou 
+entre un SI classifié et un SI non-classifié de la justifier formellement par l’AE auprès de l’AH 
+et de l’AQSSI par un besoin opérationnel. 
+ Homologation spécifique 
+RO 49 : il est OBLIGATOIRE de procéder à une homologation spécifique des interconnexions ou de 
+segments d’interface de SI de même niveau de classification. L’interconnexion ou le segment 
+d’interface de SI est alors homologué au même niveau de classification que ces systèmes. 
+ 
+RO 50 : il est OBLIGATOIRE de procéder à une homologation spécifique des dispositifs 
+d’interconnexion ou des segments d’interface de SI de niveaux de sensibilité ou de 
+classification différents, ou de SI externes au ministère des Armées. L’interconnexion ou le 
+segment d’interface de SI est alors homologué au niveau du SI le plus élevé. 
+L’interconnexion ou les segments d’interface font l’objet d’une homologation distincte de celles des 
+réseaux [II 901]. 
+RO 51 : il est RECOMMANDÉ de procéder à une homologation spécifique des dispositifs 
+d’interconnexion ou des segments d’interface de SI non classifiés et relevant tous du ministère 
+des Armées.  
+ Désignation de l’autorité d’homologation 
+L’AH d’une interconnexion ou d’un segment d’interface est : 
+● de manière générale, l’AH désignée après concertation entre les AH de chaque SI 
+interconnecté ; 
+● par défaut, l’AH du SI du niveau de classification le plus élevé dans le cas de SI de 
+niveaux de classification différents ; 
+● le SGDSN ou toute autorité à qui il en délègue la responsabilité, dans les cas suivants 
+[IGI 1300] :
+
+[Page 37 / 49 | chars: 3419]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+35/47 
+o pour les transferts d'informations entre des SI classifiés de même niveau, dont l’un 
+n’est pas sous maîtrise nationale ; 
+o pour les transferts d'informations entre des SI classifiés de même niveau, dont l’un est 
+amené à traiter des informations classifiées de l’Union européenne ou de l’OTAN ; 
+o lorsque l’utilisation de dispositifs de sécurité agréés est obligatoire mais impossible, 
+notamment lorsqu’il n’existe pas de dispositif de sécurité agréé ou lorsqu’il n’est pas 
+agréé au bon niveau. 
+ Capacités opérationnelles  
+Une capacité numérique est un ensemble de systèmes ou services numériques qui concourent à la 
+réalisation d’une fonction métier, d’une activité ou d’une mission déterminée et précise relevant d’une 
+unique autorité.  
+Elle correspond à un périmètre organisationnel et technique circonscrit et qui fait l’objet de la démarche 
+de sécurisation. 
+L’homologation d’une capacité opérationnelle porte alors sur les risques que porte cet ensemble de SI 
+au titre de cette capacité et non de l’ensemble de leurs usages. C’est pourquoi elle ne se substitue pas 
+à l’homologation de SI qui la composent lorsque ceux-ci sont soumis à des obligations d’homologation 
+dans le cadre d’autres emplois. Elle doit prendre en compte les obligations particulières auxquelles 
+peuvent être soumis certains des SI qui la composent (ex : exigences liées au régime SIIV). 
+Elle permet ainsi de prioriser les efforts de sécurisation en fonction des priorités opérationnelles et du 
+niveau de criticité des éléments composant cette capacité. Elle renseigne également sur le niveau de 
+résilience de la capacité opérationnelle.  
+Elle nécessite au préalable une cartographie complète des interdépendances techniques et 
+fonctionnelles entre les différents éléments concourant à cette capacité. 
+Elle s’appuie sur une cartographie fonctionnelle, un périmètre d’homologation bien défini et une stratégie 
+d’homologation d’ensemble des différents systèmes ou ensembles constituant la capacité 
+opérationnelle. 
+ Homologation d’un SI développé en mode agile 
+ Homologation itérative 
+Le mode de développement en agilité se caractérise par un développement itératif du SI et par sa mise 
+en exploitation alors qu’il est encore en phase de réalisation. À chaque cycle de développement 
+(« build »), de nouvelles fonctionnalités sont créées, faisant ainsi évoluer le SI en production. 
+Le choix de l’agilité ne réduit pas les risques en matière de SSI qui dépendent de la sensibilité 
+du SI et des probabilités d’une agression fructueuse à son encontre. La méthode d’analyse de 
+risques n’est donc pas modifiée du fait de l’agilité du projet. 
+Dans ce cas, la démarche d’homologation est elle-même itérative. Elle doit aboutir au moins à deux 
+décisions d’homologation :  
+● une décision d’homologation initiale permettant de mettre en exploitation le SI après 
+le premier incrément ; 
+● une décision d’homologation ferme, une fois le développement terminé, pour le 
+transfert définitif de l’exploitation à l’opérateur et conduisant au démantèlement de 
+l’équipe de développement. 
+Eventuellement, si l’évolution en cours de développement le nécessite, la décision d’homologation 
+initiale peut être renouvelée avant d’atteindre une décision ferme. La décision d’homologation est alors 
+dite transitoire.
+
+[Page 38 / 49 | chars: 3448]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+36/47 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Une décision d’homologation initiale doit être prononcée avant une première mise en exploitation du SI. 
+La durée de validité des décisions d’homologation (initiale, transitoire, ferme) est à la diligence de l’AH 
+dans les limites réglementaires (cf. §5.3) et en fonction du niveau de contrôle qu’elle estime nécessaire. 
+La démarche d’homologation impose la mise en place de relations entre les équipes de projet et le 
+CEAH. Ces relations se formalisent au moins par des comptes rendus continus des travaux relatifs à la 
+sécurité que l’équipe de projet adresse au CEAH. Pour faciliter les échanges entre le RSSI et l’équipe 
+de développement, et selon la dimension de cette dernière, il est possible de désigner parmi les 
+membres de l’équipe de développement un référent en matière de sécurité numérique. 
+La démarche d’homologation mise en œuvre est identique à celle d’une démarche sommaire, 
+simplifiée ou standard.  
+Les pièces du dossier d’homologation évolueront au fur et à mesure du développement.  
+ Décision d’homologation initiale 
+La décision d’homologation initiale a pour but de valider : 
+● le niveau de sécurité du premier incrément du SI ; 
+● le processus itératif mis en œuvre pour les incréments suivants. Couvrant la conception 
+jusqu’à la mise en exploitation, il doit viser à intégrer la sécurité au fil de l’eau ; 
+● le processus pour le MCS du SI. 
+RO 52 : il est OBLIGATOIRE de mentionner dans la stratégie d’homologation les modalités des 
+échanges entre les différents acteurs (RSSI, équipe de développement, CEAH), le rythme des 
+remontées d’informations ainsi que les conditions de maintien de l’homologation. 
+L’homologation initiale décrit les fonctionnalités envisagées pour le SI (« user stories »).  
+L’analyse de risques mise en œuvre a pour objectif d’identifier et d’évaluer les risques de sources 
+intentionnelles (« evil user stories ») et non intentionnelles (« abuser stories »). Elle donne lieu à une 
+liste de risques résiduels portant sur le SI, liste à mettre à jour après chaque cycle de développement.  
+Dès la première mise en exploitation du SI, le RSSI rédige une première version de PES. Celles-ci 
+doivent décrire l’organisation et les procédures de sécurité à appliquer durant l’exploitation.  
+ Au cours du développement 
+Le RSSI met à jour systématiquement après chaque cycle de développement le périmètre 
+d’homologation ainsi que la liste des risques résiduels portant sur le SI. Le CEAH est informé des 
+modifications apportées.  
+Pour chaque nouvelle fonctionnalité envisagée (« user stories »), des scénarios de risques (« abuser 
+stories », « evil user stories ») doivent être étudiés et peuvent donner lieu à de nouvelles mesures de 
+traitement des risques. Ces dernières doivent être priorisées et implémentées au même titre que les 
+nouvelles fonctionnalités. Il est très fortement déconseillé de les accumuler dans le tableau de suivi des 
+actions en ligne (« back log ») dans le but de consacrer les dernières itérations (« builds ») à la sécurité. 
+Une telle démarche pourrait remettre en cause l’ensemble du développement.  
+ 
+Développement itératif 
+ Phase initiale 
+Homologation 
+ferme 
+Renouvellement de 
+l’homologation 
+(homologation transitoire) 
+1ère mise en exploitation 
+Fin du développement 
+ Production stabilisée 
+Homologation 
+initiale
+
+[Page 39 / 49 | chars: 2928]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+37/47 
+Les PES sont mises à jour au fur et à mesure des itérations pour prendre en compte les nouvelles 
+fonctionnalités implémentées. 
+Durant la phase de réalisation, la décision d’homologation initiale est remise en cause : 
+● systématiquement à la fin de la date de validité de la décision d’homologation 
+précédente ; 
+● par l’AH, sur proposition de son centre expert si les conditions décrites dans la décision 
+d’homologation ne sont plus respectées ou si le traitement de risques n’est pas 
+suffisamment pris en compte lors du développement : 
+o soit en raison de l’évolution du SI : 
+ fonctionnalités qui sortent du cadre initialement défini ; 
+ changement important d’architecture ; 
+ utilisation de nouvelles sources de données représentant un risque non anticipé ; 
+ liste des fonctions SSI attendues (« back log ») augmentant de manière démesurée 
+par rapport au reste des fonctionnalités ; 
+o soit en raison d’un dysfonctionnement dans les échanges d’informations entre les 
+différents acteurs : 
+ défaut de comptes rendus de la part de l’équipe de projet au profit du CEAH. 
+Lorsque la décision d’homologation est remise en cause, le RSSI procède à son renouvellement selon 
+les modalités requises par le CEAH. 
+ Décision d’homologation ferme 
+Une fois le développement terminé, une décision d’homologation ferme doit être prononcée. Elle 
+garantit : 
+● la mise en œuvre du MCS ; 
+● la formation pérenne des administrateurs ; 
+● l’applicabilité et l’exhaustivité des contrats de service ; 
+● l’enrôlement du SI ; 
+● la bonne diffusion et l’applicabilité des PES.  
+La décision d’homologation ferme peut également s’appuyer sur un rapport d’audit final comme toute 
+décision d’homologation. 
+ Cas de mise en exploitation pour test (autorisation d’exploitation pour test19) ou 
+expérimentation 
+Dans le cadre d’un développement ou d’une expérimentation, un SI peut nécessiter une mise en 
+exploitation sur des réseaux opérationnels et peut éventuellement consommer des données réelles, 
+notamment s’il n’est pas possible de créer des jeux de données fictives. Il est donc nécessaire de se 
+prémunir des risques que ferait porter ce SI sur son environnement et sur les données qui lui sont 
+confiées. 
+L’autorisation d’exploitation pour tests ou expérimentation est délivrée par l’AH sur étude du 
+dossier d’homologation en cours de constitution qui devra couvrir les risques systémiques - notamment 
+les risques à l’égard des SI interconnectés - et la confidentialité des données lorsque des données 
+réelles sont utilisées. Une attention est également à porter sur le besoin de traçabilité.  
+La stratégie d’homologation définit les modalités d’une autorisation d’exploitation pour tests. 
+                                               
+19 Autorisation connue sous le nom d’AFT (Approval for testing).
+
+[Page 40 / 49 | chars: 2508]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+38/47 
+Les conditions du test et de sécurité doivent être définies dans un document formel (PES, plan de test 
+et de sécurité, etc.) dans lequel seront notamment précisés : 
+● les responsabilités des acteurs en matière de sécurité ; 
+● les flux ouverts et leur gestion ; 
+● les SI et équipements interconnectés ; 
+● les mesures de sécurité à appliquer ; 
+● le devenir des données collectées et produites au cours du test. 
+RO 53 : il est OBLIGATOIRE que la mise en exploitation d’un SI pour test ou expérimentation soit 
+subordonnée à l’autorisation formelle de l’AH qui valide les conditions de sécurité 
+préalablement définies. Dans le cadre d'un test, la stratégie d'homologation doit prévoir cette 
+autorisation et en préciser les modalités. L'autorisation d'exploitation est associée à une date 
+de fin de validité et à un niveau de confidentialité des données à traiter. 
+ Cas de régularisation  
+Si un SI en phase d’utilisation n’a pas fait l’objet d’une décision d’homologation, l’AH doit procéder à 
+une démarche d’homologation pour régulariser la situation selon l’un des trois types de démarches (cf. 
+§4.4.5). 
+Cependant, cette démarche peut être progressive et aménagée au regard des ressources allouées, 
+de l’état du SI et de sa catégorisation, dans le cadre d’un processus d’amélioration continue. Elle 
+nécessite au préalable une stratégie d’homologation et des PES qui pourront évoluer par la suite. 
+ Dossier d’homologation 
+Quel que soit le type de démarche choisi, le dossier d’homologation peut être constitué des éléments 
+suivants : 
+● une stratégie d’homologation précisant : 
+o les besoins de sécurité ; 
+o les modalités pour parvenir à une décision d’homologation ferme et entière ; 
+o les pièces du dossier d’homologation pour obtenir une première décision 
+d’homologation ; 
+● un périmètre d’homologation présentant : 
+o les principales données métier ; 
+o les équipements sensibles et leur localisation ; 
+o les interconnexions ; 
+● des PES définissant : 
+o la gestion des accès ; 
+o la protection contre les codes malveillants ; 
+o la gestion des journaux ; 
+o le MCS ; 
+o la gestion des incidents ; 
+● un PACS qui évoluera au gré du processus ; 
+● une liste de non-conformités aux textes [PSSIM] et [PSSIM-T], auxquels s’ajoute [IGI 
+1300] en cas de SI classifié. 
+Le SI est nécessairement enrôlé dans l’outil de suivi du patrimoine applicatif du ministère (cf. RO 8).
+
+[Page 41 / 49 | chars: 2434]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+39/47 
+En fonction du SI et de sa criticité, l’AH peut rajouter d’autres éléments à la liste ci-dessus.  
+Le dossier d’homologation et les pièces le constituant sont enrichis progressivement après la première 
+décision d’homologation selon les modalités définies dans la stratégie d’homologation. 
+ Démarche d’homologation 
+En cas de démarche sommaire, la procédure est à suivre sans aucun allégement (cf. §4.5.1). 
+En cas de démarche simplifiée, l’analyse de risques est réduite à une analyse de conformité aux textes 
+[PSSIM] et [PSSIM-T], auxquels s’ajoute [IGI 1300] en cas de SI classifié. Cette analyse peut être 
+menée au travers d’un contrôle interne portant sur le SI par le CEAH ou par une entité mandatée par 
+l’AH. À partir de l’analyse, voire du contrôle, les risques sont identifiés et évalués. Le rapport de contrôle 
+ainsi que le plan d’actions qui en résulte seront assimilés respectivement à la liste de non-conformités 
+et au PACS. 
+En cas de démarche standard, l’analyse définie précédemment peut être conduite. Cependant, le 
+contrôle est mené par une entité mandatée par l’AH, différente du CEAH. Les éléments définis comme 
+particulièrement sensibles par l’AH, de nature technique ou organisationnelle, devront faire l’objet d’une 
+analyse de conformité plus poussée en s’appuyant en particulier sur les directives de la DGNUM et les 
+guides de recommandation de l’ANSSI.  
+ Décision d’homologation 
+Pour apporter un avis à l’AH, la commission d’homologation doit s’assurer de : 
+● l’identification des principaux manquements aux textes [PSSIM], [PSSIM-T] et [IGI 
+1300] en cas de SI classifié, et aux autres textes en cas de démarche standard ; 
+● l’évaluation des risques que génèrent les manquements constatés ; 
+● l’acceptabilité de ces risques au regard des enjeux opérationnels et des ressources 
+disponibles ; 
+● la faisabilité de mener une démarche d’homologation complète au regard des modalités 
+prévues pour y parvenir, des ressources allouées, de l’état du SI et de sa criticité. 
+Le temps de validité de la décision d’homologation pour régularisation doit permettre de finaliser la 
+démarche, en particulier de mettre en place une analyse de risques complète en cas de démarche 
+standard. Elle ne doit pas dépasser : 
+● 1 an pour un SI essentiel ; 
+● 2 ans pour un SI important ou standard.
+
+[Page 42 / 49 | chars: 2226]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+40/47 
+ANNEXE 1. LE DOSSIER D’HOMOLOGATION 
+Le dossier d'homologation est un ensemble de documents sur lesquels s’appuie l’AH pour émettre un 
+avis de décision d’homologation ou de renouvellement d’homologation. Il est réactualisé au fur et à 
+mesure des démarches. Sa composition varie en fonction du type de démarche d’homologation, de la 
+nature des SI et de ses composants et des enjeux de sécurité. 
+Livrables les plus usuels selon le type de démarche : 
+ 
+ 
+Démarche 
+sommaire 
+Démarche 
+simplifiée 
+Démarche 
+standard 
+Décision d’homologation 
+oui 
+oui 
+oui 
+Stratégie d’homologation 
+oui 
+oui 
+oui 
+Plan d’assurance de sécurité (PAS) 
+en cas d’infogérance externalisée (dont cloud) 
+Certificat d’usage et de conformité (CUC) 
+oui 
+oui 
+ 
+Dossier d’analyse de risques 
+non 
+oui 
+oui 
+FEROS 
+non 
+non 
+oui 
+Cible de sécurité 
+non 
+non 
+facultatif 
+Plan de sécurité (PDS) 
+non 
+non 
+oui 
+Procédures d’exploitation de sécurité 
+(PES) 
+oui 
+oui 
+oui 
+Dérogations obtenues 
+oui 
+oui 
+oui 
+Rapport d’audit (homologation, conformité, 
+code, etc.) 
+non 
+si audit réalisé 
+oui 
+Plan d’actions suite à un audit 
+non 
+si audit réalisé 
+oui 
+Liste des risques résiduels 
+oui 
+oui 
+oui 
+Plan d’amélioration continue de sécurité 
+(PACS) 
+oui 
+oui 
+oui 
+Les documents dont les noms sont en gras doivent être insérés dans l’outil de suivi du patrimoine 
+applicatif (SICLADE). 
+Livrables supplémentaires possibles (liste non exhaustive) : le dossier d’homologation peut être 
+enrichi d’autres documents, en particulier : 
+● en cas de démarche d’homologation de déploiement : 
+o les modèles nécessaires à l’homologation des SI déployés (CUC, PES, etc.) pour le 
+dossier d’homologation du SI de référence ; 
+● en cas de SIIV : 
+o la déclaration en SIIV ; 
+o des pièces justificatives (analyse d’impact) ; 
+o des indicateurs de sécurité (cf. §6.1) ; 
+● en cas d’infogérance externalisée (par exemple cloud) :  
+o le PAS ; 
+● en cas de cloud SaS : 
+o le visa DGNUM ; 
+o une appréciation d’usage du service numérique ; 
+● en cas de SI traitant des données classifiées : 
+o le rapport de mesures des signaux parasites compromettants ;
+
+[Page 43 / 49 | chars: 916]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+41/47 
+o l’attestation de circuit approuvé ; 
+o les justifications des non-conformité à l’égard de [IGI 1300] ; 
+● en cas d’utilisation de solutions de chiffrement : 
+o les dossiers cryptographiques correspondants, validés par le HFCDS ou l’AQ SSI ; 
+o l’ordre pour le chiffre ; 
+● en cas d’utilisation de produits de sécurité certifiés par l’ANSSI : 
+o les certificats de sécurité de l’ANSSI, agréments de produits de sécurité ; 
+● en cas d’homologation de SI hébergé, la décision d’homologation du SI hébergeur ; 
+● en cas de besoin de forte résilience : 
+o le plan de continuité/reprise informatique (PCI/PRI) ; 
+o le PCA/PRA ; 
+● en cas de supervision de sécurité par un SOC : 
+o tout document attestant de la capacité de mettre sous supervision le SI par un SOC 
+(exemple : compte-rendu de faisabilité).
+
+[Page 44 / 49 | chars: 1052]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+42/47 
+ANNEXE 2. 
+SCHÉMA DE PRINCIPE DE L’HOMOLOGATION 
+ 
+ 
+ 
+  
+ 
+ 
+Criticité du SI 
+Choix du type de la démarche (§4.6) 
+(QEI) 
+Démarche sommaire 
+(§4.5.1) 
+Démarche simplifiée 
+(§4.5.2) 
+Démarche standard 
+(§4.5.3) 
+Exposition au risque 
+CUC 
+générique 
+(§4.5.1) 
+PES (§4.4.3) 
+Stratégie d’homologation (§4.4.2) 
+Rapport d’audit 
+PDS (§4.5.3) 
+Décision d’homologation 
+FEROS 
+Analyse de conformité 
+générique 
+Refus d’homologation 
+OU 
+Cible de sécurité 
+Conditionnelle 
+Restrictive 
+Complexité du SI 
+Méthode  
+Analyse de conformité 
+spécifique au SI 
+Liste de risques résiduels (§4.4.4) 
+Analyse de risques 
+complémentaire 
+PACS 
+(§4.4.5) 
+Cas d’usage (§6) 
+Catégorisation du SI (§4.6) 
+CUC 
+spécifique 
+(§4.5.2) 
+Dérogations  
+Analyse de risques 
+complète 
+Commission d’homologation (§3.5) 
+Décision d’homologation 
+(§5) 
+APE (§6.4) 
+PES (§4.4.3) 
+Audit  
+Dossier d’homologation (§5) 
+Héritage (§4.7) 
+PES (§4.4.3) 
+Traitement des risques
+
+[Page 45 / 49 | chars: 2067]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+43/47 
+ANNEXE 3. 
+FORMATION : SAVOIR ET SAVOIR-FAIRE, DÉMARCHE 
+D’HOMOLOGATION (CENTRE EXPERT DE L’AH) 
+Sensibilisation 
+Déroulement d’un projet, d’un programme. 
+Connaissances 
+Organisation de la sécurité numérique du 
+ministère, des EMDS 
+Rôle et responsabilité de l’AH et des RSSI dans 
+une démarche d’homologation. 
+Directives relatives à l’homologation (27) et au 
+MCS (47), Guide n°7. 
+Textes 
+réglementaires 
+interministériels 
+et 
+ministériels portant sur la sécurité du numérique. 
+Différents principes de la sécurité numérique (cf. 
+Introduction Guide n°7). 
+Quelques notions sur les normes et standards 
+(ISO 27000, NIST, guide ANSSI). 
+Différentes catégories de risques portant sur un 
+système 
+numérique 
+(incident, 
+attaque 
+informatique) et leur réalité. 
+Quelques notions sur les types de technologie et 
+les risques associés. 
+Notions essentielles d’une analyse de risques 
+(besoin 
+de 
+sécurité, 
+risques, 
+menaces, 
+vulnérabilités, impacts, risque résiduel, etc.) 
+Méthodes d’analyse de risques en usage au 
+ministère 
+Principaux sites d’information (ANSSI, CERT-Fr, 
+SynopTIC, CALID, etc.) 
+Aspects juridiques (SI, information) 
+Savoir-faire 
+Identifier les différents acteurs d’une démarche d’homologation, d’un projet/programme 
+Déterminer un référentiel réglementaire à partir de la nature du SI, des données et de ses principales 
+fonctionnalités 
+Élaborer et étudier un certificat d’usage et de conformité  
+Mener une méthode d’analyse de risques (EBIOS RM) 
+Catégoriser un système numérique 
+Mener une démarche d’homologation (sommaire, simplifiée, standard) 
+Étudier un dossier d’homologation et les pièces le constituant 
+Rédiger une synthèse d’une analyse portée sur une démarche et un dossier d’homologation 
+Présenter un risque à une autorité 
+Présenter une démarche d’homologation 
+Conseiller un RSSI sur la démarche d’homologation 
+Veiller sur l’actualité des risques, attaques et incidents portant sur les systèmes numériques
+
+[Page 46 / 49 | chars: 3421]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+44/47 
+ANNEXE 4. 
+LISTES DES EXIGENCES 
+ 
+N° 
+Statut (cf. §1.3) 
+Intitulé de la règle 
+Acteur20 
+RO 1 
+: 
+Obligatoire 
+Pour tout SI du ministère, désigner formellement une AH pour un 
+périmètre d’homologation donné. 
+AQSSI 
+RO 2 
+: 
+Recommandé 
+Désigner une AH pour tout SI au sein de la chaîne d’emploi du SI. 
+AQSSI 
+RO 3 
+: 
+Obligatoire 
+En cas de changement d’AH au cours du cycle de vie du SI, procéder 
+formellement à un transfert de responsabilités au cours duquel le dossier 
+d’homologation du SI est transmis à la nouvelle AH. 
+AQSSI 
+RO 4 
+: 
+Obligatoire 
+Renouveler la décision d’homologation en cas de transfert de 
+responsabilité d’AH. La mise en œuvre de ce renouvellement est laissée 
+à l’appréciation de l’AH prenante. 
+AH 
+(prenante) 
+RO 5 
+: 
+Obligatoire 
+Pour une AH, disposer d’au moins un spécialiste SSI formé à la 
+démarche d’homologation. 
+AH 
+RO 6 
+: 
+Obligatoire 
+Pour l’AH, constituer une commission d’homologation, adaptée au 
+système à homologuer et en fixer les règles générales de 
+fonctionnement. 
+AH 
+RO 7 
+: 
+Obligatoire 
+Dans le cadre d’une démarche d’homologation standard, constituer la 
+commission d’homologation au minimum des acteurs suivants : 
+● l’AH ou son représentant ; 
+● le responsable SSI (RSSI) en charge de la démarche d’homologation ; 
+● le responsable de projet (RCP ou équivalent)/programme ou son 
+représentant ; 
+● l’AE ou son représentant. 
+AH 
+RSSI 
+RO 8 
+: 
+Obligatoire 
+Renseigner les informations relatives à la démarche d’homologation 
+dans l’outil de suivi du patrimoine applicatif du ministère des Armées 
+(SICLADE) et les réactualiser au fur et à mesure de la démarche 
+d’homologation (sous réserve du niveau de classification de ces 
+informations). 
+AE 
+RSSI 
+RO 9 
+: 
+Obligatoire 
+Afin que la décision d’homologation soit motivée et justifiée, pour l’AH, 
+s’appuyer sur un dossier d’homologation conforme à la démarche 
+d’homologation choisie et dont les pièces constitutives sont définies par 
+la stratégie d’homologation. 
+AH 
+RO 
+10 : 
+Obligatoire 
+Pour le RSSI, constituer le dossier d’homologation tel qu’il est défini dans 
+la stratégie d’homologation et le faire valider par le CEAH. 
+RSSI 
+RO 
+11 : 
+Obligatoire 
+Pour le RSSI, documenter le périmètre d’homologation, validé par l’AH, 
+et l’actualiser au fur et à mesure de l’évolution du SI. 
+RSSI 
+RO 
+12 : 
+Obligatoire 
+Pour le RSSI, établir une stratégie d’homologation puis la faire 
+approuver par l’AH. 
+RSSI 
+RO 
+13 : 
+Obligatoire 
+Pour le RSSI, rédiger des PES puis les faire approuver par l’AH, après 
+accord de l’AE. 
+RSSI 
+RO 
+14 : 
+Obligatoire 
+Pour l’AH, délivrer une décision d’homologation à partir d’une liste de 
+risques résiduels après avoir autorisé les mesures dérogatoires relevant 
+de son périmètre. 
+AE 
+AH 
+RO 
+15 : 
+Obligatoire 
+Pour homologuer un SI, appliquer l’une des trois démarches 
+d’homologation identifiées : sommaire, simplifiée ou standard. 
+AH 
+RSSI 
+RO 
+16 : 
+Obligatoire 
+Pour l’AH, dans une démarche sommaire, fournir au RSSI le CUC qu’il 
+devra renseigner. 
+AH 
+RO 
+17 : 
+Obligatoire 
+Pour l’AE, dans une démarche sommaire, valider le CUC correctement 
+renseigné. 
+AE 
+                                               
+20 AQSSI autorité qualifiée en matière de SSI, AE autorité d’emploi, AH autorité d’homologation, RSSI responsable 
+SSI (RSSI-A ou P)
+
+[Page 47 / 49 | chars: 3362]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+45/47 
+N° 
+Statut (cf. §1.3) 
+Intitulé de la règle 
+Acteur20 
+RO 
+18 : 
+Obligatoire 
+Pour une démarche simplifiée, procéder à une analyse de conformité à 
+partir 
+d’un 
+CUC, 
+formé 
+d’exigences 
+adaptées 
+au 
+périmètre 
+d’homologation et aux besoins de sécurité du SI (socle de sécurité). 
+RSSI 
+RO 
+19 : 
+Recommandé 
+Pour une démarche simplifiée, compléter l’analyse de conformité par une 
+analyse de risques lorsque le CUC est insuffisant pour prendre en compte 
+les composants essentiels du périmètre d’homologation ou encore les 
+besoins de sécurité du SI. 
+RSSI 
+RO 
+20 : 
+Obligatoire 
+Pour une démarche standard, mener une analyse de risques complète 
+selon une méthode préconisée par le ministère. 
+RSSI 
+RO 
+21 : 
+Obligatoire 
+Pour toute démarche standard, réaliser un audit d’homologation. Les 
+résultats et les actions qui en découlent sont étudiés lors de la 
+commission d’homologation. 
+RSSI 
+RO 
+22 
+Obligatoire 
+Insérer la décision d’homologation dans l’outil de suivi du patrimoine 
+applicatif du ministère des Armées (SICLADE) (sous réserve du niveau 
+de classification de cette décision). 
+RSSI 
+RO 
+23 :3 
+Obligatoire 
+Prendre une décision d’homologation à l’issue d’une démarche 
+d’homologation. La décision peut être assortie de conditions ou de 
+restrictions d’emploi (temporelles, fonctionnelles) pour une durée 
+déterminée. La démarche peut aussi conduire à un refus d’homologation. 
+AH 
+Erreu
+r ! 
+Sour
+ce 
+du 
+renv
+oi 
+intro
+uvabl
+e. 
+Obligatoire 
+Insérer dans la décision d’homologation le niveau de protection maximal 
+des données pouvant être traitées par le SI et leurs éventuelles mentions 
+de manipulation ou de diffusion. 
+ 
+RO 
+25 : 
+Obligatoire 
+Assortir la décision d’homologation d’une durée de validité et fixer les 
+conditions de validité. 
+AH 
+RO 
+26 : 
+Obligatoire 
+Remettre en cause une décision d’homologation quand : 
+● les conditions de sa validité ne sont plus respectées ; 
+● les conditions de configuration ou d'exploitation du SI ont été modifiées 
+de manière significative ; 
+● le SI ne correspond plus au périmètre d’homologation (ajout de 
+fonctionnalités, d’applications, d’interconnexions non prévues) ; 
+● des vulnérabilités ont été détectées et peuvent remettre en cause le 
+niveau de sécurité du SI de manière inacceptable ; 
+● les menaces sur le SI ont significativement évolué ; 
+● des problèmes d’application des mesures de sécurité ont été identifiés, 
+notamment lors d’un contrôle ou d’un audit de sécurité ; 
+● le MCS du SI n’est pas applicable ou suffisamment appliqué, ou a été 
+défaillant ; 
+● le système a fait l'objet d'un incident de sécurité significatif. 
+AH 
+RSSI 
+AE 
+RO 
+27 :7 
+Obligatoire 
+Pour un renouvellement d’homologation, procéder a minima à : 
+● une revue des informations figurant dans le dossier d’homologation ; 
+● une revue des informations d’enrôlement dans l’outil de suivi du 
+patrimoine applicatif du ministère des Armées ; 
+● une vérification des hypothèses de l’analyse de risques ; 
+● une vérification de la pertinence des exigences de sécurité appliquées 
+au SI ; 
+● une revue du PACS ; 
+● un bilan des contrôles et audits réalisés sur le SI ; 
+● un bilan de l’activité liée au MCS pour évaluer sa performance et 
+identifier les événements marquants. 
+AH 
+RSSI
+
+[Page 48 / 49 | chars: 3930]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+46/47 
+N° 
+Statut (cf. §1.3) 
+Intitulé de la règle 
+Acteur20 
+RO 
+28 : 
+Obligatoire 
+Pour homologuer un SI déclaré d’importance vitale, mener une démarche 
+d’homologation de type standard. Toute dérogation à cette règle 
+nécessite l’autorisation formelle du FSSI. 
+AH 
+RSSI 
+26 
+Obligatoire 
+Traiter et protéger la décision d’homologation et le dossier 
+d’homologation a minima comme des documents de niveau de 
+confidentialité DIFFUSION RESTREINTE et SPÉCIAL FRANCE. Selon 
+les éléments qu’ils contiennent, ils peuvent être classifiés. 
+AH 
+RSSI 
+26 
+Interdit 
+Ne pas enrôler les S2IV dans un outil non classifié si celui-ci mentionne 
+sa catégorisation de S2IV. 
+AH 
+RSSI 
+0 
+Obligatoire 
+Dans le cas de l’homologation d’un système traitant d’informations 
+classifiées TRÈS SECRET faisant l’objet d’une classification spéciale, 
+saisir formellement le HFCDS du lancement de toute démarche 
+d’homologation, l’AH étant dans ce cas le SGDSN. 
+AE 
+RSSI 
+RO 
+32 : 
+Obligatoire 
+Mettre en destinataire des décisions d’homologation de SI classifié, le 
+FSSI et l’ANSSI. 
+AH 
+RO 
+33 : 
+Obligatoire 
+Procéder à une démarche standard pour homologuer des SI classifiés 
+contenant des matériels et logiciels agréés à un niveau inférieur exigé ou 
+non-agréés. L’AH justifie l’autorisation de leur utilisation. La justification 
+est insérée dans le dossier d’homologation. 
+La règle ne s’applique pas pour une homologation d’un dispositif 
+d’interconnexion ou d’un segment d’interface. 
+RSSI 
+RO 
+34 : 
+Obligatoire 
+Préciser sur la décision d’homologation que le SI traitant des données à 
+caractère personnel est apte pour en assurer la protection lorsque ce 
+traitement donne lieu à un acte réglementaire. 
+AH 
+RO 
+35 : 
+Conseillé 
+Dans des cas d’urgence opérationnelle, délivrer une première décision 
+d’homologation, plutôt qu’une APE, en adaptant la démarche à l’urgence 
+et en fixant ses modalités dans la stratégie d’homologation. 
+AH 
+RO 
+36 : 
+Obligatoire 
+Préciser formellement dans la stratégie d’homologation du SI de 
+référence la procédure de l’homologation de déploiement ainsi que les 
+différents responsables et les livrables attendus. 
+RSSI 
+RO 
+37 : 
+Obligatoire 
+Pour le RSSI du SI de référence, suivre ses déploiements et leur état 
+d’homologation. Il coordonne les différentes démarches d’homologation 
+de déploiement. 
+RSSI 
+RO 
+38 : 
+Obligatoire 
+Pour une homologation de déploiement, y compris dérogatoire, appuyer 
+la décision d’homologation du SI déployé sur des CUC et des PES 
+locales. 
+AH 
+RO 
+39 :9 
+Recommandé 
+Ne pas renouveler plus d’une fois une HDD. 
+AH 
+RO 
+40 : 
+Conseillé 
+Lors d’un renouvellement d’homologation du SI de référence, procéder 
+au renouvellement de l’homologation des SI déployés. 
+AH 
+RO 
+41 : 
+Obligatoire 
+Pour tout hébergeur relevant du ministère, avertir les autorités clientes 
+ou d’emploi des SI qu’il héberge de tout élément, dysfonctionnement ou 
+incident pouvant remettre en cause leur niveau de sécurité. 
+Hébergeur 
+RO 
+42 : 
+Obligatoire 
+Homologuer les systèmes ou services numériques fournis par un 
+prestataire de service d’informatique en nuage pour traiter des données 
+relevant du ministère des Armées selon un périmètre d’homologation 
+défini en fonction de la nature du service rendu ou du produit fourni. 
+AE 
+AH 
+RO 
+43 : 
+Obligatoire 
+Pour le prestataire d’informatique en nuage externalisé, fournir un PAS. 
+Le PAS produit par le prestataire est alors inséré dans le dossier 
+d’homologation. 
+RSSI 
+RO 
+44 : 
+Obligatoire 
+Considérer dans le périmètre d’homologation l’utilisation et le cadre 
+d’utilisation du service IaaS ou PaaS tant dans sa dimension fonctionnelle 
+que sécuritaire. 
+RSSI 
+RO 
+45 : 
+Obligatoire 
+Pour l’AE, fournir une appréciation d’usage à l’AH avant d’initier la 
+démarche d’homologation portant sur l’usage du service numérique. 
+AE
+
+[Page 49 / 49 | chars: 2473]
+--------------------------------------------------------------------------------
+
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 
+47/47 
+N° 
+Statut (cf. §1.3) 
+Intitulé de la règle 
+Acteur20 
+RO 
+46 : 
+Obligatoire 
+Pour l’AE, établir une politique d’emploi pour pouvoir utiliser un service 
+numérique public de type SaaS. Elle est fournie à l’AH pour insertion dans 
+le dossier d’homologation. 
+AE 
+Erreu
+r ! 
+Sour
+ce 
+du 
+renv
+oi 
+intro
+uvabl
+e. 
+Recommandé 
+Pour une homologation d’un système de systèmes, procéder à une 
+analyse de risques portant non seulement sur chacun de ses composants 
+mais également sur l’ensemble du système de systèmes et 
+l’interdépendance de ces derniers. 
+RSSI 
+RO 
+48 : 
+Obligatoire 
+Pour toute interconnexion de SI de niveaux de classification différents ou 
+entre un SI classifié et un SI non-classifié, la justifier formellement auprès 
+de l’AH et de l’AQSSI par un besoin opérationnel. 
+AE 
+RO 
+49 : 
+Obligatoire 
+Procéder à une homologation spécifique des interconnexions ou de 
+segments d’interface de SI de même niveau de classification. 
+L’interconnexion ou le segment d’interface de SI est alors homologué au 
+même niveau de classification que ces systèmes. 
+AH 
+RO 
+50 : 
+Obligatoire 
+Procéder à une homologation spécifique des dispositifs d’interconnexion 
+ou des segments d’interface de SI de niveaux de sensibilité ou de 
+classification différents, ou de SI externes au ministère des Armées. 
+L’interconnexion ou le segment d’interface de SI est alors homologué au 
+niveau du SI le plus élevé. 
+AH 
+RO 
+51 : 
+Recommandé 
+Procéder à une homologation spécifique des dispositifs d’interconnexion 
+ou des segments d’interface de SI non classifiés et relevant du ministère 
+des Armées. 
+AH 
+RO 
+52 : 
+Obligatoire 
+Dans le cadre d’un développement de SI en mode agile, mentionner 
+dans la stratégie d’homologation les modalités des échanges entre les 
+différents acteurs (RSSI, équipe de développement, CEAH), le rythme 
+des remontées d’informations ainsi que les conditions de maintien de 
+l’homologation. 
+RSSI 
+38 
+Obligatoire 
+Subordonner la mise en exploitation d’un SI pour test ou expérimentation 
+à l’autorisation formelle de l’AH qui valide les conditions de sécurité 
+préalablement définies. Dans le cadre d'un test, la stratégie 
+d'homologation doit prévoir cette autorisation et en préciser les modalités. 
+L'autorisation d'exploitation est associée à une date de fin de validité et à 
+un niveau de confidentialité des données à traiter. 
+RSSI
+

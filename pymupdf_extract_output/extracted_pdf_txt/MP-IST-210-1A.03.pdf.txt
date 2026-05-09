@@ -1,0 +1,1906 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page count: 34
+Extracted pages: 34
+
+================================================================================
+
+[Page 1 / 34 | chars: 3586]
+--------------------------------------------------------------------------------
+
+Assuring Trustworthy Computer Vision For Rapid Counter-Drone 
+System Testing And Deployment 
+Stanimir Arnaudov, Peter A. Chua, Thomas Mühlenstädt, Hanwool Park 
+Resaro 
+Törringstraße 22, 81675 München 
+GERMANY 
+peter.chua@resaro.ai, thomas.muehlenstaedt@resaro.ai, hanwool.park@resaro.ai 
+ABSTRACT  
+Computer vision (CV) is increasingly deployed across NATO militaries for critical defense tasks like 
+drone detection and classification, drone tracking, and terminal guidance. This continues to revolutionize 
+military operations on the battlefield, offering a new way to keep up with overwhelming adversary 
+capabilities in low-cost drones employed en masse, amidst the complexities of modern urban warfare, 
+declining manpower, and an overwhelming influx of imagery sources. Recent advancements in CV 
+including more performant models with larger training datasets, and increased edge computing capacity 
+on sensor platforms, have lowered the barrier to entry for automation. However, ethical considerations, 
+legal responsibilities, and the critical human element in targeting decisions remain paramount. This 
+creates a new bottleneck: humans’ ability to vet and further investigate model outputs, necessitating 
+highly precise and accurate models that can support military operators without overwhelming them with 
+information.  
+Ensuring the reliability of CV models through robust Testing, Evaluation, Verification, and Validation 
+(TEVV) is paramount for effective deployment. However, the limited generalization of classical CNNs 
+across diverse real-world conditions hinders scalability. Current TEVV methods, including public 
+benchmarks, often lack relevance for specific counter-drone applications and imagery, while bespoke 
+testing is resource-intensive. Bridging the gap between governance, operational, and technical 
+requirements is crucial for scaling CV in defense. Therefore, ensuring CV models scale for defense and 
+security users requires designing routine structures and processes that would bridge the gap between 
+governance, operational, and technical requirements.  
+To address these issues, we propose an assurance framework tailored for mission-oriented, high-risk 
+drone defense CV systems for electro-optical and infra-red imagery. This framework lays out the criteria 
+to create robust internal reference datasets and quantify their properties, including an approach to qualify 
+hard-to-detect targets, and introduces comprehensive pre-deployment testing checklists for CV models. 
+Some examples of actual implementation will be shown, as well as how highly contextualized, use-case 
+specific internal benchmarks can be developed to compare models in a standardized manner. Overall, this 
+framework aims to simplify and scale automated testing, identifying weak performance spots, and 
+providing decision-makers with clear go/no-go criteria for deploying CV models, ultimately bridging the 
+testing gap and fostering trust in these critical technologies. It will also enhance interoperability through 
+providing a common frame of reference across like-minded defense agencies evaluating performance on 
+perception software used in counter-drone solutions, and facilitating information-sharing. 
+1.0 INTRODUCTION 
+Computer Vision (CV) is a field of study relating to how computers can understand and analyze information 
+from the environment using visual data such as images and videos, across a wide range of imaging 
+techniques and platforms including electro-optical, thermal, and radar sensors. Over the past decade, CV has 
+STO-MP-IST-210
+1A.03 - 1
+
+[Page 2 / 34 | chars: 4790]
+--------------------------------------------------------------------------------
+
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+made significant advancements from the increasing adoption of techniques in artificial intelligence (AI) 
+including machine learning, deep learning, and pattern recognition. Accordingly, CV systems have also seen 
+widespread use in defense applications and systems, augmenting human operators in processing and 
+analyzing data from a wide variety of imaging sensors for target detection, classification, tracking, and 
+prosecution. Applied to the counter-drone defense mission, CV systems can be useful in (a) extending 
+operators’ ability to perceive small-sized drones beyond relying on human sight, (b) ease classification, 
+tracking and prosecution tasks through computer automation and therefore handle more challenging targets, 
+(c) compensate for the other counter-drone sensors’ limitations and enhance system redundancy, at the
+expense of increased computational requirements and system complexity. In this paper, the term 'drone'
+refers to a flying vehicle without a pilot and should be understood as interchangeable with ‘unmanned aerial
+vehicle’ (UAV). The counter-drone mission specifically focuses on detecting, classifying, tracking, and
+targeting these drones/UAVs, excluding their ground control systems, pilots and support crew and their
+equipment, and other unmanned aerial system (UAS) components.
+2.0 RATIONALE 
+The rapid proliferation of drones across the inventories of potential adversaries, spurred by advances in 
+commercial and recreational applications but adapted for military uses, has concurrently given rise to a 
+critical challenge: the need for effective counter-drone measures. This escalating drone adoption has spurred 
+the development of numerous solutions aimed at detecting, tracking, and neutralizing unauthorized or hostile 
+drones. However, the sheer variety and complexity of these emerging technologies present significant 
+hurdles for decision-makers tasked with their deployment. The process of selecting the most appropriate 
+counter-drone systems for their specific missions involves a deep understanding of each system's 
+capabilities, limitations, and operational requirements. Beyond selection, there is also a need to comprehend 
+how best to integrate and employ these tools within existing security frameworks, which necessitates 
+detailed planning for system placement, operational protocols, and personnel training to maximize 
+effectiveness. 
+Crucially, decision-makers must also anticipate and understand the circumstances under which their chosen 
+systems might perform sub-optimally or even fail entirely. Simon Burton and Benjamin Herd from the 
+Fraunhofer Institute for Cognitive Systems in Germany note that “the role of safety assurance can be seen as 
+striving to facilitate decisions of type II wherever type I is not possible, whilst avoiding type III decisions” 
+[2], in reference to Knight’s “three types of decisions: decisions under certainty (type I) where the 
+consequences of all options are known; decisions under risk (type II) where possible futures are known, 
+probability distributions are known, and statistical analysis is possible; and decisions under uncertainty (type 
+III) where the future states are known but the probabilities are unknown” [8]. For decision-makers in defense
+and security, these activities of safety assurance are also relevant to objectives outside of system safety, such
+as the ability to complete the assigned mission, and mitigating the impact on manpower and materiel in
+operations should complications arise; recognizing these potential shortcomings is vital for designing
+redundancy in mission-critical systems, and robust contingency plans. These workarounds might involve the
+deployment of alternative tools, such as different sensor types or kinetic countermeasures, or the devising of
+innovative operational strategies that leverage human intervention or other available resources to compensate
+for system limitations.
+Any proposed counter-drone solution, whether a standalone system or a combination of technologies and 
+operational procedures, must undergo a comprehensive assessment of its associated costs and risks. This 
+includes not only financial and manpower investments in procurement, maintenance and operations, but also 
+the potential for collateral damage, legal implications, and public perception. The objective is to arrive at a 
+suitable outcome that effectively mitigates drone-related threats while ensuring overall mission success. 
+Therefore, there is a clear imperative to establish a performance measure for these counter-drone systems, 
+especially for stochastic elements within them such as CV or other AI models. This performance 
+1A.03 - 2
+STO-MP-IST-210
+
+[Page 3 / 34 | chars: 2478]
+--------------------------------------------------------------------------------
+
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+measurement framework should assess the accuracy, speed, and reliability of CV algorithms in identifying 
+and tracking drones under diverse and challenging conditions, and allow for objective comparisons between 
+different systems, enabling informed decisions and fostering continuous improvement in counter-drone 
+technology. 
+2.1 
+Complexity of Performance Measurement in Networked, Inter-dependent Counter-
+Drone Systems 
+ 
+Figure 1: ASUL being presented at BAAINBw in Koblenz. Image was released by the 
+ 
+Bundeswehr for public distribution.
+Measuring the performance of CV systems for counter-drone missions can be a complex and multi-
+faceted subject. Firstly, contained counter-drone systems are themselves becoming significantly more 
+complex, comprising a mix of sensors, effectors, and coordination and processing software, in order 
+to match the complexity and diversity of the range of threats they are required to face. For example, 
+the Bundeswehr announced in Aug 2022 its deployment of the ASUL counter-drone system, highlighting 
+its components [1]: “the sensor system… is composed of… three radars and a camera system with day and 
+night vision. A radio frequency (RF) direction finder used to identify control signals and, if possible, also 
+locate the position of the drone pilot… Once an aircraft has been detected by the radars and the 
+direction finder, the system will compare its data with information available from data bases. In such a 
+way, the system determines whether the aircraft could be a drone. After an alleged target has been 
+detected, the system’s operator will be informed in real time and will be able to verify, with the help 
+of the camera system, if the drone is to be classified as a threat.” While the exact specifications and 
+workflows of the system are classified, within one counter-drone system, there is already a variety of 
+visual data generated through its radar, electro-optical sensor, and thermal sensors. The system will 
+likely also be engineered to handle the inherent variability in size, speed, materials, behavior, and 
+payloads of various adversary drones of differing signatures, and function across a range of 
+environmental conditions including electromagnetic interference and expected weather phenomena 
+(sunlight, moonlight, rain, fog, or snow), and have differing levels of tolerance and 
+STO-MP-IST-210
+1A.03 - 3
+
+[Page 4 / 34 | chars: 1806]
+--------------------------------------------------------------------------------
+
+redundancy built into its complementary sensor suites. It is likely that all these factors affecting ASUL’s 
+success in deployment would have been specified through months of painstaking procurement requirements 
+development and evaluation along these dimensions to ensure its ability to meet the Bundeswehr’s counter-
+drone defense missions. Table 1 highlights a comparison of the key advantages and limitations of different 
+modalities for drone detection, classification, and tracking, showing the complexity of architecting multi-
+modal sensors. 
+ 
+Table 1: Key Advantages and Limitations of Different Modalities for Drone Detection, 
+ 
+Classification, and Tracking. 
+Modality 
+Key Advantages 
+Key Limitations 
+RF- 
+based 
+•
+High accuracy in controlled
+environments
+•
+Effective
+for 
+UAV 
+identification 
+and 
+flight 
+mode classification 
+•
+Effective range theoretically
+scales to sensor sensitivity
+•
+Cost-effective and can detect
+multiple drones/controllers
+•
+Susceptible to radio congestion and
+jamming
+•
+Completely 
+ineffective 
+against
+autonomous drones without active RF
+links, 
+or 
+controlled 
+drones 
+in
+autonomous modes
+•
+Requires prior knowledge 
+of 
+RF
+frequencies in use by potential UAVs,
+and other unrelated urban sources of RF
+clutter
+Audio- 
+based 
+•
+Detects drones based on rotor
+noise and acoustic signatures
+•
+Effective for autonomous
+drones
+•
+Can operate outside line-of-
+sight limitations
+•
+Mobile and quick to deploy
+•
+Performance degrades significantly in
+high-noise or windy environments
+•
+Typically very short range due to
+soundwave propagation characteristics
+(300-500m)
+•
+Short range limits coverage for large
+areas
+•
+Some drones designed to operate
+silently
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 4
+STO-MP-IST-210
+
+[Page 5 / 34 | chars: 2420]
+--------------------------------------------------------------------------------
+
+Radar- 
+based 
+•
+Resilient 
+under
+low 
+visibility/weather conditions  
+•
+Uses
+micro-Doppler 
+signatures
+•
+Long 
+range, 
+constant 
+tracking, accurate positioning  
+•
+Able to handle many objects
+simultaneously
+•
+Able to detect any flying
+object with radar signature
+regardless of its operating
+modality
+•
+Higher hardware costs and calibration
+demands
+•
+Many systems lack resolution for very
+small drones
+•
+Active emitting nature of sensors adds
+complexity and licensing requirements
+•
+“Dead zones” due to curvature of the
+earth and undulating terrain features
+•
+Clutter interference in urban/dense
+environments
+•
+Integration 
+complexity 
+with 
+other
+sensors
+Vision- 
+based 
+•
+Targets UAV recognition via
+optical images
+•
+Provides visuals for forensic
+evidence
+•
+Real-time and cost-effective
+solutions
+•
+Promising 
+rapid
+enhancement by advances in
+AI and CV, and consumer-
+grade 
+image 
+capturing
+technologies
+•
+High false-alarm rates due to 2-
+dimensional nature of returns
+•
+Environmental 
+variability 
+(light,
+weather, obscurants) significantly affect
+performance consistency
+•
+Challenges with small object size and
+motion blur
+•
+High computational demands for high-
+resolution streams
+•
+Relies on line-of-sight, vulnerable to
+camouflage and obfuscation
+Multi- 
+Modal 
+Fusion 
+•
+Mitigates single-sensor blind
+spots
+•
+Significantly 
+improves 
+robustness and accuracy   
+•
+Crucial 
+for 
+small-object 
+detection and erratic flight 
+•
+Adaptive sensor weighting
+and 
+deep 
+embedding
+methods
+•
+Increases 
+complexity 
+in 
+real-time
+deployment
+•
+Requires precise sensor calibration and
+synchronization
+•
+Consumes power and bandwidth for
+large-scale deployments
+•
+System integration complexity and cost,
+including data synchronization and
+fusion protocol standardization
+•
+Requires 
+significant 
+computational
+resources or hardware optimisation for
+real-time processing on edge devices
+Second, in networked warfighting, each of these systems are likely to be embedded into larger systems-of-
+systems operating across the tactical, operational and theatre level. This is because each sensor modality has 
+inherent limitations as highlighted in Table 1: for example, radar may struggle with small, low-flying 
+drones, optical cameras can confuse drones with birds, and RF direction finders are ineffective against 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 5
+
+[Page 6 / 34 | chars: 4940]
+--------------------------------------------------------------------------------
+
+autonomous drones that do not rely on a control link, and ‘go dark’, i.e. stop broadcasting signals. ASUL’s 
+design incorporating a mix of sensors to compensate for each individual sensor’s limitations is an example of 
+attempting to overcome this problem at the platform level. However, platform-level limitations may still 
+exist, such as the ability to identify whether drones are friendly or hostile without an external validation 
+system with additional Identify-Friend-or-Foe (IFF) information. Moreover, handling of both false positives 
+(identifying non-drones as threats) and false negatives (failing to detect actual threats) may require decision-
+making capabilities beyond the operators and systems on this platform, within the short response window 
+typical for aerial threats, may require integration with Command, Control, Computers, Communications, 
+Intelligence & Technology (C4IT) systems available on base to ensure decision-makers are able to take the 
+best action based on the most complete set of available information. Since any CV tool would ultimately 
+form part of a broader defense system, it would be irrational to expect that any system component should 
+bear full responsibility for the ultimate outcome. Hence, the focus turns to selecting a suitable set of criteria 
+for performance of individual system components, which inevitably runs into the question of what ‘good 
+enough’ performance would entail. 
+Third, CV systems leveraging machine learning methods exhibit stochasticity in their outputs when deployed 
+in the real world because of the ways through which machine learning (ML) algorithms are generated, 
+involving stochasticity in data generation, modelling, and optimization. As noted by Sabuncu [12]: 
+“stochasticity features in many ML methods, affording them robustness, generalizability, and calibration”. 
+However, he also notes that, “the large degree of uncertainty means we have a strong distinction between the 
+data used to develop a model (often called training data) and the data used to objectively assess performance 
+(the validation and test datasets), sometimes under different conditions. Most ML models exhibit poorer 
+performance on independent data than on training data - a phenomenon called overfitting. Overfitting, or the 
+generalization gap (performance difference between training and test data), is one of the core challenges of 
+ML.” Burton and Herd (ibid.) asserts that uncertainty arising from attempting to assure such applications 
+“can thus manifest itself as a lack of knowledge of the difference between the estimated failure rate … and 
+the actual failure rate that occurs during operation. This “assurance gap” will typically need to be closed 
+based on a combination of quantitative (e.g., related to statistical confidence) and qualitative arguments (e.g., 
+based on the appropriateness of certain assumptions). [2]” Hence, the evaluation of CV systems should aim 
+not to provide a definitive and deterministic view of how they would perform in deployment, but rather 
+provide a sufficient confidence in having a stochastic outcome that would be acceptable given the level of 
+risk tolerated by their employers. The attendant methodology must thus consider having sufficient and 
+diverse test points to fulfil the requirements for such statistical confidence. 
+2.2 
+Limitations of Existing Methods 
+Existing evaluation methods for CV systems, particularly in critical applications like counter-drone 
+technology, present significant limitations. Current approaches primarily rely on two main categories: public 
+benchmarks and organization or project-centric evaluations. Each of these methods, while offering some 
+benefits, comes with inherent problems that hinder a comprehensive and trustworthy assessment framework. 
+Public benchmarks offer a transparent view of CV system performance across a standardized dataset but 
+have seen limited growth in adoption thus far. On the other hand, organization/project-centric evaluations 
+presumably generate higher impact for their sponsoring organizations but are rarely disclosed to other 
+ecosystem stakeholders outside the project or organization due to confidentiality or security considerations.  
+2.2.1 
+Approach and Limitations of Public Benchmarks 
+Public benchmarks attempt to provide a standardized platform for comparison across different algorithms 
+and models, often with the intention of furthering research and development in this space through convening 
+different research groups to optimise their algorithms along a similar baseline and dataset. Yifei Dong et al. 
+found in a seminal comprehensive literature review a wide-ranging overview of the benchmarking landscape 
+benchmarks with single and multi-modal datasets ranging across electro-optical red-green-blue (EO/RGB), 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 6
+STO-MP-IST-210
+
+[Page 7 / 34 | chars: 3008]
+--------------------------------------------------------------------------------
+
+radio frequency (RF), audio, Light Detection and Ranging (LiDAR) data [5]: “Foundational benchmarks 
+such as FL-Drones, NPS-Drones, and USC Drone provided core RGB datasets for aerial detection and 
+tracking. Beyond the visual domain, DroneRF captures electromagnetic signatures for RF-based UAV 
+classification, while DroneAudio and Acoustic-UAV focus on acoustic features. More recent efforts extend 
+coverage to multi-modal data: Halmstad Drone fuses RGB, IR, and audio, and MMAUD integrates radar and 
+LiDAR. Community-driven competitions (e.g., the 2nd and 3rd Anti-UAV Workshops and the 4th Anti-
+UAV Challenge) feature adversarial or cluttered scenarios that reflect real world operational complexity, 
+while UAVSwarm and mDrone emphasize large-scale swarm coordination or low-visibility tracking—both 
+highlighting the need for robust multi-sensor fusion.” 
+However, public datasets often suffer from several issues. One, the current state of benchmarking, while 
+foundational, is characterized by critical deficiencies, particularly concerning annotation standards. Without 
+discrediting the hard work and innovative approaches of their originators, many of these datasets are 
+developed and maintained on a voluntary basis by researchers and graduate students, data quality can vary 
+significantly. Moreover, many such large datasets were created with the use of popular foundational CV 
+models such as YOLO, creating a feedback loop of poor open-source training data, leading to suboptimal 
+models, leading to substandard labelling which finds its way back into poor open-source training data. 
+Although no firm statistics are available on the prevalence of these data inconsistencies, Koksal et al noted in 
+2020 at the 1st Anti-UAV Workshop and Challenge [9] that “such approaches might result in erroneous 
+annotations”, and found in some experiments that such “annotation errors degrades the performance 
+[severely]..., especially for missing boxes”, proposing to correct the benchmark challenge’s annotations 
+where they found mistakes. The mislabelling that occurs often erodes trust in the dataset and contributes to 
+varying levels of measurement error when models are tested on them. See Figure 2. 
+ 
+Figure 2. Examples of mislabelled data in public UAV-related benchmarks. Top left: label applied 
+ 
+where there is no UAV in the image, Anti-UAV300 dataset. Top right: label applied to a part of the 
+ 
+image in which the UAV is not (actual UAV is on the left of the bounding box), Anti-UAV300 
+ 
+dataset. Bottom two: UAVs present but unlabelled within image, DUT Anti-UAV Detection and 
+ 
+Tracking dataset. Inconsistencies discovered by Resaro Research, 7 Jul 2025. 
+Two, public datasets may not accurately reflect real-world operational environments, leading to a 
+dataset bias where models perform well on the benchmark but poorly in deployed scenarios. For instance, 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 7
+
+[Page 8 / 34 | chars: 2082]
+--------------------------------------------------------------------------------
+
+in some of the foundational public datasets mentioned above that rely on often openly available data
+scraped from social media or search engines, there is a significant mismatch in image context as compared 
+to common use cases found in defense and security, as these tend to highlight drone flying or 
+experimentation in recreational or civilian contexts. Moreover, when the sensor type and specifications 
+are considered, further issues may arise relating to domain adaptation as model performance tested on 
+these benchmarks may not translate into similar performance in defense and security contexts, with 
+military-grade sensors. See Figures 3 and 4 for examples of the difference in data relevance and quality 
+across these benchmarks. 
+Figure 3: Examples of images from the USC Drone dataset. Note the high quality, good focus 
+and good contrast present in some of the optical images which suggest that they may have 
+been captured either by modern smartphones or photography enthusiasts from a stabilized 
+imaging platform. 
+Three, these benchmarks are often static and may not evolve at the same pace as the rapid advancements 
+in computer vision or the emergence of new threats. As new and customized drones and tactics emerge 
+on the battlefields of Ukraine and elsewhere, there is typically a significant lag experienced before their 
+inclusion into public benchmarking datasets. In 2025, this implies that datasets specifically do not 
+contain sufficient 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 8
+STO-MP-IST-210
+Figure 4: Examples of imagery from the 4th Anti-UAV Workshop dataset, which are examples of 
+datasets more likely to be reflective of real-world scenarios encountered by sensors in defense 
+and security. However, note also the sensor artifacts present (Chinese characters, crosshair 
+boxes, date and timestamps); these artifacts may differ greatly across sensor types, especially 
+those that do not operate directly on raw sensor feeds, and may corrupt measures of model 
+performance in testing.
+
+[Page 9 / 34 | chars: 4980]
+--------------------------------------------------------------------------------
+
+images and videos containing multiple UAVs operating in a swarm or otherwise, or armed UAVs, and lack 
+representations of adversarial behavior or other potential deployment, as Yifei Dong et. al (ibid.) noted in 
+their comprehensive review of benchmarks [5]: ‘analysis of representative datasets revealed gaps in 
+adversarial robustness and scalable swarm tracking.” 
+Another structural critique of public benchmarks is also noteworthy here as the modality of these 
+benchmarks, being public in nature, can also encourage researchers to overfit to specific datasets rather than 
+fostering robust and generalizable solutions. While there is no precise evidence that this is occurring on 
+UAV-specific benchmarks, Singh et al. have confirmed the advantage of ‘gaming’ such benchmarks through 
+real world experiments on an LLM benchmark, Chatbot Arena, through selective reporting of results. [13] 
+They note that ‘undisclosed testing policy permits preferred providers to bias reporting of results’, where ‘a 
+small group of preferred providers… test multiple models privately and only submit the score of the final 
+preferred version’, and that such ‘selective disclosure violates [the central] unbiased sampling 
+assumption...which systematically inflates model rankings, distorting the leaderboard ranking”. In any case, 
+when multiple submissions are allowed and some stochasticity is inherent within the results, the best version 
+of each developer team’s models rise to the top of the leaderboards and obfuscate a more comprehensive 
+view of their overall performance. On UAV-specific benchmarks for researchers with arguably lower stakes, 
+the existence of the incentive itself may indicate such activity ongoing – for example, on the premier 
+benchmark, the 4th Anti-UAV Workshop, the top 3 winners across the participants in 3 distinct tracks 
+(detection, classification, and multi-drone tracking) had each submitted between 8 - 29 entries before 
+achieving their distinction, suggesting evidence of such phenomenon in effect. Note that up to 100 
+submissions were permitted under this benchmark’s rules. 
+2.2.2 
+Limitations of Organization and Project-Centric Evaluations of CV Systems 
+The above issues of public benchmarks are presumably well-known by organizations seeking to deploy or 
+procure AI and CV in their products and services, especially defense, security and intelligence agencies with 
+a keen interest in applying these technologies to their vast collection of operational data. However, they face 
+another problem of data sensitivity, as well as the often extremely specialized and under-represented nature 
+of their use cases, which prevent them from sharing this data in partnerships with broader benchmark 
+providers. Hence, the organizations Resaro work with often turn to independent internal evaluations, which 
+tend to be project or use-case centric, and are certainly restricted to their own organizations even if there are 
+attempts to propagate their use through establishing internal leaderboards or benchmarks. While these 
+internal evaluations may be well-tailored for the specific operational requirements of their designers, they 
+also present their limitations.  
+First, their bespoke nature means that they can be much more resource-intensive and time-consuming, 
+hindering agile development and development cycles. Even in the case of the United States, with an 
+extremely technologically advanced military, and sophisticated defense industrial base and with many 
+notable past AI breakthroughs, testing and evaluation remains a problem that requires long timelines. The 
+inaugural director of the DOD’s Joint Artificial Intelligence Center (JAIC) Retired Air Force Lt. Gen. John 
+“Jack” Shanahan noted at the virtual event at the Center for New American Security titled “Safe and 
+Effective: Advancing Department of Defense Test and Evaluation for AI and Autonomous Systems” [19] 
+that the Pentagon “is not well postured yet” for testing and evaluation, or T&E, “of artificial intelligence, or 
+any other kind of cutting edge software that requires continuous updating… under the conditions of 
+combat… people have a vested interest in coming after and making your models not work the way you want 
+them to work. You have explosions, you have fog, you have day, you have night… even though [our past 
+models] were trained with operational data, once you put them in the operational environment, sometimes 
+they’re just not gonna work the way you want them to work.” He went on to note that the DOD would “have 
+got to get used to the fact that these updates [of AI models, to take into account changing operational 
+conditions] may be happening in hours and days, not months and years.” The development of each internal 
+evaluation of a CV system typically involves a business case or use case analysis, the creation of 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 9
+
+[Page 10 / 34 | chars: 4459]
+--------------------------------------------------------------------------------
+
+operationally-relevant metrics, translation into technical standards and metrics, testing on sparse internal 
+datasets, live open-world testing where applicable, and the creation of customized reports in alignment with 
+the expectations of various stakeholders’ from governance, technical, compliance, procurement and strategic 
+teams. 
+Second, their restrictive nature means they often lack the transparency and independent scrutiny found in 
+public benchmarks, potentially leading to biased or incomplete assessments. The results from these 
+evaluations are typically not publicly shared, making it difficult for the broader community to learn from 
+successes and failures, nor critique the methodology. Even in the rare cases that these evaluation results may 
+be shared, such as between allied nations’ militaries, the lack of uniformity in evaluation standards limit the 
+ability of partner militaries to accept and understand their counterparts’ evaluations in relation to their unique 
+context and data.  
+2.3 
+Relevance to Symposium Topics and NATO Allied Military Systems 
+The approach we propose relates directly to the IST-210 Symposium’s topics of “AI assurance frameworks, 
+standards, terminology and metrics”, and “AI risk and vulnerability assessment, including mitigation” by 
+proposing a framework to ensure the reliability and trustworthiness of CV models, thereby mitigating 
+significant AI risks and vulnerabilities in critical military applications. Recent efforts such as CEN-
+CENELEC’s CWA 18150 CEN Workshop Agreement on “Unmanned aircraft systems - Counter UAS-
+Testing methodology”, published in Oct 2024, have further established some common scenarios and 
+standards relevant to counter-UAS operations undertaken by defense and security agencies [3]. We attempt 
+to expand on them further by describing the approach to test, measure, and verify counter-UAS CV software 
+against these scenarios and standards. Our approach directly contributes to the development of a common 
+lexicon and AI assurance framework by outlining criteria for creating robust internal reference datasets, 
+quantifying their properties (including approaches to qualify hard-to-detect targets), and introducing 
+comprehensive pre-deployment testing checklists. While the test data can remain classified to each 
+organization, the framework, toolkits, and pre-deployment testing checklists can be shared across each 
+organization and establish a common basis for communicating the performance of counter-drone CV 
+systems of interest across allied members. We will demonstrate how highly contextualized, use-case-specific 
+internal benchmarks can be developed to compare models in a standardized manner, providing essential 
+metrics for performance evaluation. Through this work, we aim to simplify and scale automated testing, 
+identify weak performance spots, and provide decision-makers with clear go/no-go criteria for deploying CV 
+models. The desired outcome is to bridge the testing gap and foster trust in these critical technologies, 
+directly supporting the development and management of NATO Allied Military Systems in the crucial 
+domain of counter-drone solutions throughout their life cycle. It will also enhance interoperability, and 
+facilitate information-sharing, through providing a common frame of reference across like-minded defense 
+agencies evaluating perception software used in counter-drone solutions.  
+3.0 DESCRIPTION 
+3.1 
+Outline of Proposed Approach 
+Given these challenges, we propose a novel approach that aims to combine the best aspects of both public 
+benchmarks and organization/project-centric evaluations while minimizing the limitations of each. Our 
+objective is to create a common comprehensive, trustworthy, and adaptable framework for assessing CV in 
+counter-drone systems, providing a common baseline for comparing commercial solutions. This framework 
+would come with a set of toolkits to evaluate data and models along specific dimensions, generate data to 
+augment test data, and also allow users like NATO allied militaries to keep their classified datasets within 
+their systems and protect their data, but also allow sharing of their scenario characteristics, synthetic data, or 
+discoveries about theirs or vendors’ model behaviors to selective partners under broad information-sharing 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 10
+STO-MP-IST-210
+
+[Page 11 / 34 | chars: 4095]
+--------------------------------------------------------------------------------
+
+agreements. This integrated approach seeks to leverage the standardized comparison attributes of public 
+benchmarks while incorporating the real-world relevance and specificity of tailored evaluations.  
+In our approach, we will define the dimensions of quality on which a counter-drone CV system would be 
+tested, collect real-world data relating electro-optical and infra-red imagery and relevant to defense 
+scenarios, augment the test data with simulation-generated data where gaps are identified, and test these 
+systems against the abovementioned dimensions of quality. Over time, our approach aims to discover, 
+standardize, and parameterize – as a set of stable common scenarios, data and simulation objects – an 
+emerging standard for CV evaluation in counter-drone and other similar mission sets, to further strengthen 
+and align a common community of practice in counter-drone system evaluation. Any evaluation approach 
+aiming for comprehensiveness, precision, and at the right granularity requires a solution along three general 
+axes of effort: creating a robust methodology that pre-empts potential insufficiencies in knowledge about the 
+system under test, collecting and curating a dataset that is proven sufficient in coverage of possible scenarios, 
+and developing a means of dynamically updating the test library’s scenarios and datasets when they are 
+found to be insufficient ex post, as testers are likely to discover new scenarios of interest or testing 
+dimensions not previously considered. 
+3.1.1 
+AI Solutions Quality Index 
+The methodology of our approach is based on an AI Solutions Quality Index™ (ASQI), which defines and 
+establishes different dimensions of quality on which the CV system in the counter-drone system or its 
+components should be assessed on, across drone detection, classification, and tracking tasks, to varying 
+degrees of challenging operational conditions (e.g. low-light environments or unstable imaging platforms). 
+This ASQI™ sets out the precise methodology for testing and evaluation, and frames the technical indicators 
+required to qualify each performance dimension in relation to the higher-order operational objectives of the 
+operational use case. These technical indicators, each backed by proprietary and open-source research, are 
+then linked to the metrics to be used, and thresholds to be satisfied, to assess each dimension of performance 
+accordingly.  This approach was first developed at the global scale and introduced in international 
+standardization in 2019 (IEC SEG10) led by Dr. Sebastian Hallesleben et al. 
+3.1.1.1 
+Methodology for Constructing the ASQI 
+The construction of effective quality indices for counter-drone CV systems follows six core principles 
+specifically designed to support robust assurance case development:  
+Use Case Specificity ensures that quality is defined within the context of requirements of deepfake detection 
+in military applications, distinguishing between routine content screening and high-stakes intelligence 
+verification scenarios while maintaining sufficient flexibility to address diverse operational contexts. 
+Shared Language establishes terminology that bridges operational, governance, and technical stakeholder 
+communities, enabling clear communication about quality requirements and system capabilities across 
+organizational boundaries. 
+Non-Binary Assessment recognizes that quality exists on a spectrum, with clearly distinguishable levels 
+ranging from basic operational adequacy to state-of-the-art performance, allowing organizations to make 
+informed trade-offs based on mission requirements and resource constraints. 
+Independence Between Indicators safeguards the conceptual clarity and explanatory power of each 
+indicator. It avoids artificial correlations that may mask unique patterns between indicators. This allows 
+organisations to isolate the specific impact of each indicator without confounding influences from other 
+indicators. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 11
+
+[Page 12 / 34 | chars: 4639]
+--------------------------------------------------------------------------------
+
+Technical Test Mapping ensures that each quality indicator corresponds to specific, automatable technical 
+evaluations that can be independently validated and repeated as systems and threats evolve. 
+Appropriate Granularity balances comprehensiveness with usability, providing sufficient detail to guide 
+procurement and deployment decisions without overwhelming stakeholders with excessive complexity. 
+Governance Framework Compatibility aligns quality indicators with established AI governance 
+frameworks and defense defense requirements, ensuring that quality assessment supports broader 
+compliance and risk management objectives.  
+In the case of a CV system involved in the automated detection, classification and tracking of hostile drones, 
+but connected as a subsystem to a broader drone defense system incorporating other sensor types, processing 
+units, and counter-drone effector components, the ASQI would be useful as the basis of an “assurance 
+module … able to handle the complexity of assuring an AI-enabled system by dividing it into parts that are 
+more manageable to assure”, in line with recommended practices such as the DNV-RP-0671 
+“Recommended Practice for Assurance of AI-enabled systems” published by the global independent 
+assurance and risk management provider DNV.[4] Once we are able to visualize and explain the system’s 
+behaviors along these categories of quality, our resulting documentation of the system’s demonstrated 
+phenomena will form trust artifacts that can be referred to for assurance in various aspects of the safety and 
+efficacy of the overall system.  
+3.1.1.2 
+Translating Desired Technical Qualities into Quantitative Metrics 
+Thereafter, the desired technical qualities of the CV solution would have to then be translated into 
+quantitative metrics, in order to construct observable parameters to quantify each test protocol and metric. To 
+implement this, we model the deployment environment with three primary sources of variability that a CV 
+system would have to perform under: at the sensor-level, the target-level, and the encapsulating environment. 
+In so doing, we are able to break down the analysis components into understanding the following: detection 
+and classification performance, referring to the ability of the system to detect and distinguish the expected 
+variety of drones in the area of operations from other drones as well as other expected objects, tracking 
+performance, referring to the ability of the system to keep track on a target of interest through time and space 
+once identified. In so doing, we will have to further understand the above within more fine-grained 
+contextual qualities such as system-to-target fit, referring to the ability of the system to operate well across 
+targets of differing physical types or sizes, environmental robustness, referring to the ability of the system to 
+consistently perform across the expected environmental conditions of its deployment, sensor behavior 
+tolerance, referring to the ability of the system to consistently perform across the expected physical 
+behaviors of the sensing platform, e.g. if it were deployed on a robotics or autonomous vehicle, and target 
+behavior tolerance, referring to the ability of the system to operate well across targets’ positions and 
+movement patterns as captured by the sensor.  
+In this effort, the normalizability of parameters is vital, ensuring that performance scores can be scaled and 
+compared consistently across different CV systems, sensor types, or operational environments. This allows 
+for fair benchmarking and facilitates informed decision-making for procurement and integration, enabling a 
+standardized language for evaluating diverse solutions within the counter-drone mission.  
+Table 2 below highlights an indicative ASQI that could be deployed for a counter-drone use case. Within 
+each operational parameter of interest, one or more metrics can then be developed or adapted from academic 
+CV research, allowing for the ASQI’s indicators to be constantly updated by state-of-the-art measurement 
+methods that are continually being investigated by the relevant data science communities in academia. For 
+instance, overall tracking performance for an automated drone tracking CV system can be approximated by a 
+metric like the Higher-Order Tracking Accuracy (developed by Luiten et al. [9]), a uniformly-blended score 
+evaluating tracking along the three subtasks of detection, association and localization, using a Jaccard Index 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 12
+STO-MP-IST-210
+
+[Page 13 / 34 | chars: 2856]
+--------------------------------------------------------------------------------
+
+to calculate the intersection-over-union of the areas generated by a CV model predicting where the target is, 
+compared to its ground truth. Taken in aggregate, these parameters aim to provide a positive rather than 
+normative perspective of the CV system’s expected performance, to inform decision-makers deciding to 
+procure or operate these systems against real-world adversaries. For a more granular view, the component 
+parameters of Detection Accuracy, Association Accuracy, and Localization Accuracy can also be retrieved 
+to understand where each model’s strengths and weaknesses are in tracking, as the developers of these 
+models would also focus on different methods of fine tuning or hyperparameter optimization focusing on 
+maximizing performance in certain desired aspects. As the creator of the HOTA Thomas Luiten noted, “very 
+similar overall HOTA scores… [are revealed by] this plot…. that there is a clear difference in where one is 
+better than the other… if you wanted to select a tracker for a particular application, you could now decide 
+whether association or detection was more important for your application and pick the most appropriate 
+tracker accordingly”. [11]  
+Table 2. Testing a CV system for detection, classification, and tracking of drones. 
+Use Case: Automated detection, classification, and tracking of hostile drones 
+Category 
+Technical Indicator 
+Test Protocol and Metric 
+Detection 
+& 
+Classification 
+Performance 
+Tendency of CV model to produce false alarms, e.g. 
+producing detection reports of drones when birds fly 
+across the field of view 
+False Alarm Rate 
+Tendency of CV model to miss detection of actual 
+drone within field of view 
+Missed Detection Rate 
+Extent of ability of CV model to pick up presence 
+of potential hostile drone upon capture in sensor 
+field of view 
+Detection Speed 
+Extent of ability of CV model to correctly classify 
+type of potentially hostile drone upon capture in 
+sensor field of view 
+Classification Speed 
+Extent of ability of the CV model to detect and 
+classify hostile drone of interest in general, across 
+different confidence levels and object classes 
+Overall Accuracy and Precision 
+Tracking 
+Performance 
+Extent of ability of CV model to ‘track’ objects 
+moving across video clips in real-world use cases, 
+blending aspects of detection, association and 
+localization accuracy within a single view 
+Overall Tracking Accuracy 
+Extent of ability of CV model to find objects within 
+single images, independent of their identity or 
+movement across frames 
+Detection Accuracy 
+Extent of ability of CV model to maintain the 
+correct identity of an object across a sequence of 
+frames, as opposed to confusion with other objects 
+Association Accuracy 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 13
+
+[Page 14 / 34 | chars: 1562]
+--------------------------------------------------------------------------------
+
+Extent of ability of CV model to consistently 
+localize and track a target across multiple frames 
+through aligning a predicted bounding box or 
+tracker crosshair with its actual position 
+Localization Accuracy 
+Against more fine-grained contextual qualities such as: 
+System-to-target 
+fit 
+Class-based performance differentials of above 
+performance metrics, across differing drone sizes, to 
+ensure CV model tested will perform evenly across 
+drone types.  
+Drone size tolerance 
+Small (l x w x h < 2m3) 
+Medium drones (2m3 < l x w x h < 
+10m3) 
+Large drones  (l x w x h > 10m3) 
+Drone type tolerance 
+Fixed-wing 
+Rotary-wing 
+Other 
+Drone quantity tolerance 
+Single 
+Multiple/swarm 
+Robustness 
+to 
+environmental 
+factors 
+Performance differentials of above performance 
+metrics, under varying environmental conditions, 
+that would be expected in the deployment 
+environment of interest, to stress-test CV models 
+prior to actual deployment in said environments 
+Indoors, enclosed 
+Partial occlusion 
+Weather tolerance 
+Rain 
+Ambient light 
+Fog & Mist 
+Snow 
+Backdrop tolerance 
+Against cloud/sky 
+Against urban  
+Against foliage 
+Sensor Behavior 
+Tolerance 
+Performance differentials of above performance 
+metrics, across scenarios with varying sensor 
+system behaviors, characteristics, and motion, to 
+stress-test CV models prior to actual deployment in 
+said scenarios 
+Sensor jitter 
+Sensor frame drops 
+Image noise 
+Sensor artifacts 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 14
+STO-MP-IST-210
+
+[Page 15 / 34 | chars: 3631]
+--------------------------------------------------------------------------------
+
+Object/background blur 
+Frames per second 
+Target Behavior 
+Tolerance 
+Performance differentials of above performance 
+metrics, across scenarios with varying target 
+behaviors and motion, to stress-test CV models 
+prior to actual deployment in said scenarios 
+Fast/slow drone speed 
+Near/far drone distance 
+Drone aspect 
+Drone payload/activity 
+3.2 
+Creating and Assessing Test Datasets for Static Perception Testing 
+The objective of test dataset curation and creation is ensuring that a comprehensive mix of sensor, 
+environmental, and target drone phenomena is represented to a sufficient degree to provide the end-user with 
+assurance of sufficient test coverage for expected real-world phenomena. The data scientist’s judgement will 
+have to be exercised during the curation of such a dataset, with a view to deciding on what images or videos 
+would be relevant to the counter-drone use case.  
+To that end, we curated a benchmark dataset, aggregating relevant data from our private drone video 
+collection, the Anti-UAV300 [7] and Anti-UAV600 [21] datasets, and the multi-sensor drone detection 
+dataset by Svanström et al. [16] as they were assessed to have representation of: defense or military contexts 
+and imaging patterns (such as the cameras tracking drones overflying troops in the field), different relevant 
+drone types, especially military-grade drones (such as the Geran-2 / HESA Shahed 136), flight profiles, and 
+large corpus of infra-red sensors, with fields of view akin to real-world sensors deployed in ground-based 
+drone defense settings, across differing environmental conditions. The initial benchmark dataset comprises 
+two parts, designed to test CV models that would accept video input and/or single-frame input: a video 
+dataset, comprising 121 self-collected videos captured under varying real-world UAV flight circumstances, 
+and a video-derived image dataset, including both sampled frames from the videos and manually annotated 
+single-frame captures, featuring diverse drone targets in a range of operational contexts. 
+3.2.1 
+Executing and evaluating the combinatorial testing method in a hypothetical scenario 
+As an example, to illustrate the concepts in this paper, we designed a hypothetical scenario that would be of 
+high relevance to a defense agency evaluating a counter-drone CV system. In this scenario, the sensors and 
+attendant CV systems would be deployed ahead of a forward operating base, situated next to a previously 
+evacuated small city on a relatively flat and open terrain with sparse forested areas of uncleared land. This 
+hypothetical location is within range of a wide range of hostile adversary drones, across small (e.g. ZALA 
+STO-MP-IST-210
+1A.03 - 15
+For both datasets, we also include data in its labels that reflect the above considerations and evaluate it for its 
+distribution of imagery features such as color, light distribution, motion blur, and noise, as well as 
+distribution of labels to ensure sufficient availability of target types, weather conditions, and terrain. Where 
+the data distribution analysis showed that it was lacking in imagery features, we apply several types of 
+processing including image blur, image lightning/darkening, and greyscale for the still image dataset, to even 
+out the distribution. Specifically for the video dataset, we also further included cases where random frames 
+would be removed from mid-clip to stress-test the robustness of object tracking algorithms to dropped 
+frames. Thereafter, we reviewed the data with human expert vetting to remove images generated that would 
+be impossible in real-world scenarios.
+
+[Page 16 / 34 | chars: 3489]
+--------------------------------------------------------------------------------
+
+Lancet) and medium (HESA Shahed 136 / Geran-2), while large drones (e.g. Kronshtadt Orion) will be 
+detected and tracked by other radars within a layered air defense system. This system based on a stream of 
+visual imagery from electro-optical sensors positioned at various locations will need to operate in low-light 
+and bright conditions but will rely on other complementary radar and acoustic systems on dark nights, when 
+visibility is low. We intend for this counter-drone CV system to not be actively monitored, but to issue a 
+warning to on-duty operators when potentially hostile drones are detected. In so doing, we note the need to 
+minimize false alarm rates to avoid operator fatigue, finely balanced against missed detection rates to ensure 
+that hostile drones are not allowed through the ‘picket line’ and threaten valuable military assets in the rear. 
+Hence, we select the following aspects of the above ASQI to set up a combinatorial testing approach, with 
+the intention of evaluating the counter-drone CV system on the basis of false alarm rate, missed detection 
+rates, and classification accuracy and precision, and answer the finer questions asked by our leadership: “will 
+our potential vendors’ models perform consistently in all-weather, all-terrain scenarios?”, and “will our CV 
+system perform consistently when different numbers and quantities of drones are encountered?”  The 
+mathematical formulas used in the metrics for each of the above are as follows. 
+3.2.1.2 
+False Alarm Rate  
+Here we find the number of instances of false positives (FP) where there was a drone detection within the 
+image, where there was actually no drone. This rate is expressed as a percentage of the total number of 
+positive instances where drones were detected, including correctly detected instances, or true positives (TP) 
+through the formula 
+. As the commonly used metric for Precision is 
+, the False Alarm Rate can also be directly derived from subtracting the Precision metric 
+from 1, or 
+. 
+3.2.1.2 
+Missed Detection Rate  
+Here we find the number of instances of false negatives (FN) where there was no drone detection within the 
+image, when there was actually a drone present. This rate is expressed as a percentage of the total number of 
+drones within all images, including correctly detected instances, or true positives (TP) through the formula 
+. . As the commonly used metric for Recall is 
+, the 
+Missed Detection Rate can also be directly derived from subtracting the Recall metric from 1, or 
+. 
+3.2.1.3 
+Overall Accuracy and Precision 
+For this aspect of quality we use the mean average precision metric, or mAP, which provides an blended 
+view of average precision (AP) across multiple classes i (in this case, small and medium-sized drones) 
+through the formula 
+, where AP is calculated by a summation of the area under the 
+precision(P)-recall(R) curve for each class through the formula 
+. Specifically for 
+this project, we define the 
+, meaning that for predicted bounding boxes that had at least a 
+50% overlap with the ground truth bounding box (often indicating that at least half of the object of interest 
+was detected), it would be counted as a TP. 
+Table 3. Parameters and Possible Values for Combinatorial Coverage. 
+Category 
+Possible Values (Arbitrarily defined by evaluator 
+based on expected operating conditions) 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 16
+STO-MP-IST-210
+
+[Page 17 / 34 | chars: 3046]
+--------------------------------------------------------------------------------
+
+System-to-Target Fit 
+Drone Size 
+Small (l x w x h < 2m3), Medium (l x w x h < 10m3) 
+Drone Quantity 
+Single, Multiple 
+Sensor Behavior 
+Image Noise 
+Low, High 
+Environmental 
+Robustness 
+Ambient Light 
+Bright, Dark 
+Backdrop 
+Sky, Urban, Foliage 
+The possible values each category can take in Table 3 are arbitrarily defined within this hypothetical scenario 
+but should be adapted to the possible range of operational conditions in the desired deployment environment 
+when this framework is employed in a real-world scenario. If we were to examine the robustness of the CV 
+system under test individually under each parameter, and only produce results for each row, we may be 
+unable to pick up possible blind spots on images containing more than one parameter of interest, e.g. images 
+containing multiple small drones with high noise and dark ambient light. However, if we were to use every 
+possible combination of parameters in testing, we would end up with a very large set of test cases which 
+would be unlikely to be fulfilled by our collected dataset, and computationally prohibitive to generate 
+otherwise. Hence, to simplify the resulting conversion of the above eleven test levels for the 5 parameters 
+into test cases, we use pairwise subsets of the parameters, e.g. image noise vs. ambient light, to derive user 
+friendly test tables. All possible parameter combinations would lead here to prod_{k = 1}^{d} n_d 
+combinations, here 3* 2^4 = 48. 
+We further assess that for some of the combinations involving medium drones, this is likely to be less of a 
+concern given our scenario parameters as we are generally aware that medium-sized drones would likely 
+tend to operate at a higher altitude and be used in medium-range strikes, unlike small hunter-killer FPV 
+drones which might heavily utilize terrain masking to camouflage their movements. This is a frequently 
+occurring problem, that not all theoretical possible combinations of the parameters are practically relevant 
+and is handled by introducing constraints to the space of all parameter combinations. Hence, we drop the 
+following combinations from consideration with the below considerations: 
+Tuple 
+Consideration for Exclusion from Test Case 
+(Medium, Multiple) 
+The evacuated city in our hypothetical scenario is not assessed to be 
+likely to be significant enough to be targeted by large swarms of enemy 
+medium-sized drones or loitering munitions. 
+(Medium, Urban) 
+Medium-sized drones would likely have higher operating altitudes in a 
+strike mission, and the field-of-view coverage of our hypothetical 
+sensor setup would not provide instances in which medium drones 
+would be against urban or foliage scenery. 
+(Medium, Foliage) 
+Dropping combinations involving the above factors from consideration produces the following combinatorial 
+coverage table of 27 combinations (Table 4). In order to provide some reasoning around reasonable sample 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 17
+
+[Page 18 / 34 | chars: 2686]
+--------------------------------------------------------------------------------
+
+sizes, hypothetical confidence intervals are added to the combinatorial table based on the available videos. In 
+our reasoning, we construct a binomial data distribution for the object detection system, i.e. it either detected 
+everything in an image/video correctly or it did not and further assume a perfect result reflecting that the 
+object detection system did achieve its main objective in the cases we observed. We can then calculate a 
+confidence interval for the pass rate, which reflects the uncertainty for similar performance to be observed in 
+new videos from the same combination of parameters, even if empirically a system did perform perfectly for 
+the known examples. This uncertainty is statistically reflected by the width of the confidence interval, which 
+we generate using Wilson’s method for a one-sided confidence test for a 95% threshold, as implemented in 
+the popular data science library scipy through the method BinomTestResult.proportion_ci. Examining the 
+confidence interval (ci_low) in each scenario gives us an indication of where the test data may need to be 
+further augmented, especially if certain scenarios are of higher mission importance. 
+Table 4. Combinatorial coverage showing the number of observations (n_observations) and 
+resulting confidence interval (ci_low) given the data available in the visual segment. Note that IR 
+data was not included in this calculation as it does not contain context on the background and
+considerations involving ambient light do not apply. Nonetheless, most of the IR data contains 
+single small drones against a ‘sky’ backdrop.   
+drone_size drone_quantity noise 
+light 
+background 
+n_observed 
+ci_low 
+small 
+single 
+low 
+bright 
+urban 
+20 
+0.88 
+small 
+single 
+low 
+bright 
+sky 
+10 
+0.79 
+small 
+single 
+low 
+bright 
+foliage 
+18 
+0.87 
+small 
+single 
+low 
+dark 
+urban 
+5 
+0.65 
+small 
+single 
+low 
+dark 
+sky 
+2 
+0.43 
+small 
+single 
+low 
+dark 
+foliage 
+2 
+0.43 
+small 
+single 
+high 
+bright 
+urban 
+107 
+0.98 
+small 
+single 
+high 
+bright 
+sky 
+78 
+0.97 
+small 
+single 
+high 
+bright 
+foliage 
+103 
+0.97 
+small 
+single 
+high 
+dark 
+urban 
+43 
+0.94 
+small 
+single 
+high 
+dark 
+sky 
+62 
+0.96 
+small 
+single 
+high 
+dark 
+foliage 
+0 
+0 
+small 
+multiple 
+low 
+bright 
+urban 
+2 
+0.43 
+small 
+multiple 
+low 
+bright 
+sky 
+3 
+0.53 
+small 
+multiple 
+low 
+bright 
+foliage 
+3 
+0.53 
+small 
+multiple 
+low 
+dark 
+urban 
+0 
+0 
+small 
+multiple 
+low 
+dark 
+sky 
+2 
+0.43 
+small 
+multiple 
+low 
+dark 
+foliage 
+1 
+0.27 
+small 
+multiple 
+high 
+bright 
+urban 
+0 
+0 
+small 
+multiple 
+high 
+bright 
+sky 
+2 
+0.43 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 18
+STO-MP-IST-210
+
+[Page 19 / 34 | chars: 3569]
+--------------------------------------------------------------------------------
+
+small 
+multiple 
+high 
+bright 
+foliage 
+2 
+0.43 
+small 
+multiple 
+high 
+dark 
+urban 
+0 
+0 
+small 
+multiple 
+high 
+dark 
+sky 
+0 
+0 
+small 
+multiple 
+high 
+dark 
+foliage 
+0 
+0 
+medium 
+single 
+low 
+bright 
+sky 
+1 
+0.27 
+medium 
+single 
+low 
+dark 
+sky 
+2 
+0.43 
+medium 
+single 
+high 
+bright 
+sky 
+5 
+0.65 
+medium 
+single 
+high 
+dark 
+sky 
+1 
+0.27 
+Evaluating performance across such a high-dimensional parameter space requires a strategic methodology. A 
+simplistic approach of evaluating each parameter individually while holding others constant is insufficient, 
+as it fails to account for the significant interaction effects that frequently occur. For instance, the performance 
+impact of varying an object's distance is not independent of the ambient fog level or the camera's resolution; 
+findings from one specific combination are not directly transferable to others. To address this complexity, 
+methods from the field of Uncertainty Quantification (UQ) are utilized. [14] This involves a sophisticated 
+toolbox of techniques, including space-filling Design of Experiments (DoE)—such as maximin Latin 
+hypercubes—to strategically select a minimal yet informative set of parameter combinations for testing. 
+Subsequently, modeling techniques like Gaussian Processes are employed to interpolate system performance 
+and predict outcomes in untested regions of the parameter space and to perform sensitivity analysis, i.e. to 
+learn which parameters are important to have a high impact on performance changes. The primary 
+advantages of this UQ-based approach are its ability to efficiently determine input variable importance (e.g., 
+quantifying whether an object's color significantly affects detection) and to identify the extremal points of 
+performance, revealing the specific combination of parameters that result in best-case and worst-case 
+scenarios, all while optimizing the collection and usage of simulation data and keeping the required number 
+of simulation runs as low as possible. [15] Overall, while there are quite a few cases above in which there are 
+insufficient test cases to have a high confidence in any results obtained, it is also cost-prohibitive to generate 
+test cases for each of the areas of low confidence. To move further towards a reasonable test methodology, 
+we can further condense the search space through incorporating expert judgement to identify the most 
+significant pairwise combinations of dimensions to consider in our evaluation, therefore shrinking the search 
+space from five original dimensions (drone size, drone quantity, noise, brightness, background) to two. This 
+would also have the benefit of focusing the required generation of simulation scenarios to those areas that are 
+lacking in data, reducing the overall computational complexity. 
+The first pairwise combination to consider arises from the usage of the (background, light) tuple, which 
+attempts to answer the potential question “will our CV system perform consistently in all-weather, all-terrain 
+scenarios?” Given the number of observations in Table 5, we see that we have sufficient coverage to answer 
+this question, with resulting confidence intervals ranging from 0.8 to 0.98. The lowest confidence interval at 
+0.8 arises from there being only 11 instances of observed dark environments within foliage, which will be 
+the focus of additional data generation, as well as any subsequent live trials conducted after this exercise. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 19
+
+[Page 20 / 34 | chars: 2992]
+--------------------------------------------------------------------------------
+
+The second pairwise combination to consider arises from the usage of the (object_size, quantity) tuple, 
+which attempts to answer the potential question “will our CV system perform consistently in detecting 
+different numbers and quantities of drones?” Given the number of observations present in Table 6, we see 
+that we have generally sufficient coverage to answer this question, with resulting confidence intervals 
+ranging from 0.85 to 0.99, except for the scenario with multiple medium drones (with only 1 observation and 
+a confidence interval of 0.27). However, in this case, we have already excluded such a consideration from 
+the testing scope, as “the evacuated city in our hypothetical scenario is not assessed to be likely to be 
+significant enough to be targeted by large swarms of enemy medium-sized drones or loitering munitions.” 
+Hence, we will focus the efforts of simulating multiple small drones in the following simulation runs. 
+Table 6. Pairwise coverage for (drone size, drone quantity) tuple.
+We made the conscious decision to exclude the last factor, image noise, in considering pairwise coverage as 
+the nature of noise exhibits significantly more continuous variability. Nonetheless, we will also address the 
+effect of noise on model performance at a later stage, where we will holistically investigate the effect of 
+noise across all 3 datasets to understand how it influences performance. 
+3.2.2 
+Establishing Simulation Environments for Data Collection & Dynamic Testing 
+While a fixed set of still images and video data may be useful to establish a baseline understanding of CV 
+system performance when given these inputs, clear limitations persist. These include the inability to: (a) 
+evaluate counter-drone systems on dynamic adversary drone maneuvers and scenarios (e.g. multi-drone 
+attack formations), (b) account for the full range and representation of realistic environmental phenomena in 
+which they are expected to operate, where data is insufficient, (c) reproduce the idiosyncratic sensor 
+behaviors where real data may not exist for sensors yet to be deployed, and (d) fully appreciate the terrain 
+limitations of each sensor mode, especially including line-of-sight issues for optical cameras or terrain-
+masking issues for IR or LIDAR sensors. Moreover, where the dataset distribution is not sufficient to support 
+a representative weightage of the data for the actual use in the operational design domain, performance 
+metrics on the dataset cannot be considered transferable to the actual usage scenario. For example, a drone 
+dataset consisting of 80% of bright light, clear sky, no occlusion images/videos would not provide sufficient 
+assurance of consistent CV system performance under an actual usage scenario in a winter setting, with 60% 
+rainy conditions. 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 20
+STO-MP-IST-210
+Table 5. Pairwise coverage for (background, light) tuple.
+
+[Page 21 / 34 | chars: 1807]
+--------------------------------------------------------------------------------
+
+Hence, we created the third and final part of the benchmark dataset methodology, intended to generate the 
+test cases deemed to be necessary but lacking in the above coverage analysis for any given curated dataset. 
+This dataset will be created using a realistic simulation platform that will recreate the expected real-world 
+operating environment, given a set of parameters relevant to the tester, and if necessary, with a reproduction 
+of the relevant sensor in the actual simulation environment based on its technical specifications. For instance, 
+as the above test coverage analysis revealed a need to focus on scenarios involving dark foliage 
+environments, as well as multiple small drones, concrete simulation scenarios will be established with these 
+parameters, and the ground truth and sensor outputs of these scenarios recorded into still images and videos 
+as a test case. See Figure 5 for some examples. 
+Another important advantage of the usage of a simulation to enhance and enlarge datasets is that  even 
+after the conclusion of a test, iteratively new simulation runs can be added to search for points of 
+weak performance for a system, allowing very specific criteria can be derived to identify and 
+investigate edge cases, e.g. when an object detection system experiences catastrophic model failure due to 
+partial occlusion of the target object by foliage. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 21
+Figure 5. Some simulation scenarios focusing on a combination of darker 
+environments, multiple small drones, and accompanying foliage as parameterized 
+scenario variables. An advantage of generating data is the ability to generate 
+ground-truth bounding boxes within images, economizing on labelling effort.
+
+[Page 22 / 34 | chars: 4318]
+--------------------------------------------------------------------------------
+
+3.2.2.1 
+Physics Engine & Required Modifications 
+The Simulation Engine serves as a sophisticated platform for creating a digital representation of the real 
+world that is able to generate diverse sensor data, including outputs from cameras, LIDAR, and infrared 
+sensors, as well as realistic flight behavior of drone targets. Furthermore, the engine can dynamically adjust 
+environmental conditions, simulating variations in light, weather, terrain, and the interactions between 
+objects and the simulated environment bounded by a physics engine. 
+Its versatility extends to configuring and executing a broad spectrum of missions. These range from logistical 
+operations and Intelligence, Surveillance, and Reconnaissance (ISR) tasks to complex combat scenarios. A 
+key feature is its ability to facilitate the isolated evaluation of specific subsystems. This allows for focused 
+testing and refinement of components such as object detection algorithms or localization functionalities 
+without the complexities of a full system integration.  
+At its core, the Simulation Engine is built upon a detailed 3D representation of a map. Within this virtual 
+world, objects possess realistic shapes, allowing for physical interactions such as collisions, for example, 
+between a drone and an environmental object (e.g. a tree). These objects are also endowed with varying 
+surface properties and colors, as well as their own interactions with other factors like light and wind, 
+contributing to the visual fidelity of the simulation. Beyond static representation, the engine incorporates 
+highly realistic physical behavior, including gravity and inertia, as well as different light and weather 
+conditions, paying attention to intricate details like correct shadow rendering, which significantly enhances 
+the visual realism. A high level of accuracy is maintained in representing actions and behaviors over time, 
+ensuring that dynamic processes unfold realistically within the simulation. 
+To enable the simulation of Counter-Unmanned Aerial Vehicle (CUAV) setups, the virtual physical world 
+must be equipped with simulated sensor streams, as well as integration with real-world drone flight and 
+systems control system software like PX4 or ArduPilot to replicate realistic drone system behaviors. A 
+primary requirement is the generation of realistic camera data. Like real-world cameras, various settings can 
+be precisely modified, beginning with fundamental parameters such as resolution, field of view, and different 
+angles for pitch, yaw, and roll, as well as customizable camera positions. The level of detail extends to 
+camera-specific characteristics, allowing for the simulation of image noise and intricate focus settings. 
+Beyond camera sensor streams, the simulation offers a comprehensive array of other sensor telemetry that 
+can be generated, extracted and analyzed, such as Inertial Measurement Unit (IMU) data, barometer 
+readings, and GPS data. Furthermore, the engine can support the simulation of LIDAR and audio data, 
+providing a holistic sensory input for comprehensive system testing and development in the virtual 
+environment. 
+3.2.2.2 
+Variable Parameterization 
+An integral part of the simulation design is the inclusion of a human-in-the-loop testing capability, enabling 
+human operators to interact with and influence the highly configurable simulation environment. The 
+simulation is engineered to be extensively parameterized across multiple domains, including diverse 
+operational environments (e.g., an Australian desert versus a European city landscape) and variable 
+atmospheric conditions such as light levels, wind, rain, and fog. Objects within the simulation can be 
+systematically altered in terms of their position, pose, size, texture, and color, with the capability to 
+incorporate new or modified objects via CAD files. The CUAV sensor suite itself is also subject to 
+parameterization, allowing for variations in camera settings, resolution, position, pose, and field of view 
+(FOV) as described above. 
+3.2.2.3 
+Data Collection & Processing 
+The Data Processing component systematically captures all simulation data into rosbag files, extracting and 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 22
+STO-MP-IST-210
+
+[Page 23 / 34 | chars: 3162]
+--------------------------------------------------------------------------------
+
+structuring raw sensor streams, on-board drone information (e.g., object detection outputs, estimated 
+localization), and crucial ground truth data (e.g., precise object bounding boxes, ground drone position and 
+odometry data), and relating them to preset pipelines for calculating metrics, and data queries. This enables 
+detailed, objective comparisons to quantify system performance. The pipeline is designed to also handle real-
+world data in place of simulation data streams, helping to bridge the "simulation-to-real" gap in cases where 
+real-world sensor streams are available. 
+3.2.3 
+Visualization and Analysis 
+Visualization and analysis involve a powerful engine that evaluates various performance metrics, including 
+mission-specific criteria, object detection/tracking accuracy, localization accuracy, and maneuver precision. 
+It translates these technical metrics into standardized AI System Quality Indices (ASQI), providing 
+comparable and interpretable grades across different capability categories.  
+In order to be able to do different types of analysis on the data generated as outlined in section 3.2.1, e.g. 
+coverage analysis, all relevant metadata is also collected, which can include drone positions, headings, 
+movement speed, as well as data on ambient conditions such as fog or rain settings. Results are presented on 
+a front-end dashboard for clear decision-making but are also available as data artefacts for individual data 
+analysis projects. 
+3.2.4 
+System Architecture, Result Storage and Retrieval 
+The simulation platform is designed with a flexible architecture supporting both air-gapped on-premises 
+deployment for sensitive projects, and cloud-based parallel processing for high-throughput analysis, as well 
+as single-compute-instance use cases, and parallelized use cases for high throughput. Results are stored in a 
+tamper-proof environment together with extensive documentation artefacts detailing the conditions and 
+parameters of test scenarios, in relation to the data generated for each case. 
+4.0 CONCLUSIONS 
+4.1 
+Dataset Review and Analysis of Proxy Model Results 
+Having created 3 segments of our aggregated dataset, we now turn to evaluating the data and re-assessing the 
+combinatorial coverage to ensure that our test methodology will deliver us sufficient visibility into the 
+characteristics of the hypothetical CV system being tested.  
+4.1.1 
+Analysis of Test Data Quality and Distribution 
+First, from the real-world data collected, we find a total number of 1269 videos, of which 766 are from IR 
+sensors and 503 are from visual sensors. In particular, as we were aware from previous experience that the 
+available open-source datasets referenced above lack significant representation of medium and large drones, 
+extra effort had been put into the data collection process to manually acquire data relating to these drones by 
+scraping popular websites and Telegram channels dedicated to coverage of drone strikes in the ongoing 
+Russia-Ukraine conflict and Israel-Iran conflict. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 23
+
+[Page 24 / 34 | chars: 2084]
+--------------------------------------------------------------------------------
+
+From the above, we find the dataset demonstrates a strong bias toward scenes involving small 
+drones, particularly in the visual data segment. This overrepresentation leads to uneven coverage 
+of other operationally relevant targets especially for defense use cases, where the system’s 
+performance against medium-range threats such as loitering munitions and Class 2 attack UAVs may be 
+relevant. The resulting imbalance may introduce dataset-driven inductive biases, potentially causing 
+learned models to overfit to high-contrast or uncluttered settings, while underperforming in more 
+complex real-world environments. 
+Furthermore, within the data from electro-optical sensors (Figure 7), low-light (‘dark’) scenarios are 
+notably underrepresented in the data and when present, are predominantly paired with small drones. 
+The visual segment is overwhelmingly dominated by bright scenes, with bright images appearing across 
+nearly all size and background categories. In contrast, dark scenes are both fewer in number and 
+narrowly distributed, mostly involving small drones. Combinations involving medium-sized drones under 
+dark lighting conditions are extremely sparse. This imbalance limits the evaluation of system robustness 
+across illumination domains and may compromise performance generalization to real-world conditions 
+that involve variable or degraded lighting, limiting the dataset’s ability to support evaluation of 
+performance under low-light conditions. This would negatively impact confidence in the deployed CV 
+system in the operational scenario discussed above if not addressed, as it opens operators up to unexpected 
+risks that their CV system may malfunction and fail 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 24
+STO-MP-IST-210
+Figure 6. High-level analysis of representations in the real-world infra-red (IR) and electro-
+optical/visual (EO) Dataset. 
+Figure 7. Distribution of dataset representation in light condition (left) and drone quantity (right) 
+in the electro-optical visual dataset.
+
+[Page 25 / 34 | chars: 3528]
+--------------------------------------------------------------------------------
+
+to detect hostile drones in low-light scenarios such as at dawn, dusk, or on cloudy or winter days. 
+Figure 8. Proprietary image noise analysis on EO/visual (left) and IR (right) datasets. 
+Another point of consideration in evaluating the completeness of the datasets would be the introduction of 
+general image noise under operational conditions, which may manifest through variations in sharpness, 
+contrast, edges, entropy, and similarity of the target against its background. To that extent, we developed a 
+proprietary metric to consider these manifestations of overall image noise which could make objects hard to 
+detect in each image, called the Hard-to-Detect Score (HDS). The HDS takes into account a blended set of 
+the above metrics, and produce a single score that would attempt to explain how likely it was that targets 
+within said image would be hard to detect on a scale from 0-6; the lower the score, the more likely it is that 
+targets within the image would be easier to detect, and the higher the score, the less likely. These scores were 
+tested on our curated collections of real-world data across visual data from ground-based, airborne, and 
+remote sensing imagery, with input from domain experts, to arrive at a confidence (R2 > 0.6) that it would 
+have sufficient explanatory power to indicate if image noise was complicating object detection algorithms on 
+said images. In Figure 8 above comparing the IR segment of the dataset (left), and the electro-optical/ visual 
+segments (right), we observe that that the IR segments are on average less noisy (mode = 0), while the 
+EO/visual segments are noisier (mode = 2); the latter also demonstrates more diversity in the levels of noise 
+represented within the dataset. This suggests that any evaluation based on these datasets should account for 
+the differences in confidence between the CV system under test under scenarios of noisy IR images. As our 
+simulation platform is currently unable to simulate noisy IR data, we opted to apply random noise 
+perturbations to a part of the IR dataset to raise the representation of noisy conditions. 
+Overall, we weighted the sim dataset towards scenarios with ‘sky’ and ‘foliage’ backgrounds, ‘multiple’ and 
+‘small, drones, as well as ‘dark’ lighting scenarios. After creating this simulation data to augment the parts 
+lacking in real-world test data, the distribution and resulting confidence intervals are as below (Table 7), 
+showing significant improvements in the ‘small-multiple’ category and ‘foliage-dark’ category. Note that in 
+so doing, we had to employ some degree of bounded randomization to the parameters in the simulation, 
+necessary for enhancing realism and select for instances where the drones would be captured performing 
+‘organic’ maneuvers under realistic conditions. These led to natural limitations within the resource 
+boundaries of this project in generating significant numbers of foliage-dark scenarios that would still have 
+clearly visible drones within the test data, especially as foliage often led to complete occlusion, although the 
+‘foliage-dark’ nonetheless showed considerable improvement. Combining all three segments of the dataset, 
+we now have a benchmark with sufficient test coverage to test the hypothetical vendors’ models in question, 
+and a framework through which we can link the results to our operational objectives through the ASQI.  
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 25
+
+[Page 26 / 34 | chars: 2664]
+--------------------------------------------------------------------------------
+
+4.1.2 
+Performance Differences and Insights across Data Segments for Drone Detection 
+Algorithm  
+To highlight how such a benchmark would enable a granular and robust investigation of even out-of-the-box, 
+non-fine-tuned models, we employ the methods described above to examine if we are able to find the 
+potential areas of underperformance of an Ultralytics YOLOE (Real-time Seeing Anything) model 
+developed by Ao Wang, Lihao Liu, Hui Chen, Zijia Lin, Jungong Han, and Guiguang Ding. [18] YOLOE 
+was designed for open-vocabulary detection and segmentation, and uses text, image, or internal vocabulary 
+prompts, enabling real-time detection of any object class. It was selected as its developers were able to 
+‘achieve state-of-the-art zero-shot performance with minimal impact on speed and accuracy’ and is likely to 
+be archetypal of the architectures used in real-world counter-drone CV system development.  
+We achieve the following overall results that show an overall mAP at 0.22 at the IoU threshold of 0.5 for the 
+EO and augmented simulator dataset, and a score of 0.04 for the IR dataset. Further investigation into the 
+metric split by bounding box areas shows that the model performs much better when the target within the 
+image is large (at least 96 x 96 pixels), and the model has almost negligible performance on small targets (32 
+x 32 pixels or smaller). Though unsurprising, this validates our hypothesis that there would be performance 
+differences in the CV system across small and medium drones, as well as how far the drones would be 
+detected away from the sensor, as further objects will appear as smaller given the same sensor field of view. 
+Notably, as Wang et al. noted that YOLOE was largely trained on large COCO datasets and further grounded 
+by Objects365 (V1) and GoldG datasets, we can infer that the model was not significantly exposed to infra-
+red data. This hypothesis is supported by the below metrics showing negligible performance on the infra-red 
+segment of our evaluation data. 
+ 
+Table 8. Overall Accuracy & Precision Results for EO and simulator (left) dataset, and IR dataset 
+ 
+(right). 
+Moreover, observing the precision and recall statistics for each dataset reveals a difference in performance 
+Classification Accuracy and Precision 
+Area size (px) 
+(EO) MAP@0.5 
+(IR) MAP@0.5 
+All 
+0.22 
+0.04 
+Small (area < 322) 
+0.01 
+0.05 
+Medium (322 < area < 962) 
+0.28 
+0.07 
+Large (area < 962) 
+0.55 
+0.00 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 26
+STO-MP-IST-210
+Table 7. Improved confidence in test case coverage after augmentation by simulation outputs.
+
+[Page 27 / 34 | chars: 3043]
+--------------------------------------------------------------------------------
+
+for the CV systems operating on EO and IR data (see Table 9). On the EO dataset, we observe a Missed 
+Detection Rate of 63.8%, and a False Alarm Rate of 83.09%. On the IR dataset, we observe a Missed 
+Detection Rate of 92.73%, and a False Alarm Rate of 65.65%. This shows that the CV system under test 
+does provide a significantly lower false alarm rate on IR data, but at the cost of missing almost all the drones 
+in the images. Again, this is not surprising given that open-source ‘world’ models tend to be optimized for 
+full-color images, as described in earlier sections, therefore leading to significant performance degradation 
+when applied to IR use cases even when fine-tuning is applied. Notwithstanding that, note we did not fine-
+tune the model in this case. 
+ 
+Table 9. Missed Detection Rate and False Alarm Rate Results for EO and IR datasets (without 
+ 
+IoU threshold). 
+GT count (# 
+of drones) 
+Missed (# of 
+drones) 
+Predicted 
+(# 
+of drones) 
+Missed 
+Detection 
+Rate (%) 
+False 
+Alarm 
+Rate (%) 
+EO 
+dataset 
+489 
+312 
+988 
+63.80 
+83.09 
+IR dataset 619 
+574 
+131 
+92.73 
+65.65 
+4.1.3 
+Insights into performance differences across scenarios 
+Further, we also observe clear performance differences for the tested model operating under ideal conditions 
+as compared to more challenging conditions, as we may observe further degradation in its drone detection 
+capabilities in the presence of compression noise, differing brightness conditions, and detection of 
+single/multiple drones as detailed in our test cases above. We further investigate its performance within 
+different levels of these categories and arrive at the following results. 
+4.1.3.1 
+Performance differences between test cases of different background-light combinations 
+From examining the data in Table 10, scenarios containing generally dark environments cause the CV 
+system to perform poorly, with the lowest mAPs as a group ranging from 0.02 to 0.03 (sky/urban/foliage, 
+dark), and at a generally high confidence level. Of the three environments, the foliage background also 
+produces the worst results, with mAP ranging from 0.02 - 0.03. Notably, the CV system seemed to perform 
+its best under (sky, bright), (urban, bright) scenarios, with mAP at 0.63 and 0.51 respectively with a 
+confidence interval of 98% and above. This suggests that the CV system’s ability to perform under these 
+conditions, even in the real-world, would be expected to be rather stable under ideal conditions, but may be 
+prone to sudden and significant performance degradation should these conditions change (e.g. in an 
+incoming storm, when clouds rapidly form and crowd out sunlight). A professional evaluation of such a 
+system in our hypothetical scenario would consider the weather patterns, overall lighting conditions in 
+various seasons within a temperature climate and design the appropriate safeguards and risk mitigation 
+measures accordingly. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 27
+
+[Page 28 / 34 | chars: 3213]
+--------------------------------------------------------------------------------
+
+Going deeper into exploring the best performing sky-bright test cases in Table 10, we see that there is a 
+significant drop-off in performance across smaller object sizes that reinforces the overall initial analysis that 
+the model does not perform well in situations with drones that present as a small (i.e. < 32 x 32 pixels) target, 
+either due to it being a small drone or far away from the sensor. Although range was not one of the initial 
+considerations when scoping this series of test cases, we find further support for the hypothesis that this 
+system does not perform well on small objects and may need to further investigate the effects on performance 
+by varying drone distance from the sensor, perhaps through live testing to understand the limits of detection. 
+Table 11. Performance by object size, within the sky-bright pairwise scenarios. 
+4.1.3.2 
+Performance differences between test cases of different object size-quantity combinations 
+On the second pairwise combination of drone size and quantity, we find that the best performance was 
+observed in the test cases with single, small drones with mAP at 0.25, at a very high confidence (confidence 
+interval > 0.99). We also find that the worst performance was on single medium drones at 0.01 mAP, with a 
+confidence interval of >0.94, while multiple small drones are not far off at an mAP of 0.03. This lends 
+weight to our initial concerns of models not being optimized for medium, and multiple drones, as these 
+foundational models lack training data for these features and typically do not account for multiple drones in 
+an image, due to the majority of their training data corpus involving single-target, close-up images. We also 
+observe an interesting trend across all three cases, where measured recall is consistently higher than 
+precision. For the best-performing scenarios with single small drones, recall was at 0.4 (leading to a Missed 
+Detection Rate of 60%) while precision was at 0.19, (leading to a False Alarm Rate of 81%). While this 
+means that missed detections are less likely than false alarms, it would also suggest that the directionality of 
+current model hyperparameters lead to a trade-off in favor of recall at the cost of precision. As noted earlier, 
+any further fine-tuning would lead to real trade-offs in one or more performance dimensions; the counter-
+drone CV system evaluators in our hypothetical scenario would need to note these trends before and after 
+fine-tuning and design the necessary engineering and operational workarounds that would account for these 
+trade-offs while preserving their benefits. In the case of a system with a high number of false alarms, and a 
+relatively lower missed detection rate, options to consider include further heuristic-based suppression 
+mechanisms could be employed to reduce ‘alarm fatigue’ for human operators, or dedicated operational roles 
+implemented to investigate and suppress false alarms while escalating genuine alarms.  
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 28
+STO-MP-IST-210
+Table 10. Relative results across different combinations of background/light factors across 
+visual dataset.
+
+[Page 29 / 34 | chars: 2579]
+--------------------------------------------------------------------------------
+
+Table 12. Relative results across different combinations of drone size and drone quantity factors 
+across visual dataset. 
+4.1.3.3 
+Impact of image noise on performance 
+In measuring the impact of image noise on performance, we first discounted the IR dataset as its overall 
+performance was way too low to obtain meaningful results from analyzing the sub-dataset differences in 
+noise profile. For the EO dataset, we assigned each ground-truth object a noise score based on high-
+frequency variance: variance(patch - GaussianBlur(patch)). This quantifies texture and graininess in the 
+object region. Based on this score, objects are classified into the following categories: 
+Low: Variance < 100.0 – smooth, low-noise regions. 
+Medium: 100.0 ≤ Variance < 400.0 – moderate noise or texture. 
+High: Variance ≥ 400.0 – strong texture or high noise presence. 
+We then assess the standard detection metrics (Recall, Precision, F1, Mean IoU), along with the number of 
+Low, Medium, and High noise objects per class. Classes are ranked by the number of ground-truth objects 
+(NumGT), limited to the top-k if specified. For each chart, we compare performance between low-
+noise/medium-noise/base-noise objects and their non-low counterparts. Metrics were computed using the 
+same set of predictions. It is clear that there is significant drop-off in performance when the level of noise in 
+an image increases, to the extent that in this case high noise completely leads to null scores across all 
+metrics. 
+Figure 9. Missed Detection Rate and False Alarm Rate Results for EO dataset (without IoU 
+threshold). 
+4.1.3.4 
+Validation of framework and understanding follow-ups for defense and security users 
+We see from the above analysis that significant performance differences can exist, and be discovered, within 
+different segments of the data for an open-source, general foundation model. It is important to note that a CV 
+system developer is likely to further fine-tune such foundation models with domain-specific datasets to 
+overcome performance issues on each of these various edge cases. However, such fine-tuning efforts come at 
+a cost and are likely to lead to trade-offs in other segments of performance, for which visibility is important 
+for defense and security teams evaluating their performance, and determining if these trade-offs would be 
+acceptable given certain mission parameters and requirements. In the case of the drastic performance gap in 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 29
+
+[Page 30 / 34 | chars: 4630]
+--------------------------------------------------------------------------------
+
+the model’s performance on IR data, further engineering efforts might be needed to optimize a different set 
+of model architectures for IR data within the CV system, with perhaps a switching function to ensure that the 
+appropriate model is used on the various data streams (for instance, for sensors with both thermal and 
+electro-optical imaging modes). Further live testing before full procurement or deployment in the case of 
+internally-developed models, scoped to certain areas of results requiring higher confidence not available in 
+these tests, may also be required. Having gone through the rigor of the above methodology, evaluators will 
+be able to focus live testing scenarios on the specific areas of concern, for instance focusing on replicating 
+scenarios of multiple small drones ‘swarming’ at dusk and testing the limits of the CV system to a greater 
+extent. 
+Even after a vendor is awarded the contract and its systems subsequently deployed with attendant re-tuning 
+or improvements, this information would be useful for operators to understand the operational limitations of 
+their chosen solution, and if necessary, re-design operational or system processes to account for them. For 
+example, while the initial formulation of these system operational requirements could have been based on the 
+initial aim of replacing human sensor operators, enhanced human operator oversight could be re-introduced 
+for certain known envelopes of underperformance such as dawn/dusk hours or cloudy days, whereby the 
+sensor system itself could alert the operator of such conditions by detecting and reporting on ambient light 
+conditions.  
+4.2 
+Supporting Information-sharing Across Partner Organizations 
+We developed this framework and its enabling technical toolkits and simulation platform, with the intent to 
+enable better collaboration between trusted partner organizations, many of which may be exploring or 
+evaluating similar vendor systems for similar use cases. There are current frictions in how such technical 
+evaluations are currently shared. Some of the largest issues arising from the inability to share classified 
+datasets from operational sensors and lacking sufficient granularity to discuss the composition of such 
+datasets which vary greatly in their imaging modalities, terrain and environments deployed, and targets of 
+interest. Moreover, it is not always feasible to share large imagery datasets or spend additional effort 
+tailoring documentation of detailed test methodology for understanding by another partner operating in a 
+different language, cultural and organizational context.  
+The framework we propose in this paper attempts to mitigate these frictions while preserving the 
+confidentiality of sensitive operational sensor datasets. While the principles of the framework’s construction 
+itself is intended to be at PUBLIC RELEASE, further customization along more bespoke use cases may be 
+required amongst partner militaries which can lead to the resulting ASQI, metrics and results being adapted 
+to NATO RESTRICTED to facilitate information-sharing, even while the sensors themselves could be at 
+NATO CONFIDENTIAL level or above. The ability to break down test methodology for any such use case 
+into defined parameters of quality, mapped to technical testing and metrics, will allow partner organizations 
+to communicate their findings at a high-level while sharing a common aligned understanding of the rigor and 
+nuance of the evaluation methodology of each. 
+4.3 
+Future Work 
+Given the significant time constraints in writing this paper, we selected a subset of data to work with under a 
+hypothetical scenario; further parallel use cases such as testing drone tracking and perception systems on 
+flying counter-drone platforms – which would require datasets taking into consideration those view angles to 
+capture sufficient representation of different hostile drone aspects (i.e. with fields of view relating to ‘look-
+ahead’ and ‘look-down’). We also had to use an open-source, non-fine-tuned zero-shot model (YOLOE) to 
+validate how our framework would generate insights for defense and security users, as we had reached out to 
+several CV system developers from both industry and academia but were unable to receive a favorable reply 
+to evaluate their models. This meant that when the performance of the model on an IR dataset turned out to 
+be so poor that further analyses would have been insignificant, we were unable to demonstrate the power of 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment
+1A.03 - 30
+STO-MP-IST-210
+
+[Page 31 / 34 | chars: 1723]
+--------------------------------------------------------------------------------
+
+the framework in finding and identifying fine-grained CV system underperformance. Future projects could 
+focus on discovering and analyzing the potential underperformance of CV systems optimized for IR 
+imagery, to explore the potentially interesting idiosyncrasies of processing infra-red imagery especially 
+within military contexts, such as performance under cases of thermal shadow or thermal crossover. 
+Furthermore, the above ASQI and test metric mapping, alongside the simulation platforms, are extensible to 
+other multi-modal solutions beyond visual and IR datasets in CV systems. Potential areas of further 
+extension with such a framework include extending it to thermal and radar systems (outside of where this 
+framework is already potentially applicable on processed and generated images) evaluating audio AI-enabled 
+sensor systems, or evaluating unmanned ground vehicle localization and mapping capabilities, as well as the 
+development of a NATO-wide benchmark for certain common use cases (e.g. performance of CV systems 
+classifying known adversary inventory). 
+In future work, we invite those who would seek to investigate the deeper workings of their CV systems 
+based on the described use cases, and others, to contact us and attempt our methods on their models, and 
+further validate and develop how our framework would be useful for their needs. Beyond drone detection 
+and tracking, we look forward to deepening our partnerships with the broader NATO community of like-
+minded partners to discover more use cases, and contribute to the defense of our shared values and interests. 
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 31
+
+[Page 32 / 34 | chars: 2884]
+--------------------------------------------------------------------------------
+
+Works Cited 
+[1]
+Bundeswehr. “New Counter-Drone System for Camp Protection Fielded Successfully.”
+Www.bundeswehr.de, 15 Aug. 2022, www.bundeswehr.de/en/organization/equipment/news/new-counter-
+drone-system-for-camp-protection-5483530. Accessed 10 July 2025.
+[2]
+Burton, Simon, and Herd, Benjamin. “Addressing Uncertainty in the Safety Assurance of
+Machine-Learning.” 
+Frontiers 
+in 
+Computer 
+Science, 
+vol. 
+5, 
+6 
+Apr. 
+2023,
+https://doi.org/10.3389/fcomp.2023.1132580. Accessed 20 July 2025.
+[3]
+CEN. Unmanned Aircraft Systems - Counter UAS - Testing Methodology. Oct. 2024.
+[4]
+DNV. “Assurance of AI-Enabled Systems: Trustworthy AI Recommended Practices | DNV-
+RP-0671.” DNV,2025, www.dnv.com/digital-trust/recommended-practices/assurance-of-ai-enabled-
+systems-dnv-rp-0671/. Accessed 18 Aug. 2025.
+[5]
+Dong, Yifei, et al. “Securing the Skies: A Comprehensive Survey on Anti-UAV Methods,
+Benchmarking, and Future Directions.” ArXiv.org, 17 Apr. 2025, arxiv.org/abs/2504.11967. Accessed 18
+July 2025.
+[6]
+Jian, Zhao, et al. “1st Anti-UAV Challenge.” Anti-UAV, 1BC, anti-uav.github.io/. Accessed 20
+June 2025.
+[7]
+Jiang, Nan, et al. “Anti-UAV: A Large Multi-Modal Benchmark for UAV Tracking.” ArXiv.org,
+Cornell University, 2021, arxiv.org/abs/2101.08466. Accessed 29 July 2025.
+[8]
+Knight, Frank. Risk, Uncertainty and Profit. Vol. 31, Wilmington, Vernon Press, 1921,
+fraser.stlouisfed.org/files/docs/publications/books/risk/riskuncertaintyprofit.pdf. Accessed 22 July 2025.
+[9]
+Koksal, Aybora, et al. “Effect of Annotation Errors on Drone Detection with YOLOv3.” 2022
+IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 1 Dec. 2021,
+arxiv.org/abs/2004.01059, https://doi.org/10.1109/cvprw50498.2020.00523. Accessed 28 July 2025.
+[10]
+Luiten, Jonathon, et al. “HOTA: A Higher Order Metric for Evaluating Multi-Object Tracking.”
+International Journal of Computer Vision, vol. 129, no. 2, 8 Oct. 2020, pp. 548–578,
+arxiv.org/pdf/2009.07736, https://doi.org/10.1007/s11263-020-01375-2. Accessed 29 July 2025.
+[11]
+Luiten, Jonathan. “How to Evaluate Tracking with the HOTA Metrics.” Autonomous Vision Blog,
+2 Mar. 2021, autonomousvision.github.io/hota-metrics/. Accessed 29 July 2025.
+[12]
+Sabuncu, Mert R. “Intelligence Plays Dice: Stochasticity Is Essential for Machine Learning.”
+ArXiv (Cornell University), 1 Jan. 2020, https://doi.org/10.48550/arxiv.2008.07496. Accessed 1 Aug.
+2025.
+[13]
+Singh, Shivalika, et al. “The Leaderboard Illusion.” ArXiv.org, Cornell University, 12 May 2025,
+arxiv.org/abs/2504.20879. Accessed 14 July 2025.
+[14]
+Smith, Ralph C. Uncertainty Quantification. Society for Industrial and Applied Mathematics
+(SIAM), 2024.
+[15]
+Sullivan, T.J. Introduction to Uncertainty Quantification. Springer, 14 Dec. 2015.
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment
+1A.03 - 32
+STO-MP-IST-210
+
+[Page 33 / 34 | chars: 1246]
+--------------------------------------------------------------------------------
+
+[16]
+Svanström, Fredrik, et al. “A Dataset for Multi-Sensor Drone Detection.” Data in Brief, vol. 39,
+Dec. 2021, p. 107521, arxiv.org/pdf/2111.01888, https://doi.org/10.1016/j.dib.2021.107521. Accessed 1
+Aug. 2025.
+[17]
+Virtanen, Pauli, et al. “SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python.”
+Nature Methods, vol. 17, no. 3, 3 Feb. 2020, pp. 261–272, www.nature.com/articles/s41592-019-0686-2.
+[18]
+Wang, 
+Ao, 
+et 
+al. 
+“YOLOE:
+Real-Time 
+Seeing 
+Anything.” 
+Arxiv.org, 
+2020,
+arxiv.org/html/2503.07465v1. Accessed 18 Aug. 2025.
+[19]
+Waterman, Shaun. “Military AI Will Mean Overhauling Test: DOD’s First AI Chief.” Air &
+Space Forces Magazine, 10 Apr. 2025, www.airandspaceforces.com/military-ai-overhauling-test/. 
+Accessed 15 July 2025. 
+[20]
+Wilson, Edwin Bidwell. Probable Inference, the Law of Succession, and Statistical Inference. J.
+Amer. Stat. Assoc., 1927, pp. 209–212.
+[21]
+Zhu, Xue-Feng, et al. “Evidential Detection and Tracking Collaboration: New Problem,
+Benchmark 
+and 
+Algorithm 
+for 
+Robust 
+Anti-UAV 
+System.” 
+ArXiv.org, 
+4 
+July 
+2023,
+arxiv.org/abs/2306.15767. Accessed 29 July 2025.
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment 
+STO-MP-IST-210
+1A.03 - 33
+
+[Page 34 / 34 | chars: 117]
+--------------------------------------------------------------------------------
+
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment
+1A.03 - 34
+STO-MP-IST-210
+

@@ -1,0 +1,36 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 18 / 108
+
+================================================================================
+
+18
+POLE D'EXCELLENCE CYBER
+• Désactivez les services d’informatique en nuage (Cloud) intégrés au système d’exploitation  R13 , par exemple OneDrive de 
+Microsoft, DropBox de Mac OS. Dès lors que vous stockez des données à l’aide d’un service Cloud, celui-ci les synchronise avec des 
+serveurs distants, hébergés parfois hors d’Europe, sur lesquels elles sont conservées. Il faut donc bien lire quelles sont les mesures 
+contractuelles, si les serveurs Cloud font l'objet d'un piratage, par exemple, ou ont une capacité limitée, ce qui est généralement le cas 
+lorsqu'ils sont gratuits, si une exploitation commerciale de vos données est prévue, la frontière avec l'espionnage étant parfois ténue. 
+Il vous faut veillez à avoir la certitude d’avoir tout le temps accès à vos données et aussi vous assurez-vous que vous pourrez conserver 
+celles-ci lorsque votre contrat sera échu, et que votre opérateur aura alors bien détruit les données qui vous appartenaient, et cela sur 
+l’ensemble des supports sur lesquelles elles avaient été stockées (car elles sont souvent redondées sur plusieurs serveurs).
+• Durcissez les paramètres de personnalisation de l’expérience utilisateur  R14  :
+- Désactivez l’identifiant unique de publicité : cet identifiant permet de détecter votre appareil de manière unique, ce qui permet à 
+Microsoft et aux annonceurs d'afficher de la publicité ciblée ;
+- Désactivez l’assistant personnel virtuel intégré au système d’exploitation : par exemple Cortana dans Microsoft, ou Siri dans 
+Mac OS et iOS. Ces logiciels récoltent des informations sensibles qui vous concernent et peuvent les divulguer : votre localisation 
+géographique et vos emplacements habituels, votre historique de recherche, vos centres d’intérêt, vos contacts, vos rendez-vous, 
+les informations de certaines applications (Santé), etc.
+Pour appliquer certains de ces conseils relatifs au respect de la vie privée et à la confidentialité des données sous Windows 10, vous 
+pouvez vous appuyer sur des tutoriels suivants : « Désactiver la localisation », « Désactiver l’identifiant unique de publicité », 
+« Désactiver Cortana », « Désactiver OneDrive et supprimer les documents stockés en ligne ».
+Les collectivités qui souhaitent déployer ces mesures de sécurité dans un environnement Active Directory, peuvent se référer au guide 
+« Préoccupations relatives au respect de la vie privée et à la confidentialité des données sous Windows 101 »  proposé par l’ANSSI.
+Cette fiche contient   14   recommandations.
+Références : 
+https://www.cnil.fr/fr/securite-securiser-les-postes-de-travail
+https://www.ssi.gouv.fr/uploads/2017/01/guide_hygiene_informatique_anssi.pdf
+https://www.ssi.gouv.fr/uploads/2017/01/np_securisation_windows10_collecte_de_donnees_v1.2.pdf
+https://www.cnil.fr/fr/reglez-les-parametres-vie-privee-de-windows-10
+ 
+1 https://www.ssi.gouv.fr/uploads/2017/01/np_securisation_windows10_collecte_de_donnees_v1.2.pdf

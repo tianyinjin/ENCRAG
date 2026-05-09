@@ -1,0 +1,94 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 53 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 53 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+Les rôles doivent correspondre strictement aux missions de chacun selon la 
+politique des moindres privilèges.  
+Les rôles d'utilisateurs et d'administrateurs (techniques, fonctionnels) doivent être 
+distincts. 
+Intégrer les rôles dans la gestion des comptes informatiques. Les documenter et 
+les implémenter. 
+ISSIP14 
+TECH 
+En cas de développement réalisé au titre du système, appliquer les règles de 
+bonnes pratiques, notamment la directive 40 (portant sur le développement des 
+applications informatiques et des logiciels robustes du ministère). 
+ 
+R 
+O 
+O 
+Voir Directive DGNUM n°40 sur le 
+développement robuste 
+ISSIP15 
+TECH 
+Dédier un environnement de développement aux opérations de développement du 
+système industriel. Cet environnement ne peut être utilisé pour d'autres activités. 
+ 
+R 
+O 
+O 
+ 
+ISSIP16 
+TECH 
+Séparer l’environnement de développement de l’environnement de production. 
+O
+ 
+ 
+ 
+ 
+ISSIP17 
+TECH 
+Protéger l’environnement de développement de manière à satisfaire aux mêmes 
+besoins de sécurité du système industriel en matière de disponibilité, d'intégrité et 
+de confidentialité. Il doit satisfaire aux mêmes exigences de sécurité auxquelles 
+s'ajoutent des exigences de sécurité en matière de développement. En cas de 
+prestation externe, fournir un plan d'assurance sécurité (PAS). 
+O
+ 
+ 
+ 
+ 
+ISSIP18 
+ORG 
+Vérifier le niveau de sécurité de l’environnement de développement. 
+ 
+C 
+R 
+R 
+ 
+ISSIP19 
+ORG 
+Intégrer dans le contrat une clause pour que l'entité responsable puisse auditer le 
+contractant ou les fournisseurs afin de vérifier que l'ensemble des mesures de 
+sécurité numérique demandées sont bien appliquées. 
+ 
+C 
+R 
+R 
+ 
+ISSIP20 
+TECH 
+Mettre en œuvre une analyse statique du code et des tests de robustesse avant la 
+mise en production et préalablement à l'intégration de changements majeurs. 
+C  
+ 
+ 
+ 
+ISSIP21 
+ORG 
+Effectuer un audit de code par des prestataires labellisés. 
+ 
+C 
+C 
+R 
+ 
+Protéger physiquement le système et les contrôles d’accès aux locaux, aux équipements et aux câblages

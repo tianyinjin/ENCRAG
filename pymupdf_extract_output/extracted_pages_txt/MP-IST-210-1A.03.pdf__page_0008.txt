@@ -1,0 +1,33 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 8 / 34
+
+================================================================================
+
+in some of the foundational public datasets mentioned above that rely on often openly available data
+scraped from social media or search engines, there is a significant mismatch in image context as compared 
+to common use cases found in defense and security, as these tend to highlight drone flying or 
+experimentation in recreational or civilian contexts. Moreover, when the sensor type and specifications 
+are considered, further issues may arise relating to domain adaptation as model performance tested on 
+these benchmarks may not translate into similar performance in defense and security contexts, with 
+military-grade sensors. See Figures 3 and 4 for examples of the difference in data relevance and quality 
+across these benchmarks. 
+Figure 3: Examples of images from the USC Drone dataset. Note the high quality, good focus 
+and good contrast present in some of the optical images which suggest that they may have 
+been captured either by modern smartphones or photography enthusiasts from a stabilized 
+imaging platform. 
+Three, these benchmarks are often static and may not evolve at the same pace as the rapid advancements 
+in computer vision or the emergence of new threats. As new and customized drones and tactics emerge 
+on the battlefields of Ukraine and elsewhere, there is typically a significant lag experienced before their 
+inclusion into public benchmarking datasets. In 2025, this implies that datasets specifically do not 
+contain sufficient 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 8
+STO-MP-IST-210
+Figure 4: Examples of imagery from the 4th Anti-UAV Workshop dataset, which are examples of 
+datasets more likely to be reflective of real-world scenarios encountered by sensors in defense 
+and security. However, note also the sensor artifacts present (Chinese characters, crosshair 
+boxes, date and timestamps); these artifacts may differ greatly across sensor types, especially 
+those that do not operate directly on raw sensor feeds, and may corrupt measures of model 
+performance in testing.

@@ -1,0 +1,40 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 20 / 34
+
+================================================================================
+
+The second pairwise combination to consider arises from the usage of the (object_size, quantity) tuple, 
+which attempts to answer the potential question “will our CV system perform consistently in detecting 
+different numbers and quantities of drones?” Given the number of observations present in Table 6, we see 
+that we have generally sufficient coverage to answer this question, with resulting confidence intervals 
+ranging from 0.85 to 0.99, except for the scenario with multiple medium drones (with only 1 observation and 
+a confidence interval of 0.27). However, in this case, we have already excluded such a consideration from 
+the testing scope, as “the evacuated city in our hypothetical scenario is not assessed to be likely to be 
+significant enough to be targeted by large swarms of enemy medium-sized drones or loitering munitions.” 
+Hence, we will focus the efforts of simulating multiple small drones in the following simulation runs. 
+Table 6. Pairwise coverage for (drone size, drone quantity) tuple.
+We made the conscious decision to exclude the last factor, image noise, in considering pairwise coverage as 
+the nature of noise exhibits significantly more continuous variability. Nonetheless, we will also address the 
+effect of noise on model performance at a later stage, where we will holistically investigate the effect of 
+noise across all 3 datasets to understand how it influences performance. 
+3.2.2 
+Establishing Simulation Environments for Data Collection & Dynamic Testing 
+While a fixed set of still images and video data may be useful to establish a baseline understanding of CV 
+system performance when given these inputs, clear limitations persist. These include the inability to: (a) 
+evaluate counter-drone systems on dynamic adversary drone maneuvers and scenarios (e.g. multi-drone 
+attack formations), (b) account for the full range and representation of realistic environmental phenomena in 
+which they are expected to operate, where data is insufficient, (c) reproduce the idiosyncratic sensor 
+behaviors where real data may not exist for sensors yet to be deployed, and (d) fully appreciate the terrain 
+limitations of each sensor mode, especially including line-of-sight issues for optical cameras or terrain-
+masking issues for IR or LIDAR sensors. Moreover, where the dataset distribution is not sufficient to support 
+a representative weightage of the data for the actual use in the operational design domain, performance 
+metrics on the dataset cannot be considered transferable to the actual usage scenario. For example, a drone 
+dataset consisting of 80% of bright light, clear sky, no occlusion images/videos would not provide sufficient 
+assurance of consistent CV system performance under an actual usage scenario in a winter setting, with 60% 
+rainy conditions. 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 20
+STO-MP-IST-210
+Table 5. Pairwise coverage for (background, light) tuple.

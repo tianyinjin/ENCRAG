@@ -1,0 +1,45 @@
+Source file: 20250204_NP_SGDSN_VIGINUM_Rapport_public_Elections_roumanie_risques_france_VFF.pdf
+Relative path: 20250204_NP_SGDSN_VIGINUM_Rapport_public_Elections_roumanie_risques_france_VFF.pdf
+Page: 8 / 14
+
+================================================================================
+
+8 
+ 
+Ces dons ont été effectués par le citoyen roumain Bogdan PESCHIR, sous le pseudonyme de BOGPR sur 
+la plateforme. Ces dons pourraient s’apparenter à du financement de campagne politique, constituant 
+là encore une violation des conditions d’utilisation de TikTok et de la législation roumaine. 
+L’implication d’une entreprise étrangère dans le recrutement d’influenceurs 
+Le service de renseignement intérieur roumain indique que parmi les influenceurs recrutés pour faire la 
+promotion de la candidature de Călin GEORGESCU, certains auraient été contactés par e-mail, via 
+l’entreprise de communication sud-africaine FA Agency, qui proposait une rémunération de 1 000 € par 
+vidéo22. 
+Les 6 et 13 décembre 2024, le journal Le Monde23 a publié deux enquêtes successives démontrant que 
+l’entreprise sud-africaine FA Agency serait une société écran gérée par la branche polonaise24 de Gambling 
+Media Group (GMG). GMG est une entreprise spécialisée dans les services de marketing de casinos en ligne, 
+mettant en œuvre des stratégies d’influence sur les réseaux sociaux, dont TikTok25. Elle ferait partie d’une 
+« constellation d’entreprises » liée à une agence de publicité ukrainienne nommée Zlodeï26.  
+Les investigations menées en parallèle par VIGINUM ont effectivement permis d’établir des liens 
+techniques entre FA Agency, GMG et Zlodeï. Une première analyse du nom de domaine de FA Agency 
+(faagency[.]org), détecté par les journalistes du Monde, a permis de déterminer que ce dernier partageait 
+plusieurs caractéristiques techniques avec influue[.]agency. En effet, ces deux noms de domaine sont 
+hébergés sur une même adresse IP27 et partagent un même identifiant d’obfuscation d’adresse mail dans 
+leur code source respectif28. Influe UE Agency se présente ainsi comme une agence de marketing 
+numérique mais ne semble pas avoir d’existence légale. Toutefois, la description de l’entreprise sur son site 
+web est quasiment identique à celle de GMG, dont les sites officiels semblent être gmg[.]win et 
+boostaxis[.]click.  
+                                                        
+22 Document déclassifié n°1 du renseignement intérieur roumain publié le 4 décembre 2024, Ibid., 
+https://www.presidency.ro/ro/media/comunicat-de-presa1733327193 
+23 https://www.lemonde.fr/pixels/article/2024/12/06/roumanie-des-videos-pro-georgescu-liees-a-une-enigmatique-agence-d-
+influenceurs-polonaise_6434393_4408996.html et https://www.lemonde.fr/pixels/article/2024/12/13/roumanie-influenceurs-
+comptes-automatises-et-publicites-illegales-au-service-d-une-campagne-d-ingerence-hors-normes_6445661_4408996.html 
+24 Des investigations complémentaires ont permis d’établir que les locaux de GMG en Pologne se trouvaient probablement à 
+l’adresse suivante : Wioślarska 8, 00-411 Warszawa. 
+25 La description officielle de GMG précise que ses 300 employés travaillent également sur les Google Ads, Facebook Ads, 
+Instagram, SEO, ASO, In-app et Meta Ads. 
+26 Numéro fiscal : 41270481. 
+27 A la date de rédaction de la présente note, la commande linux curl -k https 5.61.42[.]22 -H « nom_de_domaine » affiche les 
+sites faagency et influue. 
+28 Identifiant d’obfuscation commun : data-cfemail="9fd6d1d9d0dfd6d1d9d3cacadab1ded8dad1dcc6". 
+Schéma des liens techniques entre FA Agency, GMG et Zlodeï.

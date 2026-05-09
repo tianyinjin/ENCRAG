@@ -1,0 +1,54 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 75 / 136
+
+================================================================================
+
+75 
+ANNEXE I 
+BRIQUES TECHNOLOGIQUES DE L’ESSAIM 
+Face aux limitations des essaims purement scriptés ou téléopérés (faiblesses des liens de 
+communication, boucle de décision longue ou rigidité face aux aléas, coût en charge de travail, etc.), il 
+est tentant de donner des capacités de décision à l’essaim de drone. L’objectif est de concevoir des 
+machines ou des systèmes de machines capables de percevoir et modéliser leur environnement et 
+d’adapter leur comportement en fonction de ces perceptions pour réaliser les intentions de leurs 
+concepteurs. 
+Des recherches dans le domaine de l’intelligence artificielle et de la robotique sont menées depuis des 
+dizaines d’années en ce sens. Il s’agira de concevoir des architectures de calcul (des algorithmes) qui 
+permettent aux membres de l’essaim d’autodéterminer une partie de leurs actions en fonction de leur 
+perception de l’état du monde. En d’autres termes, la machine doit être dotée de mécanismes de calcul 
+qui lui permette de choisir une ou des actions appropriées, en fonction de la situation. Ces choix se 
+doivent d’être rationnels eut égard aux objectifs de l’organisation humaine qui a choisi de mettre l’essaim 
+en œuvre. 
+ARCHITECTURES DE DECISION INDIVIDUELLES 
+- ARCHITECTURE REACTIVE 
+La rationalité d'un agent se juge à la manière dont il associe ses actions à ses perceptions. La manière 
+la plus simple de concevoir un agent rationnel (on parlera d'architecture) est donc de le doter d'un 
+ensemble de règles stimulus-réponse qui décrira entièrement son comportement. On parlera alors 
+d'agent réactif, réflexe ou encore d'approche réactive (reaction-based). 
+L'approche réactive pour la conception d'agents rationnels artificiels est principalement due à Rodney 
+Brooks194 du MIT avec son architecture de subsomption. Dans deux manifestes, maintenant 
+célèbres195,196, il définit son projet : concevoir des robots « intelligents » (des agents rationnels) de 
+manière incrémentale, en partant de comportements réflexes très simples et en les combinant pour en 
+obtenir de plus élaborés, jusqu’à « l’intelligence ». Dans ce projet, Brooks prend le contre-pied de 
+l'approche délibérative, utilisée jusque-là en intelligence artificielle (IA), et qui consistait à prendre le 
+problème « par le haut » en commençant par le raisonnement de haut niveau et en postulant que les 
+tâches, en apparence plus simples, telles que la perception et l'action se résoudraient facilement. Cette 
+approche classique, que Brooks désigne par le sobriquet GOFAI (Good Old-Fashioned Artificial 
+Intelligence), avait donné des systèmes capables de résoudre des problèmes complexes, et même de 
+prouver des théorèmes mathématiques, mais incapables ne serait-ce que de se déplacer dans un 
+laboratoire en évitant quelques obstacles. Au contraire, Brooks commence par traiter les problèmes tels 
+que la locomotion, et réalise des robots capables de se déplacer, même dans des environnements très 
+accidentés. 
+La différence fondamentale entre l'approche délibérative, présentée par la suite, et l'approche réactive 
+tient aux symboles. L'approche délibérative donne à l'agent une représentation symbolique de son 
+environnement. Cette représentation est une abstraction des sorties des capteurs de l'agent, qui 
+manipule ensuite ces symboles en interne, grâce à un « modèle du monde » et décide de ses actions. 
+Dans l'approche réactive, on considère que « le monde est son meilleur modèle ». Dans sa version la 
+plus simple, cette approche ne comporte pas d'état interne, les sorties des capteurs sont directement 
+traitées par de simples circuits électriques qui calculent en continu le signal à envoyer aux effecteurs. 
+ 
+194 Également fondateur de iRobot, l’entreprise fabricant les célèbres aspirateurs robot Roomba.  
+195 R. Brooks (1991a). Intelligence without reason. In Proceedings of the 12th International Joint 
+Conference on Artificial Intelligence (IJCAI), pages 569– 595, Sydney, Australia. Morgan Kaufmann.  
+196 R. Brooks (1991b). Intelligence without representation. Artificial Intelligence, 47:139–159.

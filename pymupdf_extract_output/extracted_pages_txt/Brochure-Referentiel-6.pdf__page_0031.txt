@@ -1,0 +1,38 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 31 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+60 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 61
+C.11 
+Composants 
+et hardware 
+Au-delà du dispositif amont de collecte qui vient d’être exposé, des enjeux 
+de cyber-sécurité existent en aval. Ils sont liés au stockage dans le Cloud et 
+à leur usage par des applications intégrant des outils de décision apparentés 
+à l’Intelligence Artificielle. Ces problématiques admettent un cadre juridique, 
+la Data Privacy. Il pose la question du consentement du propriétaire des don-
+nées pour leur utilisation que traite le Règlement Général sur la Protection des 
+Données (RGPD). Il faut y adjoindre un cadre technique avec la nécessité d’un 
+Cloud maîtrisé disposant des garanties sur la confidentialité, l’accessibilité, l’in-
+tégrité des données, mais également un cadre scientifique original qui assure 
+la fiabilité des algorithmes de traitement.
+[NIST] 	NIST, « NISTIR 8200 - Interagency Report on the Status of International 
+Cybersecurity Standardization for the Internet of Things (IoT), » 2018.
+[ENISA] ENISA, « Baseline Security Recommendations for IoT in the context of 
+Critical Information Infrastructures, » 2017.
+Les composants matériels sont les briques de base des outils numériques. Dès 
+que l’on souhaite un haut niveau de sécurité, il est indispensable de maîtriser 
+le matériel sous-jacent. Les composants peuvent être une source de menaces, 
+s’ils contiennent des vulnérabilités ou des pièges qui peuvent permettre à 
+un agresseur de contourner les mesures de protection logicielles misent en 
+œuvre par ailleurs. 
+D’un autre côté, ils peuvent aussi renforcer considérablement la sécurité d’un 
+objet en rendant inopérantes les modifications du logiciel en vue de mener 
+une attaque.
+Par exemple, il est beaucoup plus facile de protéger un logiciel contre la copie 
+en s’appuyant sur un élément matériel qu’en se basant uniquement sur une 
+solution logicielle.

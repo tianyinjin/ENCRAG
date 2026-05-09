@@ -1,0 +1,88 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 57 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 57 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+- tous les flux entrants ou sortants du 
+système 
+industriel 
+doivent 
+être 
+journalisés. 
+Les moyens assurant le filtrage peuvent 
+être physiques et/ou dédiés selon les 
+risques à couvrir et dans la mesure du 
+possible. 
+RSO6 
+TECH 
+Lorsque des flux non-IP doivent transiter entre deux zones distinctes, effectuer un 
+filtrage* sur les identifiants source et destination, ou un filtrage* sur les protocoles 
+autorisés. 
+ 
+R 
+O 
+O 
+Dans le cas d’Ethernet, on pourra 
+effectuer le filtrage* sur les adresses 
+MAC source et destination. 
+RSO7 
+TECH 
+Mettre en place des flux unidirectionnels entre deux zones de classes* différentes 
+afin de n'autoriser les flux que de la zone de classe* la plus élevée vers la zone de 
+classe* la moins élevée. Dans le cas de zones de classe 3, l’unidirectionnalité est 
+assurée par une diode labellisée. 
+R  
+ 
+ 
+L’unidirectionnalité des flux pourra être 
+assurée par un pare-feu. 
+RSO8 
+TECH 
+Former au moins une zone de sécurité* à part entière pour le réseau 
+d’administration.  
+ 
+R 
+O 
+O 
+ 
+RSO9 
+TECH 
+Cloisonner le réseau d’administration des équipements des autres réseaux de 
+manière physique.  
+ 
+C 
+R 
+O 
+Le périmètre porte sur les équipements 
+d’informatique classique comme les 
+commutateurs, passerelles, routeurs, 
+pare-feu, etc. 
+RSO10 
+TECH 
+Protéger le système industriel du système d’information de gestion* (niveau 4) par 
+un dispositif de filtrage* (pare-feu). Les flux sont limités au strict minimum. 
+ 
+R 
+O 
+O 
+ 
+RSO11 
+TECH 
+Proscrire l’usage de protocoles non sécurisés (telnet, http, ftp, etc.) en leur 
+privilégiant des protocoles garantissant confidentialité, intégrité, authenticité des 
+points communicants (https, ssh, sftp, bacnets-c).   
+Si l'usage de protocoles non sécurisés est nécessaire pour des raisons techniques 
+et opérationnelles, mettre en place des mesures compensatoires comme : 
+ 
+-  mettre en place des protections paramétriques (pare-feu) ; 
+ 
+-  encapsuler les flux dans un VPN pour en assurer l’authenticité et l’intégrité. 
+O

@@ -1,0 +1,70 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 21 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 21 | 79 
+Elle peut nécessiter des dispositifs particuliers à mettre en œuvre tels que les dispositifs 
+d’authentification et les systèmes de supervision de sécurité à déployer (sonde de détection 
+d’intrusion, système de gestion des événements et des informations de sécurité (SIEM, etc.). 
+Les exigences de sécurité numérique portent sur : 
+- 
+les données traitées en fonction de leur nature et de leur niveau de confidentialité ; 
+- 
+le corpus documentaire, qui, en raison de la durée d’exploitation généralement longue du 
+système industriel, porte la connaissance du système ; 
+- 
+le personnel qui, par ses fonctions, peut être vecteur de risques ou cibles d’attaques en cas 
+de négligence ou d’incompétence ; 
+- 
+la sécurité physique des locaux qui peut, dans certains cas, être la seule barrière de 
+sécurité efficace ; 
+- 
+les équipements, y compris ceux qui se connectent de manière temporaire sur le système 
+industriel, tels qu’un poste de diagnostic dans le cadre d’une maintenance ; 
+- 
+le système industriel en lui-même sous trois aspects : 
+ 
+les moyens de communication mis en œuvre entre : 
+ 
+le système industriel et son environnement ; 
+ 
+le système industriel et d’autres systèmes numériques ; 
+ 
+le groupement de fonctions en zone de sécurité*, permettant d’appliquer des mesures de 
+sécurité distinctes et homogènes, communes aux ressources constitutives, dont 
+nécessairement : 
+ 
+le durcissement des équipements ; 
+ 
+le cloisonnement* et le filtrage* du réseau ; 
+ 
+la mise en place d’un contrôle d’accès physique ; 
+ 
+la surveillance au sein d’une zone ; 
+ 
+la mise à jour des équipements (fréquence, démarche) ; 
+ 
+les règles d’authentification sur les équipements ; 
+ 
+les conduits* (interactions et échanges entre les zones de sécurité). 
+Les responsabilités des différents acteurs, y compris des tierces parties (prestataires), en matière 
+de sécurité numérique, sont définies au plus tôt. 
+La mise en place de profils de protection standardisés est une bonne pratique. Elle permet de 
+définir les exigences de sécurité applicable à un modèle de système industriel utilisé dans un 
+certain contexte d’emploi. Cela facilite la prise en compte et l’intégration de la sécurité numérique 
+dans les projets ou programmes de systèmes industriels.  
+6.6. Conception du système industriel 
+La maîtrise d’œuvre fournit des solutions pour répondre aux besoins et aux objectifs de sécurité 
+formellement définis.  
+Afin de limiter l’exposition aux menaces et l’introduction de vulnérabilités lors de l’implémentation, 
+elle veille à limiter les interfaces et la complexité du système au strict nécessaire.  
+Elle intègre dès la conception du système des outils et des mécanismes qui permettent de faciliter 
+la gestion de la sécurité numérique et l’application des exigences telles que : 
+- 
+le durcissement et la maîtrise des configurations ; 
+- 
+la gestion des vulnérabilités ;

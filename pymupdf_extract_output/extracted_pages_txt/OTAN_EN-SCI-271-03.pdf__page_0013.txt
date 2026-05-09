@@ -1,0 +1,44 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 13 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+STANAGs  are  predominantly  military  standards,  and even  though  they  have  been  promoted  for  civil 
+applications, their requirements are heavily demanding in terms of compliance. For instance, certifying a 
+platform against the STANAG 7085 Interoperable Data Links for Imaging Systems is costly and probably a 
+barrier for small platforms providers. In this sense, STANAG is perhaps very relevant for the interoperability 
+of military asset across the different NATO members, but it is hard to be adopted by civil or research 
+platforms without strong investment. 
+STANAG does not define a specific Common Operating Environment (COE), but only specifies that the 
+operating environment supports/ integrates the specified network/transport protocols and supports the 
+specified user applications [5]. Moreover, STANAG doesn’t take into account that the vehicles can be part of 
+a network with dynamic topology where communications can be unreliable and vehicle actions may be tied 
+to communication constraints. 
+Although not providing a complete solution for interoperability, STANAG 4586 is certainly a crucial step 
+taken in that direction, providing a roadmap for future developments. 
+5.0 ACKNOLEDGMENTS 
+The author wishes to thank Professor Fernando Coito and Professor Victor Lobo for their advice. 
+6.0 REFERENCES 
+ 
+[1] G. e. al., Automation and Interoperability Challenges for Heterogeneous UAS 
+Fleet Management, Spain: ATACCS'2011 Industrial papers, 2011. 
+[2] AEDP-2 Volume 1 Ed.1 Sep 2005, Architecture Description, NATO 
+Standardization Agency (NSA), 2005. 
+[3] e. a. Bagdatli, A Method for Examining the Impact of Interoperability on Mission
+Performance in a System-of-Systems, Georgia Institute of Technology, Atlanta GA:
+IEEE, 2010. 
+[4] STANAG 4586 Ed.3 Nov 2012, Standard Interfaces of UAV Control System (UCS)
+for NATO UAV Interoperability, NATO Standardization Agency (NSA), 2012. 
+ 
+[5] Unmanned Aircraft Systems Roadmap 2005-2030, Office of the Secretary of Defense,
+Washington, DC, 2005. 
+[6] Dias, Paulo Sousa, João Borges Sousa, and Fernando L. Pereira. "Networked
+Operations (with Neptus)." MAST–Maritime Systems and Technologies Conference.
+2008. 
+[7] “Standard”, http://www.iso.org/iso/home/standards.htm [Accessed 22 December
+2014]. 
+ 
+STO-EN-SCI-271 
+3 - 13

@@ -1,0 +1,92 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 64 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 64 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP22 
+ORG 
+Effectuer une revue régulière des intervenants et de leurs comptes, au minimum 
+une fois par an pour vérifier :  
+- l'application des règles portant sur les comptes et les accès ;
+- la pertinence des comptes. Si des comptes appartiennent à des personnels 
+n’intervenant plus sur le système industriel, ils sont désactivés et supprimés au 
+bout d’un temps défini afin de garantir la traçabilité de leurs actions..
+Porter une attention particulière sur les comptes d’administration. 
+O
+ 
+ 
+ 
+Les comptes doivent être désactivés dès 
+le départ d'un personnel. Le circuit 
+départ de l'entité prévoit une notification 
+aux administrateurs des systèmes. 
+EXP23 
+ORG 
+Dans le cas où un appel doit être fait, exceptionnellement et pour des raisons de 
+savoir-faire exclusif, à des personnes non habilitées (étrangères par exemple) pour 
+effectuer un dépannage ou une opération particulière sur des matériels ou 
+logiciels, mettre en place toutes mesures utiles pour qu'elles ne puissent avoir 
+connaissance, même fortuitement d'informations sensibles ou classifiées. De plus, 
+leur accès physique et leur intervention doivent être effectués sous la surveillance 
+continue de personnels habilités et qualifiés. 
+O
+ 
+ 
+ 
+ 
+EXP24 
+ORG 
+Créer 
+des 
+comptes 
+selon 
+le 
+principe 
+de 
+moindre 
+privilège.
+Porter une attention particulière sur les comptes de privilèges élevés. 
+O
+ 
+ 
+ 
+Exemples de comptes de privilèges 
+élevés 
+: 
+- « administrateur système » permettant 
+l’administration 
+informatique 
+des 
+équipements 
+(serveurs, 
+stations 
+et 
+équipements réseau par exemple) et 
+des systèmes d’exploitation ;  
+- « ingénieur de procédé » permettant 
+d’accéder 
+à 
+des 
+fonctions 
+de 
+configuration ou de programmation des 
+applications SCADA* et automates* par 
+exemple. 
+EXP25 
+ORG 
+Affecter des comptes de manière individuelle. Chaque compte doit être attribué à 
+une seule personne bien identifiée, via un compte nominatif dans la mesure du 
+possible. En cas de compte non nominatif, le faire prendre en compte à son 
+détenteur. 
+ 
+R 
+O 
+O

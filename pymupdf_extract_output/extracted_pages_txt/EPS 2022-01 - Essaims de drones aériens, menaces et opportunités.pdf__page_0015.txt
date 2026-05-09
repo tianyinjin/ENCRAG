@@ -1,0 +1,53 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 15 / 136
+
+================================================================================
+
+15 
+réception de balises en « waypoints » ou destinées au marquage de cible. Pratique, précis et 
+facile à mettre en œuvre, le recours au positionnement GNSS constitue une option pour les trois 
+types d’essaim qui peuvent aussi recourir à la navigation inertielle ou au « map matching », au-
+dessus de la terre. Très accessible, la navigation par satellite est souvent privilégiée pour la 
+conception des essaims artisanaux. 
+- Un lien vers le C2 est nécessaire dès qu’une interaction avec un superviseur est envisagée, c’est 
+un cas des plus fréquents pour l’essaim « intelligent », c’est systématique pour un essaim 
+téléopéré. Ce lien est évidement absent d’un essaim scripté, où, à la rigueur, limité à l’envoi d’un 
+« mission abort ». 
+- Un lien interne à l’essaim, imposé par le principe même d’autonomie collaborative, qui requiert 
+aussi le recours à une IA de l’essaim qui a été décrite précédemment. 
+L’importance des liens pourrait faire croire que les échanges sont denses et plus facilement 
+interceptables. Il n’en est rien. Les IA des agents et des essaims ont adopté des échanges frugaux, 
+minimisés au maximum. Mesh, évasion de fréquence, recours au satellite ou communication implicite 
+via l’environnement8 raréfient d’autant les occasions d’interception. 
+O LES CHARGES UTILES DE L’ESSAIM 
+On ne s’attardera pas ici à décrire par le menu les capteurs et effecteurs qu’il est possible de panacher, 
+qui sont la raison d’être de l’essaim et lui permettent de produire son effet. Reste que, pour son 
+fonctionnement propre, un essaim « intelligent » ou téléopéré a besoin de capteurs pour percevoir son 
+environnement. 
+L’essaim « intelligent » a pour particularité d’assurer un traitement embarqué des capteurs, que l’on 
+désigne souvent par le terme anglais de « edge computing » ou « edge ». Ce traitement lui est 
+nécessaire pour percevoir son environnement et s’y déplacer, mais aussi pour accomplir la tâche qui lui 
+a été déléguée. Il est indispensable pour limiter les flux et parce que les débits élevés provenant 
+simultanément d’un grand nombre de source excèderaient les capacités humaines et la bande passante 
+disponible. 
+Le principe même de l’autonomie collaborative impose le recours à une IA de l’agent, qui a été décrite 
+précédemment, et dont le support électronique et logiciel constitue un autre composant de la charge 
+utile. 
+Capteurs, effecteurs, « edge » et IA de l’agent constituent les charges utiles potentielles des vecteurs 
+d’un essaim. 
+O LES VECTEURS DE L’ESSAIM 
+Les agents d’un essaim ne diffèrent pas fondamentalement de vecteurs classiques : on retrouve une 
+structure propulsée, à voilure fixe ou multicoptère, un autopilote et un système de navigation. 
+Cependant, les vecteurs intégrés dans un essaim « intelligent » se caractérisent par une forte densité 
+d’électronique embarquée et la présence de liens de communication sophistiqués. Il en résulte une plus 
+forte consommation électrique, un besoin d’évacuer davantage de chaleur (présence d’ouïes d’aération 
+et signature infrarouge légèrement accrue), le choix de communications robustes (sélection éventuelle 
+de matériaux perméables aux ondes électromagnétiques comme, par exemple, le kevlar9, traitement 
+soignés des antennes) ; à la clé, une contrainte d’intégration forte et une réalisation un tant soit peu 
+soignée. 
+ 
+8 Par exemple, perception d’une désignation laser qui déclenche le tir. 
+9 Retenu pour cette raison pour la réalisation du fuselage du drone Perdix (Design and Development 
+of a High-Altitude, In-Flight-Deployable Micro-UAV par Tony S. Tao, Massachusetts Institute of 
+Technology, Lincoln Laboratory).

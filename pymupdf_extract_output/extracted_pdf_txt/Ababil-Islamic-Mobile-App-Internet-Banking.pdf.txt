@@ -1,0 +1,569 @@
+Source file: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Relative path: Ababil-Islamic-Mobile-App-Internet-Banking.pdf
+Page count: 27
+Extracted pages: 27
+
+================================================================================
+
+[Page 1 / 27 | chars: 592]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+ 
+ 
+Presenting 
+Ababil MobileApp 
+for Islamic Banks 
+Overview 
+Proliferation of IT in the last couple of decades have worked wonders for the modern 
+consumer. We are now savvy and we possess the entire universe at the tip of their hands. 
+How so?  Answer is the Mobile Phone and Internet.  
+Keeping in line with the ever-increasing demands of end-users, Millennium Information 
+Solution has designed, developed and introduced Ababil MobileApp in order to support 
+our client Banks cater to the contemporary needs of their clientele with the motto: 
+Banking in your Pocket.
+
+[Page 2 / 27 | chars: 647]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+Ababil MobileApp is a comprehensive solution for Islamic banks with inclusive 
+features of different Shariah based facilities. It built around a state-of-the-art modular 
+architecture featuring multilevel security and authentication measures for secure 
+banking. This service can be integrated with Ababil and also other third-party CBS, thus 
+allowing for a seamless remote service to the end-users. 
+Key Features 
+Ababil Mobile Banking Application comes up with a wide range of benefits. With the 
+help of the app, bank’s clients can now use banking features from any location, as long 
+as they are connected with the internet.
+
+[Page 3 / 27 | chars: 852]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+Architecture & Security 
+• REST-based Modular Microservices Architecture 
+• J2EE platform utilising code provided by OWASP and Oracle 
+• Compatible across Android and iOS platforms 
+• Compatible with Third-party Core Banking systems 
+• Multilevel Security: 2 Factor Authentication, Admin Panel. 
+• Individual Device Registration 
+• Customizable Transaction Limits 
+• Periodic Audit Reports 
+• HTTPS SSL3.0 Protocol to mitigate Man in the Middle attack 
+• Digital signature with RSA (2048 bits) and SHA-256 for Authenticity 
+• AES 128 bit data encryption 
+• PKCS#7 formats for Signatures 
+• HMAC with SHA-256 for integrity 
+ 
+Payment Options 
+Ababil MobileApp lets your clients make multifarious payments while sitting at the 
+comfort of their home, office or anywhere they prefer, without ever needing to set their 
+feet at your bank.
+
+[Page 4 / 27 | chars: 562]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+Technical & Functional Details 
+❖ User Management: 
+- 
+Authentication 
+Two factor authentication using following options. 
+✓ User password 
+✓ USB Token 
+✓ Smart card 
+✓ Digital certificate 
+✓ LDAP 
+- 
+Our system will use session ID for a specific time. 
+ 
+❖ Admin Panel: 
+After successful login customer will see the dashboard of admin panel. Through admin panel 
+customer can create new admin, can do the approval of event log and add new client, do activate 
+the client also can search the application. Below UI shows the admin control panel:
+
+[Page 5 / 27 | chars: 456]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+❖ User Activation: 
+Admin can activate user by putting the reference number received from email. Admin can search 
+application, add client and edit client. Following UI shows the functionalities of Client menu such 
+as activate client. 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+❖ Limit Profile:  
+User can configure the limit profile such as max debit amount, max credit amount, debit 
+transaction per day and many more. Below UI shows the fund transfer profile:
+
+[Page 6 / 27 | chars: 619]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+❖ Sign Up: 
+At first customers need to fill up the sign-up form by putting account number, email address, 
+mobile phone number, and set password for secure login and the submit the form to the bank. In 
+admin module which will show all pending registration request and then customer will have to 
+come to the bank to fill out some paper forms and sign the agreement. Customer will need to 
+provide mobile phone’s IMEI number; each customer can include almost three mobile devices 
+under his account using which he will be able to access the mobile banking facility. Below UI 
+shows the sign-up screen:
+
+[Page 7 / 27 | chars: 375]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+❖ Login: 
+After finishing the signup process customer will get the access to use the features of mobile 
+banking by putting valid username and password. Below UI shows the login screen: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ Side menu: Customer will get the feature of side menu such as report, tools, settings 
+option, logout option etc. Below UI shows the side menu screen:
+
+[Page 8 / 27 | chars: 597]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+❖ Dashboard: After successful login, Customer can view the 
+information on dashboard such as balance information, 
+account details as well as Bill payment menu, Transfer menu, 
+Top Up and Account menu. Below UI shows the dashboard 
+screen: 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ Bill Payment: 
+After clicking the “Bill Payment” menu customer will be able to 
+view his Bill payment menu details such as Utility Bill, Credit 
+Card Bill, Mobile Bill etc. Customer will get the functionality of 
+all the bill payment menus (Utility, credit card, mobile). 
+Following UI shows the bill payment menu details:
+
+[Page 9 / 27 | chars: 400]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+ 
+ 
+❖ 
+Utility Bill: 
+When customer will click the Utility 
+bill then following UI will show 
+where customer will need to select 
+the bill account number, vendor 
+name, and bill year and bill month to 
+transfer the bill payment. After click 
+the “next” button then second UI will 
+appear with the information below 
+such as bill type, number, amount, 
+account number and narration
+
+[Page 10 / 27 | chars: 482]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+❖ Credit Card Payment: 
+Customer can do the payment through the credit card by 
+putting from account number, credit card number, transaction 
+amount and put narration if necessary. Below UI shows the 
+credit card payment screen: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ 
+Fund Transfer: 
+When customer will click Transfer menu following UI will open 
+with the list of menu details such as Transfer to own account, 
+Transfer within Bank, Transfer to Other Bank Account and Add 
+beneficiary.
+
+[Page 11 / 27 | chars: 520]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+❖ Fund Transfer to Own Account: 
+This feature will allow customers to transfer the fund to own 
+account. Following UI shows the related information to transfer 
+fund to own account with the following information such as, 
+“from account” from which account customer will transfer fund, 
+“beneficiary account” to which 
+account fund will transfer and 
+write narration if necessary.  
+After 
+putting 
+all 
+related 
+information 
+then, 
+click 
+the 
+submit 
+button 
+a 
+following 
+confirmation UI will appear:
+
+[Page 12 / 27 | chars: 1053]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+❖ Fund Transfer to Same Bank A/c: 
+This feature will allow customers to transfer fund to another 
+account holder of the same bank. Following UI shows the 
+related information to transfer fund to bank account with the 
+following information such as, “From account” from which 
+account customer will transfer fund, “To Account” to which 
+account fund will transfer, write the transfer amount and write 
+narration if necessary. Below UI shows the fund transfer to bank 
+account: 
+ 
+ 
+❖ Fund Transfer to Another bank A/c: 
+This feature will allow customers to transfer the fund to other 
+bank account. Following UI shows the related information to 
+transfer fund to other bank account with the following 
+information such as, “From account” from which account 
+customer will transfer fund, “beneficiary account” to which 
+beneficiary account fund will transfer, and select the delivery 
+channel such as EFT, RTGS, NPSB, write the transfer amount 
+and write narration if necessary. Below UI shows the fund 
+transfer to other bank account:
+
+[Page 13 / 27 | chars: 531]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+❖ Add Beneficiary: 
+Customer can add beneficiary by putting name, account number, mobile number, email address 
+and description of beneficiary & can also view the beneficiary name. Following UI shows the 
+add beneficiary & view beneficiaries screen:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ Mobile Top-up: 
+We use third party service to process mobile top up and customers can use any valid local 
+mobile number to recharge their mobile phone using our service. Following figure shows how 
+mobile app uses third party service.
+
+[Page 14 / 27 | chars: 618]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+Using the following UI customer can do the mobile top up at any time by putting the 
+related information.   
+ 
+ 
+❖ Utility Payment (Govt. Semi Govt. Private etc.) 
+KPLC Bill: Shadow database in available in our end. All transactions and changes happen in 
+our end database and at day end, they fetch data from this shadow database and update their 
+original database. Then, later on, we collect unpaid bill information from their database and 
+keep that info in shadow database to execute these unpaid bills next day. 
+Following figure shows how Utility Bill Payment is processed by using Mobile app:
+
+[Page 15 / 27 | chars: 1214]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+Nairobi City Water and Sewerage Company Bill: Nairobi City Water and Sewerage 
+Company provides web service in their server which is available to call by Ababil Mobile app. 
+Ababil get data from client using forms and call appropriate web service to execute that 
+transaction. Web service executes that transaction in WASA database and informs us the result 
+and then, we inform client about the result of the transaction. 
+❖ Standing Instruction: 
+Customer can run the process of standing instruction by using our mobile apps. He can specify 
+which of his account will be used to debit and which payee account will be used as credit 
+account, can select the start and end date of the standing instruction for execution and also can 
+select the recurring period for transfer fund i.e. set the frequency whether it is monthly, weekly 
+or yearly. Following UI shows the standing instruction: 
+ 
+ 
+❖ Account Management: 
+Customer can enable all his accounts to mobile banking or choose some of those. So, user will 
+be able to add and delete accounts usable in mobile banking. User can view account details 
+information, view mini statement and can stop the cheque. When customer will click the menu
+
+[Page 16 / 27 | chars: 458]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+“Account” a following UI will appear with the information such as Account details, mini 
+statement, Cheque stop and requisition: 
+ 
+ 
+❖ Account Details: 
+Customer can view the account details, at first customers need to 
+select account type such as SSP or investment account, and then 
+select the account number of that account click show statement 
+button to see the account details and to view account details a 
+following UI will appear:
+
+[Page 17 / 27 | chars: 268]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+❖ Mini Statement: 
+Customer can view the statement details and to view the statement customer needs to select 
+account number and then click the show statement button, to view mini statement a following 
+UI will appear with the related information:
+
+[Page 18 / 27 | chars: 265]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+❖ Cheque Requisition: 
+Customer can easily complete the cheque requisition by putting 
+his from account number, put the leaf number and also from 
+which branch customer can do cheque requisition, for cheque 
+requisition following UI will appear:
+
+[Page 19 / 27 | chars: 241]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+❖ Cheque Status / Stop: 
+Customer can easily view the status of cheque by putting his cheque number, also can stop that 
+cheque immediately by clicking the stop button. For cheque status or stop following UI will 
+appear:
+
+[Page 20 / 27 | chars: 628]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+❖ Finance/Investment Request: 
+Customer 
+can 
+easily 
+view 
+the 
+different 
+shariah 
+based 
+financing/investment options are facilitated by the concerned Islamic 
+Bank and can initiate the finance/ investment request as per customer’s 
+need. The amount and number of requests is subject to Banks policy 
+and Ababil Mobile app can configure accordingly.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ Zakat/Waqf/Sadaqa Service: 
+Ababil Mobile App is an integrated Platform, it 
+facilitates the hassle-free and high-quality services of 
+channeling Zakat/Waqf/Sadaqa fund to donors, 
+people in need and members of all segments of society.
+
+[Page 21 / 27 | chars: 1037]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+Security and Architecture 
+Security Issues of Mobile Banking Through Mobile App: 
+We will use Two Factor Authentication in case of password lost by customers. Customers will 
+have to provide more than their password to access our mobile banking. Once they successfully 
+provide password, a SMS (or email, configurable) will be sent with one time pin number. They 
+will have to get that pin number from their device (or email account) and provide to our system 
+to get access. We will also use IMEI (International Mobile Station Equipment Identity) Number, 
+which is unique for each device and each customer can register maximum of three devices from 
+where he wants to access the services. We will also give option to use software as second factor 
+along with password where the software will generate unique pin number for each device and 
+help to verify transaction. The software will be installed in the mobile device prior to use it in 
+transaction or login verification. 
+Two (2) – Factor Authentication for (SMS):
+
+[Page 22 / 27 | chars: 65]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+Two (2) – Factor Authentication for (Software):
+
+[Page 23 / 27 | chars: 866]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+General Features: 
+❖ Programming Language: 
+o Java to develop server-side coding 
+o Deploy solution in any platform  
+o Client Bank can choose platform with highly secured system 
+ 
+ 
+❖ Memory Management: 
+o Java has garbage collection mechanism to free unused memory 
+o Helps to mitigate buffer overflow 
+o Secure java code provided by OWASP and Oracle  
+o Helps to mitigate input validation related vulnerabilities like Denial of Service and 
+(SQL/XPath) Injection  
+ 
+❖ Platform: 
+o J2EE platform to develop service level development. 
+o Application server will run under JBoss. 
+o Ensure standard authentication including certificate-based authentication 
+ 
+❖ Architectural System: 
+o System is SOA and REST based architecture 
+o Helps to integrate with other systems with very few changes 
+o Allows further development on tab-based application
+
+[Page 24 / 27 | chars: 92]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+❖ Architectural Diagram: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ Typical Deployment Diagram
+
+[Page 25 / 27 | chars: 1199]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+❖ Security: 
+o Https 
+▪ 
+SSL 3.0 to mitigate Man in the Middle attack 
+o Certificate Selector 
+▪ 
+Support any certificate authority (CA) 
+o Supported certificate formats will be 
+▪ 
+Token (USB Token, Smart card) 
+▪ 
+.pfx (PKCS # 12) 
+▪ 
+.cer (Certificate format) 
+▪ 
+.der (DER encoded bytes) 
+o Browser applet will select a certificate from local location or from Token. 
+o User can select certificate from Hard Disk Driver (HDD), USB token, and smart 
+card with secure element. 
+❖ Authenticity: 
+o Digital signature with RSA (2048 bits) and SHA-256 
+o During transaction, a certificate selector window will open and user will select the 
+certificate. 
+o Browser applet will use private key to create digital signature.  
+o Signature will pass to server using PKCS#7 formats.  
+o Server will get this format and verify that 
+ 
+❖ Confidentiality: 
+o AES 128 bits for data encryption 
+o User will select certificate using certificate selector.  
+o Browser applet will generate a secret key and hence encrypt data and then prepare 
+PKCS#7 to send sensitive transactional data. 
+ 
+❖ Integrity: 
+o HMAC with SHA-256 for digesting 
+o Prepare PKCS#7 using browser applet to send to server
+
+[Page 26 / 27 | chars: 350]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+ 
+ 
+ 
+ 
+“ 
+...As part of the expansion of technology-based services, the bank introduced its 
+own mobile app so that the clients can avail regular banking services from the 
+comfort of their homes… SIBL will become a top-ranking bank in the country 
+over the next few years. 
+- Kazi Osman Ali, MD & CEO, Social Islami Bank Limited
+
+[Page 27 / 27 | chars: 1146]
+--------------------------------------------------------------------------------
+
+© Copyright 2018 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dubai Internet City, UAE 
+www.mislglobal.com  |  
++971-569645826     |  
+ 
+We are a Global Software solution provider with over two decades of experience in designing, developing, 
+deploying and marketing software suites for enhancing your business process and efficiency. Millennium 
+has established itself as a consistent and reliable software company through its commitment and 
+dedication towards quality, innovation and customer satisfaction. The company positions Itself globally 
+through software development, consultancy services and three flagship products. 
+ 
+• 
+Ababil of Millennium is now certified by ISRA Consultancy for being Shariah Compliant with AAOIFI, AAFA, 
+MWL, IFSB, BNM standards. 
+• 
+Ranked as one of the top ten Global Islamic Banking Solution provider by Gartner Inc., USA since 2011 
+• 
+Global Finance Magazine ranked Ababil of Millennium to be one of the award winners under “The Innovators 
+2016 – Islamic Finance” category. 
+• 
+Millennium has been awarded IFFSA Award in 2017 (Silver) and 2018 (GOLD) and considered as the best 
+solution provider in region.
+

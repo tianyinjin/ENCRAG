@@ -1,0 +1,66 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 24 / 68
+
+================================================================================
+
+Pôle d’excellence cyber
+24
+L’espace informationnel est devenu un champ de bataille, 
+visant tant des objectifs tactiques tels que l’obtention de 
+renseignements ou la restriction de liberté de manœuvre, 
+que des objectifs stratégiques tels que la légitimité d’un 
+déploiement militaire, voire même la légitimité de la 
+démocratie. Les manœuvres informationnelles adverses 
+sont aujourd’hui largement facilitées par l’essor des 
+plateformes de diffusion de contenus (réseaux sociaux) 
+et par le développement phénoménal des technologies 
+à base d’Intelligence Artificielle, notamment les Deep 
+Fakes. L’analyse humaine, malgré sa grande pertinence, 
+ne suffit donc plus à lutter contre la prolifération massive 
+d’informations manipulées. Le recours à des moyens 
+technologiques en support des analyses humaines 
+semble dès lors indispensable à la détection et 
+l’identification des manœuvres informationnelles adverses.
+Captation et analyse des faits
+Une première réponse technologique mise en place 
+consiste à analyser les faits et leur véracité. La captation 
+de rumeurs dès leur émission requiert l’orientation 
+de capteurs à tous les niveaux, dans la presse mais 
+aussi sur les forums et réseaux sociaux. Les instituts 
+journalistiques se sont pour la plupart dotés d’équipes 
+de fact-checking (tel AFP factuel(1)). Ce travail manuel, 
+minutieux, s’appuie notamment sur des technologies 
+de recherche d’information (OSINT)(2), d’indexation 
+de faits(3), de requête auprès de bases de données 
+statistiques mais aussi de vérification de l’existence 
+préalable d’une image(4). Sur l’aspect purement factuel, 
+des projets de recherche s’appuient sur l’extraction 
+d’informations et la comparaison automatique avec des 
+connaissances établies pour alerter en “temps réel” d’une 
+invraisemblance avérée par rapport à un référentiel.
+Analyses et identification du faux
+Une seconde réponse est l’étude automatisée d’artefacts 
+exhibés par les contenus : la sophistication des faux 
+contenus, largement popularisés par la production de 
+mèmes humoristiques impliquant des personnalités 
+publiques, appelle un recours renforcé aux technologies 
+de traitement d’images (reconnaissance d’objets, analyse 
+de similarité, détection de faux(5)), d’analyse vocale ou 
+de traitement du langage naturel (détection d’émotions, 
+identification de narratifs, traduction). Ces moyens 
+s’appuient largement sur les réseaux de neurones 
+profonds(6) dont l’usage nécessite d’importantes capacités 
+de calcul, ce qui en limite l’adoption à grande échelle. 
+Moyens technologiques actuels
+pour lutter contre les 
+manipulations d’informations
+Aurélie LAIZÉ
+Head of Airbus Cyber 
+Programmes site Rennes
+“La maîtrise du champ informationnel numérique requiert le maintien de 
+connaissances au meilleur état de l’art dans les domaines techniques associés. La 
+capacité à veiller des réseaux, à détecter des contenus et à analyser un environnement 
+est liée à des outils spécifiques en constante évolution, utilisant les technologies 
+de traitement des informations en masse (big data) et d’intelligence artificielle.”
+ÉLÉMENTS PUBLICS DE DOCTRINE MILITAIRE DE LUTTE INFORMATIQUE D’INFLUENCE (L2I)

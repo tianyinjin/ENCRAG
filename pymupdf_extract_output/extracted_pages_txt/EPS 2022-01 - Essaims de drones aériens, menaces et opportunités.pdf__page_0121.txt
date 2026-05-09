@@ -1,0 +1,36 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 121 / 136
+
+================================================================================
+
+121 
+- Une vitesse de ralliement de 2 rad/s associée à une accélération de 4 rad/s² (temps de ralliement 
+pour un dépointage maximum inférieur à 1,48s) ; 
+- Une précision de pointage en poursuite de 12 µrad ; 
+- Un bruit de poursuite à un sigma de 20 µrad en gisement et de 10 µrad en élévation ; 
+- Une optronique d’acquisition et de poursuite de la cible performante, en cohérence avec les 
+exigences précédentes et adoptant une poursuite par enveloppe de contraste ; l’optronique de 
+poursuite ne doit pas être brouillée par la réaction thermique provoquée par l’action du laser sur 
+la structure : ce phénomène, s’il n’est pas maîtrisé, risque d’augmenter considérablement le 
+temps de perçage ; c’est un point clé de ce type d’arme ; 
+- Une architecture de type « Lyre », 3 axes, alliant stabilité et faibles parallaxes qui seront 
+néanmoins traitées avec le plus grand soin (correction de la parallaxe en temps réel et 
+pondération des écartométries senseurs) ; 
+- Une prise en compte des conditions d’emploi extrêmes, induites par les mouvements de 
+plateforme, telles que, en angle et période : roulis : 20°/11s, tangage :4°/5s, lacet : 5°/9s, 
+pilonnement : 1.4 m/3,6°/s ; 
+- Un champ de battage optimum en site et gisement. 
+En supposant que la tourelle bénéficie d’une désignation d’objectif tridimensionnelle291, ces choix 
+permettent de réduire au maximum le cycle : ralliement, recalage, détection, acquisition, poursuite, 
+augmentant ainsi le seuil de saturation.  
+Une telle approche permet, pour une cible donnée, d’évaluer de manière réaliste le temps nécessaire à 
+chaque séquence de destruction. 
+Dans le cadre de l’étude, un programme Scilab a été élaboré à cette fin et a été utilisé, sur la base du 
+scénario et de la menace de référence, pour dérouler des séquences d’engagement réalistes par les 
+armes de référence, tant pour percer les structures des cellules que pour détruire les optiques dans le 
+visible.  
+ 
+291 Pour une DO bidimensionnelle, une phase de recherche est à prendre en compte. 
+Figure 12-exemple de bruit de poursuite modélisé 
+Figure 13 : copie d’écran d’un engagement simulé de la menace de référence

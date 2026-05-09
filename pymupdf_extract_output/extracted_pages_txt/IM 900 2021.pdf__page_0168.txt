@@ -1,0 +1,52 @@
+Source file: IM 900 2021.pdf
+Relative path: IM 900 2021.pdf
+Page: 168 / 306
+
+================================================================================
+
+30 avril 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 18 sur 212 
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+DROIT PRIVE
+6.6 
+
+162 
+6.6: PRISE EN COMPTE DE LA SECURITE DANS LE CYCLE DE VIE DES 
+SYSTEMES D’INFORMATION 
+Référence :  
+IGI 1300 – 6.6. 
+Point clé: 
+La sécurité doit être prise en compte dans tout le cycle de vie d’un système 
+d’information depuis la phase de conception/développement en passant par la phase 
+d’exploitation (maintien en condition opérationnelle et de sécurité) jusqu’au retrait de 
+service. Elle est à la charge de l’entité contractante. 
+1. Développement
+a. Principes
+Afin de prévenir les attaques informatiques, les systèmes d’information et les 
+applications métier doivent être développés de manière robuste et sécurisée 
+conformément à l’état de l’art. La sécurité doit être prise en compte dès la conception 
+d’un système. Cette précaution relève du responsable de l’organisme. Le RSSI de 
+l’organisme est chargé d’en organiser la mise en œuvre. 
+A cet effet, l’ANSSI fournit des guides et recommandations. Il s’agit de guides et 
+recommandations concernant la méthodologie pour intégrer la sécurité dans le 
+développement d’un système d’information, concernant la maitrise des risques cyber ou 
+concernant la configuration et la sécurité des solutions disponibles sur étagère. 
+b. Dispositions particulière concernant les supports physiques intégrés dans des
+équipements
+Une grande partie des équipements constitutifs des systèmes d’information est équipée 
+de supports physiques de stockage rémanent (mémoires de masse de type disque dur 
+magnétique, SSD, mémoire flash, …). On les retrouve au sein d’équipements tels que les 
+serveurs, ordinateurs individuels, robots de sauvegarde, périphériques de stockage, 
+copieurs multifonctions,  ordiphones , vidéoprojecteurs, systèmes de visioconférence, 
+des matériels de téléphonie et équipements de réseau. 
+Les actes contractuels d'approvisionnement et de maintenance d'équipements qui 
+intègrent des supports physiques pour traiter des informations classifiées ou Diffusion 
+Restreinte doivent comprendre des clauses de non-retour de ces supports chez les 
+fournisseurs, applicables dès lors que ces supports ont traité des informations classifiées 
+ou Diffusion Restreinte. 
+Sur les SI classifiés, ces supports physiques contiennent des informations classifiées et 
+doivent être traités, si les informations ne sont pas chiffrées par un dispositif agréé, 
+comme étant des ISC physiques, soit de façon unitaire, soit au niveau de l’équipement. 
+A chaque étape de la vie du système, la traçabilité et la gestion réglementaire de ces ISC 
+doit être assurée.

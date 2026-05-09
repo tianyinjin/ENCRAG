@@ -1,0 +1,57 @@
+Source file: Note_Cout RH de la dronisation_juin 2025.pdf
+Relative path: Note_Cout RH de la dronisation_juin 2025.pdf
+Page: 20 / 37
+
+================================================================================
+
+Le coût de la dronisation en ressources humaines 
+P.20
+ 
+d’îlots qui vont nécessiter une logistique spécifique lourde, tant les systèmes non habités 
+seraient alors au centre d’un grand nombre de fonctions vitales pour les armées.  
+Le déploiement de drones sur la ligne des opérations nécessite, au-delà de leur intégration 
+dans l’architecture des forces, une capacité de réparer et d’entretenir les systèmes sur le 
+terrain. Indépendamment de la logique consommable derrière l’utilisation du drone, le 
+temps de survie étant particulièrement limité, 5 jours en Ukraine, il est nécessaire de pou-
+voir réparer les pannes à chaud. Cette capacité est d’autant plus importante sur des sys-
+tèmes de plus haute valeur, tels que des drones navals embarqués par les bâtiments, des 
+robots logistiques ou encore des drones ISR (Intelligence, surveillance & reconnaissance) 
+et Baba Yaga. Dans le cas des UAV low cost, ou du moins simples de fonctionnement tels 
+que les quadricoptères, l’apprentissage des techniques de maintenance est relativement 
+rapide. Le 17ème Groupement d’Artillerie dispose déjà de la capacité de formation sur ces 
+sujets, formation dispensée en moins d’une semaine52. De ce point de vue, l’intégration de 
+ce type de drones au sein des forces ne devrait pas poser de problème sur le recrutement 
+de personnes qualifiées, mais plutôt sur la capacité à former en interne des « spécialistes ».  
+3. Exploitation ISR 
+La généralisation de l’utilisation des drones et des robots induit une inflation de la quantité 
+d’information recueillie. Que ce soit par une utilisation directe de ces données, ou sur le 
+plus long terme pour le renseignement, la dronisation / robotisation des armées est de na-
+ture à saturer cognitivement les décideurs.  
+Sur cette question, il est évidemment nécessaire d’analyser les systèmes ukrainiens. Le 
+système fondamental est Delta, développé à partir de 2015 et adopté en 2025, qui consti-
+tue en quelque sorte l’épine dorsale de la Situational Awareness des forces ukrainiennes. 
+Concrètement, le logiciel se présente sous la forme d’une carte, avec un certain nombre 
+de filtres tels que l’ordre de bataille ou la situation drone53. Delta est un écosystème plus 
+qu’un logiciel, permettant d’agréger et de fusionner les données de différents types (vidéo, 
+radar, texte…) et de toute origine. Pour alimenter cet écosystème, plusieurs autres logi-
+ciels sont utilisés. Ainsi, Vizha – un logiciel permettant de diffuser en direct des flux vidéo 
+provenant de drones – et la Common Air Picture – permettant de regrouper les données 
+radar – sont, entre autres choses, utilisés pour nourrir Delta54. Le système traiterait ainsi, 
+chaque jour, plus de 10 000 entrées de données manuelles, ainsi qu’une quantité de si-
+gnaux automatisés équivalente. Afin de procéder à ce traitement, les Ukrainiens ont dé-
+veloppé, dans le cadre de Brave1, un système d’intelligence artificielle, Griselda, permet-
+tant – hypothétiquement – de faire apparaître les données sur Delta en 28 secondes55. Une 
+solution mise au point par Palantir est aussi utilisée par l’Ukraine56. Les utilisateurs ont en-
+suite accès aux données selon leur zone d’intérêt. D’autres applications plus spécialisées 
+se basent sur Delta, telles que Krapyva, l’outil de gestion des feux de l’artillerie.  
+ 
+52 Échanges de l’auteur avec les officiers du 17ème groupe d’artillerie, 2025.  
+53 Philippe Gros, Vincent Tourret, Yohann Michel, Guillaume Garnier, « Les 
+enseignements de la guerre Russo-Ukrainienne », Observatoire des Conflits 
+Futurs, novembre 2024, p. 109. 
+54 Oleksandr Yan, « A NATO country wants to purchase the Ukrainian Delta 
+system », Militarnyi, 29 avril 2025.  
+55 « Ukraine has developed a unique AI-based intelligence gathering system », 
+The Odessa Journal, 20 octobre 2023.  
+56 Vera Bergengruen, « How Tech Giants Turned Ukraine into an AI War Lab », 
+TIME, 8 février 2024.

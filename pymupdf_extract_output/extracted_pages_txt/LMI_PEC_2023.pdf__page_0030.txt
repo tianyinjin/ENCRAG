@@ -1,0 +1,59 @@
+Source file: LMI_PEC_2023.pdf
+Relative path: LMI_PEC_2023.pdf
+Page: 30 / 68
+
+================================================================================
+
+Pôle d’excellence cyber
+30
+Éléments de langage distincts
+Aujourd’hui, des solutions variées se positionnent sur la 
+construction automatique d’éléments de langage ou sur 
+la détection d’actions d’influence par l’étude du narratif. 
+Partant du postulat qu’un individu est cohérent, 
+il est probable qu’il utilise le même langage sur le 
+web en général. La détection d’un avatar — créé à 
+fin d’influence — passe alors en premier lieu par la 
+compréhension de ses habitudes syntaxiques. Elles 
+peuvent permettre de trouver des similitudes avec 
+d’autres comptes ou d’identifier les traces d’opérations 
+passées. Elles montreraient alors un « recyclage » de 
+l’avatar : p.ex. tantôt actif sur la politique africaine, 
+tantôt engagé auprès d’une entreprise européenne. 
+Prenons un exemple : le maire d’une ville est dénigré 
+sur Twitter. L’avatar, au-delà des insultes à caractère 
+xénophobe, utilise plusieurs formules telles que : « la 
+maire qui se croit la mère (... ) » ou « la reine maire et 
+sa cour ». On peut ainsi supposer que ces tournures 
+de phrases sont utilisées ailleurs, notamment sur les 
+comptes personnels de l’individu qui utilise l’avatar. 
+Dans ce cas précis, il s’avère qu’elles faisaient écho à 
+un blog tenu par un habitant de la ville concernée. On 
+obtient alors un pivot permettant de continuer l’enquête.
+Dans le cadre d’analyses textuelles longues – p.ex. 
+des déclarations d’intentions — l’utilisation d’outils 
+de textométrie  permet d’aller plus loin dans 
+l’étude des habitudes syntaxiques d’une identité 
+numérique. Si cette première étape peut s’avérer 
+rébarbative, elle est indispensable dans le cadre 
+d’opération d’influence complexe et représente ici 
+une belle expression des compétences de l’analyste. 
+Canaux de diffusion et failles de SECOPS
+Au-delà de l’analyse du discours, lorsqu’un 
+contenu préjudiciable est détecté, il est primordial 
+d’étudier qui en sont les diffuseurs, véritables 
+caisses de résonance. Selon la viralité du contenu, 
+il peut être difficile d’en connaitre la source ! 
+Comment déceler le 
+manipulateur 
+derrière l’avatar 
+Dans une logique de guerre de l’information, les faux comptes s’en prennent 
+aujourd’hui aux entreprises comme aux États. La détection de ces réseaux d’influence 
+et des acteurs qui les utilisent passe — entre autres — par leur maillage relationnel, 
+l’identification des éléments de langage et la recherche de failles de sécurité 
+opérationnelle (SecOps). Comme le montre le conflit ukrainien, un certain nombre 
+d’outils open sources sont à la disposition de tout un chacun et renforcent les 
+capacités des analystes, amateurs ou non. 
+Pierre BISCHETTI
+Analyste OSINT 
+OWLINT

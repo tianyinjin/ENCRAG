@@ -1,0 +1,121 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 2 / 10
+
+================================================================================
+
+the technological advances, in the 1990s, military interest was
+flagged with the end of the Cold War. However, optimism
+about robotics continued to grow in the new millennium, with
+interest in equipping the AF with smaller, cheaper, and more
+resistant UGVs. Counter-insurgency operations in Iraq and
+Afghanistan boosted the use of UGVs, mainly to deal with
+improvised explosive devices [7].
+The ongoing war in Ukraine has had a profound impact
+on the development of UGVs in Russia. Both sides are
+increasingly deploying UAVs and UGVs for various tasks such
+as combat, logistics, and medical evacuation. This conflict
+has underscored the importance of UGVs in reducing soldier
+casualties in hazardous situations [8].
+A. Civilian UGV applications
+The civilian applications of UGVs are wide. They can in-
+clude power line testing, surveillance systems, mine detection,
+data collection, agriculture, ocean exploration, and scientific
+exploration in space as the main [9]. In much the same way
+as they are used in the military, UGVs can also be used by the
+police for surveillance and intervention operations in hostile
+scenarios [10].
+UGVs offer advantages over human operators, as they can
+be used more often and consistently, potentially providing
+substantial cost savings. Autonomous systems can also be
+operated without safety measures or the equipment needed by
+humans [5].
+B. Military UGV applications
+In the military context, UGVs are operated remotely, us-
+ing wireless communication systems such as Radiofrequency
+(RF), which enable real-time video transmission. Advanced
+image processing techniques are used for automatic target
+detection.
+The dismounted mission support system requirements were
+first outlined within the framework of the Uniied States Army’s
+Future Combat System (FCS) program, which took place
+between 2003 and 2009. The support tasks should generally
+cover [11]:
+• Combat support: involving reconnaissance, surveillance,
+target acquisition, and fire support;
+• Engineering support: involving mine detection, clearing
+paths, destroying obstacles, building light bridges, and
+fortifying terrain;
+• Logistical support: transporting ammunition, collective
+weapons, water, food, and medical evacuation.
+C. Video compression and transmission
+When piloting an UGV, video transmission becomes an
+aspect of utmost importance. The main problem with this
+transmission type is the high bandwidth demand, which makes
+video compression very important. This action aims to make
+video content available at a low bits rate while preserving sat-
+isfactory image quality, in this case, for piloting the UGV. This
+technique works by identifying and eliminating redundancies
+[12].
+D. Radio communication technologies applied to Commercial
+UGVs
+This subsection covers the leading radio communication
+technologies in UxVs: Wi-Fi, Cellular Networks, and Tactical
+Radios.
+1) Wi-Fi: The IEEE 802.11 standard for a Wireless Local
+Area Network (WLAN), known commercially as Wi-Fi, has
+become essential daily [13]. Wi-Fi most commonly uses the
+2.4 GHz Ultra High Frequency (UHF) and 5.8 GHz Super
+High Frequency (SHF) radio bands.
+Using Wi-Fi to command and control UxVs offers several
+advantages that enhance operational efficiency and flexibil-
+ity. One primary benefit is the ability to establish a robust
+and high-bandwidth communication link, which supports the
+transmission of large amounts of data, such as high-resolution
+video and complex telemetry, in real-time. This capability
+is advantageous in applications requiring detailed situational
+awareness and precise control [14].
+2) Cellular Network: Cellular networks consist of several
+base stations, each dedicated to the wireless transmission and
+reception of data in one or more “cells”. In this context, a
+cell represents a specific region of the total geographical area
+served by the network. In most deployments, one base station
+covers three cells using a strategic antenna configuration and
+efficient frequency planning [15].
+The specific way in which the RF bands are used in mobile
+telecommunications is called the wireless standard - the name
+given to each generation of mobile telecommunications -
+which have replaced each other over the last 30 years: 1G,
+2G, 3G, 4G, and 5G. Each generation comprises a different
+family of wireless protocols [16].
+3) Proprietary communication hardware: There are several
+examples of proprietary communication protocols for commu-
+nicating with a UxV; this subsection presents some of the most
+commonly used hardware.
+The SiK Telemetry Radio is an open-source, small, and
+lightweight radio platform for establishing telemetry connec-
+tions between autopilots and ground stations [17].
+The HM30 Full HD Transmission System by SIYI Tech-
+nology sends video to the operator [18].
+The Herelink system by CubePilot is an advanced remote
+control and video transmission system designed for UxVs.
+It integrates a remote controller with a built-in screen on a
+customised Android operating system. This system supports
+popular ground control software like QGroundControl and
+Solex [19].
+4) MAVLink: MAVLink is a middleware protocol that is
+a universal language for autonomous systems. The main
+function of this protocol is to ensure that UxVs can easily
+talk to each other and Ground Control Station (GCS) by
+sharing important data like their positions. Almost everyone
+in the autonomous systems world uses MAVLink, even big
+companies that do not always use open-source [20]. MAVLink
+messages are formatted in binary code with a compact 8-
+byte header, which makes them highly efficient. Built-in error
+control mechanisms ensure data integrity [21].
+The big deal with MAVLink is that it creates one common
+way to communicate with UxVs, ground stations, and acces-
+Integration of a Commercial 
+Unmanned Vehicle into the Army Communications System
+STO-MP-IST-209 
+1760 - 2

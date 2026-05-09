@@ -1,0 +1,1504 @@
+Source file: onera4.pdf
+Relative path: onera4.pdf
+Page count: 48
+Extracted pages: 48
+
+================================================================================
+
+[Page 1 / 48 | chars: 2259]
+--------------------------------------------------------------------------------
+
+Conférence 
+Mieux connaître les drones 
+Avant-propos 
+Une véritable mutation des systèmes aériens 
+Voler est et restera l'un des plus grands plaisirs de l'homme...  
+Toutefois, si celui-ci était à bord de la première machine volante, pour sa plus grande 
+fierté, ses connaissances scientifiques et technologiques lui permettent aujourd'hui 
+de rester au sol dans certaines circonstances et ce, pour son plus grand avantage.  
+Il étend ainsi de façon considérable le champ d'utilisation des aéronefs qui, prenant 
+le nom de "drones", semblent être légitimement appelés à une carrière prometteuse.  
+Ce nouveau palier aéronautique franchi par l'homme est le fruit des plus récents 
+progrès accomplis dans des domaines clés, tels que l'informatique, la robotique, 
+l'optronique, l'imagerie radar, la transmission de données, etc.  
+Les drones occupent ainsi à juste titre une place de plus en plus importante dans les 
+milieux aéronautiques et de la défense. Et l'on assiste à une montée en puissance 
+des expérimentations dans le monde entier, encore plus ou moins opérationnelles.  
+Oui mais...  
+Si le potentiel d'applications civiles et militaires semble effectivement très élevé, ce 
+n'est pas sans soulever certaines difficultés fondamentales qui, à défaut d'être 
+résolues, pénaliseraient gravement une utilisation optimale des drones. Ces 
+difficultés peuvent toutes être aplanies. A condition d'en avoir la volonté et de s'en 
+donner les moyens...  
+Après les Etats-Unis et Israël, l'Europe et la France ont mis longtemps à se réveiller. 
+Pourtant, il est indispensable de préserver notre indépendance et de nous affirmer 
+au plan technologique, comme nous avons su le faire dans d'autres domaines 
+(Airbus, Ariane, Eurocopter...).  
+L'Onera, établissement public français de recherche dédié au secteur aéronautique 
+et spatial, est, dans le cadre de sa vocation, légitimement et fortement concerné. Il se 
+propose de jouer son rôle de catalyseur, et de fédérer les efforts scientifiques autour 
+des grands projets de dimension internationale, afin de répondre aux attentes de la 
+société.  
+Le but de ce premier livret est à la fois d'expliquer ce que sont les drones, de 
+démontrer leur potentiel considérable, mais aussi d'exposer leur problématique.
+
+[Page 2 / 48 | chars: 384]
+--------------------------------------------------------------------------------
+
+Il sera suivi d'un deuxième tome, démontrant pourquoi et comment l'Onera, acteur 
+reconnu dans les domaines clés qui intéressent les drones, se propose d'apporter 
+ses compétences en vue de répondre à chacune des questions qui sont soulevées 
+aujourd'hui.  
+Une nouvelle page de l'histoire de l'aérospatiale est incontestablement en train de 
+s'écrire.  
+Ce ne sera pas sans l'Onera !
+
+[Page 3 / 48 | chars: 1548]
+--------------------------------------------------------------------------------
+
+Historique 
+Les drones déjà dans l'histoire...  
+Ce sont les lourdes pertes subies pendant la seconde guerre mondiale par les 
+aviations d'observation de chacun des antagonistes qui suscitèrent l'idée d'un engin 
+d'observation militaire sans équipage (ni pilote, ni observateur).  
+ 
+   
+Les premiers drones apparurent en France dans les années 1960, tel le R 20 de 
+Nord-Aviation, dérivé de l'engin cible CT 20. Mais les exemples significatifs d'une 
+utilisation opérationnelle des drones sont encore peu nombreux.  
+Pendant la guerre du Vietnam, les Américains ont utilisé des drones (Firebee) pour 
+localiser les rampes de lancement des missiles sol-air soviétiques «SAM-2» : 3500 
+missions furent recensées. Plus tard, en 1991, lors de la guerre du Golfe, ils ont fait 
+appel au drone (Pioneer) pour la surveillance jour/nuit, l'acquisition des objectifs, et 
+les réglages de l'artillerie. Dans ce même conflit, les Britanniques et les Français 
+commencèrent à servir des drones.  
+De leur côté, les Israéliens ont saturé les défenses aériennes le long du canal de 
+Suez lors de la guerre du Kippour (1973) et ce, avec un grand nombre de drones bon 
+marché. Plus tard, ils ont détecté et «leurré» par le même moyen les batteries 
+syriennes anti-aériennes.  
+D'une façon générale, les spécialistes considèrent que les drones ont pu vraiment 
+démontrer leurs capacités opérationnelles d'observation aérienne (renseignement), 
+sur les trois récents théâtres d'opération qu'ont constitué les conflits en ex-
+Yougoslavie, en Irak, et en Afghanistan.
+
+[Page 4 / 48 | chars: 1037]
+--------------------------------------------------------------------------------
+
+C'est encore un drone (Hunter) qui a successivement assuré la surveillance des 
+réunions du G8 à Evian en 2003, ainsi que les cérémonies de célébration du 60 ème 
+anniversaire du débarquement allié en Normandie en 2004.  
+Les exemples d'utilisation civile, eux, se font plus rares. On peut toutefois citer la 
+surveillance urbaine en Afrique du sud, et le traitement des cultures effectué au 
+Japon par des drones hélicoptères télécommandés. En France, deux drones 
+miniatures sont en expérimentation au sein de la Gendarmerie nationale et du GIGN 
+(Coccinelle). De son côté, le Laboratoire Central des Ponts et Chaussées a procédé 
+à des essais de surveillance d'ouvrage d'art, également avec un drone à voilure 
+tournante.  
+Mais le drone est encore mal connu, et suscite de ce fait des appréhensions. Une 
+demande d'expérimentation de surveillance de trafic routier sur le périphérique d'une 
+grande ville française à partir d'un drone miniature (environ 6 Kg) a été refusée en 
+2004 par les autorités et ce, pour raisons de sécurité.
+
+[Page 5 / 48 | chars: 1185]
+--------------------------------------------------------------------------------
+
+I - Qu'est-ce qu'un drone ? 
+ 
+Eagle 1  
+© EADS & IAI 
+Il n'y a pas de pilote à bord...  
+Les drones sont des aéronefs (1) capables de voler et d'effectuer une mission sans 
+présence humaine à bord. Cette première caractéristique essentielle justifie leur 
+désignation de Uninhabited (ou Unmanned) Aerial Vehicle (UAV). D'origine anglaise, 
+le mot «drone», qui signifie «bourdon», ou «bourdonnement», est communément 
+employé en Français en référence au bruit que font certains d'entre eux en volant !  
+ 
+Décollage automatique du RESSAC  
+© ONERA 
+La désignation de drone est très limitative puisqu'elle ne recouvre qu'un véhicule 
+aérien. Le drone n'est en fait qu'un des éléments d'un système, conçu et déployé 
+pour assurer une ou plusieurs missions. C'est la raison pour laquelle les spécialistes 
+parlent de «systèmes de drones».  
+Le principe des drones peut être rapproché, toutes proportions égales par ailleurs, de 
+celui de l'aéromodélisme, selon lequel des petites maquettes sont pilotées par 
+télécommandes.  
+On distingue toutefois deux catégories de drones : ceux qui requièrent effectivement 
+l'assistance d'un pilote au sol, par exemple pour les phases de décollage et
+
+[Page 6 / 48 | chars: 1702]
+--------------------------------------------------------------------------------
+
+d'atterrissage, et ceux qui sont entièrement autonomes. Cette autonomie de pilotage 
+peut s'étendre à la prise de décision opérationnelle pour réagir face à tout 
+événement aléatoire en cours de mission ; elle constitue la deuxième caractéristique 
+essentielle des drones.  
+Il est arrivé, lors d'une démonstration officielle, et à la grande 
+stupeur des organisateurs eux-mêmes, qu'un drone "remette les 
+gaz" alors qu'il était en approche pour un atterrissage sur piste et 
+ce, sur "sa" propre décision...!  
+ 
+Prowler à l'atterrissage  
+© General Atomics  
+Bien sûr, on ne saura jamais ce qu'aurait fait un pilote «humain» 
+dans les mêmes circonstances : aurait-il fait de même ou aurait-il 
+cherché à atterrir à tout prix du fait de l'importance de la 
+démonstration ?  
+Le drone, lui, a eu une considération totalement objective de la 
+situation !  
+ 
+ 
+La vocation principale des drones est l'observation et la surveillance aériennes, 
+vocation jusqu'à présent surtout utilisée à des fins militaires (actuellement 90% du 
+marché mondial des drones). Ainsi, tous les drones, qu'ils soient autonomes ou non, 
+requièrent la présence au sol d'au moins un opérateur, pour recueillir en temps réel 
+les bénéfices de la mission : celui-ci reçoit, analyse et enregistre les informations 
+transmises par le drone.  
+Aujourd'hui, les progrès réalisés, à la fois dans les performances des drones et leurs 
+équipements, leur confèrent un très large potentiel d'utilisation dans le domaine civil.  
+Enfin, une troisième caractéristique essentielle des drones est qu'ils sont 
+récupérables, ce qui permet de les réutiliser. Cela les différencie des missiles, 
+auxquels on aurait pu être tenté de les assimiler.
+
+[Page 7 / 48 | chars: 1666]
+--------------------------------------------------------------------------------
+
+Le drone n'a pas de pilote à bord.  
+Il est autonome et réutilisable.  
+Il doit être considéré dans le cadre d'une mission et d'un système. 
+Des formes multiples et originales  
+La plupart des drones sont comparables aux 
+avions, sauf que leur forme n'est pas dictée par 
+celle d'un fuselage devant abriter au moins un 
+pilote (de façon confortable) : les combinaisons 
+de formules aérodynamique et de propulsion sont 
+donc plus larges. Il existe de nombreuses 
+configurations de drones, très différentes les 
+unes des autres – pratiquement une pour chaque 
+machine – et dont certaines sont très novatrices. 
+En fait, la forme d'un drone sera déterminée par 
+la nature et le profil de sa mission, ainsi que par 
+sa charge utile : à chaque demande correspond 
+pratiquement une solution spécifique.  
+Les éléments composant un drone répondent aux 
+mêmes fonctions que sur un avion.  
+La cellule, porte et abrite la charge utile, le 
+moteur et les systèmes de bord, ainsi que le 
+carburant.  
+La sustentation est en général assurée par une 
+voilure fixe ou tournante, comme sur 
+hélicoptères. Cette dernière est choisie pour 
+certaines missions spécifiques, requérant le vol 
+stationnaire, par exemple pour des relevés 
+devant s'effectuer de façon horizontale 
+(inspection des gros ouvrages d'art, 
+photogrammétrie...), ainsi qu'une grande 
+souplesse de manœuvre (évolutions autour de 
+l'objectif) ; ou encore nécessitant l'appontage sur 
+un bateau (surveillance maritime ou mission de 
+recherche et sauvetage...).  
+ 
+ 
+ 
+ 
+ 
+Golden Eye,  
+moteur caréné 
+© Aurora Flight 
+Sciences  
+Tracker, 
+fuselage bipoutre  
+X47, 
+aile volante 
+Drone hélicoptere 
+Scorpio  
+© EADS
+
+[Page 8 / 48 | chars: 965]
+--------------------------------------------------------------------------------
+
+Il existe également des projets de drones à ailes 
+battantes, comme celles des oiseaux ou de 
+certains insectes, ainsi que des projets de drones 
+«convertibles», qui associent, grâce à leurs rotors 
+basculants, les capacités de vol vertical de 
+l'hélicoptère à celles des grandes vitesses de 
+l'avion.  
+La motorisation du drone est également dictée 
+par la mission qui lui est attribuée ; elle est 
+déterminée par la grosseur de la machine (et sa 
+masse), l'altitude et la durée de son vol. On 
+retrouve sur les drones toute la palette des 
+motorisations possibles pour les avions (moteurs 
+à pistons, avec ou sans turbocompresseur, 
+turbines à hélices, turboréacteurs), auxquelles 
+s'ajoutent, pour les petits drones et ceux dotés 
+d'une voilure tournante, les moteurs électriques. 
+Les Américains évaluent actuellement pour la 
+première fois un drone doté d'un moteur diesel 
+(sur le Hunter).  
+ 
+Convertible Eagle 
+Eye 
+© Bell 
+Global Hawk  
+© Northrop 
+Grumman
+
+[Page 9 / 48 | chars: 2492]
+--------------------------------------------------------------------------------
+
+Les moteurs électriques  
+Ces derniers sont légers mais ne peuvent bénéficier que d'une 
+autonomie de fonctionnement limitée du fait du poids élevé que 
+représentent les batteries dans lesquelles sont stockées les 
+réserves d'énergie nécessaires à leur fonctionnement. Cette 
+difficulté reste soumise à l'évolution de la technologie des 
+accumulateurs et, à plus long terme, au développement de piles à 
+combustibles, qui seraient capables d'alimenter ces batteries 
+pendant une période suffisamment élevée. Certains drones 
+peuvent être dotés de panneaux de cellules solaires 
+photoélectriques qui alimentent les batteries (notamment sur des 
+ailes battantes).  
+La motorisation électrique évite le transport de carburant et est 
+indétectable du point de vue thermique.  
+ 
+Systèmes de bord et charge utile  
+Les systèmes de bord sont essentiels car ils assurent le 
+pilotage et la navigation de façon automatique. Ils peuvent 
+fonctionner en parfaite autonomie ou selon des ordres émis 
+depuis le sol, par un opérateur chargé de conduire la mission.  
+Le système de conduite du vol asservit plusieurs équipements 
+entre eux : les capteurs (mesurant les paramètres du vol) ; des 
+calculateurs, respectivement dédiés au pilotage et à la 
+navigation, et d'où sont émis les ordres de pilotage ; une 
+mémoire (contenant la programmation du vol et, 
+éventuellement, des critères de décision, préalablement 
+enregistrés), et les actionneurs (agissant sur les commandes de 
+vol). Cette chaîne est parfaitement comparable, au degré de décision près, à celle 
+d'un pilote automatique sur avion, couplé à un système de navigation de type FMS 
+(Flight Management System), se référant à des données GPS (Global Positioning 
+System). En outre, elle doit être capable de maintenir le drone dans son enveloppe 
+de vol, protégeant celui-ci des situations dangereuses, (turbulences, configurations 
+instables...).  
+La charge utile, proprement dite, constitue l'un des éléments fondamentaux du 
+système drone car c'est elle qui permettra, en parfaite adéquation avec le vecteur 
+aérien, de réaliser la mission. Souvent placée en dessous de la structure, elle 
+consiste en un ensemble d'équipements pouvant assurer trois fonctions essentielles :  
+• 
+L'acquisition des données, par des capteurs, électro-optiques (caméras 
+visibles ou infrarouges) ou électromagnétiques (radars), capables de restituer 
+des images, ou tout autre capteur plus spécifique (par exemple, bio-senseurs, 
+ 
+Helios  
+© AeroVironement
+
+[Page 10 / 48 | chars: 2413]
+--------------------------------------------------------------------------------
+
+sorte de capteurs chimiques/biologiques capables de détecter pollution et 
+radiations).  
+• 
+Un éventuel traitement à bord des données, par des calculateurs, afin de les 
+rendre directement et plus rapidement exploitables, en vol (mise à un format 
+spécifique) ou au sol (restitution d'images pour interprétation par l'opérateur), 
+et suivi, si nécessaire, de leurs fusion/compression.  
+• 
+Une possible sélection à bord des informations «utiles» qui seront transmises 
+vers le sol, requérant une pré-analyse des données acquises (effectuée par 
+des processeurs, par comparaison aux critères entrés en mémoire). 
+L'ensemble des ces données peut aussi être enregistré à bord, pour envoi 
+différé ou pour dépouillement ultérieur après retour au sol.  
+ 
+Seeker II © Kentron 
+Un système spécifique produit l'énergie électrique nécessaire au fonctionnement de 
+l'ensemble des équipements embarqués. Comme sur un avion, cette énergie est 
+obtenue par transformation de l'énergie mécanique prélevée sur la partie tournante 
+du moteur (arbre de l'hélice ou de la turbine).  
+Certaines charges utiles requièrent une grande quantité d'énergie, qui s'ajoute à celle 
+consommée par les autres équipements. Ce paramètre peut devenir dimensionnant 
+pour le drone et sa mission. Dans certains cas, et sur les drones de grande taille, un 
+petit turboréacteur d'appoint ou APU (Auxiliary Power Unit) est nécessaire.  
+Un système de transmission de données entre le drone et le sol, achemine à la fois 
+les ordres venant du sol (en temps réel) et les informations envoyées par le drone 
+(en temps réel ou différé, le plus souvent par intermittence). Cette transmission 
+s'effectue par télécommunication, soit en portée optique (ligne directe) sur de courtes 
+distances - jusqu'à 150 km ; soit en utilisant un relais, ce dernier pouvant être un 
+satellite ou un autre vecteur aérien (avion ou drone).  
+Dans les deux cas, la densité des données transmises (malgré fusion et 
+compression) peut nécessiter des grands débits. En outre, la haute définition, en 
+matière d'imagerie, n'est pas compatible avec une vitesse de transmission trop 
+élevée.  
+La transmission par laser constitue une prospective qui demandera, d'une part, une 
+connaissance précise de la position du drone, d'autre part, une parfaite stabilité du 
+dispositif émetteur et ce, de façon à assurer avec précision et de façon constante la 
+projection des faisceaux.
+
+[Page 11 / 48 | chars: 2067]
+--------------------------------------------------------------------------------
+
+Charge utile expérimentale du Ressac  
+© ONERA 
+Une intelligence embarquée donne au drone ses différents degrés d'autonomie, en 
+matière de pilotage et pour la réalisation de sa mission. Cette «intelligence» est 
+fournie par des calculateurs dédiés, auxquels sont asservis le système de conduite 
+de vol, d'une part, et la charge utile d'autre part, ainsi que par les bases de données 
+spécifiques auxquelles sont comparées les informations acquises par le drone (par 
+exemple, pour la reconnaissance et l'identification des éléments observés : terrains, 
+sources de chaleur/départ de feu, objectifs militaires, etc.). Les logiciels mis en 
+œuvre revêtent une importance capitale, notamment dans la rapidité et la stabilité de 
+leurs algorithmes.  
+Certains drones militaires peuvent également être armés (bombes, roquettes ou 
+missiles) afin de remplir des missions d'attaque au sol, ce qui nécessite un système 
+de gestion spécifique à l'armement embarqué.  
+C'est la mission du drone et sa charge utile  
+qui vont déterminer sa configuration.  
+Son exploitation nécessite une capacité élevée  
+de transmission de données avec le sol. 
+Des caractéristiques variées  
+De quelques centimètres à une quarantaine de mètres, de quelques dizaines de 
+grammes à une quinzaine de tonnes, les drones sont de taille et de masse 
+essentiellement variables : c'est, d'une part, les performances requises par la mission 
+et, d'autre part, la nature et l'importance de la charge utile, qui sont déterminants.  
+On trouve ainsi des drones permettant des altitudes de vol qui peuvent évoluer de 0 
+à 20 000 mètres, une vitesse largement subsonique, de 150 km/h à Mach 0,8, et un 
+rayon d'action qui peut dépasser les 10 000 km, avec une capacité trans-océanique.  
+Les coûts  
+Les drones ont logiquement des coûts très différents, sachant que les plates-formes 
+seules (c'est-à-dire la cellule et la motorisation) ne représentent généralement que 
+15 à 25 % du coût du système complet, la charge utile, les systèmes embarqués, et 
+les stations-sol étant la partie la plus onéreuse.
+
+[Page 12 / 48 | chars: 454]
+--------------------------------------------------------------------------------
+
+De façon plus précise, le coût de la charge utile peut être évaluée à quelque 8 000 
+dollars par kilogramme, et celui de la plate-forme à environ 1 500 $/Kg.  
+A titre d'exemple, un drone tactique coûte de 0,5 à 3 millions d'euros, suivant les 
+performances.  
+(1) Les aéronefs sont des machines volantes plus lourdes que l'air (avion, 
+hélicoptères, planeurs, ULM...), par opposition aux aérostats, plus légers que l'air 
+(ballons, montgolfières, etc.).
+
+[Page 13 / 48 | chars: 670]
+--------------------------------------------------------------------------------
+
+II – Comment utilise t-on un drone ? 
+ 
+Un concept d'utilisation de drone : 
+après le décollage, le drone rejoint la zone d'observation assignée en navigation 
+autonome, 
+patrouille et transmet les informations utiles, puis revient se poser à son point de 
+départ. 
+© ONERA 
+Une grande souplesse d'emploi  
+Le départ d'un drone peut s'effectuer depuis une plate-forme terrestre ou maritime, 
+ou encore depuis un autre véhicule aérien. Il peut être lancé à la main (c'est le cas 
+des drones de petites dimensions) ; il peut être catapulté ; enfin, il peut décoller 
+depuis une piste, soit en mode télécommandé par un pilote au sol, soit de façon 
+entièrement automatique.
+
+[Page 14 / 48 | chars: 2295]
+--------------------------------------------------------------------------------
+
+Phase de lancement sur catapulte d'un drone SDTI 
+C'est une fois arrivés sur la zone de mission (après une navigation automatique) que 
+les drones se distinguent par leur degré d'autonomie. Certains nécessiteront des 
+interventions humaines, notamment face à des situations imprévues (dues à la 
+mission ou au vol), d'autres seront dotés d'une intelligence embarquée leur donnant 
+une entière autonomie de décision et donc, d'action 
+ou de réaction.  
+Pour la récupération du drone, deux solutions sont 
+possibles : faire revenir celui-ci à l'endroit d'où il est 
+parti et le faire atterrir (en mode automatique ou 
+télécommandé), ou le faire «se poser» à un endroit 
+spécifié à l'avance. En général, cette dernière 
+pratique s'applique à ceux qui sont partis d'une 
+catapulte et qui ne sont pas dotés de train 
+d'atterrissage. La séquence consiste, après réduction 
+de l'altitude et de la vitesse, à ouvrir un ou plusieurs 
+parachutes, puis à déployer des ballons gonflables 
+(«airbags») sous la structure. En outre, on peut 
+également récupérer le drone dans un filet, ce qui 
+élimine tout système embarqué pour l'atterrissage.  
+Le «système drones»  
+La mise en œuvre d'un ou de plusieurs drones fait 
+appel à différents éléments, constituant un «système 
+drones». Ce système a deux composantes :  
+• 
+Un segment air, lui même composé du drone, de sa charge utile et de son 
+système de transmission.  
+• 
+Un segment sol, constitué d'un ensemble de matériels, et de un ou plusieurs 
+hommes, ayant un degré d'intervention plus ou moins élevé.  
+On distingue encore dans la composante sol deux catégories de matériels :  
+o Ceux ayant trait au lancement et à la récupération des drones 
+(catapulte, filets, etc.), et auxquels s'ajoutent les moyens techniques 
+nécessaires à la maintenance et au re-conditionnement des drones, 
+exactement de la même façon que pour l'exploitation des avions.  
+o Ceux ayant trait à la conduite de la mission, et devant permettre 
+d'assurer, au sein d'une «station sol» les fonctions suivantes : 
+ 
+La gestion du vol et de la navigation (en temps réel si le drone 
+est piloté du sol, ou en simple surveillance s'il est autonome).  
+ 
+La réception des données envoyées depuis le drone et, 
+éventuellement, le décryptage.  
+Récupération par parachute 
+d'un Sperwer
+
+[Page 15 / 48 | chars: 648]
+--------------------------------------------------------------------------------
+
+ 
+L'analyse et l'interprétation des données, leur éventuelle 
+retransmission à un centre de décision ou d'intervention, ainsi 
+que leur enregistrement.  
+La station de contrôle et de réception des données peut s'envisager, dans l'avenir, 
+étant elle-même aéroportée (avions gros porteurs ou de combat).  
+L'ensemble de ces composantes intervient évidemment dans l'évaluation des coûts 
+d'un «système de drones».  
+Station de réception de 
+données Sperwer 
+© SAGEM DS  
+Station au sol d'analyse 
+d'informations transmises 
+depuis un drone 
+Le drone est parfaitement interactif avec le sol.  
+Il peut être autonome dans le cadre d'une mission simple
+
+[Page 16 / 48 | chars: 2011]
+--------------------------------------------------------------------------------
+
+III – De l'utilité des drones 
+ 
+Sperwer © SAGEM DS 
+De nombreuses qualités  
+Les principales qualités des drones découlent du fait qu'ils sont «sans pilote». Cette 
+caractéristique, essentielle, supprime toute notion de risque pour l'équipage, 
+notamment dans le domaine militaire (dangerosité des missions), mais également 
+pour toutes les missions considérées comme physiologiquement difficiles ou pénibles 
+pour l'homme (accès à haute altitude, long temps passé sur site...). En outre, là où il 
+faut 2 à 3 hommes pour réaliser des tâches multiples à bord d'un avion (pilotage, 
+mise en œuvre de la charge utile, analyse et décision, transmission radio...), de 
+même que là où il faut compter plusieurs équipages techniques pour qu'un avion 
+d'observation soit parfaitement opérationnel (compte-tenu des repos et congés 
+réglementaires, des maladies, etc.), le drone est économique en personnel navigant. 
+Néanmoins, les premières «expériences» ont montré que l'exploitation d'un drone 
+mobilisait beaucoup de monde au sol.  
+Enfin, l'entraînement et les qualifications des opérateurs au sol sont moins 
+complexes et moins coûteux.  
+La deuxième qualité essentielle d'un drone est sa souplesse d'opération (envoi, 
+récupération, réutilisation), et son efficacité. On citera par exemple : l'accessibilité 
+des sites à survoler ; la qualité de l'observation (logiquement meilleure à 5000 m qu'à 
+800 km par satellite...) ; le temps élevé passé sur zone ; la transmission des 
+données, en temps réel ou peu différé. Cette dernière qualité permet l'exploitation 
+des informations dans un délai très court.  
+Enfin, des drones de même modèle peuvent constituer un vecteur commun à 
+plusieurs missions différentes mais faisant appel aux mêmes équipements de base 
+(observation et surveillance aériennes) et, surtout, au même sous-système sol. De 
+même, des drones de différents types, peuvent utiliser la même station-sol. Ils 
+peuvent par exemple être rentabilisés sur plusieurs saisons pour différentes missions
+
+[Page 17 / 48 | chars: 1858]
+--------------------------------------------------------------------------------
+
+civiles (surveillance des feux de forêts, du trafic routier, des avalanches, des 
+frontières, du trafic maritime côtier, etc.). C'est un facteur important d'amortissement 
+et donc de rentabilité de ces moyens aériens.  
+Les drones représentent une solution intéressante pour les 
+missions dans lesquelles la présence d'équipage à bord n'apporte 
+pas de plue-value ou au cours desquelles le niveau de risque est 
+très élevé. Par leurs particularités, permanence, endurance, rayon 
+d'action, réactivité, discrétion et polyvalence d'emploi, les drones 
+apportent de nouvelles possibilités qui renforcent les capacités des 
+aéronefs modernes. Les perspectives technologiques conduiront à 
+élargir le domaine d'utilisation des systèmes non pilotés dans les 
+opérations aériennes, bien au delà de leurs missions initiales de 
+renseignement, leur donnant ainsi une vocation de compléter, voire 
+de remplacer à terme, plusieurs aéronefs et satellites. 
+Les drones ne mettent pas de vie humaine en danger.  
+Ils sont polyvalents et efficaces. 
+Une vocation militaire affirmée  
+ 
+Exemples d'utilisation de drones militaires : 
+largage de packs de survie (parachutés) à des commandos avancés,  
+surveillance de mouvements ennemis sur route, désignation par laser d'un objectif au 
+sol permettant le tir depuis un avion d'armes et relais de communications  
+(entre une station au sol et un avion haute altitude).  
+© ONERA 
+Le développement des drones sur une large gamme - du mini drone tactique, à 
+l'échelle du fantassin, au drone stratégique de haute technologie - incite les forces 
+armées à les intégrer progressivement dans la panoplie des moyens aériens 
+engagés sur les théâtres d'opérations et ce, en complément des systèmes 
+classiques, avions, hélicoptères, missiles de croisière, et satellites. Ainsi, le domaine 
+d'action des drones ne cesse de s'élargir.
+
+[Page 18 / 48 | chars: 1739]
+--------------------------------------------------------------------------------
+
+Des progrès réalisés au niveau des systèmes de guidage et des liaisons sécurisées 
+pourront permettre d'envisager la généralisation de la gestion à distance des 
+missions réalisés par les drones...envoyés très loin dans la profondeur des dispositifs 
+adverses aussi bien qu'au contact immédiat des forces ennemis.  
+On peut en fait décomposer en trois grandes catégories, les missions militaires 
+confiées aux drones :  
+• 
+La surveillance et le renseignement  
+• 
+Le support au combat  
+• 
+Le combat proprement dit  
+ 
+Catapultage opérationnel  
+d'un Sperwer en Afghanistan  
+© SAGEM DS  
+by courtesy of the Canadian Forces 
+1/ La surveillance et le renseignement  
+Le «renseignement» militaire au profit des instances gouvernementales ou des 
+armées (incluant la Gendarmerie), qu'il soit d'ordre stratégique ou tactique, résulte de 
+la très grande capacité d'observation aérienne et d'écoute des drones. Cette mission 
+est naturellement la première qui leur ait été attribuée et reste encore la principale.  
+La conduite des opérations dans les nouveaux conflits devient extrêmement 
+exigeante en termes de temps de réaction, de besoin d'identification ami/ennemi, 
+ainsi que d'interopérabilité des forces terrestres, aériennes ou navales, non 
+seulement entre elles mais également entre celles de plusieurs pays.  
+La variété des capteurs utilisés permet de recueillir plusieurs types d'informations, 
+restituées sous forme d' images, d'origine électro-optique ou électromagnétique et 
+ce, en temps réel, sur terre, sur mer, depuis l'espace aérien inférieur ou même 
+supérieur.  
+Les drones peuvent observer à longue distance, à travers les nuages, hors des 
+menaces sol-air, et pendant des périodes significatives (de 12 à 24 heures et
+
+[Page 19 / 48 | chars: 1499]
+--------------------------------------------------------------------------------
+
+potentiellement beaucoup plus : les opérateurs pouvant se relayer au sol) : 
+l'autonomie n'est plus qu'une question de quantité de carburant embarquée.  
+Les informations transmises par le drone peuvent être exploitées de différentes 
+manières : pour l'évaluation de la situation sur un théâtre d'opérations, la surveillance 
+d'une zone, la détection et l'identification des objectifs à traiter à court terme, 
+l'évaluation des dommages après une frappe aérienne ou un tir d'artillerie à longue 
+portée, et même, pour l'alerte au départ de missiles balistiques. En observant la 
+phase balistique du missile ennemi dans des conditions plus favorables qu'à partir 
+d'un satellite géostationnaire, le drone devrait également pouvoir prédire le point 
+d'impact.  
+Les drones répondent ainsi parfaitement aux exigences modernes de continuité du 
+renseignement par la permanence spatiale et temporelle qu'ils permettent d'assurer 
+sur zone.  
+Les drones sont des vecteurs essentiels 
+de recueil du renseignement militaire.  
+ 
+Drone du fantassin (Bourdon)  
+ 
+SDTI en vol 
+2/ Le support au combat  
+La polyvalence des équipements embarqués et les évolutions technologiques 
+rapides des systèmes multiplient les perspectives d'emploi des drones dans le 
+domaine dit du «support au combat». Ces missions sont plus précisément les 
+suivantes :  
+• 
+La désignation d'objectifs  : une charge utile de type illuminateur laser confère 
+aux drones des capacités d'illuminer un objectif fixe ou mobile en vue de sa
+
+[Page 20 / 48 | chars: 2588]
+--------------------------------------------------------------------------------
+
+destruction par des moyens d'attaque aéroportés, avions ou hélicoptères de 
+combat (utilisant eux-mêmes des armes guidées par laser). Ces capacités ont 
+déjà fait leur preuve sur les théâtres d'opération des Balkans, d'Afghanistan et 
+d'Irak.  
+• 
+Le relais de communication  : l'évolution en altitude permet de s'affranchir du 
+relief qui pénalise les faisceaux hertziens et permet éventuellement aux 
+drones de remplacer avantageusement les satellites de communication 
+géostationnaires, dont les capacités sont réduites en termes de débit et de 
+largeur de bande.  
+• 
+Le soutien aux opérations spéciales  : les mini ou micro-drones, portables à 
+dos d'homme, discrets et simples d'emploi, peuvent constituer «l'œil avancé», 
+de jour et de nuit, du commando appelé à intervenir en zone hostile, dans un 
+environnement accidenté ou urbanisé.  
+• 
+Le brouillage  : communications, émissions des radars de défense aérienne, 
+systèmes sol-air, localisation par GPS, etc. peuvent être brouillés par les 
+drones, dans le but de gêner l'ennemi tout en assurant la protection 
+électromagnétique des frappes aériennes par aéronefs ou missiles. Le 
+brouillage des émissions radio et télévisées, la diffusion d'émissions parasites 
+ou d'informations «orientées» seront également dans leur possibilités (action 
+psychologique). 
+• 
+Le support au déploiement  : évaluation de l'environnement des zones de 
+déploiement des forces, notamment les menaces NRBC (Nucléaire, 
+Radiologique, Bactériologique et Chimique), en évitant de compromettre la 
+sécurité de vecteurs de reconnaissance pilotés.  
+• 
+Le transport  : largage discret sur le terrain - éventuellement dans un contexte 
+hostile - de charges de dimensions et de poids réduits (vivres ou 
+équipements) au profit d'unités isolées ou en déploiement avancé.  
+3/ Le combat  
+L'emploi de drones à hautes performances, spécifiquement conçus pour le combat, 
+est envisagé au sein de véritables systèmes de combat mixtes, aux côtés des 
+aéronefs de combat pilotés.  
+Divers concepts d'emploi sont étudiés, tels que l'attaque d'objectifs fixes ou mobiles, 
+pouvant par exemple permettre la neutralisation ou la destruction des moyens sol-air 
+adverses.  
+L'utilisation des drones pour des combats aériens semble encore relever aujourd'hui 
+du domaine de la prospective opérationnelle. Les états-majors étudient cependant 
+l'hypothèse de les employer comme moyen d'identification avancée, sous contrôle 
+d'un avion de combat piloté ou d'un PC volant. Dans ce contexte, l'étape «tir» de 
+missiles air-air embarqués sur le drone apparaît envisageable.
+
+[Page 21 / 48 | chars: 1259]
+--------------------------------------------------------------------------------
+
+III – De l'utilité des drones 
+ 
+Quelques exemples de missions civiles  
+qui pourraient être attribuées à un drone, dans le domaine de la surveillance :  
+réseaux routiers, avalanches, côtes maritimes (dégazages sauvages),  
+agriculture (nuage d'insectes), feux de forêts.  
+© ONERA 
+Un fort potentiel civil  
+Bien que le marché soit quasi inexistant aujourd'hui, c'est très probablement dans le 
+domaine civil que les drones sont appelés à jouer le plus grand rôle et ce, du fait de 
+leur souplesse et de leur polyvalence d'emploi. La palette des applications 
+potentielles est presque illimitée, celles-ci étant d'autant plus crédibles qu'elles 
+peuvent répondre à un besoin qui n'est pas couvert par un avion piloté. C'est le cas 
+des missions qui peuvent être considérées comme dangereuses, pénibles 
+physiquement pour l'équipage, ou ennuyeuses.  
+Comme dans le domaine militaire, les exemples d'applications potentielles peuvent 
+se diviser en plusieurs grandes catégories :  
+ 
+1/La surveillance et l'observation  
+• 
+Etudes scientifiques  
+o Étude de l'atmosphère, des sols (géologie) et des océans  
+o Etudes et prévisions météorologiques  
+• 
+Surveillance d'urgence  
+o Incendies de forêts, avalanches  
+o Volcans, tornades  
+o Recherche et sauvetage
+
+[Page 22 / 48 | chars: 1706]
+--------------------------------------------------------------------------------
+
+o Evaluation des dégâts en cas de catastrophe naturelle (inondation, 
+tempête, marée noire, éruption, tremblement de terre, etc.)  
+• 
+Surveillance civile  
+o Surveillance des cultures et épandage agricole  
+o Surveillance maritime (voies maritimes, trafic de drogue, clandestins, 
+détection des pollutions par hydrocarbures, localisation pour 
+sauvetage).  
+o Surveillance urbaine, des manifestations, ainsi que des frontières  
+o Inspection des ouvrages d'art tels les ponts, les viaducs, les barrages  
+o Surveillance des oléoducs, gazoducs, caténaires et voies ferrées, 
+lignes à haute tension  
+o Surveillance du trafic routier et du transport de matières dangereuses  
+2/ Des missions exploitant le vecteur aérien  
+o Transport de fret  
+o Cartographie  
+o Utilisation par l'industrie cinématographique  
+o Largages de vivres et d'équipements de sauvetage en zones hostiles  
+3/ Des missions spécifiques  
+o Relais de communications  
+o Missions dangereuses (détection de gaz toxiques, radiations)  
+o Recherche et sauvetage (mer, montagnes, désert...)  
+ 
+Ces applications sont évidemment susceptibles d'intéresser un large éventail de 
+clients utilisateurs, publics et parapublics, tels que la Police, la Gendarmerie (corps 
+d'état militaire mais ayant des besoins assimilables aux besoins «civils»), les 
+Pompiers (évaluation de sinistres, repérage de réfugiés dans un immeuble ou sur le 
+toit), la Sécurité civile, EDF-GDF, la SNCF, France Télécom, Laboratoire Central des 
+Ponts et Chaussées (LCPC), etc.  
+ 
+De nombreuses entreprises privées sont également concernées, dans les secteurs 
+du bâtiment, des travaux publics, de la prospection (minière et pétrolière), des 
+télécommunications, etc.
+
+[Page 23 / 48 | chars: 2964]
+--------------------------------------------------------------------------------
+
+Face aux problèmes potentiels de coûts d'acquisition, d'opération et de maintenance, 
+on peut envisager le regroupement de plusieurs opérateurs afin de partager les 
+moyens face à des besoins communs, notamment en matière de surveillance. Ce 
+concept est déjà appliqué au Japon et en Israel.  
+On peut même imaginer la création de sociétés privées, sorte de «compagnies 
+aériennes» d'un nouveau type, qui, étant propriétaires d'une flotte de machines, 
+loueraient leurs services à des tiers. Le développement de l'utilisation civile des 
+drones aurait vite fait, comme pour toutes nouvelles technologies, de susciter des 
+systèmes d'exploitation structurés à buts lucratifs.  
+La palette des applications civiles des drones est presque illimitée. 
+Difficultés d'opérations  
+L'utilisation optimale des drones et la «généralisation» de leur emploi soulèvent 
+toutefois un certain nombre de difficultés qui devront être aplanies à terme. Ces 
+difficultés ne sont pas toujours du même ordre selon que l'on envisage le marché 
+civil ou militaire, mais elles sont essentiellement de deux types :  
+ 
+1/ Les contraintes opérationnelles  
+• 
+Navigabilité et intégration dans la circulation aérienne.  
+Les drones doivent impérativement répondre à des critères de navigabilité et 
+respecter des règles de circulation aérienne, analogues à ceux des avions.  
+Cela leur impose de bénéficier d'un certain niveau de fiabilité technique et de 
+résistance au crash (pour assurer la sécurité au sol) mais également d'une 
+fiabilité satisfaisante du point de vue comportemental (pour assurer la sécurité 
+des autres aéronefs en vol). Celle-ci doit s'exercer en matière de détection de 
+proximité, de contrôle du pilotage, d'échange de données avec le contrôle au 
+sol, ainsi que de la capacité de gestion des situations dégradées.  
+C'est un problème crucial pour les drones qui, a priori, ne satisfont pas 
+actuellement à ces contraintes.  
+La résolution de ces difficultés pourrait naturellement déboucher sur la 
+création d'une certification des drones par des autorités compétentes, comme 
+pour tous les autres aéronefs. Celle-ci apporterait certaines garanties dans les 
+niveaux de fiabilité recherchés.  
+Aux États-Unis, en 2003, la NASA s'est jointe à la FAA (les autorités 
+aéronautiques civiles) et au DOD (le ministère de la défense), en collaboration 
+avec les six industriels américains les plus impliqués dans les systèmes de 
+drones (formant le Groupe «Unite»), pour lancer un ambitieux programme 
+dénommé «Access 5». Son objectif est de faire voler couramment d'ici cinq 
+ans les drones sous plans de vol (en régime IFR), entre les niveaux 180 et 
+400, c'est-à-dire à des altitudes comprises entre 5500 et 12000 mètres et ce, 
+suivant une procédure rapide, comparable à la procédure actuelle pour les 
+avions pilotés civils.  
+En Europe, également en 2003, les autorités européennes de la JAA ont 
+entamé une réflexion sur l'élaboration d'une réglementation drones,
+
+[Page 24 / 48 | chars: 1940]
+--------------------------------------------------------------------------------
+
+s'appuyant sur les résultats du projet de recherche européen USICO 
+(Unmanned Aerial Vehicle Safety Issues for Civil Operations), auquel a 
+participé l'Onera. Ces travaux ont depuis été repris par l'Agence Européenne 
+pour la Sécurité Aérienne (AESA). De leur côté, sept industriels européens se 
+seraient réunis en 2004 pour établir une stratégie commune concernant la 
+certification des drones.  
+En France, la Délégation Générale pour l'Armement est à l'origine d'une 
+proposition de code de navigabilité pour les drones militaires.  
+• 
+La législation 
+L'utilisation des drones doit être compatible avec les législations nationales et 
+internationales dans le domaine des responsabilités juridiques. La question 
+fondamentale est évidemment de déterminer la responsabilité, au sens 
+juridique du terme, en cas de dommages au sol suite à la chute d'un drone 
+(alors que celui-ci n'était pas piloté).  
+• 
+L'altitude 
+Si l'absence de l'homme à bord permet plus facilement l'accès aux hautes 
+altitudes, favorables à de plus grandes portées d'observation, celles-ci posent 
+néanmoins certaines questions relativement : aux règles de souveraineté 
+auxquelles n'échappe que l'espace extra-atmosphérique selon le droit 
+international, domaine exclusif des satellites ; la vulnérabilité aux menaces 
+sol-air de hautes performances (jusqu'à 92 000 pieds) ; une rupture 
+technologique sur les moteurs au delà de 60.000ft.  
+• 
+La sécurité 
+La transmission des ordres et des informations échangés entre le sol et le 
+drone utilise un segment aérien, vulnérable aux ruptures de transmissions et 
+aux brouillages. C'est une partie fragile du système, qui nécessite la plus 
+haute protection pour une utilisation militaire.  
+ 
+Crécerelle 
+2/ Les contraintes techniques  
+• 
+La transmission des données 
+C'est un aspect extrêmement contraignant en termes de fréquences, de 
+débits, de portées, de résistance aux perturbations radio-électriques et au
+
+[Page 25 / 48 | chars: 1966]
+--------------------------------------------------------------------------------
+
+brouillage. Il est indispensable de garantir la fiabilité des stations sol et des 
+liaisons avec les vecteurs.  
+• 
+La discrétion 
+Cette qualité militaire fondamentale, qui dépend de plusieurs facteurs, tels que 
+la furtivité (faible signature radar) et l'intensité de différentes formes 
+d'émissions (acoustique, électromagnétique, infrarouge...), nécessite un 
+compromis entre les exigences aérodynamiques (formes de la structure), de 
+performances (matériaux), de motorisation (source de chaleur), et 
+d'architecture du système de communication (champ d'antennes).  
+• 
+La motorisation 
+Principale source actuelle de panne, celle-ci doit répondre à des exigences 
+d'endurance, de fiabilité (avec possibilité de rallumage en vol ?), de discrétion 
+et de coût... Elle devra pour ce faire satisfaire également à règles de 
+maintenance très strictes, pouvant aussi être soumises à des normes 
+d'homologation par les autorités.  
+• 
+La réactivité du système et la place de l'homme dans la conduite de la 
+mission 
+L'architecture du système doit être un compromis optimisé entre l'intelligence 
+embarquée, les aides à la décision déportée et l'action de l'opérateur.  
+• 
+La gestion des pannes en vol (situations dégradées) 
+Son efficacité sera toujours un compromis entre coût et complexité du 
+système (donc masse et volume).  
+• 
+La maintenance et le stockage 
+Ils devront faire l'objet d'une politique spécifique et soumise à surveillance, qui 
+devra être pris en compte dès la conception du système.  
+• 
+L'entraînement et le maintien en condition des opérateurs 
+Si le système drone permet l'utilisation intensive de la simulation, l'expérience 
+déjà acquise a démontré qu'un entraînement réel des équipes en situation sur 
+le terrain était indispensable. Il permet en outre de valider l'état opérationnel et 
+l'efficacité des systèmes.  
+ 
+L'utilisation civile des drones est essentiellement soumise  
+à leur fiabilité et à leur intégration dans le trafic aérien
+
+[Page 26 / 48 | chars: 1105]
+--------------------------------------------------------------------------------
+
+Merlin © SAGEM DS  
+Marché  
+Très peu d'études de marché semblent disponibles aujourd'hui. Les drones n'ont pas 
+encore été identifiés comme pouvant représenter un véritable «marché» dans le 
+secteur civil. Et, de fait, toutes les applications potentielles étant encore mal cernées, 
+il est difficile d'en appréhender le développement commercial, qui plus est, dans le 
+monde entier.  
+Les quelques cabinets s'étant risqués à publier des résultats d'études s'accordent en 
+tout cas pour dire que les drones représenteront dans les années à venir l'un des 
+secteurs les plus dynamiques de l'industrie aérospatiale, et que leurs applications 
+exploseront sur le marché commercial... dès que des réglementations les concernant 
+auront pu être définies et publiées.  
+En revanche, les avis semblent quelque peu diverger sur les prévisions chiffrées : 
+d'une base commune d'évaluation du marché à quelque 2 milliards de dollars au 
+début des années 2000, les estimations s'étendent de 5 à 10 Md$, soit du simple au 
+double, pour après 2010...  
+On peut s'attendre à une véritable explosion du marché des drones
+
+[Page 27 / 48 | chars: 1370]
+--------------------------------------------------------------------------------
+
+IV - Un catalogue déjà large 
+ 
+La classification la plus logique des drones adopte pour critères principaux la taille ou 
+les performances (essentiellement la portée, et l'altitude d'opération) ; 
+éventuellement le type de mission si celui-ci implique une spécificité particulière 
+(utilisation maritime par exemple).  
+Les drones miniatures  
+ 
+Birotan 
+Cette catégorie recouvre globalement tous les drones dont l'envergure est inférieure 
+à 50 centimètres, cette dernière pouvant descendre jusqu'à quelques cm seulement 
+(on parle dans ce cas de nano-drones).  
+Les micro-drones, dont les dimensions sont inférieures à 15 cm, pèsent environ 50 
+grammes, pour une vitesse de croisière de l'ordre de 50 Km/h, une autonomie d'une 
+vingtaine de minutes et un rayon d'action d'une dizaine de kilomètres.  
+D'un coût unitaire de l'ordre du millier de dollars, ces micro-machines sont dédiées à 
+la transmission d'images, de jour comme de nuit. Les missions envisagées dans le 
+domaine militaire sont la reconnaissance d'un itinéraire, l'évaluation de dommages 
+ou l'observation d'une cible fixe. Utilisées en milieu urbain, on peut imaginer que ces 
+machines survolent ou contournent des pâtés de maisons et même, entrent dans un 
+immeuble... On peut dès lors imaginer les applications civiles, au profit des pompiers, 
+de la police, ou de tous autres services de sécurité.
+
+[Page 28 / 48 | chars: 1698]
+--------------------------------------------------------------------------------
+
+Projet Bertin 
+© Bertin Technologies  
+Etudiées dès le début des années 90 aux Etats-Unis, ces machines font toutefois 
+appel à des technologies très ambitieuses de par la miniaturisation demandée et ce, 
+dans tous les domaines : aérodynamique complexe (à faible nombre de Reynolds), 
+source d'énergie à haut rendement, propulseurs ultra-légers, micro systèmes... 
+Plusieurs configurations sont étudiées : ailes fixes, voilure tournante, et même, ailes 
+battantes, en s'inspirant réellement du principe de sustentation des insectes et des 
+oiseaux. L'Onera mène depuis 2002 une recherche sur ce dernier type de 
+sustentation sous le nom de REMANTA (Research program on Microvehicle And 
+New Technologies Application).  
+Les drones de court rayon d'action  
+Dits encore drones TCP (Très Courte Portée), ou, dans le jargon militaire «drones du 
+capitaine», ces drones sont destinés à «voir de l'autre côté de la colline», soit à 
+quelques kilomètres.  
+D'envergure de 0,5 à 2 mètres, et généralement à voilure fixe, ils ont une faible 
+vitesse (quelques dizaines de km/h) et évitent difficilement les obstacles. Les 
+développements technologiques requis pour cette catégorie concernent 
+principalement les capteurs (évitement d'obstacles et caméra jour/nuit miniaturisée).  
+En fait, les qualités de ces drones sont autant de critères de choix pour l'armée de 
+terre, française par exemple : rusticité et simplicité d'utilisation, réduisant 
+l'instruction ; transportable à dos d'homme (replié dans un sac à dos) ; lancement à 
+la main par un seul homme ; discrétion acoustique ; faible coût ; transmission de 
+données en temps réel (et sur une «station-sol» pouvant se réduire à une simple 
+valise).
+
+[Page 29 / 48 | chars: 1367]
+--------------------------------------------------------------------------------
+
+EMT Aladin  
+Les drones tactiques à moyen rayon d'action  
+Pouvant être dotés de vitesse lente (150 km/h) ou rapide (700 km/h), ces drones 
+représentent la catégorie intermédiaire, avec des performances variées. Avec une 
+masse au décollage qui reste inférieure à une tonne, leur rayon d'action s'étend de 
+30 à 500 km, leur altitude de vol, de 200 à 5000 mètres, et leur endurance, de 2 à 8 
+heures.  
+Cette catégorie a fait l'objet de nombreux développements dans le monde, sauf, 
+curieusement aux Etats-Unis (excepté le drone Shadow). La plupart des systèmes 
+opérationnels sont utilisés pour des missions de surveillance et de reconnaissance, 
+avec utilisation de senseurs optiques (domaines visible et infrarouge).  
+Les deux extrêmes de vitesse sont respectivement illustrés par les deux drones 
+utilisés jusqu'à présent par l'armée de l'air française : le CL-289 (700 km/h), et le 
+Crécerelle (environ 140 km/h)  
+ 
+CL 289 © EADS 
+Les drones maritimes tactiques  
+La spécificité des drones maritimes embarqués vient d'une double contrainte 
+d'utilisation, qui exige une adaptation technique complexe : disposer d'une autonomie 
+assez importante (au moins 5 heures), et être capable d'apponter par fort vent sur 
+une plate-forme étroite, partiellement entourée d'obstacles et soumise à des 
+déplacements de grande amplitude, en roulis et tangage par mer agitée.
+
+[Page 30 / 48 | chars: 1356]
+--------------------------------------------------------------------------------
+
+Orka © EADS 
+Deux démonstrateurs américains sont connus à ce jour : le Fire Scout de Northrop 
+Grumman (drone hélicoptère de 1150 kg, capable d'une autonomie de 6 heures pour 
+un rayon d'action proche de 200 km), et le Eagle Eye de Bell, très original puisqu'il 
+s'agit d'un convertible (doté d'une autonomie de 5,5 heures et capable d'un rayon 
+d'action proche de 600km avec une vitesse de 370 km/h).  
+En France, EADS développe l' Orka 1200, et ETC Industries, le Hetel M01 (en 
+coopération avec le bureau d'études Isnav).  
+Les drones à voilure tournante  
+ 
+RESSAC en vol  
+© ONERA 
+Cette catégorie se distingue par sa forme de sustentation mais recouvre des tailles et 
+des performances de drones très variées.  
+En dehors des drones maritimes déjà cités, le R-Max de Yamaha a déjà été livré à 
+plus de 1000 exemplaires, dont plusieurs pour l'épandage agricole ; c'est le seul 
+exemple de drone ayant déjà fait l'objet d'une telle production de série.  
+C'est à partir de R-Max que l'Onera développe son projet de drone RESSAC 
+(Recherche Et Sauvetage par Système Autonome Coopérant) à forte intelligence 
+embarquée, ce qui lui confère un haut niveau d'autonomie et lui permet de réaliser 
+de façon entièrement automatique des missions complexes, pouvant déboucher sur 
+le sauvetage d'un homme en difficulté dans un environnement hostile et mal connu.
+
+[Page 31 / 48 | chars: 2021]
+--------------------------------------------------------------------------------
+
+Les drones de longue endurance  
+Avec des durées de vol comprises entre 12 et 48 heures, on entre ici dans la 
+catégorie des «grands» drones, dont la taille est essentiellement dictée par une 
+charge utile lourde et une quantité élevée de carburant, nécessaire à la mission. 
+Cette catégorie se divise elle-même en deux parties, en fonction de l'altitude de vol 
+des machines : comme pour les avions, plus on vole haut, plus on va vite et plus on 
+parcourt de la distance. On distingue ainsi les drones dits «MALE» (Moyenne Altitude 
+Longue Endurance) des drones «HALE» (Haute Altitude Longue Endurance).  
+C'est cette catégorie qui serait appelée, a priori, à couvrir la plus large palette de 
+missions.  
+1/ Les drones «MALE» (Moyenne Altitude Longue Endurance)  
+ 
+Heron © IAI 
+L'altitude de vol est, pour cette catégorie, comprise entre 5000 et 12000 mètres, ce 
+qui permet de parcourir jusqu'à 1000 km, à des vitesses relativement faibles, de 220 
+à 360 km/h (induites par des moteurs à pistons ou des turbopropulseurs). La masse 
+peut cette fois atteindre 3,5 tonnes, et l'envergure est généralement comprise entre 
+10 et 20 mètres.  
+Si les Américains ont été peu présents dans le domaine des drones tactiques à 
+moyen rayon d'action, ils ont d'emblée conçu des systèmes MALE à la dimension de 
+leurs théâtres d'opérations en vue, non seulement de missions de reconnaissance et 
+de surveillance, mais aussi de désignation et de destruction d'objectifs au sol.  
+Les MALE opérationnels les plus connus sont le Hunter et le Heron d'Israel Aircraft 
+Industries, ainsi que le Predator américain (General Atomics)  
+2/ Les drones «HALE» (Haute Altitude Longue Endurance)  
+On atteint dans cette catégorie les dimensions d'un avion civil (Airbus A320 par 
+exemple) pour des autonomies de plusieurs milliers de kilomètres (10 000 km et 
+plus) parcourues en volant largement au dessus des trafics aériens courants, tant 
+civils que militaires (jusqu'à 20 000 m d'altitude). Les moteurs sont cette fois des 
+turboréacteurs.
+
+[Page 32 / 48 | chars: 2004]
+--------------------------------------------------------------------------------
+
+La masse au décollage des drones HALE peut largement dépasser les 10 t, dont 
+quelque 10% pour la charge utile.  
+Toutes les informations recueillies par les capteurs sont transmises par satellite au 
+centre d'opérations. Leur densité requiert en général de gigantesques capacités de 
+transmission, et donc le support d'un important segment spatial.  
+Les capacités de ces drones HALE sont à rapprocher et à comparer à celles des 
+avions pilotés, du type de l'avion espion U2 ou des avions de renseignement 
+électronique Sigint, ainsi qu'à celles des satellites d'observation ou d'alerte.  
+ 
+Global Hawk  
+© Northrop Grumman 
+L'exemple le plus connu de HALE est le Global Hawk américain, de Northrop 
+Grumman, qui, en avril 2001, a volé depuis la Californie jusqu'en Australie. Peu 
+après, en octobre 2003, dans le cadre de l'initiative allemande «Euro Hawk» et en 
+coopération avec EADS, un drone du même type a effectué un vol transatlantique, 
+depuis la Californie jusqu'au nord de l'Allemagne, afin d'effectuer des vols de 
+démonstration à partir de ce pays.  
+Les drones de combat, ou UCAV (Unmanned Combat Aerial Vehicle)  
+Il s'agit bien sûr des drones à vocation offensive, dont la charge utile comprend des 
+armements – le plus souvent, des missiles – afin d'effectuer des missions d'attaque 
+au sol voire, à plus long terme de défense aérienne et de police du ciel.  
+Ce sont de véritables avions de combat non pilotés mais dont la gestion déportée de 
+l'armement accroît considérablement la complexité technologique. Ces engins 
+doivent être capables d'identifier et de désigner des cibles, avec la capacité d'être 
+réorientés en vol à partir d'informations obtenues en temps réel sur l'évolution de la 
+situation au sol, pour des tirs d'opportunité. Ils doivent également disposer d'une 
+certaine autonomie pour la poursuite des cibles, et être capables de manœuvres de 
+dégagement après le tir.  
+Ces ambitions relèvent encore actuellement de la prospective industrielle et 
+opérationnelle.
+
+[Page 33 / 48 | chars: 1585]
+--------------------------------------------------------------------------------
+
+X-45A © Boeing 
+En outre, il faut prévoir que l'homme reste toujours dans la boucle décisionnelle, 
+depuis une station au sol ou un PC volant (AWACS ou avion de combat), afin qu'il 
+garde la décision de tir et puisse éventuellement annuler la mission.  
+Un Predator américain a tiré à plusieurs reprises des missiles antichars Hellfire (à 
+guidage laser) et antiaériens Stinger.  
+Le paysage industriel  
+La vocation actuelle, essentiellement militaire, des drones fait des Etats les 
+principaux clients. Ils entrent ainsi dans le cadre de «programmes» nationaux, 
+souvent développés sur crédit publics, et obéissant aux choix des instances militaires 
+et gouvernementales.  
+L'absence de marché privé n'a encore pas ou peu incité les constructeurs à 
+développer des machines sur fonds propres, afin que celles-ci soient disponibles 
+prêtes à l'emploi, pour telle ou telle mission. Un contre exemple est toutefois celui de 
+Yamaha, sur le marché de l'épandage agricole, avec son R-Max.  
+On retrouve chez les drones les différents métiers qui participent à la construction 
+des avions : avionneurs (cumulant en général les fonctions de constructeur de 
+cellules, d'assembleur et d'intégrateur), de motoristes, de systémiers et 
+d'équipementiers. Toutefois, l'industrialisation des drones n'étant pas encore bien 
+structurée, on trouve aussi des «équipementiers» qui, sous-traitant les parties 
+structure et moteurs, intègrent eux-mêmes leurs propres systèmes/charges utiles. 
+Pourtant, l'efficacité du drone dépend de la parfaite adéquation entre le vecteur 
+aérien et sa charge utile.
+
+[Page 34 / 48 | chars: 730]
+--------------------------------------------------------------------------------
+
+Atelier d'intégration des drones Sperwer  
+© SAGEM DS  
+Le métier de «dronier» n'est pas encore parfaitement défini ! 
+ 
+ 
+ 
+ 
+V - Les drones dans le monde 
+ 
+X-45A © Boeing 
+Selon des estimations américaines, quelque 32 pays développeraient ou 
+construiraient actuellement en série plus de 250 modèles de drones différents, 80 de 
+ceux-ci étant exploités par 41 nations, essentiellement dans le domaine militaire.  
+La production et le développement des drones sont largement dominés par l'industrie 
+américaine, mais plusieurs pays se sont lancés avec succès dans la compétition, en 
+particulier Israël, qui possède une longue expérience, grâce au fait que son espace 
+aérien n'est contrôlé que par les militaires, et la France.
+
+[Page 35 / 48 | chars: 2859]
+--------------------------------------------------------------------------------
+
+Aux Etats-Unis  
+Très tôt, la défense américaine a été 
+convaincue que les drones pourraient 
+contribuer à accroître sa supériorité 
+stratégique. L'armée de l'air (US Air Force 
+ou USAF) élabore en conséquence une 
+doctrine d'emploi spécifique pouvant 
+s'appuyer sur un important programme 
+d'équipement. Elle analyse une nouvelle 
+tactique de puissance aérienne grâce aux 
+systèmes de drones de combat dont elle 
+envisage l'intégration dans ses forces à 
+l'horizon 2015. Ces systèmes seraient 
+consacrés en priorité à des missions de 
+reconnaissance, à la suppression des défenses aériennes ennemies, puis à des 
+opérations de frappe par tout temps.  
+Plusieurs programmes de démonstrateurs d'UCAV réunissent en ce sens la DARPA 
+(Defence, Advanced Research Projects Agency), l'US Air Force et l'US Navy qui se 
+sont regroupées en octobre 2003 sous le sigle «Joint Unmanned Combat Air 
+System» (J-UCAS) afin de faire converger des spécifications jusqu'alors assez 
+différentes. Après une première étape réalisée par des modèles réduits ( X-45A de 
+Boeing et X-47A de Northrop Grumman), un programme de démonstration baptisé 
+Block 2 doit se poursuivre avec des véhicules de plus grandes dimensions. Le but 
+est, entre autres, d'examiner la capacité des drones de communiquer entre eux (afin 
+de mener des missions coordonnées), d'effectuer le largage d'une bombe à guidage 
+GPS, de faire l'objet de reprogrammation de mission en cours de vol, ainsi que d'un 
+transfert de contrôle de la mission, d'un opérateur vers un autre, distant du premier.  
+La démonstration des véritables capacités opérationnelles seront les objectifs des 
+deux nouveaux démonstrateurs en cours de développement chez les deux mêmes 
+constructeurs, respectivement le X-45C et le X-47B, cette fois de masse et de 
+dimensions comparables à celles d'avions de combat (Le X-45C de Boeing aura une 
+envergure de 15 m et une masse au décollage de 16 570 Kg, dont 2040 Kg de 
+charge utile). Selon les spécifications communes du J-UCAS, ces appareils devront 
+avoir un rayon d'action maximal supérieur à 2000 km, une vitesse de croisière de 
+Mach 0,85, à une altitude supérieure à 10500 m, et emporter deux bombes de 1 
+tonne en soute.  
+Le programme de démonstration devrait aboutir en 2007 ; il sera suivi d'une phase 
+d'évaluation opérationnelle qui se poursuivra pendant deux ans.  
+Il semble ainsi qu'aux États-Unis, la place des UCAVs dans l'ensemble des systèmes 
+d'armes, le choix de leurs missions prioritaires et surtout les coûts d'acquisition et de 
+possession, feront l'objet d'études et de discussions pendant plusieurs années, avant 
+une décision de lancement d'un programme opérationnel.  
+Plusieurs autres programmes d'évaluation ou de démonstration de drones sont en 
+cours (au total, une douzaine), comme par exemple le BAMS (Broad Area Maritime 
+X-47A  
+© Northrop Grumman
+
+[Page 36 / 48 | chars: 2442]
+--------------------------------------------------------------------------------
+
+Surveillance) lancé par l'US Navy pour 2 Md$, en complément du futur avion multi-
+mission MMA (devant remplacer le P-3C Orion), pour la surveillance, l'appui tactique 
+et le relais de communications (parmi les candidats figure le Predator B de Lockheed 
+Martin), ou l'UCARE, programme de drones de combat à voilure tournante, dotés de 
+missiles et de roquettes.  
+En Europe  
+L'Europe s'est ralliée tardivement au concept des drones, tant dans la réalisation des 
+plates formes non pilotées que dans l'élaboration d'une doctrine d'emploi, hormis 
+quelques engins tactiques utilisés par les armées de terre.  
+Ainsi, il n'existe pas encore de véritable politique européenne en matière de drones, 
+en dehors de quelques programmes de recherche très amont. En revanche, des 
+accords ponctuels ont été passés à plusieurs reprises entre pays, de leur propre 
+initiative. Par exemple, le premier accord de coopération, préfigurant le futur 
+programme Euromale a été signé fin 2003 entre la France et les Pays-Bas sur les 
+études de faisabilité d'un drone MALE. Inscrit dans le cadre de la PESD (Politique 
+Européenne de Sécurité et de Défense), cet accord était dès le départ, ouvert à 
+d'autres pays européens...  
+ 
+Démonstrateur Petit Duc  
+© Dassault Aviation 
+D'autres projets industriels, à retombées européennes, ont vu le jour depuis, tels l' 
+EuroHawk (un Global Hawk américain doté d'une charge utile européenne à vocation 
+d'écoute à longue distance qui réunit la France et l'Allemagne), et l'UCAV français, 
+piloté par la France, qui associe celle-ci avec la Suède et la Grèce.  
+Les possibilités de coopération des états européens sur les programmes futurs sont 
+traitées par le sous-groupe  «système de combat aérien futur européen» (SCAFE), 
+les plates formes, vecteurs pilotés et UCAV étant inscrits dans le périmètre de 
+l'étude.  
+Une nouvelle initiative a été prise dans le cadre du «Security Framework». 
+Naturellement orientée sur l'utilisation des drones pour développer la sécurité en 
+Europe, elle prévoit plusieurs projets, pour un total de 15 M€.  
+On doit noter au Royaume-Uni, le programme de drones de renseignement militaire 
+Watchkeeper – le plus important envisagé à ce jour en Europe (1,2 Md€) – dont la 
+maîtrise d'œuvre a été confiée à Thales, placée à la tête d'un consortium 
+international réunissant six entreprises. Ce programme s'appuie sur les drones 
+Hermes 450 et 180 d'Elbit, rebaptisés WK 450 et WK 180.
+
+[Page 37 / 48 | chars: 2745]
+--------------------------------------------------------------------------------
+
+Du côté de la recherche, le 5 ème PCRD – Programme Cadre de Recherche et 
+Développement (1998 – 2002) a été très ouvert au sujet des drones. Plusieurs 
+projets d'études, impliquant fortement l'Onera, ont été lancés tels que :  
+• 
+CAPECON (Civil UAV Applications & Economic Effectivity of Potential 
+Configuration Solutions), cherchant à identifier les applications civiles 
+potentielles des drones, en y associant respectivement la configuration 
+nécessaire, la charge utile et le coût.  
+• 
+USICO (Unmanned Aerial Vehicle Safety Issues for Civil Operations), pour la 
+certification des drones aux plans de la navigabilité et de leur utilisation 
+opérationnelle, incluant leur intégration dans la circulation aérienne.  
+• 
+UAV-Net (Unmanned Aerial Vehicle Network), visant à élaborer un réseau 
+thématique européen permettant l'échange et la diffusion de la connaissance 
+relative aux technologies des drones.  
+Ces programmes de recherche, dont les résultats sont maintenant disponibles, ont 
+permis de faire avancer considérablement certains sujets vitaux pour l'avenir des 
+drones.  
+En revanche, le 6ème PCRD (2002 – 2006) n'a rien prévu dans le domaine des 
+drones, ce qui pourrait refléter un manque profond de conviction de la part de 
+certains décisionnaires politiques.  
+En France  
+Dans ce contexte, la France représentait, à mi-2004, le quart de l'ensemble des 
+investissements européens dans le domaine des drones. Malgré un budget «drones» 
+en forte croissance (multiplication par 10 en 10 ans), il ne correspondra, à l'horizon 
+2010, qu'à moins de 1% du budget total d'équipement militaire.  
+A cette même date, les Américains, dont le financement du Département de la 
+Défense pour le développement, l'achat et l'utilisation des drones prévoit d'être, lui 
+aussi, multiplié par 10 en dix ans, dépenseront 16 fois plus que nous ! (en 2010, ce 
+budget dépassera 3 milliards de dollars).  
+La prise de conscience de la révolution majeure que représente l'introduction 
+progressive des drones dans les systèmes opérationnels de défense s'est 
+concrétisée en France par la création de deux groupes de travail UAV / UCAV, d'une 
+part au sein du Conseil Général de l'Armement, d'autre part sous l'égide du Conseil 
+Scientifique de la Défense, dont les mandats visent à mettre en perspective le 
+calendrier des besoins et des évolutions, et à préconiser les actions à entreprendre.  
+C'est l'armée de terre qui a perçu la première l'intérêt des drones avec l'utilisation 
+opérationnelle dès 1993 des drones tactiques CL-289 (Canadair/EADS) puis 
+Crécerelle (Sagem) en 1995, ce qui lui a permis d'acquérir une certaine expérience 
+pratique, avant d'entrer dans une démarche plus volontariste de se forger une 
+véritable culture "drone".
+
+[Page 38 / 48 | chars: 1619]
+--------------------------------------------------------------------------------
+
+SDTI prêts au départ (France) 
+Réticente dans un premier temps, l'armée de l'air a pris conscience du potentiel de 
+ces nouveaux systèmes, et adopte aujourd'hui une démarche résolument 
+volontariste. Ce sont les contraintes budgétaires qui rythment la lente montée en 
+puissance du plan d'équipement : des programmes «intérimaires» (SDTI et SIDM) 
+permettront d'assurer une continuité entre l'obsolescence des systèmes actuels et 
+l'arrivée des programmes futurs (MCMM et MALE). Ainsi, par étapes pragmatiques, 
+l'armée de l'air estime pouvoir se constituer une doctrine d'emploi évolutive, fonction 
+des progrès technologiques démontrés, à intégrer dans un nouveau concept de 
+combat aérien.  
+La France a pris en 2003 et 2004 plusieurs initiatives fédératrices de projets 
+industriels à l'échelle européenne.  
+Les projets français en cours  
+ 
+1/ Drones miniatures  
+La Délégation Générale pour l'Armement (DGA) a lancé, en coopération avec 
+l'Onera, un concours d'idées universitaire sur les drones miniatures, prévoyant la 
+réalisation de démonstrateurs qui devront prouver en juin 2005 leurs capacités à 
+réaliser des missions de surveillance au-dessus d'un paysage urbain.  
+ 
+Auryon 
+ 
+Projet ENSMM  
+ 
+Projet ENSMA  
+2/ Drones de court rayon d'action  
+A l'issue d'une première expérimentation par l'armée de Terre des drones Pointer, le 
+Ministère de la défense a lancé un appel d'offres pour un programme DRAC (Drone 
+de Reconnaissance Au Contact, c'est-à-dire un drone du fantassin), suscitant la mise 
+en compétition des industriels, avec une sélection en 2004, suivie d'un an 
+d'évaluation opérationnelle.
+
+[Page 39 / 48 | chars: 2016]
+--------------------------------------------------------------------------------
+
+Ce programme semble intéresser beaucoup de candidats, parmi lesquels on trouve 
+des grands industriels de nature différentes (EADS, Thales, Sagem...), aux côtés de 
+sociétés plus modestes (Bertin Technologies, Tecknisolar-Seni...).  
+3/ Drones tactiques à moyen rayon d'action  
+Le drone lent Crécerelle de l'armée de terre doit être remplacé par un nouveau 
+système SDTI (Système de Drones Tactiques Intérimaires) comprenant deux 
+stations-sol disposant chacune de neuf drones Sperwer de Sagem.  
+Il s'agit d'un drone lent (175 km/h) mais endurant (5 heures, extensibles à 8), 
+évoluant à une altitude de 300 à 5000 mètres, et destiné à l'acquisition de jour 
+comme de nuit des objectifs dans la zone de responsabilité d'une division.  
+Puis la loi de programmation militaire prévoit l'arrivée vers 2010 du futur drone 
+tactique MCMM (Multi Capteurs Multi Missions), qui ajouteront aux fonctions de 
+renseignement et d'acquisition de leurs prédécesseurs (SDTI), une capacité de 
+guerre électronique (brouillage...).  
+ 
+Slowfast  
+© Dassault Aviation 
+4/ Drone maritime tactique  
+Deux types de démonstrateurs ont été lancés par la Marine française : d'une part, le 
+démonstrateur DMT (Drone Maritime Tactique) axé sur les problèmes de 
+récupération sur un bâtiment de taille moyenne (et probablement à voilure 
+tournante); d'autre part, le démonstrateur de drone naval dit DELE (Drone Embarqué 
+Longue Endurance). Ce dernier devrait être capable de décoller depuis un pont plat 
+de porte-avions ou du futur transport de chalands de débarquement, réaliser des 
+missions de reconnaissance et de surveillance, et apponter de façon automatique ; 
+son rayon d'action atteindra 110 km et son endurance sera de 12 heures.  
+5/ Drones MALE  
+A l'issue de l'expérience acquise depuis 1998 par l'armée de l'air avec les drones 
+Hunter (au nombre de quatre), celle-ci devrait mettre en œuvre à partir de 2005 un 
+escadron opérationnel équipé du système SIDM (Système Intermédiaire de Drone 
+Male - 2 station-sol et 3 drones).
+
+[Page 40 / 48 | chars: 2532]
+--------------------------------------------------------------------------------
+
+Eagle 1/Kiruna  
+© EADS & IAI 
+Le vecteur aérien de ce système sera basé sur le drone Eagle 1 proposé par 
+EADS/IAI, lui-même dérivé du drone israélien Heron. Il représentera un important 
+saut qualitatif par rapport au Hunter puisque capable d'emporter simultanément des 
+charges utiles électro-optique (imagerie jour), infrarouge (imagerie nuit), SAR (radar 
+d'imagerie tout temps), MTI (détection de cibles mobiles), ainsi que d'un système de 
+communication par satellite (le Hunter est limité à 150 Km de portée en direct).  
+A l'horizon 2009, un système plus performant « MALE futur » ou SDM (Système de 
+Drone MALE), réalisé dans le cadre d'un appel d'offre industriel international et conçu 
+selon une architecture ouverte et modulaire, permettra de couvrir, grâce à une 
+charge utile de l'ordre de 150 Kg, une très large gamme de missions, de 
+renseignement, de désignation d'objectifs et de communication opérationnelle, par 
+tout temps. Ainsi l'armée de l'air devrait disposer d'un système capable de 
+communiquer avec les centres de décisions situés au sol, mais aussi avec les autres 
+pilotes de systèmes d'armes, qu'ils soient situés en vol ou au sol.  
+L'acquisition des technologies requises pour le MALE futur se fera grâce au 
+démonstrateur multimission EUROMALE. Ce projet, financé pour une bonne part par 
+l'état français mais ouvert à une large coopération européenne, associe au départ 
+EADS, maître d'œuvre, à Dassault Aviation, Thales et Sagem pour la partie 
+française, à Stork/Fokker (Pays-Bas), pour l'étranger. Des discussions sont en cours 
+avec d'autres partenaires possibles dont la Suède, l'Italie, et l'Espagne. Le premier 
+vol est prévu en 2008.  
+6/ Drones HALE  
+Compte-tenu de son coût, estimé très élevé, cette catégorie ne figure pas encore 
+dans la programmation française, et ne pourrait être envisagé qu'en acquisition 
+commune de machine existante au niveau européen (par exemple sur le même 
+schéma que pour les avions de surveillance AWACS ou les Hawkeye). A noter que la 
+France n'aurait probablement besoin que de quatre ou cinq drones HALE pour 
+couvrir ses besoins.  
+7/ UCAV  
+Le Ministère de la Défense a lancé le développement d'un démonstrateur de drone 
+de combat, désigné « UCAV ». Doté d'une taille réduite, celui-ci pèserait de 2 à 4 
+tonnes à vide, bénéficierait d'une vitesse subsonique et pourrait emporter deux 
+bombes guidées de 250 kg. La maîtrise d'œuvre est confiée à Dassault Aviation, 
+associé à des partenaires Suédois (Saab) et Grecs (HAI). Des discussions sont en
+
+[Page 41 / 48 | chars: 538]
+--------------------------------------------------------------------------------
+
+cours avec d'autres partenaires possibles dont l'Espagne, l'Italie, la Belgique et la 
+Suisse.  
+Le premier vol du démonstrateur, connu sous le nom de Neuron, est prévu en 2008. 
+Ne préfigurant aucun programme ; il s'agit purement d'un démonstrateur de 
+technologies, devant assurer : la discrétion radar et infrarouge, le tir d'un armement 
+air-sol depuis une soute, le contrôle du vol depuis une station au sol, et l'intégration 
+de technologies susceptibles de réduire fortement les coûts.  
+ 
+Démonstrateur Neuron 
+© Dassault Aviation
+
+[Page 42 / 48 | chars: 2747]
+--------------------------------------------------------------------------------
+
+Conclusion 
+Des vecteurs d'innovation et de supériorité stratégique 
+L'expérience déjà acquise avec les drones et leurs développements technologiques 
+potentiels permettent d'affirmer que leur rôle va considérablement s'accroître, tant 
+dans les domaines civil que militaire. Dans le domaine civil, en couvrant des besoins 
+auxquels les aéronefs pilotés traditionnels ne peuvent pas toujours satisfaire. Dans le 
+domaine militaire, en complétant, voire en remplaçant les avions pour certaines 
+missions dangereuses ou de très longue durée, ainsi que les missiles pour les 
+missions d'observations qui nécessitent de la permanence sur zone ou de 
+l'observation précise directement contrôlable. Entre les deux, les drones semblent 
+pouvoir apporter une réponse satisfaisante au souci émergent de «défense-sécurité» 
+des Nations modernes et ce, en raison des nouvelles menaces de type terroriste 
+auxquelles elles doivent faire face, et qui peuvent affecter aussi bien les populations 
+civiles que les forces armées.  
+Pour toutes ces raisons, les Etats-Unis intègrent les drones dans leurs systèmes 
+d'armes, en les considérant comme des vecteurs d'innovation et de supériorité 
+stratégique.  
+En Europe, les drones doivent permettre de garder une indépendance en matière de 
+maîtrise de l'information et de moyens de commandement ou de conduite des 
+opérations. La France a acquis, avec le Mirage IV, une compétence dans la 
+reconnaissance aérienne tactique, qu'elle peut mettre à profit pour le développement 
+de drones MALE.  
+Grâce à leur intérêt tactique, voire stratégique, les drones constituent à la fois une 
+opportunité industrielle exceptionnelle pour l'Europe, avec un grand potentiel à 
+l'exportation, et un facteur d'impulsion nouvelle pour la recherche et les bureaux 
+d'études pénalisés par la restriction des programmes d'armement majeurs.  
+Un nouveau défi s'offre à l'aéronautique européenne. Ce défi demandera 
+d'importants efforts afin de franchir deux obstacles fondamentaux.  
+D'un côté, résoudre les difficultés incontournables qui interdisent aujourd'hui la 
+généralisation de l'emploi des drones :  
+• 
+Leur intégration dans la circulation aérienne, cette démarche pouvant 
+entraîner des évolutions de réglementations établies autour de certains 
+principes et ce, au titre des progrès des équipements embarqués.  
+• 
+Les transmission des données, qui doivent être extrêmement performantes au 
+vu de la densité des informations recueillies par les drones, et du caractère 
+stratégique de cette partie du système.  
+De l'autre côté, réaliser les progrès nécessaires pour augmenter le potentiel des 
+drones, dans les domaines des performances du vecteur, des charges utiles, de 
+l'intelligence embarquée, et de leur fiabilité.
+
+[Page 43 / 48 | chars: 157]
+--------------------------------------------------------------------------------
+
+Bénéficiant d'une vision globale de tous ces aspects de par ses activités courantes, 
+l'Onera est prêt à apporter toute sa contribution pour relever ce défi.
+
+[Page 44 / 48 | chars: 358]
+--------------------------------------------------------------------------------
+
+Mieux connaître les drones 
+Les drones à l’Onera 
+HALERTE 
+Haute Altitude Longue Endurance des Robots Transportant des Equipements 
+Méthode outillée de définition et d'évaluation de concepts de drones Hale 
+www.onera.fr/dcps/halerte/ 
+ 
+RESSAC 
+Recherche Et Sauvetage par Système Autonome Coopérant 
+Autonomie de décision pour atterrissage en terrain inconnu
+
+[Page 45 / 48 | chars: 250]
+--------------------------------------------------------------------------------
+
+REMANTA 
+REsearch program on Microvehicle And New Technologies Application 
+Recherche sur les microdrones à ailes battantes  
+ 
+3MAV (EUCLID CEPA 3.30) 
+Materials and Mechanism for Micro Air Vehicle 
+Etude des matériaux et mécanismes pour microdrones
+
+[Page 46 / 48 | chars: 1420]
+--------------------------------------------------------------------------------
+
+MAVDEM (EUROPA CEPA 15.10) 
+Mini Air Vehicle DEMonstrator 
+Définition et réalisation d’un drone 
+miniature capable de vol stationnaire et 
+de croisière économique rapide 
+www.mavdem-project.org 
+ 
+  
+Agence de Défense Européenne – Sense & Avoid 
+Technology demonstration study on Sense & Avoid technologies for 
+Long Endurance UAV 
+Etude des technologies potentielles pour la réalisation de la fonction 
+“sense & avoid” par des drones longue endurance 
+  
+Réseau thématique UAVNet (5ème PCRD)  
+Unmanned Aerial Vehicle NETwork 
+Constitution d’un réseau d’industries, de centres de recherche 
+et d’universités pour le développement des drones civils 
+www.uavnet.com 
+ 
+CAPECON (5ème PCRD)  
+Civil UAV Applications & Economic Effectivity of Potential Configuration 
+Solutions  
+Recensement d’applications civiles potentielles pour drones et définition de 
+configurations de véhicules associées. 
+www.uavnet.com 
+ 
+USICO (5ème PCRD)  
+Unmanned Aerial Vehicle Safety Issues for Civil Operations 
+Etude et recommandations sur les réglementations à mettre en place 
+pour permettre l’insertion de drones civils dans la circulation aérienne générale. 
+www.uavnet.com 
+ 
+IFATS (6ème PCRD) 
+Innovative Future Air Transport System 
+Projet de définition d’un système de transport aérien entièrement 
+automatisé pour étudier et analyser par simulation ce que pourrait 
+être le système de transport aérien futur. www.ifats-project.org
+
+[Page 47 / 48 | chars: 846]
+--------------------------------------------------------------------------------
+
+EXDRO 
+Expertise sur les systèmes de drones 
+MIRADOR 
+Moyen Infra-Rouge Aéroporté pour la Désignation d’Objectif Rapide antimissile 
+Etude d’un moyen aéroporté de détection de missile balistique 
+DEVIL 
+Expertise et assistance technique sur le thème de drones à voilure tournante 
+embarqués sur porte-avion 
+OTAN SCI124 
+System Concept and Integration 
+Analyse des concepts d’opération conjointe d’UAV et d’avions habités pour des 
+missions militaires 
+Etudes de concepts de drones  
+Conception d’un drone Hale multimission pour largage aéroporté de lanceur de 
+satellites, de transport de fret et d’observation par pod multi capteur - Contrat Cnes 
+ 
+Concours drones miniatures Onera-DGA 
+Stimuler une nouvelle génération d’ingénieurs pour définir et construire ces systèmes 
+de véhicules aériens automatiques/autonomes 
+concours-drones.onera.fr
+
+[Page 48 / 48 | chars: 171]
+--------------------------------------------------------------------------------
+
+BUSARD 
+Banc d’essais Ultra léger pour Systèmes Aéroportés de Recherche sur les Drones 
+Motoplaneur permettant la réalisation d’essais en vol de charges utiles pour drones
+

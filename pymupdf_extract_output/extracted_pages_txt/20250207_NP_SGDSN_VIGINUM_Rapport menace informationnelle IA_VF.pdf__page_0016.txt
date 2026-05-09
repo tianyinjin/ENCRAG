@@ -1,0 +1,58 @@
+Source file: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Relative path: 20250207_NP_SGDSN_VIGINUM_Rapport menace informationnelle IA_VF.pdf
+Page: 16 / 28
+
+================================================================================
+
+16 
+ 
+ 
+Ce même rapport de l’ISD27 révèle par ailleurs que les utilisateurs s'appuient souvent sur des stratégies 
+inadaptées pour déterminer si un contenu est généré ou non par l'IA. Au-delà de citoyens insuffisamment 
+outillés, c’est toute la société qui fait face à l’enjeu critique de discerner la réalité de la fiction, et le 
+synthétique de l’authentique.  
+Cette méfiance vis-à-vis de l'information pourrait être exploitée par des acteurs malveillants, comme l'ont 
+théorisé des chercheurs de l’université de Yale aux États-Unis avec le syndrome de « dividende du menteur 
+» 28 : plus une société apprend à être sceptique, plus il devient facile pour un menteur de remettre en 
+question des faits pourtant irréfutables. Cela pourrait à terme déstabiliser en profondeur les processus 
+démocratiques. 
+b. Risques liés à la prolifération de contenus synthétiques 
+Le recours à l’IA et la massification de la production de contenus permet également à certains acteurs 
+malveillants de venir occuper des espaces en ligne jusqu’alors peu investis afin d’y diffuser leurs récits. En 
+effet, la possibilité de produire des contenus à grande échelle autorise le déploiement de larges dispositifs, 
+positionnés de manière durable et visant des audiences spécifiques. Il est ainsi probable de voir se 
+multiplier des réseaux de faux médias locaux, à l’instar de l’opération PAPERWALL, dont le mode opératoire 
+consiste à créer des sites imitant des portails d’informations locaux pour diffuser propagande et 
+désinformation auprès de cibles localisées29. L’IA pourrait également être utilisée par des acteurs 
+malveillants pour favoriser le référencement30 de certains contenus sur des sujets très spécifiques.  
+Par ailleurs, sur des plateformes où l’algorithme de recommandation est particulièrement performant et 
+vient proposer à chaque utilisateur des contenus similaires à ceux avec lesquels il a déjà interagi, tels que 
+YouTube ou TikTok, la prolifération de contenus similaires sur une thématique donnée est susceptible 
+d’accélérer le phénomène du « terrier de lapin » (« rabbit hole ») en enfermant les utilisateurs dans une 
+bulle de contenus potentiellement manipulés. 
+c. Risque de pollution et d’auto-dégradation des modèles d’IA  
+La prolifération de l’utilisation de services d’IAg pose également la question des biais contenus dans les 
+données d’entraînement utilisées, ainsi que celle des sources potentiellement mobilisées pour générer la 
+réponse. S’agissant de l’entraînement des modèles, les fournisseurs de modèles pré-entraînés restent 
+souvent opaques sur les données utilisées, ainsi que sur les potentiels biais dans les réponses des IAg. Les 
+données d’entraînement sont issues de choix de collecte, de filtrage, et de traitement, qui se reflètent dans 
+les générations des modèles. Une partie de la communauté scientifique travaille à une plus grande 
+transparence de ces modèles31, et mène des travaux afin de mesurer les biais dans les jeux de données 
+utilisés32, ainsi que dans les réponses des modèles d’IAg33.  
+Pour éviter de fournir des réponses trompeuses, certains services s’appuyant sur des modèles d’IAg 
+proposent des sources pour étayer leur réponse, mais sans analyse préalable de la qualité de l’information 
+                                                        
+27 Rapport de l’Institute for Strategic Dialogue (ISD) intitulé « Déconnectés de la réalité : les électeurs américains face à l’IA et aux 
+stratégies OSINT défaillantes », en date du 7 novembre 2024. https://www.isdglobal.org/digital_dispatches/disconnected-from-
+reality-american-voters-grapple-with-ai-and-flawed-osint-strategies/ 
+28 Kaylyn Jackson Schiff, Daniel Schiff, and Natalia S. Bueno, 2024, « The Liar’s Dividend: Can Politicians Claim Misinformation to 
+Evade Accountability? », American Political Science Review, https://doi.org/10.1017/S0003055423001454  
+29 https://citizenlab.ca/2024/02/paperwall-chinese-websites-posing-as-local-news-outlets-with-pro-beijing-content/ 
+30 Le « référencement naturel » (en anglais SEO pour Search Engine Optimization), est une stratégie pour améliorer la visibilité d’un 
+site web sur les moteurs de recherche afin d’atteindre un public cible.  
+31 The Foundation Model Transparency Index de l’université Stanford https://crfm.stanford.edu/fmti/May-2024/index.html 
+32 Par exemple, le projet Knowing Machines analyse les biais de construction du jeu de données LAION 5B, utilisé dans 
+l’entraînement de certains modèles d’image : https://knowingmachines.org/models-all-the-way 
+33 Par exemple, une analyse montre que les réponses apportées par le modèle d’intelligence artificielle Qwen 2 7B développé par 
+AliBaba ne reflète pas la vision du monde occidental sur certains sujets politiques https://huggingface.co/blog/leonardlin/chinese-
+llm-censorship-analysis

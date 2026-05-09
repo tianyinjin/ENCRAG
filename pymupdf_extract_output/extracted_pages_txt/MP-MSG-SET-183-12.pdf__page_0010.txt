@@ -1,0 +1,34 @@
+Source file: MP-MSG-SET-183-12.pdf
+Relative path: MP-MSG-SET-183-12.pdf
+Page: 10 / 16
+
+================================================================================
+
+Commercial UAVs Multispectral Detection 
+12 - 10 
+STO-MP-MSG-SET-183 
+• 
+200 m: The UAV with no motion is hardly visible against an urban (forest) background; however, 
+during motion with low contrast, the UAV is visible with some effort; against the sky background the UAV 
+is visible. 
+• 
+300 m: The UAV is visible during motion with a high amount of effort against the sky background. 
+With knowledge of the probable position, it is visible against the urban (forest) background.  
+• 
+400 m: The UAV is visible during motion with a high amount of effort against the sky background. 
+With knowledge of the probable position, it is visible against the urban (forest) background. 
+• 
+500 m: The UAV is visible with a very high amount of effort and with knowledge of the probable 
+position against the sky background (with no clouds).  
+• 
+>500 m: 
+The UAV is almost invisible during motion. Against the sky background, it is 
+possible to detect the UAV, but persistent tracking is impossible. 
+Visibility results are graphically presented in the Figure 16. The mean value of each observation was 
+processed via fuzzy scoring. Blue marks represent the visibility against the sky background of the sky, 
+orange stands for the urban (forest) background, and grey represents the visibility on a dry grass background. 
+We concluded that the distance of effective UAV detection by human sight is about 200–300 m, which is 
+very close to the IR detection limits when using commercial IR detection devices. 
+The overview of the all results of the performed experiments is depicted in the Fig. 17. 
+ 
+Figure 16: . Linear regression of the results of subjective visibility.

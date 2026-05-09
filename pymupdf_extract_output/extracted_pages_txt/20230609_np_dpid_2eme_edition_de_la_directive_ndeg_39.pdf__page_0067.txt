@@ -1,0 +1,99 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 67 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 67 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP42 
+TECH 
+Protéger les mots de passe (ou leur empreinte) en confidentialité et en intégrité, 
+en particulier lorsqu’ils sont transmis en réseau ou stockés dans un fichier. 
+O
+ 
+ 
+ 
+ 
+EXP43 
+ORG 
+Définir une procédure garantissant la sécurité pour la réinitialisation des mots de 
+passe en cas de perte ou d’oubli. 
+R  
+ 
+ 
+ 
+EXP44 
+TECH 
+Enregistrer les échecs d’authentification et les authentification réussies des 
+comptes à privilèges. 
+ 
+R 
+O 
+O 
+ 
+Journaliser et surveiller 
+EXP45 
+ORG 
+Définir une politique de journalisation. Elle doit permettre :  
+-  de définir les responsabilités ; 
+ 
+-  de déterminer les événements pertinents à journaliser ;  
+-  d’organiser le stockage et l’archivage des données journalisées (volumétrie, 
+durée, conservation, protection, etc.) ; 
+ 
+-  de définir les conditions d’analyse (en préventif, post-incident, etc.) 
+ 
+-  de définir les événements qui devront déclencher des alertes. 
+ 
+R 
+O 
+O 
+Voir la liste d’événements possibles en 
+annexe B du guide ANSSI sur les 
+mesures détaillées à appliquer sur les 
+systèmes industriels. 
+EXP46 
+TECH 
+Activer les fonctions de traçabilité sur les équipements et logiciels s’ils le 
+permettent (Syslog, Windows Event, etc.). 
+ 
+R 
+O 
+O 
+ 
+EXP47 
+TECH 
+Mettre en place un système de gestion centralisée et sécurisée des journaux 
+d’événements. Les besoins de sauvegarde, de confidentialité, d’intégrité et de 
+disponibilités doivent être évalués et garantis. 
+ 
+C 
+R 
+O 
+ 
+EXP48 
+TECH 
+Journaliser les modifications de paramètres des capteurs*, actionneurs*, fonctions 
+d’asservissement et de régulation. 
+ 
+C 
+R 
+O 
+ 
+EXP49 
+TECH 
+Analyser régulièrement les journaux d’événements de sécurité selon une 
+fréquence adaptée aux besoins. Les  fréquence de l’analyse ainsi que les 
+événements recherchés doivent être préalablement définis par le RSSI. 
+ 
+R 
+O 
+O 
+ 
+Maîtriser l’usage des supports amovibles

@@ -1,0 +1,54 @@
+Source file: WhatsNewReaper7Summary_r2.pdf
+Relative path: WhatsNewReaper7Summary_r2.pdf
+Page: 5 / 32
+
+================================================================================
+
+REAPER 7.0: What’s New
+Default Track/Mixer Panels: Dynamic Links
+This illustration shows REAPER's track 
+controls. Their exact position may 
+vary according to factors such as the 
+track height and the track control 
+panel width. Note that Record input 
+and Input source are only visible when 
+Record arm is enabled.
+By default, not all of these 
+controls will be visible in the TCP 
+when you first start REAPER. This 
+is because both the Arrange View and 
+the Mixer are open and shown.
+Since all the controls are visible in the mixer (below right) many users prefer not to show them all in the TCP as 
+well. REAPER's default mixer and track panel layouts are dynamically linked: if you close the mixer (Ctrl M), all 
+controls will then become visible in the track panel. Reopen the mixer (Ctrl M) and some track controls will 
+again be hidden. 
+Especially if you are working on a laptop, or have only one monitor, in order 
+to be able to make the best use of screen space you might wish to keep the 
+mixer open only when you are needing to use it.
+You can hover your mouse over any control for a tooltip. You click on a 
+control to engage it (for example, click on the Mute button to toggle mute 
+status of any track, click and drag on the Volume control to adjust the 
+volume level), and right click on a control for a menu of commands, options 
+and/or settings.
+Some controls might not be visible because the track or mixer 
+panel is not large enough to show them all. If so, you can 
+increase the track panel width or height. 
+To enlarge the track panel, hover your mouse over the right or 
+lower panel boundary (see left) so that your mouse cursor 
+becomes a double headed arrow, then click-drag to the right or downwards.
+To increase/decrease the height of the mixer panel, hover 
+the mouse over the top boundary of the panel, as shown 
+(left) then drag the boundary up or down.
+Depending on the track layout, the volume control may be a rotary control (as shown 
+right) or a horizontal fader. All of these controls are explained further in the User 
+Guide.
+Note 1:
+By default, the volume and pan controls work with audio items, not MIDI. To change this for any track(s), 
+choose MIDI track controls, Link track volume/pan to all MIDI channels from the right-click menu.
+Note 2:
+REAPER comes with three different track and mixer layouts – A, B and C. By default, Layout A is used for both. 
+Layouts B and C can be selected from the Options, Layouts menu. Note that B and C are by default not not 
+dynamically linked.
+You can change this, as well as making other changes using the Theme Adjuster, which is discussed later in this 
+guide.
+Page 5

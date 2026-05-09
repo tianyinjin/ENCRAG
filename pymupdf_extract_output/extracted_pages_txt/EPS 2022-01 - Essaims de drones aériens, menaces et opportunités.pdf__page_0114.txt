@@ -1,0 +1,72 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 114 / 136
+
+================================================================================
+
+114 
+- PROTECTION 
+DES 
+PERSONNES : 
+DISTANCES 
+DE 
+SECURITE, CADRE LEGAL 
+O VLE, DNRO ET REFLEXIONS SPECULAIRES 
+Pour l’homme, les valeurs limites d’exposition au laser (VLE) sont exprimées en W/m². Elles sont 
+déterminées à travers un processus fastidieux qui tient compte de la classe du laser, de son caractère 
+impulsionnel ou continu, de la durée d’exposition, de la longueur d’onde et du risque sur l’œil (cristallin 
+ou rétine) ou la peau. Aux longueurs d’onde des lasers retenus comme référence de cette étude, on 
+trouve les valeurs suivantes : 
+ 
+λ=1070 nm 
+λ=2050 nm 
+VLE peau en W/m² 
+2000 
+1000 
+VLE œil en W/m² 
+127 
+2000 
+Tout comme les VLE, les calculs de DNRO (distance nominale de risque oculaire) sont spécifiés dans 
+la norme NF EN 60825-1. Pour les cas qui nous intéressent, les valeurs suivantes peuvent être 
+établies : 
+P (kW) λ longueur d’onde (nm) ɵ divergence (μrad) 
+DNRO peau (km) DNRO œil (km) 
+2 
+1070 
+33 
+34 
+136 
+100 
+1070 
+157 
+50 
+202 
+1 
+2050 
+100 
+11 
+8 
+A 1µ, les distances nominales de risque oculaire (DNRO) deviennent très rapidement importantes, 
+posant a minima des problèmes de prévention des interférences mutuelles et d’entraînement. 
+A cela s’ajoutent les risques moins maîtrisables découlant de l’interaction du faisceau et de sa cible et 
+pouvant conduire à des réflexions spéculaires sur les optiques planes ou à des répartitions spatiales 
+imprévisibles, lors de la rencontre avec des objets de petit diamètre, au regard de celui de la tache, 
+comme les bras rotor des multicoptères. Les quelques 40 W réfléchis par une optique plane, soumise 
+à un laser de 2 kW à 1 µ, sont à comparer avec la valeur limite d’exposition de la pupille humaine à 
+4,8 mW286, pour donner une idée des difficultés à conserver en sécurité le personnel du tireur ou celui 
+d’autres unités de la force, quand la direction de l’énergie réfléchie fluctue de manière imprévisible. 
+Certes, une arme laser n’est mise en œuvre que sur une cible accrochée et cesse son action lorsque 
+la télémétrie n’est plus sur la cible ; pour autant, ces sécurités, intégrées à l’arme, ne suffisent pas, on 
+le voit, à préserver les personnels tiers y compris amis. Le port de lunettes de protection dédiées semble 
+peu compatible avec les contraintes du combat, d’autant, qu’à 1 µ, elles altèrent la perception visuelle. 
+O CADRE LEGAL 
+Le protocole additionnel à la Convention sur l’interdiction ou la limitation de l’emploi de certaines armes 
+classiques, qui peuvent être considérées comme produisant des effets traumatiques excessifs ou 
+comme frappant sans discrimination (Protocole IV, intitulé « protocole relatif aux armes à laser 
+aveuglantes »), comprend quatre articles, dont les trois premiers sont reproduits ici : 
+Article 1er : Il est interdit d'employer des armes à laser spécifiquement conçues de telle façon 
+que leur seule fonction de combat ou une de leurs fonctions de combat soit de provoquer la 
+cécité permanente chez des personnes dont la vision est non améliorée, c'est-à-dire qui 
+ 
+286 Comme on l’a vu, la Valeur Limite d’Exposition (VLE) de l’œil à 1 µ est de 127 W/m². On retient 
+un diamètre de 7 mm pour la pupille à pleine ouverture.

@@ -1,0 +1,57 @@
+Source file: MP-MSG-229-11.pdf
+Relative path: MP-MSG-229-11.pdf
+Page: 5 / 14
+
+================================================================================
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+STO-MP-MSG-229 
+11 - 5 
+ 
+ 
+analogy in unmanned agents, although system errors or failures can impact performance. Leadership and 
+intent in humans involve ethical judgment, motivation, and context-aware decisions, whereas unmanned 
+systems rely on hard-coded leadership structures or programmed goals, with intent often inferred for 
+coordination purposes. These differences highlight the need to carefully model both human variability and 
+unmanned system capabilities when simulating MUM-T operations for force readiness. Thus, challenges 
+might rise due to the major differences found among MUM-T teams as listed in Table 1. This table is based 
+on [3] and has been augmented and revised here.  
+1.1.4 
+AI for Decision-Support in MUM-T  
+The use of AI has gained interest on the battlefield on the tactical level. At both the operational and strategic 
+tiers of military operations, artificial intelligence significantly supports data analysis and planning efforts. Its 
+capacity to handle vast amounts of information enables AI to assist in decisions such as force deployment 
+and selecting plans that most effectively advance strategic objectives [14]. This suggests considerable 
+potential for AI to play a larger role in high-level military decision-making in the future [14]. While AI is not 
+yet widely deployed in this capacity, certain systems have demonstrated superior performance compared to 
+human military personnel at the tactical level, indicating strong potential for expanded AI involvement in 
+strategic military decision-making in the future. AI enables the synthesis of a large amount of data in short 
+amount of time, which might help counter human biological limitations. These systems employ AI-driven 
+targeting and control mechanisms capable of processing information and executing actions within fractions 
+of a second [14]. AI could similarly be applied to decision-support when it comes to counter rapidly 
+emerging threats, such as hypersonic missiles, where the response window is extremely limited, although no 
+such defenses are currently known to exist. The growing presence of autonomous weapons on the battlefield 
+highlights AI’s tactical significance, as its speed and responsiveness in dynamic combat scenarios can 
+provide a decisive advantage over conventional systems. At higher levels of warfare, including operational 
+and strategic planning, AI contributes substantially to data analysis and decision support. Its ability to 
+process large volumes of information allows it to inform choices such as force deployment and selection of 
+plans that best advance strategic objectives. It can help solve difficult questions such as “where to commit 
+forces, what plan would get the closest to the strategic objective and more [14]. Thus, this can help support 
+the MDMP during mission to re-adjust COA based on constant data streaming, dynamic changes in MUM-T 
+capabilities, and situational awareness.  
+2.0 STAR (SHARING TASKS WITH AUTONOMOUS RESSOURCES) 
+STAR is designed in order to facilitate the OODA loop for decision-making in the three phases of missions: 
+i) Mission pre-operations - via supporting war gaming simulation and determination the best course of action 
+based on if-then scenario, ii) in-operation - as it can help support decision-making surrounding dynamic 
+tasking since often plans and orders given prior to the mission might change due to change of events, iii) 
+STAR could also help support after-action analysis to better prepare and support future mission, help assess 
+current states of each agent capability to perform their tasks and duties, it could be used to calibrate training / 
+performance of human and autonomous agent through modelling and simulation. STAR could facilitate the 
+readiness of forces by providing a system capable of plugging into a simulator which can help generate and 
+put in place mission operations, launch team, and test and evaluate different strategies while receiving AI 
+recommendation towards tasking of MUM-T. STAR is composed of several components which are 
+described in Section 2.1. The three main modules presented are i) multi-modal pipeline; ii) capability 
+reckoning, iii) dynamic tasking module. Each of those three can be fed from simulation and modelling data 
+which enables the system to be tested on specific use-cases which are of interest and can help gather data and 
+potential behavioral insight towards how each manned or unmanned agent might behave in the mission.

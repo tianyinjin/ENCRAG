@@ -1,0 +1,92 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 77 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 77 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+CONT6 
+ORG 
+Intégrer dans les plans de reprise et de continuité d’activité les cyberattaques et 
+tout incident remettant en cause l’intégrité du système industriel (infection virale 
+par exemple).  
+ 
+C 
+R 
+O 
+ 
+CONT7 
+ORG 
+Tester le plan de reprise et de continuité d'activité selon une fréquence adaptée 
+aux besoins de disponibilité. La fréquence est définie dans les procédures 
+d’exploitation de sécurité (PES). 
+O
+ 
+ 
+ 
+ 
+CONT8 
+ORG 
+Archiver les outils numériques et données nécessaires à une réinstallation. Ces 
+archives doivent bénéficier d’une protection en intégrité, disponibilité et 
+confidentialité. 
+O
+ 
+ 
+ 
+ 
+CONT9 
+ORG 
+Intégrer dans les procédures d’intervention un mode d’urgence (« procédure bris 
+de glace ») pour pouvoir intervenir rapidement en cas de besoin sans dégrader 
+significativement le niveau de cybersécurité du système industriel. En particulier, 
+cette procédure d’urgence ne devrait pas affecter la traçabilité des interventions. 
+ 
+R 
+O 
+O 
+ 
+CONT10
+ORG 
+Insérer dans l’analyse de risques les fonctionnalités liées aux modes d’urgence 
+initialement prévus dans le projet ou les réglementations. 
+ 
+R 
+R 
+O 
+ 
+Mettre en place des moyens de détection et de réaction 
+INC1 
+TECH 
+Mettre en place des moyens de détection d’intrusion en périphérie des systèmes 
+et sur les points identifiés comme critiques qui comprennent notamment : 
+ 
+-  les interconnexions entre des systèmes distants ; 
+ 
+-  les interconnexions des systèmes de télégestion* ; 
+ 
+-  les interconnexions entre le SI de gestion et le SI industriel ; 
+ 
+-  les points de connexion spécifiques vers l’extérieur (WiFi industriel par exemple) 
+; 
+-  le réseau fédérateur de postes de supervision industriel (SCADA*) ; 
+ 
+-  les réseaux d’automates* jugés sensibles. 
+ 
+C 
+R 
+O 
+ 
+INC2 
+ORG 
+Utiliser des moyens de détection labellisés. 
+ 
+C 
+R 
+O

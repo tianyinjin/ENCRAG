@@ -1,0 +1,72 @@
+Source file: 20081006-np-cicde-pia-3312-drones-2008.pdf
+Relative path: 20081006-np-cicde-pia-3312-drones-2008.pdf
+Page: 9 / 25
+
+================================================================================
+
+5 
+DEFINITION ET FINALITE 
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+L’appellation drone caractérise un vecteur aérien inhabité, programmé ou contrôlé à distance 
+pour réaliser une mission. Ce vecteur est récupéré à l’issue de la mission afin d’être 
+reconditionné et utilisé à nouveau. 
+On parle généralement de « système de drone », c'est-à-dire un ensemble regroupant le 
+segment aérien, le segment sol et le segment hertzien. Différentes classifications de 
+systèmes de drone existent, reposant sur les performances ou l’encombrement du vecteur, la 
+nature des liaisons utilisées, les effets produits ou le niveau de mise en œuvre au sein de la 
+chaîne de commandement7. 
+• 
+Le segment aérien comprend : 
+- 
+l’aéronef vecteur, avec sa motorisation, son carburant et ses systèmes nécessaires 
+au contrôle, à la navigation et à la bonne exécution des différentes phases du vol ; 
+- 
+la charge utile, regroupant les équipements opérationnels embarqués dédiés à la 
+mission (senseurs8 optroniques par exemple). 
+• 
+Le segment sol est constitué des différents modules participant à : 
+- 
+la préparation et la conduite du vol ; 
+- 
+la mise en œuvre des senseurs, 
+- 
+le recueil, l’interprétation et la diffusion des informations, 
+- 
+le soutien technique et logistique du système. 
+• 
+Le segment hertzien a pour fonction de relier les segments sol et aérien. Il repose sur 
+l’établissement et le maintien d’une ou plusieurs liaisons entre ces segments 
+(télécommande du vecteur et retour des télémesures, données recueillies par les 
+équipements opérationnels, voies radio), en portée optique directe (LOS9) ou par liaisons 
+satellitaires (BLOS10) s’il est nécessaire de communiquer au-delà de l’horizon 
+radioélectrique. 
+                                                
+7 Les drones de type HALE, vecteurs évoluant à haute altitude avec une longue endurance ; 
+ 
+les drones de type MALE, vecteurs évoluant à moyenne altitude avec une longue endurance ; 
+ 
+les drones tactiques, vecteurs de moindre endurance, évoluant sur une zone d’étendue limitée ; 
+ 
+les mini-drones, vecteurs de petite taille mis en œuvre au  niveau des unités ou des individus. 
+8 Un senseur est un équipement destiné à assurer la détection d’objets ou d’activités et permettant de les représenter ou 
+ 
+de les enregistrer grâce à l’énergie ou aux particules qu’ils émettent, réfléchissent ou modifient (AAP-6). 
+9 LOS : line of sight ou portée visuelle. 
+10 BLOS : beyond line of sight ou au-delà de la portée visuelle. 
+CHAPITRE 
+

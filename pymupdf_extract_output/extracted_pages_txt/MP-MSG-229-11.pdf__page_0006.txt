@@ -1,0 +1,34 @@
+Source file: MP-MSG-229-11.pdf
+Relative path: MP-MSG-229-11.pdf
+Page: 6 / 14
+
+================================================================================
+
+Orchestrating Manned-Unmanned Missions 
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S 
+11 - 6 
+STO-MP-MSG-229 
+ 
+ 
+2.1 
+System Components and Architecture 
+The STAR macro-level architecture modules are shown in Figure 2, including i) multi-modal, ii) capability 
+reckoning and dynamic tasking, all leading to human meaningful control. 
+ 
+Figure 2: STAR Components demonstrated in C2 Decision awareness for Manned-Unmanned 
+Teaming in Critical Undersea Infrastructure Protection. 
+1) Multi-Modal Pipeline and Pre-Processing: This module processes situational awareness data, 
+extracting relevant features for dynamic tasking. It filters and engineers the data, transforming it into 
+actionable mission parameters, like trajectory calculations from GPS data. It also allows 
+customization based on vehicle types, mission objectives, and operational needs, supporting a 
+variety of mission scenarios. 
+2) Reckoning: STAR evaluates which agent—human or autonomous—is best suited for a task by 
+analyzing both past and current behaviors. It uses data from the multi-modal pipeline, such as 
+mission status and environmental sensing, to determine the interdependence between agents. This 
+helps identify capacity gaps and whether agents can act independently or need support. 
+3) Dynamic Adaptive Tasking: This module focuses on task allocation for manned-unmanned 
+teaming (MUM-T). It takes into account pre-operation prerequisites, doctrine, and the commander’s 
+requirements while enabling real-time adjustments. It analyzes the interdependence among team 
+members (both human and autonomous) and recommends which agent should lead or support based 
+on the operational context. The commander can either accept or modify these recommendations and 
+adjust the level of autonomy as needed.

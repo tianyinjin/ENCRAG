@@ -1,0 +1,141 @@
+Source file: CyberLab-Sante-2021.pdf
+Relative path: CyberLab-Sante-2021.pdf
+Page: 8 / 21
+
+================================================================================
+
+Pôle d’excellence cyber
+CyberLab Catalogue de services et de prestataires cyber appliqués au domaine de la santé
+15
+14
+Novembre 2021 
+Cybersécurité et santé – niveaux de criticité
+Il est aussi important de déterminer le niveau de criticité d’un appareil ou d’une 
+application afin d’être en mesure d’adapter sa stratégie de cybersécurité.
+Le graphique ci-dessous ne couvre pas tous les cas d’usages mais il nous aide 
+à évaluer un niveau de criticité d’une application.
+Niveaux de cyber-criticité et secteur de la santé 
+Toute solution ou produit destiné à contribuer au parcours de santé, à la 
+délivrance des soins, aux interventions d’urgence, au bien-être quotidien du 
+patient ou au diagnostic par des professionnels de santé peuvent être consi-
+dérés comme hautement critiques du point de vue de la cybersécurité.
+Concernant les capteurs et autres équipements de mesure, le niveau de criti-
+cité dépendra des cas d’usages pour une pathologie donnée. Un capteur de 
+monitoring cardiaque est bien entendu hautement critique alors qu’un simple 
+podomètre peut être considéré comme faiblement critique.
+De même pour une prothèse bionique ou un robot d’assistance. Un appareil 
+d’assistance respiratoire ou un pacemaker est hautement critique par rapport 
+à une prothèse de jambe connectée, qui elle-même est plus critique qu’une 
+simple prothèse auditive, par exemple.
+Le niveau de criticité des échanges de données peut varier en fonction de la 
+nature des données et de leur destination. Une simple information d’horaire 
+de rendez-vous pour une consultation est bien entendu moins critique qu’une 
+information sur l’identité (INS – Identité Nationale de Santé) ou le diagnostic 
+d’un patient. Il est impératif de s’assurer de la conformité à la nouvelle régle-
+mentation sur la protection des données (RGPD) ainsi que des règles qui 
+régissent le numérique en santé.
+Les cyber vulnérabilités (potentielles) des systèmes de santé
+Les vulnérabilités potentielles sont nombreuses et les différents domaines 
+d’activités sont concernés. Les cyber-vulnérabilités sont des failles de sécurité, 
+et par conséquent, de potentielles portes d’entrées pour les attaques cyber. 
+La figure ci-dessous résume ces vulnérabilités. 
+Cyber vulnérabilités des systèmes de santé
+Par exemple, les centres de soins, les hôpitaux et autres institutions de santé 
+utilisent des bâtiments de plus en plus intelligents et connectés. Ces bâtiments 
+possèdent de nombreuses vulnérabilités potentielles. En effet ils sont gérés 
+par des systèmes de Gestion Technique du Bâtiment (GTB), connectés sur 
+l’Internet au travers de passerelles (Gateway) pour permettre à des appli-
+cations BMS (Building Management System) ou BAS (Building Automation 
+System) de contrôler à distance le chauffage, l’air conditionné, HVAC (Heating, 
+Ventilation Air Conditioning), l’éclairage, les détecteurs, les alarmes incendie 
+et autres, les systèmes de contrôle d’accès, les caméras de vidéo protection 
+CCTV (Closed-Circuit Television), les ascenseurs, la production autonome 
+d’énergie, le stockage de cette énergie, etc.
+EMERGENCY
+RESPONSE
+SMART
+INFRASTRUCTURE
+SMART
+HOME
+SMART
+GADGETS
+SMART
+HOSPITAL
+TECHNICIAN
+DOCTOR
+NURSE
+ON-BODY
+SENSORS
+ROBOTS
+HAUTEMENT 
+CRITIQUE
+TRÈS CRITIQUE
+CRITIQUE
+FAIBLEMENT
+CRITIQUE
+HAUTEMENT 
+CRITIQUE
+TRÈS CRITIQUE
+CRITIQUE
+FAIBLEMENT
+CRITIQUE
+Source : Précédente version catalogue
+Télémédecine •
+Téléconsultation •
+Télédiagnostic •
+Déports d’écran •
+Hospitalisation •
+  
+à domicile 
+Big data •
+Dossier patient •
+  
+informatisé 
+ Dossier médical • 
+  
+partagé 
+Fichiers • 
+  
+de personnels 
+Fichiers de patient • 
+Agendas partagés • 
+ Mon Espace Santé • 
+MSSanté • 
+ApCV • 
+eCPS • 
+Pro Santé Connect • 
+Réseaux télécom • 
+Capteurs, •  
+  
+sondes, IOT 
+Implants, télémétrie • 
+Prothèses bioniques • 
+Équipement •  
+  
+de mesure 
+Équipement •  
+  
+d’analyse 
+Véhicules connectés •
+• Bâtiments  intelligents
+• BMS/BAS - HVAC
+• Gestion d’énergie
+• Contrôle d’accès
+• Alarmes, CCTV
+• Systèmes
+de localisation
+• Systèmes 
+d’informations
+• Cloud (SaaS)
+• Stockage de données
+• Workflow
+• ICS/SCADA
+• Facturation
+• Gestion de paie
+• Gestion du personnel
+• Gestion des stocks
+• Postes administratifs
+• Messagerie
+• Tous Anti-Covid
+• TAC Verif
+• ...

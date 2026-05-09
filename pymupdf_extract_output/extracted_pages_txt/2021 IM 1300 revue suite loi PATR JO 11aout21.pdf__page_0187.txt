@@ -1,0 +1,115 @@
+Source file: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Relative path: 2021 IM 1300 revue suite loi PATR JO 11aout21.pdf
+Page: 187 / 225
+
+================================================================================
+
+11 août 2021 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 1 sur 86 
+184 
+La marque et le numéro de série du meuble sont estampillés de façon apparente et 
+inaltérable, à l’extérieur de celui-ci, sur le corps et sur toutes les portes du meuble ; le 
+numéro de série et l’année de fabrication de chaque serrure figurent sur celles-ci.
+d. Classes des postes utilisateurs classifiés 
+Il est possible de déroger aux mesures de protection logiques prévues ci-dessous en mettant en œuvre des 
+mesures de protection compensatoires, sous réserve de leur validation formelle par l’autorité d’homologation 
+pour le niveau Secret ou, pour le niveau Très Secret, par l’autorité qualifiée en sécurité des systèmes 
+d’information. 
+DESCRIPTION
+CLASSE Ȗ DE BASE
+CLASSE ȕ RENFORCE 
+CLASSE Į FORT 
+Intégrité physique 
+des éléments 
+constitutifs du SI
+Scellés génériques de 
+contrôle d’ouverture de 
+l’équipement avec 
+traçabilité des 
+équipements ayant reçu 
+des scellés 
+Contrôle ponctuel de 
+l’intégrité des scellés 
+par l’utilisateur.
+Protection de la classe Ȗ
++
+Contrôle annuel de 
+l’intégrité des scellés.
+Dispositif de détection 
+d’ouverture de 
+l’équipement ou scellés 
+numérotés de contrôle 
+d’ouverture de 
+l’équipement avec 
+traçabilité des 
+équipements ayant reçu 
+ces scellés 
+Contrôle semestriel de 
+l’intégrité des scellés.
+Confidentialité des 
+données lorsque le 
+terminal196 n’est pas 
+en fonctionnement
+Chiffrement des 
+données utilisateur par 
+un logiciel agréé pour la 
+protection des 
+informations portant la 
+mention Diffusion 
+Restreinte
+ou 
+Stockage à distance des 
+données sur 
+l’infrastructure 
+d’hébergement du SI 
+ou 
+Mémoire de masse 
+extractible ou 
+équipement mobile 
+stockable dans un 
+meuble de classe 
+adaptée à la 
+classification des 
+données en clair
+Chiffrement intégral du 
+disque par un logiciel 
+agréé pour la protection 
+des informations 
+portant la mention 
+Diffusion Restreinte
+ou 
+Stockage à distance des 
+données sur 
+l’infrastructure 
+d’hébergement du SI 
+ou 
+Mémoire de masse 
+extractible ou 
+équipement mobile 
+stockable dans un 
+meuble de classe 
+adaptée à la 
+classification des 
+données en clair
+Protection de la classe ȕ
+Sécurité du 
+contrôle d’accès de 
+l’utilisateur
+Mot de passe avec 
+politique de sécurité des 
+mots de passe conforme 
+à la politique de sécurité 
+de l’organisme
+Dispositif 
+d’authentification forte, 
+par exemple basée sur 
+une infrastructure de 
+gestion de clefs (IGC) 
+Dispositif 
+d’authentification forte, 
+par exemple basée sur 
+une IGC qualifiée au 
+moins RGS**.
+196 Le terminal s’entend comme le poste utilisateur fixe, nomade ou mobile, qui permet l’accès et le traitement des informations 
+classifiées lorsqu’il est en fonctionnement.

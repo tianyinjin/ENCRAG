@@ -1,0 +1,91 @@
+Source file: CyberLab-Sante-2021.pdf
+Relative path: CyberLab-Sante-2021.pdf
+Page: 10 / 21
+
+================================================================================
+
+Pôle d’excellence cyber
+CyberLab Catalogue de services et de prestataires cyber appliqués au domaine de la santé
+19
+18
+Novembre 2021 
+Le schéma ci-dessous illustre les différents niveaux d’une cyberattaque : 
+Les tenants et aboutissants d’une cyber-attaque
+La protection, la défense et la résilience des organismes et systèmes de santé 
+aux cyber-attaques deviennent donc des enjeux majeurs de la filière.
+5. IA & Cyber sécurité 
+L’utilisation d’outil à base d’intelligence artificielle (IA) est amenée à se 
+déployer dans les années à venir. Les secteurs de la cybersécurité et de la 
+santé en sont particulièrement concernés. Le développement des méthodes 
+d’IA constitue de nouvelles menaces et opportunités pour tous les niveaux 
+des systèmes informatiques (données, logiciels et systèmes). 
+L’utilisation de méthodes d’IA augmente les capacités d’analyse des systèmes 
+par les attaquants. D’une part, ces techniques vont leur permettre d’identifier 
+les vulnérabilités d’un système de manière beaucoup plus automatique et 
+massive, d’autre part, l’arrivée potentielle d’attaques elles-mêmes construites 
+au moyen d’IA (par exemple, en apprentissage par renforcement) pourrait 
+déjouer les systèmes de protection usuellement mis en place, voire s’y adapter 
+dynamiquement (zero-day attacks). De plus, l’expertise requise pour l’élabora-
+tion d’une attaque devient moindre et le potentiel de cyberattaquant s’accroît. 
+Le développement des IA offre également des opportunités importantes 
+pour la protection des systèmes informatiques. Ainsi, l’utilisation de nouveaux 
+outils offre la possibilité aux analystes d’explorer plus efficacement une plus 
+grande quantité de logs, pour mieux identifier et répondre plus rapidement 
+aux attaques. L’IA améliore l’aide à la décision dans les systèmes automatiques 
+de détection d’intrusion des infrastructures à protéger.
+De manière plus marginale, l’utilisation d’outils à base d’IA au sein d’un système 
+informatique peut aussi générer des vulnérabilités, en particulier les systèmes 
+basés sur l’apprentissage automatique6. La faible robustesse de ces outils les 
+rend particulièrement vulnérables aux attaques (sur les données d’entrée, 
+sur les modèles, sur les architectures de calcul). Les systèmes à base d’IA 
+appliqués à la santé sont considérés à haut risque, leur déploiement fait donc 
+l’objet d’une attention toute particulière et celui-ci est encore marginal. Le 
+recours à des moyens de certification devra répondre à ces risques majeurs.
+But  
+visé
+ Confrontations étatiques : stratégie d’ingérence/contre-ingérence, 
+renseignement, positionnement stratégique
+ Financier : cyber-crime, concurrence
+ Pouvoir : clients, fournisseurs, fabricants 
+produits de substitution, dont
+ Idéologie : conviction personnelle, recrutement, utopies, etc.
+ Ego, Personnel : vengeance d’un ancien 
+employé/associé/adminsitrateur, etc.
+Effet
+ Vol : brevets, dessins et modèles, savoir-faire, fichiers clients/
+fournisseurs, données commerciales, comptables & personnelles
+ Chantage, Contrainte, Atteinte à la vie publique/privée 
+d’un employé/chef d’entreprise/médecin
+ Espionnage : accès à la PI, aux données, 
+aux partenaires, données patients
+ Sabotage : action sur les appareils de santé, 
+modification de leur programmation, données, 
+destruction, mise en danger des personnes
+ pouvant aller jusqu’à la Destruction : de la réputation, de l’image de 
+marque, de la confiance patient, des matériels, logiciels, données
+Mode 
+opératoire
+ Attaque physique interne ou externe : Compromission, 
+stagiaire passé à la concurrence, clé USB, vol 
+téléphone/tablette/PC, BYOD, etc.
+ Social engineering/Web : attaque de point d’eau, 
+Nmap, Code/SQL injection, Cross Site Scripting 
+(XSS), remote file inclusion, brute force, etc.
+ DoS/DDoS, flood. Scripting : buffer/heap overflow
+ Phishing, spear phishing, sniffing, spoofing, attaque par sondage
+ Attaque par faute & canaux auxiliaires, 
+glitch attack, retro-engineering
+ MITM, TEMPEST : signaux compromettants, interceptions
+ Hoax, Fake news
+Charge 
+active ou 
+Malware
+ Action humaine ou matériel : pince pour section des cables GTB, 
+déclenchement d’alarmes (incendie, par exemple), erreur, etc.
+ Laser, ondes électromagnétiques
+ ZeroDay/Virus : cryptolocker, bombe de 
+décompression, blastware, etc. 
+ Backdoor/Keylogger/Ver, botnet, wabbit, nuker, dropper, etc. 
+ Cheval de Troie : spyware, adware, anonyware, nagware, hijacker, 
+parasiteware, scumware, rootkit, RAT, sniffer, dialer, etc.
+6 https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges

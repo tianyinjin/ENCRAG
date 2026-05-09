@@ -1,0 +1,48 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 130 / 136
+
+================================================================================
+
+130 
+▪ POUR UN EFFET DE NIVEAU 2 
+Pour une agression par brouillage non linéaire adapté visant les moteurs de sustentation ou de 
+commande de gouverne on peut approcher le sujet à travers l’effet produit sur une spire dans un des 
+électro-aimants du rotor d’un tel moteur électrique : 
+Valeur typique du courant alimentant un moteur brushless pour drone : I = 0.1 A. 
+En conséquence le champ H = I / 2R avec R, rayon de la spire, valant 1 cm. 
+Donc H = 5 A/m 
+Une arme de classe 10 MW à 1 km va générer : E~ 20V/m ou H~0,05 A/m dans toutes les spires (avec 
+des variations d’angle) de tous les électroaimants, y compris ceux qui ne sont pas alimentés dans le 
+moteur, provoquant une perturbation des moteurs et par conséquence également de l’autopilote. 
+Pour un drone ayant recours à la même technologie à 10 m de sa cible, la puissance nécessaire serait 
+d’environ 1 KW (soit 10 modules de 10 W). 
+▪ SEUILS 
+ASSOCIES 
+AUX 
+DIFFERENTS 
+EFFETS 
+En conclusion, en matière de vulnérabilité des drones on retiendra les valeurs de seuil de : 
+- quelques 10 V/m310 pour une interférence visant actionneurs de gouvernes ou moteurs de rotors 
+durant le temps d’illumination ; 
+- 10 000 V/m pour une mise hors service ou une perturbation plus ou moins rémanente de 
+l’électronique embarquée ; 
+- 20 000 V/m pour une destruction de l’électronique embarquée. 
+- QUELQUES REALISATIONS EMBLEMATIQUES 
+Tous milieux confondus, un rapide panorama de quelques réalisations de référence permet de se faire 
+une idée des points de fonctionnement visés, des facteurs de forme et de poids. Rien qu’aux Etats-
+Unis, la recherche sur les armes micro-ondes de forte puissance s’étale sur une soixantaine d’années, 
+privilégiant, il est vrai, les effets 4 et 5. 
+ 
+O POUR DES EFFETS « HARD KILL » DE NIVEAU 4 
+ET 5 
+Ranets E (Russie 2000) : HPM monté sur 
+camion, avec une impulsion de 10 ns. (soit, 
+Pe = 10 MW et Ge= 50 dBi environ, soit, au 
+mieux, quelques TRW). 
+ 
+ 
+310 L’AFRL considère qu’un premier seuil perturbant est atteint à 200 V/m : Hardening Unmanned 
+Aerial Systems against high power microwaves threat in support of forward operations, Coningsby 
+J Burdon, 2017. La technologie d’Epirus prouve que des seuils plus bas, exploitant d’autres 
+technologies, permettent d’obtenir un effet décisif sur les commandes de vols.

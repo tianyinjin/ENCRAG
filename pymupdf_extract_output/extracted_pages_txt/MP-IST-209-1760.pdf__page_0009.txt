@@ -1,0 +1,183 @@
+Source file: MP-IST-209-1760.pdf
+Relative path: MP-IST-209-1760.pdf
+Page: 9 / 10
+
+================================================================================
+
+F. Discussion
+The Wi-Fi results illustrate the degradation in performance
+when moving from static to dynamic environments, especially
+in terms of bitrate and packet loss. UDP is particularly
+sensitive to motion. In the TCP tests, 19.1 Mbit/s was obtained
+with static communication.
+The Wi-Fi-RAD-MAVLink-Bridge performs well in short-
+range and moving conditions, with limited impact from move-
+ment. However, distance significantly degrades performance,
+particularly in bidirectional communication and UDP mode,
+where packet loss becomes a significant issue, especially at 47
+meters. The Raspberry Pi and GCS computer antennas have
+an omnidirectional radiation diagram. Looking at a similar
+example in a UAV configuration in [30], it’s clear that having a
+directional antenna with a tracker on the GCS would increase
+the range of a RAD-MAVLink-Bridge configuration. In the
+TCP tests, 57.6 Mbit/s was obtained with static communica-
+tion.
+Analysing the results of P/PRC-535, maybe only one UGV
+can be supported on the communication channel with this con-
+figuration. This is because the Raspberry Pi has a bottleneck
+on the communication channel, and because there is no traffic
+control, the channel prioritises sending UDP. This proves to
+be a problem, as it is more critical for the system to send an
+Friendly Force Information (FFI) XMl than a HEARTBEAT
+message. In the TCP tests, 574 bit/s was obtained with static
+communication; in the UDP tests, 5.01 Kbit/s was obtained
+with static communication.
+After analyzing the results of the TR5000H tests, it can be
+seen that this configuration can support one more UGV on the
+communication channel. The TR5000H controls traffic since
+it does not let UDP occupy all the capacity. More throughput
+is used for TCP packets, which can be explained by the fact
+that TCP packets are larger, so more throughput is used for
+this transmission. One more time, the Raspberry Pi had a bot-
+tleneck in the communication channel. In the TCP tests, 3.50
+Kbit/s was obtained with static communication; in the UDP
+tests, 2.49 Kbit/s was obtained with static communication. This
+can be seen in the Table 2.
+TABLE 2: Comparison of P/PRC-525 and TR5000H.
+Radio
+Transmission Rate
+TCP: 574 bit/s
+P/PRC-525
+UDP: 5.01 Kbit/s
+TCP: 3.50 Kbit/s
+TR5000H
+UDP: 2.49 Kbit/s
+V. CONCLUSIONS
+In this study, the first architecture for integrating UxVs
+into the BMS was developed. It was possible to drive a
+UGV without the need for specific autopilot hardware such as
+Pixhawk line or Ardupilot Mega. Made integrations in BMS
+developed for future exercises with entities outside the Army
+using UxVs, such as ARmy Technological EXperimentation
+(ARTEX), and data regarding the throughput required to drive
+a UGV, different network architectures, and limitations of the
+used hardware.
+As for the Wi-Fi network tests, given that a communication
+architecture was being used with relatively low-quality image
+transmission and a relatively long position sending interval (10
+seconds), it was noticeable that even in conditions with less
+available bandwidth, it was possible to establish communica-
+tion with the UGV. When there was less signal available, the
+first thing that failed was the video transmission, with some
+cuts in the image.
+As for the tests with Wi-Fi-RAD-MAVLink-Bridge, it was
+possible to observe that at short distances, it was possible
+to command and control the UGV. However, the signal was
+considerably degraded after about 40 meters. This configu-
+ration is interesting for short distances and can be extended
+using directional antennas. It can be applied as an alternative
+to another radio communication mode, focussing on short
+distances.
+It was possible to communicate using military radios, as
+only MAVLink HEARTBEAT and GPS RAW INT messages
+and FFI XML were sent. Ideally, the frequency at which the
+messages are sent should be adjusted considering the available
+bandwidth, and the application itself, in the case of the P/PRC
+525, would have to control the traffic. The TR5000H was
+advantageous in almost all the tests. It performs automatic
+traffic control and allows a parallel communication mode,
+where data and voice can be sent simultaneously on two
+channels, thus advantageous over the P/PRC-525.
+It would be important to be more extensive in terms of the
+test scenarios and frequencies used, but each test carried out
+in Pac¸o de Arcos took a long time, leaving some interesting
+configurations untested. The development that has been made
+and the connection to the Mission Planner makes it possible
+to drive a UGV with autopilot hardware using waypoints;
+in a configuration like this, military radios would only be
+necessary, as there would be no need to send video or control
+commands.
+REFERENCES
+[1] Hendri Saputra and Midriem Mirdanies, Controlling Unmanned Ground
+Vehicle Via 4 Channel Remote Control, Energy Procedia, vol. 68, April
+2015. Available: https://doi.org/10.1016/j.egypro.2015.03.269
+[2] Jie Chen, Jian Sun, and Gang Wang, From Unmanned Systems to
+Autonomous Intelligent Systems, Engineering, vol. 12, pp. 16-19, 2022.
+Available: https://doi.org/10.1016/j.eng.2021.10.007
+[3] NATO Science & Technology Organization, Science & Technology Trends
+2023-2043 Across the Physical, Biological, and Information Domains,
+2023.
+[4] Xiao
+Liang,
+Shirou
+Zhao,
+Guodong
+Chen,
+Guanglei
+Meng,
+and
+Yu
+Wang,
+Design
+and
+development
+of
+ground
+station
+for
+UAV/UGV
+heterogeneous
+collaborative
+system,
+Ain
+Shams
+Engineering Journal, vol. 12, no. 4, pp. 3879-3889, 2021. Available:
+https://www.sciencedirect.com/science/article/pii/S2090447921002136
+[5] Blake Hament and Paul Oh, Unmanned aerial and ground vehicle (UAV-
+UGV) system prototype for civil infrastructure missions, in 2018 IEEE
+International Conference on Consumer Electronics (ICCE), 2018, pp. 1-
+4. Available: https://doi.org/10.1109/ICCE.2018.8326346
+[6] Semih
+Beycimen,
+Dmitry
+Ignatyev,
+and
+Argyrios
+Zolotas,
+A
+comprehensive
+survey
+of
+unmanned
+ground
+vehicle
+terrain
+traversability
+for
+unstructured
+environments
+and
+sensor
+technology
+insights,
+Engineering
+Science
+and
+Technology,
+an
+International
+Journal,
+vol.
+47,
+p.
+101457,
+2023.
+Available:
+https://www.sciencedirect.com/science/article/pii/S2215098623001350
+[7] Ash Rossiter, Bots on the Ground: An Impending UGV Revolution in
+Military Affairs?, Small Wars & Insurgencies, vol. 31, no. 4, pp. 851–
+873, 2020. Available: https://doi.org/10.1080/09592318.2020.1743484
+STO-MP-IST-209 
+1760 - 9 
+Integration of a Commercial 
+Unmanned Vehicle into the Army Communications System

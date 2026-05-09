@@ -1,0 +1,710 @@
+Source file: OSINT.pdf
+Relative path: OSINT.pdf
+Page count: 14
+Extracted pages: 14
+
+================================================================================
+
+[Page 1 / 14 | chars: 2472]
+--------------------------------------------------------------------------------
+
+L’OSINT (Open Source Intelligence) 
+au défi de l’ère du numérique 
+Colonel (Terre), auditrice de la 73e session du CHEM et 
+de la 3e session nationale de l’IHEDN. 
+Catherine BUSCH 
+« Evidence exists and falsehoods exist, and people do still care about the diﬀerence » (1) 
+Elliot HIGGINGS, fondateur de Bellingcat 
+ 
+A
+u sein de sociétés occidentales méﬁantes envers leurs institutions et leurs diri­
+geants, abreuvées par les réseaux sociaux et de plus en plus exposées aux fake 
+news, le décryptage de l’information est devenu une activité à part entière. Le 
+journalisme en oﬀre une bonne illustration : sous la pression de nouveaux concurrents 
+et de désinformation à grande échelle, le fact checking peut être assimilé à un nouveau 
+métier, avec ses formations techniques, ses experts de l’investigation et ses services  
+spécialisés. Ainsi, la révolution numérique, conjuguée à une attente sociétale plus forte 
+en matière de transparence de la part des États et des médias, a profondément modiﬁé 
+notre rapport à l’information. En parallèle, voire en complément, des activités des  
+services de renseignement, les activités de collecte, d’analyse et d’exploitation 
+des données numériques en libre accès se sont professionnalisées et touchent désormais 
+tous les secteurs, publics comme privés. Chaque citoyen a également la possibilité 
+de mener ses propres enquêtes numériques, de s’organiser en communautés aﬁn de 
+fournir, rassembler ou analyser des informations. Ce foisonnement de sources 
+et de possibilités généré par l’accès aux données vient profondément bousculer l’ordre 
+établi et les frontières entre des fonctions régaliennes et la prolifération de ces  
+nouveaux acteurs. 
+L’origine de l’expression « open source » est très éclairante sur le phénomène à 
+l’œuvre. Dans The Cathedral and the Bazaar, essai paru en 1999 (2), Eric Raymond, 
+créateur du terme open source, analyse le développement de nouveaux logiciels en expo­
+sant leurs diﬀérences fondamentales avec les générations de logiciels classiques. Il s’agit 
+d’une nouvelle manière de développer des logiciels, par la coopération d’une multitude 
+de développeurs qui y ont librement accès, et qui se caractérise par une plus grande 
+(1)  « Les preuves existent et les mensonges existent, et les gens se soucient toujours de la diﬀérence. »
+(2)  RAYMOND Eric S., The Cathedral and the Bazaar, Snowballpuplishing (réédition 2010), 1999, 80 pages.
+Les Cahiers de la Revue Défense Nationale
+109
+
+[Page 2 / 14 | chars: 3505]
+--------------------------------------------------------------------------------
+
+110
+adaptabilité et ﬂexibilité, dite hiérarchie « bazar », qui s’oppose à la structure organisée 
+dans la hiérarchie dite de « cathédrale ». Cette métaphore de l’opposition 
+cathédrale/bazar, s’est développée dans d’autres champs (3) et Marie Mourad, socio­
+logue étudiant l’œuvre d’Éric Raymond, va plus loin en envisageant ce mode de déve­
+loppement de type « bazar » comme un modèle d’avenir. Elle explique que « dans un 
+contexte de crise où la mutualisation des savoirs et techniques et la remise en question 
+des monopoles sont les bienvenus, le bazar est un style de développement que l’on 
+pourrait actuellement considérer comme alternatif ». À l’image de Wikipédia, fondé 
+sur le crowdsourcing – ou renseignement citoyen –, l’OSINT, l’open source appliquée à 
+l’intelligence, serait-elle une discipline alternative et d’avenir ? 
+Cette transformation pose plus largement des problématiques relatives aux 
+aspects juridiques de l’accès aux données et au ﬁnancement de ces nouvelles technolo­
+gies qui exigent des eﬀorts d’investissement considérables. Les coûts culturels, 
+humains, techniques et ﬁnanciers de cette révolution – comparable, pour certains, à un 
+changement de civilisation ou à l’invention de l’écriture – sont sans équivalent et 
+doivent être réinterrogés en permanence. Comment s’y préparer, comment déﬁnir 
+nos priorités et orienter des investissements comptés et qui semblent insigniﬁants en 
+comparaison de ce que les États-Unis ou la Chine mettent en œuvre au même 
+moment ? La France est-elle en ordre de marche pour relever tous ces déﬁs ? 
+L’OSINT, un « nouveau territoire » 
+« Le monde numérique crée une situation où il n’y a plus de secrets. (4) » 
+Angela MERKEL 
+La guerre en Ukraine est le premier conﬂit moderne et de haute intensité qui 
+illustre la place qu’occupe désormais l’OSINT dans l’information et la compréhension 
+d’une guerre (5). Le Renseignement d’origine source ouverte (Roso) rend possible le 
+suivi de la situation en temps quasi réel. Si cela proﬁte aux services de renseignement 
+dont les informations proviennent à 80 % de l’OSINT (6), le grand public a également 
+accès au détail des opérations militaires captées et retransmises via les réseaux sociaux. 
+La constitution de communautés d’OSINTers travaillant en réseau en recoupant 
+photos, vidéos et enregistrements, a permis, par exemple, de réaliser et de diﬀuser des 
+cartes actualisées de la ligne de front et des unités engagées en Ukraine. 
+Aux origines du renseignement d’origine sources ouvertes 
+Historiquement, l’utilisation de sources non protégées a toujours représenté 
+une source à part entière pour les services de renseignement. Les exemples sont nombreux, 
+(3)  Appliquée au domaine du droit, la métaphore de la cathédrale et du bazar illustre par exemple la production foison­
+nante du droit international et du droit communautaire qui est venue s’immiscer dans la hiérarchie des normes très 
+ordonnée des États.
+(4)  Discours du Forum économique mondial de Davos en 2013.
+(5)  Cette montée en puissance s’est développée progressivement. Dès 2011 en Libye, c’est par des comptes Twitter que 
+les marins français pouvaient suivre la progression des rebelles dans Syrte.
+(6)  LE DEUFF Olivier, « L’Open Source Intelligence (OSINT) : origine, déﬁnitions et portée, entre convergence profession­
+nelle et accessibilité de l’information », I2D – Informations, données et documents, 2021/1, n° 1 (www.cairn.info/).
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+
+[Page 3 / 14 | chars: 3572]
+--------------------------------------------------------------------------------
+
+111
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+du général Wellington reprochant à ses généraux de n’avoir pas pris en compte les 
+informations diﬀusées dans le Times sur les nouvelles formations d’infanterie françaises 
+de Napoléon à la guerre froide, période emblématique, où des agents soviétiques se 
+rendaient à New York pour récupérer la presse américaine qui était ensuite analysée à 
+Moscou et venait compléter ou conﬁrmer le renseignement collecté par les agents  
+clandestins. Pratique ancestrale, on peut cependant situer l’origine de l’OSINT insti­
+tutionnalisée à cette période dans la mesure où elle constituait alors une forme  
+d’excroissance des services de renseignement avec la création du Foreign Broadcast 
+Information Service (FBIS) aux États-Unis dans les années 1950. 
+Les mutations successives de la menace à la suite de la chute de l’URSS et 
+surtout l’émergence des technologies numériques ont contribué à accorder une place 
+toujours croissante à l’OSINT. Cette tendance a conduit au développement à partir de 
+2005 du National Intelligence Open Source Center au sein de la CIA. La publication, en 
+mars 2024, par les États-Unis de leur première stratégie de la communauté du rensei­
+gnement OSINT, the IC OSINT Strategy 2024-2026 (7), concrétise ce véritable chan­
+gement de dimension pour la discipline. Le document, non classiﬁé, d’une douzaine 
+de pages à l’attention du grand public, réaﬃrme le rôle essentiel que joue l’OSINT en 
+matière de sécurité ainsi que son impact sur les questions de sécurité et de sureté amé­
+ricaines. Sa vocation est double : contribuer à l’information des décideurs et éclairer les 
+citoyens américains sur les menaces. Les États-Unis se ﬁxent comme ambition de pro­
+fessionnaliser la discipline par une meilleure coordination entre les diﬀérents acteurs et 
+l’application de règles communes de fonctionnement. L’émergence de la discipline 
+relève ainsi d’un long processus qui a vu se développer la collecte, l’exploitation et 
+l’analyse des données, ainsi que les pratiques d’enquête et d’investigation à partir de 
+sources ouvertes que sont la presse, les autres médias sur Internet, les réseaux sociaux, 
+les données gouvernementales, les revues académiques, les bases de données commer­
+ciales et la littérature institutionnelle. Dans une déﬁnition aujourd’hui communément 
+admise, l’OSINT regroupe « un ensemble hétéroclite de pratiques d’investigation et 
+d’analyse visant à dévoiler une information préalablement dissimulée en récoltant, 
+croisant ou analysant des données numériques disponibles en source ouverte » (8). Cette 
+dernière déﬁnition témoigne de la place qu’occupent aujourd’hui les technologies de 
+la donnée dans la pratique de l’OSINT. 
+La révolution numérique 
+Selon les dernières estimations, environ 350 millions de téraoctets de données 
+sont créés chaque jour et on estime que 90 % des données mondiales ont été générées 
+au cours des deux dernières années (9). Cette révolution numérique a fondamentalement 
+fait changer de dimension l’OSINT. Ainsi que le décrit Paul Charon, « c’est comme si 
+(7)  UNITED 
+STATES 
+INTELLIGENCE 
+COMMUNITY, 
+The 
+IC 
+OSINT 
+Strategy 
+2024-2026, 
+mars 
+2024 
+(https://www.dni.gov/ﬁles/ODNI/documents/IC_OSINT_Strategy.pdf).
+(8)  AUDINET Maxime et LIMONIER Kévin, « De l’enquête au terrain numérique : les apports de l’OSINT à l’étude des 
+phénomènes géopolitiques », Hérodote, n° 186, 3/2022. Les chercheurs y établissent cette « impossible déﬁnition de 
+l’OSINT ».
+(9)  Selon Explodingtopics (https://explodingtopics.com/).
+
+[Page 4 / 14 | chars: 3858]
+--------------------------------------------------------------------------------
+
+112
+on avait découvert un nouveau continent. À côté du terrain physique, on a un terrain 
+numérique qu’il faut aller explorer » (10). Il s’agit désormais de traiter « le tsunami des 
+données », mais la conquête de ce nouveau territoire, au-delà de ses aspects scienti­
+ﬁques et techniques, pose aussi d’autres déﬁs au renseignement. Quel est l’avenir des 
+activités clandestines, rendues de plus en plus complexes et limitées dans un monde 
+entièrement numérisé ? Fabien Laurençon (11) analyse parfaitement le mouvement qui 
+s’opère en constatant que « l’OSINT est à la fois un complément et un eﬀecteur à part 
+entière du cycle de renseignement. Cette dimension ambivalente explique son statut 
+hybride, en quête de reconnaissance et pourtant en pratique irremplaçable ». 
+Faire de la collecte ainsi que de l’analyse de données et d’informations acces­
+sibles à tous une activité essentielle du renseignement relève en eﬀet d’une pratique 
+contre-nature pour les experts. Il s’agit de passer de la recherche d’une information qui 
+était jusqu’alors essentiellement rare et cachée, à la gestion de la prolifération des 
+données sur Internet et les réseaux sociaux. Un changement de paradigme qui consiste 
+à basculer du modèle de la poignée d’agents garants du « secret du Roy » au service de 
+Louis XV à une armée de serveurs de données et d’équipements de haute technologie. 
+Au sein de la Direction générale de la sécurité extérieure (DGSE), où les actions clan­
+destines et le renseignement humain représentent à la fois la raison d’être historique et 
+le cœur des activités, ce rééquilibrage nécessaire n’est pas si évident à opérer. À ce chan­
+gement de modèle dans la collecte de l’information s’ajoute le paradoxe de la produc­
+tion des informations classiﬁées. Les services de renseignement vont produire ces 
+informations à partir de données et de sources ouvertes, inversant ainsi la conception 
+traditionnelle de production.  
+Ces changements vont enﬁn devoir s’accompagner d’une transformation 
+globale de l’organisation et des méthodes de travail ainsi que de choix en matière  
+d’investissements. L’échelle à laquelle se produit cette révolution impose, en eﬀet, des 
+acquisitions technologiques conséquentes et coûteuses pour s’équiper de méga serveurs 
+de traitement des données. Les services de renseignement vont se tourner vers des 
+acteurs privés, spécialistes du stockage de données ou de la conception de logiciels pour 
+les appuyer dans leur transformation numérique. Cette interaction avec le secteur privé 
+va plus loin que le recours à l’expertise de sociétés expertes dans le big data et la collecte 
+de données. Les capacités à fournir après analyse, recoupement ou investigation des 
+informations, d’intérêt militaire notamment, va faire émerger de nouveaux acteurs, 
+extérieurs aux services de renseignement. 
+La révolution numérique s’accompagne ainsi d’une révolution de l’OSINT 
+pour les services de renseignement mais aussi pour d’autres disciplines, telles que le 
+droit ou l’intelligence économique qui y recourent massivement. Alexandre 
+(10)  Entretien réalisé en décembre 2023 avec le professeur Paul Charon, directeur du domaine renseignement, anticipa­
+tion et stratégies d’inﬂuence à l’Institut de recherche stratégique de l’École militaire (IRSEM). Auparavant, il a travaillé 
+plus de dix ans en qualité d’analyste du renseignement puis de conseiller prospective au sein du ministère des Armées.
+(11)  Fabien Laurençon est chercheur associé à l’IRSEM. Il prépare un doctorat sur les rapports entre renseignement et inno­
+vation et a contribué à CHARON Paul et JEANGÈNE VILMER Jean-Baptiste (dir.), Les mondes du renseignement, PUF, 2024, 
+en signant le chapitre : « Les enjeux de la communauté du renseignement en France aujourd’hui », p. 119-141.
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+
+[Page 5 / 14 | chars: 3530]
+--------------------------------------------------------------------------------
+
+113
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+Papaemmanuel qualiﬁe l’ampleur du phénomène « d’innovation disruptive » (12) dans 
+la mesure où ce qui se produit « bouscule les positions établies, court-circuite le jeu 
+habituel, impose un changement de paradigme ». 
+Les nouveaux acteurs 
+« Les gens de ma génération n’ont donc pas seulement repensé le travail des services de renseignement, ils ont entière­
+ment redéﬁni la nature des renseignements. On n’avait pas aﬀaire à des rencontres clandestines ou à des cachettes 
+secrètes, mais à des données. (13) » 
+Edward SNOWDEN 
+Les déﬁs techniques, organisationnels et humains liés à la gestion du volume, 
+de la vélocité et de la variété des données vont conduire à la commercialisation et à la 
+démocratisation de l’OSINT. La « mise en données du monde » (14) favorise en eﬀet 
+l’émergence de « nouveaux entrepreneurs en souveraineté » (15), sociétés privées ou 
+communautés de bloggeurs qui se positionnent, par la dualité de leur activité, leur 
+expertise technologique ou les potentialités de l’accès aux données, sur le segment des 
+missions des services de renseignement. Ainsi que le décrit Alexandre Papaemmanuel, 
+« l’abordage est lancé par les opérateurs privés, mais aussi des citoyens engagés », que 
+l’on va retrouver sur toutes les phases du cycle du renseignement : orientation, 
+recherche, analyse et diﬀusion. 
+Professionnalisation de l’OSINT : OSINT as a service 
+C’est par la collecte des données, via les data brokers, que le recours à des socié­
+tés privées s’est manifesté de la manière la plus spectaculaire. Ces courtiers en données 
+(personnes ou entreprises) se sont spécialisés dans la vente ou la revente de données, en 
+particulier le proﬁlage des données individuelles et la géolocalisation. Ils ont ainsi déve­
+loppé des capacités de surveillance extrêmement précises à partir de données accessibles 
+en ligne. La société Axciom, spécialisée dans la donnée client à des ﬁns de marketing, 
+prétend ainsi avoir recueilli des informations sur 10 % de la population mondiale, avec 
+un dossier individuel recensant au moins 1 500 informations par individu. Dans le 
+domaine de la défense, l’outsourcing désigne l’externalisation à des acteurs privés de  
+certains domaines de compétence. À titre d’exemple, la société française GeoMaps (16), 
+née d’un consortium entre Thales et Airbus, alimente les bases de données du ministère 
+des Armées (Minarm) pour le renseignement géographique en appui du travail de 
+l’Établissement géographique interarmées. 
+(12)  PAPAEMMANUEL Alexandre, « Les acteurs non étatiques du renseignement : vers la « disruption » des services de  
+renseignement », in CHARON Paul et JEANGÈNE VILMER Jean-Baptiste (dir.), op. cit., p. 303-319. Alexandre 
+Papaemmanuel est enseignant à Sciences-Po, il travaille depuis de nombreuses années dans l’industrie du numérique. Il 
+est notamment l’auteur, avec Florian Vadillo, de l’ouvrage Les espions de l’Élysée : le Président et les services de renseignement, 
+Tallandier, 2019, 336 pages.
+(13)  LE DEUFF Olivier, op. cit.
+(14)  CUKIER Kenneth et MAYER-SCHÖNBERGER Viktor, « Mise en données du monde, le déluge numérique », Le Monde 
+diplomatique, juillet 2013.
+(15)  VASSET Philippe et GASTINEAU Pierre, « Le monde des espions, saison 2 : “Les nouveaux corsaires”, France culture, 
+2020 (https://www.radiofrance.fr/franceculture/podcasts/le-monde-des-espions-saison-2-les-nouveaux-corsaires).
+(16)  « GeoMaps », Geo212 (https://www.geo212.com/projects/view/6).
+
+[Page 6 / 14 | chars: 3906]
+--------------------------------------------------------------------------------
+
+114
+Face à l’inﬂation exponentielle des données, un processus de traitement intensif 
+de big data, correspondant à l’agrégation des données, est nécessaire et rendu possible 
+par l’intelligence artiﬁcielle (IA). Ce type de service est également assuré par les acteurs 
+privés pour accompagner les services de renseignement. La société américaine Palentir, 
+qui a développé des logiciels de fusion et d’analyse de données pour répondre aux 
+besoins de la NSA, de la CIA, du FBI et des armées américaines, est l’exemple emblé­
+matique de ce type d’activités. L’observation spatiale est également un domaine en 
+plein essor. Avec l’ouverture d’un marché commercial aux sociétés du New Space,  
+l’Espace n’est plus une prérogative exclusivement gouvernementale, mais un nouveau 
+terrain de conquête très lucratif pour des sociétés privées (17), qui vont pouvoir revendre 
+données, images et analyses en provenance de satellites d’observation. 
+Une étape supplémentaire est franchie avec des acteurs commerciaux qui sont 
+aujourd’hui capables de proposer des services d’aide à la décision. Ils investissent ainsi 
+le champ de l’exploitation de la donnée et de l’information, une prérogative jusqu’alors 
+gouvernementale et considérée comme la partie noble du renseignement. Les Américains 
+s’engagent de manière volontariste dans ce secteur, mais la France dispose également 
+de pépites telle que Preligens, champion de l’interprétation par l’IA d’images satellites, 
+qui combine les données géographiques et les algorithmes pour proposer des solutions 
+de suivi des mouvements de troupes par exemple. En réalisant ces fusions de multicap­
+teurs des constellations commerciales, renforcées par les performances de l’IA, seront 
+de plus en plus capables de produire des analyses de niveau stratégique. 
+Démocratisation de l’OSINT : quand le citoyen participe au renseignement 
+En marge de l’outsourcing produit par les sociétés et start-up du numérique, le 
+crowdsourcing prolifère. Amateurs ou communautés non commerciales développent 
+des réseaux, des outils et aujourd’hui des formations pour informer et initier le grand 
+public en produisant le résultat d’enquêtes menées à partir de données et d’informations 
+accessibles sur Internet et les réseaux sociaux. Les organisations Bellingcat (18) et son 
+pendant français OpenFacto (19) représentent parfaitement ces détectives d’un nouveau 
+genre. Bellingcat, qui s’est notamment fait connaître à la suite de ses enquêtes sur le 
+vol 17 de Malaysia Airlines (MH17) en 2014 (20), ou l’empoisonnement d’Alexeï 
+Navalny en 2019, se présente comme « un groupe international indépendant de cher­
+cheurs, d’enquêteurs et de journalistes citoyens utilisant à la fois l’OSINT et les réseaux 
+sociaux pour sonder une grande variété de sujets » généralement liés à la sécurité. Ces 
+associations à but non lucratif tirent une grande légitimité de la transparence de leur 
+démarche d’investigation, puisqu’elles indiquent systématiquement leurs sources et 
+(17)  La France possède aussi ses pépites dans ce domaine avec des sociétés comme Unseenlabs pour la surveillance mari­
+time ou CLS (Collecte Localisation Satellites) spécialisée dans l’observation et surveillance de la terre.
+(18)  À noter que Bellingcat est disponible en français (https://fr.bellingcat.com/).
+(19)  OpenFacto (https://openfacto.fr/).
+(20)  Le 17 juillet 2014, le vol 17 de Malaysia Airlines est abattu alors qu’il survole l’Est de l’Ukraine, faisant près de 
+300 victimes. Alors que la Russie tente d’imputer la responsabilité à l’Ukraine, Bellingcat publie un rapport qui attribue 
+la destruction de l’appareil à un missile Buk tiré par une unité russe. Ces conclusions ont été obtenues en recoupant des 
+images satellite, des photographies et des cartes, et en démontrant la falsiﬁcation des preuves produites par la Russie.
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+
+[Page 7 / 14 | chars: 3277]
+--------------------------------------------------------------------------------
+
+115
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+leur méthode. À l’heure où la parole publique et institutionnelle est devenue suspecte, 
+leurs rapports permettent à chaque citoyen de vériﬁer par lui-même le contenu de  
+l’information. 
+On observe une grande multiplicité et hétérogénéité au sein de cette agora de 
+l’OSINT où se retrouvent ces communautés et des centaines de bloggeurs et experts 
+de plus en plus organisés. Véritable mode de développement matriciel, des micro- 
+villages émergent dans une communauté mondiale où l’on trouve des passionnés (21) 
+qui créent et organisent leur propre forum auquel contribuent d’autres amateurs issus 
+des quatre coins du monde. Sur X (ex-Twitter), les comptes français Projet FOX et 
+Random OSINT rassemblent ainsi des milliers d’abonnés, en utilisant parfois des 
+méthodes comparables à celles des services de renseignement. Leurs productions 
+concurrencent ou complètent le travail des services, elles s’apparentent aussi à un pro­
+cessus de « blanchiment » du renseignement destiné à informer ou sensibiliser les 
+populations. Ces nouvelles formes d’investigation citoyenne témoignent aussi de la dif­
+fusion d’une culture du renseignement dans la société civile mais aussi de la prise de 
+conscience collective des enjeux de la manipulation de l’information et des ingérences 
+étrangères. 
+Les services de renseignement français  
+face à la mise en données du monde 
+« Puisque l’art de la mémoire n’est plus ce combat pour exercer les capacités du cerveau,  
+il devient une course au nombre de serveurs et d’algorithmes pour soutenir l’analyste. » 
+A. PAPAEMMANUEL, op. cit 
+Les enjeux juridiques 
+Il n’y a, théoriquement, rien d’illégal à faire de l’OSINT. Pourtant, les aspects 
+juridiques liés à la collecte des données, personnelles en particulier, sont au cœur du 
+sujet et constituent encore une zone grise. À l’heure où les technologies duales ont 
+banalisé certains usages sans même que nous ayons conscience de leur caractère invasif, 
+les législations qui les autorisent sont dépassées par la vitesse des possibilités oﬀertes. 
+Les risques de captation massive et abusive de données, aspirées sans le consentement 
+de leurs propriétaires pour être vendues à des entreprises commerciales, sont bien iden­
+tiﬁés. Pourtant, il s’agit du fonds de commerce de nouvelles sociétés, dont l’objet social 
+est de constituer des méga-ﬁchiers de surveillance. Clearview AI, créée par le fondateur 
+de Palentir, est ainsi devenue l’un des leaders de la reconnaissance faciale et détient 
+des milliers de ﬁchiers de données personnelles. Dans le cas de l’OSINT, le sujet est 
+complexe car il n’existe pas de cadre juridique clair pour cette discipline. La grande 
+diversité des acteurs crée une grande hétérogénéité de situations. Si les risques sont 
+assez limités à petite échelle, les ONG et communautés importantes ou les sociétés 
+privées françaises se doivent de respecter le Règlement général sur la protection des 
+(21)  En France, Xavier Titelmann, ancien militaire de l’Armée de l’air et passionné d’aéronautique, est le rédacteur en 
+chef d’Air & Cosmos. Il pilote activement le développement de communautés d’OSINT investies dans le suivi de la guerre 
+en Ukraine et le soutien aux Ukrainiens.
+
+[Page 8 / 14 | chars: 3647]
+--------------------------------------------------------------------------------
+
+116
+données (RGPD) mis en place par l’Union européenne et de s’assurer de la conformité 
+de leur activité avec la Commission nationale de l’informatique et des libertés (Cnil). 
+Le cadre devient alors extrêmement contraignant voire paralysant. Par ailleurs, le 
+DarkNet, qui reste une source importante, n’a pas de cadre déﬁni et sur le plan du 
+droit, il s’agit de recel illégal de données. Aux États-Unis, la situation est sensiblement 
+diﬀérente. Les données personnelles constituent un bien commercial et le pays 
+est moins doctrinaire en matière de protection. Depuis 2018 avec le Cloud Act, l’extra­
+territorialité du droit américain permet déjà aux forces de l’ordre américaines d’exiger 
+l’accès aux données stockées par des entreprises américaines à l’étranger dès lors 
+qu’elles sont nécessaires dans le cadre d’une enquête. Plus récemment, la stratégie 
+OSINT publiée en 2024 par l’Oﬃce of National Intelligence et la CIA, considère désormais 
+oﬃciellement comme sources ouvertes les données personnelles achetées ou en ligne. 
+Au niveau commercial, les Américains bénéﬁcient donc d’avantages comparatifs non 
+négligeables, alors que la législation européenne tente de suivre la cadence des nou­
+velles possibilités technologiques. 
+La clariﬁcation et le déblocage des aspects juridiques s’imposent donc pour 
+déﬁnir un cadre réglementaire équilibré et limiter le caractère intrusif de certaines pra­
+tiques. Ce besoin se manifeste, par exemple, dans la publication d’un livre blanc de 
+l’OSINT (22), mis en ligne en 2023 par le site Internet OZINT, en marge de toute 
+action institutionnelle. Cette plateforme communautaire est à l’initiative de ce recueil 
+de réﬂexion destiné à proposer un cadre légal pour l’OSINT et à guider les pratiquants 
+amateurs et professionnels de la discipline. Par ailleurs, les succès du Service de vigi­
+lance et protection contre les ingérences numériques étrangères, Viginum (23), consti­
+tuent un cas d’usage intéressant. L’agence, rattachée au Secrétariat général de la 
+sécurité et de la défense nationale (SGDSN), a obtenu en coordination avec la Cnil 
+deux décrets cadrant le chalutage et l’analyse des données, qui lui permettent de 
+remplir ses missions eﬃcacement et en conformité avec ces règles. Ainsi, au-delà du 
+dilemme sécurité contre liberté, ces aspects juridiques méritent la plus grande attention 
+des ministères, moins habitués à s’interroger sur ces sujets que les grandes entreprises 
+qui y sont très sensibles. De fait, le ﬁnancement des technologies par les fonds d’inves­
+tissement est directement lié au cadre juridique qui apporte les garanties et la conﬁance 
+aux investisseurs. Si les entreprises doivent assurer ce risque juridique, elles ne trouve­
+ront pas de ﬁnancier pour soutenir leur croissance et leur développement. 
+Les enjeux du financement de l’OSINT : chronique d’une mort annoncée ? 
+La dimension hyper technologique de l’OSINT a ouvert le champ aux acteurs 
+privés du numérique. La question du ﬁnancement et de la capitalisation de ces entre­
+prises qui développent des data center, des algorithmes et des supercalculateurs est cen­
+trale. Pourtant sur ces marchés en pleine croissance, qui font l’objet d’investissements 
+massifs dans le monde entier, estimés à 150 milliards d’euros en 2024 pour l’IA,  
+les entreprises européennes plafonnent à 2 Mds et accusent un retard croissant et 
+(22)  OZINT, Livre blanc, le cadre légal de l’OSINT, réﬂexion intercommunautaire (https://ozint.eu/).
+(23)  Entretien réalisée en mars 2024 avec Marc-Antoine BRILLANT, fondateur et directeur de Viginum.
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+
+[Page 9 / 14 | chars: 4052]
+--------------------------------------------------------------------------------
+
+117
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+inquiétant (24). Les diﬀérentes initiatives politiques semblent incapables de juguler cette 
+tendance dont les explications sont multifactorielles. 
+La première question qui se pose en Europe est la suivante : un pays qui aﬃche 
+des préoccupations RSE (Responsabilité sociétale des entreprises) et climat peut-il 
+investir dans la défense (25) ? Les règles de classiﬁcation des fonds, en particulier le 
+Règlement sur la publication d’informations en matière de durabilité, SFDR 
+(Sustainable Finance Disclosure Regulation), entré en vigueur en 2021 et qui s’applique 
+à tous les produits et marchés ﬁnanciers en Europe, interdit les ﬁnancements sur des 
+fonds dans la défense. Si l’UE est aujourd’hui sous pression, par la voix de certains 
+ministres de l’Économie et des Finances, pour assouplir ces règles d’investissement en 
+faveur de la défense et stimuler davantage les ﬂux de capitaux, la Banque européenne 
+aux investissements ne ﬁnance que des projets à double usage et les capacités de ﬁnan­
+cement dans la défense sont largement insuﬃsantes pour répondre aux besoins  
+d’investissement technologiques portés par le numérique et l’IA. Ces écarts s’inscrivent 
+sur des échelles de 1 à 10 par rapport aux États-Unis et à la Chine. 
+Dans un article (26), Yann Coatanlem et Olivier Coste développent les diﬀé­
+rentes raisons qui concourent à ce décrochage européen : culture entrepreneuriale déﬁ­
+ciente, fragmentation du marché européen, excès de réglementation, manque de 
+ﬁnancements, déclin des politiques industrielles. Les auteurs considèrent toutefois que 
+ces explications « toutes valables dans une certaine mesure, semblent de second ordre 
+par rapport à l’ampleur du problème et les solutions proposées ont certainement 
+montré leur ineﬃcacité ». La cause principale tient, selon eux, au fait que la prise de 
+risque n’est pas rentable en Europe, en raison du coût des restructurations au sein des 
+entreprises qui ont besoin d’innover. De fait, à l’inverse des industries matures telles 
+que le nucléaire ou l’aéronautique, la Tech « volubile et incertaine » exige des investis­
+sements importants en Recherche et développement (R&D), ainsi que des capacités 
+d’adaptation réactives pour abandonner certains projets et réinvestir sur de nouvelles 
+pistes. Les médias Challenges et Les Échos relaient depuis plus d’un an maintenant 
+la situation paradoxale d’Atos, pépite française qui s’est imposée comme leader sur  
+le marché des data centers, désormais moins lucratif, qui a le potentiel pour devenir  
+le moteur des supercalculateurs en Europe mais qui se trouve confrontée à d’importantes 
+diﬃcultés ﬁnancières susceptibles de compromettre son avenir. Fragilisée par le poids 
+ﬁnancier des licenciements liés à ce changement de cap, l’entreprise a ainsi dépensé 
+plus d’un milliard d’euros en restructurations en 2023, limitant ses capacités d’investissement 
+(24)  GODELUCK Solveig [propos recueillis par], « Intelligence artiﬁcielle : “L’Europe, c’est la stratégie du bonzaï” », entre­
+tien avec Olivier Coste, Les Échos, 19 mars 2024. Olivier Coste est entrepreneur de la Tech, X-Mines, ancien conseiller 
+de Lionel Jospin à Matignon, cadre chez Alcatel et Atos. Dernier ouvrage paru : L’Europe, la Tech et la guerre, Publication 
+indépendante, 24 novembre 2022, 260 pages (prix Daniel-Strasser de l’Académie des sciences morales et politiques 
+2023).
+(25)  ASSOCIATION FRANÇAISE DES INVESTISSEURS INSTITUTIONNELS (AF2I), ESG et ﬁnancement de l’industrie de défense, les 
+dossiers de l’AF2i, mars 2023, 42 pages (www.af2i.org/).
+(26)  COATANLEM Yann et COSTE Olivier, « Tech, quand l’Europe s’éveillera », Commentaire, décembre 2023, p. 821-829. 
+Yann Coatanlem est économiste et entrepreneur, président du Club Praxis. Dernier ouvrage paru : COATANLEM Yann et 
+LECEA (DE) Antonio, Le Capitalisme contre les inégalités, PUF, mars 2022, 513 pages ; lauréat du prix Turgot 2023 et du 
+prix Louis-Marin de l’Académie des sciences morales et politiques 2023.
+
+[Page 10 / 14 | chars: 4038]
+--------------------------------------------------------------------------------
+
+118
+en R&D à 375 millions d’euros. Cet exemple est emblématique de la non-rentabilité 
+des investissements et de la prise de risque liée à l’innovation en Europe. 
+Les enjeux de souveraineté liés à l’OSINT 
+Si les sujets de sécurité et de défense sont devenus un marché technologique 
+très concurrentiel et particulièrement rentable, ils sont d’abord une fonction réga­
+lienne. La privatisation de la sécurité nationale conduit pourtant au transfert de sou­
+veraineté du public vers le privé. Aussi, l’outsourcing étendu à des parties de plus en 
+plus larges des fonctions régaliennes menace-t-il le socle de la souveraineté de l’État ? 
+L’Ukraine démontre que dans l’urgence de la guerre et pour bénéﬁcier de services 
+cyber et Internet après les attaques russes sur leurs réseaux, les Ukrainiens ont troqué 
+une partie de leur souveraineté aux États-Unis et aux entreprises gestionnaires du 
+Big Data. Les technologies se sont ainsi enracinées au cœur de la puissance des États et 
+les États-Unis avec les GAFAM (Google, Apple, Facebook, Amazon et Microsoft) en 
+sont la meilleure illustration. Ces méga-sociétés sont devenues de véritables acteurs 
+politiques et géopolitiques ainsi que des perturbateurs de la démocratie. À ce titre, 
+Asma Mhalla (27) propose l’image d’un nouveau Léviathan à deux têtes, partagé entre 
+Big Tech et Big State, animé par un désir de puissance hors limites. Palentir symbolise 
+ce mélange des genres de par sa forte spécialisation native dans le renseignement et ses 
+liens étroits avec la CIA dont elle a pu bénéﬁcier des capitaux à sa création. Asma 
+Mhalla nous rappelle que « c’est par le prisme politique, au travers d’une réﬂexion 
+sérieuse qu’il faut repenser les doctrines des rapports de forces et notre degré de dépen­
+dance envers des acteurs privés, voire étrangers ». 
+Un second aspect touchant à la souveraineté des États concerne leur vulnéra­
+bilité et l’exposition de l’opinion publique aux inﬂuences étrangères. Nos démocraties 
+ouvertes et de plus en plus numérisées sont-elles plus exposées au renseignement et aux 
+actions de manipulation de puissances étrangères ? L’hyper-numérisation est un 
+facteur de fragilisation pour toutes les grandes puissances, y compris la Chine, terri­
+toire aujourd’hui très diﬃcilement accessible pour du renseignement humain, mais 
+encore ouvert pour des spécialistes de l’investigation numérique (28). Toutefois, « nos 
+pires ennemis sont déjà présents chez nous », comme l’explique Bruno Breton (29). 
+Notre naïveté démocratique européenne a permis la multiplication d’usines à troll (30) 
+étrangères et leur relais par des comptes français de mouvements d’opposition, véri­
+tables inﬂuenceurs de ces mouvements de déstabilisation et de propagande politiques. 
+(27)  MHALLA Asma, Technopolitique, comment la technologie fait de nous des soldats, éditions du Seuil, février 2024, 
+288 pages. Politologue et essayiste, Asma Mhalla est experte en politique publique technologique. Rédactrice aux Échos, 
+elle enseigne à Sciences Po Paris et à l’École polytechnique.
+(28)  CHARON Paul et JEANGÈNE VILMER Jean-Baptiste, Les opérations d’inﬂuence chinoises : un moment machiavélien,  
+éditions des Équateurs, janvier 2024, 732 pages.
+(29)  Bruno Breton est fondateur et président directeur général de Bloom, société française d’intelligence artiﬁcielle  
+spécialisée dans l’analyse stratégique et qualitative des réseaux sociaux. Entretien réalisé en décembre 2023.
+(30)  Une usine à trolls ou une ferme à trolls est une organisation qui regroupe et coordonne des trolls sur Internet, voire 
+des hackers, payés pour diﬀuser de manière massive des informations partielles, partiales ou totalement mensongères sur 
+les réseaux sociaux. Leur but est la déstabilisation géopolitique ou politique, le lobbying ou la propagande politique. Un 
+troll est un individu cherchant l’attention par la création de ressentis négatifs, ou un comportement qui vise à générer des 
+polémiques (Wikipédia).
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+
+[Page 11 / 14 | chars: 3437]
+--------------------------------------------------------------------------------
+
+119
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+L’action de ces comptes étrangers, démultipliés par des comptes français, est estimée à 
+13 % de l’activité des réseaux sociaux et s’est démultipliée ces dernières années. Leurs 
+intrusions sont extrêmement diﬃciles à contrer. L’OSINT permet aux amateurs 
+comme aux professionnels de vériﬁer les faits, de discréditer les supercheries et leurs 
+auteurs et de rétablir la vérité. Ces actions de fact checking sont devenues indispensables 
+et fonctionnent par prebunking et debunking (31). Google a ainsi lancé des programmes 
+en Europe pour apprendre à réfuter des mensonges futurs, en mettant en évidence les 
+techniques de tromperie. Sans dispenser les plateformes de la suppression des contenus 
+préjudiciables ou de l’amélioration de leurs algorithmes, identiﬁer les signaux faibles et 
+les dénoncer oﬃciellement contribue à développer des anticorps mentaux et à être  
+partiellement immunisés face aux fausses informations. 
+Définir une stratégie nationale pour l’OSINT est un impératif 
+ 
+« L’innovation technologique est devenue le principal champ de bataille du grand jeu global,  
+et la concurrence pour la domination technologique va atteindre des niveaux de férocité sans précédent.(32) »  
+XI Jinping 
+L’interaction entre l’OSINT et les services de renseignement reste un sujet 
+doublement délicat à traiter. En premier lieu pour une raison présentée dans cet article 
+et qui tient à la place que cette discipline du renseignement, à la fois nécessaire et  
+« toujours au seuil » (33), doit trouver au sein des services. La seconde raison relève du 
+caractère évidemment non accessible et non public d’une partie de l’étude. Sans ces 
+connaissances ou sans recherches universitaires plus approfondies, toute démarche  
+critique s’avère limitée ou biaisée d’emblée. Aussi les observations et réﬂexions qui 
+suivent sont à considérer comme les conclusions du travail de l’auteur, extérieur au 
+milieu et qui ne détient donc pas l’ensemble des informations. Elles traduisent cepen­
+dant l’évaluation des diﬀérents échanges et articles de revues ou sites spécialisés consultés 
+dans une période particulièrement intéressante puisque des choix d’organisation, de 
+stratégie et d’investissement s’imposent. 
+La France manque de réactivité pour s’emparer des enjeux de l’OSINT 
+La prise en compte de l’OSINT au sein des services de renseignement et des 
+armées est une illustration de la façon dont nous abordons ces changements et des 
+moyens mis en œuvre pour tirer parti de nouvelles opportunités. On peut s’interroger 
+sur le fait qu’il demeure un débat sur la qualiﬁcation et la classiﬁcation de l’OSINT, 
+encore considérée comme une discipline, n’appartenant pas au domaine du renseignement. 
+Fabien Laurençon résume ce constat en expliquant que « l’évolution de l’OSINT 
+depuis les années 1950 aux États-Unis met en lumière à quel point l’interface reste  
+(31)  Prebunking : techniques préventives qui interviennent avant la production de fausses informations. Elles fonctionnent 
+sur le principe de l’inoculation, comme pour les vaccins en exposant à une faible dose du virus pour produire des anti­
+corps. Debunking : démystiﬁcation, techniques visant à rétablir la vérité des faits. Très développé aux États-Unis, le  
+prebunking s’avère bien plus eﬃcace.
+(32)  Déclaration du président chinois en 2021. Institut Montaigne.
+(33)  LAURENÇON F., op.cit.
+
+[Page 12 / 14 | chars: 3457]
+--------------------------------------------------------------------------------
+
+120
+diﬃcile, asymétrique, bancale parfois entre les services en charge du renseignement et 
+les capacités Roso » Il faut certainement contourner ce débat et accepter que l’OSINT 
+joue un rôle désormais incontournable et que les vraies questions doivent porter sur la 
+façon d’optimiser son intégration au sein des services en imaginant de nouvelles inter­
+actions entre les acteurs régaliens, le secteur privé et les citoyens. En résumé, « il 
+importe ici de dépasser l’approche simpliste qui verrait l’investigation en sources 
+ouvertes à terme questionner, concurrencer, dépasser et pour ﬁnir “ringardiser” le ren­
+seignement à l’ancienne (34) ». Alors que les États-Unis évoquent une « révolution de 
+l’OSINT » et publient leur stratégie pour la communauté OSINT en 2024 en aﬃchant 
+l’ambition d’intégrer très largement l’ensemble des acteurs et en mettant en place un 
+échelon de coordination et de pilotage de niveau national, la France semble encore loin 
+d’avoir fait le même type de choix. À titre d’exemple, le rapport public relatif à l’acti­
+vité de la délégation parlementaire au renseignement pour l’année 2022-2023 (35) ne 
+mentionne pas une seule fois le terme OSINT ou Roso. Dans ce rapport de 130 pages 
+– qui se concentre sur les menaces liées aux ingérences étrangères, les réorganisations 
+internes des services, le rôle du SGDSN en liaison avec les agences (Agence nationale 
+de la sécurité des systèmes d’information – Anssi, Service de l’information stratégique 
+et de la sécurité économique – Sisse ou Viginum) et les partenariats de coopération – 
+la dimension nationale des enjeux technologiques et le besoin impérieux de déﬁnir de 
+nouvelles modalités d’interaction au sein de la communauté OSINT sont quasiment 
+absents. Les recommandations du rapport se limitent à mentionner « que les sauts 
+technologiques actuels sont de plus en plus rapides, au point de menacer notre auto­
+nomie, la France doit renouveler ses capacités d’exploitation et industrialiser ses outils 
+d’investigation numérique ». 
+L’industrie de défense a besoin de faire émerger un acteur solide pour l’OSINT 
+Les enjeux ﬁnanciers des technologies duales en lien avec l’OSINT sont colos­
+saux et il est donc illusoire et non souhaitable que l’État intervienne dans les activités 
+de la Tech, même si le domaine de la défense y tient une place particulière. Il est en 
+revanche indispensable que l’État comprenne et intègre les spéciﬁcités du secteur des 
+technologies du numérique et de l’IA pour pouvoir adapter sa politique industrielle et 
+structurer sa Base industrielle et technologique de défense (BITD). Si celle-ci bénéﬁcie 
+des eﬀorts ﬁnanciers consentis par la France en matière de défense dans le cadre de la 
+Loi de programmation militaire (LPM) 2024-2030, les activités militaires développées 
+au sein de ses sociétés contraignent également leur expansion. Permettre aux petites et 
+grandes entreprises françaises de la Tech d’innover, d’émerger, de se développer et de 
+survivre dans un environnement extrêmement compétitif et évolutif constitue un déﬁ 
+stratégique majeur pour garantir notre souveraineté en matière technologique et de 
+renseignement. 
+(34)  LAURENÇON F., op.cit.
+(35)  DÉLÉGATION PARLEMENTAIRE AU RENSEIGNEMENT, Activité de la délégation parlementaire au renseignement pour 
+l’année 2022-2023 (Rapport), 29 juin 2023, 130 pages (www.assemblee-nationale.fr/).
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+
+[Page 13 / 14 | chars: 3993]
+--------------------------------------------------------------------------------
+
+121
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+Dans ce contexte et depuis 2023, la question de la création d’une agence 
+dédiée à l’OSINT est à l’étude (36). La France dispose en eﬀet d’un écosystème favorable 
+au développement du renseignement d’origine sources ouvertes avec des compétences, 
+des sociétés et des start-up en pointe sur le sujet. La Direction générale de l’armement 
+(DGA) avait initialement conﬁé à l’Agence de l’innovation de défense (AID) les ques­
+tions de l’OSINT avant d’étudier la possibilité de regrouper les spécialistes français de 
+la discipline. En avril 2024, le délégué général pour l’armement, Emmanuel Chiva, 
+annonçait à l’occasion du colloque de l’intelligence économique (IE), la création d’un 
+campus OSINT, « centre de référence interministériel pour les outils OSINT en lien 
+avec les services » à Angoulême (37). Ayant vocation à rassembler sur un même site les 
+entreprises, services de l’État, organismes de formation et chercheurs, ce campus est 
+destiné à fédérer et coordonner les moyens et à « bâtir un écosystème de renseignement 
+en sources ouvertes souverain ». Il est trop tôt pour évaluer la pertinence de ce choix, 
+qui interroge cependant sur la réalité du périmètre concerné (intelligence économique 
+ou au-delà ?) et sur la désignation de la DGA comme coordonnatrice, rôle que l’on 
+pourrait plus naturellement imaginer au sein d’un service de renseignement à l’instar 
+des États-Unis et du Royaume-Uni ou auprès du Coordinateur national du renseigne­
+ment et de la lutte contre le terrorisme (CNRLT). 
+Au niveau purement industriel, et en s’inspirant du modèle américain, italien 
+ou israélien, la France ne devrait-elle pas opter pour le choix d’un fournisseur unique 
+d’OSINT capable de recueillir des informations multi-capteurs ? Procédant encore  
+largement au sein de chaque service d’une démarche en silos sur le sujet de la collecte 
+des données, la stratégie numérique de la France doit résolument se tourner vers une 
+solution de regroupement des bases de données. Les applications liées à ces bases et leur 
+champ d’application resteraient dédiés à chaque métier et à chaque service de rensei­
+gnement, mais certains coûts de mise à niveau, de compatibilité et de sécurisation sont 
+mutualisables. Outre les bénéﬁces ﬁnanciers de l’ordre de 30 %, cela permettrait  
+d’entraîner les modèles d’IA génératives, contextuelles et prédictives. Alors que la 
+France, via la DGA, peine à sortir d’un modèle d’investissement qui repose historique­
+ment sur les grands industriels identiﬁés de la BITD, la conduite de projets liés aux 
+technologies de rupture n’est sans doute plus adaptée aux appels d’oﬀres traditionnels, 
+fondés en grande partie sur le critère des prix. La multiplication des partenaires de 
+petite taille n’a pas de sens non plus sur les programmes de la Tech. Les négociations 
+interminables autour de l’avenir de la société Preligens méritent que l’on s’interroge sur 
+nos stratégies d’investissement. Face aux enjeux, il est urgent d’identiﬁer un nouveau 
+modèle de conduite des grands projets technologiques et forcer la concentration du 
+marché pour rester souverain relève certainement du devoir des États. La récente stra­
+tégie ministérielle pour l’intelligence artiﬁcielle de défense présente enﬁn une structu­
+ration de la démarche pour le ministère des Armées (38). Pour répondre aux besoins, des 
+(36)  PHÉNIX, « Le renseignement français doit investir davantage dans l’OSINT, Slate, 7 juin 2023 (www.slate.fr/).
+(37)  LOUX Grégoire et RAUGLAUDRE (DE) Tiphaine, « Emmanuel Chiva : Osons passer à l’oﬀensive, osons une vision 
+pragmatique de l’inﬂuence par l’intelligence économique [Colloque de l’IE] », Portail de l’IE, 28 avril 2024 
+ 
+(www.portail-ie.fr/).
+(38)  Le Minarm a annoncé en mars 2024 une enveloppe de 2 Mds € pour l’IA entre 2024 et 2030 et la création d’une 
+agence ministérielle dédiée : l’Amiad (Agence ministérielle pour l’intelligence artiﬁcielle militaire).
+
+[Page 14 / 14 | chars: 3641]
+--------------------------------------------------------------------------------
+
+122
+moyens bien plus importants sont indispensables et une logique d’ensemble est néces­
+saire, alors qu’elle est pour le moment limitée au ministère des Armées. 
+ 
+Outil d’anticipation, les services de renseignement doivent prendre en compte 
+l’accélération du monde dans ses diﬀérentes dimensions et s’armer pour répondre au 
+rythme infernal de sa « dataïﬁcation ». Les données sont la fois un critère de caractéri­
+sation de notre nouvel environnement numérique mais également une ressource essen­
+tielle pour que les services continuent à remplir leur mission d’anticipation et 
+d’éclairage de la décision des décideurs. La gouvernance de la donnée échappe pourtant 
+en partie aux services de renseignement qui ont besoin de l’intermédiaire d’acteurs 
+privés capables de proposer leurs services sur tout le cycle du renseignement. Cette 
+dépendance interroge sur les limites de la privatisation du renseignement et sur l’ex­
+ploitation massive des données personnelles. Dans cette course infernale, où nous 
+sommes loin de mesurer tous les bouleversements induits par les technologies de 
+rupture, les potentialités encore méconnues de l’IA générative ou la probable pollution 
+généralisée des données, l’État, pour rester souverain, a un rôle de stratège numérique 
+à jouer. La révolution de l’OSINT nous invite à accepter des modes de développement 
+alternatif de type « bazar » pour nos institutions régaliennes et également à nous inter­
+roger sur l’avenir de la pratique. L’illusion d’un accès illimité et complètement trans­
+parent à l’information doit ﬁnalement, lui aussi, être considéré par le prisme de ses 
+conséquences sociétales et politiques. Le bon fonctionnement de l’État et de ses insti­
+tutions nécessite-t-il de tout dire et de tout savoir, ou se doit-il de préserver certains 
+secrets ? Comment y parvenir dans un monde numérisé ?
+L’OSINT (Open Source Intelligence)  
+au défi de l’ère du numérique
+Éléments de bibliographie 
+CENTRAL INTELLIGENCE AGENCY (CIA), The IC OSINT Strategy 2024-2026, 12 pages (www.dni.gov/). 
+CHARON Paul et JEANGÈNE VILMER Jean-Baptiste (dir.), Les mondes du renseignement – Approches, acteurs, enjeux, 
+2024. 
+CHAVALARIAS David, Toxic Data. Comment les réseaux sociaux manipulent les opinions, 2022. 
+COLON David, La guerre de l’information, 2024. 
+JAMET Thomas, FREYSSENET Florian et DOS SANTOS DE SOUSA Lionel, Data démocratie, être un citoyen libre à l’ère du 
+numérique, 2022. 
+LAURENT Sébastien-Yves, État secret, État clandestin : essai sur la transparence démocratique, Gallimard, 2024. 
+MHALLA Asma, Technopolitique. Comment la technologie fait de nous des soldats, 2024. 
+RAYMOND Eric S., The Cathedral and the Bazaar, Snowballpuplishing (réédition 2010), 80 pages, 1999. 
+ALAPHILIPPE Alexandre, « Sources ouvertes et lutte contre la désinformation : un chantier démocratique », Hérodote, 
+n° 186, 2022. 
+COATANLEM Yann et COSTE Olivier, « Tech : quand l’Europe s’éveillera », Commentaire, hiver 2023. 
+DUGOIN-CLÉMENT Christine, « Invasion russe de l’Ukraine : l’heure de gloire de l’OSINT », The Conversation, 
+juillet 2022 (https://theconversation.com/invasion-russe-de-lukraine-lheure-de-gloire-de-losint-187388). 
+PAPAEMMANUEL Alexandre, « Mode d’emploi pour un atlas Mnémosyne des services de renseignements », été 2021. 
+RENAULT Clément, CHARON Paul et LAURENÇON Fabien, « Renseigner autrement ? Trajectoires de l’OSINT dans les 
+services de renseignement », Hérodote, n° 186, septembre 2022. 
+Podcast 
+« L’OSINT, le nouveau nerf de la guerre », Les lundis de l’IHEDN, juin 2023 (www.youtube.com/). 
+Exposition 
+Spy, Lies and Deception, War Imperial Museum, Londres, 2024.
+

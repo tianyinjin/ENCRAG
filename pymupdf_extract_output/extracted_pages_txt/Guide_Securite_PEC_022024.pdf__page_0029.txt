@@ -1,0 +1,27 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 29 / 108
+
+================================================================================
+
+29
+POLE D'EXCELLENCE CYBER
+• Protégez et formatez vos supports de stockage amovibles  R7  : les supports amovibles peuvent facilement être perdus, 
+endommagés, empruntés ou volés. La collectivité et les agents peuvent être soumis à des sanctions pénales et financières si des 
+données sensibles ou à caractère personnel (voir la fiche 1 « Gestion des données et RGPD ») sont perdues ou compromises. En outre, 
+la perte de données peut entraîner une atteinte importante à la réputation de la collectivité en érodant la confiance des citoyens. 
+Évitez donc de stocker vos supports à proximité de sources d'eau ou de chaleur, dans des endroits où ils peuvent subir des chocs, 
+où vous pourriez les perdre, où ils pourraient être intervertis avec des supports similaires, vides ou corrompus, ou être volés. Ne jetez 
+jamais vos supports endommagés, faites-les détruire physiquement (faites appel à des sociétés spécialisées qui vous délivreront des 
+certificats attestant que les données de la collectivité ont bien été détruites. Ces entreprises assurent la destruction en petits copeaux 
+et le recyclage écologique de vos supports informatiques), et assurez-vous de la destruction de leurs contenus. En outre, lorsque vous 
+utilisez un support amovible pour partager des documents, n’oubliez jamais de le formater après utilisation.
+• Chiffrez les supports contenant les données sensibles ou à caractère personnel  R8 , car malgré toutes nos recommandations vous 
+ne serez pas à l'abris d'une perte, d'un vol ou d'un piratage de vos matériels. Toutefois, si vous supports sont chiffrés, dans la plupart 
+des cas le voleur ne cherchera pas à les décrypter, car cela lui prendrait trop de temps pour un résultat de surcroit incertain (voir le 
+tutoriel « Mettre en place un conteneur chiffré VeraCrypt »).
+Cette fiche contient   8   recommandations.
+Références : 
+https://www.cnil.fr/fr/securite-chiffrer-garantir-lintegrite-ou-signer 
+https://www.ssi.gouv.fr/uploads/2017/01/guide_hygiene_informatique_anssi.pdf
+https://www.entreprises.gouv.fr/files/files/directions_services/information-strategique-sisse/outils/fiches/10-fiches.pdf

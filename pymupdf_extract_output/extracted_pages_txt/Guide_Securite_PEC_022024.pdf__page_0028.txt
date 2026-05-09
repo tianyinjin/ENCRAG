@@ -1,0 +1,48 @@
+Source file: Guide_Securite_PEC_022024.pdf
+Relative path: Guide_Securite_PEC_022024.pdf
+Page: 28 / 108
+
+================================================================================
+
+28
+POLE D'EXCELLENCE CYBER
+FICHE N°6
+........................................
+SUPPORTS AMOVIBLES
+Les médias et supports de stockage amovibles (clé USB, carte SD, disque dur externe, etc.) sont largement utilisés par les agents 
+pour stocker, transporter et partager des données. 
+Cependant, l'utilisation incontrôlée de ces supports, certes très pratiques et en apparence inoffensifs, peut accroître le risque 
+de diffusion de logiciels malveillants et donc accélérer les effets d'une cyber-attaque.
+Les recommandations suivantes vous permettront de réduire les risques associés à l’utilisation des supports amovibles :
+ 
+• Analysez à l’aide de votre logiciel anti-virus tout support que vous connectez à votre ordinateur via un port périphérique (tel 
+qu'un port USB)  R1 .
+• Désactiver l’exécution automatique des médias et périphériques  R2  : un programme malveillant peut s’exécuter à partir d’un 
+support amovible dès que celui-ci est connecté à votre ordinateur. Désactiver l’exécution automatique est une bonne pratique qui 
+permet d’empêcher l’exécution de programmes de manière automatique lors de la connexion d’une clé USB ou d’un disque dur 
+externe (voir le tutoriel « Désactiver l’exécution automatique à partir des supports amovibles »).
+• Évitez de connecter des supports sur des sessions administrateurs  R3  : les programmes stockés, par exemple, sur une clé USB, 
+héritent automatiquement des droits utilisateurs de la session sur laquelle la clé est connectée (voir la fiche 2 « Sécurité du poste 
+de travail »). La connexion d'un support amovible sur une session administrateur ne doit se faire que si cela est indispensable à la 
+maintenance du système.
+• Séparez les usages  R4  : ne stockez pas vos données personnelles et professionnelles sur le même support. Ne connectez pas à 
+des postes reliés au réseau de la collectivité des équipements et des supports amovibles personnels (clés USB, disques durs externes, 
+lecteurs MP3/MP4, téléphones, tablettes, etc.).
+• Achetez des supports amovibles neufs et scellés  R5  : ne les achetez pas dans des dépôts ventes. Évitez les clés et les disques trop 
+bon marché sur des sites étrangers de vente en ligne, les clés offertes lors de salons, de conférences ou de colloques, et cela même 
+si la tentation de se les approprier est forte (amusantes ou jolies). En effet, des personnes malveillantes peuvent infecter ces produits 
+en libre-service faciles à emporter.
+• Ne connectez jamais à votre ordinateur les supports trouvés ou proposés par des personnes de passage  R6  : cela, quel que 
+soit le prétexte, par exemple, une personne qui vous demande de l'aide pour recharger quelques minutes son téléphone, et qui sera 
+alors en mesure de dérober toutes vos données ou d'installer à votre insu un logiciel espion. Pour éviter de brancher par réflexe un 
+support qu'on vous tend, vous pouvez utiliser des verrous de ports USB ou des bloqueurs de données, ceux-ci vous rappelleront que 
+brancher un appareil sur votre ordinateur n'est jamais un acte anodin.
+Les collectivités peuvent renforcer leur politique de gestion des supports amovibles en obligeant tous les personnels à passer tout 
+support externe au crible d'une une station blanche. Il s’agit d’une machine séparée du réseau qui analyse les médias amovibles à 
+l’aide de logiciels anti-virus. Le CIRC du Luxembourg (The Computer Incident Response Center) offre une méthodologie simple pour 
+fabriquer à moindre frais une station blanche à partir d'un Raspberry Pi1 . Afin de bien définir quelles sont les fonctions de sécurité 
+attendues et les exigences associées à ce type de produit, l’ANSSI a élaboré un guide auquel vous pouvez vous référer « Profil de 
+fonctionnalités et de sécurité – sas et station blanche2 » .
+1 https://www.circl.lu/projects/CIRCLean/
+2 https://www.ssi.gouv.fr/uploads/2020/08/anssi-profil_de_fonctionnalites_et_de_securite-sas_et_station_blanche_reseaux_non_clas­
+sifies-v1.0.pdf

@@ -1,0 +1,78 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 24 / 84
+
+================================================================================
+
+Pôle d’excellence cyber
+24
+	
+Industrialisation de l’IA, 
+un pilier de la confiance
+L’émergence des systèmes d’IA fondés sur 
+l’apprentissage profond dans des domaines critiques 
+introduit de nouveaux défis en matière de vérification, 
+de test et d’audit. Ces modèles, par leur nature même, 
+présentent des comportements plus complexes à 
+analyser que les systèmes experts traditionnels. 
+ 
+La confiance vis-à-vis d’un système d’IA nécessite deux 
+piliers : itérer avec les utilisateurs finaux, depuis la 
+conception jusqu’aux tests sur donnés réelles, et intégrer 
+les meilleures pratiques du développement logiciel, 
+avec une traçabilité rigoureuse des données et des 
+expérimentations IA. Cette approche collaborative, 
+couplée à des méthodes de travail industrielles, permet 
+à la fois de renforcer la sécurité de ces systèmes et 
+de garantir leurs performances opérationnelles.
+ 
+Nous partageons ici cinq enseignements tirés de nos huit 
+ans d’expérience sur des produits logiciels incorporant de 
+l’IA en production dans des environnements contraints.
+1. Placer l’utilisateur final au centre
+Toute IA de défense est utilisée par des forces armées 
+professionnelles, expertes dans leurs domaines respectifs. 
+Pour prendre des décisions éclairées à partir des 
+systèmes d’IA (SIA), il est fondamental que ces systèmes 
+correspondent parfaitement au cas d’usage opérationnel 
+et que les utilisateurs finaux en comprennent finement 
+les capacités, le périmètre d’utilisation et les limites.
+Pour cela, l’intégration des utilisateurs dès les phases 
+initiales de conception est cruciale. Cette collaboration 
+précoce permet de définir le périmètre de fonctionnement 
+opérationnel, et oriente la création des jeux de données 
+d’apprentissage et de test par les Data Scientists. Elle 
+permet également de cibler les cas d’usages où l’IA peut 
+apporter de la valeur, faire comprendre à l’utilisateur 
+final les points forts et les erreurs classiques des SIA.
+Au cours de leur durée de vie, les algorithmes feront 
+l’objet de mises à jour régulières, en se fondant sur 
+les retours des utilisateurs et sur les données réelles. 
+En effet, il est rare de disposer lors de la phase de 
+conception, de données exhaustives et représentatives 
+des conditions finales d’utilisation. Cela est 
+particulièrement vrai pour les cas d’usage défense. Ces 
+boucles courtes d’itération permettent alors d’atteindre 
+de façon pragmatique la meilleure performance 
+opérationnelle, et sont des facteurs clé d’adoption. 
+Enfin, l’autonomie des utilisateurs dans l’évaluation 
+des systèmes représente un facteur clé de confiance. 
+Des protocoles et outils spécifiques doivent leur 
+permettent de tester les modèles sur leurs propres 
+données opérationnelles, associés à une formation 
+sur l’interprétation des métriques d’évaluation.
+2. Obtenir des données annotées de qualité
+Les systèmes d’IA fondés sur l’apprentissage profond 
+ont besoin d’importants volumes de données 
+annotées pour être performants. Or, pour les cas 
+d’usage défense, les données opérationnelles 
+sont généralement classifiées, et peu disponibles. 
+Bien que l’utilisation de données en source ouverte 
+soit un bon moyen de prototyper des premières 
+versions d’algorithmes, un SIA en production 
+nécessite d’obtenir des données réelles ou a minima 
+très similaires. Cela implique d’investir dans des 
+données commerciales d’intérêt et représentatives. 
+Aurélia NÈGRE et l’équipe IA 
+Head of AI Engineering 
+Safran.AI

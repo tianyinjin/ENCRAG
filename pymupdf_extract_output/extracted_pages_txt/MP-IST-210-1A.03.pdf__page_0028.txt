@@ -1,0 +1,41 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 28 / 34
+
+================================================================================
+
+Going deeper into exploring the best performing sky-bright test cases in Table 10, we see that there is a 
+significant drop-off in performance across smaller object sizes that reinforces the overall initial analysis that 
+the model does not perform well in situations with drones that present as a small (i.e. < 32 x 32 pixels) target, 
+either due to it being a small drone or far away from the sensor. Although range was not one of the initial 
+considerations when scoping this series of test cases, we find further support for the hypothesis that this 
+system does not perform well on small objects and may need to further investigate the effects on performance 
+by varying drone distance from the sensor, perhaps through live testing to understand the limits of detection. 
+Table 11. Performance by object size, within the sky-bright pairwise scenarios. 
+4.1.3.2 
+Performance differences between test cases of different object size-quantity combinations 
+On the second pairwise combination of drone size and quantity, we find that the best performance was 
+observed in the test cases with single, small drones with mAP at 0.25, at a very high confidence (confidence 
+interval > 0.99). We also find that the worst performance was on single medium drones at 0.01 mAP, with a 
+confidence interval of >0.94, while multiple small drones are not far off at an mAP of 0.03. This lends 
+weight to our initial concerns of models not being optimized for medium, and multiple drones, as these 
+foundational models lack training data for these features and typically do not account for multiple drones in 
+an image, due to the majority of their training data corpus involving single-target, close-up images. We also 
+observe an interesting trend across all three cases, where measured recall is consistently higher than 
+precision. For the best-performing scenarios with single small drones, recall was at 0.4 (leading to a Missed 
+Detection Rate of 60%) while precision was at 0.19, (leading to a False Alarm Rate of 81%). While this 
+means that missed detections are less likely than false alarms, it would also suggest that the directionality of 
+current model hyperparameters lead to a trade-off in favor of recall at the cost of precision. As noted earlier, 
+any further fine-tuning would lead to real trade-offs in one or more performance dimensions; the counter-
+drone CV system evaluators in our hypothetical scenario would need to note these trends before and after 
+fine-tuning and design the necessary engineering and operational workarounds that would account for these 
+trade-offs while preserving their benefits. In the case of a system with a high number of false alarms, and a 
+relatively lower missed detection rate, options to consider include further heuristic-based suppression 
+mechanisms could be employed to reduce ‘alarm fatigue’ for human operators, or dedicated operational roles 
+implemented to investigate and suppress false alarms while escalating genuine alarms.  
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 28
+STO-MP-IST-210
+Table 10. Relative results across different combinations of background/light factors across 
+visual dataset.

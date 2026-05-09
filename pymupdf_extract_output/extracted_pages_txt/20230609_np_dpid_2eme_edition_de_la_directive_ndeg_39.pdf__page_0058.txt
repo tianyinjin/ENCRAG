@@ -1,0 +1,93 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 58 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 58 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+Maîtriser l’accès au réseau 
+RSO12 
+ORG 
+Identifier, localiser et recenser les points d’accès réseau ainsi que leur statut 
+(obstrué, désactivé, etc.) 
+O
+ 
+ 
+ 
+ 
+RSO13 
+TECH 
+Désactiver les points d’accès réseau non utilisés (commutateurs, automates*, 
+baies de brassage, prise de maintenance sur les bus de terrain, etc.). 
+O
+ 
+ 
+ 
+ 
+RSO14 
+TECH 
+En cas de liens sans protection physique, déployer des passerelles VPN aux 
+extrémités des liaisons pour protéger l’intégralité du trafic. L’équipement devrait 
+être positionné derrière un pare-feu ne laissant passer que les flux strictement 
+indispensables. En particulier, le trafic externe au VPN devrait être bloqué. 
+ 
+R 
+O 
+O 
+ 
+RSO15 
+ORG 
+Protéger l’accessibilité des points d’accès réseau. Ils ne doivent être accessibles 
+que dans des locaux, armoires ou coffrets à accès maîtrisés. 
+ 
+R 
+O 
+O 
+ 
+RSO16 
+TECH 
+Remonter une alerte en cas de tentative de connexion et de déconnexion sur les 
+ports réseau, et la traiter. 
+ 
+R 
+R 
+O 
+ 
+Maîtriser les interconnexions 
+RSO17 
+TECH 
+Assurer un cloisonnement* entre le système industriel et d’autres systèmes 
+(industriels ou d’information).  
+O
+ 
+ 
+ 
+ 
+RSO18 
+TECH 
+Limiter strictement les flux d’informations entre le système industriel et d’autres 
+systèmes, uniquement lorsqu’ils sont fonctionnellement requis, et durant la plage 
+horaire autorisée, et au bénéfice du système industriel, sous réserve : 
+  
+- d’en maîtriser la nature, le sens et le chemin suivi (les flux unidirectionnels 
+devront être privilégiés) ; 
+ 
+- d’authentifier les interfaces participant aux échanges ; 
+ 
+- d’en préserver l’intégrité des échanges, voire leur confidentialité ; 
+ 
+- de détecter les intrusions éventuelles ; 
+ 
+- d’assurer la traçabilité des échanges. 
+ 
+Dans tous les autres cas, ces flux d’informations sont interdits. 
+ 
+R 
+O 
+O

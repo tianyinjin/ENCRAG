@@ -1,0 +1,63 @@
+Source file: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Relative path: EPS 2022-01 - Essaims de drones aériens, menaces et opportunités.pdf
+Page: 85 / 136
+
+================================================================================
+
+85 
+Les approches applicables pour l’interaction entre humain et systèmes multi-agents peuvent 
+actuellement se classer comme suit : 
+A. Approches réactive : les agents sont dotés de comportements élémentaires (suivre une cible, 
+se rendre à un point donné, patrouiller, etc.) La tâche de l’opérateur est alors d’assigner à 
+chaque agent un comportement et de superviser le déroulement de la tâche, changeant les 
+comportements individuels au fur et à mesure de l’activité du système209 ; 
+B. Contrôle par politique : il s’ajoute au mode de contrôle par comportement (A) en guidant ou 
+restreignant l’espace des solutions. On peut assimiler une politique à une contrainte qui va 
+restreindre et guider les décisions du système210 ;  
+C. Approches par délégation et dialogue : le superviseur humain interagit avec le système pour lui 
+confier dynamiquement certaines décisions et en garder d’autres. 
+D. Approches de type “centre d’appel” : situées à un autre extrême, elles mettent le ou les 
+opérateurs au service du système de vecteurs. Les opérateurs sont sollicités lorsque les 
+automates atteignent un état qui nécessite une intervention humaine (par exemple une 
+validation de tir)211. 
+Quoi qu’il en soit, les approches A et D nous semblent vouées à l’échec dès que l’on dépasse quelques 
+unités car on dépasse les capacités cognitives humaines en termes de charge mentale, de conscience 
+de la situation ou de changement de tâche212. 
+- SUPERVISION D’ESSAIM REACTIF 
+L’immense majorité des travaux reste en laboratoire avec, bien souvent, des démonstrations appliquées 
+sur des cas d’école, sans véritable cas d’usage opérationnel. Citons pour mémoire, et parmi beaucoup 
+d’autres, le projet français SUSIE213, qui permettait (uniquement en simulation) le contrôle de plusieurs 
+dizaines de drones via une interface tactile intuitive pour des tâches de surveillance et d’identification. 
+Le principe général de contrôle envisagé pour ce type d’essaims est d’utiliser des objets ou concepts 
+tiers qui permettent d’agir de manière indirecte sur l’essaim. L’essaim a un comportement largement 
+autonome et des représentations internes qui font que l’opérateur humain a un effet négatif s’il tente 
+d’ajuster des comportements individuels. En revanche, l’essaim tient compte de certains éléments pour 
+fonctionner, comme par exemples : 
+- 
+Opérer à l’intérieur de limites géographiques ; 
+- 
+Etre attiré par certains points, lignes ou zones ; 
+- 
+Etre repoussé par certains points, lignes ou zones ; 
+- 
+Suivre un ou plusieurs leaders ; 
+- 
+Partager et modifier des champs de valeurs numériques à des fins de répartition de tâches de 
+traitement de zones. 
+L’opérateur humain peut alors modifier directement ces informations pour influer sur le comportement 
+de l’essaim. La difficulté réside : 
+ 
+209 Cette approche fait penser à une expérimentation américaine de décembre 2015, lorsque des 
+AV-8B, deux UTAP-22 réels et un autre virtuel, ont volé de concert en « continuous collaborative 
+airborne collaboration ». L’annexe II évoque ce sujet et un extrait d’IHM y illustre la supervision par 
+affectation de comportements élémentaires successifs aux drones. 
+210 Cette approche fait penser, pour partie, à celle de CODE (Collaborative Operations in Denied 
+Environment) dans sa gestion dynamique des trajectoires d’évitement, face aux menaces 
+émergentes. L’annexe II évoque ce sujet 
+211 Cette approche fait penser aux échanges entre opérateurs et agents lors des expérimentations 
+de l’US Army en 2015, pour superviser simultanément trois drones en vol (RQ-7, MQ-1C et MQ-8), 
+notamment à travers une séquence d’engagement. 
+212 En anglais : Mental Workload, Situation Awareness, Task Switching. 
+213 SUpervision de Système d'Intelligence en Essaim. Contrat de recherche DGA N° 2009.34.0003, 
+réalisation dans laquelle François Legras a été fortement impliqué, depuis la rédaction de la 
+proposition jusqu’à la réalisation du démonstrateur, en passant par la modélisation des interactions.

@@ -1,0 +1,60 @@
+Source file: 20220319_NP_CREC_combat_haute_intensite_et_robotique.pdf
+Relative path: 20220319_NP_CREC_combat_haute_intensite_et_robotique.pdf
+Page: 5 / 10
+
+================================================================================
+
+5 
+Les termes de cette somme globale peuvent être ordonnés en sous-groupes correspondant 
+aux familles de systèmes d’armes mis en œuvre. On réunit (par exemple) toutes les 
+contributions liées à l’artillerie dans une sous-somme EC-Art, puis toutes les contributions liées 
+aux unités robotisées terrestres EC-UGV, puis toutes les contributions liées aux unités 
+robotisées aériennes (drones, essaims, munitions flottantes) EC-UAV, puis les contributions 
+liées aux vaisseaux robotisés de surface et sous-marins EC-USV. Viennent ensuite les 
+contributions liées aux systèmes de guerre électronique (brouillage, déception électronique, 
+leurres électromagnétiques) EC-ELEC, les contributions cyber offensives et défensives EC-CYBER, 
+les contributions liées au renseignement EC-RENS. 
+ 
+L’énergie globale est Ec = EC-Art + …+ EC-UGV + EC-UAV + EC-USV + EC-ELEC + EC-CYBER + EC-RENS. 
+ 
+Les intensités catégorielles sont calculées en restreignant les calculs aux contributions des 
+systèmes d’armes correspondants : IC-Art, …, IC-UGV, IC-UAV, IC-USV, IC-ELEC, IC-CYBER, IC-RENS. 
+ 
+2.2 
+Le combat de haute intensité robotisé et les niveaux d’autonomie des 
+systèmes déployés. 
+ 
+L’usage généralisé de drones aériens, terrestres, marins et sous-marins caractérise le conflit 
+contemporain avec l’emploi de systèmes robotisés, le plus souvent téléopérés depuis une 
+cabine de pilotage déportée ou depuis une console de contrôle à distance. Lorsqu’il s’agit de 
+systèmes de robots en essaims, la semi-autonomie apportée par l’intelligence artificielle 
+(computer vision et apprentissage automatique) permet de contrôler l’ensemble en agissant 
+sur un ou plusieurs éléments leaders dont le comportement est reproduit par le reste du 
+groupe mode (Follow the Leader). Le contexte sous-marin nécessite un haut niveau 
+d’autonomie, par exemple dans le cadre de missions de renseignement de longue durée. 
+ 
+Le combat robotisé présente un spectre d’intensités catégorielles particulièrement large. On 
+peut distinguer les intensités IC-UGV, IC-UAV, IC-USV, IC-ELEC, IC-CYBER, IC-RENS. 
+ 
+Pour chaque catégorie, il est possible de détailler l’intensité du combat en fonction du niveau 
+d’autonomie du système robotisé déployé et de redéfinir l’intensité du combat robotisé par 
+niveau d’automatisme des systèmes mis en œuvre. Ainsi, les niveaux d’automatisme L0, L1, 
+L2, L3, L4, L5 donnent lieu aux intensités catégorielles IC-L0, IC-L1, IC-L2, IC-L3, IC-L4, IC-L5. 
+ 
+Nous avons proposé en 2018 (Revue Défense Nationale3) une classification des systèmes 
+armés robotisés en six niveaux d’automatismes L0, L1, L2, L3, L4, L5 et un corpus de 
+métriques associées4. 
+ 
+Niveau L0 - Système armé pleinement téléopéré. 
+L’opérateur humain téléopère à distance le système à l’aide d’une interface de pilotage 
+déportée. Les déplacements du système sont strictement téléopérés par l’opérateur humain. 
+Les détecteurs du système renvoient des informations à l’opérateur. La reconnaissance et 
+l’acquisition des cibles sont exclusivement réalisées par l’opérateur humain. Les commandes 
+de tirs du système sont exclusivement actionnées par l’opérateur humain. L’intensité du 
+combat associée au niveau L0 est notée IC-L0. 
+                                                             
+3 Thierry Berthier, Systèmes armés semi-autonomes : que peut apporter l’autonomie ?, L’IA et ses enjeux pour la 
+Défense, Revue Défense Nationale RDN n° 820, mai 2019. 
+4 Thierry Berthier, Gérard de Boisboissel, Éric Hazane, Olivier Kempf, Nicolas Mazzucchi, P.H. Marconnet, 
+Approche économétrique du facteur multiplicateur de puissance associé à l’intégration de systèmes autonomes 
+au sein d’un groupe de combat terrestre, Actes Conférence CESAR DGA IA Défense 2019, Rennes.

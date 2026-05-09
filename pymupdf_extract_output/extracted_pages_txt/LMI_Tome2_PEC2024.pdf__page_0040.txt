@@ -1,0 +1,74 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 40 / 88
+
+================================================================================
+
+Pôle d’excellence cyber
+40
+La matrice DISARM, futur outil occidental contre 
+la manipulation de l’information ?
+1. Qu’est-ce que DISARM ?
+Pour appréhender le domaine de la lutte contre les 
+manipulations de l’information, un parallèle avec celui 
+de la cybersécurité(2) qui lui est antérieur est utile.
+Historiquement cette dernière a pour objet la protection 
+des systèmes d’information : infrastructures réseaux, 
+systèmes (dont le de stockage de données), logiciels, 
+utilisateurs des attaques numériques. Une taxonomie des 
+attaques initiée en 2013, la matrice MITRE ATTA&CK(3), 
+est désormais un référentiel de choix pour décrire 
+les grandes classes de menaces avec les notions de 
+tactiques, les techniques et les procédures. Cette matrice 
+constitue un langage commun exploitable pour la 
+description des mécanismes, outils et pratiques aussi 
+bien offensifs (Red Team) que défensifs (Blue Team).
+La lutte contre les manipulations de l’information, 
+dont l’objet est de protéger les cerveaux du 
+détournement d’attention, de l’illusion ou des fausses 
+informations, connaît un développement récent et 
+bénéficie d’une méthodologie héritée de sa parente, 
+la cybersécurité. Sa taxonomie de référence est 
+DISARM, publiée en 2017, calquée sur celle du MITRE.
+S’agissant de DISARM Red Team, elle décrit les 
+créateurs d’incidents sous la forme de tactiques, 
+techniques et procédures, avec des niveaux 
+croissants de précision. Le volet complémentaire 
+Blue Team recense quelles réponses sont adaptées.
+2. Les dispositifs nationaux et internationaux de lutte 
+contre la désinformation en ligne ?
+Le service européen d’action extérieure (EEAS(4)) relevait 
+dans son 2nd rapport sur les menaces d’interférences 
+étrangères (FIMI(5))  : « Le partage pratique d’informations 
+structurées sur les menaces a également connu des 
+développements pionniers avec l’Agence française 
+VIGINUM et Meta (Facebook), rendant leurs résultats de 
+recherche sur les FIMI librement accessibles aux chercheurs 
+et analystes via la plateforme de développement 
+Github. L’utilisation de cette méthodologie standardisée 
+fournit une analyse basée sur des preuves et est un 
+élément clé pour soutenir l’application de réponses 
+mieux informées. » L’EEAS précise encore (6)  : « L’Union 
+européenne et les États-Unis ont adopté une norme 
+commune pour l’échange d’informations structurées 
+sur les FIMI, grâce à une approche plus interopérable et 
+lisible par machine. […] Cette norme utilisée par l’Union 
+européenne et les États-Unis pour analyser les FIMI et 
+partager les informations se compose du cadre DISARM, 
+de la norme STIX2 et de la plateforme OpenCTI. »
+Plus largement, en ce début de 21ième siècle de nombreux 
+La lutte contre les manipulations de l’information est un enjeu à la fois éthique, démocratique, économique et 
+technologique. La création de filières nationales dans ce domaine relève donc de l’essentiel : la garantie des 
+indépendances nationales.
+Il existe d’ores-et-déjà une taxonomie états-unienne, DISARM(1), en mesure de fournir une grille d’analyse 
+normalisée de ce sujet. L’agence française Viginum en a d’ailleurs publié une version française sur LinkedIn 
+en février 2024. Cet outil est propre à établir un état des lieux des capacités, un diagnostic de des forces et 
+faiblesses, nous explorons dans cet article comment il peut contribuer à bâtir une doctrine. Nous en rappelons 
+ici la genèse et en faisons une critique constructive.
+Patrick ERARD
+Directeur des opérations/COO 
+Pôle d’excellence cyber
+Stéphane PAQUELET
+Responsable du laboratoire Intelligence 
+Artificielle
+b<>com

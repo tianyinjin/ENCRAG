@@ -1,0 +1,169 @@
+Source file: PROTEUS _ des drones sous-marins connectés pour des missions d'observation en milieu subaquatique. _ Ministère des Armées et des Anciens combattants.pdf
+Relative path: PROTEUS _ des drones sous-marins connectés pour des missions d'observation en milieu subaquatique. _ Ministère des Armées et des Anciens combattants.pdf
+Page count: 8
+Extracted pages: 8
+
+================================================================================
+
+[Page 1 / 8 | chars: 669]
+--------------------------------------------------------------------------------
+
+PROTEUS : des drones sous-marins
+connectés pour des missions d'observation
+en milieu subaquatique.
+Direction : AID / Publié le : 19 octobre 2022
+L’émergence de nouveaux véhicules autonomes sous-marins (AUVs) bas coûts rend
+possible le déploiement simultané de centaines, voire de milliers de drones opérant
+en « meute coordonnée ». Ils peuvent, par exemple, former une antenne géante de
+sonar passif Ultra Basse Fréquence (UBF) déployée dans la colonne d’eau dont chaque
+AUV est un nœud de réception.
+Proteus
+Voir le fil d'ariane
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+1 of 8
+2/4/26, 16:41
+
+[Page 2 / 8 | chars: 2101]
+--------------------------------------------------------------------------------
+
+Le point clef est de contrôler la géométrie de l’antenne. Cela demande de concevoir
+de nouveaux moyens de positionnement précis et des principes de coordination de la
+meute.Le projet PROTEUS, débuté en novembre 2020, est porté par l’entreprise
+ARKEOCEAN, en partenariat avec l’ENSTA Bretagne et le centre d’expertise et d’essais
+des Techniques Navales de la Direction Générale de l’Armement.
+ARKEOCEAN a reçu le prix de l'innovation lors du salon Euronaval 2022.
+Le projet PROTEUS vise à transformer des drones sous-marins existants en objets
+connectés aptes à conduire des missions d'observation et d'évaluation du milieu
+subaquatique à grande échelle. Il répond à l’enjeu de diminution drastique des coûts
+d’acquisition de données massives lors de campagnes de surveillance civiles et
+militaires. Cela passe par le contrôle efficace des meutes d’AUVs.
+Il propose ainsi l’architecture et les briques de base des futurs systèmes d’observation
+sous-marine 2D ou 3D à large fauchée.
+Une des premières applications de PROTEUS est de transformer un ensemble de
+véhicules autonomes sous-marins (AUV) ordinaires, disposant chacun d’un récepteur
+acoustique UBF, en une grande antenne synthétique d’écoute discrète, apte à
+conduire des missions de lutte sous-marine (LSM). Cela se fait en laissant dériver une
+formation d’AUVs silencieusement dans le courant en gardant une géométrie
+d’antenne précise. Les moteurs des AUVs sont coupés et ne sont activés que
+brièvement pour conserver la géométrie de la meute. Le respect de la forme
+d’antenne initiale est indispensable à la réalisation d’un post-traitement de signal
+efficace garantissant le gain requis pour détecter et positionner des menaces sous-
+marines lointaines.
+Les premières étapes du projet ont permis d’élaborer des concepts d’emplois
+militaires (LSM) et civils (prospection géophysique), d’imaginer une architecture
+système puis de valider la justesse des concepts d’emploi par des modélisations
+système.
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+2 of 8
+2/4/26, 16:41
+
+[Page 3 / 8 | chars: 719]
+--------------------------------------------------------------------------------
+
+Les résultats obtenus ont été capitalisés pour développer un démonstrateur
+d’antenne sonar surfacique de 500m de long par 100m de hauteur. Il a été déployé en
+juin 2022 à la mer lors d’une expérimentation au large de Six-Fours-les-Plages. La photo
+ci-contre montre les 24 nœuds de réception de l’antenne, ayant chacun leur propre
+système de positionnement précis.
+Les excellents résultats de l’expérimentation prouvent indéniablement la justesse du
+concept PROTEUS.
+La dernière étape, prévue début 2023, mettra en œuvre deux nouveaux types d’AUVs
+aux capacités très différentes :
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+3 of 8
+2/4/26, 16:41
+
+[Page 4 / 8 | chars: 697]
+--------------------------------------------------------------------------------
+
+Le premier, nommé INCA est le nœud de réception élémentaire de la grande antenne
+synthétique du sonar passif UBF formé par la meute. Chaque INCA porte un
+enregistreur du champ acoustique ambiant qui opère en permanence.
+INCA travaille en coordination avec le deuxième véhicule appelé MAYA, dont la
+fonction première est de faire des aller retours entre les INCAs et la surface comme
+montré ci-joint.
+MAYA agit comme une « mule de données » « butinant » les enregistrements
+acoustiques des INCAs pour les ramener à la surface où ils seront transmis par radio
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+4 of 8
+2/4/26, 16:41
+
+[Page 5 / 8 | chars: 843]
+--------------------------------------------------------------------------------
+
+(ou par satellite) à un centre opérationnel lointain.
+Pour télécharger les données des INCAs, MAYA vient s’arrimer avec une précision
+centimétrique sur un INCA sans perturber sa fonction d’enregistrement du champ
+acoustique ambiant ni modifier sa position dans l’antenne.
+Une fois à la surface, les MAYAs transmettent, au centre opérationnel, la position sous
+l’eau de chaque INCA avec la précision « quasi métrique » requise pour garantir un
+gain d’antenne satisfaisant. Le centre opérationnel a une vue de la situation tactique
+de tous les mobiles et peut ainsi corriger la position d’INCAs qui se seraient échappés
+de leur position idéale au sein de l’antenne en leur envoyant, toujours via les MAYAs
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+5 of 8
+2/4/26, 16:41
+
+[Page 6 / 8 | chars: 538]
+--------------------------------------------------------------------------------
+
+un « vecteur de correction ».
+Partager la page
+Veuillez autoriser le dépôt de cookies pour partager sur Facebook, Linkedin et Twitter-x.
+A la une
+L'Agence de l’innovation de défense dresse le bilan des
+premiers essais réussis des drones autonomes lors de la phas…
+Du 19 au 23 janvier 2026, l’expérimentation d’un projet d’accélération de l’innovation
+(PAI) s’est déroulée au sud ...
+04 février 2026
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+6 of 8
+2/4/26, 16:41
+
+[Page 7 / 8 | chars: 522]
+--------------------------------------------------------------------------------
+
+Pôle innovation technique de défense IDEA3 FS62 – Drone
+cargo
+Le Pôle innovation technique de défense de la DGA/Techniques Aérospatiales IDEA31
+lance un 4ème...
+26 janvier 2026
+L’Agence de l’innovation de défense et la Marine nationale
+lancent une expérimentation inédite de drones de surface…
+Du 19 au 23 janvier 2026 se déroulera au sud de la presqu’île de Saint-Mandrier, près de
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+7 of 8
+2/4/26, 16:41
+
+[Page 8 / 8 | chars: 560]
+--------------------------------------------------------------------------------
+
+Haut de page
+Suivez l'agence de l'innovation de défense sur les réseaux sociaux
+info.gouv.fr
+service-public.gouv.fr
+legifrance.gouv.fr
+data.gouv.fr
+Sauf mention contraire, tous les contenus de ce site sont sous licence etalab-2.0
+Toulon, l’expérimentation ...
+19 janvier 2026
+MINISTÈRE
+DES ARMÉES
+ET DES ANCIENS
+COMBATTANTS
+Accessibilité : partiellement conforme
+Données personnelles
+Gestion des cookies
+Mentions légales
+PROTEUS : des drones sous-marins connectés pour des mi...
+https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+8 of 8
+2/4/26, 16:41
+

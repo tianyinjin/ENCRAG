@@ -1,0 +1,102 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 65 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 65 | 79 
+N° 
+Nature
+Intitulé 
+SI C1 C2 C3 Remarque 
+EXP26 
+TECH 
+Interdire les comptes génériques disposant de privilèges comme les comptes 
+administrateurs . 
+O
+ 
+ 
+ 
+ 
+EXP27 
+TECH 
+Pour les comptes ne disposant pas de privilèges, ne pas employer de compte 
+générique ou fonctionnel sauf besoins dûment justifiés.  
+ 
+R 
+O 
+O 
+ 
+EXP28 
+ORG 
+Si les comptes génériques ou fonctionnels doivent être utilisés en raison de 
+besoins dûment justifiés : 
+ 
+-  limiter son usage au strict nécessaire (fonctionnel, temporel) ;  
+-  désactiver le compte en dehors des périodes autorisées d’utilisation ;  
+-  mettre en place des mesures permettant de tracer les accès ;  
+-  documenter l’usage des comptes. 
+ 
+R 
+O 
+O 
+ 
+EXP29 
+TECH 
+Protéger les comptes, et plus particulièrement les comptes à privilège (comptes 
+administrateur, comptes de service), par un mécanisme d’authentification. 
+O
+ 
+ 
+ 
+ 
+EXP30 
+TECH 
+Séparer strictement les comptes utilisateurs et administrateurs.  
+O
+ 
+ 
+ 
+ 
+EXP31 
+TECH 
+Mettre en place un audit des événements liés à l’utilisation des comptes. 
+O
+ 
+ 
+ 
+ 
+EXP32 
+ORG 
+Valider l’usage de comptes à privilèges par le responsable hiérarchique de 
+l’utilisateur. 
+R  
+ 
+ 
+ 
+EXP33 
+TECH 
+Lorsque cela est possible, configurer un accès en lecture seule pour les 
+interventions de maintenance de premier niveau. 
+R  
+ 
+ 
+ 
+EXP34 
+TECH 
+Si la gestion des comptes est centralisée, contrôler régulièrement, au moins une 
+fois par an, la configuration de l’annuaire centralisé. 
+O
+ 
+ 
+ 
+ 
+Maîtriser l’accès au système 
+EXP35 
+ORG 
+Lorsque le système n’offre pas de mécanisme d’identification, mettre en place des 
+mesures organisationnelles permettant d’identifier l’auteur des actions associées. 
+Contrôler leur application au moins une fois par an. 
+O

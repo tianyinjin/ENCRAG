@@ -1,0 +1,69 @@
+Source file: 20120606-NP-CICDE-RDIA-2012-010-ESDA-2012_future-DIA-3.3.8.pdf
+Relative path: 20120606-NP-CICDE-RDIA-2012-010-ESDA-2012_future-DIA-3.3.8.pdf
+Page: 16 / 64
+
+================================================================================
+
+16
+d’un ensemble de moyens de contrôle en général déporté en surface communément appelé 
+« station de contrôle9 ». 
+107. 
+Il regroupe aussi l’ensemble des moyens et le personnel permettant la mise en œuvre du 
+système10, le traitement et la diffusion des informations collectées par les charges utiles. Il 
+comprend aussi le matériel et le personnel nécessaires au soutien technique et logistique de 
+l’ensemble du système. 
+Le segment de liaison 
+108. 
+Les transmissions sont essentielles pour les systèmes de drones. Le segment de liaison 
+représente donc une partie importante du système. Il repose sur l’établissement et le maintien 
+d’une ou plusieurs liaisons entre les différents éléments constitutifs du système. 
+109. 
+À l’intérieur de ces liaisons, il faut distinguer les flux de données relevant du contrôle du vecteur 
+(ordre de pilotage, radio, etc.) de ceux relevant du contrôle des charges utiles et de la 
+transmission des informations collectées (en général en « temps réel »). 
+110. 
+Aujourd’hui, la majeure partie de la bande passante est utilisée par ces dernières notamment 
+pour la vidéo et l’imagerie. En tant que de besoin, certaines de ces liaisons pourront être 
+sécurisées. 
+111. 
+En relation étroite avec les caractéristiques des systèmes de drones, ces liaisons sont en 
+général de deux types : 
+a. 
+la transmission Line of Sight (LOS) est privilégiée pour les systèmes restant à portée 
+radioélectrique directe (jusqu’à 150 km en fonction de l’altitude du vecteur) ; 
+b. 
+la transmission Beyond Line of Sight (BLOS) est privilégiée lorsque des portées 
+supérieures sont nécessaires (jusqu’à plusieurs milliers de kilomètres) notamment 
+dans le cas de systèmes de drones à grand rayon d’action11. Cette liaison BLOS 
+permet une transmission au-delà de l’horizon radioélectrique en utilisant des relais de 
+communication comme les satellites par exemple. 
+Systèmes de drones aériens
+Segment de contrôle et de soutien
+Soutien
+Station de contrôle
+Opérateur
+Segment de liaison
+COM
+Liaisons de données
+Segment aérien
+Charges utiles
+Vecteur aérien
+Chaîne de 
+commandement
+Utilisateurs
+C4ISR
+RVT                
+Effecteurs                 
+…
+ 
+Figure 1 – Un système de drones aériens 
+                                                 
+9 
+L’US Air Force (USAF) utilise différentes stations de contrôle en fonction de la phase de vol : une station pour le décollage et le recueil à 
+proximité du théâtre (Launching and Recovery Element) et un pôle de contrôle de mission centralisé sur le sol américain (Mission Control 
+Element ou MCE). 
+10 
+Déploiement, lancement et récupération, mise en oeuvre technique de la station de contrôle et des vecteurs, etc. 
+11 
+Équipés généralement également d’une liaison LOS, la liaison BLOS prenant le relais si nécessaire et au plus tard une fois l’horizon 
+radioélectrique atteint.

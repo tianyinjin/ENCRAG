@@ -1,0 +1,1752 @@
+Source file: Note_Cout RH de la dronisation_juin 2025.pdf
+Relative path: Note_Cout RH de la dronisation_juin 2025.pdf
+Page count: 37
+Extracted pages: 36
+
+================================================================================
+
+[Page 1 / 37 | chars: 431]
+--------------------------------------------------------------------------------
+
+Observatoire 
+des conflits futurs 
+Levallois-Perret, le 2 juin 2025 
+N° 127/FRS/CONFLIT25 
+Le coût de la dronisation 
+en ressources humaines 
+Note n° 1 
+ 
+ 
+Victor MASSON
+Chargé de recherche
+Étude financée par la Direction générale  
+des relations internationales et de la stratégie 
+Marché n° 2024.1050 121 185  
+EJ court n° 180 007 92 70 
+Notifiée le 22 décembre 2024 
+Réunion de lancement le 13 janvier 2025 
+En partenariat avec
+
+[Page 2 / 37 | chars: 1637]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.2
+ 
+Fondation pour la recherche stratégique (FRS) 
+55 rue Raspail 92300 Levallois-Perret 
+Fondation reconnue d’utilité publique par décret du 26 février 1993 
+ 
+ 
+WWW.FRSTRATEGIE.ORG | MAIL : CONTACT@FRSTRATEGIE.ORG 
+SIRET 394 095 533 00060 | TVA FR74 394 095 533 | CODE APE 7220Z  
+Abréviations 
+ 
+ALAT :  
+Aviation Légère de l’Armée de Terre 
+FARA :  
+Future Attack Reconnaissance Aircraft 
+FPV :  
+First Person View 
+GNSS :  
+Global Navigation Sattelite System 
+IA :  
+Intelligence Artificielle 
+ISR :  
+Intelligence, Surveillance & Reconnaissance 
+LAD :  
+Lutte Anti-Drones 
+LUSV :  
+Large Unmanned Surface Vehicle 
+NGAD :  
+Next Generation Air Dominance 
+OODA :  
+Observe, Orient, Decide, Act 
+OWA :  
+One-way attack 
+SCAF :  
+Système de Combat Aérien du Futur 
+SEAD :  
+Suppression of Enemy Air Defenses 
+UAV :  
+Unmanned Aerial Vehicle 
+UAS :  
+Unmaned Aerial Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Avertissement 
+Les opinions et analyses exprimées dans ce livrable n'engagent que la responsabilité de leurs auteurs. Elles ne sauraient représenter ou 
+traduire une prise de position de l'organisme du ministère des Armées pilote de l'étude, de la Direction générale des relations interna-
+tionales et de la stratégie ou du ministère des Armées. 
+Disclaimer 
+The opinions and analyses expressed in this document are the sole responsibility of the authors. They do not represent or reflect the 
+position of the organization of the Ministry of the Armed Forces conducting the study, the Directorate General of International Rela-
+tions and Strategy or the Ministry of the Armed Forces.
+
+[Page 3 / 37 | chars: 781]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.3
+ 
+Sommaire 
+Abréviations 
+2 
+Résumé 
+5 
+Executive Summary 
+6 
+Introduction 
+7 
+Partie 1 – Dronisation et robotisation des armées : une révolution militaire ? 
+9 
+1. Milieu aérospatial 
+9 
+2. Milieu aéroterrestre 
+9 
+3. Milieu naval 
+12 
+Partie 2 – Analyse du coût RH  par la chaîne fonctionnelle de développement et 
+d’emploi des systèmes de drone ou de robot 
+14 
+1. Production 
+14 
+2. Logistique 
+17 
+3. Exploitation ISR 
+20 
+4. Pilotage 
+23 
+Partie 3 – Conclusions et recommandations 
+26 
+1. Une intégration globale de cette dronisation 
+26 
+2. Recommandations par Armées 
+31 
+2.1 Armée de l’Air et de l’Espace 
+31 
+2.2 Armée de Terre 
+32 
+2.3 Marine nationale 
+34 
+Annexe 1. Prolifération des drones armés dans le monde 
+36
+
+[Page 5 / 37 | chars: 3191]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.5
+ 
+Le coût de la dronisation 
+en ressources humaines 
+Résumé 
+Le phénomène de dronisation et de robotisation des armées, qui s’inscrit dans une trans-
+formation plus large se basant sur l’infovalorisation et la numérisation, est aujourd’hui au 
+centre de l’attention de nombreuses puissances, tant les drones prennent une importance 
+critique dans les conflits, en particulier celui opposant l’Ukraine et la Russie. Ces systèmes 
+assurent aujourd’hui un grand nombre de fonctions sur la ligne de front, de la logistique à 
+la mise en place d’un schéma de « reconnaissance-frappe » complet, et s’imposent comme 
+un élément indispensable du retour de la masse dans les armées. L’utilisation des drones 
+est telle que 40 à 60% des effectifs des brigades de combat ukrainiennes étaient, en 2024, 
+consacrées à la mise en œuvre des drones dans ces unités. Les processus de production, la 
+logistique et les opérations doivent prendre en compte ce phénomène pour utiliser l’outil 
+drone avec la plus grande efficacité.  
+Cette dronisation touche l’ensemble des armées à des degrés divers. Le coût premier sera 
+lié à la nécessaire création de l’écosystème favorable à cette intégration des drones - à 
+savoir une infovalorisation et une numérisation accentuée - et une acculturation générale 
+des unités concernées directement ou indirectement par la dronisation. Au-delà de cet 
+écosystème, la pleine intégration des drones au sein des forces demandera imposera un 
+coût important sur l’ensemble des éléments de la chaîne fonctionnelle du drone. Une ca-
+pacité de production de ces derniers doit être acquise, ce qui demande non seulement l’ac-
+quisition de machines, mais surtout le recrutement et la formation de personnel qualifié. 
+La logistique pourrait connaître un coût relativement neutre au niveau des ressources hu-
+maines, tant la robotisation et la dronisation pourrait « alléger » un nombre important de 
+fonctions, permettant ainsi de libérer une masse humaine pour d’autres missions, com-
+pensant ainsi les demandes logistiques liées à l’intégration des drones au sein des forces. 
+Tant le pilotage que la maintenance des drones demanderont le recrutement d’un large 
+volume de personnels qualifiés. Cependant, le coût le plus important pourrait être lié au 
+traitement de la masse de données fournies par les drones, Le recrutement d’analystes et 
+de personnel capable de gérer cette masse de donnée est de nature à imposer un poids 
+majeur sur les ressources humaines des armées.  
+La prise en compte de ces facteur doit pousser à une réflexion sur le développement d’un 
+modèle d’intégration hybride combinant ou arbitrant entre deux approches : la générali-
+sation de la mise en œuvre du drone à l’ensemble des unités d’une part, la création d’unités 
+spécialisées avec des missions bien précises, d’autre part. C’est bien ce degré d’hybridation 
+entre les deux approches qui déterminera le coût total de la dronisation des armées. Au-
+delà d’une recherche d’excellence dans l’utilisation des drones, une place importante doit 
+aussi être accordée au développement d’une culture de l’expérimentation autour de ces 
+systèmes.
+
+[Page 6 / 37 | chars: 3065]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.6
+ 
+Executive Summary 
+The phenomenon of the dronisation and robotisation of armed forces—part of a broader 
+transformation underpinned by information enhancement and digitalisation—has become a 
+central concern for numerous powers, as drones assume a critical role in the ongoing conflict 
+between Ukraine and Russia. These systems now perform a wide spectrum of functions along 
+the front line, ranging from logistical support to the establishment of a comprehensive "re-
+connaissance-strike" model, and have become indispensable to the resurgence of mass in mil-
+itary operations. The use of drones has reached such a scale that an estimated 40 to 60 per 
+cent of the human resources within Ukrainian brigades are currently engaged in maintaining 
+the drone functional chain. As such, production processes, logistical frameworks, and opera-
+tional planning must all adapt in order to employ drone systems with the utmost effective-
+ness. 
+Dronisation affects all components of the armed forces, albeit to varying degrees. The initial 
+cost is primarily linked to the establishment of an ecosystem conducive to drone integration—
+characterised by intensified digitalisation and enhanced data processing—and to the broader 
+cultural adaptation of units directly or indirectly involved. Beyond this foundational ecosys-
+tem, the full integration of drones will generate substantial costs across all elements of the 
+drone functional chain. A sustainable production capacity must be developed, requiring not 
+only the acquisition of appropriate machinery but, more crucially, the recruitment and train-
+ing of qualified personnel. From a logistical standpoint, the impact on human resources may 
+prove relatively neutral, as robotisation and dronisation could relieve a significant number of 
+personnel from certain functions, thereby enabling their reallocation to other operational 
+tasks. This redistribution may partially offset the logistical demands associated with drone 
+integration. However, the most significant burden appears to lie in processing the vast volume 
+of data generated by these systems. The recruitment of analysts and technical specialists ca-
+pable of managing and exploiting such data will place a considerable strain on the human 
+resources of the armed forces.Furthermore, the effective integration of drones will necessitate 
+the recruitment and training of skilled personnel for both piloting and maintaining these sys-
+tems. 
+These considerations should prompt reflection on the development of a hybrid integration 
+model—combining the generalised adoption of drones across all units with the establishment 
+of specialised formations tasked with well-defined missions. It is precisely this balance be-
+tween the two approaches that will determine the overall cost of dronisation for the armed 
+forces. In addition to the pursuit of operational excellence in drone deployment, it is essential 
+to foster a culture of experimentation and innovation around these emerging capabilities.
+
+[Page 7 / 37 | chars: 4097]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.7
+ 
+Introduction 
+Si l’emploi des systèmes drones au sein des forces armées n’est pas un phénomène récent, 
+le conflit ukrainien met en avant une utilisation massive de ces systèmes. Cette incorpora-
+tion croissante des drones est telle qu’ils sont aujourd’hui à l’origine de la majorité des 
+pertes humaines et matérielles sur le front. Signal d’un changement d’échelle sur l’inté-
+gration des systèmes non habités dans les armées, le phénomène n’en est pas nouveau 
+pour autant. Plus d’un siècle après le premier décollage d’un aéronef sans pilote, survenu 
+en 1917 en France, nous assistons aujourd’hui à un essor majeur du drone à l’échelle de la 
+société. Les armées n’ont évidemment pas été épargnées par cette évolution, devenant 
+même pionnières dans le développement des drones, à commencer par les forces israé-
+liennes et américaines, dont le Predator est devenu l’exemple emblématique. Les diffé-
+rentes opérations menées par les armées occidentales au Proche et Moyen-Orient depuis 
+2001 ont vu une utilisation croissante des systèmes non habités, devenant à la fois des 
+porteurs de capteurs et des vecteurs d’effets cinétiques. Les armées se sont ainsi dotées 
+d’une quantité croissante de drones, devenus des systèmes complémentaires des aéro-
+nefs habités, dont le nombre a radicalement baissé depuis la fin des années 1960. La Russie 
+a, quant à elle, utilisé le théâtre syrien pour tester l’intégration des drones au sein de son 
+armée, après une prise de conscience du retard pris dans le domaine au moment de la 
+guerre en Géorgie1.  
+Parallèlement, le drone a aussi permis à de multiples acteurs de déployer une « puissance 
+aérienne du pauvre » ou un substitut à leur puissance aérienne classique déficiente. Il en 
+est ainsi de l’Iran et de ses proxies dont le drone représente un élément essentiel de leur 
+projection de puissance mais aussi de nombreux autres acteurs irréguliers. L’utilisation de 
+systèmes plus bas de gamme s’est ainsi répandue auprès d’entités non étatiques au Moyen-
+Orient, notamment l’État Islamique qui a régulièrement utilisé les drones lors de la bataille 
+de Mossoul2. L’Azerbaïdjan a utilisé ces systèmes au Haut-Karabakh, en les employant en 
+complément de l’infanterie, écosystème combinant différents types de missions complé-
+mentaires.  
+Si l’attention a longtemps été portée sur les systèmes non habités aériens, le milieu mari-
+time connaît aussi un phénomène de dronisation particulièrement dynamique. Les pro-
+grammes de drones navals – de surface ou sous-marins – se multiplient dans le monde et 
+deviennent un véritable enjeu pour certaines marines, notamment l’US Navy. Le drone na-
+val devient ainsi un capteur, un transporteur et une plateforme de combat. Là encore, la 
+guerre en Ukraine a mis en avant un facteur de dronisation du milieu naval très important. 
+La robotisation terrestre semble aussi connaître un développement de plus en plus impor-
+tant, bien qu’encore balbutiant.  
+Cette multitude de systèmes désignés par le terme de « drone » tend parfois à entraîner 
+une confusion, tant la variété de matériels est importante. Il conviendra ici de désigner par 
+drone les systèmes pilotés à distance, ou autopilotés, embarquant un degré variable d’auto-
+nomie pouvant aller jusqu’à un degré total de cette dernière. Une sous-classification peut 
+être appliquée en fonction du milieu dans lequel le drone évolue. De plus, le terme de « ro-
+bot terrestre », ou « robot » tout simplement, s’appliquera lui aux systèmes au sol. La dis-
+tinction étymologique s’impose plus par souci de distinction entre les systèmes aériens et 
+au sol que par une différence réelle entre les deux catégories.  
+L’intégration des systèmes non habités au sein des forces armées est de nature à influencer 
+drastiquement une large gamme de missions, et par conséquent entraîner une modification 
+ 
+1 Yannick Genty-Boudry, « Les opérations de drones russes en Syrie », DSI, 
+29 mai 2020. 
+2 « Syria: Footage shows Islamic State drone blowing up stadium ammo 
+dump », ABC News, 25 octobre 2017.
+
+[Page 8 / 37 | chars: 2619]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.8
+ 
+profonde des ressources humaines disponibles. Si cette dronisation des armées est perçue 
+par la grande majorité des États comme un moyen de pallier le manque d’hommes dispo-
+nibles, il convient d’identifier précisément les secteurs majoritairement touchés par cette 
+transformation. À titre d’exemple, le Japon cherche à « droniser son armée » pour répondre 
+à la menace démographique qui touche les Forces japonaises d’autodéfense. Forcé de ré-
+duire les effectifs de près de 2 400 hommes, le ministère de la Défense du Japon a annoncé 
+un plan d’acquisition de systèmes non habités à hauteur d’un trillion de yens (soit environ 
+6.4 milliards de dollars, un peu plus de 10% du budget annuel des Forces de défenses du 
+Japon)3. Il est clairement annoncé par ce ministère que l’acquisition et l’intégration des 
+drones se font par nécessité non seulement opérationnelle mais aussi démographique.  
+Le phénomène de dronisation/robotisation des armées doit aussi être relativisé vis-à-vis 
+de l’importance donnée à ces systèmes au sein des différentes forces. Sans aller jusqu’aux 
+exemples russes et ukrainiens, il existe aujourd’hui une différence importante entre l’inté-
+gration des drones au sein des forces américaines, chinoises, turques, françaises et israé-
+liennes par exemple. Ce phénomène de dronisation doit être analysé non pas comme une 
+simple intégration des systèmes non habités au sein des forces armées, mais comme une 
+recherche du retour de la masse par ces systèmes. Ces différents niveaux d’intégration, et 
+plus fondamentalement de systèmes utilisés, semblent rendre la création d’une « formule 
+RH » de la dronisation impossible, tant les réalités sont différentes. Certaines tendances 
+peuvent cependant être dégagées.  
+La note s’attardera, dans un premier temps, sur ce phénomène de dronisation des armées 
+afin de mieux le qualifier. Dans un second temps, en suivant la chaîne fonctionnelle, le coût 
+en ressources humaines de ce phénomène sera abordé, ainsi que l’intégration des drones dans 
+la structure des forces armées. Enfin, des recommandations et remarques seront formulées.  
+Figure 1 –  
+Exemple de classification des drones 
+ 
+ 
+3 « « Unmanned Assets » to Reinforce the JSDF’s Human Resource Base and 
+Defense Capabilities », NSBT Japan, 9 décembre 2024.  
+Source : Marko Radovanociv, Aleksandar 
+Petrovski, Aner Behlic, et al., « Unleashing 
+Autonomous Forces: Integrating AI-driven 
+Drones in Modern Military Strategy », 
+Системи управління, навігації та зв’язку. 
+Збірник наукових праць, 2024, vol. 3, n° 77, 
+p. 55-69.
+
+[Page 9 / 37 | chars: 3526]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.9
+ 
+Partie 1 – Dronisation et robotisation des armées : 
+une révolution militaire ?  
+1. Milieu aérospatial 
+Le milieu aérospatial bénéficie sans aucun doute de l’expérience la plus importante dans 
+l’intégration des drones, les armées occidentales utilisant des systèmes non-habités de-
+puis plus de 20 ans. Du fait de cette expérience, il n’y a pas aujourd’hui de changement 
+majeur dans la dynamique de transformation déjà engagée sur les dernières décennies, 
+mais l’accélération d’un phénomène déjà existant. L’intégration des drones au sein des ar-
+mées de l’air occidentales n’a en effet pas attendu les conflits récents pour démarrer, et 
+les programmes d’armes sur les prochaines années mettent en avant des systèmes non-
+habités intégrés dans des structures plus larges. Les drones ont déjà évolué d’un statut de 
+capteur d’appoint vers un outil indispensable, qui s’est diversifié dans ses formes et mis-
+sions. Les perspectives d’évolution technologiques, notamment dans le domaine de l’in-
+telligence artificielle (IA), laissent penser que la place occupée par les drones devrait 
+s’agrandir, en passant notamment par l’intégration de ces derniers dans un système de 
+système, comprenant aussi bien des aéronefs pilotés in situ que des drones télépilotés – 
+ou dotés d’un degré important d’autonomie dans la phase de vol. Le Système de Combat 
+Aérien du Futur (SCAF) européen ou le Next-Generation Air Dominance (NGAD) américain 
+reposent ainsi tous deux sur cette perspective de partenariat entre machines habités et 
+non-habités.  
+Le retour de la perspective d’une guerre de haute intensité, et par conséquent d’un envi-
+ronnement aérien bien moins permissif qu’il ne l’a été lors des opérations menées ces der-
+nières décennies, renforce d’autant plus la pertinence de cette utilisation importante de 
+drones. La diminution du nombre d’appareils habités au sein des flottes, qui devront faire 
+face à un environnement plus contraignant, nécessite de trouver une solution de limitation 
+des risques pour l’aéronef habité. Les différentes armées sont en effet confrontées à un 
+accroissement du coût des équipements, contribuant ainsi à l’érosion des parcs existant, 
+ce qui a été théorisé sous la fameuse 16ème Loi d’Augustine. À des degrés divers, les diffé-
+rentes flottes aériennes ont été victimes de cette Loi, qui a entrainé une diminution du 
+nombre d’appareils par le renouvellement et l’arrivée de nouvelles générations d’avions. 
+La dronisation offre alors une opportunité de remonter en masse, alors que le prix des ap-
+pareils habités devrait continuer d’augmenter selon les mêmes prédictions.  
+2. Milieu aéroterrestre 
+La guerre opposant l’Ukraine et la Russie depuis 2014 se démarque des autres conflits par 
+un usage omniprésent des drones dans l’ensemble des opérations. Le drone s’est peu à 
+peu imposé comme l’outil global dans un conflit d’une ampleur jamais atteinte en Europe 
+depuis la Seconde Guerre mondiale. Ce qu’on peut observer aujourd’hui sur le flanc Est de 
+l’Europe est le résultat à la fois d’une expérience occidentale de la dronisation, qui visait 
+notamment à remplacer les systèmes habités dans des missions dites « 3D » – dull, dirty 
+and dangerous – et de l’expérience d’acteurs irréguliers ne disposant pas des moyens né-
+cessaires au déploiement d’une puissance aérienne. Plus encore, la dronisation du conflit est 
+aussi, en partie, une conséquence d’une transformation plus large de la société dans son en-
+semble.
+
+[Page 10 / 37 | chars: 4397]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.10
+ 
+Depuis 2014, l’Ukraine a vu une croissance de la présence des drones sur son territoire, 
+jusqu’à devenir aujourd’hui le symbole de cette évolution de la guerre. La masse de drones 
+déployés sur le front est telle que, en 2025, près de 70% des pertes d’équipement toutes 
+catégories confondues sont le résultat de l’emploi de ces systèmes4. Ce chiffre est plus im-
+portant encore sur le volet humain, puisqu’environ 80% des pertes humaines sont liées à 
+des attaques de drones5. Le drone semble s’imposer comme un outil omniprésent dans la 
+guerre de haute intensité au XXIème siècle.  
+Déjà observé au Haut-Karabakh, l’intérêt de ces systèmes à conférer une capacité de choc 
+plus importante à l’infanterie, ou à appuyer les missions SEAD, a été confirmé par l’expé-
+rience de la guerre qui touche actuellement l’Est de l’Europe, dans un environnement bien 
+plus contraint et face à un ennemi plus capable. L’invasion russe de l’Ukraine en 2014 a 
+entraîné une situation d’urgence, forçant les défenseurs à s’adapter et à développer des 
+solutions rapides et efficaces pour palier notamment à un manque criant de munition. Cela 
+a ouvert la voie à une évolution progressive du drone, d’une plateforme aérienne évoluant 
+dans un écosystème limité vers un système intégré à une logique aéroterrestre plus géné-
+ralisée, au travers d’un schéma « reconnaissance-frappe » inspiré des manuels soviétiques. 
+Or, confronté à des défenses antiaériennes puissantes, les systèmes de drone privilégiés 
+ont évolué : les grandes plateformes non habitées présentes sur la ligne des opérations au 
+début de la guerre ont aujourd’hui presque disparu. C’est le cas, par exemple, du drone Bay-
+raktar TB-2. L’analyse de cette dynamique de retrait de ce type de drone a notamment 
+poussé l’US Army à stopper l’acquisition du MQ-1-C Gray Eagle6.  
+Les unmanned aerial system (UAV) sont ainsi devenus un amplificateur de puissance des 
+moyens traditionnels, en apportant des capacités de reconnaissance et de surveillance 
+quasi permanentes sur la zone d’opération, participant à lever partiellement le « brouillard 
+de guerre ». Le drone devient à la fois une jumelle et une munition pour l’infanterie, com-
+pensant ainsi l’usure des tubes d’artillerie et le manque de munitions. Il devient aussi, dans 
+le même temps, le système de remplacement d’une aviation légère sur le front pour des 
+missions d’interdiction et de reconnaissance dans la profondeur. Le drone est devenu un 
+concept, non plus un objet au design unique, mais un outil qui s’adapte pour fournir les 
+capacités dont les unités ont besoin. On trouve, dans cette adaptabilité de matériels plus 
+simples, les premières pistes sur l’apparition d’un high-low-mix futur au sein des armées. 
+Au-delà des capacités apportées par ce « kit de précision », c’est son accessibilité qui con-
+tribue à en faire un outil aussi efficace. Le drone s’impose comme une nécessité, non pas 
+par la démonstration d’une supériorité absolue sur les autres systèmes, mais par un atout 
+bien plus important : un faible coût et une production importante, le rendant distribuable 
+sur l’ensemble du front et offrant ainsi un palliatif généralisé pour les carences présentes. 
+La prolifération de ces moyens est notamment passée par le développement de solutions 
+« au juste besoin », rendant acceptable la dimension consommable du drone qui devient 
+ultraspécialisé sur une tâche et une fonction précise. Le renforcement des moyens de lutte 
+anti-drones et la croissance exponentielle en besoin de puissance de feu ont accentué le 
+phénomène.  
+Pour faire face à cet environnement contraint et aux besoins rencontrés par les différentes 
+forces, les solutions dronisées se sont multipliées, créant ainsi de véritables flottes de sys-
+tèmes aux designs différents. Cette simplicité des appareils déployés est notamment com-
+ 
+4 E. Hecht, « Drones in the Nagorno-Karabakh War: Analyzing the Data », 
+Military Strategy Magazine, vol. 7, n° 4, 2022 ; J. Watling, N. Reynolds, « Tac-
+tical Developments During the Third Year of the Russo-Ukrainian War ». 
+5 David Kirichenko, « Drone superpower: Ukrainian wartime innovation of-
+fers lessons for NATO », Atlantic Council, 13 mai 2025.  
+6 Randy A. George, Chief of Staff for the US Army et Dan Driscoll, Secretary 
+of Army, « Army Transformation Initiative », 1er mai 2025.
+
+[Page 11 / 37 | chars: 4533]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.11
+ 
+pensée par une montée en compétence des équipages et par le développement de sché-
+mas d’opérations plus performants7. La relative accessibilité de ce « kit de précision » per-
+met de démultiplier l’efficacité des unités traditionnelles et d’accélérer drastiquement la 
+boucle OODA (Observe, Orient, Decide, Act )sur l’ensemble du front, et non pas seulement 
+dans une zone de concentration de moyens. Le drone s’intègre ainsi parfaitement dans 
+l’ensemble des unités, permettant la maturation d’un complexe de reconnaissance-frappe 
+accessible, participant de la sorte à la désunion entre la manœuvre et le feu.  
+Par leur dimension consommable, les drones tendent aussi à devenir une arme de satura-
+tion. En effet, des salves de drones sont régulièrement utilisées pour surcharger les dé-
+fenses antiaériennes ennemies, en appui d’autres vecteurs plus importants ou bien sim-
+plement en « salves manœuvrantes ». Cette saturation est aussi cognitive, avec une capa-
+cité à frapper continuellement certaines zones de défense. Cela entraîne, au simple bruit 
+de drone au-dessus de la défense, le réflexe de se cacher, permettant ainsi à l’infanterie de 
+progresser et de lancer un assaut sur la position8.  
+On observe alors une véritable saturation des basses couches du champ de bataille, avec 
+une omniprésence d’une diversité de systèmes réunis. L’écosystème drone devient un poids 
+majeur au sein des effectifs des deux camps en Ukraine. La mise en place de cet environ-
+nement, qui comprend l’ensemble du cycle de ciblage dronisé mais aussi la logistique, 
+semble modifier profondément l’organisation humaine. Ainsi, au sein d’une brigade ukrai-
+nienne, 40 à 60% des effectifs seraient monopolisés par le déploiement, la mise en condi-
+tion er le pilotage de cette arme9. Cela entraîne une baisse de la disponibilité de la masse 
+humaine, réduisant ainsi d’autres capacités opérationnelles. L’impact est tel qu’une di-
+zaine d’hommes peuvent tenir une position face à un ennemi supérieur10. Cette répartition 
+des effectifs semble être à la fois le résultat de l’efficacité de l’utilisation des drones et de 
+l’impossibilité de manœuvre, et donc d’utiliser les ressources à disposition autrement. La 
+manœuvre est, en effet, devenue particulièrement difficile sur le front – tout rassemble-
+ment important de matériel étant difficile à dissimuler face à la masse de capteurs déployés.  
+Le ministère de la Défense ukrainien a récemment lancé son initiative baptisé « Ligne de 
+drones », visant justement à établir une zone d’interdiction de 10 à 15 km dans la profon-
+deur du front adverse. Cette initiative vient renforcer une dépendance déjà de plus en plus 
+importante pour l’Ukraine, dont 80 à 90% de la ligne défense dépendrait aujourd’hui de 
+ses UAV. Pour Mykhailo Drapatyi, commandant des forces terrestres ukrainiennes, la 
+« stabilité » du front ukrainien serait le résultat de l’intégration plus large des drones, et 
+uniquement liée à cela 11. Cette limitation de la manœuvre provient de la méthode em-
+ployée pour se prémunir des frappes de drones : une tendance à l’immobilité des pièces 
+d’artillerie s’observe en effet. Les systèmes d’artillerie russes sont en effet enterrés et cou-
+verts, en partie pour les dissimuler et plus encore pour rendre leur neutralisation plus dif-
+ficile pour les systèmes de drones – les « couches de protection » étant réparées entre 
+chaque attaque12. De plus, l’attrition et les limites de la régénération des équipements et 
+des effectifs rend sans doute nécessaire le recours à une dronisation de plus en plus impor-
+tante.  
+Enfin, le drone devient aussi un vecteur de frappe à bas coût, permettant d’atteindre des 
+cibles dans la profondeur stratégique. Les campagnes de frappes ukrainiennes contre les 
+installations pétrolières russes – situées à plusieurs centaines de kilomètres – montrent 
+ 
+7 Philippe Gros, Vincent Tourret, Yohann Michel, Guillaume Garnier, « Les 
+enseignements de la guerre Russo-Ukrainienne », Observatoire des Conflits 
+Futurs, novembre 2024.  
+8 Unfair Advantage Telegram, 13 mai.  
+9 Échange des membres de l’Observatoire avec des responsables ukrainiens, 
+juillet 2024.  
+10 K.E. Leskov, I. Y. Sharapov, « Emploi des UAV durant une opération mili-
+taire spéciale », Transformation de la guerre moderne, Omsk, 2024. 
+11 Vadim Kushnikov, « Ukraine Launches « Drone Line » Doctrine to Strenghten 
+Frontline Defense », Militarnyi, 3 mars 2025.  
+12 LandminesAndCofee, Telegram, 18 mai 2025.
+
+[Page 12 / 37 | chars: 4072]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.12
+ 
+l’importance de cette application du drone, permettant d’accéder là encore à une masse 
+de vecteurs de longue portée, qui auraient été trop coûteux autrement. De plus, la porosité 
+des défenses anti-aériennes sur une large région ne rend pas forcément nécessaire l’utili-
+sation d’un missile de plus haute technologie, plus performant mais qui serait alors « trop » 
+performant par rapport aux paramètres de la mission.  
+Plus récemment, de nombreux systèmes de robots terrestres ont été déployés sur le front 
+ukrainien. Ces systèmes profitent d’une modularité importante, avec une capacité d’em-
+port de charge utile de plusieurs dizaines, voire centaines de kilogrammes. Des applica-
+tions offensives ont été observées – emport de tourelle téléopérée, lance-flammes, explo-
+sif13 – mais ce sont les utilisations logistiques qui semblent être les plus importantes, no-
+tamment les missions de minage et d’évacuation de blessés. L’emploi de drones terrestres, 
+bien que récent, devrait s’étendre largement sur le front grâce à des plans d’acquisition de 
+plus de 5 000 drones14. 
+3. Milieu naval 
+Le milieu naval est aussi touché par cette transformation, que François-Olivier Corman et 
+Thibault Lavernhe qualifient de « 5ème âge du combat naval »15. Similairement au dévelop-
+pement des drones dans le milieu aéroterrestre, la mer connait une croissance massive du 
+nombre de drones présents au-dessus, sur et sous le dioptre. Le drone devient ainsi un 
+senseur déporté, capable d’apporter aux marines un semblant de permanence à la mer et 
+d’élargir les zones couvertes par les capteurs du navire. La guerre en Ukraine a, là aussi, 
+été un révélateur de cette transformation, et contribue à accélérer cette dernière.  
+Si les drones aériens utilisés par les marines dans le monde peuvent être assimilés aux 
+autres types d’UAV utilisés sur terre – à quelques exceptions près – les projets de drones 
+de surface (USV, unmanned surface vehicle) et sous-marin (UUV, unmanned underwater 
+vehicle) diffèrent grandement. D’une manière similaire au développement des drones aé-
+riens, les systèmes navals non habités ont été développés pour remplir ces missions 3D et 
+permettre de renforcer les capacités de surveillance d’un espace démesuré par rapport aux 
+moyens disponibles. Depuis plus d’une dizaine d’années, nous avons donc assisté à la pro-
+lifération de systèmes de surface dédiés notamment à la surveillance des Zones Écono-
+miques Exclusives. De même, la lutte anti-mine est aussi sur le chemin d’une intégration 
+majeure des drones, que ce soit pour le quadrillage des zones, la détection des anomalies, 
+ou encore la destruction de ces dernières. 
+Plus récemment, des navires autonomes de grande taille (LUSV) ont été développés, et 
+sont en phase de test. L’US Navy fait office de leader médiatique dans le domaine avec son 
+projet Ghost Fleet Overloard, un programme de test lancé en 2018. De nombreux pro-
+grammes de drones sous-marins ont aussi vu le jour dans le monde. Offrant une capacité 
+de quasi-permanence sous le dioptre, ces UUV sont centraux pour l’acquisition de capaci-
+tés d’action dans les fonds marins.  
+Dans le milieu naval aussi, la dronisation devient un moyen de remassifier les forces, en 
+démultipliant les plateformes et les capteurs. L’augmentation du prix des navires et des 
+équipements, le manque de capacités de construction navale ainsi que les difficultés à re-
+cruter tournent de facto l’attention des décisionnaires vers ces systèmes automatisés. 
+ 
+13 Yevheniia Hubina, « Robot with Ukrainian flamethrower: Ukraine’s De-
+fense Ministry codifies ground drone with RPV-16 », Ukrainska Pravda25, 19 
+mai 2025.  
+14 Bohdan Miroshnyhenko, ‘Україна роботизує військо. Як армія з 15 тисяч 
+наземних дронів замінятиме людей на фронті’ (Ukraine is robotising the 
+army. How an army of 15.000 ground drones will replace people at the 
+front », Pravda, 31 mars 2025.  
+15 François-Olivier Corman, Thibault Lavernhe, « Vaincre en mer au XXIème 
+siècle », Équateurs, février 2023.
+
+[Page 13 / 37 | chars: 2009]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.13
+ 
+L’US Navy affiche clairement cet objectif, en imaginant qu’un tiers de la flotte sera consti-
+tuée de drones en 204016.  
+Enfin, l’omniprésence du drone dans le milieu naval passe aussi par le renforcement des 
+actions de la terre vers la mer, c’est-à-dire un emploi du drone dans une logique de « tor-
+pille côtière » manoeuvrante. La capacité à frapper des objectifs navals grâce à des sys-
+tèmes relativement accessibles – financièrement et au niveau du « seuil d’entrée techno-
+logique » va multiplier les acteurs maritimes, au moins sur les zones littorales. Les deux 
+exemples frappants sont évidemment la « guerre de la mer Noire » et les actions houthies 
+en mer Rouge. L’Ukraine a développé un véritable arsenal de lutte antinavires dronisé de-
+puis le début de la guerre. Les opérations menées à partir des différentes variantes de Ma-
+gura et le Sea Baby ont permis d’endommager de nombreux bâtiments russes ainsi que le 
+pont de Kerch et de repousser la flotte de la mer Noire vers Novorossiisk17.  
+Le défi réside aujourd’hui dans l’intégration totale de ces drones au sein des forces navales 
+plus que dans leur déploiement en solitaire. De plus, les systèmes non habités sont au cœur 
+des stratégies de développement de certaines marines, comme la Turquie et l’Iran. Pour 
+la première, c’est surtout la capacité à déployer une « force aérienne embarquée » droni-
+sée qui est mise en avant au travers du TCG Anadolu, annoncé comme le premier porte-
+drones dans le monde. Ce navire doit embarquer, entre autres, une version navalisée du 
+drone TB-3. Pour la Marine iranienne, et plus particulièrement la Marine du Corps des gar-
+diens de la Révolution, le drone devient aussi un moyen de projection de puissance grâce, 
+là aussi, à un navire porte-drones.  
+ 
+ 
+ 
+ 
+16 Admiral Guilday, Chief of Naval Operations, « NAVPLAN 2045 », 2021.  
+17 H.I. Sutton, « Timeline of Ukraine Invasion: War in the Black Sea », Covert 
+Shore, 30 mars 2025.
+
+[Page 14 / 37 | chars: 3539]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.14
+ 
+Partie 2 – Analyse du coût RH  
+par la chaîne fonctionnelle de développement et 
+d’emploi des systèmes de drone ou de robot 
+ 
+Dans l’objectif de remassifier le dispositif de force actuel, il apparaît que la solution la plus 
+rationnelle est d’intégrer plus largement les systèmes non habités au sein des forces. Ce-
+pendant, cette solution est de nature à se répercuter sur l’ensemble des fonctions au sein 
+des armées, de la planification des opérations à la ligne de front – et la profondeur – en 
+passant par les questions logistiques. En effet, au-delà même de la nécessité d’augmenter 
+la quantité de pilotes de drones dans les effectifs, il est nécessaire de structurer l’architec-
+ture globale des forces autour de ces systèmes.  
+1. Production 
+Intuitivement, l’innovation technologique qui a toujours été un levier permettant de pren-
+dre un ascendant sur l’adversaire dans les guerres, ou, plus exactement, la capacité à iden-
+tifier correctement les éléments technologiques de rupture, et à les intégrer au sein des 
+forces, est une clé du succès militaire dans l’histoire18. La guerre en Ukraine semble, elle-
+aussi, valider cette analyse à en croire Valerii Zaluzhnyi19. Pour l’ancien commandant des 
+forces ukrainiennes, le passage à la guerre moderne renforce cette idée, ajoutant un élé-
+ment de rapidité dans cette innovation : « plus le cycle [d’innovation et] d’intégration est 
+rapide, plus les chances d’emporter la victoire sont importantes »20. Sans aller jusqu’à re-
+nouveler une théorie similaire à la Jeune École de l’amiral Aube, l’intégration des drones 
+marque l’entrée dans une nouvelle aire de conflits. La dronisation des conflits marque 
+cette lignée d’innovations qui ont radicalement changé la nature même de la guerre, au 
+même titre sans doute que le moteur et la « macro-technologie »21. C’est cette transfor-
+mation, qui s’inscrit dans une modification plus profonde de la société sous le concept 
+« d’industrie 4.0 », qu’il convient d’intégrer et de prendre en compte.  
+La dronisation est à comprendre comme une dynamique plus profonde que la seule  inté-
+gration de systèmes non-habités dans les forces armées. C’est le produit de nombreux pro-
+grès, notamment l’adoption de méthodes de développement plus agiles et une démocra-
+tisation de l’impression 3D. L’individu devient capable de produire, de lui-même, une 
+quantité importante de systèmes pour un coût réduit et un temps de formation négli-
+geable. Pour prendre le cas russo-ukrainien– une véritable industrie du drone s’est déve-
+loppée en quelques années. Au début de l’année 2025, l’Ukraine avait en effet atteint un 
+seuil d’environ 250 000 drones reçus par mois, comprenant à la fois la production nationale 
+et les aides extérieures. Cette montée en puissance est d’autant plus importante que le 
+seuil était de 20 000 au début de l’année 202422. De plus, en 2024 les entreprises ukrai-
+niennes produisaient 96.2% des UAV perçus par l’armée.  
+ 
+18 Andreaw F. Krepinevich Jr, « The Origins of Victory: How Disruptive Mili-
+tary Innovation Determines the Fates of Great Powers », 2023.  
+19 Valerii Zaluzhnyi, discours lors du UK-Ukraine Defence Tech Forum du 25 
+avril 2025.  
+20 Ibid. 
+21 D. E. Showalter, « Mass Warfare and the Impact of Technology », The Ger-
+man Historical Institute, Cambridge University Press, 2000. 
+22 Dmytro Shumlianskyi, « In 2025, the Ukrainian Defense Forces started re-
+ceiving about 200 thousand drones per month », Militarnyi, 9 février 2025.
+
+[Page 15 / 37 | chars: 4650]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.15
+ 
+Dans le sens de cette transformation de la production, il convient évidemment de regarder 
+ce que les Ukrainiens et les Russes ont pu mettre en place depuis le début du conflit. Un 
+système d’incubateur d’entreprises se focalisant sur les systèmes dronisés, Brave1, a ainsi 
+été créé en 2023 par l’État ukrainien pour favoriser l’émergence de nouveaux acteurs dans 
+ce secteur critique. D’autres initiatives telles que Victory Drones existent aussi, créées par 
+des volontaires. La Russie a suivi un chemin similaire, qui a abouti en 2024 sur la création 
+de l’incubateur du ministère de la Défense appelé Rubicon23. Complémentairement, la 
+commande d’État permet de soutenir la production et de faire monter en puissance cer-
+tains acteurs clés. En Ukraine, le financement passe en grande majorité par le financement 
+participatif facilité par la plateforme United24, et depuis mai 2025, par la mise en place 
+d’une marketplace pour les unités ukrainiennes. Cette dernière fonctionne sur un système 
+de crédit, chaque objectif détruit donnant un nombre de points définis, qui permet d’ache-
+ter directement des systèmes développés sous Brave124.  
+La Russie procède de son côté d’une façon plus verticale, à partir de commande d’État. Les 
+producteurs historiques d’armement tels que Kalashnikov – qui dispose d’une filière drone, 
+Zala Aero Group – sont ainsi favorisés par les commandes, de même que certaines entre-
+prises qui ont réussi à se démarquer grâce à un model particulier, telles que STC pour le 
+drone Orlan 10/30. Dernier élément de cet écosystème d’acquisition, des équipes de vo-
+lontaires et de combattants modifient les drones pour les « mettre à niveau » selon les be-
+soins spécifiques de la zone dans laquelle ils vont évoluer25. Au total, bien que le nombre 
+exact d’entreprises soit difficile à estimer car fluctuant, l’« écosystème drone » représen-
+terait entre 200 et 500 structures. Si l’Ukraine est particulièrement performante sur cette 
+étape, certaines unités disposant elles-mêmes d’atelier de modification, la Russie semble 
+accuser un certain retard sur l’adaptation de ses drones au champ de bataille26. La chaîne 
+d’acquisition de drones par la Russie, centralisée et verticale, permet certes de « passer à 
+l’échelle » sur la production, mais crée un manque de diversité dans le matériel qui devient 
+alors plus facile à identifier et parer pour l’adversaire27.  
+Ce dernier stade de modification des drones, au dernier échelon avant leur déploiement, 
+induit nécessairement de disposer de la capacité et des outils nécessaires. À ce stade, cer-
+taines solutions se développent pour répondre à cette problématique et sont déjà testées 
+par les armées. Ainsi, la solution proposée par l’entreprise Per Se Systems qui a développé 
+une micro-usine de drones, déplaçable et déployable rapidement et disposant d’une capa-
+cité de production de 60 drones par jour, est un bon exemple d’initiative valorisable pour 
+les armées. Cette solution permettrait, en partie, de fournir aux unités une capacité de 
+production autonome de drones, qui pourraient être directement imprimés et configurés 
+selon les spécificités de la mission. Une production réactive donc, et au juste besoin de 
+l’unité. Sans aller jusqu’à imiter l’Ukraine, où la production de drone connait une croissance 
+exponentielle depuis le début du conflit, l’expérience du 17e Groupement d’Artillerie sur la 
+formation à la construction de drones a démontré la relative simplicité d’apprentissage du 
+processus – pour les drones plus low tech évidemment28.  
+Cette transformation des armées, et le besoin constant d’innovation sur la ligne de front, 
+demande une capacité organique à développer des solutions permettant, par exemple, de 
+contourner le brouillage ennemi ou d’autres systèmes de défense. En plus du dernier éche-
+lon de développement mentionné ci-dessus, la formulation d’un retour d’expérience entre 
+ 
+23 « Russia’s top brass sets up Rubicon Center of Advanced Unmanned Tech-
+nologies », TASS, 11 octobre 2024.  
+24 V. Melkozerova, « Points for kills: How Ukraine is using video game incen-
+tives to slay more Russians », Politico, 29 avril 2025.  
+25 Vincent Tourret, « Désigne, détruit, domine : la dronisation massive des 
+opérations comme potentielle révolution militaire », IFRI, article à paraitre 
+en 2025.  
+26 @vysokygovorit, Telegram, 23 avril 2025.  
+27 Sinead Baker, « Russie is flying fewer types of drones over Ukraine, making 
+them easier to target », Business Insider, 4 avril 2025.  
+28 Échanges de l’auteur avec les officiers du 17ème groupe d’artillerie, 2025.
+
+[Page 16 / 37 | chars: 4966]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.16
+ 
+l’utilisateur et le développeur favorise aussi l’émergence de solutions. Dans le cadre de la 
+production de drones, cette relation est d’autant plus importante qu’il s’agit d’un temps 
+particulièrement rapide de conception. Comme cela a déjà été mentionné, les drones 
+ukrainiens sont développés « au juste besoin », ce qui peut aussi signifier que certaines so-
+lutions sont en attentes de justification de leur existence. C’est le cas, par exemple, du 
+drone sous-marin TLK 150 « Toloka », développé dans le cadre de l’incubateur Brave1, pas 
+encore opérationnel mais sans doute dans les derniers stades29. Dans ce cas précis, il est 
+souligné que le besoin n’est pas présent pour accélérer le développement de cette solu-
+tion, l’adversaire n’ayant pas encore trouvé de parade aux drones de surface. Tant que le 
+modèle précédent reste suffisamment efficace, il n’apparaît pas comme nécessaire de 
+passer à la solution N+1. L’enjeu consiste donc à anticiper la solution relaie à l’actuel sys-
+tème employé, et à la développer jusqu’au seuil d’opérationnalisation, c’est-à-dire à un 
+stade permettant de finaliser le projet en quelques semaines. 
+Au-delà de la capacité matérielle à produire des drones, il faut avoir la capacité de les dé-
+velopper. Pour cela, la création d’un écosystème global apparaît nécessaire, tant pour fa-
+voriser l’innovation que pour assurer dans le temps cette capacité. La Russie développe 
+pour répondre à son besoin en spécialistes de drones – du développeur au pilote – un cur-
+riculum spécialisé, à l’instar des formations militaires dispensées aux élèves des niveaux 10 
+et 11 (équivalent lycée)30. Ce cursus devrait s’étendre dans les années à venir, et concernait 
+déjà 30 000 étudiants au lancement en 202331. En 2024, selon l’agence TASS, ce chiffre 
+était porté à plus de 500 écoles, et 30 universités en Russie32. L’objectif annoncé par le pré-
+sident Poutine serait de former un million de spécialistes d’ici 203033. Si ce million de per-
+sonnes formées sur les drones n’en fera pas pour autant des pilotes dans l’armée russe, 
+cela va créer un terreau fertile à l’essor d’un « momentum drone » au sein de la société 
+russe. Au-delà de la formation dispensée, c’est un écosystème global qui tend à se mettre 
+en place. La société russe évolue en effet vers une plus grande présence des drones, no-
+tamment en assouplissant les règles autour de ces systèmes. Des zones de vols ont ainsi 
+été créées, participant à renforcer cette dynamique34. L’évolution des réglementations est 
+un signal fort sur la volonté politique de droniser la société civile plus largement que sim-
+plement la partie Défense.  
+Au-delà de la production des grands programmes, qui ne devrait pas s’en trouver boule-
+versée outre mesure, c’est bien un nouveau pan de développement qui apparaît. La pro-
+duction des plateformes non habitées connait une croissance exponentielle : estimé d’une 
+valeur de 36.05 milliards de dollars en 2023, le marché mondial devrait atteindre les 173,57 
+milliards d’ici 203035. À titre d’exemple, l’industrie chinoise du drone représentait 1.7 mil-
+lion d’entreprises dans le pays, un chiffre en croissance constante36. Ce développement, 
+qui concerne aussi bien le marché civil que militaire, devrait nécessairement entraîner une 
+forte concurrence entre les différents acteurs pour acquérir les spécialistes disponibles sur 
+le marché du travail. Sur cette tension des métiers à venir, il convient de distinguer les dif-
+férentes problématiques selon la technicité des matériels.  
+La partie hardware doit faire l’objet d’une subdivision, tant le niveau de complexité des 
+matériels est différent en fonction des systèmes. Les drones low-cost qui sont aujourd’hui 
+ 
+29 H.I. Sutton, « Ukraine’s Tooloka TLK-150 Underwater Drone », Covert Shore, 
+2 mars 2025 ; et https://armyinform.com.ua/2025/05/14/morski-drony-
+zminyuyut-pravyla-gry-ekspert-rozpoviv-pro-zastosuvannya-bezekipa-
+zhnyh-vodnyh-plavzasobiv/  
+30 « Russian Educators are Taught How to Work with Unmanned Aerial Sys-
+tems », Ministère de l’éducation russe.  
+31 « Russian Schoolchildren to Undergo Combat Drone Training », The Mos-
+cow Times, 21 juillet 2023.  
+32 TASS, « The Russian Federation has released the first manuel for learning 
+drones in labor lessons », TASS, 11 septembre 2024.  
+33 « Talking of what matter open lesson », site official duKremlin, 1er septem-
+bre 2023.  
+34 « ERA-GLONASS GAIS Emergency Response in Case of Accidents », Tad-
+viser, 3 mars 2025.  
+35 « Taille du marché des drones, part, croissance et analyse de l'industrie, par 
+type (drones de consommation, drones commerciaux, drones militaires), par 
+application (agriculture, construction, logistique, surveillance, divertisse-
+ment, autres) et analyse régionale, 2024-2031 », Extrapolate, mars 2025.  
+36 « Zhejiang’s first drone training academy to begin classes in December », 
+Ehanghou, 29 novembre 2024.
+
+[Page 17 / 37 | chars: 4171]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.17
+ 
+largement utilisés dans le monde ne nécessitent pas de main d’œuvre particulièrement 
+qualifiée. En effet, l’expérience a montré que la reconversion vers l’assemblage de ce type 
+de drones ne nécessite pas une formation de longue durée, même pour les tâches de sou-
+dure les plus précises37. Ce type de main d’œuvre ne devrait pas entraîner une concurrence 
+particulièrement importante sur les cibles de recrutement pour les armées.  
+Plus problématique sans doute, le développement de la partie software risque de drainer 
+des compétences vers le secteur civil, entraînant ainsi, sans doute, un manque de moyens 
+pour les armées dans le domaine. L’exemple ukrainien peut représenter ici un mirage sur 
+les capacités des armées à développer et adapter des drones par elle-même, notamment 
+avec la mise en place de ce troisième échelon de production de drones concernant la mise 
+à niveau des matériels. La porosité entre le secteur civil et militaire est importante, notam-
+ment du fait des différentes vagues de recrutement et de mobilisation depuis 2014, entraî-
+nant de facto une disponibilité de ces ressources au sein de l’armée elle-même. Dans un 
+schéma d’armée plus professionnelle et sans recours à une conscription, cette porosité 
+n’est pas aussi présente et peut engendrer une difficulté à développer ce pan critique de 
+l’adaptation des drones.  
+La dronisation des forces armées oblige à repenser, ou du moins adapter, le cycle d’acqui-
+sition et de production des matériels à usage militaire. Cette transformation doit permettre 
+de prendre en compte une évolution toujours plus rapide des technologies et pratiques 
+offensives et défensives, afin de ne pas se retrouver « hors-jeu ».  
+2. Logistique 
+La dronisation des armées va avoir deux effets majeurs sur l’ensemble de la chaîne logis-
+tique, de l’acquisition et stockage à l’acheminement des matériels en passant par le main-
+tien en condition opérationnelle. La dronisation des armées va aussi ajouter des besoins 
+spécifiques sur cette chaîne logistique, afin de soutenir un nouvel écosystème qui se met 
+en place.  
+Les expériences civiles sur l’optimisation du transport routier par l’utilisation de camions 
+autonomes, connectés les uns aux autres dans une logique de platoon, semblent amener 
+une piste de réflexion intéressante38. La dronisation de ce segment s’observe plus large-
+ment dans le monde, avec de nombreux programmes existants. L’US Army doit notam-
+ment adapter, sous 18 mois, son système de chargement palettisé (Palletized Load Sys-
+tem) d’un kit d’automatisation39. Cette robotisation de la logistique doit permettre non 
+seulement de limiter les risques liés à la conduite humaine – fatigue par exemple – mais 
+aussi de conduire à une montée en puissance de la fonction logistique sans contrainte de 
+ressources humaines directe. De plus, cette pratique permet de limiter les pertes humaines 
+dans les zones plus dangereuses. L’Ukraine emploie déjà largement ces systèmes, notam-
+ment pour le ravitaillement des unités sur le front40. Ces derniers, guidés par un système 
+de fibre optique, permettent ainsi de transporter jusqu’à 150 kilos de matériel sans mettre 
+en danger une vie humaine lors de l’opération. L’utilisation de véhicules autonomes pour 
+des missions logistiques est aussi au cœur de la transformation de la doctrine de l’US Ma-
+rine Corps, qui déploie son concept d’Expeditionary Advandced Base Operations41.  
+ 
+37 Eleanor Bearsdley, « Ukraine’s DIY drone makers are helping fighters on 
+the front lines », NPR, 12 avril 2025.  
+38 « Army’s autonomous truck convoy a first », Australian Government De-
+fense, 9 juin 2023.  
+39 « Army to Evaluate Prototypes for Autonomous Transport Vehicle », US 
+Army Transportation Corps, 18 janvier 2024 ; Josh Luckenbaugh, « Budget 
+Woes could Delay Fielding the Army Robotic Resupply Vehicle », National 
+Defense Magasine, 25 février 2025.  
+40 Serhiy Horbatenko, « Fiber-Optic Ukrainian Ground Drones Keep Critical 
+Supplies Moving to the Front », RadioFreeEurope, 15 mai 2025.  
+41 Karl Flynn, « Unmanned Vessel for EABO », US Naval Institue, novembre 
+2021.
+
+[Page 18 / 37 | chars: 4750]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.18
+ 
+Cette dronisation de la chaîne logistique pose cependant la question de la nécessité de 
+disposer de spécialistes pour gérer l’automatisation des véhicules et leur réparation. Une 
+distinction peut ici s’opérer entre les drones développés spécifiquement pour ces missions 
+– ou du moins, qui prévoient de pouvoir être adaptés pour ces dernières – comme ceux 
+utilisés en Ukraine, et les véhicules qui reçoivent une amélioration pour les autonomiser. 
+Dans le premier cas, le recrutement ou la formation de spécialistes au sein des unités est 
+nécessaire, tant pour la préparation de la mission que pour la capacité à réagir en cas de 
+panne. Le RETEX ukrainien, et en particulier de la 13ème brigade de la Garde Nationale « Char-
+ter » qui utilise largement les drones, aussi bien aériens que terrestres, souligne l’impor-
+tance de disposer de telles compétences au sein même de l’unité42. L’écosystème d’acqui-
+sition de drones mis en place par l’Ukraine ne permet en effet pas de développer des solu-
+tions satisfaisantes pour les unités, et ces dernières doivent procéder à des adaptations et 
+des tests lors de la réception des systèmes. Sans faire du cas ukrainien une généralité et 
+une règle absolue, les besoins exprimés par la brigade « Charter » sont à prendre en compte 
+dans un programme de massification de la composante dronisée des armées. Ce besoin 
+en spécialistes porte aussi bien sur une capacité à greffer et modifier des éléments de hard-
+ware – compétences qui ne semblent pas différer d’une maintenance classique de système 
+d’arme – que sur la capacité à mettre à jour la partie software des matériels43. C’est cette 
+dernière compétence qui se fait plus rare, et qu’il sera par conséquent difficile d’acquérir 
+pour les armées. 
+La dronisation des armées peut néanmoins avoir un impact positif sur la maintenance, au 
+moins du point de vue des ressources humaines – c’est sans doute le sujet sur lequel la 
+robotisation des armées peut représenter un gain majeur, selon les opérateurs eux-mêmes44. 
+L’automatisation et l’optimisation d’un grand nombre de tâches par l’utilisation de drones 
+sont déjà en cours au sein de la société civile et partiellement des armées. Largement em-
+ployée dans le domaine de la maintenance aérienne, la dronisation de cette fonction a no-
+tamment permis de diminuer les risques pour les techniciens, mais aussi de gagner en 
+temps de disponibilité des aéronefs. Bien que l’exemple ne concerne pas les armées direc-
+tement, un gain majeur a déjà été démontré avec l’utilisation des drones dans le domaine : 
+un impact de foudre sur un avion de ligne engendrait une immobilisation de l’appareil pen-
+dant 8 heures avec 15 techniciens : ce temps a été réduit à 20 minutes pour un seul opéra-
+teur45. De plus, l’utilisation des drones diminue aussi les accidents du travail d’environ 20% 
+dans le secteur aérien46.  
+De plus, l’utilisation de drones pour l’entretien des systèmes permet aussi de structurer et 
+d’utiliser de manière plus efficiente les données récoltées lors des maintenances. L’en-
+semble de ces données permet, à terme, d’alimenter un dataset pouvant servir de base pour 
+le fonctionnement d’une Intelligence Artificielle portant sur la maintenance prédictive des 
+matériels47. Cette pratique permet de réduire les temps d’indisponibilité imprévus de près 
+de 50%, entraînant non seulement une meilleure disponibilité des matériels mais aussi li-
+bérant les ressources humaines, qui sont alors disponibles pour d’autres pannes.  
+Le retour de la guerre de haute intensité comme hypothèse d’engagement probable pour 
+les armées dans le futur proche laisse entendre des opérations logistiques de grande am-
+pleur. De plus, la dispersion des forces observée sur le front, et prévue par le développe-
+ment du programme Scorpion, nécessitera une chaîne logistique plus importante encore 
+ 
+42 Kateryna Suprun, « Soon there will be a lot of people shouting: ‘where are 
+my drones?!’ How the NGU Charter team uses ground robots », Militarnyi, 14 
+février 2025.  
+43 « Staff shortage in drone construction: about challenges and possible so-
+lutions from recruiters », Army Inform, 21 mai 2025.  
+44 « Ukraine is robotising the army. How an army of 15.000 ground drones 
+will replace people at the front », Ukrayinska Pravda, 31 mars 2025.  
+45 « Les drones de Donecle : cost-killer sur le marché de la maintenance aé-
+rienne », Business Herald, 12 juillet 2016.  
+46 « Inspection des avions : comment les drones et l’IA révolutionnent le pro-
+cessus ? », Drone actu, 17 septembre 2024. 
+47 Khrystyna Mykich, Iryna Zavushchak, Andrii Savka, « Predictive Mainte-
+nance for Automotive Vehicle Engines in Military Logistics », 2024.
+
+[Page 19 / 37 | chars: 4673]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.19
+ 
+et un besoin accru en munitions et en carburant d’environ 30% par rapport à la consom-
+mation d’une division actuelle48. La modularité de déploiement induite avec le programme 
+Scorpion va entraîner un besoin constant d’adaptation de la chaîne logistique, qui sera ren-
+due d’autant plus complexe que les unités développeront des besoins d’approvisionne-
+ment spécifique – en munitions, maintenance de matériel ou carburant49. Renforçant en-
+core ce besoin, l’intégration des drones au sein des forces armées est de nature à rajouter 
+un poids supplémentaire. De plus, à l’augmentation globale des besoins il faut ajouter une 
+contrainte supplémentaire, avec un environnement moins permissif sur les 20 derniers ki-
+lomètres, rendant tout mouvement logistique dangereux. Si la mise en place de l’infova-
+lorisation permet de connaître plus précisément les besoins de chacun sur le terrain, il reste 
+une difficulté pour délivrer le matériel nécessaire. C’est aussi en ce sens que la dronisation 
+des armées peut apporter un levier majeur, et représenter un gain important en ressources 
+humaines.  
+Le phénomène de dronisation des armées va engendrer un paradoxe important entre, d’un 
+côté, la volonté de constituer un parc de drones disponibles et prêts à l’emploi en cas de 
+besoin, et d’autre part une obsolescence extrêmement rapide de ce genre de matériels. La 
+guerre en Ukraine met en évidence un cycle d’innovation particulièrement court – 2 à 6 
+semaines selon les déclarations de James Appathurai dans un discours à l’Académie Mili-
+taire Royale du Danemark50. S’il est évident que ce cycle est accéléré par le besoin constant 
+de la partie ukrainienne de développer des solutions face aux capacités russes, il n'en de-
+meure pas moins que le développement d’un stock de drones sur le long terme est sans 
+doute illusoire. La Russie et l’Ukraine se trouvent confrontées à cette problématique, et cela 
+en étant dans une situation de flux tendu sur son stock de drones. En effet, le drone Mavic 3, 
+dont l’usage est particulièrement répandu au sein des deux armées, voit une mise à jour 
+arriver avec le Mavic 4. Cependant, ce changement pourrait engendrer une perte de capa-
+cités sur le moyen-terme, due à un manque de connaissances et de stock de pièces. En 
+effet, le passage sur le nouveau système nécessitera un temps d’adaptation pour les uni-
+tés, qui devront sans doute à nouveau identifier les modifications à faire sur le drone pour 
+le rendre viable dans les opérations. De plus, le stock de pièces détachées obtenues sur les 
+carcasses des drones détruits pourrait se retrouver obsolète, entraînant un retard certain 
+sur les réparations dans le futur51. Une formation continue sur de nouveaux systèmes, tant 
+sur leur utilisation que sur leur besoin en modification, est nécessaire pour l’ensemble des 
+unités fonctionnant avec ces drones.  
+La chaîne logistique de la dronisation ne représente pas qu’un acheminement d’un sys-
+tème prêt à l’emploi, mais d’un ensemble de systèmes, pièces et équipements qui vont 
+permettre d’utiliser le drone à son plein potentiel. Ainsi, l’ensemble des éléments de charge 
+utile, des munitions aux capteurs, vont représenter un poids supplémentaire dans la logis-
+tique, tant la consommation quotidienne semble être élevée pour les unités de drones. 
+Cette utilisation permanente de drones nécessite aussi une capacité à charger les batteries 
+et alimenter en continu les systèmes permettant d’opérer les drones, créant ainsi un be-
+soin de production ou d’alimentation constant en énergie. En environnement contraint, la 
+logistique de la communication s’ajoute aussi, avec un besoin de créer des relais pour le 
+guidage des systèmes télépilotés. Cela induit une réactivité et une adaptabilité aux me-
+sures de brouillage de l’adversaire, et aux besoins ponctuels sur les zones d’opérations. 
+Plus encore, les enjeux de communication sont aujourd’hui limitant pour une armée, qui 
+est contrainte dans ses capacités de déploiement simultané de drones à cause du risque 
+de friendly spoofing. La dronisation des armées entraîne, en quelque sorte, la création 
+ 
+48 Yann Schmidt, « Aérostats et drones, éléments clés d’une logistique plus 
+réactive ? », Revue de tactique générale, n°6, 2022, pp. 333-340.  
+49 Général Guy Hubin, « Perspectives tactiques », Economica 3e édition, 
+2009, p. 85. 
+50 James Appathrai, discours à l’Académie Militaire Royale du Danemark, 
+rapporté par Pascale Davies, « When it comes to defense tech, Europe could 
+learn lessons on speed from Ukraine », Euronews, 22 mars 2025.  
+51 Русское Zazеркалье 2.0, Telegram, 19 mai 2025.
+
+[Page 20 / 37 | chars: 3909]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.20
+ 
+d’îlots qui vont nécessiter une logistique spécifique lourde, tant les systèmes non habités 
+seraient alors au centre d’un grand nombre de fonctions vitales pour les armées.  
+Le déploiement de drones sur la ligne des opérations nécessite, au-delà de leur intégration 
+dans l’architecture des forces, une capacité de réparer et d’entretenir les systèmes sur le 
+terrain. Indépendamment de la logique consommable derrière l’utilisation du drone, le 
+temps de survie étant particulièrement limité, 5 jours en Ukraine, il est nécessaire de pou-
+voir réparer les pannes à chaud. Cette capacité est d’autant plus importante sur des sys-
+tèmes de plus haute valeur, tels que des drones navals embarqués par les bâtiments, des 
+robots logistiques ou encore des drones ISR (Intelligence, surveillance & reconnaissance) 
+et Baba Yaga. Dans le cas des UAV low cost, ou du moins simples de fonctionnement tels 
+que les quadricoptères, l’apprentissage des techniques de maintenance est relativement 
+rapide. Le 17ème Groupement d’Artillerie dispose déjà de la capacité de formation sur ces 
+sujets, formation dispensée en moins d’une semaine52. De ce point de vue, l’intégration de 
+ce type de drones au sein des forces ne devrait pas poser de problème sur le recrutement 
+de personnes qualifiées, mais plutôt sur la capacité à former en interne des « spécialistes ».  
+3. Exploitation ISR 
+La généralisation de l’utilisation des drones et des robots induit une inflation de la quantité 
+d’information recueillie. Que ce soit par une utilisation directe de ces données, ou sur le 
+plus long terme pour le renseignement, la dronisation / robotisation des armées est de na-
+ture à saturer cognitivement les décideurs.  
+Sur cette question, il est évidemment nécessaire d’analyser les systèmes ukrainiens. Le 
+système fondamental est Delta, développé à partir de 2015 et adopté en 2025, qui consti-
+tue en quelque sorte l’épine dorsale de la Situational Awareness des forces ukrainiennes. 
+Concrètement, le logiciel se présente sous la forme d’une carte, avec un certain nombre 
+de filtres tels que l’ordre de bataille ou la situation drone53. Delta est un écosystème plus 
+qu’un logiciel, permettant d’agréger et de fusionner les données de différents types (vidéo, 
+radar, texte…) et de toute origine. Pour alimenter cet écosystème, plusieurs autres logi-
+ciels sont utilisés. Ainsi, Vizha – un logiciel permettant de diffuser en direct des flux vidéo 
+provenant de drones – et la Common Air Picture – permettant de regrouper les données 
+radar – sont, entre autres choses, utilisés pour nourrir Delta54. Le système traiterait ainsi, 
+chaque jour, plus de 10 000 entrées de données manuelles, ainsi qu’une quantité de si-
+gnaux automatisés équivalente. Afin de procéder à ce traitement, les Ukrainiens ont dé-
+veloppé, dans le cadre de Brave1, un système d’intelligence artificielle, Griselda, permet-
+tant – hypothétiquement – de faire apparaître les données sur Delta en 28 secondes55. Une 
+solution mise au point par Palantir est aussi utilisée par l’Ukraine56. Les utilisateurs ont en-
+suite accès aux données selon leur zone d’intérêt. D’autres applications plus spécialisées 
+se basent sur Delta, telles que Krapyva, l’outil de gestion des feux de l’artillerie.  
+ 
+52 Échanges de l’auteur avec les officiers du 17ème groupe d’artillerie, 2025.  
+53 Philippe Gros, Vincent Tourret, Yohann Michel, Guillaume Garnier, « Les 
+enseignements de la guerre Russo-Ukrainienne », Observatoire des Conflits 
+Futurs, novembre 2024, p. 109. 
+54 Oleksandr Yan, « A NATO country wants to purchase the Ukrainian Delta 
+system », Militarnyi, 29 avril 2025.  
+55 « Ukraine has developed a unique AI-based intelligence gathering system », 
+The Odessa Journal, 20 octobre 2023.  
+56 Vera Bergengruen, « How Tech Giants Turned Ukraine into an AI War Lab », 
+TIME, 8 février 2024.
+
+[Page 21 / 37 | chars: 367]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.21
+ 
+Figure 2 –  
+Sources principales de données pour Delta 
+ 
+Source : Kateryna Bondar, « Does Ukraine Already Have Functional CJADC2Technology? », CSIS, décembre 2024. 
+Figure 3 –  
+Schéma de fonctionnement de l'écosystème Delta ukrainien 
+ 
+Source : « Tactical unit combat control system ‘Kropyva’ », Logika LLC.
+
+[Page 22 / 37 | chars: 3062]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.22
+ 
+Tableau 1 –  Systèmes de Situational Awareness développés en Ukraine 
+ 
+Source : Viktor Putrenko, Nataliia Pashynska « Military situation awareness: Ukrainian experience, » ACIG, vol. 3, n° 1, 2024 
+En réalité, l’information collectée doit être traitée à deux niveaux distincts, si ce n’est plus. 
+L’écosystème Delta et les applications autour donnent en effet une certaine immédiateté 
+dans l’accès à l’information, qui pourra être exploitée « telle quelle ». Pour traiter la quan-
+tité impressionnante de données, différents types de réseaux neuronaux sont utilisés : les 
+réseaux neuronaux convolutifs (CNN – Convolutional Neural Network) et les réseaux neu-
+ronaux récurrents (RNN – Recurent Neural Network). L’emploi de ces deux systèmes per-
+met non seulement de détecter des objets, mais aussi de reconnaître des paternes dans 
+l’activité surveillée57. L’équipe de volontaires connue sous le nom d’Avengers a ainsi dû 
+mettre en place un certain nombre de prérequis pour permettre à ces réseaux de fonction-
+ner, le ministère de la Défense ukrainien ne disposant pas des capacités nécessaires. Ainsi, 
+des datasets ont été créés par des volontaires, avec un étiquetage des matériels, pour en-
+traîner des intelligences artificielles sur la détection d’un ensemble d’objets.  
+L’intégration de ce type d’IA dans l’écosystème Delta permet, petit à petit, de diminuer la 
+charge des opérateurs de drones. Ces derniers doivent toujours renseigner manuellement 
+les matériels identifiés, mais bénéficient d’une aide de plus en plus importante. Cepen-
+dant, les ressources étant limitées – notamment sur la puissance de calcul disponible sur 
+les ordinateurs et tablettes des unités – l’utilisation de l’IA semble rester réservée aux vi-
+déos les moins faciles à lire pour un opérateur humain. Il est à noter que, le flux de vidéos 
+des drones pouvant être partagé par Vezha, ce n’est pas nécessairement l’opérateur du 
+drone lui-même qui doit rentrer les données. Dans d’autres domaines, l’IA est aussi parti-
+culièrement efficace pour la détection acoustique, à tel point que des drones équipés de 
+haut-parleurs ont été mis au point pour limiter cette capacité58.  
+S’il parait évident que l’inflation de données récoltées par l’ensemble des capteurs va de-
+mander des capacités humaines plus importantes pour tout trier, il est aujourd’hui difficile 
+de calculer la masse nécessaire pour accomplir cette tâche. Cependant, une comparaison 
+peut être effectuée avec un drone plus traditionnel, le Reaper. Dans l’emploi qui en était 
+fait par l’US Air Force il y a 10 ans, une Combat Air Patrol comprenant quatre appareils et 
+les équipements au sol mobilisait 171 personnes. Parmi cette équipe, 66 étaient chargées 
+de traiter les informations recueillies par les drones et 13 opérateurs de capteurs, soit au 
+ 
+57 Kateryna Bondar, « Ukraine’s Future Vision and Current Capabilities for 
+Waging AI-Enabled Autonomous Warfare », CSIS, 6 mars 2025. 
+58 Про зв'язок від Сергія Флеш, Telegram, 20 mai 2025.
+
+[Page 23 / 37 | chars: 4282]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.23
+ 
+total près d’un tiers des effectifs dédiés à la collecte et à la classification des informations59. 
+Sans faire une transposition de ces chiffres, qui datent d’il y a plus de 10 ans, sur l’état ac-
+tuel du traitement de données dans les opérations, cela permet de mettre en perspective 
+la masse humaine nécessaire.  
+De plus, l’expérience ukrainienne a montré qu’il est nécessaire de disposer de capacités de 
+création et de gestion de bases de données, sans quoi le développement des techniques 
+d’IA utilisées est impossible. Le besoin constant d’entraîner les modèles et l’arrivée poten-
+tielle de nouveaux matériels sur le terrain demandent une capacité permanente à mettre 
+à jour ces database. Cette nécessité de recrutement doit cependant faire face à une pro-
+blématique de concurrence importante avec le secteur civil, d’autant que le marché est 
+particulièrement tendu pour ce domaine – les offres des « métiers de la data » ont aug-
+menté de près de 30% en 202360.  
+4. Pilotage 
+La multiplication des systèmes non habités au sein des forces met l’accent sur la place des 
+pilotes au sein de celles-ci. L’armée ukrainienne est un exemple évident de cette impor-
+tance donnée au pilote. Il est difficile d’avoir des chiffres actualisés bien consolidés mais 
+dès février 2024, l’Ukraine avait formé 20 000 pilotes de drones61. Le chiffre est certaine-
+ment plus élevé maintenant mais il faudrait lui retrancher les pertes subies pour avoir une 
+idée des effectifs de pilotes opérationnels. Ces derniers constituent de toute façon un 
+pourcentage non négligeable des forces ukrainiennes déployées, une donnée aussi non 
+communiquée, mais qui pourrait être de l’ordre de 200 à 300 000 hommes. De fait, les be-
+soins excèdent ces volumes puisque les forces françaises déployées au sein de l’EUMAM 
+contribuent aussi à cette formation de pilotes. Quoi qu’il en soit, pour atteindre ce palier, 
+différents acteurs en Ukraine ont mis en place un écosystème de formation, en ouvrant 
+notamment plus de 30 centres spécialisés62. Un MOOC de formation au pilotage de drones 
+a aussi été mis en ligne par la plateforme Prometheus, sur lequel plus de 20 000 personnes 
+se sont déjà inscrites63. La formation de base disponible dans la majorité des écoles repré-
+sente un temps de formation de 4 à 5 jours tout au plus, qui sera ensuite complété par une 
+formation spécifique de trois à quatre semaines, avec un taux de réussite avoisinant les 
+70%64. Cela reste un temps relativement court, qui ne concerne qu’une formation de base 
+pour des systèmes low-cost. La tolérance à l’erreur de pilotage sur le terrain est logique-
+ment plus grande que dans le cadre de l’emploi d’un drone à plusieurs millions de dollars, 
+comme un Reaper. Pour ces derniers, l’US Air Force (USAF) a mis en place une formation 
+de 83 jours, avec quelques variations en fonction du système piloté65. Cependant, dans les 
+deux cas, les compétences nécessaires au pilotage demandent une expérience importante. 
+S’il est plus facile de faire voler un drone de petite taille qu’un Reaper ou un Eurodrone, ces 
+systèmes sont aussi plus vulnérables aux changements d’environnement (vent par exemple) 
+et moins stables, demandant ainsi des compétences particulièrement importantes. Les pi-
+lotes ukrainiens les plus chevronnés atteignent un taux de succès d’environ 50% sur leurs 
+sorties.  
+ 
+59 Lt Gen Dave Deptula, « The Way Ahead: Remotely Piloted Aircraft in the 
+United States Air Force », briefing.  
+60 Antoine Grignola, « Quel est le marché du recrutement dans le secteur de 
+la Data en 2024 ? », DataBird, 3 mars 2025. 
+61 « Скільки цілей уразили роти ударних дронів з червня 2023 року », De-
+fense Express, 08 лютого 2024. 
+62 « The Ministry of Defense has certified over 30 schools for drone opera-
+tors », Ministry of Defense of Ukraine, 21 novembre 2024.  
+63 Le MOOC de formation est disponible ici : https://prometheus.org.ua/pro-
+metheus-free/taktyka-kopteriv/  
+64 Stacie Pettyjohn, « Evolution not Revolution », Center for New American 
+Security, 8 février 2024.  
+65 « Unmmaned Aerial Systems: Air Force Should Take Additionnal Steps to 
+Improve Aircrew Staffing and Support », United States Government Account-
+ability Office, juin 2020.
+
+[Page 24 / 37 | chars: 4682]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.24
+ 
+Ce taux de succès pourrait se voir amélioré par l’introduction d’IA à différents stades du 
+vol. La partie la plus évidente concerne l’approche finale, le dernier mile. Les expériences 
+actuelles menées en Ukraine tendent vers une automatisation de l’approche finale, une 
+fois la cible sélectionnée par l’opérateur. Une fois cette cible identifiée, le pilote peut don-
+ner le contrôle du drone à l’IA embarquée, qui fonctionnera sur deux algorithmes : l’un 
+pour traquer la cible, l’autre pour piloter le drone66. De plus, un développement vers un 
+bombardement automatique est en cours : en donnant une cible précise au drone, celui-ci 
+pourrait se rendre seul sur zone – en utilisant des algorithmes d’odométrie visuelle combi-
+née à une carte intégrée – et lâcher une charge explosive avant de revenir sur zone. D’autres 
+solutions d’IA permettent de calculer la position du drone en environnement GNSS (global 
+navigation satellite system) brouillé, offrant ainsi une capacité à transmettre des coordon-
+nées précises à des systèmes d’artillerie par exemple. Shield AI teste actuellement cette 
+solution en Ukraine avec le V-Bat relié à des batteries HIMARS67. L’application de ces mé-
+thodes permettrait de passer à un taux de réussite des sorties drones d’environ 70%68.  
+Le développement de ces techniques d’IA devrait, à terme, non pas remplacer totalement 
+le pilote mais baisser les qualifications requises – permettant une diffusion plus importante 
+encore de cette dronisation. De plus, sur le long terme, les compétences demandées pour 
+être opérateur de drone devraient naturellement rencontrer une génération entraînée in-
+directement pour ça. En effet, la pratique courante des jeux-vidéos semble faire des jeunes 
+générations de meilleurs pilotes de drones, sans doute en raison d’une mémoire muscu-
+laire particulièrement développée et spécifique aux besoins d’un opérateur69.  
+En réalité, sans même être entrées dans ce processus de dronisation massive, les armées 
+occidentales doivent faire face à des problématiques de recrutement de personnel, et no-
+tamment de pilotes. Ainsi, l’USAF affichait un manque de pilotes de l’ordre de 20% des 
+effectifs prévus, eux-mêmes inférieurs aux besoins réels compte tenu des objectifs d’inté-
+gration des systèmes téléopérés au sein de l’institution70. Cette carence de pilotes est d’au-
+tant plus importante qu’il manque aussi les instructeurs pour les former. De plus, il peut 
+apparaître difficile de retenir les pilotes de drones formés. C’est ce qu’enseigne la crise des 
+équipages de drones au sein de l’USAF avec un taux d’attrition estimé à 30%71. Dans ce cas 
+précis, deux phénomènes sont à prendre en compte : l’usure psychologique des pilotes de 
+drones qui sont en permanence « déployés » et sans rupture réelle entre les opérations et 
+la vie quotidienne ; et une concurrence de plus en plus forte avec le secteur civil. Ce second 
+point est particulièrement important, tant la dronisation de la société civile s’accélère et le 
+besoin de pilotes n’est pas aujourd’hui rempli. Un manque de pilotes disponibles s’observe 
+par exemple en Chine, où plus d’un million de poste sont à pourvoir72.  
+En dronisant les armées, il faut aussi prendre en compte les contraintes auxquelles les pi-
+lotes de drones sont confrontés. En effet, les études démontrent que ces derniers sont 
+particulièrement exposés aux problématiques de fatigue et aux traumatismes liés à leur 
+mission. En effet, sur un échantillon de pilotes de drones Reaper et global Hawk, près de la 
+moitié étaient atteints de problèmes psychologiques liés à leur métier, influant ainsi sur 
+ 
+66 https://www.csis.org/analysis/ukraines-future-vision-and-current-capabil-
+ities-waging-ai-enabled-autonomous-warfare#h2-ai-in-autonomous-navi-
+gation  
+67 « Drones américains V-Bat en Ukraine », Top War, 7 novembre 2024.  
+68 CSIS – https://www.csis.org/analysis/ukraines-future-vision-and-current-
+capabilities-waging-ai-enabled-autonomous-warfare#h2-ai-in-autonomous-
+navigation  
+69 Ariane Chemin, « In Ukraine, games make de best drone pilots », Le 
+Monde, 4 avril 2025.  
+70 Major Kiel M. Martin, Daniel J. Richmond, Captain John G. Swisher, « Sus-
+taining the Drone Entreprise: How Manpower Analysis Engendered Policy 
+Reform in the United States Air Force », United States Air Force Academy, 
+mars 2017.  
+71 « Unmmaned Aerial Systems: Air Force Should Take Additionnal Steps to 
+Improve Aircrew Staffing and Support », United States Government Account-
+ability Office, juin 2020.  
+72« China focus: Drone pilots emerge as next sought-after profession in 
+China », Xinhua, 22 janvier 2025.
+
+[Page 25 / 37 | chars: 1649]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.25
+ 
+leurs performances73. Les pilotes de drones seraient ainsi plus sujets à ce genre de pro-
+blèmes que les pilotes d’aéronefs habités74. Sur le long terme, il est nécessaire de prendre 
+en compte ce genre de problématiques dans la gestion des ressources humaines. Plusieurs 
+inconnues demeurent cependant sur le sujet. Premièrement, le contact visuel sur les dom-
+mages infligés n’a jamais été aussi important et il est difficile de savoir exactement quelles 
+seront les conséquences de cette multiplication des images. Deuxièmement, les études 
+menées sur les troubles psychologiques des pilotes de drones concernaient des opérateurs 
+éloignés de la zone des opérations, dans une armée privilégiant les opérations distribuées 
+impliquant le non-déploiement des équipages (à la différence de l’US Army ou de nos Ar-
+mées par exemple). Ces équipages ne disposaient donc pas de « sas » de décompression 
+au sein de l’unité, pourtant nécessaire à l’équilibre sur le long terme. Enfin, l’utilisation 
+massive de drones FPV va sans doute entraîner d’autres conséquences psychologiques, 
+bien qu’il soit aujourd’hui impossible de les qualifier.  
+ 
+ 
+ 
+73 Wayne Chapelle, Tanya Goodman, Laura Reardon et Lilian Prince, « Com-
+bat and operational risk factors for post-traumatic stress disorder symptom 
+criteria among United States air force remotely piloted aircraft ‘Drone’ warf-
+ighters », Journal of Anxiety Disorder, vol. 62, mars 2019.  
+74 Jamal M. Campbell, « Psychological effects on UAV operators and pro-
+posed mitigation strategies to combat PTSD », Naval Postgraduate School, 
+juin 2021.
+
+[Page 26 / 37 | chars: 3516]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.26
+ 
+Partie 3 – Conclusions et recommandations 
+ 
+1. Une intégration globale de cette dronisation 
+Deux grandes tendances, non nécessairement exclusives, semblent se dégager quant à 
+l’intégration des drones au sein des forces armées. La première – et sans doute la plus ré-
+pandue – est la généralisation. Elle consiste à diffuser l’emploi du drone au sein des forces, 
+à créer des unités au sein des architectures de force traditionnelles. La seconde consiste à 
+l’inverse à rassembler les unités de drones au sein d’organisations spécialisées (armées, 
+armes, forces, etc.), qu’elles soient chargées de tâches organiques ou opérationnelles. 
+La première approche est privilégiée par exemple par le général Randy George, chef d’état-
+major de l’US Army. Ce dernier a d’ailleurs exprimé son opposition après la résolution 8070 
+du Congrès, qui prévoyait la possibilité de créer une arme des drones au sein de l’Army en 
+mai dernier75... De fait, l’Army, déjà engagée dans la modernisation et l’expansion du vo-
+lume de système de drones, connaît depuis 2024 une nouvelle inflexion influencée par les 
+enseignements de la guerre russo-ukrainienne. Dans le cadre de la « transformation au 
+contact », un cycle de transformation de 18-24 mois mené directement en unité pour plus 
+de flexibilité, 10 divisions devraient mettre en œuvre chacune environ 1 000 drones de nou-
+velle génération, y compris des OWA (one-way attack) FPV (first personn view). Ces drones 
+doivent être déployés tant par les compagnies de reconnaissance multifonction, multi-mi-
+lieu (unmaned aerial systems (UAS) et robots terrestres) de leurs brigades que par des sec-
+tions au sein même des bataillons de combat. L’Army envisage des sections à 12 drones 
+pour 7 opérateurs. Trois brigades testent actuellement les TTP et organisations néces-
+saires. Les opérateurs et officiers de supervision des drones tactiques Shadow, retirés du 
+service, vont devenir respectivement opérateurs des nouveaux UAS et « intégrateurs » du 
+cycle de vie de ces drones dans l’unité76. C’est le centre de formation aux UAS de l’Army 
+Aviation qui reste responsable de la formation de l’ensemble de ces personnels77. De plus, 
+l’US Army a fait appel à des contractors ayant travaillé avec l’armée ukrainienne pour bé-
+néficier de leur retour d’expérience sur l’intégration de ces systèmes.  
+De son côté, l’armée ukrainienne met en place un système hybride, combinant générali-
+sation et spécialisation. Elle a ainsi poursuivi en premier lieu une intégration généralisée 
+des drones de manière plus officielle. Ainsi, l’ensemble des commandants ont l’obligation 
+d’inclure de telles unités au sein de leur bataillon. Comme cela a déjà été mentionné, la 
+situation sur le front en Ukraine est telle qu’environ 60% des effectifs pourraient être utili-
+sés pour l’ensemble de la chaîne fonctionnelle des drones. Au bout de cette chaîne, pour 
+la fonction pilotage, chaque brigade compterait une vingtaine d’équipes de drones, com-
+posées de 2 à 4 hommes comprenant un pilote de drone, un opérateur et un sapeur.  
+ 
+ 
+75 Jon Harper, « Army chief of staff: We don’t’ need a drone branch », 
+Denfensescoop, 21 mai 2024.  
+76 MG Michael C. McCurry, BG Phillip C. Baker, and BG David C. Phillips, 
+« Continuous Transformation: Transforming in Contact with Future Un-
+manned Aircraft Systems », US Army, October 8, 2024. 
+77 Sam Skove, « How many drones does the Army need? A lot more », De-
+fenseOne, October 11, 2024.
+
+[Page 27 / 37 | chars: 3082]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.27
+ 
+Figure 4 –  
+Intégration d'unités dronisées dans l'Army (envisagé en 2012) 
+ 
+Source : M. Datsenko et al. « Définition et justification des tâches drones opérationnels tactiques et tactiques des com-
+plexes aéronautiques dans l’intérêt des forces terrestres », Systèmes d’armement et équipements militaires, n° 2, Vol. 30 
+(2012) dans Vincent Tourret, « Drones at War: The Russian and Ukrainian Confrontation », Vortex, n° 7, janvier 2025.  
+En second lieu, l’Ukraine a créé une nouvelle armée en 2024, la Unmanned System Force. 
+Celle-ci est armée par 5 000 hommes78. L’objectif derrière la création de cette arme semble 
+être de diffuser et de systématiser l’expérience gagnée sur le terrain, en devenant proba-
+blement aussi responsable de la génération et du maintien des ressources. L’intégration 
+de cette nouvelle armée est la reconnaissance d’un besoin d’organisation plus large. De-
+puis le début de l’année 2025, cette armée dispose de deux centres de recrutement spéci-
+fiques. En plus de cette armée, l’Ukraine a créé une vingtaine de corps de drones, l’un d’eux 
+appartenant à la Garde Nationale en se basant sur l’expérience acquise par la 13ème brigade 
+« Charter ». Cette dernière est notamment reconnue pour expérimenter avec les drones 
+qu’elle perçoit, en ayant notamment mené un assaut « 100% dronisé » à la fin de l’année 
+2024. La création d’un corps d’armée suivant ce modèle d’innovation est, en ce sens, par-
+ticulièrement intéressant dans le cadre de l’intégration de la dronisation. Il semble en effet 
+que l’un des objectifs principaux derrière ces transformations est de mettre en place un 
+écosystème d’innovation plus large et de diffuser cette pratique.  
+La Russie devrait mettre en place, d’ici la fin de l’année, une nouvelle branche dans son 
+Armée de Terre, les « troupes des systèmes non habités »79. À terme, ce devrait être envi-
+ron 210 000 hommes répartis en 277 unités qui pourraient composer cette nouvelle force80. 
+Un premier pas dans cette direction a déjà été effectué, avec la création du « 7ème régiment 
+séparé de reconnaissance et de frappe dronisé » (7th Separate Unmanned Systems Recon-
+naissance Strike Regiment), comptant déjà 41 unités de frappe et 61 de reconnaissance81.  
+Ces tendances à l’intégration ne se font cependant pas sans coût matériel, financier et hu-
+main. Sans en être directement la cause, la dronisation des armées est, par exemple, en 
+partie liée à l’arrêt du programme FARA (Future Attack Reconnaissance Aircraft) en 2024. 
+Une analyse de la situation en Ukraine a mis en avant une capacité à remplir les missions 
+ 
+78 « Military Balance 2025 », IISS.  
+79 Dmytro Shumlianskyi, « Russians Complete Formation of First AUV regi-
+ment, Presents it at May 9 Parade », Militarnyi, 11 mai 2025.  
+80 Tim Zadorozhnyy, « Russia to recruit 210,000 personnel for drone forces 
+by 2030, Syrskyi says », The Kyiv Independent, 6 février 2025.  
+81 « Russian offensive campaign assessment, January 28, 2025 », Institute for 
+the Study of War, 28 janvier 2025.
+
+[Page 28 / 37 | chars: 3910]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.28
+ 
+allouées au FARA par un mix de drones et de capacités ISR d’autres milieux. Le FARA pou-
+vant ainsi être remplacé, le maintien du programme ne se justifiait plus, d’autant que la 
+poursuite de ce dernier aurait entraîné l’arrêt de production des Blackhawk et Chinook, et 
+potentiellement une perte des capacités industrielles du secteur82. De plus, l’utilisation de 
+drones dans les armées entraîne parfois un surcoût humain pour des capacités finales si-
+milaires. À titre d’exemple, la différence de besoin humains entre une compagnie d’héli-
+coptères Apache et une compagnie de drone Grey Eagle serait en effet d’un facteur 
+quatre83. Dans une période particulièrement difficile sur le recrutement pour les armées, 
+ce passage à des systèmes non habités ne représente pas nécessairement un gain en res-
+sources humaines.  
+L’intégration des drones au sein des marines doit entraîner, là aussi, deux distinctions 
+entre la dronisation depuis la terre et la dronisation embarquée. Dans le premier cas, l’im-
+pact de la dronisation sur l’organisation des marines ne diffère pas vraiment par rapport 
+aux autres armées. Là aussi, nous observons la création d’unités de drones spécialisés, 
+comme en Russie. Le Kremlin a en effet lancé la création de régiments de drones, cinq au 
+total – probablement un par flotte russe84. Dans le second cas, l’embarquement des drones 
+est plus complexe d’un point de vue des ressources humaines. Il faut en effet déterminer 
+le bon rapport entre le nombre de drones, la taille des équipes nécessaires à leur fonction-
+nement – de la planification de la mission à son exécution – et appliquer cela à un environ-
+nement contraint dans l’espace disponible. Bien que cela reste encore théorique, des offi-
+ciers de l’US Navy ont mené des études précises sur l’embarquement d’UUV sur les sous-
+marins. Ces études ont permis de mettre en évidence un modèle d’efficience, avec un ratio 
+nombre de drones/nombre d’équipage optimisé pour couvrir le plus de terrain possible 
+avec le taux d’utilisation des drones le plus important possible. Il apparaît alors que le sys-
+tème le plus performant serait de disposer d’un nombre réduit de drones et d’un nombre 
+d’équipes équivalent, voir supérieur – dans le cas de l’étude, le cas le plus rentable est 3 
+drones pour 4 équipes85. Cela représente un nombre d’équipes conséquent, d’autant plus 
+que pour ce cas d’étude il s’agissait de sous-marins.  
+L’intégration d’équipages au sein d’une marine pour assurer la transition vers cette droni-
+sation des armées nécessite de se pencher sur un autre aspect : la composition de ces 
+équipes de drones. Deux cas de figure sont possibles : former une partie de l’équipage pour 
+ces missions, ce qui inclut aussi de recruter en fonction de compétences particulières, ou 
+bien créer des unités spécialisées, qui seront détachées sur les bâtiments. Chaque modèle 
+possède ses intérêts, que ce soit sur l’intégration des équipes dans la culture du bâtiment 
+ou sur la capacité à former continuellement ces équipes. De plus, comme pour l’ensemble 
+des systèmes non habités, le besoin humain dépendra fortement de la place de ce dernier 
+dans la boucle de décision : dans la boucle, au-dessus ou en dehors. 
+ 
+82 Philippe Gros, « Le Future Vertical Lift de l’Us Army : l’aérocombat améri-
+cain de prochaine génération », Défense & Industrie, 9 décembre 2024.  
+83 Major General Michael McCurry dans Sydney J. Freedberg Jr, « ’Unmanned’ 
+drones take too many humans to operate, says top Army aviator », Breaking 
+Defense, 27 janvier 2023.  
+84 Roman Kretsul, Bogdan Stepovoy, « There will be a regiment: the Navy is 
+creating naval units of unmanned systems », IZ, 13 mai 2025.  
+85 LCDR James Landreth, Lt Andrew Pfau, « Forging the Apex Predator: Un-
+manned Systems and SSN(X) », Center for International Maritime Security, 7 
+décembre 2021.
+
+[Page 29 / 37 | chars: 2810]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.29
+ 
+Figure 5 –  
+Boucle Homme-Machine en fonction de la mission 
+ 
+Source : LCDR James Landreth, Lt Andrew Pfau, « Manning the Unmanned Systems of SSN(X) », Center for International 
+Maritime Security, 16 mars 2022.  
+La dronisation/robotisation des Armées va entraîner un certain nombre de changement 
+sur les ressources humaines disponibles, correspondant au degré de dronisation recher-
+ché. La généralisation de ces systèmes dans les forces armées et la mise en place de l’éco-
+système global autour semblent nécessaires à une remassification du format des Armées 
+actuelles. Sans devenir une arme absolue, le drone s’impose dans tous les segments comme 
+un outil modulable particulièrement adapté au retour de la guerre de haute intensité. Ce 
+phénomène de dronisation va imposer un coût en ressources humaines au modèle actuel 
+de fonctionnement des armées, en demandant une certaine adaptation pour mieux inté-
+grer les drones au sein des forces. Ce coût en ressources humaines va concerner les unités 
+elles-mêmes, qui devront être formées à l’utilisation de ces systèmes, mais aussi à la ma-
+nière de s’en protéger.  
+Ce phénomène de dronisation, pour être pleinement maîtrisé et intégré, nécessitera de 
+développer les ressources nécessaires au sein des armées. Il sera nécessaire de former des 
+pilotes, aussi bien pour des systèmes évoluant à très basse altitude que pour des drones 
+de longue portée configurés en one way attack. Des opérateurs devront aussi être formés 
+pour les robots terrestres, tout autant que pour les drones navals. Ces recrutements et for-
+mations s’ajoutent, bien évidemment, aux autres secteurs qui devront suivre la même tra-
+jectoire. De plus, le poids le plus important de cette dronisation des armées résidera dans 
+la capacité à traiter l’ensemble des informations recueillies à chaque minute. Cette droni-
+sation des armées créera un besoin majeur en analystes, qui devront traiter les données à 
+deux niveaux : dans l’immédiateté et sur le temps long pour constituer du renseignement.  
+Un environnement global doit être mis en place pour cette dronisation des armées, qu’elle 
+soit partielle ou totale. Cela nécessitera, pour les armées, de se doter des compétences 
+requises pour gérer les flux de données, leur stockage et leur bonne utilisation. Comme 
+cela se voit en Ukraine, une accélération de la chaîne de production est nécessaire, mais 
+aussi l’acquisition de capacités de modification des systèmes. Plus qu’une longue chaîne 
+logistique, il apparaît nécessaire de développer cette aptitude au sein même des unités, 
+qui devront adapter leur matériel aux besoins d’une situation locale. Il s’agit de mettre en 
+place cette culture largement au sein des armées, mais aussi de dispenser les formations
+
+[Page 30 / 37 | chars: 4275]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.30
+ 
+nécessaires pour comprendre et modifier pleinement l’ensemble des drones et des robots 
+– d’un niveau technologique relativement faible – dont seront équipées les unités. Pour 
+cela, il sera nécessaire que l’architecture de l’ensemble des systèmes soit ouverte.  
+Cependant, dans le format actuel des armées et compte-tenu de la période actuelle et des 
+difficultés de recrutement, cette montée en puissance de la dronisation semble difficile à 
+réaliser. Certains métiers critiques à la mise en place de cet écosystème sont déjà en ten-
+sion dans le secteur civil, avec une demande croissante. La dronisation des armées se ba-
+sant sur un phénomène plus large touchant l’ensemble de la société, la concurrence pour 
+le recrutement de certains spécialistes – de la data par exemple – va s’accentuer. Conser-
+ver l’ensemble des capacités actuelles et greffer dessus une dronisation ne semble, au-
+jourd’hui, pas rationnel compte-tenu du poids réel de cette dronisation sur la demande en 
+ressources humaines. Ce constat est évidemment à nuancer en fonction de la masse re-
+cherchée par cette dronisation, mais un « taux de dronisation » proche de ce qui se fait sur 
+le front ukrainien paraît irréaliste sur le court-terme. 
+Les contraintes ne permettant pas de mettre en place à brève échéance une dronisation 
+massive de l’armée, il peut être plus intéressant de concentrer les efforts sur la création de 
+l’écosystème nécessaire à l’intégration de ce phénomène. Il est nécessaire de mettre en 
+place les éléments d’infovalorisation et de numérisation, à l’instar d’un Delta, ce qui de-
+mandera déjà l’allocation de ressources humaines importantes, avant même de penser à 
+droniser les forces armées. Il est nécessaire de généraliser et de pousser plus loin les sys-
+tèmes Atlas et Scorpion. La mise en place d’un écosystème global nécessitera ainsi un re-
+crutement important d’analystes et de personnel qualifié pour gérer les données en in-
+terne – ou de trouver cette compétence en externe. La France a une chance certaine sur la 
+question de la dronisation des armées : celle de passer en second et de bénéficier de l’ex-
+périence et des erreurs précédentes. La leçon principale est que l’écosystème autour du 
+drone est plus important que l’objet en lui-même.  
+D’un point de vue logistique et de maintien de compétences dans le temps, la constitution 
+d’un stock par des commandes massives de drones n’est sans doute pas non plus à con-
+seiller. En effet, les évolutions technologiques sont telles que, rapidement, un stock de 
+drones et de robots se trouverait obsolète et ce qui entraînerait un retard sur le terrain. Un 
+mode d’acquisition inspiré des pratiques de la Marine nationale au début de l’aéronavale 
+pourrait être intéressant : des commandes plus petites, mais régulières dans le temps pour 
+rester constamment à la pointe. En plus de constituer un stock sur le long terme, cela as-
+surerait une formation en continue sur de nouveaux systèmes, favorisant la capacité à in-
+tégrer des innovations sur le long terme. En parallèle, permettre une expérimentation au 
+sein des unités sur les systèmes non habités permettrait non seulement de diffuser la cul-
+ture du drone mais également de développer les filières industrielles pour appuyer cette 
+dronisation des armées. Une capacité de production en interne pourrait aussi être béné-
+fique, et les compétences nécessaires à la mise en place de cette dernière pourraient être 
+acquises par les armées, d’autant que le montage de drones n’est pas un exercice particu-
+lièrement complexe.  
+La réserve peut représenter un levier intéressant pour la dronisation des armées. En effet, 
+la concurrence avec le secteur privé sur certaines spécialités nécessaires à cette dronisa-
+tion pourrait être partiellement contournée par la mise en place d’un réseau de réservistes 
+spécifiques au développement des éléments nécessaires. De plus, sur le long terme, la 
+création d’équipes de dronistes réservistes pourrait être intéressante et représenter, là 
+aussi, un levier d’acquisition de masse sur une spécialité spécifique. Le temps de formation 
+nécessaire pour l’entraînement des pilotes de drones est par ailleurs compatible avec un 
+poste de réserviste.
+
+[Page 31 / 37 | chars: 3976]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.31
+ 
+De plus, une réflexion doit être engagée sur le recrutement et la formation d’une quantité 
+importante de pilotes. Sur le long terme, avec les développements de l’intelligence artifi-
+cielle, le besoin en pilotes de drones – hors drone de haute technologie – pourrait être di-
+minué et se trouver déporté sur un besoin en opérateurs pour la gestion de la mission et 
+des systèmes du drone. L’aide au pilotage devient en effet de plus en plus performante, 
+mais il est difficile d’anticiper ses évolutions sur plusieurs années, d’autant que les progrès 
+semblent stagner un peu en Ukraine.  
+Enfin, sur la question du recrutement, il peut être intéressant de développer des filières de 
+recrutement spécifiques pour les besoins de la dronisation. Similairement à ce qu’il se fait 
+dans le domaine du cyber, des bourses pourraient être utilisées pour financer les études 
+de futures recrues dans les domaines de la gestion de donnée et du développement de 
+code par exemple. Cela assurerait au moins un recrutement régulier dans ces domaines, 
+et limiterait la concurrence sur le marché de l’entrée au travail.  
+2. Recommandations par Armées 
+2.1 Armée de l’Air et de l’Espace  
+La dronisation de l’Armée de l’Air et de l’Espace passe notamment par l’acquisition et le 
+développement d’une part de drones récupérables, d’autre part de drones consommables, 
+principalement des effecteurs. Cela posera tout d’abord une problématique évidente sur 
+la gestion des personnels embarqués vis-à-vis d’une intégration croissante des drones au 
+sein de l’architecture aérienne.  
+Les drones aérolargués constituent en ce sens une question importante. L’ajout de sys-
+tèmes non habités dans l’architecture d’un SCAF, par exemple, interroge sur la gestion de 
+ces derniers : le pilote de chasse doit-il devenir, en même temps, pilote de drone – une fois 
+les systèmes emportés à bord du Next Generation Fighter suffisamment autonomes pour 
+le permettre ? Là encore, les évolutions des systèmes nous le diront, mais cette intégration 
+des drones pourrait ne pas pouvoir attendre jusque-là. Il faut ainsi penser cette intégration 
+avec une charge cognitive du pilote de chasse similaire à celle qu’il connait actuellement, 
+voire renforcée avec un plus grand nombre de données à traiter. Cette intégration des 
+drones pourrait alors demander un autre dispositif : l’intégration d’un deuxième homme à 
+bord, un opérateur pour ces systèmes non habités. Cela nécessiterait, bien évidemment, 
+un nombre croissant de chasseurs biplaces. Un autre dispositif possible serait la modifica-
+tion d'aéronefs pour en faire des plateformes aériennes permettant de contrôler les drones 
+et de gérer l’ensemble des capteurs. Dans les deux cas, cela signifierait un recrutement 
+d’opérateurs supplémentaires et des formations spécifiques pour le personnel naviguant.  
+Plus largement, l’intégration de ces systèmes – et d’autres types de drones – au sein de l’Ar-
+mée de l’Air et de l’Espace demandera une adaptation de la formation des « pilotes » en 
+fonction du type de systèmes utilisés. Les différentes capacités des drones, notamment 
+leur autonomie, mais aussi la valeur même de l’appareil sur les plans opérationnel et finan-
+cier, devront entraîner une réflexion sur le besoin de pilotes et non d’opérateurs, pour cer-
+tains systèmes. L’intervention d’un pilote est évidemment nécessaire pour les grands 
+drones récupérables dans une économie sans doute proche de ce qui se pratique déjà avec 
+les Reapers. Un drone consommable (OWA typiquement), tel qu’il existe aujourd’hui, ne 
+nécessite l’intervention d’un pilote que pour une partie réduite du vol, les derniers kilo-
+mètres. L’intervention d’un pilote est nécessaire pour ces cas d’usage, notamment pour 
+des questions de gestion de l’environnement, aussi bien naturel que des défenses adverses, 
+et de trajectoire d’approche. D’autres systèmes, avec une autonomie plus importante dans
+
+[Page 32 / 37 | chars: 4066]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.32
+ 
+la phase de vol, peuvent cependant être utilisés par un opérateur – nécessitant ainsi un 
+temps de formation moins important, et entraînant un coût en ressources humaines ré-
+duit. Il n’existe pas de réponse universelle au débat entre le pilote et l’opérateur de drone, 
+mais un besoin constant d’adaptation selon le type de système employé et l’évolution des 
+capacités de ces derniers. Les évolutions technologiques et les progrès de l’Intelligence 
+Artificielle laissent cependant penser que le besoin en pilotes devrait diminuer dans le fu-
+tur – plus ou moins lointain – et induire un coût de moins en moins important.  
+Là aussi, la question de l’intégration des drones au sein des unités ou de la création de 
+nouvelles unités spécialisées se pose. Placer les remote carrier au sein des escadrons de 
+chasse offrirait évidemment l’avantage de former les unités au « Manned-Unmanned Tea-
+ming » et à la logique du Loyal Wingman mais cela peut présenter l’inconvénient de multi-
+plier les tâches, pour la maintenance et la mise en œuvre des drones notamment, ce qui 
+pourrait représenter un poids important. Une remassification des armées par la dronisa-
+tion pourrait alors passer par la création d’unités spécialisées, mettant justement en œuvre 
+ces systèmes intégrés à l’architecture d’un SCAF. Au-delà d’un allègement de la logistique 
+pour les unités de chasse, cette logique permettrait de faciliter l’intégration de ces drones 
+au sein d’un écosystème global. De telles unités spécialisées pourraient aussi éventuelle-
+ment faciliter la formation à des missions requérant principalement des drones employés 
+en masse.  
+Le développement des tests de largage et d’utilisation de ces remote carriers par des pla-
+teformes plus larges, l’A400M par exemple, est une piste de déploiement potentiel de ces 
+drones, dont les opérateurs pourraient être du personnel naviguant à bord de l’aéronef 
+accompagnant. Au-delà de toute considération opérationnelle, l’intégration nécessaire de 
+ces systèmes au sein des forces aériennes demandera le renforcement des filières de for-
+mation des opérateurs de drones.  
+2.2 Armée de Terre 
+Ce phénomène d’acquisition de masse par les drones et les robots devrait tout autant 
+toucher l’Armée de Terre. Pour elle aussi, une des questions clés réside dans la spéciali-
+sation voire la création d’une arme spécifique du drone ou la généralisation de la droni-
+sation au sein des unités interarmes. Les deux ont leurs avantages et leurs inconvénients :  
+̶ la première permettrait de bien homogénéiser l’ensemble du spectre DORESE, al-
+lant des modalités d’emploi, à la gestion des parcs en passant par la formation et 
+l’entraînement mais elle présente l’inconvénient d’une intégration plus limitée de 
+ces systèmes dans le combat interarmes ; 
+̶ La généralisation permet cette intégration à des échelons plus bas correspondant 
+bien aux cadres d’emploi de ces systèmes mais l’exemple ukrainien montre qu’elle 
+n’est peut-être pas suffisante pour gérer un passage à l’échelle massive.  
+On peut donc avancer prudemment que la réponse pourrait résider dans un modèle hy-
+bride, combinant les deux approches : l’approche généraliste pour certaines catégories de 
+drones (en particulier les OWA) diffusés au sein des unités interarmes et un ensemble de 
+structures spécialisées en charge du développement des TTP, de la formation voire d’uni-
+tés opérationnelles spécifiques, prolongeant et dédoublant le 61e régiment d'artillerie. 
+Il nous semble en particulier nécessaire de créer des unités spécialisées – dont le niveau 
+reste à définir – ayant pour fonction d’assurer une supériorité aérienne transitoire dans 
+l’Air-Ground littoral, en étant notamment dotées de capacités de destruction des drones 
+ISR ennemis. Ces unités devraient elles-mêmes être interarmes, afin de disposer de l’en-
+semble des moyens de lutte anti-drones : guerre électronique, puissance de feu, drones 
+anti-drones… Leurs missions seraient d’assurer l’aveuglement partiel de l’ennemi par la
+
+[Page 33 / 37 | chars: 4333]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.33
+ 
+destruction ou la neutralisation de ses moyens ISR, notamment dronisés. La création de 
+telles unités entraînerait un besoin de recrutement et de formation de spécialistes. 
+Dans ce contexte, il faut souligner les récentes avancées de l’armée française, incarnées 
+par le 17ème Groupe d’Artillerie. Ces progrès sont doubles : le 17ème GA met en place un gros 
+effort sur le développement et la formation à la lutte anti-drones (LAD), et encourage à 
+une diffusion des drones-cibles au sein des unités pour multiplier les occasions d’entraîne-
+ment. Par ces entraînements à la LAD, c’est un phénomène d’acculturation au drone de 
+plus en plus important qui va se mettre en place. Plus encore, c’est l’effort sur un principe 
+renforcé de bottom-up qui devrait faire l’objet d’une diffusion large, en particulier dans le 
+cas de la dronisation des armées.  
+Cette expérience de diffusion des pratiques de LAD pourrait servir de base pour lancer un 
+processus d’adoption plus large des drones au sein des unités, notamment des OWA. Si la 
+culture du drone se met correctement en place, et qu’elle est couplée à une approche bot-
+tom-up généralisée, un développement de techniques et de procédure pourrait s’opérer. 
+Le 17ème GA disposant déjà de cette culture et des outils de développement de drones, il 
+pourrait être envisagé de lui confier une mission de développement de drones OWA et des 
+procédures liées à leur utilisation, ainsi que d’identification des besoins pour leur intégra-
+tion ; en lien avec le Commandement du Combat du Futur.  
+L’expérience du 17ème GA démontre aussi l’importance de disposer au sein des unités d’une 
+capacité de production de drones, à la fois pour permettre des développements et des 
+tests plus nombreux, mais aussi pour faciliter un entraînement régulier – les coûts d’acqui-
+sition étant nettement moins importants sur le long terme. Une acquisition du système 
+Per Sé est ainsi recommandable. Cette expérimentation doit aussi se démocratiser pour 
+s’ouvrir à l’utilisation des robots terrestres, bien que ces derniers soient plus complexes à 
+produire. Là encore, un besoin d’acculturation est nécessaire.  
+Les régiments liés à la chaîne logistique pourront, eux aussi, bénéficier d’une dronisation 
+importante de leurs moyens en un temps relativement faible. S’il faut évidemment déve-
+lopper un écosystème au sein des unités pour entraîner une gestion efficiente de ces sys-
+tèmes, la robotisation de ce segment devrait être une priorité, tant cela coûterait peu cher 
+en ressources humaines et représenterait un gain important dans les opérations. Cette ac-
+culturation à l’utilisation de robots représenterait aussi une base de travail intéressante 
+pour le futur.  
+De plus, une dronisation de l’aviation légère de l’Armée de Terre (ALAT) pourrait aussi être 
+engagée, tant elle apparaît nécessaire avec la densification des moyens de défense aé-
+rienne sur le front. Définie comme l’arme de l’initiative, de l’urgence et de la surprise, l’ALAT 
+pourrait représenter une porte d’entrée pour la dronisation de l’Armée de Terre, et trouver 
+une place plus importante encore avec des capacités renforcées et massifiées de destruc-
+tions du dispositif ennemi dans la profondeur. D’un point de vue des ressources humaines, 
+les pilotes de drones pourraient, là aussi, bénéficier d’une similarité dans leur traitement.  
+Enfin, la dronisation de l’Armée de Terre, si elle se veut importante et un levier pour le 
+retour de la masse, ne peut se faire à un niveau important en gardant le format actuel et 
+l’ensemble des capacités. Il paraît illusoire, alors que les objectifs de recrutement semblent 
+de plus en plus difficiles à atteindre, de pouvoir développer de nouvelles unités de drones 
+tout en continuant d’alimenter totalement les autres unités pour la régénération de leur 
+masse humaine. Cette dronisation ne peut se faire qu’au détriment d’une autre arme, dans 
+l’État actuel des choses. La manœuvre représente, en ce sens, un cas spécifique qu’il faut 
+aborder. L’expérience de la guerre en Ukraine a montré la difficulté que représente la mise 
+en place d’une capacité de manœuvre tactique, dès le stade du rassemblement de matériel 
+en vue du lancement de cette dernière. La « transparence » du champ de bataille est telle
+
+[Page 34 / 37 | chars: 4063]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.34
+ 
+que ce genre de rassemblements sont aujourd’hui repérés et frappés, avant même qu’ils 
+aient pu se mettre en action.  
+Dans un combat interarmes passablement remodelé par la dronisation, pour conserver 
+une capacité de manœuvre décisive à l’échelle opérationnelle, il convient donc d’acquérir 
+une capacité de protéger cette force de manœuvre contre cette micro-puissance aérienne, 
+d’où la nécessiter de renforcer considérablement les appuis divers, dont les capacités anti-
+drones, anti-ISR abordées plus haut. Dans une volonté de cohérence du modèle des ar-
+mées, paradoxalement, les capacités de mêlée actuelles devraient sans doute être revues 
+à la baisse pour intégrer ces appuis supplémentaires, compte-tenu des contraintes en dis-
+ponibilité des ressources humaines et financières.  
+2.3 Marine nationale 
+La Marine nationale est aussi concernée par ce phénomène de dronisation, tant par l’in-
+tégration des drones dans l’arsenal de ses adversaires que par un besoin d’acquérir des 
+systèmes non habités pour remonter en masse dans un environnement limité en res-
+sources humaines disponibles. Sans aller jusqu’à une acquisition de bâtiments totalement 
+autonomisés, l’utilisation de drones peut représenter un gain non seulement sur les ca-
+pacités des navires, mais aussi dans l’efficience de leur fonctionnement. Les rotations ef-
+fectuées au sein d’un groupe-aéronaval, notamment réalisées par des hélicoptères, pour-
+raient être en partie effectuées par des systèmes non habités, limitant les risques pour 
+les pilotes mais représentant aussi un gain sur une main d’œuvre disponible ailleurs. Une 
+partie importante de la logistique des bâtiments – de l’inspection des coques à la main-
+tenance des avions – pourrait aussi faire l’objet d’une dronisation importante, et entraî-
+nerait un gain de disponibilité des matériels.  
+La Marine nationale devrait ainsi réfléchir à la création d’unités de drones spécialisées dans 
+un premier temps, ce qui permettrait non seulement de diffuser une culture lors des déta-
+chements sur les navires, mais aussi de créer un environnement favorable à l’expérimen-
+tation. Des études précises sur les besoins en hommes pour l’embarquement de systèmes 
+de drones ont été réalisées, ce qui pourrait faciliter le phénomène de dronisation. 
+La dronisation du milieu maritime reste, pour le moment, au stade relativement expéri-
+mental dans le monde, et les retours d’expérience sont assez peu nombreux. En ce sens, 
+créer cette culture d’innovation des personnels sur les drones, pour développer des sys-
+tèmes spécifiques aux besoins précis d’un bâtiment de la Marine semble indispensable, 
+d’autant que cela permet de ne pas se voir « imposer » des systèmes.  
+La Marine nationale devrait aussi, à court terme, engager une réflexion sur la place des 
+opérateurs de drones au sein des bâtiments de la Marine, en particulier des porte-hélicop-
+tères amphibies et du porte-avions, tant ces navires seront touchés par cette dronisation 
+navale. Dans les deux cas, l’intégration de systèmes non habités semble inéluctable pour 
+accroître les capacités des bâtiments, en augmentant notamment le nombre de vecteurs 
+déployables. L’embarquement d’équipes de dronistes spécialisés – pilotes, opérateurs et 
+techniciens – semblera alors nécessaire pour un passage à un stade supérieur de dronisa-
+tion. Dans les deux cas, la Marine devra intégrer des pilotes et des opérateurs de drones 
+en plus grand nombre. Plus encore, la dronisation demandera une capacité de traitement 
+de données plus importante. Une partie non négligeable des drones navals – de surface et 
+sous-marins notamment – disposant d’une autonomie plus ou moins importante sur la 
+conduite de la mission, le rôle de l’opérateur sera d’employer à bien une quantité d’infor-
+mation grandissante – qui devra être intégrée au sein du dispositif de combat collaboratif 
+de la flotte. Cette évolution nécessitera le recrutement et la formation de marins spéciali-
+sés sur le traitement de ces informations.
+
+[Page 35 / 37 | chars: 727]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.35
+ 
+Les cas d’application d’une dronisation de la Marine nationale sont pour le moment encore 
+restreints, le champ restant encore en relativement expérimentation. Il faut cependant 
+souligner certaines tendances, notamment dans le développement de projets d’UUV pour 
+de la lutte anti-sous-marine. Bien que dotés d’un degré important d’autonomie, l’intégra-
+tion de ces systèmes demandera un investissement en ressources humaines important, 
+tant pour la logistique de ces systèmes que pour la planification des missions et l’exploita-
+tion des données. Il pourrait sembler opportun d’ouvrir des filières spécifiques de recrute-
+ment et de formation pour ce type de postes.
+
+[Page 36 / 37 | chars: 124]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.36
+ 
+Annexe 1. Prolifération des drones armés dans le monde 
+ 
+ 
+ 
+ 
+ 
+
+
+[Page 37 / 37 | chars: 54]
+--------------------------------------------------------------------------------
+
+Le coût de la dronisation en ressources humaines 
+P.37
+

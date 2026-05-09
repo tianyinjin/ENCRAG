@@ -1,0 +1,54 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 15 / 34
+
+================================================================================
+
+Object/background blur 
+Frames per second 
+Target Behavior 
+Tolerance 
+Performance differentials of above performance 
+metrics, across scenarios with varying target 
+behaviors and motion, to stress-test CV models 
+prior to actual deployment in said scenarios 
+Fast/slow drone speed 
+Near/far drone distance 
+Drone aspect 
+Drone payload/activity 
+3.2 
+Creating and Assessing Test Datasets for Static Perception Testing 
+The objective of test dataset curation and creation is ensuring that a comprehensive mix of sensor, 
+environmental, and target drone phenomena is represented to a sufficient degree to provide the end-user with 
+assurance of sufficient test coverage for expected real-world phenomena. The data scientist’s judgement will 
+have to be exercised during the curation of such a dataset, with a view to deciding on what images or videos 
+would be relevant to the counter-drone use case.  
+To that end, we curated a benchmark dataset, aggregating relevant data from our private drone video 
+collection, the Anti-UAV300 [7] and Anti-UAV600 [21] datasets, and the multi-sensor drone detection 
+dataset by Svanström et al. [16] as they were assessed to have representation of: defense or military contexts 
+and imaging patterns (such as the cameras tracking drones overflying troops in the field), different relevant 
+drone types, especially military-grade drones (such as the Geran-2 / HESA Shahed 136), flight profiles, and 
+large corpus of infra-red sensors, with fields of view akin to real-world sensors deployed in ground-based 
+drone defense settings, across differing environmental conditions. The initial benchmark dataset comprises 
+two parts, designed to test CV models that would accept video input and/or single-frame input: a video 
+dataset, comprising 121 self-collected videos captured under varying real-world UAV flight circumstances, 
+and a video-derived image dataset, including both sampled frames from the videos and manually annotated 
+single-frame captures, featuring diverse drone targets in a range of operational contexts. 
+3.2.1 
+Executing and evaluating the combinatorial testing method in a hypothetical scenario 
+As an example, to illustrate the concepts in this paper, we designed a hypothetical scenario that would be of 
+high relevance to a defense agency evaluating a counter-drone CV system. In this scenario, the sensors and 
+attendant CV systems would be deployed ahead of a forward operating base, situated next to a previously 
+evacuated small city on a relatively flat and open terrain with sparse forested areas of uncleared land. This 
+hypothetical location is within range of a wide range of hostile adversary drones, across small (e.g. ZALA 
+STO-MP-IST-210
+1A.03 - 15
+For both datasets, we also include data in its labels that reflect the above considerations and evaluate it for its 
+distribution of imagery features such as color, light distribution, motion blur, and noise, as well as 
+distribution of labels to ensure sufficient availability of target types, weather conditions, and terrain. Where 
+the data distribution analysis showed that it was lacking in imagery features, we apply several types of 
+processing including image blur, image lightning/darkening, and greyscale for the still image dataset, to even 
+out the distribution. Specifically for the video dataset, we also further included cases where random frames 
+would be removed from mid-clip to stress-test the robustness of object tracking algorithms to dropped 
+frames. Thereafter, we reviewed the data with human expert vetting to remove images generated that would 
+be impossible in real-world scenarios.

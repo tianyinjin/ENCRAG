@@ -1,0 +1,210 @@
+Source file: Délibération CNIL 2023-135.pdf
+Relative path: Délibération CNIL 2023-135.pdf
+Page count: 4
+Extracted pages: 4
+
+================================================================================
+
+[Page 1 / 4 | chars: 4285]
+--------------------------------------------------------------------------------
+
+Commission nationale de l’informatique et des libertés 
+Délibération no 2023-135 du 14 décembre 2023 portant avis sur un projet de décret autorisant la 
+mise en œuvre de traitements automatisés de données à caractère personnel relatifs au 
+contrôle d’accès biométrique de locaux et emprises relevant du ministère des armées 
+NOR : CNIX2405078V 
+Date de l’avis : 14 décembre 2023 
+No de la délibération : 2023-135 
+No de demande d’avis : 23013369 
+No d’acte réglementaire unique : 
+RU-81 
+Organisme à l’origine de la saisine : ministère des armées 
+Textes concernés : code de la défense, titre IV de la loi « informatique et libertés » 
+Thématiques : biométrie, défense, contrôle d’accès 
+Fondement de la saisine : article 31 de la loi no 78-17 du 6 janvier 1978 modifiée 
+relative à l’informatique, aux fichiers et aux libertés 
+L’essentiel : 
+1. La CNIL estime que les modalités de mise en place des systèmes de contrôle d’accès biométriques prévues par l’acte réglementaire unique sont globalement 
+conformes à la réglementation en matière de la protection des données à caractère personnel. 
+2. Elle constate toutefois que l’information des agents concernés sur l’existence et les caractéristiques principales du traitement, ainsi que sur leurs droits, doit se faire 
+de manière individuelle lors de l’enrôlement, et recommande au ministère de compléter le décret sur ce point. 
+3. Elle considère que le stockage en base centralisée des gabarits biométriques n’est pas la modalité la plus protectrice pour les données des personnes concernées. 
+Elle invite donc fortement le ministère, à défaut de modifier le projet de décret sur ce point, à privilégier le recours au stockage des gabarits sous forme chiffrée, de 
+manière à ce qu’aucune donnée ne puisse être lue ni exploitée sans l’intervention de la personne concernée, celle-ci étant par exemple porteuse du badge 
+permettant le déchiffrement du gabarit.  
+La Commission nationale de l’informatique et des libertés, 
+Vu le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des 
+personnes physiques à l’égard du traitement des données à caractère personnel et à la libre circulation de ces 
+données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données) ; 
+Vu la loi no 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés (loi 
+« informatique et libertés »), notamment son article 31 ; 
+Sur la proposition de Mme Isabelle LATOURNARIE-WILLEMS, commissaire, et après avoir entendu les 
+observations de M. Damien MILIC, commissaire du Gouvernement, 
+Adopte la délibération suivante : 
+I. – La saisine 
+A. – Le contexte 
+La sensibilité particulière de certains sites du ministère des armées nécessite un niveau de sécurité important des 
+accès aux périmètres concernés. 
+Traditionnellement, plusieurs mesures de sécurité à la fois organisationnelles et techniques sont mises en œuvre 
+à cette fin. Actuellement, parmi ces sites sensibles, deux font l’objet d’un contrôle d’accès encadré par décret : 
+– le décret no 2017-1132 du 3 juillet 2017 autorisant la création d’un traitement automatisé de données à 
+caractère personnel en vue d’un contrôle d’accès biométrique aux locaux d’un bâtiment de la direction 
+générale de l’armement ; 
+– le décret no 2018-504 du 21 juin 2018 autorisant la création d’un traitement automatisé de données à caractère 
+personnel en vue d’un contrôle d’accès biométrique à une emprise de la marine nationale. 
+Le projet de décret tend à uniformiser ce cadre et à étendre son application à l’ensemble des emprises présentant 
+un caractère particulièrement sensible. Par mesure de cohérence, les décrets nos 2017-1132 du 3 juillet 2017 
+et no 2018-504 du 21 juin 2018 susmentionnés sont abrogés. 
+B. – L’objet de la saisine 
+Le projet de décret vise à adopter un acte réglementaire unique (ARU) au sens de l’article 31.IV de la loi 
+« informatique et libertés », permettant le recours à la biométrie à des fins de contrôle des accès à certains locaux 
+relevant du ministère des armées. Il relève de son titre IV (« Dispositions applicables aux traitements intéressant la 
+sûreté de l’Etat et la défense »). 
+15 mars 2024 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 101 sur 134
+
+[Page 2 / 4 | chars: 5456]
+--------------------------------------------------------------------------------
+
+Plus spécifiquement, cette nouvelle réglementation s’appliquera aux zones, locaux et sites entrant dans l’une des 
+catégories suivantes : 
+– « zone protégée » au sens des articles R. 413-1 à R. 413-5 du code pénal ; 
+– « zone de défense hautement sensible » au sens des articles L. 4123-12 et R. 2363-1 à R. 2363-7 du code de la 
+défense. 
+L’ARU permettra aux responsables desdites zones de mettre en place, à l’intention de leurs personnels, une 
+solution de contrôle d’accès biométrique moyennant un engagement auprès de la CNIL de se conformer à l’ARU. 
+II. – L’avis de la CNIL 
+A. – Sur la finalité du traitement 
+L’article 1er du projet de décret prévoit que les traitements relevant de l’ARU ne peuvent avoir pour finalité que 
+le contrôle de l’accès aux zones protégées. 
+Le ministère a indiqué que des mesures organisationnelles seront mises en place de manière à exclure toute 
+consultation du dispositif à d’autres fins, par exemple pour le contrôle du respect des horaires des agents. 
+La CNIL prend acte de ces précisions et estime que les finalités de l’ARU sont déterminées, explicites et 
+légitimes. 
+B. – Sur les données collectées 
+L’article 4 du projet de décret prévoit que seules seront enregistrées les données des membres du personnel 
+affectés à ces zones protégées et autorisés à y pénétrer. 
+Ainsi, aucun enregistrement de données brutes (telles qu’une image photographique d’une personne ou une 
+empreinte digitale) ou de gabarits biométriques ne sera fait des données des autres personnes qui pénètreraient dans 
+ces zones, qu’elles y aient ou non été autorisées, y compris dans l’hypothèse d’un échec d’authentification. 
+Les catégories des données dont l’enregistrement est prévu comprennent notamment « le gabarit de l’empreinte 
+digitale et/ou de la photographie », ce qui exclut notamment la captation des flux vidéo. 
+La CNIL observe tout d’abord que la mention du gabarit « de la photographie » est perfectible : en effet, le 
+gabarit étant calculé sur la base du visage, il parait plus juste de mentionner ce dernier. 
+En outre, elle relève qu’en l’état de sa rédaction, le projet de décret ne mentionne que les catégories des données 
+qui feront l’objet d’un enregistrement durable dans le dispositif. Or, certaines catégories de données pourtant 
+traitées n’y sont pas mentionnées. Tel est le cas des données brutes (empreinte digitale brute et photographie du 
+visage) à partir desquelles sont calculés des gabarits, quand bien même elles sont détruites sans délai. 
+La CNIL estime que le projet de décret doit être modifié en ce sens et complété de manière à lister toutes 
+les catégories de données traitées, quand bien même certaines ne feraient pas l’objet d’un enregistrement 
+durable. 
+C. – Sur le choix des modalités de détention des gabarits 
+L’article 2 du projet de décret prévoit que le gabarit peut être indifféremment enregistré dans la base de données 
+ou intégré au badge d’accès biométrique de l’agent. La CNIL, si elle entend le fait qu’il est nécessaire, pour 
+répondre à des contextes variés, de permettre cette souplesse dans les modalités de mise en œuvre de la biométrie, 
+invite néanmoins le ministère à prendre en compte les remarques suivantes. 
+Tout d’abord, le stockage en base centralisée des gabarits biométriques n’est pas la modalité la plus protectrice 
+en termes de sécurité des données. En effet, l’existence d’une base centralisée rend possible une fuite de ces 
+données, fuite qui peut potentiellement exposer de manière irréversible les données biométriques de toutes les 
+personnes concernées. 
+Ensuite, le stockage des gabarits biométriques directement sur les badges d’accès des personnes, s’il est 
+accompagné d’un chiffrement adéquat des données stockées, n’expose pas à un risque excessif en cas de perte, 
+dans la mesure où la lecture ou la falsification de ce gabarit est impossible. L’impact, en termes de risque, de la 
+perte éventuelle d’un badge d’accès est donc le même que dans le cas d’un stockage centralisé, à ceci près qu’il ne 
+porte que sur une seule personne. 
+Enfin, il est compréhensible que des contraintes opérationnelles (gestion centralisée des droits, complexité et 
+coût des cartes biométriques) rendent complexe la mise en œuvre de la biométrie avec gabarit sous maîtrise des 
+personnes concernées comme décrit ci-dessus. Pour parer à ces difficultés, il est possible de mettre en œuvre une 
+biométrie comprenant une base de données contenant les gabarits de l’ensemble des employés, mais de chiffrer ces 
+données de manière à ce qu’aucune donnée ne puisse être lue ni exploitée sans l’intervention de la personne 
+concernée, celle-ci conservant la clef de chiffrement sur son badge. Cette modalité permet à la fois de parer aux 
+risques d’atteinte à la base centralisée et de limiter la complexité technique des badges utilisés. 
+La CNIL incite donc fortement le ministère, à défaut de préciser le projet de décret, à encourager le recours à ce 
+dernier type de dispositif. Si les badges actuels ne permettent pas de stocker le secret nécessaire à cette modalité, la 
+CNIL invite le ministère à mettre en œuvre des travaux pour changer cet état de fait. 
+Par ailleurs, elle prend acte de l’engagement du ministère de publier en même temps que le décret, un guide 
+accompagnant la mise en place du processus biométrique qui recommandera aux responsables des sites concernés 
+15 mars 2024 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 101 sur 134
+
+[Page 3 / 4 | chars: 5564]
+--------------------------------------------------------------------------------
+
+de privilégier soit le stockage des gabarits sur les badges (plutôt que sur des serveurs centralisés), soit le stockage 
+d’un secret sur le badge permettant de lire le gabarit biométrique. 
+Le projet de décret ne précise pas quelles modalités de rapprochement seront admissibles. Il est possible de 
+mettre en œuvre des dispositifs biométriques dans lesquels le test de correspondance est effectué avec l’ensemble 
+des gabarits autorisés. Si cela permet de se passer d’une identification a priori de la personne, cette méthode 
+impacte fortement l’efficacité du dispositif, puisqu’elle tend à faire augmenter le taux d’erreur individuel en 
+fonction du nombre de gabarits stockés. 
+Dans la mesure où l’ensemble des accédants présenteront un moyen d’identification lors de leur entrée 
+dans les locaux (leur badge d’accès individuel), la CNIL considère qu’il n’est pas nécessaire de procéder à la 
+comparaison du visage de chaque accédant avec l’ensemble des gabarits stockés. 
+Elle invite par conséquent le ministère à limiter la vérification de correspondance au gabarit associé 
+individuellement à la personne identifiée par le badge, et prend acte de l’engagement du ministère de faire 
+apparaitre cette recommandation dans le guide d’accompagnement. 
+D. – Concernant les mesures de sécurité 
+La CNIL prend acte de ce que le présent dispositif viendra en complément des contrôles d’accès aujourd’hui en 
+place. Elle considère cependant que ce caractère complémentaire ne retire rien à la nécessité de mettre en œuvre 
+des mesures de sécurité correspondant à l’état de l’art pour ce qui concerne les outils de contrôle d’accès 
+biométrique. 
+En conséquence, la CNIL recommande de systématiser la mise en place de mesures de chiffrement conformes à 
+l’annexe B1 du référentiel général de sécurité pour les gabarits, que ceux-ci soient stockés en base centralisée ou 
+bien sur les badges des personnes. De plus, si la CNIL accueille favorablement la mise en œuvre systématique des 
+échanges sur des réseaux isolés, elle invite également le ministère à prévoir que tout échange relatif au traitement 
+soit chiffré avec le même niveau d’exigence. 
+Sur certains sites, le ministère prévoit l’utilisation de terminaux mobiles pour stocker des extractions de la base 
+de données centralisée. Cette modalité est source d’un risque accru de vol ou d’accès indu. Pour cette raison, la 
+CNIL invite le ministère à prendre toutes les mesures nécessaires pour limiter ces risques, par exemple en 
+conservant ces terminaux dans un caisson sécurisé, ou bien en condamnant les ports physiques du terminal. 
+Afin d’assurer la systématisation de telles mesures, la Commission invite le ministère à les inclure dans ses 
+politiques d’usages applicables aux dispositifs biométriques. 
+Le projet de décret prévoit une journalisation pour une durée comprise entre un et cinq ans, qui concerne 
+uniquement les opérations effectuées par les opérateurs du traitement. Étant donné le contexte de mise en œuvre et 
+la gravité des risques associés, elle considère que cette durée peut effectivement être supérieure à celles qu’elle 
+préconise d’ordinaire. La CNIL estime toutefois qu’une durée maximale de trois années serait suffisante et 
+proportionnée aux enjeux, et prend acte de l’engagement du ministère de modifier le projet de décret en ce 
+sens. 
+En outre, afin de contribuer effectivement à la sécurité du traitement, elle recommande de prévoir des analyses 
+proactives des données de journalisation, que ce soit par la génération automatique d’alertes ou bien par des 
+mesures organisationnelles (par exemple par la génération de rapports réguliers et le contrôle humain des données 
+par la hiérarchie pour les composantes les plus sensibles du traitement). 
+E. – Sur l’information des personnes concernées 
+L’article 6 du projet de texte prévoit que les personnes concernées seront informées « par voie d’affichage à 
+l’entrée des emprises et des locaux relevant du ministère de la défense », ce qui exclut toute information 
+individuelle. 
+Le ministère a indiqué ne pas être opposé à prévoir une information individuelle des agents et a précisé que le 
+projet pourrait être modifié de manière à prévoir une information « […] par voie d’affichage à l’entrée des 
+emprises et des locaux relevant du ministère de la défense ou par envoi ou remise d’un document ou par tout autre 
+moyen équivalent […] ». 
+La CNIL observe que l’information individuelle des personnes concernées sur l’existence du traitement, sur ces 
+caractéristiques principales ainsi que sur les droits dont elles disposent de ce fait, est un droit découlant des 
+dispositions de la loi « informatique et libertés ». 
+Elle considère que rien ne s’oppose à ce que cette information soit délivrée individuellement aux personnes 
+concernées, par exemple au moment de l’enrôlement des agents dans le dispositif. 
+Dans ces conditions, la CNIL estime que pour assurer sa conformité aux dispositions de l’article 116 de la 
+loi « informatique et libertés », l’ARU doit prévoir l’information individuelle des agents à titre principal, en 
+prévoyant à titre subsidiaire un affichage à l’entrée des locaux. Elle prend acte de l’engagement du ministère 
+de modifier le projet de décret en ce sens. 
+F. – Sur la terminologie utilisée 
+Le second alinéa de l’article 2 du projet prévoit qu’est enregistré dans la base de données du serveur, ou le cas 
+échéant, intégré au badge « le composant contenant le gabarit », et non pas le gabarit lui-même. 
+15 mars 2024 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 101 sur 134
+
+[Page 4 / 4 | chars: 452]
+--------------------------------------------------------------------------------
+
+Le terme de « composant » renvoyant le plus souvent dans la littérature technique aux composants matériels 
+d’un système, la CNIL recommande au ministère de modifier le texte de manière à ne faire référence qu’à 
+l’enregistrement du « gabarit ». 
+Les autres dispositions du projet de décret n’appellent pas d’observations de la part de la CNIL. 
+La présidente, 
+M.-L. DENIS  
+15 mars 2024 
+JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE 
+Texte 101 sur 134
+

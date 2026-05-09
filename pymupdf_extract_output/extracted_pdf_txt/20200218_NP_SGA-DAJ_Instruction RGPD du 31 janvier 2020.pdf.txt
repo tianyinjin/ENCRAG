@@ -1,0 +1,1799 @@
+Source file: 20200218_NP_SGA-DAJ_Instruction RGPD du 31 janvier 2020.pdf
+Relative path: 20200218_NP_SGA-DAJ_Instruction RGPD du 31 janvier 2020.pdf
+Page count: 32
+Extracted pages: 32
+
+================================================================================
+
+[Page 1 / 32 | chars: 1373]
+--------------------------------------------------------------------------------
+
+1 
+ 
+DIRECTION DES AFFAIRES JURIDIQUES : Sous-direction du droit public et du droit privé. 
+ 
+INSTRUCTION n° ARM/SGA/DAJ/D2P/DPSP relative à la mise en œuvre du règlement 
+européen sur la protection des données personnelles au ministère de la défense. 
+ 
+Du 31 janvier 2020 
+ 
+NOR A R M S 2 0 5 3 4 2 4 J 
+ 
+Pièces jointes : Deux annexes 
+SOMMAIRE 
+ 
+ 
+CHAPITRE PREMIER 
+LES NOTIONS 
+ 
+I. Les données à caractère personnel. 
+1.1 Les données à caractère personnel. 
+1.2 Les données sensibles. 
+1.3 Des données particulières. 
+ 
+II. Le traitement de données à caractère personnel. 
+2.1 Notion de traitement. 
+2.2 Licéité du traitement. 
+2.3  Fondement juridique du traitement. 
+ 
+III. Le champ d’application du règlement. 
+3.1 Champ d’application matériel. 
+3.2 Champ d’application territorial. 
+ 
+IV. Le responsable de traitement. 
+ 
+V. Le délégué à la protection des données (DPD). 
+ 
+ 
+ 
+CHAPITRE II 
+L’ORGANISATION MINISTERIELLE 
+ 
+I. Le responsable de traitement. 
+1.1 La désignation du responsable de traitement. 
+1.2 Le rôle du responsable de traitement. 
+ 
+II. Le représentant du responsable de traitement. 
+2.1 Relations avec le DPD.  
+2.2 Missions au sein de son organisme. 
+ 
+III. L’agent chargé de la mise en œuvre du traitement. 
+ 
+IV. Le délégué à la protection des données. 
+4.1 Conseiller. 
+4.2 Accompagner. 
+4.3 Assurer le relai avec la CNIL. 
+4.4 Contrôler.
+
+[Page 2 / 32 | chars: 1283]
+--------------------------------------------------------------------------------
+
+2 
+ 
+V. Les appuis techniques du délégué à la protection des données.  
+5.1 Formations. 
+5.2 Analyse d’impact. 
+5.3 Contrôles. 
+ 
+VI. Les acteurs compétents en matière de violations de données. 
+ 
+ 
+CHAPITRE III 
+LA MISE EN ŒUVRE DES TRAITEMENTS 
+ 
+I. Le registre des traitements. 
+ 
+II. Les analyses d’impact. 
+ 
+2.1 Les traitements concernés. 
+ 
+2.2 Le contenu de l’analyse d’impact. 
+ 
+2.3 La réalisation de l’analyse d’impact. 
+ 
+III. L’encadrement par un acte réglementaire. 
+ 
+IV. La sécurisation des traitements. 
+ 
+4.1 L’obligation générale de sécurité. 
+ 
+4.2 La notification des violations de données. 
+ 
+V. Les droits des personnes. 
+5.1 Les droits des personnes. 
+5.2 La mise en œuvre des droits. 
+5.3 Les obligations du responsable de traitement. 
+ 
+VI. La sous-traitance. 
+ 
+6.1 Les contrats de la commande publique. 
+ 
+6.2 Les contrats signés entre différents services de l’administration. 
+ 
+VII. Les transferts de données hors UE.  
+ 
+VIII. Les fichiers soumis à des formalités préalables auprès de la CNIL. 
+ 
+ 
+CHAPITRE IV 
+CONTROLES ET SANCTIONS 
+ 
+I. Les contrôles internes.  
+ 
+1.1 Les contrôles du responsable de traitement. 
+1.2 Les contrôles du DPD. 
+ 
+II. Les contrôles de la CNIL. 
+ 
+III. Les sanctions. 
+ 
+3.1 Sanctions de la CNIL. 
+3.2 Sanctions pénales.
+
+[Page 3 / 32 | chars: 76]
+--------------------------------------------------------------------------------
+
+3 
+ 
+ANNEXES 
+Annexe 1 : sigles utilisés 
+Annexe 2 : documents de référence.
+
+[Page 4 / 32 | chars: 4409]
+--------------------------------------------------------------------------------
+
+4 
+ 
+PREAMBULE 
+  
+Le 25 mai 2018 est entré en vigueur le règlement (UE) 2016/679 du Parlement européen et du Conseil 
+du 27 avril 2016 relatif à la protection des personnes physiques à l’égard du traitement des données à 
+caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE 
+(règlement général sur la protection des données : RGPD). 
+ 
+S’agissant d’un règlement, ses dispositions sont directement applicables dans le droit des Etats 
+membres. Néanmoins, le texte laissant un certain nombre de dispositions à la main des Etats, la loi  
+n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés modifiée, dite « loi 
+informatique et libertés » (LIL), reste applicable, dans une version remise à jour par la loi n° 2018-493 
+du 20 juin 2018 relative à la protection des données personnelles et l’ordonnance n° 2018-1125 du 12 
+décembre 2018 prise en application de l'article 32 de la loi précitée du 20 juin 2018, complétée par ses 
+décrets d’application. 
+ 
+Les textes relatifs à la protection des données s’appliquent aux traitements1 de données à caractère 
+personnel2, constitués de toute opération portant sur des informations permettant d’identifier 
+directement ou indirectement des personnes physiques. 
+ 
+Un traitement de données à caractère personnel doit respecter les principes de loyauté et de 
+proportionnalité. Ainsi, la personne concernée par un traitement de ses données doit être informée de 
+la mise en œuvre du traitement. De même, les données collectées doivent être proportionnées par 
+rapport à la finalité poursuivie et leur durée de conservation doit être limitée. 
+ 
+De nombreux traitements de données à caractère personnel sont mis en œuvre dans les entités du 
+ministère de la défense. Ceux-ci peuvent prendre la forme de systèmes d’information (traitements de 
+données structurés), mais également de fichiers tenus à jour en dehors des systèmes d’information 
+(traitements de données non structurés). 
+ 
+En application de la loi « informatique et libertés », le ministre de la défense était responsable de 
+l’ensemble des traitements mis en œuvre au ministère. Le RGPD s’inscrit dans une logique de 
+responsabilisation des organismes se traduisant par des désignations de responsables de traitement 
+dans chaque état-major, direction et service (EMDS) du ministère.  
+Avec l’entrée en vigueur du RGPD, la plupart des formalités préalables qui devaient être effectuées 
+auprès de la CNIL avant la mise en œuvre d’un traitement de données personnelles disparaissent ; s’y 
+substitue la tenue à jour, par chaque responsable de traitement, d’un registre des activités de 
+traitement. Celui-ci recense et décrit chaque traitement mis en œuvre, précisant notamment ses 
+finalités, les données traitées et leur durée de conservation, les destinataires des données, les mesures 
+de sécurité mises en place et les modalités d’exercice des droits des personnes concernées.  
+Le RGPD renforce les droits conférés aux personnes, existant sous le régime de la loi « informatique 
+et libertés » (droit d’accès, de rectification, d’opposition) et les dote de nouveaux droits (limitation, 
+portabilité, droit à l’oubli). 
+                                                          
+1 Article 4 point 2) du RGPD : « traitement », toute opération ou tout ensemble d’opérations, effectuées ou non à l’aide de 
+procédés automatisés et appliquées à des données ou des ensembles de données à caractère personnel, telles que la collecte, 
+l’enregistrement, l’organisation, la structuration, la conservation, l’adaptation ou la modification, l’extraction, la consultation, 
+l’utilisation, la communication par transmission, la diffusion ou toute autre forme de mise à disposition, le rapprochement ou 
+l’interconnexion, la limitation, l’effacement ou la destruction. 
+2 Article 4 point 1) du RGPD : « données à caractère personnel », toute information se rapportant à une personne physique 
+identifiée ou identifiable ; est réputée être une « personne physique identifiable » une personne physique qui peut être 
+identifiée, directement ou indirectement, notamment par référence à un identifiant tel qu’un nom, un numéro d’identification 
+des données de localisation, un identifiant en ligne à un ou plusieurs éléments spécifiques propres à son identité physique, 
+physiologique, génétique, psychique, économique, culturelle ou sociale.
+
+[Page 5 / 32 | chars: 528]
+--------------------------------------------------------------------------------
+
+5 
+ 
+Par ailleurs, le RGPD renforce la sécurisation des données traitées et met à la charge du responsable de 
+traitement la réalisation d’une analyse de risques (dénommée analyse d’impact) pour les traitements 
+présentant un risque élevé pour les droits et libertés des personnes concernées. 
+La présente instruction précise la mise en œuvre du RGPD au sein du ministère de la défense. Elle ne 
+traite pas l’ensemble des problématiques relatives à la mise en œuvre des textes relatifs à la protection 
+des données personnelles.
+
+[Page 6 / 32 | chars: 3101]
+--------------------------------------------------------------------------------
+
+6 
+ 
+CHAPITRE PREMIER 
+ 
+LES NOTIONS 
+ 
+I. LES DONNEES A CARACTERE PERSONNEL. 
+ 
+1.1 Les données à caractère personnel (art. 4 du RGPD). 
+ 
+Toute information permettant d’identifier, directement ou indirectement, une personne physique 
+constitue une donnée à caractère personnel. C’est le cas des nom et prénoms des personnes, ainsi que 
+de toute donnée indirectement identifiante et notamment les coordonnées d’une personne (qu’il 
+s’agisse de ses coordonnées professionnelles ou personnelles), les numéros d’identification et le 
+matricule, ainsi que les traces d’utilisation des services informatiques (adresses IP, logs de connexion, 
+etc.).  
+ 
+1.2 Les données sensibles (art. 9 du RGPD). 
+ 
+Les données sensibles constituent une catégorie particulière de données à caractère personnel, 
+obéissant à un régime de protection particulier. 
+ 
+Les données sensibles telles que définies par l'article 6 de la loi n° 78-17 du 6 janvier 1978 relative à 
+l’informatique, aux fichiers et aux libertés, dans sa rédaction résultant de la loi de protection des 
+données personnelles, sont :  
+- 
+les données relatives aux opinions des personnes, philosophiques, religieuses ou syndicales ; 
+- 
+les données relatives aux origines raciales ou ethniques des personnes ; 
+- 
+les données relatives à la santé des personnes ; 
+- 
+les données relatives à l’orientation et à la vie sexuelle des personnes ; 
+- 
+les données biométriques ; 
+- 
+les données génétiques. 
+ 
+Par principe, les données sensibles ne doivent pas figurer dans un traitement. Leur utilisation doit 
+rester exceptionnelle. Elle doit être limitée et strictement nécessaire à la finalité du traitement. 
+ 
+Le RGPD3 prévoit les cas dans lesquels des données sensibles peuvent faire l’objet d’un traitement. 
+C’est notamment possible si la personne concernée a donné son consentement4. Par ailleurs, les 
+données de santé nécessaires à la médecine de prévention peuvent faire l’objet d’un traitement5. 
+ 
+Nota : les données sensibles définies par la loi informatique et libertés sont distinctes des "données à 
+caractère personnel sensibles" (DCPS) identifiées par la DGNUM6 et des données protégées par la 
+mention "diffusion restreinte" ou "confidentiel personnel" (DR-CP)7. S’agissant de ce type de données, 
+des mesures de sécurité appropriées doivent être mises en œuvre conformément aux préconisations 
+ministérielles. 
+ 
+ 
+ 
+ 
+                                                          
+3 Article 9 point 2. 
+4 Article 9 point 2 a). 
+5 Article 9 point 2 h). 
+6 « Données à caractère personnel sensibles » identifiées par la DGNUM comme étant l’association de données à caractère 
+personnel de militaires ou d’agents du ministère de la défense d’ordre professionnel (statut, etc.) à des données à caractère 
+personnel d’ordre privé (adresse familiale, etc.) au sein de bases de données accessibles via l’Intradef ou l’Internet (cf. note 
+598/DEF/DGSIC/SDSSI/DR du 25 octobre 2016). 
+7 Article 5 de l’arrêté du 23 juillet 2010 portant approbation de l’instruction générale interministérielle sur la protection du 
+secret de la défense nationale.
+
+[Page 7 / 32 | chars: 3658]
+--------------------------------------------------------------------------------
+
+7 
+ 
+1.3 Des données particulières.  
+ 
+a) Le numéro d'inscription au répertoire national d’identification des personnes physiques (NIR), plus 
+couramment dénommé "numéro de sécurité sociale" fait partie des catégories particulières de données.  
+ 
+En effet, ce numéro présente plusieurs spécificités :  
+- 
+il est « signifiant ». Il est composé d’une chaîne de caractères qui permettent de déterminer le 
+sexe, le mois et l’année de naissance, le département et la commune de naissance en France ou 
+l’indication d’une naissance à l’étranger ; 
+- 
+il est unique et pérenne : un seul numéro est attribué à chaque individu dès sa naissance ; 
+- 
+il est a priori fiable, car il est certifié par l’INSEE à partir des données d’état civil transmises 
+par les mairies. 
+ 
+Ce numéro, facile à reconstituer à partir d’éléments d’état civil, et qui rend plus aisées les possibilités 
+de rapprochements de fichiers et facilite la recherche et le tri des informations dans les fichiers, reste 
+associé au risque d’une interconnexion généralisée ou d’une utilisation détournée des fichiers. Cela 
+justifie donc les précautions prises depuis 1978 par le législateur pour encadrer son usage. 
+ 
+Son utilisation fait l’objet d’un régime particulier défini par la loi « informatique et libertés »8 et par 
+un décret en Conseil d’Etat qui fixe la liste des traitements ou des catégories de traitement pour 
+lesquels est autorisée, à titre dérogatoire, l’utilisation de ce numéro9. 
+ 
+b) Les données relatives aux condamnations pénales et aux infractions ne peuvent faire l’objet d’un 
+traitement en vertu de l’article 777-3 du code de procédure pénale, à moins que celui-ci ne réponde 
+aux conditions posées par l’article 46 de la loi informatique et libertés ou ne soit autorisé par une 
+disposition législative particulière.   
+ 
+c) Les données des personnels sous anonymat10 du ministère de la défense font l’objet d’une protection 
+particulière. En effet, les traitements de données concernant ces agents sont soumis à la réalisation 
+d’une analyse d’impact sur la protection des données (cf. chapitre III point II) et à une obligation de 
+vigilance particulière quant aux mesures de sécurité mises en place (cf. chapitre III point IV). 
+ 
+II. LE TRAITEMENT DE DONNEES A CARACTERE PERSONNEL (art. 4 à 6 du RGPD). 
+ 
+1.1 Notion de traitement.  
+ 
+Le RGPD définit la notion de traitement comme étant « toute opération, ou ensemble d’opérations, 
+portant sur des données à caractère personnel11 ». Ce traitement peut être automatisé ou non 
+automatisé. 
+ 
+Ainsi, les traitements de données suivants sont soumis au RGPD :  
+ 
+- 
+les traitements de données structurés, prenant la forme de systèmes d’information (par 
+exemple : Concerto, Alliance, etc.) ; 
+- 
+les traitements de données non structurés, pouvant prendre la forme de fichiers papier ou de 
+fichiers numériques, tenus à jour à l’aide de logiciels bureautiques (par exemple : utilisation 
+d’Excel pour la gestion des congés bonifiés).  
+                                                          
+8 Article 30 de la loi. 
+9 Décret n° 2019-341 du 19 avril 2019 relatif à la mise en œuvre de traitements comportant l’usage du numéro d’inscription 
+au répertoire national d’identification des personnes physiques ou nécessitant la consultation de ce répertoire. 
+10 Sont concernés : les personnels des services de renseignements et des forces spéciales protégées par les articles 413-13 et 
+413-14 du code pénal (cf. arrêté du 20 octobre 2016) ainsi que les personnels protégés au titre de l’article 39 sexies de la loi 
+de 1881 sur la liberté de la presse (cf. arrêté du 7 avril 2011). 
+11 Article 4 point 2 du RGPD.
+
+[Page 8 / 32 | chars: 3523]
+--------------------------------------------------------------------------------
+
+8 
+ 
+1.2 Licéité du traitement.  
+ 
+Un traitement peut être mis en œuvre dès lors qu’il respecte les conditions de licéité décrites ci-
+dessous. 
+ 
+a) Finalités du traitement. Les finalités d’un traitement doivent être déterminées, explicites et 
+légitimes12. Un même traitement peut poursuivre plusieurs finalités qu’il convient d’identifier, sous 
+peine de détournement de finalité13.  
+ 
+b) Principe de minimisation des données traitées14. Les données traitées doivent être adéquates, 
+pertinentes et limitées à ce qui est nécessaire au regard des finalités du traitement. Le respect du 
+principe de minimisation des données passe également par la limitation du nombre de destinataires des 
+données (personnes ayant la possibilité d’accéder au traitement ou de recevoir communication des 
+données à caractère personnel qu’il contient) : le responsable d’un traitement tient compte, à cet égard, 
+des nécessités et des objectifs du traitement, ainsi que du besoin d’en connaître des destinataires des 
+données. La question de la limitation du nombre de destinataires des données est notamment prise en 
+compte dans le cadre des traitements de données à caractère personnel mis en œuvre aux fins de 
+gestion des procédures d’habilitation.  
+ 
+c) Loyauté. Les données sont traitées de manière loyale, licite et transparente15. Ainsi, les données 
+traitées doivent être strictement nécessaires au traitement mis en œuvre. Le traitement est loyal dès 
+lors que les personnes dont les données figurent dans un traitement en sont informées (cf. V du 
+chapitre III). 
+ 
+d) Exactitude des données traitées. Les données figurant dans le traitement doivent être exactes16 : 
+ainsi, les personnes concernées par un traitement peuvent demander à tout moment à ce que leurs 
+données soient rectifiées (cf. V du chapitre III).  
+ 
+e) Sécurité des données. Des mesures de sécurité appropriées sont mises en place sur les données17 (cf. 
+IV du chapitre III). 
+ 
+f) Durée de conservation des données. Les données traitées sont conservées pour une durée n’excédant 
+pas la durée nécessaire au regard des finalités pour lesquelles elles sont traitées18.  
+Les données peuvent néanmoins être conservées plus longtemps dans la mesure où elles seront 
+traitées exclusivement à des fins archivistiques19. Ainsi, à l’issue de leur durée de conservation 
+courante, les données peuvent faire l’objet d’un archivage intermédiaire et le cas échéant définitif. Les 
+durées de conservation courantes et intermédiaires des données sont déterminées par le responsable du 
+traitement au regard des finalités poursuivies par le traitement ou des dispositions législatives ou 
+règlementaires applicables. La durée de conservation des données en tant qu’archives définitives est 
+déterminée par le service des archives.  
+A l’issue de leur durée de conservation courante, les données sont stockées en archivage intermédiaire 
+dans le traitement ou sur un support distinct et elles sont accessibles par un nombre limité de 
+personnes. En archivage définitif, les données sont stockées sur un support physique indépendant et 
+l’accès aux données est géré par le service des archives. 
+ 
+1.3 Fondement juridique du traitement.  
+ 
+                                                          
+12 Article 5 point 1 b) du RGDP. 
+13 Article 226-21 du Code pénal. 
+14 Article 5 point 1 c) du RGDP. 
+15 Article 5 point 1 a) du RGPD. 
+16 Article 5 point 1 d) du RGPD. 
+17 Article 5 point 1 f) du RGPD. 
+18 Article 5 point 1 e) du RGPD. 
+19 Article 5 point 1 e) du RGPD.
+
+[Page 9 / 32 | chars: 3215]
+--------------------------------------------------------------------------------
+
+9 
+ 
+Le RGPD prévoit que la mise en œuvre d’un traitement de données à caractère personnel peut 
+répondre à différents fondements, parmi lesquels figurent :  
+- 
+le respect d’une obligation légale ou réglementaire ; 
+- 
+l’exécution d’un contrat ; 
+- 
+le consentement de la personne concernée ; 
+- 
+l’exécution d’une mission d’intérêt public.  
+ 
+Le fondement juridique du traitement influence les cas d’exercice des droits des personnes (en 
+particulier : droit d’effacement et d’opposition – cf. V du chapitre III). 
+ 
+La majorité des traitements mis en œuvre au ministère de la défense sont nécessaires à l’exécution de 
+sa mission d’intérêt public. Certains traitements nécessitent néanmoins le recueil du consentement de 
+la personne concernée (cf. V du chapitre III). 
+ 
+III. LE CHAMP D’APPLICATION DU REGLEMENT (art.2 et 3 du RGPD). 
+ 
+3.1 Le champ d’application matériel. 
+ 
+Le RGPD s’applique à l’ensemble des traitements de données à caractère personnel mis en œuvre au 
+ministère de la défense, à l’exclusion des traitements qui entrent dans le cadre d’une activité qui ne 
+relève pas du droit de l’Union européenne20 : c’est le cas des traitements mis en œuvre aux fins 
+d’assurer la défense et la sécurité nationale21 (cf. fichiers intéressant la sûreté de l’Etat mis en œuvre 
+par les services de renseignement et les armées ou portant exclusivement sur des unités couvertes par 
+l’anonymat, seuls fichiers pouvant être exclus du champ d’application du droit de l’Union 
+européenne22). 
+ 
+Ces traitements sont toutefois soumis à l’application de la loi « informatique et libertés » qui prévoit 
+un régime de formalités préalables à effectuer auprès de la CNIL conformément aux dispositions de 
+l’article 31 de la loi « informatique et libertés » (cf. VIII du chapitre III).  
+ 
+Les traitements de données courantes, à visée purement opérationnelle, sont également exclus du 
+champ d’application du RGPD, dès lors qu’ils n’ont pas pour objet de contribuer à la gestion 
+administrative, financière ou opérationnelle des agents. Il s’agit par exemple des traitements destinés à 
+recenser des actes de maintenance effectués sur des matériels de guerre. 
+ 
+3.2 Le champ d’application territorial. 
+ 
+Sont soumis à l’application du RGPD, les traitements entrant dans son champ d’application mis en 
+œuvre par un responsable de traitement établi sur le territoire de l’Union européenne, que le traitement 
+ait lieu ou non sur le territoire de l’Union23.  
+ 
+Dans cette seconde hypothèse, ils doivent en tout état de cause respecter les dispositions de la loi 
+informatique et libertés lorsqu’elle leur est applicable. 
+ 
+IV. LE RESPONSABLE DE TRAITEMENT (art. 4 et 24 du RGPD). 
+ 
+La personne qui détermine les finalités et les moyens24 du traitement est appelée « responsable de 
+traitement ». Le responsable de traitement assume la responsabilité juridique et supporte les sanctions 
+en cas de non-respect des dispositions du RGPD (cf. I du chapitre II).  
+                                                          
+20 Article 2 point 2 a) du RGPD. 
+21 Considérant 16 du RGPD. 
+22 Article 4 point 2 du traité sur l’Union européenne. 
+23 Article 3 point 1 du RGPD. 
+24 Moyens techniques, humains, financiers.
+
+[Page 10 / 32 | chars: 3345]
+--------------------------------------------------------------------------------
+
+10 
+ 
+ 
+Le responsable du traitement met en œuvre des mesures techniques et organisationnelles appropriées 
+pour s'assurer et être en mesure de démontrer que le traitement est effectué conformément aux 
+dispositions du RGPD.  
+ 
+V. LE DELEGUE A LA PROTECTION DES DONNEES (art. 37 à 39 du RGPD). 
+ 
+La nomination d’un délégué à la protection des données (DPD) est obligatoire dans les organismes 
+publics. Le DPD dispose d’une autonomie renforcée dans l’exercice de ses missions25. Celles-ci se 
+déclinent en trois volets (cf. IV du chapitre II) : il conseille et accompagne les responsables de 
+traitement ; il assure le relai entre les responsables de traitement et la Commission nationale de 
+l'informatique et des libertés (CNIL) ; il assure enfin une mission de contrôle.    
+ 
+ 
+CHAPITRE II 
+ 
+L’ORGANISATION MINISTERIELLE 
+ 
+I. LE RESPONSABLE DE TRAITEMENT. 
+ 
+1.1 La désignation des responsables de traitement. 
+ 
+La liste des responsables de traitement est fixée par un arrêté du ministre de la défense du 13 juin 
+201826. 
+ 
+1.2 Le rôle du responsable de traitement. 
+ 
+Le responsable de traitement s’assure de la conformité des traitements relevant de son périmètre 
+vis-à-vis des dispositions du règlement (cf. I du chapitre IV relatif à la mise en œuvre des contrôles 
+internes). 
+ 
+Le responsable de traitement met en place les mesures techniques et organisationnelles 
+appropriées pour assurer la conformité des traitements de données à caractère personnel mis en 
+œuvre dans son périmètre au titre des dispositions de la loi « informatique et libertés » et du RGPD. 
+ 
+Ainsi, il doit être en mesure d’en démontrer la conformité, en cas de contrôle du DPD ou de la CNIL 
+(cf. chapitre III). Pour ce faire, il doit pouvoir présenter son registre des traitements (cf. chapitre III 
+point I) et la documentation associée pour chaque traitement, notamment concernant les mesures mises 
+en place pour assurer la sécurité des données (cf. IV du chapitre III). Ces mesures comprennent 
+notamment la réalisation des analyses d’impact signées par les responsables de traitement après avis 
+du DPD ou la justification de l’absence de nécessité de réaliser une analyse d’impact (cf. II du chapitre 
+III), ainsi que la documentation relative aux violations de données (cf. IV du chapitre III). 
+ 
+Il assure en outre le respect des droits des personnes dont les données figurent dans un traitement de 
+son périmètre (en particulier : droit d’accès, droit de rectification, droit de suppression des données les 
+concernant - cf. V du chapitre III) : il met en place une procédure interne permettant de donner 
+suite, dans un délai d’un mois, aux demandes d’accès, de rectification, de suppression que lui 
+adresse toute personne concernée et il tient à jour la liste des demandes qui lui sont parvenues, afin de 
+pouvoir les porter à la connaissance du DPD une fois par an.   
+ 
+II. LE REPRESENTANT DU RESPONSABLE DE TRAITEMENT. 
+                                                          
+25 Considérant 97 du RGPD 
+26 Arrêté du 13 juin 2018 fixant la liste des responsables de traitement au sein des états-majors, directions et services et des 
+organismes qui leur sont rattachés pris sur proposition des EMDS cf. Note n° 001I18001460/ARM/SGA/NP du 15 février 
+2018, note n° DGA n° 01D18024295 DGA/ADM, note n° D-18-000729/ARM/EMA/PLANS/CPI/DR.
+
+[Page 11 / 32 | chars: 3018]
+--------------------------------------------------------------------------------
+
+11 
+ 
+ 
+Le responsable de traitement désigne un représentant (et éventuellement un suppléant) et notifie au 
+DPD son nom, prénom et grade ainsi que ses coordonnées téléphoniques et son adresse électronique. 
+Ce représentant est désigné sur la base de ses compétences juridiques et de sa maîtrise des enjeux 
+technico-organisationnels propres à son entité.  
+ 
+Le responsable de traitement informe par ailleurs le DPD en cas de cessation de fonctions de son 
+représentant. 
+ 
+Chaque responsable de traitement peut décider de mettre en place un réseau de correspondants locaux 
+dans les différents services qui lui sont rattachés. Le réseau local est animé par le représentant nommé 
+par le responsable de traitement. 
+ 
+2.1 Relations avec le DPD.  
+ 
+Le représentant du responsable de traitement assure le relai entre son organisme d’appartenance (en 
+liaison avec le responsable de traitement) et le DPD du ministère pour toutes les questions relatives à 
+la protection des données personnelles.  
+ 
+2.2 Missions au sein de son organisme.  
+ 
+Il a une vision globale de l'ensemble des traitements placés dans le périmètre de son responsable de 
+traitement et il est l'interlocuteur privilégié du DPD.  
+ 
+Il s’assure que le responsable de traitement a pris en compte ses obligations et l’assiste dans sa 
+démarche de mise en conformité.  
+ 
+Il tient à jour le registre des traitements (cf. I du chapitre III) ouvert dans le système d’information 
+ministériel Sicl@de et transmet au DPD les analyses d'impact  élaborées pour les traitements de son 
+périmètre ou le cas échéant les éléments justifiant la non-réalisation de cette analyse d’impact.  
+ 
+Il s'assure notamment du respect des droits des personnes et transmet le cas échéant au DPD les 
+éléments nécessaires au traitement des plaintes adressées par la CNIL.  
+ 
+Il assure par ailleurs la sensibilisation des personnels de son entité aux dispositions de la loi 
+« informatique et libertés » et du RGPD. 
+ 
+Le représentant du responsable de traitement contribue aux contrôles internes menés par le 
+responsable de traitement (cf. I du chapitre IV). 
+ 
+III. L’AGENT CHARGE DE LA MISE EN ŒUVRE DU TRAITEMENT. 
+ 
+L’agent chargé de la mise en œuvre du traitement est le responsable de la conduite d’un projet de 
+système d’information27 (traitement de données structuré) ou l’agent responsable de l’alimentation et 
+de la mise à jour d’un fichier contenant des données à caractère personnel (traitement de données non 
+structuré).  
+ 
+Il est identifié dans le registre, pour chaque traitement recensé et il est à même de fournir au 
+responsable de traitement et à son représentant les informations nécessaires à l’alimentation du registre 
+(cf. chapitre III point I) et à la réalisation d’une analyse d’impact (cf. chapitre III point II). 
+ 
+IV. LE DELEGUE A LA PROTECTION DES DONNEES. 
+ 
+                                                          
+27 Identifié en tant que responsable fonctionnel ou agent chargé de la mise en œuvre du traitement dans le registre.
+
+[Page 12 / 32 | chars: 3743]
+--------------------------------------------------------------------------------
+
+12 
+ 
+Cette fonction est assurée au ministère de la défense par le directeur des affaires juridiques28.  
+ 
+Le DPD est investi d’une mission principale de conseil et d’accompagnement du responsable de 
+traitement. Le DPD est l'unique point de contact de la CNIL et assure donc le relai entre les 
+responsables de traitement et la CNIL. Il a enfin la possibilité de mener des contrôles de conformité 
+des traitements, au regard des dispositions du RGPD.  
+ 
+Le délégué à la protection des données du ministère n’a pas de compétence sur les établissements 
+publics sous tutelle qui sont tenus de désigner leur propre délégué à la protection des données. Il peut 
+toutefois leur apporter son conseil. 
+ 
+4.1 Conseiller.  
+ 
+Le responsable de traitement qui souhaite obtenir un conseil du DPD sollicite la direction des affaires 
+juridiques (DAJ) pour toute question relative à l’application des dispositions du RGPD, qu’il s’agisse 
+d’une question juridique ou technique, via l’adresse fonctionnelle prévue à cet effet : 
+daj.delegue.fct@intradef.gouv.fr. La DAJ prend, le cas échéant, les renseignements nécessaires auprès 
+de ses appuis techniques (cf. point V) et apporte une réponse au responsable de traitement qui l’a 
+sollicitée.  
+ 
+Le responsable de traitement saisit obligatoirement le DPD dans les cas suivants :  
+- 
+réalisation d’une analyse d’impact : le DPD donne un avis formel sur l’analyse réalisée et 
+évalue la nécessité de la présenter à la CNIL (cf. II du chapitre III) ; 
+- 
+préparation d’un acte réglementaire portant création ou modification d’un traitement (cf. II du 
+chapitre III) ; 
+- 
+mise en œuvre d’un traitement de données sensibles (cf. I du chapitre I) ; 
+- 
+mise en œuvre d’un traitement comprenant le transfert de données à caractère personnel hors 
+de l’Union européenne (cf. VII du chapitre III). 
+  
+Le responsable de traitement informe obligatoirement le DPD dans les cas suivants :  
+- 
+mise en œuvre d’un nouveau projet de système d’information, constituant un traitement de 
+données à caractère personnel ou refonte significative d’un projet existant, ayant des impacts 
+sur les modalités des traitements de données à caractère personnel ; 
+- 
+mise en œuvre d’un traitement utilisant une technologie innovante : les traitements de données 
+biométriques et les traitements reposant sur l’utilisation d’un algorithme permettant la prise 
+d’une décision individuelle sur son seul fondement constituent des traitements utilisant une 
+technologie innovante ;  
+- 
+demande d’accès, de rectification ou de suppression : transmission d’un bilan annuel au DPD 
+en janvier de l'année n+1. 
+ 
+Le responsable de traitement peut consulter le DPD à tout moment, notamment sur les questions 
+suivantes : 
+- tenue à jour du registre des activités de traitement, en particulier : information et conseil en 
+matière d’identification de la finalité du traitement, de l’origine et de la sensibilité des données 
+traitées, de la base juridique du traitement et de la durée de conservation des données ; 
+- opportunité de mener une analyse d’impact pour un traitement ; 
+- suites à donner en cas d’exercice de leurs droits par les personnes concernées par un 
+traitement. Il tient à jour une liste des demandes qui lui sont formulées pour pouvoir 
+transmettre ces éléments sur sollicitation annuelle du DPD ; 
+- mesures de sécurité à mettre en place sur leurs traitements, à charge pour le DPD de 
+transmettre la question à son appui technique. 
+ 
+                                                          
+28 Arrêté du 13 juin 2018 portant désignation du délégué à la protection des données au sein du ministère des 
+armées et modifiant l'arrêté du 8 avril 2011 portant organisation de la direction des affaires juridiques.
+
+[Page 13 / 32 | chars: 2912]
+--------------------------------------------------------------------------------
+
+13 
+ 
+4.2 Accompagner.  
+ 
+Le DPD assure une formation des représentants des responsables de traitement lors de leur nomination 
+et propose des formations périodiques. Il peut solliciter le concours de ses appuis techniques pour 
+intervenir sur les aspects techniques lors de ces séances d’information. 
+ 
+4.3 Assurer le relai avec la CNIL.  
+ 
+Le DPD assure le relai entre la CNIL et le responsable de traitement. Les responsables de traitement 
+ne doivent pas saisir la CNIL directement.  
+ 
+Le DPD est le point de contact de la CNIL sur les questions relatives aux traitements mis en œuvre au 
+ministère :  
+- 
+Il assure les consultations préalables auprès de la CNIL prévues par les textes.  
+- 
+Il traite, en liaison avec les EMDS, les plaintes déposées par des particuliers auprès de la 
+CNIL.  
+- 
+Il accompagne enfin les agents de la CNIL en cas de contrôle (cf. chapitre IV).  
+ 
+Le responsable de traitement saisit donc obligatoirement le DPD dans les cas suivants :  
+- 
+maintien de certaines formalités préalables (cf. VII du chapitre III) ; 
+- 
+violation de données pouvant imposer une notification à la CNIL (cf. III du chapitre III). 
+ 
+4.4 Contrôler.  
+ 
+Le DPD assure une mission de contrôle des traitements mis en œuvre au ministère, dans les conditions 
+définies au chapitre IV de l’instruction. 
+ 
+V. LES APPUIS TECHNIQUES DU DELEGUE A LA PROTECTION DES DONNEES. 
+ 
+Dans le cadre de ses missions, la direction générale du numérique et des systèmes d’information et de 
+communication (DGNUM) assure la mise à jour des textes ministériels relatifs à la gouvernance des 
+projets informatiques afin d’assurer la prise en compte des dispositions du RGPD dans la conduite des 
+projets de systèmes d’information.  
+ 
+La DGNUM soutient par ailleurs la DAJ pour les questions techniques liées à l’application du RGPD. 
+Elle donne le cas échéant un avis sur le volet technique des analyses d’impact sur la protection des 
+données (cf. II du chapitre III) et s’assure de la prise en compte des dispositions du RGPD à l’occasion 
+de chaque commission d’homologation. Le DPD peut solliciter, si nécessaire, d’autres entités chargées 
+de la gestion des systèmes d’information. 
+ 
+En outre, le DGNUM, en sa qualité d’administrateur ministériel des données, et le DPD se réunissent 
+périodiquement en vue de faire un point sur la mise en œuvre du RGPD au ministère. Le DPD est 
+associé au comité ministériel de gouvernance des données que doit animer l’administrateur ministériel 
+des données.  
+ 
+5.1 Formations.  
+La DGNUM intervient sur les aspects techniques lors des actions de formation dispensées par le DPD 
+à destination des représentants des responsables de traitement. 
+5.2 Analyse d’impact.  
+ 
+La DGNUM participe à l’identification des risques associés aux opérations de traitement et formalise 
+un avis sur toute analyse d’impact réalisée par les responsables de traitement du ministère. Chaque
+
+[Page 14 / 32 | chars: 3095]
+--------------------------------------------------------------------------------
+
+14 
+ 
+analyse lui est transmise à cette fin par le DPD, qui doit lui-même émettre un avis formel tenant 
+compte de l’étude de la DGNUM (cf. II du chapitre III).  
+ 
+5.3 Contrôles.  
+ 
+La DGNUM participe aux contrôles menés par le DPD, dans les conditions définies au chapitre IV de 
+l’instruction. 
+ 
+ 
+VI. LES ACTEURS COMPETENTS EN MATIERE DE VIOLATION DE DONNEES. 
+ 
+En cas de violation de données à caractère personnel, le responsable de traitement porte la violation à 
+la connaissance du DPD  afin que celui-ci puisse, le cas échéant, procéder à sa notification à la CNIL 
+dans les délais posés par le RGPD29. Le responsable de traitement informe également les services 
+intéressés30, ceux-ci dépendant de la nature de la violation31.   
+ 
+Le guide du responsable de traitement comporte une procédure définie en concertation avec les 
+différents services intéressés est fixée dans (fiche n° 4)32. 
+ 
+CHAPITRE III 
+ 
+LA MISE EN ŒUVRE DES TRAITEMENTS 
+ 
+I. LE REGISTRE DES TRAITEMENTS (art. 30 du RGPD). 
+ 
+Le registre des traitements remplace les déclarations préalables des traitements, qui étaient effectuées 
+auprès de la CNIL avant l’entrée en vigueur du RGPD. Il est tenu à jour sur un module dédié de l’outil 
+Sicl@de. 
+ 
+Les traitements qui étaient soumis à l’établissement d’une déclaration normale auprès de la CNIL sont 
+désormais consignés dans le registre des traitements ; des formalités préalables (demandes d’avis et 
+d’autorisation) sont maintenues pour certaines catégories de traitements.  
+ 
+Le responsable de traitement est responsable de la tenue du registre. Il veille à sa mise à jour régulière.  
+ 
+a) Initialisation du registre. Pour initialiser son registre dans Sicl@de, le responsable de traitement 
+peut se fonder sur les formalités CNIL existantes et sur la cartographie des traitements effectuée par la 
+DAJ. 
+ 
+b) Saisie des données. Le responsable de traitement détermine le processus de saisie et de validation 
+de ses données dans le registre. Le responsable de traitement est garant de la qualité de son registre.  
+ 
+c) Contenu du registre. Le registre recense les traitements de données à caractère personnel mis en 
+œuvre par les responsables de traitement désignés au ministère de la défense.  
+Les traitements de données non structurés (du type tableau Excel) issus de traitements existants 
+(simples extractions) n’ont pas à figurer dans le registre, dès lors qu’ils poursuivent la même finalité 
+que le traitement d’origine, sans ajout de données ni de destinataires (c’est le cas par exemple des 
+traitements effectués par les gestionnaires RH, à partir de données extraites des SIRH).  
+ 
+                                                          
+29 72h à compter de la découverte de la violation. 
+30 ComCyber, DRSD, DPID. 
+31 Si la violation résulte d’un vol de matériel, la DRSD est informée / si la violation résulte d’une attaque informatique, le 
+COMCYBER est informé. 
+32 http://portail-sga.intradef.gouv.fr/sites/info-metier/affaires-juridiques/droit-prive-droit-public/donnees-personnelles-cada-
+cnil/Pages/4--Documents-applicables.aspx
+
+[Page 15 / 32 | chars: 3507]
+--------------------------------------------------------------------------------
+
+15 
+ 
+Une notice est disponible dans Sicl@de, explicitant les champs du registre. Pour la plupart d’entre 
+eux, des menus déroulants sont proposés. Le registre contient les éléments qui étaient portés à la 
+connaissance de la CNIL par le biais des formalités préalables, avant l’entrée en vigueur du RGPD 
+ainsi que des champs complémentaires, tenant compte des dispositions du RGPD.  
+ 
+Ainsi, figurent dans le registre les éléments suivants :  
+- 
+identification du traitement 
+ nom du traitement ; 
+ responsable de traitement ; 
+ finalités du traitement (voir II du chapitre I) ; 
+ fondement juridique du traitement (voir II du chapitre I) ; 
+ analyse d’impact (voir II du chapitre II) ; 
+- 
+description du traitement 
+ catégories de personnes concernées par le traitement (catégories de personnes dont les 
+données à caractère personnel figurent dans le traitement) ; 
+ catégories de données traitées ; 
+ catégories de données sensibles (voir I du chapitre I) ; 
+ origine des données (provenance des données traitées) ; 
+ destinataires des données (personnels ou catégories de personnels amenés à prendre 
+connaissance des données traitées33) ; 
+ durée de conservation des données (voir I du chapitre I) ;  
+ modalités d’exercice des droits des personnes (voir V du chapitre III) ; 
+ mesures de sécurité mises en place (voir IV du chapitre III) ; 
+ interconnexion (transmission de données d’un traitement vers un autre traitement, 
+potentiellement pour des finalités différentes) ; 
+ sous-traitance (voir VI du chapitre III) ; 
+ transferts de données hors de l’Union européenne (voir VII du chapitre III). 
+ 
+ 
+II. LES ANALYSES D’IMPACT (art. 35 et 36 du RGPD). 
+ 
+2.1 Les traitements concernés. 
+ 
+Une analyse d’impact est obligatoire pour les traitements qui présentent une sensibilité particulière, 
+soit un risque élevé pour les droits et libertés des personnes. 
+ 
+ La CNIL a publié une liste de référence des catégories de traitements soumis obligatoirement à la 
+réalisation d’une analyse d’impact34 et non soumis à analyse d’impact35.  
+ 
+ Pour les traitements ne figurant pas dans les listes de référence de la CNIL, les responsables de 
+traitement se réfèrent aux recommandations du DPD, ainsi qu’aux lignes directrices du G29 
+(références en annexe), en utilisant les neuf critères proposés comme un faisceau d’indices 
+susceptibles de mener à l’élaboration d’une analyse d’impact : si un traitement réunit deux des 
+neuf critères proposés, l'élaboration d'une analyse d’impact est obligatoire.  
+ 
+Les éléments d’interprétation ci-dessous sont donnés à titre indicatif.  
+ 
+                                                          
+33 Article 4 point 9 du RGPD : « la personne physique ou morale, l'autorité publique, le service ou tout autre organisme qui 
+reçoit communication de données à caractère personnel, qu'il s'agisse ou non d'un tiers ». 
+34 CNIL, délib., n° 2018-326 et n° 2018-327 du 11 oct. 2018, JO 6 nov. Les traitements concernés sont par exemple : les 
+traitements établissant des profils de personnes physiques à des fins de gestion des ressources humaines, les traitements ayant 
+pour finalité la gestion des alertes et des signalements en matière professionnelle. 
+35 CNIL, délib., n° 2019-118 du 12 sept. 2019, JO 22 oct. Les traitements concernés sont par exemple : les traitements mis en 
+œuvre aux seules fins de gestion des contrôles d'accès physiques et des horaires pour le calcul du temps de travail, en dehors 
+de tout dispositif biométrique.
+
+[Page 16 / 32 | chars: 4288]
+--------------------------------------------------------------------------------
+
+16 
+ 
+a) Le traitement s’applique à grande échelle : si le RGPD fait référence aux traitements de données à 
+niveau national ou supranational, le G29 recommande aux responsables de traitement d’évaluer le 
+champ d’application de ce critère en fonction du nombre de personnes concernées par le traitement, du 
+volume de données traitées, de la permanence ou non de l’activité de traitement et de l’étendue 
+géographique du traitement. La question de l’opportunité de réaliser une analyse d’impact peut se 
+poser pour les traitements de données à caractère personnel concernant l’ensemble des agents du 
+ministère, voire même une grande proportion d’entre eux, si le traitement comprend un volume 
+important de données. 
+ 
+b) Le traitement collecte des données sensibles. Les données sensibles sont celles mentionnées à 
+l’article 9 du RGPD : données relatives à l’origine raciale ou ethnique des personnes, aux opinions 
+politiques, philosophiques, religieuses ou syndicales, à la santé, à la vie sexuelle et à l’orientation 
+sexuelle, aux données biométriques et génétiques. Par principe, ces données ne peuvent faire l’objet 
+d’un traitement. Cependant, le traitement de données sensibles entrant dans le cadre d’une dérogation 
+peut justifier la réalisation d’une analyse d’impact. 
+ 
+Nota : par ailleurs, le G29 considère que la présence de certaines données dans un traitement peut 
+également justifier la réalisation d’une analyse d’impact, bien qu’il ne s’agisse pas de données 
+sensibles au sens des textes. Il peut s’agir de données telles que des données financières, des données 
+de localisation ou des données relatives à la vie personnelle des individus (le G29 cite à ce titre les 
+correspondances privées). La mise en place d’outils de géolocalisation au ministère peut entrer dans le 
+champ d’application de ce critère. Il en va de même pour certains traitements qui font usage des 
+données bancaires des agents. 
+ 
+Concernant les correspondances privées, bien que la messagerie professionnelle puisse faire l’objet 
+d’une utilisation ponctuelle à des fins personnelles (cf. code de bon usage des SIC, référence en 
+annexe), les messages échangés bénéficient d’une présomption de professionnalité selon la 
+jurisprudence. Par ailleurs, la mise en œuvre des messageries au ministère n’est pas considérée comme 
+constituant un traitement de données à caractère personnel. Ainsi, les correspondances privées utilisant 
+les messageries professionnelles des agents du ministère n’entrent pas dans le champ d’application de 
+ce critère. 
+ 
+c) Le traitement engendre des croisements ou des combinaisons de données, pour des finalités 
+différentes : les traitements mis en œuvre au ministère donnant lieu à de nombreuses interconnexions 
+peuvent entrer dans le champ d’application de ce critère.  
+ 
+d)  Le traitement met en œuvre une surveillance systématique des individus : les lignes directrices du 
+G29 font référence à la collecte de données via les réseaux ou dans les lieux publics, sans que la 
+personne concernée n’en soit informée. Les traitements de gestion de logs ou les systèmes de 
+vidéosurveillance mis en œuvre au ministère de la défense sont portés au préalable à la connaissance 
+des agents, via le code de bon usage des SIC, publié au Bulletin officiel des armées pour la gestion des 
+logs et par la mise en place d’un affichage pour les systèmes de vidéosurveillance. Ainsi, ces 
+traitements n’entrent pas, de fait, dans le champ d’application de ce critère. 
+ 
+e) Le traitement concerne des personnes vulnérables : si le RGPD fait référence à des traitements de 
+données concernant des enfants, les lignes directrices du G29 évoquent, à titre de personnes 
+vulnérables, les personnes âgées, les personnes déficientes et les employés. La CNIL fait également 
+référence, dans certaines de ses publications, aux employés comme étant des personnes vulnérables. 
+Au ministère, les personnels protégés par l’anonymat sont considérées comme faisant partie des 
+personnes vulnérables : la présence, dans un traitement, de données les concernant justifie la 
+réalisation d’une analyse d’impact36. 
+ 
+                                                          
+36 Cf. guide du responsable de traitement, fiche n° 2 sur les analyses d’impact et les actes règlementaires.
+
+[Page 17 / 32 | chars: 4111]
+--------------------------------------------------------------------------------
+
+17 
+ 
+Le critère du G29 est rempli dès lors qu’il existe un déséquilibre accru entre le responsable de 
+traitement et la personne concernée par le traitement, de telle sorte que cette dernière pourrait avoir des 
+difficultés à faire valoir ses droits, au titre du RGPD. Les agents du ministère ne se trouvent pas dans 
+une position de subordination telle qu’ils puissent être considérés comme étant des personnes 
+vulnérables au sens du RGPD. En effet, ils sont informés des traitements mis en œuvre sur leurs 
+données et sont en mesure d’exercer les droits qui leur sont reconnus par les textes relatifs à la 
+protection des données. Ainsi, ce critère n’est en principe pas rempli pour les traitements relatifs aux 
+personnels du ministère de la défense. 
+ 
+f) Le traitement consiste en l’évaluation ou la notation d’individus : ce critère fait référence au 
+profilage, consistant à prédire le comportement des personnes, en particulier dans le domaine du 
+marketing et de la consommation. Ainsi, les évaluations et notations réalisées par les ressources 
+humaines et concourant à la gestion de la carrière des agents du ministère n’entrent pas 
+systématiquement dans le champ d’application de ce critère. En effet, la notation des agents est 
+encadrée de garanties posées par les procédures en place ; elle ne donne pas lieu à elle seule à une 
+décision pouvant affecter la carrière des agents et elle est réalisée au cas par cas, sans faire appel à des 
+processus automatisés qui se substitueraient à une décision humaine. 
+ 
+g)  Le traitement consiste en une prise de décision automatisée avec effets juridiques : ce critère 
+nécessite des éclaircissements de la part du G29. Les traitements mis en œuvre au ministère de la 
+défense aux fins de l’évaluation annuelle des agents, menée conformément aux processus de 
+ressources humaines en place, n’entrent pas dans le champ d’application de ce critère (cf. point ci-
+dessus concernant la notation des agents). 
+ 
+h) Le traitement se livre à une utilisation innovante ou à l’application de nouvelles solutions 
+technologiques ou organisationnelles : les lignes directrices du G29 citent à titre illustratif de ce 
+critère l’Internet des objets ou l’utilisation de différentes technologies de reconnaissance biométrique. 
+Les systèmes de reconnaissance biométrique mis en œuvre par l’Etat aux fins d’authentification des 
+personnes restent soumis à l’accomplissement de formalités préalables auprès de la CNIL (cf. VIII du 
+chapitre III). Néanmoins, ce critère peut être rempli en cas de conception ou d’utilisation d’autres 
+types de technologies innovantes par les EMDS du ministère. Le responsable de traitement consulte 
+le DPD en cas de mise en œuvre de ce type de traitement. 
+ 
+i) Le traitement lui-même a pour but d’empêcher une personne d’avoir accès à un service ou de 
+conclure un contrat : le G29 cite, à titre d’exemple, les traitements réalisés par les banques ayant 
+vocation à accorder ou refuser un prêt à ses clients. Les traitements mis en œuvre au ministère de la 
+défense étant fondés sur l’exécution de sa mission d’intérêt public, ils n’ont, pour la plupart, pas pour 
+objet d’empêcher une personne d’avoir accès à un service ou de conclure un contrat. 
+ 
+Il revient à chaque responsable de traitement de faire une étude au cas par cas pour déterminer la 
+nécessité ou non de mener une analyse d'impact. Le responsable de traitement devra être en mesure de 
+justifier son choix d’élaborer ou non une AIPD. S’il décide de ne pas en réaliser, il doit être en mesure 
+de le justifier.  
+ 
+Lorsque le responsable de traitement décide d'élaborer une analyse d'impact, il en informe le DPD. 
+ 
+L’analyse n’est pas requise pour les traitements existant avant l'entrée en vigueur du RGPD et ayant 
+fait l’objet d’une formalité préalable auprès de la CNIL. Ces traitements devront néanmoins être mis 
+en conformité dans un délai de trois ans à compter du 25 mai 2018 (délai fixé par la CNIL). Il est 
+conseillé au responsable de traitement de ne pas attendre l’expiration du délai de trois ans pour initier 
+la réalisation des analyses d'impact.
+
+[Page 18 / 32 | chars: 3033]
+--------------------------------------------------------------------------------
+
+18 
+ 
+Cette mise en conformité est requise sans attendre le terme du délai de trois ans pour les traitements 
+qui font l’objet d’une évolution substantielle37 (par exemple : une augmentation sensible du nombre de 
+destinataires des données). 
+ 
+2.2 Le contenu de l’analyse d’impact. 
+ 
+L’analyse d’impact a pour objet de révéler les risques que présente un traitement de données 
+personnelles pour les droits et libertés des individus.  
+ 
+ 
+2.2.1 Analyse globale.  
+ 
+Une seule analyse d’impact peut couvrir plusieurs traitements, s’ils poursuivent la même finalité, 
+traitent les mêmes données et ont les mêmes destinataires. 
+ 
+2.2.2 Outils.  
+ 
+Le DPD ministériel a mis en ligne sur l’espace SGA Connect38 différents outils à l’attention des 
+responsables de traitement du ministère des armées. Les responsables de traitement y trouveront 
+notamment le modèle d'analyse d'impact élaboré pour le ministère de la défense qui doit être utilisé.  
+ 
+2.2.3 Réévaluation  
+ 
+L’analyse d’impact est mise à jour par le responsable de traitement lorsque son traitement subit des 
+évolutions substantielles, susceptibles de mener à une réévaluation des risques engendrés pour les 
+droits et libertés des personnes. Le responsable de traitement est invité à remettre à jour l’analyse 
+d’impact réalisée initialement pour son traitement à échéance régulière, soit tous les trois ans.  
+ 
+2.3 La réalisation de l’analyse d’impact.  
+ 
+2.3.1 Elaboration et validation de l’analyse d’impact.  
+ 
+Le responsable de traitement fait appel à l’agent chargé de la mise en œuvre du traitement39 pour 
+rédiger l’analyse d’impact, utilisant le modèle fourni par le DPD. Il s’appuie sur la chaine SSI de son 
+entité d’appartenance. 
+ 
+Les opérateurs internes qui assurent des prestations pour le compte du responsable de traitement 
+(notamment : prestation d’hébergement) sont tenus de donner les informations nécessaires au 
+responsable de traitement, afin qu’il puisse mener à bien son analyse d'impact.  
+ 
+Le responsable de traitement signe l’analyse d’impact et la présente au DPD. Il joint à son envoi 
+un projet d’arrêté, pour publication au Journal officiel. 
+ 
+Le DPD émet un avis formel sur l’analyse qui lui est présentée, tenant compte de l’avis de la DGNUM 
+qu’il sollicite sur chaque analyse. Le DPD évalue la nécessité de présenter l’analyse d’impact à la 
+CNIL.  
+ 
+Le cas échéant, la CNIL dispose d’un délai de deux mois, qui peut être prorogé de six semaines, pour 
+rendre un avis sur l’analyse qui lui a été soumise. La CNIL n’a pas vocation à donner une autorisation 
+de mise en œuvre du traitement, la décision appartenant au responsable de traitement, au regard des 
+risques qu’il présente pour la vie privée des personnes concernées. Les agents de la commission 
+                                                          
+37 Considérant 171 du RGPD. 
+38 http://portail-sga.intradef.gouv.fr/sites/info-metier/affaires-juridiques/droit-prive-droit-public/donnees-personnelles-cada-
+cnil/Pages/CNIL.aspx    
+39 Responsable de projet.
+
+[Page 19 / 32 | chars: 3385]
+--------------------------------------------------------------------------------
+
+19 
+ 
+peuvent cependant émettre des recommandations quant aux modalités de mise en œuvre du traitement, 
+proposant notamment des mesures permettant de réduire le risque engendré par le traitement. 
+ 
+2.3.2 Sanctions.  
+ 
+Les manquements à l’obligation de réaliser une analyse d’impact, la mauvaise exécution de celle-ci ou 
+le défaut de consultation de la commission en cas de risque élevé révélé par l’analyse sont susceptibles 
+d’être sanctionnés par la CNIL, qui peut notamment prononcer une limitation du traitement40.  
+ 
+III. L’ENCADREMENT PAR UN ACTE REGLEMENTAIRE 
+ 
+Tout traitement de données à caractère personnel est créé par un arrêté publié au Journal officiel de la 
+République française et signé par le responsable de traitement. A titre dérogatoire, certains traitements 
+peuvent être exclus de l’obligation d’élaborer un arrêté41 (par exemple : gestion des comptes et accès 
+informatiques, gestion du courrier et des dossiers). Les traitements intéressant la défense nationale ou 
+la sûreté de l’Etat exclus du champ d’application du RGPD, font l’objet d’un décret en conseil d’Etat 
+pris après avis de la CNIL, conformément à l’article 31 de la loi « informatique et libertés ». 
+ 
+Le projet d’acte réglementaire est transmis pour avis au DPD en même temps que l’analyse d’impact 
+sur la protection des données (voir II du chapitre III). Après validation du DPD, le représentant du 
+responsable de traitement recueille la signature du RT et transmet cet arrêté à la direction des affaires 
+juridiques qui se charge des formalités de publication au Journal officiel. 
+ 
+IV. LA SECURISATION DES TRAITEMENTS. 
+ 
+4.1 L’obligation générale de sécurité (art. 32 du RGPD). 
+ 
+Le responsable de traitement doit mettre en œuvre les mesures techniques et organisationnelles 
+appropriées afin de garantir un niveau de sécurité adapté au risque42. Le RGPD cite un certain 
+nombre de mesures de sécurité que le responsable de traitement peut choisir de mettre en œuvre, sans 
+que celles-ci ne soient rendues obligatoires (par exemple : pseudonymisation et chiffrement des 
+données).  
+ 
+Le responsable de traitement doit s’assurer de l’intégrité, de la disponibilité et de la confidentialité des 
+données traitées. Il documente les mesures de sécurité qu’il met en œuvre pour chaque traitement de 
+données :  
+- 
+par le biais du champ dédié dans le registre des traitements ; 
+- 
+dans l’analyse d’impact lorsque celle-ci est requise. 
+ 
+En cas de contrôle des traitements réalisés par le DPD ou par la CNIL (cf. chapitre IV), les mesures de 
+sécurité mises en place font l’objet de vérifications. 
+ 
+Le choix des mesures de sécurité est déterminé par la sensibilité du traitement mis en œuvre et par la 
+nature des données traitées. Au sein d’un même traitement, les mesures de sécurité mises en place 
+peuvent être de nature différente en fonction des données. Le responsable d’un traitement contenant 
+des données relatives à des personnels sous anonymat veille à la mise en place de mesures de sécurité 
+adaptées en portant notamment une attention particulière à la gestion des droits et des profils d’accès 
+au traitement. 
+ 
+                                                          
+40 Article 58 point 1° - f) du RGPD. 
+41 La liste des traitements de données non soumis à publication est fixée par le guide du responsable de traitement, fiche n° 2.  
+42 Article 32 du RGPD.
+
+[Page 20 / 32 | chars: 3232]
+--------------------------------------------------------------------------------
+
+20 
+ 
+Les opérateurs internes qui réalisent des prestations pour le compte du responsable de traitement 
+(notamment : prestation d’hébergement) sont tenus d’assurer le niveau de sécurité des données qui leur 
+est demandé par le responsable de traitement. 
+ 
+4.2 La notification des violations de données (art. 33 et 34 du RGPD). 
+ 
+Les violations de données intervenant sur un traitement de données à caractère personnel et engendrant 
+un risque pour les droits et libertés des personnes sont notifiées à la CNIL43 et  à la personne concernée 
+par la violation, sauf dérogation44. Le responsable de traitement s’assure de la notification des 
+violations de données Il conserve les documents qui s’y rapportent, permettant de démontrer la 
+conformité de ses traitements vis-à-vis des dispositions du RGPD45.  
+ 
+4.2.1 Notification à la CNIL.  
+ 
+Les violations de données entraînant un risque pour les droits et libertés des personnes doivent 
+faire l’objet, dans les 72 heures, d’une notification à la CNIL. Le responsable de traitement saisit à 
+cet effet le DPD ministériel qui se rapprochera de la CNIL (cf. IV du chapitre II). 
+ 
+4.2.2 Contenu de la notification.  
+ 
+La notification de la violation décrit la violation, ses conséquences possibles et les mesures prises par 
+le responsable de traitement pour y remédier.  
+ 
+4.2.3 Notification à la personne concernée.  
+ 
+Si la violation de données est susceptible d’engendrer un risque élevé pour les personnes concernées, 
+le responsable de traitement notifie la violation à la personne concernée. Il décrit la violation, ses 
+conséquences possibles pour la sécurité des données et les mesures prises pour y remédier. 
+ 
+Si le responsable de traitement décide de ne pas notifier la violation à la personne concernée, la CNIL 
+peut le lui imposer. Toutefois, ne sont pas soumis à ce régime les traitements entrant dans le cadre des 
+dérogations prévues par le II de l’article 58 de la loi « informatique et libertés » et dont le décret 
+d’application46 fixe la liste. C’est le cas par exemple des violations intervenant sur des données 
+appartenant à des personnes protégées par le respect de l’anonymat au titre de l’article 39 sexies de la 
+loi du 29 juillet 1881 sur la liberté de la presse. 
+ 
+V. LES DROITS DES PERSONNES (art. 6 et 7; 12 à 22 du RGPD). 
+ 
+Le responsable de traitement est tenu de donner suite aux demandes d’accès, de rectification et, le cas 
+échéant de suppression des données qui sont formulées au titre du RGPD.  
+ 
+5.1 Les droits des personnes. 
+ 
+5.1.1 Information.  
+ 
+Le responsable de traitement doit assurer l’information des personnes concernées par la mise en œuvre 
+d’un traitement de leurs données à caractère personnel, à charge pour lui de déterminer la forme de 
+l’information adéquate, en fonction du traitement (affichage, mention sur formulaire ou sur site 
+internet, etc.).  
+ 
+                                                          
+43 Article 33 du RGPD. 
+44 Article 34 du RGPD. 
+45 La CNIL conseille à ce titre la tenue à jour d’un registre des violations.  
+46 Décret n° 2019-536 du 29 mai 2019 pris pour l'application de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, 
+aux fichiers et aux libertés (article 85).
+
+[Page 21 / 32 | chars: 3422]
+--------------------------------------------------------------------------------
+
+21 
+ 
+Les personnes doivent être informées des finalités du traitement, des catégories de données à caractère 
+personnel traitées, des destinataires des données, de la durée de conservation des données et des 
+modalités d’exercice de leurs droits par les personnes concernées. Ces informations figurent dans le 
+registre des traitements. 
+ 
+Le responsable de traitement doit être en mesure de démontrer qu’il a procédé à l’information des 
+personnes, conformément aux dispositions du RGPD.  
+ 
+Lorsqu’une décision individuelle est prise sur le seul fondement d’un traitement algorithmique 
+contenant des données à caractère personnel47, le responsable du traitement en informe les personnes 
+concernées selon les modalités du RGPD mais aussi conformément aux dispositions spécifiques du 
+code des relations entre le public et l’administration48 qui imposent de porter à la connaissance des 
+personnes concernées leur droit de demander communication des règles définissant le traitement 
+algorithmique, ainsi que, le cas échéant, les modalités de saisine de la Commission d’accès aux 
+documents administratifs49. L’information des personnes figure sur la décision individuelle prise sur le 
+fondement de l’algorithme. 
+ 
+En cas de défaut d’information des personnes dans les conditions requises, la décision individuelle 
+prise sur le fondement de l’algorithme sera entachée de nullité50. 
+ 
+5.1.2 Accès et rectification.  
+ 
+Le responsable de traitement donne suite aux demandes d’accès et de rectification dans un délai d’un 
+mois51 à compter de la formulation de la demande par la personne concernée. Si la demande est 
+imprécise, il peut demander un complément d'information qui suspend le délai. 
+ 
+Le droit d’accès permet à toute personne concernée par le traitement de ses données à caractère 
+personnel d'en demander la communication au responsable de traitement. Le droit de rectification 
+permet à la personne concernée de demander au responsable de traitement à ce que ses données soient 
+corrigées ou complétées. Les droits d’accès et de rectification peuvent être exercés à tout moment et le 
+responsable de traitement est tenu d’y donner suite, quel que soit le traitement concerné, sous la forme 
+souhaitée par le demandeur. 
+ 
+5.1.3 Exceptions au droit d’accès.  
+ 
+Le responsable de traitement n’est pas tenu de donner suite aux demandes manifestement infondées ou 
+excessives, à charge pour lui d’en démontrer le caractère infondé ou excessif.  
+ 
+Par ailleurs, seuls les documents achevés sont communicables : ainsi, pour les documents 
+préparatoires qui sont rédigés dans le cadre des traitements relatifs à la gestion des ressources 
+humaines, le responsable de traitement n’est tenu de communiquer qu’au moment où la donnée 
+devient définitive.  
+ 
+En cas de doute, le responsable de traitement demande conseil au DPD.  
+ 
+5.1.4 Suppression.  
+ 
+                                                          
+47 Article 22 du RGPD et article 47 de la loi « informatique et libertés ». 
+48 Article L. 311-3-1 du code des relations entre le public et l’administration. 
+49 Article R311-3-1-1 du code des relations entre le public et l’administration.  
+50 Les dispositions qui prévoient la sanction de nullité d’une telle décision entrent en vigueur au 1er juillet 2020 (cf. article 37 
+de la loi n°2018-493 du 20 juin 2018 relative à la protection des données personnelles). 
+51 Article 12 point 3 du RGPD.
+
+[Page 22 / 32 | chars: 3318]
+--------------------------------------------------------------------------------
+
+22 
+ 
+Le responsable de traitement porte à la connaissance des agents leur possibilité de s’opposer au 
+traitement ou de demander à ce que leurs données soient effacées (cf. ci-dessus : information des 
+personnes).  
+ 
+Si le traitement est fondé sur le consentement de la personne, le droit à l’effacement (ou « droit à 
+l’oubli ») sera applicable52. En revanche, si le traitement est nécessaire à l’exécution d’une mission 
+d’intérêt public (ce qui est en principe le cas des traitements mis en œuvre par le ministère), ce droit 
+n’est pas applicable, la personne concernée pouvant seulement exercer son droit d’opposition53. 
+ 
+Le responsable de traitement ne pourra utiliser les données d’un agent ayant exercé son droit 
+d’opposition que s’il existe des motifs légitimes au traitement, qui prévalent sur les intérêts et les 
+droits de la personne concernée, notamment les traitements répondant à une obligation légale ou 
+nécessaires à l’exécution d’une mission d’intérêt public54 (par exemple : SIRH). 
+ 
+ 
+5.1.5 Consentement.  
+ 
+Le RGPD prévoit les modalités de recueil du consentement de la personne concernée55, pour les 
+traitements fondés sur le consentement56. Les traitements mis en œuvre au ministère de la défense 
+étant fondés sur l’exécution de sa mission d’intérêt public, le consentement des personnes concernées 
+n’est pas requis dans la plupart des cas.  
+ 
+Toutefois, la mise en œuvre de certains traitements requiert une réflexion de la part du responsable de 
+traitement, sur la nécessité d’obtenir le consentement des personnes concernées (notamment : mise en 
+œuvre de sites internet ou de traitements de données non obligatoires, fondés sur la volonté de la 
+personne).  
+ 
+De même, le responsable de traitement qui se livre à la collecte de données sensibles au sens de 
+l’article 9 du RGPD, fondée sur le consentement de la personne concernée, doit être en mesure de 
+prouver son obtention. Le RGPD prévoit que le consentement est donné par déclaration écrite (y 
+compris par voie électronique) ou orale de la personne concernée57. Il est néanmoins conseillé aux 
+responsables de traitement d’obtenir le consentement de la personne concernée par écrit.  
+ 
+5.1.6 Limitation.  
+ 
+Le RGPD prévoit un droit à la limitation des données. Celui-ci permet à la personne concernée de 
+demander au responsable de traitement à ce que ses données soient conservées, mais non traitées. Les 
+cas dans lesquels le droit à la limitation du traitement peut être exercé sont limités58.  
+ 
+5.1.7 Portabilité.  
+ 
+Le RGPD prévoit un droit à la portabilité des données qui permet à toute personne concernée par un 
+traitement de ses données d’en demander la restitution sous format lisible au responsable de 
+traitement, ou le transfert vers un nouveau responsable de traitement.  
+ 
+                                                          
+52 Article 17 du RGPD. 
+53 Article 21 du RGPD. 
+54 Considérant 65 du RGPD. 
+55 Article 7 du RGPD. 
+56 Article 6 1a) du RGPD. 
+57 Considérant 32 du RGPD. 
+58 Article 18 du RGPD : le droit à la limitation s’applique si la personne concernée exerce son droit de rectification, si le 
+traitement est illicite, si la personne concernée souhaite que ses données soient conservés pour exercer un droit en justice, si 
+la personne concernée a exercé son droit d’opposition.
+
+[Page 23 / 32 | chars: 2983]
+--------------------------------------------------------------------------------
+
+23 
+ 
+Ce droit ne s'applique pas en principe au traitement nécessaire à l'exécution d'une mission d'intérêt 
+public. 
+ 
+5.2 La mise en œuvre des droits des personnes. 
+ 
+5.2.1 Procédure.  
+ 
+Pour pouvoir exercer ses droits, la personne concernée doit prouver son identité auprès du responsable 
+de traitement. Celui-ci lui communique uniquement les données la concernant. Si le responsable de 
+traitement dispose d’une grande quantité de données relatives à la personne concernée, il peut lui 
+demander de préciser sa demande59. 
+ 
+Si la demande est formulée par voie électronique, le responsable du traitement est tenu d’y répondre 
+dans les mêmes formes et de transmettre à la personne concernée, en plus des informations visées ci-
+dessus, une copie des données la concernant. Le responsable de traitement peut demander le paiement 
+de frais raisonnables basés sur les coûts administratifs, pour toute copie supplémentaire60. 
+ 
+Outre la copie de ses données, le responsable de traitement communique à l’agent les informations 
+suivantes (cf. article 15 du RGPD) :  
+- 
+les finalités du traitement ; 
+- 
+les catégories de données collectées ; 
+- 
+les destinataires des données ; 
+- 
+la durée de conservation des données.  
+ 
+De plus, le responsable de traitement informe l’agent concerné de son droit de rectification et, le cas 
+échéant, de son droit de suppression. Il lui indique la possibilité d’introduire un recours devant la 
+CNIL. 
+ 
+Le responsable de traitement doit être en mesure de prouver qu’il a donné suite aux demandes d’accès 
+et de rectification qui lui sont adressées. 
+ 
+5.2.2 Obligation de notification.  
+ 
+L’exercice de leur droit de rectification, d’effacement ou de limitation par les personnes concernées 
+doit être notifié par écrit à chaque destinataire des données identifié dans le registre. 
+ 
+Les modalités de la notification sont décrites dans la procédure interne à chaque entité, décrivant la 
+mise en œuvre des droits des personnes. Le responsable de traitement doit être en mesure de 
+démontrer qu’il a procédé à la notification demandée, pour chaque demande d’accès, de rectification 
+ou de suppression des données qui lui parvient. 
+ 
+5.3 Les obligations du responsable de traitement. 
+ 
+Pour chaque traitement, le responsable identifie, dans le registre, le service auprès duquel s’exercent 
+les droits des personnes. Il indique les coordonnées de la personne à contacter et porte cette 
+information à la connaissance des intéressés (cf. point 4.1.1 ci-dessus sur l’information des personnes).  
+ 
+5.3.1 Processus interne.  
+ 
+Il est conseillé au responsable de traitement de définir un processus interne de mise en œuvre des 
+droits des personnes. Celui-ci doit identifier les modalités d’information des personnes, en fonction 
+des traitements mis en œuvre, les personnes à même de donner suite aux demandes d’accès, de 
+                                                          
+59 Considérant 63 du RGPD. 
+60 Article 15 point 3 du RGPD.
+
+[Page 24 / 32 | chars: 3156]
+--------------------------------------------------------------------------------
+
+24 
+ 
+rectification, de suppression, en fonction des traitements de données concernés, ainsi que les 
+conditions de la notification de ces demandes à l’ensemble des destinataires identifiés pour les 
+traitements concernés par une demande d’accès, de rectification ou de suppression. 
+ 
+5.3.2 Sollicitation du DPD.  
+ 
+Tous les ans, le responsable de traitement adresse à la DAJ un bilan des demandes d’exercice de leurs 
+droits par les personnes concernées pour les traitements relevant de son périmètre. Ce bilan doit être 
+transmis en janvier de l'année n+1. Il contribue à la mesure de la conformité des organismes du 
+ministère aux dispositions de la loi « informatique et libertés » et du RGPD et peut être demandé par la 
+CNIL en cas de contrôle. 
+ 
+VI. LA SOUS-TRAITANCE (art. 28 à 30 du RGPD). 
+ 
+Le sous-traitant au sens du RGPD est la personne physique ou morale, l'autorité publique, le service 
+ou un autre organisme qui traite des données à caractère personnel pour le compte du responsable de 
+traitement61. Dès lors, le sous-traitant peut être un opérateur externe ou interne au ministère de la 
+défense. L’opérateur interne est qualifié de sous-traitant si un acte juridique reconnu par le droit de 
+l’Union ou par le droit d’un Etat membre62 lie les deux parties. 
+ 
+Le RGPD prévoit la possibilité d’engager la responsabilité du sous-traitant en cas de non-conformité 
+vis-à-vis des dispositions du RGPD.  
+ 
+6.1 Les contrats de la commande publique. 
+ 
+6.1.1 Clauses de confidentialité.  
+ 
+Le responsable de traitement qui confie la mise en œuvre de traitements de données à caractère 
+personnel pour son compte à un opérateur privé, en vertu d’un contrat de la commande publique, 
+applique les dispositions du RGPD relatives à la sous-traitance. 
+ 
+Dès lors, il est tenu d’insérer des clauses de confidentialité63 dans le contrat qui le lie à son sous-
+traitant. Celles-ci permettent de garantir la mise en place, par le sous-traitant, des mesures de sécurité 
+nécessaires, en fonction du traitement de données à caractère personnel qu’il effectue pour le compte 
+du responsable de traitement. 
+ 
+6.1.2 Registre.  
+ 
+De son côté, le titulaire du marché est tenu de renseigner son propre registre des traitements. Il est 
+conseillé au responsable de traitement de vérifier la conformité du registre du titulaire par rapport à 
+son propre registre. Le responsable de traitement peut être sollicité par le sous-traitant pour lui 
+apporter les informations nécessaires à la mise à jour de son registre.  
+ 
+6.1.3 Prise en compte de la vie privée dès la conception (« Privacy by design »).  
+ 
+Le RGPD encourage la prise en compte de la règlementation sur les données à caractère personnel dès 
+la conception du système d’information64. Le responsable de traitement insère des clauses de « privacy 
+by design » dans les documents du marché. Il consulte si nécessaire le DPD sur ce point. 
+ 
+6.2 Les contrats signés entre différents services de l’administration. 
+ 
+                                                          
+61 Article 4 point 8 du RGPD. 
+62 Article 28 point 3 du RGPD. 
+63 Article 28 point 3 du RGPD. 
+64 Article 25 du RGPD.
+
+[Page 25 / 32 | chars: 3692]
+--------------------------------------------------------------------------------
+
+25 
+ 
+6.2.1 Délégations de gestion.  
+ 
+Deux entités du ministère liées par un acte juridique reconnu par le droit français appliquent les 
+dispositions du RGPD relatives à la sous-traitance. C’est le cas notamment des entités liées par une 
+convention de délégation de gestion.  
+ 
+Le régime des délégations de gestion est défini par le décret n° 2004-1085 du 14 octobre 2004 relatif à 
+la délégation de gestion dans les services de l’Etat. L’article 1er du décret définit la délégation de 
+gestion comme étant « l'acte par lequel un ou plusieurs services de l'Etat confient à un autre service 
+de l'Etat, pour une durée limitée éventuellement reconductible, la réalisation, pour leur compte, 
+d'actes juridiques, de prestations ou d'activités déterminées concourant à l'accomplissement de leurs 
+missions ». Ainsi, des clauses de confidentialité doivent être intégrées dans ces contrats. 
+ 
+Le service délégataire apparaît dans le registre du responsable de traitement dans le champ dédié à la 
+sous-traitance. De son côté, le délégataire recense le traitement qu’il effectue pour le compte du 
+responsable de traitement dans un registre distinct, qu’il tient à jour sur un fichier bureautique séparé 
+et qu’il transmet au DPD ministériel une fois par an. Figurent dans son registre : l’identification du 
+responsable de traitement, le nom du traitement qu’il effectue pour son compte, les mesures de 
+sécurité des données et le cas échéant, les transferts de données hors de l’Union européenne.  
+ 
+6.2.2 Autres contrats.  
+ 
+Il existe au sein du ministère de la défense d’autres moyens de contractualisation pouvant prendre la 
+forme, par exemple, de contrats de service. Ceux-ci ne constituant pas des actes juridiques reconnus 
+par le droit de l’Union européenne, la notion de sous-traitant au sens du RGPD ne trouve pas à 
+s’appliquer. 
+ 
+Les entités liées par un contrat de service peuvent recourir à l’insertion de clauses de confidentialité, à 
+titre de bonne pratique, bien que le contrat de service ne soit pas considéré comme un acte juridique 
+formalisant une relation de sous-traitance entre les deux parties.  
+ 
+Les opérateurs internes qui assurent des prestations pour le compte du responsable de traitement (tel 
+que l’hébergement) sont néanmoins tenus d’assurer le niveau de sécurité des données qui leur est 
+demandé par le responsable de traitement. 
+ 
+Le traitement reste recensé dans le registre du responsable de traitement. 
+ 
+VII. LES TRANSFERTS DE DONNEES HORS DE L’UNION EUROPEENNE (art. 44 et suivants 
+du RGPD). 
+ 
+Le responsable de traitement ne peut transférer des données hors de l’Union européenne, sans 
+s’assurer que l’Etat, l’organisme (public ou privé) ou l’organisation internationale destinataire est en 
+conformité avec les dispositions du chapitre V du RGPD.  
+ 
+Ainsi, le destinataire des données offre un niveau de protection adéquat des données : 
+- 
+s’il bénéficie d’une décision d’adéquation de la Commission européenne65 ; 
+- 
+s’il présente des garanties appropriées. Les garanties appropriées doivent conduire à un niveau 
+de sécurisation des données suffisant et prévoir la prise en compte des droits des personnes 
+(cf. V du chapitre III de l’instruction).  Les garanties appropriées peuvent prendre la forme de 
+clauses-types à insérer dans les contrats de transferts, soumis à autorisation de la CNIL. 
+L’adoption de règles d’entreprises contraignantes ou de codes de conduite par l’organisme 
+                                                          
+65 Bénéficient d’une décision d’adéquation de la Commission les Etats suivants : Andorre, Argentine, Canada, Iles Féroé, Ile 
+de Man, de Guernesey, de Jersey, Israël, Uruguay et Suisse.
+
+[Page 26 / 32 | chars: 3416]
+--------------------------------------------------------------------------------
+
+26 
+ 
+destinataire des données peuvent également permettre d’apporter les garanties suffisantes 
+nécessaires au transfert de données. 
+ 
+Le responsable de traitement qui envisage un transfert de données hors de l’Union européenne 
+l’indique dans son registre, dans le champ correspondant. Il saisit obligatoirement le DPD. 
+ 
+VIII. LES FICHIERS SOUMIS A DES FORMALITES PREALABLES AUPRES DE LA CNIL. 
+ 
+Trois catégories de traitement de données sont particulièrement concernées par le maintien de 
+formalités préalables auprès de la CNIL : les traitements de données de santé, les traitements de 
+données biométriques ou génétiques mis en œuvre par l’Etat aux fins d’authentification des personnes 
+et les traitements qui intéressent la sûreté de l’Etat au sens de l’article 31 de la loi « informatique et 
+libertés » (fichiers de souveraineté)66 ou portent exclusivement sur des unités couvertes par 
+l’anonymat. 
+Le responsable de traitement saisit obligatoirement la DAJ lorsqu'il envisage de mettre en 
+œuvre de tels traitements. 
+ 
+CHAPITRE IV 
+ 
+CONTROLES ET SANCTIONS 
+ 
+I. LES CONTRÔLES INTERNES. 
+ 
+1.1 Les contrôles du responsable de traitement. 
+ 
+Le responsable de traitement s’assure de la conformité des traitements qu’il met en œuvre vis-à-vis des 
+dispositions du RGPD. Il peut à ce titre, dans le cadre de la mise en œuvre du contrôle interne, du 
+ressort de chaque EMDS du ministère67, mener des audits internes qui lui permettent d’évaluer sa 
+conformité par rapport aux recommandations émises par le DPD (cf. point suivant).  
+ 
+Le responsable de traitement doit être en mesure de démontrer la conformité des traitements qu’il met 
+en œuvre aux dispositions du RGPD.  
+Pour ce faire, il conserve dans un dossier associé à chaque traitement, l’ensemble des documents 
+participant à la description du traitement, comprenant notamment : 
+- 
+la fiche de traitement dans Sicl@de ; 
+- 
+l’analyse d’impact si elle a été réalisée (ou les éléments justifiant la décision du responsable de 
+traitement de ne pas réaliser d’analyse d’impact pour son traitement) ; 
+- 
+les documents relatifs à la mise en œuvre des droits des personnes ; 
+- 
+la documentation relative à la sous-traitance. 
+ 
+1.2 Les contrôles du DPD. 
+ 
+Le DPD est chargé de veiller au respect du règlement européen et aux dispositions de droit national en 
+matière de protection des données par le responsable de traitement.  
+ 
+Il émet à ce titre des recommandations à destination du responsable de traitement. Les 
+recommandations du DPD peuvent être émises à titre individuel, vers le responsable de traitement 
+concerné ou elles peuvent être diffusées de manière plus générale à l’ensemble des responsables de 
+traitement du ministère et à son réseau de représentants. 
+                                                          
+66 Les traitements de données de santé sont soumis aux articles 64 et suivants de la loi « informatiques et libertés » ; à ce titre, 
+ils doivent faire l’objet d’une demande d’autorisation auprès de la CNIL.  
+Les traitements qui intéressent la sûreté de l’Etat ou qui portentt exclusivement sur des unités couvertes par l’anonymat ainsi 
+que les traitements de données biométriques doivent être soumis pour avis à la CNIL et faire l'objet d'un acte réglementaire, 
+conformément aux dispositions des articles 31 et 32 de la loi « informatique et libertés. 
+67 Conformément aux textes d’organisation des EMDS.
+
+[Page 27 / 32 | chars: 3239]
+--------------------------------------------------------------------------------
+
+27 
+ 
+ 
+Le DPD s’assure de la conformité des traitements par le biais du registre : celui-ci lui permet 
+d’identifier les traitements présentant un risque particulier pour les droits et libertés des personnes et 
+de vérifier la mise en œuvre des mesures adéquates (notamment : mise en place des mesures de 
+sécurité nécessaires, réalisation d’une analyse d’impact). 
+ 
+La mise en œuvre des recommandations du DPD par le responsable de traitement peut faire l’objet de 
+contrôles sur place, en vue d’améliorer la conformité des traitements du ministère, vis-à-vis des 
+dispositions du RGPD. Ainsi, le DPD peut être amené à s’assurer, auprès du responsable de 
+traitement :  
+- 
+de la tenue à jour du registre des activités de traitement ; 
+- 
+de la réalisation des analyses d’impact sur la protection des données lorsqu’elles sont 
+nécessaires ; 
+- 
+de l’existence des documents relatifs à l’information des personnes (le cas échéant : modèle de 
+recueil du consentement, preuve des consentements) ; 
+- 
+de l’existence des documents permettant de décrire les mesures de sécurité mises en œuvre sur 
+le traitement ; 
+- 
+du respect des droits des personnes ; 
+- 
+de l’existence des documents qui définissent les rôles et les responsabilités des acteurs 
+concernés :  
+ procédure interne en cas de violation des données ; 
+ procédure interne permettant de répondre aux demandes d’accès,  de rectification ou 
+de suppression des données ; 
+ procédure interne décrivant les modalités d’alimentation du registre des activités de 
+traitement. 
+ 
+En cas de contrôle sur place, réalisé par le DPD, la DGNUM peut être sollicitée et s’assure du respect, 
+par le responsable de traitement, de la sécurité et de la confidentialité des données, en vérifiant la 
+conformité et l’existence des moyens mis en œuvre, notamment :  
+- 
+les caractéristiques des applications (architecture des moyens techniques, langages utilisés) par 
+rapport au cadre de cohérence technique du ministère (CCT) ; 
+- 
+le dossier de sécurité tenue par le RSSI et plus particulièrement la décision d’homologation, la 
+date du dernier audit SSI et la mise en œuvre le cas échéant du plan d’action associé ;  
+- 
+la conformité des mesures organisationnelles et physiques mises en place au regard du dossier 
+de sécurité et notamment l’existence des « procédures d’exploitation  de sécurité » (PES) ; 
+- 
+la conformité et la mise œuvre des moyens techniques permettant de garantir la confidentialité, 
+l’intégrité, la disponibilité et la résilience constantes des systèmes et des services de 
+traitement ; 
+- 
+la conformité et la bonne application des mesures destinées à assurer la confidentialité des 
+données lors des opérations de maintenance des équipements informatiques et des logiciels 
+informatiques ; 
+- 
+les moyens permettant de rétablir la disponibilité des données à caractère personnel et l’accès 
+à celles-ci dans des délais appropriés en cas d’incident physique ou technique ; 
+- 
+les procédures visant à tester, à analyser et à évaluer régulièrement l’efficacité des mesures 
+techniques et organisationnelles pour assurer la sécurité du traitement ; 
+- 
+l’évaluation des pratiques et la mise en place de procédures concernant notamment les 
+violations de données.
+
+[Page 28 / 32 | chars: 2880]
+--------------------------------------------------------------------------------
+
+28 
+ 
+ 
+II. LES CONTROLES DE LA CNIL (art. 57 et 58 du RGPD). 
+ 
+Le RGPD prévoit la possibilité pour les autorités nationales de contrôle de contrôler l’application du 
+règlement par les organismes publics et privés relevant de son champ de compétence. 
+Ainsi,  la Commission nationale de l’informatique et des libertés (CNIL) conserve les pouvoirs de 
+contrôle dont elle était investie avant l’entrée en vigueur du RGPD. A ce titre, elle peut effectuer des 
+contrôles inopinés, sur place, sur les traitements mis en œuvre au ministère de la défense. Elle sollicite 
+soit le DPD ministériel qui l’accompagne lors des contrôles, soit le responsable de traitement. Si la 
+CNIL sollicite directement le RT, celui-ci en informe le DPD. 
+ 
+Dans le cadre de sa mission de contrôle, la CNIL peut notamment : 
+- 
+accéder aux locaux du ministère ou de ses sous-traitants ; 
+- 
+obtenir la communication de toute documentation utile au contrôle ; 
+- 
+obtenir l’accès aux données à caractère personnel traitées, nécessaires à l’accomplissement du 
+contrôle ; 
+- 
+mener des enquêtes sous la forme d’audits sur la protection des données. 
+ 
+Les agents de la CNIL investis d’une mission de contrôle sont habilités à recevoir communication des 
+informations demandées. 
+ 
+III. LES SANCTIONS. 
+ 
+Le non-respect des dispositions du RGPD peut donner lieu à des sanctions administratives prononcées 
+par la CNIL et à des sanctions pénales, prévues par le code pénal. 
+ 
+3.1 Sanctions de la CNIL (articles 59, 83 et 84 du RGPD). 
+ 
+En cas de non-conformité, la CNIL peut prononcer l’une des mesures suivantes :  
+- 
+un rappel à l’ordre ; 
+- 
+une injonction de mettre en conformité le traitement avec les dispositions de la loi 
+« informatique et libertés » et du RGPD ou de satisfaire aux demandes présentées par la 
+personne concernée en vue d’exercer ses droits ; 
+- 
+une limitation temporaire ou définitive du traitement, son interdiction ou le retrait d’une 
+autorisation (sauf pour les traitements intéressant la sûreté de l’Etat ou la défense) ; 
+- 
+la suspension d’un flux de données hors de l’Union européenne (cf. chapitre III point VII). 
+ 
+Les traitements mis en œuvre par l’Etat ne sont pas susceptibles de donner lieu au prononcé d’une 
+sanction pécuniaire. 
+ 
+3.2 Sanctions pénales (art. 226-16 à 226-24 du code pénal). 
+ 
+Le non-respect des textes relatifs à la protection des données est susceptible de constituer un délit, 
+passible de cinq d’emprisonnement et 300 000 euros d’amende.  
+ 
+Ainsi, sont notamment sanctionnés :  
+- 
+le fait de conserver des données au-delà de la durée prévue68 ; 
+- 
+le détournement de finalité69 ; 
+- 
+le fait de procéder à un transfert illicite de données hors de l’Union européenne70. 
+ 
+                                                          
+68 Article 226-20 du code pénal. 
+69 Article 226-21 du code pénal. 
+70 Article 226-22-21 du code pénal.
+
+[Page 29 / 32 | chars: 40]
+--------------------------------------------------------------------------------
+
+La ministre des armées
+Florence PARLY
+28
+
+[Page 30 / 32 | chars: 1014]
+--------------------------------------------------------------------------------
+
+30 
+ 
+ 
+Annexe 1 – Sigles utilisés 
+ 
+DAJ = direction des affaires juridiques (SGA) 
+DCP = données à caractère personnel 
+DéSIAG : délégation des systèmes d’information d’administration et de gestion 
+DGNUM : direction générale du numérique et des systèmes d’information et de communication 
+DGSIC : direction générale des systèmes d’information et de communication 
+DPD = délégué à la protection des données (ou DPO = data protection officer) 
+DPID = direction de la protection des installations de défense 
+DRSD = direction du renseignement et de la sécurité de la défense 
+EMDS = états-majors, directions et services du ministère 
+G29 = groupe réunissant les autorités de contrôle des 29 Etats membres de l’Union européenne 
+IM = Instruction ministérielle 
+RGPD = règlement général sur la protection des données 
+RH = ressources humaines 
+RT = responsable de traitement 
+RRT = représentant du responsable de traitement 
+SI = Système d’information 
+SIRH : système d’information de gestion des ressources humaines
+
+[Page 31 / 32 | chars: 2675]
+--------------------------------------------------------------------------------
+
+31 
+ 
+Annexe 2 – Documents de référence 
+ 
+ 
+REGLEMENT (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à 
+la protection des personnes physiques à l'égard du traitement des données à caractère 
+personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE 
+(règlement général sur la protection des données) – RGPD. 
+ 
+CODE PENAL 
+ 
+CODE DE PROCEDURE PENALE 
+ 
+CODE des relations entre le public et l’administration : livre III sur l’accès aux documents 
+administratifs et la réutilisation des informations publiques. 
+ 
+LOI n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés. 
+ 
+DECRET n° 2004-1085 du 14 octobre 2004 relatif à la délégation de gestion dans les services 
+de l’Etat. 
+ 
+DECRET n° 2007-914 du 15 mai 2007 pris pour l’application de la loi n° 78-17 du 6 janvier 
+1978 relative à l’informatique, aux fichiers et aux libertés. 
+ 
+DECRET n° 2019-536 du 29 mai 2019 pris pour l'application de la loi n° 78-17 du 6 janvier 
+1978 relative à l'informatique, aux fichiers et aux libertés. 
+ 
+DECRET n° 2019-341 du 19 avril 2019 relatif à la mise en œuvre de traitements comportant 
+l’usage du numéro d’inscription au répertoire national d’identification des personnes 
+physiques ou nécessitant la consultation de ce répertoire. 
+ 
+ARRETE du 23 juillet 2010 portant approbation de l’instruction générale interministérielle sur 
+la protection du secret de la défense nationale. 
+ 
+ARRETE du 7 avril 2011 relatif au respect de l'anonymat de militaires et de personnels civils 
+du ministère de la défense. 
+ 
+ARRETE du 22 octobre 2014 relatif à la mise en œuvre, par le ministère de la défense, d’un 
+traitement automatisé dénommé « intranet défense ». 
+ 
+ARRETE du 20 octobre 2016 relatif à la préservation de l'anonymat des membres des unités 
+des forces spéciales. 
+ 
+ARRETE du 13 juin 2018 portant désignation du délégué à la protection des données au sein 
+du ministère des armées et modifiant l'arrêté du 8 avril 2011 portant organisation de la 
+direction des affaires juridiques. ARRETE du 13 juin 2018 fixant la liste des responsables de 
+traitement au sein des états-majors, directions et services et des organismes qui leur sont 
+rattachés. 
+ 
+ 
+INSTRUCTION ministérielle n° 2003/DEF/DGSIC du 20 novembre 2008 portant code de bon 
+usage des systèmes d’information et de communication du ministère de la défense (parue au 
+Bulletin officiel des armées du 09 janvier 2009). 
+ 
+ 
+INSTRUCTION MINISTERIELLE n° 2004/DEF/DGSIC du 14 décembre 2009 relative à la 
+fonction d'administrateur de systèmes d'information et de communication au sein du ministère 
+de la défense.
+
+[Page 32 / 32 | chars: 1251]
+--------------------------------------------------------------------------------
+
+32 
+ 
+ 
+INSTRUCTION N° 2008/DEF/DGSIC du 10 juillet 2013 fixant les modalités d’approbation 
+et de suivi des systèmes d'information et de communication. 
+ 
+ 
+INSTRUCTION ministérielle n° 900/DEF/CAB/DR du 26 janvier 2012 relative à la 
+protection du secret de la défense nationale au sein du ministère de la défense. 
+ 
+DIRECTIVE 27/DEF/DGSIC du 24 janvier 2013 portant sur l’homologation des systèmes 
+d’information du ministère de la défense. 
+ 
+POLITIQUE DE SECURITÉ DES SYSTÈMES D’INFORMATION DES ARMÉES  
+N° D-16007151/DEF/EMA/SCOPS/CYBER/DR du 08 juillet 2016. 
+ 
+ 
+Lignes directrices du G29 adoptées le 4 avril 2017 concernant l’analyse d’impact relative à la 
+protection des données (AIPD) et la manière de déterminer si le traitement est « susceptible 
+d’engendrer un risque élevé » aux fins du règlement (UE) 2016/679. 
+ 
+ 
+Délibération n° 2018-327 du 11 octobre 2018 portant adoption de la liste des types 
+d'opérations de traitement pour lesquelles une analyse d'impact relative à la protection des 
+données est requise. 
+ 
+ 
+Délibération n° 2019-118 du 12 septembre 2019 portant adoption de la liste des types 
+d’opérations de traitement pour lesquelles une analyse d’impact relative à la protection des 
+données n’est pas requise.
+

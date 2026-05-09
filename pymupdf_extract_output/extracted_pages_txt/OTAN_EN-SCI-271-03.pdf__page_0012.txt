@@ -1,0 +1,53 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 12 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+STANAG 7024 was established to ensure the ability to exchange air reconnaissance sensor recordings and 
+associated auxiliary data within NATO and Allied users, by the use of recording standards for media and 
+recording footprints [14]. 
+This STANAG establishes the physical format for the exchange of magnetic tape cartridges for 4 different 
+technologies of recorders [14]: 
+• 
+19mm helical scan ANSI ID-1 digital instrumentation recorder with large, medium and small   tape 
+cartridge formats; 
+• 
+8 mm helical scan Hi-8 digital, and 8mm analogue;  
+• 
+12.65 mm helical scan SVHS analogue recorder;  
+• 
+25.4 mm transverse scan AMPEX DCRSi digital instrumentation recorder).  
+All the recorders in STANAG 7024 are sequential access[14]. 
+3.7 
+STANAG 7085: Interoperable Data Links for Imaging Systems  
+This STANAG provides the interoperability standards for 3 classes of imagery data link used for primary 
+imagery data transmission: analogue links described in Annex A, point-to-point digital links described in 
+Annex B, and broadcast digital links described in Annex C. Command and control of the sensors and 
+platform is an auxiliary mission. Annex B is organized in 2 chapters “General Requirements” and 
+“Implementation Directives” which describe point-to-point digital links. Different implementation profiles 
+are possible: the U.S. Common Data Link (CDL) is described in Implementation 1 [2]. 
+This standard is structured to provide a number of options for the specific data link configuration, such as 
+simplex or duplex operation, data rate, carrier frequency, channel multiplexing, interleaving, encryption, and 
+many others that must be matched prior to passing data from transmitter to receiver [2]. 
+STANAG 7085 data links can handle any form of data (e.g. 7023, 4545, or GMTI), and can operate in 
+different configurations, including two way (half or full duplex) modes. 
+Sensitive information such as real-time terminal position that is transmitted via the data link may require 
+protection. This protection may be provided by encrypting all or portions of the data stream using any 
+equipment or technique that has been approved by the NATO Consultation, Command and Control Agency 
+(NC3A) [15]. 
+4.0 CONCLUSIONS 
+STANAG 4586 is a message based standard that was originally developed to meet the requirements of long 
+endurance UAV’s. 
+This standard includes messages that are specifically written to support communication with a UAV’s 
+payload. Since payload is not incorporated into the certification process, these messages may be eliminated 
+or modified. Fortunately, few messages incorporate both control and payload aspects.  
+NATO Standardization Agreements are constrained to NATO member states and may become a limitation to 
+intervene in non-NATO countries. For instance, STANAG 4586 is NATO "UNCLASSIFIED". This may (or 
+may not) become a barrier to many global suppliers & non- traditional innovators from non-NATO countries 
+such as robotics leaders in Japan [4]. 
+3 - 12 
+STO-EN-SCI-271

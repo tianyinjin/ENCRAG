@@ -1,0 +1,103 @@
+Source file: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Relative path: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Page: 12 / 14
+
+================================================================================
+
+12
+Codes des modèles
+Exemple de code de modèle standard
+I
+II
+III
+IV
+V
+VI
+VII
+VIII
+IX
+X
+XI
+XII
+XIII
+SLA
+MF
+4
+0
+S
+1 A
+A
+B
+1
+E
+1
+A
+1
+1 Les codes de modèle de raccord sanitaire 5A, 5B, 5C, 5D et 5E sont limités à une pression max. de 500 psi.
+2Le matériau est conforme à la norme 21CFR177.2600 (Titre 21 - Aliments et médicaments, Chapitre I - FDA).
+3 Étalonnage gaz réel pour le CO2 possible pour les modèles SLA5850 / 60 et SLA5851 / 61.
+Code
+Description
+Code option Description de l’option
+W
+1 – 5 volts	
+1 – 5 volts	
+tube M20 × 1,5
+X
+0 – 20 mA	
+0 – 20 mA	
+tube M20 × 1,5
+Y
+4 – 20 mA	
+4 – 20 mA	
+tube M20 × 1,5
+Z
+0 – 20 mA	
+0 – 5 volts	
+manchon de câble PG11
+5
+0 – 5 volts	
+4 – 20 mA	
+tube ½" NPT (F)
+6
+0 – 5 volts	
+0 – 20 mA	
+tube ½" NPT (F)
+7
+4 – 20 mA	
+0 – 5 volts	
+tube ½" NPT (F)
+8
+0 – 20 mA	
+0 – 5 volts	
+tube ½" NPT (F)
+XI. Entrées d’alimentation 
+électrique
+1
+±15 V C.C.
+2
+24 V C.C.
+XII. Améliorations en sortie
+A
+Réponse standard
+S
+Pack Performance Biotech
+T
+Pack Premium Biotech
+U
+Pack Performance avec étalonnage CO2³
+V
+Pack Premium avec étalonnage CO2³
+XIII. Certification
+1
+Zone sûre
+2
+Pour zone 2 ATEX
+3
+Agrément UL Listed div. 2 / zone 2
+4
+Agrément UL Recognized div. 2 / zone 2
+5
+IECEx zone 2
+6
+KOSHA

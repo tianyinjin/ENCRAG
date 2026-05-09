@@ -1,0 +1,324 @@
+Source file: INSTALLATION-WATER-COIL_SAVE_VSR_700.PDF
+Relative path: INSTALLATION-WATER-COIL_SAVE_VSR_700.PDF
+Page count: 10
+Extracted pages: 10
+
+================================================================================
+
+[Page 1 / 10 | chars: 51]
+--------------------------------------------------------------------------------
+
+Installation instruction
+EN
+Water coil SAVE VSR 700
+
+[Page 2 / 10 | chars: 1001]
+--------------------------------------------------------------------------------
+
+Table of contents
+1
+Introduction ..........................................................1
+1.1
+Product description ......................................1
+1.2
+Intended use ..............................................1
+1.3
+Product overview.........................................1
+2
+Safety .................................................................1
+2.1
+Safety definitions.........................................1
+3
+Installation............................................................2
+3.1
+To do before the installation of the
+product......................................................2
+3.2
+To install the product ....................................2
+3.3
+To configure ...............................................5
+4
+Technical data.......................................................6
+4.1
+Technical data overview................................6
+4.2
+Product dimensions .....................................6
+5
+EU Declaration of conformity ....................................7
+
+[Page 3 / 10 | chars: 943]
+--------------------------------------------------------------------------------
+
+1
+Introduction
+1.1
+Product description
+This product is a water coil with a frost protection sensor de-
+signed for installation inside the SAVE VSR 700.
+1.2
+Intended use
+The product is used to either increase or decrease the tem-
+perature of the supply air.
+The product must replace the internal electrical heater.
+The product must be connected to the condensation drain-
+age pipe when used as a cooler.
+1.3
+Product overview
+1
+2
+3
+4
+5
+1.
+Outlet connection
+2.
+Inlet connection
+3.
+Frost protection sensor
+4.
+Bleed screw
+5.
+Condensation drain connection
+2
+Safety
+2.1
+Safety definitions
+Warnings, cautions and notes are used to point out specially
+important parts of the manual.
+Warning
+If you do not obey these instructions,
+there is a risk of death or injury.
+Caution
+If you do not obey these instructions,
+there is a risk of damage to the product,
+other materials or the adjacent area.
+Note:
+Information that is necessary in a given situation.
+1
+
+[Page 4 / 10 | chars: 1149]
+--------------------------------------------------------------------------------
+
+3
+Installation
+3.1
+To do before the installation
+of the product
+•
+Examine the packaging for transportation damage and re-
+move the packaging from the product carefully.
+•
+Examine the product and all components for damage.
+•
+Make sure that the information on the name plate agrees
+with the order confirmation.
+•
+Make sure that you have the necessary installation
+accessories.
+•
+Make sure that the installation location is clean and dry,
+for full safety during electrical work.
+•
+Make sure that the installation location has the access to
+the drainage system.
+•
+Make sure to disconnect the SAVE VSR 700 from the
+power supply.
+3.2
+To install the product
+Caution
+Use protective gloves during installation
+and maintenance. Sharp edges can
+cause injury.
+Caution
+Make sure the rotating parts have come
+to a complete standstill before you do the
+maintenance.
+1
+Disconnect the SAVE VSR 700 from the power supply.
+2
+Remove the door.
+3
+Remove the internal electrical heater cover.
+4
+Disconnect the fan cables. The cables can be found next
+to the fan.
+Carefully disconnect the pressure measurement tube.
+Pull out the fan towards you. Some force may be needed.
+2
+
+[Page 5 / 10 | chars: 316]
+--------------------------------------------------------------------------------
+
+5
+Remove the screws from the wall in the corners.
+6
+Pull out the wall.
+Disconnect the electrical heater power cable and the
+overheat protection sensor cable (OHT).
+Remove the two screws that hold the electrical heater to
+the wall.
+OHT
+7
+Put the water coil on the rails.
+8
+Attach the water coil with the two screws.
+3
+
+[Page 6 / 10 | chars: 700]
+--------------------------------------------------------------------------------
+
+9
+Remove the screw from the control board cover.
+Remove the screw to release the control board for the
+better access if necessary.
+Put the frost protection sensor (FPT) cable through the
+free rubber grommet.
+Connect the frost protection sensor cable to the ana-
+logue input 3 (AI3) on the control board.
+AI3
+GND
+FPT
+RD
+BK
+10 Put the condensation drain pipe through the rubber
+grommet on the side.
+Connect the condensation drain pipe to the water coil at
+the bottom.
+Note:
+Condensation drain is only needed if the water coil is in-
+tended to be used as a cooler.
+11
+Connect the water circulation pipes to the water coil inlet
+and outlet pipes.
+12 Install the wall and the four screws in the corners.
+4
+
+[Page 7 / 10 | chars: 1075]
+--------------------------------------------------------------------------------
+
+13 Connect the valve actuator control cable to the analogue
+output 3 (AO3) on the connection board.
+Caution
+Do not use the 24 V DC output on the
+connection board to power the actuator.
+14 Install the control board if it was removed. Install the con-
+trol board cover.
+15 Install the fan.
+Reconnect the pressure measurement tubes.
+Connect the fan cables.
+16 Install the internal electrical heater cover.
+17 Put the door on.
+3.3
+To configure
+1.
+Go to Service menu.
+2.
+Enter the password (default 1111).
+3.
+Set the heater type Components Ø Heater Ø Water.
+Set the actuator voltage type.
+4.
+If the product has an internal electric heater, set the elec-
+tric heater control as inactive. Go to Service Ø Output
+Ø ANALOG Ø TRIAC OUTPUT Ø Inactive Output.
+5.
+Go to Service Ø Output Ø ANALOG. Select the ana-
+logue output to which the actuator is connected, set the
+value to Y1 Heating.
+6.
+Configure the frost protection sensor (FPT). Go to Serv-
+ice Ø Input Ø ANALOG. Select the analogue input to
+which the sensor is connected, set the value to Frost
+Protection Temp. Sensor (FPT).
+5
+
+[Page 8 / 10 | chars: 288]
+--------------------------------------------------------------------------------
+
+4
+Technical data
+4.1
+Technical data overview
+Design temperature — min/max, °C
+–40/110
+Design pressure — min/max, barg
+–1 /16
+Test pressure, barg
+18
+Volume, L
+0,43
+Fluid type
+H2O, Glycol
+4.2
+Product dimensions
+FPT 1/4” 
+Ø1/8” 
+Ø18
+Ø1/2” M 
+67,5
+50
+475,5
+303
+55,5
+149,5
+35
+205
+Ø16 (1/2”) 
+6
+
+[Page 9 / 10 | chars: 695]
+--------------------------------------------------------------------------------
+
+5
+EU Declaration of
+conformity
+We, the manufacturer
+Company
+Systemair UAB
+Address
+Linų g. 101
+LT–20174 Ukmergė
+LITHUANIA
+declare under our sole responsibility that the product
+Product
+designation
+Water coil
+Type/Model
+Water coil VSR 700
+fulfils the relevant provisions of following directives and
+standards
+2014/68/EU
+Pressure equipment directive
+Person authorized to compile the technical file:
+Nerijus Lapackas
+Technical Manager
+This declaration relates exclusively to the machinery in the
+state in which it was placed on the market and excludes
+components which are added and/or operations carried out
+subsequently by the final user.
+Ukmergė, Lithuania
+Mindaugas Martišius
+Managing Director
+7
+
+[Page 10 / 10 | chars: 431]
+--------------------------------------------------------------------------------
+
+Document in original language
+2023-10-25
+458187 - 001
+© Copyright Systemair AB
+All rights reserved
+EOE
+Systemair AB reserves the rights to alter their products without notice. This also applies to products already ordered, as
+long as it does not affect the previously agreed specifications.
+Systemair UAB
+Linų st. 101
+LT–20174 Ukmergė, LITHUANIA
+Phone +370 340 60165
+Fax +370 340 60166
+info@systemair.lt
+www.systemair.com
+last page
+

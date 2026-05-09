@@ -1,0 +1,436 @@
+Source file: moschetta-2018-les-futurs-systemes-de-drones.pdf
+Relative path: moschetta-2018-les-futurs-systemes-de-drones.pdf
+Page count: 10
+Extracted pages: 10
+
+================================================================================
+
+[Page 1 / 10 | chars: 1120]
+--------------------------------------------------------------------------------
+
+Les futurs systèmes de drones
+Jean-Marc Moschetta
+Dans  Revue Défense Nationale 2018/HS1 N° Hors-série , pages 95 à 103
+Éditions Comité d’études de Défense Nationale
+ISSN 2105-7508
+DOI 10.3917/rdna.hs04.0095
+Article disponible en ligne à l’adresse
+https://shs.cairn.info/revue-defense-nationale-2018-HS1-page-95?lang=fr
+Découvrir le sommaire de ce numéro, suivre la revue par email, s’abonner...
+Scannez ce QR Code pour accéder à la page de ce numéro sur Cairn.info.
+Distribution électronique Cairn.info pour Comité d’études de Défense Nationale.
+Vous avez l’autorisation de reproduire cet article dans les limites des conditions d’utilisation de Cairn.info ou, le cas échéant, des conditions générales de la licence souscrite par votre
+établissement. Détails et conditions sur cairn.info/copyright.
+Sauf dispositions légales contraires, les usages numériques à des fins pédagogiques des présentes ressources sont soumises à l’autorisation de l’Éditeur ou, le cas échéant, de
+l’organisme de gestion collective habilité à cet effet. Il en est ainsi notamment en France avec le CFC qui est l’organisme agréé en la matière.
+
+[Page 2 / 10 | chars: 3011]
+--------------------------------------------------------------------------------
+
+Les futurs systèmes 
+de drones
+Professeur d’aérodynamique (Département aérodyna-
+mique, énergétique et propulsion) à l’Institut supérieur de
+l’aéronautique et de l’Espace (ISAE-SupAero) et Directeur
+du Groupement d’intérêt scientifique (GIS) sur les Micro-
+Drones.
+Jean-Marc MOSCHETTA
+P
+our la plupart de nos concitoyens et même pour certains décideurs, le mot drone
+évoque encore un aéronef de type avion, décollant d’une piste conventionnelle,
+catapulté, ou déployé verticalement, et opéré à distance dans le but d’effectuer
+des missions de surveillance, le plus souvent militaires. L’essor des mini-drones (de
+l’ordre du mètre), voire des microdrones (de l’ordre de la dizaine de centimètres) ou
+même des nanodrones (de l’ordre du centimètre), s’il n’est pas passé inaperçu du grand
+public, reste considéré comme un épiphénomène vis-à-vis des usages militaires. Sans
+doute faudra-t-il encore attendre quelques années pour que ces systèmes se répandent
+vraiment dans l’espace aérien général, mais en matière d’armement, il n’est jamais
+inutile d’anticiper. Ainsi, l’usage de drones artisanaux larguant des grenades par les 
+factions islamistes au cours de la bataille de Mossoul (2016) a permis de constater que
+de nouvelles menaces se font jour du fait des nouvelles possibilités offertes par la minia-
+turisation des systèmes et l’amélioration fulgurante de leurs fonctionnalités.
+Pour autant, l’expérience accumulée dans l’emploi des drones au cours des 
+différents théâtres d’opérations extérieures (notamment en Afghanistan et au Mali)
+pourrait laisser penser que les armées qui détiennent cette technologie possèdent une
+arme sans risque pour nos forces, capables, selon l’expression du général américain
+David Deptula, de « projeter de la puissance sans projeter de la vulnérabilité » (1). De
+ce confort apparent résulte le glissement progressif de la doctrine d’emploi des drones
+dans les forces françaises au cours des dix dernières années : d’abord limités à des 
+missions de renseignement et d’observation, puis engagés pour la désignation de cibles
+au profit des forces déployées sur le terrain, puis coordonnés avec des hélicoptères de
+combat et bientôt équipés de munitions avec la capacité de frapper en temps réel
+comme annoncé par la ministre des Armées Florence Parly en septembre 2017 (2).
+L’absence théorique de risque pris par les opérateurs, suscitant parfois de curieux 
+« procès en lâcheté » semblables à ceux intentés autrefois aux artilleurs ou aux 
+Les Cahiers de la Revue Défense Nationale
+95
+(1) Lt-Gen. DEPTULA David, « Remotely Operated Air Power: Implications for Ethics, Policy and Strategy », Air Power
+Australia Essay on Military Ethics and Culture, ISSN 2201-9502, 2nd April 2013 (www.ausairpower.net/).
+(2) PARLY Florence, « Discours de clôture de la ministre des Armées », Université d’été de la Défense 2017, Toulon, le
+5 septembre 2017 (www.defense.gouv.fr/).
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 3 / 10 | chars: 3688]
+--------------------------------------------------------------------------------
+
+96
+bombardiers, représente un avantage considérable sur les systèmes d’armes qui expo-
+sent davantage nos combattants. Cela sera sans doute encore vrai pendant un certain
+nombre d’années, mais il faut se rendre à l’évidence : les futurs systèmes de drones
+seront beaucoup plus envahissants et intelligents que nos systèmes actuels et aucun
+opérateur, aussi protégé que possible dans son « shelter » (abri), ne sera indéfiniment à
+l’abri des futurs systèmes de drones.
+Des drones plus compacts et plus nombreux
+Le rapide développement des systèmes embarqués d’une part, mais aussi la
+densification énergétique qui a accompagné la téléphonie mobile d’autre part, ont
+ouvert la voie à des aéronefs de plus en plus légers et compacts. Il y a maintenant
+davantage de puissance de calcul dans la plupart des smartphones que dans un drone
+Harfang. Cette puissance de calcul va continuer de croître ainsi que la qualité de la
+chaîne vidéo disponible sur les drones. Pour 1 000 euros environ, un particulier peut
+désormais avoir accès à une caméra volante gyro-stabilisée de très haute résolution (4K)
+et même à des caméras thermiques de type micro-bolomètres non refroidis qui 
+commencent à fleurir sur les téléphones mobiles haut de gamme. La question de savoir
+si l’on doit continuer à investir dans un petit nombre d’appareils équipés de boules
+électro-optiques à longue portée extrêmement onéreuses, ou bien dans un très grand
+nombre de petits drones jetables pouvant s’approcher au plus près de la scène à obser-
+ver, va commencer à se poser sérieusement dans les prochaines années.
+Mais s’il est plus difficile pour les industriels de l’armement de réaliser de fortes
+marges sur des systèmes aériens qui s’apparentent à des jouets du commerce, les lois 
+du marché imposeront d’elles-mêmes qu’il est préférable, pour réaliser une mission
+d’observation donnée, d’utiliser plusieurs petits vecteurs aériens plutôt qu’un seul. En
+outre, la miniaturisation des drones ne permet pas seulement de réaliser des écono-
+mies ; elle donne la possibilité de réaliser des missions hors de portée des drones
+conventionnels. L’importance des combats urbains conjuguée à la quasi-impossibilité
+d’effectuer des frappes massives en ville – du moins en ce qui concerne les pays 
+soucieux de respecter le Droit international humanitaire – rendent les drones armés de
+type Reaper moins pertinents dans un tel contexte. Des drones miniatures capables 
+de détecter et éventuellement de neutraliser un sniper embusqué seront une aide précieu se
+pour sécuriser la progression du fantassin en ville. L’exemple actuel du Black Hornet
+initialement développé par Peter Muren de la société ProxDynamics, et aujourd’hui
+distribué par FLIR, illustre le développement d’un nanodrone de type hélicoptère de
+20 grammes, équipé de caméras vidéos et infrarouge, et capable de voler 25 minutes.
+Il s’agit là d’un remarquable début. Pour le moment, ces nanodrones ne sont pas armés,
+mais l’Armée de l’air américaine ne cache pas son intention de doter ces systèmes d’une
+charge militaire capable d’exploser au visage d’un combattant ennemi. Leur petite taille
+permet en effet d’envisager d’investir un bâtiment à travers un soupirail ou une ouver-
+ture réduite, voire des conduites souterraines, de sorte que les personnels retranchés à
+l’intérieur d’un bâtiment deviendront très vulnérables. Le microdrone suicide Rotem
+commercialisé par la société israélienne IAI constitue un concept de ce genre et indique
+au passage que la frontière entre drone et missile devient aujourd’hui poreuse.
+Les futurs systèmes de drones
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 4 / 10 | chars: 3591]
+--------------------------------------------------------------------------------
+
+97
+Les futurs systèmes de drones
+Pour le moment, la doctrine militaire d’emploi des micro- et nano-drones
+repose sur l’équipement d’un système par section d’hommes, voire un système par
+homme. Mais l’avenir est à l’essaim de drones, fonctionnant de manière coopérative,
+avec réallocation dynamique de tâches en cas de panne ou d’incident d’un vecteur
+aérien. Alors que la société Intel vient de réaliser le record de drones opérés par une
+seule station sol (1 200 drones coordonnés en décembre 2017 à l’occasion des Jeux
+olympiques d’hiver de PyeongChang), les ballets aériens de drones se généralisent (par
+exemple : Verity Studios). La capacité de communication directe entre drones par 
+la technique Ultra Wave Band (UWB) laisse augurer des fonctionnalités nouvelles de
+type vol en formation serrée avec la perspective de conduite de vols coordonnés 
+de drones à faible coût. Cette situation est comparable à celle d’un régiment composé de
+« pions tactiques » considérés autrefois comme des unités de valeur peu coûteuses indi-
+viduellement, mais dont l’effet de groupe a pu être utilisés dans les conflits conven-
+tionnels jusqu’au début du XXe siècle sous forme de vagues d’assaut successives. Seuls
+des drones de petite taille permettent d’envisager de telles cohortes. Sur un plan
+éthique, on voit que le pas sera bientôt franchi depuis une décision de tir dans laquelle
+un opérateur unique commande à un seul drone armé, vers une décision de tir dans
+laquelle un opérateur unique commande à une formation de drones, diluant ainsi la
+responsabilité en cas de dommages collatéraux.
+Des drones plus « intelligents »
+Les nouvelles techniques de robotique inspirées des progrès de l’Intelligence
+artificielle (IA) permettent désormais d’envisager la résolution de situations complexes
+dans lesquelles la perception de la situation est entachée d’erreur. Si le jeu d’échec ou
+le jeu de go, dans lesquels la situation du camp adverse est totalement transparente, se
+prêtent bien aux techniques d’apprentissage par renforcement au point que des 
+programmes sont désormais capables de battre les meilleurs joueurs professionnels, il
+en va différemment des « jeux » dans lesquels la situation réelle est partiellement
+connue, comme sur un véritable champ de bataille. Néanmoins, les experts savent 
+que même des jeux de stratégie qui simulent une situation de conflit dans laquelle les
+paramètres sont partiellement connus, tels que Starcraft ou Warcraft, ne résisteront
+encore à la suprématie de l’IA que pour un temps. Ces jeux de stratégie ne tarderont
+pas à suivre le chemin des échecs, du go ou du shogi pour lesquels la machine fera
+mieux que le meilleur champion humain. Ainsi, la densification de la puissance de cal-
+cul embarquée sur drones et l’accroissement des performances algorithmiques condui-
+ront à des prises de décisions autonomes plus pertinentes que celles prises à distance
+par un opérateur humain. Même si l’on clame au plus haut niveau que la décision
+d’ouvrir le feu restera dans la main d’un décideur humain, on peut se douter que cette
+doctrine ne résistera pas longtemps à un principe de réalité face à l’efficacité et à la 
+rapidité d’une décision de tir autonome. Parmi les puissances militaires dans le monde,
+certaines assument déjà sereinement l’idée de concevoir des drones de combat en 
+partie dotés d’algorithmes non déterministes comme le drone russe Okhotnik, dont
+la configuration évoque fortement le drone de combat nEUROn. Or, de tels drones
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 5 / 10 | chars: 3789]
+--------------------------------------------------------------------------------
+
+98
+pourront délivrer jusqu’à 2 tonnes d’armement, en particulier des bombes guidées laser
+de 250 kg.
+Dans les débats sur l’autonomie des drones armés, les juristes objectent 
+souvent que le robot ou le drone n’auront jamais que le statut d’un bien mobilier – ou
+d’une chose – et non celui d’une personne, ce qui fera de l’humain opérant le drone,
+le principal responsable – sinon le seul – des dommages causés. L’opérateur pourra bien
+entendu se retourner vers sa hiérarchie, qui pourra à son tour incriminer le fournisseur
+du système, lequel se retournera vers son concepteur, etc. Cette chaîne de responsabi-
+lité n’est pas nouvelle et l’augmentation de l’intelligence embarquée ne changera pas
+fondamentalement le problème, pense-t-on. Cependant, un robot ou un drone plus
+« intelligent », auquel on aura appris à mieux réagir à des situations imprévues et d’une
+très grande complexité sera un réceptacle commode pour diluer la responsabilité
+humaine du décideur. L’expérience de l’utilisation des chiens dans les armées est ici 
+instructive. Un chien bien dressé constitue une arme redoutable sur le terrain, non 
+seulement en raison de sa capacité à détecter un ennemi embusqué, mais également 
+de le neutraliser en combat rapproché (2). Mais s’il peut être confronté à une situation
+de désorientation ou de stress inédite et devenir un danger pour son propre maître ou
+ses camarades, le fait reste exceptionnel et l’armée n’a aucun problème avec l’idée de 
+disposer d’une arme « intelligente » dont les décisions propres comportent une certaine
+autonomie, en dépit du dressage. De fait, sa valeur militaire peut même être reconnue
+par une décoration. Dans un premier temps, les futurs systèmes de drones auront 
+un peu le même statut que les chiens militaires dont le statut est inférieur à celui du
+soldat, mais supérieur à celui d’une simple arme mécanique.
+L’accroissement de l’intelligence individuelle de chaque vecteur aérien 
+s’accompagnera d’un autre phénomène, celui de l’apparition d’une « intelligence col-
+lective » lorsque les drones seront déployés en essaim. Le phénomène est bien connu
+des biologistes qui étudient les fourmis ou les bancs de poisson. Mus par des règles de
+coordination très simples, mais rigoureusement appliquées, comme le suivi moyen des
+individus proches et l’évitement du voisin immédiat, les bancs de poisson développent
+ainsi des stratégies de coordination efficaces contre les prédateurs, en l’absence d’un
+leader ou de chef de section organisant la marche serrée de chaque individu. De ces
+règles de coordination simples, ne requérant qu’une puissance de calcul limitée, naît
+une fonctionnalité nouvelle du groupe, lequel s’avère plus performant que la somme
+des contributions individuelles, d’où la notion d’intelligence collective. Ainsi, la capa-
+cité des fourmis à coopérer, que ce soit pour réaliser des passerelles permettant aux
+autres fourmis de franchir des obstacles insurmontables pour une fourmi isolée ou
+pour trouver collectivement le chemin le plus court dans un labyrinthe, est source
+d’inspiration chez les chercheurs. Ceux-ci parviennent maintenant à modéliser et à
+reproduire ces phénomènes dans une flotte d’agents coordonnés, qu’il s’agisse de robots
+terrestres ou de drones. À la manière des algorithmes de meutes déjà connus des 
+Les futurs systèmes de drones
+(2) En mai 2018, un chien militaire de race berger malinois a ainsi tué un sniper et sauvé la vie de 6 soldats des forces
+spéciales britanniques encerclés sous le feu djihadiste dans le Nord de la Syrie. cf. WILLIAMS Patrick, « SAS dog rips out
+jihadi’s throat and saves patrol caught in ambush », Daily Star, 9 juillet 2018 (www.dailystar.co.uk/).
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 6 / 10 | chars: 3386]
+--------------------------------------------------------------------------------
+
+99
+Les futurs systèmes de drones
+tacticiens, les drones en essaim pourront ainsi s’attaquer à des cibles relativement puis-
+santes et bien protégées en jouant sur l’effet de harcèlement et d’attaques coordonnées.
+Sur un plan militaire, cet effet de harcèlement constituera un avantage considérable par
+rapport à de gros systèmes qui mobilisent actuellement un nombre important
+d’hommes.
+La perspective tend aujourd’hui à s’inverser dans les laboratoires de recherche :
+un seul opérateur pouvant bientôt opérer un grand nombre de drones en allouant au
+groupe une mission précise, mais sans spécifier le rôle de chacun, lequel sera déterminé
+par sa situation individuelle vis-à-vis de la cible ainsi que ses paramètres vitaux 
+(batterie, intégrité des organes de bord, etc.). L’opérateur pourra ainsi piloter quelque
+chose comme le centre de gravité de l’essaim, laissant aux algorithmes embarqués le
+soin de coordonner les drones entre eux et de réattribuer dynamiquement à chaque
+drone de nouvelles tâches. On voit que ce phénomène d’intelligence collective n’est
+envisageable que parce que les « pions tactiques » sont nombreux et peu coûteux, voire
+jetables. Si les phénomènes de groupe, bien connus de la tactique militaire, seront
+gérés, sans doute encore pendant longtemps, par le haut commandement humain, il
+est assez clair que le pouvoir de l’homme dans la conduite des combats suivra une ten-
+dance générale à migrer du niveau tactique vers un niveau plus stratégique. Sur un plan
+éthique, il est important de réaliser que cette migration, ce recul du rôle de l’humain
+dans la conduite élémentaire des combats, se fera de manière irréversible. L’exemple des
+robots financiers qui ont remplacé les opérateurs humains pour passer des ordres de
+transaction boursière est édifiant : plus personne n’est aujourd’hui en mesure de reve-
+nir en arrière et de mettre en œuvre une règle telle que le contrôle en temps réel de
+chaque opération boursière par un agent humain. Il en sera de même pour la conduite
+de la guerre, en dépit des promesses solennelles qui sont faites aujourd’hui en ce sens
+vis-à-vis des « robots tueurs ».
+Des drones plus endurants
+Depuis que les drones sont déployés dans les opérations militaires, leur capa-
+cité à voler en permanence sur zone est un critère décisif d’utilisation. Il est en effet
+essentiel de maintenir un suivi permanent des opérations menées au sol pour éviter 
+des effets de discontinuités pouvant mettre en péril des missions de renseignement. 
+En outre, les missions ISR (Intelligence, Surveillance and Reconnaissance) réclament une
+capacité d’observation H24 pour repérer les subtiles variations de comportement de
+l’ennemi. Par conséquent, les futurs systèmes de drones sont appelés à être plus endu-
+rants. Certes, une noria de drones se relayant continûment peut, en principe, assurer
+cette permanence aérienne, mais la réalisation continue des opérations de déploiement-
+récupération n’est pas sans risque et représente un coût opérationnel non négligeable.
+C’est pourquoi chaque drone est amené à accroître considérablement son endurance.
+Plusieurs ruptures technologiques laissent augurer que les futurs drones deviendront
+capables de rester en l’air plus longtemps, malgré la tendance conjointe à en réduire
+la taille.
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 7 / 10 | chars: 3639]
+--------------------------------------------------------------------------------
+
+100
+La première piste concerne la densification de la source d’énergie à bord. Si le
+vol thermique bénéficie de la forte densité énergétique des hydrocarbures, la miniatu-
+risation des moteurs thermiques conduit à une chute significative de leur rendement.
+La raison n’est pas seulement liée à des difficultés de fabrication : la tolérance 
+mécanique imposée par la réduction des fuites dans la chambre de combustion consti-
+tue une contrainte pratique qui s’ajoute à la fragilité intrinsèque de micro-structures
+articulées. Elle est surtout liée au fait qu’en première approche, les pertes de chaleur
+dans la chambre sont proportionnelles à sa surface, tandis que la puissance développée
+est proportionnelle à son volume. Or, le volume diminue plus vite que la surface de la
+chambre de combustion. Par conséquent, la transformation en travail mécanique de 
+la chaleur dégagée par l’explosion dans les cylindres devient beaucoup moins efficace
+à échelle réduite.
+Parallèlement, l’amélioration continue des moteurs à aimants permanents
+combinée avec leur souplesse d’utilisation et leur fiabilité, ont conduit la plupart 
+des concepteurs de drones à considérer la propulsion électrique, y compris jusqu’à des
+aéronefs de l’ordre de 100 kg. Reste que la source de l’énergie électrique à bord reste
+un problème crucial. Les meilleures batteries actuelles basées sur la chimie au Lithium
+permettent d’atteindre des valeurs de l’ordre de 250 Wh/kg (contre environ
+10 kWh/kg pour l’essence). Les projections des chercheurs pour de nouvelles batteries
+de type Lithium-air laissent augurer des densités énergétiques théoriquement compa-
+rables à celles de l’essence. En outre, les piles à hydrogène actuellement commerciali-
+sées permettent déjà d’accéder à des densités énergétiques comprises entre 600 et
+1 000 Wh/kg, avec des progrès considérables accomplis dans la miniaturisation des
+modules de production d’électricité à bord.
+Pour autant, ces nouvelles sources de stockage de l’énergie ne constituent pas
+la seule révolution attendue. L’énergie solaire, si elle reste tributaire des conditions
+d’ensoleillement au moment de la mission, représente une source d’accroissement de
+l’endurance qui donne lieu à des projets de « drones satellites » pouvant rester en l’air
+en permanence. Toutefois, l’exploitation de l’énergie solaire est d’autant plus intéres-
+sante que la taille du drone est réduite. En effet, la puissance électrique instantanée
+pouvant être extraite de l’énergie solaire est directement proportionnelle à la surface
+des cellules photovoltaïques déployées sur l’extrados du drone. Or, lorsque la taille du
+drone est réduite, la surface alaire diminue moins vite que sa masse. Par conséquent, le
+rapport entre la puissance recueillie par les cellules photovoltaïques et la puissance
+nécessaire au vol a tendance à augmenter lorsque le drone est plus petit. Mais même
+pour des drones de petite taille, l’énergie solaire ne peut représenter qu’une source
+d’énergie d’appoint.
+Plus intéressante est l’énergie contenue dans l’environnement aérologique du
+drone. Les mini-drones de surveillance à voilure fixe évoluent typiquement à des
+niveaux de vol de 300 pieds où les perturbations atmosphériques sont importantes, en 
+raison des effets de la couche limite atmosphérique et de la présence d’obstacles au sol
+générant des structures tourbillonnaires. Les faibles vitesses d’évolution des drones évo-
+luant à ces niveaux de vol sont alors comparables aux vitesses de l’air incident dues au
+Les futurs systèmes de drones
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 8 / 10 | chars: 3732]
+--------------------------------------------------------------------------------
+
+101
+Les futurs systèmes de drones
+développement des perturbations atmosphérique. Les gradients de vent ainsi générés
+et l’énergie stockée dans les structures tourbillonnaires sont une source d’énergie tout
+à fait significative. Pour des avions conventionnels traversant ces structures à vitesse
+élevée, ces perturbations sont source d’inconfort et ne peuvent être exploitées sur un
+plan énergétique. En revanche, pour des drones de petite taille réalisant des missions
+de surveillance à faible vitesse, l’énergie aérologique constitue un gisement considé-
+rable d’énergie pour accroître leur endurance. Plusieurs espèces d’oiseaux exploitent ces
+sources d’énergie depuis des millions d’années et la transposition sur un drone de ces
+principes d’extraction d’énergie laisse entrevoir des capacités décuplées d’augmentation
+de l’élongation du drone ou de son endurance. Le cas de l’albatros exploitant ainsi le
+phénomène de « dynamic soaring » (ou vol de gradient) est particulièrement remar-
+quable puisqu’un individu moyen peut effectuer près de 800 km en une seule journée,
+sans jamais battre des ailes, mais en exploitant seulement le gradient spatial constitué
+par la couche limite atmosphérique en effectuant des trajectoires « bouclées » selon des
+caps précis. D’autres volatiles tels que le faucon crécerelle exploitent dynamiquement
+les perturbations atmosphériques présentes à faible altitude pour surveiller un territoire
+des heures durant, en minimisant leur dépense énergétique. De telles stratégies de vol
+inspirent déjà des lois de pilotages permettant d’extraire l’énergie aérologique de
+manière autonome et de réduire la puissance nécessaire au vol en palier d’un facteur
+pouvant aller jusqu’à 40 % !
+Finalement, les capacités nouvelles de communication entre drones et la 
+possibilité de réaliser un vol en formation serrée ouvre la voie à une réduction de la
+puissance nécessaire au vol par interaction aérodynamique. Imitant le vol des oiseaux
+migrateurs qui se déplacent sur de longues distances pour franchir des distances inac-
+cessibles à un individu isolé, un vol de drones en essaim peut ainsi potentiellement
+réduire cette puissance de vol d’un facteur 2, laissant la possibilité d’accroître considé-
+rablement l’endurance ou l’élongation de l’essaim pour atteindre la zone au-dessus de
+laquelle les drones pourront ensuite se déployer.
+Des drones plus discrets et plus envahissants
+L’utilisation de drones au contact se heurte à plusieurs problèmes pratiques,
+parmi lesquels la discrétion est l’un des plus importants. Les missions de renseignement
+à faible distance exigent que la présence du drone – et plus encore celle de l’opérateur
+du drone – ne soit pas détectée. Par discrétion, il faut bien entendu considérer la 
+discrétion visuelle, électromagnétique et acoustique. Sur le plan visuel, l’expérience
+montre que des micro-drones de l’ordre de quelques dizaines de centimètres sont pra-
+tiquement indétectables à l’œil nu, notamment s’ils parviennent à se confondre avec
+des volatiles naturels. Le choix de l’US Air Force de financer les études sur les configu-
+rations de drones à voilures battantes dans les années 1990 a été sans doute largement
+guidé par l’idée d’un effet camouflage. Malheureusement, les difficultés technologiques
+inhérentes au vol battu ajoutées à la relative médiocrité propulsive du vol battu 
+lui-même ont conduit la plupart des dronistes à se détourner de cette solution inspirée
+de l’imitation de la nature. Si la signature radar des drones de type multirotors est très
+faible, les opérateurs in fine réclament depuis plusieurs années des drones plus discrets
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 9 / 10 | chars: 2731]
+--------------------------------------------------------------------------------
+
+102
+sur le plan acoustique. À ce sujet, plusieurs groupes de recherche dont l’ISAE-SupAero
+travaillent aujourd’hui sur la réduction du bruit des drones, dont l’essentiel, s’agissant
+des drones électriques, provient de l’hélice. Le problème est contraint par le fait que
+l’objectif est de réduire la signature acoustique sans dégrader la performance propulsive.
+De nouvelles formes d’hélices silencieuses ont ainsi été conçues, réalisées puis testées
+en vol à l’ISAE-SupAero, avec le soutien de la Direction générale de l’armement
+(DGA), indiquant que des gains très significatifs peuvent être obtenus dans la réduc-
+tion de la signature acoustique des drones. Mais ces développements n’en sont qu’à leur
+début car des pistes nouvelles de réductions de bruit s’ouvrent aujourd’hui avec
+l’exemple de la chouette dont la forme particulière des plumes permet d’obtenir un vol
+extrêmement silencieux propice à surprendre ses proies de nuit.
+En termes de discrétion acoustique, la meilleure solution pour un drone
+consiste bien entendu à arrêter le fonctionnement des hélices. Cela suppose donc de
+travailler sur des moyens de s’accrocher aux obstacles ou simplement de pouvoir se
+poser au sol avant de redécoller lorsque le moment est plus propice. Plusieurs confi-
+gurations de drones équipés d’une structure de protection ont été étudiées à l’ISAE-
+SupAero tels qu’un drone appelé Vision’Air équipé de ventouse pouvant se coller et se
+décoller sur une vitre d’immeuble (FIG. 1, gauche). En mode silencieux, un tel drone
+peut continuer à transmettre des images à distance sans attirer l’attention. Une autre
+configuration intéressante est le MAVion Roll&Fly qui est un drone convertible,
+capable d’effectuer des phases de vol stationnaire et des phases de vol horizontal et dont
+la structure de protection des hélices est en réalité une paire de roues libres permettant
+au drone de se poser, puis de redécoller facilement bénéficiant du fait que, par effet 
+culbuto, l’engin reprend naturellement sa position verticale (FIG. 1, centre). En 
+pratique, l’adjonction de roues permet également un déplacement aisé au contact des
+parois planes telles que les murs ou les plafonds, ce qui facilite considérablement 
+la progression à l’intérieur des bâtiments, notamment lorsque l’on ne dispose pas 
+d’une connaissance préalable des lieux. Récemment, l’École polytechnique fédérale 
+de Lausanne (EPFL) a développé un concept de drone équipé d’une sphère ajourée
+Les futurs systèmes de drones
+FIG. 1 – Les micro-drones : Vision’Air (ISAE-SupAero, à gauche), MAVion Roll&Fly ( ISAE-SupAero, au centre)
+et Elios (Flyability, à droite).
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+
+[Page 10 / 10 | chars: 1845]
+--------------------------------------------------------------------------------
+
+103
+Les futurs systèmes de drones
+pouvant pivoter sur deux axes et commercialisé par la société Flyability (FIG. 1, droite).
+Ce drone permet de s’approcher des obstacles, d’évoluer dans des environnements
+confinés et complexes sans rester bloqué et s’avère même capable de s’insinuer dans des
+conduites souterraines, des crevasses de glacier ou encore de traverser une forêt avec du
+sous-bois. On voit donc que ces différents concepts tracent la voie vers des systèmes de
+drones de plus en plus envahissants et robustes, combinant des fonctionnalités inspi-
+rées des robots terrestres et des robots aériens, voire des robots sous-marins comme
+l’illustre l’exemple du Loon Copter, un quadrirotor développé par l’Université
+d’Oakland qui peut voler au-dessus de l’eau, se déplacer sur la surface et finalement
+s’immerger et évoluer sous l’eau.
+
+Les futurs systèmes de drones seront plus compacts, plus nombreux, bon 
+marché – voire jetables pour certains, déployables en essaims, plus intelligents et adap-
+tatifs, à la fois individuellement et collectivement, plus endurants et discrets et surtout
+plus envahissants grâce à leur capacité de s’insinuer dans des environnements 
+complexes tels que des faux plafonds, conduites d’aération, égouts, etc. Ils n’offriront
+finalement que peu de répit et de zones de sécurité aux futurs combattants, mais
+constitueront en retour les compagnons indispensables à la progression des forces au
+sol. Sur un plan éthique, ces futurs systèmes ne seront plus contrôlés individuellement,
+mais collectivement, avec des capacités d’observation et d’action démultipliées qui 
+rendront difficile une supervision humaine exhaustive et le contrôle préalable des
+règles d’engagement par un opérateur humain. w
+Comité d’études de Défense Nationale | Téléchargé le 02/03/2026 sur https://shs.cairn.info (IP: 92.168.8.161)
+

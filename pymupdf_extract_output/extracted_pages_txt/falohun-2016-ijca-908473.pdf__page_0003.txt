@@ -1,0 +1,90 @@
+Source file: falohun-2016-ijca-908473.pdf
+Relative path: falohun-2016-ijca-908473.pdf
+Page: 3 / 5
+
+================================================================================
+
+International Journal of Computer Applications (0975 – 8887) 
+Volume 135 – No.7, February 2016 
+32 
+failing to meet the deadline produces false output and does 
+endanger the human lives.” 
+3. DESIGN ANALYSIS 
+3.1 Circuit Diagram 
+The schematic diagram in Figures 3a and 3b diagrammatically 
+depicts the gas detection system (i.e. from the power stage, 
+detection and alarm stage).  
+The amount of supplied power into the circuit is dependent on 
+the combined power usage on each component in the circuit. 
+From the right-most part of Figure 3 is written 12V, 300mA 
+i.e. the calculated average power that was sufficient to power 
+the whole circuit. And this power was generated from an AC-
+DC adapter which can step down, rectify and stabilize 
+outputs. 
+The adapter gets connected to the circuit board via a polarized 
+adapter jack port which is not fixed on the board but screwed 
+to the casing that houses the whole circuit. From the supplied 
+12V, 300mA, is connected the U1, 78L05 a three (3) pin 
+voltage regulator which is supplied with any DC < 35V and 
+will always give the DC output of 5V. 
+This DC output of 5V is where other components tap from. 
+First, is the gas sensor (MQ-9), then the 555Timer, and most 
+importantly, the alarm systems (the four (4) red led and 
+buzzer) and other components as the resistors and capacitors. 
+ 
+Figure 3a: Circuit diagram for the gas detector with 
+audible alarm system with ISIS Professional 
+ 
+Figure 3b: Close Circuit diagram for the gas detector with 
+audible alarm system. 
+ 
+3.2 Principle of operation 
+The gas detector alarm system is designed with the intention 
+to ensure that the event of gas is intelligently detected, 
+promptly notified and interactively managed. It is built around 
+a timer to accept input from the gas sensor, MQ-9, and 
+activate a buzzer and set of led that alerts in the event of gas. 
+The sensor used is the MQ-9 and from the datasheet, it 
+specializes in gas detection equipment for carbon monoxide 
+and CH4, LPG family and any other relevant industry or car 
+assemblage. 
+3.3 Sensor 
+For detecting the event of gas which is associated with fire is 
+monitored using a gas sensor.  
+It advantage is that it has; 
+ 
+Good sensitivity to CO/Combustible gas  
+ 
+High sensitivity to Methane, Propane and CO  
+ 
+Long life and low cost  
+ 
+Simple drive circuit 
+The  enveloped  MQ-9  has  6  pins, 4  of  which  are  used  to 
+fetch  signals, and  other  2  for providing heating current. The 
+sensor works with voltages between 5V and 12V AC or DC. 
+A 5V supply voltage was used for this design. Once powered, 
+the output of the sensor is normally HIGH but goes LOW 
+when gas is sensed.  
+ 
+ 
+ 
+Figure 3c:The MQ-9 gas sensor. 
+4. IMPLEMENTATION AND TESTING 
+4.1 Construction 
+The physical realization of the project is very vital. This is 
+where the fantasy of the whole idea meets reality. Here the 
+paper work is transformed into a finished hardware.  
+Notables on the Design; 
+1. 
+Set of pore holes for proper ventilation and proper 
+communication between the circuit and the external 
+environment. 
+2. 
+When the circuit is ON, a green led comes ON, and 
+red when gas is sensed. 
+3. 
+ A protruded sensor for proper contact in detecting 
+gas. 
+4. 
+The packaged container fit the size of the circuit

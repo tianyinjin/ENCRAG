@@ -1,0 +1,57 @@
+Source file: MP-IST-210-1A.03.pdf
+Relative path: MP-IST-210-1A.03.pdf
+Page: 10 / 34
+
+================================================================================
+
+operationally-relevant metrics, translation into technical standards and metrics, testing on sparse internal 
+datasets, live open-world testing where applicable, and the creation of customized reports in alignment with 
+the expectations of various stakeholders’ from governance, technical, compliance, procurement and strategic 
+teams. 
+Second, their restrictive nature means they often lack the transparency and independent scrutiny found in 
+public benchmarks, potentially leading to biased or incomplete assessments. The results from these 
+evaluations are typically not publicly shared, making it difficult for the broader community to learn from 
+successes and failures, nor critique the methodology. Even in the rare cases that these evaluation results may 
+be shared, such as between allied nations’ militaries, the lack of uniformity in evaluation standards limit the 
+ability of partner militaries to accept and understand their counterparts’ evaluations in relation to their unique 
+context and data.  
+2.3 
+Relevance to Symposium Topics and NATO Allied Military Systems 
+The approach we propose relates directly to the IST-210 Symposium’s topics of “AI assurance frameworks, 
+standards, terminology and metrics”, and “AI risk and vulnerability assessment, including mitigation” by 
+proposing a framework to ensure the reliability and trustworthiness of CV models, thereby mitigating 
+significant AI risks and vulnerabilities in critical military applications. Recent efforts such as CEN-
+CENELEC’s CWA 18150 CEN Workshop Agreement on “Unmanned aircraft systems - Counter UAS-
+Testing methodology”, published in Oct 2024, have further established some common scenarios and 
+standards relevant to counter-UAS operations undertaken by defense and security agencies [3]. We attempt 
+to expand on them further by describing the approach to test, measure, and verify counter-UAS CV software 
+against these scenarios and standards. Our approach directly contributes to the development of a common 
+lexicon and AI assurance framework by outlining criteria for creating robust internal reference datasets, 
+quantifying their properties (including approaches to qualify hard-to-detect targets), and introducing 
+comprehensive pre-deployment testing checklists. While the test data can remain classified to each 
+organization, the framework, toolkits, and pre-deployment testing checklists can be shared across each 
+organization and establish a common basis for communicating the performance of counter-drone CV 
+systems of interest across allied members. We will demonstrate how highly contextualized, use-case-specific 
+internal benchmarks can be developed to compare models in a standardized manner, providing essential 
+metrics for performance evaluation. Through this work, we aim to simplify and scale automated testing, 
+identify weak performance spots, and provide decision-makers with clear go/no-go criteria for deploying CV 
+models. The desired outcome is to bridge the testing gap and foster trust in these critical technologies, 
+directly supporting the development and management of NATO Allied Military Systems in the crucial 
+domain of counter-drone solutions throughout their life cycle. It will also enhance interoperability, and 
+facilitate information-sharing, through providing a common frame of reference across like-minded defense 
+agencies evaluating perception software used in counter-drone solutions.  
+3.0 DESCRIPTION 
+3.1 
+Outline of Proposed Approach 
+Given these challenges, we propose a novel approach that aims to combine the best aspects of both public 
+benchmarks and organization/project-centric evaluations while minimizing the limitations of each. Our 
+objective is to create a common comprehensive, trustworthy, and adaptable framework for assessing CV in 
+counter-drone systems, providing a common baseline for comparing commercial solutions. This framework 
+would come with a set of toolkits to evaluate data and models along specific dimensions, generate data to 
+augment test data, and also allow users like NATO allied militaries to keep their classified datasets within 
+their systems and protect their data, but also allow sharing of their scenario characteristics, synthetic data, or 
+discoveries about theirs or vendors’ model behaviors to selective partners under broad information-sharing 
+Assuring Trustworthy Computer Vision 
+for Rapid Counter-Drone System Testing and Deployment 
+1A.03 - 10
+STO-MP-IST-210

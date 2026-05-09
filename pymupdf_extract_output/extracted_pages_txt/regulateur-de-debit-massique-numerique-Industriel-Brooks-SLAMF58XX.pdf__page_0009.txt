@@ -1,0 +1,115 @@
+Source file: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Relative path: regulateur-de-debit-massique-numerique-Industriel-Brooks-SLAMF58XX.pdf
+Page: 9 / 14
+
+================================================================================
+
+9
+Codes des modèles
+Code
+Description
+Code option Description de l’option
+I. Numéro de modèle de base
+SLA
+II. Spécifications pack / finition
+MF
+Série en élastomère standard
+III. Fonction
+5
+Régulateur de débit massique
+6
+Débitmètre massique
+IV. Taille de corps
+0
+3 cm³ – 50 l / min équivalent N2
+1
+15 - 150  l / min équivalent N2
+3
+100 – 2500 l / min équivalent N2
+4
+300 – 36 000 l / min équivalent N2
+V. Communication E / S 
+numériques
+A
+Néant (sélectionner E / S analogiques applicables)
+D
+E / S DeviceNet (avec microconnecteur 5 broches)
+E
+EtherCAT
+J
+E / S DeviceNet (avec manchon de câble PG11)
+K
+E / S DeviceNet (avec tube M20 × 1,5)
+L
+E / S DeviceNet (avec tube ½" NPT (F))
+P
+Profibus (M12 femelle 5 broches, tube M20 × 1,5)
+R
+Profibus (M12 femelle 5 broches, manchon de câble PG11)
+T
+Profibus (M12 femelle 5 broches, tube ½" NPT (F))
+S
+RS485 (sélectionner E / S analogiques applicables)
+7
+EtherNet / IP (Nano-Change M8 mâle 5 broches ; 2 × connecteur D M12 femelle)
+8
+PROFINET (Nano-Change M8 mâle 5 broches ; 2 × connecteur D M12 femelle)
+VI. Raccordement mécanique 
+(taille de corps 
+0 et 1 seulement)
+1A
+Sans adaptateurs, 9 / 16" – 18 UNF
+1B
+¼" à compression pour tube
+1C
+1 / 8" à compression pour tube
+1D
+3 / 8" à compression pour tube
+1E
+¼" VCR
+1F
+¼" VCO
+1G
+¼" NPT
+1H
+6 mm à compression pour tube
+1J
+10 mm à compression pour tube
+1L
+3 / 8" – ½" VCR
+1M
+3 / 8" – ½" VCO
+1P
+½" à compression pour tube
+1T
+¼" RC (BSP)
+1Y
+3 mm à compression pour tube
+B1
+¼" à compression pour tube avec filtre
+C1
+1 / 8" à compression pour tube avec filtre
+D1
+3 / 8" à compression pour tube avec filtre
+E1
+¼" VCR avec filtre
+F1
+¼" VCO avec filtre
+G1
+¼" NPT avec filtre
+H1
+6 mm à compression pour tube avec filtre
+J1
+10 mm à compression pour tube avec filtre
+L1
+3 / 8" – ½" VCR avec filtre
+M1
+3 / 8" – ½" VCO avec filtre
+P1
+½" à compression pour tube avec filtre
+T1
+¼" RC (BSP) avec filtre
+Y1
+3 mm à compression pour tube avec filtre
+5A 1
+9 / 16 – 18 × ½" sanitaire

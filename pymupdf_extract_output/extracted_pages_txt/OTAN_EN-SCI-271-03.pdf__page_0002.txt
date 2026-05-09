@@ -1,0 +1,32 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 2 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+ 
+carefully defining an interface between two computers we can be assured of a successful exchange of data 
+between them [2]. 
+The evolution leads to the development of even more types of vehicles, from even more different providers, 
+each with its own specifications and characteristics. This diversity leads to an increased level of difficulty in 
+terms of guaranteed interoperability in teams of heterogeneous vehicles [3]. Most of the times the current 
+operations with multiple vehicles and with multiple countries are as seen in Figure 1.  
+ 
+ 
+Figure 1: Current UAV´s Operations Example [4]. 
+ 
+The UAV´s have become valuable assets in helping Joint Force Commanders (JFCs) meet a variety of 
+theatre, operational and tactical objectives. The optimum synergy among the various national UAV´s 
+deployed requires close co-ordination and the ability to quickly task available UAV´s assets, the ability to 
+mutually control the UAV´s and their payloads, as well as rapid dissemination of the resultant information at 
+different command echelons. This requires the employed UAV´s to be interoperable [4]. 
+Often, UAV’s are used for reconnaissance missions, which make them the predominant collection systems 
+across virtually every echelon of command. As a consequence, the need to coordinate, share and integrate 
+the UAV into the larger war fighting community is becoming painfully apparent [5]. 
+UAV can be divided into these five different elements: vehicle (propulsion unit and avionics unit), payload 
+(mission payload and payload recorder), data link (vehicle data terminal and control data terminal), UAV 
+Control System (UCS) and launch/recovery, as shown in Figure 2. 
+3 - 2 
+STO-EN-SCI-271

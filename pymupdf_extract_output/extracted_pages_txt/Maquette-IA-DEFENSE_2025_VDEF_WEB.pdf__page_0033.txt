@@ -1,0 +1,50 @@
+Source file: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Relative path: Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf
+Page: 33 / 84
+
+================================================================================
+
+33
+outils d’IA générative, au-delà de leur fonctionnalité 
+première, apportent des méthodes de clustering 
+latent[1]. Utilisant les mêmes types d’architecture, ces 
+LLMs as a judge[2] sont une sorte de « remède dans le 
+poison » permettant un audit à l’échelle pour garantir 
+des comportements alignés avec les attentes fixées. 
+L’approche agentique précédemment évoquée 
+devient alors une solution d’audit, où chaque agent 
+déployé se spécialise et apporte un prisme d’analyse 
+additionnel et complémentaire aux précédents. 
+L’humain n’est pas laissé en dehors de la boucle 
+algorithmique, comme il se positionne en « contremaître 
+», disposant d’une vue panoptique assistée par IA. 
+Se pose en parallèle la question de la mise à jour des outils 
+analytiques des crises créées par des acteurs humains (e.g. 
+Disarm, Stix) [3] : comment les adapter aux accélérations 
+technologiques et garantir leur efficacité à l’échelle ? 
+ 
+Des données, toujours des données
+ 
+L’accès à des données de qualité, et conséquemment 
+la création synthétique de jeux de données adaptés 
+et représentatifs, est un enjeu majeur pour le 
+développement des solutions de contrôle. Par exemple, 
+comment s’assurer qu’un modèle est bien aligné avec nos 
+valeurs, sans données pour les caractériser ? Comment 
+entraîner des agents spécialistes de prompt-injection[4], 
+sans exemples pour les entraîner ? Comment être plus 
+efficace et plus rapide (i.e. des modèles spécialistes 
+plutôt que des modèles généralistes), sans données 
+spécialisées ? A contrario de la promesse algorithmique 
+de ces dernières années (« donnez-moi tout Internet 
+et je vous rendrai un modèle qui a réponse à tout »), 
+les données de haute qualité n’ont jamais été aussi 
+précieuses, en ce qu’elles font mouche à chaque fois. 
+Elles sont la base de toute possibilité de génération de 
+scénarios de synthèse pour garantir la robustesse des 
+modèles, en allant explorer en profondeur les failles 
+potentielles, sur des sujets précis dont les modèles sont 
+moins familiers, mais tout autant attendus au tournant. 
+Cette augmentation des capacités d’audit, dans une 
+optique de red-teaming[5] / blue-teaming[6]assistés par 
+l’IA, est une des conditions de mitigation des crises à venir.

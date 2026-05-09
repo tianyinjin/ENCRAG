@@ -1,0 +1,92 @@
+Source file: LMI_Tome2_PEC2024.pdf
+Relative path: LMI_Tome2_PEC2024.pdf
+Page: 30 / 88
+
+================================================================================
+
+Pôle d’excellence cyber
+30
+Le rôle central de l’IA générative pour les Fake 
+News - Une perspective de recherche
+En 2016, l’affaire Cambridge Analytica, une société 
+britannique de conseil politique, a fait prendre 
+conscience au monde entier du pouvoir d’influence 
+des (mauvaises) informations ciblées par les ordinateurs 
+sur le Web. Parmi les événements touchés par ces 
+manipulations figurent l’élection présidentielle 
+américaine de 2016 et le référendum sur le Brexit.
+ 
+En 2016, le contenu était souvent généré par des individus 
+dans les pays à faible revenu, les grands modèles de 
+langage (LLM) d’aujourd’hui surpassent largement les 
+humains en termes de productivité tout en conservant une 
+qualité suffisante pour ressembler à du contenu généré 
+par des humains. En 2023 le contenu textuel avait atteint 
+une qualité comparable à celle d’un contenu humain, et 
+dès 2024 ce fut aussi le cas des imitations audio, et ce sera 
+très probablement le cas pour des longues vidéos en 2025.
+La combinaison des LLM avec la diffusion d’informations 
+ciblées à la Cambridge Analytica crée une arme puissante 
+pour les campagnes de désinformation ciblées. Créer un 
+faux contenu réaliste pour influencer les masses n’a jamais 
+été aussi facile et bon marché. Presque gratuitement, tout 
+le monde peut influencer un grand nombre de personnes 
+avec un contenu ciblé individuellement par le biais de 
+médias tels que TikTok, Instagram, Facebook ou X.
+Cet article met en lumière l’impact de l’IA dite 
+générative sur la création de faux contenus réalistes. Il 
+offre une perspective de rechearche sur la génération, 
+la détection et l’atténuation, en synthétisant les 
+idées de cette jeune communauté de recherche. 
+Un article plus détaillé sur le sujet est disponible(1).
+L’IA générative pour la génération de faux contenus
+Les modèles d’IA générative créent de nouvelles données 
+en apprenant à partir d’ensembles de données existants 
+à l’aide d’architectures d’apprentissage profond telles que 
+les réseaux antagonistes génératifs, ou transformeurs. 
+Les GAN utilisent une approche de réseau neuronal 
+double pour générer des images et des vidéos réalistes, 
+qui peuvent être utilisées pour améliorer les fake news.
+Les transformeurs, comme les modèles GPT, utilisent des 
+mécanismes d’attention pour générer des séquences 
+de texte cohérentes et sont entraînés sur de vastes 
+corpus de textes, ce qui les rend capables de produire 
+divers types de documents écrits, y compris des fausses 
+nouvelles. Par exemple, nous pouvons demander à 
+Chat GPT “écrivez-moi un communiqué de presse 
+décrivant l’émergence d’une épidémie d’intoxication 
+alimentaire dans les cantines scolaires pour des 
+plats spécifiquement sans porc”, il le fera très bien.
+Il existe une multitude de projets de recherche qui ont 
+développé et publié des générateurs de fake news. 
+JudgeGPT (2024, https://judgegpt.streamlit.app/) évalue 
+la qualité de génération de différents modèles d’IA 
+générative en permettant aux utilisateurs de juger les 
+textes produits ; MIST (2024, https://www.cam.ac.uk/
+stories/misinformation-susceptibility-test) fournit un quiz 
+basé sur la psychologie pour évaluer la susceptibilité de 
+tomber sur des fake news ; FACTGEN (2021, https://github.
+com/bigheiniu/FactGen) est un outil pour générer des fake 
+news enrichies par des faits récupérés automatiquement 
+sur le Web ; GROVER (2020, https://grover.allenai.org/) 
+fournit des techniques de génération robustes et des 
+approches sur la façon de détecter leurs résultats.
+Faire 
+face 
+aux 
+fausses 
+nouvelles
+Dans la communauté des chercheurs, trois grandes 
+orientations ont émergé pour traiter les fausses 
+informations : la détection, l’atténuation et les considérations 
+éthiques. Chaque orientation englobe diverses techniques 
+et stratégies visant à lutter contre la prolifération et 
+l’impact des fausses informations par des moyens distincts 
+mais complémentaires. Les paragraphes suivants détaillent 
+plusieurs techniques et examinent leur impact sociétal.
+Dr. Marc-Oliver PAHL
+Titulaire Chaire Cybersécurité 
+des Infrastructures Critiques 
+CyberCNI
+Directeur de recherches
+IMT Atlantique

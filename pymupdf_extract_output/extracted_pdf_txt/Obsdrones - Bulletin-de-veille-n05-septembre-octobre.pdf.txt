@@ -1,0 +1,933 @@
+Source file: Obsdrones - Bulletin-de-veille-n05-septembre-octobre.pdf
+Relative path: Obsdrones - Bulletin-de-veille-n05-septembre-octobre.pdf
+Page count: 16
+Extracted pages: 15
+
+================================================================================
+
+[Page 1 / 16 | chars: 154]
+--------------------------------------------------------------------------------
+
+2024
+OBSERVATOIRE        
+DES DRONES
+Bulletin de veille d’actualité n°5
+Septembre - Octobre
+20241002_NP_Obsdrones_Bulletin-de-veille-n05-septembre-octobre
+
+[Page 2 / 16 | chars: 3995]
+--------------------------------------------------------------------------------
+
+AVANT-PROPOS
+L'observatoire des drones vise à exposer les événements récents liés à l'utilisation
+opérationnelle des drones, les avancées technologiques, les concepts d'emploi, ainsi que les
+perspectives économiques (contrats, acquisitions). Les informations présentées ici ne sont
+qu'un condensé extrait de 300 articles couvrant la période de septembre à octobre 2024.
+Les derniers mois démontrent une accélération de l’emploi des drones, aussi bien aériens que
+terrestres sur le théâtre ukrainien, justifiée par une augmentation des capacités de production de
+l’ensemble des protagonistes du conflit et le développement de technologies rustiques mais
+extrêmement efficaces. A ce titre, les forces ukrainiennes maintiennent un usage intensif des
+UAV et FPV, permettant d'atteindre des cibles en profondeur sur le territoire russe, jusqu'à une
+distance de 1800 km, à l’instar de l’attaque de la nuit du 9 septembre, qui aurait engagé plus de
+150 UAV. Entrepôts de munitions, d’artillerie, de carburants, centrales électriques, usines
+d’armement et bases militaires russes sont autant de cibles privilégiées ces dernières semaines
+par les forces ukrainiennes. Dans cette guerre, la Russie s’adapte et intensifie également son
+usage des drones, avec plus de 1 300 attaques avec des UAV/OWA durant le mois de
+septembre. Le chiffre du mois d’octobre, pas encore connu, serait encore plus important selon le
+MoD britannique.
+En matière d’avancées technologiques, plusieurs salons internationaux (KADEX en Corée du
+Sud, MPSO en Pologne, SAHA en Turquie) se sont tenus en septembre et octobre, confirmant
+plusieurs dynamiques observées ces derniers mois. Profitant d’un RETEX favorable en Ukraine
+concernant les munitions rôdeuses (loitering munitions) et les UAV d’attaque, de nombreuses
+BITD ont fait du développement de ces systèmes une priorité, à l’instar des industriels polonais
+qui ont dévoilé une dizaine de nouveaux systèmes au salon MPSO. Le développement d’UGV est
+aussi en plein essor dans plusieurs pays, en témoigne les 4 nouveaux systèmes dévoilés par
+des industriels turcs au salon SAHA. Sur ce segment, les États-Unis intensifient également leurs
+efforts, l’US Army envisageant à l’issue du programme S-MET II d’acquérir jusqu’à 2 195 UGV.
+Enfin, ces dernières semaines ont également vu le rapprochement de l’Allemagne et du Royaume-
+Uni sur le segment des drones, un partenariat qui pourrait avoir des répercussions sur le
+programme SCAF.
+Au cours des dernières semaines, l’exercice REPMUS 2024 a permis de tester de nombreux
+concepts opérationnels visant à renforcer l’interopérabilité entre les marines de l’OTAN et à
+évaluer l’efficacité de leurs systèmes autonomes dans des opérations conjointes. Rassemblant
+plus de 2 000 participants de 30 pays, cet événement revêt une importance stratégique pour les
+industriels, leur offrant l’occasion de démontrer leurs technologies dans des scénarios réels. Un
+des volets majeurs de cet exercice a consisté en la mise en place d'une barrière de détection
+anti-sous-marine, mobilisant 37 UAV, 20 USV, 36 UUV, ainsi que 15 navires de guerre et 10
+navires de recherche, pour identifier, surveiller et, si nécessaire, neutraliser les sous-marins
+ennemis susceptibles de menacer des infrastructures sous-marines critiques.
+Enfin, ces derniers mois ont également vu les programmes d’acquisitions s’accélérer,
+notamment en Ukraine et à Taïwan, soutenu par les États-Unis qui pourraient prochainement
+allouer 800 millions de dollars à l'Ukraine pour soutenir sa production locale d’UAV. Les
+Ukrainiens, qui seraient en mesure de produire 4 millions d’UAV par an, envisagent de lever
+l’interdiction d’exportation de drones, ce qui pourrait inquiéter des pays cherchant à développer
+leur propre industrie UAV face à cette nouvelle concurrence. Sur fond de tensions avec la Chine,
+Taïwan a également lancé un programme de production massive d’UAV/FPV et devrait se voir
+livrer dans les prochains mois 1 000 UAV d’attaque de manufacture américaine.
+2
+
+[Page 3 / 16 | chars: 3536]
+--------------------------------------------------------------------------------
+
+1 - USAGES OPÉRATIONNELS
+▪L’armée irakienne abat un drone turc au-dessus de Kirkouk dans un contexte de tensions croissantes | Irak
+▪Le Hezbollah utiliserait des UAV Tu-143 transformés en missiles de croisière | Liban
+▪L’armée britannique lance une académie « Top Gun » pour la formation à la guerre des UAV/FPV | Royaume-Uni
+▪Le MQ-4C Triton effectue des démonstrations au-dessus de l’Arctique | Etats-Unis
+▪Selon le Royaume Uni, la Russie a augmenté ses attaques d’UAV OWA contre l’Ukraine | Russie
+▪La Russie utilise des mines volantes attachées sur des UAV/FPV pour des opérations de minage à distance | Russie
+▪Un S-70 Okhotnik abattu au-dessus de l’Ukraine | Russie
+▪Les forces terrestres ukrainiennes annoncent avoir abattu 330 UAV russes et 127 Shahed en août | Ukraine
+▪L’Ukraine lance une vague d’UAV sur la Russie | Ukraine
+▪Les UAV ukrainiens peuvent frapper à 1 800 km | Ukraine
+▪Les forces spéciales ukrainiennes utilisent des nano-UAV Black Hornet dans la région de Kursk | Ukraine
+▪L’Ukraine approuve la mise en service de brancards robotisés | Ukraine
+▪Nouveau lot d’UGV armés livrés aux troupes russes | Ukraine
+2 - BRIQUES TECHNOLOGIQUES
+▪WB Group présente le Warmate 50 au salon MSPO 2024 | Pologne
+▪La Corée du Sud expose son MALE KUS-FS à KADEX 2024 | Corée du Sud
+▪L’Allemagne et le Royaume Uni annoncent un renforcement majeur de leur coopération | Allemagne/Royaume-Uni
+▪La divulgation de documents révèle un UAV israélien « secret » | Israël
+▪QinetiQ et RENK s’associent pour créer des UGV militaires de 5 à 60 t | Allemagne/Royaume-Uni
+▪Le nouvel UGV russe Impulse-KPTM | Russie
+▪BAE Systems Australia présente l’UGV ATLAS CCV | Australie
+▪L'US Army sélectionne deux candidats pour le programme S-MET II | Etats-Unis
+▪L’AUV HUGIN Endurance accomplit une mission autonome record sur 1 200 milles nautiques | Norvège
+▪Le système anti-USV Arida-M dévoilé | Turquie
+▪Taïwan a dévoilé son UUV Huilong doté de 2 tubes lance-torpilles | Taïwan
+3 - CONCEPTS D’EMPLOI
+▪Airbus et Quantum Systems ont réussi à faire voler un essaim de plusieurs types de drones | Allemagne
+▪La DARPA cherche un UAV/Cargo avec une capacité de levage deux fois supérieure à celle du CH-53K | Etats-Unis
+▪L’US Army dévoile un UAV capable de missions de surveillance de plusieurs mois : l’Horus A | Etats-Unis
+▪L’US Army est à la recherche d’un UGV pour améliorer sa logistique | Etats-Unis
+▪REPMUS 24 : le plus grand exercice international d’USV/UUV/UAV démarre au Portugal | OTAN
+▪L’USMC teste un USV inspiré d’un « narco-boat » pour des missions de ravitaillement | Etats-Unis
+▪L’USV Marlin tire un missile Kuzgun-KY depuis un lanceur fixe | Turquie
+4 - PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+▪La Chine va construire une usine en Malaisie pour produire annuellement 3 000 UAV | Malaisie/Chine
+▪Le Niger commande des UAV turcs Lentarek Karayel-SU | Niger
+▪Les États-Unis et l’Inde signent un contrat de 3,5 Md$ pour 31 MQ-9B | Etats-Unis/Inde
+▪L’industrie locale de Taïwan lance la production de masse d’UAV/FPV | Taïwan
+▪L’Ukraine est capable de produire 4 millions d’UAV par an | Ukraine
+▪Les États-Unis vont allouer 800 M$ à la production d’UAV ukrainiens | Ukraine
+▪L’Ukraine envisage de lever l’interdiction d’exporter des drones | Ukraine
+▪Milrem Robotics livre un UGV THeMIS à la Suède pour des essais | Italie
+▪La Russie lance le 1er USV militaire pour des opérations autonomes | Russie
+SOMMAIRE
+4
+4
+4
+4
+4
+5
+5
+5
+5
+5
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+9
+10
+10
+10
+10
+10
+11
+11
+11
+12
+12
+12
+12
+12
+13
+13
+13
+13
+13
+3
+Air
+Terre
+Naval
+
+[Page 4 / 16 | chars: 4693]
+--------------------------------------------------------------------------------
+
+AIR
+Dans la continuité de leurs récentes réussites opérationnelles, les forces ukrainiennes maintiennent un
+usage intensif des drones UAV/FVP, désormais capables de frapper des cibles à une portée pouvant
+atteindre 1 800 km. Les entrepôts de munitions et d’artillerie, les sites de stockage de carburant, les
+centrales électriques, les usines d’armement et les bases aériennes russes demeurent des cibles
+privilégiées. En outre, les forces russes intensifient également leur utilisation de drones, bien que le pays
+ait potentiellement subi une perte importante avec le crash d'un S-70. D'après le MoD britannique, la
+Russie aurait effectué plus de 1 300 attaques avec des UAV/OWA pendant le mois de septembre.
+1/ USAGES OPÉRATIONNELS
+Northrop Grumman annonce avoir fait la démonstration que les systèmes de navigation MQ-4C Triton sont opérationnels au-dessus
+de l’Arctique. Le vol d’essai, qui a commencé à Deadhorse en Alaska, a duré 5h. Le MQ-4C est resté dans l’espace aérien américain et
+canadien pendant toute la durée du vol. Le vol a également permis de valider les procédures d’alignement et d’initialisation du GPS au
+sol pour permettre l’exploitation à partir de pistes situées au-dessus de 70° de latitude nord.
+Le MQ-4C Triton effectue des démonstrations au-dessus de l’Arctique 
+Source : Defence-Industry
+Analyse : Northrop Grumman se positionne ainsi pour des missions dans les zones arctiques qui sont considérées comme
+stratégiques.
+L’armée irakienne abat un drone turc au-dessus de Kirkouk dans un 
+contexte de tensions croissantes
+Source : Drone Actu
+Analyse : Les tensions montent entre l’Irak et la Turquie avec maintenant des conséquences. Curieusement, c’est un Aksungur et non
+un Akinci qui a été abattu - selon les informations disponibles concernant les Aksungur, ceux-ci sont principalement conçus pour un
+usage maritime.
+L’armée irakienne a abattu un UAV turc Aksungur, le 29 août, à proximité de la ville de Kirkouk, une métropole du nord de l’Irak.
+Kirkouk, une région riche en pétrole et d’importance stratégique, est sous le contrôle du gouvernement fédéral à Bagdad, mais elle est
+située près des territoires de la région autonome du Kurdistan. L’UAV, qui venait de la direction de Souleimaniyeh (Kurdistan irakien),
+s’est écrasé dans le centre de Kirkouk, causant des dégâts matériels. L’Aksungur est un MALE avec une envergure de 24 m, une
+longueur de 12 m, une charge utile de 750 kg (capteurs et/ou armes), une endurance maximale de 50 h, un plafond maximum de 40
+000 ft et une vitesse maximale de 135 nds. L’Irak ne précise pas le type d’armes utilisé pour abattre l’UAV mais certaines sources
+annoncent le possible emploi d’un système Pantsir S-1 russe.
+IRAK
+19/09/2024
+01/09/2024
+4
+ETATS-UNIS
+Le Hezbollah utiliserait des UAV Tu-143 transformés en missiles de croisière
+Source : Armées
+Analyse : Techniquement, la transformation d’un TU-143 en missile est possible, cela aurait déjà été réalisé par l’Ukraine, mais
+demande un savoir-faire important. L’origine de ces Tu-143 reste toutefois assez trouble, Syrie ou Iran ? De plus, le nombre de DR-3
+possédé par le Hezbollah reste inconnu.
+02/09/2024
+LIBAN
+Le Hezbollah utiliserait, contre Israël, des UAV soviétiques Tu-143 Reys convertis en missiles de croisière. Le 23 septembre 2024, les
+forces israéliennes ont publié une vidéo affirmant montrer une frappe aérienne survenue plusieurs semaines plus tôt, visant une
+maison dans le sud du Liban contenant ce qu’elles ont appelé un « missile de croisière DR-3 » prêt à être lancé. Le DR-3 serait la
+modification en missile de croisière d’un Tu-143. Le DR-3 serait lancé via une rampe et aurait une portée de 200 km avec une charge
+explosive de 272 kg, ce qui permettrait au Hezbollah de viser Tel-Aviv ou Jérusalem.
+L’armée britannique lance une académie « Top Gun » pour la formation à la 
+guerre des UAV/FPV
+Source : The Defense Post 
+Analyse : L’Armée britannique tire les conséquences du conflit ukrainien et du RetEx des combats. Il reste à savoir quels types
+d’UAV/FPV et types de missions la British Army envisage de réaliser. Ensuite, il lui faudra passer des contrats d’approvisionnement.
+02/09/2024
+ROYAUME-UNI
+L’armée britannique intensifie ses efforts pour former ses soldats au pilotage de UAV/FPV kamikazes pour des missions de frappe de
+précision. Les UAV/FPV ont démontré leur capacité lors des opérations en Ukraine. Dans le cadre du projet Lewes, qui vise à intégrer
+de nouvelles technologies pour améliorer les capacités létales de l’armée, des soldats britanniques sont formés à cette nouvelle
+compétence à la jHub Drone Academy. Cet établissement, sorte de « Top Gun » pour le pilotage des UAV/FPV, fait partie du Strategic
+Command.
+
+[Page 5 / 16 | chars: 4895]
+--------------------------------------------------------------------------------
+
+Bulletin de veille d’actualité n°5 / Septembre-Octobre 2024
+1/Usages opérationnels
+Un S-70 Okhotnik abattu au-dessus de l’Ukraine
+Source : OPEX 360
+Un UAV S-70 Okhotnik a été abattu, le 5 octobre, près de la ville de Kostiantynivka, dans la
+région de Donetsk. Les dernières informations disponibles indiquent que le S-70 aurait été
+abattu par des missiles air-air tirés par un chasseur russe. Le S-70 est le 1er UCAV russe,
+annoncé avec une longueur de 14 m, une envergure de 19 m, une soute interne avec une
+capacité de 2,8 t et une MTOW d’environ 20 t. Outre un emploi classique d’UAV, le S-70 est
+annoncé comme un « Loyal Wingman » du Su-57. Le 1er prototype a été construit en 2018.
+Deux autres prototypes sont en construction et devraient être livrés avant la fin 2024.
+RUSSIE
+06/10/2024
+Les forces terrestres ukrainiennes annoncent avoir abattu 330 UAV 
+russes et 127 Shahed en août
+Source : Militarnyi
+Analyse : Les armes et moyens utilisés ne sont pas officialisés bien que l’Ukraine reconnaisse l’emploi de plus en plus important
+d’UAV/FPV, d’intercepteurs et d’hélicoptères armés. Le taux de perte apparait comme important, mais difficilement vérifiable de
+manière fiable. Ce taux ne serait pertinent que si on connaissait le nombre d’UAV mis en œuvre, en Ukraine sur la même période, par
+les forces russes.
+Les unités de défense aérienne de l’armée ukrainienne annoncent avoir détruit plus de 330 UAV russes et 127 Shahed 131/136 en
+août. Ils ont été abattus à la fois à l’arrière et le long de la ligne de front. Les 330 UAV russes se décomposent en 42 Orlan 10/30, 140
+Zala et 149 autres types : Supercam, Pryvet-82, Skat, etc.
+UKRAINE
+06/09/2024
+Selon le Royaume Uni, la Russie a augmenté ses attaques d’UAV OWA 
+contre l’Ukraine 
+Source : Army Recognition
+Analyse : Les chiffres sont parlants et montrent la pression que subit l’Ukraine. Ils valident, a contrario, la stratégie ukrainienne
+d’attaque des stocks ou des sites de production de ces systèmes.
+23/10/2024
+Selon un rapport du MoD britannique, la Russie a lancé plus de 1 300 UAV/OWA sur l’Ukraine au cours du seul mois de septembre. Il
+s’agit du plus grand nombre de frappes d’UAV de ce type en un seul mois depuis le début du conflit. Les Britanniques pensent que ce
+chiffre devrait être dépassé en octobre. Les rapports des services de renseignement britanniques suggèrent que la Russie est
+probablement en train d’étendre sa capacité à produire elle-même ces UAV/OWA, afin d’atténuer les risques de sanctions et de
+perturbations de la chaîne d’approvisionnement.
+Analyse : À ce stade, les autorités russes n’ont pas confirmé cette perte. Les dernières informations annoncent que le S-70 a été
+abattu volontairement par son Su-57 d’accompagnement en raison de défaillances techniques (qui restent à préciser : contrôle,
+communications, panne du VA ). Certains textes annoncent qu’il s’agissait du 4ème prototypes du Su-70. Toutefois, que faisait un
+prototype de S-70 aussi près de la ligne de front ? Des essais ? Un emploi opérationnel ? Une autre question se pose : le Su-57 (qui
+n’existe pas en version biplace) contrôlait-il le Su-70 ? Ou s’agissait-il d’un avion d’accompagnement, avec un contrôle via une station
+sol ? Ce qui pourrait alors aussi ouvrir la question du brouillage des communications.
+L’Ukraine lance une vague d’UAV sur la Russie 
+Source : Defense Post
+Analyse : L’attaque est remarquable par le nombre d’UAV engagés, probablement largement plus de 150 UAV. Les cibles visées ne
+sont pas précisées par l’Ukraine et comme souvent, la Russie annonce avoir détruit tous les UAV et avoir subi peu de dégâts.
+L’Ukraine a lancé, dans la nuit du 9 au 10 septembre, une attaque sur la Russie avec plus de 140 UAV. Le ministère russe de la
+Défense a déclaré dans un communiqué qu’il avait abattu 144 UAV ukrainiens dans la nuit : 72 au-dessus de la région de Briansk, 20
+au-dessus de la région de Moscou, 14 au-dessus de la région de Koursk, 13 au-dessus de la région de Toula et 25 au-dessus de cinq
+autres parties du pays. La Russie annonce la mort d’une femme et plusieurs blessés.
+UKRAINE
+10/09/2024
+RUSSIE
+La Russie utilise des « mines volantes » attachées sur des UAV/FPV pour des 
+opérations de minage à distance
+Source : Militarnyi
+Les soldats russes commencent à utiliser des « mines volantes » attachées sur des UAV/FPV.
+Début septembre, plus de 15 « mines volantes » de ce type ont été trouvées sur les routes.
+Certaines de ces mines étaient équipées de capteurs de cible, qui sont utilisés sur la mine
+antipersonnel POM-2. Les Russes ont également développé fin octobre le système de largage
+de mines PFM-1 pour les UAV DJI Mavic 3. Le Mavic 3 peut larguer au moins 4 mines PFM-1
+dotées d’un retardateur pour exploser 5 min après avoir été tirées.
+RUSSIE
+03/09/2024
+Analyse : L’approche est innovante. Il reste à savoir si la mine volante peut être commandée à
+distance, voire repositionnée.
+5
+
+[Page 6 / 16 | chars: 3828]
+--------------------------------------------------------------------------------
+
+1/Usages opérationnels
+TERRE
+Le ministère ukrainien de la Défense a approuvé la mise en service d’UGV FoxTac destinés au
+transport médical et logistique. Le FoxTac est un UGV de 40 cm de haut, offrant une grande
+discrétion. Il peut transporter 150 kg et être contrôlé à 700 m de distance. Avec une charge, il
+peut couvrir une distance de 10 km. Le FoxTac peut être replié rapidement pour son transport.
+Le Foxtac a été testé par l’armée ukrainienne en mai.
+L’Ukraine approuve la mise en service de brancards robotisés 
+Source : Defense Post
+Analyse : Pour les forces ukrainiennes, le soutien médical de ses troupes et l’évacuation des
+blessés sont essentiels. Un tel système peut permettre de préserver des vies humaines mais
+aussi de ravitailler en premières lignes des forces de combat.
+UKRAINE
+10/09/2024
+Bulletin de veille d’actualité n°5 / Septembre-Octobre 2024
+6
+Les UAV ukrainiens peuvent frapper à 1 800 km 
+Source : UNN
+Analyse : En moins de 2 ans, l’Ukraine a donc développé, mis au point, produit et déployé sur le terrain des UAV/OWA innovants qui
+lui permettent de frapper la Russie en profondeur. Ce temps, très court, est bien sûr dicté par la guerre mais aussi par le niveau
+technique aéronautique de la base industrielle et technique ukrainienne.
+L’Ukraine annonce que les UAV d’attaque des services de renseignement de défense ukrainiens ont acquis la capacité de frapper des
+cibles à une distance allant jusqu’à 1 800 km. Ces drones d’attaque sont utilisés pour cibler les bases aériennes militaires et les
+installations russes qui « travaillent pour la guerre ». Au premier jour de la guerre (24/02/2022), l’Ukraine ne disposait d’aucun UAV
+d’attaque à longue distance. Compte tenu des restrictions d’emploi de certaines armes imposées par les Occidentaux, l’Ukraine a
+donc décidé de lancer le développement et la production d’UAV OWA (UAV One Way Attack). L’un des plus connus est l’UJ-26 Bober
+qui a été utilisé, durant l’été et l’automne 2023, pour mener des attaques sur des sites à proximité de Moscou. En 2024, l’Ukraine a
+commencé le déploiement massif du Liutyi, annoncé comme précis, qui a frappé un nombre significatif de raffineries sur le territoire
+russe. Depuis août 2024, le Palianytsia s’est ajouté à ces systèmes. Il est défini comme un « missile/drone ».
+07/09/2024
+6
+L’armée russe a reçu un nouveau lot d’UGV Courier. Ce type d’UGV, qui peut transporter divers
+types d’armes, a déjà été déployé en Ukraine. Initialement développé comme un prototype, le
+Courier est maintenant en production à un rythme soutenu. Le Courier peut être équipé d’une
+large gamme d’armements : lance-grenades automatiques AGS-17 et AGS-30, RPG, missiles
+guidés antichar et des mitrailleuses lourdes de 12,7 mm. Il est également capable de déployer
+des mines antichars, des lance-roquettes thermobariques Shmel et des systèmes GE.
+Nouveau lot d’UGV armés livrés aux troupes russes
+Source : Defence-Blog
+Analyse : La Russie ne diffuse pas les caractéristiques du Courier et sa production « à forte
+cadence » ne veut rien dire. Toutefois, l’annonce de l’emploi de cet UGV en opérations montre
+que la Russie progresse dans ce domaine.
+30/09/2024
+RUSSIE
+Les forces spéciales ukrainiennes utilisent des nano-UAV Black Hornet
+dans la région de Kursk
+Source : Militarnyi
+Analyse : Ce système est devenu américain après le rachat de Prox Dynamics par FLIR System.
+Il est probable que la version utilisée soit le Black Hornet 2 et non la dernière version Black
+Hornet 3 commandée par l’US Army.
+Dans la région de Koursk, les forces spéciales ukrainiennes utilisent des nano-drones de
+reconnaissance Black Hornet. Développé initialement par la société norvégienne Prox Dynamics,
+le Black Hornet ne pèse que 18 g et peut fonctionner pendant 25 minutes sans être rechargé. Sa
+portée est de 2 km.
+UKRAINE
+29/09/2024
+UKRAINE
+6
+
+[Page 7 / 16 | chars: 3946]
+--------------------------------------------------------------------------------
+
+AIR
+Plusieurs salons internationaux de l'armement (KADEX en Corée du Sud, MPSO en Pologne, SAHA en
+Turquie) ont confirmé les dynamiques observées ces derniers mois sur ces marchés. De nombreux
+industriels locaux se sont engagés dans des programmes de munitions rôdeuses, des UAV d'attaque, des
+UGV de moyenne et grande taille, des USV armés, ou encore des systèmes anti-USV à l’instar du système
+Arida-M de la société turque Anadolu Robotik. Ces dernières semaines ont également vu le renforcement de
+la coopération entre l’Allemagne et le Royaume-Uni dans ce secteur, susceptible d’entraîner des
+répercussions significatives sur le programme SCAF.
+2/ BRIQUES TECHNOLOGIQUES
+Lors du salon KADEX 2024, la Corée du Sud a présenté son UAV MALE : KUS-FS. Le KUS-FD a
+été développé par KAL-ASD (Korean Air Aerospace Division) avec le soutien de l’ADD (Agency
+for Defense Development) sud-coréenne. La RoKAF (Republic of Korean Air Force) veut se
+procurer plusieurs systèmes pour environ 10 vecteurs aériens (VA). Le développement du
+système a débuté en 2008. Le 1er prototype a volé en février 2012 et le développement s’est
+fini en mars 2022. La production en série a démarré en janvier 2024. Les premières livraisons
+sont prévues en 2028.
+La Corée du Sud expose son MALE KUS-FS à KADEX 2024
+Source : Army Recognition
+Analyse : Le KUS-FS a une configuration très proche de celle du MQ-9A Reaper. Toutefois, ses performances sont un peu inférieures,
+ce qui n’a rien de surprenant pour un premier développement. Le rayon d’action de 270 nq est un peu surprenant pour un système
+doté d’une SatCom. Le délai entre le début de la production et le début des livraisons paraît également assez long. Ce système
+pourrait être exporté, bien qu’il arrive très tard et sur un marché très encombré.
+CORÉE DU SUD
+02/10/2024
+7
+Le KUS-FS est annoncé avec une longueur de 13 m, une envergure de 25 m, une MTOW de 5,75 t, un plafond de 45 000 ft, une
+vitesse maximum de 194 nds et une endurance de 24 h. Son rayon d’action serait de 500 km (270 nq). La propulsion est assurée par
+un turbopropulseur de 1 200 cv développé par Hanwha Aerospace. Il dispose de 4 points d’emports sous voilure.
+WB Group présente le Warmate 50 au salon MSPO 2024
+Source : Defense Update
+04/09/2024
+POLOGNE
+Durant le salon MSP qui se déroule à Kielce, la société polonaise WB Group a présenté le
+Warmate 50, un nouveau UAV d’attaque. Le Warmate 50 est exclusivement conçu pour des
+missions de frappe. Comme son nom l’indique, le Warmate 50 est équipé d’une charge utile de
+50 kg. La propulsion est assurée par un moteur thermique. Le Warmate 50 est annoncé comme
+une évolution du Warmate 20. Son rayon d’action serait de 150 à 1 000 km.
+Analyse : À ce stade, le statut du système est inconnu : développement, prototype, présérie, etc. Il est certain que la Pologne accélère
+le développement de sa capacité de combat y compris dans le domaine des UAV de combat.
+Le 23 octobre, le Royaume-Uni et l’Allemagne ont convenu de renforcer significativement leur coopération militaire en officialisant la
+signature d’un accord de défense appelé Trinity House Agreement. L’accord de Trinity House vise à accroître la coopération
+opérationnelle entre les forces britanniques et allemandes, via la planification et la conduite d’exercices conjoints censés mettre
+l’accent sur l’élaboration de « nouvelles méthodes de combat ». Il prévoit des actions communes pour protéger les infrastructures
+sous-marines critiques ainsi que le déploiement ponctuel de PatMar P-8A Poseidon (comme ceux de la RAF) allemands en Écosse
+(Lossiemouth). L’accord évoque également une coopération pour développer « un système aérien de patrouille maritime sans
+équipage ». L’accord annonce l’engagement des deux pays à développer et à mettre en réseau des « systèmes aériens sans pilote ».
+26/10/2024
+ROYAUME-UNI
+ALLEMAGNE
+L’Allemagne et le Royaume Uni annoncent un renforcement majeur de leur 
+coopération
+Source : Drone Actu
+
+[Page 8 / 16 | chars: 3923]
+--------------------------------------------------------------------------------
+
+2/Briques technologiques
+TERRE
+QinetiQ et RENK s’associent pour créer des UGV militaires de 5 à 60 t
+Source : ASDNews
+Analyse : L’accord pourrait être majeur pour l’avenir des UGV en Europe.
+QinetiQ (Royaume Uni) et RENK Group AG (Allemagne) se sont associés pour développer conjointement des solutions de mobilité, en
+se concentrant sur l’hybridation et les UGV militaires de 5 à 60 t. RENK Group AG apportera son expertise dans les technologies
+d’engrenages, les entraînements électriques et l’électronique de puissance. QinetiQ apportera ses capacités en matière d’autonomie et
+de maniabilité, contribuant ainsi au développement de futurs concepts de mobilité pour les véhicules blindés.
+ROYAUME-UNI / 
+ALLEMAGNE
+11/09/2024
+8
+Bulletin de veille d’actualité n°5 / Septembre-Octobre 2024
+Le nouvel UGV russe Impulse-KPTM 
+Source : Army Recognition
+Analyse : La Russie semble décidée à rattraper son retard dans le domaine UGV. La distance de contrôle reste limitée sauf en fibre
+optique mais avec des contraintes d’emploi.
+Lors d’Army-2024, l’armée russe a présenté l'UGV Impulse-KPTM conçu pour les opérations de
+pose de mines. Cet UGV est équipé de 30 canons de lancement, chacun capable d’abriter divers
+lanceurs de mines, ce qui lui permet de déployer jusqu’à 120 mines antichars et anti personnels
+simultanément pour créer différents types de champs de mines. De plus, le véhicule peut
+remorquer différents types de véhicules et de remorques. L’Impulse-KPTM a une masse
+maximale de 1,35 t, une vitesse maximale de 10 km/h, peut gravir des pentes jusqu’à 25
+degrés. Il est alimenté par des moteurs d’une puissance combinée de 20 kW. Son autonomie
+serait de 4 h. La distance maximale de contrôle est de 1 000 m en radiocommande et de 20 km
+via une fibre optique.
+RUSSIE
+13/09/2024
+La divulgation de documents révèle un UAV israélien « secret »
+Source : Defence-Blog
+20/10/2024
+ISRAËL
+Selon des documents diffusés sur Telegram, l’IAF (Israeli Air Force) a mené des opérations secrètes d’UAV entre le 15 et le 16
+octobre pour une surveillance furtive à longue portée. La National Geospatial-Intelligence Agency (NGA) des États-Unis a confirmé les
+renseignements, observant le personnel au sol et l’équipement préparant des UAV sur la base aérienne de Ramon, dans le sud
+d’Israël.
+Analyse : À ce stade, difficile d’en savoir plus. Qu’Israël ait développé ce type de système et ait réussi à le garder secret n’aurait rien
+de surprenant.
+BAE Systems Australia présente l’UGV ATLAS CCV
+Source : Joint Forces
+Analyse : Avec ce système, BAE Systems Australia se positionne sur le marché. Le développement de ce système, en Australie,
+montre, une fois de plus, que ce pays mise beaucoup sur les systèmes robotisés, dans tous les domaines, pour moderniser et
+augmenter les capacités de ses forces militaires.
+Le 11 septembre 2024, BAE Systems Australia a présenté à Melbourne un UGV désigné ATLAS-
+CCV (Autonomous Tactical Light Armour System - Collaborative Combat Variant). Il s’agit du 1er
+véhicule de ce type développé en Australie. L’ATLAS-CCV est un 8x8 conçu pour fonctionner de
+manière autonome dans divers environnements de combat, à la fois sur route et hors route, et
+pour soutenir les véhicules avec équipage. Selon son concepteur, il intègre des technologies
+éprouvées, pouvant réduire les coûts. Il peut être configuré pour différentes missions.
+L’ATLAS-CCV est équipé du système de tourelle automatisé (ATS) « VANTAGE », une tourelle
+de moyen calibre conçue spécifiquement pour les plates-formes sans équipage. Il est armé
+d’un canon M242 Bushmaster de 25 mm (260 obus) qui a une portée allant jusqu’à 2 500 m.
+Sa suite de capteurs avancés comprend un système de détection, de suivi et de classification
+automatique des cibles multispectral à 360°, avec des capacités telles que les caméras EO/IR,
+les capteurs acoustiques, la guerre électronique passive, la vision stéréoscopique et le LIDAR.
+AUSTRALIE
+16/09/2024
+
+[Page 9 / 16 | chars: 4549]
+--------------------------------------------------------------------------------
+
+L'US Army sélectionne deux candidats pour le programme S-MET II 
+Source : Armada International
+Analyse : La compétition sera très sévère et les enjeux majeurs. Le système qui gagnera aura
+indéniablement un avantage sur le marché Export.
+Le 24 septembre, l’US Army a annoncé le choix d’American Rheinmetall Vehicles LLC (ARV) et
+HDT Expeditionary Systems Inc. pour fournir des prototypes des UGV du programme S-MET II
+(Small Multipurpose Equipment Transporter Increment II). Le S-MET est destiné à fournir aux
+petites unités un moyen de transporter une variété de charges différentes afin d’améliorer leur
+durabilité et leur capacité à des opérations plus autonomes. Chaque société a reçu un contrat
+de 22 M$ pour produire 8 prototypes du S-SMET II. À l’issue des essais, l’US Army prévoit de
+passer des contrats pour 2 195 UGV S-MET Inc II.
+2/Briques technologiques
+27/09/2024
+NAVAL
+Le système anti-USV Arida-M
+Source : Naval News
+Analyse : Le système semble intéressant mais il suppose de résoudre de nombreuses questions : combien d’USV versus taille de
+zone ? Quid de la gestion des communications nécessairement complexes (le contrôle des USV étant complexe en raison des
+contraintes de portée des liaisons de données (LOS) et de la gestion simultanée des communications vers plusieurs unités,
+nécessitant des ajustements techniques) ? Quelle portée autour du navire porteur ? Combien coûte le traitement d’une cible ? Quid de
+la ressource RH nécessaire ? Il existe donc encore des incertitudes sur son potentiel. Toutefois, son emploi pour protéger une zone
+fixe à haute valeur ajoutée (port militaire) pourrait avoir un sens.
+La société turque Anadolu Robotik a présenté sa solution anti-USV-kamikaze Arida-M au salon SAHA 2024. Le système est conçu
+pour détecter et intercepter les USV kamikazes ciblant les combattants navals. Le cœur du système est l’USV Muhafiz. Les Muhafız
+sont chargés de détecter et d’intercepter les USV hostiles. Le Muhafız est un petit USV de 4,5 m de long, 1,3 m de large, d’un
+déplacement d’1 t. Il transporte 30 kg de capteurs, peut atteindre une vitesse de 50 nds et naviguer par mer 4. Il est annoncé comme
+capable à la fois de détecter les menaces potentielles et d’éviter les obstacles. La charge explosive montée se compose de 50 kg
+d’explosifs conçus pour neutraliser les navires ennemis à l’impact.
+L’AUV HUGIN Endurance accomplit une mission autonome record sur 1 200 milles 
+nautiques
+Source : Kongsberg
+Analyse : Kongsberg progresse dans le développement de son plus gros AUV. Ces performances devraient intéresser un grand
+nombre de marines déjà clientes de Kongsberg.
+Selon un communiqué de presse publié par Kongsberg le 4 septembre 2024, son AUV Hugin Endurance a réussi une mission
+autonome de plusieurs semaines. Le Hugin Endurance a une masse de 8 t, une longueur de 12,19 m. Il a navigué en autonome sur
+une distance de 1 200 nm, à des profondeurs comprises entre 50 et 3 400 m, avec une précision sur le point d’arrivée de 0,02 %. Des
+images de sonar SAS (Synthetic Aperture Sonar) à haute résolution et des données bathymétriques ont été collectées.
+TURQUIE
+NORVÈGE
+04/09/2024
+24/10/2024
+Taïwan a dévoilé son UUV Huilong doté de 2 tubes lance-torpilles
+Source : Taiwan Plus
+TAIWAN
+28/10/2024
+Taïwan dévoile l’UUV Huilong, équipé de 2 tubes lance-torpilles et de capacités de surveillance. Toutefois, le ministre taïwanais de la
+Défense a récemment précisé que le Huilong est principalement destiné à des fins d’essai, en particulier pour les sonars et les
+systèmes de mines sous-marines, et ne dispose pas d’un système de propulsion actif. Par conséquent, lors des essais en mer, il est
+remorqué par des navires de soutien plutôt que d’opérer indépendamment. Le projet Huilong est un programme conjoint entre
+l’Institut national des sciences et de la technologie Chung-Shan de Taïwan (NCIST : National Chung-Shan Institute of Science and
+Technology) et Lung Teh Shipbuilding. Le développement a officiellement commencé en 2020. Le Huilong est annoncé avec un
+déplacement de 100 t, une longueur de 30 m, une largeur de 3,6 m, et une hauteur totale de 6 m. Il serait également conçu pour
+déployer de petits UUV.
+Analyse : Taïwan laisse planer des doutes sur les capacités et les objectifs réels de ce système, ce qui est probablement une forme de 
+stratégie vis-à-vis de son voisin chinois. Le Huilong montre la volonté de Taïwan de développer sa capacité sous-marine sans pilote et 
+pas uniquement pour des missions ISR. 
+9
+Bulletin de veille d’actualité n°5 / Septembre-Octobre 2024
+ETATS-UNIS
+
+[Page 10 / 16 | chars: 4691]
+--------------------------------------------------------------------------------
+
+AIR
+Ces dernières semaines, de nombreux concepts d’emplois ont été testés dans le cadre de l’exercice
+REPMUS 2024 au Portugal, dont l’objectif principal est de favoriser l’interopérabilité entre les marines de
+l’OTAN et d’évaluer la capacité de leurs systèmes autonomes à opérer de manière conjointe. Cet exercice,
+réunissant plus de 2 000 participants issus de 30 pays, revêt également une dimension stratégique pour les
+industriels, leur offrant une exposition concrète dans des conditions réelles et, potentiellement, des
+opportunités économiques par le biais de la performance de leurs produits lors de cet événement.
+Airbus et Quantum Systems ont réussi à faire voler un essaim de 
+plusieurs types de drones
+Source : OPEX 360
+Analyse : Ces travaux sont, à ce stade, réalisés avec des petits UAV mais les protocoles et les
+techniques mis au point devraient servir pour d’autres types d’UAV, et potentiellement pour les
+futurs Loyal Wingman entre eux.
+Le ministère allemand de la Défense a confié à Airbus Defence & Space (ADS), l’étude KITU 2
+(Künstliche Intelligenz für taktische UAS – intelligence artificielle (IA) pour les UAV tactiques).
+Dans ce cadre, ADS s’est associé à Quantum Systems et Spleenlab. KITU 2 vise à évaluer le
+potentiel de l’IA pour « coordonner des essaims mixtes d’UAV aux capacités différentes ». ADS
+et Quantum annoncent avoir réalisé une expérimentation de ce type en août.
+3/ CONCEPTS D’EMPLOI
+ALLEMAGNE
+20/09/2024
+La DARPA (Defense Advanced Research Projects Agency) lance le projet « Cost Efficient Cargo » qui explore la conception d’un UAV
+capable de transporter jusqu’à 31,75 t, soit le double de la capacité du CH-53K King Stallion (118 M$ pièce), en service dans l’USMC.
+Le système serait destiné à déplacer des charges lourdes entre les navires et les plages, ou pour traverser des rivières et d’autres
+obstacles naturels à l’intérieur des terres. La DARPA a publié un RFI pour un UAV/Cargo apte à transporter 70 000 livres (environ 35
+t). Le futur UAV doit utiliser les technologies de moteur et de transmission existantes tout en s’écartant des systèmes actuellement
+utilisés par les hélicoptères traditionnels. La portée opérationnelle visée est de 40 km avec une altitude de 500 ft entre le point de
+charge de la cargaison et celui de sa livraison. Le but est de permettre à l’USMC de déployer rapidement du matériel sur une zone
+malgré des obstacles. L’objectif du RFI est d’identifier des concepts révolutionnaires et d’atténuer les risques grâce à des prototypes à
+échelle réduite avant d’investir dans un développement à grande échelle.
+La DARPA cherche un UAV/Cargo avec une capacité de levage deux fois 
+supérieure à celle du CH-53K King Stallion
+Source : TWZ
+Analyse : À ce stade, il s’agit de développer des concepts, ce qui est le rôle de la DARPA. Le concept même montre que l’emploi
+potentiel des UAV/Cargo va bien au-delà des travaux actuels.
+25/09/2024
+10
+ÉTATS-UNIS
+L’US Army révèle, le 1er octobre, l’Horus A développé par AeroVironment et dérivant du démonstrateur Sunglider. L’Horus A est un
+HAPS (High Altitude Platform Station) propulsé par 8 moteurs électriques tirant leur énergie de batteries et de panneaux solaires. Il
+est annoncé avec une endurance de plusieurs mois (sans précision) et plusieurs charges utiles avec une masse totale de 68 kg
+disposant d’une puissance électrique de 1,5 kW. Le vol du 1er octobre a confirmé la capacité d’Horus A d’évoluer dans des conditions
+météorologiques défavorables (mais non précisées), à collecter et à transmettre des données en temps réel et à démontrer
+l’interopérabilité avec d’autres systèmes. Lors de ce vol, Horus A embarquait un radar SAR (type non précisé) et une radio tactique.
+Horus A est annoncé comme capable de coordonner des essaims de drones tactiques, tels que le Switchblade 600 d’AeroVironment.
+L’US Army dévoile un UAV capable de missions de surveillance de plusieurs 
+mois : l’Horus A 
+Source : Bots & Drones
+Analyse : L’US Army ne précise pas le statut actuel du système et son avenir : prototype, présérie ? Combien de systèmes
+commandés ? Quand entreront-ils en service, etc. L’Horus A bénéficie, sans aucun doute, de toutes les études d’AeroVironment dans
+ce domaine (financées majoritairement par la NASA : Pathfinder, Helios, Sunglider). Il se distingue des autres HAPS en cours de
+développement (Zephyr, Phasa 35, etc.) par sa masse de charge utile importante. Il reste à savoir à quelle altitude l’Horus A opère,
+probablement au-delà de 65 000 ft, et son endurance réelle. Avec ce système, l’US Army marque un point important même vis-à-vis
+de l’USAF. La capacité de mettre en œuvre et de contrôler des LM est très intéressante.
+01/10/2024
+ÉTATS-UNIS
+
+[Page 11 / 16 | chars: 4969]
+--------------------------------------------------------------------------------
+
+3/Concepts d’emploi des drones
+TERRE
+NAVAL
+L’USMC teste un USV inspiré d’un « narco-boat » pour des 
+missions de ravitaillement 
+Source : Defense News
+Analyse : L’USMC ne cache pas son intérêt pour ce type de systèmes, qui lui permet de garantir l’approvisionnement de ses forces
+avec des risques humains très réduits. Si les résultats sont probants, notamment en termes de cycle d’opérations et de coûts de
+maintenance, des contrats devraient suivre rapidement.
+ÉTATS-UNIS
+04/09/2024
+L’USMC teste un USV inspiré d’un « narco-boat » pour des missions de ravitaillement. En plus de livrer des missiles destinés aux
+forces déposées à terre, le système vise à mieux acheminer des fournitures essentielles, telles que de la nourriture ou des munitions.
+L’USV testé est long de 16,8 m, peut naviguer sur de très grandes distances et est apte à transporter une « grande variété de charge
+». Inspiré des « narco-boat », il a une silhouette très réduite pour réduire la probabilité de détection. L’USMC l’a testé lors du projet
+Convergence Capstone en février en Californie. L’USMC disposerait déjà de 2 prototypes qui sont en phase de test.
+L’US Army est à la recherche d’un UGV pour améliorer sa logistique
+Source : Defense Post
+ETATS-UNIS
+10/09/2024
+L’US Army officialise un appel d’offres pour un UGV de soutien d’infanterie, afin de combler ses lacunes en termes de capacités
+logistiques. L’US Army envisage un UGV plus grand que l’actuel SMET (Small Multipurpose Equipment Transport) mais plus petit que
+le PLS (Palletized Load System). Le SMET est un UGV à huit roues qui peut transporter jusqu’à 453 kg de fret (16 en commande chez
+General Dynamics), tandis que le PLS est un système logistique basé sur un camion pour les charges plus lourdes. Il y a un fossé
+entre les deux, ce qui a conduit à la création du MMET (Multipurpose Equipment Transport). Les exigences demandées seront
+publiées prochainement.
+Analyse : L’US Army marche vers l’emploi massif d’UGV et le futur MMET sera l’un de ces appareils. La compétition sera rude,
+compte tenu de la commande possible. Une recherche d’harmonisation avec les besoins de l’USMC reste possible, avec l’adoption
+d’un système commun pour les deux forces.
+L’USV Marlin tire un missile Kuzgun-KY depuis un lanceur fixe
+Source : Turdef
+TURQUIE
+02/10/2024
+Le missile antinavire Tubitak Kuzgun-KY a été tiré d’un lanceur fixe, 8 cellules, installé sur un USV Marlin. Le Kuzgun-KY est annoncé
+avec une portée de 50 km, une vitesse « supersonique » et une CU de 10 kg.
+Analyse : Il s’agit d’un essai majeur bien que le résultat n’ait pas été annoncé. Ce type de missile devrait aussi équiper des UAV turcs. 
+11
+Bulletin de veille d’actualité n°5 / Septembre-Octobre 2024
+REPMUS 24 : le plus grand exercice international d’USV /UUV/UAV démarre au 
+Portugal
+Source : Army Recognition
+Analyse : L’exercice est majeur pour l’OTAN mais également pour de nombreux industriels qui voient de nombreux clients potentiels
+tester et/ou voir des démonstrations de leurs produits en condition réelle.
+Selon les informations publiées par le ministère portugais de la Défense, l’exercice REPMUS 24 (Robotic Experimentation and
+Prototyping using Maritime Unmanned Systems) a officiellement commencé à Troia et à Sesimbra, l’événement se déroulant jusqu’au
+27 septembre. L’édition de cette année, la 14ème, rassemble plus de 2 000 participants de 30 pays. REPMUS est un événement naval
+annuel organisé par la marine portugaise, en collaboration avec l’OTAN et de multiples partenaires internationaux. Cet exercice se
+concentre sur la mise à l’essai et l’avancement des technologies de systèmes maritimes, UAV, UUV, USV dans des scénarios
+complexes du monde réel. L’objectif principal de REPMUS est de favoriser l’interopérabilité entre les marines de l’OTAN et des alliés,
+tout en développant et en perfectionnant l’utilisation de systèmes sans équipage dans des opérations telles que la lutte anti-sous-
+marine, la lutte contre les mines, les missions ISR. L’exercice offre aux pays et aux partenaires de l’OTAN une plate-forme pour
+expérimenter des concepts innovants, améliorant ainsi l’intégration des technologies sans pilote avec les moyens habités traditionnels.
+Dans le cadre de l’exercice, le projet de barrière anti-sous-marine de l'OTAN a mobilisé 37 UAV, 20 USV, 36 UUV, ainsi que 15 navires
+de guerre et 10 navires de recherche, afin de créer une barrière de détection et de surveillance sous-marine pour identifier des
+menaces dans des zones spécifiques (identifier, surveiller et éventuellement neutraliser les sous-marins ennemis qui représentent une
+menace pour les bases navales, les voies de navigation ou d'autres éléments d'infrastructure sous-marine critiques). Parmi les autres
+concepts testés, la marine portugaise aurait expérimenté le concept de base maritime sans équipage, appelée « île », entièrement
+autonome et autosuffisante, utilisée pour soutenir les opérations de systèmes maritimes sans équipage.
+OTAN
+11/09/2024
+
+[Page 12 / 16 | chars: 5005]
+--------------------------------------------------------------------------------
+
+AIR
+L'acquisition de drones demeure au cœur de l'actualité ces derniers mois. Les États-Unis pourraient
+prochainement allouer 800 millions de dollars à l'Ukraine afin de soutenir la production d’UAV locaux. Dans
+ce contexte, les Ukrainiens, confrontés à un besoin de financement et bénéficiant d'un retour d'expérience
+dans le domaine, envisagent de lever l'interdiction d'exportation de drones. En effet, l'Ukraine serait
+actuellement en mesure de produire 4 millions d'UAV. Cette annonce pourrait néanmoins susciter des
+inquiétudes parmi certains pays qui cherchent également à développer leur propre industrie UAV et qui se
+trouveraient alors en concurrence directe avec l'Ukraine.
+4/ PERSPECTIVES ÉCONOMIQUES : CONTRATS & ACQUISITIONS
+L’industrie locale de Taïwan lance la production de masse d’UAV/FPV 
+et prévoit d’acquérir plus de 1 000 UAV d’attaque   
+Source : Bloomberg 
+Analyse : Avec de telles annonces, Taïwan envoie un message à la Chine et donne du temps à son industrie pour développer des
+modèles locaux.
+L’industrie locale de Taïwan lance la production de masse de UAV/FPV pour tenir compte des enseignements de la guerre en Ukraine
+et pour faire face à la menace chinoise. Le fabricant taïwanais Thunder Tiger a dévoilé l’UAV/FPV OverKill Killer, conçu pour
+transporter un obus de mortier de 81 mm, permettant une précision tactique et une flexibilité dans les opérations de première ligne et
+secrètes. L’OverKill Killer a une CU de 7 kg, un rayon d’action de 6 km et une endurance de 30 min. Cette production s’inscrit dans le
+cadre du programme de drones FPV taïwanais, l'armée prévoyant également d'acheter 3 422 micro-drones de fabrication nationale
+dans six modèles différents entre 2024 et 2028. Fin octobre, le ministère taïwanais de la Défense a également signé des accords
+formels avec le gouvernement américain, lui permettant d’acheter jusqu’à 1 000 UAV d’attaque à AeroVironment et Anduril Industries.
+TAIWAN
+29/10/2024
+12
+La Chine va construire une usine en Malaisie pour produire annuellement 3 000 UAV 
+Source : Army Recognition
+Analyse : Il ne fait aucun doute que ces systèmes connaîtront, un jour, des versions militaires.
+La Malaisie va collaborer avec la Chine pour construire une usine de fabrication d’UAV en Malaisie. L’installation devrait être
+opérationnelle d’ici 2025 et avoir une capacité de production annuelle d’environ 3 000 UAV. L’accord a été signé entre MARA
+Aerospace & Technologies Sdn Bhd (Malaisie) et Honeycomb Aerospace Technologies (Chine). L’accord prévoit des transferts de
+technologies entre la Chine et la Malaisie. HAT produit majoritairement des UAV VTOL type HC-141, HC-245, HC-332E, HC-342E, HC-
+525, HC-541 destinés, officiellement, à des missions civiles.
+CHINE
+12/09/2024
+Le Niger commande des UAV turcs Lentarek Karayel-SU 
+Source : Africa Intelligence
+Analyse : Ce système est peu connu et peu diffusé (il serait en service en Arabie Saoudite). Les dates de livraison ne sont pas
+connues. Le Niger se distingue d’une grande partie du continent africain qui commande majoritairement des TB2.
+Selon Africa Intelligence, le Niger a commandé 5 UAV turcs Lentarek Karayel-SU pour un montant de 80 M€. Le Karayel-SU est le
+3ème UAV tactique développé et produit en Turquie. Il est annoncé avec une CU interne de 70 kg, une CU externe de 120 kg sous
+voilure. Son autonomie est de 20 h et son rayon d’action de 200 km. Il dispose d’un ATOLS (technologie inconnue).
+NIGER
+10/10/2024
+Les États-Unis et l’Inde signent un contrat de 3,5 Md$ pour 31 MQ-9B
+Source : The Hindu
+Analyse : Ce contrat est en négociation depuis plusieurs années. Il est enfin signé et va renforcer considérablement les moyens UAV
+de l’Inde, bien que les dates de livraison ne soient pas encore indiquées. Il marque, une fois de plus, le choix par l’Inde, des États-
+Unis comme l’un de ses fournisseurs majeurs d’armement. Ce contrat montre aussi que l’Inde a toujours de grandes difficultés à
+développer son propre UAV MALE, malgré des travaux en cours depuis plusieurs années. Pour General Atomics, il s’agit d’un contrat
+majeur confortant les ventes du MQ-9B. Bizarrement, le contrat est sous FMS alors qu’officiellement les États-Unis n’ont pas acquis
+de MQ-9B.
+L’Inde et les États-Unis ont finalisé un accord de 3,5 Md$, dans le cadre FMS, pour l’acquisition de 31 MQ-9B visant à renforcer les
+capacités opérationnelles de la marine, de l’armée de l’air et de l’armée terrestre indiennes. Selon l’accord, 15 Sea Guardian sont
+destinés à la marine indienne, tandis que 16 Sky Guardian seront répartis à égalité entre l’armée de l’air et l’armée de terre. Sur le
+plan opérationnel, ces UAV seront déployés dans le cadre d’un commandement conjoint tripartite avec des bases dans les régions du
+nord, du nord-est et du sud de l’Inde. La base navale INS Rajali, près de Chennai, servira de principal centre opérationnel pour les
+opérations maritimes, où les drones Sea Guardian sont déjà actifs dans le cadre d’un accord de location avec les États-Unis.
+INDE
+15/10/2024
+
+[Page 13 / 16 | chars: 4450]
+--------------------------------------------------------------------------------
+
+4/Perspectives économiques
+Analyse : Si ces essais sont réussis, il est très probable que la Suède signe un contrat pour de nombreux systèmes, ce qui serait un
+succès notable pour Milrem Robotics lui permettant d’obtenir une référence OTAN.
+L’entreprise de défense estonienne Milrem Robotics a livré un UGV THeMIS à la Suède pour des essais et des expérimentations. Le
+véhicule, équipé du kit de fonctions intelligentes MIFIK (Intelligent Functions Kit) de Milrem pour la mobilité autonome, sera utilisé par
+l’Administration suédoise du matériel de défense (FMV), l’Agence suédoise de recherche pour la défense et les forces armées
+suédoises. Le contrat marque la 1ère étape de la Suède vers l’intégration de la robotique dans ses opérations de défense.
+La Russie lance le 1er USV militaire pour des opérations autonomes
+Source : Army Recognition
+RUSSIE
+27/09/2024
+L’usine russe de construction de machines à Kingisepp, dans l’oblast de Leningrad, a commencé la production en série du 1er USV
+militaire. L’USV KMZ (Kingisepp Machine-Building Plant) est un USV polyvalent, capable de remplir de multiples missions telles que la
+reconnaissance, le transport de marchandises ou les missions de frappe armée. Il est équipé d’un moteur hybride qui permet de se
+déplacer à faible vitesse et peut accélérer jusqu’à 40 nds. Dans une configuration armée, l’USV KMZ peut être équipé de mitrailleuses
+lourdes, de missiles légers et même de charges utiles allant jusqu’à 600 kg.
+Analyse : La Russie débute dans ce domaine et elle a du retard sur d’autres nations comme l’Ukraine par exemple. Néanmoins, son
+industrie dispose de toutes les capacités pour développer et produire des USV performants. Il reste à savoir si les budgets suivront.
+NAVAL
+13
+Bulletin de veille d’actualité n°5 / Septembre-Octobre 2024
+TERRE
+Milrem Robotics livre un UGV THeMIS à la Suède pour des essais
+Source : Defence-Industry
+AUSTRALIE
+18/09/2024
+L’Ukraine est capable de produire 4 millions d’UAV par an
+Source : Reuters
+Analyse : Il s’agit majoritairement d’UAV/FPV mais aussi de nombreux UAV/OWA utilisés en quantité contre la Russie.
+Selon le président Zelensky, l’Ukraine est capable de produire 4 millions d’UAV dont plus de 1,5 millions sont déjà commandés.
+UKRAINE
+02/10/2024
+Les États-Unis vont allouer 800 M$ à la production d’UAV ukrainiens
+Source : Militarnyi
+Analyse : Les États-Unis, tant au niveau militaire qu'industriel, bénéficient des retours d'expérience (RetEx) liés à l'utilisation de leurs
+systèmes en Ukraine. Toutefois, ce soutien comporte aussi le risque de favoriser l'émergence de nouveaux concurrents industriels,
+les Ukrainiens accumulant également ces RetEx et l'expérience des systèmes américains.
+UKRAINE
+21/10/2024
+L’Ukraine envisage de lever l’interdiction d’exporter des UAV, afin d’obtenir des fonds supplémentaires pour augmenter la production
+de drones pour les besoins des forces de défense ukrainiennes. Selon certaines sources, cela permettrait de rapporter jusqu’à 20 M$
+à l’Ukraine. L’Ukraine craint aussi que la délocalisation de la production d’UAV vers d’autres pays, comme la Pologne, la Slovaquie ou
+la République Tchèque puisse être négative pour l’industrie UAV ukrainienne. L’Ukraine serait actuellement capable de produire un
+total de 4 millions d’UAV par an.
+L’Ukraine envisage de lever l’interdiction d’exporter des drones
+Source : Les Echos
+Analyse : L’Ukraine a besoin de budget et son RetEx dans les UAV a une valeur inestimable. Cette annonce pourrait toutefois inquiéter
+certains pays qui cherchent eux aussi à développer leur industrie UAV et qui vont se trouver en concurrence avec l’Ukraine. Pour de
+nombreux pays, l’industrie UAV ukrainienne, pour l’instant limitée aux petits/moyens UAV, est une véritable menace. Si l’interdiction
+est levée, le segment USV pourrait également en profiter fortement.
+UKRAINE
+25/10/2024
+Les États-Unis préparent un important paquet d’aide militaire à l’Ukraine pour financer la production de drones par l’industrie de
+défense ukrainienne. Le président ukrainien l’a annoncé dans un discours : « Aujourd’hui, les États-Unis ont pris une nouvelle
+décision de soutenir l’Ukraine, avec un nouveau programme de défense d’un montant de 400 millions de dollars. Un autre
+programme est en préparation : un financement pour la production de drones ukrainiens, d’un montant de 800 millions de dollars ».
+L’annonce ne précise pas quels types de drones sont concernés par l’allocation de ces fonds.
+
+[Page 14 / 16 | chars: 2235]
+--------------------------------------------------------------------------------
+
+PUBLICATIONS
+▪Learning from the Ukrainian Battlefield: Tomorrow’s Drone Warfare, Today’s Innovation Challenge, Center for 
+Security Studies (CSS), ETH Zürich, Dominika Kunertova, Août 2024
+▪The Army Needs to Quickly Adapt to Tactical Drone Warfare, Maneuver Center of Excellence, MAJ Anthony R. 
+Padalino, Août 2024
+▪De l’Ukraine à Gaza : l’Intelligence artificielle en guerre, IFRI, Amélie Férey et Laure de Roucy-Rochegonde,
+Septembre 2024
+▪Ukraine: a wake-up call - The use of drones in Ukraine, House Of Lords, International Relations and Defence 
+Committee, Septembre 2024
+▪A Deep Dive into Ukraine’s 2024 Bilateral Security Agreements, ICDS, Alessandro Vitiello, Septembre 2024
+▪Overview Of Maritime Drones (USVs) Of The Russo-Ukrainian War, 2022-24, H I Sutton, Septembre 2024
+▪Russian Military Reconstitution: 2030 Pathways and Prospects, Carnegie Endowment for International Peace 
+(CEIP), Dara Massicot, Septembre 2024
+▪Russian Offensive Campaign Assessment, ISW, Christina Harward, Angelica Evans, Davit Gasparyan, Nicole
+Wolkov, Karolina Hird, William Runkel, and Fredrick W. Kagan, Octobre 2024
+▪Assessing Russian Military Adaptation in 2023, Carnegie Endowment for International Peace (CEIP), Michael
+Kofman, Octobre 2024
+▪Russian Military Performance and Outlook, Congressional Research Service, Andrew S. Bowen, Octobre 2024
+▪Drones in Modern Warfare - Lessons Learnt from the War in Ukraine, Australian Army Research Center,
+Oleksandra Molly, Octobre 2024
+▪De la compétition à la guerre des drones : un instrument de diplomatie technologique, Diplomatie Magazine,
+Océane Zubeldia, Octobre 2024
+▪Drone Technology Is Transforming Warfare in Real Time, Centre for International Governance Innovation,
+Wesley Wark, Octobre 2024
+▪The Role of Artillery in the Ukraine War, Istituto Affari Internazionali (IAI), Elio Calcagno, Alessandro Marrone,
+Octobre 2024
+▪La dronisation au cœur de la guerre des mines du futur, Affinis Défense, Axel Trinquier, DefTech n°11, Octobre
+2024
+▪L'avènement des drones de surface dans la guerre navale, Affinis Défense, Axel Trinquier, DefTech n°11,
+Octobre 2024
+▪Des drones de surveillance maritime endurants, pour quoi faire ?, Christophe Pipolo et Marc Grozel, DefTech
+n°11, Octobre 2024
+14
+
+[Page 15 / 16 | chars: 1514]
+--------------------------------------------------------------------------------
+
+GLOSSAIRE
+Abréviation / Sigle
+Signification
+AML
+Autonomous Multi-domain Launcher
+ASM
+Anti Sous-Marine
+ATACMS
+Army TACtical Missile System
+ATOLS
+Automatic Take Off and Landing System
+BLOS
+Beyond Line Of Sight
+CU
+Charge Utile 
+CUAS
+Counter UAS 
+CUAV
+Counter UAV
+CCV
+Collaborative Combat Variant
+DARPA 
+Defense Advanced Research Projects Agency (États-Unis)
+DSEI
+Defence and Security Equipment International
+DJI
+Da Jiang Innovation
+EA
+Electronic Attack
+EM
+Electro-magnétique
+EO/IR
+Electro Optique / Infra Rouge 
+EW
+Electronic Warface
+FPV
+First Person View
+HALE
+High Altitude Long Endurance
+HIMARS
+High Mobility Artillery Rocket System
+IA
+Intelligence Artificielle
+ISR
+Intelligence Surveillance Reconnaissance
+LM 
+Loitering Munition 
+LW
+Loyal Wingman
+MALE
+Moyenne Altitude Longue Endurance
+MTOW
+Maximum Take-Off Weight
+OTAN
+Organisation du Traité de l’Atlantique Nord
+OWA
+One Way Attack
+OWA-UAV
+One Way Attak UAV
+R&D
+Recherche et Développement
+RetEx
+Retour d’Expérience
+RFI
+Request for Information
+RN
+Royal Navy
+SMETT
+Small Multipurpose Equipment Transport
+UAS
+Unmanned Air System 
+UAV 
+Unmanned Air Vehicle
+UCAV
+Unmanned Combat Air Vehicle
+UGV
+Unmanned Ground Vehicle
+USMC
+United States Marine Corps
+US
+United States
+USAF
+United States Air Force
+USN 
+United States Navy
+USS 
+United States Ship
+USV
+Unmanned Surface Vehicle 
+UUV
+Unmanned Underwater Vehicle
+UxV
+Unmanned Vehicle (tous types)
+VA
+Vecteur Aérien
+VLEO
+Very Low Earth Orbit
+VTOL
+Vertical Take Off and Landing
+XLUUV
+Extra Large Unmanned Underwater Vehicle
+15
+

@@ -1,0 +1,98 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 13 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+24 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 25
+B.1.3 _Services
+B.1.3.1 _Outils et techniques d’évaluation
+L’obtention d’un niveau de confiance sur les produits de sécurité passe par une 
+évaluation de leur résistance face à une large palette d’attaques. À cet effet, 
+Il convient donc de préciser l’importance de la mise en place d’un schéma d’éva-
+luation reconnu par l’ensemble des acteurs de la filière. Ce schéma se déclinera 
+en méthodologies d’évaluation ad hoc par typologie de produits. 
+Les outils et méthodes d’évaluation sont donc indispensables pour garantir le 
+niveau de confiance des produits cyber. Parmi les thématiques afférentes au 
+schéma d’évaluation, il est possible de citer :
+• L’évaluation de la sécurité du logiciel (audit de code, de configuration ou 
+d’architecture) ;
+• La génération de tests ;
+• Les techniques de recherche de vulnérabilités ;
+• Les attaques physiques intrusives ou non intrusives sur les composants 
+(canaux cachés, injection de fautes…) ;
+• Outils et méthodes de tests d’intrusion ;
+• Outils et méthodes d’analyse de risques.
+B.1.3.1.1 _Evaluation composant
+L’évaluation de composants a pour objectif de déterminer le niveau de sécurité 
+apporté par un composant matériel. Il existe dans ce domaine des techniques 
+invasives et non invasives. Les moyens techniques nécessaires sont relativement 
+conséquents (surtout pour les techniques invasives) et dans tous les cas une ex-
+pertise de haut niveau est indispensable. Ces moyens et techniques sont surtout 
+aujourd’hui maîtrisés par les CESTI spécialisés dans l’évaluation hardware. Ce 
+domaine fait l’objet de nombreuses publications notamment dans les domaines 
+de l’injection de fautes ou de l’analyse de canaux auxiliaires. La recherche dans 
+le domaine peut déboucher sur des produits destinés aux CESTI, elle profite 
+aussi aux concepteurs de composants pour leur permettre d’améliorer le niveau 
+de sécurité de leurs produits.
+B.1.3.1.2 _Evaluation logicielle
+La recherche de vulnérabilités dans les logiciels est une activité complexe et 
+extrêmement coûteuse. Même s’il existe de bonnes méthodes d’ingénierie, 
+l’utilisation d’environnement de conception sécurisés, le choix de langages et de 
+règles de programmation appropriés, peuvent permettre de réduire le nombre 
+de défauts. Ces bonnes pratiques sont encore assez peu répandues et elles ne 
+permettent pas à moyen terme de pouvoir garantir l’absence de vulnérabilités. 
+Les méthodes et outils d’évaluation logicielle sont donc indispensables tant 
+pour les entreprises spécialisées dans l’évaluation de sécurité (CESTI) que pour 
+les développeurs, cela afin de vérifier au plus tôt dans les cycles de conception 
+le niveau de qualité et de sécurité des logiciels qui sont produits. Les deux 
+notions sont en effet assez liées : un logiciel d’un bon niveau de qualité ne 
+sera pas forcément exempt de vulnérabilités SSI, et, à l’inverse, un logiciel de 
+mauvaise qualité aura sans aucun doute un grand nombre de vulnérabilités.
+Les outils et les techniques intéressants dans ce domaine sont notamment :
+• Les outils d’analyse de code statiques et dynamiques ;
+• Les outils de recherche de vulnérabilité, par test à données aléatoires 
+(fuzzing), injection de code…
+• Les outils de rétro-conception logicielle.
+Ces différents outils peuvent être utilisés quels que soient les domaines 
+d’application des logiciels à évaluer. Par contre, certaines catégories de 
+logiciels (comme par exemple les logiciels de cryptographie) nécessitent 
+des compétences spécifiques et éventuellement quelques outils complé-
+mentaires pour faire une recherche de vulnérabilités pertinente. 
+Il faut aussi pouvoir intégrer ces outils dans un environnement de test permet-
+tant autant que faire se peut la génération automatique de tests, leur gestion 
+en configuration ou leur rejeu pour améliorer la productivité de cette activité.
+B.1.3.1.3 _Evaluation produit
+Même si la plupart des produits contient une grande proportion de logiciel, 
+certaines fonctions de sécurité peuvent être rendues par le matériel (par 
+exemple, les mécanismes de protection locale anti-intrusion sur les boitiers). 
+Par ailleurs, en complément d’une évaluation logicielle, ou si on ne dispose 
+pas du code source, il est important de pouvoir évaluer un produit en solli-
+citant ses interfaces externes (évaluation en boîte noire ou grise). Dans ce 
+cas, les techniques de tests à données aléatoires (fuzzing) appliquées aux 
+interfaces et protocoles, les outils de tests de l’’interface homme-machine, 
+vont être indispensables.
+Un dernier sujet concerne l’analyse des signaux compromettants. En dehors 
+de l’activité TEMPEST très spécifique aux produits classifiés, l’utilisation de 
+plus en plus massive de protocoles radio et la disponibilité sur le marché 
+de plateformes de radio-logicielles à faible coût, de l’existence de moyens 
+d’analyse numériques performants et accessibles, ouvrent un large champ 
+de vulnérabilités qu’il est utile de corriger. 
+Les travaux d’évaluation (de protocoles radio, TEMPEST), ou plus généra-
+lement, d’activités classifiées nécessitent l’utilisation de cages de Faraday.
+B.1.3.1.4 _Evaluation système
+ B.1.3.1.4.1 _Audit de sécurité et Pentests
+L’audit de sécurité permet d’obtenir une photographie de l’état de sécurité 
+d’un système ou d’une organisation, par rapport à des référentiels SSI ou 
+un état de l’art du domaine. Il comporte en général une partie technique et 
+une partie organisationnelle (procédures, personnels…). Il existe différents 
+référentiels pour mener à bien ces audits. La certification d’entreprises 
+peut être recherchée pour faciliter le choix de prestataires compétents par 
+les clients.
+Il convient de ranger dans cette catégorie les prestations de type « test 
+d’intrusion » (« pentest »), qui sont plus ciblées et purement techniques. 
+Ces activités nécessitent un encadrement juridique précis (chartes d’audit 
+ou de test d’intrusion) et peuvent nécessiter des outils spécifiques.

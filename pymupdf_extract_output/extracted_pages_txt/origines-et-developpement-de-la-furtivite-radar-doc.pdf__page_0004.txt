@@ -1,0 +1,63 @@
+Source file: origines-et-developpement-de-la-furtivite-radar-doc.pdf
+Relative path: origines-et-developpement-de-la-furtivite-radar-doc.pdf
+Page: 4 / 6
+
+================================================================================
+
+REE N°2/2021 ◗ 103
+...
+Le futur de la furtivité
+Au-delà des améliorations incrémen­
+tales permises par le perfectionnement 
+des simulations numériques, ou plus 
+médiatiques (la cape d’invisibilité…) par 
+la mise au point de métamatériaux élar­
+gissant la gamme des caractéristiques 
+diélectriques ou magnétiques réali­
+sables [10], de nouveaux concepts bien 
+sûr couverts par le secret sont parfois 
+évoqués dans la littérature ouverte, par 
+exemple dans les revues Aviation Week, 
+DSI, Air & Cosmos, mais leur crédibilité 
+est incertaine. C’est le cas de la « furtivité 
+active » qui consisterait à opposer vec­
+toriellement à l’écho de peau du véhi­
+cule à protéger un écho artificiellement 
+créé par un répondeur cohérent. Encore 
+faudrait-il connaître très précisément cet 
+écho de peau, dont on sait qu’il varie ra­
+”  La furtivité devra 
+de plus en plus 
+être complétée 
+par des techniques 
+de guerre 
+électronique  ”
+ Figure 3 : Démonstrateur de drone de combat Neuron en vol - © Dassault Aviation- A. Pecchi
+ Origines et développements de la furtivité radar ı
+La Surface Equivalente Radar 
+Physiquement, le radar émet un champ électromagnétique porteur d’une énergie qui 
+se propage vers la cible, et qui est diffracté par celle-ci dans toutes les directions de 
+l’espace. Ce phénomène de diffraction électromagnétique caractérise la perturbation 
+causée par la présence d’un obstacle dans un champ incident [5, 6, 7, 8].
+Pour décrire ces effets de diffraction, on utilise la représentation d’une surface de 
+captation fictive qui rerayonnerait de façon isotrope la puissance reçue et diffracte­
+rait dans la direction du radar la même puissance que la cible. Cette surface fictive 
+est appelée Surface Equivalente Radar (SER, notée σ) ou parfois Signature Radar, et 
+s’exprime mathématiquement en fonction des champs incident Ei et diffracté Ed à 
+distance R sous la forme :
+      
+Cette surface se mesure en m², elle caractérise l’écho radar reçu traduisant la pré­
+sence de la cible qui est la signature de l’objet (cible). Elle ne dépend pas de la dis­
+tance R cible-radar, car le champ diffracté |Ed |² varie en 1/R² à grande distance.
+
+Relation entre SER et portée du radar
+Il est bien connu que le bilan qui donne la puissance captée dans une liaison monodi­
+rectionnelle de type télécom varie avec l’inverse du carré de la distance ; la définition 
+ci-dessus montre qu’une dépendance identique se produira sur le trajet retour, le 
+bilan de liaison radar qui relie la puissance reçue à la puissance émise sera donc 
+proportionnel à σ R-4
+La portée du radar correspond à la distance pour laquelle la puissance reçue produit 
+le rapport signal-à-bruit minimal compatible avec le traitement de détection. Toutes 
+choses égales par ailleurs, réduire à 10 km la portée d’un radar qui serait de 100 km 
+pour une SER de 10 m2 nécessiterait ainsi de réduire la SER à 0,001 m2, ce qui illustre 
+la difficulté du problème…

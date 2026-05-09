@@ -1,0 +1,95 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 34 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+66 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 67
+D.1.1.2 _Aéronautique
+Le domaine aéronautique est très vaste et recouvre à la fois les aéronefs, les in-
+frastructures aéroportuaires et la gestion du trafic aérien.
+La sureté de fonctionnement est une préoccupation permanente dans ce do-
+maine, notamment en ce qui concerne les aéronefs, avec des règles de certifi-
+cation très poussées. La prise en compte de menaces cyber s’effectue progres-
+sivement, à mesure que l’évolution des techniques et des usages augmente les 
+risques potentiels. 
+Pour exemple, il convient de citer les réseaux de divertissement à bord, qui 
+permettent aux passagers de connecter leurs propres équipements, sachant 
+qu’il existe des liens potentiels entre ces réseaux et les réseaux liés au pilotage 
+de l’appareil. 
+Par ailleurs, les aéronefs disposent de multiples moyens de connexion vers 
+l’extérieur, qu’ils soient liés à la navigation (liens radio avec le contrôle aérien), 
+à la maintenance (liens vers le constructeur de l’appareil) ou aux services 
+offerts aux passagers (connexions internet, téléphones mobiles en vol). 
+Ces liaisons constituent des portes d’entrées potentielles pour des attaquants.
+En termes d’infrastructures aéroportuaires, la logistique des aéroports et le 
+contrôle aérien sont assurés par de nombreux systèmes informatiques. 
+Pour le premier point, le risque principal à identifier concerne l’indisponibilité 
+des services qui peut entraîner un blocage du trafic par l’incapacité à gérer les 
+flux de passagers ou le ravitaillement des avions. 
+Pour le second, l’indisponibilité doit aussi être considérée pour les mêmes raisons, 
+mais on peut y ajouter les risques sur l’intégrité des informations liées aux vols. 
+À cet égard, des solutions protégeant les radars de surveillance aérienne contre 
+les risques de cyber attaques (par exemple, ajout ou suppression de pistes 
+radars) sont d’ores et déjà proposées.
+D.1.1.3 _Navires et navigation maritime
+Les navires modernes intègrent de multiples systèmes numériques pour la 
+gestion de l’ensemble des fonctions du bord : propulsion, navigation, production 
+d’énergie, gestion de l’eau douce, contrôle du fret… Ces systèmes mixent de 
+l’informatique classique et des systèmes de contrôle industriels. Par ailleurs, la 
+réduction des équipages entraîne une forte dépendance des liaisons vers la 
+terre pour assurer la maintenance de ces systèmes embarqués. 
+Le risque principal concerne la disponibilité et l’intégrité des systèmes, avec des 
+conséquences très variées, qui vont de l’immobilisation d’un navire à sa prise de 
+contrôle à distance avec des effets potentiels graves (collisions entre navires, 
+échouage, pollution maritime….
+Concernant les systèmes de navigation maritime, la situation est proche de celle 
+du transport aérien. 
+Les infrastructures portuaires sont elles aussi très dépendantes de l’informatique. 
+Une indisponibilité pourrait conduire à un blocage progressif du trafic commercial 
+ou des passagers, avec des impacts rapides sur l’économie. 
+En effet une grande part du trafic international utilise la voie maritime. La 
+confidentialité et l’intégrité des échanges est aussi un aspect à prendre en 
+compte. 
+Comme l’a montré une cyber attaque sur le port d’Anvers il y a quelques 
+années, des trafiquants ayant accès aux systèmes portuaires peuvent réaliser 
+des vols de grande envergure.
+D.1.1.4 _Infrastructures ferroviaires
+Les infrastructures ferroviaires sont sensibles aux risques liés à la disponibilité, 
+qui peuvent conduire à de graves perturbations du trafic. Leur intégrité 
+doit aussi être protégée, cela pour éviter qu’une prise de contrôle n’ait de 
+conséquences sur la sécurité des passagers ou des riverains (déraillement 
+ou collisions de trains de passagers ou de matières dangereuses).
+D.1.2 _Production et distribution d’énergie (y compris smart grids)
+L’énergie électrique est vitale pour assurer le fonctionnement de l’ensemble 
+de la société. Par ailleurs, les usines de production d’électricité notam-
+ment celles basées sur l’énergie nucléaire sont des sites particulièrement 
+sensibles. La production doit être protégée contre les cyber-attaques, l’in-
+tégrité des systèmes d’information et la disponibilité des systèmes indus-
+triels doit être garantie. Quant à l’absence de connexion directe entre les 
+réseaux critiques et les réseaux ouverts, elle ne doit pas être considérée 
+comme une barrière absolue, la diffusion de l’attaque Stuxnet illustre cela.
+Au niveau de la distribution, une mise en indisponibilité globale ou partielle 
+du réseau aurait des conséquences économiques et sociétales très impor-
+tantes si elle devait durer quelques heures si la coupure est totale, voire 
+quelques jours. 
+Les réseaux intelligents (smarts grids) élargissent la dimension sécuritaire 
+en multipliant les points d’accès au système d’information, en agrandis-
+sant donc la surface d’attaque, en ouvrant une inter-connectivité entre la 
+sphère de distribution et celle de la consommation. D’autres vulnérabili-
+tés de nature plus commerciales (masquage de consommation…) peuvent 
+aussi apparaitre avec des impacts financiers ou d’image.
+D.1.3 _Gestion de l’eau (distribution et retraitement)
+L’eau potable est une ressource importante pour de nombreux secteurs et 
+pour le grand public. L’accès aux systèmes de traitement de l’eau potable 
+pourrait entraîner des risques sur la santé. L’arrêt de la distribution impo-
+serait des mesures complexes de distribution d’eau potable vers la popu-
+lation et des impacts pour certains secteurs d’activités. 
+Au niveau des systèmes de traitement, une prise de contrôle de stations 
+d’épuration pourrait impliquer des pollutions des milieux naturels. En revanche, 
+la gestion de l’eau étant essentiellement locale, les impacts seront dans 
+tous les cas limités à une zone géographique de faible extension, la mise 
+en place d’une attaque de grande ampleur étant complexe à réaliser.

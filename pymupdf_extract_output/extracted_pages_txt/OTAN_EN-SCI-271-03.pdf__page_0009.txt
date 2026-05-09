@@ -1,0 +1,26 @@
+Source file: OTAN_EN-SCI-271-03.pdf
+Relative path: OTAN_EN-SCI-271-03.pdf
+Page: 9 / 14
+
+================================================================================
+
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability 
+ 
+Figure 4: UAV Interoperability Architecture [4]. 
+3.1 
+STANAG 4545: NATO Secondary Imagery Format (NSIF)  
+The NATO Secondary Imagery Format (NSIF) is the standard for formatting digital imagery files and 
+imagery-related products and exchanging them among NATO members. The NSIF is part of a collection of 
+related standards and specifications, known as the NATO ISR Interoperability Architecture (NIIA), 
+developed to provide a foundation for interoperability in the dissemination of intelligence-related products 
+among different computer systems [9]. 
+Secondary imagery is sensor data that has been previously exploited and/or processed into a human readable 
+picture. This format enables an operator at one workstation to compose and capture a multimedia image on 
+his workstation, and send it to another workstation where it is capable of being reproduced exactly as it was 
+composed on the first workstation [9]. 
+The NSIF format can be composed of images, graphics and text. Because of the wide variety of display 
+capabilities, the implementations of NSIF readers and writers are classified by their level of complexity, 
+where the highest level will handle very large images with many bands of data, and the simplest level will 
+only handle small, single band images [9]. 
+STO-EN-SCI-271 
+3 - 9

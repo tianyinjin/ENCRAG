@@ -1,0 +1,52 @@
+Source file: Brochure-Referentiel-6.pdf
+Relative path: Brochure-Referentiel-6.pdf
+Page: 30 / 53
+
+================================================================================
+
+Pôle d’excellence cyber
+Pôle d’excellence cyber
+58 - référentiel CYBER V6.1 - Février 2021
+Février 2021 - référentiel cyber V6.1 - 59
+C.10.2 _Sécurité de l’internet des objets
+Le concept d’internet des objets est apparu au MIT en 1999 grâce au MIT 
+Auto-ID. Ce laboratoire était dédié à la conception d’objets connectés en ré-
+seau via la technologie RFID (Radio Frequency Identification). Le concept 
+s’est rapidement démocratisé avec la mondialisation de l’économie aboutis-
+sant notamment à connecter des objets ou machines (réfrigérateur, lunettes, 
+lampes, caméra,…) « en tout IP » à des serveurs capables de les superviser. Au-
+jourd’hui, l’internet des objets (IoT) concerne la totalité des aspects de notre 
+vie quotidienne et des secteurs de l’économie, comme l’illustre la cartographie 
+ci-dessous. 
+Nous nous intéresserons ici spécifiquement à l’IoT grand public qui recouvre 
+les principales vulnérabilités. Elles seront examinées selon deux axes complé-
+mentaires : le réseau de collecte de donnée d’une part, le stockage et l’usage 
+de celles-ci d’autre part.
+S’agissant de la collecte et sans prétendre à l’exhaustivité, ces vulnérabili-
+tés trouvent leur origine dans la sécurité du réseau, à travers la classifica-
+tion usuelle des attaques : déni de service distribué (DDoS), prise de com-
+mande distante (Remote To Local ou R2L), de paramétrage bas niveau des 
+terminaux (User-to-Root ou U2R), sonde (Probe). Ensuite les terminaux 
+eux-mêmes recèlent de nombreuses failles logicielles et matérielles. Ce 
+sont les faibles ressources embarquées qui limitent leur protection avec 
+notamment l’absence de corrections firmware faute de connectivité, des 
+capacités cryptologiques réduites, une personnalisation (identité, mot de 
+passe) souvent négligée, la possibilité d’exfiltrer de l’information via des 
+canaux de fuite (signaux compromettant par rayonnement ou fuite filaire, 
+screaminig channels) ou directement lorsqu’ils sont perdus. Ces failles 
+sont visibles aux interfaces des blocs du modèle de référence ISO/IEC 
+30141 ci-dessous :
+Les principes de sécurisation de l’IoT font désormais l’objet d’une analyse 
+systématique par l’intermédiaire d’une terminologie et de recommanda-
+tions issues des critères communs (IoT Secure Element), du NIST [NIST] ou 
+l’ENISA (ENISA]. Ceux-ci permettent en particulier de parer les attaques 
+complexes de type Advanced Persistent Threat (APT) comme le célèbre 
+Botnet Mirai qui sévit à de multiples endroits du système : sondage des 
+adresses IP et ports TCP accessibles (Probe), utilisation des identifiants/
+mots de passe faibles (R2L), infection logicielle (U2R) pour une prise de 
+commande par génération de noms de domaine (DGA) se concrétisant 
+par des dénis de services (DDoS) à large échelle.
+“ The author thanks the International Electrotechnical Commission (IEC) for permission to reproduce Information from its International Standards. All such extracts are 
+copyright of IEC, Geneva, Switzerland. All rights reserved. Further information on the IEC is available from www.iec.ch. IEC has no responsibility for the placement and 
+context in which the extracts and contents are reproduced by the author, nor is IEC in any way responsible for the other content or accuracy therein. ”
+ISO/IEC 30141 ed.1.0 “Copyright © 2018 IEC Geneva, Switzerland. www.iec.ch”

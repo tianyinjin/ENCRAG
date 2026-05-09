@@ -1,0 +1,52 @@
+Source file: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Relative path: 20230609_np_dpid_2eme_edition_de_la_directive_ndeg_39.pdf
+Page: 28 / 79
+
+================================================================================
+
+DIR-39 SNSI – 2eme édition  
+ 
+Page 28 | 79 
+de caractériser l’état du procédé physique*, et d’actionneurs*, permettant de faire évoluer cet 
+état.  
+SCI Système de contrôle industriel  
+Système comprenant des équipements et des logiciels conçus pour surveiller et contrôler le 
+fonctionnement de machines-outils et des appareils qui leur sont associés dans les 
+environnements industriels. Il comprend des SCC*, SCADA* et API. 
+Segmentation 
+La segmentation d’un système industriel consiste à regrouper les ressources d’un système 
+industriel en zones de sécurité*, auxquelles est attribué un niveau de classe* et à identifier les 
+conduits* qui raccordent les zones de sécurité* entre elles. 
+Station d’ingénierie 
+Équipement informatique disposant des progiciels de paramétrage, de conception, de 
+programmation, d’administration des équipements industriels comme les automates* et les 
+SCADA*. Cet équipement est connecté sur le réseau industriel et mis à disposition des équipes 
+de maintenance, d’ingénierie, de support, etc.  
+Sûreté de fonctionnement 
+Étude des défaillances et des pannes d’un système visant à s’assurer de l’aptitude de celui-ci à 
+accomplir des fonctions, dans des conditions définies et durant un intervalle de temps donné. 
+La sûreté de fonctionnement traite en particulier les propriétés de fiabilité, maintenabilité, 
+disponibilité et sécurité (FMDS). La sécurité est entendue ici au sens des biens et des personnes. 
+Système industriel 
+Système d’information particulier ayant pour finalité de contrôler ou de commander des 
+installations ou équipements techniques, composées d’un ensemble de capteurs* et/ou 
+d’actionneurs*.  
+Système d’information de gestion  
+Système d’information comprenant les services et applications destinés à la gestion (bureautique, 
+ressources humaines, relation clients…). 
+Système de supervision industrielle  
+Système permettant d’acquérir et de traiter un grand nombre de données (télémesures, 
+télésignalisations et télé-alarmes) et de contrôler des équipements industriels (automates*, 
+capteurs*, actionneurs*…) en leur envoyant des télécommandes et téléréglages. 
+Traduction anglaise : Supervisory Control and Data Acquisition (SCADA). 
+Système industriel distribué 
+Un système industriel est considéré comme distribué dès lors que des mesures de protection 
+physique ne sont pas applicables à l’ensemble des équipements et liens le composant. 
+Télédiagnostic  
+Action d’effectuer à distance, sous-entendu depuis l’extérieur des systèmes d’information de 
+l’entité responsable, un diagnostic d’installation technique. Ceci n’inclut pas de modification de 
+paramétrage (lecture seule). 
+Télégestion  
+Action de prendre le contrôle à distance, sous-entendu depuis l’extérieur des systèmes 
+d’information de l’entité responsables, d’installations techniques géographiquement réparties 
+(lecture/écriture).
