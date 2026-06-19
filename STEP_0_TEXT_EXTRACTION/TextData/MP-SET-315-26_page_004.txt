@@ -1,0 +1,28 @@
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+The long-range radar forms the first line of defense for our system. It is the pivotal component for early
+detection and classification of incoming threats over a vast radial distance, thereby providing ample response
+time. For the purpose of this project, we used a radar sensor that candetectdrones atup to 1,000m.
+Alongside the ground radar, a PTZ camera provides complementary visual information to improve the
+quality of the long-range detection and classification. It serves to validate the classification based on radar
+tracks and helps improve the determination of the number of intruding drones thanks to its better resolution.
+2.1.3 The Air Segment
+The air segment is composed of a fleet of drones. Equipped each with an Electro-Optic sensor and a
+deployable net (simulated within the frame of this project), the defending drones serve as the primary
+countermeasure against intruding drones. Guided by AI agents with advanced decision-making and
+information processing algorithms, these drones work collaboratively to intercept and neutralize potential
+threats. They communicate with the defending Ground Control Station to relay captured information.
+Figure 2: Drones manufactured by ARA Robotics®, landed (left) and during operations (right).
+Each defending drone embeds a gimbal-mounted EO sensor. This sensor provides eyes-in-the-sky
+capabilities to the overall system. This component is crucial for target tracking and classification, in addition
+to the radarand ground PTZ. The embedded sensor is controlled in zoom and orientation by the AI agentof
+the platform it is embedded on.
+2.1.4 IntrudingDrones
+The intruding drones’ behaviors are designed to represent disruptive drone activities. Theyexecute different
+patterns of careless, clueless or criminal operators. Much as the defending drones, each intruding drone is
+controlled by its own AI agent and communicates with the intruding Ground Control Station. For our live
+experimentations, defending and intruding drones are providedbyARA Robotics®and of the same model.
+2.1.8 Simulators
+We trained and tested our system using three different 3D simulators,graduallyincreasing in realism but also
+in complexity.
+4 STO-MP-SET-315-26

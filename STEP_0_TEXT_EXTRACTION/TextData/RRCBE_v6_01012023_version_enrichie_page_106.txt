@@ -1,0 +1,47 @@
+Partie 4 – Les règles de consommation des AE et des CP – Dispositions normatives
+Lorsque le retrait d’AE sur un engagement d’année antérieure ne correspond à aucun des cas
+susmentionnés, et qu’il concerne des AE affectés sur une tranche fonctionnelle dans le système
+d’information financière de l’Etat, le retrait d’engagement doit être immédiatement suivi d’un retrait
+d’affectation du même montant.
+Les règles ci-dessus s’appliquent également au tiers auquel l’Etat délègue la gestion de crédits,
+notamment pour la gestion des prêts et des dons accordés à des Etats étrangers. Ce délégataire est
+tenu de consommer les autorisations d’engagement dans le strict respect de l’objet et des conditions
+financières prévus par la convention conclue avec l’Etat. Lorsqu'un retrait d’engagement intervient dans
+le cadre d’une convention, les AE rendues disponibles ne peuvent être utilisées pour couvrir un
+engagement relatif à une autre convention. La convention ne peut être modifiée par avenant dans un
+sens qui conduirait à la détourner de l’objet pour lequel les AE ont été engagées.
+IV.A.2.3.4.La consommation des CP
+Le décret GBCP définit à l’article 33 le paiement comme « l'acte par lequel [l’État] se libère de sa dette ».
+La consommation des CP est enregistrée en comptabilité budgétaire lors de la mise en paiement de la
+dépense.
+La date de mise en paiement dans le système d’information financière de l’État est la date de débit du
+compte du comptable public à la Banque de France quelle que soit la date d’échéance de paiement de
+la dépense. Il s’agit de la date d’envoi des fichiers de demandes de paiement comptabilisées par le
+comptable public à la Banque de France.
+En cas de versement d’une avance pour un marché public, la mise en paiement de l’avance consomme
+les CP correspondants.
+Après l’envoi du fichier de paiement à la Banque de France, le traitement d’éventuelles anomalies de
+paiement n’a pas d’impact en comptabilité budgétaire.
+Le blocage de dépenses
+Le blocage de dépenses est une procédure exceptionnelle qui, à la différence du blocage de crédits, n'empêche
+pas le responsable de BOP de mettre les crédits à disposition des UO. Son objet est d'empêcher leur
+consommation sur les UO concernées.
+Il repose ainsi sur la détermination d’un plafond de dépense sur le BOP, en AE et/ou en CP, au-delà duquel la
+validation d’un engagement et/ou la mise en paiement d’une demande de paiement sera impossible.
+Le blocage de dépense n’a pas d’effet sur l’ensemble des actes préparatoires de la dépense (mises à
+disposition, saisie des engagements ou demandes de paiement).
+IV.A.2.3.5.L’articulation des AE et des CP
+IV.A.2.3.5.1.Les typologies de flux de gestion
+Les différentes phases d’exécution de la dépense (engagement, liquidation, ordonnancement) sont
+matérialisées dans Chorus par l’utilisation du flux de gestion n°1, de droit commun, sauf cas
+dérogatoires correspondant à des « flux » de gestion distincts :
+- le flux n°2, dans lequel le service fait est matérialisé concomitamment à l’engagement
+juridique ;
+- le flux n°3, dans lequel le service fait n’est pas matérialisé dans l’outil ;
+- le flux n°4, dans lequel l’engagement juridique et le service fait ne sont pas matérialisés dans
+l’outil (recours possible à un engagement juridique dit « technique », obligatoire en cas de
+factures dématérialisées).
+La circulaire de la direction du budget du 22 mars 2019 (n° NOR CPAB1906028C) relative aux règles
+d’utilisation des flux de gestion des dépenses de l’État dans Chorus présente la liste des cas de gestion
+relevant des flux de dépenses dérogatoires mentionnés ci-dessus.
+106 Direction du budget | Recueil des règles de comptabilité budgétaire de l’Etat | janvier 2023

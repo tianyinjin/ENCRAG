@@ -1,0 +1,76 @@
+Integration of a Commercial
+Unmanned Vehicle into the Army Communications System
+sories. This means more options for everyone involved, from specifically the Joint Architecture for Unmanned Systems and
+autonomoussystemsmakerstopeopleusingthem,anditstops its interoperability profile. The experiments involved multiple
+any company from dominating the market [20]. MAVLink is NATO countries using different UGVs and GCS, demonstrat-
+aboutimprovinghowUxVsworktogether,sparkingnewideas, ing that systems could be easily extended to comply with
+and helping the industry grow [20]. these standards. No experiments were carried out with UAVs
+SinceUAVsnavigatethroughthree-dimensionalspace,they in this experiment due to technical problems. However, the
+present a broad scenario for communicating position and integration of UAVs that used the MAVLink communication
+velocity data. Consequently, it makes sense to utilise the protocol was studied [26].
+same protocol for other vehicles, like UGVs moving in two- The report by the Estonian Defence Investment Centre [27]
+dimensional space or UMVs, which operate in three dimen- analyses eleven platforms from different companies/consortia
+sions but beneath the ocean’s surface [20]. from various countries. The report concludes that, in general,
+all the UGVs were able to drive in an open field with
+E. BMS waypointsbasedonsatellitenavigationsystems;thesamewas
+nottrueinrougherscenariosorwithvegetation.Table1shows
+The BMS integrates the Army Command and Control
+the companies/consortium, platform and country of origin.
+Information System (Sistema de Informaca˜o para o Comando
+e Controlo do Exe´rcito) (SICCE) of the SIC-T, which in turn
+supportstheCommandandControl(C2).TheBMSworksvia TABLE1:Listofcompaniesandtheplatformsthatparticipatedinthe
+Estoniantrials[27].
+the radio network in the Very High Frequency (VHF) band in
+securemode(SECOM-V).ThisC2systemisdesignedforlow- Company/Consortium Platform CountryofOrigin
+ranking units (Battalion and below) in vehicular use, with an ARXLandsysteme GEREONRCS Germany
+charismaTecOG ARTUSPTAone Austria
+applicationthatfacilitatesthesharingofgeographicalposition
+CzechUniversityof TAROSV4 CzechRepublic
+in the field via portable terminals connected to a secure radio Defence/VOPCZ,s.p.
+network [22]. DiehlDefence Ziesel Germany
+HentschelSystem MoSeSUGV Germany
+The BMS fulfils the requirements of the NATO, guaran-
+iMUGS THeMIS4.5+ Multinational
+teeing interoperability with the means of communication of iMUGSautonomykit consortium
+the alliance’s member countries through the Standardization LEMS.R.L RANGER-POLARIS Italy
+Agreement (STANAG) 5527 standard - Friendly Force Track- 570
+MilremRobotics THeMIS4.5+ Estonia
+ing [23].
+MIFIK
+Nexter-KNDS ULTRO600 France
+RheinmetallCanada MissionMasterSP Canada
+F. Army Tactical Radios
+StarDefenceLogistics& SR-0001UGV4x4 Spain
+This subsection presents two tactical radios used by the Engineering
+Portuguese Army, the P/PRC-525 and the TR5000.
+1) P/PRC-525: TheP/PRC-525TacticalRadioresultsfrom
+TheTHeMISUGVusesanIPradioat2.4GHz.Itemploys
+a partnership between EID and Rohde & Schwarz. It operates
+MIMOtechnologyinameshnetworkwith4Wofpower.This
+on High Frequency (HF), VHF, and UHF and follows the
+configuration allows a control range of up to 1.5 kilometres
+Software Defined Radio (SDR) philosophy [22].
+in line of sight [29].
+2) TR5000: In August 2019, to meet the Army’s needs,
+TR5000 radios were purchased from Rohde & Schwarz’s
+SOVERON family, in the vehicular and manpack versions,
+TR5000V and TR5000H [24].
+G. Related Work
+Thearticle“UnmannedSystemsInteroperabilityinMilitary
+Maritime Operations: MAVLink to STANAG 4586 Bridge”
+presentsalinkbetweentheMAVLinkcommunicationprotocol
+and STANAG 4586 — which defines the architectures, proto-
+Fig.1:THeMISUGV[29].
+cols,dataelements,andinterfacesbetweenthevariouscontrol
+systems of an unmanned aerial system. To realise this link,
+converter software was developed on the UAV. This article
+The Gereon RCS UGV of ARX Landsysteme in terms of
+aimed to enable UAVs that communicate with MAVLink,
+remote control and communication [28]:
+which is cheaper, to communicate with a GCS that uses
+STANAG 4586. The proposed system was developed using • Mobile communication (5G backwards compatible);
+the Python programming language and a Raspberry Pi [25]. • Wi-Fi;
+TheexperimentsbytheNATOIST-149-RTGgroupdemon- • Radio frequencies of 698 — 960 MHz, 1710 — 2700
+strateinteroperabilitybetweenUGVandC2systems.Thegoal MHz, 3200 — 3800 MHz, 2.4 — 2.5 GHz and 5 — 6
+was to test interoperability standards in real-world scenarios, GHz.
+STO-MP-IST-209 1760 - 3

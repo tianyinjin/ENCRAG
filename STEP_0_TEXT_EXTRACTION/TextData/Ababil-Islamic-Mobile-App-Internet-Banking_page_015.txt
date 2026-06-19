@@ -1,0 +1,16 @@
+Nairobi City Water and Sewerage Company Bill: Nairobi City Water and Sewerage
+Company provides web service in their server which is available to call by Ababil Mobile app.
+Ababil get data from client using forms and call appropriate web service to execute that
+transaction. Web service executes that transaction in WASA database and informs us the result
+and then, we inform client about the result of the transaction.
+❖ Standing Instruction:
+Customer can run the process of standing instruction by using our mobile apps. He can specify
+which of his account will be used to debit and which payee account will be used as credit
+account, can select the start and end date of the standing instruction for execution and also can
+select the recurring period for transfer fund i.e. set the frequency whether it is monthly, weekly
+or yearly. Following UI shows the standing instruction:
+❖ Account Management:
+Customer can enable all his accounts to mobile banking or choose some of those. So, user will
+be able to add and delete accounts usable in mobile banking. User can view account details
+information, view mini statement and can stop the cheque. When customer will click the menu
+© Copyright 2018

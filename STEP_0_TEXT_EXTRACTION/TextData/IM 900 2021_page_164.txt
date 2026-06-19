@@ -1,0 +1,42 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.4
+DROIT PRIVE
+(cid:3)
+Les conditions d'utilisation des équipements nécessaires à l'audit doivent respecter la
+fiche 6.7 relative à la mobilité et aux supports amovibles.
+Pour un système Diffusion Restreinte ou classifié, en cas de recours à un prestataire, celui-
+ci doit être qualifié (cid:2)(cid:3)Prestataire d’Audit de la Sécurité des Système d’Information(cid:3)(cid:3)
+(selon la nature du système d’information(cid:3): PASSI ou PASSI-LPM149). Le plan contractuel
+de sécurité du sous-contrat doit préciser comment la prestation d’audit doit être réalisée
+(il peut prévoir l’impossibilité pour les auditeurs de récupérer des informations issues du
+système d’information audité, la mise à disposition par l’entreprise auditée des moyens
+d’audit ou des moyens pour rédiger le rapport d’audit, la réalisation complète de la
+prestation dans les locaux de l’entreprise auditée, l’exécution des outils d’audit par les
+administrateurs du système et non par les auditeurs, la réalisation de la totalité de la
+prestation par des moyens logiciels et/ou matériels propres aux auditeurs mais avec des
+mesures de contrôle et de surveillance particulières, …).
+Les rapports d'audit sont classifiés selon les dispositions prévues par l’annexe 9 de la
+présente instruction.
+L’audit porte au moins sur(cid:3):
+- l’application des dispositions réglementaires et des directives particulières de l’AQSSI
+responsable(cid:3);
+- le respect des conditions organisationnelles et techniques prévues par l’homologation
+ou l'autorisation provisoire d'emploi du système ;
+- l’adéquation des règles d’exploitation (contrôle des procédures d’exploitation de
+sécurité)(cid:3);
+- la protection du personnel ;
+- les mesures de sauvegarde en cas d’incident ou d’accident ;
+- la planification des mesures particulières relatives aux situations de crise ;
+- l’évaluation des conséquences des risques acceptés ;
+- le respect des dispositions réglementaires relatives à la gestion des ACSSI(cid:3);
+- la protection contre les signaux parasites compromettants.
+Les conditions de mise à disposition des outils, des privilèges et de communication des
+relevés techniques nécessaires à la réalisation de l’audit de sécurité doivent figurer dans
+une charte d’audit spécifique au système visé, quel que soit son niveau de classification
+et sans préjudice des dispositions de la présente instruction. Cette charte d’audit entre
+l’entité du système d’information visé et celui réalisant l’audit précise ces conditions et
+le périmètre de l’audit.
+(cid:3)
+149 Prestataire d’audit qualifié par l’ANSSI au sens des articles L.1332-6-1 à L.1332-6-6 du code de la défense.
+158

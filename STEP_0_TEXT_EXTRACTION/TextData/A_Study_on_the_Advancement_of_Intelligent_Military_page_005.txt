@@ -1,0 +1,52 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+(a)Real (b)Synthetic(Unity) (c)Augmentation(StyleGAN3)
+FIGURE4. ImagesoftrackedvehiclesusedtotraintheYOLOv4-tinyobjectdetectionmodel.
+3) When a drone is deployed for scouting in a specific 4) Maintaining a specific altitude also utilizes PID con-
+area to search for enemies, without precise details trol. The altitude is measured using an LRF sensor,
+about their location, it is essential for the drone to and PID control is applied to reduce the difference
+conductacomprehensivesurveyoftheentireareaithas betweenthetargetvalue,whichisthedesiredaltitude,
+been assigned. There’s no easy way around this task. and the output value, which is the current altitude
+Therefore, using GNSS to set waypoints, the drone [42].Maintainingacertainaltitudeisadvantageousas
+should cover the area in systematic patterns, such as it ensures the consistent size of the observed object.
+grids or spirals, to ensure no part is overlooked. To Maintaining a uniform object size aids in better de-
+navigate to designated waypoints, control over speed tection. This is because, generally, if an object detec-
+and direction is necessary. This speed and direction tion model is trained primarily with small objects for
+control is achieved by regulating the drone’s rotat- detecting smaller items, it tends to perform poorly in
+ing propeller motors. For this purpose, Proportiona l- detectinglargerobjects.Conversely,ifitistrainedwith
+Integral-Differential(PID)control,atypeoffeedback largerobjectstodetectbiggeritems,smallerobjectsare
+control system that adjusts the system’s output to the not detected as effectively [43]. This trade-off is why
+desiredstate,isapplied.PIDcontrolisafundamental, havingaconsistentobjectsizehelpsinimprovingthe
+efficient, and stable method widely used in various overalldetectionaccuracy.
+automaticcontrolsystems,includingrobotcontrol[41]. 5) In line with this, as illustrated in Figure 5, PID con-
+The formula for PID control is as shown in Equation trol is also implemented for tracking when an enemy
+(1), where u(t) is the input value at time t related to tankisdetected.Duringthedrone’sreconnaissanceand
+thesignalorcommandadjustingthepropellermotors. tracking phases, the camera is consistently oriented
+The error, e(t), as defined in Equation (2), represents to face straight down. Consequently, the center of the
+the difference between the target value r(t) and the camera’s image (0.5, 0.5) corresponds to the drone’s
+output value y(t). For example, during waypoint nav- two-dimensionallocation.Whenanenemyisdetected
+igation,r(t)becomesthecoordinatesofthewaypoint at a position like (0.8, 0.8) in the camera view, the
+to be reached, and the output value y(t) is the current discrepancy from the drone’s location at (0.5, 0.5) is
+coordinate.Thecontrolinputvalueu(t)iscalculatedby considered the error. PID control is then engaged to
+applyingproportional,integral,andderivativecompo- minimizethiserror,enhancingtrackingaccuracy.
+nentstoreducethiserror,thatisthedifferencebetween
+r(t) and y(t). In Equation (1), K e(t) represents the
+p
+proportionalcomponent,whichisrelatedtothecurrent
+(cid:82)t
+error,K e(τ)dτistheintegralcomponentassociated
+i 0
+withtheaccumulatederrorovertime,andK de(t)is
+ddt
+the derivative component linked to the rate of change
+oftheerror.K ,K,andK aretheparametersforeach
+p i d
+ofthesecomponents,respectively.
+(cid:90) t d
+u(t)=K e(t)+K e(τ)dτ +K e(t) (1)
+p i ddt
+0
+e(t)=r(t)−y(t) (2) FIGURE5. Physicalobjecttrackingusingdronecameraimage.
+VOLUME11,2023 5
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

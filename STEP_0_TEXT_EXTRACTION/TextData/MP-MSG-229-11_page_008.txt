@@ -1,0 +1,33 @@
+Orchestrating Manned-Unmanned Missions
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S
+3.1 Use-Case: Critical Undersea Infrastructure Protection
+Hybrid threats in the maritime domain are evolving, with covert attacks on undersea infrastructure becoming
+a major concern. The Nord Stream pipeline sabotage and Baltic Connector pipeline damage highlight the
+challenges in distinguishing between accidental and deliberate actions, especially when attackers use civilian
+vessels or covert tactics. The rise of Autonomous Underwater Vehicles (AUVs) and specialized sabotage
+vessels, such as those used by Russia, further complicates protection of critical undersea infrastructure
+(CUI). At the 2023 NATO Vilnius Summit, allies established the Maritime Centre for the Security of Critical
+Underwater Infrastructure within MARCOM, focusing on deterring and defending against hybrid threats
+targeting energy and communication networks. This includes addressing incidents like the Nord Stream
+attack, the damage to the Baltic Connector pipeline and data cables between Finland and Estonia in October
+2023, and ongoing threats to Norwegian gas pipelines and fiber-optic cables, underscoring NATO’s
+commitment to securing Europe’s vital undersea assets.
+3.2 Modeling & Simulation and System Integration
+This use-case models the defense of critical undersea infrastructure against a range of asymmetric threats in a
+contested maritime environment. The Red Team simulates a series of offensive actions aimed at disrupting
+or destroying vital subsea assets, including communication cables, offshore platforms, and sensor networks.
+These actions include the deployment of UUVs from submarines or surface vessels to sabotage subsea
+cables, cyberattacks to compromise control systems and exfiltrate data via UUVs, signal jamming using
+surface drones or UUVs to disrupt communication, and direct physical assaults on offshore platforms. In
+response, the Blue Team employs a layered defense strategy that integrates advanced assets for detection,
+interdiction, and neutralization of threats. The defense relies on UAVs, such as the Camcopter S-100, for
+aerial surveillance and signal jamming detection, while Iver-3 UUVs perform subsea patrols to inspect
+cables and intercept hostile UUVs. Submarines are deployed for long-range sonar detection and
+counterattacks, supported by swarm drones for persistent coverage and jammer localization. Frigates provide
+surface surveillance and anti-submarine warfare (ASW) capabilities, while RHIBs enable rapid deployment
+for personnel extraction and anti-sabotage operations. The use-case examines the interplay between these
+assets to evaluate force readiness and response capabilities in the face of cyber, physical, and electronic
+warfare tactics aimed at critical undersea infrastructure. The use-case uses the same location as Rempus and
+Dynamic messenger which occurs in Troia, Portugal.
+Figure 3: Example of manned and unmanned asset of Vigilante implemented in Unreal Engine.
+11 - 8 STO-MP-MSG-229

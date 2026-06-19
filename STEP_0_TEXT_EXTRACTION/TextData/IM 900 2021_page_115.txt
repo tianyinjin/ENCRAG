@@ -1,0 +1,46 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 5 : SECURITE DES LIEUX ABRITANT DES INFORMATIONS ET SUPPORTS
+CLASSIFIES
+(cid:3)
+- le local (ou un groupe de locaux regroupés en zone)(cid:3);
+- le meuble(cid:3);
+- le système d’information (au niveau du poste utilisateur) contenant les informations
+et supports classifiés.
+Le choix du dispositif global de protection par le responsable d’organisme, sur les
+conseils de l’officier de sécurité, doit être conforme aux exigences fixées par l’équation
+de protection, définie comme suit (T pour (cid:2) temps (cid:3))(cid:3):
+T(cid:3)freinage > T de détection et de traitement de l’alarme + T(cid:3)intervention
+(cid:3) (cid:3) (cid:3)
+(cid:3)(cid:3) (cid:3)(cid:3) (cid:3)(cid:3)
+(cid:3) (cid:3)
+(cid:55)(cid:72)(cid:80)(cid:83)(cid:86)(cid:3)(cid:71)(cid:72) (cid:55)(cid:72)(cid:80)(cid:83)(cid:86)(cid:3)(cid:71)(cid:72)(cid:3)(cid:71)(cid:112)(cid:87)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81) (cid:55)(cid:72)(cid:80)(cid:83)(cid:86)
+(cid:73)(cid:85)(cid:72)(cid:76)(cid:81)(cid:68)(cid:74)(cid:72) (cid:72)(cid:87)(cid:3)(cid:71)(cid:72)(cid:3)(cid:87)(cid:85)(cid:68)(cid:76)(cid:87)(cid:72)(cid:80)(cid:72)(cid:81)(cid:87)(cid:3)(cid:71)(cid:72)(cid:3)(cid:79)(cid:182)(cid:68)(cid:79)(cid:68)(cid:85)(cid:80)(cid:72) (cid:71)(cid:182)(cid:76)(cid:81)(cid:87)(cid:72)(cid:85)(cid:89)(cid:72)(cid:81)(cid:87)(cid:76)(cid:82)(cid:81)
+Le temps de freinage équivaut au temps mis par l’intrus pour franchir les différentes
+barrières de protection placées entre la détection et les actifs ou la zone à protéger. Il
+est matérialisé par la présence de moyens de freinage en nombre et en nature suffisants.
+Le temps de détection et de traitement de l’alarme correspond au délai existant entre
+l’alarme émise par le premier moyen de détection d’intrusion et le déclenchement
+effectif de l’intervention par le poste chargé de traiter l’alarme. À titre d’exemple :
+- dans le cas d’une alarme fondée sur une détection électronique, T de détection et de
+traitement de l’alarme = 0 + validation de l’information (levée de doute effectuée) +
+délais de transmission et prise en compte effective par le poste pouvant exécuter
+l’intervention immédiatement, 24h/24 et 7/7j ;
+- dans le cas de rondes en l’absence d’alarme ou de surveillance à distance, T de
+détection et de traitement de l’alarme = intervalle entre les rondes + validation de
+l’information (levée de doute effectuée) + délais de transmission et prise en compte
+effective par le poste pouvant exécuter l’intervention immédiatement, 24h/24 et 7j/7.
+Le temps de détection comprend le temps mis par le moyen de détection pour
+transmettre l’alerte vers l’élément d’intervention (téléphonie automatique ou manuelle,
+radio portative, sirène, etc.). La nécessité de lever le doute de l’intrusion pour réaliser une
+intervention efficace (nature, volume, localisation et attitude des intrus) vient augmenter
+la valeur de ce paramètre.
+Le temps d’intervention est le temps mis par l’élément chargé de l’intervention (interne
+ou externe) ou les forces de sécurité intérieures (FSI) pour se trouver au cœur de la zone
+d’action. Dans le cas d’un élément d’intervention externe ou d’une FSI, le temps
+d’intervention tient compte de la distance, du temps moyen constaté et de la
+disponibilité moyenne de l’élément. En cas de doute, le temps majorant est retenu.
+2. Détermination des classes
+Chaque barrière est répartie en 3 ou 4 classes (de la moins fiable à la plus sécurisée).
+Chacune de ces classes correspond aux moyens techniques, humains et organisationnels
+mis en œuvre pour assurer un niveau de protection au moins égal à celui décrit ci-après.
+109

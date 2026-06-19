@@ -1,0 +1,55 @@
+JEUNES IA LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+MICROFLUIDIQUE ET IMMUNOTHÉRAPIES
+Par Gustave Ronteix, IA, Thèse de doctorat soutenue le 15/12/2021 :
+Inférence des interactions cellule-cellule à partir de l’analyse quantitative d’images de microscopie
+L’interdisciplinarité permet de faire progresser la recherche. Ingénieurs, vous avez une
+place à prendre dans la santé !
+des “checkpoint inhibitors” et le
+prix Nobel de médecine associé en
+2018. L’idée directrice de mon travail
+est de démontrer que les nouvelles
+techniques de culture cellulaire em-
+ployant la microfluidique peuvent
+être adaptées aux problématiques
+spécifiques des immunothérapies.
+Non seulement j’ai pu montrer que
+cela fonctionne (les cellules immu-
+nitaires survivent dans nos puces
+(Gauche) Les puces microfluidiques utilisées au laboratoire de Microfluidique Physique et Bio-ingé- microfluidiques et tuent les cellules
+nierie. (Droite) Chaque puce contient 236 gouttes contenant des cellules tumorales et immunitaires.
+tumorales de façon similaire à ce
+qui a été rapporté dans la littérature
+90% des molécules qui commencent leurs essais cli- scientifique), mais j’ai aussi prouvé que l’élimination des
+niques échouent à obtenir leur autorisation de mise sur tumeurs repose sur plusieurs mécanismes coopératifs
+le marché. Les raisons sont nombreuses : manque d’ef- entre les cellules immunitaires. Chaque expérience dans
+ficacité chez les patients, effets secondaires trop dan- nos puces permet la prise de milliers d’images qu’il faut
+gereux etc. Une cause est la distance entre la paillasse ensuite analyser de façon quantitative pour en extraire
+du laboratoire et le patient. Les chercheurs, pour des les paramètres pertinents. Grâce à la qualité des don-
+raisons pratiques, effectuent le plus souvent leur travail nées récoltées et à des modèles mathématiques, j’ai pu
+sur des cultures cellulaires en 2D (ici, imaginez les boîtes décrire dans le détail les mécanismes d’accumulation
+de Petri que des scientifiques regardent avec attention collective des cellules immunitaires sur les tumeurs.
+dans votre film préféré). Or, la susceptibilité des cellules
+dans ces conditions artificielles est parfois très différente Cependant, mes travaux ne sont qu’un point de départ
+de ce qu’elle est conditions réelles (i.e. dans le corps du pour l’étude de l’activité anti-cancéreuse du système
+malade), ce qui cause des échecs lors du processus de immunitaire. Mon laboratoire a remporté une bourse
+validation des médicaments. de recherche hospitalo-universitaire (RHU) afin d’utiliser
+ce système pour étudier des cellules tumorales de pa-
+La microfluidique : une technologie prometteuse tientes atteintes du cancer du sein et analyser l’impact
+Entre ici la microfluidique. Au début des années 2000, de plusieurs traitements expérimentaux.
+un trio de chercheurs de Harvard et du MIT - White-
+sides, Quake et Weitz - développe des techniques pour Le software à l’assaut de la biologie
+créer et déplacer des gouttes de quelques milliardièmes Mes travaux illustrent une tendance de fond de,la re-
+de litres (environ mille fois plus petites que des gouttes cherche pharmaceutique : allier hardware, software et
+de pluie). La France s’est imposée comme l’un des biologie pour débloquer des pistes thérapeutiques plus
+pôles mondiaux de l’application de la microfluidique rapidement et à moindre coût. Cette évolution fondée
+en santé, tant en recherche (laboratoires de Jerome sur la superposition des techniques se fait aussi sen-
+Bibette, Andrew Griffiths ou Jean-Christophe Baret no- tir dans des domaines plus proches des missions de la
+tamment) qu’en industrie (Stilla Technologies, Treefrog DGA, et le COVID-19 en est une illustration : en alliant
+Therapeuthics etc.). séquençage à très large échelle avec des outils infor-
+matiques puissants, les autorités britanniques suivent
+Une thèse interdisciplinaire l’évolution épidémique au jour le jour avec une granu-
+A l’intersection de ces sujets, ma thèse cherche à al- larité inimaginable il y a quelques années. Il y a dix ans,
+lier microfluidique et immunothérapies. Cette nouvelle l’investisseur Marc Andreessen déclarait que “software
+classe de traitements contre le cancer a connu une ex- is eating the world”, c’est au tour de la biologie de pas-
+plosion depuis une dizaine d’années et la découverte ser à table.
+92

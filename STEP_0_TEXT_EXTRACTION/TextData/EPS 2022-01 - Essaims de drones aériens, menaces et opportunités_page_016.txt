@@ -1,0 +1,58 @@
+Le tableau suivant rassemble les différentes briques technologiques suivant la typologie de l’essaim :
+Type d’essaim
+Sous- Briques
+Scripté Téléopéré « Intelligent »
+ensemble associées
+Lien de
+En option
+navigation
+Lien En option mais
+Indispensable
+vers le C2 fréquent
+Coordination
+Lien
+Indispensable
+interne
+IA
+Indispensable
+de l’essaim
+Effecteurs En option, suivant finalité
+Capteurs En option Indispensable
+Charge utile
+Edge
+Indispensable
+computing
+IA
+Indispensable
+de l’agent
+Autopilote
+Navigation Indispensable
+Structure
+Vecteur
+Propulsion
+Moteurs de
+Indispensable mais fonction de l’architecture retenue
+rotor
+Actionneurs
+de gouvernes
+Cette grille de lecture adopte un découpage en composants élémentaires des essaims, eux-mêmes
+décrits suivant une typologie précise. Dans la réalité, les frontières peuvent être moins strictes. Un
+essaim offensif « intelligent » peut adopter en phase d’approche un fonctionnement scripté, propice à
+sa discrétion. Un autre, dédié à l’ISR et ne regroupant qu’une poignée d’agents, peut être volontairement
+dépourvu de « edge » dédié à sa tâche, remplacé par un traitement optimisé des flux vidéo par un ou
+plusieurs opérateurs. Enfin, une interface collaborative peut permettre à un unique opérateur de
+superviser en essaim « intelligent » des RPAS qui seront chacun pilotés via leur liaison de télé-opération
+d’origine. Trois exemples qui sont autant d’approches hybrides mais réalistes. D’ailleurs, la notion de
+« Plays » intègre, comme une option parmi d’autres, le recours ponctuel à la télé-opération.
+Un essaim peut être homogène, constitué de vecteurs identiques mettant en œuvre une même charge
+utile. Il peut aussi être hétérogène avec des vecteurs différents et un panachage de senseurs et
+d’effecteurs. Ainsi, un drone sophistiqué et récupérable, équipé de capteurs de vision nocturne, peut
+apporter sa capacité tous temps au reste de l’essaim, composé de vecteurs à effet cinétique qui en sont
+dépourvus10.
+Les éléments décrivant l’essaim et ses technologies devraient rester stables aux horizons 2025 et 2030 ;
+les progrès résulteront surtout de la mise en pratique. Les essaims artisanaux sont déjà une réalité. Sur
+cette période, ils devraient encore largement reposer sur les approches scriptées et téléopérées, tandis
+10 C’est l’association en un seul système des drones d’AeroVironment : la gamme Puma pour l’ISR
+et les Switchblades pour la frappe, à ceci près que tout est aujourd’hui intégralement opéré par
+l’homme.
+16

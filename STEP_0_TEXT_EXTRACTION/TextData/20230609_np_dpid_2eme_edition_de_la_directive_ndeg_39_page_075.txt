@@ -1,0 +1,38 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Un processus de gestion des vulnérabilités doit être mis en œuvre pour :
+- identifier les composants du système sensibles qui doivent faire l’objet d’une
+veille de vulnérabilité ;
+- identifier les vulnérabilités connues et mesurer leurs impacts sur les systèmes ;
+- rechercher les correctifs disponibles pour corriger ces vulnérabilités ;
+- déployer les correctifs de manière cohérente, en conformité avec le plan de
+maintenance ;
+MCS21 ORG R O O Voir Directive 47 portant sur le MCS
+- recenser les vulnérabilités qui n’ont pas pu être corrigées ;
+- mettre en place des mesures palliatives pour diminuer l'exposition aux risques.
+Il est possible de s’appuyer sur la Directive 47 portant sur le MCS.
+Parmi les composants du système industriel sensibles à identifier : équipements
+en interconnexion, équipements les plus exposés ( postes de travail, postes
+nomades, consoles de programmes, postes de maintenance, équipement de
+sécurité (pare-feu, VPN), etc.).
+Les correctifs doivent être validés par les
+fournisseurs pour les équipements qui
+relèvent de leur responsabilité.
+Les correctifs de sécurité doivent être
+ORG
+MCS23 Vérifier et valider les correctifs de sécurité avant leur déploiement. R O O appliqués en priorité sur les
+TECH
+équipements les plus exposés (postes
+de travail, PC portables, stations
+d’ingénierie*, consoles de
+programmation*, pare-feu, VPN, etc.).
+MCS23 ORG Mettre en place un suivi des déploiements des correctifs. O
+Maîtriser l’obsolescence
+Par exemple, indiquer la date à laquelle
+Intégrer dans les contrats avec les fournisseurs des clauses relatives à la gestion
+MCS24 ORG O les équipements ne seront plus pris en
+de l’obsolescence.
+charge.
+Identifier les dates auxquelles un équipement n’est plus maintenu. Insérer cette
+MCS25 ORG O
+exigence dans les clauses relatives à la gestion de l’obsolescence.
+DIR-39 SNSI – 2eme édition Page 75 | 79

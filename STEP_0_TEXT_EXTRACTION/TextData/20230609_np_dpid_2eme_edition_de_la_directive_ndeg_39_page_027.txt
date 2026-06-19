@@ -1,0 +1,44 @@
+Filtrage
+Le filtrage, notamment le filtrage de flux, est un mécanisme permettant de gérer les flux autorisés
+à circuler au sein et entre les systèmes. Il s’agit alors de n’autoriser que les flux nécessaires au
+fonctionnement du système.
+Gestion technique de bâtiment (GTB)
+Système industriel permettant la gestion de l’ensemble des installation techniques d’un bâtiment
+(électricité, climatisation, aération, ascenseurs, …).
+Gestion technique centralisée (GTC)
+Système de conduite d'un seul domaine technique (chauffage ou éclairage ou climatisation, etc.)
+provenant d'un même site.
+Intervenant
+Toute personne étant amenée à intervenir sur un système d’information. Ceci comprend le
+personnel chargé de l’opération du système mais également les intégrateurs, les mainteneurs,
+etc.
+Internet des objets (IoT)
+Dispositif connecté sur Internet (ou sur un réseau spécifique au ministère) et qui dispose d’une
+liaison numérique avec son environnement, généralement sous la forme d’un protocole qui n’est
+pas seulement point-à-point et qui supporte plusieurs rôles (transfert de données, commande,
+mise à jour, etc.).
+Ils sont souvent en mesure d’interagir physiquement avec leur environnement à travers des
+capteurs* et/ou actionneur*.
+Label (certification, agrément), qualification)
+Par niveau de confiance décroissant, le label peut correspondre à :
+- un agrément de l’ANSSI ;
+- une qualification standard ou renforcée de l’ANSSI ;
+- une approbation par l’OTAN, l’UE, une certification par l’ANSSI, une qualification élémentaire
+par l’ANSSI ou une certification reconnue au titre de l’accord international SOG-IS17 ;
+- une certification reconnue au titre de l’accord international CCRA18.
+Opérateur
+Intervenant* en charge de l’exploitation d’un système industriel pour réaliser une des tâches du
+processus industriel.
+Procédé industriel (ou physique)
+Ensemble matériel qui peut produire ou transformer de la matière, de l’énergie, ou rendre un
+service physiquement mesurable en transformant de la matière ou de l’énergie sous toutes ses
+formes.
+SCADA Supervisory Control and Data Acquisition
+Voir système de supervision industrielle.
+SCC Systèmes de contrôle commande
+Système numérique qui implémente des automatismes de régulation, de contrôle, de pilotage de
+procédé physique* de toute nature. Un système de contrôle commande (SCC) contient
+généralement un (ou plusieurs) automate(s)* ou calculateur(s) relié(s) à des capteurs* permettant
+17 Senior Officials Group Information Systems Security
+18 Critera Commun Risk Assesment
+DIR-39 SNSI – 2eme édition Page 27 | 79

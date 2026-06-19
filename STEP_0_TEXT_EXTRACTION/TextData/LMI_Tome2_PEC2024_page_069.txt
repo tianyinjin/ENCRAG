@@ -1,0 +1,55 @@
+69
+génératifs (RAG) parfois aussi appelés réseaux adverses ensemble de réseaux informatiques IP intégrés à l’Internet
+génératifs (generative adversarial networks ou GAN) sont et dont la politique de routage interne (routes à choisir
+une classe d’algorithmes d’apprentissage non supervisé . en priorité, filtrage des annonces) est harmonisée ou
+Ils permettent de générer des images avec un fort degré organisée de façon logique .
+de réalisme . Un AS est généralement sous le contrôle d’une entité
+Un GAN est un modèle génératif où deux réseaux de ou organisation unique, typiquement un fournisseur
+neurones sont placés en compétition dans un scénario d’accès à l’Internet .
+de théorie des jeux . Le premier réseau est le générateur,
+il génère un échantillon (par exemple une image), tandis Tatouage numérique
+que son adversaire, le discriminateur essaie de détecter Le tatouage numérique est une technique liée au
+si l’échantillon est réel ou s’il est le résultat du générateur . domaine de la stéganographie, un domaine proche
+Le générateur est entraîné avec comme but de tromper mais distinct de celui de la cryptographie . Comme pour
+le discriminateur . (Wikipedia) cette dernière, l’objectif est de transmettre de façon
+sécurisée des informations . Cependant, alors que la
+Réseau d’apprentissage profond cryptographie consiste en une écriture indéchiffrable d’un
+L’apprentissage profond est un procédé d’apprentissage message ou d’une information (ainsi rendue secrète), la
+automatique utilisant des réseaux de neurones possédant stéganographie va plutôt s’attacher à cacher un message
+plusieurs couches de neurones cachées . Ces algorithmes dans un contenu pour qu’il soit, non pas indéchiffrable,
+possédant de très nombreux paramètres, ils demandent mais indiscernable . Le tatouage est un cas particulier à cet
+un nombre très important de données afin d’être entraînés . égard, puisque l’objectif n’est pas toujours d’insérer une
+(CNIL) marque indiscernable, mais plutôt qu’elle soit inséparable
+de son support . L’information concernée peut être un
+Sème marquage sans signification, comme par exemple le
+Unité minimale de signification entrant, comme filigrane utilisé sur les photographies, ou bien un message
+composant, dans le sens d’une unité lexicale . plus complexe . Il peut être directement visible à la vue
+• Un mot contient un ou plusieurs sèmes . du document, ou invisible . (CNIL)
+• Le mot chaise et le mot fauteuil contiennent tous les
+deux le sème « où l’on s’assoit », mais seul fauteuil Modélisation de thèmes incrémentale ou topic modeling
+a celui « avec des bras » . incrémental
+(Larousse et Wiktionnaire) La modélisation de thèmes incrémentale (parfois appelée
+modélisation de thèmes en ligne) permet de détecter
+Optimisation pour les moteurs de recherche ou Search les thèmes abordés dans un corpus de texte, avec la
+Engine Optimization (SEO) capacité d’apprendre de manière incrémentale à partir
+L’optimisation pour les moteurs de recherche, aussi d’un mini-lot d’instances . C’est un moyen de mettre à jour
+connue sous le nom de référencement naturel et sous votre modèle de thèmes avec des données sur lesquelles
+le sigle SEO, inclut l’ensemble des techniques qui visent il n’a pas été formé auparavant, identifier les nouveaux
+à améliorer le positionnement d’une page, d’un site ou sujets abordés par un corpus d’articles de recherche par
+d’une application Web dans la page de résultats d’un exemple . (Adapté d’une définition de M .Grootendorst)
+moteur de recherche .
+Ces techniques cherchent à améliorer la compréhension Transformeurs
+et la prise en compte de la thématique et du contenu Un transformeur (ou modèle auto-attentif) est une
+d’une ou de l’ensemble des pages d’un site Web par architecture d’apprentissage profond introduite en 2017 . Il
+l’algorithme de classement des moteurs de recherche . est principalement utilisé dans le domaine du traitement
+(Wikipédia) automatique des langues (TAL ou Natural Language
+Processing NLP) en servant de base aux grands modèles
+Spamming de langage, mais peut aussi servir à traiter d’autres
+Envois en grand nombre de messages ou de courriers modalités comme les images, les vidéos ou le son, parfois
+électroniques non sollicités à des boîtes aux lettres simultanément .
+électroniques ou à des forums dans un but publicitaire, À l’instar des réseaux de neurones récurrents (recurrent
+commercial, d’hameçonnage ou de manipulation de neural network, RNN), les transformeurs sont conçus
+l’opinion . (D’après Larousse) pour gérer des données séquentielles, notamment pour
+la traduction et la génération de texte . Cependant,
+Système autonome contrairement aux RNN, les transformeurs ne nécessitent
+Un système autonome (autonomous system, AS) est un pas un traitement séquentiel des données . Ainsi, pour

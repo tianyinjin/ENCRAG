@@ -1,0 +1,42 @@
+Integration of a Commercial
+Unmanned Vehicle into the Army Communications System
+Fig.3:Generalarchitecture—Wi-Fi.
+smallradios.Insituationswithoutaradio,allcommunications
+with the UGV are via Wi-Fi.
+WhencommunicatingwithCNR,thecomputerontheGCS
+andtheRaspberryPiconnecttotheradioviaanetworkcable.
+The radios on both sides need to be connected to the antenna,
+whichismadeusingacoaxialcablewithanNconnector.The
+used antenna will depend on the type of radio, manpack, or
+vehicle version used in each scenario. On the GCS side, the
+gamepadconnectstothecomputerviaUSB;ontheUGVside,
+theGPSconnectstotheRaspberryPiviaUSB.Indistinction,
+Fig.2:ARXRoboticsGEREONRCS—MediumAutonomous
+theRaspberryPiandthecameraareconnectedusingaFlexible
+TransportationPlatform[28].
+PrintedCircuit(FPC).TheArduinoconnectstotheRaspberry
+Pi via a serial cable.
+III. SOLUTIONFORINTEGRATINGACOMMERCIALUGV
+INTOTHEARMYCOMMUNICATIONSSYSTEM In Wi-Fi communication, all connections are used except
+the ones to the tactical radios since Wi-Fi is used for commu-
+For the communication without autopilot hardware, two
+nication, and this is done via the network boards integrated
+architectures were used: one with Wi-Fi communication, pre-
+into each device (GCS computer and Raspberry Pi).
+sented in Figure 3 and the other using Combat-Net Ra-
+dio (CNR), represented in Figure 4. The LAFVIN Multi-
+Functional Smart Car Kit was used for this implementation,
+representing the UGV and Arduino.
+The onboard Raspberry Pi device connects to different
+components of the architecture. The onboard Raspberry Pi ↔
+Arduinoconnectionisdesignedtosendthecontrolcommands A. GCS Architecture
+received by the Raspberry Pi to the Arduino.
+The Raspberry Pi ↔ GCS connection is designed to send
+thecontrolcommandstotheRaspberryPiandGPSandimage TheGCSMAVProxysoftwareestablishesaconnectionwith
+to the GCS. the Raspberry Pi. The system GCS is a proxy server between
+Figure 4 depicts the scenario with a radio connected to theRaspberryPi,MissionPlanner,andBMS.Thearchitecture
+the UGV. This scenario makes sense when the UGV is large oftheGCShastobelikethissothatdatacanbesent/received
+enough to carry a radio. In this specific application, the simultaneously to the BMS and the Mission Planner. This
+LAFVIN UGV is not used with a vehicular radio in moving architecture also makes it possible to filter the messages sent
+tests, given its size, it can only be used in static tests or with to each of the software programs.
+STO-MP-IST-209 1760 - 4

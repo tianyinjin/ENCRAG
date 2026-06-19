@@ -1,0 +1,54 @@
+POUR UN EFFET « SOFT KILL »
+O
+Au vu de l’état de la technologie et des améliorations anticipables aux horizons 2025 et
+2030, les armes HPM aptes à obtenir un effet perturbateur sur l’électronique embarquée
+passeront, dans le même temps, de l’état de prototype à celui de produit généralisé ; on
+retiendra :
+o Pour une arme installée à poste fixe sur un navire, une puissance d’émission de
+50 MW, dans la bande 1 à 4 GHz ; une telle arme a recours à des antennes
+panneaux à balayage électronique qui couvrent un cône de 90° en site et en
+gisement ; sa portée pratique sur les drones considérés est estimée à 3 ou 4 km,
+pour un traitement simultané d’au moins 20 drones. Un tel système assure
+également la détection et le pistage des drones assaillants ; le « Leonidas »
+d’EPIRUS Inc. est emblématique de cette nouvelle famille d’HPM qui relève
+davantage du brouilleur ;
+o Une arme recourant au même principe peut être installée sur un drone
+intercepteur, comme le montrent les premières réalisations de ce type ; avec une
+puissance autour d’1 KW ; elle est efficace dans un rayon d’une dizaine de mètres
+de la cible interceptée et peut délivrer son effet plusieurs fois, selon la capacité de
+sa batterie ; ne pouvant traiter qu’une seule cible par effecteur et uniquement en
+basse couche, une telle arme est de peu d’utilité.
+Ces deux types d’armes peuvent être intégrés sans difficulté sur un bâtiment de surface175.
+La première sera retenue comme représentative des armes HPM anti-essaims
+embarquables sur bâtiment de surface et destinée à traiter la menace de référence dont la
+susceptibilité à ces agressions est décrite au paragraphe suivant.
+Quelques points clés sur les armes micro-ondes à forte puissance sont mentionnés en annexe IV,
+fournissant les arguments aux appréciations portées qui ne préjugent pas de la pertinence de ces
+effecteurs en contexte aéroterrestre ou spatial.
+- LA SUSCEPTIBILITE DES VECTEURS DE L’ESSAIM
+Pour confronter la menace de référence aux armes à énergie dirigée, il convient de définir la
+susceptibilité des drones aux effets de ces armes. Les caractéristiques retenues figurent ci-dessous :
+Cible type « ALTIUS-600M » Cible type « PERDIX »
+Matériaux Carbone-époxy ép. 2 mm Fuselage en kevlar ép. 0,8 mm176
+Caractéristiques Divers capteurs optroniques à
+des matériaux et Capteurs matrice de silicium, en verre ou Caméra à matrice silicium,
+capteurs exposés électro- polymère transparent dans le optique en verre ou polymère
+aux HEL optiques visible, éventuellement associés transparent
+à illuminateur et télémètre laser
+Peu durcie177 avec, en points faibles :
+Caractéristiques
+- Pour des effets « hard kill », les antennes de communication et
+des équipements Electricité et
+capteurs électro-optiques ;
+embarqués Electronique
+- Pour des effets « soft kill », les moteurs électriques des
+exposés aux HPM
+servocommandes des gouvernes.
+175 En matière de compatibilité électromagnétique, on se retrouve avec des contraintes comparables
+à celles induites par les radars ARABEL ou EMPAR.
+176 Les ailes sont en sandwich (mousse dans une peau en carbone époxy). Seul le matériau du
+fuselage a été pris en compte pour l’étude en se référant à une épaisseur plus forte (1,5 mm), testée
+spécifiquement par l’Institut de recherches franco-allemand de Saint-Louis dans le cadre de l’étude.
+177Il est impossible d’entourer un drone d’une cage de Faraday, en conséquence aucun design ne
+peut protéger un drone face à l’arme HPM. Un drone peut être moins susceptible qu’un autre mais
+66

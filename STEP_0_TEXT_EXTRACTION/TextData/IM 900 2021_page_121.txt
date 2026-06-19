@@ -1,0 +1,73 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 5 : SECURITE DES LIEUX ABRITANT DES INFORMATIONS ET SUPPORTS
+CLASSIFIES
+(cid:3)
+Réservé aux
+utilisateurs
+Réservé aux
+Accès aux authentifiés sur le
+utilisateurs assurant
+dispositifs terminal
+une fonction
+d’import - + Protection de la
+d’enregistrement des
+export du supports amovibles classe (cid:534)
+documents classifiés
+poste préalablement
+ou de gestion des
+utilisateur (cid:2)(cid:3)enrôlés(cid:3)(cid:3) sur le
+échanges
+système et autorisés
+pour cet utilisateur
+Protection de la
+Contrôle des classe (cid:534)
+Désactivation des
+équipements + Protection de la
+services non utilisés
+connectés au Authentification des classe (cid:533)
+(conformité)
+réseau équipements au
+réseau
+Cloisonnement par
+Cloisonnement par le
+fonction homogène Cloisonnement entre
+chiffre pour chaque
+Cloisonneme au sein du SI les utilisateurs d’une
+poste utilisateur
+nt et filtrage (cloisonnement des même population,
+(tunnel dédié vers les
+réseaux locaux-LANs- exemple P-VLAN.
+services)
+par population)
+Disposition des
+terminaux par
+Capacité à
+rapport aux
+restreindre la
+ouvertures du local Protection de la Protection de la
+visualisation
+(portes, fenêtres, classe (cid:534) classe (cid:533)
+des IC par un
+vasistas, hublots, etc.)
+tiers.
+et protection des vis-
+à-vis
+3. Tableaux de combinaison des classes
+L’objectif final est d’égaler ou de surpasser le temps de freinage énoncé dans les
+principes généraux pour obtenir un niveau de sécurité minimal pour les ISC.
+La détermination de ce niveau est réalisée en deux temps :
+- La classification des barrières (emprise, bâtiment, local, meuble ou moyen logique) à
+travers les moyens de détection d’intrusion ou de freinage qui leurs sont associés.
+- La vérification de la validité de la combinaison des classes des barrières en fonction
+du niveau de classification de l’ISC.
+Dans le cas où le niveau minimal de sécurité ne peut être atteint, il faut faire évoluer la
+classe d’une ou des barrières pour atteindre ce niveau.
+La protection des informations et supports classifiés est assurée par un minimum de trois
+barrières physiques successives au niveau de l’emprise ou du bâtiment, du local et du
+meuble.
+La protection des systèmes d’information classifiés est assurée au choix par la
+combinaison de(cid:3):
+- trois barrières physiques successives au niveau de l’emprise ou du bâtiment, du local
+et du meuble de façon identique à la protection des informations et supports
+classifiés)(cid:3);
+115

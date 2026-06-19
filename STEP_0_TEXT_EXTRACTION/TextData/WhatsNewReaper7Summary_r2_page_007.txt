@@ -1,0 +1,49 @@
+REAPER 7.0: What’s New
+Power Editing with Mouse Modifier Overrides
+You have already encountered several of REAPER’s mouse modifiers: these are what gives you the ability to use
+your mouse to perform so many tasks: for example, when razor editing – Alt right drag to make a selection,
+Ctrl left drag to copy a selection, and so on. There’s a section dedicated to mouse modifiers in the user
+guide.
+REAPER’s mouse modifiers have to handle so many diverse tasks beyond just razor editing that
+finding your way around them can be a clumsy process. A solution to this is to be able to create
+your own alternative set of modifiers all relevant to a particular task (in this case razor editing),
+so that you can focus on that task alone.
+By clicking on the razor edit toolbar icon (shown above) you are able to activate an alternative set of arrange
+view modifiers dedicated specifically to razor editing, all using the left mouse button. The button lights up and
+becomes animated. You can define the various modifiers as you wish.
+Power Editing with Razor Edits
+There are four alternative sets available (for different types of activity), but we’ll get to C and D later in this
+guide. Razor editing uses alternative set B. Options, Preferences, Mouse modifiers, will open the mouse
+modifiers window. From the Context
+dropdown, select Arrange view override
+B.
+As you can see, some tasks have already
+been defined – for example, left drag will
+Select the razor edit area,
+You can change any of the default
+assignments, and/or assign tasks to those
+that are currently not used. For example, to
+change Shift left drag to Add to the
+current selection you would do this:
+1. Double click in the Behavior column in the Ctrl row. This will display a menu of tasks and commands. Click
+on Select razor edit area then Add to selection.
+2. Click on Apply.
+Assignments can be made to
+currently unassigned modifiers
+(such as Ctrl) in the same way.
+One benefit of this is that you
+can now do all your razor
+editing without needing to
+engage the right mouse button.
+To remove any of your
+assignments, double click on it
+in the Behavior column and
+select Default action.
+Note that REAPER’s default
+assignments for other contexts –
+such as Razor edit area will
+still apply. For example, Ctrl left drag will still move a selected razor edit area. These assignments too can be
+changed if you wish.
+To disable the Arrange View B mouse modifiers and restore REAPER’s default assignments, simply click the razor
+editing button on the task bar again. The button will cease to be illuminated or animated.
+Page 7

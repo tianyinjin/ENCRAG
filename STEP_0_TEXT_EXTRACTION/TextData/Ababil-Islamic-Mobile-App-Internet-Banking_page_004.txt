@@ -1,0 +1,15 @@
+Technical & Functional Details
+❖ User Management:
+- Authentication
+Two factor authentication using following options.
+✓ User password
+✓ USB Token
+✓ Smart card
+✓ Digital certificate
+✓ LDAP
+- Our system will use session ID for a specific time.
+❖ Admin Panel:
+After successful login customer will see the dashboard of admin panel. Through admin panel
+customer can create new admin, can do the approval of event log and add new client, do activate
+the client also can search the application. Below UI shows the admin control panel:
+© Copyright 2018

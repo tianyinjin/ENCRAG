@@ -1,0 +1,48 @@
+58 Pôle d’excellence cyber
+La cybersécurité de l’IA au cœur du champ de bataille
+Lucie DUCHATEAU Nicolas CHARBONNIER Hugo MANIA
+Division industrie et technologies
+Agence nationale de la sécurité des systèmes d’information (ANSSI)
+L’Agence nationale de la sécurité des systèmes Disponibilité du SIA
+d’information (ANSSI) déploie une politique globale La disponibilité du SIA est un réel enjeu de
+de cybersécurité et en assure la coordination à cybersécurité qui amène à se poser les questions
+l’échelle interministérielle. Les travaux de l’ANSSI suivantes :
+portent notamment sur la sécurisation des systèmes
+d’IA pour renforcer le niveau de cybersécurité des • Quels sont les composants du SIA qui vont réaliser
+organisations publiques et privées. Dans le cadre de le calcul d’inférence[1]? Où sont-ils localisés
+ce livre blanc, nous appliquons les axes de réflexion physiquement ? Le calcul est-il distribué ?
+et recommandations de cybersécurité de l’ANSSI au
+contexte de la défense. Recommandation : Cartographier l’ensemble des
+composants logiciels et matériels des SIA ainsi que
+L’IA est déjà un acteur incontournable du champ de les dépendances entre ces composants[2].
+bataille et ses capacités sont désormais pleinement
+intégrées aux stratégies des armées sur le terrain • L’architecture du SIA est-elle complètement
+– notamment pour ce qui est de de l’analyse de autonome ou bien s’appuie-t-elle sur une
+signaux (images, sons, signaux électromagnétiques), interconnexion avec des services centralisés
+de l’aide à la décision, ou encore de la gestion de situés hors de l’environnement contraignant ?
+systèmes d’armes complexes. Dans ce contexte
+opérationnel particulièrement délicat car porteur Recommandation : Sécuriser les interconnexions
+de multiples contraintes d’environnement, il est entre les éléments de terrain et les services centralisés.
+particulièrement important de s’assurer de la Assurer une redondance des réseaux de transport
+cybersécurité des systèmes d’IA (SIA), c’est-à-dire avec des technologies distinctes.
+de l’ensemble de composants matériels et logiciels
+visant à intégrer et exécuter un ou plusieurs modèles • La continuité des applications est-elle assurée,
+d’IA dans un système d’information. en cas d’indisponibilité ou d’altération de son
+fonctionnement ? En cas de réponses erronées
+Nous étudierons, dans cet article, les éléments du modèle, est-il prévu un système de secours ?
+pouvant avoir un impact sur la cybersécurité des SIA
+possédant les caractéristiques suivantes : Recommandation : Mettre en place des modes
+dégradés des SIA en cas de dysfonctionnement.
+Prévoir un mode dégradé sans IA.
+• implémentation dans des composants
+matériels locaux (on parle d’« IA embarquée ») Protection physique du matériel
+et exposition à des contraintes opérationnelles En second lieu, la protection physique du matériel est
+fortes pouvant impacter leur fonctionnement : également un enjeu à plusieurs titres :
+températures extrêmes, vibrations, interférences • La protection contre le vol des équipements : les
+électromagnétiques ou limites de bande passante modèles d’IA peuvent être considérés comme
+réseau (exemple : drones de combat) ; des éléments critiques à protéger comme des
+• gestion de capacités temps-réel, notamment secrets industriels. Il faut considérer les attaques
+pour fournir une aide à la décision rapide sur d’extraction de modèles[3] en cas de perte ou de
+le champ de bataille (exemple : systèmes de
+vol ;
+détection d’objets et de cartographie du terrain).

@@ -1,0 +1,43 @@
+POLE D'EXCELLENCE CYBER
+........................................
+FICHE N°9
+PLAN ET STRATÉGIES DE SAUVEGARDE
+La finalité d'une sauvegarde est de restaurer les données lorsqu'elles ont été endommagées ou détruites, soit par des erreurs
+des utilisateurs, soit à cause de logiciels malveillants, tels les rançongiciels1 . Elles constituent également un atout important
+pour initier dans les meilleurs délais un plan de continuité ou de reprise d’activité (informatique), PCA/PRA, au cas où une
+catastrophe viendrait à frapper votre système d'information, par exemple une panne suivie d'une défaillance matérielle ou
+logicielle, des conditions météorologiques extrêmes, etc.
+Avant même de choisir les supports ou les solutions de sauvegarde, la collectivité doit établir un plan de sauvegarde R1 . Ce plan
+doit être mis à jour à chaque déploiement d'un nouveau composant du système d’information de la collectivité (installation d’un
+serveur ou d'un poste de travail, achat d’un logiciel, etc.) et il doit définir au moins les points suivants :
+• Le périmètre des sauvegardes : la liste des données à sauvegarder, les serveurs concernés, les postes de travail, les appareils
+mobiles, mais aussi les logiciels indispensables à l’exploitation des données, les systèmes d’exploitation, les prologiciels ou logiciels
+métiers : finances, RH, état civil, etc.
+• Le type des sauvegardes : définissez les types de sauvegardes (complète, instantanée2, synchronisation, etc.) appropriés aux types
+de données à sauvegarder (donnée froide3 ou chaude4 ). Toutes les sauvegardes doivent être réalisées à l’aide de logiciels spécialisés
+(Bareos5 Historique de fichiers de Windows, etc.). Une simple action consistant à copier-coller les données ou à copier un disque dur
+interne sur un disque dur externe ne peut pas être considérée comme une sauvegarde6.
+• La fréquence et la planification des sauvegardes : effectuez des sauvegardes à des intervalles réguliers et fréquents (sauvegarde
+journalière ou hebdomadaire). Leurs planifications doivent varier en fonction du type de sauvegarde ou d’environnement à sauvegarder.
+Par exemple, une sauvegarde complète, qui consiste à copier toutes les données d’un système, nécessite des ressources importantes
+(bande passante, mémoire vive, etc.). Par conséquent, elle peut être planifiée à des heures creuses. Si la collectivité héberge un site
+Web qui utilise divers fichiers, des bases de données ou de applications métiers, il faut aussi penser à sauvegarder ces éléments aux
+mêmes horaires, car une incohérence dans des sauvegardes d'applicatifs risque de rendre inexploitable le système restauré.
+• La procédure d’exécution des sauvegardes et la restriction des accès : seuls les agents habilités peuvent avoir accès aux
+sauvegardes et aux supports qui les hébergent. Ces accès doivent correspondre à un besoin réel, et être en lien avec l’exercice de leurs
+missions. En outre, les sauvegardes doivent être réalisées même lorsque les agents qui en ont la charge sont en congés ou absents,
+ceux-ci doivent donc, autant que possible, penser à automatiser le processus de sauvegarde pour éviter un éventuel oubli.
+• Les procédures et test de restauration : il est indispensable de s’assurer de la copie effective, intégrale et fiable des données, ainsi
+que de tester leur restauration. Ce test doit être réalisé au moins une fois par an. Une trace technique des résultats de restauration doit
+être conservée.
+• Supervision et alertes : Mettez en place un système de supervision des sauvegardes pour détecter les problèmes et recevoir des
+alertes en cas d'échec.
+1 https://www.ssi.gouv.fr/uploads/2020/09/anssi-guide-attaques_par_rancongiciels_tous_concernes-v1.0.pdf
+2 Une sauvegarde de l'état d'un système à un instant donné.
+3 Les données qui sont rarement consultées.
+4 Les données qui doivent être immédiatement accessibles, car souvent consultées.
+5 https://www.bareos.com/
+6 Risque de conservation d'anciens fichiers/dossiers supprimés toujours présents dans la sauvegarde, qui prend de plus en plus de
+place, souci de restauration de codes sources de programme et/ou d'un site web, nombre de lectures/écriture limité pour les supports
+SSD, risque de se tromper entre un dossier et un raccourci du dossier, etc.
+35

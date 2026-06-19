@@ -1,0 +1,41 @@
+Navy s’attache à la bonne intégration des essaims aux plates-formes navales, l’US Army en optimise
+l’exploitation par ses opérateurs non-dédiés et l’US Air Force fait progresser la compatibilité
+homme/machines pour les applications les plus exigeantes. En caricaturant, on peut dire que l’US Air
+Force est souvent dans une approche « top – down » quand l’US Army fait dans le « bottom-up » et que
+l’US Navy adopte une démarche pragmatique.
+Côté architecture, l’approche étatique américaine consiste à imposer la séparation physique des sous-
+ensembles, suivant trois grandes fonctions :
+- Le drone proprement dit avec une architecture propriétaire, très adhérente au vecteur ;
+- Le système de mission, dont l’architecture ouverte est imposée et qui assure le « edge » pour
+traiter les données des capteurs, naviguer ou assurer un contrôle hiérarchique d’autres agents ;
+- Un dispositif d’autonomie collaborative, lui aussi en architecture ouverte, voire propriété de l’Etat.
+Une telle approche est propice aux développements accélérés et parallèles, favorisant, voire forçant,
+les coopérations, au bénéfice d’une compatibilité accrue des systèmes. Ainsi, la porte est maintenue
+grande ouverte pour les nouveaux entrants et les coûts d’ensemble sont maîtrisés. Au résultat, et à titre
+d’exemple, un drone MQ-25 Stingray de Boeing est supervisé via la console MD-5 Ground Control
+Station de Lockheed Martin.
+SYNTHESE DES INITIATIVES AUX ETATS-UNIS
+o
+Aux Etats-Unis, les technologies d’autonomie collaborative ont quitté la validation en environnement
+représentatif pour le prototypage en environnement opérationnel, l’industrialisation et les premières
+IOC.
+Soucieuses d’éviter les critiques assimilant les essaims de drones à des SALA80, les autorités
+américaines en ont longtemps vanté l’aspect « semi-autonomes », en lien avec la technologie des
+Playbooks, très représentative de cette approche, centrée sur le respect inconditionnel des règles
+d’engagement et le primat de l’action humaine. L’évolution récente du contexte international autorise
+désormais une communication plus offensive, basée sur la simple mention d’un « niveau approprié de
+décision humaine », certes conforme à la doctrine établie en 2012, mais qui ne veut rien dire et, surtout,
+ne ferme aucune option.
+Très ambitieuse, à travers le programme emblématique de drone ravitailleur MQ-25 Stingray, l’US NAVY
+est en pointe pour concrétiser les technologies d’autonomie collaborative développées en son sein ou
+en interarmées. Tous les porteurs et domaines de lutte sont concernés par cette évolution dont les
+premières capacités opérationnelles deviendront réalité aux horizons de l’étude mais dont les
+développements les plus aboutis ne seront sensibles qu’au-delà.
+
+- RESTE DU MONDE : ENTRE SUIVISME ET PROLIFERATION
+Quatre tendances peuvent être dégagées de l’observations des différentes initiatives entreprises hors
+des Etats-Unis :
+- Une coopération anglo-saxonne renforcée autour des Etats-Unis et déclinant l’axe AUKUS ;
+- Un suivisme des Etats-Unis, notamment de la part de grands pays (Chine, Russie, Inde) ;
+80 Systèmes d’Armes Létales Autonomes ou LAWS pour Lethal Autonomous Weapon Systems.
+31

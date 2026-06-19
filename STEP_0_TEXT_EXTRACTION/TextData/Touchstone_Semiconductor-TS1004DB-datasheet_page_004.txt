@@ -1,0 +1,49 @@
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board
+Inverting Configuration 5) Connect the signal output of the function
+generator to test point VIN-1 on the TS1002 or
+In order to evaluate the TS1002 dual or TS1004 quad
+TS1004 demo board. Connect the ground
+operational amplifiers in the inverting configuration,
+terminal to test point GND.
+the following steps are to be performed:
+6) To monitor the input, connect the signal terminal
+1) Before connecting the DC power supply to the of one of the oscilloscope probes to test point
+demo board, turn on the power supply and set
+VIN-1 on the TS1002 or TS1004 demo board.
+the DC voltage to 2.5V and then turn it off. Connect the ground terminal to test point GND.
+To monitor the output, use the second probe to
+2) Set the function generator output frequency to
+connect the signal terminal to test point VOUT-1
+500Hz and output level with a V = 1.45V and a
+OH on the TS1002 or TS1004 demo board. Connect
+V = 1.05V. This sets the input swing to
+OL the ground terminal to test point GND.
+400mV , centered at 1.25V.
+PP
+7) Turn on the power supply and check that the
+3) In order to monitor the input and output signal,
+power supply current is approximately 4.4µA for
+select two channels on the oscilloscope and set
+the TS1002 demo board and 5.5µA for the
+the vertical voltage scale and the coupling setting
+TS1004 demo board.
+on each channel to 200mV/DIV and AC,
+respectively. Set the input and output vertical
+8) Turn on the function generator.
+position to +400mV and -400mV, respectively.
+Set the horizontal time scale to 500µs/DIV.
+9) Observe the input and output signal. The output
+signal is an inverted version of the input signal
+4) Connect the positive terminal of the DC power
+with an output swing of approximately 400mV ,
+supply to test point VDD and the negative PP
+corresponding to a signal gain of negative one.
+terminal to test point GND on the TS1002 or
+Figure 8 shows what the input and output signal
+TS1004 demo board. For all other connections,
+should look like. The input signal is in yellow and
+please refer to Table 1 and 2.
+the output signal is in green.
+Figure 6. TS1002 Amp ‘B’ Inverting Configuration Figure 7. TS1004 Amp ‘D’ Inverting Configuration
+Page 4 TS1002DB/TS1004DB r1p0
+RTFDS

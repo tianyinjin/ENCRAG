@@ -1,0 +1,36 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+FIGURE7. SettingupanenvironmentinaUnitysimulator.
+modeltogeneralizeitslearningmoreeffectively[47].There- drone’sxandz-axiscoordinatesandvelocitiesareinmeters
+fore,inourdomainrandomizationstudy,weimplementthis (m) and meters per second (m/s), respectively. Since the
+by positioning tanks at various angles and locations across drone’saltitude,correspondingtothey-axis,isautonomously
+different terrains. Additionally, we use a range of structures regulatedbyPIDcontrol,theagentisnotrequiredtomanage
+to conceal them. These include concrete roofs, fortified en- it,henceitisomittedfromtheobservations.
+emypositions,andtrees.Thisenhancestherandomnessand
+complexityofthetrainingenvironment.
+2) Observation,Action,Reward
+Observationsprovidedtotheagentarecategorizedintoimage
+dataandvectordataasoutlinedinTable2.
+TABLE2. Typesofobservationalinputsforreinforcementlearningagent
+TypeofObservation Description
+ImageData Boundingboxincludedimage
+Detectionconfidencelevel
+Cameratiltangle
+Dronerotationangle
+VectorData Dronex-axiscoordinate
+Dronez-axiscoordinate FIGURE8. Imageobservationat84×84×3.
+Dronex-axisvelocity
+Dronez-axisvelocity
+*Droney-axisaltitudecontrolledbyPID
+Image data comprises 84x84x3 images with bounding
+boxes marked in purple as illustrated in Figure 8. Vector
+data is comprised of seven variables, detailed as follows.
+FIGURE9. Visionandvector-basedreinforcementlearningarchitecture.
+Thedetectionconfidencelevelspansfrom0%to100%.The
+cameratiltanglereferstotheangularpositionofthecamera Figure9demonstratestheintegrationofimageandvector
+attachedunderneaththedroneinrelationtoitstiltingaround data which is then utilized by the reinforcement learning
+the x-axis. The drone rotation angle represents the angular algorithm. The image data undergoes processing through
+rotationofthedroneitselfaroundthey-axis.Theunitsforthe a ResNet [48] visual encoder to produce a feature map.
+VOLUME11,2023 7
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

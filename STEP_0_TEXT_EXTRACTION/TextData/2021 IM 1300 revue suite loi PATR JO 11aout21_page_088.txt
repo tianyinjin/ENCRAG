@@ -1,0 +1,45 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+6 SECURITE DES SYSTEMES D’INFORMATIONS CLASSIFIES
+Comme pour les lieux abritant des éléments couverts par le secret de la défense nationale, les
+mesures de sécurité applicables aux systèmes d’information classifiés visent, conformément à
+l’article R. 2311-6-1 du code de la défense à prévenir toute menace, interne ou externe, qui
+pourrait mettre en cause la disponibilité, l’intégrité, la confidentialité et la traçabilité des
+informations et supports classifiés qu’ils contiennent, ainsi qu’à empêcher qu’une personne non
+autorisée puisse y accéder.
+La sécurité d’un système d’information classifié repose avant tout sur une analyse de risques, à
+partir de laquelle un ensemble de mesures organisationnelles, physiques, logiques et
+environnementales sont mises en place. Une logique de défense en profondeur articulée autour
+de cinq axes en découle :
+- prévenir : éviter la présence ou l’apparition de failles de sécurité ;
+- bloquer : empêcher les attaques ;
+- contenir : limiter les conséquences d’une attaque ;
+- détecter : pouvoir identifier, en vue d’y réagir, les incidents et les attaques survenant sur
+le système d’information ;
+- réparer : disposer de moyens pour remettre le système en fonctionnement et en
+conditions de sécurité à la suite d’un incident ou d’une attaque.
+La sécurité d’un système d’information classifié repose sur deux grands types de barrières de
+sécurité : les mesures de sécurité physiques et environnementales et les mesures de sécurité
+logiques inhérentes au système lui-même.
+L’ensemble de ces mesures sont prises en compte dans la démarche d’homologation préalable
+à la mise en service de tout système d’information classifié.
+L’agence nationale de la sécurité des systèmes d’information tient à jour sur son site internet la
+liste des instructions et recommandations citées dans la présente instruction.
+HOMOLOGATION DU SYSTEME D’INFORMATION CLASSIFIE
+Démarche d’homologation
+Conformément à l’article R. 2311-6-1 du code de la défense, tout système d’information
+classifié doit faire l’objet d’une décision d’homologation préalablement à son emploi.
+La démarche d’homologation vise à s’assurer que l’ensemble des risques pesant sur le système
+a été identifié et a fait l’objet d’un traitement approprié afin de réduire la vraisemblance d’une
+attaque informatique, et en particulier, au titre de la protection du secret, d’une compromission
+des informations classifiées qu’il aura à traiter.
+Cette démarche repose sur une analyse de risques globale et prend ainsi en compte tous les
+éléments, y compris environnementaux, indispensables au fonctionnement et à la sécurité du
+système. Le dossier d’homologation inclut ainsi les éléments fonctionnels, organisationnels et
+techniques mis en œuvre pour garantir la disponibilité, l’intégrité, la confidentialité et la
+traçabilité des informations classifiées que le système d’information classifié est appelé à
+traiter, ainsi que le périmètre géographique et physique dans lequel le système est déployé.
+La décision d’homologation, aboutissement de cette démarche, est une décision prise par
+l’autorité d’homologation. Elle atteste que les risques pesant sur la sécurité de ce système et sur
+les informations classifiées qu’il aura à traiter ont été identifiés et que les mesures nécessaires
+pour le protéger sont mises en œuvre. Le traitement d’informations dont le niveau de
+85

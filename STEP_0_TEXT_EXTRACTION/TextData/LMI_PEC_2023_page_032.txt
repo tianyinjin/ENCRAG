@@ -1,0 +1,36 @@
+32 Pôle d’excellence cyber
+Les Bots sociaux
+et la manipulation de l’information
+Claire Mabille
+Analyste chez Sahar
+Étudiante en Master 2
+Cyber-stratégie et terrain numérique
+Alors que les campagnes de manipulation de l’information en ligne se multiplient,
+la détection des bots sociaux, qui jouent un rôle central au sein de ces campagnes,
+devient un enjeu d’une importance croissante.
+Le terme de « bot », dérivé du mot « robot », désigne campagnes et des objectifs visés, le comportement des
+les entités partiellement ou entièrement automatisées bots sociaux varie . Aussi, des stratégies diverses, reposant
+qui fonctionnent sur des plateformes en ligne . Cette sur différents types de critères, ont été élaborées .
+définition générale recouvre une très grande diversité
+de technologies, qui ont été conçues différemment Les approches de détection des bots sociaux
+(par exemple, les bots peuvent être entièrement ou Les chercheurs en sciences sociales et en OSINT
+partiellement automatisés), fonctionnent différemment spécialisés dans la manipulation de l’information
+(certains recueillent de la donnée, d’autres interagissent s’appuient généralement sur un ou plusieurs critères
+avec les utilisateurs) et servent différents usages (privé, pour identifier les bots . Certains catégorisent comme
+commercial ou politique) . On inclut sous le terme de bot des bots les utilisateurs qui produisent plus de 50
+aussi bien le chabot que le gaming bot, les web robots publications par jour(2) . D’autres s’appuient sur la
+(crawlers et scrapers), les spam bots, les bots sociaux similarité du contenu des publications et des noms de
+(social bots), les cyborgs, les sock puppets et les trolls(1) . comptes pour affirmer qu’un groupe de comptes est
+Les bots sociaux, qui ont vocation à imiter des utilisateurs constitué de bots(3) . Le caractère inauthentique des
+authentiques afin de manipuler l’opinion publique sur les photos de profils des comptes (copiées ou générées
+plateformes et les réseaux, sont l’un des outils mobilisés par des GAN – generative adversarial networks) est
+par les acteurs politiques dans le cadre d’opérations également mobilisé . Enfin, les plateformes spécialisées
+d’influence en ligne . Le cas le plus connu est leur utilisation dans la détection de bots, comme Botometer, sont
+par la Russie en 2016, dans le cadre d’une campagne employées pour tester le « score de bot » des comptes
+d’influence sur les élections américaines . Poussés par les identifiés comme suspicieux . Ces approches souffrent
+enjeux démocratiques sous-jacents, tant les chercheurs néanmoins d’importantes limites : lorsque les analyses
+en sciences sociales qu’en science de l’informatique sont réalisées manuellement, elles gagnent en fiabilité
+se sont intéressés aux méthodes de détection des mais perdent en exhaustivité ; inversement, lorsqu’un
+bots sociaux . Twitter, la plateforme sur laquelle ce critère unique est mobilisé, elles gagnent en rapidité mais
+phénomène est le plus flagrant, concentre les efforts deviennent insensibles à la diversité des bots sociaux .
+de recherche . Cependant, en fonction des acteurs, des Du côté des chercheurs en science de l’informatique,

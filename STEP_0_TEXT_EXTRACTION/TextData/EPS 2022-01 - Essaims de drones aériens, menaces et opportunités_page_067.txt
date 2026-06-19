@@ -1,0 +1,37 @@
+AUX HEL
+o
+En conséquence, la vulnérabilité des vecteurs précédemment décrits aux agressions laser se déduit
+des connaissances et expérimentations sur l’interaction onde-matière : issus des essais en laboratoire
+de l’ISL, les durées de perçage des différents matériaux caractérisant la menace de référence, au regard
+de la densité de puissance appliquée, correspondent à l’abaque ci-dessous pour un laser de longueur
+d’onde 1 µm (1070nm)178 :
+ALTIUS-600M
+Perdix
+kW/cm²
+Soumis à un laser de longueur d’onde 2 µm, l’aluminium réagira de manière analogue, en revanche, le
+temps de perçage d’un composite sera beaucoup plus court. En l’absence de données issues d’essais
+et pour les besoins de l’étude, on retiendra arbitrairement, au même niveau de densité de puissance,
+des temps de perçage 4 fois plus courts pour les composites exposés à cette longueur d’onde.
+Pour un capteur électro-optique à matrice de silicium agressé « dans le champ », on retiendra un seuil
+de destruction en 100 ms par une puissance de 100 W/cm² ; Agressé « hors champ », il sera ébloui le
+temps de l’éclairement. Ces deux effets s’appliquent donc aux capteurs du Perdix et de l’ALTIUS-600M.
+Les éventuels179 capteurs infrarouges situés « hors bande » sont également susceptibles d’être éblouis
+par une agression laser. L’annexe III sur les points clés des armes laser apporte un éclairage sur la
+vulnérabilité des capteurs électro-optiques.
+Vu de l’unité défendue, le contact du drone assaillant avec la surface sanctionne la destruction
+perceptible de la menace qui a pu également être observée sur l’optronique de poursuite. La destruction
+ou l’altération des optiques n’est pas perçue.
+AUX HPM
+o
+La vulnérabilité des vecteurs précédemment décrits aux agressions des micro-ondes à forte puissance
+se déduit des connaissances et expérimentations sur l’interaction entre les champs électriques et
+magnétiques et les équipements embarqués :
+Au vu de l’analyse qui a pu être faite des drones retenus pour être confrontés en essaim aux armes
+HPM, une même susceptibilité a été considérée pour les deux vecteurs, à savoir :
+les écarts de performances seront faibles. Le durcissement se fait au détriment du devis de poids.
+C’est parfois l’effet inverse qui est recherché : le fuselage du Perdix a été volontairement construit
+en Kevlar, non conducteur, pour éviter tout effet type cage de Faraday et favoriser ainsi les
+communications.
+178L’abaque est en échelle logarithmique.
+179 Le coût élevé de ces capteurs rend leur généralisation peu probable.
+67

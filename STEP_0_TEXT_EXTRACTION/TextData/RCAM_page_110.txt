@@ -1,0 +1,46 @@
+110
+Règlementation de la Circulation Aérienne Militaire Partie 9
+Règles et services de la CAM 12 juin 2020
+9011-04 ATIS destiné aux aéronefs à l’arrivée
+Les messages ATIS qui ne comportent que des renseignements destinés aux aéronefs à
+l’arrivée contiennent les éléments d’information suivants, dans l’ordre indiqué :
+a) nom de l’aérodrome ;
+b) indicateur d’arrivée ;
+c) (réservé) ;
+d) indicatif ;
+e) heure de l’observation, s’il y a lieu ;
+f) types d’approche à prévoir ;
+g) piste(s) d’atterrissage principale(s); état du dispositif d’arrêt constituant un danger possible,
+le cas échéant ;
+h) conditions significatives à la surface de la piste et, s’il y a lieu, efficacité de freinage ;
+i) durée d’attente, s’il y a lieu ;
+j) niveau de transition, le cas échéant ;
+k) autres renseignements essentiels pour l’exploitation ;
+l) direction et vitesse du vent à la surface, y compris les variations significatives, et, si on
+dispose de capteurs de mesure du vent de surface reliés spécifiquement aux sections de la
+ou des pistes en service et si les exploitants ont besoin de l’information, indication de la
+piste et des sections de piste auxquelles les renseignements s’appliquent ;
+m) visibilité et, le cas échéant, RVR (cf. note 1) ;
+n) temps présent (cf. note 1) ;
+o) nuages au-dessous de la plus haute des deux altitudes ci-après: 1 500 m (5 000 Ft) ou
+altitude minimale de secteur la plus élevée; cumulonimbus; si le ciel est invisible, visibilité
+verticale lorsque ce renseignement est disponible. Ces éléments sont remplacés par
+l’acronyme CAVOK chaque fois que ces conditions prévalent;
+p) température de l’air ;
+q) température du point de rosée (élément déterminé dans le cadre d’un accord régional de
+navigation aérienne) ;
+r) calage(s) altimétrique(s) ;
+s) tout renseignement disponible sur les phénomènes météorologiques significatifs dans l’aire
+d’approche et de montée initiale, y compris le cisaillement du vent, et renseignements sur
+les phénomènes météorologiques récents ayant de l’importance pour l’exploitation ;
+t) prévision de tendance, si ce renseignement est disponible ;
+u) instructions ATIS particulières ;
+v) application de la correction liée aux « températures froides ».
+9011-05 ATIS destiné aux aéronefs au départ
+Les messages ATIS qui ne comportent que des renseignements destinés aux aéronefs au
+départ contiennent les éléments d’information suivants, dans l’ordre indiqué:
+a) nom de l’aérodrome ;
+b) indicateur de départ ;
+c) (réservé)
+d) indicatif ;
+e) heure de l’observation, s’il y a lieu ;

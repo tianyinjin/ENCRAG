@@ -1,0 +1,87 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+includingaltitudemaintenanceandenemytracking,depends DEM DigitalElevationModel.
+on a traditional feedback control system, specifically a PID EO Electro-Optics.
+controller.Lastly,toprovidehighconfidencelevelasuseful GAN GenerativeAdversarialNetwork.
+informationforthosemakingattackdecisions,theintelligent GCS GroundControlSystem.
+droneutilizesareinforcementlearningneuralnetwork.This GNSS GlobalNavigationSatelliteSystem.
+enablesautonomousmovementandcameraangleadjustment. IMU InertialMeasurementUnit.
+This paper has the following two limitations. First, there
+IR Infra-Red.
+is a lack of appropriate and fair judgment methods for the
+LiDAR LightDetectionandRanging.
+results of reinforcement learning. This indicates that addi-
+LRF LaserRangeFinder.
+tionalverificationandevaluationareneededbeforeapplying
+PCA PrincipalComponentAnalysis.
+thesereinforcementlearningoutcomesinreal-worldenviron-
+PID Proportional-Integral-Derivative.
+ments. To overcome this limitation, future research should
+PPO ProximalPolicyOptimization.
+concentrateondevelopingandvalidatingmoresophisticated
+equitableevaluationmethodstoenhancethereliabilityofthe RADAR RAdioDetectionAndRanging.
+researchfindings. SAR SyntheticApertureRadar.
+Second,thereisnoconfirmationthattheseriesofprocesses TEL TransporterErectorLauncher.
+forintelligentreconnaissancedronescanbesuccessfullyap-
+plied and function in actual environments. In particular, the
+REFERENCES
+critical aspect of communication, which may present real
+[1] E.AckermanandM.Koziol,"Thebloodishere:Zipline’smedicaldelivery
+challenges, is missing. Therefore, the sim-to-real aspect re- dronesarechangingthegameinRwanda,"IEEESpectrum,vol.56,no.5,
+mains a future task to be explored through procedures like pp.24-31,2019.
+[2] H.Shakhatrehetal.,"Unmannedaerialvehicles(UAVs):Asurveyoncivil
+those shown in Figure 13. This paper represents Step 1,
+applicationsandkeyresearchchallenges,"IEEEAccess,vol.7,pp.48572-
+where experiments are conducted within a simulator. As a 48634,2019.
+future research task for Step 2, the reinforcement learning [3] D.C.Schedl,I.Kurmi,andO.Bimber,"Anautonomousdroneforsearch
+neural network will be implemented on a mission computer andrescueinforestsusingairborneopticalsectioning,"ScienceRobotics,
+vol.6,no.55,eabg1188,2021.
+to test its interoperability with the simulator. In Step 3, real
+[4] J.K.Choi,Y.T.Lee,H.Park,B.Kim,andB.W.Kim,"Challengesto
+environmentsandsensorswillbeused,alongwithconnecting theDevelopmentofMannedandUnmannedCombatSystems,"inProc.
+aflightcontrollerforoperationandenablingthemonitoring 202213thInternationalConferenceonInformationandCommunication
+TechnologyConvergence(ICTC),Oct.2022,pp.2362-2364.
+of drone information through the Ground Control System
+[5] M. Mayer, "Trusting machine intelligence: artificial intelligence and
+(GCS). Through this process, it will be possible to refine human-autonomy teaming in military operations," Defense & Security
+theproceduresforintelligentreconnaissancedronestoensure Analysis,2023,pp.1-18.
+[6] N.R.GansandJ.G.Rogers,"Cooperativemultirobotsystemsformilitary
+theirsuitabilityforactualenvironments.
+applications,"CurrentRoboticsReports,vol.2,2021,pp.105-111.
+[7] M.L.Cummings,"Lethalautonomousweapons:Meaningfulhumancon-
+trolormeaningfulhumancertification?,"IEEETechnologyandSociety
+Magazine,vol.38,no.4,pp.20-26,2019.
+[8] D.Patiletal.,"Asurveyonautonomousmilitaryservicerobot,"inProc.
+2020InternationalConferenceonEmergingTrendsinInformationTech-
+nologyandEngineering(ic-ETITE),Feb.2020,pp.1-7.
+[9] G.E.Marchantetal.,"Internationalgovernanceofautonomousmilitary
+robots,"ColumbiaScienceandTechnologyLawReview,vol.12,pp.272,
+2011.
+[10] M.KopuletýandT.Palasiewicz,"Advancedmilitaryrobotssupporting
+engineerreconnaissanceinmilitaryoperations,"inModellingandSimula-
+tionforAutonomousSystems:4thInternationalConference,MESAS2017,
+Rome,Italy,October24-26,2017,RevisedSelectedPapers4,Springer
+InternationalPublishing,2018,pp.285-302.
+[11] T.DeSwarte,O.Boufous,andP.Escalle,"Artificialintelligence,ethics
+andhumanvalues:Thecasesofmilitarydronesandcompanionrobots,"
+ArtificialLifeandRobotics,vol.24,pp.291-296,2019.
+[12] A.KonertandT.Balcerzak,"Militaryautonomousdrones(UAVs)-from
+fantasy to reality. Legal and Ethical implications," Transportation Re-
+searchProcedia,vol.59,pp.292-299,2021.
+FIGURE13. Futureresearchdirection.
+[13] R. C. Arkin, "The case for ethical autonomy in unmanned systems,"
+JournalofMilitaryEthics,vol.9,no.4,pp.332-341,2010.
+[14] J.H.Byeonetal.,"Simulationbasedreinforcementlearningfortheintel-
+ligencebehaviorofautonomousweaponsystem,"JournaloftheKorean
+LISTOFABBREVIATIONS
+SocietyforSimulation,vol.32,no.2,pp.91-111,2023.
+[15] A.Petrovski,M.Radovanović,andA.Behlić,"ApplicationofDronesWith
+Abbreviation Term ArtificialIntelligenceforMilitaryPurposes,"inProc.10thInternational
+ScientificConferenceofDefensiveTechnologies–OTEH,2022,pp.92-100.
+CNN ConvolutionalNeuralNetwork.
+[16] L.P.Oscoetal.,"AreviewondeeplearninginUAVremotesensing,"
+InternationalJournalofAppliedEarthObservationandGeoinformation,
+vol.102,102456,2021.
+10 VOLUME11,2023
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

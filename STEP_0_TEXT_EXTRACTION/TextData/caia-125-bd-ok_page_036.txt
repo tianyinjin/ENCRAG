@@ -1,0 +1,52 @@
+INNOVATIONS, FREINS ? LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125
+SYSTÈMES AUTOMATISÉS INNOVANTS
+POUR LE COMBAT AÉROTERRESTRE
+Par Christian de Villemagne, ICA
+Frontline research se traduit de deux manières : recherche d’excellence et recherche pour la
+ligne de front, au cœur des engagements. Cette version anglaise de la signature de l’Institut
+franco-allemand de recherches de défense de Saint-Louis - l’ISL- exprime parfaitement
+sa mission. Tout comme sa version française « l’innovation au contact » témoigne de sa
+proximité particulière avec l’Armée de Terre.
+coût de la plupart des brouillages /
+leurrages de signaux GNSS.
+Un recours massif à l’Intelli-
+gence Artificielle (IA)
+La plupart de ces travaux recourent
+à l’intelligence artificielle (IA), y com-
+pris dans les domaines les plus inat-
+tendus, comme le criblage de molé-
+cules candidates pour obtenir un ef-
+fet donné. Le deep learning y a une
+belle part, pour détecter, localiser et
+identifier les menaces en déjouant
+les ruses et le leurrage de l’ennemi,
+et aussi pour optimiser l’utilisation
+des charges opérationnelles actives
+Munition cargo planante et manœuvrante
+(munitions, lasers, brouilleurs, sys-
+Un Institut de recherches à l’ap- L’ISL exploite son interdisciplinarité tème de leurres etc.) et des protec-
+proche unique naturelle pour mettre au point ses in- tions contre les menaces adverses.
+C’est donc en lien très étroit avec les novations : il porte sur des robots ter-
+opérationnels et avec le milieu aca- restres sa centrale de navigation très Le carburant essentiel de l’IA est les
+démique que l’ISL développe des bas coût développée pour des pro- données : il s’agit d’images et d’an-
+innovations de rupture en matière jectiles tirés par canon ; il adapte son notations des régions d’intérêt dans
+de systèmes automatisés pour le système de localisation acoustique l’image (on peut remplacer image
+combat aéroterrestre. Des systèmes de tir de snipers pour le suivi robuste par sons, ou autres), car la qualité
+qui escortent intelligemment les en temps réel et l’identification de du résultat issu du deep learning est
+combattants et démultiplient leur ac- drones multiples à faible signature ; il directement liée à la pertinence de
+tion. Des systèmes qui réduisent le utilise ses compétences en interac- l’annotation. Les données issues des
+nombre d’opérateurs et minimisent tion laser-matière pour aider l’indus- théâtres sont souvent insuffisantes
+leur charge de travail afin qu’ils trie à mieux dimensionner ses futures et fortement classifiées, ce qui rend
+puissent se recentrer sur leurs mis- armes laser de lutte anti-drone ; ses leur exploitation extrêmement difficile
+sions prioritaires. Des systèmes bas traitements d’image innovants per- pour les innovateurs. L’ISL produit
+coût, pour que le facteur de supé- mettant une navigation autonome des bases de données originales de
+riorité opérationnelle « masse » reste GNSS-free sont partagés entre ses véhicules militaires et de drones aé-
+économiquement accessible. L’axe robots terrestres et des drones aé- riens. Il a développé une méthodolo-
+offensif se double d’un axe défensif, riens, en gérant les différences mani- gie d’annotation, ouverte à ses par-
+pour contrer la menace émergente festes de perspective ; il marie cap- tenaires, permettant de concevoir
+de l’utilisation illicite ou malveillante teurs acoustiques et optiques très des jeux de données d’entrainement
+de drones (application de sécurité innovants, qu’il s’agisse d’imagerie «missions» dédiés. Ces données en-
+intérieure) ou de l’utilisation par l’ad- active ou de computational imaging ; traînent des algorithmes d’IA, que
+versaire de drones à charge opéra- ses antennes en méta-matériaux l’ISL a simplifiés pour les déployer
+tionnelle active (application militaire). permettent de s’affranchir à bas directement sur des plateformes
+34

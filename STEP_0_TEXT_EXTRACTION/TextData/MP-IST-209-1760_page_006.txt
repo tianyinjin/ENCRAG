@@ -1,0 +1,59 @@
+Integration of a Commercial
+Unmanned Vehicle into the Army Communications System
+The use of a military radio in the UGV is only for commu- 2) Script 1 — Management of the link between Raspberry
+nication with CNR and depends on the weight and volume Pi,Arduino,andGCS: Script1,showninFigure8,represents
+of the radio, taking into account the payload capacity of the a link between the UGV and the ground station used to send
+UGV. The G-Mouse GPS VK-162 with a USB connection theUGVpositiontotheGCS.Italsoisusedtosendcommand
+to the Raspberry Pi was adopted. The hardware used in the controls to the UGV. This script runs on the Raspberry Pi.
+LAFVIN UGV for Wi-Fi communication is represented by In the case of communication using military radios, it is
+Figure 7. necessary to initiate two connections to MAVProxy, one for
+the radios and the other for Wi-Fi, since both are used.
+TheRaspberryPi↔Arduinoconnectionisusedtosendthe
+controlcommandstotheArduino.Allcommandsbetweenthe
+GCSandtheRaspberryPiaresentviaWi-Fiintheconfigura-
+tionusingWi-Fi.Inthecaseoftheconfigurationusingtactical
+radios,theheartbeatsaresentbybothcommunicationchannels
+sothattheavailabilityofbothcanbeseen.TheUGVposition,
+throughthesend position(latitude, longitude,
+altitude) function, is only sent using tactical radios.
+This is the most critical communication component since it
+displays the UGV position. By using military radios, it is
+possible to exploit the encryption they offer and thus make
+communication more secure.
+Fig.7:HardwareinLAFVINUGVforWi-Ficommunication.
+The GCS consists of the following components:
+• Computer;
+• Gembird Gamepad;
+• Radio.
+As with the UGV, military radios are used in the GCS only
+for communication with CNR. It is important to note that
+in this study, the camera used for transmission is from the
+samemanufacturerastheonboardunit.Thismakesiteasierto
+integratethecamerawiththeonboardunit;itisonlynecessary
+to configure the camera in the settings without the need for
+specific software.
+D. Software Modules
+Inthissection,threesoftwarescriptsweredeveloped,which
+will be described in the corresponding subsections. The soft-
+ware developed was also integrated with the GCS software.
+The delay block in sending heartbeat logic allows the
+control of the frequency of sending HEARTBEAT messages.
+The delay block, in send position logic, present in both
+scripts allows adjusting the frequency of position messages,
+GPS RAW INT in the case of Figure 8, and XML messages
+totheBMSwiththeidentificationoftheUGVanditsposition,
+in the case of Figure 9. This frequency adjustment makes
+it possible to communicate in scenarios with less bandwidth
+available.
+1) Script 0 — Arduino: The LAFVIN UGV manufac-
+turer code, represented by Script 0 in the general archi- Fig.8:Script1—ManagementofthelinkbetweenRaspberryPi,
+tecture, had to be adapted as communication is now via a Arduino,andGCS.
+serial cable, and the manufacturer did not plan this mode
+of communication; it runs on the Arduino. In Arduino, 3) GPS: To get the UGV position, the “gpsd”, “gpsd-
+the function processRaspberryPiCommand(String clients”, and “python-gps” libraries were used to obtain the
+command) allows commands to be received via a serial GPS data using the get_gps_data() function. These li-
+connection to the Raspberry Pi. The manufacturer code did braries had to be installed on Raspberry Pi. The initial step
+not include this communication mode. To avoid problems, all was to start the session, and then the latitude, longitude and
+the other communication modes — Infrared and Bluetooth — altitude variables were updated in real-time.
+were deactivated. Once it had the variables to update, it created
+STO-MP-IST-209 1760 - 6

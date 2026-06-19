@@ -1,0 +1,30 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+C.10.2 _Sécurité de l’internet des objets S’agissant de la collecte et sans prétendre à l’exhaustivité, ces vulnérabili-
+tés trouvent leur origine dans la sécurité du réseau, à travers la classifica-
+le concept d’internet des objets est apparu au MIt en 1999 grâce au MIt tion usuelle des attaques : déni de service distribué (ddoS), prise de com-
+Auto-Id. ce laboratoire était dédié à la conception d’objets connectés en ré- mande distante (Remote to local ou R2l), de paramétrage bas niveau des
+seau via la technologie RFId (Radio Frequency Identification). le concept terminaux (User-to-Root ou U2R), sonde (Probe). Ensuite les terminaux
+s’est rapidement démocratisé avec la mondialisation de l’économie aboutis- eux-mêmes recèlent de nombreuses failles logicielles et matérielles. ce
+sant notamment à connecter des objets ou machines (réfrigérateur, lunettes, sont les faibles ressources embarquées qui limitent leur protection avec
+lampes, caméra,…) « en tout IP » à des serveurs capables de les superviser. Au- notamment l’absence de corrections firmware faute de connectivité, des
+jourd’hui, l’internet des objets (Iot) concerne la totalité des aspects de notre capacités cryptologiques réduites, une personnalisation (identité, mot de
+vie quotidienne et des secteurs de l’économie, comme l’illustre la cartographie passe) souvent négligée, la possibilité d’exfiltrer de l’information via des
+ci-dessous. canaux de fuite (signaux compromettant par rayonnement ou fuite filaire,
+screaminig channels) ou directement lorsqu’ils sont perdus. ces failles
+sont visibles aux interfaces des blocs du modèle de référence ISO/IEc
+30141 ci-dessous :
+“ The author thanks the International Electrotechnical Commission (IEC) for permission to reproduce Information from its International Standards. All such extracts are
+copyright of IEC, Geneva, Switzerland. All rights reserved. Further information on the IEC is available from www.iec.ch. IEC has no responsibility for the placement and
+context in which the extracts and contents are reproduced by the author, nor is IEC in any way responsible for the other content or accuracy therein. ”
+les principes de sécurisation de l’Iot font désormais l’objet d’une analyse
+systématique par l’intermédiaire d’une terminologie et de recommanda-
+tions issues des critères communs (Iot Secure Element), du nISt [nISt] ou
+l’EnISA (EnISA]. ceux-ci permettent en particulier de parer les attaques
+complexes de type Advanced Persistent threat (APt) comme le célèbre
+botnet Mirai qui sévit à de multiples endroits du système : sondage des
+Nous nous intéresserons ici spécifiquement à l’Iot grand public qui recouvre adresses IP et ports TCP accessibles (Probe), utilisation des identifiants/
+les principales vulnérabilités. Elles seront examinées selon deux axes complé- mots de passe faibles (R2l), infection logicielle (U2R) pour une prise de
+mentaires : le réseau de collecte de donnée d’une part, le stockage et l’usage commande par génération de noms de domaine (dGA) se concrétisant
+de celles-ci d’autre part. par des dénis de services (ddoS) à large échelle.
+ISO/IEC 30141 ed.1.0 “Copyright © 2018 IEC Geneva, Switzerland. www.iec.ch”
+58 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 59

@@ -1,0 +1,47 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+3.2.2.1 Physics Engine & Required Modifications
+The Simulation Engine serves as a sophisticated platform for creating a digital representation of the real
+world that is able to generate diverse sensor data, including outputs from cameras, LIDAR, and infrared
+sensors, as well as realistic flight behavior of drone targets. Furthermore, the engine can dynamically adjust
+environmental conditions, simulating variations in light, weather, terrain, and the interactions between
+objects and the simulated environment bounded by a physics engine.
+Its versatility extends to configuring and executing a broad spectrum of missions. These range from logistical
+operations and Intelligence, Surveillance, and Reconnaissance (ISR) tasks to complex combat scenarios. A
+key feature is its ability to facilitate the isolated evaluation of specific subsystems. This allows for focused
+testing and refinement of components such as object detection algorithms or localization functionalities
+without the complexities of a full system integration.
+At its core, the Simulation Engine is built upon a detailed 3D representation of a map. Within this virtual
+world, objects possess realistic shapes, allowing for physical interactions such as collisions, for example,
+between a drone and an environmental object (e.g. a tree). These objects are also endowed with varying
+surface properties and colors, as well as their own interactions with other factors like light and wind,
+contributing to the visual fidelity of the simulation. Beyond static representation, the engine incorporates
+highly realistic physical behavior, including gravity and inertia, as well as different light and weather
+conditions, paying attention to intricate details like correct shadow rendering, which significantly enhances
+the visual realism. A high level of accuracy is maintained in representing actions and behaviors over time,
+ensuring that dynamic processes unfold realistically within the simulation.
+To enable the simulation of Counter-Unmanned Aerial Vehicle (CUAV) setups, the virtual physical world
+must be equipped with simulated sensor streams, as well as integration with real-world drone flight and
+systems control system software like PX4 or ArduPilot to replicate realistic drone system behaviors. A
+primary requirement is the generation of realistic camera data. Like real-world cameras, various settings can
+be precisely modified, beginning with fundamental parameters such as resolution, field of view, and different
+angles for pitch, yaw, and roll, as well as customizable camera positions. The level of detail extends to
+camera-specific characteristics, allowing for the simulation of image noise and intricate focus settings.
+Beyond camera sensor streams, the simulation offers a comprehensive array of other sensor telemetry that
+can be generated, extracted and analyzed, such as Inertial Measurement Unit (IMU) data, barometer
+readings, and GPS data. Furthermore, the engine can support the simulation of LIDAR and audio data,
+providing a holistic sensory input for comprehensive system testing and development in the virtual
+environment.
+3.2.2.2 Variable Parameterization
+An integral part of the simulation design is the inclusion of a human-in-the-loop testing capability, enabling
+human operators to interact with and influence the highly configurable simulation environment. The
+simulation is engineered to be extensively parameterized across multiple domains, including diverse
+operational environments (e.g., an Australian desert versus a European city landscape) and variable
+atmospheric conditions such as light levels, wind, rain, and fog. Objects within the simulation can be
+systematically altered in terms of their position, pose, size, texture, and color, with the capability to
+incorporate new or modified objects via CAD files. The CUAV sensor suite itself is also subject to
+parameterization, allowing for variations in camera settings, resolution, position, pose, and field of view
+(FOV) as described above.
+3.2.2.3 Data Collection & Processing
+The Data Processing component systematically captures all simulation data into rosbag files, extracting and
+1A.03 - 22 STO-MP-IST-210

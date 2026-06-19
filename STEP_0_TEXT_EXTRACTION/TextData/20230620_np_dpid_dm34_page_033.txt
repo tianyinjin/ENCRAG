@@ -1,0 +1,36 @@
+ANNEXE VI
+RECOMMANDATIONS RELATIVES A LA GESTION DES INCIDENTS DE SÉCURITÉ
+1- TYPOLOGIE DES INCIDENTS DE SÉCURITÉ ET LISTE DES ÉVÉNEMENTS DEVANT
+OBLIGATOIREMENT ÊTRE CONSIDÉRES COMME DES INCIDENTS DE SÉCURITÉ
+Les incidents de sécurité sont de trois types :
+- les incidents cryptographiques ;
+- les incidents de personnel ;
+- les incidents physiques ou de conservation.
+a. Incidents cryptographiques
+Les incidents de nature cryptographique comprennent les fautes de chiffrement, les mises en
+modifications ou maintenances non- système
+cryptographique.
+Évènements devant obligatoirement être considérés comme des incidents crytographiques :
+-
+hiffrement ;
+- ou
+-
+- extension non-
+- transmission de données en clair puis chiffrée (ou inversement) sur un canal non-sécurisé et
+;
+- ACSSI.
+b. Incidents de personnel
+ACSSI
+Évènements devant obligatoirement être considérés comme des incidents de personnel :
+- non-
+matériel ;
+- perte ou abandon
+- actes de malveillance (dégradation, sabotage, vol) sur un ACSSI ;
+- falsification délibérée de documents comptables ACSSI ;
+- mauvaise tenue du suivi comptable et des documents de gestion pouvant conduire à une
+perte de traçabilité ;
+- négligence lors de la manipulation ou des contrôles ;
+- absence de formation ;
+- effacement accidentel
+- non-traitement, mauvaise gestion des évènements et journaux de sécurité.
+33/34

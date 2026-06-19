@@ -1,0 +1,35 @@
+34 Pôle d’excellence cyber
+Utilisation de l’IA pour produire et contrer des
+attaques informationnelles
+Adrien BECUE
+AI & Cybersecurity Expert
+Thales
+L’IA prend une place de plus en plus importante pour la conduite d’attaques informationnelles et de tentatives
+de déstabilisation politique. Dans le même temps, les outils d’intelligence artificielle prennent une place de plus
+en plus grande dans la lutte contre la désinformation. Faisons le point sur les outils et les enjeux.
+On observe depuis quelques années une utilisation Utilisation de l’IA pour produire des attaques
+croissante de l’IA pour la conduite d’attaques informationnelles
+informationnelles et de tentatives de déstabilisation Les attaques informationnelles ont recours à l’utilisation
+politique . Quelques cas réels sont la production de de l’IA, pour manipuler, tromper ou influencer
+fausses vidéos lors des élections malaisiennes de l’opinion publique, semer la discorde ou atteindre
+2018, l’usage de réseaux de robots sur Twitter et des objectifs politiques ou stratégiques spécifiques .
+Facebook lors des élections présidentielles américaines Voici quelques exemples de la manière dont l’IA peut
+de 2016, la production de fausses vidéos par la être utilisée dans des attaques informationnelles :
+Russie en prétexte à l’invasion de l’Ukraine en 2022 . • Analyse des sentiments : les algorithmes d’exploration
+de données peuvent analyser de grands volumes de
+Simultanément, on observe une contribution croissante publications sur les réseaux sociaux, d’articles de
+de l’IA à la lutte contre la désinformation . Quelques presse ou de commentaires en ligne pour identifier les
+exemples connus sont l’algorithme de modération de tendances d’opinion et exploiter les divisions sociales(1)  .
+contenu de Facebook, l’outil de vérification des faits de • Manipulation des résultats de recherche : les
+Google, la production de démentis par GPT-3 d’OpenAI, techniques sémantiques utilisées par les moteurs
+la plateforme de vérification des faits de Factmata, l’API de recherche et les plateformes de médias
+Perspective d’alerte de Jigsaw, les outils de détection sociaux peuvent être manipulés pour prioriser
+d’EUvsDisinfo . Cet article présente un panorama des certains contenus, influençant la perception
+cas d’usage de l’IA en matière de lutte informationnelle . du public sur des questions spécifiques(2) .
+• Communication ciblée : les techniques de traitement
+de langage peuvent être utilisées par les plateformes
+Il permet de dégager les grandes tendances coté attaque de médias sociaux pour cibler un groupe d’individus
+et défense tout en évaluant les grandes familles de avec un contenu personnalisé tel que présenté
+techniques et leur potentiel de développement à moyen par la Red Team Défense dans son scénario «
+terme dans le contexte de la lutte informationnelle . chronique d’une mort culturelle annoncée »(3) .
+• Vidéo et audio deepfakes : les techniques d’IA

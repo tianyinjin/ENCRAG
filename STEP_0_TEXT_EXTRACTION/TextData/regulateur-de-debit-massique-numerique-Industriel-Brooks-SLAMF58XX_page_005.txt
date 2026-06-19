@@ -1,0 +1,65 @@
+CCaarraaccttéérriissttiiqquueess ddeess pprroodduuiittss
+Protocole de communication RS485 Profibus® DeviceNet™ EtherNet / IP™ et PROFINET
+Raccordement électrique Raccordements du bornier par tube ½" NPT (F) 1 × connecteur Nano-Change M8 mâle
+Option : manchon de câble PG11 ou tube M20 × 1,5 5 broches /
+2 × connecteur D M12 femelle
+4 broches
+E / S analogiques 0 – 5 V, 1 – 5 V, 0 – 10 V, S. o. S. o.
+0 – 20 mA, 4 – 20 mA
+Tension max. / purge De +13,5 V C.C. à +27 V C.C. De +11 V C.C. à +25 V C.C. De +13,5 V C.C. à +27 V C.C.
+Puissance requise en watts, max. Orifice vanne > 0,032" : 8 W Orifice vanne > 0,032" : 10 W Orifice vanne > 0,032" : 11 W
+Orifice vanne ≤ 0,032" : 5 W Orifice vanne ≤ 0,032" : 7 W Orifice vanne ≤ 0,032" : 7 W
+Sans vanne : 2 W Sans vanne : 4 W Sans vanne : 3 W
+Interface navigateur intégrée S. o. S. o. Adresse réseau par défaut :
+192.168.1.100.
+Configuration réseau EtherNet / IP
+par défaut :DHCP
+Nom par défaut PROFINET :
+« brooks-sla »
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (TENSION)
+Plage nominale 0 – 5 V C.C., 1 – 5 V C.C. ou 0 – 10 V C.C.
+Plage intégrale (−0,5) – 11 V C.C.
+Max. absolu 18 V (sans dommage)
+Impédance d’entrée > 990 kΩ
+Courant absorbé max. requis 0,002 mA
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (COURANT)
+Plage nominale 4 – 20 mA ou 0 – 20 mA
+Plage intégrale 0 – 22 mA
+Max. absolu 24 mA (sans dommage)
+Impédance d’entrée 100 Ω
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (COURANT)
+Plage nominale 4 – 20 mA ou 0 – 20 mA
+Plage intégrale 0 – 22 mA
+Max. absolu 24 mA (sans dommage)
+Impédance d’entrée 100 Ω
+CARACTÉRISTIQUES ÉLECTRIQUES D’ENTRÉE DE FLUIDE (COURANT)
+Plage nominale 4 – 20 mA ou 0 – 20 mA
+Plage intégrale 0 – 22 mA
+Max. absolu 24 mA (sans dommage)
+Impédance d’entrée 100 Ω
+E / S ANALOGIQUE SORTIE D’ALARME*
+* La sortie d’alarme est un
+Type Collecteur ouvert
+collecteur ouvert ou un « type de
+Courant max. fermé (marche) 25 mA
+contact » FERMÉ (marche) lors
+Fuite max. ouvert (arrêt) 1 μA de l’activation d’une alarme. La
+sortie d’alarme peut être réglée
+Tension max. ouvert (arrêt) 30 V C.C.
+pour indiquer un état d’alarme
+E / S ANALOGIQUE SIGNAL DE SURRÉGULATION DE VANNE**
+quelconque, parmi plusieurs
+Flottant / hors connexion L’instrument commande la vanne pour déterminer le point de possibilités.
+consigne ** Le signal de surrégulation de
+vanne (VOR, pour Valve Override
+VOR < 0,3 V C.C. Vanne état fermé
+Signal) est mis en œuvre en tant
+1 V C.C. < VOR < 4 V C.C. Vanne état normal
+qu’entrée analogique mesurant la
+VOR > 4,8 V C.C. Vanne état ouvert tension à l’entrée et commandant
+la vanne en fonction des valeurs
+Impédance d’entrée 800 kΩ
+de mesure relevées, comme
+Max. absolu entrée (−25 V C.C.) < VOR < 25 V C.C. (sans dommage)
+détaillé ici.
+5

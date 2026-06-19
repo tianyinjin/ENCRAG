@@ -1,0 +1,38 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+les différentes technologies et services décrits au paragraphe précédent n’ont pas
+d’intérêt en eux-mêmes, mais comme briques intégrées dans des solutions.
+Il est donc nécessaire de définir une classification ou segmentation de niveau
+supérieur par grands domaines d’activité cyber, ou par grands secteurs du marché
+de la cyber.
+dans les domaines des télécommunications ou des réseaux informatiques ou de
+communications, les classifications usuellement adoptées sont des classifications par
+couches (layers), comme pour le modèle OSI (Open System Interconnection).
+À titre d’exemple, dans le domaine des tIc, il est fréquemment utilisé la segmentation
+suivante :
+• Management
+• Applications
+• Communications
+• Réseaux
+•Terminaux
+cette segmentation n’est pas applicable dans l’état car elle est incomplète pour le
+domaine cyber. Il est donc nécessaire d’en définir une plus précise couvrant l’en-
+semble des domaines concernés tout en restant dans une approche par couche
+(couches basses, couches hautes) comme pour le modèle OSI. la liste ci-dessous
+présente les grands domaines du monde cyber. cette liste pourra évoluer en fonction
+de l’évolution de ces marchés.
+Services Services
+Intelligence Artificielle Artificial Intelligence
+Authentification et identité numérique Authentication & Identity management
+Analyseurs, gestion et supervision Analysers, management & supervision
+cloud cloud
+OS et applications OS & applications
+communications et transactions communications & transactions
+Réseaux industriels Industrial networks
+Réseaux networks
+terminaux et objets connectés End point & Iot
+composants et hardware chipset & hardware
+ces domaines peuvent ensuite être appliqués à des secteurs d’activité comme indiqué
+au chapitre d : cas d’usage.
+Figure 6 :
+Segmentation marché
+50 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 51

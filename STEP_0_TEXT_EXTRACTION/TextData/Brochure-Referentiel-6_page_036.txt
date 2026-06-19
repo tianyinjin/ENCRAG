@@ -1,0 +1,73 @@
+PôlE d’ExcEllEncE cybER
+Approches adoptées : ce secteur est également la cible des hacktivistes qui prétendent dénoncer
+le système financier mondial via les retombées médiatiques qu’ils savent
+dans le cadre de la stratégie de transformation du système de santé « Ma santé
+obtenir si une fuite de données ou un déni de service venait à impacter un
+2022 » et de son volet numérique, le programme de financement HOP’EN im-
+établissement. l’opération #opIcarus lancée par le groupe Anonymous a at-
+pose un ensemble de prérequis aux établissements de santé liés à la sécurité
+teint son maximum d’intensité mi-2016 avec des attaques en déni de service
+et au partage de données. la sécurité organisationnelle, l’utilisation de moyens
+contre de nombreux établissements à travers le monde. ces campagnes
+de partage sécurisés et l’obligation de réaliser un audit sont les éléments prio-
+n’ont pas cessé depuis, avec par exemple un ddoS massif des services en
+ritaires adressés par les établissements de santé dans les années qui viennent.
+ligne de Rabobank en mai 2018.
+Ce secteur est enfin la cible des groupes servant des intérêts étatiques en-
+D.1.5 _Systèmes de communication
+fin, car les banques commerciales et les banques centrales détiennent évi-
+Sans systèmes de communication l’activité de la plupart des entreprises s’arrête demment des informations confidentielles sur les flux financiers.
+ou est au moins fortement ralentie. Il existe donc des besoins forts sur la disponi-
+le secteur de la banque et de l’assurance se caractérise par :
+bilité globale des grandes infrastructures de communication.
+Il est aussi important de garantir la protection des données échangées, que • Un niveau élevé de maturité en matière Cyber. Le cœur d’activité de ces
+ce soit pour la protection de la vie privée, le secret des affaires ou la propriété acteurs repose quasi-exclusivement sur les personnes et le bon fonction-
+intellectuelle. nement du système d’information. La confidentialité, l’intégrité et la dispo-
+nibilité du SI ont donc toujours été l’objet d’une attention maximale.
+D.1.6 _Domotique / gestion technique de bâtiments • Une réglementation sectorielle importante. Si elle contribue à maintenir
+un haut niveau de sécurité, le maintien en conformité avec les exigences
+Après un démarrage poussif, la domotique est pleine croissance grâce à la généra-
+réglementaires, qui peuvent varier d’un pays à l’autre, est une préoccupa-
+lisation de l’Internet, qui permet des accès à distance simplifiés avec des débits
+tion majeure. cette conformité est l’objet de contrôles par les autorités de
+maintenant compatibles la vidéo mais aussi d’autres services ; la miniaturisation
+supervision.
+et à la baisse de coût des capteurs et l’utilisation des protocoles sans fils de
+type WiFi facilitent leurs connexions. du point de vue des particuliers ou des • Une supervision bien en place. En France, ce sont l’ACPR21 pour les éta-
+entreprises utilisateurs de solutions domotiques, il est important que ces blissements de crédits et assurances d’un part, et l‘AMF22 pour les acteurs
+systèmes, qui assurent notamment la protection contre le vol, ne puissent pas des marchés financiers d’autre part qui supervisent les acteurs par des
+être neutralisés ou détournés de l’usage pour lequel ils ont été conçus (capture contrôles. le volet cybersécurité est partie intégrante de ces contrôles
+de flux vidéo de caméras de surveillance, par exemple). réguliers.
+Habitués à la gouvernance par les risques, les acteurs de ce secteur s’ap-
+D.1.7 _Banques / assurances puient sur des approches reposant sur plusieurs piliers : l’identification des
+actifs et leurs cotations, la prévention, la détection et la réponse aux inci-
+le niveau de la menace cyber a toujours été élevé dans le secteur banque &
+dents. En plus du système d’information, la sensibilisation de tous les inter-
+Assurance (b&A), cible privilégiée des cyber-attaques provenant de 3 catégo-
+venants est un axe fort car l’ingénierie sociale demeure une composante
+ries d’acteurs.
+importante des cyber-attaques. Organisé en 3 lignes de défense, l’ensemble
+Ce secteur est la cible « naturelle » des cybercriminels qui visent un gain finan- est généralement intégré au dispositif global de maîtrise des risques opé-
+cier immédiat, en passant des ordres dans les systèmes de paiement. On note rationnels.
+ici que cette fraude peut se réaliser soit en ciblant les postes de travail utilisés
+de manière prospective, les entités du secteur b&A doivent se tenir à l’état
+par les particuliers et les entreprises clientes (type 1), soit en ciblant le système
+de l’art, tant en termes de dispositifs de prévention que de détection, du
+de paiement lui-même (type 2). les cas du premier type sont bien entendu les
+fait de la réactivité et des moyens employés par les cyber-attaquants. Pour
+plus fréquents car il est bien sûr plus aisé de prendre le contrôle des credentials
+suivre l’évolution de la menace, ces entités se sont dotés depuis plusieurs
+utilisés pour accéder à un compte en ligne, ou bien de conduire une attaque de
+années d’équipes de renseignement sur les menaces (« cyber threat Intel-
+type arnaque au président que d’attaquer frontalement le SI généralement sé-
+ligence »).
+curisé à l’état de l’art d’un établissement. Pour autant, les cas de type 2 existent
+car les montants visés peuvent être très supérieurs. En février 2016, ce sont ainsi
+81 millions USd qui ont été détournés dans le cas retentissant du cyber-bra-
+quage de la banque du bangladesh20, que des entreprises de sécurité attribuent
+au groupe Lazarus. On peut noter que cette attaque portait sur 950 millions
+USd mais qu’une partie des ordres ont été bloqués grâce à la vigilance des per-
+sonnes chargées de les exécuter.
+20 https://www.wired.com/2016/05/insane-81m-bangladesh-bank-heist-heres-know/ 21 ACPR : Autorité de Contrôle Prudentiel et de Résolution
+22 AMF : Autorité des Marchés Financiers
+70 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 71

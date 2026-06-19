@@ -1,0 +1,53 @@
+43
+poids spécifique a été utilisée sur les entrées du modèle, certification et préservation du secret du calcul (soit entre
+sans demander la publication desdits poids (qui n’est intégrité et confidentialité du calcul). Ce dépassement
+pas exigible aux systèmes fermés dès lors que prévalent est rendu possible par l’utilisation des ZKP, qui sont
+des questions commerciales, éthiques ou régaliennes). déjà expérimentées dans les phases d’inférence et ne
+demandent qu’à l’être dans les phases d’entraînement.
+Au début des années 2020, cette solution a d’abord Les ZKP ne sont en revanche d’aucune utilité pour
+été envisagée sur des petits modèles tels que les garantir le secret des entrées des modèles. Cette autre
+modèles convolutifs adaptés aux collections MNIST propriété est réglée par le chiffre homomorphe, qu’on
+(70 000 images en noir et blanc de 28x28 pixels) peut voir à ce titre comme le compagnon de jeu idéal
+ou CIFAR-10 (60 000 images en couleurs de 32x32 des ZKP, pour protéger la vie privée des utilisateurs.
+pixels). Les derniers travaux permettent aujourd’hui
+le passage à l’échelle sur des collections de données
+réalistes telles qu’ImageNet (1.5 million d’images) ou le
+langage naturel. Les cas d’utilisation des SIA vérifiables
+sont nombreux. Citons par exemple les « audits sans
+confiance », l’authentification biométrique sans
+confiance ou encore les notes de crédit sans confiance.
+En complément des ZKP, il peut être naturel d’exiger
+la confidentialité des données transmises par le client
+au serveur, afin de protéger la vie privée de l’utilisateur.
+Cette exigence peut être satisfaite par une autre
+technique cryptographique bien connue : le chiffrement
+homomorphe[3].
+Vers des preuves d’apprentissage
+La seconde question pousse l’exigence de transparence
+vers ce que l’on appelle des « preuves d’apprentissage »
+(PoL, Proof of Learning). On vise maintenant à garantir
+le de l’apprentissage, car un serveur cloud pourrait
+être tenté de réduire le coût de calcul dans la phase
+d’entraînement. L’idée des PoL est de prouver que
+les serveurs cloud ont effectué les tâches de calcul
+assignées pendant la phase d’apprentissage. Ce qui
+est actuellement proposé est d’observer les données
+du calcul (par exemple les informations accumulées
+par l’algorithme d’apprentissage lors de la descente de
+gradient stochastique[4]). Mais il n’existe pas encore à
+ce jour de procédure garantissant la confidentialité de
+l’apprentissage, i.e. sans divulgation de connaissance.
+À l’instar des preuves d’inférence, il est également
+naturel de demander la confidentialité des données
+d’entraînement. Plusieurs techniques cryptographiques
+peuvent ici jouer leur rôle, dont les circuits brouillés
+(Garbled Circuits), la confidentialité différentielle ou le
+chiffrement homomorphe. Cette dernière technique
+semble à nouveau la plus efficace car elle garantit
+que le serveur cloud n’apprend rien sur les données
+(puisqu’elles lui sont transmises une fois chiffrées).
+Conclusion
+La vérifiabilité des IA est la dernière-née des propriétés
+que l’on attend d’une IA de confiance. Elle consiste en
+l’hybridation entre l’IA et les techniques cryptographiques,
+afin de surmonter l’apparente contradiction entre

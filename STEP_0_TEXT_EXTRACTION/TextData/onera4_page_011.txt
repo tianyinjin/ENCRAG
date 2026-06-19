@@ -1,0 +1,31 @@
+Charge utile expérimentale du Ressac
+© ONERA
+Une intelligence embarquée donne au drone ses différents degrés d'autonomie, en
+matière de pilotage et pour la réalisation de sa mission. Cette «intelligence» est
+fournie par des calculateurs dédiés, auxquels sont asservis le système de conduite
+de vol, d'une part, et la charge utile d'autre part, ainsi que par les bases de données
+spécifiques auxquelles sont comparées les informations acquises par le drone (par
+exemple, pour la reconnaissance et l'identification des éléments observés : terrains,
+sources de chaleur/départ de feu, objectifs militaires, etc.). Les logiciels mis en
+œuvre revêtent une importance capitale, notamment dans la rapidité et la stabilité de
+leurs algorithmes.
+Certains drones militaires peuvent également être armés (bombes, roquettes ou
+missiles) afin de remplir des missions d'attaque au sol, ce qui nécessite un système
+de gestion spécifique à l'armement embarqué.
+C'est la mission du drone et sa charge utile
+qui vont déterminer sa configuration.
+Son exploitation nécessite une capacité élevée
+de transmission de données avec le sol.
+Des caractéristiques variées
+De quelques centimètres à une quarantaine de mètres, de quelques dizaines de
+grammes à une quinzaine de tonnes, les drones sont de taille et de masse
+essentiellement variables : c'est, d'une part, les performances requises par la mission
+et, d'autre part, la nature et l'importance de la charge utile, qui sont déterminants.
+On trouve ainsi des drones permettant des altitudes de vol qui peuvent évoluer de 0
+à 20 000 mètres, une vitesse largement subsonique, de 150 km/h à Mach 0,8, et un
+rayon d'action qui peut dépasser les 10 000 km, avec une capacité trans-océanique.
+Les coûts
+Les drones ont logiquement des coûts très différents, sachant que les plates-formes
+seules (c'est-à-dire la cellule et la motorisation) ne représentent généralement que
+15 à 25 % du coût du système complet, la charge utile, les systèmes embarqués, et
+les stations-sol étant la partie la plus onéreuse.

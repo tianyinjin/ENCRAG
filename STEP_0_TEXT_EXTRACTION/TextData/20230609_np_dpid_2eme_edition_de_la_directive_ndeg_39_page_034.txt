@@ -1,0 +1,44 @@
+N. Intitulé Besoins fonctionnels Remarques
+(avec déport sans liaison
+sans fil).
+Système utilisant une Des services utilisent des Le système industriel faisant usage
+technologie sans fil (hors moyens de liaison sans fil. de technologie sans fil, les
+technologie sans contact) technologies sans contact ne
+C3 doivent pas être prises en compte.
+OU
+La maintenance est
+réalisée sur site avec des
+équipements relevant du
+ministère pouvant utiliser
+des liaisons sans fil.
+Système connecté à des La maintenance sur site
+postes non maîtrisés est réalisée à partir
+C4
+d’équipements non
+maîtrisés.
+Système distribué* sous Le système s’étend sur Le système distribué* utilise une
+maîtrise du ministère plusieurs sites relevant infrastructure privée. Celle-ci
+tous du ministère. pourra être complètement privée ou
+être louée auprès d’un opérateur de
+télécommunications.
+ET
+C5
+La maintenance est
+réalisée sur site ou par un
+contrôle à distance à partir
+d’un site du ministère.
+Système distribué* Le système s’étend sur Le système utilise une
+plusieurs sites qui ne infrastructure publique, comme
+relèvent pas tous du celle d’un opérateur de
+ministère. télécommunications.
+OU
+C6
+La maintenance peut être
+réalisée par un contrôle à
+distance à partir d’un site
+ne relevant pas du
+ministère.
+2.3.2. Attaquant
+N. Définition Moyens Détermination
+1 Attaque non ciblée (infection virale non ciblée, …) Aucun Aucune
+DIR-39 SNSI – 2eme édition Page 34 | 79

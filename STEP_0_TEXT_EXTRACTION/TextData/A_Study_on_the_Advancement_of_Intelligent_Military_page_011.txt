@@ -1,0 +1,102 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+[17] A.Bouguettayaetal.,"VehicledetectionfromUAVimagerywithdeep [42] A.T.BayisaandG.Li-Hui,"ControllingquadcopteraltitudeusingPID-
+learning:Areview,"IEEETransactionsonNeuralNetworksandLearning controlsystem,"InternationalJournalofEngineeringResearch&Tech-
+Systems,vol.33,no.11,pp.6047-6067,2021. nology(IJERT),vol.8,195-199,2019.
+[18] M.Y.Arafat,M.M.Alam,andS.Moh,"Vision-basednavigationtech- [43] Z.Deng,H.Sun,S.Zhou,J.Zhao,L.Lei,andH.Zou,"Multi-scaleobject
+niquesforunmannedaerialvehicles:Reviewandchallenges,"Drones,vol. detectioninremotesensingimagerywithconvolutionalneuralnetworks,"
+7,no.2,89,2023. ISPRSJ.Photogramm.RemoteSens.,vol.145,pp.3-22,2018.
+[19] M. Liu et al., "Uav-yolo: Small object detection on unmanned aerial [44] N.G.PolsonandJ.Scott,AIQ:howpeopleandmachinesaresmarter
+vehicleperspective,"Sensors,vol.20,no.8,2238,2020. together,St.Martin’sPress,2018.
+[20] M.N.Mahmudetal.,"Roadimagesegmentationusingunmannedaerial [45] A.Wang,Y.Sun,A.Kortylewski,andA.L.Yuille,"Robustobjectde-
+vehicleimagesandDeepLabV3+semanticsegmentationmodel,"in2021 tectionunderocclusionwithcontext-awarecompositionalnets,"inProc.
+11thIEEEInternationalConferenceonControlSystem,Computingand IEEE/CVFConf.Comput.Vis.PatternRecognit.,2020,pp.12645-12654.
+Engineering(ICCSCE),pp.176-181,Aug.2021. [46] R.S.SuttonandA.G.Barto,"ReinforcementLearning:AnIntroduction,"
+MITPress,2018.
+[21] Y. Chen et al., "Citrus tree segmentation from UAV images based on
+[47] F.Muratore,F.Ramos,G.Turk,W.Yu,M.Gienger,andJ.Peters,"Robot
+monocularmachinevisioninanaturalorchardenvironment,"Sensors,vol.
+learningfromrandomizedsimulations:Areview,"Front.RoboticsAI,vol.
+19,no.24,5558,2019.
+31,2022.
+[22] A.Guerraetal.,"ReinforcementlearningforUAVautonomousnavigation,
+[48] K.He,X.Zhang,S.Ren,andJ.Sun,"Deepresiduallearningforimage
+mappingandtargetdetection,"in2020IEEE/IONPosition,Locationand
+recognition,"inProceedingsoftheIEEEConferenceonComputerVision
+NavigationSymposium(PLANS),pp.1004-1013,Apr.2020.
+andPatternRecognition,2016,pp.770-778.
+[23] D. Chen et al., "Mean field deep reinforcement learning for fair and
+[49] V.Mnihetal.,"Playingatariwithdeepreinforcementlearning,"arXiv
+efficientUAVcontrol,"IEEEInternetofThingsJournal,vol.8,no.2,pp.
+preprintarXiv:1312.5602,2013.
+813-828,2020.
+[50] J.Schulman,F.Wolski,P.Dhariwal,A.Radford,andO.Klimov,"Proximal
+[24] S. Rezwan and W. Choi, "Artificial intelligence approaches for UAV policyoptimizationalgorithms,"arXivpreprintarXiv:1707.06347,2017.
+navigation:Recentadvancesandfuturechallenges,"IEEEAccess,vol.10, [51] A.Juliani,V.P.Berges,E.Teng,A.Cohen,J.Harper,C.Elion,andD.
+pp.26320-26339,2022. Lange,"Unity:Ageneralplatformforintelligentagents,"arXivpreprint
+[25] L.Xinetal.,"Vision-basedautonomouslandingfortheUAV:Areview," arXiv:1809.02627,2018.
+Aerospace,vol.9,no.11,634,2022.
+[26] J.Cui,Y.Liu,andA.Nallanathan,"Multi-agentreinforcementlearning-
+basedresourceallocationforUAVnetworks,"IEEETransactionsonWire-
+lessCommunications,vol.19,no.2,pp.729-743,2019.
+[27] S.Li,X.He,X.Xu,T.Zhao,C.Song,andJ.Li,"Weapon-TargetAs-
+signmentStrategyinJointCombatDecision-MakingbasedonMulti-head
+DeepReinforcementLearning,"IEEEAccess,2023.
+[28] C. H. Liu et al., "Distributed energy-efficient multi-UAV navigation
+forlong-termcommunicationcoveragebydeepreinforcementlearning," MINHOLEEreceivedtheB.S.degreeinchemistry
+IEEETransactionsonMobileComputing,vol.19,no.6,pp.1274-1285,
+fromtheKoreaMilitaryAcademy,SouthKorea,in
+2019.
+2013, and the M.S. degree in operation research
+[29] R.Alyassietal.,"Autonomousrechargingandflightmissionplanningfor
+from Korea National Defense University, South
+battery-operatedautonomousdrones,"IEEETransactionsonAutomation
+Korea,in2022,whereheiscurrentlypursuingthe
+ScienceandEngineering,vol.20,no.2,pp.1034-1046,2022.
+Ph.D.degreeinoperationresearch.Hisresearch
+[30] V. Hassija et al., "Fast, reliable, and secure drone communication: A
+interestsincludemilitaryoperationresearch,arti-
+comprehensivesurvey,"IEEECommunicationsSurveys&Tutorials,vol.
+ficialintelligence,andstatisticalanalysis.
+23,no.4,pp.2802-2832,2021.
+[31] N. Gao et al., "Anti-intelligent UAV jamming strategy via deep Q-
+networks,"IEEETransactionsonCommunications,vol.68,no.1,pp.569-
+581,2019.
+[32] Y.Sunetal.,"ADeep-Learning-BasedGPSSignalSpoofingDetection
+MethodforSmallUAVs,"Drones,vol.7,no.6,370,2023.
+[33] J.Tianetal.,"Adversarialattacksanddefensesfordeep-learning-based
+unmannedaerialvehicles,"IEEEInternetofThingsJournal,vol.9,no.
+22,pp.22399-22409,2021.
+[34] Y.Zhangetal.,"Adversarialpatchattackonmulti-scaleobjectdetection
+forUAVremotesensingimages,"RemoteSensing,vol.14,no.21,5298,
+2022.
+[35] Y.Zhou,B.Rao,andW.Wang,"UAVswarmintelligence:Recentadvances
+andfuturetrends,"IEEEAccess,vol.8,pp.183856-183878,2020. MINWOOCHOIreceivedtheB.S.degreeinme-
+[36] Z.Xiaetal.,"Multi-agentreinforcementlearningaidedintelligentUAV chanical engineering from the Kumoh National
+swarmfortargettracking,"IEEETransactionsonVehicularTechnology,
+Institute of Technology, South Korea, in 2008,
+vol.71,no.1,pp.931-945,2021.
+andtheM.S.degreeinoperationsresearchfrom
+[37] L.Dengetal.,"Lightweightaerialimageobjectdetectionalgorithmbased
+KoreaNationalDefenseUniversity,SouthKorea,
+onimprovedYOLOv5s,"ScientificReports,vol.13,no.1,7817,2023.
+in2019,whereheiscurrentlypursuingthePh.D.
+[38] S.IlsooandK.Yongwoo,"ResearchReportontheDevelopmentStrategies
+degreeinoperationandresearch.Since2008,he
+of Drone-Bot Combat Systems," Korea Drone Innovation Association,
+hasbeenconductingresearchandworkonmilitary
+2021.
+M&S,artificialintelligence,andstatisticalanaly-
+[39] H.Wang,H.Cheng,andH.Hao,"Theuseofunmannedaerialvehicle
+sis.
+in military operations," in International Conference on Man-Machine-
+Environment System Engineering, Singapore: Springer Singapore, Sep.
+2020,pp.939-945.
+[40] T.Karrasetal.,"Alias-freegenerativeadversarialnetworks,"Advancesin
+NeuralInformationProcessingSystems,vol.34,pp.852-863,2021.
+[41] R.P.Borase,D.K.Maghade,S.Y.Sondkar,andS.N.Pawar,"Areview
+ofPIDcontrol,tuningmethodsandapplications,"InternationalJournalof
+DynamicsandControl,vol.9,pp.818-827,2021.
+VOLUME11,2023 11
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

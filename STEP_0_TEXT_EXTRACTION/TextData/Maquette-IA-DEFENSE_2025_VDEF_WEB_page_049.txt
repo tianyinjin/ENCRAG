@@ -1,0 +1,71 @@
+49
+bien adapté à ce cadre d’emploi et qu’il ne comprend ni annotées et le contrôle de la qualité de cette
+portes dérobées, ni stratégies décisionnelles malveillantes ? annotation par l’IARG.
+Conclusion
+La solution proposée consiste à faire appel à une IA
+La possibilité de travailler au niveau de la connaissance,
+de type Raisonnante Générale[3] (IARG) pour induire
+et pas uniquement au niveau de la donnée, permet
+automatiquement un SD transparent, composé de
+d’augmenter l’intelligence globale du SD et de l’expert
+règles SI…ALORS à logiques continues, et révélant
+métier. À partir d’un grand ensemble de données, les IA
+le comportement décisionnel caché du SD opaque,
+non-linéaires (réseau de neurones, arbre boosté, forêt
+ici Magika. L’expert métier est alors en mesure
+aléatoire) sont capables de produire des SD robustes.
+d’auditer les règles induites pour débusquer un
+Toutefois, ces SD sont opaques : ils ne peuvent être
+Zyed ZALILA éventuel comportement malveillant. Cet ensemble
+audités, ni certifiés. A l’inverse, certaines techniques
+de connaissances est facilement embarquable et
+d’IA sont capables de produire des SD intelligibles.
+actionnable avec une frugalité et une efficience
+Toutefois, ces SD sont non-robustes. Répondant, par
+énergétique de premier ordre.
+conception, aux contraintes inhérentes à l’intégration
+Au cœur de ce processus de conception de SD, la de l’IA dans les systèmes critiques, les SD induits
+collaboration unique homme-machine forme une par l’IARG, sont à la fois robustes et intelligibles,
+boucle vertueuse : autorisant leur usage éthique et responsable.
+1. L’expert pose le problème de modélisation à
+résoudre (définition des prédicteurs potentiels,
+collecte et caractérisation des données) ;
+2. L’IARG augmente l’expertise humaine en
+découvrant, par perfectionnement évolutif de
+ses stratégies d’induction, des connaissances
+robustes, tout en les exprimant de manière
+compréhensible, sous la forme de règles SI…
+ALORS à logiques continues (boucle d’induction
+évolutive).
+3. L’expert corrige les erreurs et les biais détectés par
+l’IARG et relance l’induction pour découvrir des
+connaissances plus robustes (boucle d’induction
+corrective).
+En outre, l’intelligibilité (i.e. l’interprétabilité) d’un SD
+à base de règles permet de faire face à un problème
+prégnant, notamment dans le monde de la défense :
+les données « opérationnelles » peuvent être partielles,
+incomplètes, entachées d’erreur, sans annotation, non
+représentatives, etc.
+Dans ce contexte, comment prendre des décisions
+critiques sur la base de données lacunaires ?
+L’intelligibilité est encore une fois le critère décisif. Elle
+apporte des avantages suivants :
+• L’explicabilité de chaque décision permet la
+détection explicite des erreurs du modèle (biais,
+mauvais prédicteurs…) par l’expert métier.
+• L’interprétabilité globale du modèle facilite la
+certification.
+• En cas de changement de comportement du
+processus étudié, l’IARG émettra des refus de
+décision. L’expert métier devra alors analyser les
+nouveaux cas non reconnus pour les qualifier. La
+nouvelle base de données est aussitôt soumise à
+l’IARG pour découvrir le nouveau SD modélisant
+le nouveau comportement du processus (boucle
+d’induction adaptative).
+• L’expert peut intégrer des règles métier saisies
+manuellement et demander à l’IAG d’évaluer leur
+robustesse en interaction avec les autres règles
+induites automatiquement. Cette approche
+permet l’annotation rapide de données non

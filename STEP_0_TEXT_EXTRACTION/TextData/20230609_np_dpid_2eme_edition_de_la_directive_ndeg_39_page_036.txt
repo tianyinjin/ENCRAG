@@ -1,0 +1,42 @@
+L’intrusion dans le système via l’accès physique aux équipements est possible
+mais nécessite de contourner plusieurs barrières physiques munies d’un
+Protection
+2 dispositif de contrôle d’accès sans dispositif de détection ou de réaction.
+moyenne
+S’il n’existe qu’une seule barrière physique munie d’un contrôle d’accès, le
+système dispose d’un contrôle d’accès logique (authentification).
+L’intrusion physique dans le système via un accès physique aux équipements
+Protection
+3 nécessite de contourner une seule barrière physique munie au moins d’un
+minimale
+contrôle d’accès.
+Protection Il n’existe aucune barrière physique avec contrôle d’accès avant d’accéder
+4
+absente physiquement aux équipements.
+3. Catégorisation d’un système d’information
+Le niveau de classe* d’un système industriel correspond au niveau de classe* maximal attribué
+aux fonctions qu’il assure.
+Un système peut être caractérisé au minimum selon l’équivalence suivante :
+Niveau de classe* du système industriel Niveau de catégorisation du système industriel
+Classe 1 Standard
+Classe 2 Important
+Classe 3 Essentiel
+4. Segmentation en zones de sécurité
+Il est possible de découper un système industriel en différents ensembles de ressources réalisant
+une fonction. Cette zone fonctionnelle se voit alors attribuer le niveau de classe* associé à cette
+fonction. Elle est alors appelée zone de sécurité*. Il est possible de fusionner des zones de
+sécurité selon une analyse architecturale. Le niveau de classe* de la nouvelle zone est alors le
+niveau de la classe* maximale des zones fusionnées.
+Les zones de sécurité* échangent des données entre elles par des conduits*. Une matrice des
+échanges entre les zones permet d’identifier les flux et leur sens, et par conséquent les conduits*
+ainsi que leur nature (sans fil, câble). Si deux zones de sécurité sont liées par des conduits*
+différents, il est alors pertinent de dissocier chacune des zones selon la nature des conduits*.
+Les exigences et mesures définies en annexe 5 sont appliquées sur les éléments d’une zone de
+sécurité* en fonction de son niveau de classe* et sur les conduits*.
+5. Démarche d’homologation
+Conformément à [Dir HSI] et au chapitre §5.1 de la présente directive, il est recommandé que la
+démarche d’homologation soit définie à partir de la classe* du système selon le tableau suivant :
+Niveau de classe* du système Démarche d’homologation
+industriel
+Classe 1 Sommaire
+DIR-39 SNSI – 2eme édition Page 36 | 79

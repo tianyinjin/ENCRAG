@@ -1,0 +1,47 @@
+ANNEXE 1. LE DOSSIER D’HOMOLOGATION
+Le dossier d'homologation est un ensemble de documents sur lesquels s’appuie l’AH pour émettre un
+avis de décision d’homologation ou de renouvellement d’homologation. Il est réactualisé au fur et à
+mesure des démarches. Sa composition varie en fonction du type de démarche d’homologation, de la
+nature des SI et de ses composants et des enjeux de sécurité.
+Livrables les plus usuels selon le type de démarche :
+Démarche Démarche Démarche
+sommaire simplifiée standard
+Décision d’homologation oui oui oui
+Stratégie d’homologation oui oui oui
+Plan d’assurance de sécurité (PAS) en cas d’infogérance externalisée (dont cloud)
+Certificat d’usage et de conformité (CUC) oui oui
+Dossier d’analyse de risques non oui oui
+FEROS non non oui
+Cible de sécurité non non facultatif
+Plan de sécurité (PDS) non non oui
+Procédures d’exploitation de sécurité
+oui oui oui
+(PES)
+Dérogations obtenues oui oui oui
+Rapport d’audit (homologation, conformité,
+non si audit réalisé oui
+code, etc.)
+Plan d’actions suite à un audit non si audit réalisé oui
+Liste des risques résiduels oui oui oui
+Plan d’amélioration continue de sécurité
+oui oui oui
+(PACS)
+Les documents dont les noms sont en gras doivent être insérés dans l’outil de suivi du patrimoine
+applicatif (SICLADE).
+Livrables supplémentaires possibles (liste non exhaustive) : le dossier d’homologation peut être
+enrichi d’autres documents, en particulier :
+● en cas de démarche d’homologation de déploiement :
+o les modèles nécessaires à l’homologation des SI déployés (CUC, PES, etc.) pour le
+dossier d’homologation du SI de référence ;
+● en cas de SIIV :
+o la déclaration en SIIV ;
+o des pièces justificatives (analyse d’impact) ;
+o des indicateurs de sécurité (cf. §6.1) ;
+● en cas d’infogérance externalisée (par exemple cloud) :
+o le PAS ;
+● en cas de cloud SaS :
+o le visa DGNUM ;
+o une appréciation d’usage du service numérique ;
+● en cas de SI traitant des données classifiées :
+o le rapport de mesures des signaux parasites compromettants ;
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 40/47

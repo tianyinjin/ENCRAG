@@ -1,0 +1,31 @@
+POLE D'EXCELLENCE CYBER
+........................................
+FICHE N°11
+SERVEURS ET LOCAUX
+La fonctionnalité principale des serveurs est de permettre aux agents et aux usagers d’avoir constamment accès aux services
+de la collectivité (Web, messagerie, stockage, etc.). Les serveurs sont une cible particulièrement prometteuse pour les pirates
+informatiques, car ils sont à la base de toutes les activités et centralisent un grand nombre de données. Les risques physiques,
+liés aux évènements imprévisibles comme les pannes, les accidents ou les atteintes intentionnelles aux matériels, doivent
+également être pris en compte lors de l’installation de serveurs. Si le bon fonctionnement des serveurs est affecté, la collectivité
+entière peut se retrouver paralysée (interruption des processus métier, perte de données, blocage des accès aux services, etc.).
+Les bonnes pratiques suivantes vous permettront de renforcer la sécurité de vos installations. La gestion de certains serveurs nécessite
+des compétences poussées en informatique (gestion en ligne de commandes), d’autres possèdent une interface d’administration
+graphique plus ou moins intuitive (serveur NAS, etc.). Ces recommandations sont générales et peuvent être appliquées aux différents
+types de serveurs hébergés et gérés en interne par la collectivité.
+• Sécurisez vos locaux R1 :
+- Point essentiel, l’accès aux locaux doit être contrôlé, cela pour éviter ou ralentir un accès non autorisé aux serveurs, mais aussi aux
+divers matériels informatiques et aux fichiers papiers ;
+- Conservez une trace des accès aux salles ou aux bureaux susceptibles d’héberger du matériel contenant des données personnelles ;
+- Choisissez une pièce fermée à clé, qui comporte très peu d’ouvertures (risque d’intrusion physique) et éloignée des lieux de passage ;
+- Évitez d’installer les serveurs dans des sous-sols ou au dernier étage d'un immeuble (risques d’infiltration d’eau) ;
+- La température et l’hygrométrie des locaux où sont installés les serveurs doivent être contrôlées et stables, car un environnement trop
+chaud ou trop humide pourrait causer des dommages irréversibles aux composants internes des serveurs ;
+- Mettez en place des alarmes anti-intrusion, des détecteurs de fumée et des moyens de lutte contre les incendies. N’oubliez pas de
+les inspecter régulièrement, et au moins une fois par an ;
+- Mettez en place un onduleur afin de protéger vos serveurs d’une panne de courant ou de surtensions ;
+- Entretenez vos installations, car les risques peuvent provenir de pannes ou de dysfonctionnements liés à leur vétusté (climatisation,
+tableau électrique, etc.) ;
+• Activez le pare-feu et installez un logiciel anti-virus sur les serveurs R2 . Créez et ajustez des règles de pare-feu en fonction du
+service et de l'utilisation du serveur. Pensez à installer sur vos serveurs une solution antivirus différente de celle installée sur les postes
+clients. Utilisez des logiciels scanner et des outils de détection des vulnérabilités.
+41

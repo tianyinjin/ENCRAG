@@ -1,0 +1,53 @@
+59
+d’utilisateurs, LinkedIn 28 millions de membres, Tik mots de passe exposés et quelle que soit la récence de
+Tok environ 20 millions, Copains d’avant 13 millions ces fuites, la probabilité qu’une personne bascule du
+d’utilisateurs, Twitter 6 millions . Des plateformes comme groupe vert au groupe rouge est 31% plus élevée .
+Youtube totalisent quant à elles pas moins de 50 millions Outre ces premiers résultats, les IoC-H ont été combinés
+de français comme utilisateurs . entre eux en fonction notamment de certains types
+Côté réseaux d’attaquants, rien qu’au premier trimestre d’attaques par ingénierie sociale - comme l’hameçonnage
+2024 avec le piratage de France Travail, Viamedis, Almerys ciblé, ou l’usurpation de compte . Par exemple,
+ou de la CAF, c’est plus de la moitié des Français qui ont l’hameçonnage ciblé peut prendre en compte la date
+vu leurs données personnelles ainsi exposées . d’anniversaire, l’adresse physique et la connaissance d’un
+Alors que 80% des attaques exploitent des vulnérabilités réseau social pour créer un email crédible afin de tromper
+humaines, que 55% des attaques se traduisent par une le destinataire . Multiplier les combinaisons et croiser les
+extraction massive de données (chiffre DRSD(4) 2023) résultats entre groupe rouge et groupe vert, a permis
+et que parmi ces fuites 44% des données sont des de faire évoluer les modélisations à base de machine
+données personnelles d’identification (PII pour Personaly learning . Il est ainsi possible de pondérer l’importance
+Identifiable Information), comment mesurer le risque de chaque IoC-H (aujourd’hui une soixantaine d’IoC-H
+propre à chaque donnée exposée ? sont pris en compte) et d’établir un niveau de mesure
+de l’exposition cyber des personnes (individuellement
+Modélisation du risque d’ingénierie sociale cyber et pour des groupes jusqu’à des milliers de personnes)
+Le risque d’attaques par ingénierie sociale a pu utilisable comme scoring de risque .
+être modélisé, en s’appuyant sur de nombreuses Les études menées et ce scoring démontrent que plus
+expérimentations afin de créer un scoring(5) desrisques les informations sur une cible sont nombreuses sur les
+basé sur les données personnelles et professionnelles réseaux sociaux et les réseaux d’attaquants, plus elles
+disponibles en source ouverte, en fonction de leur nature sont simples à collecter, faciles à exploiter et utilisées
+et de l’utilisation qui en est faite par les attaquants . Ces efficacement par les attaquants . Cette étude souligne
+informations sont appréhendées comme des indicateurs l’industrialisation des processus des attaquants, de la
+de compromission humains (les IoC-H™) . Cela inclut collecte à l’exploitation des données .
+les identifiants de réseaux sociaux, e-mails, numéros
+de téléphone, adresses personnelles, mots de passe, Conclusion
+pseudonymes, etc . Les données sensibles au sens RGPD Bloquer de façon réactive les attaques à la source et
+(ethniques, raciales, médicales…) sont exclues du champ les contenus, dont la vitesse de propagation est très
+de l’analyse . rapide par rapport à des temps de vérification qui sont
+Pour citer une des expérimentations menées, l’impact longs, requiert des moyens complexes à élaborer et à
+de l’exposition des données vis-à-vis de deux groupes mettre en œuvre .
+distincts a été évalué, constitués de milliers de cas Alors que la menace s’inscrit désormais dans un continuum
+concrets : cyber/ numérique/informationnel/cognitif, la prévention
+• Un groupe « rouge » : des personnes ayant fait l’objet à partir de l’analyse de l’exposition des personnes qui
+d’attaques réussies par ingénierie sociale ; représentent des cibles semble plus que jamais être
+• Un groupe « vert » : aucun des membres n’a subi un axe pertinent . La technique de scoring permet de
+d’attaques répertoriées comme réussies ; ce groupe mesurer les risques sur les populations, d’identifier non
+représente le groupe « témoin » . seulement la manière dont sera véhiculée une attaque
+informationnelle mais également de déterminer les axes
+Chaque IoC-H (le type de donnée), ainsi que sa valeur, ont les plus sensibles qui seront exploités par les attaquants .
+été étudiés de façon unitaire . Les comparaisons entre les La prise en compte des risques d’exposition est donc
+deux groupes, ont permis d’établir des statistiques autour particulièrement adaptée pour relever le défi qui consiste
+de la pondération de chaque IoC-H, leur occurrence et la à minimiser l’impact de ces attaques à défaut de toutes
+temporalité des expositions, dans le cadre d’une attaque pouvoir les anticiper .
+par ingénierie sociale .
+Illustration avec le cas des mots de passe : leur analyse
+a permis d’identifier notamment que la date d’une fuite
+de donnée est un critère plus faible que le nombre de
+mots de passe visibles globalement dans ces fuites (plus
+de 19 000 fuites prises en compte) . Ainsi, à partir de 2

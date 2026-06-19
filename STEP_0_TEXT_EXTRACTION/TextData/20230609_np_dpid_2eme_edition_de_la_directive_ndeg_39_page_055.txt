@@ -1,0 +1,33 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Insérer les locaux techniques et les locaux abritant des serveurs dans des zones
+PHY9 ORG R R O
+protégées (ZP).
+Ne rendre accessibles les unités centrales des stations, les équipements réseaux
+PHY10 ORG O
+industriels et les automates* qu'au personnel autorisé et ayant besoin d'y accéder.
+Mettre en place un dispositif de détection d’ouverture avec remontée d’alarme sur
+les armoires des équipements sensibles. A minima, sur les coffrets extérieurs
+PHY11 TECH contenant des composants sensibles, un moyen de contrôle visuel, comme la pose C R O
+de scellés par exemple, doit être installé. Le retrait de ces moyens visuels doit
+suivre une procédure bien définie et être soumis à autorisation préalable.
+Interdire la libre accessibilité aux prises d’accès au système industriel si les
+PHY12 ORG O
+équipements sont accessibles au public ou dans des zones sans surveillance.
+Par exemple, mise en place du capotage
+pour le câblage.
+Protéger le câblage du système industriel pour prévenir ou détecter tout accès en Il est possible de s’inspirer des
+PHY13 ORG vue d’une écoute, d’une modification ou d’une perturbation du fonctionnement du R O O exigences portant sur les circuits
+système. approuvés (cf. DTM 63). Dans le cas de
+systèmes classifiés, ces exigences sont
+obligatoires.
+Obturer les prises dédiées à la maintenance lorsqu’elles ne sont pas utilisées
+PHY14 TECH (bouchons, plaques d’occultation, etc.). Le retrait de l’obturateur suit une O
+procédure bien définie et il est soumis à autorisation préalable.
+En cas de locaux mutualisés ou partagé avec un organisme, mettre en place une
+PHY15 ORG convention de services définissant les responsabilités en matière de sécurité entre O
+entité hébergée et hébergeant.
+En cas de locaux mutualisés ou partagés avec un autre organisme, mettre en place
+PHY16 ORG O
+des réseaux physiquement séparés.
+Maîtriser les zones de sécurité au sein du système industriel
+DIR-39 SNSI – 2eme édition Page 55 | 79

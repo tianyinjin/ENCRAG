@@ -1,0 +1,16 @@
+TLP:CLEAR
+outils déjà exploités au sein de la communauté de la LMI, comme le modèle STIX11 et OpenCTI.
+Utilisé dans trois rapports techniques publiés par VIGINUM en 2025, le concept de MOI a depuis été
+réemployé dans les travaux d’autres acteurs de la communauté de LMI, à l’image du Service européen
+d’action extérieur (SEAE), de l’Agence de l'Union européenne pour la cybersécurité (ENISA)12 et des
+membres du Doppelgänger Working Group (DGWG)13.
+La présente note propose une définition précise de « mode opératoire informationnel », qui s’articule
+avec d’autres concepts utilisés par VIGINUM pour représenter la manipulation de l’information (cf.
+section 2.1). Elle vise également à aider la communauté à identifier des MOI parmi les ensembles suivis,
+en détaillant leurs principales caractéristiques (section 2.3) et en proposant des exemples concrets à
+partir d’activités malveillantes connues en source ouverte, attribuées ou non, issues de différents types
+d’acteurs, et observées dans différentes régions du monde (section 3).
+11 Cf. https://oasis-open.github.io/cti-documentation/stix/intro.html.
+12 Cf. https://www.enisa.europa.eu/sites/default/files/2026-01/ENISA%20Threat%20Landscape%202025_v1.2.pdf.
+13 Cf. https://www.disinfo.eu/wp-content/uploads/2026/01/20260115_building-a-common-operational-picture-of-FIMI_01.pdf.
+4

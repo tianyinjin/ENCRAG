@@ -1,0 +1,68 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+D.1.1.2 _Aéronautique En effet une grande part du trafic international utilise la voie maritime. La
+confidentialité et l’intégrité des échanges est aussi un aspect à prendre en
+le domaine aéronautique est très vaste et recouvre à la fois les aéronefs, les in-
+compte.
+frastructures aéroportuaires et la gestion du trafic aérien.
+comme l’a montré une cyber attaque sur le port d’Anvers il y a quelques
+la sureté de fonctionnement est une préoccupation permanente dans ce do- années, des trafiquants ayant accès aux systèmes portuaires peuvent réaliser
+maine, notamment en ce qui concerne les aéronefs, avec des règles de certifi- des vols de grande envergure.
+cation très poussées. la prise en compte de menaces cyber s’effectue progres-
+sivement, à mesure que l’évolution des techniques et des usages augmente les D.1.1.4 _Infrastructures ferroviaires
+risques potentiels.
+les infrastructures ferroviaires sont sensibles aux risques liés à la disponibilité,
+Pour exemple, il convient de citer les réseaux de divertissement à bord, qui qui peuvent conduire à de graves perturbations du trafic. Leur intégrité
+permettent aux passagers de connecter leurs propres équipements, sachant doit aussi être protégée, cela pour éviter qu’une prise de contrôle n’ait de
+qu’il existe des liens potentiels entre ces réseaux et les réseaux liés au pilotage conséquences sur la sécurité des passagers ou des riverains (déraillement
+de l’appareil. ou collisions de trains de passagers ou de matières dangereuses).
+Par ailleurs, les aéronefs disposent de multiples moyens de connexion vers
+l’extérieur, qu’ils soient liés à la navigation (liens radio avec le contrôle aérien), D.1.2 _Production et distribution d’énergie (y compris smart grids)
+à la maintenance (liens vers le constructeur de l’appareil) ou aux services
+offerts aux passagers (connexions internet, téléphones mobiles en vol). l’énergie électrique est vitale pour assurer le fonctionnement de l’ensemble
+ces liaisons constituent des portes d’entrées potentielles pour des attaquants. de la société. Par ailleurs, les usines de production d’électricité notam-
+ment celles basées sur l’énergie nucléaire sont des sites particulièrement
+En termes d’infrastructures aéroportuaires, la logistique des aéroports et le sensibles. la production doit être protégée contre les cyber-attaques, l’in-
+contrôle aérien sont assurés par de nombreux systèmes informatiques. tégrité des systèmes d’information et la disponibilité des systèmes indus-
+triels doit être garantie. Quant à l’absence de connexion directe entre les
+Pour le premier point, le risque principal à identifier concerne l’indisponibilité
+réseaux critiques et les réseaux ouverts, elle ne doit pas être considérée
+des services qui peut entraîner un blocage du trafic par l’incapacité à gérer les
+comme une barrière absolue, la diffusion de l’attaque Stuxnet illustre cela.
+flux de passagers ou le ravitaillement des avions.
+Au niveau de la distribution, une mise en indisponibilité globale ou partielle
+Pour le second, l’indisponibilité doit aussi être considérée pour les mêmes raisons,
+du réseau aurait des conséquences économiques et sociétales très impor-
+mais on peut y ajouter les risques sur l’intégrité des informations liées aux vols.
+tantes si elle devait durer quelques heures si la coupure est totale, voire
+À cet égard, des solutions protégeant les radars de surveillance aérienne contre
+quelques jours.
+les risques de cyber attaques (par exemple, ajout ou suppression de pistes
+radars) sont d’ores et déjà proposées. les réseaux intelligents (smarts grids) élargissent la dimension sécuritaire
+en multipliant les points d’accès au système d’information, en agrandis-
+D.1.1.3 _Navires et navigation maritime sant donc la surface d’attaque, en ouvrant une inter-connectivité entre la
+sphère de distribution et celle de la consommation. d’autres vulnérabili-
+les navires modernes intègrent de multiples systèmes numériques pour la
+tés de nature plus commerciales (masquage de consommation…) peuvent
+gestion de l’ensemble des fonctions du bord : propulsion, navigation, production
+aussi apparaitre avec des impacts financiers ou d’image.
+d’énergie, gestion de l’eau douce, contrôle du fret… ces systèmes mixent de
+l’informatique classique et des systèmes de contrôle industriels. Par ailleurs, la
+réduction des équipages entraîne une forte dépendance des liaisons vers la D.1.3 _Gestion de l’eau (distribution et retraitement)
+terre pour assurer la maintenance de ces systèmes embarqués.
+l’eau potable est une ressource importante pour de nombreux secteurs et
+le risque principal concerne la disponibilité et l’intégrité des systèmes, avec des
+pour le grand public. l’accès aux systèmes de traitement de l’eau potable
+conséquences très variées, qui vont de l’immobilisation d’un navire à sa prise de
+pourrait entraîner des risques sur la santé. l’arrêt de la distribution impo-
+contrôle à distance avec des effets potentiels graves (collisions entre navires,
+serait des mesures complexes de distribution d’eau potable vers la popu-
+échouage, pollution maritime….
+lation et des impacts pour certains secteurs d’activités.
+concernant les systèmes de navigation maritime, la situation est proche de celle
+Au niveau des systèmes de traitement, une prise de contrôle de stations
+du transport aérien.
+d’épuration pourrait impliquer des pollutions des milieux naturels. En revanche,
+les infrastructures portuaires sont elles aussi très dépendantes de l’informatique. la gestion de l’eau étant essentiellement locale, les impacts seront dans
+Une indisponibilité pourrait conduire à un blocage progressif du trafic commercial tous les cas limités à une zone géographique de faible extension, la mise
+ou des passagers, avec des impacts rapides sur l’économie. en place d’une attaque de grande ampleur étant complexe à réaliser.
+66 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 67

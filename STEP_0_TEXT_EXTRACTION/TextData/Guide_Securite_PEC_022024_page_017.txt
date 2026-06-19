@@ -1,0 +1,46 @@
+POLE D'EXCELLENCE CYBER
+Les recommandations élémentaires pour sécuriser son système et sa session de travail :
+• Installez un logiciel anti-virus et un pare-feu R4 : téléchargez chaque programme sur le site officiel de son éditeur. Vous
+pouvez vous référez à la liste des logiciels libres proposée par le Socle Interministériel de Logiciels Libres1 ou utiliser un antivirus
+européen, de préférence. Analysez votre ordinateur régulièrement, ou à la moindre alerte, à l'aide de votre antivirus. N'installez pas
+plusieurs antivirus sur votre ordinateur. Toutefois, lorsque vous avez un soupçon quant au bon fonctionnement de votre ordinateur,
+vous pouvez avoir recours à des outils complémentaires, telles les analyses antivirus en ligne ou les logiciels anti-spywares proposés
+par des éditeurs connus. Une fois l'analyse effectuée, prenez la précaution de désinstaller ces outils (voir le tutoriel « Désinstaller les
+applications »).
+Afin d'être plus efficace dans votre défense, nous vous conseillons d'utiliser des solutions antivirus différentes pour les serveurs
+d'infrastructures et pour les postes clients.
+• Déconnectez-vous de votre session dès que vous vous éloignez de votre ordinateur, même si ce n'est que quelques minutes
+R5 : c’est un moyen facile d’empêcher une personne curieuse ou malveillante d’accéder à votre système et vos données (voir le
+tutoriel « Fermer la session »).
+• Activez le verrouillage automatique de votre session R6 : ainsi, si vous oubliez de vous déconnecter, le système le fera à votre
+place au bout d’un temps déterminé, idéalement le plus court possible, quelques minutes en général. Une fois déconnecté vous
+devrez remettre votre mot de passe pour accéder à nouveau à votre session (voir le tutoriel « Verrouiller automatiquement la session »).
+• Installez les mises à jour du système d’exploitation et activez la vérification automatique des mises à jour R7 : les mises à
+jour critiques ou de sécurité doivent être installées sans délai, elles sont signalées par des messages de votre système d'exploitation.
+• Mettez à jour tous les programmes et applications installés sur votre ordinateur R8 : avant même d'utiliser un logiciel, vous
+devez vérifier que celui-ci est bien à jour. En effet, un logiciel non mis à jour constitue une porte d'entrée pour les attaquants. Si le
+logiciel que vous utilisez ne propose pas cette option dans ses paramètres par défaut, vous devez l'activer.
+• Faites des sauvegardes régulières de vos données et sauvegardez votre système d’exploitation R9 : avoir à disposition des
+sauvegardes à jour est un moyen efficace de réduire la menace des rançongiciels (voir la fiche 9 « Plan et stratégie de sauvegarde »).
+• Désactiver vos périphériques lorsque vous ne les utilisez pas R10 : par exemple, les outils tels le microphone et la camera. Vous
+pouvez aussi utiliser des caches camera frontale sur vos téléphones et tablettes car il est généralement compliqué de les contrôler ou
+de les désactiver.
+• Désactivez les services de connexion non nécessaires à votre métier R11 : tels que le Bluetooth, le Wi-Fi, la 4G, etc. Si vous les
+utilisez de temps à autre, ne les activez alors que lorsque vous en avez besoin, car laisser toutes ces possibilités de connexion ouvertes
+en permanence rend vos appareils plus vulnérables aux cyber-attaques.
+Quelques recommandations relatives au respect de la vie privée et à la confidentialité des données sous Windows 10 :
+• Désactivez la géolocalisation de votre ordinateur, téléphone, tablette, montre connectée R12 . Ce dispositif de surveillance
+inclus dans de nombreuses applications (mise en relation de personnes, assistance à la navigation, montres ou cameras connectées,
+gestion en temps réel des déplacements, etc.) est très intrusif2 . La législation française interdit de collecter des informations privées
+par le biais de la surveillance sans le consentement explicite de la personne. De plus, avec la pratique d'Apportez Votre Équipement
+personnel de Communication (AVEC, BYOD en anglais), il est difficile de déterminer la frontière entre ce qui relève de la sphère privée
+ou de la sphère professionnelle. L’article L. 1121-1 du Code du travail, dit que "nul ne peut apporter aux droits des personnes et aux
+libertés individuelles et collectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées
+au but recherché". L’employeur qui souhaite mettre en place un dispositif de géolocalisation dans la collectivité doit informer et
+consulter les représentants du personnel et informer ses agents3 .
+1 https://sill.etalab.gouv.fr/fr/software
+2 https://www.frandroid.com/culture-tech/securite-applications/515849_dgse-mi6-nsa-une-application-fitness-trahit-lidentite-de-
+militaires-et-despions
+3 https://www.editions-tissot.fr/actualite/representants-du-personnel-ce/geolocalisation-votre-consultation-et-linformation-des-
+salaries-est-obligatoire
+17

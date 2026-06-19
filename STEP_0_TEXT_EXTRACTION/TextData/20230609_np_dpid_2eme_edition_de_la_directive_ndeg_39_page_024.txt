@@ -1,0 +1,43 @@
+- la mise en place d’équipements dédiés à la maintenance (équipements sécurisés, durcis)
+dont l’intégrité et l’innocuité sont vérifiés avant intervention ;
+- la sécurisation des systèmes obsolètes, par durcissement, cloisonnement* ou surveillance
+spécifique ;
+- la désactivation des ports et le déploiement des bouchons de protection des ports ;
+- le verrouillage des câbles ;
+- la sauvegarde des systèmes et le stockage sur des supports hors-ligne.
+En cas de télémaintenance* à partir d’un réseau non maîtrisé sans passerelle sécurisée, les
+mesures suivantes sont applicables a minima afin de réduire les risques :
+- la connexion sur le réseau non maîtrisé, limitée au temps de la maintenance ;
+- le filtrage* des flux ;
+- la traçabilité des actions menées.
+6.7.3. Contrôle
+Avant un renouvellement d’homologation, l’autorité d’homologation (AH) met en place un contrôle
+adapté aux enjeux de sécurité du système industriel afin d’évaluer son niveau de conformité au
+socle de sécurité ou son niveau de risque. Elle vérifie au moins :
+- la réévaluation du socle de sécurité ;
+- la mise à jour de l’analyse des risques (cycle opérationnel a minima) ;
+- l’actualisation de la cartographie ;
+- la désignation et la présence de personnel intervenant compétent et sensibilisé, habilité et
+qualifié ;
+- la connaissance et l’application des mesures de sécurité de nature organisationnelle ;
+- l’efficacité de la défense en profondeur ;
+- la sécurité physique des installations ;
+- l’application du maintien en condition de sécurité (MCS) préalablement défini ;
+- les procédures de maintenance portant sur la sécurité numérique.
+Le renouvellement d’homologation s’appuie nécessairement sur les résultats de ce contrôle. Les
+points de contrôle vérifiés sont insérés dans le dossier d’homologation.
+6.7.4. Incident de sécurité
+Les autorités impactées par un incident de sécurité jugé grave ainsi que la procédure d’alerte
+doivent être définies et connues avant l’utilisation du système. Les autorités pouvant être
+impactées ainsi que la procédure d’alerte sont précisées dans les procédures d’exploitation de
+sécurité (PES) du système. La procédure d’alerte est adaptée au système industriel, à son
+environnement et à son organisation. L’autorité d’homologation (AH) vérifie sa mise en place et
+sa pertinence.
+Les risques d’attaques informatiques sur les systèmes industriels sont pris en compte dans les
+plans de reprise et de continuité d’activité des organismes. Des modes dégradés sont définis
+pour assurer la continuité des activités auxquelles ils contribuent, notamment au travers de
+dispositifs de nature non numérique.
+En cas d’attaques informatiques, des mesures sont mises en œuvre afin de les endiguer et de
+limiter leurs impacts sur les activités et sur le système en lui-même ainsi que sur les systèmes
+auxquels il est connecté.
+DIR-39 SNSI – 2eme édition Page 24 | 79

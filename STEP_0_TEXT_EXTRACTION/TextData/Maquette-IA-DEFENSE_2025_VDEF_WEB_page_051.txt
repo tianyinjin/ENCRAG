@@ -1,0 +1,61 @@
+51
+2. Protection du modèle des quatre dernières années. Et pourtant, aucune
+ligne de défense simple n’a été trouvée.
+Confidentialité
+Les réseaux neuronaux profonds fonctionnent sur La sécurité du ML considère ce panorama riche de
+des GPU, qui offrent une grande efficacité de calcul, scénarios d’attaques. Les défenses visent à protéger
+mais présentent de sérieuses lacunes en matière de de bout en bout l’apprentissage et l’utilisation d’un
+sécurité. Cela rend le vol d’un modèle relativement modèle. La sécurité du ML est partie intégrante de l’IA
+simple. Cette vulnérabilité constitue une menace de confiance surtout lorsque l’IA est opérée dans un
+majeure pour les systèmes embarquant de l’IA, milieu hostile.
+qu’il s’agisse d’applications mobiles ou de véhicules
+militaires équipés de capteurs et d’intelligence
+artificielle. Une solution prometteuse consiste à
+obfusquer les paramètres du modèle et à mettre
+en place un protocole entre le GPU et un circuit
+d’exécution sécurisé, chargé de révéler uniquement le
+résultat final.
+Privacy
+Est-il possible d’identifier un modèle enfermé dans
+une boîte noire (accès via une API) simplement en
+l’interrogeant ? C’est possible dans une certaine
+mesure et cette information s’avère précieuse pour
+un attaquant cherchant à mener une attaque
+d’évasion, car la divulgation du modèle cible améliore
+grandement l’efficacité des attaques. Du point de
+vue du défenseur, l’identification de modèle pourrait
+également détecter le vol de modèles.
+Intégrité
+De nombreux modèles sont disponibles en open-
+source. L’utilisateur doit avoir la garantie qu’ils sont
+exempts de portes dérobées. Une autre menace
+est un cheval de Troie par micro-modifications des
+poids d’un modèle pour injecter un comportement
+dangereux.
+3. Protection des données de tests
+Confidentialité
+L’inférence sur une requête sans la « voir » est possible.
+C’est le problème dual de l’entrainement sur des
+données chiffrées où c’est maintenant la requête est
+chiffrée et le modèle pré-appris. Dans ce contexte,
+deux approches principales sont en concurrence : le
+calcul multipartite et le chiffrement homomorphe. La
+première repose sur l’hypothèse que les différentes
+parties impliquées ne collaborent pas de manière
+malveillante, tandis que la seconde présente
+l’inconvénient d’être très lente.
+Privacy
+L’utilisateur souhaite inférer une donnée pour un
+problème de classification spécifique. Cependant,
+il ne souhaite pas que d’autres informations
+soient extraites de cette donnée. Est-il possible de
+`dépouiller’ la donnée en ne soumettant au modèle
+que le strict minimum pour mener à bien son
+inférence ? Ce problème est très peu étudié dans le
+monde académique.
+Intégrité
+C’est le domaine des exemples adverses. L’attaquant
+ajoute une petite perturbation souvent indétectable à
+la requête pour tromper un classificateur. Ce sujet est
+la partie émergée de l’iceberg de la sécurité du ML,
+avec plus de 6 000 publications scientifiques au cours

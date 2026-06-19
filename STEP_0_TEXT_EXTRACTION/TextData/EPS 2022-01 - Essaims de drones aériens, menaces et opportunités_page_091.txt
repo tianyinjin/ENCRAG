@@ -1,0 +1,55 @@
+MUMT-X et SCORCH
+MUMT-X (Manned-Unmanned Teaming eXpanded) :
+système en service qui permet l’exploitation de plusieurs
+RPAS216 par un hélicoptère AH-64E V6 Apache. Evolution de
+MUMT, MUMT-X permet un contrôle des RQ-7 et MQ-1C qui
+ont repris la mission des OH-58 Kiowa, retirés du service.
+SCORCH (Supervisory Controller for Optimal Role Allocation
+for Cueing of Human Operators) : permet à l’équipage de
+l’AH-64 d’exploiter simultanément 3 RPAS, déjà en vol, au
+moyen du MUMT. C’est une logique de fonctionnement en
+essaim de RPAS non modifiés : le MUMT adresse des signaux
+de télé-opération à des drones qui ne sont pas autonomes.
+Dates : 2004 - (MUMT et X) 2013 - 2018 (SCORCH)
+Acteurs : L3Harris (DataLink), BAE Systems (MUMT-X),
+U.S. Army Research, Development and
+Engineering Command, Institute for
+Collaborative Biotechnologies, United
+Technologies Research Center (SCORCH).
+Porteurs potentiels : Aéronefs pour ISTAR217.
+PERFORMANCES DES VECTEURS : PERFORMANCES DE L’ESSAIM :
+Vecteurs : RQ7-Shadow (Textron Systems Corp) SCORCH vise au contrôle simultané de 3 UAV semi-
+(1991) and Gray Eagle MQ-1C (MALE de General autonomes par un unique opérateur sans
+Atomics) (2004). augmentation de sa charge mentale : il délègue des
+macro-tâches en conservant les décisions critiques.
+Lancement depuis catapulte (RQ-7) ou piste (MQ-1)
+(Automatic take-off & landing system (ATLS) (MQ-1) MUMT-X permet à l’équipage de prendre le
+(Tactical Automatic Landing System) (RQ-7) contrôle de l’UAV, de ses senseurs et de ses armes.
+L’UAV optimise sa cinématique pour faciliter
+Poids : 1632 Kg (MQ-1) 170Kg (RQ-7)
+l’emploi de ses senseurs. Le dernier niveau
+Longueur : 3,41 (RQ-7) Envergure : 3,87 (RQ-7) d’intégration permettrait de prendre en compte le
+Longueur : 8 m (MQ-1) Envergure : 17 m (MQ-1) lancement et la récupération de l’UAV. Il n’est pas
+certain que MUM-X intègre cette capacité ni ne soit
+Propulsion thermique
+apte au contrôle simultané de trois AUV semi-
+Vitesse max : 170 Nds (MQ-1) 110 Nds (RQ-7)
+autonome ; mais on peut fortement le
+Autonomie : 27 h (MQ-1) 6 à 9 h (RQ-7) soupçonner218.
+Rayon d’action : ~2500 Nq (MQ-1) 60 Nq (RQ-7) MUMT, la version précédente, a été utilisée au
+combat en Afghanistan et au Levant. Il a permis des
+Plafond : 29 000 ft (MQ-1) 15 000 ft (RQ-7)
+triangulations à 3 drones, des engagements « au-
+Armement : 4 4 AGM-114, 4 GBU-44 B (MQ-1) delà de la colline », des éclairages sur l’avant pour
+préserver le potentiel de l’hélicoptère en localisant
+Communications : Common Data Link (L-3Harris)
+des cibles rapides à 50 km. 8 heures de simulateur
+(air- to-air-to-ground (AAG-X) kit sur l’AH-64)
+et 4 d’entraînement en conditions réelles suffiraient
+à qualifier un équipage
+216 Remotely Piloted Aircraft System.
+217 Intelligence, Surveillance, Target Acquisition, and Reconnaissance.
+218 D’autant que M. Miller, père des Playbooks, a été impliqué dès 1999 dans les travaux précurseurs « Rotorcraft Pilot’s Associate ».
+Autre expérimentation connexe, celle du logiciel Playbook® en environnement représentatif par l’US Army en 2015 et portant sur la
+supervision simultanée de trois drones déjà en vol (RQ-7, MQ-1C et MQ-8) pour évaluer le gain en réduction de la charge mentale.
+91

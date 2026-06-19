@@ -1,0 +1,33 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Interdire les comptes génériques disposant de privilèges comme les comptes
+EXP26 TECH O
+administrateurs .
+Pour les comptes ne disposant pas de privilèges, ne pas employer de compte
+EXP27 TECH R O O
+générique ou fonctionnel sauf besoins dûment justifiés.
+Si les comptes génériques ou fonctionnels doivent être utilisés en raison de
+besoins dûment justifiés :
+- limiter son usage au strict nécessaire (fonctionnel, temporel) ;
+EXP28 ORG R O O
+- désactiver le compte en dehors des périodes autorisées d’utilisation ;
+- mettre en place des mesures permettant de tracer les accès ;
+- documenter l’usage des comptes.
+Protéger les comptes, et plus particulièrement les comptes à privilège (comptes
+EXP29 TECH O
+administrateur, comptes de service), par un mécanisme d’authentification.
+EXP30 TECH Séparer strictement les comptes utilisateurs et administrateurs. O
+EXP31 TECH Mettre en place un audit des événements liés à l’utilisation des comptes. O
+Valider l’usage de comptes à privilèges par le responsable hiérarchique de
+EXP32 ORG R
+l’utilisateur.
+Lorsque cela est possible, configurer un accès en lecture seule pour les
+EXP33 TECH R
+interventions de maintenance de premier niveau.
+Si la gestion des comptes est centralisée, contrôler régulièrement, au moins une
+EXP34 TECH O
+fois par an, la configuration de l’annuaire centralisé.
+Maîtriser l’accès au système
+Lorsque le système n’offre pas de mécanisme d’identification, mettre en place des
+EXP35 ORG mesures organisationnelles permettant d’identifier l’auteur des actions associées. O
+Contrôler leur application au moins une fois par an.
+DIR-39 SNSI – 2eme édition Page 65 | 79

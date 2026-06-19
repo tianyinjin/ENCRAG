@@ -1,0 +1,48 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 7 : SECURITE DES INFORMATIONS ET SUPPORTS CLASSIFIES
+7.1
+TOUT AU LONG DE LEUR CYCLE DE VIE
+(cid:3)
+L’élaboration d’un ISC de niveau Très Secret se fait impérativement en zone réservée (ZR)
+(cf. fiche 5.1). Il est recommandé d’élaborer des ISC de niveau Secret au sein d’une zone
+protégée (cf. IGI 1300 – 5.3.1.1).
+3. Cas particuliers
+o Classification de l’objet du document(cid:3): par principe, l’objet d’un document classifié
+est lui-même classifié (au même niveau que le document) sauf si son auteur en décide
+autrement.
+o Les agrégats : Un ensemble d’informations ou supports, dit parfois (cid:2) agrégat (cid:3), est
+classifié si le regroupement des informations ou supports qui le composent le justifie,
+alors même qu’aucun de ses éléments, pris isolément n’est classifié. Un agrégat d’ISC
+peut également être classifié à un niveau supérieur à celui des ISC qu’il contient.
+Tout agrégat (pages, paragraphes, annexes, appendices, pièces jointes) contenant des
+informations classifiées à des niveaux différents est classifié lui-même au niveau le plus
+élevé des informations qu’il contient.
+o Les documents composites(cid:3): Lorsqu’un document comprend diverses parties, les unes
+nécessitant une classification, les autres non, il convient de s’efforcer de préciser le
+niveau de classification en marge face aux parties ou paragraphes qu’il couvre (cf.
+modèle dans IGI 1300 annexe 36). Cela revient à marquer entre crochets en tête de
+paragraphe le niveau de protection de l’information166:
+(cid:3)(cid:3)[S-SF] texte du paragraphe.
+[NP] texte du paragraphe.(cid:3)(cid:2)
+Si une partie complète du document présente un niveau de protection homogène
+alors la mention de protection est située au début du titre de la partie(cid:3):
+(cid:2)(cid:3)[S-SF] texte du titre.
+Texte des paragraphes.(cid:3)(cid:3)
+Pour faciliter la manipulation de ces documents, le bon sens recommande, lorsque
+cela est possible, d’isoler sur des pages particulières les informations d’un même
+niveau.
+La diffusion des paragraphes non classifiés ou des paragraphes d’un niveau de
+classification inférieur est rendue possible par extraction des éléments non classifiés
+ou en rendant illisibles, de manière irréversible, les paragraphes classifiés ou classifiés
+au niveau supérieur.
+Le niveau de classification des informations (notices, plans, etc.) concernant un
+matériel peut être différent du niveau de classification de ce dernier.
+Un extrait d’information classifiée conserve le niveau de classification de l’information
+elle-même, à moins que le chef d’organisme de l’auteur du document n’en décide
+autrement. En l’absence d’indication contraire, la diffusion séquentielle d'extraits non
+classifiés par découpage de l'information classifiée est interdite. Lorsque des extraits
+(cid:3)
+166 En l’absence de ce marquage, l’information est considérée classifiée au niveau du document. En
+particulier, en l’absence de ce marquage, l’objet d’un document classifié est lui-même réputé classifié au
+même niveau que le document.
+180

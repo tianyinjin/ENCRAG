@@ -1,0 +1,27 @@
+(c) Réalité « augmentée ».
+(8) Traitement du flux d’information : mise en place d’outils automatisés
+capables :
+(a) d’alerter l’opérateur d’un changement dans la situation surveillée ;
+(b) d’aider à l’interprétation et à l’élaboration du renseignement.
+c. Évolution du segment liaison.
+(9) Réserver les fréquences : préparer le changement de bande de Ku vers Ka
+pour les liaisons satellitaires.
+(10) Limiter ou gérer la dépendance aux moyens de communication (notamment
+satellitaires).
+(11) Durcir et crypter les liaisons, en particulier pour se prémunir contre les
+tentatives d’intrusion, de brouillage, de prise de contrôle par un tiers, etc.
+(attention à l’interopérabilité).
+(12) Optimiser la bande passante : gestion dynamique de la bande passante, car
+elle n’est pas utilisée à 100% du temps (les ordres de pilotage simples et le
+suivi du vecteur consomment très peu de bande passante alors que la vidéo
+en temps réel en consomme beaucoup : compression des données et
+prétraitement des images).
+(13) Travailler la discrétion des liaisons principalement pour drones d’attaque
+(antennes directionnelles, compressions des messages, transmissions
+LASER, etc.).
+(14) Partage et gestion dynamique des ressources notamment satellitaires dans
+les cadres nationaux / OTAN / UE / bilatéral). Une attention particulière sera
+portée sur la préservation de la souveraineté et de l’indépendance nationale
+en la matière.
+(15) Rechercher d’autres types de transmissions (LASER par exemple).
+56

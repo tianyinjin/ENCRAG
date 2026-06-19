@@ -1,0 +1,45 @@
+ANNEXE V
+EFFET THERMIQUE SUR L’ELECTRONIQUE EMBARQUEE
+L’agression thermique des composants électroniques à distance par une onde électromagnétique est
+évoquée ici à travers un exemple dimensionnant, afin de donner des ordres de grandeur et d’expliquer
+ainsi les raisons qui poussent à écarter cette approche pour traiter la menace des essaims de drones.
+On considère une carte électronique classique : d’une surface de 100 cm² (10x10 cm) consommant
+100 W qui doivent être évacués vers l’extérieur pour assurer son bon fonctionnement (c’est
+particulièrement critique pour les points chauds de la carte : gros boitiers FPGA,BGA par exemple).
+Pour parvenir à évacuer ces 100 W de chaleur, la carte peut utiliser la convection (dans l’air, par
+exemple au moyen de radiateurs sur les gros boîtiers), la conduction (la carte peut renvoyer la chaleur
+vers la carcasse du drone), le rayonnement. Profitant de la vitesse du drone, la convection sera le mode
+principal, ce qui conduira à intégrer au design des entrées d’air qui seront autant d’accès pour les ondes
+électromagnétiques. Sur cette base de 1 W/cm², on peut raisonnablement considérer que les boîtiers
+électroniques n'ont pas de marge thermique. Donc, si l'arme apporte une contribution thermique de la
+classe des 1W/cm² pendant 1 s318, les jonctions électroniques vont « brûler » car le drone sera privé de
+sa convection « naturelle ».
+Pour apporter 1 W/cm² pendant 1 seconde à 1 km (c’est-à-dire déposer 1 Joule à la surface du boîtier),
+trois armes peuvent être considérées, à titre d’exemple :
+- Une arme de 10 TRW avec une durée d’impulsion de 100 ns, répétable toutes les ms : la densité
+de puissance est de 106 W/m², le champ électrique de 20 000 V/m, la chaleur déposée de 10 J.
+L’électronique embarquée est immédiatement détruite par le champ électrique appliqué, et en 1s
+par l’effet thermiquement : l’effet thermique est bien au rendez-vous mais il est postérieur à la
+destruction par surtension.
+- Une arme de 10 GW avec une durée d’impulsion de 100 µs, répétable toutes les ms : la densité de
+puissance est de 103 W/m², le champ électrique de 700 V/m, la chaleur déposée de 10 J. Il n’y a
+pas de destruction par le champ électrique mais l'électronique "brûle » après 1 seconde
+d'illumination. Il faut une onde de 100 µs/ms pour 10 J déposés, de 10 µs/ms pour 1 J déposé ; par
+ailleurs, il faut rester 1 seconde sur la cible. Pour y parvenir, il faudrait assembler
+10 000 modules GaN environ, soit une antenne carrée de 5mx5m, ce qui semble déraisonnable à
+bien des points de vue.
+- Une arme d’une puissance de 10 MW (équivalent du Leonidas d’Epirus Inc) avec une durée
+d’impulsion de 100 µs, répétable toutes les ms : la densité de puissance est de 1 W/m², le champ
+électrique de 20 V/m, la chaleur déposée de 0,01 J. L’électronique reste intacte, même en onde
+continue (CW).
+On le voit, l’effet thermique est soit postérieur à l’effet de surtension, soit obtenu au prix d’installations
+énormes et couteuses qui ne sont ni réalistes ni matures. Il est donc sans intérêt au titre de cette étude.
+A noter, qu’à travers une structure en fibre de verre époxy, un laser à 1 µ applique rapidement un effet
+thermique sur les composants situés en arrière de la paroi traitée car ce matériau est semi-transparent
+à cette longueur d’onde. Il s’agit d’un cas trop particulier pour être exploité (drone confectionné dans ce
+matériau et électronique critique derrière la tâche laser) ; cependant, ce phénomène peut expliquer la
+chute plus rapide qu’anticipée de certains drones soumis à un tir laser.
+318 Une carte électronique peut éventuellement se mettre automatiquement à l’arrêt en cas de
+surchauffe mais la brièveté de l’agression thermique ne lui en laisse pas forcément le temps et dans
+tous les cas l’objectif est atteint.
+136

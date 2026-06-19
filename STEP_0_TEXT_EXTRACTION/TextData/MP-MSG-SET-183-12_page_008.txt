@@ -1,0 +1,43 @@
+Commercial UAVs Multispectral Detection
+2.5 Acoustic detection
+As much as optical detection, the acoustic one can be done similarly using human senses – ears, and with the
+aid of technical acoustic devices.
+Acoustic detection by human senses. The series of UAV detection experiments using human ears in the
+real environment were performed in the same place, time and conditions like the Human optical detection
+was done (see above).
+The structure of these experiments was a little simplified: The UAVs were flying away from the evaluators
+who did knew the time and the direction of the flight. In a real situation, the direction of the flight would
+probably be the reverse one and acoustic observer will not exactly know the flight azimuth and altitude.
+Acoustic detection using technical devices. This set of experiments was performed in a real environment.
+The TAROT F650 quadcopter and the DJI S800E hexacopter were the representatives of the mini UAV
+category. The UAV noise was recorded by microphones. These data were post-processed and evaluated
+according to the noise level of the background.
+The experiment condition was as follows:
+• climate zone and place: temperate; Czech Republic;
+• weather and temperature: sunny, 5 °C;
+• wind speed: 4 ms-1;
+• humidity: 70%;
+• background noise level: 55 dB (measured by SONY F-V120 device);
+• UAV distance from the sensor post: 8 m;
+• UAV flight altitude: 5 m AGL;
+• flight method:
+o stabilized altitude hold (constant motor RPM);
+o manoeuvre (variable motor RPM).
+Noise data were acquired by the SONY F-V120 microphone and post-processed in MATLAB r2011a.
+During post processing, data were transformed from time to frequency domain.
+3.0 RESULTS
+The main aim of the previous experiments, related study and then this paper was to verify, clarify, and
+summarize the real-time detection of commercial drones. Real-time UAV detection is essential for possible
+counter-action or elimination. Human senses without technical devices are the least effective method of
+detection. However, in a terminal phase of UAV flight, human senses are usually the main means for
+weapon aiming and drone elimination.
+The first detection sentinel line is usually executed by X-band radars, which can provide early warnings. The
+effectivity of this kind of system significantly depends on the skills and training of radar operators’ crew.
+However, the availability and usage of radar are limited, and radars are used mostly by military or air traffic
+control organizations. At present, several studies about those methods have been published, and the research
+is in progress [33], [34], [35], [36].
+The average RCS of the evaluated UAVs was in the range from 0.05 to 0.2 m2 (in certain directions, the
+value of the RCS peak was 0.5 - 0.75 m2). Measured values correlate with values from similar experimental
+measures [37].
+Fig 14 represents the illustrational example of RCS directional diagram.
+12 - 8 STO-MP-MSG-SET-183

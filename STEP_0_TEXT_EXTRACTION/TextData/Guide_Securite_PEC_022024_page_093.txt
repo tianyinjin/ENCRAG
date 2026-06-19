@@ -1,0 +1,14 @@
+POLE D'EXCELLENCE CYBER
+Si le mot de passe est correct, le containeur est monté en tant qu’un lecteur local
+(disque dur) sous la lettre que vous avez choisie 55. Il est visible, par exemple, dans
+le gestionnaire de fichiers. Vous pouvez l’ouvrir comme un simple disque dur et y
+déposer des fichiers que vous voulez protéger :
+55
+Lorsque vous avez fini de vous servir de votre containeur, n’oubliez pas de le
+démonter. Pour cela rendez-vous sur l’interface principale de VeraCrypt, sélec-
+tionnez votre conteneur dans la liste, puis cliquez sur le bouton Démonter 66 :
+66
+Si vous voulez supprimer le conteneur créé, il suffit de supprimer le fichier correspon-
+dant puis de vider la corbeille. Cependant, toutes les données qu’il contenait seront
+supprimées également.
+93

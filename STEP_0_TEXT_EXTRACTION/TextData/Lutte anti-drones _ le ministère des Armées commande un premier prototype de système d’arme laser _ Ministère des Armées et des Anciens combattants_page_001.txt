@@ -1,0 +1,41 @@
+Lutte anti-drones : le ministère des Armées commande un... https://www.defense.gouv.fr/dga/actualites/lutte-anti-dron...
+Drupal\Core\EventSubscriber\MainContentViewSubscriber->onViewRenderArray()
+call_user_func() (Line: 111)
+Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch() (Line: 18
+Symfony\Component\HttpKernel\HttpKernel->handleRaw() (Line: 76)
+Symfony\Component\HttpKernel\HttpKernel->handle() (Line: 53)
+Drupal\Core\StackMiddleware\Session->handle() (Line: 48)
+Drupal\Core\StackMiddleware\KernelPreHandle->handle() (Line: 28)
+Drupal\Core\StackMiddleware\ContentLength->handle() (Line: 201)
+Drupal\page_cache\StackMiddleware\PageCache->fetch() (Line: 138)
+Drupal\page_cache\StackMiddleware\PageCache->lookup() (Line: 87)
+Drupal\page_cache\StackMiddleware\PageCache->handle() (Line: 53)
+Asm89\Stack\Cors->handle() (Line: 50)
+Drupal\ban\BanMiddleware->handle() (Line: 48)
+Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle() (Line: 51)
+Drupal\Core\StackMiddleware\NegotiationMiddleware->handle() (Line: 36)
+Drupal\Core\StackMiddleware\AjaxPageState->handle() (Line: 51)
+Drupal\Core\StackMiddleware\StackedHttpKernel->handle() (Line: 741)
+Drupal\Core\DrupalKernel->handle() (Line: 19)
+Lutte anti-drones : le ministère des Armées
+commande un premier prototype de
+système d’arme laser
+Innovation
+Direction : DGA / Publié le : 16 juin 2022
+•
+La Direction générale de l’armement (DGA) a notifié le 8 juin 2022 le marché L2AD
+(Laser de lutte anti-drones) à la société CILAS. Il prévoit notamment l’acquisition
+d’un prototype opérationnel de système laser capable d’identifier, poursuivre et
+neutraliser des mini et micro drones.
+•
+D’un montant maximum de 10 millions d’euros, le marché L2AD s’inscrit dans le
+cadre du programme « Lutte anti-drones » conduit par la DGA.
+•
+Conformément à la Loi de programmation militaire (LPM) 2019-2025, la lutte anti-
+drone est une priorité du ministère des Armées, qui se dote d’équipements pour
+contrer les drones ennemis, afin notamment de renforcer la protection des sites
+militaires sensibles et des opérateurs d’importance vitale.
+•
+Le marché L2AD vise à déployer ce prototype aux Jeux olympiques et
+paralympiques 2024. Un marché d’étude assurera en parallèle la montée en maturité
+9 of 14 2/4/26, 17:08

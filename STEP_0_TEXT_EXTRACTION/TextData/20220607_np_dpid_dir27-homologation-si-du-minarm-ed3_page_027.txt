@@ -1,0 +1,42 @@
+Démarche d’homologation d’un SIIV
+RO 28 : il est OBLIGATOIRE de mener une démarche d’homologation de type standard pour
+homologuer un SI déclaré d’importance vitale. Toute dérogation à cette règle nécessite
+l’autorisation formelle du FSSI.
+L’AH du SI est l’opérateur d’importance vitale (OIV), sauf cas particulier précisé dans la règlementation
+interministérielle ou ministérielle (cf. par exemple §6.11). S’il n’est pas l’AH du SI, il est membre de droit
+de la commission d’homologation. L’opérateur est identifié dans la stratégie d’homologation.
+Le périmètre d’homologation définit les activités remises en cause en cas de dysfonctionnement ou
+d’atteinte à la sécurité numérique du SI ainsi que les fonctionnalités qui les portent.
+Les exigences de sécurité à appliquer, c’est-à-dire le socle de sécurité, contiennent nécessairement les
+règles définies par [SIIV]. Toute non-conformité à ces règles est dûment justifiée dans le dossier
+d’homologation.
+La démarche d’homologation comprend nécessairement un audit d’homologation dont les résultats et
+les actions qui en découlent sont étudiées lors de la commission d’homologation.
+Des indicateurs de sécurité prévus par [SIIV] sont élaborés au cours de la démarche d’homologation et
+présentés à l’AH. Ils doivent permettre d’évaluer le niveau de sécurité du SI dont :
+● le MCS du SI ;
+● l’avancement de la démarche d’homologation ou de son renouvellement ;
+● l’avancement du PACS mis en place.
+Au-delà des documents correspondant à une démarche standard (cf. ANNEXE 1), le dossier
+d’homologation contient en outre :
+● le formulaire de déclaration en SIIV ainsi que les pièces le justifiant, dont l’analyse
+d’impacts ;
+● la liste des indicateurs de sécurité et les modalités pour les déterminer.
+Décision d’homologation d’un SIIV
+En plus des éléments classiques à prendre en compte (cf. §5.1) pour statuer sur l’homologation du SI,
+l’AH doit aussi prendre en considération :
+● la gestion des incidents ;
+● la gestion de crise en cas d’attaques informatiques majeures ;
+● les indicateurs de sécurité ;
+● les rapports de sécurité prévus par [SIIV].
+La durée de validité de l’homologation d’un SIIV non classifié est au maximum de 5 ans. En cas de SIIV
+classifié, elle dépend de son niveau de classification (cf. §5.3).
+La décision et le dossier d’homologation sont à la disposition de l’agence nationale de la sécurité des
+systèmes d’information (ANSSI).
+Il est rappelé que la décision d’homologation et le dossier d’homologation sont « des documents
+confidentiels susceptibles de contenir des informations dont la révélation est réprimée par les
+dispositions de l’article 226-13 du code pénal. Il est, le cas échéant, couvert par le secret de la défense
+nationale. » [SIIV]
+La mention qu’un SI est SIIV est considérée a minima comme une information de niveau DIFFUSION
+RESTREINTE SPÉCIAL FRANCE.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 25/47

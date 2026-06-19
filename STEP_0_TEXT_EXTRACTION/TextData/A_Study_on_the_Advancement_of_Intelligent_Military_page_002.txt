@@ -1,0 +1,40 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+FIGURE1. Engineeringresearchonintelligentdronesincivilianapplications.
+canautonomouslymakedecisionsaboutattacksontheirown, broadlycategorizedintotwotypes.Thosecenteredonengi-
+butratherhowtheycanprovideinformationtoassisthumans neeringandthosethatarenot.Thelattertypeincludespapers
+inmakingthefinaldecisionregardinganattack.Theseethical discussing policies, military strategies, and ethics related to
+issues are related to human responsibility and the role of intelligentmilitarydrones.Therearediverseopinionsinthese
+machines. papersregardingmilitaryintelligentdrones.Fromanegative
+Giventhesemilitaryconsiderations,theresearchontheau- viewpoint, concerns are raised about ethical issues, the un-
+tonomousmilitarydronesandciviliandronesshouldprogress predictability of AI, military ethics, and stability problems
+with different concepts. Research on military intelligent [11]. Conversely, from a positive perspective, some argue
+dronesisactivelyunderway,butunlikecivilianresearch,most thatintelligentdrones,whenusedappropriately,canbemore
+ofitisnotinthepublicdomain.Therefore,thisstudyhasthe objective and ethical in performing tasks than humans, who
+followingobjectives. might be influenced by emotions such as revenge or anger
+• First,thestudyexaminestheconceptsofintelligentmil- [12]. Regarding making attack decisions with drones, many
+itary drones, considering the special nature of military papers recommend that humans should be the ones to make
+operations. thefinaldecision.Yet,someadvocatethatdronescouldinde-
+• Second,weconductacasestudyonvariousissuesthat pendently make such decisions if equipped with an ethical
+arise in this field, viewing them from an engineer’s system [13]. While these papers provide a comprehensive
+perspectiveanddiscussingtheintuitionderivedfromthe overview of various aspects of military intelligent drones,
+casestudy. they often lack an in-depth engineering perspective on how
+toenhancetheintelligentcapabilitiesofthesedrones.
+On the other hand, papers on intelligent military drones
+II. LITERATUREREVIEW
+Intelligent drones integrate artificial intelligence technolo- from an engineering perspective in the military domain are
+gies to be autonomous and optimize drone functions and few[14],[15]andoftenlacksufficientreflectionofmilitary
+operations.Thesedronespossesscapabilitiesbeyondsimple specificity.Incontrast,researchontheintelligenceofcivilian
+remote control, being able to sense their environment and drones is progressing, as illustrated in Figure 1, which we
+respondautonomouslytoperformvarioustasks.Studiesare have personally compiled and summarized. From this point
+ongoingtoutilizetheseadvancedfunctionalities,butpublicly on,thereviewwillbebasedonFigure1.
+accessibleinformationislimited.Inmilitarydocumentation • The applications of artificial intelligence in civilian
+that is available to the public, especially regarding mixed drones are being researched for drones equipped with
+mannedandunmannedsystems,intelligentdronesareoften sensorsandsystemssuchasElectro-Optics(EO),Infra-
+mentioned as one player among many [4], [5], [6], [7], [8], Red (IR), Laser Range Finder (LRF), Light Detection
+[9],[10].Thismeansthatthediscussionisn’tfullyfocusedor and Ranging (LiDAR), Radio Detection And Ranging
+detailedspecificallyonmilitarydrones. (RADAR),GlobalNavigationSatelliteSystem(GNSS),
+Papers focusing on intelligent military drones can be InertialMeasurementUnit(IMU),Ultrasound,andSyn-
+2 VOLUME11,2023
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

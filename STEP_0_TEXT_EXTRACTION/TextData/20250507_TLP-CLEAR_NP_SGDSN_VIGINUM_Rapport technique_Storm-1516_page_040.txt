@@ -1,0 +1,75 @@
+TLP:CLEAR
+q
+- [T0083] Integrate Target Audience Vulnerabilities - [T0100] Co-Opt Trusted Sources
+into Narrative
+- [T0100.001] Co-Opt Trusted Individuals
+[TA06] Develop Content
+- [T0100.003] Co-Opt Influencers
+- [T0023] Distort Facts
+[TA07] Select Channels and Affordances
+- [T0023.001] Reframe Context
+- [T0104] Social Networks
+- [T0084] Reuse Existing Content
+- [T0104.001] Mainstream Social Networks
+- [T0084.002] Plagiarise Content
+- [T0104.004] Interest-Based Networks
+- [T0085] Develop Text-Based Content
+- [T0105] Media Sharing Networks
+- [T0085.001] Develop AI-Generated Text
+- [T0105.001] Photo Sharing
+- [T0085.002] Develop False or Altered Documents
+- [T0105.002] Video Sharing
+- [T0085.003] Develop Inauthentic News Articles
+- [T0106] Discussion Forums
+- [T0086] Develop Image-Based Content
+[TA08] Conduct Pump Priming
+- [T0086.003] Deceptively Edit Images (Cheap Fakes)
+- [T0042] Seed Kernel of Truth
+- [T0087] Develop Video-Based Content
+- [T0045] Use Fake Experts
+- [T0087.001] Develop AI-Generated Videos
+[TA09] Deliver Content
+(Deepfakes)
+- [T0116] Comment or Reply on Content
+- [T0088] Develop Audio-Based Content
+- [T0116.001] Post Inauthentic Social Media
+- [T0088.001] Develop AI-Generated Audio
+Comment
+(Deepfakes)
+- [T0117] Attract Traditional Media
+[TA15] Establish Social Assets
+[TA17] Maximize Exposure
+- [T0013] Create Inauthentic Websites
+- [T0039] Bait Influencer
+- [T0090] Create Inauthentic Accounts
+- [T0049] Flood Information Space
+- [T0090.001] Create Anonymous Accounts
+- [T0049.007] Inauthentic Sites Amplify News and
+- [T0093] Acquire/Recruit Network
+Narratives
+- [T0093.001] Fund Proxies
+- [T0118] Amplify Existing Narrative
+[TA16] Establish Legitimacy
+- [T0119] Cross-Posting
+- [T0009] Create Fake Experts
+- [T0119.002] Post across Platform
+- [T0097] Create Personas
+[TA11] Persist in the Information Environment
+- [T0097.001] Produce Evidence for Persona
+- [T0060] Continue to Amplify
+- [T0098] Establish Inauthentic News Sites
+- [T0128] Conceal Information Assets
+- [T0098.001] Create Inauthentic News Sites
+- [T0128.001] Use Pseudonyms
+- [T0098.002] Leverage Existing Inauthentic News
+- [T0128.004] Launder Information Assets
+Sites
+- [T0129] Conceal Operational Activity
+- [T0099] Impersonate Existing Entity
+- [T0129.006] Deny Involvement
+- [T0099.003] Impersonate Existing Organisation
+- [T0129.007] Delete Accounts/Account Activity
+- [T0099.004] Impersonate Existing Media Outlet
+- [T0129.009] Remove Post Origins
+- [T0099.005] Impersonate Existing Official
+40 TLP:CLEAR

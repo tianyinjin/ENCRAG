@@ -1,0 +1,43 @@
+Assuring Trustworthy Computer Vision For Rapid Counter-Drone
+System Testing And Deployment
+Stanimir Arnaudov, Peter A. Chua, Thomas Mühlenstädt, Hanwool Park
+Resaro
+Törringstraße 22, 81675 München
+GERMANY
+peter.chua@resaro.ai, thomas.muehlenstaedt@resaro.ai, hanwool.park@resaro.ai
+ABSTRACT
+Computer vision (CV) is increasingly deployed across NATO militaries for critical defense tasks like
+drone detection and classification, drone tracking, and terminal guidance. This continues to revolutionize
+military operations on the battlefield, offering a new way to keep up with overwhelming adversary
+capabilities in low-cost drones employed en masse, amidst the complexities of modern urban warfare,
+declining manpower, and an overwhelming influx of imagery sources. Recent advancements in CV
+including more performant models with larger training datasets, and increased edge computing capacity
+on sensor platforms, have lowered the barrier to entry for automation. However, ethical considerations,
+legal responsibilities, and the critical human element in targeting decisions remain paramount. This
+creates a new bottleneck: humans’ ability to vet and further investigate model outputs, necessitating
+highly precise and accurate models that can support military operators without overwhelming them with
+information.
+Ensuring the reliability of CV models through robust Testing, Evaluation, Verification, and Validation
+(TEVV) is paramount for effective deployment. However, the limited generalization of classical CNNs
+across diverse real-world conditions hinders scalability. Current TEVV methods, including public
+benchmarks, often lack relevance for specific counter-drone applications and imagery, while bespoke
+testing is resource-intensive. Bridging the gap between governance, operational, and technical
+requirements is crucial for scaling CV in defense. Therefore, ensuring CV models scale for defense and
+security users requires designing routine structures and processes that would bridge the gap between
+governance, operational, and technical requirements.
+To address these issues, we propose an assurance framework tailored for mission-oriented, high-risk
+drone defense CV systems for electro-optical and infra-red imagery. This framework lays out the criteria
+to create robust internal reference datasets and quantify their properties, including an approach to qualify
+hard-to-detect targets, and introduces comprehensive pre-deployment testing checklists for CV models.
+Some examples of actual implementation will be shown, as well as how highly contextualized, use-case
+specific internal benchmarks can be developed to compare models in a standardized manner. Overall, this
+framework aims to simplify and scale automated testing, identifying weak performance spots, and
+providing decision-makers with clear go/no-go criteria for deploying CV models, ultimately bridging the
+testing gap and fostering trust in these critical technologies. It will also enhance interoperability through
+providing a common frame of reference across like-minded defense agencies evaluating performance on
+perception software used in counter-drone solutions, and facilitating information-sharing.
+1.0 INTRODUCTION
+Computer Vision (CV) is a field of study relating to how computers can understand and analyze information
+from the environment using visual data such as images and videos, across a wide range of imaging
+techniques and platforms including electro-optical, thermal, and radar sensors. Over the past decade, CV has
+STO-MP-IST-210 1A.03 - 1

@@ -1,0 +1,56 @@
+L’évolution des budgets de la cybersécurité
+Comme nous l’avons évoqué, les budgets informatique et cybersécurité sont évidemment liés au secteur d’activité. Ainsi pour les
+entreprises de la base technologique de défense (BITD), les OIV & les OSE ou les entreprises très innovantes, ceux-ci sont plus
+élevés.
+Gains de temps, de productivité, amélioration des processus, conservation des bases de données, ce que nous apportent l’utilisation
+de nos outils et de nos services informatiques au quotidien reste certes difficilement quantifiable. Cela est encore plus vrai pour ce
+qui concerne la cybersécurité, car celle-ci recouvre un nombre important de technologies très variées qui répondent toutes ou partie
+à un panel de besoins de sécurité. Quant à investir dans la sécurité c’est un peu comme étendre son portefeuille d’assurances, c’est
+obligatoire mais on ne sait jamais à l’avance à quoi cela servira.
+Depuis les années 2000, de nombreuses contraintes réglementaires et sécuritaires se sont imposées aux organisations, à leurs
+fournisseurs (qui doivent maintenant, par exemple, gérer RGPD1 pour leurs clients), ainsi que des normes (ISO 27000, 22301, pour
+ne citer qu’elles, CEN, AFNOR), des certification aussi, pour les auditeurs et les consultants, quasiment toutes états-uniennes ( de
+l’ISC² 2, CISSP3 et SSCP4 , de l’ISACA, les CISA5 , CISM6 , CRISC7 , CDPSE8 , CGEIT9 et CSX-P10 , de l’EC-Council, le CEH11 , du
+GIAC12 , les GSEC13 , GISF14 & GCIH15 , ou du CompTIA Security+, le CASP+16 , de l’OSCP17 , ou du PCI18 , etc.) et parfois imposée
+aux prestataires lorsqu’ils travaillent pour des multinationales ou des clients anglo-saxons, de nombreux modules de formations
+construits à partir du référentiel du NIST19 par le SANS Institute qui avait été créé dès 1989, auxquels la plupart des organisations
+inscrivent leurs personnels. Citons aussi l’Agence Nationale de la Sécurité des Systèmes d’Information, l’ANSSI, en France qui
+propose des certifications de premier niveau aux entreprises (CSPN20 ), et de remarquables formations dans son centre de formation
+à la sécurité des systèmes d’information (CFSSI) aux personnels des administrations.
+L’évolution de l’architecture dans les organisations : L’évolution du tout hébergé vers le tout externalisé
+Les années 2000 connaissent l’avènement de l’ère de l’informatique industrielle, des systèmes relativement rudimentaires mais
+robustes basés sur la sûreté de fonctionnement. Des développements spécifiques, des adaptations dites « maison » sont réalisées
+pour chaque secteur d’activité, pour chaque organisation, selon les besoins des utilisateurs. Le but est alors que les chaines de
+production fonctionnent bien, les données sont traitées en silos, hébergées sur le site du client, sur ses machines (on-premise dit-
+on), souvent isolées dans une salle serveurs dédiée. Il existe parfois des interfaces entre plusieurs entités, des problèmes cyber
+apparaissent ça-et-là, mais cela n’arrive qu’aux autres... Dès 1999 le grand Progiciel de Gestion Intégré, PGI, ou Enterprise Resource
+Planning en anglais, ERP, Salesforce débutait son activité et proposait déjà ses services en mode logiciel en tant que service,
+Software as a Service (SaaS).
+Autour de 2010, des outils spécifiques parfois développés au sein même des structures font place à des produits sur étagères, qui
+sont paramétrables et mis à jour, l’ère de la sous-traitance est née. Les bases de données permettent de mutualiser des données
+entre plusieurs utilisateurs issus de départements différents, qui utilisent des outils différents, l’interopérabilité arrive. Toutefois,
+malgré ces avancées, des matériels et des logiciels plus anciens et tout nouveaux cohabitent, ce qui accentue la dette technique.
+L’industrie devient alors une cible de choix, surtout pour les concurrents multinationaux souvent aidés par les États qui les portent.
+1 Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, relatif à la protection des personnes physiques à l’égard du
+traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la
+protection des données).
+2 International Information Systems Security Certification Consortium.
+3 Certified Information Systems Security Professional.
+4 SSCP - Systems Security Certified Practitioner.
+5 CISA - Certified Information Systems Auditor.
+6 CISM Certified Information Security Manager.
+7 CRISC Certified in Risk and Information Systems Control.
+8 CDPSE Certified Data Privacy Solutions Engineer.
+9 CGEIT Certified in Governance of Enterprise IT.
+10 CSX Cybersecurity Practitioner (CSX-P) certification.
+11 Certified Ethical Hacker.
+12 Global Information Assurance Certification.
+13 GIAC Security Essentials GSEC.
+14 GIAC Information Security Fundamentals GISF.
+15 GIAC Certified Incident Handler Certification GCIH.
+16 CASP+ CompTIA Advanced Security Practitioner Certification Plus.
+17 OSCP OffSec Certified Professional.
+18 PCI Security Standards Council.
+19 National Institute of Standards and Technology, qui définit les standards aux États-Unis : https://www.nist.gov/cyberframework
+20 Certification de sécurité de premier niveau.
+26

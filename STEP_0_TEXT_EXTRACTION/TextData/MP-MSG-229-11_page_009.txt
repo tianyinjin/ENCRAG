@@ -1,0 +1,48 @@
+Orchestrating Manned-Unmanned Missions
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S
+Table 2: Manned and Unmanned Assets Capabilities and Specifications.
+Agent Capabilities Known Specification
+UAV Navigation, target detection Model: Camcopter S-100, Speed: 102 km/h, Autonomy: 6 hours,
+and identification, signal Energy: 240 kWh, Range: 612 km, Max Speed: 185 km/h, Motor
+jamming detection, Power: 40 kW, Energy Consumption: 240 kWh at typical speed.
+communications interception,
+intelligence collection
+UUV Subsea patrol, tampering Model: Iver 3 AUV, Speed: 4.63 km/h, Autonomy: 8 hours,
+detection, enemy UUV Energy: 0.8 kWh, Range: 37.04 km, Max Speed: 7.408 km/h,
+interception Motor Power: 0.1 kW, Energy Consumption: 0.8 kWh at typical
+speed.
+Submarine Sonar detection, counterattack Model: Boston Whaler 350, Speed: 48.28 km/h, Max Speed:
+and interception, diver 91.89 km/h, Motor Power: 895 kW, Energy Consumption: Range
+deployment depends on speed.
+Frigate Surface surveillance, anti- Model: HMCS Halifax-Class, Speed: 27.78 km/h, Autonomy:
+submarine warfare (ASW), 1583.33 hours, Energy: 30,000 km, Range: 18,322.48 km, Max
+anti-surface warfare (ASuW), Speed: 55.56 km/h, Motor Power: 240 kW, Energy Consumption:
+anti-air warfare (AAW), UAV 4715 kW (estimated). / 2nd Submarine used Model: Akula-Class,
+and RHIB deployment. Speed: 46.3 km/h, Max Speed: 61.116 km/h
+RIHB Fast deployment, personnel Model: Boston Whaler 350, Speed: 48.28 km/h, Autonomy: N/A,
+extraction, rapid interdiction, Energy: N/A, Range: N/A, Max Speed: 91.89 km/h, Motor Power:
+anti-sabotage operations, 895 kW, Energy Consumption: Range depends on speed.
+manned
+3.3 Dynamic Tasking of MUM-T in MDO
+The algorithm presented here addresses a dynamic, energy-constrained decision-making problem for
+autonomous agents operating in complex environments. The agent, modeled with capabilities for target
+detection, observation, and engagement, is tasked with navigating towards a final destination while
+optimizing energy consumption. The system operates by reading a JSON configuration file, which details the
+agent’s energy levels, capabilities, and environmental factors such as observation and engagement range.
+The agent’s reasoning process is driven by continuous updates of its energy state, simulating time
+progression and movement through a series of predefined positions determined during mission planning. As
+the agent moves, it computes the energy required to reach subsequent positions or the final destination,
+adjusting its route if it detects insufficient energy to proceed. At each decision point, the algorithm checks
+whether the agent’s current energy level is adequate for reaching the target positions, considering both
+observation and engagement capabilities. If the agent’s energy falls below the required threshold to reach the
+final destination, it reassesses its route, discarding positions that are unreachable. If the agent has enough
+energy to proceed, it makes decisions based on the optimal route and energy consumption. This decision-
+making is extended to multi-agent scenarios, where the algorithm allows for the sharing of information
+regarding target observations and the assignment of tasks based on the least energy-expensive agent. In cases
+where observations are unreachable by any agent, they are flagged and excluded from the task list. The
+algorithm’s ability to dynamically adjust to changing energy levels and environmental conditions, while
+considering agent capabilities and task prioritization, showcases its potential for real-time, energy-efficient
+decision-making in autonomous systems and MUM-T coordination.
+In order to break down the nodes present in the decision-tree for the tasking model, here are the variable
+names and descriptions: i) kWh: Energy levels (initial and maximum) in kilowatt-hours (kWh),
+STO-MP-MSG-229 11 - 9

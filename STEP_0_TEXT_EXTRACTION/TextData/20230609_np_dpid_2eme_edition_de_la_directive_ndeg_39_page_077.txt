@@ -1,0 +1,30 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Intégrer dans les plans de reprise et de continuité d’activité les cyberattaques et
+CONT6 ORG tout incident remettant en cause l’intégrité du système industriel (infection virale C R O
+par exemple).
+Tester le plan de reprise et de continuité d'activité selon une fréquence adaptée
+CONT7 ORG aux besoins de disponibilité. La fréquence est définie dans les procédures O
+d’exploitation de sécurité (PES).
+Archiver les outils numériques et données nécessaires à une réinstallation. Ces
+CONT8 ORG archives doivent bénéficier d’une protection en intégrité, disponibilité et O
+confidentialité.
+Intégrer dans les procédures d’intervention un mode d’urgence (« procédure bris
+de glace ») pour pouvoir intervenir rapidement en cas de besoin sans dégrader
+CONT9 ORG R O O
+significativement le niveau de cybersécurité du système industriel. En particulier,
+cette procédure d’urgence ne devrait pas affecter la traçabilité des interventions.
+Insérer dans l’analyse de risques les fonctionnalités liées aux modes d’urgence
+CONT10 ORG R R O
+initialement prévus dans le projet ou les réglementations.
+Mettre en place des moyens de détection et de réaction
+Mettre en place des moyens de détection d’intrusion en périphérie des systèmes
+et sur les points identifiés comme critiques qui comprennent notamment :
+- les interconnexions entre des systèmes distants ;
+- les interconnexions des systèmes de télégestion* ;
+INC1 TECH - les interconnexions entre le SI de gestion et le SI industriel ; C R O
+- les points de connexion spécifiques vers l’extérieur (WiFi industriel par exemple)
+;
+- le réseau fédérateur de postes de supervision industriel (SCADA*) ;
+- les réseaux d’automates* jugés sensibles.
+INC2 ORG Utiliser des moyens de détection labellisés. C R O
+DIR-39 SNSI – 2eme édition Page 77 | 79

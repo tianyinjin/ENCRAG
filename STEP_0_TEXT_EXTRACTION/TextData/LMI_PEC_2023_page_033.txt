@@ -1,0 +1,60 @@
+33
+les méthodes de détection automatisée des bots données d’entraînement . Enfin, la complexité de ces
+sociaux s’appuient généralement sur une ou plusieurs modèles de détection et la faible explicabilité de leurs
+dimensions d’un compte(2), parmi lesquelles : ses attributs résultats (en particulier lorsqu’ils s’appuient sur des
+(métadonnées, fréquence de publication, etc .), le contenu algorithmes de deep learning) les rendent peu accessibles
+textuel qu’il produit, et son graphe relationnel (le réseau à des chercheurs non-formés à la science de l’informatique .
+de following et followers dans lequel il s’inscrit) . Ces
+dimensions relèvent de différentes approches, et font Conclusion
+appel à différentes techniques . Tandis que les premières Il est nécessaire de construire des outils permettant
+dimensions relèvent d’une approche individualisée aux chercheurs spécialistes du « terrain numérique »
+(« account-based ») de la détection de bots, la dernière d’identifier des bots sociaux au sein de bases de
+s’inscrit dans une approche relationnelle (« group- données massives . Du côté des analystes, un travail
+based ») . Par ailleurs, si toutes ces dimensions requièrent d’adaptation aux outils automatisés doit être réalisé ;
+de faire appel à des algorithmes de classification, en parallèle, un travail d’explicabilité et d’accessibilité
+l’identification des bots grâce aux attributs des comptes mérite d’être conduit par les concepteurs des outils
+passe souvent par des algorithmes de machine learning afin d’assurer une synergie entre les deux domaines .
+comme Random Forest, tandis que l’identification
+des bots grâce aux publications des comptes passe
+souvent par des modèles de deep learning comme BERT
+(un modèle de NLP - Natural Language Processing)
+Avantages et inconvénients des méthodes
+automatisées
+Les méthodes automatisées sont très performantes
+en matière de détection des bots . L’évaluation réalisée
+sur le plus grand dataset de détection de bots issus de
+Twitter(2) fait ressortir certaines d’entre elles en particulier .
+Parmi les méthodes qui s’appuient sur les attributs des
+comptes, SGBot(3), qui utilise les métadonnées numériques
+et binaires des comptes (fréquence de publication, etc .),
+et DeeProBot(4), qui exploite la description textuelle des
+utilisateurs en plus de ces métadonnées, atteignent une
+précision qui avoisine 75 % . Les méthodes qui s’ appuient
+uniquement sur le contenu textuel des comptes, en
+capitalisant sur RoBERTa(5) ou T5(6), mobilisent des
+techniques de NLP pour analyser les publications et
+les descriptions (« bios ») des utilisateurs, et atteignent
+des scores de précision supérieurs à 70 % . L’étude
+de Kouvela et al .(7) mêle ces deux dimensions en
+utilisant à la fois trente attributs des comptes et leurs
+vingt derniers tweets pour entraîner un algorithme de
+classification Random Forest . BotRGCN(8), la méthode
+de détection de bots la plus performante (avec un score
+de précision de 79,7 %), combine les deux approches en
+y ajoutant une approche basée sur des graphes : elle
+mobilise les attributs des comptes, le contenu textuel,
+et génère un graphe relationnel des comptes regroupant
+les informations précédentes pour chaque utilisateur .
+Ces approches présentent néanmoins des inconvénients .
+Article rédigé en
+Les méthodes qui s’appuient sur des graphes requièrent
+collaboration avec :
+des ressources computationnelles élevées, et ont un temps
+Clément Apavou
+d’exécution plus long que les modèles de détection fondés Data Scientist, SAHAR
+sur les attributs des comptes, ce qui rend leur utilisation
+coûteuse sur de très grands datasets . Les modèles qui Gauthier Schweitzer
+Directeur Général, SAHAR
+s’appuient uniquement sur les attributs ou le contenu
+textuel des comptes manquent une partie importante
+des indicateurs disponibles, et sont très dépendants des

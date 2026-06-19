@@ -1,0 +1,37 @@
+PROTEUS
+PROTEUS
+GRANDE ANTENNE SONAR PASSIVE 2D OU 3D LARGE PASSIVE 2D OR 3D SONAR ANTENNA
+FORMÉE D’UNE ESCADRILLE D’AUVS RÉCEPTEURS MADE UP OF A SQUADRON OF AUV RECEIVERS
+DÉRIVANT EN FORMATION DRIFTING IN FORMATION
+ENJEUX CHALLENGES
+• Contrôler efficacement les meutes d’AUVs déployés par • Effectively controlling the packs of AUVs deployed in
+centaines, voire par milliers hundreds or even thousands
+• Diminuer le coût des acquisitions de données massives à la • Reducing the cost of massive data acquisition at sea
+mer • Supplying the architecture and building blocks for future 2D
+• Fournir l’architecture et les briques de base des futurs or 3D large-swathe underwater observation systems
+systèmes d’observation sous-marine 2D ou 3D à large
+fauchée
+INNOVATIONS
+INNOVATIONS • Slightly-delayed reporting of acoustic data acquired
+• Remontée en temps légèrement différé par un AUV type by the antenna’s AUV receivers using a “data mule”
+« Mule de Données » des signaux acoustiques acquis par les -type AUV to the operations centre on land
+AUVs enregistreurs de l’antenne, vers le centre opérationnel • Almost metre-precise acoustic positioning of each AUV
+à terre receiver in the water column necessary for sonar processing
+• Positionnement acoustique quasi métrique de chaque AUV (channel formation) capable of detecting and locating
+enregistreur dans la colonne d’eau rendu nécessaire pour un a contact within its listening band
+traitement sonar (formation des voies) capable de détecter et • Dynamic guidance for each AUV to maintain a constant
+de localiser un contact dans sa bande d’écoute antenna geometry despite the overall drift of the antenna
+• Guidage dynamique de chaque AUV pour conserver la in the water column
+géométrie d’antenne constante malgré la dérive globale de
+l’antenne dans la colonne d’eau
+APPLICATIONS
+APPLICATIONS • Multiple square-kilometre antenna for a UBF sonar to detect
+• Antenne de plusieurs km2 d’un sonar UBF de détection et de and locate underwater threats
+localisation de menaces sous-marines • Seismic acquisition using AUV receivers placed on the
+• Acquisition sismique mettant en œuvre des AUVs récepteurs seabed or drifting in formation in the water column, allowing
+posés sur le fond ou dérivant en formation dans la colonne geophysicists to collect their seismic data
+d’eau, permettant aux géophysiciens de récupérer leurs • Deep-sea imager by aggregating element images taken
+données sismiques by a pack of AUVs navigating in formation a few meters
+• Imageur des grands fonds par agrégation d’images above the seabed
+élémentaires prises par une meute d’AUVs naviguant en
+formation à quelques mètres au-dessus du fond

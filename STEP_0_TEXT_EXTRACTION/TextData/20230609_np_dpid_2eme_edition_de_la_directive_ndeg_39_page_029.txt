@@ -1,0 +1,25 @@
+Télémaintenance
+Action d’effectuer à distance, sous-entendu depuis l’extérieur des systèmes d’information de
+l’entité responsable, des tâches de maintenance sur des installations techniques. Ceci implique
+notamment de pouvoir faire des modifications de paramètres ou de programmes
+(lecture/écriture).
+Temps réel (dur, mou)
+On parle de mécanisme « temps réel » lorsqu’une contrainte de temps caractérise le mécanisme.
+Le terme « temps réel » a été souvent employé à tort en informatique de gestion pour identifier
+des traitements qui doivent être réalisés dans des délais contraints, pour le confort de l’utilisateur.
+On parle de temps réel dur quand les événements traités trop tardivement ou perdus provoquent
+des conséquences catastrophiques pour la bonne marche du système (perte d'informations
+cruciales, plantage, etc.). Les systèmes à contraintes dures ne tolèrent qu'une gestion stricte et
+bornée du temps afin de conserver l'intégrité du service rendu et sont toujours respectés. Pour le
+temps réel dur, sont souvent cités en exemple, les contrôles de processus industriels sensibles
+comme la régulation des centrales nucléaires ou les systèmes embarqués utilisés dans
+l’aéronautique.
+On parle de temps réel mou quand les événements traités trop tardivement ou perdus sont sans
+conséquence catastrophique pour la bonne marche du système. On peut citer l'exemple des
+systèmes multimédia : si quelques images ne sont pas affichées, cela ne met pas en péril le
+fonctionnement correct de l'ensemble du système.
+Zone de sécurité
+Sous-ensemble d’un système industriel qui regroupe des ressources logiques ou physiques selon
+leur niveau de risques ou sur d'autres critères tels que la fonction opérationnelle, l'emplacement
+physique ou logique, ou l'organisation responsable.
+DIR-39 SNSI – 2eme édition Page 29 | 79

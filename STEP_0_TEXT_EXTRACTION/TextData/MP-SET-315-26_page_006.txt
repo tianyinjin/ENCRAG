@@ -1,0 +1,43 @@
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+2.2 Organization of Mission Phases
+2.2.1 Detection, classification, localization and threat level assessment
+The ground radar acts as an early warning sensor, detecting, classifying and localizing potential incoming
+threats at long range. Within the frame of our project, for real world demonstration, the radar sensor we used,
+was giving a detection range of up to 1,000 meters. The ground PTZ camera is the second sensor to be put in
+motion. Its purpose is to help confirm the nature and number of threats inbound thanks to computer vision.
+The GCS AI agent controls that sensor in pan, tilt and zoom, cued by the radar data.
+The GCS AI agent also assesses the level of threat of the detected objects, assigning labels such as enemy,
+friendly or neutral, by information processing. The threat assessment process considers multiple aspects like
+size, speed, flight pattern, and radar cross-section of the intruding object. This process of detection,
+classification, localization and threat level assessment is not only the first step for deploying the defending
+swarm, but a continuous one throughout a mission.
+2.2.2 Defending Swarm Deployment and Approach
+Upon detection of an “enemy” (i.e., entity with an assigned enemy label), the system autonomously deploys
+the defending drones whose objectives are to approach, track and neutralize the threat(s). These drones move
+as a swarm towards the identified threat, with each drone being independently controlled by its own AI
+agent, constantly adapting to the mission phase it is engaged in. Each AI agent controls four interdependent
+decision-making functions. First, the Navigation function, allowing that AI agent to control the trajectory of
+its drone. Second, the Sensing function, giving control of the embedded EO sensor in pan, tilt and zoom to
+the AI agent. Third, the Neutralization function, letting the AI agent decide when to trigger its neutralization
+payload (i.e. its net). Last, the Targeting function, for the AI agent to assign itself a target drone. Those
+functions are realized thanks to decision-making algorithms that the AI agent orchestrates.
+More specifically, each AI agent can switch between different decision-making algorithms for its Navigation
+function, depending on mission phases. To boost a collaborative behavior among the swarm, the Navigation
+policy used for approaching and tracking phases was learned by a Multi-Agent Deep Reinforcement
+Learning algorithm in order for those phases to be fast, coordinated and adaptable. However, the navigation
+during neutralization must be controlled, precise and explainable, thus a rule-based algorithm is preferred in
+our system.
+For the Targeting function, the algorithm used ensures optimal allocation of targets among drones, reducing
+efficiency loss due to potential conflicts or repetition of tasks. For instance, the algorithm computes the best
+allocation by reducing the collaborative distance towards the available targets ensuring, and correcting, if
+necessary, so that no target is left within the buffer zone without being tracked by a drone of the defending
+swarm. This rule could only be broken if the number of intruders is higher than the number of drones of the
+defending swarm.
+2.2.4 Tracking
+Once the defending drones have reached the enemy drones, they enter a tracking phase. Depending on the
+number of enemy drones, one or more defending drones could be assigned to each enemy drone. The
+tracking is relying on a combination of radar and visual data as well as shared information among the swarm.
+A defending drone shall track its assigned target as long as it is not entering into a neutralization phase or as
+long as that target has not either exited the buffer zone or been neutralized.
+6 STO-MP-SET-315-26

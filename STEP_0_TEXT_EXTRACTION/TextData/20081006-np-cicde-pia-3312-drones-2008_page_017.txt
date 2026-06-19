@@ -1,0 +1,46 @@
+))))(cid:2)(cid:2)(cid:2)(cid:2)(cid:21)(cid:21)(cid:21)(cid:21) (cid:23)(cid:23)(cid:23)(cid:23)(cid:8)(cid:8)(cid:8)(cid:8)(cid:9)(cid:9)(cid:9)(cid:9)(cid:5)(cid:5)(cid:5)(cid:5)****(cid:19)(cid:19)(cid:19)(cid:19)""""(cid:9)(cid:9)(cid:9)(cid:9)(cid:7)(cid:7)(cid:7)(cid:7)(cid:10)(cid:10)(cid:10)(cid:10)(cid:8)(cid:8)(cid:8)(cid:8)(cid:3)(cid:3)(cid:3)(cid:3)(cid:11)(cid:11)(cid:11)(cid:11)""""(cid:8)(cid:8)(cid:8)(cid:8)(cid:14)(cid:14)(cid:14)(cid:14)(cid:3)(cid:3)(cid:3)(cid:3)''''(cid:18)(cid:18)(cid:18)(cid:18)(cid:3)(cid:3)(cid:3)(cid:3)(cid:14)(cid:14)(cid:14)(cid:14)$$$$(cid:18)(cid:18)(cid:18)(cid:18)%%%%(cid:9)(cid:9)(cid:9)(cid:9)(cid:19)(cid:19)(cid:19)(cid:19)(cid:18)(cid:18)(cid:18)(cid:18)(cid:3)(cid:3)(cid:3)(cid:3)(cid:5)(cid:5)(cid:5)(cid:5)''''(cid:18)(cid:18)(cid:18)(cid:18)%%%%(cid:9)(cid:9)(cid:9)(cid:9)(cid:19)(cid:19)(cid:19)(cid:19)(cid:10)(cid:10)(cid:10)(cid:10)(cid:17)(cid:17)(cid:17)(cid:17)""""****(cid:8)(cid:8)(cid:8)(cid:8)(cid:5)(cid:5)(cid:5)(cid:5)(cid:9)(cid:9)(cid:9)(cid:9)(cid:7)(cid:7)(cid:7)(cid:7)++++(cid:13)(cid:13)(cid:13)(cid:13)(cid:18)(cid:18)(cid:18)(cid:18)(cid:3)(cid:3)(cid:3)(cid:3)
+• Dès la phase de planification, la disponibilité des bandes de fréquences nécessaires à
+l’utilisation du système de drone doit être vérifiée et leur emploi réservé sur la zone
+d’action considérée.
+• Une étude de l’encombrement du spectre électromagnétique, des conditions de
+propagation et des brouillages éventuels doit être menée afin de garantir la disponibilité
+du service et la sécurité du vecteur.
+Mis à part certains drones automatiques qui fournissent leurs éléments en temps différé
+(CL 289), les systèmes de drones d’observation sont de gros consommateurs en bandes de
+fréquences car ils doivent transmettre durant le vol les forts débits d’informations générés par
+leurs missions.
+Les besoins sont de deux natures :
+- maintien d’une liaison entre le drone et son module de pilotage, destinée à l’emploi du
+vecteur ; cette liaison est normalement peu consommatrice en ressources sauf si l’on
+souhaite des niveaux de fiabilité très élevés ;
+- nécessité d’une liaison au débit plus important si l’on souhaite une exploitation en temps
+réel des informations recueillies par les senseurs, surtout s’il s’agit de transmettre de la
+vidéo en haute définition et plus encore de l’imagerie radar SAR28 (le mode MTI29 est
+moins consommateur).
+Or, l’étendue du spectre électromagnétique est physiquement limitée et de très nombreux
+utilisateurs civils et militaires se partagent les ressources existantes. Les bandes de
+fréquences utilisées par les drones (bandes C et Ku) sont donc très encombrées, voire
+totalement saturées.
+• Disponibilité des ressources spectrales
+Deux organismes nationaux vérifient la compatibilité de l’emploi souhaité des drones avec les
+ressources électromagnétiques disponibles : la Direction générale des systèmes
+d’information et de communication (DGSIC) et la Direction interarmées des réseaux
+d’infrastructure et des systèmes d’information (DIRISI).
+En cas de déploiement des systèmes de drone, la disponibilité des fréquences et la
+réservation des créneaux doit être réalisée en amont et au plus tôt.
+La cartographie du spectre de fréquences des théâtres pour lesquels nos systèmes de
+drones sont susceptibles d’être déployés doit constituer l’un des objectifs des campagnes de
+recueil de signaux effectuées dans le cadre de la veille stratégique permanente.
+La disponibilité des fréquences conditionnant actuellement le nombre de drones utilisables,
+une cellule de théâtre doit être dédiée à la gestion en conduite de l’utilisation du spectre
+électromagnétique, en liaison avec la cellule J6 et le centre des opérations en charge du
+ROEM et de la guerre électronique (SEWOC30 pour l’OTAN).
+• Disponibilité et fiabilité du service
+Le segment hertzien est l’élément le plus fragile d’un système de drone. L’environnement
+physique (relief, aérologie, intervisibilité) peut perturber l’établissement des liaisons.
+L’utilisation de fréquences élevées (bandes Ka et Ku) amène une diminution des portées de
+transmission en présence d’hydrométéores (nuages, pluie).
+28 SAR : Synthetic Aperture Radar.
+29 MTI : Moving Target Indicator.
+30 SEWOC : SIGINT Electronic Warfare Operation Centre.
+13

@@ -1,0 +1,57 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+B.1.2.2.2 _Composants électroniques l’incapacité d’arriver à concilier un niveau de sécurité en adéquation avec
+comme la cryptographie à laquelle ils sont souvent associés, les composants de un niveau fonctionnel acceptable pour les utilisateurs. Il existe donc dans
+sécurité constituent une brique de base indispensable. ce domaine un vaste champ de recherche et de réalisations de produits.
+Il convient de bien comprendre et savoir évaluer les fonctions de sécurité intrin- les produits de type dlP (data leak/loss Prevention) peuvent être ratta-
+sèques des composants sur étagères. Il est aussi important de pouvoir disposer chés à cette catégorie car ils utilisent sensiblement les mêmes concepts :
+de capacités de réalisation de composants spécifiques. identification de l’information sensible, contrôle des flux selon le niveau
+de sensibilité.
+l’existence de catalogues d’IP sécurisées ou apportant des services de sécurité
+est dans ce cadre une voie intéressante. b.1.2.2.4.2 _OS sécurisé
+les systèmes industriels souverains déploient des solutions intégrant des
+B.1.2.2.3 _Informatique de confiance
+OS sécurisés reposant sur des noyaux de tailles limitées pour en faciliter
+Indépendamment des initiatives mondiales comme le trusted computer Group leurs évaluations et en permettre leur maitrise.
+(tcG) qui peuvent poser des problèmes de maîtrise ou de gestion de la vie privée,
+il existe un besoin réel de pouvoir garantir des transactions sûres, assurer la les systèmes informatiques grand public utilisent en revanche des sys-
+gestion de droits pour la diffusion de produits numériques, et globalement tèmes d’exploitation qui sont, non maîtrisés pour les OS propriétaires,
+protéger les systèmes informatiques contre les agressions et les utilisations et difficiles à maîtriser pour les systèmes ouverts, à cause de leur taille
+frauduleuses. Les techniques faisant intervenir un tiers de confiance, les DRM, et de leur complexité. S’il parait aujourd’hui illusoire de vouloir dévelop-
+la stéganographie (watermarking…) ou la blockchain font partie des éléments per un OS de type Windows ou iOS entièrement maîtrisé, la recherche
+utilisables pour répondre à ce besoin. de solutions à base de virtualisation, par exemple, peut permettre de
+reporter une partie du problème sur un logiciel de plus petite taille sus-
+La confiance est aussi nécessaire dans les outils de développement et de pro- ceptible d’être maîtrisé. toutes les techniques de cloisonnement, de bac
+duction du logiciel afin de garantir que le produit final est bien à l’image du code à sable (sand boxing), d’hyperviseurs, etc sont donc d’un intérêt certain.
+source fourni en entrée. la maîtrise des outils de développement est dans ce Elles sont notamment mises en œuvre pour bâtir des architectures mul-
+cadre un autre axe d’intérêt. ti-niveaux, chaque niveau de sécurité fonctionnant dans une « cage »
+étanche, sauf pour des échanges plus critiques qui passent alors par l’hy-
+B.1.2.2.4 _Logiciel sécurisé
+perviseur.
+b.1.2.2.4.1 _Multi-niveaux
+l’application de ces techniques peut concerner le monde bureautique
+le multi niveau est un besoin prégnant dans le domaine de la défense où au sens large mais aussi les systèmes embarqués, les terminaux mobiles
+coexistent des niveaux de classification et de sensibilité très divers. Il existe et les objets connectés. Sans maîtrise des OS, il est en effet difficile de
+aussi au sein des entreprises dans lesquelles il est possible de trouver conjoin- prétendre à une maîtrise des produits qui les utilisent.
+tement des informations ouvertes, des informations confidentielles liées aux
+personnels, des informations financières, stratégiques, relevant du secret in- En complément, il est nécessaire d’acquérir une bonne compréhension
+dustriel… Il apparaît également cohérent de vouloir séparer des réseaux de du fonctionnement de ces différents OS afin de pouvoir les configurer
+type bureautique de réseaux de type industriels, ou des systèmes acces- de la manière la plus sûre possible en fonction des besoins applicatifs.
+sibles par des clients de systèmes internes à l’entreprise. ceci peut se concrétiser par la publication de guides de sécurisation ou
+bien par la réalisation d’outils de vérification ou de configuration auto-
+le besoin de multi-niveaux peut s’exprimer suivant plusieurs modalités : matiques.
+• Interconnecter des réseaux et systèmes de niveaux différents en permettant
+des échanges selon une politique de sécurité définie (par exemple connecter b.1.2.2.4.3 _Protection contre la rétro-conception
+un réseau contenant des informations sensibles et des informations ouvertes la protection contre la rétro-conception est une étape indispensable
+à l’Internet pour échanger de l’information non sensible) ; pour la protection de droits (des licences d’utilisation, par exemple) mais
+• Mettre à disposition sur un serveur, une base de données… des informations aussi pour la protection de savoir-faire industriels. Il est nécessaire de dis-
+de différents niveaux de sensibilité et permettre à des utilisateurs d’y accéder poser de méthodes et d’outils facilement utilisables pour qu’ils soient mis
+selon des droits d’accès qui leurs sont propres ; en œuvre par les industriels dans le but de mieux protéger leurs produits.
+Ils doivent pouvoir s’adapter aux différents langages de programmation
+• Permettre à un utilisateur d’accéder depuis le même poste de travail à
+aux différents environnements d’exécution et s’insérer dans les processus
+des environnements de niveaux de sensibilité différents.
+de développement. les techniques peuvent être purement logicielles
+tous ces sujets ont été étudiés depuis longtemps et des produits commer- ou faire appel à des éléments matériels. Il reste un vaste champ de re-
+ciaux ont même été mis sur le marché. leur diffusion a jusque-là toujours cherche tant pour les techniques de protection (obfuscation de code, par
+été freinée, à la fois par une difficulté d’exploitation certaine, mais aussi par exemple) que pour les outils qui les mettent en œuvre.
+22 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 23

@@ -1,0 +1,34 @@
+2 Mineur
+3 Modéré
+4 Majeur
+5 Critique
+6 Intolérable
+2.3. Détermination de la vraisemblance des événements redoutés
+La vraisemblance est déterminée par la formule suivante :
+𝐴𝑡𝑡𝑎𝑞𝑢𝑎𝑛𝑡 +𝐴𝑐𝑐è𝑠−2
+𝑉𝑟𝑎𝑖𝑠𝑒𝑚𝑏𝑙𝑎𝑛𝑐𝑒 = 𝐸𝑥𝑝𝑜𝑠𝑖𝑡𝑖𝑜𝑛 +𝑎𝑟𝑟𝑜𝑛𝑑𝑖.𝑒𝑛𝑡𝑖𝑒𝑟.sup( )
+2
+𝐷𝑜𝑛𝑡 𝐴𝑐𝑐è𝑠 = 𝑀𝑎𝑥(𝐼𝑛𝑡𝑒𝑟𝑣𝑒𝑛𝑎𝑛𝑡,𝑃𝑟𝑜𝑡𝑒𝑐𝑡𝑖𝑜𝑛)
+Les différents termes utilisés dans la formule sont définis dans les paragraphes suivants.
+2.3.1. Détermination du facteur « Exposition »
+C1 C2 C3 C4 C5 C6
+Connectivité
+Fonctionnalité
+F1 1 1 2 3 Non applicable
+F2 1 2 3 4 4 5
+F3 2 3 3 4 4 5
+F4 3 3 4 4 5 5
+2.3.1.1. Détermination du facteur « Fonctionnalité »
+Le critère évalue le niveau de complexité du système.
+N. Intitulé Définition
+Système Système contenant uniquement des éléments de niveau CIM 0 et 1 (contrôle
+minimal commande) à l’exclusion des consoles de programmation, à savoir :
+F1
+capteurs*/actionneurs*, entrées/sorties déportées, automates*, pupitres,
+systèmes embarqués, analyseurs.
+Système Système contenant des éléments de niveau CIM 0, 1 et 2 (contrôle-
+complexe commande et SCADA*). S’ajoutent aux éléments de niveau 1 : station de
+F2
+supervision, serveurs d’historique local (Historian), base de données
+locales.
+DIR-39 SNSI – 2eme édition Page 32 | 79

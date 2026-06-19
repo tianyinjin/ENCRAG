@@ -1,0 +1,71 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+La normalisation d’une démarche d’évaluation / certification opérationnelle de et fournir du traitement sur différents types de processeurs (cPU, GPU,
+ce type devrait voir le jour d’ici quelques années sous l’impulsion de l’EnISA FPGA…).
+et des Agences nationales de Sécurité qui vont multiplier les investissements
+Au niveau logiciel, le volume de données visé privilégie des bases de données
+autour de cette thématique.
+de type noSQl avec, par exemple, des canevas logiciels issus de l’open
+source comme Hadoop, ElasticSearch…
+B.6.5 _ Big data, technologies dédiées
+à l’implémentation de solutions d’IA l’offre de service de ces plateformes doit également inclure l’instanciation
+à la demande de pipeline de traitement de données se basant sur des
+Aujourd’hui branche phare de l’IA, l’apprentissage statistique (Machine lear-
+librairies d’apprentissage statistique à l’état de l’art comme Spark, tensorFlow,
+ning, deep learning) requiert massivement un accès aux données. Or, ces
+Pytorch, Scikit-learn.
+données sont souvent la propriété de quelques acteurs et leur accès peut être
+complexe, notamment pour des domaines sensibles tels que la cybersécurité.
+B.6.6 _ Hyper-trucage (Deepfake), enjeu de
+Précisons ci-dessous les enjeux spécifiques à la constitution, au transport et à
+cybersécurité des contenus numériques
+l’exploitation de ces jeux de données.
+depuis 2018, la génération de contenus audiovisuels réalistes a connu des
+Sans préjuger de la solution adoptée, un besoin en traitement numérique se
+progrès fulgurants11, 12, 13. ces succès sont la conséquence d’une maîtrise
+décomposera systématiquement en questions élémentaires associées aux ca-
+sans cesse plus grande des techniques d’apprentissage automatique gé-
+tégories suivantes :
+nératif comme les Generative Adversarial networks (GAn14), apparentées
+• Estimation de paramètres dans un système ; au deep learning, et de rendu synthétique. les GAn sont précisément
+• Classification (appariement à des classes prédéterminées) et partitionnement conçus pour imiter des phénomènes observés au sein de grandes bases de
+de données (clustering) (classes non prédéterminées) ; données. l’une des applications dérivées de la génération du contenu est
+la manipulation automatique des images de visage, devenue omniprésente
+• Prédiction pour anticipation de séries temporelles ;
+et génériquement appelée hyper-trucage (deepfake). cette technologie
+• Commande optimale (planification de suite d’opérations). permet entre autre de travestir de façon réaliste les attitudes ou propos
+d’une personne et conduit inéluctablement à la création de fausses infor-
+En s’appuyant sur les performances atteintes par les processeurs, l’apprentissage mations visuelles. Sa démocratisation pose déjà des problèmes éthiques
+statistique a connu ces dernières années des progrès spectaculaires dans toutes et sociétaux. Elle est devenue un enjeu de cybersécurité de premier plan.
+ces catégories : détermination de paramètres physiologiques, reconnaissance
+d’images, traitement du langage naturel, transport autonome, cybersécurité. En pratique, quatre familles d’hyper-trucage se dégagent : la synthèse in-
+les techniques utilisées reposent toutes sur l’exploitation de données massives. tégrale de visage, la modification d’un ou plusieurs attributs du visage,
+ces données sont soit issues du terrain, ce qui est nécessaire en l’absence de le remplacement d’une expression du visage par une autre ainsi que
+modèle descriptif, soit synthétisées quand un modèle descriptif permet des l’échange de visage15, 16. les mêmes stratégies peuvent être transposées
+simulations extensives. sur une autre modalité comme l’audio en synthétisant ou changeant l’ex-
+pressivité d’une voix17. Pour distinguer parmi les contenus multimédia ces
+S’agissant de la constitution de bases de données terrain, il est crucial de créations visuelles artificielles, l’urgence est de proposer des solutions de
+disposer d’une capacité de collecte et de création de données dans les détection fiables et efficaces. C’est d’ores et déjà l’objectif assigné à des
+domaines d’application visés. dans cette perspective, l’Internet des Objets (Iot), défis planétaires18. la mise au point de ces détecteurs nécessite une com-
+qui présente une complémentarité symbiotique avec l’IA, pourra permettre la préhension approfondie des mécanismes de deepfake. Rétroactivement,
+capture, la numérisation et la centralisation des données physiques alimentant l’amélioration des détecteurs présentera de nouveaux défis pour les géné-
+les algorithmes de prédiction et de prise de décision. rateurs, structurant la thématique du deepfake selon un paradigme adver-
+saire générateur-détecteur.
+concernant la génération de données synthétiques, des capacités de calcul
+sont requises dès la phase de simulation ainsi que des capacités de stockage
+pour les données générées.
+dans les deux cas, l’exploitation nécessite des capacités réseaux pour l’achemine- 11 Nhu-Tai Do et al. 2018: « Forensics Face Detection from GANs using Convolutional Neural Networks », qui introduit les structures GANs dans ce context d’application,
+ment des données vers des plateformes disposant de capacités de stockage et 12 Xin Yang et al. 2018 : « Exposing Deep Fakes Using Inconsistent Head Poses », qui s’appuie sur des incohérences dans les attitudes mesurables du visage,
+de calcul intensif. Ces plateformes devront répondre aux enjeux de confidentialité 13 A . Rössler et al. 2019 : « FaceForensics++: Learning to Detect Manipulated Facial Images », qui réalise une comparaison de toutes les méthodes utilisées dans la
+détection de deepfake.
+et de souveraineté des projets demandeurs et les offres de « clouds privés »
+14 I an J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville et Yoshua Bengio, « Generative Adversarial
+fournies par des acteurs de confiance sont à privilégier.
+Networks », dans Advances in Neural Information Processing Systems 27, 2014
+15 h ttp://studios.disneyresearch.com/2020/06/29/high-resolution-neural-face-swapping-for-visual-effects/
+ces plateformes doivent s’appuyer sur des architectures matérielles et
+16 h ttps://techcrunch.com/2019/05/22/mona-lisa-frown-machine-learning-brings-old-paintings-and-photos-to-life/
+logicielles à l’état de l’art. Au niveau matériel, l’infrastructure doit être
+17 h ttps://www.ohadf.com/projects/text-based-editing/
+dimensionnée pour héberger plusieurs centaines de téraoctets de données
+18 h ttps://ai.facebook.com/blog/deepfake-detection-challenge/
+40 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 41

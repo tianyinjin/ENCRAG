@@ -1,0 +1,42 @@
+— 115 —
+COMPOSITION DE BASE D’UN DRONE
+(SUR LA BASE DES TRAVAUX DU CNRS(1))
+La composition varie selon le type de drone. Le CNRS en référence
+plusieurs (multirotors, hélicoptères, avions, VTOL, dirigeables, rovers, bateaux,
+submersibles). Des éléments sont cependant fondamentaux pour faire fonctionner
+un drone. Il est nécessaire de disposer :
+- D’un autopilote (logiciel fonctionnant sur un système d’exploitation en temps
+réel sur un contrôle de vol) ;
+- D’une structure de base avec un châssis, des hélices et des bras supportant les
+moteurs et les hélices ;
+- D’un contrôleur de vol (gère la stabilité, l’altitude, la position et la stabilité d’un
+drone)
+- D’un système de propulsion (moteurs Brushless par exemple) ;
+- D’un système de commande et de contrôle (carte de contrôle de vol et radio) ;
+- D’un système d’alimentation (batterie, connecteurs, câbles) ;
+- De capteurs (gyroscope, accéléromètre, baromètre…) ;
+- D’un système de communication (transmetteur vidéo, antenne…) ;
+- De logiciels (programmation des missions, carte de contrôle, interface
+utilisateur).
+Or, les industriels sont confrontés aujourd’hui à une absence de solution
+nationale sur certains composants essentiels. L’Union européenne liste plusieurs
+composants avec une grande vulnérabilité dans le domaine des drones et de la
+robotique, notamment les éléments suivants : microprocesseurs, engrenages,
+processeurs graphiques (GPU), aimants, batteries Li-ion et piles à combustible,
+semi-conducteurs, fibres d'aramide et ferroniobium, actuateurs, capteurs, systèmes
+de navigation et de contrôle, unité de mesure inertielle (IMU). Il est également
+possible de mentionner les moteurs Brushless (« sans balais », fonctionnant avec
+des aimants), dont le sujet est revenu plusieurs fois durant les auditions avec les
+industriels. La Chine, les États-Unis et d’autres pays comme le Japon, Israël, la
+Corée du Sud et le Canada se partagent la prédominance sur le marché selon
+l’élément concerné.
+La France est aujourd’hui en retard sur la production des batteries sur
+son territoire malgré la mise en place progressive de gigafactories. Les matières
+premières ne sont pas les seules à manquer : le tissu industriel en lui-même ne
+dispose pas d’usines capables de produire une technologie pourtant désormais
+basique. Dans ce cadre, la France importe les batteries intégrées dans les drones
+militaires utilisés par les armées. Dans un rapport publié en octobre 2024, le
+ministère de l’Économie, des finances et de l’industrie constate ainsi que 83 % des
+(1) Fabien Frerot. (2024, 16 octobre). Qu’est-ce qu’un drone ? CRNS.
+https://indico.in2p3.fr/event/33908/contributions/147890/attachments/89687/135825/StarDice_Drone%20V
+3.pdf

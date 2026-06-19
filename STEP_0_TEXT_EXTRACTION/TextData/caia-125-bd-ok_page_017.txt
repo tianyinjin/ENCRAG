@@ -1,0 +1,43 @@
+NOUVEAUX DRONES, NOUVELLES TECHNOS,
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125 NOUVELLES OPPORTUNITÉS
+Des défauts détectés dix fois plus rapidement sur avion comme hélicoptère
+méthode repose sur l’utilisation concluant sur de nombreux avions drone ont été réalisés en 2021 et
+de deux réseaux de neurones : un et est déployée dans de nombreux se poursuivent en 2022 sur les dif-
+premier destiné à la détection ra- programmes. Les systèmes Done- férentes bases d’emplois. Les pre-
+pide des défauts et un second à la cle sont notamment utilisés dans miers résultats et retours utilisateurs
+classification des défauts à partir de le civil sur une vingtaine de type sont très positifs, avec plusieurs cas
+régions extraites sur les images en d’avions, des Falcons au A320 d’usages identifiés.
+pleine résolution. Ainsi, les défauts et B737 en passant par les Em-
+potentiels (objets petits ou ambigus) braer, avec clients tels que Airbus, D’inspection en inspection, l’his-
+sont rassemblés pour une étape Air France, AAR, Austrian Airlines, torique numérique permettra de
+supplémentaire de classification. Latam, Regional Jet Center, etc. suivre au mieux les tendances des
+La solution fait également l’objet dommages, l’évolution des struc-
+Traiter la reconnaissance des dé- d’expérimentations longues durées tures et de manière générale amé-
+fauts comme un problème de clas- sur le terrain militaire, notamment liorer notre compréhension de la vie
+sification d’images permet d’utiliser sur les aéronefs Rafale, AWACS, du fuselage d’un avion pour mettre
+des techniques avancées qui sont Atlantique 2 et A400M. Naviguant en place une maintenance prédic-
+beaucoup plus complexes à intro- de façon répétable et sécurisée au- tive. Chacune de ces étapes contri-
+duire dans un algorithme de recon- tour de ses aéronefs, le drone se bue à l’optimisation des opérations
+naissance d’objets en une seule démontre comme une méthode de de maintenance de l’aéronef pour
+étape, dans lequel la détection et capture d’image rapide et fiable. in-fine améliorer sa disponibilité.
+la classification sont indissociables.
+L’analyse et classification des dé- Un des programmes phares est ré-
+fauts sont effectuées automatique- alisé sur le Rafale et a pour objectif
+ment et en temps réel. Après revue d’adapter les algorithmes d’intelli-
+par un inspecteur, un rapport d’ins- gences artificielles aux dommages Matthieu
+Claybrough,
+pection exhaustif peut être généré. pouvant survenir sur ce dernier. Président de
+Les défauts peuvent ensuite être Le projet pluriannuel, réalisé en Donecle
+stockés dans un espace dédié per- partenariat avec Dassault, la DGA, Diplômé de l’École Polytechnique et de
+mettant de retracer l’historique des la Marine Nationale et l’Armée de Supaéro (X2009 & S2013), Matthieu Clay-
+brough s’est spécialisé en automatique
+inspections et d’observer l’évolution l’Air et de l’Espace, comporte une
+et aéronautique, menant notamment des
+des défauts à long terme. phase d’acquisition de données travaux sur la navigation automatique des
+drones. Après trois ans chez Thales Avio-
+suivi d’une phase d’évaluation en
+nics à travailler sur les lois de pilotages de
+Depuis sa création, cette tech- conditions réelles. C’est ainsi que plusieurs aéronefs, il cofonde Donecle en
+nologie a démontré des résultats plus de cent inspections Rafale par 2015 en tant que directeur technique avant
+d’en devenir Président en 2020.
+15

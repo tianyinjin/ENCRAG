@@ -1,0 +1,25 @@
+d’irradiation (fluence) qui est déterminant, dans une certaine mesure. La Figure 4 l’illustre en montrant
+le temps de perçage d’une coque de drone en plastique en fonction de la puissance et du diamètre de
+la zone irradiée (à puissance constante, plus la surface irradiée est importante, plus la densité est faible).
+Sans surprise, les durées de perçage d’un diamètre de 5 mm sont inférieures à la seconde, et un
+écoulement d’air reste sans effet, alors qu’il faut près de 10 s pour une irradiation de 30 mm.
+Figure 4 - durée de perçage d’une coque de drone vs. puissance et diamètre
+De manière très simplifiée, sans focalisation, une arme laser avec une divergence de 10 μrad (ce qui
+est déjà excellent) avec une tache de Ø 20 mm à 1 km, produit une tache de 20 cm à 10 km. Pour
+conserver une densité de puissance de 1 kW/cm2, la puissance de la source doit être :
+- A la portée de 1 km, P = 3,1 kW
+- A la portée de 10 km, P = 314 kW
+D’un point de vue système, ce ne sont pas les mêmes objets, mais l’efficacité terminale est la même
+(en négligeant les aspects de propagation atmosphérique).
+Le bénéfice d’une très forte puissance (100 kW et au-delà) est une portée accrue, OU une durée
+d’engagement plus courte. Ce dernier point est impératif pour le traitement de menaces en essaims.
+LA GEOMETRIE DU FAISCEAU
+O
+Sans tenir compte de l’influence du milieu de propagation (l’atmosphère), un faisceau gaussien en
+régime focalisé288 peut être approché, de manière très simplifiée, selon le schéma suivant, en
+considérant un miroir de grande focale289 :
+288 On retiendra ici une focalisation fixe, ce qui est le cas aux grandes puissances. Aux petites
+puissances, un laser peut être doté d’une focalisation dynamique mais l’étude ne le prend pas en
+compte.
+289 Introduction to Laser Weapon Systems, Air Force Institute of Technology, DEPS, 2010.
+116

@@ -1,0 +1,55 @@
+o REJB sur EJ via le ZJDP, modop joint139 ;
+o REJB sur DP via la ZBUD01, modop joint140.
+Il existe aussi la transaction ZREJB qui permet d’avoir cette information en lecture
+directe.
+Le total des REJB par activité doit correspondre au montant total des REJB de
+l’INFBUD43/ZREJB. Une vérification de cohérence doit être faite.
+Au sein des activités, la ventilation des REJB par domaine RAMSES doit être faite
+manuellement à partir des informations Chorus notamment les comptes PCE.
+Cette ventilation entre code RAMSES doit cependant respecter l’activité
+d’origine de l’EJ. Ainsi, un REJB généré sur une activité infrastructure ou
+AACV ne peut venir impacter la consommation de l’AGSC sauf à justifier
+qu’une erreur d’imputation a été commise à l’origine de la saisie de l’EJ et
+qu’elle n’a pas pu être corrigée à temps.
+Déterminer le montant des recyclages : la donnée saisie correspond au montant
+des mises à disposition typées recyclage dans Chorus et réalisées par la
+section conduite-gestion.
+Le montant de ces MADI est obtenu à partir d’une FMEDDW ou d’une ZBUD01 en
+double cliquant sur la colonne mise à disposition/réallocation. Ces recyclages sont
+à intégrer sur le mois sur lequel les recyclages ont été effectués
+Recommandation : le SUO doit tenir sur un fichier à part l’état des demandes de
+recyclage en attente de traitement.
+AE réalisé réel Colonne pivot car elle permet de comparer la consommation à l’enveloppe allouée.
+= AE réalisé Elle retrace la vraie consommation Chorus dépolluée des REJB/ recyclage qui
+Chorus + viennent artificiellement réduire cette dernière.
+(REJB – Elle se calcule automatiquement.
+Recyclage)
+Ecart prog AE Cette colonne retrace l’écart entre la programmation et le réalisé réel.
+CP Programmation des CP notifiées par activité et domaine RAMSES à l’euro près
+programmation sans décimale.
+CP réalisé Consommation CP de la restitution BUD40. Il s’agit des CP payés.
+Le work flow (WF) CP peut donner une indication sur les en-cours et la
+programmation à effectuer au cours des prochains mois.
+Pour le RAMSES EdB de janvier, les CP programmés doivent être a minima égaux
+à ce WF puisqu’il s’agit des premières DP qui seront payées dès la reprise de
+gestion et la mise en place de crédits.
+Colonne écart Cette colonne retrace l’écart entre la programmation et le réalisé.
+prog CP Une analyse attentive de celle-ci doit être effectuée pour les dépenses faisant l’objet
+d’un engagement prévisionnel (exécution flux 3). Cette colonne permet de vérifier
+si l’engagement juridique est correctement dimensionné au vu des factures payées
+et d’une projection du RàP jusqu’au 31 décembre.
+Pour effectuer ce travail de vérification, il est nécessaire de :
+- connaître la période de facturation correspondant à la consommation CP ;
+- fiabiliser le montant du RàP dans la colonne RàP CP afin d’identifier la part
+qu’il représente dans la consommation des CP.
+Colonne non Non utilisées : colonne qui permet de quantifier la ressource budgétaire qui serait
+programmation non utilisée après reprogrammation des ressources et pouvant faire l’objet d’une
+restitution éventuelle au CICoS.
+Prévision de RàE AE : pour celui-ci, on distingue un RàE AE technique (ex CHA
+N1/1bis/3 de fin de gestion, factures flux 4 non parvenues, lot du régisseur non
+recomplété, facture de cession de FOD/FOL non parvenues…) du RàE AE qui
+s’explique par une dotation budgétaire insuffisante (besoin physique identifié mais
+non couvert en enveloppe, aléa de gestion).
+139 Cf. pièce jointe X, mode opératoire ZJDP.
+140 Cf. pièce jointe XI, mode opératoire ZBUD01-REJB.
+66/92

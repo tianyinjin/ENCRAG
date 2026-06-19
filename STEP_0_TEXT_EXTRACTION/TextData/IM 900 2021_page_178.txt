@@ -1,0 +1,48 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.9
+DROIT PRIVE
+(cid:3)
+2. Règles générales
+Les éléments du présent paragraphe correspondent aux règles générales de gestion des
+ACSSI. La décision d’agrément du dispositif de sécurité ou la décision d’homologation
+peut inclure des règles additionnelles, des dérogations aux règles générales ou des règles
+différentes.
+Les ACSSI portent un marquage spécifique identifiant, en plus, le cas échéant, leur
+mention de classification. Le marquage est définitif jusqu’à la destruction du dispositif
+(ou éventuellement la décision de retirer le marquage ACSSI par l’autorité qui en avait
+décidé le marquage).
+L’accès à un ACSSI nécessite une décision d’accès aux ACSSI (DACSSI). Pour les
+industriels de la défense, hors contractants avec la DGSE, elle n’est délivrée qu’après une
+formation organisée par le CISIA.
+Stockage(cid:3): les ACSSI classifiés sont stockés comme des ISC de même niveau de
+classification161. Les ACSSI non classifiés sont stockés dans des armoires ou des locaux
+fermés à clé afin de garantir en permanence leur intégrité.
+Utilisation(cid:3): les ACSSI doivent être manipulés et protégés conformément à la
+classification des informations qu’ils protègent.
+Transport physique d’ACSSI classifiés :
+- Il est réalisé selon les mêmes conditions que le transport d’ISC de même niveau de
+classification.
+- Vers l’étranger, le convoyeur dispose d’une lettre de courrier.
+Transport physique d’ACSSI non classifiés (cas des équipements de cryptographie)(cid:3):
+- Il est réalisé selon les règles applicables au Secret.
+- Vers l’étranger, le convoyeur dispose d’une lettre de courrier.
+Transport physique d’ACSSI non classifiés (hors équipement cryptographique)(cid:3):
+- Il est réalisé selon les règles applicables au Diffusion Restreinte.
+- L’ACSSI est mis sous double enveloppe (si ses dimensions le permettent).
+Dans tous les cas(cid:3):
+- Les convoyeurs ne sont pas tenus d’avoir une DACSSI.
+- Le transport d’ACSSI donne lieu à un ABB’ permettant de s’assurer de la bonne
+réception de l’ACSSI et de son intégrité.
+Selon les destinations et le type d’ACSSI non classifié, l’emploi de conteneurs approuvés
+par l’Etat est recommandé afin de s’affranchir d’une surveillance permanente. L’usage
+d’un tel conteneur est obligatoire pour un transport vers l’étranger.
+Certains matériels ACSSI sont transportés (y compris à l’étranger) par l’utilisateur lui-
+même. Pour les règles d’utilisation, de stockage et de transport il est nécessaire de se
+référer à la décision d’agrément ou d’homologation.
+Maintenance(cid:3): les opérations de maintenance d’un moyen ACSSI doivent être
+soigneusement tracées. Elles font partie intégrante de l’historique de l’ACSSI.
+(cid:3)
+161 Lorsque des ACSSI sont stockés dans le même meuble que des ISC, ils doivent être spécifiquement
+marqués de façon à être immédiatement visibles par l’utilisateur.
+172

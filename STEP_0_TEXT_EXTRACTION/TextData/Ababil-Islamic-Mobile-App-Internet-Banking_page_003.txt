@@ -1,0 +1,19 @@
+Architecture & Security
+• REST-based Modular Microservices Architecture
+• J2EE platform utilising code provided by OWASP and Oracle
+• Compatible across Android and iOS platforms
+• Compatible with Third-party Core Banking systems
+• Multilevel Security: 2 Factor Authentication, Admin Panel.
+• Individual Device Registration
+• Customizable Transaction Limits
+• Periodic Audit Reports
+• HTTPS SSL3.0 Protocol to mitigate Man in the Middle attack
+• Digital signature with RSA (2048 bits) and SHA-256 for Authenticity
+• AES 128 bit data encryption
+• PKCS#7 formats for Signatures
+• HMAC with SHA-256 for integrity
+Payment Options
+Ababil MobileApp lets your clients make multifarious payments while sitting at the
+comfort of their home, office or anywhere they prefer, without ever needing to set their
+feet at your bank.
+© Copyright 2018

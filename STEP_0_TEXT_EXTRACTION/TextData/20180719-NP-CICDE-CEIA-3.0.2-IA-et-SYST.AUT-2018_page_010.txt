@@ -1,0 +1,46 @@
+116. Un système téléopéré est fonctionnellement employé comme un vecteur classique et est
+pourvu d’automatismes comme tout autre vecteur civil ou militaire. L’intervention humaine reste
+présente dans la totalité de l’emploi des vecteurs télépilotés.
+Nota : ce type de système n’exclut pas la présence de fonctions automatisées sur des fonctions
+particulières (commandes de vol, retour automatique à la base en cas de situations particulières
+(perte de liaison de communication, etc.)
+Les systèmes et fonctions automatisés
+117. La principale caractéristique d’un système automatisé (ou d’une fonction automatisée) est
+l’étendue de son champ d’action (le champ possible des conséquences) et, par effet induit, la
+nécessaire maîtrise par l’homme de ce champ d’action et l’identification des responsabilités en
+cas de fonctionnement inapproprié ou de dommages collatéraux.
+118. Dans le domaine de la défense, trois types de systèmes automatisés sont définis :
+a. le système supervisé : système dont les tâches de base8 sont automatisées. Un
+opérateur humain supervise en permanence la situation, fournie par le système, et
+décide des tâches de haut niveau9 à exécuter par le système.
+Nota : les systèmes d’autoprotection des plates-formes et de réponse aux attaques
+de saturation sont des systèmes supervisés ;
+b. le système semi-autonome10 :
+(1) le système exécute ses tâches sans intervention humaine conformément à sa
+programmation initiale, laquelle ne peut être modifiée sans intervention
+humaine ;
+(2) l’état final du système ne dépend que des règles de fonctionnement, d’emploi
+et d’engagement, de sa mission (tâches de très haut niveau) et de son
+11
+environnement. Le système exécute les tâches de haut niveau qui lui sont
+attribuées généralement avant le début de sa mission. Ses tâches de haut et
+bas niveaux sont automatisées. Le cas échéant, le système restitue tout ou
+partie des signaux et informations traités pendant la mission ;
+(3) ce système ne modifie pas sa programmation, ses bibliothèques de tactique,
+ses règles de fonctionnement, d’emploi et d’engagement ni sa mission sans
+intervention humaine ;
+(4) ce système ne fait que dérouler ses automatismes ;
+(5) l’homme est le maître d’œuvre du système : il en maîtrise la conception, la
+programmation et la définition des règles de fonctionnement, des règles
+d’emploi, des règles d’engagement et de la mission ;
+(6) pour chaque mission, l’emploi du système est strictement borné, dans
+l’espace et dans le temps ;
+(7) pour les systèmes mobiles, des liens de communication et de contrôle
+existent entre ce système et la chaîne de commandement militaire et
+permettent de fixer, modifier ou interrompre le cadre de la mission.
+8 Navigation du système, observation, tenue de situation et pointage des armements.
+9 Gestion temporelle et spatiale du système, gestion des capteurs, désignation d’objectif et engagement des armements.
+10 Les choix sémantiques pourront faire l’objet d’évolutions ultérieures, notamment au regard des choix sémantiques à venir
+de l’OTAN. La notion de système subordonné pourrait probablement se substituer à la notion de système semi-autonome.
+11 Tâches similaires aux tâches de haut niveau du système supervisé.
+10

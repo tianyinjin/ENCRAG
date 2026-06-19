@@ -1,0 +1,49 @@
+1-1 Activité et énergie de combat dans un volume durant une période
+temporelle.
+Un théâtre d’opérations militaires s’inscrit dans un espace à trois dimensions d’espace (x, y,
+z), auxquelles il faut ajouter la dimension temporelle (t). Le cube à trois dimensions est un
+objet géométrique simple qui permet de découper l’espace en zones différenciées facilement
+repérables. Le volume V(Hc) d’un cube Hc de côté « a » vaut a3. Afin de réduire l’espace
+vide, on peut toujours projeter ce cube sur une surface à deux dimensions. Cette projection
+permet de concentrer l’information du cube sur une surface. On note cette projection proj(Hc)
+et sa surface S(proj(Hc)).
+La deuxième étape consiste à définir l’activité de combat présente dans le cube Hc durant la
+période temporelle Tc = t - t
+final initial
+La description de l’activité de combat doit être exhaustive, non simplificatrice, dans le cube
+observé. Elle tient compte ainsi de l’ensemble des actions cinétiques, électromagnétiques,
+cybernétiques, psychologiques, informationnelles, opérant dans le cube Hc durant la période
+temporelle Tc. Pour modéliser complètement l’activité de combat Ac, une méthode consiste
+à considérer l’activité de manière vectorielle dans un espace à N dimensions où N est le
+nombre de caractéristiques de l’action Ac = (a , a , …, a ). Les coordonnées a du vecteur
+1 2 N i
+d’activité ne sont pas homogènes. Ainsi, les k premières coordonnées peuvent être
+réservées aux actions cinétiques : par exemple a1 = nombre de munitions 5.56 tirées, a =
+2
+nombre de cartouches 12.7 tirées, a3 = nombre d’ogives RPG-7 tirées, a = nombre d’obus
+4
+de mortiers tirés, …, n = nombre de drones aériens activés. Les coordonnées suivantes
+k
+décrivent l’activité électromagnétique dans le cube de combat. Les suivantes décrivent
+l’activité cybernétique dans le cube, puis l’activité informationnelle, renseignement et
+PsyOps. La dimension N est par nature très élevée car elle tient compte exhaustivement de
+l’ensemble des pratiques militaires. Un combat s’opère dans un espace à grande dimension.
+Une fois le vecteur d’activités Ac fixé, il faut lui adjoindre un vecteur de puissance Pc de
+même dimension dont les coordonnées p mesurent la puissance de chaque activité
+i
+élémentaire du combat dans le cube Hc durant la période temporelle Tc. Ainsi, Pc = (p , p ,
+1 2
+…,p ) où p mesure la puissance (ou le poids) de l’action élémentaire a.
+N i i
+Dans un modèle linéaire classique, le produit scalaire Ec = < Ac , Pc > = p x a fournit
+i i
+une mesure de « l’énergie » de combat, pondérée par la puissance, présente dans le cube
+Hc , durant la période temporelle Tc.
+Dans un modèle non linéaire, l’énergie de combat déployée dans le cube Hc durant la
+période temporelle Tc s’écrit :
+Ec = < F(Ac), Qc >
+où F est un opérateur qui modélise les non linéarités et Qc est un vecteur de poids adapté à
+F.
+L’introduction de non-linéarité permet de mesurer plus finement les interactions entre les
+différentes actions élémentaires de combat et leur puissances propres.
+2

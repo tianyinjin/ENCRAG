@@ -1,0 +1,25 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+Figure 6. High-level analysis of representations in the real-world infra-red (IR) and electro-
+optical/visual (EO) Dataset.
+From the above, we find the dataset demonstrates a strong bias toward scenes involving small
+drones, particularly in the visual data segment. This overrepresentation leads to uneven coverage
+of other operationally relevant targets especially for defense use cases, where the system’s
+performance against medium-range threats such as loitering munitions and Class 2 attack UAVs may be
+relevant. The resulting imbalance may introduce dataset-driven inductive biases, potentially causing
+learned models to overfit to high-contrast or uncluttered settings, while underperforming in more
+complex real-world environments.
+Figure 7. Distribution of dataset representation in light condition (left) and drone quantity (right)
+in the electro-optical visual dataset.
+Furthermore, within the data from electro-optical sensors (Figure 7), low-light (‘dark’) scenarios are
+notably underrepresented in the data and when present, are predominantly paired with small drones.
+The visual segment is overwhelmingly dominated by bright scenes, with bright images appearing across
+nearly all size and background categories. In contrast, dark scenes are both fewer in number and
+narrowly distributed, mostly involving small drones. Combinations involving medium-sized drones under
+dark lighting conditions are extremely sparse. This imbalance limits the evaluation of system robustness
+across illumination domains and may compromise performance generalization to real-world conditions
+that involve variable or degraded lighting, limiting the dataset’s ability to support evaluation of
+performance under low-light conditions. This would negatively impact confidence in the deployed CV
+system in the operational scenario discussed above if not addressed, as it opens operators up to unexpected
+risks that their CV system may malfunction and fail
+1A.03 - 24 STO-MP-IST-210

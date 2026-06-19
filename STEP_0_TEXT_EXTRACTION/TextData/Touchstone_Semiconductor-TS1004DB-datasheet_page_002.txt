@@ -1,0 +1,70 @@
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board
+Description Inverting Configuration
+The TS1002 and the TS1004 demo boards provide In an inverting configuration, the circuit’s transfer
+two configurations for evaluating the TS1002 dual function is given by the following equation:
+and the TS1004 quad operational amplifiers. A non-
+inverting gain of +2 configuration is located on the
+T -
+=
+left-hand side of each board and an inverting gain of -
+N
+1 configuration is located on the right-hand side of
+each board. In both cases, the input to each circuit is In this case, 3= =1MΩ and 6= =1MΩ on the
+AC-coupled. The demo boards provide a re-biasing
+TS1002 demo board and 13= =1MΩ and
+scheme at one-half the power supply or V DD /2 for the 14= =1MΩ on the TS1004 demo board. This
+inverting configuration and at V DD /4 for the non- results in a signal gain of -1 with a circuit bandwidth
+inverting configuration. of 2kHz and an overall circuit bandwidth range of
+1.6Hz to 2kHz.
+The TS1004 demo board provides resistor pads R3-
+R10 and Jumpers B and C in order to access op
+Quick Start Procedures
+amps B and C. The default configuration for op amps
+B and C is a unity-gain.The non-inverting inputs are
+shorted to ground with 1Ω resistors on resistor pads Required Equipment
+R5 and R8 and the outputs are connected to the
+inverting inputs with 1Ω resistors on resistor pads R3
+ TS1002 or TS1004 demo board
+and R9.
+ DC Power Supply, Single or Dual Output
+In both the non-inverting and the inverting
+configuration, the AC-coupling capacitor creates a  Function Generator
+high pass filter. The resulting cut-off frequency, f , is
+C
+given as:  4-channel Oscilloscope
+ Two 1MΩ oscilloscope probes
+f =
+C C
+Pin Non-Inverting Inverting
+In the non-inverting circuit on the TS1002 demo Circuit Circuit
+board, R=R4=1MΩ and C=C2=0.1µF. In the inverting VDD VDD VDD
+case, R=R6=1MΩ and C=C3=0.1µF. In the non- VSS GND GND
+inverting circuit on the TS1004 demo board, INA, INB VIN VIN-1
+= 17=1MΩ and C=C5=0.1µF. In the inverting case, OUTA, OUTB VOUT VOUT-1
+R=R14=1MΩ and C=C4=0.1µF. In both cases, these
+Table 1. TS1002 Demo Board Test Points
+component values generate a high-pass cut-off
+frequency of 1.6Hz. Pin Non-Inverting Inverting
+Circuit Circuit
+Default Configurations VDD VDD VDD
+VSS GND GND
+INA, IND VIN VIN-1
+Non-Inverting Configuration
+OUTD, OUTD VOUT VOUT-1
+In the non-inverting configuration, the circuit’s transfer Table 2. TS1004 Demo Board Test Points
+function is given by the following equation:
+Non-Inverting Configuration
+T = 1+ In order to evaluate the TS1002 dual or TS1004 quad
+N operational amplifiers in the non-inverting
+configuration, the following steps are to be performed:
+With 1= =2MΩ and 2= =2MΩ on the TS1002
+demo board and 12= =2MΩ and 11= =2MΩ
+1) Before connecting the DC power supply to the
+on the TS1004 demo board, the circuit signal gain is
+demo board power test points, turn on the power
++2 with a circuit bandwidth of 2kHz. This results in an
+supply and set the DC voltage to 2.5V and then
+overall circuit bandwidth range of 1.6Hz to 2kHz.
+turn it off.
+Page 2 TS1002DB/TS1004DB r1p0
+RTFDS

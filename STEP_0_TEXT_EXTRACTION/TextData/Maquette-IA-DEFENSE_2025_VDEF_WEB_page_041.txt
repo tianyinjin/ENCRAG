@@ -1,0 +1,75 @@
+41
+confiance à chaque phase de son cycle de vie. Ces campagne d’essai, l’évaluateur ne saura se contenter
+compétences incluent sans s’y limiter l’expertise de résultats sur un jeu de données d’évaluation ou de
+en IA, mais également l’étude des facteurs
+qualification (qui demeurent néanmoins essentiels). Dans
+humain, des problématiques d’embarquabilité,
+l’optique de mesurer la confiance, il souhaitera observer
+des aspects sécurité de l’IA ou encore de MCO [3],
+• Agile : le processus de conception doit intégrer et juger sur pièces les jeux de données d’entraînement,
+facilement toute évolution technologique protocoles d’entraînement et d’ajustement, et autres
+permettant de bonifier les performances de l’IA éléments pertinents à la conception d’un composant
+de confiance dans une logique d’amélioration
+d’IA : c’est le concept d’assurance d’apprentissage.
+continue,
+• Itératif : le processus de conception est conçu
+L’IA de confiance, une révolution pour le ministère
+pour permettre des incréments selon la mise à
+des armées
+Dominique CHAUVEAU disposition de nouvelles données, le changement
+Le développement d’une IA de confiance n’est donc
+de cadre d’emploi, ou tout autre évènement
+déclencheur dans le cycle de vie de l’IA, pas seulement limité aux évolutions techniques, mais
+• Traçable : dans une démarche scientifique, le également à une évolution du paradigme de conception
+processus de conception est documenté et les et d’évaluation du système tout au long de sa vie. Cette
+différents choix de conception sont traçables au
+évolution induit une collaboration plus étroite entre
+travers d’une ou plusieurs expériences permettant
+client, concepteur et évaluateur afin de concourir à
+à tout acteur de juger et comparer de la pertinence
+des choix effectués. l’obtention d’une IA de confiance. En d’autres termes,
+les processus organisationnels de ces parties prenantes
+Évaluer de l’IA pour la confiance
+doivent s’inscrire dans une logique de transparence pour
+Ce processus de conception est à mettre en relief avec
+la conception du composant d’IA. Cette transparence
+le processus d’évaluation. Ce dernier partage certaines
+participe à la création d’un processus de conception
+caractéristiques du processus de conception, et peut
+fiable, aboutissant à des IA de confiance. Cette évolution
+s’y intégrer. D’une part, en étant au fait de l’état de
+organisationnelle sous-tend les efforts du ministère
+l’art des outils et méthodes permettant de concevoir
+des Armées dans la démarche d’adoption de cette
+et de mesurer la confiance en un système ayant une
+technologie de rupture, démarche nécessaire à la mise
+composante d’IA. D’autre part, en participant aux étapes
+en place d’une IA de défense qui participe activement
+de spécifications tant du processus de conception d’un
+à l’accomplissement des missions régaliennes.
+composant que des caractéristiques de ce dernier
+pour en augmenter les attributs de confiance : qualité
+attendue des données, métriques, ou encore sûreté et
+sécurité sont des éléments à considérer tout au long de
+la mise en place du système afin d’aider à l’évaluation de
+la confiance à accorder aux briques d’IA. Cet échange
+transparent et constant entre les acteurs tout au long du
+développement doit nourrir le processus de conception
+: le concepteur perçoit clairement les attentes du client
+et ajuste ainsi son flot de conception ; d’autre part
+l’évaluateur peut identifier les écueils émergents durant
+le projet et apporter une expertise complémentaire dans
+l’obtention d’une IA de confiance. Ce procédé s’inscrit
+dans le cycle de vie de l’IA : dans son développement
+initial, mais également lors de la phase d’utilisation
+lorsque des incréments, réentraînements ou autres
+changements de domaines d’emploi sont à considérer.
+Le projet en ressort gagnant : mieux spécifié, mieux
+conçu, mieux évalué. Les inévitables évolutions à
+apporter au système pour satisfaire les évaluations
+sont également maîtrisées au plus tôt. Toutefois,
+ce fonctionnement collaboratif entre le processus
+de conception et l’évaluation d’un composant d’IA
+bouleverse les habitudes des différentes parties
+prenantes, notamment pour les systèmes les plus
+critiques. En comparaison avec une traditionnelle

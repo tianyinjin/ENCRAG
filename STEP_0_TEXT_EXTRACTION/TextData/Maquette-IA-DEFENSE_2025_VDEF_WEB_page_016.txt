@@ -1,0 +1,38 @@
+16 Pôle d’excellence cyber
+Les enjeux et perspectives de l’IA de défense à l’échelle
+Majda Belhaj Florian Canderlé
+Directrice Data et IA Senior Manager
+Capgemini Invent Capgemini Invent
+Le développement de l’IA de défense à l’échelle budgétaire ambitieuse sur plusieurs années doit
+représente la capacité à déployer des solutions d’IA ensuite être sécurisée, couvrant les investissements en
+non pas comme des prototypes isolés, mais comme des ressources humaines, technologies, accompagnement
+systèmes robustes, intégrés et utilisables de nombreux au changement, et justifié par les ROI escomptés.
+utilisateurs sur le théâtre d’opérations. Contrairement
+à des IA simples, implémentables rapidement dans Modèle opérationnel
+un cadre restreint, l’IA de défense à l’échelle exige une
+industrialisation et une homologation des briques La définition d’un modèle opérationnel (organisation,
+technologiques pour les rendre fiables face à des gouvernance, processus, indicateurs) adapté est crucial.
+conditions réelles et changeantes, souvent imprévisibles. Plusieurs critères doivent être pris en compte tels que
+Cependant, ce déploiement nécessite de surmonter la taille de l’organisation, le volume et la typologie de
+les contraintes spécifiques à ce secteur telles que cas d’usage, le niveau de maturité en IA et la culture
+la sensibilité, la disponibilité et le partage des d’entreprise. Si le modèle Hub-and-Spoke [1] est de plus
+données entre l’État et les industriels, la maturité en plus privilégié, il convient de noter que nous observons
+des architectures de défense, le manque d’acteur plutôt des modèles centralisés pour des IA factory dans
+technologique majeur Européen, l’intégration dans le secteur de la défense, probablement du fait de la
+des systèmes complexes ou encore les contraintes de maturité et des contraintes évoqués précédemment.
+recrutement et les réglementations internationales.
+Nous proposons dans cet article des pistes d’accélération Méthodologie agile appliquée à l’IA
+sur lesquels travailler pour sécuriser le passage à l’échelle.
+Le développement dans un mode agile est essentiel
+Vision stratégique pour co-construire avec les utilisateurs finaux,
+améliorer la performance des modèles par itérations
+Pour commencer, il est essentiel de définir une vision claire successives et assurer un fonctionnement en boucle
+des grandes thématiques d’IA sur lesquelles investir afin courte. Néanmoins, les contraintes d’homologation
+de donner un cap à l’entreprise, par exemple autour des propres au secteur de la défense nécessitent de
+drones, de la guerre électronique, du renseignement, des bien prévoir les niveaux de maturité attendus, par
+centres de commandement, ou encore de la logistique. exemple sur la documentation des besoins et critères
+Impliquer les Comités de Direction (CODIR) et Comités d’acceptation, les exigences de cybersécurité, la qualité
+Exécutifs (COMEX) dans ce choix permet de recueillir du code ou encore les contraintes de performance.
+leur vision à court, moyen et long terme. La vision doit
+inclure des métriques pour évaluer les gains attendus
+et le retour sur investissement (ROI). Une trajectoire

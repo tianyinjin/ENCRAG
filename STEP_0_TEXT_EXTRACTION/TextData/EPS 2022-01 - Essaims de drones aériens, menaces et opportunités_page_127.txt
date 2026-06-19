@@ -1,0 +1,55 @@
+shot », sous faible volume (obus, grenade), et permettant de générer des champs de
+1000 Teslas303 ;
+- Générateurs à tube (technologie dérivée du radar304 : magnétron305 , vircator ((VIRtual CAthode
+oscillaTOR)306 , klystron, …) ;
+POUR UN EFFET « SOFT KILL » DE NIVEAU 2
+▪
+Cette approche relève du brouillage non-linéaire adapté. La technologie sollicitée pour réaliser ce type
+d’effet recoure à des modules d’émission à état solide, analogues à ceux qui composent les radars
+AESA307. Les formes d’onde transmises sont sophistiquées et bénéficient très certainement de
+nombreux essais et mises au point. Elles se basent très probablement sur des signaux de brouillage à
+code de phase, afin de perturber la rotation des moteurs actionnant les gouvernes d’un drone à voilure
+fixe ou les rotors d’un multicoptère. Cette technologie récente est la moins documentée pour ce qu’elle
+a d’innovant et qui relève de la forme d’onde ; elle est bien connue pour le reste. Indépendante du type
+de drone, son mode d’action ne semble pas devoir être remis en cause par d’éventuels nouveaux
+procédés de construction des drones308. Elle présente l’avantage d’assurer également détection et
+pistage de la menace puis de contribuer à l’évaluation de la destruction des cibles.
+COUPLES ARMES - PORTEURS
+▪
+Poids, volume, consommation, compatibilité électromagnétique sont très variables selon la technologie
+et l’effet recherché. Armes et porteurs constituent donc des couples à optimiser :
+- pour un usage à terre, avec un besoin de répétitivité, on trouvera :
+- pour un effet 3 à 5 : de gros générateurs et de grandes antennes de rayonnement
+pour compenser la propagation ;
+- pour un effet 2, uniquement, compte tenu de la faible puissance requise (de la
+classe de celle des radars), la technologie d’antenne et d’émetteur sera celle des
+radars : des générateurs compacts, à base de modules à état solide et à balayage
+303 Soit H = B/µ => H ~1000 A/m et E ~300 000 V/m : valeur typique d’un orage.
+304 L’origine de l’arme HPM est la recherche d’impulsions courtes dans le domaine radar, afin
+d’acquérir une meilleure résolution en distance. Aujourd’hui, ce besoin est couvert par la
+compression d’impulsion et les FM/CW. Les radars s’orientent donc vers des émetteurs état solide
+dit AESA (Silicium, AsGa ou GaN : puissance, pour 1000 modules : ~ 10 MW). Mais, à l’origine, les
+radars ont utilisé une multitude de technologies d’émetteurs (magnétron, klystron, tube à onde
+progressive (TOP), gyratron, carcinotron, …). La performance recherchée n’était pas la puissance crête
+mais de multiples critères (spectre, puissance moyenne, …). C’est le besoin de forte puissance d’une
+arme HPM qui a amené à réutiliser ces émetteurs, voire à créer de nouveaux tubes (à résonance,
+relativiste, …). Par exemple, le klystron radar était de classe 10 à 30 MW ; en utilisation HPM il est
+proche de 200 MW en bande S et de 100 MW en bande X (les performances sont optimisées pour
+la génération d’impulsion courte). Ce type d’émetteurs est toujours conséquent : 4 à 5m, 500 kg. En
+pratique, ce type d’arme HPM incorpore des technologies complexes : alimentation THT (> 500 kV),
+canon et collecteur à électrons (forte puissance), tube à vide et un ensemble de circuits RF de très
+forte puissance (guide d’onde, circulateur, antenne).
+305 Magnétron relativiste : Pe de 4 GW (10 GHz) à 10 MW (300 GHz), impulsion <1 kJ.
+306 Vircator de 1 à 10 GHz avec Pe ~ 1 à 2 GW (c’est la technologie la plus prometteuse à moyen
+terme). Avec des impulsions < 1 Kj. L’objectif 2025 _2030 pour la technologie vircator est 1 GW,
+1 µs, 1 kJ (chiffres clés). A ce jour, aucune source n’a pu générer ces chiffres. Parfois, Pe dépasse
+1 GW mais la puissance transmise dans le pulse est nettement inférieure à 1 kJ. A moins de 3 GHz,
+l’état de l’art est celui de la DARPA, avec le successeur du vircator, le reditron : 2.5 GW, 6 %
+d’efficacité, 30 ns d’impulsion (impulsion un peu courte), et l’aurora reflex-diode HPM, source pour
+la production d’impulsions de 400 J en 100 ns, en-dessous de 1GHz.
+307 Un brouillage de perturbation HPM non permanent (effet 2), avec une puissance de 10 MW (sur
+une base de 1 000 modules actifs à état solide de 10 W chacun), peut être efficace à une distance
+d’un kilomètre (on est dans l’échelle d’un radar de Rafale, soit une antenne de 60cmx60cm). Une
+précision de pointage à 0,5° y est associée.
+308 Les actionneurs d’un « Active Flow Control » ont une vulnérabilité analogue.
+127

@@ -1,0 +1,19 @@
+- L’IMPACT DES CONDITIONS ATMOSPHERIQUES
+La propagation du faisceau laser dans l’atmosphère est fortement impactée par les précipitations, le
+brouillard et les aérosols en général. Le graphique suivant, résultat de calculs pour un laser à 30 kW,
+l’illustre de manière explicite, surtout aux portées les plus importantes 292:
+- EXEMPLE ET ANALYSE D’UNE ARME EMBARQUEE
+Au titre des réalisations emblématiques contemporaines, il faut citer HELIOS (High Energy Laser with
+Integrated Optical dazzler and Surveillance), de Lockheed Martin, déployé sur l’USS Preble de type
+Arleigh Burke, à la place du Phalanx avant. Cet équipement est susceptible de faire l’objet d’une petite
+série. De la classe des 60 kW, l’arme est intégrée au système AEGIS.
+Si on considère une ouverture estimée à 50 cm, une longueur d’onde λ = 1070 nm, un facteur de mérite
+M² = 30 et une focale à 3 km on aboutit à une tache laser de l’ordre de 25 cm de diamètre à cette
+distance, soit une densité de puissance de 122 W/cm², clairement insuffisante face à des structures en
+carbone-époxy. Il faudrait au moins 300 kW pour parvenir à les percer. Les annonces d’une montée en
+puissance d’HELIOS sont cohérentes avec les mesures conservatoires affichées (150 kW) et les
+ambitions mises en avant. Au titre de l’intégration, on parle d’une puissance d’alimentation de 400 kW
+et d’un dispositif de refroidissement de 68 tonnes. On mesure la difficulté que pourrait représenter
+292 Aktueller Stand der militärischen Lasersysteme. Rapport pour armasuisse W+T, Rheinmetall Air
+Defence, Zürich, 2015.
+122

@@ -1,0 +1,42 @@
+- SCENARIO D’ATTAQUE RETENU
+En support de la réflexion, pour permettre une comparaison de l’efficacité des armes et des tactiques,
+un unique scénario, valable jusqu’en 2030, a été défini pour décliner la menace de référence. Il s’agit
+de la défense d’un bâtiment de surface face à un essaim de 30 drones aériens du même type,
+prononçant leur attaque en 3 vagues de 10, ayant des « time on target » espacés de 5 secondes,
+arrivant uniformément répartis dans un secteur de 160° avec des profils de vol variés dans le plan
+vertical et adoptant leur vitesse maximum à 500 mètres de leur cible.
+En première approche l’environnement atmosphérique est considéré comme non perturbé : la
+propagation des ondes y est nominale.
+Avant de s’intéresser aux tactiques et effecteurs susceptibles de contrer cette menace et, en particulier
+aux armes à énergies dirigées, il convient d’analyser les vulnérabilités des essaims et d’examiner la
+meilleure manière de les exploiter.
+
+VULNERABILITES EXPLOITABLES DES DIFFERENTS
+SYSTEMES D’ESSAIMS DE DRONES
+La vulnérabilité des systèmes d’essaims de drone est analysée à partir des briques technologiques
+identifiées précédemment, selon trois sous-ensembles : les vecteurs, leur charge utile et les moyens de
+coordination de l’essaim. Leurs composants se déclinent en cellule propulsée et en électronique
+embarquée, une part de cette dernière exploitant le spectre électromagnétique.
+- VULNERABILITES EXPLOITABLES PAR TYPE D’ESSAIM
+Le tableau suivant liste les vulnérabilités potentiellement exploitables152, au moins en partie, parfois
+dans certaines conditions, des différents types d’essaims, au vu des briques technologiques qui les
+composent et qui ont été décrites précédemment :
+Type d’essaim
+Briques Scripté Téléopéré « Intelligent »
+Lien de
+navigation Brouillage, leurrage, surtensions
+Lien
+vers le C2
+Coordination
+Lien
+interne
+IA
+Surtensions
+de l’essaim
+Charge utile Effecteurs
+152 La vulnérabilité cyber n’a pas été considérée comme exploitable dans le contexte de la défense
+d’une force navale à la mer, compte tenu des préavis de détection anticipables. La recherche d’un
+effet thermique, directement sur les composants électroniques, ne semble pas réaliste aux horizons
+de l’étude ; cette vulnérabilité est abordée en annexe V. On la retrouverait à côté de la mention
+« surtensions » dans les tableaux.
+53

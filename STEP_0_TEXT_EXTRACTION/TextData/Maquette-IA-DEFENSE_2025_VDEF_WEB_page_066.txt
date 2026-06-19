@@ -1,0 +1,64 @@
+66 Pôle d’excellence cyber
+Comment garantir qu’une IA respectera les principes
+de proportionnalité et de distinction
+Olivia BREYSSE
+Experte indépendante en IA et cybersécurité
+Collège Numérique France 2030
+L’éthique de la Défense est un équilibre subtil entre et même inévitables au moment de la conception
+impératifs opérationnels, respect des droits humains d’un programme. Nous en avons pris conscience, bien
+et des droits internationaux. Un équilibre actuellement avant l’utilisation commerciale des modèles d’IA, avec
+remis en question par la généralisation de l’usage de de simples systèmes automatisés qui amplifiaient
+l’intelligence artificielle dans les systèmes de défense déjà des discriminations opérées dans la réalité[2], [3].
+qui gagnent certes en précision, en efficience et en Mais, l’absence de neutralité des données historiques
+autonomie, mais qui doivent en retour faire face à des n’est pas la seule source de biais dans les systèmes
+risques accrus de dérives telles que : d’IA :
+• Des erreurs opérationnelles pouvant causer des • Un mauvais échantillonnage des données
+dommages collatéraux et des pertes civiles, d’apprentissage peut entraîner ensuite une
+• Une violation des droits humains en discriminant mauvaise généralisation du modèle, comme le
+ou en ciblant involontairement des populations ciblage d’un rassemblement de civils suivant des
+spécifiques, indicateurs fallacieux[4],
+• Une exacerbation des conflits ou la création de
+• Un mauvais choix des variables représentatives
+nouvelles tensions, en raison d’une mauvaise
+peut créer des corrélations erronées, comme le
+identification des comportements adverses.
+fait d’associer une menace à un certain type de
+bâtiment ou d’équipement[5],
+Un contrôle humain indispensable
+• Des objectifs mal formalisés peuvent conduire
+l’algorithme à optimiser des métriques
+Aussi, face aux dommages que pourrait causer un
+techniques aux détriment des impératifs éthiques
+système d’IA doté d’autonomie décisionnelle, le
+ou stratégiques. Par exemple, un drone militaire
+Comité d’Éthique de la Défense (COMEDEF) préconise
+qui associe le contrôle de son opérateur à une
+de maintenir systématiquement un contrôle humain
+menace l’empêchant d’atteindre son objectif et
+sur les décisions critiques. Surtout, lorsqu’il s’agit de
+qui décide de se retourner contre lui[6].
+systèmes d’armes létaux[1].
+Un faux sentiment de maîtrise
+Néanmoins, une autonomie même partielle des
+systèmes d’IA questionne encore les principes
+Malgré la vigilance portée à la qualité des bases de
+de proportionnalité et de distinction du droit
+données d’entraînement des modèles d’IA, aux
+international. En effet, comment vérifier que le
+hypothèses implicites et aux choix des équipes
+système n’entraînera pas des conséquences excessives
+de conception[7],[8], c’est souvent à l’usage que les
+pour les populations civiles, par rapport à l’avantage
+algorithmes révèlent leurs défaillances. Le risque
+militaire attendu ? Comment s’assurer qu’un système
+zéro n’existe donc pas. D’autant que les biais des
+identifiera correctement une cible militaire et ne
+utilisateurs peuvent aussi aggraver l’impact de ces
+commettra pas une erreur de classification menant à
+défaillances. Notamment le biais d’automatisation [9]
+une attaque contre des civils ?
+qui fait que nous avons naturellement tendance à
+privilégier les suggestions d’un système automatisé,
+Des biais ancrés dès la conception
+même en présence d’informations contradictoires
+Les biais algorithmiques sont difficilement décelables évidentes, le biais d’action[10] qui nous pousse à agir,

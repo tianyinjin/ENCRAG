@@ -1,0 +1,45 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.8
+DROIT PRIVE
+(cid:3)
+SUPERVISION DE SECURITE D’UN SYSTEME D’INFORMATION
+6.8(cid:3):
+Références(cid:3):
+(cid:129) IGI 1300 – 6.6.4
+(cid:129) Instruction interministérielle n°901/SGDSN/ANSSI relative à la protection des
+systèmes d’information sensibles
+Point clé(cid:3):
+La supervision de sécurité d’un système d’information est un élément clé de la
+cybersécurité, qu’il soit ou non classifié.
+Sauf mention contraire, la présente fiche concerne les systèmes d’information classifiés,
+tels que décrits dans le chapitre 6 de l’IGI 1300, et Diffusion Restreinte, au sens de l’II 901
+citée en référence.
+1. Journalisation des événements
+A des fins d’investigation, de suivi a posteriori des échanges, de traitement des incidents
+et d’archivage, une journalisation des événements est mise en place pour tracer et
+imputer les actions réalisées sur les systèmes d’information selon les recommandations
+de l'ANSSI. La journalisation porte sur(cid:3):
+- la gestion des accès,
+- les modifications,
+- les enregistrements,
+- tout élément permettant l’investigation en cas d’incident de sécurité.
+Les événements enregistrés par le système de journalisation156 sont horodatés. Les
+composantes du système doivent être synchronisées pour assurer un horodatage
+cohérent des événements enregistrés.
+Ils sont, pour chaque système d’information, centralisés et archivés pour une durée d’au
+moins cinq ans. Le format d’archivage des événements permet de réaliser des recherches
+automatisées sur ces événements.
+Dans l’éventualité où, pour un système d’information classifié, certains évènements ne
+pourraient être enregistrés, le dossier d’homologation doit préciser les éventuelles
+mesures organisationnelles palliatives mises en place.
+L’autorité d’homologation s’assure de la définition de procédures d’exploitation des
+événements enregistrés par le système de journalisation et de leur application.
+2. Systèmes de détection
+La supervision de la sécurité des systèmes d’information s'appuie notamment, en
+complément de la journalisation des événements, sur des systèmes de détection de type
+(cid:2)(cid:3)sonde d’analyse de fichiers et de protocoles(cid:3)(cid:3), qui font l'objet d'une stratégie de
+(cid:3)
+156 Le système de journalisation est une fonction indépendante du système d’information, qui enregistre les
+événements relatifs au fonctionnement du système et à sa gestion.
+169

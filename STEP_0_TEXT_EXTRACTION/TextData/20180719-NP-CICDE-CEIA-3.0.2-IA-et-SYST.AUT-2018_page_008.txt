@@ -1,0 +1,41 @@
+Chapitre 1
+Définitions et caractérisations
+101. Les définitions des notions d’automatisme, d’autonomie, de robots, de drones, d’intelligence
+artificielle et de systèmes automatisés sont multiples. Il est proposé de retenir les définitions et
+caractérisations suivantes.
+Section I – Systèmes et fonctions automatisés
+102. Automatique : qualité des systèmes qui fonctionnent sans intervention humaine.
+103. Automate :
+a. les automates sont à l’origine purement mécaniques. Désormais, les automates
+peuvent être informatiques et sont très largement employés dans de nombreux
+systèmes civils et militaires ;
+b. les automates sont des systèmes dont le fonctionnement et les états sont prédéfinis de
+façon globale ou précise. Leur autonomie est fonction du type de programmation fixée
+(algorithme, intelligence artificielle…). Leur mise en route est généralement
+déclenchée de façon maîtrisée par un événement ou une suite d’événements.
+104. Automatisme (ou système/fonction automatique ou système/fonction automatisé) :
+a. un automatisme est un système composé de capteurs, d’un sous-système de
+commande (calculateur et algorithmes) et d’actionneurs (ou effecteurs) ;
+b. un automatisme accomplit une suite d’opérations depuis un état initial jusqu’à un état
+final ;
+c. il existe des automatismes dans pratiquement tous les systèmes d’armes. Ces
+automatismes sont plus ou moins enfouis, plus ou moins critiques (pour
+l’accomplissement de la mission et la sécurité des personnes et des biens), plus ou
+moins complexes.
+105. Autonomie :
+D’après les travaux MCDC3, l’autonomie est la capacité d’un système ou d’une fonction à agir
+sous la supervision d’une programmation humaine, selon ses tâches, ses règles, ses états
+internes et ses connaissances, sans intervention extérieure.
+L’IEEE4 « Global initiative on Ethics and Intelligent Systems »5 explore les nombreuses
+dimensions de l’autonomie : « un agent X est autonome vis-à-vis d’une règle s’il peut violer
+cette règle », « un agent X est autonome vis-à-vis d’un agent Y [….] si X peut refuser un ordre
+de Y »...
+Étymologiquement, autonomie signifie « capacité à être gouverné par ses propres règles ». À
+ce jour, et avec cette définition, les robots technologiquement et opérationnellement
+envisageables ne sont pas autonomes mais hétéronomes, c’est-à-dire gouvernés par des
+règles extérieures, définies par l’homme.
+3 MCDC (Multinational Capability Development Campaign): A system’s capacity to act under supervision of human
+programming, according to desired goals, precepts, internal states, and knowledge, without outside intervention.
+4 IEEE: Institute of Electrical and Electronics Engineers.
+5 Glossary for Discussion of Ethics and Intelligent Systems, Version 1 – October 2017.
+8

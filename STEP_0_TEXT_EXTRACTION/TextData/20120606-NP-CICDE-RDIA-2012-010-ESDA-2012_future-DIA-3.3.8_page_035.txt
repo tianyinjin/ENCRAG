@@ -1,0 +1,50 @@
+capacités respectives afin d’assurer un suivi précis de la situation92, voire en
+permettant une localisation précise par la fusion et le recoupement des informations
+(goniométrie par exemple) de plusieurs drones ;
+c. entre charges utiles sur la même plate-forme : l’association de capteurs ISR à large
+champ93 (ROEM ELINT94 et/ou COMINT95) et de capteurs à champ étroit (capteur
+image de type EO/IR96), éventuellement complétée de capteurs à champ moyen
+(SAR/MTI97 par exemple) permet à partir d’un même drone de couvrir tout le
+continuum « surveillance, détection/alerte, localisation, reconnaissance, identification,
+suivi de cibles », voire d’aller jusqu’au traitement de la cible en cas d’emport simultané
+d’armement.
+Capteur MTI «Champ moyen»
++
+Capteur SAR
+Capteur EO/IR
+Avec SPOT SAR«Champ étroit –moyenne portée»
+«Champ étroit»
+Capteur ROEM
+«Champ large»
+Émetteur potentiel (radar ou communication) hors de portée (CU ROEM= ou drone)
+Émetteur potentiel (radar ou communication) dans la zone de couverture ROEM du drone
+Émetteur actif (radar ou communication), détectéet classénon hostile
+Émetteur actif (radar ou communication), détectéet classéhostile
+Figure 4 – Catégories de charges utiles ISR et largeur de champ
+337. Ce travail collaboratif n’est possible qu’à la condition de connecter les systèmes de drones
+entre eux et de les intégrer aux réseaux C4I. Il nécessite en outre de déterminer précisément le
+juste niveau d’interopérabilité entre les systèmes de drones.
+Partager l’information
+338. Les systèmes de drones aériens sont avant tout des capteurs performants. Leur intégration
+dans les réseaux C4I leur permet de participer à la mise en réseau globale de l’ensemble des
+capteurs et des effecteurs98 dans le but d’accroître l’efficacité opérationnelle sur une zone
+donnée.
+339. L’information provenant des drones, reçue et traitée par les modules de mise en œuvre, est
+redistribuée en tant que de besoin au sein de la structure de commandement par les canaux de
+communication ad hoc. Les systèmes de drones aériens doivent être aussi capables de
+collaborer en direct au niveau tactique avec les effecteurs proches (vecteur aérien habité,
+forces de combat au sol) via des liaisons bidirectionnelles dédiées (liaison de données, système
+Remote Video Terminal, etc.).
+92 Les capteurs ELINT/COMINT sont capables d’observer en continu de très larges zones, et de caractériser une activité invisible par d’autres
+moyens tandis que les capteurs électro-optiques (EO/IR) permettent une reconnaissance précise de jour comme de nuit. Les capteurs radar
+permettent quant à eux de s’affranchir de la météo et de détecter des cibles mobiles sur de larges zones (SAR/MTI).
+93 Les capteurs ROEM offrent une capacité de surveillance de longue portée, omnidirectionnelle, quasi instantanée et continue. Ils assurent la
+détection, la caractérisation et une première localisation de la cible permettant d’orienter le drone vers la cible pour une prise en compte par
+ses capteurs à champ moyen (s’il en est équipé) puis à champ étroit, à des fins d’identification visuelle et de localisation précise.
+94 ELectronic INTellignece.
+95 COMmunication INTellignece.
+96 Électro-optique / infrarouge.
+97 Synthetic Aperture Radar / Moving Target Indicator : radar permettant une cartographie du terrain et de la situation ainsi que la détection de
+mobiles au sol.
+98 Tout système d’armes terrestre, aérien ou naval capable de produire l’effet désiré.
+35

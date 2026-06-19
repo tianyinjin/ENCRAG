@@ -1,0 +1,51 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.2
+DROIT PRIVE
+(cid:3)
+- d’importance vitale (SIIV)(cid:3);
+- essentiels (SE) [NIS](cid:3);
+- sensibles ou Diffusion Restreinte (II901) ou classifiés (IGI1300)(cid:3);
+- établissant des échanges entre administrations ou réalisant des télé-services au profit
+des citoyens [RGS](cid:3);
+- traitant de données à caractère personnel (DCP), [Loi I&L](cid:3);
+- relevant des dispositions de la présente instruction.
+En fonction de la nature du système d’information objet de l’homologation, il peut être
+parfois impossible pour des raisons techniques ou opérationnelles de se conformer à
+certaines mesures de sécurité. Par exemple, l’authentification forte de l’utilisateur sur un
+système d’arme comme un missile air-air peut apparaitre peu pertinente. Les non
+conformités éventuelles doivent figurer dans le dossier d’homologation, doivent y être
+justifiées et les éventuels risques associés doivent être identifiés.
+Lorsque plusieurs réglementations s’appliquent sur un même SI, la démarche
+d’homologation et la décision d’homologation sont uniques et couvrent l’ensemble des
+réglementations applicables.
+4. Le dossier d’homologation
+La composition du dossier d’homologation est fixée dans la stratégie d’homologation. Il
+contient généralement une sélection des documents suivants(cid:3):
+- une description du système d’information (son utilité, son cadre d’emploi, les
+composants matériels et logiciels, l’architecture réseau logique et physique, les
+utilisations, administrateurs et responsables de sécurité, les références des plans
+contractuels)(cid:3);
+- les objectifs de sécurité du système d’information(cid:3);
+- la politique de sécurité du système d’information143(cid:3);
+- les procédures d’exploitation de la sécurité (PES)(cid:3);
+- les modalités de gestion des risques résiduels(cid:3);
+- le plan d’amélioration continue de la sécurité(cid:3);
+- les résultats des tests et des audits menés pour vérifier l’état de sécurité du système(cid:3);
+- la documentation de sécurité à destination des utilisateurs et des administrateurs(cid:3);
+- la documentation relative à la gestion des éléments cryptographiques mis en œuvre
+dans le système d’information(cid:3);
+- la cartographie complète du système d’information qui comprend notamment la liste
+des équipements externes pouvant être connectés au système d’information (matériel
+de maintenance, d’audit, etc.)(cid:3);
+- les schémas détaillés de l’architecture du système d’information(cid:3);
+- les agréments des dispositifs de sécurité(cid:3);
+- l’analyse de risque et les mesures de mitigation envisagées.
+Pour les SI classifiés, le dossier d’homologation doit contenir(cid:3):
+- les avis techniques d’aptitude physique (ATAP) ;
+- sauf dérogation de la DRSD et de l’autorité contractante, l’avis technique d’aptitude
+informatique (ATAI) (Cf. fiche 6.3)
+(cid:3)
+143 Généralement, il s’agit de la politique de sécurité des systèmes d’information applicable au sein de
+l’organisme éventuellement complété d’éléments propre au système d’information considéré.
+150

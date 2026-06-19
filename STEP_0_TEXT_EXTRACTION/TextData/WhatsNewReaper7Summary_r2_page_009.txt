@@ -1,0 +1,46 @@
+REAPER 7.0: What’s New
+Fixed Media Item Lanes
+Prerequisites: Before approaching this section, you will need a basic understanding of REAPER’s recording
+techniques, and in particular layered recording. If necessary, you can refer to User Guide sections 3.1 to 3.5 and
+section 3.14. Familiarity with at least the basics of REAPER’s legacy takes system is also recommended.
+Media item lanes offer you a flexible alternative way of working that takes you beyond the limitations of
+REAPER’s basic track structure.
+By default, media items will fill the entire vertical space of the track on which they are recorded. If the media
+items overlap, they are auto-arranged vertically based on your preferences. The vertical positioning of media
+items does not affect playback. Media items that overlap
+interact during playback according to the project settings
+(Project settings, Advanced, Item mix behavior),
+preferences settings (Preferences, Project, Item fade
+defaults, Preferences, Appearance, Zoom/Scroll/
+Offset), snap settings, and/or media item properties for item
+mix behavior (see right). If media item and project settings
+are different from each other, the media item setting will apply.
+With free item positioning you can freely position and resize media items within the vertical space of the track. If
+auto-crossfade is enabled, media items that overlap vertically will crossfade. Otherwise, the vertical positioning of
+media items does not affect playback. The preferences for item mix behavior are ignored; items always mix on
+free item positioning tracks.
+Fixed media item lanes offer you further tools and techniques for building projects. They can be used to record,
+layer, edit, manage and comp material. The simplest way to think of them is like being tracks within tracks. Up
+to 128 lanes can be recorded within a single track. As you will see, REAPER then gives you multiple options to
+treat these tracks individually or as linked (such as by comping) or in other ways related, as you wish.
+Let’s start with the basics! To give you some idea of where we’re eventually going here is a relatively simple
+application of media item lanes:
+Look at the above illustration. Notice:
+ The track shown comprises three lanes, labeled in a lanes panel (top to bottom) C1, 1 and 2.
+ Lanes 1 and 2 are two takes of the same tune. Lane C1 is a work in progress comp of the best parts of
+lanes 1 and 2.
+ To the right side of the track panel a new section has been added: this shows (in this case) three labeled
+buttons as well as housing its own right-click context menu.
+Recording and Layering Media Items
+Example
+We can begin by working through a relatively straightforward example, to help understand the basics, then go
+on to consider more powerful and complex models.
+1. Make sure that the following conditions are set on your Options menu:
+Record mode normal
+Offset overlapping media items vertically
+New recording that overlaps existing media items then either Add lanes or (if you prefer) Add
+lanes (layer new lanes). This latter option should only be chosen if you wish to play the new material
+along with any existing lanes.
+2. Create a new, empty project file (Ctrl N). Add a track and either (using an instrument of your choice)
+record a tune for about a minute, or import an existing media file.
+Page 9

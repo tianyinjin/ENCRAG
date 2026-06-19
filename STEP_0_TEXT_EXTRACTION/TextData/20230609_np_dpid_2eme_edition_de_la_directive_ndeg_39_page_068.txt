@@ -1,0 +1,33 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Identifier les supports amovibles (clé USB, disquette, carte (micro-)SD, disque dur,
+EXP51 ORG O
+etc.) nécessaires au système industriel et limiter leur usage au strict nécessaire.
+Définir explicitement l’emploi des supports amovibles, notamment :
+- les supports autorisés ;
+EXP52 ORG - le personnel autorisé à les utiliser ; O
+- les procédures de gestion et de contrôles ;
+- les utilisations légitimes.
+Dédier les supports amovibles au système industriel. Sont interdites :
+- la connexion de tout autre support sur le système ;
+- leur connexion sur un autre système non maîtrisé par le ministère ;
+EXP53 ORG O
+- leur utilisation pour tout autre usage.
+Les supports dédiés sont mis à disposition des personnes intervenant sur le
+système industriel.
+Avant toute connexion sur le système industriel, contrôler l’innocuité du contenu
+EXP54 ORG O
+du support et « décontaminer » les supports amovibles sur une station blanche.
+En cas d’échange de données à partir d’un support amovible non dédié vers le
+EXP55 ORG système industriel, transférer les données depuis une station blanche vers un O
+support dédié au système industriel après avoir effectué un contrôle d’innocuité.
+Maîtriser l’usage des équipements mobiles
+Faire prendre en compte les équipements mobiles (supports amovibles, poste de
+EXP56 ORG O
+maintenance, nomadisme, etc.).
+Identifier les équipements mobiles nécessaires au système industriel et limiter leur
+EXP57 ORG O
+usage au strict nécessaire.
+Définir l’emploi des équipements mobiles autorisés à se connecter sur le système
+EXP58 ORG O
+en s’assurant de leur traçabilité.
+DIR-39 SNSI – 2eme édition Page 68 | 79

@@ -1,0 +1,26 @@
+Commercial UAVs Multispectral Detection
+The isolated electric motor was mounted on a static platform, and measured by the thermal imaging camera.
+When measuring the flying UAV, there was a critical point: to keep the position of the UAV in the field of
+view of the thermal camera. For this reason, the total power of the electric motors and their RPM values
+depended on the UAV position and it could not be adjusted exactly.
+Figure 9: Thermal image of the electric motor at output power (RPM) 80% and hexacopter after 140 sec
+hovering.
+External detectability of UAVs was evaluated first on a terrain background and then on a sky background.
+The flight direction was towards the observer. Accurate data of the UAV position were obtained from UAV
+telemetry, and correlated with the actual situation.
+Figure 10: Thermal IR image of the flying hexacopter from the FLIR A40M: a) 10 m away; b) 70 m away.
+2.4 Optical detection
+Elementary visual detection of the UAV can be done by human sight or with optical devices.
+Human optical detection depends both on external and subjective factors. The series of UAV detection
+experiments using human senses (sight and hearing – see in the next subchapter) in the real environment
+were performed in these conditions:
+• number of evaluators/observers: 6;
+• age distribution of evaluators: 21–43 years;
+• term of experiment: July and September;
+• climate zone and place: temperate; Czech Republic;
+• weather and temperature: sunny, 25–30 °C;
+• visibility: 30+ km;
+• wind speed: 0–2.5 ms-1;
+• humidity: 45–50%.
+The investigated flying object: drone DJI Phanton 2. An example of the visibility test is shown in the Fig. 11.
+12 - 6 STO-MP-MSG-SET-183

@@ -1,0 +1,68 @@
+50 Pôle d’excellence cyber 51
+Annexe J
+1. Objectifs de sécurité et mesures de réduction des risques
+Vous trouverez dans le tableau ci-dessous des éléments qui pourrons vous orienter dans le choix des éléments et mesures à
+mettre en œuvre, par ordre de priorité :§ idem 5
+Outil / Mesure Objectifs de sécurité Risques Outil / Mesure Objectifs de sécurité Risques
+Mauvais usages des outils numériques,
+Responsabilisation des utilisateurs
+Protection des données Chiffrement ou altération des données Charte Informatique Shadow IT, respect des réglementations et de
+Droits et devoir d’utilisation du S .I
+Sauvegarde Continuité et Reprise d’activité Perte de données la Politique interne
+Arrêt/disfonctionnement de l’activité Amélioration des pratiques et des Hameçonnage, Ingénierie sociale,
+usages des outils numériques Erreur de manipulation,
+Sensibilisation
+Renforcement de la culture et des Mauvais usages des outils numériques,
+Logiciel malveillants (Rançongiciel, …) connaissances cyber Non-Conformité règlementaire
+Protection contre les fichiers
+Antivirus Fuite/vol de données
+Pilotage et suivi de la sécurité Défaut de sécurisation
+malveillants sur les postes et serveurs
+Analyse de risques Absence de pilotage et de suivi
+RSSI / DPO
+PSSI, Gestion de crise Non-conformité règlementaire
+Hameçonnage, Conformité réglementaire
+Filtrage des mails malveillants,
+Antispam Logiciels malveillants Chiffrement des accès distants et Fuite de données
+Filtrage des fichiers malveillants,
+interconnections réseaux (partenaires) Logiciels malveillants
+VPN
+Sécurisation des utilisateurs nomades Expositions des applications
+Filtrage des sites malveillants ou
+Logiciels malveillants
+inadaptés,
+Fuite de données Traçabilité des accès
+Proxy Filtrage des fichiers malveillants,
+Conformité règlementaire, traçabilité Traçabilité des actions Perte ou suppression des traces d’activités
+Traçabilité des accès internet Puits de logs
+Surveillance des évènements malveillantes ou règlementaires .
+Contrôle des accès et des flux de
+Exposition directe d’application
+données Intrusion dans le S .I Contrôler et sécuriser l’exposition
+Reverse proxy Compromission, accès non maitrisés
+Segmentation du S .I . Fuite de données internet d’applications
+Parefeu Zones de sécurité filtrée : zones Propagation, latéralisation de l’attaque
+Contrôle des accès distants
+utilisateurs, zones serveurs, zones Non maitrise des flux de données Accès distant non autorisé
+Contrôle des prestataires
+DMZ Bastion Détournement d’accès
+Contrôles des administrateurs
+Traçabilité des actions
+Centralisation des comptes
+Mauvaise Gestion et revue des comptes, Protection contre les fichiers et Logiciel malveillants (Rançongiciel, … )
+utilisateurs
+Mauvaise gestion des droits utilisateurs, actions malveillantes sur les postes et Fuite/vol de données
+Gestion des droits des utilisateurs et
+Accès illégitime EDR / xDR serveurs
+Annuaire des groupes
+Logiciels malveillants Surveillance des évènements
+Séparation des droits utilisateurs et
+Défaut de confidentialité de données
+administrateurs
+Filtrage et Contrôle des appels d’API Détournement d’API
+entrants et sortant vers les services Vol, extraction de données
+Informations sur le fonctionnement Passerelle API
+externes (Cloud, SaaS, partenaires, Non maitrise des flux API entrants/sortants
+des équipements et applications Détection tardive ou non traitement des
+Supervision hébergeurs, …)
+Traitement des incidents et alertes incidents ou des disfonctionnements .

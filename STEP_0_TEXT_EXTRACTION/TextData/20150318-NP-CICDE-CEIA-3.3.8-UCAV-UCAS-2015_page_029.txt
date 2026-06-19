@@ -1,0 +1,48 @@
+Vers une nouvelle gamme d’effecteurs pour les UCAV ?
+309. Les UCAV permettant l’approche de cibles d’intérêt élevé situées dans un environnement non
+permissif, il est important de réfléchir à une nouvelle gamme d’effecteurs présentant
+simultanément les caractéristiques suivantes :
+a. relative simplicité de conception, de réalisation et d’intégration sur UCAV ;
+b. volume physique de l’effecteur quasi exclusivement dédié aux systèmes produisant les
+effets recherchés ;
+c. mise en œuvre simplifiée (pas de programmation des trajectoires de vol, quantité de
+matériaux énergétiques limitée facilitant notamment le stockage, maintenance limitée
+par exemple) ;
+d. réduction possible de l’écart circulaire12 probable de l’effecteur qui, couplée à une
+quantité réduite de matière active, permet de maintenir au plus bas niveau possible le
+risque de dommages collatéraux.
+Niveau d’autonomie des UCAV ?
+310. Les progrès effectués dans le domaine de l'autonomie décisionnelle et les évolutions prévisibles
+de l’intelligence artificielle permettent d’envisager certains degrés d’autonomie pour les UCAV.
+Il s’agira donc de définir avec précision le niveau d’autonomie souhaité et ses limites (lignes
+rouges) car ils sont susceptibles d’influer directement sur les principes mêmes de mise en
+œuvre de l’UCAV.
+311. Il s'agit notamment d'optimiser l'efficacité du couple « homme/machine » en affectant, suivant
+des critères encore à déterminer, les différentes tâches de mise en œuvre d’un UCAV soit à
+l'opérateur, soit au système de contrôle.
+312. Les capteurs de l’UCAV étant susceptibles de générer des flux d’information très importants par
+rapport à la capacité d’exploitation du segment de contrôle et de soutien, il est nécessaire de
+prévoir d’automatiser une partie des tâches d’analyse et de redistribution des données
+collectées. Cette exigence parait d’autant plus importante que ces flux d’informations sont
+susceptibles d’être destinés à un ou plusieurs destinataires (décideur(s) ou autre(s) système(s)
+militaire(s) par exemple).
+313. Les réflexions en la matière doivent simultanément tenir compte :
+a. de l’augmentation prévisible du volume de données échangées entre systèmes
+militaires et des limitations des bandes de fréquence utilisables ;
+b. des problématiques concernant les transmissions (capacités de traitement, de
+transmission et d'exploitation, latence, débit disponible variable, volonté de discrétion,
+nécessité d'avoir des communications robustes...) ;
+c. des niveaux de fiabilité technique et opérationnelle visés pour l’UCAV et pour le
+système de contrôle.
+Comment faire pour « percevoir et éviter »13 ?
+314. Les UCAV doivent être capables d’assurer la fonction de sécurité « percevoir et éviter » des
+règles de circulation dans l’espace aérien notamment pour les transits (règles de la CAG ou de
+la CAM) vers les zones opérationnelles (prévention des pertes amies ou civiles par collision en
+vol). Cette capacité devra être démontrée pour tous les scénarios d’engagement opérationnels
+retenus (i.e. utilisation d’émissions radioélectriques ou non durant la ou les missions).
+315. La fonction « percevoir et éviter » pourra être assurée avec l’intervention d’un opérateur distant
+mais devra aussi pouvoir être assurée de façon autonome (intelligence artificielle) par le
+vecteur.
+12 Précision obtenue à une distance de tir donnée.
+13 En anglais : « sense and avoid ».
+29

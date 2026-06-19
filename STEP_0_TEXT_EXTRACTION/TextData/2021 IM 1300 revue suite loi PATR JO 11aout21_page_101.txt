@@ -1,0 +1,46 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+L’autorité d’emploi du système d’information élabore, tient à jour et met en œuvre une
+procédure de maintien en condition de sécurité des ressources matérielles et logicielles de ses
+systèmes d’information classifiés.
+Cette procédure prévoit :
+- l’installation et la maintenance de toutes les ressources matérielles et logicielles des
+systèmes d’information classifiés dans des versions supportées par leurs fournisseurs ou
+leurs fabricants et mises à jour du point de vue de la sécurité, sauf en cas de difficultés
+techniques ou opérationnelles justifiées ;
+- préalablement à l’installation de toute nouvelle version, la vérification de l’origine de
+cette version et de son intégrité, et l’analyse de l’impact, d’un point de vue technique et
+opérationnel, de cette version sur le système d’information classifié concerné ;
+- une veille sur les vulnérabilités affectant le système d’information classifié afin de
+pouvoir mettre en œuvre, dès qu’une vulnérabilité est connue, des mesures palliatives
+en attente de la publication d’une mesure correctrice de sécurité ;
+- l’installation sans délai sous le contrôle du responsable de la sécurité du système
+d’information, de toute mesure correctrice de sécurité concernant l’une de ses
+ressources, après s’être assuré de l’origine de cette mesure et de son intégrité.
+Lorsque des raisons techniques ou opérationnelles le justifient, conformément aux instructions
+de l’autorité d’homologation, l’autorité d’emploi du système d’information peut décider, pour
+certaines ressources de ses systèmes d’information classifiés et des systèmes d’administration
+de systèmes d’information classifiés, de ne pas installer une version supportée par le fournisseur
+ou le fabricant de la ressource concernée ou de ne pas installer une mesure correctrice de
+sécurité. Dans ce cas, le responsable de la sécurité du système d’information met en œuvre des
+mesures techniques ou organisationnelles pour réduire les risques liés à l’utilisation d’une
+version obsolète ou comportant des vulnérabilités connues. Il documente ces mesures et les
+intègre au cycle de maintien en condition de sécurité de son système d’information.
+Cloisonnement
+Les systèmes d’information classifiés sont séparés physiquement des systèmes d’information
+de classification différente et des systèmes d’information non-classifiés. À défaut, des moyens
+agréés sont utilisés pour cloisonner logiquement ces systèmes d’information.
+Lorsque sont concernés deux systèmes d’information classifiés au même niveau dont l’un n’est
+pas sous maîtrise nationale, les mêmes dispositions s’appliquent.
+Tout système d’information classifié est découpé en zones fonctionnelles ayant des besoins de
+sécurité homogènes, cloisonnées entre elles suivant les recommandations de l’agence nationale
+de la sécurité des systèmes d’information.
+Mécanismes de filtrage des flux de données
+L’autorité d’emploi du système d’information classifié met en place des mécanismes de filtrage
+des flux de données circulant dans ou entre les systèmes d’information classifiés afin de bloquer
+la circulation des flux susceptibles de faciliter des attaques informatiques. Ces mécanismes
+respectent les règles suivantes :
+- le responsable de la sécurité des systèmes d’information établit et tient à jour une liste
+des règles de filtrage mentionnant l’ensemble des règles en vigueur ou supprimées ;
+- la circulation des flux de données est limitée autant que possible aux seuls flux
+nécessaires au fonctionnement et à la sécurité du système d’information classifié ;
+98

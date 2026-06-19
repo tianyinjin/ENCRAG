@@ -1,0 +1,31 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+Table 12. Relative results across different combinations of drone size and drone quantity factors
+across visual dataset.
+4.1.3.3 Impact of image noise on performance
+In measuring the impact of image noise on performance, we first discounted the IR dataset as its overall
+performance was way too low to obtain meaningful results from analyzing the sub-dataset differences in
+noise profile. For the EO dataset, we assigned each ground-truth object a noise score based on high-
+frequency variance: variance(patch - GaussianBlur(patch)). This quantifies texture and graininess in the
+object region. Based on this score, objects are classified into the following categories:
+Low: Variance < 100.0 – smooth, low-noise regions.
+Medium: 100.0 ≤ Variance < 400.0 – moderate noise or texture.
+High: Variance ≥ 400.0 – strong texture or high noise presence.
+We then assess the standard detection metrics (Recall, Precision, F1, Mean IoU), along with the number of
+Low, Medium, and High noise objects per class. Classes are ranked by the number of ground-truth objects
+(NumGT), limited to the top-k if specified. For each chart, we compare performance between low-
+noise/medium-noise/base-noise objects and their non-low counterparts. Metrics were computed using the
+same set of predictions. It is clear that there is significant drop-off in performance when the level of noise in
+an image increases, to the extent that in this case high noise completely leads to null scores across all
+metrics.
+Figure 9. Missed Detection Rate and False Alarm Rate Results for EO dataset (without IoU
+threshold).
+4.1.3.4 Validation of framework and understanding follow-ups for defense and security users
+We see from the above analysis that significant performance differences can exist, and be discovered, within
+different segments of the data for an open-source, general foundation model. It is important to note that a CV
+system developer is likely to further fine-tune such foundation models with domain-specific datasets to
+overcome performance issues on each of these various edge cases. However, such fine-tuning efforts come at
+a cost and are likely to lead to trade-offs in other segments of performance, for which visibility is important
+for defense and security teams evaluating their performance, and determining if these trade-offs would be
+acceptable given certain mission parameters and requirements. In the case of the drastic performance gap in
+STO-MP-IST-210 1A.03 - 29

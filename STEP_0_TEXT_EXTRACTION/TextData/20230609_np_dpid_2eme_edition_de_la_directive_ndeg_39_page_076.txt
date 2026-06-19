@@ -1,0 +1,37 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Mettre en place un plan de gestion de l’obsolescence pour remplacer les
+MCS26 ORG O
+équipements et applications obsolètes.
+Mettre en place des mesures palliatives, techniques ou organisationnelles, pour
+ORG
+MCS27 réduire les risques que pose l’obsolescence d’équipements toujours en O
+TECH
+exploitation. Ces équipements font l’objet d’une plus grande surveillance.
+Recenser l'ensemble des équipements matériels et logiciels dans la gestion du
+MCS28 ORG O
+parc afin qu'ils soient bien identifiés et maintenus à jour.
+Assurer la continuité de l’activité et sa reprise
+Mettre en place un plan de sauvegarde et de restauration des données sensibles
+afin de permettre leur restauration en cas d’incident et en fonction du besoin de
+disponibilité.
+CONT1 ORG R O O
+Il précise les moyens utilisés, les modalités et les fréquences de mises en œuvre
+des sauvegardes, des tests, et des restaurations ainsi que le nombre de
+sauvegardes à conserver. Il doit être adapté aux évènements et sinistres redoutés.
+Sauvegarder les configurations a minima avant et après toutes modifications. Les
+CONT2 TECH R O O
+configurations sont sauvegardées hors du système industriel.
+Tester régulièrement le processus de sauvegarde et de restauration des données
+et des configurations a minima avant toute évolution ou modification majeure. Le
+CONT3 ORG R O O
+processus pourrait être testé sur un échantillon limité mais représentatif du
+système industriel dans son ensemble.
+Mettre en place un plan de reprise et de continuité d’activité lié au fonctionnement
+CONT4 ORG C R O Selon le besoin de disponibilité du SI.
+du procédé industriel*.
+Intégrer des modes dégradés du système industriel, leur permettant soit de
+s’arrêter sans provoquer de dégâts, matériels ou humains, soit de continuer à
+CONT5 TECH C R O Selon le besoin de disponibilité du SI.
+fonctionner par un pilotage en mode manuel. Les modes dégradés ne doivent pas
+s’appuyer sur des dispositifs numériques.
+DIR-39 SNSI – 2eme édition Page 76 | 79

@@ -1,0 +1,45 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+agreements. This integrated approach seeks to leverage the standardized comparison attributes of public
+benchmarks while incorporating the real-world relevance and specificity of tailored evaluations.
+In our approach, we will define the dimensions of quality on which a counter-drone CV system would be
+tested, collect real-world data relating electro-optical and infra-red imagery and relevant to defense
+scenarios, augment the test data with simulation-generated data where gaps are identified, and test these
+systems against the abovementioned dimensions of quality. Over time, our approach aims to discover,
+standardize, and parameterize – as a set of stable common scenarios, data and simulation objects – an
+emerging standard for CV evaluation in counter-drone and other similar mission sets, to further strengthen
+and align a common community of practice in counter-drone system evaluation. Any evaluation approach
+aiming for comprehensiveness, precision, and at the right granularity requires a solution along three general
+axes of effort: creating a robust methodology that pre-empts potential insufficiencies in knowledge about the
+system under test, collecting and curating a dataset that is proven sufficient in coverage of possible scenarios,
+and developing a means of dynamically updating the test library’s scenarios and datasets when they are
+found to be insufficient ex post, as testers are likely to discover new scenarios of interest or testing
+dimensions not previously considered.
+3.1.1 AI Solutions Quality Index
+The methodology of our approach is based on an AI Solutions Quality Index™ (ASQI), which defines and
+establishes different dimensions of quality on which the CV system in the counter-drone system or its
+components should be assessed on, across drone detection, classification, and tracking tasks, to varying
+degrees of challenging operational conditions (e.g. low-light environments or unstable imaging platforms).
+This ASQI™ sets out the precise methodology for testing and evaluation, and frames the technical indicators
+required to qualify each performance dimension in relation to the higher-order operational objectives of the
+operational use case. These technical indicators, each backed by proprietary and open-source research, are
+then linked to the metrics to be used, and thresholds to be satisfied, to assess each dimension of performance
+accordingly. This approach was first developed at the global scale and introduced in international
+standardization in 2019 (IEC SEG10) led by Dr. Sebastian Hallesleben et al.
+3.1.1.1 Methodology for Constructing the ASQI
+The construction of effective quality indices for counter-drone CV systems follows six core principles
+specifically designed to support robust assurance case development:
+Use Case Specificity ensures that quality is defined within the context of requirements of deepfake detection
+in military applications, distinguishing between routine content screening and high-stakes intelligence
+verification scenarios while maintaining sufficient flexibility to address diverse operational contexts.
+Shared Language establishes terminology that bridges operational, governance, and technical stakeholder
+communities, enabling clear communication about quality requirements and system capabilities across
+organizational boundaries.
+Non-Binary Assessment recognizes that quality exists on a spectrum, with clearly distinguishable levels
+ranging from basic operational adequacy to state-of-the-art performance, allowing organizations to make
+informed trade-offs based on mission requirements and resource constraints.
+Independence Between Indicators safeguards the conceptual clarity and explanatory power of each
+indicator. It avoids artificial correlations that may mask unique patterns between indicators. This allows
+organisations to isolate the specific impact of each indicator without confounding influences from other
+indicators.
+STO-MP-IST-210 1A.03 - 11

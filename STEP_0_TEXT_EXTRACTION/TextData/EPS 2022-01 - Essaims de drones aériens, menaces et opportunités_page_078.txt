@@ -1,0 +1,42 @@
+- LOCALISATION
+Un autre aspect intéressant, en traitement embarqué, consiste à cartographier dynamiquement
+l’environnement en même temps que l’on y navigue. Qualifiée de SLAM en anglais (Simultaneous
+localization and mapping), il s’agit de se positionner pour naviguer en même temps que l’on met à jour
+une carte de l’environnement. Ces technologies sont maintenant largement mûres et disponibles.
+De plus, ces techniques ont un intérêt démultiplié lorsque l’on opère en essaim et que les cartes sont
+partagées entre les membres : chaque mise à jour profite à tous, et les informations sont croisées. Il
+s’agit d’un cas typique de sur-additivité.
+- CONTROLE HIERARCHIQUE
+Enfin, un cas particulier de traitement embarqué mérite d’être mentionné de par sa spécificité aux
+essaims de drone : il s’agit du contrôle total ou partiel d’un essaim de drones par un programme
+spécialisé et centralisé, fonctionnant lui-même à bord d’un drone. Ainsi, un drone possédant des
+capacités de calcul importantes peut contrôler un essaim, dans un mode maître-esclave ou téléopéré,
+en tirant parti du fait d’être localisé dans la même zone et d’être ainsi moins exposé aux limitations de
+communication qui sont le point faible des approches centralisées.
+INTEGRATION DANS UN ESSAIM
+La capacité de coordination entre les agents est le critère déterminant pour distinguer un système multi-
+agents de la simple superposition d’agents individuels. Les trois briques fondamentales pour construire
+un véritable essaim semi-autonome sont :
+- Une architecture de coordination qui va encadrer les comportement individuels des agents, afin
+de faire en sorte que le comportement collectif soit aligné avec les buts de l’essaim ;
+- Au moins un moyen de communication interne à l’essaim, afin que les agents disposent des
+informations nécessaires sur l’activité des autres agents, afin de se coordonner ;
+- Un moyen de communication robuste entre le ou les opérateurs humains et l’essaim, qui leur
+permette d’ajuster le comportement de l’essaim (semi-autonomie). Ce moyen de
+communication comprend à la fois le support de communication physique et l’interface Homme-
+machine dédiée, qui doit pouvoir faire le pont entre l’architecture de coordination de l’essaim et
+les contraintes cognitives humaines.
+ARCHITECTURES DE COORDINATION
+Un robot, ou agent individuel, peut être considéré comme un vecteur capable de percevoir partiellement
+le monde qui l’entoure (y compris sa propre position et sa cinématique) et capable d’agir sur ce monde
+(a minima en se déplaçant). Nous appellerons coordination la capacité de chaque membre d’un essaim
+à décider de ses actions en tenant compte, non seulement de l’évolution de ses connaissances sur
+l’environnement, mais aussi des actions des autres membres de l’essaim.
+Un couple de drones dans une configuration illuminateur/tireur constitue un bon exemple de
+coordination. Les deux vecteurs doivent rallier une cible ; le vecteur illuminateur doit la détecter puis
+l’illuminer grâce à un laser ; une fois illuminée, la cible peut être attaquée par le drone tireur. On voit
+bien, dans cet exemple, que le drone tireur doit attendre que l’illuminateur ait accomplit sa tâche pour
+accomplir la sienne. Et même si l’on peut imaginer que le drone illuminateur puisse accomplir sa tâche
+sans se coordonner avec le tireur, il serait plus rationnel de vérifier que le tireur est en capacité avant
+d’illuminer.
+78

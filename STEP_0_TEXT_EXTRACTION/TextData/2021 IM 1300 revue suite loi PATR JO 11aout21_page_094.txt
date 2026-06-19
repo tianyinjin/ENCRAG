@@ -1,0 +1,42 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+MESURES DE SECURITE PHYSIQUES ET PRISE EN COMPTE DES SIGNAUX PARASITES
+COMPROMETTANTS
+Lieu abritant le système d’information classifié
+Comme tout lieu abritant des informations et supports classifiés, les lieux abritant des systèmes
+d’information classifiés doivent satisfaire aux règles énoncées au chapitre 5.
+De surcroît, ils respectent la réglementation en matière de protection contre les signaux parasites
+compromettants, y compris en matière de câblage99.
+Matériel classifié laissé sans surveillance par son détenteur
+La démarche d’homologation tient compte des risques liés à la protection physique des
+matériels classifiés, y compris lorsque des matériels classifiés peuvent être laissés sans
+surveillance par leur détenteur. À cette fin, différentes mesures de défense en profondeur sont
+combinées conformément aux dispositions de l’Annexe 30. Des mesures spécifiques sont
+également prises pour protéger l’accès aux éléments physiques des systèmes d’information
+classifiés hors équipements de mobilité. Le cas échéant, l’homologation du système
+d’information classifié prévoit des mesures de protection adaptées.
+L’autorité d’emploi du système d’information met à disposition les moyens prescrits par
+l’officier de sécurité ou permet leur mise en œuvre.
+MESURES DE SECURITE INHERENTES AU SYSTEME D’INFORMATION CLASSIFIE
+Tout équipement constitutif d’un système d’information classifié est équipé de moyens de
+protection et doté d’une configuration durcie.
+Dispositifs de sécurité
+Les dispositifs de sécurité sont des moyens matériels ou logiciels destinés à protéger les
+informations traitées par le système ou à protéger le système lui-même. Ces dispositifs proposés
+par le responsable de la sécurité des systèmes d’information peuvent être développés pour un
+usage général ou pour un système particulier. Ils mettent en œuvre différents types de fonctions
+et de mécanismes de sécurité, comme :
+- des fonctions cryptographiques permettant la protection en confidentialité ou en
+intégrité, l’authentification ou la signature des informations stockées sur des supports
+ou transmises sur des réseaux ;
+- des fonctions ou des mécanismes destinés à protéger le dispositif lui-même, comme le
+contrôle, l’enregistrement et l’imputabilité des accès au dispositif, à empêcher ou à
+détecter les intrusions physiques ou logiques non autorisées, à garantir la protection, ou
+l’effacement le cas échéant, des données sensibles stockées, et plus généralement toute
+fonction ou tout mécanisme destiné à garantir l’intégrité et la disponibilité du dispositif ;
+- des fonctions d’administration et de gestion sécurisée du dispositif ;
+- des fonctions protégeant la transmission d’un signal radio, notamment contre le
+brouillage ;
+- des fonctions ou des mécanismes limitant les émissions de signaux compromettants.
+99 Instruction interministérielle n° 300/SGDSN/ANSSI du 23 juin 2014 relative à la protection contre les signaux
+parasites compromettants.
+91

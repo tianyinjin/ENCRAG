@@ -1,0 +1,51 @@
+POLE D'EXCELLENCE CYBER
+• Protégez vos mots de passe R3 : ne les stockez pas dans un fichier texte non chiffré, ni sur un papier que vous laisseriez trainer aux
+alentours de votre ordinateur (un post-it sous votre clavier, etc.). Ne partagez pas vos mots de passe dans un message électronique,
+ou par téléphone, même si vous échangez avec une personne de confiance. N’ouvrez pas vos sessions sur des ordinateurs partagés ou
+des machines qui ne vous appartiennent pas. Évitez d’utiliser l’option, qu'offrent la plupart des navigateurs, qui propose d’enregistrer
+vos mots de passe. Une alternative consiste à utiliser un gestionnaire de mots de passe qui vous aide à générer des mots de passe
+robustes et différents pour chaque compte, et qui permet de les stocker de manière chiffrée (voir le tutoriel « Gestion des mots de
+passe avec KeePass »).
+Lorsque vous utilisez un compte local dans Windows 10, vous pouvez créer un disque de réinitialisation de mot de passe à l’aide d’une
+clé USB. Ainsi, si vous oubliez votre mot de passe, vous pourrez le réinitialiser (voir les tutoriels « Créer un disque de réinitialisation de
+mot de passe pour un compte local » et « Réinitialiser le mot de passe oublié d'un compte local »).
+• La CNIL évoque le fait que « les stratégies utilisées par les utilisateurs pour s'adapter aux politiques d'expiration de mots de passe
+sont généralement prévisibles et abaissent le niveau de sécurité effectif. En effet, la majorité des participants utilise une version
+légèrement modifiée de leur mot de passe précédent, par exemple en ajoutant un chiffre à la fin. Les bénéfices en termes de sécurité
+sont ainsi mineurs et largement contrebalancés par l'expérience utilisateur négative. Ainsi, de plus en plus d’agences de cybersécurité
+nationales changent leurs recommandations en la matière en arrêtant de recommander une modification périodique des mots de
+passe pour les utilisateurs standards, voire en recommandant de s’abstenir de demander un tel changement. En particulier, l’ANSSI a
+adopté cette nouvelle position en 2021 dans son guide « Recommandations relatives à l’authentification multifacteur et aux mots de
+passe » que la CNIL a cosigné.
+• Changez régulièrement les mots de passe des comptes d’administration R4 . La CNIL note aussi que « les risques liés à un l’accès
+à un compte à privilège nécessiteront souvent une authentification plus robuste qu’une simple authentification par mots de passe ».
+Pour un compte administrateur, il est recommandé de privilégier l’utilisation d’authentification à double facteur et/ou d’imposer à
+échéances régulières un changement de mot de passe
+• Donc pour un compte standard, si le mot de passe est robuste et n'a jamais été stocké en clair, il est recommandé de ne pas imposer
+par défaut un délai d’expiration. Toutefois, si quelqu'un d'autre a accès à vos comptes et peut surveiller vos données - par exemple
+si vous vous souvenez que vous avez partagé vos mots de passe, ou que vous les avez enregistré sur un ordinateur qui est utilisé par
+plusieurs personnes, ou si un pirate les a découvert - renouvelez vos mots de passe, évidemment à partir d’un ordinateur qui est sain
+(voir la fiche 2 : « Poste de travail »). Pensez également à supprimer les accès des agents qui partent en retraite, des agents en
+détachement, des anciens stagiaires ou des anciens sous-traitants, et modifiez les mots de passes des services auxquels ces
+anciens collaborateurs avaient accès.
+• Faites attention aux indices de mots de passe ainsi qu’aux réponses aux questions secrètes R5 : lorsque vous créez un compte
+personnel en ligne ou sur votre ordinateur, il arrive que l’on vous demande de fournir un indice sur votre mot de passe pour vous aider
+à vous en rappeler. Ne donnez surtout pas d’indices qui permettrait de deviner facilement votre mot de passe. De la même manière,
+lorsque l’on vous demande de répondre aux questions secrètes afin de pourvoir réinitialiser votre mot de passe au cas où vous l'auriez
+oublié, évitez de faire des réponses trop évidentes aux questions. Un pirate aurait, par exemple, une forte probabilité de deviner avec
+succès la réponse à la question « Quelle était votre première voiture ? ». Nous vous recommandons de ne jamais faire de réponse trop
+courte (un seul mot), et de préférer au final utiliser là aussi un mot de passe fort comme réponse, aussi complexe que celui de votre
+messagerie, si cela est possible.
+• Changez les mots de passe par défaut de vos programmes et appareils R6 : les identifiants et les mots de passe par défaut
+peuvent certes vous faciliter l’accès à un service (connexion sans fil, vidéosurveillance, etc.), ou vous permettre de faire fonctionner
+plus rapidement un appareil (imprimante réseau, routeur, téléphone, etc.). Tout attaquant peut facilement découvrir les mots de passe
+par défaut d'un appareil ou d'un programme, cela en consultant le manuel d'utilisation, ou en visitant des forums sur Internet. Pour
+empêcher les fouineurs ou les personnes malintentionnées de s’introduire dans votre système, vous devez modifier au plus tôt mots de
+passe et identifiants par défaut, si cela s'avère possible, de tous les composants de votre système d’information.
+• Activez la double authentification pour accéder à votre compte utilisateur d'un programme ou service R7 lorsque vous en avez
+la possibilité : la double authentification est une protection contre le vol des mots de passe. Elle permet d’empêcher une personne
+possédant votre mot de passe d'accéder à votre système ou à vos comptes. Lorsque quelqu’un essaye de se connecter à votre compte,
+cette mesure de sécurité permet de vérifier par deux (parfois trois) méthodes différentes qu’il s’agit bien de vous. Pour se connecter à
+un compte utilisant la double authentification il faut connaitre votre mot de passe et, par exemple, un code à usage unique qui vous
+est envoyé par SMS ou généré par un dispositif OTP (One Time Password).
+20

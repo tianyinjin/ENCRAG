@@ -1,0 +1,81 @@
+Integration of a Commercial
+Unmanned Vehicle into the Army Communications System
+thetechnologicaladvances,inthe1990s,militaryinterestwas D. RadiocommunicationtechnologiesappliedtoCommercial
+flagged with the end of the Cold War. However, optimism UGVs
+about robotics continued to grow in the new millennium, with This subsection covers the leading radio communication
+interest in equipping the AF with smaller, cheaper, and more technologies in UxVs: Wi-Fi, Cellular Networks, and Tactical
+resistant UGVs. Counter-insurgency operations in Iraq and Radios.
+Afghanistan boosted the use of UGVs, mainly to deal with 1) Wi-Fi: The IEEE 802.11 standard for a Wireless Local
+improvised explosive devices [7]. Area Network (WLAN), known commercially as Wi-Fi, has
+The ongoing war in Ukraine has had a profound impact become essential daily [13]. Wi-Fi most commonly uses the
+on the development of UGVs in Russia. Both sides are 2.4 GHz Ultra High Frequency (UHF) and 5.8 GHz Super
+increasinglydeployingUAVsandUGVsforvarioustaskssuch High Frequency (SHF) radio bands.
+as combat, logistics, and medical evacuation. This conflict Using Wi-Fi to command and control UxVs offers several
+has underscored the importance of UGVs in reducing soldier advantages that enhance operational efficiency and flexibil-
+casualties in hazardous situations [8]. ity. One primary benefit is the ability to establish a robust
+and high-bandwidth communication link, which supports the
+A. Civilian UGV applications transmission of large amounts ofdata, such as high-resolution
+video and complex telemetry, in real-time. This capability
+The civilian applications of UGVs are wide. They can in-
+is advantageous in applications requiring detailed situational
+cludepowerlinetesting,surveillancesystems,minedetection,
+awareness and precise control [14].
+data collection, agriculture, ocean exploration, and scientific
+2) Cellular Network: Cellular networks consist of several
+exploration in space as the main [9]. In much the same way
+base stations, each dedicated to the wireless transmission and
+astheyareusedinthemilitary,UGVscanalsobeusedbythe
+reception of data in one or more “cells”. In this context, a
+police for surveillance and intervention operations in hostile
+cell represents a specific region of the total geographical area
+scenarios [10].
+served by the network. In most deployments, one base station
+UGVs offer advantages over human operators, as they can
+covers three cells using a strategic antenna configuration and
+be used more often and consistently, potentially providing
+efficient frequency planning [15].
+substantial cost savings. Autonomous systems can also be
+The specific way in which the RF bands are used in mobile
+operated without safety measures or the equipment needed by
+telecommunications is called the wireless standard - the name
+humans [5].
+given to each generation of mobile telecommunications -
+which have replaced each other over the last 30 years: 1G,
+B. Military UGV applications 2G, 3G, 4G, and 5G. Each generation comprises a different
+In the military context, UGVs are operated remotely, us- family of wireless protocols [16].
+ing wireless communication systems such as Radiofrequency 3) Proprietarycommunicationhardware: Thereareseveral
+(RF), which enable real-time video transmission. Advanced examplesofproprietarycommunicationprotocolsforcommu-
+image processing techniques are used for automatic target nicatingwithaUxV;thissubsectionpresentssomeofthemost
+detection. commonly used hardware.
+The dismounted mission support system requirements were The SiK Telemetry Radio is an open-source, small, and
+firstoutlinedwithintheframeworkoftheUniiedStatesArmy’s lightweight radio platform for establishing telemetry connec-
+Future Combat System (FCS) program, which took place tions between autopilots and ground stations [17].
+between 2003 and 2009. The support tasks should generally The HM30 Full HD Transmission System by SIYI Tech-
+cover [11]: nology sends video to the operator [18].
+The Herelink system by CubePilot is an advanced remote
+• Combat support: involving reconnaissance, surveillance,
+control and video transmission system designed for UxVs.
+target acquisition, and fire support;
+It integrates a remote controller with a built-in screen on a
+• Engineering support: involving mine detection, clearing
+customised Android operating system. This system supports
+paths, destroying obstacles, building light bridges, and
+popular ground control software like QGroundControl and
+fortifying terrain;
+Solex [19].
+• Logistical support: transporting ammunition, collective
+4) MAVLink: MAVLink is a middleware protocol that is
+weapons, water, food, and medical evacuation.
+a universal language for autonomous systems. The main
+function of this protocol is to ensure that UxVs can easily
+C. Video compression and transmission
+talk to each other and Ground Control Station (GCS) by
+When piloting an UGV, video transmission becomes an sharing important data like their positions. Almost everyone
+aspect of utmost importance. The main problem with this in the autonomous systems world uses MAVLink, even big
+transmissiontypeisthehighbandwidthdemand,whichmakes companiesthatdonotalwaysuseopen-source[20].MAVLink
+video compression very important. This action aims to make messages are formatted in binary code with a compact 8-
+videocontentavailableatalowbitsratewhilepreservingsat- byte header, which makes them highly efficient. Built-in error
+isfactoryimagequality,inthiscase,forpilotingtheUGV.This control mechanisms ensure data integrity [21].
+technique works by identifying and eliminating redundancies The big deal with MAVLink is that it creates one common
+[12]. way to communicate with UxVs, ground stations, and acces-
+STO-MP-IST-209 1760 - 2

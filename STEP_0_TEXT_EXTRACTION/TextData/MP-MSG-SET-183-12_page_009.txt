@@ -1,0 +1,19 @@
+Commercial UAVs Multispectral Detection
+Figure 14: RCS directional diagram: DJI Phantom 4.
+Radars, which are currently in operational use, are usually able to find a flying UAV (made “scan”), but they
+are not able to “track” this type of target continuously, especially at longer distances, or can only do so for
+a limited time, intermittently, with interruptions, etc. The probability of detection therefore depends on the
+target RCS, terrain configuration, and other aspects. Generally, we can say, that radar and IR detection is
+possible at distances of units kilometres.
+Acoustic detection is strongly depending on the distance from a signal source and on the background noise
+level as well.
+For example, at the given distance, the acoustic signal level of the quadcopter was 72 dB, and that of the
+hexacopter was 92 dB. The frequency peaks for the quadcopter were 22.86, 302, 969, 2113, 2551, 3756, and
+5884 Hz, and those for the hexacopter were 2985, 82.18, 157, 464, 8800, and 9605 Hz. The noise frequency
+spectrum of hexacopter is shown in the Fig. 15.
+Figure 15: Hexacopter noise frequency spectrum.
+General results of small UAV optical visibility (typal DJI Phantom 2) by human sight are possible to be
+describe as follows:
+• 100 m: The UAV is visible against a sky background and against an urban (forest) background with
+minimal effort.
+STO-MP-MSG-SET-183 12 - 9

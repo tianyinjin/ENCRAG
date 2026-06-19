@@ -1,0 +1,46 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 5 : SECURITE DES LIEUX ABRITANT DES INFORMATIONS ET
+5.4
+SUPPORTS CLASSIFIES
+(cid:3)
+MATERIEL D’IMPRESSION, DE REPRODUCTION ET DE
+5.4(cid:3):
+DESTRUCTION DES INFORMATIONS ET SUPPORTS CLASSIFIES
+Références(cid:3):
+(cid:129) IGI 1300 – 7.2.4 et 7.5.1
+(cid:129) PSSI-E – Item (cid:2)(cid:3)Sécurisation des imprimantes et des copieurs multifonctions(cid:3)(cid:3)
+Point clé(cid:3):
+L’impression, la reproduction et la destruction d’ISC doivent être effectuées sur des
+appareils conformes et idéalement centralisés dans un même lieu.
+Les procédures de destruction, d’impression et de reproduction d’ISC doivent répondre
+à des normes strictes. Le matériel de destruction et d’impression/reproduction de la
+documentation classifiée de niveau Très(cid:3)Secret ou Secret doit être centralisé chaque fois
+que cela est possible.
+Il faut placer des signalisations interdisant la destruction ou l’impression/reproduction
+sur les appareils non conformes ou non retenus pour la destruction de la documentation
+classifiée.
+Une note interne est rédigée sur la gestion des ISC sous forme de fiches réflexes à
+destination des secrétariats et du personnel, spécifiant les procédures
+d’impression/reproduction et de destruction des ISC (cf. fiches 7.9 et 7.13).
+1. Matériel de destruction des ISC
+Le moyen le plus couramment utilisé pour détruire les documents papier est le
+déchiquetage, qui consiste à réduire le support en lambeaux (particules de moins de 10
+mm² et de largeur inférieure à 1 mm).
+Le matériel utilisé doit respecter la norme DIN(cid:3)66399 classe 3, dont seules les catégories
+P6 et P7 sont adaptées aux exigences de sécurité pour les documents de niveaux Secret
+et Très Secret.
+L’ancienne norme DIN 32757 reste également valable mais pour sa seule catégorie P5.
+2. Matériel d’impression et de reproduction des ISC
+De nombreux périphériques de réseaux modernes utilisent des disques durs sur lesquels
+sont stockées les données à traiter (comme les photocopieurs numériques, par exemple).
+Afin d'assurer une protection efficace des données traitées par ces équipements et des
+réseaux qui les mettent en œuvre, il est vivement recommandé d'adopter les mesures
+suivantes(cid:3):
+- ces appareils sont physiquement protégés pour en limiter l’emploi aux seules
+personnes autorisées(cid:3);
+- ils doivent être gérés par les directions informatiques(cid:3); une vigilance particulière
+s’impose de la part des responsables de la sécurité des systèmes d’information(cid:3);
+- dès lors que des informations sensibles, Diffusion Restreinte ou classifiées transitent
+par ce type d’appareil, l’ensemble des recommandations et réglementations relatives
+aux systèmes d’information traitant des informations de cette nature s’applique. Si
+128

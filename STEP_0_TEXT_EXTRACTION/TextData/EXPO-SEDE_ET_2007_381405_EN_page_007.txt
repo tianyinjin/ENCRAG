@@ -1,0 +1,42 @@
+However, development and acquisition of high-end Medium-Altitude Long Endurance (MALE)
+and High-Altitude Long Endurance (HALE) systems demands major investments. For Fiscal
+Year 2007 the US Air Force requested US$287m for the acquisition of 26 RQ-1 Predator UAVs
+and US$504m for six Global Hawk UAVs. In Fiscal Years 2004, 2005 and 2006 the US spent a
+total of US$2.66bn on 295 UAVs of different types6.
+2.2 UAV/UCAV Types
+UAVs are often categorized based on performance (linked often to size). There are several
+categorizations from producers, users and researchers. (These are listed in Appendix I.) UAVs
+can be classified according to the way their flight is controlled, of which there are three
+methods: pre-programmed; remote control; self-thinking (which can be combined). Each means
+of control provides both challenges and opportunities.
+• The most basic control is by pre-programmed flight. This is simple, does not need
+technically difficult and disturbance-sensitive data-links for control, and gives ranges
+beyond the line-of-sight. However, the system is inflexible. Once airborne the UAV
+follows a fixed path. It cannot ‘take a second look’ at something that seems interesting. If
+the UAV needs to fly as low as possible, it is also dependent on good information of the
+terrain.
+• Remote-control is the most common control system for UAVs. By radio, the operator
+receives flight data from the UAV and sends flight commands back. The weak points of
+this system lie in the vulnerability of the continuous radio links, which reveal the
+positions of both the controller and the UAV, and the fact that radio links limit the
+UAV’s range. More advanced, less vulnerable radio links and indirect radio links (e.g.
+via satellites or relay UAVs) are a partial solution.
+• Self-thinking UAVs are still a futuristic option. The technical challenges to develop a
+fully autonomous UAV are still insurmountable. Nevertheless, an element of self-
+thinking has been achieved in as much as UAVs are able to react to threats, for example,
+when attacked by an air-defence missile.
+UAVs and UCAVs are themselves just ‘aircraft’ with onboard systems. However, they are
+usually linked to additional equipment outside, such as the remote-control and launching
+equipment. In addition, UAVs often have an interchangeable ‘mission package’, which includes
+the sensors and, if necessary, the link for transferring data collected by the sensors. Together,
+this equipment forms the UAV system7, the main components of which are listed in Appendix
+II.
+2.3 UCAV
+A UCAV is a sub-category of UAVs. It is basically nothing more than an armed UAV. The
+border between UAV and UCAV is a thin and grey one. Generally, all UAVs have an inherent
+combat capacity – one just has to replace a non-deadly payload with a deadly one. The US
+Predator was modified from a reconnaissance UAV to a UCAV by simply adding Hellfire
+6 The Military Balance 2006, IISS, p. 20-22 and p. 26 (Routledge, UK, May 2006).
+7 The US uses the term UAS – Unmanned Air System – for the complete package, reserving UAV for the airborne
+component, the ‘aircraft’, itself.
+3

@@ -1,0 +1,44 @@
+POLE D'EXCELLENCE CYBER
+Stockage en externe
+L’informatique en nuage (Cloud) permet d’externaliser, c'est à dire de stocker et traiter les données sur des serveurs qui sont situés
+à distance des outils de travail. Il peut s’agir des logiciels supports, comme la messagerie électronique, les agendas, les outils de
+sauvegarde, ou les applications métiers. Le Cloud est une solution qui possèdent des avantages pratiques : données accessibles en
+ligne, ce qui facilite le travail en déplacement ou à distance, absence de certaines contraintes techniques, telle la maintenance de
+serveurs internes. Toutefois, le recours au Cloud peut générer de nombreux risques liés à la sécurité et la protection des données. En
+complément des recommandations que vous trouverez dans la fiche 12 « Externalisation », les éléments suivants nécessitent une étude
+approfondie :
+• L’infrastructure télécom interne R5 : pour accéder aux données stockées en ligne un accès à Internet est indispensable. Il est
+nécessaire d’évaluer certains paramètres du réseau interne, telle la connectivité ou le débit Internet, car les investissements ou la mise
+à niveau peuvent être cher.
+• La localisation des données hébergées, l’emplacement des infrastructures informatiques et le pays d'origine du fournisseur
+du service R6 : « lancée en 2018, la doctrine cloud de l'État a fait l'objet d'un premier assouplissement en juillet 2021 pour faire de
+l'informatique en nuage un levier majeur de la transformation numérique de l'État. La circulaire du 31 mai 2023 confirme cette stratégie
+« cloud au centre ». Elle présente un bilan du déploiement du cloud côté État tout en apportant quelques précisions réglementaires.
+Si les collectivités territoriales ne sont pas mentionnées, elles sont, de fait, concernées par plusieurs dispositions.
+- Les collectivités amenées à gérer des données personnelles (état civil, affaires scolaires, élections…), médico-sociales (CCAS, APA…)
+ou des données sur la sécurité des personnes (vidéoprotection, police municipale…) sont pleinement concernées par l'obligation
+SecuNumCloud.
+- En pratique cependant, elles devront surtout veiller à ce que leur éditeur de logiciel SaaS1 utilise un hébergement SecuNumCloud.
+- Cette définition précise a cependant une autre conséquence : toutes les données qui ne sont pas sensibles au sens de la circulaire
+peuvent être hébergées sur des offres cloud n'ayant pas nécessairement le label SecuNumCloud alors que la précédente circulaire
+tendait à le recommander.
+- Une bonne nouvelle car les administrations pointaient le manque d'offres labellisées et des tarifs élevés, freinant de fait leur migration
+vers l'informatique en nuage2 » .
+• Les clauses du contrat R7 : renoncez à l’utilisation des services Cloud qui proposent des contrats standard dont vous ne maitrisez
+pas les clauses. Sans en être conscientes, la plupart des collectivités utilisent au quotidien des solutions Cloud dont les conditions
+générales d’utilisations sont évasives, non accessibles ou abusives. Ces outils, certes très attractifs en termes de facilité d’utilisation,
+sont proposés, voire imposés par votre système d’exploitation ou votre messagerie électronique, par exemple les logiciels de stockage
+et de partage de fichiers Dropbox, OneDrive ou Google Drive, la messagerie Gmail, l’enregistrement automatique de vos documents
+par suite bureautique Microsoft Office 365 (voir le tutoriel « Désactiver OneDrive et supprimer les documents stockés en ligne »). Avant
+signature du contrat, il est nécessaire de définir des clauses contractuelles propres, qui répondent aux besoins de la collectivité en
+matière de la sécurité technique et juridique des données.
+Le service de coffre-fort numérique. Plus qu’un simple outil de stockage de données en ligne, un coffre-fort numérique est un
+système sécurisé de conservation de données à valeur probante qui permet de recevoir, stocker ou partager les données dans des
+conditions permettant de justifier de leur intégrité et l’exactitude de leur origine. Un service de coffre-fort numérique peut être utilisé
+de manière très différente d’une structure à l’autre : conservation de documents, réalisation de démarches administratives avec partage
+de pièces justificatives, récupération ou dépôt de documents déposés par un partenaire ou prestataire, etc3 .
+1 Software As A Service.
+2 https://www.banquedesterritoires.fr/letat-precise-la-notion-de-donnees-sensibles-heberger-dans-un-cloud-certifie
+https://www.economie.gouv.fr/securite-performance-souverainete-strategie-cloud
+3 https://www.francenum.gouv.fr/guides-et-conseils/pilotage-de-lentreprise/dematerialisation-des-documents/comment-securiser-le
+33

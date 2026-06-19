@@ -1,0 +1,49 @@
+406. Au-delà de ces propriétés générales, d’autres spécifications plus liées aux différents types de
+systèmes de drones peuvent être mises en exergue. Elles sont présentées ci-dessous :
+Systèmes de classe I et II
+407. Les systèmes de drones de cette classe doivent être :
+408. Réactifs de mise en œuvre : pour ces deux classes, la réactivité est tout d’abord apportée par
+le déploiement de ces systèmes de drones au plus près de la manœuvre et, dans une moindre
+mesure, par les performances en vitesse du vecteur. Ainsi, ils doivent pouvoir être mis en
+œuvre directement et rapidement dans le cadre du déroulement de la manœuvre en
+coordination avec les autres vecteurs. De même, la durée et la complexité des opérations
+nécessaires au reconditionnement entre deux missions doivent être limitées.
+409. Simples de mise en œuvre : la simplicité de mise en œuvre est une condition à relativiser en
+fonction de la catégorie et de la complexité des systèmes de drones considérés (classe I ou II).
+Il s’agit d’une notion générale qui devra être prise en compte selon les éléments suivants :
+a. déploiement / transportabilité : ces systèmes doivent être facilement déployables et
+transportables par des moyens tactiques et mobiles pour accompagner les unités
+appuyées ;
+b. facilité de contrôle : les assistances, les automatismes et/ou le domaine de vol du
+vecteur doivent permettre un contrôle simple aux équipages de conduite ;
+c. lancement / récupération : les moyens nécessaires au lancement et à la récupération
+de ces drones doivent être limités et adaptés à la mobilité des forces ;
+d. MCO : les opérations de premier niveau doivent être simples et compatibles avec les
+capacités de l’unité de mise en œuvre déployée sur un théâtre.
+Systèmes de classe III
+410. Les systèmes de drones de cette classe doivent être :
+411. endurant : la grande endurance de certains systèmes de drones aériens (plusieurs dizaines
+d’heures) constitue un apport majeur de nature à améliorer la permanence aérienne. En effet,
+avec un nombre réduit de vecteurs, ces systèmes autorisent un maintien durable dans la
+troisième dimension en s’affranchissant de moyens complexes (ravitaillement en vol, etc.).
+Cette capacité à durer est à l’origine des missions CAP ISR américaines (Combat Air Patrol)102,
+en français OPSAM (Orbite Permanente de Surveillance – Armée et multicapteurs). Toutefois,
+sauf pour certains systèmes pour lesquels cette caractéristique pourrait être prépondérante, la
+nécessité de polyvalence déjà évoquée impose de rechercher un compromis entre endurance
+et capacité à aller loin et donc le maintien d’une vitesse de déplacement cohérente103.
+412. polyvalents : du fait des nécessités opérationnelles et techniques104, il est vraisemblable que
+le nombre de drones, notamment ceux de moyenne ou de grande taille, utilisés simultanément
+sur une même zone sera limité. Ce constat conduit à rechercher des systèmes de drones :
+a. disposant d’un haut degré de polyvalence, aptes à un large éventail de missions
+(observation, appui, frappe, etc.). En général endurants, ces drones deviennent aussi
+des plateformes multicapteurs et multimissions aptes à enchaîner plusieurs missions
+au cours d’un même vol. La capacité à une reconfiguration rapide entre les missions
+(la flexibilité) devient alors primordiale ;
+b. capables de collaborer avec d’autres types drones ou d’autres effecteurs (aéronefs,
+forces au sol ou à la mer…).
+102 Aujourd’hui, l’US Air Force prévoit d’assurer 65 missions de CAP (surveillance 24H/24H au dessus d’une zone) d’ici fin 2013.
+103 Il peut s’agir de spécifier un besoin d’endurance sur zone à une distance donnée de la base de départ.
+104 Disponibilité des fréquences, encombrement de l’espace aérien, étendue des théâtres d’opérations (espaces lacunaires, maritimes), coûts
+unitaires des systèmes qui en limitent la disponibilité. Toutefois, la taille et la capacité d’emport des vecteurs peuvent permettre l’accès à
+certains types de capteurs couvrant potentiellement de larges zones.
+38

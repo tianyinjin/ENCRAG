@@ -1,0 +1,66 @@
+GOLDEN HORDE et Networked Collaborative and Autonomous
+(NCA) Weapons
+Dates : 2019 - 2021. Continuité de CODE244 et prolongé par
+Golden Horde Colosseum245 pour intégrer dans un
+ensemble collaboratif des munitions en réseau, (AGM-
+158 JASSM ER/LRASM246, ADM-160 MALD X247 et
+SiAW248).
+Acteurs : Air Force Research Laboratory, US Air Force.
+Scientific Applications Research Associates (SARA)
+(contrat de 100 m$). Raytheon (vecteur SDB II).
+Porteurs potentiels : Aéronefs. (Véhicules : variante roquette249)
+Cas d’usage affichés : Frappe, Brouillage, leurrage, SEAD.
+PERFORMANCES DES VECTEURS D’ESSAI : PERFORMANCES DE L’ESSAIM :
+Vecteur : GBU-53 II StormBreaker modifiée en Lancement par F16 de 6 munitions air-sol agissant
+“CSDB-1 (Collaborative Small Diameter Bomb)”. La en réseau, en essaim coordonné, le 25 mai 2021 (à
+GBU-53 est issue d’un programme conjoint Air noter que c’était l’ambition affichée par CODE).
+Force - Navy (2006-2022). La CSDB-1 est une arme
+Les essais ont concerné, entre autres, la priorisation
+standard modifiée pour intégrer la charge utile
+des cibles, les ordres de guidage collaboratif dont la
+expérimentale d’autonomie collaborative de SARA.
+validation d’un « In Flight Target Update ». Il
+Non récupérable. Coût unitaire : 220 916 $250 (Navy) s’agissait de valider le concept de “Networked
+Collaborative and Autonomous (NCA) Weapons” où
+Poids : 93 Kg dont 48 Kg de charge explosive
+les armes agissent ensemble, indépendamment de
+Autodirecteur : Radar, IR, laser semi-actif, GPS et la plate-forme de lancement, en temps réel, de
+homing sur brouillage GPS. manière dynamique, sans être considérés comme
+des SALA251.
+Longueur : 176 cm Envergure : 168 cm
+Un “Playbook” d’algorithmes collaboratifs (les
+Diamètre : 18 cm Sans propulsion.
+« Plays ») est sélectionné avant la mission. Chaque
+Portée : 60 Nq (cibles fixes) 40 Nq cibles mobiles.
+“Play” code un comportement collaboratif prédéfini
+Navigation : GPS et INS qui est activé ou désactivé en fonction de conditions
+prédéfinies. Le système sélectionne252 des
+Communications : « Network Enabled Weapon »
+comportements préétablis et, ainsi, ne peut violer
+(NEW), à travers une liaison « Weapon Data Link »
+les règles d’engagement programmées. Seuls des
+bidirectionnelle (L16). Messages NEW clés :
+cibles ou groupes de cibles sélectionnés par un
+- In Flight Target Update (IFTU)
+opérateur peuvent être engagés. Pour cette raison,
+- In-flight controller hand-off
+le système est présenté comme « semi-
+- In flight re-targeting
+autonome ».
+- In flight abort
+- Weapon in Flight Track (WIFT)
+- Bomb Hit Indicator (BHI)
+244 Collaborative Operations in Denied Environment, programme de la DARPA initié en 2016, décrit page précédente.
+245 Qui implique la DIU, et, “en compétition”, L3Harris, Shield AI, STR, Lockheed Martin, EpiSci, Autonodyne LLC, Heron Systems,
+le Georgia Tech Research Institute et le John Hopkins Applied Physics Laboratory. L’Etat fournit le “digital, agile, open, and
+government-owned research and development testbed capacity for NCA weapons”.
+246 Joint air-to-surface standoff missile/Extended Range (Lockheed Martin). Long Range Anti-Ship Missile (variante du JASSM).
+247 Miniature Air-Launched Decoy (Raytheon). Version « N » dans l’US Navy (Decoy et Jammer “stand in”). En essaim, ce
+vecteur serait rendu apte aux « cognitive electronic attacks » (détection, catégorisation, ciblage en cours de mission).
+248 Stand-In Attack Weapon, basé sur la version “extended range” de l’AARGM (Advanced Anti-Radiation Guided Missile) et
+destiné aux F35.
+249 En 2019, un essai contre une cible à la mer aurait démontré une portée de 70 Nq.
+250 Pour la GBU-53 II. Prix inconnu pour la version « collaborative » qui est une variante prototype.
+251 Système d’Armes Létal Autonome (ou LAWS : Lethal Autonomous Weapon System).
+252 C’est le « play calling », à l’image de l’action d’un entraîneur pour son équipe ou de l’action autonome de celle-ci.
+102

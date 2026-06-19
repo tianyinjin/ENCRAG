@@ -1,0 +1,40 @@
+La règle RO33 ne s’applique pas pour une homologation d’un dispositif d’interconnexion ou d’un
+segment d’interface (cf. §6.11.1).
+Traitement de données à caractère personnel
+Le responsable de traitement (RT) a pour mission de déterminer les finalités et les moyens du
+traitement. Il assume la responsabilité juridique et supporte les sanctions en cas de non-respect des
+dispositions du RGPD.
+L’homologation d’un SI traitant des données à caractère personnel relevant du périmètre du RT assure
+à ce dernier que les risques sur la sécurité des données à caractère personnel et leur protection au sein
+de ce SI ont été examinés et traités sur le plan technique, conformément aux exigences réglementaires.
+Elle doit donc nécessairement prendre en compte les risques suivants portant sur les personnes
+concernées :
+● accès illégitimes à leurs données (confidentialité) ;
+● modification non désirée de leurs données (intégrité) ;
+● disparition de leurs données (disponibilité).
+RO 34 : il est OBLIGATOIRE de préciser dans la décision d’homologation que le SI traite des données
+à caractère personnel lorsque ce traitement donne lieu à un acte réglementaire16.
+Les traitements de données à caractère personnel qui font l’objet d’un acte réglementaire sont rappelés
+dans la [FICHE 2 DCP] publiée par la direction des affaires juridiques (DAJ). Ne sont pas soumis à la
+publication d’un acte réglementaire les traitements mis en œuvre aux fins de :
+● gestion des comptes et accès informatiques, de la téléphonie fixe et mobile, des SI ;
+● gestion des procédures d’achat (fichiers fournisseurs) et des fichiers clients ;
+● gestion des opérations de communication (gratuites) ;
+● gestion du courrier et des dossiers ;
+● gestion des biens.
+La décision d’homologation d’un SI traitant des données à caractère personnel doit être transmise au(x)
+responsable(s) de traitement concerné(s).
+Lors d’un traitement de données à caractère personnel relevant de son périmètre, le RT peut être amené
+à réaliser une analyse d’impact relative à la protection des données à caractère personnel (AIPD) sur
+les personnes concernées [IM DAJ-RGPD]. L’AIPD n’est pas un prérequis à toute décision
+d’homologation.
+S’il est estimé nécessaire ou s’il est obligatoire de réaliser une AIPD, le RSSI contribue à l’élaboration
+de son volet technique au profit du RT. L’AH peut être amenée à se prononcer sur l’efficacité et la
+pertinence des mesures techniques mises en œuvre.
+Urgence opérationnelle
+Lorsque l’urgence opérationnelle le requiert et pour permettre une mise en exploitation provisoire, l’AH
+peut délivrer une autorisation provisoire d’emploi (APE) sans attendre l’homologation du SI, en
+tenant compte de l’avancement de la procédure d’homologation et des risques résiduels de sécurité
+[IGI 1300].
+16 Acte réglementaire portant création du traitement (arrêté publié aux journaux officiels).
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 27/47

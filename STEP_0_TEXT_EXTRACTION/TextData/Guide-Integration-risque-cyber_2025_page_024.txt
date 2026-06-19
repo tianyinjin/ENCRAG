@@ -1,0 +1,65 @@
+46 Pôle d’excellence cyber 47
+Annexe H : Modalités du service SILENE
+4. EN SAVOIR PLUS données techniques sur l’infrastructure d’une organisation
+mais peuvent également constituer un point d’entrée dans
+CONNAÎTRE L'EXPOSITION DE SES SERVICES le cadre d’une compromission d’un système d’information.
+SUR INTERNET
+Il est indispensable de bien maîtriser son exposition sur De mauvaises pratiques, des erreurs de configuration des
+Internet, et de conserver une visibilité sur cet aspect fon- équipements filtrants ou encore des oublis d’anciens ser-
+damental de la sécurité d’un système d’information dans vices obsolètes ont souvent comme résultat l’exposition
+SERVICE SILENE la durée. En effet, les services exposés sur Internet peuvent d’interfaces d’administration ou de services internes qui
+être exploités par des acteurs malveillants ou par des robots. sont autant de points d’entrée dans le système d’information.
+Ils permettent alors parfois simplement de recueillir des
+1. DESCRIPTION DU SERVICE
+L’ANSSI met à disposition des opérateurs réglementés et de De plus, les données échangées au niveau applicatif res-
+la sphère publique une capacité de cartographie de la surface pectent les standards établis sans jamais essayer de contour-
+d’exposition sur Internet au travers du service SILENE. ner les protocoles définis. Les requêtes effectuées dans le
+Cette capacité vise à donner de la visibilité à ces opérateurs cadre de ce service sont similaires à celles auxquelles vos
+sur leur niveau d’exposition et à les accompagner par l’ap- équipements sont régulièrement exposés sur Internet.
+plication progressive de mesures adéquates pour le réduire.
+Cette prestation s’appuie sur l’expérience et l’expertise ac- Le service SILENE est pensé à la fois pour les chaînes SSI
+quises par l’Agence lors des audits et s’enrichit également, et les équipes d’exploitation. Pour les premières, l’applica-
+au fil du temps, de l’observation des modes opératoires tion fournit une vision globale et synthétique à travers des
+utilisés par les attaquants. tableaux de bord et indicateurs associés ; pour les secondes,
+elle détaille les recommandations à appliquer et accompagne
+Les scans réseaux effectués par l’Agence dans le cadre de les opérateurs dans le pilotage de leurs équipes techniques
+ce service visent spécifiquement les ports les plus clas- ou de leurs prestataires.
+siquement ciblés lors des campagnes de cyberattaques.
+2. MODALITÉS D’ACCÈS AU SERVICE
+Pour bénéficier du service, la procédure à suivre est la suivante :
+1 Faire la demande de création d’un compte nominatif en lançant la procédure d’inscription sur
+https://club.ssi.gouv.fr
+2 Connectez-vous sur le portail Club SSI.
+3 Déclarez adresses IP publiques et noms de domaine sous votre responsabilité dans l’onglet « Services d’audits auto-
+matisés > SILENE » en cliquant sur le bouton « Nouveau périmètre »
+4 Vous recevrez mensuellement un rapport pour chaque périmètre déclaré à partir du début du mois suivant votre Pour un niveau donné, le rapport détaille trois catégories d’indications :
+demande. • Des problèmes importants : vulnérabilités critiques qui devront être corrigées pour passer au niveau supérieur ;
+• Des points d’attention : vulnérabilités logicielles potentielles faisant l’objet d’une attention prioritaire par
+Dès réception des adresses IP et des noms de domaine, l’ANSSI partagera périodiquement les résultats de la cartogra-
+l’Agence, services exposés sur les ports hauts ;
+phie avec les bénéficiaires du service, sous forme d’un rapport détaillé présentant les différents points de contrôle qui
+ont révélé des défauts de configuration pouvant entraîner des risques de sécurité. • Des points d’information : informations sur certains points-clé. Par exemple, sont ou seront indiqués :
+• L’ensemble des services exposés ;
+3. UNE APPROCHE LUDIQUE ET PERSONNALISÉE • L’ensemble des services exceptés les services classiques (par exemple : web, mail, etc) ;
+• L’ensemble des services web, mail et de de téléphonie ;
+Le rapport SILENE développe un certain nombre de points (installation de services légitimes, sans durcissement parti- • L’ensemble des services d’administration ;
+de contrôle et met en évidence des déviances ou des mau- culier) et le niveau 5 d’un niveau de sécurité à l’état de l’art. • L’ensemble des fichiers partagés sans authentification.
+vaises pratiques qui pourraient permettre à un attaquant
+de prendre pied sur le système d’information. Un niveau donne ainsi accès à une liste de recommandations Détails des niveaux
+adaptées. L’administrateur réseau peut alors démontrer de ma-
+1 Compromission instantanée possible ;
+Les résultats sont mis à disposition au travers d’une interface nière objective et factuelle que les actions menées améliorent
+2 Exposition de services internes qui peuvent affaiblir le niveau de sécurité du SI,
+web qui détaille et classe les vulnérabilités et recommanda- significativement le niveau de sécurité des services exposés sur
+tions afférentes. Lors de chaque audit, le niveau de sécurité Internet, et par conséquent la difficulté pour des acteurs malveil- ou mettre en danger l’intégrité des données ;
+des services exposés sur Internet est traduit par un niveau qui lants de pouvoir accéder au SI de l’organisation. L’application 3 Services inconnus, ou configuration non optimale de services exposés ;
+se situe sur une échelle de 1 à 5. Le niveau obtenu dépend de la de l’ensemble des recommandations portant sur les points
+4 Services sur des ports non standards ;
+gravité des vulnérabilités trouvées, le niveau 1 étant synonyme importants d’un niveau permet de passer au niveau supérieur
+5 Aucun problème relevé.
+de défauts critiques, le niveau 3 d’une sécurité non dégradée et d’accéder à une liste complémentaire de recommandations.
+L’ambition de l’ANSSI est d’accompagner progressivement les opérateurs vers une exposition réseau aussi limitée que
+DES QUESTIONS SUR LE SERVICE ? possible grâce à l’application de recommandations adéquates et dans une approche ludique.
+Consultez la FAQ accessible sur https://club.ssi.gouv.fr/#/faq
+ou contactez-nous par email à club@ssi.gouv.fr Ainsi, les opérateurs sont en capacité de définir un plan d’action en fonction de la sévérité des vulnérabilités identifiées
+tout en prenant en compte les exigences de leurs activités.

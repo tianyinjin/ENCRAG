@@ -1,0 +1,41 @@
+TLP:CLEAR
+L’écosystème « Afrique »
+L’écosystème « Afrique » implique six sites d’intérêt : afriquestories.com, nouvellesafrique.africa,
+nouvelles-histoires-africaines.africa, africanmedia.africa, africadaily.africa, mediaeventhub.africa. Créés
+entre mars et septembre 2024,169 ces sites sont hébergés sur la même adresse IP que les sites
+anglophones d’influence euronewstop.co.uk et britishattitudes.com.170
+Apparentés à des blogs, ces sites diffusent des articles aux
+thématiques « non politiques » (cinéma, sport, musique) et
+semblent viser uniquement à augmenter le référencement du
+site d’influence cible : newstop.africa. Par ailleurs, le site
+Pied de page du site africadaily.africa
+africadaily.africa affiche en pied de page la mention « By
+newstop.africa », démontrant que ce réseau lui est bien dédié.
+Au total, ces sites ont publié 2,953 articles. En moyenne, 94% des articles publiés comportent un
+rétrolien vers newstop.africa (détail ci-dessous).
+Sites du PBN Ecosystème « Afrique » Nombre d’articles Nombre d’articles Part d’articles
+comportant un rétrolien total comportant un rétrolien
+afriquestories.com 623 630 99%
+nouvellesafrique.africa 373 564 66%
+african-news-stories.africa 611 613 ~100%
+africanmedia.africa 423 425 ~100%
+africadaily.africa 715 716 ~100%
+mediaeventhub.africa 207 207 ~100%
+L’écosystème « Royaume-Uni »
+Pour l’écosystème « Royaume-Uni », 8 sites d’intérêt ont été identifiés : newstopukcom.com ;
+newstoplondon.uk; topnewsuk.uk; toplondonstories.com; ukeventnews.uk; bshortnews.uk;
+eventnewslondon.com et headstalk.com. Ces sites, créés sur la même période que ceux de l’écosystème
+« Afrique » (mars-décembre 2024)171, sont également hébergés sur l’adresse IP 38.180.64[.]215, localisée
+au Royaume-Uni172. Ils utilisent les mêmes TTP et ne serviraient qu’à augmenter le référencement de
+britishattitudes.com, britishtalks.com et euronewstop.co.uk.
+L'écosystème du PBN ciblé sur le Royaume-Uni semble moins bien configuré et optimisé que
+l'écosystème ciblé sur l'Afrique : l'extraction de ses articles démontre que, pour chacun des sites, seuls
+48 % des articles publiés en moyenne comportent un lien vers l'un des trois sites de l'écosystème ciblé
+sur le Royaume-Uni (détails dans le tableau ci-dessous).
+169 Dans l’ordre : 22/03/2024 ; 11/04/2024 ; 20/05/2024 ; 09/07/2024 ; 22/08/2024 ; 16/09/2024.
+170 38.180.64[.]215, M247 Europe SRL (GB) AS 9009.
+171 Dans l’ordre: 26/03/2024; 10/04/2024; 12/04/2024; 24/04/2024; 15/07/2024; 19/08/2024; 16/09/2024; 09/12/2024.
+172 IP réelle car ces sites utilisent les services de Cloudflare pour masquer leur IP. Grâce aux données passive DNS, il a été possible d’identifier trois
+serveurs en clair (non masqués par Cloudflare). Depuis ces serveurs, il a été vérifié que les domaines Cloudflare correspondaient à l’IP. Commande:
+curl https://{ip} -H “Host: {domain_name}” -k. Voir les details dans l’Annexe 3.
+33 TLP:CLEAR

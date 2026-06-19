@@ -1,0 +1,65 @@
+Integration of a Commercial Unmanned Vehicle
+into the Army Communications System
+Joa˜o Pedro Arau´jo Silva Anto´nio Manuel Cordeiro Grilo Artur Jorge Coutinho Machado
+Academia Militar Instituto Superior Te´cnico Exe´rcito Portugueˆs
+silva.jpa3@exercito.pt antonio.grilo@inov.pt machado.ajsc@exercito.pt
+Abstract—This study explores the integration of commercial Systems through Project EXE02 - Remote and Autonomous
+Unmanned Vehicles (UxVs) in military operations, focusing on Systems. This study is aligned with this work package, which
+enhancing communication between these vehicles and their con-
+aims to develop a communication subsystem to be applied in
+trol centres. Global conflicts, particularly the Ukraine war, have
+UGVs. This capability will help military command decisions
+accelerated the development of autonomous military systems.
+The Portuguese Army is investing in these technologies to lower and reduce human exposure to threats.
+costsandspeeduptheacquisition,development,andintegration
+of these capabilities. These platforms have improved decision-
+A. Objectives
+making and operational efficiency and can be applied in the
+Portuguese Army and the other branches of the Armed Forces The main objective of this project is to design an architec-
+(AF). This study contributes by developing an MAVLink library ture and develop software for the integration of commercial
+forUxVcommunication,hybridtoolsfordatatransmissionusing
+UGVsintotheSIC-T.Theprimarypurposeofcommunications
+militaryradios,WirelessFidelity(Wi-Fi),andunmannedvehicle
+in UGVs is to guarantee reliable, real-time data transmission.
+navigation without dedicated autopilot hardware.
+ThesolutiondevelopedwasimplementedusingLAFVINUGV, This allows the operator to receive information from the
+and the tests were carried out with the support of the Tactical vehicle,suchassensordata,images,andvideo,andsendcon-
+Information and Communications System (SIC-T) project team. trol commands to remotely guide the UGV. Communication
+After obtaining the results, it was possible to draw important
+protocols are crucial in establishing a reliable and efficient
+valuesandconclusionsregardingusingmilitaryradios—P/PRC-
+connection between an UGV and the control centre [4].
+525 and TR5000H — for integrating a UGV into the Battlefield
+Management System (BMS). Within this main objective, this study has the following
+secondary objectives:
+Index Terms—UGV, BMS, MAVLink, Military Radios, Wi-Fi.
+• To support piloting of a commercial UGV, without the
+needforspecificautopilothardwaresuchasPixhawkline
+I. INTRODUCTION or Ardupilot Mega;
+HUMAN life is priceless, and the loss of life can be • DevelopmentofalibrarythatconnectsaUxVtotheSIC-
+T;
+reduced considerably with the use of robots and au-
+tonomous systems in the armed forces. Today, almost all • Testing and evaluation of the developed solution.
+military organisations use robots to perform dangerous tasks
+in high-risk environments [1].
+II. BACKGROUNDANDRELATEDWORK
+A UxV is a vehicle that operates without a human on- The UGVs can navigate in spaces that would be dangerous
+board, either remotely controlled or autonomously. There are or inaccessible to humans and can operate in increasingly
+several types of UxVs: Unmanned Ground Vehicle (UGV), complex environments through intelligence and efficiency. By
+Unmanned Aerial Vehicle (UAV), and Unmanned Maritime equipping a UGV with a camera or other sensors, operators
+Vehicle (UMV) [2]. Communications in a UxV are essential can quickly analyse objects and regions of interest with
+to enable remote control and data transmission between the precision[5].Spaceexploration,particularlyontheMoonand
+vehicle and the operator [1]. Mars,isamongthemostimportant.Inrecentyears,NASAhas
+In recent years, in the face of increasing military tensions developedfiveUGVplatforms:Sojourner(1997),Opportunity
+at a global level, especially with the start of the conflict (2004), Spirit (2004), Curiosity (2012), and Perseverance
+in Ukraine on 24 February 2022, there has been a notable (2021). In parallel, the China National Space Administration
+rush towards military technology. The purpose of this cam- has also developed an UGV, the Zhurong (2021) [6].
+paignwastoimprovedefencecapabilities.TheNorthAtlantic AsformilitaryUGVs,theyhavealonglineage,descending
+Treaty Organization (NATO) identified Autonomous Systems fromtheTeletankofRussianoriginandtheGoliathofGerman
+and Communications as technologies that will play a highly origin, both used in the Second World War. UGVs, as we
+disruptiveroleoverthenexttwodecades,playingacrucialrole know them today, emerged in the second half of the 20th
+in improving human performance and promoting symbiosis century, around 1970, with the flourishing of microprocessor
+between man and machine [3]. technology. Many developments in robotics originated from
+The Portuguese Army, through the 2023 Military Program- research and development projects by the Department of De-
+ming Law, is making a significant investment in Autonomous fense (DoD) of the United States of America (USA). Despite
+STO-MP-IST-209 1760 - 1

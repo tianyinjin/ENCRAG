@@ -1,0 +1,36 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Une solution de SIEM n’est efficace que
+si elle dispose de ressources humaines
+Mettre en place une solution de SIEM ainsi que les ressources (RH, matérielles,
+INC3 TECH D C R et matérielles suffisantes. Elle peut
+etc.) pour garantir son efficience.
+notamment être liée à un SOC (centre
+opérationnel de sécurité).
+Voir Doctrine de détection pour les
+Dans le cas d'une mise en place d'une supervision de sécurité, prendre en compte
+INC4 ORG C R O systèmes industriels, ANSSI, 3
+le guide de détection pour les systèmes industriels publiés par l’ANSSI.
+décembre 2020.
+Déterminer en cas d’incident :
+- que faire lors de la détection d’un incident ;
+INC5 ORG - qui alerter ; O
+- qui doit coordonner les actions en cas de crise ;
+- quelles sont les premières mesures à appliquer.
+Adapter la procédure d’alerte au système industriel et à son organisation. Les
+autorités d’emploi et bénéficiaires y sont intégrés. Ils sont informés des incidents
+INC6 ORG C R O
+avérés et de leurs conséquences sur leurs activités et les systèmes auxquels il
+concourt.
+ORG Un incident donne lieu à une analyse dont le but est de déterminer l’origine de
+INC7 C R O
+TECH l’incident et d’améliorer la cybersécurité du système industriel.
+Le processus de gestion de crise doit également contenir une procédure
+d’escalade pour gérer les incidents au bon niveau de responsabilité et décider en
+INC8 ORG conséquence : C R O
+- s’il faut déclencher un plan de reprise d’activité ;
+- si une action judiciaire est nécessaire.
+Contrôler l’état de sécurité du système
+En cas d’audit, les tests doivent être réalisés dans le cadre de la maintenance ou Les audits peuvent comprendre
+CTRL1 ORG avant la mise en production du système industriel, voire sur une plateforme de test O - des tests aux limites ;
+s'ils présentent des risques de dysfonctionnement. - des tests d’erreur des fonctions métier
+DIR-39 SNSI – 2eme édition Page 78 | 79

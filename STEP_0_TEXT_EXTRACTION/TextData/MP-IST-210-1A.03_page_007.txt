@@ -1,0 +1,32 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+radio frequency (RF), audio, Light Detection and Ranging (LiDAR) data [5]: “Foundational benchmarks
+such as FL-Drones, NPS-Drones, and USC Drone provided core RGB datasets for aerial detection and
+tracking. Beyond the visual domain, DroneRF captures electromagnetic signatures for RF-based UAV
+classification, while DroneAudio and Acoustic-UAV focus on acoustic features. More recent efforts extend
+coverage to multi-modal data: Halmstad Drone fuses RGB, IR, and audio, and MMAUD integrates radar and
+LiDAR. Community-driven competitions (e.g., the 2nd and 3rd Anti-UAV Workshops and the 4th Anti-
+UAV Challenge) feature adversarial or cluttered scenarios that reflect real world operational complexity,
+while UAVSwarm and mDrone emphasize large-scale swarm coordination or low-visibility tracking—both
+highlighting the need for robust multi-sensor fusion.”
+However, public datasets often suffer from several issues. One, the current state of benchmarking, while
+foundational, is characterized by critical deficiencies, particularly concerning annotation standards. Without
+discrediting the hard work and innovative approaches of their originators, many of these datasets are
+developed and maintained on a voluntary basis by researchers and graduate students, data quality can vary
+significantly. Moreover, many such large datasets were created with the use of popular foundational CV
+models such as YOLO, creating a feedback loop of poor open-source training data, leading to suboptimal
+models, leading to substandard labelling which finds its way back into poor open-source training data.
+Although no firm statistics are available on the prevalence of these data inconsistencies, Koksal et al noted in
+2020 at the 1st Anti-UAV Workshop and Challenge [9] that “such approaches might result in erroneous
+annotations”, and found in some experiments that such “annotation errors degrades the performance
+[severely]..., especially for missing boxes”, proposing to correct the benchmark challenge’s annotations
+where they found mistakes. The mislabelling that occurs often erodes trust in the dataset and contributes to
+varying levels of measurement error when models are tested on them. See Figure 2.
+Figure 2. Examples of mislabelled data in public UAV-related benchmarks. Top left: label applied
+where there is no UAV in the image, Anti-UAV300 dataset. Top right: label applied to a part of the
+image in which the UAV is not (actual UAV is on the left of the bounding box), Anti-UAV300
+dataset. Bottom two: UAVs present but unlabelled within image, DUT Anti-UAV Detection and
+Tracking dataset. Inconsistencies discovered by Resaro Research, 7 Jul 2025.
+Two, public datasets may not accurately reflect real-world operational environments, leading to a
+dataset bias where models perform well on the benchmark but poorly in deployed scenarios. For instance,
+STO-MP-IST-210 1A.03 - 7

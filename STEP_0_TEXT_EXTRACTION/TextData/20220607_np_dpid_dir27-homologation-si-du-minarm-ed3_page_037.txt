@@ -1,0 +1,45 @@
+o pour les transferts d'informations entre des SI classifiés de même niveau, dont l’un
+n’est pas sous maîtrise nationale ;
+o pour les transferts d'informations entre des SI classifiés de même niveau, dont l’un est
+amené à traiter des informations classifiées de l’Union européenne ou de l’OTAN ;
+o lorsque l’utilisation de dispositifs de sécurité agréés est obligatoire mais impossible,
+notamment lorsqu’il n’existe pas de dispositif de sécurité agréé ou lorsqu’il n’est pas
+agréé au bon niveau.
+Capacités opérationnelles
+Une capacité numérique est un ensemble de systèmes ou services numériques qui concourent à la
+réalisation d’une fonction métier, d’une activité ou d’une mission déterminée et précise relevant d’une
+unique autorité.
+Elle correspond à un périmètre organisationnel et technique circonscrit et qui fait l’objet de la démarche
+de sécurisation.
+L’homologation d’une capacité opérationnelle porte alors sur les risques que porte cet ensemble de SI
+au titre de cette capacité et non de l’ensemble de leurs usages. C’est pourquoi elle ne se substitue pas
+à l’homologation de SI qui la composent lorsque ceux-ci sont soumis à des obligations d’homologation
+dans le cadre d’autres emplois. Elle doit prendre en compte les obligations particulières auxquelles
+peuvent être soumis certains des SI qui la composent (ex : exigences liées au régime SIIV).
+Elle permet ainsi de prioriser les efforts de sécurisation en fonction des priorités opérationnelles et du
+niveau de criticité des éléments composant cette capacité. Elle renseigne également sur le niveau de
+résilience de la capacité opérationnelle.
+Elle nécessite au préalable une cartographie complète des interdépendances techniques et
+fonctionnelles entre les différents éléments concourant à cette capacité.
+Elle s’appuie sur une cartographie fonctionnelle, un périmètre d’homologation bien défini et une stratégie
+d’homologation d’ensemble des différents systèmes ou ensembles constituant la capacité
+opérationnelle.
+Homologation d’un SI développé en mode agile
+Homologation itérative
+Le mode de développement en agilité se caractérise par un développement itératif du SI et par sa mise
+en exploitation alors qu’il est encore en phase de réalisation. À chaque cycle de développement
+(« build »), de nouvelles fonctionnalités sont créées, faisant ainsi évoluer le SI en production.
+Le choix de l’agilité ne réduit pas les risques en matière de SSI qui dépendent de la sensibilité
+du SI et des probabilités d’une agression fructueuse à son encontre. La méthode d’analyse de
+risques n’est donc pas modifiée du fait de l’agilité du projet.
+Dans ce cas, la démarche d’homologation est elle-même itérative. Elle doit aboutir au moins à deux
+décisions d’homologation :
+● une décision d’homologation initiale permettant de mettre en exploitation le SI après
+le premier incrément ;
+● une décision d’homologation ferme, une fois le développement terminé, pour le
+transfert définitif de l’exploitation à l’opérateur et conduisant au démantèlement de
+l’équipe de développement.
+Eventuellement, si l’évolution en cours de développement le nécessite, la décision d’homologation
+initiale peut être renouvelée avant d’atteindre une décision ferme. La décision d’homologation est alors
+dite transitoire.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 35/47

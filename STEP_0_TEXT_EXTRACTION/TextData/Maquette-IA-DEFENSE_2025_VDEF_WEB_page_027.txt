@@ -1,0 +1,26 @@
+27
+Face aux défis complexes posés par l’évaluation des produits fiable des produits contenant des réseaux de neurones
+contenant des réseaux de neurones, plusieurs solutions – à l’instar des méthodologies sur l’analyse de code.
+sont abordées pour améliorer leur sécurité et leur fiabilité.
+Des recherches sont actuellement en cours[3] Conclusion
+développer des méthodes rendant les modèles Les CESTI ont pour mission de certifier ou qualifier
+plus transparents et interprétables. Cette approche des produits afin d’instaurer la confiance des
+implique une introspection du réseau de neurones utilisateurs finaux. Celle-ci est particulièrement
+afin de quantifier ses capacités d’interaction, sans cruciale pour les produits intégrant des fonctionnalités
+pour autant décomposer son fonctionnement interne. d’intelligence artificielle. Bien que l’IA ne transforme
+Une telle analyse est essentielle dans le cadre de pas fondamentalement le processus d’évaluation,
+l’évaluation effectuée par un CESTI sur ces technologies. elle introduit un nouveau profil d’attaquant potentiel,
+rendant ainsi la certification encore plus essentielle.
+La construction de plateformes de simulation À l’avenir, les CESTI pourraient collaborer avec des
+d’attaques permettra, à l’avenir, de tester la robustesse laboratoires spécialisés dans l’alignement des IA pour
+d’un produit face à des perturbations du moteur fournir une évaluation globale des produits contenant des
+IA. L’axe de ces tests vise à exhiber les possibilités réseaux de neurones. Ces laboratoires se concentrent sur
+d’exploitation malveillante d’un réseau de neurones, l’amélioration de la sécurité, de l’éthique et de la fiabilité
+tout en travaillant dans un environnement contrôlé. des systèmes d’IA et permettent de garantir les résultats.
+Enfin, la normalisation de l’utilisation des réseaux de
+neurones et l’élaboration de bonnes pratiques constituent Cette collaboration permettrait de combiner les
+une approche abordée par l’ANSSI et les CESTI pour connaissances approfondies et l’expertise technique
+identifier les risques sécuritaires. Ces méthodologies des CESTI avec celles des laboratoires spécialisés,
+incluent des guides détaillés sur les tests à effectuer et offrant ainsi une évaluation complète et robuste
+les mesures de sécurité à mettre en place. Leur adoption des produits intégrant de l’intelligence artificielle,
+permettra de garantir une évaluation cohérente et et donc un niveau de confiance bien plus élevé

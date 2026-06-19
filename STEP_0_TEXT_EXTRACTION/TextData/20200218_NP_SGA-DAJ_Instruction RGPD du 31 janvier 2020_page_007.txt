@@ -1,0 +1,44 @@
+1.3 Des données particulières.
+a) Le numéro d'inscription au répertoire national d’identification des personnes physiques (NIR), plus
+couramment dénommé "numéro de sécurité sociale" fait partie des catégories particulières de données.
+En effet, ce numéro présente plusieurs spécificités :
+- il est « signifiant ». Il est composé d’une chaîne de caractères qui permettent de déterminer le
+sexe, le mois et l’année de naissance, le département et la commune de naissance en France ou
+l’indication d’une naissance à l’étranger ;
+- il est unique et pérenne : un seul numéro est attribué à chaque individu dès sa naissance ;
+- il est a priori fiable, car il est certifié par l’INSEE à partir des données d’état civil transmises
+par les mairies.
+Ce numéro, facile à reconstituer à partir d’éléments d’état civil, et qui rend plus aisées les possibilités
+de rapprochements de fichiers et facilite la recherche et le tri des informations dans les fichiers, reste
+associé au risque d’une interconnexion généralisée ou d’une utilisation détournée des fichiers. Cela
+justifie donc les précautions prises depuis 1978 par le législateur pour encadrer son usage.
+Son utilisation fait l’objet d’un régime particulier défini par la loi « informatique et libertés »8 et par
+un décret en Conseil d’Etat qui fixe la liste des traitements ou des catégories de traitement pour
+lesquels est autorisée, à titre dérogatoire, l’utilisation de ce numéro9.
+b) Les données relatives aux condamnations pénales et aux infractions ne peuvent faire l’objet d’un
+traitement en vertu de l’article 777-3 du code de procédure pénale, à moins que celui-ci ne réponde
+aux conditions posées par l’article 46 de la loi informatique et libertés ou ne soit autorisé par une
+disposition législative particulière.
+c) Les données des personnels sous anonymat10 du ministère de la défense font l’objet d’une protection
+particulière. En effet, les traitements de données concernant ces agents sont soumis à la réalisation
+d’une analyse d’impact sur la protection des données (cf. chapitre III point II) et à une obligation de
+vigilance particulière quant aux mesures de sécurité mises en place (cf. chapitre III point IV).
+II. LE TRAITEMENT DE DONNEES A CARACTERE PERSONNEL (art. 4 à 6 du RGPD).
+1.1 Notion de traitement.
+Le RGPD définit la notion de traitement comme étant « toute opération, ou ensemble d’opérations,
+portant sur des données à caractère personnel11 ». Ce traitement peut être automatisé ou non
+automatisé.
+Ainsi, les traitements de données suivants sont soumis au RGPD :
+- les traitements de données structurés, prenant la forme de systèmes d’information (par
+exemple : Concerto, Alliance, etc.) ;
+- les traitements de données non structurés, pouvant prendre la forme de fichiers papier ou de
+fichiers numériques, tenus à jour à l’aide de logiciels bureautiques (par exemple : utilisation
+d’Excel pour la gestion des congés bonifiés).
+8 Article 30 de la loi.
+9 Décret n° 2019-341 du 19 avril 2019 relatif à la mise en œuvre de traitements comportant l’usage du numéro d’inscription
+au répertoire national d’identification des personnes physiques ou nécessitant la consultation de ce répertoire.
+10 Sont concernés : les personnels des services de renseignements et des forces spéciales protégées par les articles 413-13 et
+413-14 du code pénal (cf. arrêté du 20 octobre 2016) ainsi que les personnels protégés au titre de l’article 39 sexies de la loi
+de 1881 sur la liberté de la presse (cf. arrêté du 7 avril 2011).
+11 Article 4 point 2 du RGPD.
+7

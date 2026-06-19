@@ -1,0 +1,51 @@
+PôlE d’ExcEllEncE cybER
+Plusieurs points d’importance ont été remontés lors des réunions de ce les différentes catégories de réglementation dont l’AnSSI a la mission H.3
+consortium, de la conférence annuelle internationale EU cybersecurity Act, d’assurer l’exécution figurent dans la rubrique dédiée du site de l’ANSSI31.
+Règlementations
+et des différents groupes de travail qui découlent du règlement européen,
+ces catégories réunissent les thèmes relatifs à la protection des systèmes pour la
+notamment :
+d’information, de l’administration électronique ainsi que plus spécifiquement cybersécurité
+• La volonté de simplifier les procédures administratives, notamment pour les à la cryptographie ou à d’autres réglementations techniques.
+des entreprises
+acteurs hautement régulés tels que la finance et l’énergie ;
+• La volonté de privilégier les schémas conformes aux standards internationaux ;
+• La volonté de privilégier la prise en compte de l’ensemble du cycle de vie du
+produit/service dans le schéma d’évaluation sous-jacent.
+Parmi les schémas proposés, l’EnISA endosse déjà deux candidats complé-
+mentaires:
+• Un premier dédié aux cloud Services, prévu pour fin 2020;
+• Un candidat basé sur les Critères Communs : EUCC (common criteria based
+European candidate cybersecurity certification scheme), en cours de valida-
+tion par la communauté.
+À noter que le schéma EUcc ne permet pas l’auto-évaluation et se focalise
+sur les niveaux Substantiel et élevé. l’auto-évaluation ne concerne par ailleurs
+que le niveau « élémentaire », qui n’est pas couverte par le schéma (cf. section 5
+« conformity Self-Assessment » https://www.enisa.europa.eu/publications/cy-
+bersecurity-certification-eucc-candidate-scheme ).
+ce dernier schéma recouvre la plupart des caractéristiques déjà comprises
+dans le schéma critères communs (sous accord de reconnaissance SOG-IS),
+et redéfinit plusieurs aspects non (ou partiellement) traités, notamment la
+gestion des certificats dans le temps (conformité, découverte de vulnérabili-
+tés, gestion des patchs). ce schéma précise également la notion de confor-
+mity Assessment bodies (CAB), qui engloberont les activités de certification
+et d’évaluation (cEStI). Finalement, un nouvel acteur est présenté : l’autorité
+nationale de certification de cybersécurité (NCCA), représenté en France par
+l’AnSSI. Sa mission principale est d’autoriser et de superviser l’activité des
+CAB émetteurs de certificats sur son territoire. Concernant les niveaux d’assu-
+rance, ce schéma se positionne sur les niveaux « substantiel » et « élevé ». Une
+correspondance est proposée entre ces niveaux d’assurance et les niveaux
+d’estimation des vulnérabilités des critères communs (AVA_VAn). dans le
+cadre du cSA, les schémas peuvent autoriser l’auto-évaluation pour le niveau
+d’assurance « élémentaire ». l’EUcc proscrit par ailleurs l’auto-évaluation.
+d’autres schémas sont également proposés, certains plus orientés marchés
+notamment pour l’Iot (Internet of things). Néanmoins, si la décision finale
+quant au choix du ou des schémas candidats n’est pas encore effectuée, il
+est probable que cette thématique fasse notamment l’objet d’intenses dis-
+cussions lors des prochaines éditions des conférences EU cybersecurity Act
+à bruxelles.
+On notera également que le cSA fait également l’objet de nombreux débat lors
+des conférences annuelles de l’Iccc (International common criteria confe-
+rence) afin notamment de positionner le schéma EUCC dans un contexte de
+reconnaissance mutuelle et internationale du schéma critères communs. 31 https://www.ssi.gouv.fr/entreprise/reglementation/
+96 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 97

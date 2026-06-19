@@ -1,0 +1,30 @@
+Integration of a Commercial
+Unmanned Vehicle into the Army Communications System
+Fig.4:Generalarchitecture—Wi-Fi+MilitaryRadios.
+Fig.5:ArchitectureGCS.
+Fig.6:ProtocolstackofaMANETnetwork.
+In the case of communication with CNR, since there is a
+hybrid communication situation in which some data is sent
+The protocol stack may change slightly depending on the
+via Wi-Fi and some via military radios, two connections were
+radio used. Specific protocols may be implemented inside or
+established between the Raspberry Pi and the MAVProxy
+outside the radio technology, depending on the radio model.
+running on the GCS.
+C. Hardware components
+Since the Raspberry Pi 3 Model B+ is already a resource,
+its price is low, and it is already used in many identical im-
+B. Protocol Stack
+plementations. Hence, the choice went to it, saving resources.
+Since the aim was to control the vehicle via Mission
+The protocol stack for communication over Wi-Fi consists Planner, the sensors of the LAFVIN kit were not used; only
+of a conventional TCP/IP stack. The transport layer will be the Arduino UNO, V5 Expansion Board, 4 DC Motors, and
+TCP or UDP, and the Network layer will be IP; the Physical the L298N Motor Board were used.
++ Data Link layers correspond to Wi-Fi protocols. The UGV consists of the following components:
+RegardingcommunicationovertheP/PRC-525andTR5000 • Raspberry Pi 3 Model B+;
+tacticalradios,representedbyFigure6,itshouldbenotedthat • LAFVIN kit;
+it has a routing module Mobile Ad Hoc Network (MANET) • Battery;
+moduleatthenetworklayer.LikeWi-Fi,thetransportlayeris • G-Mouse GPS VK-162;
+TCP/UDP, and the Network layer is IP. The Physical + Data • Raspberry Pi Camera Module 2;
+Link layers correspond to protocols specific to radio. • Radio.
+STO-MP-IST-209 1760 - 5

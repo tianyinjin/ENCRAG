@@ -1,0 +1,43 @@
+Orchestrating Manned-Unmanned Missions
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S
+Convolutional Neural Networks (CNNs) being widely used for real-time object recognition and scene
+understanding. In addition to visual processing, these systems also rely on autonomous navigation, path
+planning, and mission execution, often employing advanced techniques such as Deep Reinforcement
+Learning (DRL) or optimization algorithms. These methods allow the systems to learn from dynamic
+environments, make decisions in uncertain or unpredictable scenarios, and improve over time through
+interaction with their surroundings. However, such capabilities demand vast amount of data for training and
+validation, as well as significant computational resource to process and analyze data. To mitigate the
+challenges of real-world testing and enhance team readiness, these systems are often initially trained and
+evaluated in simulated environments.
+1.1.2 Human Factors and Meaningful Control
+Workload is a critical issue; operators managing multiple UAVs or unmanned systems often experience
+performance degradation, particularly during communication-heavy tasks, with increased workload leading
+to reduced trust in autonomous agents [4]-[5]. Trust, defined as confidence in an agent’s ability to support
+goal achievement under uncertainty [6] is vital for collaboration. Lack of trust, driven by low transparency
+and agent reliability, can increase stress and reduce mission effectiveness [7]. Overreliance or underuse of
+autonomous systems may occur based on their perceived reliability, further impacting performance [8]-[9]
+Human Factor studies are important as they explore how transparency, reliability, and task allocation impact
+operator behavior and decision-making in HAT systems. As autonomous agent capabilities are becoming
+more advanced and humanlike, the best method for humans and agents to effectively coordinate is still
+unknown [10]. In order to overcome human factor challenges, some researches have tried modelling human
+capabilities and cognition. However, many challenges come into play when we try to model humans [11].
+According to the Army Research Laboratory (ARL) there are the eleven gaps in human modelling: 1)
+cognition, 2) decision science, 3) human physiology, 4) human psychology, 5) leadership, 6) morale, 7)
+solider family, 8) solider resilience 9) stress, 10) unit as a complex dynamic, 11) unit cohesion. Thus, those
+components are crucial elements to consider related to huma factors and understanding of human cognitive
+capabilities when it comes of mission and performance. These factors are important to consider for force
+readiness but also when designing intelligent systems for mission orchestration. We are particularly
+interested in decision-making more specifically military decision-making process in the multi-domain
+operating environment [13]. Based on [13] the Military Decision-Making Process (MDMP) consists of
+several key phases, each contributing to the formulation and execution of an effective operational plan (see
+Figure 1). The MDMP begins with the receipt of mission, where the commander receives tasks and provides
+initial guidance on time and resources. During mission analysis, the commander synthesizes guidance,
+higher-level orders, and available information to develop a problem statement, mission statement, and initial
+intent, including identification of key intelligence requirements. COA development follows, generating
+potential operational approaches, which are then war-gamed to assess decision points and assumptions. COA
+comparison evaluates these options to recommend the most feasible course of action. In the COA approval
+phase, the commander reviews and finalizes the chosen option, and the plan is communicated during order
+production to ensure clear transition from planning to execution. In order to test MDMP for force readiness,
+the use of training exercise using simulation and modelling should be necessary.
+Figure 1: Military decision-making in multi-domain operating process (MDMP).
+STO-MP-MSG-229 11 - 3

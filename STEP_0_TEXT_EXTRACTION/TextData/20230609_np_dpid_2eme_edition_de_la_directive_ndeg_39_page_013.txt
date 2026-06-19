@@ -1,0 +1,46 @@
+RO 1. Il est OBLIGATOIRE pour la chaîne fonctionnelle de sécurité numérique de
+prendre en compte dans son périmètre de responsabilité tous les systèmes identifiés
+comme systèmes industriels et de les intégrer dans la cartographie des systèmes
+d’information.
+3.5. Sûreté de fonctionnement et sécurité numérique
+La sûreté de fonctionnement* est l’aptitude d’un bien à remplir une fonction requise dans des
+conditions données pendant un temps donné. Elle a donc pour but d'empêcher les défaillances
+et les pannes qui peuvent compromettre le fonctionnement d'un service, notamment jugé critique.
+Elle peut aussi se définir comme « la propriété qui permet aux utilisateurs de placer une confiance
+justifiée dans le service qu’il leur délivre »12 . À ce titre, les critères de maintenabilité et de fiabilité,
+de disponibilité et d’intégrité sont les critères primordiaux pour un système industriel. La sûreté
+de fonctionnement* est alors un atout pour la sécurité numérique.
+Cependant, les mesures préconisées dans le domaine de la sûreté de fonctionnement* peuvent
+également favoriser des risques numériques en permettant la réalisation de nouveaux scénarios
+d’attaques, en tant que vecteurs ou cibles d’attaque. Afin de réduire ces risques, les moyens
+garantissant la continuité d’activité doivent, dans la mesure du possible, ne pas s’appuyer
+sur des dispositifs numériques. Des risques numériques peuvent être supprimés par la mise
+en place de ressources ne disposant d’aucun composant numérique. Si, toutefois, ces moyens
+comprennent une composante numérique, ils doivent être insérés dans le périmètre
+d’homologation.
+En outre, la sûreté de fonctionnement* ne couvre pas l’ensemble des risques portant sur le
+système industriel. Elle prend en compte les dysfonctionnements de source involontaire (erreurs,
+pannes). Les risques de menaces intentionnelles (attaques informatiques par exemple) ou les
+risques n’impactant pas directement le fonctionnement du système industriel (fuites
+d’informations sensibles, divulgations ou encore vols de données) relèvent de la sécurité
+numérique.
+La couverture de l’ensemble des risques pesant sur un système industriel impose donc de traiter
+conjointement la sécurité numérique et la sûreté de fonctionnement* dans une approche
+harmonisée.
+Cependant, des mesures préconisées par la sécurité numérique peuvent interférer avec celles
+proposées par la sûreté de fonctionnement*. Il s’agit alors, dans la mesure du possible, d’arbitrer
+un équilibre, en s’appuyant sur l’avis de l’autorité d’homologation (AH). Ces décisions sont
+insérées dans le dossier d’homologation.
+Le responsable de projet/programme d’un système industriel veille à traiter les risques
+numériques, non de manière isolée, mais au niveau global de la gestion de risques, afin de
+garantir la cohérence et la complémentarité de la démarche d’homologation et de celle mise en
+œuvre dans le cadre de la sûreté de fonctionnement*.
+L’autorité d’homologation (AH) tient compte des risques traités par la sûreté de fonctionnement*
+et leur traitement avant de prononcer une décision.
+3.6. Système industriel et données
+3.6.1. Types de données à identifier
+Les systèmes industriels traitent différents types de données portant sur le procédé industriel* et
+le système numérique en lui-même, dont certaines sont relatives à la sécurité numérique. Au sein
+12 Guide de la sûreté de fonctionnement, sous la direction de Jean-Claude Laprie, Toulouse,
+Capacduès, mai 1995, 2ème édition.
+DIR-39 SNSI – 2eme édition Page 13 | 79

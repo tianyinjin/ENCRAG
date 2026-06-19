@@ -1,0 +1,35 @@
+47
+Parallèlement, la mise en place d’un mécanisme de temps réel des journaux système et du comportement
+validation neuro-symbolique est recommandée. Ce des utilisateurs est recommandée afin d’identifier
+système effectuera une vérification automatique des toute anomalie, gérer centralement les incidents de
+résultats par des techniques d’IA symbolique tels que cyber-sécurité et mettre en place des contre-mesures
+des systèmes à base de règles ou des graphes de adaptées. Une veille systématique sur les menaces et
+connaissance. Il attribuera un score de fiabilité basé sur des les vulnérabilités spécifiques à l’IA devra être assurée.
+modèles alternatifs, et vérifiera la conformité aux normes De plus, il conviendra de surveiller les évolutions
+de sécurité pour éviter toute dérive du modèle principal. réglementaires et d’assurer une mise en conformité
+continue de la plateforme avec les normes de sécurité.
+4. Maîtrise des modèles et amélioration continue
+Un ou plusieurs grands modèles de langage (LLM) Conclusion
+pourront être utilisés selon les cas d’usages, sachant L’intégration de l’IA générative dans l’ingénierie des
+que des modèles généralistes seront plus souples à systèmes critiques est une avancée majeure qui
+l’usage mais moins précis que des modèles spécialistes, soulève des défis de sécurité, de souveraineté et
+notamment pour la production de code ou d’architectures d’explicabilité. Le présent article propose une réponse
+techniques. On privilégiera des modèles souverains ou à ces enjeux à travers des préconisations : 1) Protection
+open sources contrôlées pour limiter les dépendances à de l’Infrastructure Matérielle, 2) Sécurisation des
+des solutions propriétaires non maîtrisées. Leur précision interactions homme-machine, 3) Contrôle des sources
+à l’usage pourra être améliorée par des techniques et vérification des sorties, 4) Maîtrise des modèles et
+d’affinement ou de renforcement. L’intégration d’un amélioration continue, 5) Supervision et gestion des
+mécanisme de récompense par feedback humain incidents. Une application des bonnes pratiques en
+permettra d’alimenter une boucle d’amélioration vigueur en matière de sécurité informatique traite déjà
+continue. Toutefois, l’empoisonnement des données une grande partie des risques identifiés. Néanmoins,
+d’affinage ou des récompenses sont des menaces internes une compréhension des menaces et vulnérabilités
+à surveiller. Des mécanismes de signature, de détection spécifiques à l’IA, et notamment à l’IA générative, est
+et de correction des biais du modèle peuvent y remédier. nécessaire. Pour cela, nous orientons le lecteur vers
+quelques solides références : ENISA[1], ANSSI[2] MITRE
+5. Supervision et gestion des incidents ATLAS[3], NIST AI 600-1[4], OWASP[5], CWE AI WG[6].
+Une détection proactive et une réponse rapide aux
+menaces sont essentielles. Les personnels du Centre
+d’Opérations de Sécurité (SOC) doivent être formés
+à reconnaître et traiter des attaques spécifiques à
+l’IA, telles que l’empoisonnement, l’évasion, l’inversion
+de modèle ou l’injection de prompt. Une analyse en

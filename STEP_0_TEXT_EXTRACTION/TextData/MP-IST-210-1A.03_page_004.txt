@@ -1,0 +1,38 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+redundancy built into its complementary sensor suites. It is likely that all these factors affecting ASUL’s
+success in deployment would have been specified through months of painstaking procurement requirements
+development and evaluation along these dimensions to ensure its ability to meet the Bundeswehr’s counter-
+drone defense missions. Table 1 highlights a comparison of the key advantages and limitations of different
+modalities for drone detection, classification, and tracking, showing the complexity of architecting multi-
+modal sensors.
+Table 1: Key Advantages and Limitations of Different Modalities for Drone Detection,
+Classification, and Tracking.
+Modality Key Advantages Key Limitations
+• High accuracy in controlled • Susceptible to radio congestion and
+RF- environments jamming
+based
+• Effective for UAV • Completely ineffective against
+identification and flight autonomous drones without active RF
+mode classification links, or controlled drones in
+autonomous modes
+• Effective range theoretically
+scales to sensor sensitivity • Requires prior knowledge of RF
+frequencies in use by potential UAVs,
+• Cost-effective and can detect
+and other unrelated urban sources of RF
+multiple drones/controllers
+clutter
+• Detects drones based on rotor • Performance degrades significantly in
+Audio- noise and acoustic signatures high-noise or windy environments
+based
+• Effective for autonomous • Typically very short range due to
+drones soundwave propagation characteristics
+(300-500m)
+• Can operate outside line-of-
+sight limitations • Short range limits coverage for large
+areas
+• Mobile and quick to deploy
+• Some drones designed to operate
+silently
+1A.03 - 4 STO-MP-IST-210

@@ -1,0 +1,27 @@
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+3) Criminal with no harm intended: this use case represents operators aiming to gain unauthorized
+access to restricted areas for the purpose of information acquisition but without the intent of causing
+direct harm. They might aim to capture photographs or videos as part of corporate espionage,
+criminal activities or simply as paparazzi or misguided fans. The resulting drone behavior is rather
+constant in heading, aiming for the protected zone, with a decreasing altitude to approach and a
+velocity increasing to reach the protected zone. The drone is not necessarily going into the protected
+zone, possibly skirting it and idling from time to time to take pictures.
+4) Criminal with harm intended: in this most exigent use case, the operator intentionally breaches the
+protected zone with the objective of causing direct harm, such as a terrorist attack involving drones
+with explosive payloads. The resulting drone behavior is rather constant in heading, aiming for the
+protected zone, with a decreasing altitude to approach and a velocity accelerating in the last stretch
+to penetrate the protected zone effectively.
+Figure 6: The 4 drone behaviors that we used as baseline to build our use cases with (a) the
+clueless operator, (b) the careless operator, (c) the criminal with no harm intended and (d) the
+criminal with harm intended.
+We subsequently designed our use cases by determining the number of intruding drones, ranging between 1
+and 5, and by choosing each intruding drone behavior model.
+4.0 SYSTEM COORDINATION BETWEEN SWARM AGENTS
+As illustrated on Figure 1each drone’s AI agent is not directly embedded on its drone. Theyare executedon
+the ground,in the workstation that is also hosting the GCSand the GCS’AI agent. This limitation is a choice
+of focus that was made, in line with the project’s objectives that were to develop the AI agents and not focus
+on their embed-ability. However, from an architecture standpoint, notwithstanding the latency in
+communication, thesystem is operating as if the drones’AI agents were embedded on their own platform.
+The collaborationof the AI agents and their swarming behavior is enabled through two means.
+8 STO-MP-SET-315-26

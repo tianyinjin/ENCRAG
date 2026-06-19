@@ -1,0 +1,55 @@
+REAPER 7.0: What’s New
+FX Containers
+Introduction
+This advanced topic is not really suitable for beginners.
+REAPER’s FX containers allow you more flexibility and a greater capability in creating and managing FX chains
+than simply running two or more FX in parallel with each other. This advanced topic might take a little longer for
+you to get your head around. It’s more appropriate for experienced users than for beginners.
+To understand FX containers and how they work, let’s take an example. The
+actual FX used are for illustration only and are not the focus of the exercise.
+What matters is the technique, which could be applied using other FX. We will
+build two parallel FX chains rather than just two parallel FX. This concept is
+illustrated by the diagram on the right. To achieve this, REAPER will need to:
+ Pass the audio signal into a container.
+ This container will need to consist of enough channels as are needed to
+allow for (in this case) two parallel chains, i.e. four channels in all, one pair
+for each chain.
+ As the audio stream exits the container, the outputs of the two parallel
+channels will need to be merged as they are passed on thru channels 1/2 of the FX chain to any
+subsequent FX (in this example, ReaLimit). To recap, channels 1/2 are used by default by the track to send
+audio output to the master.
+So, to summarize, a container will need enough inputs and enough channels (in this example, four) to allow the
+different streams to be processed independently of each other, and enough outputs (again, in this case four) to
+allow the streams to be merged as they exit the chain.
+That’s a lot of theory to take in! Let’s see how it’s done in practice.
+Example 1
+To set up the FX container described above:
+1. Click on the track’s FX button, then Add, then
+from the displayed list of FX double-click on
+Container. A container is added to the FX chain
+and its empty window displayed. Immediately
+after the container, in the far left column, add
+ReaLimit. Select the container. Your FX window
+should now resemble that shown on the right.
+2. Click on the container’s button labeled 2 in+out to
+open its pin connector window. Here you can define
+its parameters. We’ll get to the pin connectors
+shortly. First, notice that by default the container
+inherits the same number of input/output channels
+as the track – in this case two.
+3. Set the number of container channels, inputs and
+outputs to (in this example) 4 and complete the pin
+connector matrix as shown here (right). Instead of
+2 in+out, the container’s pin connector button will
+now read 2/4 in+out.
+4. This directs input from track channel 1 to container
+inputs 1 and 3, and from
+track channel 2 to container
+inputs 2 and 4.
+Output from container
+channels 1 and 3 will pass
+to track channel 1, and
+output from container
+channels 2 and 4 will pass
+to track channel 2.
+Page 18

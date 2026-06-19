@@ -1,0 +1,56 @@
+52 LES CADETTES DE LA CYBER CYBERSÉCURITÉ : UN DÉFI CITOYEN ET STRATÉGIQUE 53
+Mais que se passe-t-il si un attaquant ne cherche secrètes.77 Quels cas concrets ?
+pas à casser la cryptographie mais simplement à Plus récemment, en janvier 2025, trois chercheurs
+observer comment elle fonctionne afin d’en déduire Le graphe de mesures de consommation de courant ou En 2018, l’équipe Project Zero de Google a découvert de Georgia Tech et un chercheur de l’Université
+la clé secrète ? de rayonnement d’un appareil exécutant un algorithme deux vulnérabilités liées à l’accès indirect à des Ruhr-Bochum ont dévoilé en janvier deux nouvelles
+C’est là qu’entrent en jeu les attaques physiques en fonction du temps est appelé “la trace”78. Voici données sensibles affectant la plupart des PC et des vulnérabilités sur les processeurs Apple (A15/A17,
+passives, et plus précisément les attaques par canaux quelques exemples de traces, le but n’est pas d’expliquer smartphones de l’époque. Ces vulnérabilités, Spectre M-series). Nommées SLAP (Speculative Load Address
+auxiliaires, aussi appelées Side-Channel Attacks (SCA). comment obtenir la clé à partir de ces graphiques et Meltdown, dans les circuits intégrés des processeurs Prediction) et FLOP (False Load Output Prediction),
+Ces attaques ne remettent pas en cause la sécurité mais de montrer des aperçus de traces desquelles Intel, AMD, Apple et ARM, exploitent l’exécution elles concernent respectivement le prédicteur
+mathématique mais elles utilisent des données il est possible d’extraire les clés d’algorithmes de spéculative, une technique où les processeurs devinent d’adresse de chargement91 et le prédicteur de valeur
+physiques (temps de calcul, température, courant chiffrement La Figure 179 correspond à une clé de et exécutent du code à l’avance afin d’améliorer les de chargement92. Il s’agit de deux types de systèmes
+consommé) pour retrouver la clé secrète. On distingue chiffrement RSA. L’algorithme de chiffrement RSA performances... Ces failles permettent aux attaquants d’exécution spéculative qui prédisent l’adresse RAM
+les attaques actives des attaques passives. Les est encore utilisé pour l’authentification en ligne mais d’accéder à des données sensibles (mots de passe, à laquelle un programme en cours d’exécution aura
+premières consistent à modifier le système attaqué. la taille de la clé a augmenté au fil des années pour clés de chiffrement) stockées dans la mémoire du probablement accès.
+Ces attaques sont en général irréversibles et utilisent garantir la sécurité80. La Figure 281 correspond à une noyau82. Les attaques Spectre consistent à inciter
+des découpages chimiques ou des lasers. Les attaques figure DES. Cet algorithme n’a plus de cas pratiques une victime à effectuer de manière spéculative des Pour SLAP, les chercheurs ont démontré comment
+passives utilisent des mesures de paramètres d’utilisation à notre époque. opérations qui ne se produisent pas lors de l’exécution le prédicteur d’adresse de chargement pouvait être
+physiques (temps, température, consommation de correcte d’un programme. Le but est de divulguer à utilisé pour lire des données restreintes. Pour FLOP,
+puissance, rayonnement) appelés canaux auxiliaires, l’attaquant ses informations confidentielles via un aucune donnée n’a été lue, cependant la prédiction
+pour en déduire des informations sur les données canal auxiliaire83. Les attaquants mesurent alors via un précise du système quant à ce qui serait lu pourrait
+canal auxiliaire les propriétés micro architecturales du exposer des informations sensibles. Les chercheurs
+système (la synchronisation du cache84, l’historique de ont démontré comment SLAP et FLOP peuvent être
+prédiction de branchement85, les tampons cibles de utilisés pour contourner plusieurs couches de sécurité
+branchement86, ou les lignes DRAM ouvertes87 [56]) à la fois dans le CPU et dans le navigateur Safari pour
+pour récupérer les données (mots de passe, clés de accéder à des données sensibles. Les constructeurs
+chiffrement) tout juste divulguées par le programme de processeurs ont bien pris connaissance des
+piraté.88 vulnérabilités identifiées afin de les corriger. Par ailleurs,
+les failles de sécurité permettant de contourner le
+Comment les attaques passives par canaux système de sécurité d’un iPhone et d’accéder aux
+auxiliaires s’invitent dans notre quotidien ? données privées de son propriétaire atteignent des prix
+En 2021, l’équipe de sécurité de Google sur exorbitants sur le marché noir. Il est donc raisonnable
+Figure 1 Figure 2 l’exploitabilité de Spectre contre les utilisateurs web a de supposer qu’une vulnérabilité matérielle, qui restera
+partagé ses résultats d’un Proof Of Concept89 rapide probablement partiellement non corrigée (de par
+et polyvalent écrit en JavaScript capable de divulguer les corrections qui diminuent les performances des
+des informations depuis la mémoire des navigateurs processeurs), serait exploitée lors d’attaques ciblées
+web. Chrome a été utilisé pour démontrer l’attaque visant des données particulièrement précieuses.93
+mais les failles ne sont pas spécifiques à Chrome,
+d’autres navigateurs web sont donc vulnérables.90
+82 Noyau : programme qui se trouve au cœur du système d’exploitation d’un ordinateur. “Qu’est-ce que Meltdown/Spectre ?” Cloudflare. “Qu’est-ce que
+Meltdown/Spectre ?” Cloudflare
+83 P. Kocker, J. Horn, A. Fogh, D. Genkin, D. Gruss, W. Haas, M. Hamburg, M. Lipp, S. Mangard, T. Prescher, M. Schwarz, Y. Yarom (2019) “Spectre Attacks: Exploiting
+Speculative Execution.” (p. 1) IEEE.
+84 D. J. Bernstein (2005) “Cache-Timing Attacks on AES.” University of Illinois à Chicago
+85 O. Aciiçmez, J.-P. Seifert, and C. K. Koç (2006) “Predicting Secret Keys via Branch Prediction.
+86 S. Lee, M.-W. Shih, P. Gera, T. Kim, H. Kim, M. Peinado (2017) “Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing.” USENIX / Georgia
+Tech / Microsoft Research.
+87 P. Pessl, D. Gruss, C. Maurice, M. Schwarz, S. Mangard (2016) “DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks.” USENIX / Graz University of
+Technology.
+88 (2018) “Speculative Execution Side Channel Mitigations.” (p. 5) Intel.
+89 Le POC est l’un des moyens les plus efficace et rapide de valider votre concept avant de lancer votre projet d’application
+90 S. Röttger, A. Janc (2021) “A Spectre proof-of-concept for a Spectre-proof web.” Google.
+77 Mélissa Rossi Dabi (2016) “Cryptanalyse par canaux auxiliaires : attaques et contre-mesures.” (p. 3) Thales / Telecom Paris Tech, Projet de fin d’études. 91 Prédicteur d’adresse de chargement : Load Address Predictor (LAP). J. Kim, D. Genkin, Y. Yarom (2025) “SLAP: Data Speculation Attacks via Load Address
+78 Mélissa Rossi Dabi (2016) “Cryptanalyse par canaux auxiliaires : attaques et contre-mesures.” (p. 3) Thales / Telecom Paris Tech, Projet de fin d’études. Prediction on Apple Silicon.” (p. 1) Georgia Tech / Ruhr University Bochum.
+79 Julien FRANCQ (2023). “Basics in Side-Channel Analysis.” (p. 46) Naval Group / Naval Cyber Laboratory. 92 Prédicteur de valeur de chargement : Load Output Predictor (LOP) . J. Kim, J. Chuang, D. Genkin, Y. Yarom (2025) “FLOP: Breaking the Apple M3 CPU via False
+80 (2024) “Note clarification utilisation RSA 2048 bits PSCo qualifies.” ANSSI. Load Output Predictions.” (p. 1) Georgia Tech / Ruhr University Bochum.
+81 Julien FRANCQ (2023). “Basics in Side-Channel Analysis.” (p. 81) Naval Group / Naval Cyber Laboratory. 93 E. Root (2025) “SLAP and FLOP: Complex vulnerabilities in Apple CPUs.” Kaspersky.

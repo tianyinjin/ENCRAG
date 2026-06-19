@@ -1,0 +1,23 @@
+ANNEXE 2 – CLASSIFICATION, CATÉGORISATION,
+SEGMENTATION ET HOMOLOGATION
+L’annexe décrit la méthode d’attribution de classe* à partir d’une analyse fonctionnelle du
+système, ce qui permet ensuite de le catégoriser selon les critères de la [PSSIM], puis de le
+segmenter en zones de sécurité si cela s’avère nécessaire avant de déterminer la démarche
+d’homologation la plus pertinente. L’annexe 4 décrit sous forme de logigramme la démarche
+idéale du processus de l’analyse fonctionnelle à l’homologation du SI.
+1. Analyse fonctionnelle
+L’analyse fonctionnelle du système consiste à rechercher, à caractériser et à hiérarchiser les
+fonctions remplies par le système pour répondre aux besoins exprimés par l’autorité bénéficiaire.
+L’analyse fonctionnelle est le support à partir duquel il est possible de mener une analyse de
+risques. Il s’agit d’établir les fonctions assurées par le système industriel afin d’identifier les
+risques auxquels elles sont associées. Chacune des fonctions est alors associée à une classe*.
+2. Attribution de classe*
+Facteurs déterminant un niveau de classe
+2.1. Généralités
+L’attribution de classe* consiste à attribuer pour chaque fonction du système un niveau de risque
+puis à retenir le niveau de classe maximal attribué aux fonctions comme niveau de classe du
+système.
+Le niveau de risques est déterminé à partir de :
+- la gravité des impacts sur les activités auxquelles la fonction concourt en cas
+d’événements redoutés ;
+DIR-39 SNSI – 2eme édition Page 30 | 79

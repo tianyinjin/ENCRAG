@@ -1,0 +1,35 @@
+POLE D'EXCELLENCE CYBER
+........................................
+FICHE N°8
+STOCKAGE DES DONNÉES
+Les collectivités sont tenues à l'obligation légale d’assurer la sécurité des données qu’elles détiennent. Sécuriser les moyens de
+stockage des données qu’elles utilisent, qu’ils soient internes ou externes, permet de minimiser le risque de perte ou de vol,
+de divulgation non autorisée, de corruption ou encore d’une destruction accidentelle des données. C’est un domaine qui revêt
+une importance cruciale pour les collectivités car la majorité des violations de données sont causées par une défaillance de la
+sécurité de ces stockages.
+Stockage en interne
+Un serveur local de stockage de données en réseau, appelé Network Attached Storage (NAS), permet de stocker et de partager des
+données avec d'autres ordinateurs de votre réseau local. Un NAS est pourvu d'un système de refroidissement, d'un processeur, de
+mémoire vive et d'un système de gestion des données. Ainsi un NAS est plus robuste et performant qu'un simple disque dur externe.
+Les serveurs NAS sont faciles d'utilisation et leur mise en œuvre reste relativement simple. Toutefois, il faut savoir que cet équipement
+peut être vulnérable. Un ordinateur infecté par un rançongiciel qui se connecte à votre réseau peut, par exemple, infecter le serveur et
+corrompre toutes les données qui y sont stockées. De plus, ce type d’équipement peut offrir de nombreux services supplémentaires
+activé par défaut (serveur de messagerie, serveur DHCP, VPN, etc.), ce qui augmente considérablement sa vulnérabilité.
+En complément des recommandations données dans la fiche 11 « Serveurs et locaux », voici quelques conseils relatifs aux serveurs de
+stockage :
+• Bien cerner les besoins de la collectivité R1 : les prix des serveurs NAS sont variables et les possibilités offertes d'un modèle à
+l’autre sont différentes. Avant d’investir dans un serveur de stockage, documentez-vous sur les capacités des modèles du marché.
+• Évitez la technologie RAID01 R2 : le RAID est un ensemble de techniques de stockage permettant de répartir des données sur
+plusieurs disques durs afin d'améliorer les performances, la sécurité ou la tolérance aux pannes du système. La technologie appelé
+RAID0 n’offre aucune tolérance aux pannes : une défaillance du disque dur remettrait en cause l’intégrité des données qui y sont
+stockées. Choisissez les technologies telles que RAID1, RAID5 ou RAID102 .
+• Faites des sauvegardes régulières R3 : toutes les données stockées sur un serveur NAS doivent être sauvegardées sur un support
+externe pouvant être déconnecté et qui ne sera pas stocké au même endroit que le NAS (voir la fiche 9 « Plan et stratégies de
+sauvegarde »).
+• Activez le chiffrement des données stockées R4 : le chiffrement protège les données contre les accès non autorisés, à condition
+que la clé de déchiffrement/mot de passe soit stockés en lieu sûr (voir la fiche 3 « Mots de passe »).
+1 Deux disques durs, ou plus, en parallèle, la perte d'une seule unité de stockage entraînant alors la perte de toutes les données du
+volume RAID.
+2 https://www.compufirst.com/compufirst-lab/serveur/architecture-raid-differences-des-configurations-0-1-5-10-01/main.do?app-
+TreeId=45696
+32

@@ -1,0 +1,59 @@
+15 mars 2024 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 101 sur 134
+Plus spécifiquement, cette nouvelle réglementation s’appliquera aux zones, locaux et sites entrant dans l’une des
+catégories suivantes:
+– «zone protégée» au sens des articles R. 413-1 à R. 413-5 du code pénal;
+– «zone de défense hautement sensible» au sens des articles L. 4123-12 et R. 2363-1 à R. 2363-7 du code de la
+défense.
+L’ARU permettra aux responsables desdites zones de mettre en place, à l’intention de leurs personnels, une
+solution de contrôle d’accès biométrique moyennant un engagement auprès de la CNIL de se conformer à l’ARU.
+II. – L’avis de la CNIL
+A. – Sur la finalité du traitement
+L’article 1er du projet de décret prévoit que les traitements relevant de l’ARU ne peuvent avoir pour finalité que
+le contrôle de l’accès aux zones protégées.
+Le ministère a indiqué que des mesures organisationnelles seront mises en place de manière à exclure toute
+consultation du dispositif à d’autres fins, par exemple pour le contrôle du respect des horaires des agents.
+La CNIL prend acte de ces précisions et estime que les finalités de l’ARU sont déterminées, explicites et
+légitimes.
+B. – Sur les données collectées
+L’article 4 du projet de décret prévoit que seules seront enregistrées les données des membres du personnel
+affectés à ces zones protégées et autorisés à y pénétrer.
+Ainsi, aucun enregistrement de données brutes (telles qu’une image photographique d’une personne ou une
+empreinte digitale) ou de gabarits biométriques ne sera fait des données des autres personnes qui pénètreraient dans
+ces zones, qu’elles y aient ou non été autorisées, y compris dans l’hypothèse d’un échec d’authentification.
+Les catégories des données dont l’enregistrement est prévu comprennent notamment «le gabarit de l’empreinte
+digitale et/ou de la photographie», ce qui exclut notamment la captation des flux vidéo.
+La CNIL observe tout d’abord que la mention du gabarit «de la photographie» est perfectible: en effet, le
+gabarit étant calculé sur la base du visage, il parait plus juste de mentionner ce dernier.
+En outre, elle relève qu’en l’état de sa rédaction, le projet de décret ne mentionne que les catégories des données
+qui feront l’objet d’un enregistrement durable dans le dispositif. Or, certaines catégories de données pourtant
+traitées n’y sont pas mentionnées. Tel est le cas des données brutes (empreinte digitale brute et photographie du
+visage) à partir desquelles sont calculés des gabarits, quand bien même elles sont détruites sans délai.
+La CNIL estime que le projet de décret doit être modifié en ce sens et complété de manière à lister toutes
+les catégories de données traitées, quand bien même certaines ne feraient pas l’objet d’un enregistrement
+durable.
+C. – Sur le choix des modalités de détention des gabarits
+L’article 2 du projet de décret prévoit que le gabarit peut être indifféremment enregistré dans la base de données
+ou intégré au badge d’accès biométrique de l’agent. La CNIL, si elle entend le fait qu’il est nécessaire, pour
+répondre à des contextes variés, de permettre cette souplesse dans les modalités de mise en œuvre de la biométrie,
+invite néanmoins le ministère à prendre en compte les remarques suivantes.
+Tout d’abord, le stockage en base centralisée des gabarits biométriques n’est pas la modalité la plus protectrice
+en termes de sécurité des données. En effet, l’existence d’une base centralisée rend possible une fuite de ces
+données, fuite qui peut potentiellement exposer de manière irréversible les données biométriques de toutes les
+personnes concernées.
+Ensuite, le stockage des gabarits biométriques directement sur les badges d’accès des personnes, s’il est
+accompagné d’un chiffrement adéquat des données stockées, n’expose pas à un risque excessif en cas de perte,
+dans la mesure où la lecture ou la falsification de ce gabarit est impossible. L’impact, en termes de risque, de la
+perte éventuelle d’un badge d’accès est donc le même que dans le cas d’un stockage centralisé, à ceci près qu’il ne
+porte que sur une seule personne.
+Enfin, il est compréhensible que des contraintes opérationnelles (gestion centralisée des droits, complexité et
+coût des cartes biométriques) rendent complexe la mise en œuvre de la biométrie avec gabarit sous maîtrise des
+personnes concernées comme décrit ci-dessus. Pour parer à ces difficultés, il est possible de mettre en œuvre une
+biométrie comprenant une base de données contenant les gabarits de l’ensemble des employés, mais de chiffrer ces
+données de manière à ce qu’aucune donnée ne puisse être lue ni exploitée sans l’intervention de la personne
+concernée, celle-ci conservant la clef de chiffrement sur son badge. Cette modalité permet à la fois de parer aux
+risques d’atteinte à la base centralisée et de limiter la complexité technique des badges utilisés.
+La CNIL incite donc fortement le ministère, à défaut de préciser le projet de décret, à encourager le recours à ce
+dernier type de dispositif. Si les badges actuels ne permettent pas de stocker le secret nécessaire à cette modalité, la
+CNIL invite le ministère à mettre en œuvre des travaux pour changer cet état de fait.
+Par ailleurs, elle prend acte de l’engagement du ministère de publier en même temps que le décret, un guide
+accompagnant la mise en place du processus biométrique qui recommandera aux responsables des sites concernés

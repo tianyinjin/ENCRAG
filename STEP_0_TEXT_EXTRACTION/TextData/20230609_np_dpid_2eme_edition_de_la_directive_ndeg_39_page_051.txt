@@ -1,0 +1,35 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Lorsqu’un équipement présente des risques non négligeables de perte, de vol ou
+de sabotage susceptibles de porter atteinte au système industriel, et qu'il contient
+INFO4 TECH des données a minima Diffusion Restreinte, chiffrer la mémoire de stockage. Cette R
+règle est notamment applicable sur les postes de maintenance et les équipements
+mobiles susceptibles de quitter une zone sécurisée.
+Intégrer la sécurité numérique dans le projet
+Identifier la réglementation relative aux activités auxquelles concourt le système
+ISSIP1 ORG industriel et intégrer leurs exigences dans le socle de sécurité du SI (ensemble des O
+exigences de sécurité applicables sur le système).
+Des modes dégradés pourraient être
+prévus pour réaliser des mises à jour.
+Définir des procédures et des moyens techniques pour permettre des opérations
+On pourra configurer les sorties d’un
+ISSIP2 ORG de maintenance préventive et curative et ainsi maintenir le niveau de sécurité dans O
+automate* pour qu’elles restent sur leurs
+la durée.
+derniers états, pendant la mise à jour de
+son firmware.
+Prendre en compte le besoin de sécurité physique des équipements pour définir
+ISSIP3 ORG R O O
+leur localisation et les moyens de protection physique.
+Exiger que les opérations non indispensables à la conduite du système industriel
+soient effectuées sur un autre système d’information. Les équipements et logiciels
+associés ne devraient pas être présents sur le système industriel. À titre
+ISSIP4 ORG R
+d’exemple, des postes bureautiques non connectés au système industriel
+devraient être prévus pour permettre la consultation de la documentation, le
+remplissage de feuilles de suivi, etc.
+Insérer dans le cahier des charges la liste des documents attendus, au moins :
+- une analyse fonctionnelle ou organique ;
+ISSIP5 ORG - un dossier d’exploitation et de maintenance ; O
+- une ou des cartographies adaptées à la complexité du système et aux enjeux de
+sécurité.
+DIR-39 SNSI – 2eme édition Page 51 | 79

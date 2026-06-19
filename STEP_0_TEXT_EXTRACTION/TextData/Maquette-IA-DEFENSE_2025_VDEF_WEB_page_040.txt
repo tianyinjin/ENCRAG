@@ -1,0 +1,54 @@
+40 Pôle d’excellence cyber
+L’IA de confiance pour la défense :
+de la conception à l’évaluation
+Sébastien HENWOOD Dominique CHAUVEAU
+Expert IA, PhD Manager partenariats et référent
+AMIAD cyber
+AMIAD
+L’IA de confiance, quels enjeux de spécification, conception et évaluation
+L’Agence Ministérielle pour l’Intelligence Artificielle de sont à adapter à la nature évolutive de l’IA.
+Défense (AMIAD) établie courant 2024 introduit une
+capacité en IA au ministère des Armées. Dans la logique Par ailleurs, on peut constater que les outils et méthodes
+historique d’équiper nos forces armées de matériels sûrs permettant de mesurer la confiance en un système d’IA
+pour les utilisateurs et sécuritaires pour les infrastructures, concentrent les efforts d’une frange conséquente de
+l’IA de confiance apparaît comme un objectif évident. l’industrie et du domaine académique. En témoignent
+les nombreuses initiatives visant à établir une hygiène
+Si la révolution du numérique du début du siècle du développement de l’IA et les risques à anticiper
+a pu bousculer les processus de conception usuels : AI Act, Confiance.AI, DEEL, etc. Les organismes
+de matériels défense, les IA de type apprentissage normatifs comme l’ISO proposent des normes[1][2] pour
+automatique apportent un lot d’enjeux venant à le domaine de l’IA et certains domaines industriels se
+nouveau perturber les cycles de conception habituels. dotent aussi de normes appropriées à leurs spécificités.
+En particulier, les performances d’un modèle d’IA sont
+Concevoir de l’IA de confiance
+directement dépendantes de la quantité et de la qualité
+On constate ainsi que le domaine de l’IA de confiance
+des données disponibles lors d’une phase d’entraînement.
+cristallise l’intérêt de nombreux acteurs en France
+et à l’international. En particulier, on remarque
+Toutefois, ces données sont généralement acquises
+que la prise en compte de cette problématique et
+de manière incrémentale voire même en permanence
+l’anticipation des questions relatives à l’évaluation des
+: il convient alors d’itérer rapidement sur de
+briques d’IA se doit de faire partie intégrante, au fur
+nouvelles versions d’un modèle d’IA, meilleur - ou
+et à mesure des différentes étapes - potentiellement
+plus adapté à un nouveau contexte d’emploi - que
+itératives - du processus de conception d’un système,
+son prédécesseur. Dans ce scénario, l’évaluation du
+dès lors qu’il intègre des fonctions adressées par
+caractère de confiance n’est pas circonscrite à une
+de l’IA. Sur la base des éléments observés dans les
+phase de développement en amont de l’usage par les
+travaux relatifs à l’IA de confiance, nous identifions au
+forces d’un système embarquant une composante
+minimum quatre caractéristiques essentielles d’un
+d’IA, mais s’étend dans tout le cycle de vie de l’IA.
+processus à même de produire de l’IA de confiance :
+Chercher à se soustraire à cette facette itérative
+• Multi-compétences : le processus doit aborder
+de l’IA serait risquer un retard de phase sur une approche pluridisciplinaire de conception
+d’importantes évolutions techniques ce qui induit de l’IA de défense. Les champs d’expertise
+des risques pour l’accomplissement des missions doivent y échanger sur les aspects techniques
+permettant d’aboutir à une IA performante et de
+régaliennes. En conséquence, tous les processus

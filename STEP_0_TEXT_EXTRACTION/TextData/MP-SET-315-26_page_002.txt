@@ -1,0 +1,45 @@
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+targets, and (iv) tracking and neutralization of the invading drones, combining ground and embedded
+sensors. During a mission, the airspace is divided into specific zones. First, a delimited protected area where
+any unauthorized drone activity is strictly forbidden. Secondly, a buffer area where any intrusion triggers a
+reaction from our system, allowing for a coordinated response before reaching the protected area.
+Our research contributes to the advancement of security measures against the escalating drone threats by
+providing a comprehensive, adaptable and scalable solution enabling collaborative autonomy thanks to
+relevant technologies and procedures. By combining our new components and existing system, we aim to
+mitigate risks and safeguard restricted areas against unauthorized drone activities. Developed in
+collaboration with subject matter experts, the research contributes to the advancement of counter-UAV
+technologies within the NATO S&T community.
+1.0 INTRODUCTION
+Driven by rapid technological advancements and widespread accessibility, drones now represent a
+significant security concern, especially in restricted zones. The need to counter unauthorized drone
+operations is more prominent than ever. In this paper, we present an innovative end-to-end system that
+employs a defensive swarm of autonomous unmanned aerial vehicles (UAV) to effectively neutralize a
+swarm of invading drones. The main sectors affected by drone incidents between December 2018 and March
+2020 were airports, private property, law enforcement, first responders and prisons [1].
+1.1 Background on Drone Usage and Security Challenges
+Several academic and technical efforts have been directed towards the creation of C-UAV systems. In a
+recent work [2], 537 C-UAV products have been identified. From such, only 138 encompasses detection and
+interdiction processes. From this number, only 3 of them have the capability of using a net as neutralization
+means combined with detection capabilities. Nevertheless, the detection is carried out by ground systems
+(e.g., radar) and not by a combination of ground and sky systems, such as we propose in our solution for an
+effective localization and tracking of intruders. In addition, there is not a product in this review that uses
+swarming as neutralization means as part of an end-to-end system from detection up to neutralization. Last,
+the inclusion of AI algorithms for real-world applications is very recent and seldom deployed.
+There is a growing number of incidents by drone misuse [1]. Countering manually or with a single
+interdiction mean is not effective. Operating multiple drones to increase the chances of successful
+neutralization can potentially overwhelm operators. It is important to note that managing multiple drones to
+counter a single intruding drone is not a trivial task, not to mention the financial implications of training
+multiple operators and the operational costs themselves. Countering a swarm of drones is an even more
+complex operation, specifically due to drone coordination challenges.
+1.2 Objective of the Research and the BlueSwarm System
+This research aims at designing, developing, implementing and evaluating an innovative C-UAV system
+called BlueSwarm that can handle detection, tracking and neutralization of intruding swarms, leveraging a
+fleet of collaborative autonomous drones, for real world applications. Primarily, the system is devised to
+detect potential threats within a specified “buffer zone”, before they reach a “protected zone”. The system
+uniquely identifies and localizes the detected threats. Any tracked entity classified as intruder triggers a
+response from the defensive swarm for tracking purposes. If an intruder is detected and assigned for tracking
+by one or more agents of the swarm, an autonomous sensing control is initiated. The system then transitions
+to the neutralization phase when the defensive swarm’s positioning aligns with the neutralization criteria, and
+hence, proceeds to safe neutralization.
+2 STO-MP-SET-315-26

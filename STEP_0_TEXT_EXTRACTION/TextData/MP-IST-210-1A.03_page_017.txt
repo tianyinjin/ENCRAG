@@ -1,0 +1,39 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+System-to-Target Fit Drone Size Small (l x w x h < 2m3), Medium (l x w x h < 10m3)
+Drone Quantity Single, Multiple
+Sensor Behavior Image Noise Low, High
+Environmental Ambient Light Bright, Dark
+Robustness
+Backdrop Sky, Urban, Foliage
+The possible values each category can take in Table 3 are arbitrarily defined within this hypothetical scenario
+but should be adapted to the possible range of operational conditions in the desired deployment environment
+when this framework is employed in a real-world scenario. If we were to examine the robustness of the CV
+system under test individually under each parameter, and only produce results for each row, we may be
+unable to pick up possible blind spots on images containing more than one parameter of interest, e.g. images
+containing multiple small drones with high noise and dark ambient light. However, if we were to use every
+possible combination of parameters in testing, we would end up with a very large set of test cases which
+would be unlikely to be fulfilled by our collected dataset, and computationally prohibitive to generate
+otherwise. Hence, to simplify the resulting conversion of the above eleven test levels for the 5 parameters
+into test cases, we use pairwise subsets of the parameters, e.g. image noise vs. ambient light, to derive user
+friendly test tables. All possible parameter combinations would lead here to prod_{k = 1}^{d} n_d
+combinations, here 3* 2^4 = 48.
+We further assess that for some of the combinations involving medium drones, this is likely to be less of a
+concern given our scenario parameters as we are generally aware that medium-sized drones would likely
+tend to operate at a higher altitude and be used in medium-range strikes, unlike small hunter-killer FPV
+drones which might heavily utilize terrain masking to camouflage their movements. This is a frequently
+occurring problem, that not all theoretical possible combinations of the parameters are practically relevant
+and is handled by introducing constraints to the space of all parameter combinations. Hence, we drop the
+following combinations from consideration with the below considerations:
+Tuple Consideration for Exclusion from Test Case
+(Medium, Multiple) The evacuated city in our hypothetical scenario is not assessed to be
+likely to be significant enough to be targeted by large swarms of enemy
+medium-sized drones or loitering munitions.
+(Medium, Urban) Medium-sized drones would likely have higher operating altitudes in a
+strike mission, and the field-of-view coverage of our hypothetical
+sensor setup would not provide instances in which medium drones
+(Medium, Foliage)
+would be against urban or foliage scenery.
+Dropping combinations involving the above factors from consideration produces the following combinatorial
+coverage table of 27 combinations (Table 4). In order to provide some reasoning around reasonable sample
+STO-MP-IST-210 1A.03 - 17

@@ -1,0 +1,37 @@
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability
+This standard addresses the applicability of commercial digital video standards and defines the metadata
+requirements for airborne motion imagery collection. The standard specifies the commercial standards to be
+used for the military community within NATO. In addition, careful consideration was taken to define the
+relationship between the motion imagery standard and STANAG 7023 and STANAG 4545 [12].
+The military-unique metadata considerations for motion imagery were analysed and included in the standard
+[12].
+3.5 STANAG 7023: Air Reconnaissance Primary Imagery Data Standard
+STANAG 7023 establishes a standard data format and a standard transport architecture for the transfer of
+reconnaissance imagery and associated auxiliary data between reconnaissance Collection Systems and
+Exploitation Systems [13].
+NATO STANAG 7023 is not a communications protocol. NATO STANAG 7023 works in conjunction with
+other NATO STANAGs 7085, 7024, 4575, 4545, 4559, 4607, 4609 and 3377 to complete the interface
+between the Collection System and the Exploitation System [13].
+The following list of top level design aims for NATO STANAG 7023 establishes a basis for the design [13]:
+• promote interoperability;
+• handle primary imagery;
+• handle mission/intelligence data;
+• work in real time;
+• minimise platform processing;
+• assume exploitation of imagery has no prior knowledge of source;
+• image format does not handicap sensor performance;
+• digital and analogue versions;
+• layered/modular architecture;
+• end-to-end protocol;
+• self-describing sensor data format;
+• addressable data files;
+• multi-sensor/multispectral;
+• hardware independent;
+• expandable.
+NATO STANAG 7023 is a self-describing format. The auxiliary data defines the format of the image data.
+This enables NATO STANAG 7023 to handle any image from any type of sensor [13].
+3.6 STANAG 7024: Air Reconnaissance Tape Recorder Interface
+Reconnaissance systems have been film based. Now in the era of electo-optical digital (EO), radar
+reconnaissance sensors and exploitation technology, common/standardised data exchange formats are
+necessary to assure interoperability between a multiplicity of sensor and exploitation systems [14].
+STO-EN-SCI-271 3 - 11

@@ -1,0 +1,86 @@
+International Journal of Computer Applications (0975 – 8887)
+Volume 135 – No.7, February 2016
+Dangerous Gas Detection using an Integrated Circuit
+and MQ-9
+Falohun A.S. Oke A.O. Abolaji B.M., Oladejo
+Dept. of Computer Sc. & Eng. Dept. of Computer Sc. & Eng. O.E.
+Ladoke Akintola Univ. of Tech. Ladoke Akintola Univ.of Tech. Dept. of Computer Sc. & Eng.
+Ladoke Akintola Univ.of Tech.
+ABSTRACT alarm systems. Dr. Guylène Proulx in [6] discussed three
+reasons why occupants may ignore the alarm signal as:
+Natural gas is an odourless one which consists of compounds
+made of two elements: carbon and hydrogen called
+ Failure to recognize the signal as a fire alarm.
+hydrocarbons. Sometimes, due to an accident or if the valve is
+ Loss of confidence in the system because of
+not properly closed, the gas leaks. This system is aimed at
+nuisance alarms, or,
+detecting the leakage and sounding an alert so that occupants
+in the building can maintain optimal ventilation and turn off  Failure to hear the signal if there is other source of
+all electrical appliances or evacuate the vicinity until a redress
+sound apart from the alarm system or the resident is
+is made.
+partly with deafness disability.
+An MQ-9 chemical sensor coupled with an Integrated Circuit
+Therefore, a gas detector with audible/visual alarm presented
+was used to build the system and on testing, the system gave
+herein tends to solve these identified problems through the
+adequate visual information, audible and timely alert on
+design and construction of a low-cost, easy to construct gas
+detecting a gas leakage.
+detection system via gas sensor. Figure 1 gave a hint on the
+alarm system built around a Timer which is easy to work with,
+General Terms
+affordable and easy to design and construct, instead of a
+Security, Safety, Signal, Gas, Casing.
+Microcontroller.
+Keywords
+Sensor, Buzzer, Embedded, Soldering, Alarm. GAS AUDIO ALERT
+TIMER
+1. INTRODUCTION
+SENSOR UNIT
+In this fast developing society, electronics has come to stay as
+the most important branch of Engineering. Electronic devices VISUAL ALERT
+are being used in almost all industries for quality control and UNIT
+automation and they are fast replacing the present vast army
+Figure 1: Block diagram of the user-interactive fire alarm
+of workers engaged in processing and assembling in the
+system.
+factories. These devices supplement the human ability to
+sense, monitor, calculate, observe, and control. [8] 2. LITERATURE REVIEW
+An uncontrolled combination of fuel with oxygen releases 2.1 Gas Alarm Systems
+heat and any unintended contact with a spark can cause An automatic gas alarm system is designed to detect the
+burning. Automatic gas detecting systems are intended to unwanted presence of fire by monitoring environmental
+notify the building occupants to evacuate in the event of the changes associated with combustion. [2]
+gas leakage or other emergency, report the event to an off-
+premises location in order to summon emergency services, In general, a fire alarm system is classified as either
+and to prepare the structure and associated systems to control automatically actuated, manually actuated, or both. [5].
+the spread of gas and fire. [3] Automatic fire alarm systems are intended to notify the
+building occupants to evacuate in the event of a fire or other
+This work is about the design and construction of a gas emergency, report the event to an off-premises location in
+detector with audible alarm. This gas detector with audible order to summon emergency services, and to prepare the
+alarm is designed with the intention to ensure that the event of structure and associated systems to control the spread of fire.
+gas is intelligently detected, promptly notified and
+interactively managed than what is obtainable with 2.2 Parts of a Fire Alarm System
+conventional ``ring-ring´´ fire alarm systems. Primary Power supply: Commonly the non-switched 120 or
+240 Volt Alternating Current source supplied from a
+„Jet Age‟ is what the age is called as the growing desire of
+commercial power utility. In non-residential applications, a
+human, is that things are done in the twinkle of an eye (i.e.
+branch circuit is dedicated to the fire alarm system and its
+food get cooked in a minute, uninterrupted power supply, fast
+constituents. "Dedicated branch circuits" should not be
+transportation of people and loads, fast access to knowledge
+confused with "Individual branch circuits" which supply
+base (Internet), Internet banking, social media
+energy to a single appliance.
+communication, online classes). And these have led to breath-
+taking inventions to cater for these desires. One of such is the
+Secondary (backup) Power supplies: This component,
+gas-cooker, whose work is of great benefit. It is observed that
+commonly consisting of sealed lead-acid storage batteries or
+the destruction caused by fire due to gas leakage is quite
+other emergency sources including generators, is used to
+alarming and building occupants are slow in responding to
+supply energy in the event of a primary power failure.
+30

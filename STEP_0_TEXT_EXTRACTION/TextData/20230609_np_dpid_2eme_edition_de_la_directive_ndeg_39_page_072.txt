@@ -1,0 +1,35 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+inclus dans une zone de classe 3. L’ensemble des mesures de classe 3 doivent
+leur être appliquées.
+Mettre en place des solutions de télédiagnostic* sous réserve d’appliquer les
+règles suivantes :
+MAINT1 N
+TECH - la connexion distante ne s’effectue que sur un serveur cloisonné ; C O
+9 A
+- les données nécessaires au télédiagnostic sont poussées sur ce serveur au
+travers d’une diode labellisée.
+MAINT2 ORGT En cas d’opérations de télégestion*, télémaintenance* ou télédiagnostic*, contrôler
+O
+0 ECH les travaux réalisés.
+Dans le cas d’un système industriel classifié ou portant une mention spécifique
+MAINT2
+TECH (Spécial France, Diffusion Restreinte), utiliser une passerelle homologuée pour O
+1
+réaliser des actions de télémaintenance*, de télégestion* ou de télédiagnostic*.
+Garantir le maintien en condition de sécurité
+Définir une stratégie de maintien en condition de sécurité (MCS) à partir de la
+MCS1 ORG directive 47 de la DGNUM ou d’une directive portant sur le MCS et émanant des O Voir Directive 47 portant sur le MCS
+EMDS.
+Assurer une continuité contractuelle dans le maintien en condition de sécurité
+(MCS) des systèmes industriels. Le cas échant, les ruptures doivent être identifiés
+MCS2 ORG O
+et donner lieu à une plus grande vigilance, voire à des mesures palliatives et
+défensives supplémentaires.
+Garantir la connaissance du système
+Établir une cartographie physique et logique du système industriel. Le niveau de
+MCS3 ORG granularité des informations à fournir dépend des enjeux du système. La stratégie O
+d’homologation définit les éléments de la cartographie.
+Mettre à jour les informations insérées dans l’outil ministériel de patrimoine
+MCS4 ORG O
+applicatif (ou de l’outil de suivi de l’AQSSI).
+DIR-39 SNSI – 2eme édition Page 72 | 79

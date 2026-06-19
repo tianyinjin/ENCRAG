@@ -1,0 +1,29 @@
+Des canaux de communication* permettent de connecter les différents niveaux entre eux.
+Les systèmes industriels font l’objet de nombreuses évolutions qui intègrent des innovations liées
+à l’Internet des objets (IoT*) et aux technologies numériques (intelligence artificielle, robotique,
+informatique en nuage, Big Data, réalité augmentée, …) et qui peuvent alors remettre en cause
+cette architecture. Les composants de niveau 0 peuvent ainsi directement être connectés avec
+des composants de niveau 4.
+La sécurité numérique d’un système industriel doit être globale et se fonder sur une démarche
+de gestion de risques. Cette démarche inclut dans son analyse :
+- tous les éléments intervenant dans le processus métier (matériel, logiciel, organisation,
+personnel, formation), du capteur* jusqu’au poste de gestion des ressources (du CIM 0
+au 4), de sa conception jusqu’à son retrait de service sans oublier les opérations de
+maintenance ;
+- l’environnement dans lequel le système est déployé ;
+- les besoins de sécurité des métiers et des activités ainsi que des systèmes numériques
+qu’il supporte ;
+- les impacts d’attaques informatiques sur les métiers, les activités et les systèmes
+numériques qu’il supporte.
+Plus standardisés, les composants de niveau 4 (stations d’ingénierie* les consoles de
+programmation*, les postes de maintenance, …) ainsi que leurs connexions avec les autres
+niveaux doivent faire l’objet d’une grande attention. Ils sont à inclure dans la démarche
+d’homologation et dans l’analyse de risques. Néanmoins, leur intégration dans le périmètre
+d’homologation10 du système industriel n’est pas systématique. S’ils ne sont pas inclus dans
+l’homologation du système industriel, ils doivent nécessairement relever d’un système homologué
+ou en cours d’homologation. Les mesures génériques de sécurité portant sur tout système
+numérique doivent leur être appliquées autant que cela est possible dans une démarche de
+gestion de risque.
+10 Si les composants du niveau 4 ne sont pas inclus dans le périmètre d’homologation, ils sont
+alors considérés comme partie prenante [au sens EBIOS RM] dans l’analyse de risques.
+DIR-39 SNSI – 2eme édition Page 11 | 79

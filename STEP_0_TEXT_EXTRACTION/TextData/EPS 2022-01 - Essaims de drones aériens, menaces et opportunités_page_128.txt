@@ -1,0 +1,53 @@
+électronique, pour garantir une capacité multi-menaces. ;
+- pour un bâtiment de surface il y a un besoin de répétitivité, une forte suggestion de compatibilité
+électromagnétique309, une moindre contrainte d’énergie primaire et de volume : on retiendra
+uniquement des armes susceptibles de produire l’effet 2, dotées d’antennes planes de taille
+acceptable, intégrées à la structure ou montées sur tourelle ;
+- pour un missile de croisière destiné à produire un effet 4 à 5, les fortes contraintes d’emport
+conduiront à un générateur de petite taille et surtout à un élément rayonnant à faible
+encombrement, voire à nombre d’impulsions limité ;
+- pour un obus de gros calibre ou une « grenade », seuls les effets 4 et 5 sont visés, pour un tir
+unique ;
+- pour un drone aérien de petite taille on retiendra, soit la même approche « one shot » pour des
+effets 4 et 5, soit la recherche d’un effet 2 renouvelable, en proximité immédiate de la cible visée.
+Le paragraphe suivant liste quelques réalisations emblématiques.
+ORDRES DE GRANDEUR, CONTRAINTES
+o
+ASSOCIEES, EXEMPLES
+POUR DES EFFETS DE NIVEAU 3 A 5
+▪
+La densité surfacique de puissance, S, s’établit de la manière suivante :
+𝐸² 𝑃𝑒×𝐺𝑒 𝐸 µ
+𝑆 = = avec 𝑍= = √ où µ est la perméabilité magnétique
+𝑍 4𝜋𝐷² 𝐻 𝜀
+ɛ
+et est la permittivité diélectrique
+Pour une attaque Front Door, où l’agression a lieu par les antennes et l’objectif consiste à détruire les
+étages d’entrée, la saturation par agression permanente n’est pas envisageable. La saturation de la
+chaîne pendant la durée de l’impulsion (maximum 1 µs toute les ms) va nécessiter un temps de
+récupération pour la réception, cependant celui-ci reste très faible (typiquement 1 µs) devant la période
+309 Sur un navire, au vu de l’état de l’art, il est envisageable d’obtenir, par exemple, une isolation de
+80 dB (ce chiffre correspond à deux antennes qui se regarderaient dans les lobes diffus à 100 m de
+distance, sans écran de protection ni diffraction sur des arêtes (un masque ou bouclier permet de
+gagner 15 à 20 dB environ) ; à ce chiffre, très grossier, il faut ajouter la présence d'ondes dite
+rampantes et des trajets multiples très complexes (exemple réflexions sur une antenne tournante,
+sur l'hélicoptère en plage arrière, ...). En conséquence, à première vue, une émission HPM de 1 GW,
+soit 90 dBW, n’inflige alors que 10W maximum à l’autre antenne (valeur acceptable pour des
+antennes RESM : en effet, une impulsion allant de 100 ns à 1 µs ne détruit pas les diodes de
+protections, qui protègent à environ 1 kW (sous réserve, bien sûr, que toutes les antennes soient
+protégées par des diodes ou des éclateurs (à noter que les nouveaux radars AESA (à modules état
+solide AsGa, Gan ou Si) n'ont pas de diode de protection (pertes d'insertion trop importante,...), et,
+donc, les niveaux maximaux admissibles en entrée sont beaucoup plus faibles)). L'impulsion HPM
+étant très courte, le taux de désensibilisation est quasi nul (le blanking devrait être de l'ordre 1 µs
+par ms, en considérant le temps pour désensibiliser les chaînes). On pourrait presque considérer la
+comptabilité électromagnétique comme atteinte. En pratique, elle ne serait que très difficilement
+modélisable en phase de conception, une telle puissance d’un GW n'ayant jamais été approchée sur
+un navire. Il faudrait faire une étude de compatibilité très complexe sur la base d'un modèle de CAO
+du navire (notamment pour prendre en compte les ondes rampantes et les multi-trajets mais aussi
+les différentes configurations (hangar hélicoptère ouvert/fermé etc…). Une telle modélisation est très
+compliquée et n’est maîtrisée que par de très rares entreprises ; elle s’étalerait sur des années. Il
+faut en effet résoudre les équations avec une amplitude de chiffres de 120 dB entre les puissances
+émises et celles reçues par les autres antennes ; 120 dB, soit 12 zéros après la virgule et ce pour de
+multiples configurations. Les résultats, difficilement modélisés, ne pourraient être validés qu’in situ.
+La prise de risque devient alors très importante et l’incertitude domine.
+128

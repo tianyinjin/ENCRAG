@@ -1,0 +1,41 @@
+POLE D'EXCELLENCE CYBER
+........................................
+FICHE N°2
+LE POSTE DE TRAVAIL
+Le poste de travail constitue le vecteur d'accès aux traitements et par la même aux données utilisées par les traitements qui
+constituent le capital immatériel des systèmes d'information. Sa protection est un élément majeur de la cybersécurité. Un poste
+de travail non sécurisé est une porte ouverte qui rend illusoire la sécurisation de tout autre élément des architectures des SI.
+Microsoft Windows vous permet de créer deux types de comptes utilisateurs : « compte administrateur » et « compte utilisateur standard
+». Lorsque vous démarrez votre ordinateur pour la première fois, ou que vous réinstallez votre système, un compte administrateur se
+crée automatiquement. Quelle que soit votre système d’exploitation, la première chose à faire pour sécuriser votre ordinateur est de
+créer un compte avec des droits limités R1 . C’est ce compte que vous devez utiliser pour des tâches quotidiennes. Les comptes
+standards (voir le tutoriel « Créer un compte utilisateur standard ») peuvent utiliser la plupart des logiciels et modifier les paramètres
+du système sans toutefois affecter la sécurité de votre ordinateur, ni les sessions des autres utilisateurs.
+Microsoft Windows vous propose de travailler sur le « compte Microsoft » lié à votre identifiant Microsoft, qui est souvent constitué de
+votre prénom suivi de votre nom, qui vous identifie donc facilement, cela vous permet, entre autres, de sauvegarder tout vos travaux
+sur le Cloud de Microsoft (OneDrive). En utilisant ce service, certains paramètres de votre ordinateur, y compris vos mots de passe,
+seront stockés sur les serveurs appartenant à Microsoft. En outre, ce type de compte est connecté aux nombreux services Microsoft
+qui collectent et envoient vos données personnelles à Microsoft, ses filiales et ses partenaires. Heureusement il est possible de
+créer un « compte local » qui vous permet de ne travailler que sur le(s) disque(s) dur(s) de votre machine sans partager vos données
+sensibles avec cette entreprise privée étrangère. Pour des raisons évidentes de confidentialité, nous vous recommandons de ne vous
+connecter qu’à l’aide d’un compte local, donc de ne pas vous connecter à votre système à l’aide de votre compte Microsoft R2
+(voir le tutoriel « Se connecter à Windows 10 avec un compte local »).
+Pour les collectivités qui ont un administrateur pour leur SI et leur infrastructures, qui gère les comptes des utilisateurs à l’aide d’un
+annuaire, tel Active Directory (AD) pour Microsoft Windows, la sécurisation des annuaires, ainsi que la vérification régulière du
+niveau de leur sécurité est primordiale R3 . En effet, les annuaires contiennent les informations d’identification des utilisateurs, ils
+constituent donc des cibles privilégiées pour des personnes malveillantes.
+Pour sécuriser l’AD, l'administrateur système et réseaux et/ou les personnes en charge de la sécurité des systèmes d’information
+peuvent se référer aux documents ou services suivants :
+- « Recommandations relatives à l'administration sécurisée des systèmes d'information reposant sur Microsoft Active Directory1 »
+publié par l’ANSSI ;
+- « Points de contrôle Active Directory2 » publié par le CERT-FR, qui liste des recommandations et permettent le durcissement de l’AD;
+- Le service ADS (Active Directory Security3) développé par l’ANSSI, qui met à disposition des opérateurs règlementés et de la sphère
+publique une capacité d’audit des annuaires AD visant à les éclairer sur le niveau de sécurité de leur annuaire et à les accompagner
+dans son durcissement par l’application progressive de mesures adéquates, avec un suivi dans le temps.
+Notons enfin que le poste de travail de l'administrateur doit être bien protégé et doit faire l'objet d'une surveillance toute
+particulière.
+1 https://cyber.gouv.fr/sites/default/files/document/anssi-guide-admin_securisee_si_ad_v1-0%20%283%29.pdf
+2 https://www.cert.ssi.gouv.fr/uploads/guide-ad.html
+3 https://www.ssi.gouv.fr/actualite/le-service-active-directory-security-ads-accompagner-la-securisation-des-annuaires-active-directo-
+ry-des-acteurs-critiques/
+16

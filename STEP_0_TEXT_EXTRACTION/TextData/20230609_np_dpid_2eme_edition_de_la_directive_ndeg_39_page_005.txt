@@ -1,0 +1,46 @@
+1. PRÉSENTATION GÉNÉRALE
+1.1. Enjeux de sécurité
+Comme tous systèmes numériques, les systèmes industriels sont exposés à des risques de
+source accidentelle ou intentionnelle qui peuvent porter atteinte aux activités et aux missions du
+ministère, ses personnels et ses infrastructures. Les risques de fuite d’informations ne sont pas
+non plus négligeables.
+Les systèmes industriels concourent aussi au fonctionnement et à la sécurité des systèmes
+d’information. Leur indisponibilité et leur compromission peuvent avoir de graves impacts sur ces
+derniers. C’est pourquoi leur identification, leur localisation ainsi que leur niveau de sécurité
+numérique intéressent aussi les autorités d’homologation (AH) des systèmes d’information.
+1.2. Sécurité numérique des systèmes industriels
+La sécurité numérique des systèmes industriels est l’ensemble des activités visant à atteindre et
+maintenir un état de cyber-sécurité des systèmes industriels, présentant le meilleur compromis
+entre risques et efficience. Elle consiste à identifier et évaluer les risques puis à les réduire à un
+niveau jugé acceptable par des mesures de sécurité adaptées aux systèmes et à leur
+environnement. Comme pour tous les systèmes numériques, ce niveau de sécurité doit être
+maintenu tout au long de leur cycle de vie. Les systèmes industriels font donc l’objet d’une
+démarche d’homologation et d’une démarche de maintien en condition de sécurité (MCS). Ces
+démarches doivent prendre en compte leur forte diversité et leurs spécificités tant au niveau de
+leur réalisation et de leur exploitation qu’au niveau de leur organisation et des acteurs impliqués
+ainsi que leur environnement, les métiers qu’ils soutiennent et les activités auxquelles ils
+concourent.
+L’objectif de la présente directive est de s’assurer de la prise en compte de la sécurité numérique
+dans les systèmes industriels par la mise en œuvre d’une méthodologie qui leur est spécifique
+et de définir des mesures de sécurité adaptées à leurs enjeux de sécurité et aux risques
+auxquels ils sont exposés.
+À partir d’une analyse fonctionnelle et d’une analyse de risques succincte portée sur ses
+principales fonctionnalités, un système industriel peut être segmenté en plusieurs zones de
+sécurité auxquelles il est attribué une classe*, c’est-à-dire un niveau de sécurité. Les mesures de
+sécurité à appliquer sur les ressources du système dépendent ainsi du niveau de classe* de la
+zone dans laquelle elles se situent. Ces mesures peuvent être complétées par celles déduites
+d’une analyse de risques plus approfondie.
+Des mesures complémentaires peuvent aussi être appliquées aux systèmes industriels en raison
+de réglementations particulières (incendie, navigabilité, etc.) qui ne relèvent pas de la sécurité
+numérique et dont l’application est nécessaire pour autoriser leur utilisation. Les mesures de
+sécurité ne peuvent aller à l’encontre de ces obligations réglementaires sans lesquelles ces
+systèmes ne peuvent être mis en service.
+La présente directive peut être déclinée par les entités du ministère qui souhaitent préciser leur
+organisation interne et les éventuelles spécificités de leur secteur d’activité.
+1.3. Champ et modalités d'application
+La présente directive précise les exigences relatives aux spécificités des systèmes industriels et
+s’appuie sur les guides de recommandations de l’ANSSI et les standards en vigueur.
+La directive s’adresse à tous les acteurs participant à la spécification, à la conception, à la
+réalisation et à l’utilisation des systèmes industriels, en particulier les personnes en charge des
+projets, les responsables d’opérations d’infrastructures incluant tout ou partie de ces systèmes
+DIR-39 SNSI – 2eme édition Page 5 | 79

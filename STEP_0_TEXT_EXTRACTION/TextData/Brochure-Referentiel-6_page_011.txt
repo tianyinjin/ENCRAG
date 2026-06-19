@@ -1,0 +1,62 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+les environnements de conception sécurisés doivent garantir l’intégrité des codes • L’importance de briques de base sans lesquelles la confiance ne peut
+générés (par exemple en s’assurant que les bibliothèques sont bien issues d’une être établie (voir le chapitre b.1.2.2 ci-après) :
+source sûre…) et offrir des outils pour limiter le risque d’erreurs de codage. - langages sécurisés, règles de programmation ;
+- Compilateur « de confiance »;
+Quels que soient les méthodes ou les cycles de développement adoptés, et en
+- Machine virtuelle et OS « de confiance » ;
+particulier pour les méthodes agiles, la prise en compte des problématiques de
+sécurité est à considérer tout au long du cycle de développement, et notamment - Implémentation sûre (logiciel et matériel) ;
+sur les phases amont. - cryptographie sûre.
+• Le domaine émergent des objets communiquant renforce ce besoin
+les organisations qui évoluent vers le modèle « devOps » pour favoriser les retours
+de bases matérielles et logicielles de confiance.
+des équipes opérationnelles vers les équipes de développement, doivent aussi
+intégrer la sécurité de façon continue sur l’ensemble du cycle de vie des appli- L’importance de produits de confiance ou souverains est bien entendu critique
+cations et des infrastructures. pour cette catégorie de produits.
+les processus liés à la sécurité ne sont plus isolés et les équipes en charge de Au niveau organisationnel aussi bien que technique, l’absence de standards
+la sécurité sont bien immergées au sein de l’équipe projet pour mettre en place permettant la mise en place de chaines de confiance entre différents acteurs
+la sécurité dès le démarrage et prendre en compte les enjeux liés à l’automati- est aussi une problématique.
+sation spécifique à l’approche « DevOps ». Cette tendance a donné naissance à
+l’expression « devSecOps ».
+B.1.2.2 _Technologies
+B.1.2.2.1 _Cryptographie
+B.1.1.5 _Méthodes formelles
+la cryptographie est une des bases de la cybersécurité. Il est indispensable
+les méthodes formelles (au sens large) sont, d’un point de vue haut niveau, des
+de maîtriser les algorithmes de chiffrement, de signature, d’authentification…
+techniques basées sur des fondements mathématiques permettant de repré-
+mais aussi les protocoles associés et bien entendu tous les services nécessaires
+senter une « problématique » et/ou une « solution » sous une forme clairement
+à la génération, à la distribution et au stockage sécurisé des clés.
+définie et non-ambiguë, puis au besoin de raisonner avec justesse (et de façon
+plus ou moins automatique) pour vérifier la satisfaction de la problématique par
+la solution. les méthodes formelles peuvent être par exemple utilisées pour obtenir
+une preuve formelle de sécurité à partir d’un modèle, vérifier la cohérence d’un
+modèle par rapport à son implémentation, générer automatiquement du code
+ou des tests à partir d’un modèle…
+Il existe un très large spectre d’utilisation et de nombreux travaux de recherche et
+d’industrialisation sont nécessaires pour disposer de méthodes et d’outils acces-
+sibles au plus grand nombre et qui apportent un maximum d’automatisation.
+B.1.2 _Produits et technologies de sécurité
+B.1.2.1 _Produits
+la thématique des produits de sécurité est très vaste. Elle englobe les produits
+de chiffrement (réseau, téléphonie, messagerie, poste de travail…), les produits de
+contrôle d’accès et d’authentification (Gestion des Identités et des Accès (GIA), ce domaine fait l’objet de nombreux travaux académiques et de nombreux
+annuaires, certificats…), les produits de filtrage (pare-feu, diodes…), les anti-virus, verrous restent à lever, comme par exemple :
+les systèmes d’exploitation et composants de confiance et bien d’autres encore.
+• La cryptographie à très haut débit ;
+Quelques éléments peuvent être particulièrement mis en avant : • La cryptographie à bas coût énergétique pour les objets connectés ;
+• L’importance des besoins liés à la confiance numérique : gestion des identités, • La cryptographie adaptée au cloud et au travail collaboratif ;
+de l’anonymat, de la résilience. Il s’agit notamment de la protection de la vie
+• La gestion de clés pour des systèmes comportant des millions d’utilisateurs ;
+personnelle et des données privées ;
+• L’intégrité et l’authenticité dans des systèmes purement logiciels ;
+• L’adaptation des technologies de sécurité (cryptographie, identification…)
+• La cryptographie post-quantique ;
+aux architectures de type cloud ;
+• Les technologies de type blockchain ;
+• La capacité de construire une informatique de confiance par assemblage de
+protections aux différents niveaux : matériel, logiciel applicatif, systèmes d’ex- • La cryptographie homomorphe ;
+ploitation, réseau, poste de travail, serveur, cloud… • …
+20 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 21

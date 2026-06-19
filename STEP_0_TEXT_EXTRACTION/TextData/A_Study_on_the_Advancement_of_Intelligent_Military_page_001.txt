@@ -1,0 +1,67 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+Dateofpublicationxxxx00,0000,dateofcurrentversionxxxx00,0000.
+DigitalObjectIdentifier00.0000/ACCESS.2023.0000000
+A Study on the Advancement of Intelligent
+Military Drones: Focusing on Reconnaissance
+Operations
+MINHOLEE1,MINWOOCHOI1,TAEHOONYANG2,JINGUKIM3,JAEOHKIM2,OJEONGKWON4,
+NAMSUKCHO1
+1DepartmentofOperationResearch,KoreaNationalDefenseUniversity,Nonsan33021,SouthKorea
+2DepartmentofDataScience,InhaUniversity,Incheon22212,SouthKorea
+3DefenceR&DInstitute,Poongsan,Daejeon34027,SouthKorea
+4DepartmentofIndustrialEngineering,KoreaAdvancedInstituteofScienceandTechnology,Daejeon34141,SouthKorea
+Correspondingauthor:NamsukCho(e-mail:ncho64@gmail.com)
+ThisresearchwasconductedwiththesupportofthePoongsan-KAISTFutureTechnologyResearchCenter
+ABSTRACT Droneshavebecomeintegralinmodernwarfare,andtheirevolutiontowardsgreaterautonomy
+is inevitable. This study explores the trajectory towards intelligent, minimally human-dependent military
+drones,detailingthenecessarytechnologicaladvancements.Wesimulatedronereconnaissanceoperationsto
+identifyandanalyzeemergentchallenges.Thisstudydelvesintovarioustechnologiescriticalforenhancing
+droneintelligence,withafocusonreinforcementlearningbasedonobjectdetection,andpresentspractical
+implementationexamplestoillustratetheseadvancements.Ourfindingsconfirmthesignificantpotentialfor
+enhancing the intelligence of military drones, paving the way for more autonomous and effective combat
+solutions.
+INDEX TERMS Intelligent military drones, reconnaissance drone, reinforcement learning, autonomy,
+simulation,objectdetection.
+I. INTRODUCTION when Tesla is on Autopilot on an unpaved road how often
+DRONES have been recognized as essential forces adrivermustintervene.Militaryoperationsdonotoccuron
+‘‘well-paved roads.’’ Moreover, military operations involve
+through various proven instances in recent conflicts
+missions assigned in arbitrary locations. Second, countless
+such as the Russian Invasion of Ukraine and the Armenia-
+enemycounteractionsaccompanymilitaryoperations.These
+Azerbaijan War. Currently, the majority of combat-ready
+counteractions include both active and passive denial, with
+dronesareremotelycontrolled.Althoughthereissomelevel
+activedenialinvolvinginterceptionattemptsandpassivede-
+of automation in drones, operators are still required due to
+nial including concealment and deception. Such enemy ac-
+technical and ethical issues. From a tactical perspective, the
+tivitiesincreasethecomplexityoftheproblem.Third,dueto
+bestadvantagesofdronesare“lowcost”and“massdeploy-
+themilitary’suniquenessandsecurity,thereisalackofdata
+ment.” However, these two advantages only work when the
+relatedtomilitaryoperations.Forexample,thereisashortage
+drone can be controlled without operators, that is, when the
+ofaerialviewdataoftanksandTransporterErectorLaunchers
+droneisintelligent.
+(TELs), which are used targets of object detection. Fourth,
+Autonomous drones alone are not a novel concept, as
+safetyandethicalaspectsneedtobeconsideredwhenamili-
+extensiveresearchhasalreadybeenconducted.Forinstance,
+taryintelligentdroneperformsamission.Anintelligentdrone
+weliveinanerawhereunmanneddronesareusedfordeliv-
+lackingstabilityduringoperationscanresultinunpredictable
+eries and search and rescue missions [1], [2], [3]. However,
+behaviors, leading to indiscriminate casualties and mission
+cancivilianintelligentdronetechnologybeuseddirectlyfor
+failure.Asanethicalconsideration,eventhoughoveralldrone
+militarypurposes?Ouransweris“no,”becausemilitarydrone
+operationbecomesintelligent,thereisaneedfortheconcept
+operationsshowcleardifferencesfromciviliandronesinthe
+that the final attack decision is made by humans. In other
+following situations. First, the environment in the military
+words, the key consideration should not be whether drones
+is more complex than that in the civilian sector. Consider
+VOLUME11,2023 1
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

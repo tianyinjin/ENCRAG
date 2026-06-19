@@ -1,0 +1,47 @@
+79
+Intelligence Artificielle responsable ou de [6] - Les attaques en déni de service sur SIA visent à
+confiance pour la Défense : quelle nouvelle rendre un SIA indisponible en saturant ses ressources
+ingénierie ? (p.52) avec un flux massif de requêtes.
+[1] - HLEG. Ethics guidelines for trustworthy AI”. Avril [7] - Il est possible d’avoir une vision d’ensemble plus
+2019. large de ces problématiques dans le guide de l’ANSSI
+sur l’IA générative : https://cyber.gouv.fr/publications/
+[2] - https://www.nato.int/cps/en/natohq/official_ recommandations-de-securite-pour-un-systeme-dia-
+texts_187617.htm generative
+[3] - RISC-V International Systèmes d’Armes Létales Autonomes – aspects
+juridiques (p.62)
+[4] - https://www.confiance.ai/
+[1] - https://legrandcontinent.eu/fr/2025/01/07/lia-aux-
+[5] - EUROCAE WG 114 racines-de-la-guerre/
+[6] - Cycle en V [2] - https://disarmament.unoda.org/fr/le-
+desarmement-a-geneve/convention-sur-certaines-
+Les principales vulnérabilités des LLMs face aux armes-classiques/
+attaques malveillantes (p.56)
+[3] - https://www.europarl.europa.eu/doceo/
+[1] - https://www.cnil.fr/fr/definition/execution-en-bac- document/TA-9-2021-0009_FR.pdf
+sable-ou-sandboxing
+[4] - https://www.assemblee-nationale.fr/dyn/15/
+[2] - https://www.ibm.com/fr-fr/topics/ai- rapports/cion_def/l15b3248_rapport-information.pdf,
+hallucinations p65
+La cybersécurité de l’IA au cœur du champ de [5] - https://www.defense.gouv.fr/dems/systemes-
+bataille (p.58) darmes-letales-autonomes-sala
+[1] - Étape où le modèle applique les connaissances [6] - https://www.diplomatie.gouv.fr/fr/politique-
+acquises lors de l’entraînement à de nouvelles etrangere-de-la-france/securite-desarmement-et-
+informations pour prendre des décisions ou faire des non-proliferation/desarmement-et-non-proliferation/
+prédictions. systemes-d-armes-letales-autonomes-quelle-est-l-
+action-de-la-france/
+[2] - Les recommandations listées dans cet article ne
+sont pas exhaustives mais visent à proposer un premier [7] - https://www.defense.gouv.fr/sites/
+niveau de réponse. default/files/ministere-armees/20210429_
+Comit%C3%A9%20d%27%C3%A9thique%20
+[3] - Il est possible de retrouver une liste de travaux de%20la%20d%C3%A9fense%20-%20Avis%20
+portant sur ce thème ici : https://ssg-research.github. int%C3%A9gration%20autonomie%20
+io/mlsec/modelExtDef syst%C3%A8mes%20armes%20l%C3%A9taux.pdf
+[4] - Les attaques par canaux auxiliaires sur un SIA [8] - https://www.esd.whs.mil/portals/54/documents/
+exploitent des informations indirectes ou “fuites” issues dd/issuances/dodd/300009p.pdf
+du système, comme la consommation d’énergie, les
+variations de temps d’exécution ou les émissions [9] - https://www.usine-digitale.fr/article/comment-
+électromagnétiques, pour analyser le fonctionnement du les-start-up-d-ia-de-defense-veulent-conquerir-le-
+SIA et déduire des informations sur son fonctionnement. champ-de-bataille.N2207171
+[5] - Les travaux du projet PICTURE, piloté par le CEA
+sont à ce titre éclairants : https://picture-anr.cea.fr/
+presentation

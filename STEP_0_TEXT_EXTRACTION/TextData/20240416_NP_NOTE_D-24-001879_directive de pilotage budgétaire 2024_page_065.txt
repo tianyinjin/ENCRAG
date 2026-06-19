@@ -1,0 +1,57 @@
+Montant annuel Enveloppe annuelle en AE/CP avec fléchage des AEP lorsque présents.
+programmé Elle doit inclure le reste à engager (RàE) en AE et le reste à payer (RàP) exigible
+dans l’année comme par exemple les factures des années 2023 des marchés
+d’électricité engagés sous AEP.
+Ce montant doit couvrir au minimum les RàE en AE et RàP.
+Le montant des AE ne doit pas prendre en compte les AEP.
+Marchés (part Cette colonne doit être bâtie en liaison avec les RPA, on doit trouver :
+forfaitaire) - les parts à prix forfaitaire des marchés publics (engagés en une seule fois
+pour 12 mois) ;
+- les parts mini pour les marchés publics à bon de commande avec mini et/ou
+maxi ;
+- les conventions annuelles à prix fixe (ex. : convention de ramassage des
+ordures ménagères…) ;
+- la part engagée sous AEP des marchés d’électricité et de gaz ;
+- la part engagée sous AEP pour les contrats de performance énergétique ;
+- la part engagée sous AEP pour tous marchés autres que les deux cas
+précédemment cités.
+Marchés (part Doivent être intégrés :
+non forfaitaire) - les bons de commande (BdC) sur marché formalisé ou MAPA ;
+- les marchés exécutés par carte d’achat de niveau 3 ;
+- les dépenses de téléphonie fixe et mobile ;
+- les cartes autoroutes et carburants ;
+- la part exécutée en flux 4 pour les marchés engagés sous AEP
+(acheminement pour marchés d’électricité et de gaz, coût copies pour le
+marché SOLIMP…).
+Hors marchés Il s’agit ici de recenser :
+- les cartes d’achats N1/1 bis ;
+- les frais de déplacement ;
+- les dépenses sur régie/ATAF ;
+- les CRCA ;
+- les charges locatives ;
+- la facturation interne hors SEO.
+RPA/SE Les acronymes sont standardisés :
+- PFC-XXX (pour le lieu géographique) ;
+- ESID-XXX (pour le lieu géographique) ;
+- DIRISI, DAPSA, SAE, DAE, Uniha-UGAP, GSBdD XXX, DICOM-GSBdD
+XXX.
+Observations Préciser le mode d’exécution financière des dépenses par type de flux.
+En cas d’existence de plusieurs modes d’exécution pour le domaine, il conviendra
+de citer le/ou les flux majoritaires.
+Modifications Citer la forme majoritaire des marchés dans le domaine (forfaitaire annuel,
+souhaitées sur pluriannuel, à BdD avec mini, BdC sans mini, avec ou sans levée d’option…).
+les marchés
+Les difficultés de calage calendaire le cas échéant (notification/ renouvellement mal
+placés…) et les modifications souhaitées.
+Cette colonne permet au CICoS d’interagir avec les différentes chaînes financières
+et de résoudre d’éventuelles difficultés.
+AE EdB hors Il s’agit ici des montants saisis pour l’EdB et qui ont été transmis à l’issue des
+RàE en AE entretiens SG2. Ils ont permis de faire le premier RAMSES d’entrée de gestion.
+AE prog Programmation des enveloppes notifiées en AE par activité et domaine RAMSES,
+à l’euro près et sans décimale.
+AE réalisé BUD40_colonne consommation AE
+Chorus
+REJB – Déterminer le montant REJB :
+Recyclage - extraire la BUD43 pour avoir le montant total ;
+- détailler ensuite ce montant par activité :
+65/92

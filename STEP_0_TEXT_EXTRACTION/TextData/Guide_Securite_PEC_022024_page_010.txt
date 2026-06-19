@@ -1,0 +1,41 @@
+POLE D'EXCELLENCE CYBER
+Un point d’attention, le responsable de la collectivité locale doit informer chaque agent à qui il confie un moyen d’accès au système
+d’information que le mot de passe qu’il définit n’est pas sa propriété et qu’il doit le communiquer en cas d’absence ou de départ. La
+gestion des cessions est impérative.
+- La sécurisation des accès aux applications dont la collectivité est propriétaire. Cette sécurisation est assurée par la gestion des
+habilitations (saisie et modification ou lecture seule).
+- La conservation des données dont la collectivité est propriétaire. Les données sont conservées dans le strict respect des dispositions
+du RGPD (Règlement Général de Protection des Données), des règles légales de durée de conservation et d’archivage.
+- La sauvegarde des données dont la collectivité est propriétaire. Cette opération vise à assurer la continuité de l’action de la
+collectivité locale en cas de vol ou de destruction des données. La périodicité des sauvegardes et la sécurisation des lieux de stockage
+(jamais dans le même local que les données actives du système d’information) sont à définir de façon impérative.
+- La sauvegarde des applications métiers, cette sauvegarde concerne les applications développées par la collectivité locale pour
+un usage propre, elle s’applique aux programmes. Chaque version doit être sauvegardée, la sécurisation des lieux de stockage est
+identique au point précédent.
+La lecture et la mise en œuvre des dispositions du présent guide permettent de formaliser un dossier de sécurité numérique de la
+collectivité locale1 qui apporte une garantie aux élus, aux personnels et aux citoyens sur la prise en charge de la cybersécurité et de
+la lutte contre la cybercriminalité, ce qui est essentiel pour la confiance accordée à la numérisation.
+Le Pôle d’excellence cyber espère que ce guide facilitera la réalisation de cet objectif fondamental pour la sécurisation numérique
+des collectivités locales, bonne lecture.
+1 A titre d’exemple, ce dossier doit comprendre les éléments suivants qui le rendent éligibles aux contrôles prévus par les dispositifs
+légaux et règlementaires.
+- L’intitulé de la collectivité locale, le nom de son responsable légal, les noms des personnes ayant éventuellement reçu délégation
+pour la gestion de la sécurité numérique.
+- La liste des équipements (serveurs, poste de travail, tablette, portables, …) avec leur caractéristiques (modèle, date d’acquisition,
+nom des personnes les ayant installés) et les personnes habilitées à les utiliser (attention au risque lorsqu’un même équipement
+est accessible par plusieurs utilisateurs, instituer un fichier d’utilisation : qui ? à quel moment ? Et rendre la fermeture de cession
+impérative entre deux utilisateurs).
+- La description des locaux où sont installés ou stockés les équipements avec la description des moyens de sécurisation mis en
+œuvre (portes, armoires sécurisés, …).
+- Un fichier des changements de mot de passe d’accès aux équipements (permet de faire respecter la périodicité, le fichier est
+signé par l’utilisateur à chaque changement de passe, il ne comporte évidemment pas les mots de passe.
+- Un fichier des droits d’accès aux applications dont la collectivité est propriétaire, ce fichier établit par application donne le
+nom des personnes habilitées à l’accès (préciser si nécessaires les types d’habilitations : saisie modification des données, simple
+consultation) et la durée d’habilitation. Il permet notamment de gérer les départs et les arrivées de personnes.
+- Un fichier par application décrivant les règles de conservation et d’archivage des données. Ce fichier décrit les modalités de
+destruction des données.
+- Un document d’organisation des sauvegardes des données et des applications : description de la périodicité des sauvegardes,
+définition des supports de stockage et de leur lieu conservation.
+- Un fichier de gestion des droits d’accès à la messagerie de la collectivité territoriale.
+- Un fichier des droits d’accès à internet.
+10

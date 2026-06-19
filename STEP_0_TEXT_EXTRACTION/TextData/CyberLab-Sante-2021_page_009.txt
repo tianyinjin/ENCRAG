@@ -1,0 +1,63 @@
+PôlE d’ExcEllENcE cyBER
+Le milieu médical utilise déjà massivement les réseaux de communications les systèmes d’information (SI) des hôpitaux et centres médicaux, les
+très haut débit, IP ou radio (DeCT, WiFi, 3g, 4g, 5g, nb-IoT, Lora, sigfox…), centres de calculs ou clouds privés, publics ou semi-publics, les applications
+pour communiquer et partager les dossiers patients, les imageries médicales, de « workflow » métiers ERP (Enterprise Resource Planning, PRM - Patient
+les résultats d’analyses et autres informations médicales . les réseaux hospita- Relation Management), facturations, ScAdA (Supervisory control and data
+liers transportent ces informations et données patients et peuvent donc être Acquisition), gestion des stocks, etc ., les postes de travail ainsi que les sys-
+la cible des cyber-attaques . tèmes de messageries sont très sensibles, et doivent, impérativement, faire
+l’objet de mesures des sécurité numériques et physiques adaptées aux risques.
+La médecine d’aujourd’hui utilise également de plus en plus de capteurs,
+de sondes ainsi que d’autres objets connectés : implants connectés, télé-
+métrie, prothèses bioniques connectées sont une préoccupation majeure.
+Les cyber-menaces (réelles) et les cyber-risques
+Déjà aujourd’hui les équipements de mesure, d’analyses et autres matériels
+(possibles) sur les systèmes de santé
+médicaux (scanner, IRM, etc .), les boîtiers de monitoring, les alarmes des
+patients, sont connectés sur l’Internet et sont des cibles de choix pour les Si les vulnérabilités sont éventuelles, les menaces sont par contre bien réelles
+cyber-attaquants . et multiples .
+la crise sanitaire liée à la covid-19 a accéléré le déploiement des services et les attaques utilisent la plupart du temps une combinaison des techniques
+outils de télésanté et des dérogations ont dû être octroyées au cours de la d’attaques pour maximiser le taux de réussite .
+pandémie . ces nouvelles opportunités d’accès au soin à domicile (dévelop-
+Il convient aussi de noter que l’on voit maintenant apparaitre des cyber-at-
+pement de l’Hospitalisation À Domicile, téléconsultation…) représentent un
+taques sur les infrastructures, serveurs ou applications, combinées et syn-
+nouveau moyen de captation de données de santé et peuvent représenter une
+chronisées avec des sabotages physiques sur les sites et infrastructures .
+nouvelle cible d’attaque pour les hackers . « la diversité de l’offre numérique
+doit se structurer afin de répondre aux enjeux de sécurité, d’interopérabilité, ci-dessous, une représentation des différents types d’attaques qu’a subi le
+de confiance et de qualité », doctrine technique du numérique en santé . secteur de la santé au cours de l’année 2020 .
+Toutes les données médicales, dossiers des patients, fichiers des personnels,
+bases de données, agendas informatisés et autres big data sont des informa- Types de cyberattaques dans le domaine de la santé en 2020
+tions confidentielles très recherchées par les cyber-attaquants. Le ministère
+de la santé encourage le développement et la mise en conformité d’outils, de
+réglementations, de référentiels afin d’« intensifier l’éthique, la sécurité, l’inte-
+RANSOMWARE
+ropérabilité des systèmes d’information de santé » . les données de santé sont
+soumises à la nouvelle réglementation sur la protection des données (RGPd,
+loi Informatique et libertés avant), qui nécessite, entre autres, la désignation VOL DE DONNÉES
+d’un dPO (délégué à la Protection des données), la nécessité d’informer sur
+les finalités de traitement et les moyens de traitement, etc. Le traitement de
+ACCÈS AUX SERVEURS
+données de santé nécessite également une utilisation de l’Identité Nationale
+de santé (Ins), le recourt à un Hébergeur de Données de santé certifié (HDs),
+BUSINESS EMAIL COMPROMISE
+des contraintes d’authentification de plus en plus contraignantes, une confor-
+mité des services de messageries sécurisées, etc .
+ATTAQUE INTÉRIEURE
+Afin de protéger les droits des usagers et la confidentialité des échanges
+entre l’usager et le praticien, le cadre réglementaire lié au numérique en santé
+est en pleine évolution, de nouveaux outils et référentiels apparaissent . Nous PROBLÈME DE CONFIGURATION
+pouvons ainsi citer le déploiement en cours de « Mon espace Santé », un
+espace personnel où les usagers vont pouvoir gérer leurs données de santé, AUTRE
+aussi la « Messagerie Sécurisée de Santé » (MSSanté), un système national de
+messageries sécurisées de santé, ou encore « Pro Santé connect », prochai-
+nement déployé, fédérateur de fournisseurs d’identité pour les professionnels 0% 5% 10% 15% 20% 15% 30%
+de santé. Tous ces outils vont permettre de cadrer les données personnelles,
+Source : IBM Security X-Force
+mais peuvent également à la source de cyberattaques .
+Pour un diagnostic meilleur et plus rapide, de nouveaux outils et méthodes Toutes les menaces font courir des risques importants pour les acteurs du
+de travail collaboratif entre professionnels de santé (Télémédecine, téléex- secteur . Elles peuvent causer de graves dommages aux centres médicaux et
+pertise,…) ont été massivement déployés. Ces ouvertures sur les sI de santé hôpitaux et potentiellement mettre la vie de patients et personnels en danger .
+peuvent constituer des failles de sécurité dans les processus métiers ou dans elles peuvent aussi générer de graves préjudices moraux ou financiers aux
+les parcours de santé . acteurs du secteur si des informations sont volées, compromises ou détruites .
+16 CyberLab CATALogUe De servICes eT De PresTATAIres Cyber APPLIqUés AU DoMAIne De LA sAnTé Novembre 2021 17

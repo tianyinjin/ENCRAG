@@ -1,0 +1,30 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 8 : GESTION ET REPRESSION DES ATTEINTES AU SECRET DE LA
+8.2
+DEFENSE NATIONALE
+(cid:3)
+2. Règles de base applicables par l’organisme touché par une compromission possible
+(OSSI ou OS)
+a. Suspicion de compromission sur une machine isolée
+Si l’équipement est en fonctionnement :
+- laisser la machine en fonctionnement ;
+- ne pas retirer les médias amovibles connectés, s’il y en a ;
+Si l’équipement a été éteint :
+- ne pas rallumer la machine.
+Si la machine est reliée à un serveur de stockage, appliquer les consignes supra au
+serveur.
+b. Suspicion de compromission sur machine connectée au réseau
+Appliquer les mêmes dispositions que celles prévues pour une machine isolée.
+En complément :
+- noter le numéro de la prise murale du réseau ;
+- débrancher le câble réseau(cid:3);
+- demander aux administrateurs du système de mettre à disposition du service
+enquêteur les journaux d’évènements des différents équipements liés (serveurs,
+commutateurs,…).
+3. Premières constatations et investigations
+Au-delà des règles de base ci-avant, les premières constatations et les investigations
+ultérieures doivent être réalisées par un inspecteur de la DRSD201 dès qu’une suspicion
+de compromission affectant un système d’information est signalée.
+(cid:3)
+201 Ou un agent de la DGSE, le cas échéant.
+228

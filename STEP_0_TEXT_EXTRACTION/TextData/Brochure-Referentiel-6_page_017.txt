@@ -1,0 +1,68 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+B.3.3.3 _Services juridiques Si nous excluons le renseignement au profit des activités de la Défense
+nationale et sans prétention d’exhaustivité, nous citerons comme princi-
+les services juridiques interviennent de manière transverse sur les différentes
+pales sources de renseignement technique :
+activités, soit pour borner et sécuriser les différentes prestations de services,
+soit pour définir le cadre d’emploi de certains outils, ou pour encadrer la mise • L’OSINT (Open Source Intelligence) qui concerne les informations
+en place de procédures ou d’outils de cybersécurité au sein des entreprises. accessibles au grand public en source ouverte. ces sources incluent
+les journaux, l’Internet, les écrits, les diffusions, les fuites d’information
+quelle que soit leur origine ;
+B.3.3.4 _Réaction aux incidents
+• L e SOCMINT (SOcial Media Intelligence) qui fait référence aux méthodes
+dans le cas où une attaque a atteint son but, la remise en service du système
+et moyens dédiés à la surveillance des médias sociaux, de manière à anti-
+d’information de l’organisation attaquée peut demander des ressources
+ciper ou agir sur les besoins et les comportements des utilisateurs ;
+humaines conséquentes à la fois en quantité (s’il faut par exemple une inter-
+vention physique sur un grand nombre d’équipements) et en qualité (pré- • La recherche de vulnérabilités sur les logiciels et les équipements. Que
+servation des traces, expertise technique pour l’éradication des malwares…). ce soit en provoquant l’apparition de défauts ou de pannes par des
+ces équipes peuvent être internes ou externes à l’organisation mais doivent tests tous azimuts hors du champ d’utilisation de l’équipement (tests à
+être formées et entrainées. données aléatoires (fuzzing)), ou par la recherche de voies d’infiltration
+et d’exploitation de failles ; ces activités ont pour but d’identifier les
+vulnérabilités afin d’organiser la défense des infrastructures ;
+B.3.3.5 _CERT5 / CSIRT
+• La rétro-ingénierie ou le reverse engineering. Consiste à étudier et à
+les cERt (computer Emergency Response team) ou cSIRt (computer Security
+décortiquer un objet pour en déterminer son fonctionnement ou sa
+Incident Response team) sont des entités publiques ou privées qui assurent
+méthode de fabrication. ces études peuvent être, par exemple, l’ana-
+le traitement des alertes informatiques, l’entretien et la diffusion de bases de
+lyse d’un binaire malicieux, d’un virus, la recherche de vulnérabilités en
+vulnérabilités et la diffusion de messages d’alertes ou de prévention.
+vue de leur éradication, ou l’étude d’un objet (physique ou logique)
+pour lutter contre la copie et les contrefaçons.
+B.4.1.3 _Analyses
+B.4 le cyber-renseignement désigne l’ensemble des opérations de collecte, d’enri- les analyses ont pour vocation d’apporter une compréhension rapide et
+chissement sémantique (traitement, analyse, fusion, interprétation) et de diffu-
+Cyber- exhaustive sur le déroulement d’un événement (campagnes d’attaque), sur
+sion des informations issues ou à destination du cyberespace.
+le mode opératoire d’un groupe déterminé, ou sur le fonctionnement d’un
+renseignement
+malware et/ou sur son évolution.
+Il est d’origine cyber lorsqu’il est issu du cyberespace. Il est d’intérêt cyber lors-
+qu’il est à destination du cyberespace. Sur le plan technique, elles apportent les informations sur la structure d’un
+malware et/ou sur des indicateurs de compromission (Indicators of com-
+B.4.1 _Méthodes promise (Ioc)). les descriptions techniques issues des analyses amènent à
+l’écriture de règles de détection et permettent d’avoir une démarche proactive
+et non pas uniquement réactive.
+B.4.1.1 _Orientation préparation et planification des opérations de collecte
+les descriptions techniques sont complétées par une analyse contextuelle
+L’orientation consiste à identifier la nature et les supports des informations à
+et stratégique, qui, à partir des éléments techniques obtenus grâce à l’in-
+recueillir, à définir la suite des opérations nécessaires au recueil, et à invento-
+vestigation, vise à déterminer la motivation réelle de l’attaquant. Pour cela,
+rier les moyens à mettre en œuvre.
+la compréhension de l’écosystème international qui entoure l’attaque (ju-
+les capacités matérielles et humaines et leur préparation préalable condi- ridique, financier, social, culturel) est essentielle pour saisir les tendances
+tionnent la réussite des opérations de recueil. stratégiques qui expliquent l’événement.
+l’analyse du contexte stratégique permet une compréhension accrue des
+B.4.1.2 _Le recueil d’informations
+facteurs déclencheurs des événements et donc la mise en place de démarches
+le recueil d’informations concerne l’ensemble des activités permettant d’agglo- proactives.
+mérer les informations et d’en tirer profit .
+Idéalement les rapports d’analyse contiennent une description des secteurs
+le renseignement technique couvre des formes très variées, liées à la nature industriels et géographiques touchés, l’origine de l’attaquant, ses tactiques,
+de l’information et à son mode de recueil. techniques et Procédures (ttP), et ses motivations.
+5 Le terme CERT est une marque déposée de l’université Carnegie Mellon et ne peut être utilisé sans leur accord
+32 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 33

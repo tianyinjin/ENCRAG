@@ -1,0 +1,50 @@
+(attaque en essaim de drones plus «rustiques » permettant de saturer les capacités
+défensives d’un dispositif adverse).
+321. Charges utiles : il est primordial de se positionner correctement sur ce segment, car la qualité
+et le pouvoir de discrimination des senseurs73 impactent directement l’efficacité des systèmes
+de drones. Ce domaine de haute technologique est en général une chasse gardée de quelques
+nations qui partagent très peu leur savoir-faire. Il en est de même pour les emports externes
+comme les armements. Non spécifiques aux systèmes de drones, ces particularités doivent être
+prises en compte très tôt dans le processus de conception ou d’acquisition.
+Segment de contrôle
+322. Dans ce segment, les trois domaines à particulièrement surveiller en matière d’autonomie
+d’emploi des systèmes de drones aériens sont :
+a. la qualité de l’interface homme-machine et les aides à la décision ;
+b. la formation et l’entraînement du personnel, notamment en matière de
+responsabilité ;
+c. l’intégration dans le C4I74 : chaîne renseignement, planification-programmation des
+opérations, éventuellement chaîne d’engagement, etc.
+323. Ces éléments sont développés dans le dernier chapitre et dans l’annexe D de ce document.
+Segment de liaison
+324. L’emploi des systèmes des drones reposant sur la disponibilité des liaisons, ce segment
+conditionne le degré d’autonomie d’emploi du système75. Il faut donc s’assurer au niveau
+national :
+a. de la disponibilité des ressources spectrales et de la maîtrise de leur gestion :
+les gammes de fréquences des systèmes doivent être compatibles avec celles
+utilisées en France, en Europe, et autant que faire se peut dans les zones d’intérêt
+françaises ;
+b. de la disponibilité des ressources satellitaires : les liaisons BLOS dépendent de la
+disponibilité de la ressource spectrale, mais aussi de celle des satellites. La
+dépendance à un opérateur tiers ou même à un pays tiers est un facteur de
+vulnérabilité susceptible de compromettre l’emploi même de la capacité (notamment
+pour les drones de classe III). Toute dépendance doit être évitée ou a minima
+encadrée. L’emploi de systèmes redondants doit être privilégié quand le coût le
+permet ;
+c. de la qualité et de la robustesse des liaisons : débit, bande passante, cryptage des
+données et résistance au brouillage, etc.
+Pour l’ensemble du système :
+325. La capacité pour un système de drones à être déployable76 et donc transportable par voie
+terrestre, maritime et aérienne en particulier par des moyens nationaux77 est un facteur
+important de l’autonomie d’emploi. Cette exigence s’applique aux trois segments des systèmes
+de drones, le vecteur, la station de contrôle et le segment de liaison.
+326. Le Maintien en condition opérationnelle (MCO) doit être conçu pour tous les cadres d’emploi et
+être suffisamment adaptable pour ne pas restreindre l’autonomie d’emploi de ces systèmes de
+drones.
+73 Capteurs optroniques ou électroniques (Radar, capteur ELINT, COMINT, etc.).
+74 Computerized Command Control Communication and Intelligence.
+75 C’est d’autant plus vrai pour les drones de classe III qui utilisent des liaisons BLOS avec relais par satellites.
+76 Ce principe n’est pas nécessairement vrai pour les drones dits « stratégique » ou « d’attaque » dont la caractéristique est un grand rayon
+d’action.
+77 Le transport par voie aérienne militaire est le plus contraignant en termes de poids, d’encombrement et de conditionnement. Il doit être pris en
+compte très tôt dans le processus de conception du système.
+32

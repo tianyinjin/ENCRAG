@@ -1,0 +1,43 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.9
+DROIT PRIVE
+(cid:3)
+3. Responsabilité et gestion des ACSSI
+Les opérateurs privés sont responsables, sous l’autorité de la DGA, de la mise en œuvre
+des procédures réglementaires prescrites pour la gestion des ACSSI par l’IGI 1300 et par
+l’II 910. Les ACSSI non classifiés (DR et NP), sous réserve que l’agrément ne l’interdise pas,
+peuvent être suivis en gestion locale(cid:3); cependant, l’échelon central doit pouvoir accéder
+à leurs informations de suivi pour permettre de fournir, autant que de besoin, une vision
+globale à la DGA, voire au niveau ministériel.
+Le suivi d’un ACSSI consiste à(cid:3):
+- pouvoir déterminer la position géographique d’un ACSSI à tout instant,
+- pouvoir déterminer l’exploitant, l’utilisateur, le comptable ou le gestionnaire
+central/local d’un ACSSI à tout instant (à partir des actes de comptabilité ACSSI),
+- pouvoir déterminer le statut d’un ACSSI, notamment pour un bien matériel (bien en
+exploitation, bien disponible, bien non disponible et ses sous-statuts), l’applicabilité
+de ce statut étant étendue aux informations ACSSI pour lesquelles cela est pertinent.
+Des inspections programmées ou inopinées sont menées par la DGA. Elles témoignent
+de la bonne tenue et de l’efficacité du suivi spécifique et du respect des mesures de
+protection. L’inspection se limite à des constats visuels, sans porter atteinte à l’intégrité
+ou aux fonctions de sécurité des ACSSI. Il s’agit en effet d’une inspection relative à la
+gestion des ACSSI.
+4. La gestion des incidents de sécurité
+Selon l’II 910, un incident de sécurité concernant un ACSSI est un événement indésirable
+ou inattendu présentant une probabilité forte de porter atteinte à la confidentialité,
+l’intégrité ou la disponibilité des informations ou des systèmes protégés par les ACSSI.
+Un incident de sécurité peut conduire à une compromission162. En revanche, une
+compromission est nécessairement tracée sous la forme d’un incident de sécurité. La
+perte (même temporaire) ou le vol d’un ACSSI, le blocage ou le disfonctionnement d’un
+équipement cryptographique ACSSI, le constat d’un défaut d’intégrité d’un ACSSI sont
+des exemples d’incident de sécurité.
+Tout incident de sécurité affectant un ACSSI doit faire l’objet d’un compte-rendu
+immédiat via la chaine SSI. Un inventaire des incidents sera adressé annuellement, par
+l’opérateur privé, à la DGA (même en cas d’état néant), qui retransmet une synthèse des
+incidents sur son périmètre de responsabilité au FSSI.
+Tout incident de sécurité doit conduire à la mise en œuvre des mesures techniques et
+organisationnelles, qu’elles soient immédiates (exemple(cid:3): révocation d’une clé) ou
+qu’elles soient le fruit d’une analyse par la chaine ACSSI, le FSSI, le HFCDS ou l’ANSSI.
+(cid:3)
+162 Cf. définition au paragraphe 1 de la fiche introductive du titre 8.
+173

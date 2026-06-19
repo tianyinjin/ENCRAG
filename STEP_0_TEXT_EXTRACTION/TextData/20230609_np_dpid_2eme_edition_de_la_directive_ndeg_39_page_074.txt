@@ -1,0 +1,29 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+ORG
+MCS13 Tracer les mises à jour et modifications apportées au système industriel. O
+TECH
+Avant mise en production, valider les impacts des modifications par le RSSI et
+MCS14 ORG R O O
+l’autorité d’emploi ou bénéficiaire.
+Mettre en place un processus de vérification des versions de programme en cours
+MCS15 ORG C R O
+d’exécution par rapport à une version de référence.
+Faire évaluer et valider les modifications ou évolutions dans un environnement de
+MCS16 TECH C R O
+test préalable avant leur déploiement.
+Mettre en place un processus de test pour évaluer les impacts de toute
+MCS17 ORG C R O
+modification, notamment de l'application de correctifs de sécurité.
+Mettre en œuvre un environnement de test représentatif du système en production
+MCS18 TECH C R O
+afin de s’assurer de sa non-régression après l’application des correctifs.
+Garantir une gestion des vulnérabilités
+Mettre en place un processus de veille sur les menaces, en particulier sur
+l'évolution des techniques d'attaque, et vulnérabilités pour les éléments
+MCS19 ORG R O O
+préalablement définis dans une stratégie de maintien en condition de sécurité
+(MCS). Le processus commence dès la phase de réalisation.
+Contractualiser la diffusion par les fournisseurs des bulletins de vulnérabilité pour
+MCS20 ORG l’ensemble des équipements, matériels et logiciels utilisés dans le système C R O
+industriel.
+DIR-39 SNSI – 2eme édition Page 74 | 79

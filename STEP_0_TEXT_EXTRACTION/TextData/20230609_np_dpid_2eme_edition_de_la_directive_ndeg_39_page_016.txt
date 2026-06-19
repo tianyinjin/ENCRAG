@@ -1,0 +1,42 @@
+alors segmenté en zones de sécurité* homogènes et distinctes, raccordées entre elles par des
+conduits*. L’architecture technique est ainsi définie en cohérence avec le besoin de
+sécurité de chaque zone de sécurité* portant les fonctions principales du système
+industriel.
+5.1. Phase d’attribution de classe
+5.1.1. Définition d’une classe* de sécurité
+L’attribution de classe consiste à estimer le niveau de sécurité numérique attendu à partir d’une
+appréciation de risques.
+La classe* peut être attribuée à :
+- un système industriel réparti sur plusieurs sites ;
+- un système industriel déployé sur un site ;
+- un sous-ensemble du système qui correspond à une zone de sécurité*.
+La classe* attribuée à un système industriel ou à une zone de sécurité* est déterminée à partir
+de la criticité des fonctions et de leur exposition aux menaces.
+La criticité des fonctions est évaluée à partir des impacts :
+- d’une fuite, d’un vol ou d’une divulgation d’informations (criticité en matière de
+confidentialité) ;
+- d’une défaillance ou d’une conséquence d’une défaillance du système industriel sur les
+fonctions qu’il réalise, sur les missions auxquelles il contribue, sur l’activité et les systèmes
+d’information dont ils garantissent le bon fonctionnement, que l’impact soit le résultat d’une
+attaque, d’une erreur ou d’une panne (criticité en matière de disponibilité et d’intégrité).
+La criticité d’un système est évaluée à partir de la criticité de ses fonctions principales.
+L’exposition aux menaces (ou la surface d’attaques) est évaluée à partir de l’environnement du
+système industriel, de ses interconnexions avec d’autres systèmes ou de sa connectivité avec
+l’extérieur, de son niveau de standardisation et de complexité, de sa taille, de son hétérogénéité
+et de son niveau d’accessibilité. D’autres facteurs peuvent être pris en compte.
+Il existe trois niveaux de classes* de sécurité :
+- classe 1 pour des systèmes industriels ou sous-ensembles pour lesquels la criticité du SI ET
+son exposition aux menaces sont faibles ;
+- classe 2 pour des systèmes industriels ou sous-ensembles pour lesquels la criticité du SI OU
+son exposition aux menaces est significative ;
+- classe 3 pour des systèmes industriels ou sous-ensembles pour lesquels la criticité du SI ET
+son exposition aux menaces sont critiques.
+Afin de simplifier l’appréciation de risques, il est possible d’attribuer une classe 0 à un sous-
+ensemble qui n’est pas exposé aux attaques informatiques de par l’absence de composants
+numériques.
+5.1.2. Attribution de classe*
+Les classes* de sécurité doivent être estimées à partir de la méthode définie en annexe 2 ou par
+toute autre méthode autorisée par l’autorité d’homologation (AH). La catégorie d’appartenance
+du système industriel (cf. §3.2) est nécessairement un élément à prendre en compte dans
+l’attribution d’une classe*.
+DIR-39 SNSI – 2eme édition Page 16 | 79

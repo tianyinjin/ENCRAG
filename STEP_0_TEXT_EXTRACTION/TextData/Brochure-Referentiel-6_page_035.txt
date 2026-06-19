@@ -1,0 +1,65 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+Les acteurs de la santé se caractérisent par :
+• Un niveau faible de maturité des utilisateurs face au risque cyber. Ainsi
+bien que la confidentialité, l’intégrité et la disponibilité aient toujours été
+au cœur des préoccupations des professionnels de santé, ces derniers
+n’ont souvent pas intégré les risques cyber et ont des difficultés à accep-
+ter certaines contraintes qui en découlent.
+• Une réglementation sectorielle importante sur les aspects protection
+des droits des patients mais avec peu d’exigences opposables en termes
+de cybersécurité. le respect des exigences de sécurité est bien souvent
+garanti sur le mode déclaratif et les contrôles sont insuffisamment pré-
+sents par manque de ressources.
+• Des systèmes d’information de santé complexes avec des dispositifs mé-
+dicaux connectés qui sont bien souvent hors de la responsabilité de la
+dSI. ces dispositifs médicaux, le plus souvent connectés, ont une durée
+de vie très importante et leur mise à jour n’est pas toujours assurée ou
+même possible.
+D.1.4 _Santé
+• Les acteurs de la santé n’ont pas pris la pleine mesure du risque cyber
+Le contexte : contrairement au risque sanitaire qu’ils savent appréhender. Plusieurs
+établissements stratégiques sont classés comme Opérateur de Service
+tout d’abord, le secteur de la santé doit garantir : Essentiel ou Opérateur d’importance Vitale pour assurer la continuité du
+soin. ces établissements mettent des moyens pour se protéger parce
+• La résilience du système de soins condition essentielle à la prise en charge des
+qu’ils sont contraints réglementairement.
+patients.
+• La protection des données de santé qui sont par nature persistantes. En effet, L’état de l’art cyber :
+une information médicale récente ou ancienne conserve de la valeur même si
+les attaques par ransomware se multiplient et sont les principales me-
+la personne concernée est décédée.
+naces identifiées dans les établissements de santé et le secteur libéral.
+ces enjeux doivent être pris en compte par des acteurs d’une grande diversité
+le vol de données de santé est une source de revenu importante en raison
+ayant une maturité en matière de cybersécurité globalement faible. dans ce
+de failles identifiées dans les applications gérées par les établissements ou
+secteur nous retrouvons des acteurs du monde libéral (médecins, kiné, infir-
+dans les logiciels tiers. ces données s’échangent à des prix dépassant le
+miers, Soins à domicile…), d’établissements médicaux sociaux (Ehpad…), d’éta-
+prix des données bancaire. En effet, une donnée médicale volée concer-
+blissements sanitaires (cHU, cH, clcc, EPSM…) ou d’industriels de la santé qui
+nant par exemple un chef d’Etat ou un grand dirigeant peut déstabiliser
+concourent tous au parcours du patient. Sa particularité repose sur les éléments
+tout un pays ou conduire à la faillite une entreprise.
+suivants.
+des groupes cybercriminel comme Orangeworm ciblent également les in-
+• Les données traitées sont hautement sensibles et sont persistantes.
+dustriels de la santé dans un but d’espionnage industriel.
+• La vie des patients tient aussi aux services délivrés par l’informatique. En sep-
+Ils exploitent des vulnérabilités extrêmement diverses. Un SI de santé
+tembre 2020 et suite au blocage d’un établissement par une cyber-attaque,
+contient des dispositifs médicaux parfois hors d’âge, des postes de travail
+une patiente allemande est décédée durant son transfert vers un autre établis-
+partagés et peu protégés. l’hôpital est interconnecté ce qui augmente la
+sement. Il s’agit du premier décès officiellement imputable à une cyber-attaque.
+surface d’attaque. La multitude d’intervenants trop souvent insuffisam-
+• Les établissements de santé sont accessibles à tous et à toute heure. ment sensibilisés augmente la vulnérabilité des structures de santé.
+Dans ce contexte, l’environnement réglementaire est assez riche. Bien évidem- Un incident de sécurité peut perturber très fortement le fonctionnement
+ment, le RGPd s’applique à tous les acteurs du monde de la santé. des obliga- d’un établissement de santé. les conséquences, par exemple d’un ran-
+tions spécifiques viennent le compléter selon les acteurs. Les établissements congiciel, peuvent alors être tragiques avec une perte de chance pour les
+publics de santé sont, entre autre, soumis à la PGSSI-S, doivent se soumettre à patients comme cela a été le cas en Allemagne. Une violation des don-
+une procédure de remontée d’incidents de sécurité et certains sont reconnus nées à caractère personnel peut rendre le citoyen méfiant vis-à-vis de
+OIV (Opérateurs d’Importance Vitale) ou OSE (Opérateur de Services Essen- son système de santé ce qui constitue un risque important en matière de
+tiels). le marquage cE est imposé aux dispositifs médicaux et les hébergeurs santé publique.
+de données doivent être certifiés « Hébergeur de données de santé ».
+68 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 69

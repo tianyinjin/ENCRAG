@@ -1,0 +1,49 @@
+Partie 5 – Les crédits de personnel et les emplois – Illustrations
+V.B. ILLUSTRATIONS
+V.B.1.Les règles et pratiques de paye des dépenses de
+personnel
+V.B.1.1. Une paye sans ordonnancement préalable sauf exceptions
+Les dépenses de personnel sont principalement liquidées et payées sans ordonnancement préalable.
+Pour la paye sans ordonnancement préalable (PSOP) mise en œuvre par les applications de paye de
+la DGFiP (PAY et ETR pour les personnels en poste à l’étranger), les AE et les CP sont consommés au
+moment de l’intégration de la paye dans Chorus.
+Néanmoins, certaines dépenses sont liquidées avec ordonnancement préalable.
+C’est le cas par exemple pour la rémunération des agents de l’État affectés dans des services en
+collectivités d’outre-mer (COM) et celle des agents recrutés à l’étranger sur la base du droit local (hors
+agents recrutés à l’occasion d’une opération extérieure au profit des forces armées), pour les prestations
+facultatives d’actions sociales, certaines aides à la famille ou dépenses liées à l’invalidité et aux
+accidents et maladies professionnelles (capital décès). La plupart des dépenses de personnel des
+militaires du ministère de la Défense et de l’intérieur sont également gérées selon une procédure
+particulière (cf. infra § 1.3 « Le caractère particulier des procédures financières et comptables des forces
+armées »).
+Par ailleurs, toutes les dépenses réalisées par les gestionnaires sur le titre 2 directement dans Chorus
+sont des dépenses payées avec ordonnancement préalable :
+- les remboursements au profit d’un autre ministère des rémunérations d’agents mis à disposition
+par celui-ci ;
+- certaines prestations sociales non gérées par la paye, comme le versement de capital-décès
+aux ayants droits d’un fonctionnaire décédé ;
+- le remboursement des allocations chômage et des prestations versées par Pôle emploi pour
+les ministères qui sont entrés dans le dispositif de délégation de gestion et de l’indemnisation
+du chômage organisé par la convention cadre du 2 septembre 2011.
+En outre, les atténuations de dépenses liées aux rétablissements de crédits (suite au recouvrement
+d’une créance après remboursement d’un titre d’indu de paye ou au remboursement des rémunérations
+d’agents mis à disposition) apparaissent, dans les restitutions Chorus, en montant négatif dans la
+section « autres dépenses HPSOP ».
+Pour les dépenses de personnel payées avec ordonnancement préalable (« hors PSOP »), la
+consommation des AE est réalisée à la validation de la demande de paiement. La consommation des
+CP est quant à elle réalisée au moment du paiement. Dès lors que la comptabilisation des AE et des
+CP n’intervient pas dans Chorus au même moment, des écarts peuvent apparaître entre les montants
+d’AE et de CP consommés. Ces écarts doivent être résorbés en fin d’année en raison de la règle AE=CP
+pour les dépenses de personnel.
+V.B.1.2. Le cas particulier des acomptes de paye
+Les acomptes sur rémunérations sont versés aux agents qui n'ont pu être payés dans le circuit classique
+de traitement des rémunérations. Ces acomptes concernent notamment :
+- les agents qui prennent leurs fonctions en cours de mois ;
+- ceux dont les dossiers parviennent tardivement aux services liquidateurs.
+La régularisation de la situation de chacun intervient au plus tôt à la fin du mois suivant, lors de la
+liquidation de la paye.
+Par exemple : Un agent est embauché le 20 d’un mois donné alors que la paye est clôturée. Le
+gestionnaire calculera le montant de l'acompte et le transmettra aux services liquidateurs. Au cours du
+mois suivant, le calcul de la paye "courante" déclenchera le calcul de la rémunération au titre du mois
+donné (en rappel) et du mois suivant et effectuera une déduction nette du montant de l'acompte versé.
+139 Direction du budget | Recueil des règles de comptabilité budgétaire de l’Etat | janvier 2023

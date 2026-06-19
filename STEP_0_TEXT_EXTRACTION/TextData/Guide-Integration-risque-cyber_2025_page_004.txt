@@ -1,0 +1,47 @@
+6 Pôle d’excellence cyber 7
+Basé sur des incidents réellement traités, on peut constater que les préoccupations les plus importantes des services municipaux
+Chapitre I : les missions pouvant être impactées et leurs conséquences
+pour garantir la continuité du service public concernent principalement :
+• Logiciel de gestion de la cuisine centrale communale (gestion des stocks, des commandes, du grammage des denrées,
+etc.) destiné à l’approvisionnement en repas des structures d’accueil, telles que les Établissement d’Hébergement pour
+Personnes Âgées Dépendantes (EHPAD) ou les écoles maternelles et élémentaires ;
+• Logiciel de gestion de la délivrance des titres d’identité (cartes d’identité, passeports) qui génère de fortes attentes des
+citoyens (déplacements à l’étranger, démarches administratives, etc.) ;
+• Logiciel de paye notamment pour le versement des salaires des agents communaux (possibilité de rejouer la paie du
+mois précédent en mode dégradé) mais aussi de facturer les services fournis aux citoyens (places en EHPAD, services
+périscolaires, activités culturelles et sportives, etc.) ;
+• Logiciel de gestion du cadastre des cimetières municipaux (impossibilité de procéder aux cérémonies funéraires) ;
+• Logiciel de gestion des listes électorales (uniquement en période électorale), gestion en mode dégradé avec les services
+préfectoraux pour éditer les listes électorales des bureaux électoraux de la commune et remontée des résultats ;
+• Logiciel de gestion des familles (inscriptions en temps périscolaire, etc.) souvent des solutions en mode SaaS3 3non
+impactées par la compromission des SI de la commune.
+Les services de fourniture d’eau potable, de transport public, de gestion des déchets, de gestion des eaux usées sont rarement
+gérés en direct par les services municipaux des petites communes mais par des délégataires donc rarement impactés par la
+compromission des SI de la commune. Il est à noter que ces opérateurs sont soumis à des réglementations spécifiques en
+matière de cybersécurité.
+En annexe C, vous trouverez une liste d’évènements pouvant être redoutés pour les différentes missions que peut porter une
+collectivité et sur laquelle vous pouvez vous appuyer pour cartographier vos risques. Ne pas hésiter à nous faire remonter
+ceux qui vous sembleraient manquer dans cette liste ( pa.pincemin@rennesmetropole.fr ; jean.godot@all4tec.net ).
+Lorsqu’une petite commune souhaite travailler sur sa cybersécurité les premiers freins peuvent être tout simplement de ne
+pas savoir par où commencer et sur quelles sources d’information s’appuyer. Dans ce document, nous proposons, d’une part,
+quelques éléments pour la prise en compte de ce risque dans leur plan communal de sauvegarde (PCS), incluant l’élaboration
+du plan de continuité d’activité (PCA) et le mise en place de cellule de gestion de crise. D’autre part, nous répertorions des
+ressources adaptées à leur contexte.
+La prolifération des cyberattaques concerne toutes les structures. Les collectivités territoriales ne sont pas épargnées12. Les plus
+grandes comme les métropoles, ont en leur sein des services permettant de prendre en compte ce risque, tant en mettant en
+place les moyens pour se protéger, qu’en s’entrainant à gérer une crise cyber. Celles de taille intermédiaire ont l’opportunité
+de pouvoir profiter de mesures très efficaces mises en place en particulier par l’ANSSI pour monter en compétence. Par contre,
+pour les plus petites communes il est encore difficile d’adresser pleinement ce risque, par manque de moyens internes et
+de référent, même si des ressources sont mis à leur disposition comme celles de cybermalveillance.gouv.fr. Or, que ce soit
+en termes d’impact sur le fonctionnement de la commune, de responsabilité pénale ou de confiance entre l’institution et le
+citoyen, le sujet est de même nature que pour les autres collectivités.
+Une commune de moins de 3500 habitants peut s’apparenter à une petite entreprise, de par le nombre d’agents qui compose
+son effectif, le peu de cadres et le type des activités internes qu’elle doit mener telles que la gestion des ressources humaines
+ou encore la gestion administrative et financière.
+En revanche comme toute collectivité, leur spécificité est, d’une part, la diversité des activités opérationnelles à mener, pour
+beaucoup de service public qui, uniques, se doivent d’être résilientes (gestion de l’état civil, d’une cantine et de la distribution
+des repas, du cimetière, de la voirie et des espaces verts, etc.). D’autre part, le public pour qui elles sont destinées est très
+large, c’est-à-dire chaque citoyen de la commune, et conduit au recueil de multiples données personnelles dont la protection
+est un enjeu majeur, y compris pour le lien de confiance entre la collectivité et les citoyens.
+1 https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-008.pdf 3 Une solution dite SaaS (« Software as a Service » ou en français : « logiciel en tant que service ») est une solution logicielle
+2 https://umap.openstreetmap.fr/fr/map/attaques-cybersecurite-aupres-dorganismes-publics_821557#6/46.868/-1.791 applicative hébergée dans le cloud et exploitée en dehors de la collectivité par un tiers, aussi appelé fournisseur de service.

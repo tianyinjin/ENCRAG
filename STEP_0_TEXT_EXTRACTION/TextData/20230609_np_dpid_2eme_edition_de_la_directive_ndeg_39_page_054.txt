@@ -1,0 +1,34 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Appliquer les mesures de protection physique définies dans l’IGI 1300 et l’IM 900
+PHY1 ORG si le système industriel traite de données classifiées ou portant une mention de O
+protection Diffusion Restreinte.
+Mettre en place des mécanismes de contrôle d’accès adaptés aux enjeux de
+ORG
+PHY2 sécurité du système industriel ou conformes aux réglementations selon la nature O
+TECH
+du système ou son niveau de confidentialité.
+Définir et mettre en œuvre une politique de contrôle d’accès aux locaux, aux
+armoires et aux coffrets abritant des équipements du système industriel (gestion
+des accès aux locaux, mécanismes de contrôle d'accès, gestion des clés et des
+PHY3 ORG codes d’alarme, etc.). O
+Les mécanismes de contrôle d’accès sont adaptés aux enjeux de sécurité du
+système industriel ou conformes aux réglementations selon la nature du système
+et son niveau de confidentialité.
+Définir le personnel explicitement autorisé, voire habilité, à accéder sans
+PHY4 ORG accompagnement aux locaux abritant des équipements du système industriel. La O
+liste de ce personnel doit être tenue à jour.
+Tracer l’accès aux locaux, notamment les locaux techniques, armoires, coffrets
+ORG
+PHY5 abritant des éléments sensibles du système industriel, y compris pour le personnel O
+TECH
+accompagné. Les traces sont conservées un an.
+Mettre en place un dispositif de détection d'intrusion et de vidéosurveillance pour
+les locaux ou zones physiques les plus sensibles en cas de risques d'intrusion
+PHY6 ORG C R O
+physique jugés non négligeables, en particulier pour les locaux et zones non
+occupés de manière permanente.
+PHY7 ORG Déployer les serveurs et les postes d’exploitation dans des locaux différents. R O O
+Installer les serveurs dans des locaux fermés sous contrôle d’accès, si possible
+PHY8 ORG R O O
+dans des salles informatiques ou locaux techniques.
+DIR-39 SNSI – 2eme édition Page 54 | 79

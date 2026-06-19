@@ -1,0 +1,81 @@
+PôlE d’ExcEllENcE cyBER
+Cybersécurité et santé – niveaux de criticité Les cyber vulnérabilités (potentielles) des systèmes de santé
+Il est aussi important de déterminer le niveau de criticité d’un appareil ou d’une les vulnérabilités potentielles sont nombreuses et les différents domaines
+application afin d’être en mesure d’adapter sa stratégie de cybersécurité. d’activités sont concernés . les cyber-vulnérabilités sont des failles de sécurité,
+et par conséquent, de potentielles portes d’entrées pour les attaques cyber .
+le graphique ci-dessous ne couvre pas tous les cas d’usages mais il nous aide
+La figure ci-dessous résume ces vulnérabilités.
+à évaluer un niveau de criticité d’une application .
+Niveaux de cyber-criticité et secteur de la santé Cyber vulnérabilités des systèmes de santé
+Télémédecine •
+EMERGENCY
+NURSE
+SMART RESPONSE Téléconsultation •
+INFRASTRUCTURE Télédiagnostic •
+Déports d’écran •
+• Bâtiments intelligents
+Hospitalisation •
+SMART DOCTOR à domicile • BMS/BAS - HVAC
+HOME
+Big data • • Gestion d’énergie
+Dossier patient • • Contrôle d’accès
+informatisé • Alarmes, CCTV
+Dossier médical • • Systèmes
+partagé
+de localisation
+SMART Fichiers • • Systèmes
+GADGETS de personnels
+d’informations
+Fichiers de patient •
+• Cloud (SaaS)
+Agendas partagés •
+TECHNICIAN • Stockage de données
+Mon Espace Santé •
+• Workflow
+MSSanté •
+ROBOTS • ICS/SCADA
+ApCV •
+• Facturation
+HHAAUUTTEEMMEENNTT eCPS •
+SMART CCRRIITTIIQQUUEE • Gestion de paie
+O SE N N -B S O O D R Y S HOSPITAL TTRRÈÈSS CCRRIITTIIQQUUEE Pro Santé Connect • • Gestion du personnel
+Réseaux télécom •
+CCRRIITTIIQQUUEE • Gestion des stocks
+Capteurs, •
+FFAAIIBBLLEEMMEENNTT • Postes administratifs
+CCRRIITTIIQQUUEE sondes, IOT
+Source : Précédente version catalogue
+• Messagerie
+Implants, télémétrie •
+• Tous Anti-Covid
+Prothèses bioniques •
+• TAC Verif
+Toute solution ou produit destiné à contribuer au parcours de santé, à la Équipement •
+de mesure • ...
+délivrance des soins, aux interventions d’urgence, au bien-être quotidien du
+Équipement •
+patient ou au diagnostic par des professionnels de santé peuvent être consi-
+d’analyse
+dérés comme hautement critiques du point de vue de la cybersécurité .
+Véhicules connectés •
+concernant les capteurs et autres équipements de mesure, le niveau de criti-
+cité dépendra des cas d’usages pour une pathologie donnée . Un capteur de
+monitoring cardiaque est bien entendu hautement critique alors qu’un simple
+podomètre peut être considéré comme faiblement critique.
+Par exemple, les centres de soins, les hôpitaux et autres institutions de santé
+De même pour une prothèse bionique ou un robot d’assistance. Un appareil
+utilisent des bâtiments de plus en plus intelligents et connectés . ces bâtiments
+d’assistance respiratoire ou un pacemaker est hautement critique par rapport
+possèdent de nombreuses vulnérabilités potentielles . En effet ils sont gérés
+à une prothèse de jambe connectée, qui elle-même est plus critique qu’une
+par des systèmes de gestion Technique du bâtiment (gTb), connectés sur
+simple prothèse auditive, par exemple .
+l’Internet au travers de passerelles (Gateway) pour permettre à des appli-
+le niveau de criticité des échanges de données peut varier en fonction de la cations BMS (Building Management System) ou BAS (Building Automation
+nature des données et de leur destination . Une simple information d’horaire System) de contrôler à distance le chauffage, l’air conditionné, HVAc (Heating,
+de rendez-vous pour une consultation est bien entendu moins critique qu’une Ventilation Air conditioning), l’éclairage, les détecteurs, les alarmes incendie
+information sur l’identité (INS – Identité Nationale de Santé) ou le diagnostic et autres, les systèmes de contrôle d’accès, les caméras de vidéo protection
+d’un patient . Il est impératif de s’assurer de la conformité à la nouvelle régle- CCTv (Closed-Circuit Television), les ascenseurs, la production autonome
+mentation sur la protection des données (RGPd) ainsi que des règles qui d’énergie, le stockage de cette énergie, etc .
+régissent le numérique en santé .
+14 CyberLab CATALogUe De servICes eT De PresTATAIres Cyber APPLIqUés AU DoMAIne De LA sAnTé Novembre 2021 15

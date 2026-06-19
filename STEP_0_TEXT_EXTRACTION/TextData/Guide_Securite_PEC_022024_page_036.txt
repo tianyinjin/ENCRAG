@@ -1,0 +1,32 @@
+POLE D'EXCELLENCE CYBER
+• La destruction des supports ayant contenu les sauvegardes : ne jetez jamais les supports endommagés, détruisez-les, assurez-
+vous de la destruction de leurs contenus (la destruction physique pour les supports amovibles, la démagnétisation pour les bandes
+magnétiques).
+Quelques soit les périmètres, les types ou les fréquences des sauvegardes définies dans le plan, les collectivités peuvent s’appuyer sur
+la stratégie de sauvegarde, appelée « 3-2-11 » , basée sur les principes suivants :
+- Réaliser 3 copies de données2 au moins ;
+- Sur 2 supports différents hébergés en interne ;
+- Et sur 1 site externe.
+Au besoin, la stratégie de sauvegarde « 3-2-1 » peut être adaptée. Par exemple, lorsque la sauvegarde externe n’est pas possible/
+envisageable pour la collectivité, vous pouvez mettre la stratégie « 3-3 », qui consisterait à faire 3 copies au moins sur 3 supports
+différents hébergés en interne. Mais attention de ne pas garder tous les supports de sauvegarde au même endroit.
+Dans tous les cas, au moins l’un des supports de sauvegarde doit être amovible R2 , par exemple un disque dur externe, ou
+une bande magnétique. En effet, un serveur destiné à héberger les sauvegardes est en permanence connecté au réseau interne de
+la collectivité ce qui le rend vulnérable aux attaques par rançongiciel. Le bon usage de supports amovibles permet de protéger les
+sauvegardes d’une infection et de conserver les données critiques à la reprise d’activité.
+Recommandations à suivre afin de sécuriser les supports de sauvegarde amovibles :
+• Préférez un disque dur externe à une clé USB R3 : une clé USB peut être plus facilement perdue, endommagée ou volée.
+• Le support de sauvegarde doit être dédié R4 : c’est-à-dire réservé exclusivement à la tâche « sauvegarde ».
+• Pensez à la capacité de stockage du support R5 : celle-ci doit être supérieure à la capacité de stockage du système à sauvegarder.
+• Chiffrez le support contenant les sauvegardes R6 : le chiffrement protège les sauvegardes contre les accès non autorisés.
+Conservez le mot de passe/la clé de déchiffrement en lieu sûr (voir la fiche 3 « Mots de passe »).
+• Protégez les supports contenant les sauvegardes R7 : identifiez et étiquetez chaque support amovible de sauvegarde. Stockez-
+les dans un espace protégé contre les menaces physiques et environnementales (vols, chocs, incendies, dégâts des eaux, perturbations
+magnétiques, etc.) et physiquement éloigné des composants du système sauvegardé.
+• Déconnectez le support dès que la sauvegarde est terminée R8 : afin de le protéger contre une éventuelle attaque.
+Pour appliquer certains de ces conseils, vous pouvez vous appuyer sur des tutoriels suivants : « Sauvegarder les fichiers », « Restaurer
+les fichiers », « Sauvegarder Windows 10 à l’aide d’une image système », « Restaurer Windows 10 à partir d’une image système »,
+« Mettre en place un conteneur chiffré VeraCrypt ».
+1 https://www.economie.gouv.fr/files/170922_politiques-sauvegardes_v1.1.pdf
+2 Une copie principale et deux sauvegardes.
+36

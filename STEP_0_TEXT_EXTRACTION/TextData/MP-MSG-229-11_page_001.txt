@@ -1,0 +1,40 @@
+Orchestrating Manned-Unmanned Missions Using AI-Based
+Tasking System Across Multi-Domain Operations in M&S
+Tanya S. Paul
+Thales, cortAIx Labs
+1 avenue Augustin Fresnel, 91767 Palaiseau cedex
+FRANCE
+tanya.paul@thalesgroup.com
+Nicolas Duclos-Hindie
+Thales, cortAIx Labs
+1405 boulevard du Parc-Technologique, Quebec, Qc G1P 4P5 Canada
+CANADA
+nicolas.duclos-hindie@thalesgroup.com
+Daniel Lafond
+Thales, cortAIx Labs
+1405 boulevard du Parc-Technologique, Quebec, Qc G1P 4P5 Canada
+CANADA
+daniel.lafond@thalesgroup.com
+ABSTRACT
+The growing incorporation of unmanned systems (UAVs, UGVs, USVs, UUVs) within all domains is
+reshaping military operations, from planning to mission execution. NATO regularly demonstrates interest in
+training exercises such as REPMUS (Robotic Experimentation and Prototyping with Maritime Unmanned
+Systems), where the synchronization of hybrid manned-unmanned teams is critical. STAR (Sharing Tasks
+with Autonomous Resources) is an AI-driven tasking tool designed to share mission tasks across manned and
+unmanned systems, supporting planning, tasking, orchestration, and execution of coordinated multi-domain
+operations. STAR integrates multi-modal data, performs capability reckoning (assess capacity for
+autonomous and human agents), and delivers AI-based tasking suggestions to Command and Control (C2)
+systems with human oversight. Through modelling & simulation (M&S) environments like Unreal Engine,
+Cesium 3D geospatial modeling, and JSBSim flight dynamics, STAR enables high-fidelity mission execution
+including representative manned and unmanned vehicles with their appropriate assets and AI-based
+capabilities in realistic scenarios such as underwater protection, air-sea-ground combat, or search and
+rescue. STAR enables Man-Machine Interaction while allowing C2 operators to validate or override the
+tasking recommendation. Achieving tasking accuracy up to 89% using machine learning models, STAR
+shows promise to improve mission readiness and enhance coordination, interoperability, and
+synchronization of effects across joint multi-domain operations.
+1.0 INTRODUCTION
+As unmanned systems play an increasingly prominent role in multi-domain operations, new challenges arise
+in testing and training force readiness. These systems are reshaping warfare, prompting a need to redefine
+roles, responsibilities, interdependencies, and trust within military operations. NATO has prioritized adapting
+to these technological advances without fundamentally altering its operational doctrines. As unmanned
+STO-MP-MSG-229 11 - 1

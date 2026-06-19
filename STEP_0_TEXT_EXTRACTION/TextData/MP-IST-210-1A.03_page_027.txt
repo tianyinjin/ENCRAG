@@ -1,0 +1,38 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+for the CV systems operating on EO and IR data (see Table 9). On the EO dataset, we observe a Missed
+Detection Rate of 63.8%, and a False Alarm Rate of 83.09%. On the IR dataset, we observe a Missed
+Detection Rate of 92.73%, and a False Alarm Rate of 65.65%. This shows that the CV system under test
+does provide a significantly lower false alarm rate on IR data, but at the cost of missing almost all the drones
+in the images. Again, this is not surprising given that open-source ‘world’ models tend to be optimized for
+full-color images, as described in earlier sections, therefore leading to significant performance degradation
+when applied to IR use cases even when fine-tuning is applied. Notwithstanding that, note we did not fine-
+tune the model in this case.
+Table 9. Missed Detection Rate and False Alarm Rate Results for EO and IR datasets (without
+IoU threshold).
+GT count (# Missed (# of Predicted (# Missed False
+of drones) drones) of drones) Detection Alarm
+Rate (%) Rate (%)
+EO 489 312 988 63.80 83.09
+dataset
+IR dataset 619 574 131 92.73 65.65
+4.1.3 Insights into performance differences across scenarios
+Further, we also observe clear performance differences for the tested model operating under ideal conditions
+as compared to more challenging conditions, as we may observe further degradation in its drone detection
+capabilities in the presence of compression noise, differing brightness conditions, and detection of
+single/multiple drones as detailed in our test cases above. We further investigate its performance within
+different levels of these categories and arrive at the following results.
+4.1.3.1 Performance differences between test cases of different background-light combinations
+From examining the data in Table 10, scenarios containing generally dark environments cause the CV
+system to perform poorly, with the lowest mAPs as a group ranging from 0.02 to 0.03 (sky/urban/foliage,
+dark), and at a generally high confidence level. Of the three environments, the foliage background also
+produces the worst results, with mAP ranging from 0.02 - 0.03. Notably, the CV system seemed to perform
+its best under (sky, bright), (urban, bright) scenarios, with mAP at 0.63 and 0.51 respectively with a
+confidence interval of 98% and above. This suggests that the CV system’s ability to perform under these
+conditions, even in the real-world, would be expected to be rather stable under ideal conditions, but may be
+prone to sudden and significant performance degradation should these conditions change (e.g. in an
+incoming storm, when clouds rapidly form and crowd out sunlight). A professional evaluation of such a
+system in our hypothetical scenario would consider the weather patterns, overall lighting conditions in
+various seasons within a temperature climate and design the appropriate safeguards and risk mitigation
+measures accordingly.
+STO-MP-IST-210 1A.03 - 27

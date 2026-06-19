@@ -1,0 +1,55 @@
+33
+connu dans le domaine de la propagande, la manipulation vérifier qu’elles en sont . Une méthode fréquemment
+d’information en ligne a su gagner son statut d’arme utilisée s’appuie sur la similarité entre images (avec des
+informationnelle à part entière : préparation, ciblage, approches sémantiques ou des fonctions de hachage),
+planification, opération, etc . sont des étapes désormais en comparant des images suspectes avec des bases
+classiques que l’on retrouve dans les campagnes de données regroupant des images produites dans le
+de désinformation orchestrées à grande échelle, passé . Avec l’apparition de modèles très performants
+sophistiquées techniquement, et à visée géopolitique . pour générer (ou modifier) des images, des vidéos
+et des textes de manière très réaliste, de nombreuses
+Sur la détection et l’importance de détecter tôt méthodes, fondées elles-mêmes sur des méthodes
+Un des fondamentaux du journalisme est de distinguer d’apprentissage automatique, ont été développées afin
+les sources fiables de celles qu’il faudrait éviter . Le monde de détecter ces créations automatiques . Par exemple,
+de la presse s’est donc doté de services dédiés à la InVID permet de vérifier si des fichiers vidéo ont été
+vérification des informations (par exemple, AFP Factuel) . altérés en utilisant des approches de Deep Learning(4) .
+Malheureusement, l’arrivée de LLM produisant des textes Toutefois, ces approches doivent constamment être
+et images très crédibles sur les réseaux sociaux fait qu’il est améliorées pour rester performantes face à l’amélioration
+devenu de plus en plus difficile au fil du temps de détecter, très rapide des modèles de génération, mais aussi
+vérifier et arrêter ces campagnes de désinformation . devenir beaucoup plus rapides pour pouvoir répondre
+Par ailleurs, il est très difficile pour un cerveau humain à l’augmentation importante du nombre de contenus
+d’identifier suffisamment tôt l’émergence de fausses produits tous les jours, en particulier au format vidéo sur
+informations . Or c’est justement au moment où celles-ci des plateformes telles que TikTok, Instagram ou YouTube .
+émergent qu’il est possible d’empêcher leur propagation,
+et d’éviter que ces fausses informations polluent les esprits
+d’une population (par exemple, les théories du complot) .
+Les IA et autres algorithmes permettent d’apporter des
+solutions pouvant traiter rapidement une très grande
+quantité de données, idéalement en temps réel . De
+nombreuses méthodes qui permettent d’identifier les
+infox s’appuient sur l’analyse de graphes, notamment
+d’utilisateurs . En effet, une proportion importante de
+vecteurs de propagation sont des botnets, pour lesquels
+il est possible d’identifier le schéma de fonctionnement,
+en particulier leurs interactions avec les utilisateurs
+des réseaux sociaux (par exemple via des « copier-
+coller » ou des « re-tweets » systématiques) . Toutefois,
+ces approches ont l’inconvénient de nécessiter une
+construction de graphe qui n’est pas aisée à analyser
+en temps réel . D’autres approches reposent sur du
+traitement automatique des langues . L’analyse des
+sentiments permet, par exemple, d’identifier tous les
+messages particulièrement négatifs ciblant des individus,
+des organisations ou des lieux pouvant être la cible de
+désinformation(2) . La détection automatique de textes
+contradictoires permet d’identifier à partir de textes de
+référence – la « vérité » – tous les messages sur les réseaux
+sociaux qui cherchent à contredire des faits (par exemple,
+tout message qui prétend que la Terre est plate) . Le topic
+modeling permet de regrouper automatiquement et de
+manière non supervisée tous les documents traitant d’un
+même sujet . En utilisant des approches incrémentales(3),
+il devient possible d’identifier de nouveaux sujets le plus
+tôt possible, en particulier afin d’identifier des anomalies
+dans les sujets qui émergent sur les réseaux sociaux .
+Ces différentes approches permettent de détecter de
+potentielles fausses informations, et l’IA permet de

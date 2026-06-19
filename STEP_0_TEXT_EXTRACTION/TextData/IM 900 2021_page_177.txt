@@ -1,0 +1,45 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.9
+DROIT PRIVE
+(cid:3)
+LES ACSSI
+6.9(cid:3):
+Références(cid:3):
+(cid:129) IGI 1300 – 6.6.3.3
+(cid:129) II n°910/SGDSN/ANSSI du 22 octobre 2013 relative aux articles contrôlés de la
+sécurité des systèmes d’information (ACSSI)160
+(cid:129) II 500 bis /SGDN/TTS/SSI/DR du 18 octobre 1996 relative au chiffre dans la sécurité
+des systèmes d’information.
+(cid:129) Directive n°34/DEF/DGSIC du 10/03/2015 relative aux articles contrôlés de la
+sécurité des systèmes d'information du ministère de la défense
+Points clés(cid:3):
+(cid:129) La qualification d’article contrôlé de la sécurité des systèmes d'information
+(ACSSI) garantit la traçabilité comptable et géographique de ces éléments
+contribuant à la sécurité des SI.
+(cid:129) La qualification comme ACSSI ne préjuge pas de la classification de cet objet (qui
+peut être aussi NP ou DR).
+(cid:129) Pour manipuler des ACSSI, une décision d’accès est nécessaire (DACSSI). Elle est
+délivrée après une formation spécifique.
+1. Définitions
+Certains moyens, tels que des dispositifs de sécurité ou leurs composants, et certaines
+informations relatives à ces moyens (spécifications algorithmiques, documents de
+conception, clés de chiffrement, rapports d’évaluation, etc.) peuvent nécessiter la mise
+en œuvre d’une gestion spécifique visant à assurer leur traçabilité tout au long de leur
+cycle de vie. Ces moyens qui, par leur intégrité ou leur confidentialité, contribuent à la
+sécurité d'un système d'information, sont dénommés (cid:2) articles contrôlés de la sécurité
+des systèmes d'information (cid:3) (ACSSI).
+La décision de classer ACSSI un moyen est prise par l’ANSSI après avis de la commission
+d’agrément du dispositif de sécurité concerné. Dans le cas où le dispositif de sécurité
+n’est pas soumis à agrément, l’autorité d’homologation d’un système d’information qui
+met en œuvre un tel dispositif de sécurité peut décider après avis de la commission
+d’homologation de classer ACSSI ce dispositif ou les composants qui y sont liés.
+La qualification ACSSI et la classification procèdent de deux logiques différentes. La
+qualification ACSSI vise à apporter une assurance de traçabilité (la localisation doit être
+connue à tout moment), la protection physique, logique et juridique de l’ACSSI étant
+apportée par son niveau de classification. Ainsi, les ACSSI classifiés sont à la fois ACSSI
+et classifiés Secret (ACSSI S) ou Très Secret (ACSSI TS). Les ACSSI non classifiés sont
+Diffusion Restreinte (ACSSI DR) ou Non protégé (ACSSI NP).
+(cid:3)
+160 http://circulaire.legifrance.gouv.fr/index.php?action=afficherCirculaire&hit=1&r=37647
+171

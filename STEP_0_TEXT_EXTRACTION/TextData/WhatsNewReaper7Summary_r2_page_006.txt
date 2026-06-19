@@ -1,0 +1,22 @@
+REAPER 7.0: What’s New
+Arrange View Mouse Modifier Overrides
+You might have noticed that there are no mouse modifiers listed for left drag in the arrange view category. This
+is basically because their actions are “hard-wired” into REAPER for some core tasks, such as:
+Left drag Remove any existing time selection and create new one
+Ctrl Left drag Create empty media item
+However, REAPER recognizes that these might not be
+suitable for your particular workflow. For this reason, you
+can create up to four alternative sets of arrange view
+mouse modifiers – A, B, C and D.
+By default:
+Set A includes options suitable for use with marquee.
+Set B includes options suitable for use with razor editing.
+Set C can be used in conjunction with fixed lane comping,.
+Set D includes options for making time selections.
+You can, of course, change or modify any of these assignments, for example, if you prefer to use them in some
+other context.
+Sets A and B are usually activated/deactivated from the toolbar.
+Set C is usually activated/deactivated from the Fixed Menu lanes context menu.
+There are also individual actions to activate/deactivate all four sets. Probably most useful are the Toggle
+arrange view override mouse modifiers {A, B, C or D, as required] on/off.
+Page 6

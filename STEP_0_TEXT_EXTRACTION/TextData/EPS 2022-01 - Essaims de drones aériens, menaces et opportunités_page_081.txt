@@ -1,0 +1,52 @@
+Bien sûr, tous ces problèmes peuvent être résolus au coup par coup en ajoutant des tests et des règles
+dans le système, mais de tels dysfonctionnements ne peuvent tous être prévus au moment de la
+conception, ni observés en simulation ; d'où la nécessité d'un modèle suffisamment général pour faire
+face à ce type d'aléa.
+- TRAVAIL D’EQUIPE
+On considère qu’un groupe d’agents constitue une équipe lorsqu’ils sont capables de raisonner sur
+l’activité du groupe afin d’avoir un comportement collectif cohérent. Une telle approche a été développée
+dans le cadre de TacAir-SOAR, puis STEAM200,201, afin justement de pallier aux défauts de l’approche
+de coordination réactive dans les systèmes de simulations mentionnés ci-dessus.
+SOAR est une architecture cognitive symbolique, créée par John Laird, Allen Newell, et Paul
+Rosenbloom à l’Université Carnegie-Mellon. C’est à la fois un modèle de la cognition et une
+implémentation d’une architecture de programmation pour l’Intelligence artificielle (IA). Depuis ses
+débuts en 1983 et sa présentation dans un article en 1987, SOAR a été largement utilisé par les
+chercheurs en IA. Le logiciel est Open Source et, bien qu’il puisse sembler dépassé, il est maintenu par
+l’entreprise Soartech (Soar Technology Inc), qui a reçu environ 100 mio$ à travers quelques 200 SBIR
+depuis 1998. Notons, en outre, que Soartech met en avant sa technologie SwarmMATE™ parmi
+d’autres applications défense.
+L’approche STEAM, fondée sur SOAR, se concentre sur la notion d'équipe d’agents, coopérant pour
+atteindre un but commun, plutôt que sur la simple coordination réactive entre individus. Afin de pouvoir
+travailler en équipe dans un environnement complexe et dynamique, STEAM utilise des plans d'équipe
+réactifs qui décrivent les activités de l’équipe et se décomposent de manière hiérarchique jusqu'aux
+activités individuelles. Pour exécuter un tel plan, un modèle de travail d'équipe est nécessaire et le cadre
+théorique des intentions communes (joint intentions)202,203 est mobilisé. Cette approche permet un
+fonctionnement flexible de l'équipe et évite d'avoir à fournir un plan de coordination fixe, qui serait
+souvent mis en défaut étant donnée la nature complexe et dynamique de l'environnement.
+Nous présenterons ici, de manière simplifiée, la version légèrement modifiée du cadre des intentions
+communes qu'utilise STEAM ; Le fait que l'équipe Θ a l'intention conjointe d'accomplir une action se
+traduit par un but persistant commun (joint persistent goal, JPG) de rendre p vrai où p représente le
+résultat de l'action. JPG(Θ, p) est valide si, et seulement si, trois conditions sont satisfaites:
+- Tous les membres de l'équipe croient mutuellement que p est actuellement faux
+- Tous les membres de l'équipe savent mutuellement qu'ils désirent que p devienne vrai ;
+- Tous les membres de l'équipe croient mutuellement que chacun a p comme but faible (weak
+goal, WG) jusqu'à ce que p soit mutuellement connu comme vérifié, invérifiable ou non
+pertinent. WG(μ, p, Θ) signifie que l'agent μ considère p comme faux et désire qu'il devienne
+vrai, ou bien que μ ayant découvert que p est vérifié, invérifiable ou non pertinent, il désire que
+cela devienne la croyance commune de l'équipe.
+Ce cadre a été modifié en deux points :
+- Communications. Satisfaire WG(μ, p, Θ) nécessite de la part de μ de communiquer avec tous
+les autres membres de l'équipe, et ceci se produit à chaque fois qu'une action est accomplie.
+Or, des contraintes sévères peuvent peser sur les communications, ce qui nécessite d'éliminer
+une partie des échanges d'informations par un mécanisme de comparaison entre coût (risque)
+de l'absence de communication et coût de la communication ;
+- Dissolution de buts. Dans le cadre classique des intentions communes, si un individu μ
+abandonne l'intention JPG(Θ, p), cela implique la dissolution de JPG(Θ, p), ce qui implique que
+l'équipe abandonne l'intention d'accomplir la mission dès qu'un de ses membres est abattu. Au
+200 M. Tambe (1996a). Teamwork in real-world, dynamic environments. In Proceedings of the
+international conference on multi-agents systems. ICMAS.
+201 M. Tambe (1997). Towards flexible teamwork. Journal of artificial intelligence research, 7:83–124.
+202 P. Cohen et H. Levesque (1991). Teamwork. Nous, 25(4):487–512.
+203 H. Levesque, P. Cohen, et J. Nunes (1990). On acting together. In Proceedings of AAAI. Morgan
+Kaufmann Publishers, Inc.
+81

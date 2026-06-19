@@ -1,0 +1,42 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+Annexe 30 – Protection physique des informations et supports classifiés : méthode et
+recommandations
+1. Méthode et effet final recherché en matière de protection physique des informations et supports
+classifiés
+Dans un contexte où les malveillants disposent de capacités élevées, l’identification des moyens à mettre en
+œuvre pour garantir la protection physique des informations et supports classifiés, déclinée dans la politique
+de protection du secret, s’appuie sur une analyse de risques réalisée par l’organisme abritant ou, le cas échéant,
+par le service enquêteur.
+Conformément au principe de défense en profondeur qui doit guider l’analyse de risques, la protection des
+informations et supports classifiés s’obtient par une combinaison globale de moyens techniques, humains et
+organisationnels ainsi que, pour les systèmes d’information (SI), logiques.
+Les moyens physiques mis en œuvre visent à détecter et freiner l’intrusion afin de permettre l’intervention. Ils
+doivent, en outre, permettre d’assurer la traçabilité en cas d’effraction. Ils s’inscrivent dans la profondeur en
+étageant différentes couches de protection, appelées également barrières (périphériques176, périmétriques177 et
+intérieures), qui s’appuient essentiellement sur :
+- l’emprise (ou le site) et/ou le bâtiment ;
+- le local (ou un groupe de locaux regroupés en zone) ;
+- le meuble ;
+- le système d’information (au niveau du poste utilisateur) contenant les informations et supports
+classifiés.
+Le choix du dispositif global de protection par le responsable d’organisme, sur les conseils de l’officier de
+sécurité, doit permettre d’atteindre l’équation de sûreté, définie comme suit (T pour « temps ») :
+T freinage > T de détection et de traitement de l’alarme + T intervention
+(cid:55)(cid:72)(cid:80)(cid:83)(cid:86)(cid:3)(cid:71)(cid:72) (cid:55)(cid:72)(cid:80)(cid:83)(cid:86)(cid:3)(cid:71)(cid:72)(cid:3)(cid:71)(cid:112)(cid:87)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81) (cid:55)(cid:72)(cid:80)(cid:83)(cid:86)
+(cid:73)(cid:85)(cid:72)(cid:76)(cid:81)(cid:68)(cid:74)(cid:72) (cid:72)(cid:87)(cid:3)(cid:71)(cid:72)(cid:3)(cid:87)(cid:85)(cid:68)(cid:76)(cid:87)(cid:72)(cid:80)(cid:72)(cid:81)(cid:87)(cid:3)(cid:71)(cid:72)(cid:3)(cid:79)(cid:182)(cid:68)(cid:79)(cid:68)(cid:85)(cid:80)(cid:72) (cid:71)(cid:182)(cid:76)(cid:81)(cid:87)(cid:72)(cid:85)(cid:89)(cid:72)(cid:81)(cid:87)(cid:76)(cid:82)(cid:81)
+Le temps de freinage équivaut au temps mis par l’intrus pour franchir les différentes barrières de protection
+placées entre la détection et les actifs ou la zone à protéger.
+Le temps de détection et de traitement de l’alarme correspond au délai existant entre l’alarme par le premier
+moyen de détection d’intrusion et sa prise en compte effective par l’élément chargé d’exécuter l’intervention
+dans les meilleurs délais. Il inclut les délais de levée de doute et de transmission.
+Le temps d’intervention est le temps mis par l’élément chargé de l’intervention (interne ou externe178 à
+l’emprise du lieu abritant) pour se trouver au cœur de la zone d’action. Il tient compte de la distance à parcourir
+pour se rendre sur place, du temps moyen constaté pour la parcourir et de la disponibilité moyenne de l’élément
+d’intervention. En cas de doute, le temps majorant est retenu.
+Des moyens de freinage sont déployés en nombre et en nature suffisants pour que la somme des délais de
+freinage, depuis la première barrière dotée d’une détection (l’extérieur de l’emprise (ou site) ou du bâtiment)
+jusqu’aux informations et supports classifiés, soit supérieure au temps cumulé nécessaire à l’intervention.
+176 Partie extérieure de l’emprise (ou site) à protéger, souvent matérialisée par la limite de propriété.
+177 Zone située entre la partie extérieure de la propriété et les locaux à protéger, souvent matérialisée par l’enveloppe du bâtiment
+178 L’élément d’intervention peut être externe et s’entend au sens des forces de sécurité intérieure, d’une société de gardiennage, etc.
+179

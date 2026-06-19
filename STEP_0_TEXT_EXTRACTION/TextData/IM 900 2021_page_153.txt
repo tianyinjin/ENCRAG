@@ -1,0 +1,49 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.2
+DROIT PRIVE
+(cid:3)
+LE PROCESSUS D’HOMOLOGATION
+6.2(cid:3):
+Références :
+(cid:129) Directive européenne (cid:2) NIS141 (cid:3) (Network and Information Security - directive sur la
+sécurité des réseaux et des systèmes d’information (cid:3))
+(cid:129) Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés
+modifiée, dite (cid:2) loi informatique et libertés (cid:3) (LIL), reste applicable, dans une version
+remise à jour par la loi n° 2018-493 du 20 juin 2018 relative à la protection des
+données personnelles, complétée par ses décrets d'application
+(cid:129) Articles L.1332-6-1 à L.1332-6-6 du code de la défense
+(cid:129) IGI 1300 – 6.1
+(cid:129) II n°901/SGDSN/ANSSI relative à la protection des systèmes d’information sensibles
+(cid:129) Référentiel général de sécurité - version 2.0 du 13 juin 2014
+Points clés(cid:3):
+(cid:129) L’homologation d’un SI consiste à évaluer les risques encourus afin de les traiter ou
+de les accepter. Elle fournit un niveau de confiance dans l’usage et la protection
+des informations et du système d’information.
+(cid:129) La démarche d’homologation est un préalable à toute mise en service d’un SI, quel
+que soit son niveau de sensibilité ou de classification.
+(cid:129) La démarche d’homologation est globale(cid:3): elle doit prendre en compte
+l’écosystème métiers et IT, aussi bien interne qu’externe, dans lequel le SI
+concerné s’intègre dans toutes ses phases de vie.
+1. La démarche d’homologation
+La démarche d’homologation s’intègre dans le cycle de vie d’un système d’information
+(SI). Elle repose sur une analyse de risque globale et prend en compte tous les éléments
+indispensables au fonctionnement et à la sécurité du système. Elle permet de s’assurer
+que les risques pesant sur ce système au regard des objectifs de sécurité, dans son
+contexte d’emploi, sont connus et maîtrisés. À cet effet, elle consiste à trouver le juste
+équilibre entre les risques résiduels acceptables, les actions à conduire pour la
+sécurisation et les contraintes techniques ou organisationnelles, en prononçant les
+arbitrages nécessaires, de manière formelle, par un responsable qui a autorité pour le
+faire.
+L’homologation de sécurité d’un SI correspond à une démarche globale(cid:3): le périmètre du
+SI à homologuer comporte tous les éléments indispensables au fonctionnement et à la
+sécurité du système. Il inclut les éléments fonctionnels et d’organisation, les éléments
+techniques, ainsi que le périmètre géographique et physique. L’homologation tient
+compte de l’environnement numérique du système d’information comme les systèmes
+en interface, les équipements externes pouvant être connectés au système, notamment
+lors d’opération de maintenance, etc.
+La démarche d’homologation débute par la définition de la stratégie d’homologation qui
+a pour objectif de préciser :
+(cid:3)
+141 http://eur-lex.europa.eu/legal-content/FR/TXT/?uri=uriserv:OJ.L_.2016.194.01.0001.01.FRA&toc=OJ:L:2016:194:TOC
+147

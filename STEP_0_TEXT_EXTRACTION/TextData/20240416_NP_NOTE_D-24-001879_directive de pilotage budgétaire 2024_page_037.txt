@@ -1,0 +1,44 @@
+4.1. Imputations budgétaires et spécificité du code RAMSES81
+Une des premières actions du RUO vise à s’assurer de la correcte imputation des dépenses sur la
+bonne activité budgétaire et le code RAMSES adéquat. Depuis 2018, le CICoS a obtenu l’autorisation
+de la DAF et du P178 d’utiliser dans Chorus un axe analytique spécifique dans le but d’y renseigner le
+domaine RAMSES. Cette autorisation a pour but de faciliter la saisie des consommations dans le fichier
+RAMSES et de pouvoir suivre analytiquement un certain nombre de dépenses en sus des comptes PCE
+existants et du référentiel de programmation.
+L’axe « nature détaillée ministérielle » doit être obligatoirement utilisé :
+ lors de la création de nouveaux EJ ou de DP directes ;
+ lors de la création d’une nouvelle ligne de gestion sur les EJ existants.
+Ne sont pas concernés par la saisie de cette information supplémentaire :
+ les activités relevant de l’AGSC, les EJ et les LG créés avant 2018 ;
+ les activités relevant de l’infrastructure et les EJ et LG créés avant 2020.
+L’axe nature détaillée ministérielle (code RAMSES) est rattaché à une activité budgétaire et à
+une seule.
+Nouveauté 2024 : il existe une exception, depuis la modification des activités électricité et gaz,
+pour les domaines RAMSES relatifs à ces deux énergies.
+A noter :
+ l’axe « nature détaillée ministérielle » doit être saisi dès l’initiation de la demande d’achat dans
+chorus formulaire ;
+ en revanche, il ne doit pas être utilisé comme un axe analytique spécifique de suivi des
+dépenses ;
+ l’imputation des cartes d’achat (CHA) : en application de règles interministérielles, il n’est plus
+possible de saisir, pour les opérations adossées aux CHA82, les codes RAMSES en les
+transcrivant directement dans Chorus. Consigne est donc donnée aux SUO de flécher au mieux
+les dépenses au moyen de l’activité budgétaire et du compte PCE via le ZJDP AE. Le PCE sera
+ainsi isolé par activité budgétaire porteuse du montant financier le plus important. Sur cette base,
+le SUO en déduira le domaine RAMSES à utiliser.
+4.2. Utilisation des centres de coût
+Au-delà des règles définies en la matière par le service du commissariat des armées (SCA) pour la
+comptabilité analytique, B. BUD rappelle que :
+ les centres de coût des dépenses relatives aux activités infrastructure de l’UO BdD ainsi que
+celles faisant référence au soutien courant du personnel (AACV), doivent faire mention de la
+formation ayant bénéficié de la prestation ;
+ les surcoûts relatifs aux dépenses Sentinelle doivent porter le centre de coût
+D0976A1000, opération Sentinelle ;
+ les dépenses liées à la participation des armées à différents dispositifs dissuasifs et
+défensifs des pays du flanc Est de l’OTAN, y compris formations partenaires, plus
+communément appelées surcoût Ukraine doivent quant à elles renvoyer aux centres de
+coûts : D006AM9000_ Renfor posture def et dis flanc Est Eup.
+81 Fichier des restitutions annuelles et mensuelles des situations d’engagement.
+82 NEMO n°2022/274 du 3 février 2022 émanant de la DCSCA relatif à l’implication de l’innovation financière cartes d’achat
+sur le référentiel RAMSES.
+37/92

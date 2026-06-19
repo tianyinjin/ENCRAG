@@ -1,0 +1,84 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+theticApertureRadar(SAR).Notably,thereisextensive ies on using reinforcement learning to improve energy
+researchonapplyingcomputervisiontodrones,actively efficiency during drone navigation [35], and research
+merging with other subjects like navigation [16], [17], into automated recharging systems for drones that are
+[18]. battery-operatedandautonomous[36].
+• The field of object detection in computer vision, par- • Finally,theembeddedsystemsinstalledindroneshave
+ticularly the detection of tiny objects from aerial per- performance limitations in terms of computational ca-
+spectives using drones, is an area of active research pacity,memory,andpowerconsumption.Duetothis,the
+[19]. In transportation [20] and agriculture [21], image integrationofheavydeeplearningmodelsisrestricted,
+segmentation is applied to divide images into multiple leadingtoresearchonlightweightdeeplearningmodels
+regions,ensuringeachregionhasconsistentmeaningor [37].
+characteristics.Thistechniqueisusedfordistinguishing
+roads,soil,andvarioustypesoftrees. A. THECONTRIBUTIONOFRESEARCH
+• Mappinginvolvescreating2Dor3Dmapsusingdrone Our study’s primary contribution lies in providing intuition
+sensor data, which include features like terrain, build-
+for the intelligence of military drones from an engineering
+ings, roads, and trees. Navigation is about determining
+perspective, based on a high level of understanding in the
+and following a route to a destination in a given en-
+militarydomain.Thedetailsareasfollows.
+vironment. There are studies on drones simultaneously
+performing mapping and navigation in simplified grid • First, we construct a scenario from a military domain
+perspective, focusing on a reconnaissance mission car-
+environments, applying reinforcement learning for this
+ried out by a military intelligent drone. This scenario
+purpose [22]. When considering navigation in a broad
+describes the process of the drone scouting a specific
+sense to include localization, path planning, and flight
+sector, detecting and tracking an enemy, and provid-
+control,itcanbesaidthatnavigationisthemostactively
+ing information with high detection reliability to the
+researchedareainthefieldofdroneintelligence,where
+decision-maker responsible for attack. Based on this
+deeplearningandreinforcementlearningareextensively
+scenario,wecreateacustomsimulationenvironment.
+applied[23],[24],[25].
+• Another promising research field related to the intelli- • Second, we examine the engineering technologies re-
+quired for the operation of military intelligent drones.
+gence of drones is Multi Agent Systems [26]. Swarm
+Thesetechnologiesencompassawiderange,fromtradi-
+drones apply multi-agent reinforcement learning for
+tional rule-based and Proportional-Integral-Differential
+tasksliketargettracking[27],networkresourcealloca-
+(PID)controltorecentadvancementsinartificialintel-
+tion[28],andweapon-targetassignment[29].
+ligence. Specifically, we conduct experiments on data
+• InthefieldofCommunication&Security[30],research
+augmentation using Generative Adversarial Network
+focusesonapplyingAItechnologiestoenhancenetwork
+(GAN) and the training of object detection algorithms,
+systemsfordrone-to-groundordrone-to-dronedataex-
+aswellasreinforcementlearningfordronemovement.
+change.Inamoredetailedexaminationofsecurity,there
+Theexaminationoftheseengineeringtechnologiesulti-
+isresearchutilizingreinforcementlearningtodetermine
+matelyprovidesinsightsintohowreinforcementlearn-
+theoptimaltrajectoryforUAVstoavoidjamming[31].
+ing can be applied at specific stages to enhance drone
+Jamming involves the intentional physical disruption
+intelligence, presenting solutions to the challenges en-
+of wireless signals, leading to the obstruction of com-
+countered.
+munication channels. Furthermore, studies are apply-
+ing PCA (Principal Component Analysis), CNN (Con-
+volutional Neural Network), and LSTM (Long Short- III. INTELLIGENTRECONNAISSANCEDRONECASESTUDY
+TermMemory)incombinationtodetectGNSSspoofing
+[32]. Spoofing is a deceptive practice where signals
+are manipulated to mimic or imitate specific devices
+or users, misleading the system. Adversarial attacks,
+designedtoconfusemachinelearningmodels,especially
+deep learning models, involve adding subtle changes
+to model input data, leading to incorrect predictions or
+classifications[33].Researchonadversarialattacksand
+defenses against deep learning-based drones includes
+studiesonadversarialpatchattacks[34].Theseattacks
+significantly decrease the image detection accuracy of
+dronenetworks.
+• Just as network issues are considered constraints in
+droneoperations,thefieldofpowerandenergymanage- FIGURE2. Poongsancorporation’sdroneinUnitysimulator.
+ment also faces challenges. In this area, there are stud-
+VOLUME11,2023 3
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

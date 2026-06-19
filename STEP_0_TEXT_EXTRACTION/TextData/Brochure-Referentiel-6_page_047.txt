@@ -1,0 +1,71 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+H.1 le Règlement Général de l’UE sur la Protection des données (RGPd26 et GdPR27 en Maîtrise des risques
+RGPD anglais) dont les sanctions sont entrées en vigueur le 25 mai 2018 renforce et les atteintes à la protection des données à caractère personnel ont donné lieu,
+harmonise la protection des données à caractère personnel28 pour l’ensemble par le passé, à des situations désastreuses à la fois pour les entreprises et pour
+des citoyens de l’UE. Il remplace la directive sur la protection des données per- les personnes touchées, avec pour conséquences des pénalités parfois élevées.
+sonnelles de 1995. contrairement à une directive qui fait l’objet d’une transpo-
+sition inévitablement différente dans chaque droit national, une règlementa- Avec l’activation prochaine des sanctions prévues par le RGPd, la conformité est
+tion s’impose ex abrupto dans tous les Etats Membres de façon homogène à devenue cruciale puisque des pénalités allant jusqu’à 4 % du chiffre d’affaires
+quelques exceptions près. le RGPd s’applique à toute organisation, publique mondial pourront être prononcées à l’encontre des entreprises défaillantes (art.
+et privée, qui traite des données personnelles pour son compte ou en tant que 83, 84 du RGPd et article 65 de la loi n°2016-1321 du 7 octobre 2016).
+sous-traitant, dès lors qu’elle est établie sur le territoire de l’Union européenne
+À mesure que la complexité des systèmes d’information des entreprises augmente,
+ou que son activité cible directement des résidents européens.
+les risques liés à la gestion des accès augmentent. de plus, l’ubiquité d’Internet a
+ce règlement impose des exigences entièrement nouvelles quant à la façon imposé d’une part le partage généralisé d’informations entre les sociétés et leurs
+dont les organisations doivent traiter ces données, ce qui implique, pour les en- partenaires et prestataires et, d’autre part, la pervasivité des accès aux ressources
+treprises, d’accroitre leurs efforts dans la gestion de la sécurité des informations de l’entreprise.
+et les investissements associés. Il est important de noter que le règlement (qui
+de ce fait, si les fuites d’informations les plus retentissantes (Sony, yahoo!, ...)
+est déjà en application, seule l’application des sanctions est différée à mars 2018)
+sont souvent l’œuvre d’acteurs extérieurs à l’entreprise, la majorité (en nombre
+s’impose à toutes les entreprises, européennes ou extra-européennes, ayant une
+et probablement en valeur) des brèches de sécurité proviennent de l’intérieur de
+activité qui accède à des données personnelles de citoyens de l’UE (art.3).
+l’organisation, où les conséquences d’un comportement négligent ou malfaisant
+le changement le plus important dans le cadre du RGPd est probablement l’ac- peuvent être démultipliées si une gestion rigoureuse des permissions et des
+cent mis sur la responsabilisation, une combinaison de contrôles opérationnels accès n’est pas opérationnelle. la protection des données se trouve au cœur du
+sur les systèmes et les données et la transparence de ces contrôles, y compris la RGPd (art.5).
+« protection des données par conception » (en tenant compte de la protection
+de la vie privée lors de la conception des systèmes et des produits), la sécurité Volatilité des permissions
+appropriée des données, l’exécution d’analyses d’impact sur la vie privée et la
+Au sein du SI d’une entreprise, les données sont continuellement importées,
+tenue de dossiers sur les activités de traitement.
+stockées, transférées vers et depuis des référentiels structurés (base de données,
+annuaires…) ou non-structurés (messageries, fichiers…), voire hors du périmètre
+Pour atteindre ces objectifs, le RGPd pose les principes suivants relatifs à la
+physique de la société dans le cloud.
+collecte, la conservation et la manipulation des données à caractère personnel
+(art. 5) :
+cette hétérogénéité ne permet pas, en général, aux responsables du SI (dSI),
+• Principe de licéité, loyauté et transparence : tous les traitements d’une de la sécurité (RSSI) et au délégué à la Protection des données (Guidelines on
+donnée à caractère personnel doivent correspondre à ce qui a été décrit Data Protection Officers, G29 2017) d’avoir la vision d’ensemble nécessaire pour
+à la personne concernée ; vérifier et valider que les employés aient les droits d’accès et les autorisations
+strictement nécessaires à l’accomplissement de leurs missions. la validation
+• Principe de limitation des finalités : la collecte des données à caractère
+de la conformité de l’entreprise aux exigences du RGPd est alors une mission
+personnel doit être effectuée pour des motivations « déterminées,
+impossible.
+explicites et légitimes » ;
+de plus, ces mêmes employés peuvent être amenés à changer de rôle au sein
+• Principe de minimisation des données : au regard des traitements réalisés,
+de l’organisation, en cas de mutation ou de promotion interne par exemple. cela
+les données traitées doivent être « adéquates, pertinentes et limitées à ce
+signifie qu’ils acquièrent de nouveaux droits et accèdent à de nouveaux ensembles
+qui est nécessaire » ;
+de données, sans obligatoirement perdre les accès précédemment acquis (en
+• Principe d’exactitude : les données à caractère personnel doivent être tout cas immédiatement).
+« exactes et, si nécessaire, tenues à jour » ;
+cette distorsion du modèle de droits initial peut constituer une menace en ce qui
+• Principe de limitation de la conservation : les données à caractère personnel
+concerne la légalité du traitement des données à caractère personnel puisque la
+doivent être « conservées […] pendant une durée n’excédant pas celle
+base juridique du traitement des données peut ne plus s’appliquer au nouveau
+nécessaire au regard des finalités pour lesquelles elles sont traitées » ;
+rôle du salarié (art.4). ce serait alors une violation du RGPd puisque le principe de
+• Principe d’intégrité et de confidentialité : les données à caractère personnel responsabilité sous-jacent au RGPd impose à tout responsable d’être capable
+doivent être « traitées de façon à garantir une sécurité appropriée ». de démontrer qu’il se conforme aux obligations du règlement (art.24).
+26 Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 https://www.cnil.fr/fr/reglement-europeen-protection-donnees
+27 https://www.ssi.gouv.fr/administration/reglementation/rgpd-renforcer-la-securite-des-donnees-a-caractere-personnel/
+28 Une « donnée à caractère personnel » est une information se rapportant à une personne physique identifiée ou identifiable.
+92 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 93

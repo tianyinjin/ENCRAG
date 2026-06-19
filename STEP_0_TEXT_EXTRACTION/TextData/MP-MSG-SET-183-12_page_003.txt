@@ -1,0 +1,18 @@
+Commercial UAVs Multispectral Detection
+2.1 Radar detection
+The main goals of testing and calculation were to determine the targets radar cross-section (RCS) and
+afterward the possibilities of their detection, localisation, tracking and identification
+Drones were tested in several electromagnetic spectrum bands in accordance with [7]: radar (RL), radio-
+frequency (RF), electro-optical (EO), infrared (IR), and acoustic. In some cases, drones were tested in a
+multispectral field through “combined sensors”.
+The first phase of RL experiments included the simulation of objects and their RCS in SuperNEC software.
+The software was used for the 3D modelling of objects (see Fig. 2.) and their subsequent analysis from a
+theoretical RCS point of view. The simulation principle lies in the power gain measurement (Fig. 3.) and
+subsequent RCS calculation.
+Figure 2: The Quadcopter and Hexacopter model in SuperNEC software [23].
+Figure 3: The Quadcopter and Hexacopter power gain [23].
+For real RCS determination the selected drones were tested using the anechoic chamber (near radar zone),
+Figure 4: The drones 3DR X8 and DJI PHATNOM 2.
+For the distant radar zone, we carried out external experiments using experimental radar (Fig. 5.) and real
+military equipment (Fig. 6.).
+STO-MP-MSG-SET-183 12 - 3

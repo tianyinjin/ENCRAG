@@ -1,0 +1,44 @@
+f. on prête à l’intelligence artificielle un caractère d’imprévisibilité. La perception de cette
+imprévisibilité est liée aux techniques à base de réseaux de neurones et provient de la
+complexité des algorithmes et du champ des possibles de l’algorithme confronté à un
+environnement très riche, très variable et imparfaitement modélisable. Cette
+imprévisibilité perçue ne signifie pas un comportement non déterministe13 ou aléatoire
+et un champ d’action non borné :
+(1) le champ d’action d’un système automatisé peut être encadré par la
+programmation de règles de fonctionnement, d’emploi et d’engagement ad
+hoc,
+(2) un algorithme issu d’un processus d’intelligence artificielle forte,
+s’affranchissant de sa programmation initiale, de ses règles de
+fonctionnement, d’emploi et d’engagement, est non déterministe et donc
+potentiellement imprévisible.
+Apprentissage des algorithmes d’intelligence artificielle
+129. Base d’apprentissage : ensemble des données qui sert à établir les algorithmes d’intelligence
+artificielle à des fins de de résolution de problèmes ou d’optimisation de solutions (ex :
+reconnaissance de visages, de cibles, etc.). Certaines des données peuvent être issues de
+simulation :
+a. les bases d’apprentissage des algorithmes peuvent être très importantes (jusqu’à
+plusieurs millions de cas) pour avoir des résultats statistiquement fiables ;
+b. les bases d’apprentissage sont des éléments clés de la conception d’un algorithme
+d’IA et doivent être validées et qualifiées par l’homme si on veut garantir au moins
+statistiquement un certain niveau de bon fonctionnement ;
+c. les bases d’apprentissage sont généralement associées à des bases d’évaluation (ou
+bases de test).
+130. Machine Learning (ou auto-apprentissage) : l’apprentissage automatique ou « machine
+learning » est une des techniques de l’intelligence artificielle. Il permet à une machine de
+construire des algorithmes en s’appuyant sur l’analyse de données d’entrée.
+Dans le cas où les données d’entrée sont accompagnées des résultats attendus, on parle
+d’apprentissage supervisé. Dans le cas contraire, il s’agit d’apprentissage non-supervisé.
+On distingue également l’apprentissage semi-supervisé, où seule une partie des résultats
+attendus est disponible, et l’apprentissage par renforcement où le système interagit avec son
+environnement et évolue avec une stratégie d’essais-erreurs-récompenses.
+L’apprentissage peut être également un apprentissage autonome (les données d’entrée ne sont
+pas maîtrisées, les résultats attendus ne sont pas précisés et le modèle d’apprentissage n’est
+pas qualifié).
+La technique utilisée permet de construire les processus d’analyse par la puissance de calcul
+appliquée aux données :
+a. l’intérêt de cette méthode est de ne plus rendre indispensable la modélisation formelle
+du problème à traiter ;
+13 Déterminisme : principe selon lequel un phénomène régi par une ou plusieurs lois est tel que les mêmes causes entraînent,
+dans les mêmes conditions et les mêmes circonstances, toujours les mêmes effets. Exemple : une expérience déterministe
+est une expérience dont les résultats sont toujours identiques, toutes choses égales par ailleurs.
+14

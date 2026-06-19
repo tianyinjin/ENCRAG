@@ -1,0 +1,34 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+Table 7. Improved confidence in test case coverage after augmentation by simulation outputs.
+4.1.2 Performance Differences and Insights across Data Segments for Drone Detection
+Algorithm
+To highlight how such a benchmark would enable a granular and robust investigation of even out-of-the-box,
+non-fine-tuned models, we employ the methods described above to examine if we are able to find the
+potential areas of underperformance of an Ultralytics YOLOE (Real-time Seeing Anything) model
+developed by Ao Wang, Lihao Liu, Hui Chen, Zijia Lin, Jungong Han, and Guiguang Ding. [18] YOLOE
+was designed for open-vocabulary detection and segmentation, and uses text, image, or internal vocabulary
+prompts, enabling real-time detection of any object class. It was selected as its developers were able to
+‘achieve state-of-the-art zero-shot performance with minimal impact on speed and accuracy’ and is likely to
+be archetypal of the architectures used in real-world counter-drone CV system development.
+We achieve the following overall results that show an overall mAP at 0.22 at the IoU threshold of 0.5 for the
+EO and augmented simulator dataset, and a score of 0.04 for the IR dataset. Further investigation into the
+metric split by bounding box areas shows that the model performs much better when the target within the
+image is large (at least 96 x 96 pixels), and the model has almost negligible performance on small targets (32
+x 32 pixels or smaller). Though unsurprising, this validates our hypothesis that there would be performance
+differences in the CV system across small and medium drones, as well as how far the drones would be
+detected away from the sensor, as further objects will appear as smaller given the same sensor field of view.
+Notably, as Wang et al. noted that YOLOE was largely trained on large COCO datasets and further grounded
+by Objects365 (V1) and GoldG datasets, we can infer that the model was not significantly exposed to infra-
+red data. This hypothesis is supported by the below metrics showing negligible performance on the infra-red
+segment of our evaluation data.
+Table 8. Overall Accuracy & Precision Results for EO and simulator (left) dataset, and IR dataset
+(right).
+Classification Accuracy and Precision
+Area size (px) (EO) MAP@0.5 (IR) MAP@0.5
+All 0.22 0.04
+Small (area < 322) 0.01 0.05
+Medium (322 < area < 962) 0.28 0.07
+Large (area < 962) 0.55 0.00
+Moreover, observing the precision and recall statistics for each dataset reveals a difference in performance
+1A.03 - 26 STO-MP-IST-210

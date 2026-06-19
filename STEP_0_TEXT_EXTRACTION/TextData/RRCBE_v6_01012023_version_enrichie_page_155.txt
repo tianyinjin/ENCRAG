@@ -1,0 +1,54 @@
+Partie 5 – Les crédits de personnel et les emplois – Illustrations
+V.B.3.3. Les modalités de décompte des emplois PSOP dans Chorus
+Les règles de décompte et les conventions de calcul ne peuvent être dissociées des instruments
+disponibles pour comptabiliser les consommations d’ETPT. Il convient ainsi de distinguer d’une part les
+grands principes relatifs aux règles de décompte des emplois et d’autre part, les conventions de mise
+en œuvre, compte tenu des limites induites par les sources d’information (applications de paye de la
+DGFiP, applications de solde du ministère de la Défense).
+L’évolution des outils peut éventuellement conduire à modifier les conventions de décompte. Lorsque
+son impact a été évalué, une correction « technique » des plafonds peut être justifiée.
+Les consommations d’ETPT pour les agents pris en charge par les applications de paye de la PSOP
+sont calculées à partir de données de paye, et par la mise en œuvre de différentes règles de gestion.
+Le décompte des agents s’effectue dès lors :
+- que le bulletin de paye comporte au titre du mois courant, un traitement brut ou une
+rémunération assimilée à un traitement brut46 ;
+- et que ce traitement ou cette rémunération est imputé sur le budget d’un ministère (ou le budget
+annexe Contrôle et exploitation aériens pour INDIA-Rému) et sur un compte PCE qui participe
+à la consommation du plafond d’emplois.
+Ces deux conditions cumulatives impliquent :
+- que les rappels année courante ou années antérieures ne génèrent aucun calcul d’ETPT. Par
+conséquent, la régularisation des acomptes ne donne pas lieu à régularisation en ETPT, de
+même que les indus de paye. Ce biais peut donner lieu à des retraitements des consommations
+d’ETPT telles qu’issues de Chorus, au titre des agents « primo-entrants » dans le ministère ou
+pour certains contractuels payés par acompte le temps que leur contrat soit renouvelé ;
+- qu’inversement, les retenues sur salaire pour service non fait ne donnent pas lieu à
+régularisation des consommations d’ETPT calculées initialement.
+Lorsque ces deux conditions sont réunies, les ETPT sont calculés :
+ sans approximation :
+o Pour les agents indiciés :
+quotité de temps travaillée traitement brut
+ETPT consommé = x
+quotité financière pour le temps partiel valeur du point fonction publique x indice
+o Pour les ouvriers rémunérés sur la base d’un taux horaire :
+quotité de temps travaillée traitement brut
+ETPT consommé = x
+quotité financière pour le temps partiel nb d'heures mensuelles règlementaires x Taux horaire
+Par exemple, pour un agent à 80 % dont l’indice majoré est de 673 et dont la rémunération
+brute est de 1335,28 € pour un mois donné (valeur du point : 4,6303 € par mois et rémunération
+à hauteur de 85,7 % conformément aux règles relatives au temps partiel), la consommation
+d’ETPT s’élève à 0,4. Le rapport du traitement brut du mois par le traitement brut théorique
+permet de prendre en compte la période d’activité dans le mois : dans ce cas, l’agent n’a travaillé
+que 15 jours.
+Point d’attention : ce mode de calcul conduit à décompter pour ½ ETPT des agents à demi-traitement
+maladie. Inversement, les agents à temps partiel thérapeutique décomptent non pas à hauteur de la
+durée effective du service, mais à temps plein (car ils perçoivent l’intégralité de leur traitement). Ce biais
+peut donner lieu à des retraitements des consommations d’ETPT telles qu’issues de Chorus.
+ par convention pour les autres agents non indiciés : 1 ETPT = 1 dossier agent
+Les consommations d’ETPT calculées par les applicatifs de paye PSOP (et le nombre de dossiers pour
+les agents non indiciés) sont transmises par interface à Chorus et à INDIA-Rému. La convention de
+décompte en ETPT des agents non rémunérés sur la base d’un indice est mise en œuvre dans ces
+deux applicatifs.
+46) Les heures supplémentaires et les régimes indemnitaires ne génèrent pas de consommation d’ETPT. La
+codification en paye des rémunérations doit être examinée attentivement : certaines rémunérations sont codées
+« indemnités » alors qu’elles correspondent à des rémunérations principales.
+155 Direction du budget | Recueil des règles de comptabilité budgétaire de l’Etat | janvier 2023

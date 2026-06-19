@@ -1,0 +1,36 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Protéger les mots de passe (ou leur empreinte) en confidentialité et en intégrité,
+EXP42 TECH O
+en particulier lorsqu’ils sont transmis en réseau ou stockés dans un fichier.
+Définir une procédure garantissant la sécurité pour la réinitialisation des mots de
+EXP43 ORG R
+passe en cas de perte ou d’oubli.
+Enregistrer les échecs d’authentification et les authentification réussies des
+EXP44 TECH R O O
+comptes à privilèges.
+Journaliser et surveiller
+Définir une politique de journalisation. Elle doit permettre :
+- de définir les responsabilités ;
+Voir la liste d’événements possibles en
+- de déterminer les événements pertinents à journaliser ;
+annexe B du guide ANSSI sur les
+EXP45 ORG - d’organiser le stockage et l’archivage des données journalisées (volumétrie, R O O
+mesures détaillées à appliquer sur les
+durée, conservation, protection, etc.) ;
+systèmes industriels.
+- de définir les conditions d’analyse (en préventif, post-incident, etc.)
+- de définir les événements qui devront déclencher des alertes.
+Activer les fonctions de traçabilité sur les équipements et logiciels s’ils le
+EXP46 TECH R O O
+permettent (Syslog, Windows Event, etc.).
+Mettre en place un système de gestion centralisée et sécurisée des journaux
+EXP47 TECH d’événements. Les besoins de sauvegarde, de confidentialité, d’intégrité et de C R O
+disponibilités doivent être évalués et garantis.
+Journaliser les modifications de paramètres des capteurs*, actionneurs*, fonctions
+EXP48 TECH C R O
+d’asservissement et de régulation.
+Analyser régulièrement les journaux d’événements de sécurité selon une
+EXP49 TECH fréquence adaptée aux besoins. Les fréquence de l’analyse ainsi que les R O O
+événements recherchés doivent être préalablement définis par le RSSI.
+Maîtriser l’usage des supports amovibles
+DIR-39 SNSI – 2eme édition Page 67 | 79

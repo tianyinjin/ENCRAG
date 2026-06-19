@@ -1,0 +1,30 @@
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+2.2.5 Neutralization
+The culmination of each mission is the neutralization of the intruding drones. Once a defending drone is
+tracking a target, it can volunteer for neutralization, based on criteria consideringfactors like proximity to the
+target, the position of other entities in the defensive swarm and net availability. That drone then deploys its
+net-based payload to scoop the intruding drone when it is approved to engage its target. While for the
+investigations of this paper, the engagement of a drone with a target is automatic, it is designed to be
+triggered by a human operator.
+Figure 5: Net deployment and target capture in simulation. On the left, the drone engages in
+neutralization with the target and deploys its net after meeting the ready-to-neutralization
+conditions. On the right, target drone is captured. On both images, we observe how the drone to
+the right supportsthe visual tracking from a safe distance.
+While the net system was proven successful in real flight operations, for our experiments we deploy the net
+only in simulated environments. A real net has not been useddue to associated operational costs. During real
+world experimentations, telemetry data was fed into the simulator to virtually capturethe drones.
+3.0 USE CASES DEFINITION
+Adaptability and versatility are core attributes of our system, allowing it to handle different scenarios and
+behaviors of drone intrusions efficiently. With inputsof subject matter experts, we defined several use cases
+representing typical intruding drone behaviors to test our system. Recent literature reports drone usage
+rangingfrom hobbyist [4], [5], delivery [6],photography [3]up to militaryand terroristapplications [7], [8].
+We therefore derived four different drone operator’s behavior models matching those applications, as
+illustrated on Figure 6:
+1) Clueless operator: this use case represents typically hobbyists testing their drone, unaware of the
+nearby presence of restricted zones theycouldinadvertently fly over. The resulting drone behavior is
+rather erratic with lots of variation in velocity, heading and altitude.
+2) Careless operator: in this use case, drone operators willingly ignore a known restricted airspace to
+leverage the shortest possible route e.g. forbusinesspurposes such as deliveries.The resulting drone
+behavior is rather constant in velocity, heading and altitude.
+STO-MP-SET-315-26 7

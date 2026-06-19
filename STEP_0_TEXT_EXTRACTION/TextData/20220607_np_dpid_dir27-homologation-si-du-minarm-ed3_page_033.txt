@@ -1,0 +1,42 @@
+RO 40 : il est CONSEILLÉ, lors d’un renouvellement d’homologation du SI de référence, de procéder
+au renouvellement de l’homologation des SI déployés.
+Suspension et abrogation de l’homologation de déploiement
+Les cas de suspension et d’abrogation de décision d’homologation de déploiement sont identiques à
+ceux d’une homologation classique (cf. §Erreur ! Source du renvoi introuvable. et §0).
+En cas de suspension ou d’abrogation de l’homologation du SI de référence, l’AH du SI de référence
+peut suspendre la décision d’homologation des SI déployés.
+Homologation de SI similaires
+Des SI différents peuvent être constitués de composants et d’une architecture similaires, déployés dans
+un même environnement, ayant les principaux besoins de sécurité identiques et relevant d'une même
+AH. Leur homologation peut alors être facilitée.
+À partir de l'homologation d'un premier SI, dit générique, il est possible d'homologuer un SI qui lui est
+similaire en réalisant une analyse de conformité par rapport à un CUC. Celui-ci définit les exigences de
+sécurité qu'il doit respecter pour être homologué.
+Les homologations de SI similaires s’appuient sur une même stratégie d’homologation et un même
+dossier d’homologation, elles sont dites génériques.
+La stratégie d’homologation générique définit les conditions pour rendre éligible un SI et précise les
+modalités à mettre en œuvre pour l’homologuer.
+À chaque nouvelle homologation générique, le dossier d'homologation est réactualisé.
+Une seule version de PES peut aussi s’appliquer à l’ensemble des SI similaires, les éléments
+spécifiques à un SI pouvant être réunis en annexes.
+Homologation de SI hébergés au ministère
+Le niveau de sécurité numérique du SI hébergé dépend de celui du SI hébergeur et du niveau de
+sécurité que celui-ci apporte au SI hébergé. La démarche d’homologation d’un SI hébergé dans un
+système relevant du ministère doit prendre en compte a minima :
+● les services de sécurité proposés par le SI hébergeur ;
+● les conditions d’utilisation du SI hébergeur, et particulièrement les exigences de sécurité
+qu’il impose au SI hébergé, par exemple sous la forme d’un CUC fourni par l’opérateur
+en charge du SI hébergeur ;
+● les objectifs de sécurité du SI hébergeur, définis dans sa politique de sécurité ;
+● l’homologation du SI hébergeur et ses conditions de validité.
+La décision d’homologation du SI hébergeur et ses conditions d’utilisation, notamment les exigences de
+sécurité qu’il impose au SI hébergé, et ses objectifs de sécurité doivent être connus du RSSI du SI
+hébergé et insérés dans le dossier d’homologation.
+La décision d’homologation du SI hébergeur demeure valide si les SI qu’il héberge ne remettent pas en
+cause ses conditions de validité ou son niveau de sécurité.
+La décision d’homologation du SI hébergé peut être remise en cause par :
+● la suspension de la décision d’homologation du SI hébergeur ;
+● un changement conséquent dans le SI hébergeur et les services qu’il fournit au SI
+hébergé ;
+● un incident majeur survenant sur le SI hébergeur.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 31/47

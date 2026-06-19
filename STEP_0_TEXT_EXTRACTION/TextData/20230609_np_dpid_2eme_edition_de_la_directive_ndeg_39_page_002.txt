@@ -1,0 +1,42 @@
+Résumé :
+Comme tout système numérique, les systèmes industriels peuvent constituer une cible pour des
+attaques informatiques dont les conséquences pourraient remettre en cause des activités
+opérationnelles et les missions du ministère. Leur numérisation croissante, leur capacité de
+communication accrue et l’intégration de nouvelles technologies les rendent particulièrement
+vulnérables. Cependant, ils demeurent différents des systèmes numériques classiques du fait de
+leur histoire, de leur conception et de leur fonctionnement.
+Après avoir défini et caractérisé le système industriel (§3), la directive 39 précise les
+responsabilités en matière de sécurité numérique (§4) et décrit un processus (§5) qui prend en
+compte les enjeux de sécurité et leurs spécificités ainsi que les normes et la réglementation en
+vigueur. Elle précise des pratiques de sécurisation (§6) à mettre en œuvre de manière globale et
+selon la phase du cycle de vie du système. Elle a enfin pour objectif de fournir un référentiel unique
+en matière d’exigences de sécurité pour les systèmes industriels (annexe 5).
+Le processus (annexe 2) que décrit la directive 39 s’appuie sur les notions de classe*, de zones
+de sécurité* et de conduits*.
+La classe* désigne un niveau de sécurité en fonction du risque numérique qu’il représente pour
+le métier ou les activités auxquelles concourt le système industriel. Pour chaque fonction
+principale de ce système, un niveau de classe* est déterminé à partir d’une appréciation des
+risques dont la directive propose une méthode (annexe 2) issue du guide de l’ANSSI portant sur
+les systèmes industriels.
+La zone de sécurité* est un sous-ensemble des systèmes industriels qui regroupe des ressources
+logiques ou physiques réalisant une ou des fonctions déterminées. À chaque zone de sécurité*
+est alors attribué un niveau de classe* correspondant au niveau de classe maximal des fonctions
+qu’elle réalise. La zone de sécurité* est associée à un ensemble d’exigences de sécurité (annexe
+5) qui dépendent de la nature de ses composants et de son niveau de classe*.
+Les conduits* regroupent des canaux de communication* permettant de raccorder les zones de
+sécurité* entre elles. Ces conduits* nécessitent la mise en place de mesures de sécurité adaptées
+à leur nature et aux niveaux de classe* des zones qu’ils relient.
+Ainsi, ce processus permet d’établir une architecture fonctionnelle de sécurité et un socle de
+sécurité adapté au système industriel et à ses enjeux de sécurité ainsi que de définir la démarche
+d’homologation la plus pertinente.
+Nota : les termes identifiés par le symbole * sont définis dans le glossaire présent en annexe 1. Le
+glossaire1 du Guide 7 définit aussi les termes usuels en matière de sécurité numérique.
+Suivi de versions
+Edition Date Principales évolutions
+Edition 1 5 juillet 2016
+Prise en compte des risques portant sur les données.
+Edition 2 Avril 2022 Mise en place des notions de zone de sécurité* et de conduits*.
+Définition d’un socle de sécurité générique.
+1 https://synoptic.intradef.gouv.fr/nouvelle-edition-du-guide-ndeg7-0 ou
+https://forge.intradef.gouv.fr/plugins/mediawiki/wiki/guide7/index.php?title=Glossaire
+DIR-39 SNSI – 2eme édition Page 2 | 79

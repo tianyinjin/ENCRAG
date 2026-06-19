@@ -1,0 +1,68 @@
+OÙ EN EST LA FRANCE :
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125 FEUILLES DE ROUTE
+charge toutes les dimensions de la
+mission : UMISOFT. En amont, elle
+assure la planification en optimisant
+l’emploi des différents vecteurs et
+propose des séquences de déploie-
+ment visant à réduire le temps d’ana-
+lyse d’une zone donnée tout en
+maximisant la qualité de la détection
+d’objets suspects. En aval, elle per-
+Image prise par le sonar UMISAS 120 VHF du navire S.S. Ferrando au large des côtes d’Hyères.
+met la mise en œuvre des drones,
+Taille de l’image : 40 m x 135 m
+avec si nécessaire des reconfigura-
+tions en temps réel. L’opérateur dis- d’IA qui permettent de prendre une Depuis 40 ans, ECA Group a déve-
+pose d’outils d’analyse des données décision optimale sur le devenir de loppé pour l’IFREMER plusieurs ro-
+collectées par les drones, d’aide à la la mission et de son optimisation, bots pouvant atteindre le plancher
+classification et l’identification. Ses tel qu’un changement du trajet océanique. C’est le cas d’Ulyx,
+tâches en sont ainsi facilitées. d’exploration d’une zone ou la revi- un drone autonome livré en 2020
+UMISOFT dispose d’une architec- site d’un objet. et capable d’effectuer des mis-
+ture modulaire : il permet l’acqui- Là où une surveillance régulière est sions de 48h à 6 000m de fond.
+sition et le traitement de données effectuée, les images sont stockées Pour ce faire, il a fallu imaginer des
+issus de capteurs très variés d’ECA dans un centre à terre, doté d’outils technologies répondant aux fortes
+Group ou d’une entreprise parte- puissants d’analyse et de corréla- contraintes telles que la résistance
+naire : sonars à balayage, sonar la- tion, le Mine Warfare Data Center. des matériaux à la pression, l’hy-
+téral, sonar à ouverture synthétique, A chaque nouveau passage, elles drodynamique, la flottabilité, les
+sondeurs multifaisceaux, magnéto- sont comparées aux données pré- difficultés de communication ou en-
+mètres, sondeurs de sédiments, vi- cédemment collectées afin de repé- core le sujet central de la navigation
+déo, capteurs environnementaux… rer les différences. sous-marine sans GPS.
+Cette architecture ouverte rend pos-
+sible l’intégration de différents types Un sonar performant et sobre Pour un monde plus sûr
+de drones, conçus par ECA Group Dans le domaine de la lutte contre Les Grands Fonds Marins font figure
+ou par d’autres entreprises comme les mines, la qualité des images de nouveau domaine à explorer dans
+le drone aérien SKELDAR et des fournies par le sonar est un élément le domaine de la robotique. Les am-
+drones sous-marins REMUS dans le essentiel. Les images du sonar bitions affichées doivent permettre
+programme BENL. UMISAS d’ECA à antenne synthé- de concrétiser de nouveaux paliers
+tique sont parmi les plus précises comme les meutes de drones, les
+Intelligence artificielle embar- au monde : 1,5cm x 3cm. robots résidents ou la généralisation
+quée, l’efficacité au plus près Ce sonar, qui consomme 10 fois des IA embarquées.
+Intégrer les intelligences artificielles moins que la génération précédente Une maîtrise d’ensemble, de la
+les plus avancées directement à est intégré dans le drone sous-ma- conception des drones à l’intégra-
+bord des systèmes de drones offre rin, aujourd’hui dans l’A 18-M et de- tion des capteurs, en passant par les
+des gains de temps et d’efficacité main dans de futurs AUV. logiciels et l’IA, apporte des solutions
+considérables. innovantes.
+Plusieurs réseaux neuronaux sont Les Grands Fonds Marins, nou-
+ainsi utilisés pour mieux appré- veau domaine de conflictualité
+hender l’environnement. Les algo- potentielle
+rithmes de détection automatique Le plan d’investissement « France
+Dominique
+de contact (ATD) permettent de dé- 2030 » affiche de très hautes ambi-
+Giannoni, ICA,
+tecter automatiquement les mines tions concernant les Grands Fonds Directeur Général
+ECA Group
+potentielles. La reconnaissance au- Marins. Du côté civil, l’exploration de
+tomatique de contact (ATR) permet ces abysses méconnus permettra de Diplômé de l’ENSTA et du MIT il a débuté à
+la DGA (frégates HORIZON, lutte sous-ma-
+leur classification et le transfert des mieux étudier les minéraux qui y sont
+rine) et Cap Gemini Telecom. Il a été chez
+données aux autres robots, pour présents et de découvrir de nouvelles Thales en charge des sonars pour sous-ma-
+identification (SEASCAN) et neutra- formes de vie. Du côté militaire, la rins, puis de l’Avionique Militaire. Il dirige en-
+suite l’activité «Multimédia de Cabine pour
+lisation (K-STER). protection des infrastructures straté- Avions Commerciaux» basée en Californie,
+Toutes ces informations sont en- giques, comme les câbles de com- puis l’activité de Systèmes Electroniques
+pour Avions de Combat. Il est depuis 2021
+suite fournies à d’autres logiciels munication, devient une nécessité.
+Directeur Général du groupe ECA
+55

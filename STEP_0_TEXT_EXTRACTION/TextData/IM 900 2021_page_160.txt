@@ -1,0 +1,47 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.3
+DROIT PRIVE
+(cid:3)
+CONTRÔLE D’APTITUDE AU TRAITEMENT D’INFORMATIONS
+6.3(cid:3):
+NUMERIQUES CLASSIFIEES
+Références(cid:3):
+(cid:129) IGI 1300 – annexe 30
+(cid:129) DTM 63
+(cid:129) II 300, directives 485 et 495
+(cid:129) Guide DGA de rédaction DSSI
+Points clés(cid:3):
+(cid:129) Les systèmes d’information classifiés sont homologués pour être utilisés. Dans ce
+cadre, un avis technique d’aptitude informatique (ATAI) est nécessaire sauf
+dérogation prévue par la présente fiche.
+(cid:129) L’ATAI est émis par la DRSD et informe les autorités contractantes et l’autorité
+d’homologation du niveau de protection du secret atteint sur le système
+d’information de l’entité.
+1. Généralités
+Pour les SI classifiés intéressant la défense, la DRSD contrôle le niveau de sécurité et
+s’assure que les risques cyber sont maitrisés. Ce contrôle donne lieu à un ou plusieurs avis
+d’aptitude informatique (ATAI). Un ATAI est généralement nécessaire dans le cadre de
+l’homologation ou des renouvellements d’homologation.
+Afin de produire un ATAI, la DRSD146 s’assure en particulier que(cid:3):
+- Pour les contrats classifiés intéressant la défense, le niveau de classification du
+système d’information est conforme aux prescriptions du plan contractuel de sécurité
+du contrat.
+- Les constituants physiques du système d’information sont situés dans des locaux
+ayant fait l’objet d’un avis technique d’aptitude et que, le cas échéant, les liens
+informatiques cheminant hors de ces locaux font l’objet d’une approbation
+conformément à la fiche 6.10.
+- Les mesures de protection contre les signaux parasites compromettants sont
+conformes.
+- Les personnes ayant accès au système d’information ou à ses constituants physiques
+sont habilitées au niveau idoine.
+- Les supports numériques classifiés (ISC) sont dûment marqués et enregistrés
+Pour les systèmes d’information de niveau Très Secret, la DRSD s’assure de plus que(cid:3):
+- les résultats de mesures d’atténuation électromagnétiques (Tempest) réalisées par un
+organisme accrédité identifient les locaux utilisés comme aptes à traiter des
+informations numériques classifiées au niveau Très Secret en fonction des
+caractéristiques des équipements présents.
+- les locaux identifiés sont érigés en zone réservée incluse dans une zone protégée.
+(cid:3)
+146 Ou la DGSE pour les contrats qui la concernent.
+154

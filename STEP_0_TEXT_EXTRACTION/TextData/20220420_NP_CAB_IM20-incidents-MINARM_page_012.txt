@@ -1,0 +1,72 @@
+Destinataires automatiquement servis en fonction des catégories hors chaines hiérarchiques
+FL@SH MIN
+N° Famille N° Groupe N° Catégorie Descriptions CGA - COM EMO DAJ DAJ DAJ CAB
+obligatoire CGA - IIC CGA - ITA BEA-É BEAD-M BEAD-TT DPID DRSD
+THEMIS CYBER SANTÉ D2P CX DAPM CEMA/AR
+Toute mise en cause, dans une affaire pénale, d'un personnel militaire ou civil du
+Mise en cause d'un personnel en lien ministère ou des établissements publics qui en dépendent (convocation devant
+1.2.1.1 X X X
+avec le service une juridiction, placement sous contrôle judiciaire, placement en détention, etc.),
+pour des faits survenus en service ou en lien direct avec le service.
+1.2 Mise en cause dans une affaire pénale
+Mise en cause d’un personnel sans lien Toute mise en cause, dans une affaire pénale, d'un personnel militaire ou civil du
+1.2.1.2 avec le service ministère ou des établissements publics qui en dépendent (convocation devant X X X
+une juridiction, placement sous contrôle judiciaire, placement en détention, etc.),
+Toute mise en cause d'un militaire étranger (séjournant ou transitant en France)
+1.2.2 Mise en cause d'un militaire étranger X X X
+dans une affaire pénale.
+- Trafic,
+- ou détention importante,
+1.3.1 Stupéfiants - ou usage régulier, X X X
+1 Personnel - ou usage occasionnel susceptible de nuire gravement au service,
+de produits stupéfiants.
+Tout autre usage de produits illicites ou comportement contraire à la législation
+Autres usages en contradiction avec la
+1.3.2 (ex : ivresse sur la voie publique, conduite d'un véhicule au-delà du taux d’alcool X X X
+1.3 Comportement excessif ou illicite législation autorisé) en ou hors service, et qui affecte gravement la réalisation de la mission.
+Tout fait avéré de radicalisation ou de tentative de radicalisation impliquant un
+agent du ministère des armées.
+Les faits insuffisamment avérés ou insuffisamment caractérisés (changement de
+1.3.3 Radicalisation comportement, rejet de l’autorité, repli sur soi, passage soudain à une pratique X X X X X X
+religieuse hyper ritualisée, etc.) resteront du seul ressort de la relation entre le
+commandement, l’officier de sécurité et la DRSD et ne feront pas l’objet de la
+procédure FL@SH EVENT.
+1.4 Autres événements - Personnel 1.4.1 Autres événements - Personnel Tout autre événement grave lié à un personnel. X X X
+X
+Toute compromission ou risque de compromission d'informations et de supports
+2.1.1 Compromission X X X X X X
+classifiés (vol, mauvais usage, abandon ou perte).
+Toute transgression, usurpation d'identité ou emploi volontaire de droits usurpés
+2.1.2 Usurpation d'identité X X X X X X X
+y compris par cyberattaque.
+Atteinte aux informations, supports 2.1.3 Exfiltration de données Toute exfiltration volontaire de données ou logiciels informatiques y compris par X X X X X
+2.1 classifiés, à la SSI du ministère des cyberattaque.
+armées et/ou à la cyberdéfense 2.1.4 Altération de données Toute attaque informatique ou altération volontaire de données depuis un SI X X X X X X
+(code malveillant) y compris par cyberattaque.
+Violation de la sécurité des données à Tout fait entraînant la destruction, la perte, l'altération, la divulgation ou l'accès
+2.1.5 X X X X X X X
+caractère personnel non autorisé à des données à caractère personnel y compris par cyberattaque.
+Autres événements - SSI et
+2.1.6 Tout autre événement grave lié aux atteintes à la SSI et à la cyberdéfense. X X X X
+cyberdéfense
+2 Information
+Toute atteinte à l'image de l'institution, d'une armée, d'une direction ou d'un
+2.2.1 Atteinte à l'image de l'institution X X X X
+service (personne morale).
+Toute atteinte à l’image ou la réputation d’un personnel du ministère ou des
+2.2.2 Atteinte à l'image d'un personnel X X X X
+établissements publics qui en dépendent.
+2.2 Réputation Tout manquement au devoir de réserve de la part d’un agent du ministère, à la loi
+Manquements au devoir de réserve,
+2.2.3 n°83-634 du 13 juillet 1983 portant droits et obligations des fonctionnaires (article X X X X
+discrétion et secrets professionnels
+26) et aux contrats signés par les personnes extérieures au ministère des armées.
+Toute action de bouleversement, de destruction de l’institution, des principes, de
+2.2.4 Subversion X X X X X
+renversement de l'ordre établi.
+Tout autre événement grave lié aux informations et ne relevant pas des groupes
+2.3 Autres événements - Information 2.3.1 Autres événements - Information
+2.1 et 2.2.
+X X X
+NB : Le CAB CEMA/ Affaires réservées est uniquement destinataires des messages émis par les subordonnés du CEMA pour les catégories concernées.
+12

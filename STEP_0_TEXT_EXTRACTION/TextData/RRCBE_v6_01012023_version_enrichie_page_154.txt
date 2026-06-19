@@ -1,0 +1,53 @@
+Partie 5 – Les crédits de personnel et les emplois – Illustrations
+- l’indicateur « Paie PSOP » correspond aux dépenses de la paye sans ordonnancement
+préalable (PSOP), intégrées par interface à partir des applicatifs de paye de la DGFiP (PAY et
+ETR) ;
+- l’indicateur « Paie HPSOP » correspond aux dépenses du ministère de la Défense pour la
+solde des militaires, à la paye des agents dans les collectivités d’outre-mer, aux demandes de
+paiement directes typées ‘RS’ (paye hors PSOP hors solde des militaires et hors mode
+opératoire de la paye des COM, comme celle des agents de droit local par exemple) ;
+- l’indicateur « Autres dépenses HPSOP » correspond aux rétablissements de crédits
+(atténuations de dépenses), aux écritures correctives ainsi qu’à d’autres dépenses hors PSOP
+(par exemple, les remboursements de MAD).
+La restitution INF-DPP-018 de l’infocentre Chorus mobilise l’ensemble de ces ratios ainsi que
+les regroupements de comptes PCE (cette restitution est notamment utilisée pour les exercices
+de prévision d’exécution ou d’analyse de l’exécution).
+En complément des données Chorus, application de référence pour le suivi des dépenses, les
+restitutions de l’infocentre des rémunérations INDIA-Rému, alimenté mensuellement à partir des
+données PSOP (PAY et ETR), permettent également de suivre des dépenses de personnel. Les
+données sont disponibles à un niveau de détail plus fin que dans Chorus : corps, grades, statut, et codes
+éléments de rémunération, etc., permettant ainsi une appréhension des données selon des axes
+« métier ».
+V.B.3.2. Le suivi des emplois dans Chorus et INDIA-Rému
+Depuis janvier 2013, Chorus est l’application de référence en matière de suivi des emplois.
+Six indicateurs Chorus permettent de suivre les consommations d’ETPT PSOP et hors PSOP :
+- l’indicateur « Consommation PSOP indiciés » correspond aux consommations d’ETPT
+calculées par les applications de PSOP (PAY/ETR) pour les agents rémunérés sur la base d’un
+indice ;
+- l’indicateur « Consommation PSOP ouvriers d’État » correspond aux consommations
+d’ETPT calculées par les applications PSOP (PAY/ETR) pour les ouvriers d’État rémunérés sur
+la base d’un taux horaire ;
+- l’indicateur « Consommation PSOP non indiciés » correspond aux nombre de dossiers
+calculés par les applications PSOP (PAY/ETR) pour les autres agents non rémunérés sur la
+base d’un indice ;
+- l’indicateur « Consommation HPSOP » correspond aux consommations d’ETPT calculées
+par Chorus à partir des montants imputés sur des comptes qui consomment le plafond
+d’emplois, pour des pièces non typées ‘SD’ (solde militaires et paye des COM) et non typées
+‘SP’ (PSOP) + exclusion d’autres pièces correspondant à des DP internes (remboursement de
+MAD) et à des RDC ;
+- l’indicateur « Consommation HPSOP militaire » correspond aux consommations d’ETPT
+calculées à partir des applicatifs de solde du ministère de la Défense et de la direction générale
+de la gendarmerie nationale ;
+- l’indicateur « Consommation HPSOP autres » correspond aux consommations d’ETPT
+calculées par Chorus à partir des montants des pièces typées ‘SD’ imputés sur des comptes
+qui consomment le plafond d’emplois lorsque le domaine d’activité correspond à une COM, hors
+société Défense (‘DEFE’)
+La restitution INF-DPP-017 de l’infocentre Chorus mobilise l’ensemble de ces ratios. Une autre
+restitution présente par ailleurs les autorisations en emplois du PLF, de la LFI et leurs
+modifications par les mouvements réglementaires (INF-DPP-016).
+Les restitutions de l’infocentre des rémunérations INDIA-Rému, alimenté mensuellement à partir des
+données des applicatifs de PSOP (PAY et ETR), permettent également de procéder au suivi des
+consommations d’emplois (pour les seuls agents pris en charge par la PSOP). Les données sont
+disponibles à un niveau de détail plus fin que dans Chorus : catégories d’emplois, corps, grades, statut,
+etc., permettant ainsi une appréhension des données selon des axes « métier ».
+154 Direction du budget | Recueil des règles de comptabilité budgétaire de l’Etat | janvier 2023

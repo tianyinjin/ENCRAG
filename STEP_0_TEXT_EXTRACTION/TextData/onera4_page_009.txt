@@ -1,0 +1,41 @@
+Les moteurs électriques
+Ces derniers sont légers mais ne peuvent bénéficier que d'une
+autonomie de fonctionnement limitée du fait du poids élevé que
+représentent les batteries dans lesquelles sont stockées les
+réserves d'énergie nécessaires à leur fonctionnement. Cette
+difficulté reste soumise à l'évolution de la technologie des
+accumulateurs et, à plus long terme, au développement de piles à
+combustibles, qui seraient capables d'alimenter ces batteries
+pendant une période suffisamment élevée. Certains drones
+peuvent être dotés de panneaux de cellules solaires
+photoélectriques qui alimentent les batteries (notamment sur des
+ailes battantes).
+La motorisation électrique évite le transport de carburant et est
+indétectable du point de vue thermique.
+Systèmes de bord et charge utile
+Les systèmes de bord sont essentiels car ils assurent le
+pilotage et la navigation de façon automatique. Ils peuvent
+fonctionner en parfaite autonomie ou selon des ordres émis
+depuis le sol, par un opérateur chargé de conduire la mission.
+Le système de conduite du vol asservit plusieurs équipements
+entre eux : les capteurs (mesurant les paramètres du vol) ; des
+calculateurs, respectivement dédiés au pilotage et à la
+navigation, et d'où sont émis les ordres de pilotage ; une
+Helios
+mémoire (contenant la programmation du vol et,
+© AeroVironement
+éventuellement, des critères de décision, préalablement
+enregistrés), et les actionneurs (agissant sur les commandes de
+vol). Cette chaîne est parfaitement comparable, au degré de décision près, à celle
+d'un pilote automatique sur avion, couplé à un système de navigation de type FMS
+(Flight Management System), se référant à des données GPS (Global Positioning
+System). En outre, elle doit être capable de maintenir le drone dans son enveloppe
+de vol, protégeant celui-ci des situations dangereuses, (turbulences, configurations
+instables...).
+La charge utile, proprement dite, constitue l'un des éléments fondamentaux du
+système drone car c'est elle qui permettra, en parfaite adéquation avec le vecteur
+aérien, de réaliser la mission. Souvent placée en dessous de la structure, elle
+consiste en un ensemble d'équipements pouvant assurer trois fonctions essentielles :
+• L'acquisition des données, par des capteurs, électro-optiques (caméras
+visibles ou infrarouges) ou électromagnétiques (radars), capables de restituer
+des images, ou tout autre capteur plus spécifique (par exemple, bio-senseurs,

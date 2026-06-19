@@ -1,0 +1,25 @@
+Orchestrating Manned-Unmanned Missions
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S
+ii) Ec: Current energy at any given time (in kWh), iii) Ef: Energy required to get to a final destination (in
+kWh), iv) Ed: Energy required to reach a new position (in kWh). v) Re: Engagement capability range radius
+of the agent, vi) Ro: Observation/detection capability range radius, vii) Sim_time: Simulation time for agent
+movement or decision-making. The following function were used and implemented as capabilities based on
+dynamic present data:
+Figure 4: Algorithm based on decision-tree for dynamic Tasking of MUM-T.
+1) Energy Computation: This function calculates the energy needed to reach a final destination based
+on the current position. Ef = f(final destination, current position)
+2) Observation and processing time for decision; process(p) = {Observation if within Ro, Processed if
+within Re}; where p is a potential target position or observation point.
+3) Energy Update and Decision Making: This updates the agent’s energy level after each tick or time
+step. Ec(t) = Ec(t-1) - Ed
+4) Energy Feasibility Check: This function ensures the agent is capable of reaching the final destination
+and return safely. If Ec ≤ Ef, it means the agent cannot reach the final destination; If Ec > Ef, it
+means the agent can proceed.
+Capabilities related to anticipation:
+1) Energy for Next Position (Ed):Ed = Energy required to move from current position to next position =
+Distance(pi, pj) × Energy consumption rate; Where pi and pj are two points on the map (e.g., current
+and next positions), and Energy consumption rate is a constant dependent on the agent’s model.
+2) Energy for Final Destination (Ef): Ef = Energy required to reach the final destination =
+Distance(current, destination) × Energy consumption rate. Where current is the agent’s current
+position, and destination is the final destination.
+11 - 10 STO-MP-MSG-229

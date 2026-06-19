@@ -1,0 +1,46 @@
+ı
+Origines et développements de la furtivité radar
+ Figure 3 : Démonstrateur de drone de combat Neuron en vol - © Dassault Aviation- A. Pecchi
+” La furtivité devra
+de plus en plus
+La Surface Equivalente Radar
+être complétée
+Physiquement, le radar émet un champ électromagnétique porteur d’une énergie qui
+se propage vers la cible, et qui est diffracté par celle-ci dans toutes les directions de par des techniques
+l’espace. Ce phénomène de diffraction électromagnétique caractérise la perturbation
+de guerre
+causée par la présence d’un obstacle dans un champ incident [5, 6, 7, 8].
+électronique ”
+Pour décrire ces effets de diffraction, on utilise la représentation d’une surface de
+captation fictive qui rerayonnerait de façon isotrope la puissance reçue et diffracte-
+rait dans la direction du radar la même puissance que la cible. Cette surface fictive
+est appelée Surface Equivalente Radar (SER, notée ) ou parfois Signature Radar, et
+s’exprime mathématiquement en fonction des champs incident Ei et diffracté Ed à Le futur de la furtivité
+distance R sous la forme : σ
+Au-delà des améliorations incrémen-
+tales permises par le perfectionnement
+des simulations numériques, ou plus
+Cette surface se mesure en m², elle caractérise l’écho radar reçu traduisant la pré- médiatiques (la cape d’invisibilité…) par
+sence de la cible qui est la signature de l’objet (cible). Elle ne dépend pas de la dis- la mise au point de métamatériaux élar-
+tance R cible-radar, car le champ diffracté |Ed |² varie en 1/R² à grande distance.
+gissant la gamme des caractéristiques
+diélectriques ou magnétiques réali-
+sables [10], de nouveaux concepts bien
+Relation entre SER et portée du radar
+sûr couverts par le secret sont parfois
+Il est bien connu que le bilan qui donne la puissance captée dans une liaison monodi- évoqués dans la littérature ouverte, par
+rectionnelle de type télécom varie avec l’inverse du carré de la distance ; la définition exemple dans les revues Aviation Week,
+ci-dessus montre qu’une dépendance identique se produira sur le trajet retour, le
+DSI, Air & Cosmos, mais leur crédibilité
+bilan de liaison radar qui relie la puissance reçue à la puissance émise sera donc
+est incertaine. C’est le cas de la « furtivité
+proportionnel à R-4
+active » qui consisterait à opposer vec-
+La portée du radσar correspond à la distance pour laquelle la puissance reçue produit toriellement à l’écho de peau du véhi-
+le rapport signal-à-bruit minimal compatible avec le traitement de détection. Toutes
+cule à protéger un écho artificiellement
+choses égales par ailleurs, réduire à 10 km la portée d’un radar qui serait de 100 km
+pour une SER de 10 m2 nécessiterait ainsi de réduire la SER à 0,001 m2, ce qui illustre créé par un répondeur cohérent. Encore
+la difficulté du problème… faudrait-il connaître très précisément cet ...
+écho de peau, dont on sait qu’il varie ra-
+REE N°2/2021 ◗ 103

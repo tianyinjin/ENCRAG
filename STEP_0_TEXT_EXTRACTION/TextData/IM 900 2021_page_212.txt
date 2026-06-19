@@ -1,0 +1,45 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 7 : SECURITE DES INFORMATIONS ET SUPPORTS CLASSIFIES 7.8
+TOUT AU LONG DE LEUR CYCLE DE VIE
+(cid:3)
+b. Réception
+La réception est assurée au niveau Secret par le service en charge de la gestion des ISC
+ou, à défaut, par le destinataire de l’envoi, ou au niveau Très Secret, par le BPS de l'entité
+destinataire, suivant la procédure suivante(cid:3):
+- l'intégrité de l'emballage est vérifiée afin de déceler une éventuelle compromission(cid:3);
+- l’enveloppe intérieure ne doit être ouverte que par le BPS (obligatoire pour le TS), ou
+par le service en charge de la gestion des ISC à ce niveau ou le destinataire du courrier
+(S).
+- au niveau Secret, le destinataire fait procéder à son enregistrement, ou au niveau Très
+Secret, le BPS enregistre l'ISC(cid:3):
+- pour le support physique, le feuillet B du bordereau d'envoi est signé et renvoyé à titre
+d'accusé de réception. Le bureau de protection du secret transmet l’information
+classifiée Très Secret au destinataire.
+Ces règles s’appliquent à la réception, par voie physique, des ISC devant faire l’objet d’un
+enregistrement (cf. fiche 7.7). Dans le cas d’une information classifiée dématérialisée, la
+réception est assurée par les obligations de traçabilité des SI prévues par la présente
+instruction.
+Dans le cas d’un acheminement à l’étranger, le destinataire appose son visa sur la liste
+d’inventaire présentée par le porteur.
+2. Cas particuliers
+a. Transport d’informations classifiées sur un support de stockage numérique
+Les informations classifiées stockées sur un support amovible sont, lorsqu’elles sont
+transportées en dehors d’une zone protégée, acheminées conformément aux règles
+décrites ci-dessus.
+L’utilisation d’un produit ou d’un mécanisme de chiffrement agréé par l’ANSSI, dans le
+respect des instructions d’emploi associées à cet agrément, permet, conformément aux
+directives de l’agrément, de déroger aux dispositions du paragraphe relatif au transport
+de supports classifiés.
+b. Matériels classifiés
+La circulation et le transport des matériels classifiés nécessitent des mesures particulières
+de sécurité(cid:3): protection contre les vues (dans la mesure du possible) et garde permanente
+pendant la durée du transport.
+Pour le niveau Secret, à l’étranger, la surveillance permanente par l’utilisateur est
+systématiquement recherchée par le dépôt du poste dans une représentation française
+(consulat, ambassade, coopération, opération extérieure,…). Par mesure de précaution,
+des solutions physiques (étiquettes ou enveloppes de sécurité, etc.) permettent de
+détecter une tentative d’accès frauduleux au poste ou une atteinte à son intégrité.
+Un équipement mobile traitant d’informations classifiées fait l’objet de vérifications
+régulières de sa configuration physique, en particulier avant qu’il soit reconnecté sur le
+système d’information homologué de son organisme d’appartenance.
+206

@@ -1,0 +1,60 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+B.1.3.2 _Ingénierie système B.1.3.3.2 _Communication et sensibilisation des utilisateurs
+les services liés à la communication et à la sensibilisation des utilisateurs
+B.1.3.2.1 _Assistance à maîtrise d’ouvrage (AMO) SSI
+sont essentiels, sachant que la vulnérabilité se situe « entre la chaise et
+les prestations d’AMO SSI sont des prestations de services destinées à appor-
+l’ordinateur ». les hommes et les femmes sont à la fois la plus grande
+ter un soutien SSI sur des projets. Elles recouvrent des prestations :
+vulnérabilité pour l’organisation et la solution aux problèmes de cyber-
+• D’analyse de risques ; sécurité.
+• De rédaction d’exigences ;
+B.1.3.3.3 _Services juridiques
+• D’animation de GT SSI ;
+le recours à des prestataires externes dans le domaine de la cybersécu-
+• De pilotage de travaux industriels ;
+rité peut nécessiter une expertise juridique, afin de sécuriser l’organisation
+• De réalisation de synthèses au profit des décideurs ; contre les risques liés à des défaillances ou au non-respect des contrats.
+• … cette dimension juridique doit aussi être prise en compte dans les contrats
+Elles nécessitent des experts de haut niveau et peuvent s’appuyer sur des outils avec les clients ou pour l’organisation des processus en interne (chartes
+d’ingénierie classiques (clausiers d’exigences, outils de gestion de traçabilité…) de sécurité, règlement intérieur…).
+ou spécifiques au domaine (outils d’analyse de risque, modélisation de la SSI…).
+B.1.3.2.2 _Conception d’architectures
+B.2.1 _Méthodes B.2
+la conception d’architecture sécurisée est une prestation de haut niveau qui
+Cyber-résilience
+nécessite une bonne maîtrise de l’analyse de risques et doit s’appuyer sur des Une partie des fonctions de cyber-résilience est apportée par les archi-
+outils de modélisation ou de simulation. L’objectif est de définir l’architecture tectures de systèmes. Les méthodes identifiées au B.1.3.2 seront donc
+capable à la fois de satisfaire aux besoins fonctionnels tout en garantissant le utilisées pour bâtir des architectures incluant des redondances au niveau
+meilleur niveau de sécurité, et cela dans le respect des contraintes techniques réseau ou au niveau services.
+et financières du donneur d’ordre.
+dans le cas où une attaque a réussi il est bien entendu important de pouvoir
+B.1.3.2.3 _Intégration sécurisée de produits remettre au plus vite le système dans un état opérationnel et sûr. cela
+ce type de prestation fait souvent suite à la précédente. Une fois l’architecture signifie qu’il faut pourvoir remettre à zéro les systèmes pour effacer
+définie et le choix des différents produits effectués, il s’agit de les configurer toute trace des malwares (après avoir effectué, bien entendu, les copies
+et de les intégrer dans un système fonctionnel et exploitable. Ici encore des nécessaires aux actions d’investigation post-incident (forensic), puis réins-
+outils de modélisation peuvent être utiles pour préparer le travail. des moyens taller à partir d’archives saines l’ensemble du système).
+de tests permettant de vérifier le bon fonctionnement de l’ensemble sont aussi les outils d’administration offrent les fonctions de base pour ce type
+nécessaires. d’action, mais il est nécessaire de définir des méthodes appropriées pour
+prendre en compte le contexte d’agression.
+B.1.3.2.4 _Conformité fonctionnelle
+la conformité fonctionnelle vise à s’assurer qu’un produit réponde bien à son B.2.2 _Produits et technologies
+cahier des charges. c’est une étape nécessaire, y compris pour les produits
+de sécurité. ce travail nécessite une forte automatisation, la complexité fonc- de nombreux produits, notamment ceux liés à l’administration des systèmes
+tionnelle des produits rendant les cas de tests extrêmement nombreux. les permettent de contribuer à la résilience, en permettant une reconfiguration
+techniques évoquées au chapitre b.1.3.1 sont indispensables pour fournir un manuelle ou semi-automatique.
+service pertinent.
+Au niveau des produits eux-mêmes, des fonctions d’auto-configuration en
+cas de détection d’agression peuvent être mises en œuvre : passage dans
+B.1.3.3 _Gouvernance des modes de communication plus sécurisés au détriment du débit ou des
+services offerts, recherche de chemins alternatifs, voire coupure de services.
+B.1.3.3.1 _GRC (Governance Risk Compliance)
+ces fonctions doivent être gérées avec précaution pour ne pas induire de
+Il existe un besoin de services autour de la gouvernance, gestion des risques et
+déni de service disproportionné par rapport aux attaques détectées, et,
+conformité (Governance Risk compliance) de manière à disposer notamment
+bien entendu, la détection d’attaques doit être pertinente pour éviter les
+d’un pilotage et de tableaux de bord de suivi des risques et de la conformité,
+faux positifs.
+notamment réglementaire, en fonction de l’avancement des plans d’actions.
+26 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 27

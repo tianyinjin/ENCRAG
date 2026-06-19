@@ -1,0 +1,75 @@
+Integration of a Commercial
+Unmanned Vehicle into the Army Communications System
+the send_position(latitude, longitude,
+altitude) function. This function sends MAVLink
+GPS RAW INT messages with latitude, longitude, and
+altitude data to the Mission Planner.
+4) Control commands: The MAVLink MAN-
+UAL CONTROL messages are received by the Raspberry
+Pi using the handle _manual_control function.
+Depending on the parameters received, the corresponding
+message is sent to the Arduino to operate the UGV:
+• Front: send_command_to_arduino(%F#);
+• Back: send_command_to_arduino(%B#);
+• Right: send_command_to_arduino(%R#);
+• Left: send_command_to_arduino(%L#).
+To send control commands to the UGV, the Gembird
+Gamepad was first connected to the GCS and then paired
+with the Mission Planner. When connected to the Mission
+Planner, two axes of movement were used, allowing the
+UGV to move in four different directions. The axes were
+chosen automatically by the Mission Planner, considering the
+movement of the controller’s analog, selected by the user.
+For movements in different directions on the same axis, the
+Fig.9:Script2—ManagementofthelinkbetweenGCSandBMS.
+“Reverse” option was used. The mode chosen was “Manual
+Control”, which will be important in the type of MAVLink
+6) Mission Planner Configuration: This subsection
+messages generated at the GCS.
+presents the main aspects to be configured in the Mission
+Planner, namely, receiving the video and sending the control
+5) Script 2 — Management of the link between GCS and
+commands. The Mission Planner is configured on port
+BMS: Script 2, shown in Figure 9, runs on the GCS and
+14551. Once the software is open, after running Script 1 and
+represents a link to the BMS. It creates an XML, and it is
+then starting GCS with MAVProxy, a UDP connection is
+senttotheBMS.ThisscriptaimstoextracttheUGVposition
+automatically started on port 14551.
+from MAVLink messages and generate an XML according to
+First, the configuration of video reception on the Mission
+STANAG5527.Theconnectionisestablishedwithport14552,
+Planner and its capture and sending on the Raspberry Pi is
+whereMAVLinkmessagesareforwardedviaMAVProxy.This
+presented using the Raspivid and GStreamer libraries, respec-
+script can run on GCS if MAVProxy is forwarding messages
+tively. Then, in this section, the configuration of the joystick
+to port 14552 on localhost or on another machine.
+in Mission Planner and the configurations to send control
+commands are presented.
+The used XML model is the A2 of the STANAG 5527.
+7) Video streaming: Image capture was first initiated using
+Depending on where the BMS is running, the XML must be
+the Raspivid application on the Raspberry Pi. Then, the
+sent there. In a configuration where the BMS is running on
+GStreamer application was used to send the video stream to
+the GCS, it is enough to send it to localhost; otherwise, it
+the Mission Planner, running on the GCS.
+requires the IP of a machine on the network that is running
+The quality of image capture has an influence on the band-
+the BMS. In the tactical radio scenario, this sending is done
+width required for communication. The quality of the image
+via military radios. The IP to which the XML is sent must be
+is adjusted according to the characteristics of the transmission
+configured in the function send_xml_file(filename,
+channel, which will be analysed in the results.
+server_ip, server_port) used to send the file.
+IntheBMS,inadditiontothestandardconfiguration,which
+IV. RESULTS
+includes creating a mission with some mandatory parameters, The solutions for the tests in the SIC-T project team will
+suchastheconfigurationofthestackandGPS,agatewaymust bepresented.Toachievethis,testswerecarriedoutusingWi-
+be configured in the BMS with the port where the report will Fi technology alone and a hybrid configuration using tactical
+bereceived,inthiscase,port48882,andthemessagetemplate radios and Wi-Fi. The tactical radios fill an existing gap in
+which will be used, in this case, FFT Systems—STANAG Wi-Fi communication — security — since the UGV position
+5527 A1/A2. is considered critical data.
+STO-MP-IST-209 1760 - 7

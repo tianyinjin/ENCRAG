@@ -1,0 +1,29 @@
+Orchestrating Manned-Unmanned Missions
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S
+Figure 6: Mission Viewer.
+4.0 CONCLUSION
+Through the use of M&S STAR has been able to train and test different mission with an AI capable of
+reaching 72% [17] 89% [18] 88.1% [19]. This study demonstrated a proof-of-concept implementation for the
+integration of modeling and simulation into NATO’s force readiness framework, specifically in the context
+of MDO. The potential of such a tool is underscored by NATO initiatives like the Innovation Continuum,
+which seeks to advance Intelligence, Surveillance, and Reconnaissance (ISR). Effective tasking and
+coordination of MUM-T remain significant challenges; however, the STAR system offers a promising
+solution by enabling comprehensive training and evaluation of MDO scenarios. This approach helps both
+manned and unmanned platforms identify operational strengths, weaknesses, and opportunities for
+optimization. Looking ahead, future research will focus on refining STAR’s ability to integrate performance
+metrics for evaluating team effectiveness. By incorporating such metrics, the system can provide reflective
+feedback that drives continuous improvement, enhancing team efficiency and interoperability. In parallel, the
+STAR tasking algorithm will be further developed to enhance its predictive capabilities, enabling more
+accurate dynamic tasking and mission execution. The inclusion of expert feedback into the tasking process
+will foster a “teacher-student “ relationship between the operator and the system, promoting trust,
+transparency, and the explainability of AI-driven models which could evolve over time where the AI can be
+capable of assisting the human as a team member when human is overwhelmed or incapacitated due to
+cognitive degradation. This will ultimately strengthen decision-making in C2 systems, ensuring more
+informed and reliable operational choices to facilitate the MDMP and OODA loop. Additionally, research
+will explore the refinement of human meaningful control mechanisms within STAR, empowering operators
+to actively engage with and steer dynamic tasking scenarios through the recommendation algorithm. This
+balance between human vs AI decision-making is crucial for ensuring that the system remains adaptive to
+evolving operational needs. By enhancing the human-machine collaboration, STAR has the potential to
+significantly improve NATO’s readiness, enabling a more agile, resilient, and responsive force capable of
+navigating the complexities of modern, rapidly changing operational environments.
+11 - 12 STO-MP-MSG-229

@@ -1,0 +1,32 @@
+POLE D'EXCELLENCE CYBER
+Notre serveur Web interne peut subir une attaque DDoS qui va le rendre indisponible quelques heures, une injection SQL qui va
+permettre au pirate d'en prendre le contrôle, etc.
+Évaluer la probabilité d’un incident et la gravité de son impact :
+À chaque menace identifiée correspondent deux indicateurs, la probabilité qu’une vulnérabilité soit effectivement exploitée et la
+gravité de l’impact de l'action de cette menace pour la collectivité. Afin d’évaluer ces deux indicateurs, vous pouvez utiliser une échelle
+de valeurs relatives (1, 2, 3) ou des catégories (faible, moyen, élevé). Il semble impossible, voire dangereux, d'affirmer avec certitude
+qu'un de ces indicateurs soit égal à 0 (ou absent) : la valeur 0 ne doit pas être utilisé.
+La probabilité et l’impact sont évalués en tenant compte de tous les facteurs identifiés durant les étapes précédentes, tel le type de
+la vulnérabilité (matérielle, logicielle, physique, humaine), l’existence (ou non) de contre-mesures, les capacités et la motivation d'un
+l'individu, la base de connaissance des incidents précédents. Chacun de ces éléments peut être la source de nombreux risques, qui
+peuvent aussi s'enchaîner et se combiner en des scénarii complexes mais réalistes.
+La salle qui héberge le serveur Web interne de la collectivité peut être en sous-sol et de fortes pluies sont prévues. L’impact d’une
+potentielle inondation du sous-sol serait d’ordre financier (rachat d’un nouveau matériel) ou juridique (responsabilité si perte de
+données). Toutefois, si le bâtiment est construit en zone non inondable, la probabilité d’un tel incident est alors réduite au minimum.
+Évaluer et classer les risques :
+Croiser ces deux indicateurs, la probabilité et l’impact, permet d'ordonner les risques ; par exemple, un risque sera considéré comme
+élevé si la somme des valeurs de la probabilité et de l’impact est comprise entre 5 ou 6 ; le risque sera dit moyen si cette somme est
+comprise entre 3 et 4, faible ou pouvant être toléré si la somme est comprise entre 2 et 3.
+En combinant les scénarios de menaces et les événements redoutés, nous pouvons dresser un tableau non-exhaustif - ci-dessous - qui
+permet d’identifier et de classer une partie des risques qui pèsent sur notre serveur Web interne.
+Menace Vulnérabilité/ Probabilité Impact Risque
+Contre-mesures
+Surchauffe Le système de 3 Financier : 3 Élevé : rachat du
+climatisation est matériel
+vétuste
+Inondation Serveur installé au 1 Financier, juridique : 2/3 Moyen : peu
+sous-sol / Zone probable
+non inondable
+Attaque DDoS Pare-feu installé et 1 Indisponibilité Faible
+configuré temporaire du service : 1
+50

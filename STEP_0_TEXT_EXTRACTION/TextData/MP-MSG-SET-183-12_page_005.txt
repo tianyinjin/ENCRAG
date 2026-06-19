@@ -1,0 +1,36 @@
+Commercial UAVs Multispectral Detection
+2.2 Radio frequency detection
+Radio-frequency analysis of UAS signals is now very common in UAS detection. The principle is based on
+the evaluation of the signal transmitted by the control station (RC controller signals—“uplink”) or the signal
+transmitted by the UAV (“downlink”), e.g., telemetry data and video signals.
+Popular commercial drones use WiFi frequencies (2.4 or 5.8 GHz). In accordance with national frequency
+allocation tables (e.g., in Czech Republic, that of the National Radio Frequency Agency—NARFA), other
+frequencies can be also used, e.g. UHF 433 or 434 MHz. National laws also regulate the maximum output
+power of a transmitted signal.
+One of the most important aspects in the detection and identification of UAS is the used data protocol. RF
+detectors are designed based on knowledge of the system topology and structure, primarily knowledge of the
+transport layer. For precise identification, a database (library) of UAV frequencies and protocols is needed.
+A library allows a user to detect and identify the airborne target (drone) “online” based on its data signals.
+The disadvantage of this approach is the possibility of detection and identification for only the drones with
+known parameters (which are included in the database). Detection of non-standard drones in urban
+environments may not be successful.
+The main aim of the experiment was to evaluate the abilities and the possibility of RF drone detection by
+commercial RF detection devices using allowed frequencies.
+We used for experiments an RF detection device produced by Dedrone Inc. [USA & Germany], the
+DroneTracker Event Kit in Demo configuration; this kit consists of a Drone Tracker Multi Sensor and a
+DroneTracker RF Sensor. The multi sensor contains an RGB camera and a pair of microphones too.
+Measurement was performed at distances from 70 m to 1.7 km, and successful/unsuccessful detection and
+identification were evaluated.
+Figure 8: Dedrone Tracker Event Kit.
+2.3 Infra-Red detection
+The method described here is based on other characteristic attributes of the UAV. The infrared spectrum is
+part of the electromagnetic spectrum, with a wavelength from 760 nm to 1000 μm. The surveillance of the
+aerial area in the IR domain is used mainly for the detection of low altitude aerial targets, and it is part of an
+additional surveillance method whereby “blind” areas in the local air picture (LAP) are covered.
+The thermal imaging camera (FLIR A40M) connected to PC and the appropriate control and evaluation
+software were used for this experiment. For evaluation of the thermal image from the camera, ThermoCAM
+Researcher Professional 2.9, ThermoCAM Explorer 9.9, and MATLAB r2011a were used.
+The laboratory experiments consisted of two parts. The first part was focused on measurement of a thermal
+image of the isolated UAV electric motor, and the second part was focused on a thermal image of the entire
+UAV hovering in the laboratory.
+STO-MP-MSG-SET-183 12 - 5

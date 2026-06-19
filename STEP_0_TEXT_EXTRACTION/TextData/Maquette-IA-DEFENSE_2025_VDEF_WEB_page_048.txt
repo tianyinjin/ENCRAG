@@ -1,0 +1,55 @@
+48 Pôle d’excellence cyber
+IA raisonnante
+pour les systèmes décisionnels critiques
+Stéphane DELAYE Zyed ZALILA
+Directeur technique délégué à PDG-Fondateur & Directeur R&D
+l’Intelligence Artificielle INTELLITECH
+Eviden Professeur de mathématiques du flou et
+d’Intelligence Artificielle
+Université de Technologie de Compiègne
+Cet article expose certaines des propriétés transparent subit une validation préalable formelle et
+fondamentales que doit valider une Intelligence réfutable sur l’ensemble de son cadre d’emploi. Il s’agit
+Artificielle (IA), lorsqu’elle est employée pour développer de vérifier l’intégralité des connaissances embarquées
+et déployer des Systèmes Décisionnels (SD) critiques. dans le SD, formant sa logique interne décisionnelle, et
+si elles sont adaptées et suffisantes au cadre d’emploi.
+Intelligibilité et Explicabilité des Systèmes
+Décisionnels
+Si le SD est intelligible, il sera nécessairement explicable :
+Une IA de confiance est définie par plusieurs critères
+chacune de ses décisions sera expliquée grâce aux
+essentiels qui garantissent sa fiabilité et sa conformité
+connaissances du SD, préalablement auditées et certifiées
+aux valeurs éthiques et aux exigences des Forces Armées,
+avant son déploiement. Ainsi, et grâce aux propriétés
+dans un cadre juridique international et européen qui se
+d’intelligibilité et d’explicabilité, la phase d’audit du
+précise tous les jours. Après le premier sommet REAIM
+SD permet la détection d’erreurs dans l’ensemble de
+en 2023 (Pays-Bas), le sommet de 2024 (Corée du Sud) a
+données d’entraînement et de biais éventuels [1] : un
+permis de confirmer une feuille de route. Soutenue par
+préalable pour un usage éthique et responsable des SD.
+61 États, elle suggère des principes et un cadre pour la
+La relance automatique de l’induction (du modèle de
+gouvernance future, en soulignant qu’être responsable
+décision) sur cet ensemble de données mis à jour permet
+implique de se conformer au droit international, de tenir
+de découvrir des SD plus performants et exempts de biais.
+les humains responsables et comptables de leurs actes,
+de garantir la fiabilité de l’IA, de maintenir une implication
+De l’intérêt d’expliciter les connaissances d’un
+humaine appropriée et d’améliorer l’explicabilité de l’IA. SD pour en comprendre son adéquation au cadre
+d’emploi
+L’une de ses principales caractéristiques est d’être « Imaginons qu’au sein d’un essaim de drones, l’un
+centrée sur l’humain ». L’humain ne doit pas seulement d’eux soit chargé de missions de reconnaissance et
+être « dans la boucle » comme un point de contrôle de classification, tout en recevant des informations
+obligatoire dans un processus, mais l’IA doit être façonnée transmises, en temps réel, par les autres drones de
+pour être une extension de son action. L’autonomie l’essaim. Afin d’assurer un premier niveau de contrôle
+demandée aux SD étant grandissante, il faut donc être des informations transmises à ce drone qui devra «
+parfaitement conscient du domaine de responsabilité décider », nous lui donnons une capacité embarquée
+délégué et être en mesure de l’assumer. Cette nécessité de contrôle des types de données, comme avec l’outil
+de contrôler la délégation plus formellement met en open-source Magika[2], afin de vérifier la fiabilité
+avant deux autres propriétés essentielles : l’intelligibilité et l’authenticité des informations communiquées
+(ou transparence) du SD et l’explicabilité de ses et de déceler d’éventuelles compromissions.
+prédictions. Au-delà de la validation statistique et tests
+d’échantillons d’;un SD opaque (« boîte noire »), un SD Comment s’assurer que le réseau neuronal embarqué est

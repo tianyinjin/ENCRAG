@@ -1,0 +1,69 @@
+Modérée : Une telle vulnérabilité perturbe l’essaim, diffère ou amoindri son résultat.
+Vulnérabilités modérées Vulnérabilités modérées
+Type
+spécifiques communes
+Scripté
+Epuisement
+Téléopéré
+Eblouissement
+« Intelligent » Brouillage des liens156
+- EVALUATION DES HYPOTHESES SOUS-JACENTES
+Ces vulnérabilités et leur plus ou moins grande criticité reposent sur l’analyse de la technologie des
+essaims et donc sur un certain nombre d’hypothèses qu’il convient de passer en revue, car leur
+pertinence peut évoluer aux horizons de l’étude.
+Evolution anticipée aux horizons
+Vulnérabilité Hypothèse associée
+de l’étude
+Les cellules et leur contenant sont
+Impact cinétique Aucune
+détruits par impact cinétique
+La généralisation de matériaux
+résistants compromet l’exploitation
+Les matériaux des cellules se
+efficace de cette vulnérabilité, au
+percent rapidement sous un
+moins jusqu’à l’avènement des
+échauffement intense et localisé
+lasers à 2µ de puissance suffisante,
+Echauffement
+au-delà de 2030
+localisé
+Aucune : les capteurs dans le visible
+Les montures et capteurs optiques devraient demeurer prépondérants
+dans le visible y sont très sensibles sur la menace considérée et recourir
+et peuvent être rapidement traitées aux mêmes technologies, ne serait-
+ce que pour des raisons de coût
+Cela restera valable pour la plupart
+A la mer, la faible vitesse du drone et
+des drones artisanaux et grand
+sa sensibilité au vent peuvent être
+public. Ce sera de moins en moins
+Epuisement exploitées, au moins pour différer
+vrai pour les drones industriels, en
+l’arrivée de la menace et en accroître
+général plus véloces et moins
+le temps de traitement
+sensibles au vent
+Cela restera exploitable.
+Les moteurs de rotors ou les (Le recours, très peu probable, à des
+Perturbations actionneurs de gouvernes sont actionneurs hydrauliques ou
+électriques sensibles aux courants générés dans pneumatiques pourrait
+leurs bobines157 éventuellement en limiter l’impact sur
+les drones à voilure fixe)
+L’électronique est vulnérable aux
+Aucune : un blindage efficace n’est ni
+Surtensions surtensions provoquées par les
+crédible, ni accessible
+champs électriques intenses.
+Il est possible de brouiller Aucune, mais le recours au mesh, à
+Brouillage efficacement les liens de navigation, l’agilité en fréquence, au satellite et à
+vers le C2 ou internes à l’essaim la frugalité des échanges, ainsi que
+156 En l’absence de lien intra-essaim, les drones retombent sur un comportement non-coordonné.
+Si l’essaim à une architecture maître-esclaves, les esclaves sont démunis. En tout état de cause,
+l’essaim tombe en mode dégradé comme une simple superposition des comportements individuels
+avec les informations disponibles avant le brouillage. Par exemple, si des cibles ont été assignées
+avant le brouillage, chaque drone va garder la sienne.
+157 A noter que ces moteurs font partie des très rares composants vulnérables à une attaque
+électromagnétique en « front door » (cf annexe IV sur les armes HPM). Ils sont dépourvus de
+protection et le resteront longtemps, faute de solution pour les protéger de manière satisfaisante.
+55

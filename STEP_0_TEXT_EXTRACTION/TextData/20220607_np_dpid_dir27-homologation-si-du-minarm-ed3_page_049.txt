@@ -1,0 +1,54 @@
+N° Statut (cf. §1.3) Intitulé de la règle Acteur20
+Pour l’AE, établir une politique d’emploi pour pouvoir utiliser un service
+RO
+Obligatoire numérique public de type SaaS. Elle est fournie à l’AH pour insertion dans AE
+46 :
+le dossier d’homologation.
+Erreu
+r !
+Sour
+ce Pour une homologation d’un système de systèmes, procéder à une
+du analyse de risques portant non seulement sur chacun de ses composants
+Recommandé RSSI
+renv mais également sur l’ensemble du système de systèmes et
+oi l’interdépendance de ces derniers.
+intro
+uvabl
+e.
+Pour toute interconnexion de SI de niveaux de classification différents ou
+RO
+Obligatoire entre un SI classifié et un SI non-classifié, la justifier formellement auprès AE
+48 :
+de l’AH et de l’AQSSI par un besoin opérationnel.
+Procéder à une homologation spécifique des interconnexions ou de
+RO segments d’interface de SI de même niveau de classification.
+Obligatoire AH
+49 : L’interconnexion ou le segment d’interface de SI est alors homologué au
+même niveau de classification que ces systèmes.
+Procéder à une homologation spécifique des dispositifs d’interconnexion
+ou des segments d’interface de SI de niveaux de sensibilité ou de
+RO
+Obligatoire classification différents, ou de SI externes au ministère des Armées. AH
+50 :
+L’interconnexion ou le segment d’interface de SI est alors homologué au
+niveau du SI le plus élevé.
+Procéder à une homologation spécifique des dispositifs d’interconnexion
+RO
+Recommandé ou des segments d’interface de SI non classifiés et relevant du ministère AH
+51 :
+des Armées.
+Dans le cadre d’un développement de SI en mode agile, mentionner
+dans la stratégie d’homologation les modalités des échanges entre les
+RO
+Obligatoire différents acteurs (RSSI, équipe de développement, CEAH), le rythme RSSI
+52 :
+des remontées d’informations ainsi que les conditions de maintien de
+l’homologation.
+Subordonner la mise en exploitation d’un SI pour test ou expérimentation
+à l’autorisation formelle de l’AH qui valide les conditions de sécurité
+préalablement définies. Dans le cadre d'un test, la stratégie
+38 Obligatoire RSSI
+d'homologation doit prévoir cette autorisation et en préciser les modalités.
+L'autorisation d'exploitation est associée à une date de fin de validité et à
+un niveau de confidentialité des données à traiter.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 47/47

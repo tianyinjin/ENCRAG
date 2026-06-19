@@ -1,0 +1,39 @@
+Les systèmes de niveau L1 existent depuis 2018 notamment en Russie avec la Plateforme
+MARKER. Les robots dotés de fonctionnalités activables en mode « Follow The Leader »
+sont de niveau L1. Les niveaux L2 et L3 concernent potentiellement tous les milieux
+d’action : terre, air, mer en surface et sous-marin. Le niveau L4 peut s’appliquer à une
+opération de lutte anti-sous-marine menée en temps de guerre.
+3. La puissance de la robotique en essaim.
+Les vols en essaims d’insectes ou d’étourneaux, le déplacement d’un groupe de poissons
+ont donné lieu à de nombreuses recherches en informatique, mathématiques appliquées et
+en simulation multi-agents. La robotique cherche à imiter la puissance de l’essaim dans la
+construction de fonctionnalités décentralisées résilientes.
+Des exemples spectaculaires de robotique en essaim sont donnés par les spectacles
+lumineux mettant en scène des ensembles coordonnés de drones aériens. Dans ce type de
+spectacle, les drones sont supervisés par un calculateur centralisé (au sol) qui suit chaque
+robot et qui commande leur déplacement en formation. Les mouvements individuels
+résultent d’une version adaptée du contrôle du trafic aérien. Ils sont calculés en maintenant
+les trajectoires de vol séparées mais suffisamment proches tout en évitant les collisions.
+Individuellement, ces drones ne participent pas au processus de prise de décision.
+Le véritable comportement de l'essaim résulte d'un ensemble de règles élémentaires que
+chaque drone participant à l’essaim suit, sans contrôleur centralisé. En 1986, les travaux de
+recherche de Craig Reynolds5 sur la modélisation des essaims naturels (insectes, poissons,
+étourneaux) ont montré qu’il était possible de reproduire un vol en essaim à partir de trois
+règles très simples, sans supervision centrale. Ces trois règles sont les « consignes » que
+chaque participant à l’essaim doit respecter et appliquer :
+Règle 1) Séparation : garder une distance minimale avec ses voisins les plus proches.
+Règle 2) Alignement : se diriger vers le cap moyen de ses voisins à la même vitesse
+qu’eux.
+Règle 3) Cohésion : essayer de se rapprocher de la position moyenne de ses voisins
+tout en maintenant la cohésion locale de l’essaim.
+En respectant ces trois règles élémentaires, on montre que de très grands groupes d’agents
+(étourneaux, insectes ou drones) peuvent se déplacer vers une certaine destination en
+évitant des obstacles avec une agilité fluide et transparente.
+Des approches décentralisées similaires permettent aux essaims de drones de se
+« répandre » pour couvrir une vaste zone, et de se « déconcentrer » pour s'assurer qu'ils
+n'attaquent pas tous la même cible. Un opérateur dirige l'essaim vers la zone d’action
+pertinente et l'essaim autonome peut faire le reste. Notons que les essaims de drones
+militaires, contrairement aux drones de spectacle lumineux ou aux oiseaux en masse,
+peuvent être séparés les uns des autres et mis en œuvre en formation de moindre densité.
+5 Boids, Background and Update, Craig Reynolds https://www.red3d.com/cwr/boids/
+7

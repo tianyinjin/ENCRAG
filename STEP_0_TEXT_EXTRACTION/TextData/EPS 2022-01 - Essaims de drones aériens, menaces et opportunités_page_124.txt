@@ -1,0 +1,46 @@
+ANNEXE IV
+ARMES HPM : POINTS CLES
+Par définition, une arme HPM est une source électromagnétique d’une puissance rayonnée de 100 MW
+à 100 TW293 , opérant de 1 MHz à 300 GHz (au-delà c’est le domaine des Masers et Lasers). L’agression
+sera due soit au champ électrique soit au champ magnétique.
+- DEUX TYPES D’ARMES TRES DIFFERENTES QUI NE
+PRODUISENT PAS DU TOUT LES MÊMES EFFETS
+Les armes HPM peuvent produire sur les composants électriques et électroniques des effets gradués,
+suivant une échelle AFRL de 0 à 5, communément admise et reproduite ci-dessous :
+5 Dommages - impose le remplacement ou la réparation de l’électronique ou la
+réinstallation complexe des logiciels (software et/ou firmware)
+4 Hors service
+- impose une intervention externe (le calculateur ne redémarre pas)
+- l’équipement réussit à redémarrer seul : le programme en cours
+3 Perturbation
+s’arrête mais le processeur reprend après un temps de
+récupération
+2 Interférence
+- perturbation, uniquement le temps de l’illumination
+1 Sans effet
+Inconnu ou
+0
+non observé
+Il faut bien noter qu’il s’agit d’une échelle de laboratoire, destinée à évaluer des effets lors d’essais. En
+pratique, du point de vue de l’arme, les niveaux 3 à 5 relèvent tous du domaine « hard kill » ; en effet,
+les seuils pour obtenir un effet 3 sont du même ordre de grandeur que ceux requis pour un effet 4 : la
+technologie sollicitée est la même, elle est ancienne et requiert des puissances supérieures à 1 GW,
+pour des durées d’impulsion inférieures à 1 µs. Toujours du point de vue de l’arme, le niveau 2 relève
+du « soft kill » : s’appuyant en pratique sur une technologie de brouilleur, il est englobé, par abus de
+langage, dans les armes HPM, bien qu’ayant recours à des puissances et des formes d’onde très
+différentes, permises par les technologies qui sont celles des émetteurs radars modernes. Par des effets
+transitoires, dans le premier cas, persistants dans le second, les deux types d’armes ont pour objet
+d’abattre le drone, que sa destruction précède ou pas son impact avec la surface. Dans la suite nous
+parlerons d’HPM « hard kill » pour désigner les premiers et, par abus de langage, d’HPM « soft kill »
+pour évoquer les seconds. Les premiers cherchent à détruire instantanément l’électronique embarquée,
+les seconds à perturber les courants des bobines des moteurs d’actionneurs (gouvernes, rotors), le
+temps nécessaire pour assurer l’impact du porteur avec la planète.
+293 Il s’agit d’une puissance rayonnée dite ERP (Emitted Radiated Power) c’est à dire du produit
+Pe x Ge (Pe = puissance intrinsèque du générateur (magnétron, vircator, klystron, machine Flux
+Compressive Generator (explosif), Générateur de Marx, …) et Ge = Gain de l’élément rayonnant (ce
+dernier peut aller de 0dBi (Antenne omnidirectionnelle, donc Gain = 1), à un gain de 50 dBi
+(rayonnement directionnel, de classe 0.5° d’ouverture en site et en gisement, ce qui conduit à un
+cercle d’efficacité de 8 m à 1 km). Pour une puissance rayonnée de 100 TW (c’est le maximum de
+l’état de l’art en 2025-2030), il faut considérer des dimensions d’antenne imposantes (exemples :
+10 m x 10 m à 3 GHz et 5 m x 6 m à 9 GHz).
+124

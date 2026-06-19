@@ -1,0 +1,36 @@
+Personne avec des moyens très limités, pas Faibles Faible
+2 nécessairement de volonté de nuire.
+Exemples : hacktivistes, hackers blancs, amateurs…
+Personne ou organisme avec des moyens limités mais Faibles Forte
+3 avec une certaine détermination.
+Exemples : employés licenciés, mécontents, concurrents.
+Organisme aux moyens conséquents. Importants Forte
+4
+Exemples : organisations de cybercriminalité, terroristes.
+Organisme aux moyens illimités et à la détermination très Très Très forte
+5 forte. importants
+Exemple : organisme étatique.
+2.3.3. Accès
+2.3.3.1. Intervenant*
+N. Intitulé Définition
+1 Habilité, L’ensemble des intervenants autorisés sont habilités (au sens métier et/ou sens
+autorisé, protection du secret) et contrôlés. Une intervention non-autorisée n’est pas
+contrôlé possible sans intrusion physique (accompagnement, authentification des
+utilisateurs, journalisation des actions).
+2 Habilité L’ensemble des intervenants autorisés sont habilités (au sens métier et/ou sens
+et protection du secret) mais au moins une partie des opérations possibles n’est pas
+autorisé tracée. Une intervention non autorisée n’est pas possible sans intrusion physique
+(accompagnement, authentification des utilisateurs, …).
+3 Autorisé Il n’y a pas d’exigence particulière sur les intervenants autorisés mais une
+intervention non autorisée n’est pas possible sans intrusion physique
+(authentification des utilisateurs).
+4 Non Cette catégorie contient tous les systèmes industriels dans lesquels une
+autorisé intervention non autorisée est possible (système industriel accessible au public).
+2.3.3.2. Protection
+N. Intitulé Définition
+L’intrusion dans le système via l’accès physique aux équipements est rendue
+Protection difficile par une protection, comprenant plusieurs barrières physiques avec
+1
+forte contrôle d‘accès, alarme, détection et réaction. Le système comprend en outre
+un contrôle d’accès logique (authentification).
+DIR-39 SNSI – 2eme édition Page 35 | 79

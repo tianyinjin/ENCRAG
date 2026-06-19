@@ -1,0 +1,42 @@
+Une liste d’impacts génériques par catégorie d’appartenance du système d’information est définie
+dans l’annexe 3. Elle est amenée à évoluer au fur et à mesure de l’expérience. Toute proposition
+de modification est à transmettre à la DPID.
+Une modification fonctionnelle ou technique apportée au système industriel nécessite une revue
+de l’estimation du niveau de classe*.
+Le niveau de classe* d’une zone de sécurité* n’est pas figé. Le changement du contexte ou
+la définition des ressources pour assurer des fonctions peut par exemple modifier ce niveau de
+classe*. Les documents contractuels doivent alors prendre en compte les possibilités d’évolution
+de classe* dans la mesure du possible.
+5.1.3. Objectifs de l’attribution de classe
+Le niveau de classe* permet de définir :
+- le socle de sécurité, c’est-à-dire l’ensemble des exigences de sécurité techniques et
+organisationnelles à appliquer sur les ressources, visant à répondre aux besoins de sécurité
+en matière de confidentialité, d’intégrité, de disponibilité, voire de traçabilité ;
+- les possibilités de dérogation à la présente directive et les modalités dérogatoires.
+Le socle de sécurité comprend aussi :
+- les exigences propres aux composants de niveau 4 selon la réglementation en vigueur et les
+diverses recommandations (DGNUM, ANSSI, CNIL, etc.) ;
+- les exigences spécifiques selon la nature des données et le niveau de confidentialité.
+L’autorité d’homologation (AH) s’assure que le socle de sécurité reste applicable, cohérent et
+vérifiable.
+5.2. Phase de segmentation
+La segmentation d’un système industriel consiste à :
+- regrouper les fonctions principales du système industriel en zones de sécurité homogènes et
+distinctes, auxquelles est attribué un niveau de classe* ;
+- identifier les conduits* qui raccordent les zones de sécurité entre elles.
+Une zone de sécurité* est associée à un socle de sécurité qui dépend de la nature de ses
+composants et de son niveau de classe*.
+Les conduits* impliquent aussi la mise en place de mesures de sécurité adaptées à leur nature
+et aux niveaux de classe* des zones qu’ils raccordent.
+Le regroupement de l’ensemble des ressources en une seule zone ou leur répartition en plusieurs
+zones de sécurité présentent des avantages et des inconvénients. La solution qui consiste à
+réduire le système industriel à une seule zone et donc à imposer à tous les équipements les
+mêmes règles rationalise les infrastructures, simplifie la conception et l’exploitation du système
+industriel mais elle impose à tous les équipements les mêmes contraintes, ce qui peut impliquer
+des surdimensionnements en matière de sécurité et des coûts excessifs. Le découpage du
+système industriel en zones de sécurité réduit la prise en compte de certaines contraintes sur
+une partie du système industriel mais complexifie l’infrastructure à maintenir. L’effort porte
+notamment sur les interfaces entre les zones.
+Le choix dépend fortement du système industriel, de sa complexité et de son architecture, des
+conditions d’emploi, des ressources disponibles ainsi que des périmètres de responsabilité.
+DIR-39 SNSI – 2eme édition Page 17 | 79

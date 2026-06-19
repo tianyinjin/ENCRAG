@@ -1,0 +1,27 @@
+TLP:CLEAR
+L’analyse du code source de certains sites a également permis d’identifier des caractères cyrilliques. Par
+exemple, la rubrique « Contacts » de britishtalks.com indique “Контактная форма” (en français :
+« formulaire de contact »).182
+De manière similaire, la carte de localisation Google Maps intégrée au site euronewstop.co.uk apparait
+partiellement traduite car elle est issue d’une version russophone du logiciel183.
+Plus largement, l’analyse technique de ce site montre que pour chaque article publié, dans le champ
+« yoast_head_json » puis dans le champ « twitter_misc », le temps de lecture est annoncé en cyrillique184
+(voir ci-dessous).
+Traduction de la ligne surlignée en bleu : « Temps de lecture estimé : 2 minutes »
+Extraits du code source du site britishtalks.com
+Enfin, la reprise non déclarée de contenus diffusés par d’autres acteurs du dispositif d’influence
+numérique russe a été observée. Ainsi, la chaîne YouTube liée à newstop.africa, @ActuAF, publie
+régulièrement des montages vidéo dont les images sont issues de différents médias russes. Par exemple,
+le 9 novembre 2024, cette chaîne a publié un montage vidéo sur le forum Russie-Afrique composés de
+plusieurs extraits initialement diffusés par le média d’État russe Sputnik Afrique.185
+Une analyse de la totalité des articles publiés par le site newstop.africa sur une période comprise entre
+le 5 janvier 2024 et le 6 janvier 2025 démontre que sur les 1 596 articles publiés, 20 % sont identiques
+ou très proches d’articles publiés par le site d’African Initiative, afrinz.ru.
+Extrait d’un article de newstop.africa copié-collé d’un article original d’afrinz.ru
+182 https://archive.ph/MCHLr.
+183 https://archive.ph/lpaqy.
+184 Information récupérée via l’API Wordpress.
+185 Vidéo publiée par la chaîne YouTube @ActuAF (ID : UC_se874-sO_rB6n1GujLLPA). Le logo de Sputnik a été retiré :
+https://ghostarchive.org/varchive/cIwXhrMrKfk. Extraits diffusés par Sputnik Afrique : https://t.me/sputnik_africa/29444; https://t.me/sputnik_africa/
+29396.
+38 TLP:CLEAR

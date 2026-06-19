@@ -1,0 +1,64 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+B.4.1.4 _La gouvernance Le monitoring des activités souterraines de la cybercriminalité et des trafi-
+quants et la surveillance du cyberespace pour la lutte contre le terrorisme
+le renseignement militaire est une activité de nature régalienne, sa gouvernance
+illustrent l’importance de l’activité de suivi des cyber-menaces.
+n’est pas détaillée dans ce document6.
+B.4.3.2 _Lutte contre l’espionnage
+B.4.2 _Produits et technologies
+le cyber espionnage consiste à récupérer des données sensibles ou des droits
+afin d’obtenir un avantage sur une entreprise ou une entité gouvernementale.
+B.4.2.1 _Sondes et capteurs réseaux
+le site gouvernemental dédié à la lutte contre l’espionnage7 en expose les
+Se reporter au paragraphe b 3.2.2.
+risques et les moyens de prévention. le Service de l’Information Stratégique
+et de la Sécurité Economique (SISSE) propose 26 fiches autour de la sécurité
+B.4.2.2 _Outils d’investigation
+économique8. l’Institut national des Hautes études de la Sécurité et de la
+Les outils d’investigation ont pour objectif d’identifier les vulnérabilités résiduelles Justice (InHESJ) a également publié un kit de sensibilisation des atteintes à
+des systèmes d’information, les menaces qui leurs sont associées, ils aident à la sécurité économique9.
+caractériser les attaques que ces systèmes pourraient subir ou subissent.
+la règlementation pour la cybersécurité des entreprises est évoquée au
+chapitre H.3
+les outils d’investigation sont de natures très variées, ils dépendent du support
+de stockage, de transport, ou d’exploitation des informations qui sont à protéger.
+B.4.3.3 _Constitution de bases de données
+leur terrain d’application est extrêmement étendu (depuis les couches maté-
+la constitution de bases de données permet de capitaliser les connais-
+rielles jusqu’aux applications), protéiforme et mouvant.
+sances issues du renseignement, de les représenter sous différents angles
+de vues selon les problématiques à adresser, et de les rendre disponibles
+À titre d’exemple nous avons cité : les fouilles de données, les agents conver-
+pour une exploitation numérique par un calculateur et ses logiciels.
+sationnels, les outils de corrélation et de classification, les tests à données
+aléatoires (fuzzing), les scanners de vulnérabilités, liste loin d’être exhaustive. divers types d’objets peuvent être capitalisés et mis en base ou en cata-
+logue pour être réemployés à des fin de lutte informatique défensive (LID)
+le lecteur pourra s’adresser pour plus de détails aux services et agences de
+ou offensive (lIO). Sans exhaustivité nous pouvons citer :
+l’état, tels que la dGSI ou l’AnSSI en France, ou vers des sociétés privées
+• Les logiciels malveillants (vers, chevaux de Troie, portes dérobées,
+spécialisées dans ce domaine.
+spywares, keyloggers, rootkits, ransomwares…) ;
+• Les signatures de logiciels malveillants ;
+B.4.3 _Services
+• Les indicateurs de compromission ;
+B.4.3.1 _Renseignements sur la menace et rapports de Threat Intelligence • Les vulnérabilités matérielles, logicielles, ou des systèmes ;
+le renseignement sur la menace consiste à caractériser la menace sous ses dif- • Les incidents observés ;
+férents aspects : • Les scans réseau via l’Internet ;
+• Son origine : de qui provient-elle ?
+• Les certificats et les mots de passe interceptés ou décryptés.
+• Pourquoi ? Dans quel contexte ?
+B.4.3.4 _Cyber Threat Intelligence Platform (Capitalisation de renseignements)
+• Qui en est la cible ?
+• Quels sont les lieux concernés par la menace ? Un service de ctI performant utilise une plateforme pour pouvoir :
+• Quand peut-elle être exercée ? • Agréger plusieurs sources de données sur une même plateforme ;
+• Sous quelles formes peut-elle s’exprimer ? • Corréler, qualifier et valider les informations, via des processus ou par
+• Quels sont les moyens et les modes opératoires de l’attaquant ? investigation ;
+• Quelles sont les solutions pour s’en protéger ? • Disséminer l’information via des capacités d’interfaçage avec l’environnement.
+le renseignement sur la menace fait l’objet de rapports de threat Intelligence dans un environnement interconnecté, complexe et changeant, il est essentiel
+(tI) ou cyber threat Intelligence (ctI) synthétisant tout ou partie des réponses de comprendre l‘évolution rapide des menaces afin d’adapter les processus et
+aux questions adressées. les opérations de cyberdéfense.
+6 Pour plus d’informations, les éléments publics figurent à l’adresse : 7 https://www.gouvernement.fr/risques/espionnage
+https://www.defense.gouv.fr/content/download/551555/9394645/El%C3%A9ments%20publics%20de%20doctrine%20militaire%20de%20lutte%20informatique 8 https://sisse.entreprises.gouv.fr/fr/outils/la-securite-economique-au-quotidien-26-fiches-thematiques
+%20OFFENSIVE.pdf 9 https://inhesj.fr/kit-de-sensibilisation-des-atteintes-la-securite-economique
+34 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 35

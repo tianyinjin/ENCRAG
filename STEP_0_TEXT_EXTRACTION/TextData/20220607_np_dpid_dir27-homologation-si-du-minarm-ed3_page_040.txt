@@ -1,0 +1,42 @@
+Les conditions du test et de sécurité doivent être définies dans un document formel (PES, plan de test
+et de sécurité, etc.) dans lequel seront notamment précisés :
+● les responsabilités des acteurs en matière de sécurité ;
+● les flux ouverts et leur gestion ;
+● les SI et équipements interconnectés ;
+● les mesures de sécurité à appliquer ;
+● le devenir des données collectées et produites au cours du test.
+RO 53 : il est OBLIGATOIRE que la mise en exploitation d’un SI pour test ou expérimentation soit
+subordonnée à l’autorisation formelle de l’AH qui valide les conditions de sécurité
+préalablement définies. Dans le cadre d'un test, la stratégie d'homologation doit prévoir cette
+autorisation et en préciser les modalités. L'autorisation d'exploitation est associée à une date
+de fin de validité et à un niveau de confidentialité des données à traiter.
+Cas de régularisation
+Si un SI en phase d’utilisation n’a pas fait l’objet d’une décision d’homologation, l’AH doit procéder à
+une démarche d’homologation pour régulariser la situation selon l’un des trois types de démarches (cf.
+§4.4.5).
+Cependant, cette démarche peut être progressive et aménagée au regard des ressources allouées,
+de l’état du SI et de sa catégorisation, dans le cadre d’un processus d’amélioration continue. Elle
+nécessite au préalable une stratégie d’homologation et des PES qui pourront évoluer par la suite.
+Dossier d’homologation
+Quel que soit le type de démarche choisi, le dossier d’homologation peut être constitué des éléments
+suivants :
+● une stratégie d’homologation précisant :
+o les besoins de sécurité ;
+o les modalités pour parvenir à une décision d’homologation ferme et entière ;
+o les pièces du dossier d’homologation pour obtenir une première décision
+d’homologation ;
+● un périmètre d’homologation présentant :
+o les principales données métier ;
+o les équipements sensibles et leur localisation ;
+o les interconnexions ;
+● des PES définissant :
+o la gestion des accès ;
+o la protection contre les codes malveillants ;
+o la gestion des journaux ;
+o le MCS ;
+o la gestion des incidents ;
+● un PACS qui évoluera au gré du processus ;
+● une liste de non-conformités aux textes [PSSIM] et [PSSIM-T], auxquels s’ajoute [IGI
+1300] en cas de SI classifié.
+Le SI est nécessairement enrôlé dans l’outil de suivi du patrimoine applicatif du ministère (cf. RO 8).
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 38/47

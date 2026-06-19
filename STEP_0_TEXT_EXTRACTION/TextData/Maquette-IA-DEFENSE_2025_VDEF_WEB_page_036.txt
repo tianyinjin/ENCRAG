@@ -1,0 +1,65 @@
+36 Pôle d’excellence cyber
+L’IA de confiance est une illusion :
+construisons des produits de confiance
+Florian MAILLARBAUX Violette NICAISE
+Directeur Développement Responsable de projets - Dévelop-
+Commercial pement Commercial & Stratégie
+Comand AI Comand AI
+1. L’IA de confiance, une illusion technique et d’intégrer des instructions cachées, potentiellement
+opérationnelle ? malveillantes et presque indétectables[2].
+Le monde de l’intelligence artificielle a connu
+plusieurs évolutions majeures au cours des dernières
+L’idée d’une ‘IA de confiance’ repose ainsi sur une
+décennies. À ses débuts, l’automatisation reposait
+hypothèse erronée : celle qu’un modèle pourrait être
+sur une algorithmique déterministe, fournissant des
+fiable, prévisible et explicable. Non seulement les modèles
+preuves formelles de résultats pour des instructions
+ne sont plus fiables à 100 %, mais la question même de la
+données. Toute erreur intrinsèque au fonctionnement
+mesure de la fiabilité devient délicate. Étant donc entendu
+d’un algorithme était rare et identifiable. Ce cadre
+qu’il n’existe pas de méthode permettant de garantir la
+de prévisibilité s’est érodé avec l’arrivée du Machine
+confiance dans les réponses générées par l’IA, il apparaît
+Learning, où les sorties générées par l’IA se font
+illusoire de vouloir se doter d’une IA de confiance.
+sur des bases probabilistes et non algorithmiques.
+Bien que les résultats ne soient plus totalement
+Par ailleurs, la possibilité même de labelliser une IA
+explicables, il reste encore possible d’évaluer
+comme fiable introduirait un risque majeur dans un
+quantitativement la performance de ces modèles.
+contexte opérationnel où la rapidité de décision est
+essentielle : celui d’une délégation aveugle à une
+L’arrivée des modèles génératifs, en particulier
+machine perçue comme infaillible. Plus un système
+des grands modèles de langage, a amplifié cette
+est estampillé de confiance, moins ses résultats seront
+incertitude. Dans de nombreux cas, il est désormais
+interrogés, augmentant le risque d’une acceptation
+impossible de mesurer objectivement la fiabilité et
+automatique de ses conclusions sans analyse
+la performance des sorties des LLMs. Comment, par
+critique. L’IA n’est autre qu’un conseiller éclairé, un
+exemple, mesurer les biais d’un LLM qui rédige des
+outil d’aide à la décision dont l’humain reste l’ultime
+résumés de textes ? Si les conclusions générées par
+responsable—tant sur le plan juridique que moral.
+des LLMs sont donc toujours vraisemblables, leur
+exactitude, le respect des consignes données, et donc
+Pour autant, l’impossibilité d’établir la fiabilité de ces
+leur fiabilité, ne peuvent pas être objectivement établies.
+modèles n’enlève rien à la puissance de ces outils
+lorsqu’il s’agit d’analyser de grandes quantités de
+Cette difficulté à évaluer la fiabilité des modèles s’étend
+données, d’automatiser des tâches répétitives et de
+aux conditions dans lesquelles ils sont développés et
+dégager des tendances exploitables. Plutôt que de
+exploités. Un modèle peut être biaisé ou manipulé à
+chercher une IA infaillible, l’enjeu est d’intégrer ces
+trois niveaux critiques : l’infrastructure, l’inférence et
+modèles dans des systèmes qui en maximisent la
+l’embedding[1]. À ce dernier niveau, de subtiles altérations
+valeur sans en déléguer aveuglément le contrôle.
+dans les premières couches du modèle permettent

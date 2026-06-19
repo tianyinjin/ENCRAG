@@ -1,0 +1,44 @@
+RO 35 : il est CONSEILLÉ, dans des cas d’urgence opérationnelle, de délivrer une première décision
+d’homologation, plutôt qu’une APE, en adaptant la démarche à l’urgence et en fixant ses
+modalités dans la stratégie d’homologation.
+Une APE est limitée à une durée courte, le temps que la démarche soit finalisée [IGI 1300]. Elle est
+associée à un plan de mise en conformité.
+Quelle que soit la démarche entreprise, l’APE nécessite a minima :
+● une première stratégie d’homologation, comprenant obligatoirement le périmètre
+d’homologation, même succinct ;
+● une analyse de conformité par rapport aux exigences essentielles définies par l’AH ;
+● l’identification et l’évaluation des principaux risques résiduels qui pèsent sur le SI dans
+son contexte d’emploi ;
+● la mise en place de procédures définissant la gestion des accès, des journaux et des
+incidents ;
+● la définition et le suivi des actions nécessaires pour obtenir une première décision
+d’homologation.
+L’AH doit s’assurer que la démarche d’homologation sera suivie jusqu’à son terme et aboutira à
+une décision d’homologation avant sa fin de validité.
+Déploiement opérationnel (OPEX, OPINT, exercice, etc.)
+Par déploiement opérationnel, la présente directive entend les exercices, les missions ponctuelles ou
+les ouvertures de théâtre. Ils font l’objet d’une organisation SSI spécifique qui a la charge, entre autres,
+des déploiements de l’ensemble des SI de la mission. Il est donc possible de faire des homologations
+groupant tous les SI relevant de la responsabilité d’une même autorité, formellement définie dans le
+cadre de la mission.
+Les PES applicables sur les SI déployés pour la mission peuvent être regroupées dans un seul
+document ou dans des CUC prédéfinis afin d’éviter d’inutiles redondances Dans ce cas, l’AH décide
+d’une homologation de déploiement conformément à la procédure définie dans la présente directive (cf.
+§6.6) en faisant référence aux homologations de référence des SI déployés.
+En cas de déploiement d’un nouveau SI au cours de l’opération, soit l’homologation de déploiement
+opérationnel doit être renouvelée pour intégrer ce SI, soit ce SI doit faire l’objet d’une homologation de
+déploiement spécifique.
+Déploiements successifs d’un même SI
+Présentation
+Lorsqu’un SI dit de référence peut être déployé sur des instances, des sites ou dans des contextes
+d’emploi différents, la démarche d’homologation du SI à déployer peut s’appuyer sur une démarche
+d’homologation du SI de référence associée à des homologations de déploiement.
+L’homologation du SI de référence est le préalable à toute autorisation d’exploitation en contexte
+d’emploi. La décision d’homologation du SI de référence est identique à celle d’une décision
+d’homologation classique et respecte les règles définies dans le présent document (cf. §5). Il est précisé
+que la durée de validité doit être cohérente avec l’évolutivité du contexte sécuritaire du SI.
+L’homologation du SI à déployer dans son contexte d’emploi, appelée homologation de déploiement,
+est alors une déclinaison de l’homologation du SI de référence dans un contexte d’emploi et un
+environnement donnés. L’homologation de déploiement est alors la décision préalable à l’exploitation
+d’un SI de référence en contexte d’emploi.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 28/47

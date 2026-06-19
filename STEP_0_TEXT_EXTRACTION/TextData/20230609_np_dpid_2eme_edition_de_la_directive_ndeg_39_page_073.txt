@@ -1,0 +1,30 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Définir un processus (responsabilité, fréquence, …) garantissant le maintien dans
+le temps de la cartographie du système, en particulier après des actions de
+MCS5 ORG O
+maintenance et d’évolution. Le maintenir et le contrôler avant de ré-homologuer le
+système industriel.
+Mettre à jour la cartographie du système industriel à chaque évolution du système
+MCS6 ORG O
+et avant le renouvellement d’homologation.
+MCS7 ORG Définir la liste de la documentation relative au système industriel. R
+Réactualiser la documentation à intervalle régulier, au moins avant toute ré-
+homologation, pour :
+MCS8 ORG - s’assurer que les documents nécessaires existent bien et répondent toujours aux O
+besoins ;
+- éliminer ceux qui ne servent plus.
+Garantir les compétences
+MCS9 ORG Identifier les compétences critiques à détenir. O
+Mettre en place un processus de gestion des compétences afin de s’assurer que
+les intervenants disposent des compétences nécessaires pour leurs missions. Ce
+MCS10 ORG O
+processus devrait en particulier intégrer le transfert de compétences, en cas de
+départ ou de changement de poste, des personnes en charge du système.
+Maîtriser la configuration et son évolution
+Suivre les configurations des serveurs, des équipements réseaux et des
+MCS11 ORG O
+équipements. Ce suivi est mis à disposition du RSSI-A.
+Contrôler les différences entre la version courante et la version à installer et
+MCS12 TECH s’assurer que seules les modifications nécessaires et demandées ont été C R O
+appliquées.
+DIR-39 SNSI – 2eme édition Page 73 | 79

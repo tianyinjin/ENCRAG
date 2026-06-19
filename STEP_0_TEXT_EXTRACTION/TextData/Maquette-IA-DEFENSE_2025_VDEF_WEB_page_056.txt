@@ -1,0 +1,46 @@
+56 Pôle d’excellence cyber
+Les principales vulnérabilités des LLMs face aux
+attaques malveillantes
+Louis JOURDAIN Christian LANGEVIN
+Ingénieur IA/NLP Chief Product Officer IA/NLP
+Groupe Chapsvision Groupe Chapsvision
+L’intégration de l’IA générative (GenAI), et B. Les différents types d’attaques
+notamment des LLMs (Large Language Models), Les experts en cybersécurité ont développé une
+dans les entreprises et grandes institutions offre taxonomie des attaques visant les systèmes
+un potentiel immense : automatisation des tâches génératifs, notamment selon les techniques utilisées
+complexes, gain de temps pour les utilisateurs, par les attaquants. Cette taxonomie est bien sûr en
+et innovation des services. Cependant, ces outils constante évolution avec l’apparition de nouvelles
+introduisent de nouvelles vulnérabilités dans les menaces. A date les principaux types d’attaques
+systèmes d’information. En effet, qu’il s’agisse des répertoriées sont :
+données traitées, des modèles eux-mêmes, voire des
+logiciels incorporant des composants de GenAI, ces • jailbreaking : Tentative par des techniques de
+innovations ouvrent des fenêtres d’attaque exploitées prompting spécifiques de désaligner le LLM de
+par des acteurs malveillants. Ces derniers peuvent son paramétrage initial (production de contenu
+perturber le fonctionnement des services ou exfiltrer toxique, de biais…) ou de sa mission actuelle
+des données sensibles. Identifier et mettre en œuvre (« oublie toutes les instructions précédentes et
+des contre-mesures efficaces est désormais une …»), voire de générer un contenu dangereux si
+priorité majeure pour la cybersécurité. exécuté, comme des redirections vers des url
+frauduleuses. Ce genre d’attaque impacte la
+A. Qu’est-ce qu’un système d’IA fiable ? fiabilité des systèmes.
+L’intégration des LLMs dans des systèmes
+complexes ouvre de nouvelles voies pour des • prompt leaking (fuite de prompt) : Technique
+attaquants potentiels, capables de perturber le bon visant à « sonder » le système génératif en lui
+fonctionnement d’un service. Un système génératif faisant avouer son system prompt. Souvent phase
+est attendu sur quatre aspects fondamentaux : de repérage pour dévoiler des secrets industriels
+ou pour avoir de meilleurs outils pour améliorer
+• Fiabilité : il doit exécuter avec précision et qualité les autres formes d’attaques pas prompt injection.
+la tâche assignée. Le but est d’exfiltrer des données confidentielles.
+• Respect des formats prescrits : essentiel pour
+assurer l’interopérabilité dans des chaînes • attaque par code exécutable : L’attaquant
+d’agents IA autonomes. pousse le LLM à générer du code malicieux
+• Confidentialité : Un système d’IA doit garantir la puis à l’exécuter ; nota : seulement dans des
+sécurité des données personnelles de l’utilisateur environnements où le LLM a la permission de
+et de l’institution. générer et d’exécuter du code (coding agents).
+• Performance : il doit maintenir un temps de Cela impacte la fiabilité mais aussi l’intégrité
+réponse acceptable, même sous forte charge. même du système.
+Toute altération compromettant ces attentes — • data poisoning (empoisonnement des données) :
+qu’elle se manifeste par des résultats incohérents, Modification des données d’entraînement, de
+des latences accrues, ou des formats non conformes fine tuning d’un modèle ou des données qu’il
+— peut perturber le système avec des conséquences requête lors de l’exécution de ses tâches de façon
+variables, allant d’une simple inefficacité à des à influencer son comportement général (une
+dysfonctionnements critiques. modification de 0.1 % du corpus d’entraînement

@@ -1,0 +1,27 @@
+de l’AQSSI par un besoin opérationnel [IGI 1300]. La justification formelle est insérée dans le dossier
+d'homologation.
+RO 48 : il est OBLIGATOIRE pour toute interconnexion de SI de niveaux de classification différents ou
+entre un SI classifié et un SI non-classifié de la justifier formellement par l’AE auprès de l’AH
+et de l’AQSSI par un besoin opérationnel.
+Homologation spécifique
+RO 49 : il est OBLIGATOIRE de procéder à une homologation spécifique des interconnexions ou de
+segments d’interface de SI de même niveau de classification. L’interconnexion ou le segment
+d’interface de SI est alors homologué au même niveau de classification que ces systèmes.
+RO 50 : il est OBLIGATOIRE de procéder à une homologation spécifique des dispositifs
+d’interconnexion ou des segments d’interface de SI de niveaux de sensibilité ou de
+classification différents, ou de SI externes au ministère des Armées. L’interconnexion ou le
+segment d’interface de SI est alors homologué au niveau du SI le plus élevé.
+L’interconnexion ou les segments d’interface font l’objet d’une homologation distincte de celles des
+réseaux [II 901].
+RO 51 : il est RECOMMANDÉ de procéder à une homologation spécifique des dispositifs
+d’interconnexion ou des segments d’interface de SI non classifiés et relevant tous du ministère
+des Armées.
+Désignation de l’autorité d’homologation
+L’AH d’une interconnexion ou d’un segment d’interface est :
+● de manière générale, l’AH désignée après concertation entre les AH de chaque SI
+interconnecté ;
+● par défaut, l’AH du SI du niveau de classification le plus élevé dans le cas de SI de
+niveaux de classification différents ;
+● le SGDSN ou toute autorité à qui il en délègue la responsabilité, dans les cas suivants
+[IGI 1300] :
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 34/47

@@ -1,0 +1,29 @@
+PROTEUS : des drones sous-marins connectés pour des mi... https://www.defense.gouv.fr/aid/actualites/proteus-drones...
+Le point clef est de contrôler la géométrie de l’antenne. Cela demande de concevoir
+de nouveaux moyens de positionnement précis et des principes de coordination de la
+meute.Le projet PROTEUS, débuté en novembre 2020, est porté par l’entreprise
+ARKEOCEAN, en partenariat avec l’ENSTA Bretagne et le centre d’expertise et d’essais
+des Techniques Navales de la Direction Générale de l’Armement.
+ARKEOCEAN a reçu le prix de l'innovation lors du salon Euronaval 2022.
+Le projet PROTEUS vise à transformer des drones sous-marins existants en objets
+connectés aptes à conduire des missions d'observation et d'évaluation du milieu
+subaquatique à grande échelle. Il répond à l’enjeu de diminution drastique des coûts
+d’acquisition de données massives lors de campagnes de surveillance civiles et
+militaires. Cela passe par le contrôle efficace des meutes d’AUVs.
+Il propose ainsi l’architecture et les briques de base des futurs systèmes d’observation
+sous-marine 2D ou 3D à large fauchée.
+Une des premières applications de PROTEUS est de transformer un ensemble de
+véhicules autonomes sous-marins (AUV) ordinaires, disposant chacun d’un récepteur
+acoustique UBF, en une grande antenne synthétique d’écoute discrète, apte à
+conduire des missions de lutte sous-marine (LSM). Cela se fait en laissant dériver une
+formation d’AUVs silencieusement dans le courant en gardant une géométrie
+d’antenne précise. Les moteurs des AUVs sont coupés et ne sont activés que
+brièvement pour conserver la géométrie de la meute. Le respect de la forme
+d’antenne initiale est indispensable à la réalisation d’un post-traitement de signal
+efficace garantissant le gain requis pour détecter et positionner des menaces sous-
+marines lointaines.
+Les premières étapes du projet ont permis d’élaborer des concepts d’emplois
+militaires (LSM) et civils (prospection géophysique), d’imaginer une architecture
+système puis de valider la justesse des concepts d’emploi par des modélisations
+système.
+2 of 8 2/4/26, 16:41

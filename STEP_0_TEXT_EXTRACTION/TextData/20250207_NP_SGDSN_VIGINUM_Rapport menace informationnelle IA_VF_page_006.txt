@@ -1,0 +1,49 @@
+des acteurs malveillants à générer des contenus manifestement inexacts ou trompeurs dans le champ
+informationnel, via majoritairement trois type d’usage.
+Tout d’abord, ces technologies permettent l’optimisation de leur productivité basique (traduction,
+correction grammaticales et orthographiques, synthèse de documents...).
+Par ailleurs, elles permettent la génération à grande échelle de textes sous différentes formes. Il peut s’agir
+tout à la fois de textes longs (articles par exemple), ou courts (publications pour les réseaux sociaux,
+commentaires…), ou encore de textes pouvant viser un public large, ou bien de textes sur mesure ciblant
+des audiences très spécifiques (via des prompts2 visant à imiter la tonalité et le langage de personas
+représentatifs de certaines catégories de population à des fins de microtargeting). Cet usage recouvre des
+niveaux de sophistication variables, allant de la simple génération de texte, à des usages plus complexes
+(animation de réseaux de comptes via l’IAg, automatisant l’analyse de publications et la génération de
+réponses en retour, à base d’agents IA3). L’utilisation de l’IAg pour la génération de contenus textuels est
+de nature à faciliter, en théorie, le déploiement de manœuvres informationnelles sophistiquées, en
+permettant à la fois une plus grande diversité dans la reformulation d’un même texte ou d’un narratif, ainsi
+qu’en perturbant l’identification du caractère inauthentique et coordonné d’une campagne. Cela permet
+notamment d’éviter les écueils du procédé du copy-pasta4, facilement détectable et pénalisé par les
+plateformes.
+Enfin, ces technologies permettent de simplifier la génération de contenus visuels, audio, ou vidéo, avec
+un niveau de stylisation et de qualité susceptibles d’attirer l’attention et de générer de l’engagement. Bien
+que de nombreux contenus synthétiques diffusés sur les réseaux sociaux témoignent d’un usage récréatif
+de l’IA, en s’inscrivant dans le registre de l’humour ou de l’ironie5, les observations de VIGINUM témoignent
+également d’un recours croissant à ces technologies dans le cadre de manœuvres informationnelles
+malveillantes (cf infra section I.3).
+Ces gains de productivité en matière de génération de contenus permettent également aux acteurs de la
+menace informationnelle d’inscrire leurs stratégies sur le moyen et le long terme. A titre d’exemple,
+Newsguard a identifié 1 150 sites web d’information, entièrement ou principalement générés par des
+modèles de langage d’IA dans un total de 16 langues différentes6. Outre le fait que ces sites constituent
+des dispositifs pré-positionnés susceptibles d’être activés dans le cadre de manœuvres informationnelles,
+ils permettent également à leurs opérateurs de capter de grands volumes d’investissements publicitaires
+programmatiques7 au détriment de médias authentiques, et ce par le biais de différents procédés (articles
+« pièges à clics », vidéos en lecture automatique, publicité contextuelle…).
+b. Des capacités décuplées pour la réplication et la publication coordonnée de contenus
+inauthentiques à grande échelle
+La facilité de création de contenus via les technologies d’IAg décuple ainsi l’aptitude des acteurs
+malveillants à mener des actions coordonnées à grande échelle sur plusieurs plateformes, voire même
+contribue à internationaliser leurs stratégies. En effet, outre la capacité de produire automatiquement
+différentes versions d’un même texte avec de légères reformulations pour tromper les mécanismes de
+détection, les technologies d’IA facilitent également la rédaction de contenus dans de nombreuses
+langues, dans une syntaxe convaincante, permettant de cibler plus facilement de nouveaux pays ou de
+2 Un prompt désigne une instruction ou un ensemble de données fournies à un système d'IA, lequel se sert de ces informations pour
+produire des réponses ou des créations sous forme de texte, d'images ou d'autres types de médias.
+3 https://huggingface.co/blog/ethics-soc-7
+4 Bloc de texte ou visuel copié-collé à l'identique ou presque, sur une ou plusieurs plateformes web, dans le but d'amplifier la
+visibilité d'un message.
+5https://www.francetvinfo.fr/replay-radio/le-vrai-du-faux/macron-en-eboueur-trump-interpelle-obama-et-merkel-a-la-plage-les-
+images-creees-par-des-intelligences-artificielles-sont-de-plus-en-plus-realistes_5712170.html
+6 Newsguard AI Tracking Center, consulté le 7 janvier 2025, https://www.newsguardtech.com/special-reports/ai-tracking-center/
+7 Processus automatisé d’achat et de vente d’espaces publicitaires numériques.
+6

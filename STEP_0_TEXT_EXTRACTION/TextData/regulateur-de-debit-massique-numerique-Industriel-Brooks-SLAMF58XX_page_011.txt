@@ -1,0 +1,51 @@
+Codes des modèles
+Code Description Code option Description de l’option
+6C ANSI 6" 600 RF à bride (taille 4 seulement)
+6D DIN DN150 PN16 à bride (taille 4 seulement)
+6E DIN DN150 PN40 à bride (taille 4 seulement)
+6F DIN DN150 PN64 à bride (taille 4 seulement)
+8A ANSI 8" 150 RF à bride (taille 4 seulement)
+8B ANSI 8" 300 RF à bride (taille 4 seulement)
+8C DIN DN200 PN10 à bride (taille 4 seulement)
+8D DIN DN200 PN16 à bride (taille 4 seulement)
+8E DIN DN200 PN25 à bride (taille 4 seulement)
+8F DIN DN200 PN64 à bride (taille 4 seulement)
+VII. Matériau du joint torique A Viton
+B Buna
+C PTFE
+D Kalrez
+E EPDM (non disponible en taille 4)
+J FDA/USP Classe VI et ADI - Viton/FKM² (non disponible en taille 4)
+L FDA / USP Classe VI – EPDM (non disponible en taille 4)
+VIII. Siège de vanne A Néant (capteur seulement)
+B Viton (pour taille de corps 3, matériau du diaphragme : PTFE)
+C Buna (pour taille de corps 3, matériau du diaphragme : PTFE)
+D Kalrez (pour taille de corps 3, matériau du diaphragme : PTFE)
+E EPDM (pour taille de corps 3, matériau du diaphragme : PTFE)
+(non disponible en taille 4)
+F PTFE
+J FDA/USP Classe VI et ADI - Viton/FKM² (non disponible en taille 4)
+IX. Type de vanne 0 Néant (capteur seulement)
+1 Normalement fermée
+2 Normalement fermée (différentiel de pression > 30 psig (2 bar))
+3 Normalement fermée (différentiel de pression < 30 psig (2 bar))
+4 Normalement fermée – haute pression
+5 Normalement ouverte
+X. E / S analogiques A Néant – communications numériques seulement
+Communications
+E 4 – 20 mA 0 – 5 volts manchon de câble PG11
+F 0 – 5 volts 0 – 5 volts manchon de câble PG11
+G 4 – 20 mA 4 – 20 mA manchon de câble PG11
+H 0 – 5 volts 4 – 20 mA manchon de câble PG11
+I 0 – 5 volts 0 – 20 mA manchon de câble PG11
+J 0 – 5 volts 0 – 5 volts tube ½" NPT (F)
+K 4 – 20 mA 4 – 20 mA tube ½" NPT (F)
+N 0 – 5 volts 4 – 20 mA tube M20 × 1,5
+O 0 – 5 volts 0 – 20 mA tube M20 × 1,5
+P 4 – 20 mA 0 – 5 volts tube M20 × 1,5
+Q 0 – 20 mA 0 – 5 volts tube M20 × 1,5
+R 1 – 5 volts 1 – 5 volts manchon de câble PG11
+S 0 – 20 mA 0 – 20 mA manchon de câble PG11
+T 1 – 5 volts 1 – 5 volts tube ½" NPT (F)
+U 0 – 20 mA 0 – 20 mA tube ½" NPT (F)
+V 0 – 5 volts 0 – 5 volts tube M20 × 1,5 11

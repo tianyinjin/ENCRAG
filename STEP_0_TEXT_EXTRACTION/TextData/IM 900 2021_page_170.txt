@@ -1,0 +1,44 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.6
+DROIT PRIVE
+(cid:3)
+3. Maintien en condition opérationnelle (MCO)
+Les opérations de maintenance sur un système d’information classifié doivent
+obligatoirement être tracées et imputées.
+Interventions de maintenance(cid:3):
+Avant chaque intervention de maintenance, il est obligatoire de s'assurer de la mise en
+place des mesures de préservation des informations à protéger et des équipements
+classifiés, sensibles ou Diffusion Restreinte (une procédure d’effacement pourra être mise
+en œuvre avant toute intervention de la société de maintenance). Après l'intervention,
+la configuration du système est vérifiée afin de s’assurer de sa conformité avec l'état
+requis. En particulier, il est vérifié que les modifications apportées n'altèrent pas le niveau
+de sécurité pour lequel une homologation a été prononcée. Si l'intervention est associée
+à une évolution significative du système et notamment de sa configuration, celle-ci
+donne lieu à une nouvelle homologation du système.
+Seuls les composants matériels mis à disposition ou administrés par l’organisme dont
+dépend un système classifié ou explicitement autorisés dans le dossier d’homologation
+du SI peuvent être connectés à des SI classifiés.
+Une personne en charge de la maintenance ayant potentiellement accès à des
+informations classifiées et ne possédant pas de compte administrateur est habilitée au
+même niveau que le SI sur lequel elle est amenée à effectuer une opération de
+maintenance. Si elle n'est pas habilitée à ce niveau, elle est accompagnée pendant toute
+l'opération par un agent habilité et ayant des compétences suffisantes pour s’assurer que
+la personne en charge de la maintenance n’ait pas accès à des informations classifiées et
+n’introduise pas d’élément non maîtrisé dans le SI traitant d’informations classifiées.
+4. Maintien en condition de sécurité (MCS)
+a. Généralités
+Le MCS est l’ensemble de mesures organisationnelles et techniques concourant à
+maintenir le niveau de sécurité accepté lors de l’homologation tout au long du cycle de
+vie du SI.
+Le MCS est de la responsabilité de l’entité contractante qui exploite le système. Elle
+approuve les modifications ou installations de patchs et peut avoir à requérir l’avis formel
+du ministère.
+Tout système doit prévoir les dispositions requises pour permettre de couvrir les risques
+tout au long de la vie du système. Des moyens techniques et organisationnels sont prévus
+et mis en place pour valider puis diffuser les mesures correctrices requises. Ces
+procédures de MCS font partie du périmètre d'homologation du système.
+L’entité contractante se tient informée des vulnérabilités ou mesure correctrices
+diffusées par les fournisseurs de solutions ou des centres de prévention et d’alerte en
+matière de cyber sécurité.
+164

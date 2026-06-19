@@ -1,0 +1,53 @@
+67
+EU Disinfo Lab Hameçonnage
+EU DisinfoLab est une association à but non lucratif créée L’hameçonnage (phishing) est une technique frauduleuse
+en 2017 à Bruxelles . Depuis 2019, elle s’est spécialisée destinée à leurrer l’internaute pour l’inciter à communiquer
+dans l’investigation en source ouverte . des données personnelles et/ou bancaires en se faisant
+passer pour un tiers de confiance : envoi de faux
+Fact-checking messages, appels téléphoniques ou envoi de liens à
+La vérification des faits, notion apparue aux États-Unis cliquer . (DGCCRF)
+dans les années 1990 sous l’appellation de fact-checking,
+est une technique consistant d’une part à vérifier la Hachage/hashing
+véracité des faits et l’exactitude des chiffres présentés Le hachage est une fonction cryptographique qui
+dans les médias par des personnes publiques, notamment transforme une chaîne de caractères de taille quelconque
+des personnalités politiques et des experts, et, d’autre en une chaîne de caractères de taille fixe et généralement
+part, à évaluer le niveau d’objectivité des médias eux- inférieure . Cette fonction satisfait entre autres deux
+mêmes dans leur traitement de l’information . (wikipedia) propriétés : il est difficile pour une image de la fonction
+donnée de calculer l’antécédent associé (à sens unique)
+Usine ou ferme à avatars ou trolls mais aussi de trouver deux antécédents différents de la
+Un troll est une personne qui provoque intentionnellement fonction ayant la même image (sans collision) . (ANSSI)
+des conflits ou des réactions émotionnelles sur l’Internet en
+postant des messages provocateurs, des désinformations Indicateurs de compromission humains (les IoC-H™)
+ou des commentaires offensants . L’objectif du troll est Information technique, telle que l’adresse IP d’un serveur
+souvent de déranger ou de manipuler les autres, de malveillant ou le nom d’un site Web piégé, permettant
+provoquer des réactions vives et de créer du chaos de détecter et de caractériser une attaque . Le partage
+dans les discussions en ligne . En revanche, un avatar de ces éléments de connaissance permet notamment
+est une représentation visuelle d’un utilisateur dans un d’empêcher des compromissions futures . En revanche, de
+environnement numérique . Cela peut être une image, telles informations ne doivent parfois pas être divulguées
+un personnage virtuel ou un symbole qui représente si l’attaque a été judiciarisée . (ANSSI)
+l’utilisateur sur des forums, des réseaux sociaux ou dans
+des jeux vidéo . Les avatars sont utilisés pour personnaliser Ingénierie sociale
+l’identité en ligne d’un utilisateur, sans nécessairement Manipulation consistant à obtenir un bien ou une
+impliquer un comportement négatif . En résumé, un troll information, en exploitant la confiance, l’ignorance ou
+est une personne qui dérange ou provoque sur l’Internet, la crédulité de tierces personnes . Remarque : Il s’agit,
+tandis qu’un avatar est une représentation visuelle d’un pour les personnes malveillantes usant de ces méthodes,
+utilisateur en ligne . Une ferme à avatars serait donc par d’exploiter le facteur humain, qui peut être considéré
+extension une organisation qui qui aurait la charge de dans certains cas comme un maillon faible de la sécurité
+coordonner des avatars (des comptes et leur contenu) du système d’information . (ANSSI)
+sur les réseaux sociaux, afin de les utiliser pour diffuser
+de manière massive des informations sur les réseaux Inspection approfondie
+sociaux . En cas de diffusion d’informations partielles, L’inspection profonde de paquets ou en anglais Deep
+partiales ou totalement mensongères, on parlera de Packet Inspection, abrégée IPP ou DPI est une technique
+trolls plutôt que d’avatars . (Wikipédia) d’analyse des flux passant dans des équipements
+réseau au-delà de l’entête . L’équipement recherche des
+Guerre de l’information informations dans la charge utile des paquets plutôt que
+Méthodes et actions visant à infliger un dommage dans les entêtes (à l’inverse des approches classiques) .
+à un adversaire ou à se garantir une supériorité par Des signatures sont le plus souvent recherchées pour
+l’usage de l’information, dans l’acquisition d’information détecter des types de flux et agir en conséquence . Il
+(données ou connaissances) stratégique adverses, pour existe plusieurs domaines d’applications : priorisation
+la dégradation des systèmes d’acquisition d’information ou ralentissement de flux particuliers, censure, détection
+et de communication adverses, pour la manipulation d’intrusion . L’inspection est mise en œuvre par des
+et l’influence (notamment la désinformation et la gouvernements, des FAI et des organisations à ces fins .
+subversion), la propagation organisée et contrôlée de (Wikipédia)
+messages stratégiques, ou la rétention d’informations
+pouvant servir à l’adversaire . (Wikipedia)

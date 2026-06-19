@@ -1,0 +1,50 @@
+o DETECTION
+La détection couvre ici la perception, son évaluation technique, la localisation des drones assaillants et
+leur pistage :
+- La perception des drones constituant la menace de référence peut résulter :
+o D’une détection externe au sein de la force, augmentant le préavis pour les unités
+qui en sont encore éloignées.
+o D’une interception ESM des communications entre un essaim téléopéré et ses
+pilotes, qui peut être espérée à une dizaine de kilomètres ; moins énergétiques et
+plus frugales, les liaisons internes à un essaim « intelligent » ne sont perceptibles
+que tardivement, voire pas du tout.
+o Les radars impulsionnels modernes en service possèdent par conception une
+distance aveugle qui couvre la zone de détection de ces petits objets de faible
+surface équivalente radar183 ; certains radars anciens peuvent espérer percevoir
+des drones de la taille de l’ALTIUS-600M en optimisant leurs réglages pour la zone
+proche, au détriment des autres besoins et avec une probabilité de détection par
+l’opérateur qui reste faible, sans autre préavis ; en conditions de propagation
+normales et selon leur technologie, les radars dédiés du marché peuvent espérer
+percevoir un ALTIUS-600M entre 1 400 et 5 000 m et un Perdix entre 1 000 et
+3 000 m ; il est nécessaire de bien prendre en compte le fait que des munitions
+rodeuses comme l’ALTIUS-600M peuvent voler à haute altitude et adopter un profil
+d’attaque plongeant, souvent moins favorable à la détection ; ce profil de vol ne
+peut être exclu pour des Perdix attaquant un bâtiment de surface à quai ou au
+mouillage, après avoir été largués en altitude ; seule une détection
+tridimensionnelle est en mesure d’optimiser l’action des effecteurs, dans le temps
+imparti, pour contrer une menace aussi fugace.
+o Sous réserve d’une bonne transmission atmosphérique, les IRST peuvent
+contribuer à la perception à site bas à des distances sans doute inférieures aux
+radars dédiés, typiquement dans une fourchette 400 – 1500 m pour la menace
+considérée, chiffres qui ne peuvent être validés que par des essais sollicitant les
+équipements en dotation.
+o Une perception à la vue peut être envisagée à des distances de l’ordre de 400 m,
+par visibilité normale et personnel entraîné.
+o Une détection sonore est envisageable en ambiance peu bruitée à une distance
+de l’ordre de 300 m ; des équipements dédiés peuvent percevoir la signature
+acoustique typique des petits drones aériens.
+- L’évaluation technique des perceptions obtenues fait partie intégrante du processus de
+détection. Elle n’est pas anodine dans la mesure où les causes de fausse alarme existent,
+en particulier les oiseaux (vitesse cohérente avec celle du Perdix) ou les vecteurs
+nautiques rapides pour les radars. Pour chaque senseur, les compromis entre probabilité
+de détection et taux de fausse alarme résultent du traitement et ne peuvent s’apprécier
+que par l’essai. L’opérateur consacre toujours un certain temps à cette phase d’évaluation
+technique, surtout lorsqu’il ne dispose que d’une unique source de perception.
+- Le sujet de la localisation a déjà été évoqué à travers la nécessité que celle-ci soit
+tridimensionnelle, ce qui, de fait, impose le recours au radar. La faible taille des objets
+recherchés impose à ce dernier de faibles durées d’impulsion ou des émissions
+continues.
+183 On pourra se référer utilement à l’étude « Analyzing Radar Cross Section Signatures of Diverse
+Drone Models at mmWave Frequencies », VASILII SEMKIN, JAAKKO HAARLA, THOMAS PAIRON, CH
+RISTOPHER SLEZAK, SUNDEEP RANGAN, VILLE VIIKARI, et CLAUDE OESTGES.
+69

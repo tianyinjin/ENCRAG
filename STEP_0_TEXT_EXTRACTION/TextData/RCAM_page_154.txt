@@ -1,0 +1,65 @@
+154
+Règlementation de la Circulation Aérienne Militaire Appendice 4
+Règles et services de la CAM 12 juin 2020
+SPÉCIFICATIONS DE QUALITÉ DES DONNÉES AÉRONAUTIQUES
+Tableau 1. Latitude et longitude
+Précision Intégrité
+Latitude et longitude
+Type de données Classification
+2 km (1 NM)
+Points de limite de région d’information de vol… ordinaires
+déclarées
+Points de limite de zone interdite, réglementée ou 2 km (1 NM)
+ordinaires
+dangereuse (hors région/zone de contrôle)…. déclarées
+Points de limite de zone interdite, réglementée ou 100 m
+essentielles
+dangereuse (dans région/zone de contrôle)…. calculées
+100 m
+Points de limite de région/zone de contrôle…….. essentielles
+calculées
+Aides de navigation et repères en route, points 100 m
+essentielles
+d’attente, points STAR/SID………………… mesurées/calculées
+Obstacles dans la zone 1 (ensemble du territoire 50 m
+ordinaires
+national)…………………………………… mesurées
+Obstacles dans la zone 2 (partie à l’extérieur des 5 m
+essentielles
+limites de l’aérodrome/hélistation)………….. mesurées
+Points/repères d’approche finale et autres
+3 m
+points/repères essentiels utilisés dans des essentielles
+mesurées/calculées
+procédures d’approche aux instruments…………
+Tableau 2. Altitude topographique/altitude/hauteur
+Précision Intégrité
+Altitude/hauteur
+Type de données Classification
+Hauteur de franchissement de seuil (hauteur du 0,5 m ou 1 ft
+critiques
+point de repère), approches de précision …….. calculées
+conforme aux
+Altitude/hauteur de franchissement d’obstacles spécifications des
+essentielles
+(OCA/H)………………………………………… PANS-OPS
+(Doc 8168)
+Obstacles dans la zone 1 (ensemble du territoire 30 m
+ordinaires
+national)…………………………………… mesurées
+Obstacles dans la zone 2 (partie extérieur des 3 m (10 ft)
+essentielles
+limites de l’aérodrome/hélistation) ……….. mesurées
+30 m (100 ft)
+Équipement de mesure de distance (DME)… essentielles
+mesurées
+conforme aux
+Altitudes de procédures d’approche aux
+spécifications des
+instruments……………………………… essentielles
+PANS-OPS
+(Doc 8168)
+Altitudes
+50 m ou 100 ft
+minimales………………… ordinaires
+calculées

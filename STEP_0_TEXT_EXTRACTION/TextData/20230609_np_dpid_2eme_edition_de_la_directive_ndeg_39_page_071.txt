@@ -1,0 +1,39 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+- les modalités de l’intervention (motif, durée, fichiers modifiés, procédure de tests,
+procédure de restauration) doivent être définies et autorisées ;
+- les connexions doivent être réalisées à la demande de l’entité responsable ;
+- le télémainteneur doit utiliser un ID de connexion nominatif, non générique ;
+- l’équipement de connexion distant et l’administrateur distant doivent être
+authentifiés ;
+- le mot de passe de connexion doit être changé régulièrement ;
+- la journalisation des événements de sécurité doit être activée ;
+- après un délai précis d’inactivité, la connexion doit être fermée ;
+- l’équipement doit être cloisonné du reste du système industriel et seuls les flux
+indispensables pour l'opération doivent être autorisés entre l’équipement et le reste
+du système industriel ;
+- les opérations de télémaintenance* ne doivent réalisées qu’à l’aide de protocoles
+sécurisés, assurant notamment l’intégrité, la confidentialité et l’authenticité des
+échanges.
+MAINT1 Mettre en œuvre une authentification forte à deux facteurs pour opérer la
+TECH R O O
+3 télémaintenance*.
+Dans le cas d’une connexion par modem n’offrant pas de système
+MAINT1
+ORG d’authentification satisfaisant, utiliser un système de rappel (call-back) pour valider R O O
+4
+le numéro de téléphone appelant.
+MAINT1
+TECH Utiliser pour la télémaintenance* un équipement de connexion labellisé. C R O
+5
+Interdire toute possibilité de modification non autorisée du cloisonnement*, du
+MAINT1
+TECH filtrage*, des mécanismes d’authentification et de la journalisation par le prestataire O
+6
+(depuis l'extérieur du système industriel).
+MAINT1 Déployer une sonde de détection au niveau de la passerelle de connexion pour
+TECH C R O
+7 pouvoir analyser l’ensemble du trafic entrant et sortant.
+MAINT1 Si des opérations de télémaintenance* sont impérativement nécessaires, les
+TECH C R O
+8 équipements distants et la liaison doivent être intégrés dans le périmètre et être
+DIR-39 SNSI – 2eme édition Page 71 | 79

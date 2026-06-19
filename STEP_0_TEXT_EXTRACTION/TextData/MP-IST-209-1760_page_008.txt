@@ -1,0 +1,77 @@
+Integration of a Commercial
+Unmanned Vehicle into the Army Communications System
+Generallyspeaking,thesolutionistogenerateandsendthe
+XML files containing the UGV’s position to the BMS, this
+was executed using Script 2 and can be achieved using Wi-
+Fi, Military Radios or other IP-based radio communication
+technologies.
+The Wi-Fi tests were divided into two scenarios: one using
+existing network infrastructure and the other using the RAD-
+MAVLink-Bridge architecture, which transforms the Rasp-
+berry Pi into a wireless access point. The military radio tests
+weredividedintotwoscenarios:oneexclusivelyusingP/PRC-
+525 Tactical Radios and the other using TR5000H radios.
+The computer representing the GCS has Windows 11, a
+Ryzen 7 3700U processor, and 16 GBytes of RAM.
+The computer representing the BMS is the Getac used by
+the Portuguese Army, which has Windows 10 Pro, an Intel
+Core i5-6300U processor, and 8 GBytes of RAM.
+Fig.11:NetworkArchitecture—P/PRC-525.
+A. Scenario 1: Wi-Fi
+The choice of this scenario with the P/PRC-525 is because
+All the data was sent via Wi-Fi in the Wi-Fi tests shown
+these are the radios of most significant use in the Portuguese
+in Figure 10. The only requirement is that the GCS and the
+Army. This scenario can be transported to a situation where
+Raspberry Pi be on the same network. The Wi-Fi protocol
+there are two manned tactical vehicles, a UGV and a vehicle
+used in the Wi-Fi tests was Wi-Fi 4 (802.11n) at a frequency
+that symbolises the command vehicle (GCS).
+of 2.4 GHz.
+Given the size of LAFVIN’s UGV, this configuration only
+makes sense in a static situation. In a dynamic situation, data
+from the UGV to the GCS would only be sent via Wi-Fi.
+D. Scenario 4: Military Radios — TR5000H
+In the configuration with TR5000H Tactical Radio, VHF
+(225-228MHz)radiocommunicationinIPoAwithcontinuous
+phase modulation in balanced mode. It was used to send
+the HEARTBEAT and GPS RAW INT messages from the
+Raspberry Pi to the GCS and the XML with the UGV
+Fig.10:NetworkArchitecture—Wi-Fi.
+position to the BMS; it is similar to the network architecture
+representedinFigure11.Alltheotherdata(controlcommands
+The BMS could be running on GCS by sending the XML,
+and video) was sent via Wi-Fi, like in Figure 10.
+by TCP, to localhost. In either case, Script 2 is required.
+This architecture was chosen because the TR5000 is the
+radio most recently acquired by the Portuguese Army.
+B. Scenario 2: Wi-Fi-RAD-MAVLink-Bridge
+The RAD-MAVLink-Bridge script turns the Raspberry Pi E. Solution Evaluation
+into a wireless access point. A Wi-Fi network (rad-bridge)
+Thenetworkperformanceresultsweredeterminedusingthe
+connects the GCS to this network and sends the necessary
+iPerf3softwareinaconfigurationwheretheRaspberryPiwas
+commands. The Wi-Fi protocol used in the Wi-Fi-RAD-
+the server (sender), and the GCS was the client (receiver). In
+MAVLink-Bridge tests was Wi-Fi 4 (802.11n) at a frequency
+the case of Wi-Fi tests, the iPerf3 commands were executed
+of2.4GHz.ThearchitectureissimilartotheoneinFigure10,
+in a scenario where communication was fully established,
+butconsideringthatthenetworkisgeneratedontheRaspberry
+representing an additional throughput consumption already
+Pi.
+existing by the UGV C2. The tests with military radios
+The BMS could be running on GCS by sending the XML,
+were carried out in two scenarios: one with no data to be
+by TCP, to localhost. In either case, Script 2 is required.
+transmitted on the communication channel and the other with
+HEARTBEAT, GPS RAW INT, and XML messages to be
+C. Scenario 3: Military Radios — P/PRC-525 sent.
+In the configuration with P/PRC-525 Tactical Radio, VHF EachiPerftestwasconductedforapproximately60seconds,
+(SECOM-V102-104MHz)radiocommunicationinIPoAwas covering the following scenarios:
+usedtosendtheHEARTBEATandGPS RAW INTmessages 1) Measurement of throughput using TCP;
+fromtheRaspberryPitotheGCSandtheXMLwiththeUGV 2) Bidirectional TCP bandwidth testing;
+position to the BMS; it is represented in Figure 11. All the 3) UDP testing for jitter and data loss analysis.
+other data (control commands and video) was sent via Wi-Fi, In the case of the tests with military radios, UDP and TCP
+as in Figure 10. tests were performed simultaneously.
+STO-MP-IST-209 1760 - 8

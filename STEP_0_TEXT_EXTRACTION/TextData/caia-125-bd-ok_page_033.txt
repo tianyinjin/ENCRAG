@@ -1,0 +1,57 @@
+LE MAGAZINE DES INGÉNIEURS DE L’ARMEMENT - N°125 INNOVATIONS, FREINS ?
+Des voitures autonomes dans dispose pas d’homologation de ni- et c’est dans ce milieu que la
+quelques années… (depuis plu- veau 3 fin 2021). Les niveaux 4 et robotique évoluera le plus len-
+sieurs années) 5 font l’objet de développements tement vers l’autonomie.
+Au vu des développements en importants depuis la dernière dé- - L’environnement peut être plus
+cours dans le secteur automobile cennie (par les constructeurs his- ou moins coopératif (via un sys-
+pour automatiser les véhicules, la toriques et de nouveaux venus tème de positionnement global
+SAE (Society of Automotive En- comme Waymo la filiale de Google, comme le GPS ou demain GA-
+gineers International) a développé Tesla ou encore Valeo). LILEO, via des infrastructures
+le référentiel SAE J3016 qui fait au- communicantes comme dans
+torité depuis le milieu de la précé- Pour de nombreux spécialistes, le cas des systèmes de com-
+dente décennie : comme le cabinet Gartner (cf. munication V2I).
+- Niveau 0 : absence d’assistan- Hype Cycle for Automotive Tech- - L’environnement peut être plus
+ce à la conduite ; nologies, July 2020), il faudra en- ou moins dynamique, plus
+- Niveau 1 : de premières assis- core plusieurs années avant de ou moins prévisible pour les
+tances sont disponibles pour le disposer de premiers véhicules au systèmes qui y évoluent. Le
+conducteur (ex : régulateur de niveau 4 et le niveau 5 nécessite- nombre de mobiles, leur com-
+vitesse, ABS..) ; ra plus d’une dizaine d’années. La portement, leur prévisibilité ont
+- Niveau 2 : les assistances question se pose d’ailleurs de sa- ainsi une influence. Une voiture
+permettent l’exécution de cer- voir s’il n’y aura pas un niveau « 4 autonome aura un compor-
+taines tâches élémentaires (ex : ½ » pour les autoroutes, les voies tement plus prévisible qu’un
+aide au maintien dans une file, principales et les zones urbaines piéton. Plus il y a de mobiles
+aide au stationnement) ; où l’infrastructure collaborera avec variés (piétons, cyclistes, trot-
+- Niveau 3 : le système automa- les véhicules via des systèmes tinettes…) et en nombre, plus
+tisé peut exécuter certaines de communication V2I (Vehicle ils sont susceptibles d’avoir un
+tâches en assurant le contrôle to Infrastructure). Des projets pu- comportement hostile, plus le
+de son environnement (ex : blics européens comme Scoop et niveau d’autonomie nécessaire
+Sur autoroute, la voiture peut Safe Strip commencent l’expéri- est difficile à atteindre.
+doubler toute seule un véhicule mentation de tels systèmes pour
+quand le clignotant est action- transmettre aux véhicules des in- La perception constitue un défi
+né). formations sur des événements à pour atteindre avec un système
+- Niveau 4 : le système automa- venir (zone de travaux,…) ou sur robotique équipé de capteurs,
+tisé peut effectuer la conduite des événements détectés par les l’équivalent des sens des hu-
+de manière autonome dans autres véhicules (accident, ver- mains. Les capteurs ont récem-
+certaines circonstances (types glas…). ment progressé notamment grâce
+de route, conditions atmosphé- à l’apprentissage à partir de don-
+riques, densité de circulation..) La longue route de la robotique nées et leur complémentarité per-
+(ex : conduite en mode auto- autonome met d’améliorer les capacités de
+nome sur autoroute en l’ab- Le principal défi du développement détection et de reconnaissance.
+sence de neige). des systèmes robotiques est de Mais la fusion de données n’est
+- Niveau 5 : le système automati- détecter et comprendre l’environ- pas sans difficulté car il faut appa-
+sé peut conduire le véhicule en nement qui les entoure et de faire rier les percepts (appartiennent-ils
+toutes situations. face aux événements imprévus. aux mêmes objets, ou à des
+Le niveau d’autonomie nécessaire objets distincts ?) et faire face
+Le niveau 1 est largement dispo- déprendra de la structuration de aussi parfois à des artefacts. Le
+nible depuis les années 2000, le l’environnement, de son caractère raisonnement est l’autre défi ma-
+niveau 2 l’est depuis quelques coopératif, enfin de sa dynamique jeur. Il nécessite de modéliser le
+années et commence à être inté- et de sa prévisibilité : problème en termes d’espace,
+gré dans de nombreux modèles. - L’environnement peut être de temps et de description des
+Le niveau 3 arrive depuis 2021 plus ou moins structuré (cas événements. La modélisation du
+dans quelques véhicules haut de des routes, des rues) et plus jeu de go est assez différente
+gamme (système Honda sur Le- ou moins encombré. Entre les de celle d’un théâtre d’opération
+gend EX homologué au Japon en trois milieux (air / terre / mer), aéroterrestre avec des amis, des
+mars 2021, système Mercedes le milieu terrestre est le plus ennemis, mais également des po-
+homologué le 9 décembre 2021 complexe en raison de la diver- pulations.
+en Europe – à noter que Tesla ne sité des obstacles / des objets
+31

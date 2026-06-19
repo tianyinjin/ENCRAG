@@ -1,0 +1,46 @@
+54 Pôle d’excellence cyber
+Fiabilité de l’IA en contexte militaire : Trouver
+l’équilibre entre autonomie et supervision humaine
+Vincent BLOT
+Doctorant en incertitude des modèles d’IA
+Capgemini Invent, LISN, CNRS
+Avec l’augmentation de la quantité de données Cependant, aucune IA n’est parfaite ou omnisciente.
+recueillie sur les terrains militaires (que ce soit via Elle reste confinée à son domaine de validité, c’est-
+une augmentation du nombre de capteurs ou par à-dire le domaine restreint qui est représenté par les
+l’amélioration de la qualité des données), se pose données d’entraînement. Prenons l’exemple de la
+la question de leur analyse et de l’équilibre entre détection de chars. Lorsqu’un algorithme apprend
+traitement automatique et traitement humain. cette tâche, cela ne signifie pas qu’il sera capable de
+la réaliser quel que soit le terrain dans lequel il est
+Prenons l’exemple d’un sous-marin. Lorsqu’il est en utilisé. Si les données d’entraînement de ce modèle
+mer, il enregistre en permanence tous les bruits qui sont composées à 90% de chars dans le désert et les
+l’entourent. Cette quantité massive de données peut 10% restants dans d’autre types d’environnements, il
+représenter jusqu’à plusieurs pétaoctets par jour. est fort probable que la performance de l’algorithme
+soit moindre dans une région enneigée. De plus,
+Les opérateurs, appelés « oreilles d’or », analysent même si l’algorithme est exploité dans son domaine
+ces sons pour identifier des menaces potentielles de validité, cela ne l’empêchera pas de commettre
+mais ils ne sont plus en mesure de tout analyser par des erreurs.
+eux-mêmes. L’intelligence artificielle (IA) entre alors
+en jeu pour aider à traiter ces flots d’informations. Il Une question survient alors : comment faire en
+demeure essentiel de savoir distinguer les situations sorte qu’une IA puisse rendre le contrôle à l’humain
+où l’on peut se fier à l’IA de celles où l’intervention lorsqu’elle n’a pas la capacité de prendre la bonne
+humaine est indispensable.. Un contrôle totalement décision, et ce quel qu’en soit la raison ?
+automatique peut-être sujet à un trop grand nombre
+d’erreurs tandis qu’une analyse totalement humaine La quantification d’incertitude en IA
+est impossible. L’un des principaux défis des IA actuelles réside dans
+leur incapacité à évaluer efficacement leur propre
+Comment, alors, faire en sorte de concentrer l’expertise incertitude. Cette dernière est due à deux facteurs
+humaine sur les analyses les plus complexes afin principaux : l’entraînement du modèle (incertitude
+d’optimiser l’analyse de l’IA en la focaliser sur des épistémique : le modèle n’a pas vu assez de données
+exemples plus simples et moins sujets à erreur ? durant l’entrainement) et la qualité des données sur les
+terrains d’opération (incertitude aléatorique : images
+Dans quelles situations utiliser l’IA ? de moindre qualité ou obstruées). On peut considérer
+L’IA excelle dans des tâches où la rapidité et la que l’incertitude épistémique peut théoriquement
+constance sont essentielles. Contrairement aux être réduite à zéro en entraînant le modèle avec
+humains, elle ne se fatigue pas, n’oublie rien et peut plus de données, ou en utilisant des modèles plus
+analyser des données à une vitesse époustouflante. performants, néanmoins, la quantité de données
+Dans le domaine militaire, cela signifie identifier des nécessaire pour la supprimer est considérable. Quant
+menaces ou anomalies bien plus rapidement qu’un à l’incertitude aléatorique, elle provient de certaines
+humain ne pourrait le faire seul. De plus, une IA bien conditions réelles qui compliquent la réalisation de
+conçue peut réduire certaines erreurs causées par prédictions : des pluies fortes en mer qui ajoutent un
+des biais ou des distractions humaines. bruit de fond pour les capteurs des sous-marins, du
+brouillard pour la détection de chars sur des images…

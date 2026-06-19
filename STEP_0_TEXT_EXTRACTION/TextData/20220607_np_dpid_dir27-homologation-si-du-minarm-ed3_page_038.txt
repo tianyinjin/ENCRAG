@@ -1,0 +1,45 @@
+1ère mise en exploitation Fin du développement
+Phase initiale Développement itératif Production stabilisée
+Homologation
+Renouvellement de
+Homologation
+l’homologation
+initiale ferme
+(homologation transitoire)
+Une décision d’homologation initiale doit être prononcée avant une première mise en exploitation du SI.
+La durée de validité des décisions d’homologation (initiale, transitoire, ferme) est à la diligence de l’AH
+dans les limites réglementaires (cf. §5.3) et en fonction du niveau de contrôle qu’elle estime nécessaire.
+La démarche d’homologation impose la mise en place de relations entre les équipes de projet et le
+CEAH. Ces relations se formalisent au moins par des comptes rendus continus des travaux relatifs à la
+sécurité que l’équipe de projet adresse au CEAH. Pour faciliter les échanges entre le RSSI et l’équipe
+de développement, et selon la dimension de cette dernière, il est possible de désigner parmi les
+membres de l’équipe de développement un référent en matière de sécurité numérique.
+La démarche d’homologation mise en œuvre est identique à celle d’une démarche sommaire,
+simplifiée ou standard.
+Les pièces du dossier d’homologation évolueront au fur et à mesure du développement.
+Décision d’homologation initiale
+La décision d’homologation initiale a pour but de valider :
+● le niveau de sécurité du premier incrément du SI ;
+● le processus itératif mis en œuvre pour les incréments suivants. Couvrant la conception
+jusqu’à la mise en exploitation, il doit viser à intégrer la sécurité au fil de l’eau ;
+● le processus pour le MCS du SI.
+RO 52 : il est OBLIGATOIRE de mentionner dans la stratégie d’homologation les modalités des
+échanges entre les différents acteurs (RSSI, équipe de développement, CEAH), le rythme des
+remontées d’informations ainsi que les conditions de maintien de l’homologation.
+L’homologation initiale décrit les fonctionnalités envisagées pour le SI (« user stories »).
+L’analyse de risques mise en œuvre a pour objectif d’identifier et d’évaluer les risques de sources
+intentionnelles (« evil user stories ») et non intentionnelles (« abuser stories »). Elle donne lieu à une
+liste de risques résiduels portant sur le SI, liste à mettre à jour après chaque cycle de développement.
+Dès la première mise en exploitation du SI, le RSSI rédige une première version de PES. Celles-ci
+doivent décrire l’organisation et les procédures de sécurité à appliquer durant l’exploitation.
+Au cours du développement
+Le RSSI met à jour systématiquement après chaque cycle de développement le périmètre
+d’homologation ainsi que la liste des risques résiduels portant sur le SI. Le CEAH est informé des
+modifications apportées.
+Pour chaque nouvelle fonctionnalité envisagée (« user stories »), des scénarios de risques (« abuser
+stories », « evil user stories ») doivent être étudiés et peuvent donner lieu à de nouvelles mesures de
+traitement des risques. Ces dernières doivent être priorisées et implémentées au même titre que les
+nouvelles fonctionnalités. Il est très fortement déconseillé de les accumuler dans le tableau de suivi des
+actions en ligne (« back log ») dans le but de consacrer les dernières itérations (« builds ») à la sécurité.
+Une telle démarche pourrait remettre en cause l’ensemble du développement.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 36/47

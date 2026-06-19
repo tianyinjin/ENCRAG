@@ -1,0 +1,74 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+La marque et le numéro de série du meuble sont estampillés de façon apparente et
+inaltérable, à l’extérieur de celui-ci, sur le corps et sur toutes les portes du meuble ; le
+numéro de série et l’année de fabrication de chaque serrure figurent sur celles-ci.
+d. Classes des postes utilisateurs classifiés
+Il est possible de déroger aux mesures de protection logiques prévues ci-dessous en mettant en œuvre des
+mesures de protection compensatoires, sous réserve de leur validation formelle par l’autorité d’homologation
+pour le niveau Secret ou, pour le niveau Très Secret, par l’autorité qualifiée en sécurité des systèmes
+d’information.
+DESCRIPTION CLASSE (cid:534)DE BASE CLASSE (cid:533) RENFORCE CLASSE (cid:302) FORT
+Dispositif de détection
+Scellés génériques de d’ouverture de
+contrôle d’ouverture de l’équipement ou scellés
+l’équipement avec numérotés de contrôle
+Protection de la classe (cid:534)
+Intégrité physique traçabilité des d’ouverture de
++
+des éléments équipements ayant reçu l’équipement avec
+Contrôle annuel de
+constitutifs du SI des scellés traçabilité des
+l’intégrité des scellés.
+Contrôle ponctuel de équipements ayant reçu
+l’intégrité des scellés ces scellés
+par l’utilisateur. Contrôle semestriel de
+l’intégrité des scellés.
+Chiffrement des
+Chiffrement intégral du
+données utilisateur par
+disque par un logiciel
+un logiciel agréé pour la
+agréé pour la protection
+protection des
+des informations
+informations portant la
+portant la mention
+mention Diffusion
+Diffusion Restreinte
+Restreinte
+ou
+ou
+Stockage à distance des
+Stockage à distance des
+Confidentialité des données sur
+données sur
+données lorsque le l’infrastructure
+l’infrastructure Protection de la classe (cid:533)
+terminal196 n’est pas d’hébergement du SI
+d’hébergement du SI
+en fonctionnement ou
+ou
+Mémoire de masse
+Mémoire de masse
+extractible ou
+extractible ou
+équipement mobile
+équipement mobile
+stockable dans un
+stockable dans un
+meuble de classe
+meuble de classe
+adaptée à la
+adaptée à la
+classification des
+classification des
+données en clair
+données en clair
+Mot de passe avec Dispositif Dispositif
+Sécurité du politique de sécurité des d’authentification forte, d’authentification forte,
+contrôle d’accès de mots de passe conforme par exemple basée sur par exemple basée sur
+l’utilisateur à la politique de sécurité une infrastructure de une IGC qualifiée au
+de l’organisme gestion de clefs (IGC) moins RGS**.
+196 Le terminal s’entend comme le poste utilisateur fixe, nomade ou mobile, qui permet l’accès et le traitement des informations
+classifiées lorsqu’il est en fonctionnement.
+184

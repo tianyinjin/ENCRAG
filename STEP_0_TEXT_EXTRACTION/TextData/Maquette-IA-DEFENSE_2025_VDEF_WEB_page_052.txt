@@ -1,0 +1,47 @@
+52 Pôle d’excellence cyber
+Intelligence Artificielle responsable et de confiance
+pour la Défense : vers de nouvelles pratiques
+d’ingénierie ?
+Michel BARRETEAU Patricia BESSON Fateh KAAKAI
+Expert en Intelligence Artificielle Responsable du laboratoire Analyse Expert Safety & Chercheur
+de confiance de bout-en-bout et Raisonnement dans les Systèmes en IA de Confiance
+Complexes
+Thales cortAIx Labs France Thales cortAIx Labs France Thales cortAIx Labs France
+Intégrant depuis plusieurs décennies des algorithmes sur une IA générative de type grand modèle de
+de Recherche Opérationnelle, la Défense n’a pas langage (LLM) embarquée en phase d’exécution
+échappé à l’impact de la dernière vague d’algorithmes de mission opérationnelle, compte tenu de la forte
+d’Intelligence Artificielle (IA) considérant notamment probabilité actuelle de générer des hallucinations.
+l’apprentissage machine qui s’appuie principalement Par contre, utiliser un algorithme de détection ou
+sur des données et moins sur des règles pensées classification de cibles militaires basé sur de la vision
+par des humains. Du fait de risques opérationnels peut être envisageable à condition de développer cet
+parfois plus importants que dans le monde civil (ex : algorithme en assurant la confiance de bout-en-bout
+aéronautique), une ingénierie d’IA de confiance digne de son cycle de vie. Cela suppose une ingénierie qui
+de ce nom est requise pour qualifier ou certifier ces considère les spécificités de ces IA.
+systèmes militaires critiques.
+On pense souvent à l’IA comme une application
+Le point de départ est le partage des principes (avec logicielle mais il ne faut pas oublier qu’elle s’exécute
+une base éthique) que l’on doit prendre en compte sur un composant matériel qui lui aussi doit être de
+pour atteindre la confiance visée. Si le groupe confiance. La communauté RISC V[3] contribue à cet
+d’experts de haut niveau européen en IA [1] avait initié effort en délivrant des architectures ouvertes. D’une
+cette voie en 2019 en ciblant 4 principes éthiques manière générale, considérer des IA de type « boite
+(« respect for human autonomy, prevention of harm, blanche » (connaissance des entrées et sorties du
+fairness, explicability ») déclinés en 7 exigences clés modèle, ainsi que du modèle ou de l’algorithme lui-
+(apparentés à des critères de confiance), l’OTAN a même et de la façon dont il a été construit) accroît
+quant à elle annoncé ses 6 principes d’utilisation nativement la confiance. Néanmoins des méthodes
+responsable de l’IA[2] en 2021 : « Lawfulness, ou processus outillés de confiance existent pour
+Responsibility and Accountability, Explainability and des IA « boites noires », améliorant par exemple leur
+Traceability, Reliability, Governability, Bias mitigation ». explicabilité.
+Les ministères de la Défense des Etats-Unis ou du
+Royaume Uni par exemple ont choisi des principes du Ainsi, l’IA doit être considérée d’un point de
+même ordre. vue ingénierie système (agnostique de toute
+implémentation IA), logicielle (en s’appuyant aussi sur
+Ces principes vont guider la façon dont on va mesurer des outils de développement matures et appropriés
+(quantitativement ou qualitativement) la confiance aux besoins de l’IA), matérielle (souvent avec des
+d’un système militaire intégrant de l’IA. Ces systèmes contraintes d’embarquabilité), mais aussi et surtout
+étant de nature complexe, ils nécessitent des algorithmique à base d’IA et c’est là la nouveauté
+processus de développement rigoureux adaptés à l’IA majeure.
+et intégrant aussi des mécanismes de surveillance du
+comportement de l’IA après déploiement. En effet, Les récents travaux (confiance.ai[4] rassemblant
+les différents types d’IA ne peuvent adresser le même notamment plusieurs industriels de systèmes
+niveau de risque. Ainsi, on ne peut imaginer s’appuyer critiques, EASA et SAE G34 / EUROCAE WG114[5]
+avec le futur standard ED-324/ARP6983) décrivant

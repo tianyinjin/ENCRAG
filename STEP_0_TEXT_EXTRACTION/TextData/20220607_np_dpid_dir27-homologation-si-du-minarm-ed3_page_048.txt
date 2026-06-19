@@ -1,0 +1,84 @@
+N° Statut (cf. §1.3) Intitulé de la règle Acteur20
+Pour homologuer un SI déclaré d’importance vitale, mener une démarche
+RO AH
+Obligatoire d’homologation de type standard. Toute dérogation à cette règle
+28 : RSSI
+nécessite l’autorisation formelle du FSSI.
+Traiter et protéger la décision d’homologation et le dossier
+d’homologation a minima comme des documents de niveau de AH
+26 Obligatoire
+confidentialité DIFFUSION RESTREINTE et SPÉCIAL FRANCE. Selon RSSI
+les éléments qu’ils contiennent, ils peuvent être classifiés.
+Ne pas enrôler les S2IV dans un outil non classifié si celui-ci mentionne AH
+26 Interdit
+sa catégorisation de S2IV. RSSI
+Dans le cas de l’homologation d’un système traitant d’informations
+classifiées TRÈS SECRET faisant l’objet d’une classification spéciale, AE
+0 Obligatoire
+saisir formellement le HFCDS du lancement de toute démarche RSSI
+d’homologation, l’AH étant dans ce cas le SGDSN.
+RO Mettre en destinataire des décisions d’homologation de SI classifié, le
+Obligatoire AH
+32 : FSSI et l’ANSSI.
+Procéder à une démarche standard pour homologuer des SI classifiés
+contenant des matériels et logiciels agréés à un niveau inférieur exigé ou
+RO non-agréés. L’AH justifie l’autorisation de leur utilisation. La justification
+Obligatoire RSSI
+33 : est insérée dans le dossier d’homologation.
+La règle ne s’applique pas pour une homologation d’un dispositif
+d’interconnexion ou d’un segment d’interface.
+Préciser sur la décision d’homologation que le SI traitant des données à
+RO
+Obligatoire caractère personnel est apte pour en assurer la protection lorsque ce AH
+34 :
+traitement donne lieu à un acte réglementaire.
+Dans des cas d’urgence opérationnelle, délivrer une première décision
+RO
+Conseillé d’homologation, plutôt qu’une APE, en adaptant la démarche à l’urgence AH
+35 :
+et en fixant ses modalités dans la stratégie d’homologation.
+Préciser formellement dans la stratégie d’homologation du SI de
+RO
+Obligatoire référence la procédure de l’homologation de déploiement ainsi que les RSSI
+36 :
+différents responsables et les livrables attendus.
+Pour le RSSI du SI de référence, suivre ses déploiements et leur état
+RO
+Obligatoire d’homologation. Il coordonne les différentes démarches d’homologation RSSI
+37 :
+de déploiement.
+Pour une homologation de déploiement, y compris dérogatoire, appuyer
+RO
+Obligatoire la décision d’homologation du SI déployé sur des CUC et des PES AH
+38 :
+locales.
+RO
+Recommandé Ne pas renouveler plus d’une fois une HDD. AH
+39 :9
+RO Lors d’un renouvellement d’homologation du SI de référence, procéder
+Conseillé AH
+40 : au renouvellement de l’homologation des SI déployés.
+Pour tout hébergeur relevant du ministère, avertir les autorités clientes
+RO
+Obligatoire ou d’emploi des SI qu’il héberge de tout élément, dysfonctionnement ou Hébergeur
+41 :
+incident pouvant remettre en cause leur niveau de sécurité.
+Homologuer les systèmes ou services numériques fournis par un
+RO prestataire de service d’informatique en nuage pour traiter des données AE
+Obligatoire
+42 : relevant du ministère des Armées selon un périmètre d’homologation AH
+défini en fonction de la nature du service rendu ou du produit fourni.
+Pour le prestataire d’informatique en nuage externalisé, fournir un PAS.
+RO
+Obligatoire Le PAS produit par le prestataire est alors inséré dans le dossier RSSI
+43 :
+d’homologation.
+Considérer dans le périmètre d’homologation l’utilisation et le cadre
+RO
+Obligatoire d’utilisation du service IaaS ou PaaS tant dans sa dimension fonctionnelle RSSI
+44 :
+que sécuritaire.
+RO Pour l’AE, fournir une appréciation d’usage à l’AH avant d’initier la
+Obligatoire AE
+45 : démarche d’homologation portant sur l’usage du service numérique.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 46/47

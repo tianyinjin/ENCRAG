@@ -1,0 +1,33 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Protéger les interconnexions entre des systèmes répartis sur des localisations
+On pourra utiliser un VPN IPsec par
+RSO19 TECH différentes pour garantir la confidentialité, l’intégrité, la disponibilité, et l’authenticité R O O
+exemple.
+des communications.
+Dans le cadre d’interconnexions entre des systèmes répartis sur des localisations
+RSO20 TECH R O O
+différentes, mettre en place un dispositif de filtrage* (pare-feu).
+Configurer les passerelles d’interconnexion selon le guide de l’ANSSI relatif à Guide ANSSI relatif à l’interconnexion
+RSO21 TECH R O O
+l’interconnexion d’un système d’information à Internet. d’un SI à Internet.
+Interdire l’interconnexion d’un système industriel avec Internet de manière
+RSO22 TECH permanente sauf en cas de besoins dûment justifiés et sur autorisation de l’autorité O
+d’homologation (AH).
+Ne pas autoriser une interconnexion directe entre un système industriel de classe
+RSO23 TECH O
+3 (ou zones de classe 3) et Internet.
+En cas d’interconnexion autorisée entre un système industriel de classe 1 ou 2 (ou
+RSO24 TECH zones de classe 1 et 2) avec Internet, limiter les accès au strict nécessaire vers O
+Internet depuis le système industriel.
+Réciproquement, limiter les accès depuis Internet vers le système industriel au
+RSO25 TECH O
+strict nécessaire.
+RSO26 TECH Pour l’interconnexion, utiliser des équipements labellisés. C R O
+Maîtriser l’usage de la technologie sans fil
+Limiter l’usage de la technologie sans fil au strict nécessaire ;
+RSO27 TECH En cas d’usage de la technologie sans fil, limiter sa période d’activation au strict O
+nécessaire.
+Si la technologie sans fil est utilisée, appliquer la directive 23 (DGNUM) portant sur Directive 23 du 2 février 2021 portant sur
+RSO28 TECH O
+les technologies sans fil. la sécurité de technologies sans fil.
+DIR-39 SNSI – 2eme édition Page 59 | 79

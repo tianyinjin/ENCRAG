@@ -1,0 +1,47 @@
+TLP:CLEAR
+cas d’étude plus approfondis (cf. section 3) permettant de mieux appréhender l’intérêt et les subtilités
+du concept.
+La première condition, dite de « clandestinité », insiste sur les intentions malveillantes des opérateurs :
+un ensemble peut être considéré comme un MOI si et seulement si les opérateurs engagent des efforts
+manifestes pour éviter l’imputation, c’est-à-dire le rattachement des infrastructures numériques entre
+elles16, et leur attribution à un acteur malveillant17. La clandestinité s’opère donc entre l’acteur
+malveillant et les infrastructures numériques sous leur contrôle, et permet d’exclure du concept tous
+les ensembles liés à des acteurs malveillants agissant en leur nom propre, ainsi que les ensembles non
+attribués disposant de différentes infrastructures numériques avec la même bannière.
+➢ Exemple 1 : les opérateurs de Doppelgänger ont déployé des efforts évidents pour que le public
+– et la communauté de la LMI – ne puisse pas lier techniquement leurs faux sites entre eux ni les
+imputer à l’entreprise russe Social Design Agency et leur commanditaire, à savoir l’Administration
+présidentielle russe. Doppelgänger peut donc être considéré comme un MOI dès lors qu’’il
+répond également à la seconde condition.
+➢ Exemple 2 : les activités numériques d’une entité gouvernementale s’appuyant sur des canaux
+officiels, par exemple les comptes X de la diplomatie russe, ou les contenus liés à la « Fondation
+pour combattre l’injustice » (FCI)18, affichent tous clairement leur affiliation avec ces mêmes
+structures. Elles ne peuvent donc pas constituer des MOI à part entière.
+➢ Exemple 3 : le média pro-Russe anglophone The Islander, qui n’est pas clairement imputé à un
+acteur, coordonne un ensemble d’infrastructures numériques (comptes X et Substack), et
+remplit à cet égard la seconde condition, mais ces infrastructures sont cependant clairement
+rattachables entre elles19. Les activités numériques liées à The Islander ne peuvent donc pas
+constituer un MOI à part entière.
+La seconde condition, dite de « coordination », insiste quant à elle sur le degré d’interaction entre les
+infrastructures numériques employées : un ensemble peut être considéré comme un MOI si et
+seulement si les infrastructures numériques sont employées de manière coordonnée, et présumées
+opérées par le même acteur ou groupe d’acteurs travaillant pour le même commanditaire. Cette
+condition permet d’assurer la cohérence des éléments techniques, qui doivent posséder des liens
+techniques ou comportementaux forts.
+➢ Exemple 1 : les infrastructures numériques liées à Doppelgänger forment un ensemble
+homogène, car rattachables entre elles par un faisceau de liens techniques et comportementaux
+forts et convergents20. Doppelgänger peut donc être considéré comme un MOI s’il répond
+également à la première condition.
+➢ Exemple 2 : des comptes TikTok publiant les mêmes contenus que d’autres comptes TikTok ou
+chaînes YouTube, ou des sites hébergés sur la même adresse IP, ne sont pas forcément opérés
+16 Par exemple en créant des comptes de réseaux sociaux et des sites avec des noms, des chartes graphiques et des dates de
+création différentes, en évitant les interactions entre eux, en déposant et en hébergeant des sites via des services différents,
+etc.
+17 Par exemple en omettant d’afficher l’affiliation de sites ou de comptes de réseaux sociaux à l’acteur qui les contrôle, en
+indiquant de fausses informations de contact, en hébergeant des sites sur des serveurs partagés, dans un pays tiers, ou en les
+protégeant via des services d’anonymisation comme Cloudflare, etc.
+18 Fausse ONG créée par Evgueny PRIGOJINE en 2021 pour documenter les « violations des droits humains » dans les pays
+occidentaux. Cf. https://open.clemson.edu/cgi/viewcontent.cgi?article=1009&context=mfh_ci_reports.
+19 Elles disposent en effet du même nom, de la même charte graphique, redirigent directement les unes vers les autres, etc.
+20 Tels que la chaîne de diffusion, des éléments de code source, l’hébergement numérique, etc.
+7

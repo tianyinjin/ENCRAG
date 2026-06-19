@@ -1,0 +1,54 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+conforme au RGS**197 -
+homologuée par
+l’organisme
+Réservé aux utilisateurs
+authentifiés sur le
+terminal Réservé aux utilisateurs
+Accès aux
++ assurant une fonction
+dispositifs d’import
+supports amovibles Protection de la classe (cid:534) d’enregistrement des
+- export du poste
+préalablement documents classifiés ou
+utilisateur
+« enrôlés » sur le de gestion des échanges
+système et autorisés
+pour cet utilisateur
+Protection de la classe (cid:534)
+Contrôle des Désactivation des
++
+équipements services non utilisés Protection de la classe (cid:533)
+Authentification des
+connectés au réseau (conformité)
+équipements au réseau
+Cloisonnement par
+fonction homogène au Cloisonnement entre les Cloisonnement par le
+Cloisonnement et sein du SI utilisateurs d’une même chiffre pour chaque poste
+filtrage (cloisonnement des population, exemple P- utilisateur (tunnel dédié
+réseaux locaux-LANs- VLAN. vers les services)
+par population)
+Disposition des
+Capacité à terminaux par rapport
+restreindre la aux ouvertures du local
+Protection de la classe (cid:534) Protection de la classe (cid:533)
+visualisation des IC (portes, fenêtres,
+par un tiers. vasistas, hublots, etc.) et
+protection des vis-à-vis
+3. Tableaux de combinaison des classes
+L’objectif final est d’égaler ou de surpasser le temps de freinage tel que défini au point 1 pour obtenir un
+niveau de sécurité minimal pour les informations et supports classifiés.
+La détermination de ce niveau est réalisée en deux temps :
+- la classification des barrières (emprise (ou site) ou bâtiment, local, meuble ou moyen logique) à travers
+les moyens de détection d’intrusion ou de freinage qui leur sont associées ;
+- la vérification de la validité de la combinaison des classes des barrières en fonction du niveau de
+classification des informations et supports classifiés.
+Dans le cas où le niveau minimal de sécurité ne peut être atteint, il faut faire évoluer la classe d’une ou des
+barrières pour atteindre ce niveau.
+a. Protection des informations et supports classifiés
+La protection des informations et supports classifiés est assurée par trois barrières physiques successives au
+niveau de l’emprise (ou site) ou du bâtiment, du local et du meuble.
+197 Le référentiel général de sécurité (RGS) publié par l’ANSSI est le cadre règlementaire permettant d’instaurer la confiance dans
+les échanges au sein de l’administration et avec les citoyens. Son niveau est déterminé par le nombre d’étoiles (une, deux ou trois
+étoiles).
+185

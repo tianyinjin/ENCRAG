@@ -1,0 +1,38 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Mettre en place une authentification forte (carte à puce, OTP) ou multifacteur pour
+accéder, et lorsque cela est possible :
+- à des comptes à privilège sur les postes, les serveurs ; N
+EXP36 TECH R R
+- aux équipements de terrain (automates*, entrées/sorties, déportés, etc.) ; A
+- aux équipements exposés (ordinateurs portables, consoles de programmation*,
+pare-feu, VPN, etc.).
+Mettre en place une authentification pour accéder aux différents composants
+(équipements et logiciels) lorsque cela est techniquement possible.
+EXP37 TECH O
+Elle s’appuie sur des identifiants personnels afin de permettre une imputabilité
+individuelle des accès et des actions.
+À titre d’exemple :
+- contrôle d’accès physique ;
+- limitation des fonctionnalités
+accessibles (consultation sans
+En cas d’impossibilité d’authentification forte, renforcer le paramétrage de mots de
+ORG modification, par exemple) ;
+EXP38 passe et appliquer des mesures compensatoires. Celles-ci sont définies dans les C O O
+TECH - mise en place d’une authentification
+procédures d’exploitation de sécurité (PES).
+par carte à puce sans code ;
+- cloisonnement* de l’équipement plus
+fort ;
+- etc.
+Configurer les paramètres des mots de passe de manière à les rendre robustes
+(durée de validité minimale et maximale, nombre de mots de passe non
+EXP39 TECH réutilisable, …) en tenant compte des risques et des dérives possibles des O
+pratiques des utilisateurs en cas de règles trop contraignantes (changement trop
+fréquent de mots de passe).
+Modifier les mots de passe par défaut si cela est réalisable. Identifier ceux qui ne
+EXP40 TECH O
+peuvent être modifiés afin d'y appliquer une surveillance particulière.
+Privilégier une temporisation d’inhibition par rapport au blocage en cas d’échec
+EXP41 TECH R
+d’authentification.
+DIR-39 SNSI – 2eme édition Page 66 | 79

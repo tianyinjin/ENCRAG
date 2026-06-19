@@ -1,0 +1,42 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+L’autorité d’homologation est par défaut l’autorité d’homologation du système d’information
+du niveau le plus élevé, mais elle peut être aussi désignée après concertation entre les autorités
+d’homologation de chaque système d’information interconnecté.
+L’autorité d’homologation est le secrétariat général de la sécurité et de la défense nationale, ou
+toute autorité à laquelle il en délègue la responsabilité, dans les cas suivants :
+- pour les transferts d’informations entre un système d’information classifié avec un
+système d’information non classifié ou de niveau de classification différent, dont l’un
+n’est pas sous maîtrise nationale ;
+- pour les transferts d’informations entre un système d’information classifié avec un
+système d’information non classifié ou de niveau de classification différent, dont l’un
+est amené à traiter des informations classifiées de l’Union européenne ou de l’OTAN ;
+- lorsque l’utilisation de dispositifs de sécurité agréés est obligatoire mais n’est pas
+possible, notamment lorsqu’il n’existe pas de dispositif de sécurité agréé ou lorsqu’il
+n’est pas agréé au bon niveau.
+L’interconnexion est obligatoirement réalisée à l’aide de dispositifs de sécurité agréés lorsqu’ils
+sont utilisés comme moyens essentiels de protection contre les accès non-autorisés aux
+informations classifiées ou au système.
+Ces dispositifs de sécurité agréés sont déployés dans les conditions d’emploi associées aux
+décisions d’agrément pour cet usage.
+MESURES DE SECURITE APPLICABLES EN CAS DE SOUS-TRAITANCE DU
+DEVELOPPEMENT OU DE LA MAINTENANCE D’UN SYSTEME D’INFORMATION
+CLASSIFIE
+Le développement ou le maintien en condition opérationnelle et de sécurité d’un système
+d’information classifié respecte les règles définies dans la présente instruction. Aucun sous-
+traitant ne peut accéder à un système d’information classifié s’il ne fait pas l’objet d’une
+décision d’habilitation (cf. partie 4.4).
+Toute information spécifique liée au développement ou à la configuration d’un logiciel ou d’un
+système d’information classifié et dont la divulgation est susceptible de porter atteinte à la
+sécurité du système d’information classifié ou des informations classifiées qu’il contient est
+classifiée à un niveau équivalent ou supérieur à celui du système d’information classifié lui-
+même.
+Lorsqu’ils sont considérés comme des documents administratifsau sens de l’article L. 300-2 du
+code des relations entre le public et l’administration, compte tenu du risque d’atteinte au secret
+de la défense nationale et à la sécurité des systèmes d’information susceptible de résulter de
+leur divulgation, les codes source et les éléments de configuration d’un système d’information
+classifié ne sont pas librement communicables et peuvent être classifiés en fonction de leur
+sensibilité.
+Les besoins de protection du code source et des éléments de configuration d’un système
+d’information classifié sont définis dans le plan contractuel de sécurité du contrat
+correspondant.
+90

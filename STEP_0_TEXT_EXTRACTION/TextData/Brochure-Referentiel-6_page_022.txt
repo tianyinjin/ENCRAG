@@ -1,0 +1,77 @@
+PôlE d’ExcEllEncE cybER
+B.7 B.7.1 _ Introduction, calculs quantiques Malgré ces limitations, il est crucial de considérer dès maintenant la pro-
+grammation de ces ordinateurs quantiques. En effet, l’industrie vise ac-
+Émergence
+le calcul quantique promet d’exploiter les phénomènes de la physique quan- tuellement une rentabilité à court terme des ordinateurs quantiques sur
+des technologies tique pour effectuer des tâches de traitement de l’information. cette direction quelques applications ciblées.
+quantiques en est particulièrement intéressante d’un point de vue théorique.
+En cas de succès, cela permettra de justifier des investissements impor-
+cybersécurité
+d’une part, elle constitue une rupture fondamentale dans l’histoire de l’infor- tants qui permettront d’envisager des applications plus ambitieuses.
+matique: tous les autres dispositifs de calcul proposés jusqu’ici, qu’ils soient
+numériques ou analogiques, mécaniques ou électroniques, sont basés sur les À l’inverse, un échec de la première génération d’ordinateurs quantiques à
+règles de la physique classique. être utilisables provoquerait certainement un désintérêt pour le domaine
+et un « hiver quantique » à l’instar de l’hiver de l’IA.
+d’autre part, le potentiel par rapport au calcul classique est établi: pour cer-
+tains problèmes, on connaît un algorithme quantique de meilleure complexi-
+té asymptotique que les algorithmes classiques connus. En particulier, l’algo-
+Compilation pour le calcul quantique
+rithme quantique de Shor remet en cause une grande partie de la cryptographie
+actuelle en promettant de factoriser des nombres en temps polynomial.
+les enjeux actuels consistent non seulement à développer les capacités
+du matériel quantique, mais aussi à adapter les environnements logiciels
+Par opposition aux bits déterministes d’un ordinateur actuel, les ordinateurs
+pour les capacités modestes de la première génération d’ordinateurs
+quantiques manipulent des qubits qui possèdent chacun un état probabiliste
+quantiques.
+entre 0 et 1, on parle aussi de superposition d’états. A la manière du fameux
+chat de Schrödinger qui est à la fois mort et vivant, les qubits, bien que géné-
+ce domaine de recherche encore peu exploré mais en croissance rapide
+ralement initialisés à 0, vont être à la fois 0 et 1 lors les calculs effectués sur un
+consiste à revisiter l’architecture des ordinateurs, des systèmes, et la com-
+ordinateur quantique, avant de prendre selon certaines probabilités la valeur 0
+pilation pour l’adapter au nouveau contexte du calcul quantique. En parti-
+ou 1 au moment de la lecture de ceux-ci. cependant, ce n’est pas directement
+culier, le calcul quantique demande de revisiter en profondeur les environ-
+dans la richesse de la superposition d’états que réside la force de l’ordinateur
+nements de compilation, qui se trouvent à l’interface entre l’algorithmique
+quantique, mais plutôt dans sa capacité à intriquer un grand nombre de qubits
+et le matériel.
+qui partagent alors un même état quantique indissociable. Par ce phénomène,
+la lecture de l’un de ces qubits aura instantanément un effet sur les autres, ce
+qui permet, dans certains cas seulement, d’explorer en un temps linéaire un
+nombre exponentiel de possibilités. Gestion du bruit
+Si l’ordinateur quantique relève toujours de la science-fiction dans l’inconscient En l’absence de mécanisme de correction d’erreur, le temps d’exécution
+collectif, les développements récents montrent que le concept est viable. de- d’un programme quantique est limité par le bruit et le phénomène de dé-
+puis 2016, IbM met un prototype en libre accès à disposition des program- cohérence.
+meurs. Google prévoyait en 2017 une rentabilité commerciale dans des do-
+Plus un programme quantique met de temps à s’exécuter et plus il opère
+maines de niche dans les 5 ans, et annonce la suprématie quantique par un
+d’opération, moins son résultat est précis.
+calcul sur un ordinateur à 54 qubits. En France, Atos construit des simulateurs
+d’ordinateurs quantiques. les optimisations de compilation minimisant le temps d’exécution et la
+complexité du calcul sont donc cruciales, non seulement pour la vitesse
+Ces développements concrets promettent de mettre finalement en application
+mais surtout pour la précision.
+les travaux théoriques menés depuis les années 1990 sur le calcul quantique.
+les codes correcteurs d’erreurs quantiques représentent un champ de re-
+néanmoins, il existe un gouffre entre les capacités des architectures quan-
+cherche actif qui promet à long terme de pallier à ces limitations. cepen-
+tiques envisageables dans un futur proches et les prérequis des algorithmes
+dant, le surcoût imposé par la plupart des techniques de correction d’erreur
+quantiques. Pour le combler, il faudra non seulement des progrès dans les ca-
+rend leur emploi rédhibitoire sur les premières générations d’ordinateurs
+pacités du matériel, mais aussi réduire nos ambitions sur les applications et les
+quantiques. Il est probable qu’il faille se contenter de techniques de miti-
+couches logicielles dans un premier temps.
+gation d’erreur ou de correction partielle d’erreur à court et moyen terme.
+En effet, les ordinateurs quantiques de première génération restent très limi-
+Au niveau langage, il faudra permettre de spécifier des algorithmes par-
+tés. On atteint aujourd’hui une cinquantaine de qubits utilisables, mais ceux-ci
+tiellement tolérants au bruit, afin de profiter de codes correcteurs d’erreurs
+sont très sensibles au bruit. Par exemple, les auteurs de l’expérience de supré-
+à couverture partielle.
+matie quantique de Google estiment à 0,2% seulement la chance de succès
+d’un calcul qui implique 53 qubits et opère 1113 opérations sur des qubits indi-
+viduels, 430 opérations sur des paires de qubits ainsi que 53 mesures.
+42 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 43

@@ -1,0 +1,55 @@
+1. Full—The supervisor delegates full authority to the subordinate to decide how the task should
+be executed. The subordinate is charged to ‘make it so ’and is not required to have any further
+coordination, permissions or even information exchange with the supervisor.
+2. Inform—the supervisor delegates full authority to the subordinate as above, but the
+subordinate is required to inform the supervisor of the decisions and execution actions taken.
+The supervisor retains no ability to override or approve those steps, […]
+3. Override—the supervisor delegates the task, but expects information (as above), and
+additionally retains the right to step in and override any or all of the subordinate’s plan. […]
+4. Approval—the supervisor delegates decision/planning authority about how to accomplish the
+delegated task, but retains the right to explicitly approve actions before they are taken. The
+subordinate must submit the plan (or, perhaps, multiple plans) to the supervisor and cannot
+proceed until one of them has been approved for execution by the automation.
+5. Recommend—the supervisor partially delegates planning authority alone; s/he retains
+execution authority. In other words, the supervisor authorizes the subordinate to recommend
+courses of action, but the supervisor will still make the final decision about which course to
+execute and who will do the executing. Recommend authority differs from Approval authority
+primarily in that the automation is doing the executing, after approval, in the latter case, while
+either the human or the automation (according to the human’s choice) may do the execution in
+Recommend.
+6. Monitor—the supervisor retains all decision and execution authority, but authorizes the
+subordinate to maintain awareness and to offer recommendations or critiques. In Monitor
+authority, the automation does not begin by providing a recommended plan; instead, the human
+supervisor begins planning and execution activities and the automation operates only by
+recognizing and offering critiques or improvement suggestions.
+7. None—the supervisor delegates no authority for how to plan or execute the task. The task is
+not delegated. “None” delegation is the null or degenerate case and is included only for
+completeness. In practice, saying that one delegates with “No” or “None” authority is equivalent
+to not delegating.
+Notons qu’en 2004, lorsque les auteurs utilisent les termes “supervisor” et“ subordinate”, ils précisent
+que l’Homme et l’automate peuvent jouer l’un ou l’autre rôle.
+Ces travaux sont très ambitieux et sont allés jusqu’à des expérimentations assez prometteuses en
+simulation. L’approche Playbook semble avoir été choisie par les Etats-Unis (en tout cas au niveau de
+l’Air Force, pour la supervision de l’autonomie des drones, qu’ils soient en essaim ou non). Toutefois, si
+l’on étudie l’état d’avancement actuel de ces technologies, on constate que les ambitions sont très
+réduites en ce qui concerne la finesse du niveau de supervision des opérations en phase d’exécution.
+Des travaux récents montrent, par exemple, une utilisation de Playbook pour la planification de tâches.
+L’opérateur peut ainsi déléguer à un automate la planification de certains segments d’une tâche
+complexe et se réserver la planification « à la main » des parties les plus délicates. Ces opérations
+semblent être assez mûres et pouvoir fournir une aide substantielle à l’opérateur en phase de
+planification. En revanche, ce que l’on peut voir des systèmes de Playbook en TRL haut (par exemple
+Golden Horde), nous laissent penser qu’une fois paramétré et déployé avec un plan d’équipe, l’essaim
+est largement autonome dans l’exécution (tout en restant bien sûr dans le cadre de ses paramètres).
+Les niveaux de supervision correspondant sont 1-2 (voir plus haut).
+Nous voyons plusieurs explications possibles (et non exclusives) à cette limitation aux seuls niveaux
+haut de délégation d’autorité :
+- Les technologies d’IA réactive individuelles et de coordination sont considérées comme
+suffisamment robustes pour les tâches confiées aux systèmes de drones ;
+- Les travaux du domaine de l’interface Homme-machine nécessaires à la mise en place du
+dialogue Homme-système qui correspond aux niveaux 3-6 ne sont pas suffisamment avancés.
+Par exemple, les systèmes de préparation de missions sont principalement fondés sur des
+menus déroulant ou des commandes vocales très simples ;
+- La transition vers la perspective de conflits de haute intensité fait que l’accent est mis sur des
+solutions simples et efficaces plutôt que sur des solutions plus fines et coûteuse (en temps de
+réaction, ressources humaines ou budget). Il est clair que les niveaux 3-6 impliquent lourdement
+87

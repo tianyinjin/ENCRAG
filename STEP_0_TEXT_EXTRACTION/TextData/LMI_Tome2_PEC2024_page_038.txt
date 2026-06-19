@@ -1,0 +1,45 @@
+38 Pôle d’excellence cyber
+IA, risques et désinformation
+Dr Jean-Philippe RIANT
+Directeur conseil
+en intelligence artificelle
+et communication digitale
+L’intelligence artificielle présente de très nombreuses opportunités
+d’innovation, mais c’est par l’analyse de ses risques que s’organise aussi le
+débat sur son potentiel.
+Dans un message sur Linkedin(1), un participant à la obligations . Un principe essentiel de cette réglementation
+conférence Responsible Artificial Intelligence in the Military concerne directement le secteur de la défense : ses
+Domain(2) en septembre 2024 à Séoul synthétise les points applications sont exclues de son champ d’application .
+sur lesquels il a dû intervenir lors d’une table ronde : Elles doivent donc être régulées par ailleurs . De l’autre
+• Comment les normes civiles de l’IA peuvent- côté de l’Atlantique, on s’intéresse aussi aux risques de
+elles être adaptées à d’autres applications ? l’IA . Le Massachussets Institute of Technology publie un
+• Quels sont les défis éthiques dans le article(3)assorti d’une base de données recensant 3000
+développement de l’IA pour toute utilisation ? événements réels d’incidents liés à l’IA, à partir de laquelle
+• Pourquoi une évaluation continue est- et après une étude systématique de la littérature actuelle
+elle cruciale pour une IA responsable ? ainsi que la synthèse de 43 modèles de classification
+Il met en parallèle avec cette conférence les des risques, dégage une taxonomie près de 800 risques
+objectifs du projet AI for Defense qui est soutenu avérés liés à l’intelligence artificielle . Ils les classes en deux
+et financé par la Commission européenne dans le niveaux : un niveau lié aux causes, aux intentions, et un
+cadre du Programme européen de développement niveau de domaines et de sous-domaines de risques .
+industriel dans le domaine de la défense (EDIDP) .
+Notons que la mésinformation ou la déformation est
+Les notions de défis éthiques et d’évaluation continue un sous-domaine de risques clairement identifié par les
+à caractère crucial sous-entendent que l’intelligence auteurs de cette étude, réalisée à partir de la synthèse
+artificielle porte des risques consubstantiels à ses de 43 matrices de classement des risques de l’IA .
+principes de développement et d’exploitation .
+L’adaptation des normes civiles de l’IA et leur Les auteurs constatent que les risques liés à l’intelligence
+adaptation aux applications militaires postule que artificielle causant de la pollution informationnelle ou des
+ce sont les normes civiles qui doivent s’adapter biais de perception de la réalité sont peu explorés dans la
+aux usages militaires afin de les encadrer . littérature . Ils relèvent aussi que la majeure partie (75%) des
+risques recensés sont le fait des algorithmes et non d’une
+Au vu de ces enjeux, l’Union Européenne a promulgué volonté humaine (13%), or ce sont bien ces opérations
+en juillet 2024 un texte appelé AI Act ou Règlement sur d’influence avec comme vecteur l’intelligence artificielle
+l’intelligence Artificielle (RIA) qui définit différents niveaux qui méritent une description publique . Les scientifiques
+de risques pour les systèmes d’intelligence artificielle : pourront ainsi s’en saisir et mieux les intégrer dans les
+systèmes interdits, systèmes à haut risque, à risque modèles de connaissances dont le secteur a besoin .
+modéré, à risque faible . Chaque niveau de risque implique Seulement 1% des risques recensés ou décrits dans la
+pour les parties prenantes - producteur, déployeur littérature concernent la pollution informationnelle ou la
+ou utilisateur - différents types de contraintes . Les distorsion de la perception de la réalité par de l’intelligence
+systèmes d’intelligence artificielle à usage général, comme artificielle . Ce chiffre très faible ouvre sur de futurs
+le sont les modèles de langage et son représentant travaux qui permettraient de compléter par exemple
+le plus connu ChatGPT sont soumis eux aussi à des la matrice DISARM par un sous-ensemble décrivant

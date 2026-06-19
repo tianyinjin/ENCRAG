@@ -1,0 +1,32 @@
+6
+OPERATING PROCEDURES
+STEP 1 - BATTERY OPERATION:
+The LED should be OFF and the battery CHARGED. Turn the Power Knob to the right until it
+clicks ON. The LED should turn to Steady GREEN.
+NOTE: If the LED turns Steady RED, then the battery is BAD and must be replaced. The fan can
+still be used in AC Mode if no damage has been done to the BMS. If the BMS is BAD then the
+fan will not work at all. See TROUBLESHOOTING and call for service.
+Continue to turn the Power Knob to vertical position and the fan will start when passed the dead-
+band. The dead-band is the position of the Power Knob designed to check the GREEN LED
+power status without turning on the fan; it is inherent in the variable-speed control.
+The following are conditions for Variable Speed settings:
+• The fan can be started at maximum speed for PPV Operation by directly turning the Power
+Knob fully clockwise. The Electronic Speed Controller (ESC) will ramp-up the fan to
+maximum speed without causing any power surge.
+• To set the fan at speed other than maximum, the fan can be started at maximum speed,
+and then dialed down, or start at minimum speed and quickly dialed up. The ESC will
+control and prevent any power surge.
+• The minimum speed is factory preset to provide light ventilation, is useful for rehab
+situations, and will significantly extend the battery usage.
+STEP 2 - AC OPERATION: Plug in the AC cord. Three conditions exist:
+• While the Power Knob is in OFF position: The BMS will automatically charge the battery
+with available power from the AC power supply. The LED will show a GREEN blink
+sequence.
+• Turn the Power Knob to ON and start the Fan. The BMS will shut down the charging and
+redirect the AC power to run the fan. The LED will show Steady GREEN.
+• While the fan is running in Battery Mode as in STEP 1: The BMS will automatically switch
+the power to AC and conserve battery power.
+NOTE: If the power cord is disconnected while the fan is running on AC, the BMS will automatically
+switch back to Battery Power and fan continues to run until the battery is discharged and fan
+stops.
+BH-20 Operations Manual v2.4

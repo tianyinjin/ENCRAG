@@ -1,0 +1,26 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+- le retrait ou la déconnexion des
+lecteurs de médias amovibles.
+Sur les postes et serveurs,
+- désactiver l’ensemble des programmes non indispensables ;
+EXP3 TECH R O O
+- supprimer les données de tests ainsi que les comptes crées lors des tests,
+désormais inutiles.
+Supprimer les données de tests, toutes les fonctions de développement, les outils
+temporaires liés aux tests et aux évolutions (débogueur, script de configuration,
+EXP4 TECH …) ou fonctions locales de maintenance non utiles à la production sur les R R O
+équipements (automates*, postes SCADA*, postes maintenance, serveurs, etc.)
+d’un système en production.
+Sur les automates* et les applications SCADA*, ne pas charger dans les
+EXP5 TECH R O O
+équipements les mnémoniques et commentaires
+EXP6 ORG Privilégier les équipements labellisés. R R O
+Pour sécuriser les systèmes d’exploitation des équipements, appliquer les guides
+Voir référentiels Guide et configuration
+EXP7 TECH de configuration rédigés ou recommandés par le ministère ou l’ANSSI s’ils O
+et Référentiel ANSSI
+existent.
+Appliquer sur les paramètres de durcissement de configuration une étude
+EXP8 TECH d’impacts fonctionnels pour ne pas remettre en cause la sûreté de fonctionnement* O
+du système industriel.
+DIR-39 SNSI – 2eme édition Page 61 | 79

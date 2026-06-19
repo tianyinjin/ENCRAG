@@ -1,0 +1,69 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+• L’évaluation de sécurité : l’IA peut permettre la recherche de vulnérabilités intrinsèque et la qualité des traitements associés (mise en forme, filtrage,
+sur des logiciels mêmes complexes ou volumineux, mais aussi sur des com- annotations…) vont être prépondérantes pour que l’apprentissage se déroule
+posants avec la capacité d’analyser des images de puces électroniques. correctement. d’autres propriétés doivent aussi être étudiées, comme leur
+l’IA montre aussi d’ores et déjà sa capacité à la caractérisation de menaces intégrité, pour être sûr que l’apprentissage de déroule bien avec les données
+dPA (differential power analysis) permettant d’aider à la sécurisation de sélectionnées à cet effet.
+composants. Enfin, l’IA peut permettre d’assister des équipes de pentest en
+des méthodes algorithmiques peuvent aussi être employées pour éliminer
+réalisant des tests automatisés permettant de démultiplier les capacités des
+les menaces, elles sont listées plus haut. certains moyens de détection per-
+équipes ;
+mettent aussi d’identifier des attaques (par leurre notamment), ce qui vient
+• La détection d’attaques : ce sujet a probablement été un des premiers où renforcer la sécurité de l’ensemble.
+l’IA a été utilisée en cybersécurité. Il s’agit ici de détecter des signaux faibles
+dans des masses de données importantes (des logs, par exemple), de
+B.6.4 _Agrément et homologation des solutions à base d’IA
+détecter des comportements anormaux d’individus ou de processus qu’ils
+soient métiers ou informatiques, d’effectuer des analyses de corrélation l’évaluation de produits de sécurité « traditionnels » (pare-feu, IdS, chif-
+entre des multitudes d’évènements, et de détecter des logiciels malveillants freurs…) restait jusqu’à présent cantonnée à l’utilisation de techniques dé-
+complexes ; terministes. l’intégration progressive d’algorithmes d’apprentissage et de
+prise de décision dans les nouvelles familles de produits de sécurité néces-
+• La réaction aux attaques : ce sujet reste aujourd’hui majoritairement à
+site de facto une adaptation des méthodes d’évaluation afin notamment de
+défricher mais une IA pourrait : aider à proposer des mesures de réaction
+renforcer l’efficacité intrinsèque de ces produits de sécurité.
+face à une attaque, voire prendre automatiquement ces mesures, aider à
+l’identification de la source de la menace et à développer des contre-mesures. À l’instar des usages de l’IA en cybersécurité (détection d’intrusion, filtrage
+de spams, analyse de malwares, détection d’exfiltration de données, authen-
+B.6.3 _Sécurité de l’IA tification biométrique…), les méthodes utilisées (classification, partitionnement
+de données (clustering), détection d’anomalies, régression linéaire et prédic-
+les algorithmes d’IA, comme tous les algorithmes peuvent être la cible d’attaques
+tions…) sont de plus en plus nombreuses, ce qui induit forcément :
+informatiques. c’est aussi le cas des machines qui les hébergent mais en première
+hypothèse on considérera que ce point est adressé par les techniques classiques • Des limitations d’ordre opérationnel (complexité du paramétrage, prise
+de sécurisation de l’It. en compte du modèle de menace…) ;
+les systèmes d’IA devront donc être sécurisés depuis leur phase de conception. • Des limitations liées à l’efficacité des algorithmes face aux attaques
+Cette sécurité devra être évaluée lors des phases de qualification et la sécurité complexes et/ou nouvelles ;
+réévaluée durant tout le cycle de vie du système. de manière synthétique,
+• Des limitations liées à la robustesse des algorithmes (résistance à l’empoi-
+quatre grands types de vulnérabilités pour les systèmes d’IA sont à prendre en
+sonnement, résistance à l’évasion…).
+considération :
+Dans ce contexte, la spécification d’une démarche d’évaluation / de certification
+• L’empoisonnement de données : introduction dans le jeu de données de
+de produits de sécurité intégrant de l’IA devra reposer sur :
+données erronées choisis pour affecter le comportement des systèmes ;
+• L’analyse du modèle de menace du produit (exposition du produit à
+• La porte dérobée : introduction d’un biais dans le modèle qui va déclencher
+l’empoisonnement, intérêt de l’attaquant à évader le mécanisme cible,
+un certain comportement face un événement choisi par l’attaquant (ex :
+confidentialité des entrées…) ;
+marque sur un panneau StOP qui le fera considérer comme un autre panneau) ;
+• L’analyse de l’adaptabilité du produit à l’environnement (adaptation des
+• La reconstruction de données d’apprentissage : cette vulnérabilité consiste à
+paramètres au contexte opérationnel, capacité d’assistance au para-
+mener des actions de rétro-conception, elle permet de remonter aux données
+métrage…) ;
+qui ont servi à entrainer le modèle. ces données peuvent être sensibles, voire
+classifiées pour des applications défense ; • L’analyse de l’efficacité du produit dans un environnement réaliste ;
+• Le leurrage : il s’agit d’introduire une perturbation dans les données d’entrée • L’utilisation d’une plateforme cyber Range générant du trafic d’attaque
+pour modifier la réponse du système en ajoutant du bruit dans une image ou et du trafic de vie pertinent ;
+sur un son (one pixel attack par exemple), bruit choisi pour être indétectable
+• La confrontation du produit à un catalogue d’attaques ;
+par un humain mais spécifiquement conçu pour provoquer une erreur du
+système. • La construction de scénarios réalistes et variés ;
+les techniques de sécurisation vont dépendre du type d’IA utilisé. Pour les IA • L’analyse de la robustesse des algorithmes retenus (« empoisonnement »
+utilisant massivement des données (apprentissage automatique), leur qualité des données d’entrainement, évasion du moteur de test, inversion du
+modèle, extraction du modèle et de ses paramètres / seuils…).
+38 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 39

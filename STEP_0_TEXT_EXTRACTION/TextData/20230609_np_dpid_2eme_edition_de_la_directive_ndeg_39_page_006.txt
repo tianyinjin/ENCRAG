@@ -1,0 +1,39 @@
+mais également aux acteurs participant à leur maintien en condition de sécurité (MCS). Ces
+acteurs peuvent être du domaine de la sécurité numérique ou d’autres domaines concourant à la
+vie des systèmes industriels.
+Elle s’adresse également aux autorités qualifiées en matière de SSI (AQSSI), aux autorités
+d’homologation (AH), aux autorités d’emploi et aux autorités clientes ou bénéficiaires d’un
+système industriel.
+L’autorité d’homologation (AH) ajoute cette directive à son socle de sécurité, en complément des
+directives n°27 [Dir HSI] et n°47 [Dir MCS] qui portent respectivement sur l’homologation de
+sécurité des systèmes d’information et sur le maintien en condition de sécurité (MCS).
+Les annexes sont destinées à évoluer sous la responsabilité de la DPID sur proposition des états-
+majors, directions et services. Leur dernière version est accessible sur SYNOPTIC.
+Nota : si l’autorité d’homologation (AH) choisit, avec l’accord de son AQSSI, de ne pas ajouter la
+présente directive à son socle de sécurité, par exemple lorsque la partie industrielle des systèmes
+est minoritaire, elle s’assure de l’application des documents de référence listés au §2.1.
+1.4. Niveaux de préconisation
+Les règles définies dans ce document ont différents niveaux de préconisation et sont conformes
+au [RGI] et à la [RFC 2119]2 :
+OBLIGATOIRE Ce niveau de préconisation signifie que la règle édictée indique une
+exigence absolue de la directive.
+RECOMMANDÉ Ce niveau de préconisation signifie qu’il peut exister des raisons valables,
+dans des circonstances particulières, pour ignorer la règle édictée, mais les
+conséquences doivent être comprises et pesées soigneusement avant de
+choisir une voie différente.
+CONSEILLÉ Ce niveau de préconisation signifie que la règle édictée est une bonne
+pratique de sécurité numérique. Il n’est pas nécessaire d’instruire une
+dérogation lorsqu’elle n’est pas respectée.
+DÉCONSEILLÉ Ce niveau de préconisation signifie que la règle édictée indique une
+prohibition qu’il est toutefois possible, dans des circonstances particulières,
+de ne pas suivre, mais les conséquences doivent être comprises et le cas
+soigneusement pesé.
+INTERDIT Ce niveau de préconisation signifie que la règle édictée indique une
+prohibition absolue de la directive.
+1.5. Gestion des dérogations aux règles de la directive
+Les règles peuvent s’appliquer sur le système industriel dans son ensemble ou sur un sous-
+système selon leur niveau de classe*.
+Les dérogations :
+- aux règles portant sur la classe 1, ou ;
+2 https ://www.ietf.org/rfc/rfc2119.txt – Keywords for use in RFCs to indicate requirement levels.
+DIR-39 SNSI – 2eme édition Page 6 | 79

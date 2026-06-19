@@ -1,0 +1,46 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 8 : GESTION ET REPRESSION DES ATTEINTES AU SECRET DE LA
+8.2
+DEFENSE NATIONALE
+(cid:3)
+COMPROMISSION AFFECTANT UN SYSTÈME D’INFORMATION
+8.2(cid:3):
+Référence(cid:3):
+IGI 1300 – 1.4.2.4
+Points clés(cid:3):
+(cid:129) Tout support informatique potentiellement affecté par une compromission cesse
+d’être utilisé et est conservé dans un endroit sécurisé.
+(cid:129) L’OS et l’OSSI sont les acteurs agissant dans la mise en œuvre de la procédure.
+(cid:129) La DRSD est saisie et procède aux investigations en liaison avec l’ANSSI avant
+transmission éventuelle à la DGSI.
+La présente fiche complète la fiche 8.1 dans le cas où la compromission (cf. définition au
+paragraphe 1 de la fiche 8.1) concerne un système d’information, qu’il s’agisse d’une
+suspicion de compromission ou d’une compromission avérée. Les dispositions prévues
+par la fiche 8.1 sont applicables ((cid:2)(cid:3)FLASHEVENT(cid:3)(cid:3), …).
+1. Réactions immédiates
+Il convient de :
+- Préserver le support numérique susceptible d’être affecté par une compromission
+(cesser d’utiliser ou de travailler sur le support, etc.) ;
+- Saisir l’Officier de Sécurité, qui saisit l’Officier de Sécurité des Systèmes d’Information
+ainsi que la DRSD, qui prend en charge les investigations(cid:3)et informe l’ANSSI(cid:3);
+- Le cas échéant, pour les ADS, informer l’Officier de Sécurité de la DIRISI(cid:3);
+- Rassembler les éléments techniques et humains en rapport avec l’incident en cours200
+;
+Dans le cas où les services spécialisés de la DIRISI découvrent qu’un système
+d’information est affecté par une compromission, ils doivent saisir la DRSD et l’officier
+de sécurité de l’organisme concerné qui est alors responsable de conduire les actions
+relatives à cette compromission.
+Toutes les actions entreprises entrent dans le cadre d’une première réponse sur incident.
+Elles doivent impérativement être répertoriées et horodatées dans un registre dédié.
+L’OSSI de l’entité concernée prend toutes les mesures nécessaires pour garantir la
+sauvegarde et l’intégrité des preuves techniques. Toute intervention de personnel non
+qualifié forensic (visualisation du contenu d’un message, fichier ou répertoire, etc.) sur la
+machine est de nature à laisser des traces sur le disque dur et ainsi à rendre la preuve
+judiciairement irrecevable. Seules des interventions justifiées par l’état de nécessité sont
+autorisées.
+(cid:3)
+200 Pour préserver la validité de futures investigations judiciaires, les éléments de preuve (messages,
+documents…) ne doivent pas être effacés mais conservés dans des fichiers spécifiques ou à défaut sur un
+support classifié dédié à cette conservation. L’OS et l’OSSI doivent conserver la trace de leurs actions visant
+à faire cesser au plus vite la compromission.
+227

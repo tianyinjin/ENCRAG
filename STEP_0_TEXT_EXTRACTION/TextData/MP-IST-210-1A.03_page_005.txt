@@ -1,0 +1,51 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+• Resilient under low • Higher hardware costs and calibration
+Radar- visibility/weather conditions demands
+based
+• Uses micro-Doppler • Many systems lack resolution for very
+signatures small drones
+• Long range, constant • Active emitting nature of sensors adds
+tracking, accurate positioning complexity and licensing requirements
+• Able to handle many objects • “Dead zones” due to curvature of the
+simultaneously earth and undulating terrain features
+• Able to detect any flying • Clutter interference in urban/dense
+object with radar signature environments
+regardless of its operating
+• Integration complexity with other
+modality
+sensors
+• Targets UAV recognition via • High false-alarm rates due to 2-
+Vision- optical images dimensional nature of returns
+based
+• Provides visuals for forensic • Environmental variability (light,
+evidence weather, obscurants) significantly affect
+performance consistency
+• Real-time and cost-effective
+solutions • Challenges with small object size and
+motion blur
+• Promising rapid
+enhancement by advances in • High computational demands for high-
+AI and CV, and consumer- resolution streams
+grade image capturing
+• Relies on line-of-sight, vulnerable to
+technologies
+camouflage and obfuscation
+• Mitigates single-sensor blind • Increases complexity in real-time
+Multi- spots deployment
+Modal
+Fusion • Significantly improves • Requires precise sensor calibration and
+robustness and accuracy synchronization
+• Crucial for small-object • Consumes power and bandwidth for
+detection and erratic flight large-scale deployments
+• Adaptive sensor weighting • System integration complexity and cost,
+and deep embedding including data synchronization and
+methods fusion protocol standardization
+• Requires significant computational
+resources or hardware optimisation for
+real-time processing on edge devices
+Second, in networked warfighting, each of these systems are likely to be embedded into larger systems-of-
+systems operating across the tactical, operational and theatre level. This is because each sensor modality has
+inherent limitations as highlighted in Table 1: for example, radar may struggle with small, low-flying
+drones, optical cameras can confuse drones with birds, and RF direction finders are ineffective against
+STO-MP-IST-210 1A.03 - 5

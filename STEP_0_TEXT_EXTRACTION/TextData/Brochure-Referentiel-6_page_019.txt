@@ -1,0 +1,55 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+défendre une infrastructure contre des vulnérabilités inconnues du plus grand ces notions ne sont pas équivalentes, mais bien imbriquées : l’intelligence
+nombre, qualifiées de zero-day, lutter contre des menaces persistantes complexes artificielle englobe l’apprentissage, qui lui-même englobe l’apprentissage
+(Advance Persistent threat (APT)) est un défi majeur qui nécessite une com- par réseaux de neurones, qui lui-même englobe l’apprentissage profond.
+préhension des objectifs et du mode de fonctionnement de l’adversaire.
+l’IA englobe aussi plusieurs autres types de techniques logicielles, comme
+Une plateforme cyber threat Intelligence permet d’améliorer la résolution des les moteurs de règles (systèmes experts), et de même l’apprentissage englobe
+incidents de sécurité en évoluant d’une défense réactive et partielle à une réponse de nombreuses techniques qui ne font pas appel à des réseaux de neurones
+proactive et adaptée. les formats d’échange d’informations sur les menaces (par exemple les forêts aléatoires, Support Vector Machine (SVM)…) dont
+peuvent prendre plusieurs formes, mais les analystes se tournent presque toujours certaines ont par exemple l’avantage de l’explicabilité des raisonnements
+vers l’échange d’indicateurs de compromission (Indicators of compromise par construction.
+(IOc). les opérations de collecte, partage et échange d’informations en sont les
+étapes clés. Une analyse méthodologique avec modélisation de la problématique et des
+données afférentes facilite la mise en évidence des notions d’explicabilité et
+de fiabilité qui sont clés pour la certification des solutions incorporant ces
+techniques.
+B.5 le cyber-engagement désigne les actions sur les systèmes numérisés des adver-
+Cyber- saires et les opérations d’influence numérique qui visent à soutenir la supériorité Une telle approche doit être encouragée par rapport à une approche de
+militaire des Armées. type « boite noire » de l’intelligence artificielle qui permet une résolution
+engagement
+rapide de certains problèmes mais au prix bien souvent de biais de repré-
+l’engagement étant une activité de nature régalienne, la rubrique n’est pas déve-
+sentativité, de robustesse et fiabilité des résultats proposés.
+loppée dans ce document10.
+De nombreuses thématiques scientifiques relèvent traditionnellement de l’IA.
+Elles peuvent être classées en quelques grandes familles : résolution de
+problèmes ; connaissance et raisonnement, notamment en environnement
+incertain ; planification ; apprentissage ; communication, perception et action.
+nous allons dans les chapitres qui suivent nous concentrer sur les liens entre
+IA et cybersécurité, selon quatre points de vue :
+• Les cas d’usage de l’IA en cybersécurité ;
+• La cybersécurité des systèmes intégrant de l’IA ;
+• L’évaluation des systèmes intégrant de l’IA ;
+• Les données et les plateformes nécessaires pour développer des sys-
+tèmes à base d’IA.
+B.6 B.6.1 _Introduction et principales méthodes et algorithmes B.6.2 _Cas d’usage de l’IA pour la cybersécurité
+Zoom
+Dans ce document, nous adoptons une définition volontairement large de Les applications de l’IA pour la cybersécurité sont potentiellement infinies
+sur l’utilisation
+la notion d’intelligence artificielle (IA) dans laquelle tout système informa- si on considère que cette technique peut être utilisée dans tous les systèmes
+de l’Intelligence tique capable d’analyser son environnement pour décider de ses actions et numériques.
+Artificielle (IA) interagir est considéré comme intelligent.
+Quatre grandes catégories d’applications où l’IA peut apporter un gain
+en cybersécurité Pour une discussion approfondie à ce sujet, on renverra le lecteur à :
+particulièrement significatif peuvent être identifiées :
+Russel, S., norvig, P., 2010. « Artificial Intelligence: a modern approach ».
+• L’aide au développement sécurisé : l’IA pourrait aider à la modélisation
+3nd Edition. Prentice Hall, Pearson Education Inc.
+et à la simulation de systèmes complexe, à la détection d’erreurs de
+Cette définition de l’intelligence artificielle ne se limite pas, à celle d’appren- conception ou de codage, permettant ainsi le développement de produit
+tissage (machine learning), voire d’apprentissage profond (deep learning). sûrs par conception ;
+10 Pour plus d’informations, les éléments publics figurent à l’adresse :
+https://www.defense.gouv.fr/content/download/551555/9394645/El%C3%A9ments%20publics%20de%20doctrine%20militaire%20de%20lutte%20informatique
+%20OFFENSIVE.pdf
+36 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 37

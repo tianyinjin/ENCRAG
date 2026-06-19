@@ -1,0 +1,35 @@
+20 Pôle d’excellence cyber
+Détection de communautés à l’aide de la
+recommandation de Telegram
+Laure DASSY
+Data analyst
+SAHAR
+Éloi NEVIASKI
+Analyste
+SAHAR
+Les algorithmes de recommandation ont pris une place fondamentale dans la distribution de l’information.
+Avec l’avènement des plateformes numériques et leur déploiement d’algorithmes de recommandation, l’étude
+de ces nouveaux vecteurs d’influence aux mécanismes opaques est devenue essentielle.
+La recommandation de chaînes similaires sur « proximité idéologique » des administrateurs
+Telegram d’une chaîne à l’autre et permet ainsi d’étudier les
+Le 30 novembre 2023, la messagerie chiffrée russe Telegram aspirations et dynamiques d’influence entre celles-ci .
+sort une nouvelle fonctionnalité permettant aux internautes C’est dans ce cadre expérimental qu’une étude a été
+de découvrir de nouvelles communautés : les chaînes réalisée afin de mieux comprendre l’écosystème des
+similaires . Telegram reste discret et décrit ce nouveau chaînes s’exprimant sur le conflit russo-ukrainien .
+système de recommandation comme une fonctionnalité 127 chaînes Telegram de départ ont été identifiées
+permettant aux internautes de s’abonner à des chaînes au sein de trois catégories : des chaînes pro-russes,
+ayant des « similitudes dans leurs bases d’abonnés »(1) . des chaines pro-ukrainiennes et enfin les chaînes
+Les algorithmes de recommandation ne fonctionnent d’opposition-russes, regroupant des mouvements
+pas tous de la même manière . En fonction des types de indépendantistes, des mouvements d’opposition à
+données dont ils disposent, trois catégories se distinguent : la conscription russe, des partisans ou des divisions
+les algorithmes basés sur le contenu (les centres d’intérêts russes se battant au sein de l’armée ukrainienne .
+des utilisateurs), les algorithmes de filtrage collaboratif La collecte des 100 chaînes similaires à chacune
+(le comportement des utilisateurs) et ceux basés sur des chaînes de départ a été effectuée à l’aide d’un
+des règles (abonnés et interactions, métadonnées compte premium, avec une profondeur double . Un
+comme l’IP ou les heures de connexion, etc .)(2) . algorithme de détection de communautés, Infomap(4),
+a ensuite été appliqué à l’intégralité des chaînes afin
+L’apport de la recommandation à l’analyse dans la de regrouper en communautés les chaînes qui ont
+guerre en Ukraine une forte interaction entre elles . L’utilisation d’Infomap
+Avant la sortie de la fonctionnalité, l’étude d’écosystèmes permet de détecter la structure hiérarchique des
+sur Telegram passait par les partages de publications réseaux . Les résultats de cette opération ont été
+entre chaînes(3) . Le partage traduit en général la modélisés à l’aide de Gephi(5) sur un graphe relationnel

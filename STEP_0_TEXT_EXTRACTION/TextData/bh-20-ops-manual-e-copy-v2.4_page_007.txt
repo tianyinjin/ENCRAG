@@ -1,0 +1,36 @@
+7
+Operating Environment
+The BH-20 has an ingress rating of IP-66 (No ingress of dust, complete protection against
+contact. Water projected in powerful jets against the enclosure from any direction shall have no
+harmful effects.) Ensure electrical extension cords are not operating in standing water.
+The surface temperature will generally get 40ºF (4.5ºC) higher than the ambient temperature.
+The BH-20 should operate “normally” in ambient temperatures ranging from -40º F (-40º C) to
+110º F (43º C). The internal temperature will operate at 150º F (65ºC).
+The following is a quick reference chart of Operating Modes, LED Status, and Performance Specs
+OPERATING MODES
+BATTERY While Fan is OFF While AC Unplugged Power Knob ON to
+Variable
+AC While Fan is OFF Plug in AC Outlet Power Knob ON to
+Variable
+AUTO SWITCH While Fan is ON Plug in or Unplug AC Power Knob ON to
+Variable
+CHARGING While Fan is OFF Plug in AC Outlet Power Knob OFF
+LED STATUS
+No LED Battery is charged, no Power Knob OFF AC/BATT
+maintenance needed. (or Nothing
+Works)
+Steady GREEN AC or Battery Power is available Power Knob ON AC/BATT
+Slow Blinking GREEN Pre-charge, Final Charge, Battery Power Knob OFF AC
+Maintenance.
+Fast Blinking GREEN Fast Charge Power Knob OFF AC
+Blinking RED Battery Low, Cell Low – Needs Power Knob BATT
+Recharge ON/OFF
+Steady RED No Battery, Bad Cell, Bad BMS Power Knob OFF AC/BATT
+Blinking GREEN/RED BMS attempting to recover weak Power Knob AC
+cells prior to Pre-charge OFF
+PERFORMANCE
+PPV MODE 4000 RPM Max 11,000 CFM 30 Min. on Battery Unlimited on
+Setting AC
+VENTILATION 2000 RPM Low 6,000 CFM 180 Min. on Battery Unlimited
+MODE Setting on AC
+BH-20 Operations Manual v2.4

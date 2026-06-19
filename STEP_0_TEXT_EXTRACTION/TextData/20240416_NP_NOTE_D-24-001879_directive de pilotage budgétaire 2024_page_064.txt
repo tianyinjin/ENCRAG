@@ -1,0 +1,48 @@
+3.3. Mise à jour de la programmation
+La programmation mensuelle, et par conséquent cumulée et globale, de l’emploi de la ressource fait
+l’objet d’une modification (reprogrammation) aux seules échéances suivantes :
+ enveloppe initiale 2024 ;
+ SG1 2024 ;
+ à compter du compte-rendu au 30 septembre 2024, adaptation libre des programmations
+mensuelles du RAMSES par le SUO, sur la base d’une fongibilité des lignes RAMSES de même
+domaine (ex : d’une ligne AGSC vers une ligne AGSC) ;
+ clôture de la gestion : le RAMSES final arrêté au 31 décembre 2024 est un RAMSES dit de
+consommation. Il doit correspondre à la consommation constatée dans Chorus. C’est-à-dire
+que les colonnes programmation en AE doivent correspondent au réalisé réel constaté au 31/12,
+que les colonnes programmation CP doivent correspondre aux CP payés au 31/12 et que les
+colonnes RàP CP doivent correspondre aux paiements effectués sur les AE basculées.
+Cette reprogrammation, si elle est décidée localement, ne doit être effectuée que sur les
+mois à venir – i. e. après le dernier arrêté de consommation.
+De plus elle doit respecter certains principes pour les AE, ainsi :
+ pour les activités relevant de l’AGSC : la reprogrammation de la ressource peut se faire entre
+domaines au sein d’une activité ou entre les différentes activités relevant de la seule AGSC ;
+ pour les activités relevant de l’infrastructure (couleur rose dans le fichier) la reprogrammation de
+la ressource peut se faire entre activités, sous réserve de respecter les règles de fongibilité
+définies plus haut ;
+ pour l’activité soutien courant du personnel retraçant les crédits AACV (couleur brun dans le
+fichier), la reprogrammation de la ressource ne peut se faire que mensuellement ;
+ la reprogrammation ne peut s’effectuer que dans le même domaine (AGSC vers AGSC, INFRA
+vers INFRA, AACV vers AACV) ;
+ une reprogrammation de la ressource en AE entre des activités relevant de l’AGSC et de
+l’infrastructure ne sera possible, pour les BdD non FDS et hors plans famille 1, 2 et mobilité
+douce, que sur autorisation expresse du CICoS lors des suivis de gestion n° 1 et 2. Les
+ajustements de la ressource sont proscrits, en AE, pour les AACV. La programmation doit dans
+ce domaine demeurer intangible tout au long de l’année. Les éventuelles difficultés à consommer
+doivent être remontées à B. BUD/CG avant le SG2.
+ pour les CP, la reprogrammation de la ressource peut se faire entre domaines au sein de
+l’activité ou entre les différentes activités.
+Dans tous les cas, la reprogrammation ne peut porter que sur les mois à venir. La programmation des
+mois antérieurs (i.e. déjà passés) ne doit pas être modifiée. Lors de chaque programmation, les niveaux
+d’enveloppe AE et CP doivent correspondre aux notifications de référence, à l’euro près et sans
+décimale.
+3.4. Détail des colonnes à compléter dans le fichier RAMSES (MODOP)
+Colonne Descriptif de la donnée à saisir
+UO Indiquer le centre financier 0178-0068-SO de la BdD concernée
+A renseigner systématiquement
+BdD Nom de la BdD
+Saisie automatique découlant de la colonne UO
+Activités Correspond au référentiel de programmation en vigueur au sein de l’UO BdD
+Ne pas modifier
+Domaines Correspond aux domaines RAMSES en vigueur au sein de l’UO BdD.
+Ne pas modifier.
+64/92

@@ -1,0 +1,50 @@
+l’Homme dans la boucle OODA du système et la ralentissent, alors que l’objectif est justement
+d’aller plus vite que l’adversaire.
+- SUPERVISION ET DELEGATION : DISCUSSION
+Si on laisse de côté les systèmes d’essaim scriptés ou téléopérés, qui demeureront, un essaim est
+nécessairement doté de capacités d’autonomie pour accomplir sa tâche dans un environnement
+incertain et dans un contexte d’accès limité aux ressources humaines de contrôle.
+L’opérateur humain d’un tel système va donc déléguer la réalisation d’une ou plusieurs tâches à l’essaim
+pour accomplir la mission qui lui a été confiée, puis superviser son action. Délégation et supervision se
+font par l’intermédiaire de représentations partagées entre l’humain et le système. De manière générale,
+la délégation passera par la définition d’objectifs à atteindre, de modes d’action et de contraintes à
+respecter pendant l’action. Les approches utilisées pour concevoir l’architecture de coordination d’un
+essaim (sur le spectre réactif - délibératif) vont déterminer la forme de ces représentations et la facilité
+à les appréhender.
+EVOLUTIONS 2025 A 2030
+Au vu des temps de maturation d’une technologie avant sa mise en service, d’ici à 2030 il est
+raisonnable de penser qu’il n’y aura pas de révolution technologique dans la mise en œuvre des
+essaims de drones.
+En ce qui concerne les capacités d’autonomie individuelles des drones, il est certain que l’augmentation
+des capacités de calcul embarqué et l’amélioration des algorithmes d’apprentissage vont permettre de
+nouvelles capacités, principalement fondées sur la vision artificielle : navigation sans GNSS,
+identification automatique d’objet, etc. Il est, par exemple, probable que des organisations ou des états
+aux moyens limités puissent être en mesure de mettre en œuvre des essaims de drones légers capable
+d’identifier visuellement des cibles et de les frapper. Toutefois, n’oublions pas que travailler en extérieur
+dans un environnement non-structuré reste extrêmement difficile, preuve en est l’incapacité de
+l’industrie à produire des véhicules véritablement autonomes depuis plus de dix ans malgré les
+promesses répétées.
+Des gains sur les capacités des vecteurs sont également à attendre (endurance, vitesse, peut-être
+manœuvrabilité) sans que cela révolutionne le concept.
+Il est probable que les Etats-Unis soient en mesure de rendre opérationnels des systèmes d’essaims
+collaborant autonomes d’ici 2025. Par exemple, les démonstrations de munitions de Golden Horde sont
+très mûres. L’amélioration des capacités individuelles des drones, évoquée plus haut, s’accompagnera
+naturellement de comportements coordonnés plus avancés. Toutefois, le reste du monde étant à la
+traîne sur les aspects coordination, le mieux que l’on puisse attendre à l’horizon 2030 restera
+probablement sous la forme de coordination réactive, décrite plus haut, fondée sur de la découpe de
+tâche en lots individuels avec peu d’interaction entre drones. Ceci ne préjugeant pas de l’efficacité de
+tels systèmes sur des tâches simples.
+La question est moins claire en ce qui concerne l’interaction Homme-système : même si ce n’est pas
+facile, il est toujours possible de construire une interface homme-machine ad-hoc pour superviser un
+système donné, s’il est fondé sur la coordination réactive. En revanche, la marche technologique est
+très haute pour concevoir les IHM pour des systèmes travaillant en équipe, comme le Playbook aux US.
+Sur ces aspects, les travaux US sur des interactions Homme-système, relativement riches, se sont
+largement limités aux phases de préparation de mission (gain de temps pour les opérateurs en utilisant
+le système de façon interactive pour paramétrer une partie des tâches). Pendant les phases d’exécution
+de tâches, les IHM sont bien plus simples car :
+- Trop d’interventions humaines pendant l’action peut dégrader les performances ;
+- L’opérateur humain est bien souvent sous contrainte (par exemple dans un cockpit) : il n’est
+pas certain qu’ils atteignent la maturité technologique pour enrichir la relation de supervision en
+mission d’ici 2030, ni même que cela fasse réellement partie de leurs objectifs si le niveau de
+supervision déjà atteint est suffisant.
+88

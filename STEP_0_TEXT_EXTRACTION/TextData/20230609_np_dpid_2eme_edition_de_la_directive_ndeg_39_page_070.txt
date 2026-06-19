@@ -1,0 +1,37 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+ont un niveau de sécurité satisfaisant. Leur innocuité virale doit être garantie.
+L'intervenant doit alors fournir un certificat d'innocuité. Celui-ci présente le résultat
+d'une analyse antivirale et sa date, et précise l'éditeur du produit, la version du
+moteur, la date et la version de la base de signature.
+Contrôler le processus d’intervention avant d’homologuer ou de ré-homologuer le
+MAINT5 ORG O
+système industriel.
+Assurer la protection du système industriel et des données sensibles en respectant
+les exigences minimales suivantes :
+- cloisonnement* des informations ;
+MAINT6 ORG O
+- habilitation des entreprises responsables de l’exécution des prestations ;
+- habilitation et qualification des intervenants ;
+- surveillance de l’intervention et contrôle des travaux réalisés.
+Maîtriser la télémaintenance
+Insérer dans le périmètre d’homologation les fonctions de télégestion*, de
+MAINT7 ORG O
+télémaintenance* ou de télédiagnostic*.
+Insérer les dispositifs de télégestion*, de télémaintenance* ou de télédiagnostic*
+MAINT8 TECH O
+dans une ou des zones de sécurité spécifiques.
+Vérifier les exigences d’habilitation (au sens métier et de la protection du secret de
+la défense nationale) des intervenants et des entreprises responsables de
+MAINT9 ORG O
+l’exécution des prestations (télégestion*, télémaintenance* ou télédiagnostic*) et
+des personnels effectuant les prestations.
+MAINT1 Limiter les prestations (télégestion*, télémaintenance* ou télédiagnostic*) au strict
+TECH O
+0 nécessaire et pendant une durée limitée.
+MAINT1 Activer la liaison de télémaintenance* autant que de besoin sous la responsabilité
+TECH O
+1 d’un administrateur du système industriel. La liaison ne doit pas être permanente.
+MAINT1 En cas d’opérations de télégestion*, télémaintenance* ou télédiagnostic*,
+TECH O
+2 appliquer les règles suivantes :
+DIR-39 SNSI – 2eme édition Page 70 | 79

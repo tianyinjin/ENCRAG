@@ -1,0 +1,65 @@
+29
+Les meilleurs ordinateurs quantiques actuels sont complément des fi nancements plus traditionnels
+composés de quelques centaines de qubits . Pour pouvoir venant du capital risque .
+résoudre les problèmes de simulation chimique, de
+machine learning ou de combinatoire des entreprises, Enfi n, il s’agit surtout d’un marché professionnel . On ne
+il faudra disposer d’environ une centaine de milliers à peut pour l’instant pas s’attendre au développement
+des dizaines de millions de qubits dits physiques, selon d’un volet grand public des usages du calcul quantique .
+leur type . C’est un défi considérable . S’y ajoute celui Il ne s’agit d’ailleurs pas de remplacer des infrastructures
+du prix de ces machines et de leur consommation de calcul existantes mais plutôt de les compléter . Le
+énergétique . Ce sont des inconnues à ce stade même calcul quantique va surtout devenir une nouvelle brique
+s’il est possible de s’en faire une idée . L’écart entre les clé du calcul scientifi que au même titre que les GPU .
+machines les plus sobres et les moins sobres pourrait
+être de deux ordres de grandeur !
+Les processus d’innovation en œuvre dans ce marché
+sont assez particuliers à plusieurs égards .
+Tout d’abord, l’incertitude scientifi que prédomine aussi
+bien au niveau du matériel que des algorithmes . Les
+acteurs repoussent les limites expérimentales de ce Olivier EZRATTY
+l’on peut contrôler à l’échelle nanoscopique (photons, Quantum Energy Initiative
+électrons, atomes) mais on n’a pas encore idée de tous
+Co-Founder
+les obstacles qui seront rencontrés sur ce chemin et de
+la manière de les contourner .
+EPITA
+L’innovation est arrivée d’abord sur les algorithmes Enseignant
+bien avant que le matériel permettant de les exécuter
+soit disponible . C’est un phénomène relativement
+rare dans les précédentes révolutions numériques
+(micro-informatique, Internet, smartphones, intelligence
+artifi cielle) . Malgré leur nombre, on ne dispose pas
+encore d’assez d’algorithmes à même d’apporter une
+accélération pratique du temps de calcul . Le paradigme
+de pilotage des ordinateurs quantiques est très différent
+de celui des ordinateurs classiques . Il s’appuie ainsi sur
+le principe d’interférences, un concept connu dans
+l’électronique analogique . La créativité scientifi que est
+encore en devenir pour créer des algorithmes utiles .
+Malgré cette maturité en devenir, les positions de
+marché se prennent déjà, notamment dans les briques
+logicielles stratégiques de la chaine de valeur du calcul
+quantique . Ces briques se situent autour des frameworks
+de développement (Qiskit d’IBM, Braket d’Amazon,
+etc .), des compilateurs (comme celui de Classiq), de
+la correction d’erreurs (comme chez Riverlane) et des
+infrastructures de cloud (comme chez AWS et Microsoft) .
+Les gouvernements investissent dans le domaine comme
+on ne l’a jamais vraiment vu par le passé, l’espoir étant
+de capter une partie de la valeur de ce nouveau marché
+prometteur . C’est aussi lié à l’aspect dual du calcul
+quantique et sa capacité potentielle dans le domaine
+de la cryptanalyse, même si son caractère offensif est
+limité par le déploiement à venir de la cryptographie
+post-quantique « classique » qui permettra de résister
+aux ordinateurs quantiques du futur . Des programmes
+d’équipement civils et militaires ont ainsi été lancés par
+la puissance publique des deux côtés de l’Atlantique . En
+Europe, c’est l’équivalent d’un véritable Small Business
+Act qui est en place, comme avec les commandes liées
+au programme EuroHPC (civil, Européen, couvrant 7 Olivier Ezratty est l’auteur de l’ouvrage de référence « Understanding
+pays dont la France) et ProQCima (militaire, géré par Quantum Technologies » dont la 8ième édition a été publiée le 29 septembre
+la DGA en France) . Cela contribue au fi nancement non 2025. Il est diffusé gratuitement en format électronique et couvre tous les
+aspects des technologies quantiques dont plus d’une centaine de pages
+dilutif des startups du domaine qui en ont bien besoin
+sur les communications et la cryptographie quantique et post-quantique
+pour supporter leurs efforts de R&D au long cours, en ainsi qu’une description des écosystèmes quantiques de plus de 40 pays.

@@ -1,0 +1,38 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Insérer dans le cahier des charges des clauses demandant des tests de sécurité
+numérique, notamment lors des recettes usine et plateforme.
+ISSIP6 ORG C R O
+Des procédures de test de conformité en matière de cybersécurité doivent être
+définies et mises en place.
+En cas de prestation externalisée, insérer dans le cahier des charges un plan
+ISSIP7 ORG d’assurance sécurité (PAS). Celui-ci décrit toutes les mesures répondant aux R O O
+exigences de sécurité numérique demandées.
+Insérer dans le cahier des charges une clause exigeant la fourniture
+ISSIP8 ORG C C R
+d’équipements matériels et logiciels labellisés sur le plan de la sécurité numérique.
+Les mémoires rémanentes des
+composants systèmes (de type disques
+durs, mémoires flash, etc.) qui
+Inclure dans une clause que les supports d'un équipement informatique
+contiennent ou ont contenu des données
+comportant une mémoire physique rémanente ayant vocation à stocker ou traiter
+classifiées de défense doivent pouvoir
+ISSIP9 ORG des informations sensibles (DR, DCP) ou classifiées soient identifiables et ne O
+être extraites des équipements. Les
+retournent pas chez les tiers en cas de maintenance ou réparation. Cette mesure
+modalités pratiques d’extraction dans le
+ne s'applique pas aux dispositifs agréés.
+cas de l’envoi en maintenance ou de
+recyclage doivent être décrites dans les
+procédures d'exploitation et de soutien.
+Définir, dès la phase de spécification, les modalités de démantèlement du système
+ISSIP10 ORG industriel, notamment la gestion des données et des procédés classifiés. Elles sont O
+précisées au fur et à mesure du cycle de vie du système.
+Intégrer au processus de choix les caractéristiques de sécurité numérique des
+ISSIP11 ORG O
+équipements répondant aux clauses de sécurité.
+Intégrer dans chaque temps contractuel, notamment lors du choix du candidat, le
+ISSIP12 ORG RSSI ou un expert en sécurité numérique selon la complexité du système et les O
+enjeux de sécurité.
+ISSIP13 ORG Définir des rôles pour les personnels accédant aux systèmes industriels. O
+DIR-39 SNSI – 2eme édition Page 52 | 79

@@ -1,0 +1,63 @@
+55
+est crucial d’accepter cette réalité pour développer
+Finalement l’incertitude aléatorique est aussi celle à des solutions adaptées.
+laquelle les opérateurs humains doivent faire face.
+Dans un environnement aussi sensible que le
+Pour répondre à ce besoin, plusieurs méthodes domaine militaire, un contrôle aveugle laissé à une
+ont été développées afin de quantifier l’incertitude IA serait irresponsable. En combinant des méthodes
+associée aux prédictions des modèles d’IA. Parmi avancées de quantification d’incertitude avec
+ces méthodes, les prédictions conformes (Conformal l’expertise humaine, il est possible de concevoir
+Prediction) constituent une approche prometteuse des systèmes hybrides fiables. L’objectif n’est pas
+qui fournit des intervalles de confiance valides de supprimer l’erreur, mais de la minimiser et de la
+sous des hypothèses minimales. Ces techniques rendre acceptable. En trouvant le bon équilibre entre
+permettent d’encadrer les prédictions du modèle en technologie et intervention humaine, nous pouvons
+fournissant des garanties formelles sur leur fiabilité : construire des IA de confiance capables d’assister
+c’est-à-dire des garanties que la vraie valeur se situe efficacement les opérateurs dans des missions
+dans l’intervalle dans 90% des cas. critiques.
+Quand l’humain doit-il reprendre le contrôle ?
+La décision de laisser une IA opérer seule ou d’impliquer
+un humain dépend du niveau d’incertitude prédit par
+le système et du contexte. Dans les scénarios critiques,
+où une erreur pourrait avoir des conséquences graves,
+il est essentiel que l’humain reste dans la boucle.
+Pour cela, l’expertise humaine joue un rôle central. Une
+IA ne doit pas remplacer les experts, mais plutôt les
+compléter. Par exemple, un analyste pourrait utiliser
+l’IA pour pré-trier des données et se concentrer sur les
+cas les plus incertains. Cette collaboration nécessite
+également des méthodes rigoureuses d’évaluation.
+Les seuils d’alerte – quand l’IA demande l’intervention
+d’un humain – doivent être définis avec précision
+et ajustés en fonction des résultats sur le terrain.
+Intervient alors un compromis entre la précision
+du système d’IA (ses réponses sont-elles toujours
+correctes ?) et le rappel (Quel est le pourcentage de
+données traitées par l’IA sans validation humaine ?).
+Ces deux objectifs sont généralement complexes à
+concilier simultanément, et il est essentiel de trouver
+un équilibre adapté, tenant compte à la fois de la
+capacité humaine à gérer les données et de l’efficacité
+de l’IA dans l’exécution de cette tâche.
+Dans un scénario de maintenance prédictive trois
+différents niveaux de prédictions peuvent être mis en
+œuvre :
+• Les pièces pour lesquelles l’IA est certaine à 99 %
+qu’un remplacement rapide est nécessaire :
+les appareils sont immédiatement arrêtés
+pour permettre le changement des pièces
+défectueuses.
+• Les pièces pour lesquelles l’IA est certaine à
+99 % qu’aucune maintenance n’est requise :
+les appareils concernés peuvent continuer à
+fonctionner normalement sans intervention.
+• Toutes les autres pièces sur lesquelles l’IA ne peut
+pas fournir une prédiction suffisamment confiante
+: un contrôle humain des données effectué, et les
+opérateurs décident ou non d’immobiliser les
+appareils.
+Conclusion
+L’intelligence artificielle apporte une puissance et une
+rapidité incomparables dans de nombreux domaines,
+y compris le secteur militaire. Cependant, il est illusoire
+de croire qu’une IA atteindra un jour la perfection. Les
+erreurs font partie inhérente des systèmes d’IA, et il

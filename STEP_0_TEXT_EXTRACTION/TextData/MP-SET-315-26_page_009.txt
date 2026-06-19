@@ -1,0 +1,44 @@
+A Novel Swarm Defense End-to-End System
+for Autonomous Drone Detection, Tracking, and Neutralization
+First, the AI agents are all communicating with each other, exchanging information pertaining to their
+perception of the situation they are facing. The perception that an AI agent has of the current situation is
+elaborated through the processing of the data captured by its platform sensors (the embedded gimbal-
+mounted EO for a drone’s AI agent or the ground radar and the ground PTZ for the GCS’s AI agent) as well
+as through the fusion of the resulting information and the information shared by the other AI agents. Through
+this process, we ensure that all AI agents have the same perception of the global situation with only a delta
+due to processing latency.
+Second, our AI agents embed Multi-Agent Reinforcement Learning (MARL) algorithms to learn how to
+execute some specific decision-making functions (e.g., the navigation or the targeting) as a team. The policy
+that each AI agent learns embeds intrinsically the collaboration model enabling the swarming behavior at the
+system level since they were trained to execute the related function together.
+Our system’s interlinking communications between the swarm drones, the sensors and the GCS, allows for a
+seamless and coordinated response to any UAV threats, thereby upholding and protecting the restricted areas.
+5.0 RESULTS IN SIMULATED AND REAL-FLIGHT OPERATIONS.
+5.1 Simulations Results
+In the simulated environment provided by SE-Star, we executed the four different use cases. Our C-UAV
+system displayed distinct stages from the monitoring up to the capture of five intruders.
+1) Monitoring and Detection: Initially, after arming and take-off, the system was in an idle state,
+waiting for intrusions. Not until the appearance of unknown drones detected by the radar did it
+trigger actions.
+2) Intrusions: Upon entering the buffer zone, unidentified drones were recognized as threats, causing
+our system to respond. The defense drones initiated interception paths to the intruders, and if
+multiple intruders were within the buffer zone, the defense drones would split for separate targets.
+3) System Engagement: If met with conditions confirming shortest distance between defending drone
+and target, alongside the availability of neutralization payloads (i.e., a net), the system transitions to
+a “ready to neutralize mode” waiting for further approval. This process prevents any redundant
+capture attempts. The approval is meant to be triggered by a human operator for future
+developments. In our trials, the approval was granted after an arbitrary delay representing the
+operator response time as the approval interface mechanism has not been implemented.
+4) Capture and release: Once approved, the drone deploys its net to proceed with the capture,
+following which it transports the captured drone to a retrieval zone.
+On all use cases, all the drones of the intrusion swarm were successfully intercepted, tracked and captured
+before they could reach the protected area.
+5.2 Real Flight Operations Within Hybrid Environments
+Real-world experimentations were conducted in a hybrid environment where all the BlueSwarm system’s
+and red asset’s hardware components were live except for the neutralization payloads, which were simulated.
+In order to be able to conduct complete missions, the system was mirroring the behavior of all real drones
+into SE-Star up until a neutralization phase was engaged. Once a neutralization phase was engaged, the
+behavior between the real drones engaged in that phase and their simulated counterparts diverged in order to
+allow for the neutralization to happen in the simulated world while maintaining safe conditions in the real
+world, to eliminate any collision risk during actual captures.
+STO-MP-SET-315-26 9

@@ -1,0 +1,48 @@
+rend compte que l'opérateur n'est plus réalisable car le rôle de l'éclaireur y est critique. L'opérateur est
+donc abandonné. Ensuite, constatant l'absence d'éclaireur, un des membres de l'équipe ayant les
+capacités nécessaires va assumer ce rôle. C'est alors que, les conditions étant à nouveau réunies,
+[Wait-while-battle position-scouted] sera à nouveau sélectionné. En revanche, si aucun
+membre de l'équipe ne peut assumer le rôle d'éclaireur, l'attaque ne pourra pas être menée, ce qui
+provoquera le retour de l'équipe à la base. L'équipe est donc capable de mener à bien la mission, malgré
+la destruction de l'éclaireur, sans que l'on n'ait eu à spécifier une procédure à appliquer dans ce cas
+précis.
+Afin de donner un ordre de grandeur, les agents du domaine « attaque », point de départ de notre
+réflexion, fonctionnent grâce à 1466 règles, dont 251 représentent le système STEAM proprement dit,
+les autres codant le plan de mission et diverses connaissances du domaine. Autre exemple, pour le
+domaine « escorte » (des hélicoptères de combat escortant des hélicoptères de transport de troupe),
+on trouve 1303 règles, dont les 251 de STEAM qui restent inchangées étant donné la relative proximité
+des deux domaines.
+- DISCUSSION
+TacAir-Soar/STEAM n'est bien sûr pas la seule architecture délibérative possible pour coordonner les
+plans de plusieurs agents dont les actions sont fortement interdépendantes. En revanche, toute autre
+approche générale devra passer par la modélisation de connaissances de certains agents par les autres
+(l'agent A croit que l'agent B pense être à l'étape 2, etc.) La littérature nous amène donc à considérer
+que les modèles issus de la philosophie de l'esprit sont les seuls à être mûrs actuellement, comme , par
+exemple, le cadre des intentions communes ou encore le modèle BDI (Belief-Desire-Intention). Elles
+ont également l’avantage d’être explicables : il est possible de retracer les décisions qui ont été prises
+par le ou les systèmes.
+Les travaux existant sur l'utilisation de techniques de Deep Learning pour le travail d’équipe ne portent
+principalement que sur des domaines très restreints, comme certains jeux vidéo (par exemple Quake III
+Arena Capture the Flag205). Même dans ce type d’environnement simple et très structuré, ces approches
+nécessitent énormément de données, et surtout, ne sont pas explicables. Ces approches produisent
+des boîtes noires dont le comportement est presque impossible à anticiper face à une situation inédite.
+SOBRIETE DANS LA COMMUNICATION
+Les techniques de coordinations d’essaim sont, par nature, très gourmandes en information. Pour
+assurer un comportement rationnel de l’essaim, ses membres doivent partager et mettre à jour
+constamment des informations. Cela implique l’échange d’un nombre important de messages, ce qui
+présente deux inconvénients :
+- Cela facilite la détection de l’essaim par l’adversaire ;
+- Cela rend très efficace le brouillage, même imparfait, des communications, car cela va dégrader
+les performances du groupe.
+On trouve dans la littérature deux approches pour réduire la dépendance des essaims envers les
+communications en spectre électromagnétique : la réduction du nombre de messages par des
+techniques probabilistes, et l’utilisation de l’observation de l’environnement pour communiquer.
+- REDUCTION DU TRAFIC
+Quelle que soit l’architecture de coordination qu’ils utilisent, les membres d’un essaim sont conçus pour
+fonctionner en groupe et peuvent donc disposer d’un modèle du fonctionnement de l’équipe. Un tel
+205 Max Jaderberg, Wojciech M. Czarnecki, Iain Dunning, Luke Marris, Guy Lever, Antonio Garcia
+Castañeda, Charles Beattie, Neil C. Rabinowitz, Ari S. Morcos, Avraham Ruderman, Nicolas Sonnerat,
+Tim Green, Louise Deason, Joel Z. Leibo, David Silver, Demis Hassabis, Koray Kavukcuoglu, & Thore
+Graepel (2019). Human-level performance in 3D multiplayer games with population-based
+reinforcement learning. Science, 364(6443), 859-865.
+83

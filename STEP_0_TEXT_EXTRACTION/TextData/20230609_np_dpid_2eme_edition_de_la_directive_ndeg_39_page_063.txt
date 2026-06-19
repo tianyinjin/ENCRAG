@@ -1,0 +1,31 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Appliquer les règles suivantes aux stations d’ingénierie* :
+- ne pas les connecter à Internet ;
+EXP16 TECH - les installer dans des locaux maîtrisés (sous contrôle d’accès) ; O
+- les éteindre lorsqu’elles ne sont pas utilisées.
+Activer la veille avec verrouillage de session si la station et l’activité le permettent
+Appliquer les règles suivantes aux consoles de programmation* :
+- ne pas les connecter à Internet ;
+- ne pas les connecter à d’autres systèmes que le système industriel ;
+EXP17 TECH Appliquer les règles pour les terminaux mobiles ; O
+- les stocker dans un local sécurisé ;
+- les rendre facilement identifiables (marquage visuel par exemple) ;
+Activer la veille avec verrouillage de session si la station et l’activité le permettent
+Appliquer les règles suivantes aux postes d’administration :
+- ne pas les connecter à Internet ;
+- ne pas les connecter à un réseau de gestion ;
+EXP18 TECH O
+- les installer dans des locaux maîtrisés (sous contrôle d’accès) ;
+- les éteindre lorsqu’ils ne sont pas utilisés ;
+Activer la veille avec verrouillage de session si la station et l’activité le permettent
+Maîtriser la gestion des accès et des comptes
+Définir et gérer les droits d’accès aux ressources selon les principes du besoin
+EXP19 ORG O
+d’en connaître et du moindre privilège.
+Décrire dans la documentation du système les processus d'affectation, de révision
+EXP20 ORG et de suppression des droits d'accès applicables aux utilisateurs et O
+administrateurs.
+Définir et maintenir la liste des utilisateurs autorisés à accéder au système
+EXP21 ORG industriel, notamment aux postes sensibles (stations d'ingénierie*, consoles de O
+programmation*, postes d'administration).
+DIR-39 SNSI – 2eme édition Page 63 | 79

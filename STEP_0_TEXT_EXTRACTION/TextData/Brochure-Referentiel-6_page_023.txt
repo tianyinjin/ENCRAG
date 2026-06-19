@@ -1,0 +1,75 @@
+PôlE d’ExcEllEncE cybER
+Placement et allocation de qubits Analyses de compilation
+comme son équivalent classique l’allocation de registres, l’allocation de qubits Comme dans le cas classique, les optimisations de compilation profitent
+consiste à placer les variables du programme sur les ressources matérielles. voire nécessitent des informations obtenues par des analyses statiques.
+cette allocation doit respecter les contraintes physiques et pratiques impo-
+Certaines analyses sont analogues au cas classique: par exemple identifier
+sées par la machine. dans le cas des qubits supraconducteurs, la principale
+les dépendances entre qubits pour leur allocation.
+contrainte est la connectivité entre qubits.
+D’autres analyses sont spécifiques aux programmes quantiques: par
+En effet, le couplage entre deux qubits qui permet de les intriquer est possible
+exemple, déterminer quels qubits sont intriqués et quels qubits sont sé-
+seulement entre certaines paires de qubits, suivant un graphe de couplage
+parables. cela ouvre un champ de recherche consistant à proposer des
+spécifique à la machine.
+analyses pertinentes et les réaliser de manière précise et efficace.
+le compilateur doit donc opérer des transformations sur le circuit pour obéir
+à ces contraintes de connectivité.
+Quelles représentations internes ?
+En l’absence d’un équivalent quantique de la mémoire, l’allocation de qubits
+s’effectue sur la globalité du programme. Si elle est actuellement praticable sur
+Enfin, une question clé dans la conception de compilateurs est celle du
+les premiers programmes quantiques de taille réduite, cette approche risque
+choix des abstractions et représentations internes employées pour repré-
+de rencontrer des limites en termes de scalabilité. Il sera nécessaire d’identifier
+senter les programmes. En compilation classique, la forme Single Static
+des manières de partitionner les programmes pour limiter la complexité.
+Assignment (SSA) s’est progressivement répandue depuis les années 1990
+au point d’être employée aujourd’hui dans la plupart des compilateurs.
+On observe par ailleurs que le taux d’erreur peut différer d’un ordre de gran-
+Quelle serait « la forme SSA du calcul quantique » ?
+deur entre différents qubits du même ordinateur quantique.
+Il s’agit d’identifier une ou plusieurs représentations internes ou structures
+Une piste pour améliorer l’allocation de qubits consiste à prendre en compte
+de données permettant de faciliter les analyses et optimisations de com-
+l’hétérogénéité des caractéristiques des qubits.
+pilation. ces représentations doivent à la fois pouvoir être mises en œuvre
+de façon efficace et pouvoir être formalisées. Les représentations tradi-
+tionnelles se basent sur l’abstraction des circuits quantiques, dont la sé-
+Sélection et ordonnancement de portes quantiques
+mantique s’exprime en termes d’opérations d’algèbre linéaire.
+la sémantique des opérations quantiques est traditionnellement exprimée
+En revanche, la simulation de circuits quantiques sur des machines clas-
+par des calculs d’algèbre linéaire. de fait, la synthèse de transformations ar-
+siques s’appuie typiquement sur des réseaux de tenseurs. Enfin, les
+bitraires peut se concevoir comme la décomposition d’une matrice en une
+constructions axiomatiques tel que le Zx-calculus qui a été récemment
+combinaison de produits de matrices et produits tensoriels de matrices de
+prouvée complet pourraient constituer une représentation intermédiaire
+rotations simples.
+plus souple que les circuits quantiques.
+cette approche bas-niveau peut être vue comme l’analogue quantique de l’op-
+timisation de formules booléennes. cependant, son passage à l’échelle reste
+incertain. Une approche plus proche de la compilation classique consiste à Interface avec le monde classique
+exposer des ensembles d’opérations prédéfinies en plusieurs couches à diffé-
+l’ordinateur quantique n’a pas vocation à remplacer le calcul classique, qui
+rents niveaux d’abstraction, sous la forme de bibliothèques.
+restera à moyen terme privilégié pour la plupart des applications. Plutôt,
+Cela ouvre des possibilités de simplifications sous réserve de vérifier des pro- il le complète pour les calculs qui peuvent tirer parti de l’avantage quan-
+priétés globales sur le programme, de la même manière que les optimisations tique, à la manière d’un co-processeur.
+de compilation classiques s’appuient sur les résultats d’analyses statiques
+l’intégration de ce nouveau type de co-processeur soulève des enjeux de
+poussées.
+recherche au niveau architecture, compilation et langages. En particulier,
+À l’inverse, ce type d’abstraction a un coût, en restreignant arbitrairement les il s’agit de concevoir des environnements de développement et des sup-
+opérations permises par le matériel. le choix du catalogue d’opérations de ports d’exécutions unifiés permettant de gérer les entrées-sorties du pro-
+base, équivalent du jeu d’instructions d’un ordinateur classique, est crucial. gramme quantique, et d’orchestrer les échanges et les synchronisations
+Celui-ci doit être suffisamment expressif pour permettre la traduction effi- entre les parties quantique et classique.
+cace des opérations communes, tout en restant simple. En effet, chaque type
+Si la plupart des premiers travaux de compilation quantique se sont focali-
+d’opération nécessite typiquement des calibrations préalables.
+sés sur l’optimisation de circuits statiques, il sera nécessaire de généraliser
+la compilation quantique en prenant en compte un flot de contrôle clas-
+sique, y compris des décisions basées sur des mesures partielles.
+44 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 45

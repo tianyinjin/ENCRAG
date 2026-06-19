@@ -1,0 +1,48 @@
+TLP:CLEAR
+1. INTRODUCTION
+Depuis une dizaine d’années, la communauté dédiée à la lutte contre la manipulation de l’information
+(LMI) se structure, et ses membres (entités gouvernementales, médias, ONG, etc.) multiplient les
+initiatives pour adopter des concepts communs permettant de mieux comprendre, analyser, et décrire
+la menace informationnelle numérique. Si certains de ces concepts sont déjà bien appréhendés et
+exploités par l’écosystème, comme ceux d’« opération informationnelle » ou de « tactiques, techniques
+& procédures » (TTP), les experts décrivent néanmoins de manière différente les ensembles d’éléments
+techniques1, comportementaux2 et contextuels3 qu’ils observent – alors même qu’ils disposent de
+capteurs et de méthodologies d’analyse similaires.
+Cette absence de grammaire opérationnelle commune est susceptible de nuire à la bonne
+compréhension de la menace informationnelle. À titre d’exemple, les activités numériques malveillantes
+attribuées à l’entreprise russe « Social Design Agency »4 (SDA) sont généralement rassemblées sous le
+nom de Doppelgänger, mais ce dernier a tour à tour été présenté comme une « opération », une
+« campagne », un « réseau », ou même un « acteur malveillant » (« Threat Actor »)5. Dans certains cas, le
+nom le plus usité par la communauté pour décrire ces ensembles est, par ailleurs, le même que celui de
+l’acteur malveillant (comme Lakhta6), ou ne recouvre qu’une petite partie de l’ensemble des éléments
+liés à un acteur malveillant (comme Pravda7), augmentant encore la confusion.
+Le besoin de nommer ces ensembles est pourtant bien compris par la communauté de LMI, qui a déjà
+popularisé des noms tels que Spamouflage8 ou Matriochka9. Certaines organisations proposent même
+désormais, à partir de concepts issus du domaine de la Cyber Threat Intelligence (CTI), des conventions
+de nommage intégrant les acteurs de la menace informationnelle numérique10. Afin de résoudre ces
+difficultés et éventuelles confusions, VIGINUM a défini et propose d’employer le concept de « mode
+opératoire informationnel » (MOI), et son équivalent en langue anglaise, « Information Manipulation
+Set » (IMS). Ce concept a pour principaux avantages :
+• d'offrir une dénomination simple, adaptée et centrée sur les éléments techniques,
+comportementaux et contextuels identifiés et suivis par la communauté ;
+• de fonctionner même si les attaquants ne sont pas connus, ni présager de leur origine, de leurs
+intentions ou de leur niveau de ressources (humaines, financières et techniques) ;
+• d’être interopérable avec des concepts éprouvés issus de la CTI, ainsi que les standards et les
+1 Adresses IP, enregistrements Whois, certificats SSL, empreintes de navigateur, etc.
+2 Partages, contenus identiques, dates de création d’un compte de réseau social, etc.
+3 Victimologie, motivations des activités malveillantes, opportunités, effets finaux recherchés, etc.
+4 Entreprise conduisant des opérations informationnelles numériques au profit de l’Administration présidentielle russe. Cf.
+https://mpf.se/psychological-defence-agency/publications/archive/2025-05-15-beyond-operation-doppelganger-a-capability-
+assessment-of-the-social-design-agency.
+5 VIGINUM s’appuie sur la définition d’acteur malveillant, ou acteur de la menace, proposée dans la documentation du modèle
+STIX : « Threat Actors are actual individuals, groups, or organizations believed to be operating with malicious intent ». Source :
+https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.html#_k017w16zutw.
+6 Lakhta étant à la fois le nom d’un ensemble d’éléments techniques, comportementaux et contextuels, et le nom de
+l’organisation clandestine à l’origine de ces activités. Cf. https://www.sgdsn.gouv.fr/publications/guerre-en-ukraine-trois-annees-
+doperations-informationnelles-russes.
+7 Pravda étant le nom d’un réseau de sites liés à Portal Kombat, qui constitue un ensemble plus large et préexistant à ce réseau.
+Cf. https://www.sgdsn.gouv.fr/files/files/20240212_NP_SGDSN_VIGINUM_PORTAL-KOMBAT-NETWORK_ENG_VF.pdf.
+8 Cf. https://graphika.com/reports/spamouflage.
+9 Cf. https://www.sgdsn.gouv.fr/files/files/20240611_NP_SGDSN_VIGINUM_Matriochka_EN_VF.pdf.
+10 Comme Microsoft : https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming.
+3

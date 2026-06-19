@@ -1,0 +1,37 @@
+28 Pôle d’excellence cyber
+Authenticité de l’information
+le rôle essentiel des opérateurs
+Eric LABOURÉ
+Head of Business Operations
+Managed Security Services
+NOKIA
+Au cours des trente dernières années, les techniques de partage de l’information
+ont drastiquement évolué. Non seulement vers le digital, mais aussi en passant de
+fournisseurs centralisés (agences de presse, journaux, télévision..) à une multitude
+d’acteurs individuels via les réseaux sociaux. Cette révolution est largement due
+à l’évolution du web et des applications mobiles, mais rien n’eût été possible sans
+les opérateurs de télécommunication grâce au déploiement et à l’amélioration
+constante des réseaux fixes et en particulier de la téléphonie mobile.
+Une chaîne d’information complexe de l’opérateur . Toutefois, avoir confiance en un flux
+Dorénavant, l’interrogation porte sur le sérieux et d’informations nécessite que l’identité du rédacteur ait
+l’honnêteté des fournisseurs de contenus, mais entre été sécurisée dès le début de la création de contenu .
+le fournisseur et le lecteur existe toute une chaîne de
+transmission de l’information . Qu’il s’agisse de texte, de Une sécurité renforcée
+son, d’image ou de vidéo, le contenu doit passer par un Beaucoup de rédacteurs se reposent désormais sur les
+grand nombre de relais et transformations intermédiaires . réseaux mobiles pour s’authentifier dans leur application
+Les opérateurs doivent s’assurer non seulement de la favorite . Actuellement, chaque équipement d’un réseau
+disponibilité des informations, mais aussi de l’intégrité mobile doit s’authentifier au sein du réseau pour instaurer
+et de la confidentialité, tout en sécurisant l’identification une confiance entre « voisins » et éviter les attaques de
+des individus sources d’information . A notre époque, loin type « man-in-the-middle » (MitM) ou d’usurpation . A
+d’être de simples « tuyaux » transférant des contenus, l’époque du GSM, en raison de faiblesses de design dans
+les opérateurs et les équipementiers télécom sont au les premières versions du standard 3GPP de téléphonie
+contraire des acteurs clefs de la confiance numérique . mobile, les réseaux 2G (GSM) et leur protocole SS7
+Dans le cas des agrégateurs d’informations (journaux étaient insuffisamment sécurisés et sujets à des attaques
+en ligne, blogs, . .), l’objectif est de s’assurer que le d’usurpation sur les éléments de réseau, pouvant
+lecteur obtient ses informations depuis la source entraîner des attaques de type MitM avec interception
+escomptée sans être modifiées jusqu’au téléphone de SMS et même la redirection des SMS vers l’appareil
+du lecteur . De ce point de vue, plusieurs mécanismes de l’attaquant . D’où un risque sur l’authentification à
+informatiques se sont très répandus, tels que les double facteur permettant à l’attaquant un accès aux
+protocoles SSL/HTTPS, et garantissent l’identité auprès applications d’information et donc de potentiellement
+de l’équipement de l’usager ainsi que l’intégrité des modifier les contenus . Les technologies 4G LTE et 5G
+données de la source jusqu’au lecteur à travers le réseau ont donc introduit une authentification très poussée .

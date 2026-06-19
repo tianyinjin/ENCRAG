@@ -1,0 +1,42 @@
+STANAG 4586–Standard Interfaces of UCS for NATO UAV Interoperability
+The NSIF standard alone does not guarantee interoperability. Other aspects of the interface between systems
+(e.g. recording media, transmission protocols, etc.) must be considered based on other standards [2].
+3.2 STANAG 4575: NATO Advanced Data Storage Interface (NADSI)
+NATO Advanced data storage interface defines the standard for an interface to allow cross-servicing of ISR
+platforms by NATO nations´ground stations. The NADSI defines a multiple layer protocol for the lower
+levels of the interface channel as defined in the International Standards Organizations – Open Systems
+Interconnection model (ISO/IEC 7498-1) [10].
+The interface is a high data rate port to allow direct download of the imagery and auxiliary data, either at the
+air platform or at the ground station. Once the memory has been transferred to a reconnaissance exploitation
+ground station, it can be exploited using normal tools [2].
+This STANAG also defines the physical, electrical data/control, and power interface as well as the connector
+specifications [10].
+The NADSI standard alone does not guarantee interoperability. Compatibility must also be assured at other
+protocol layers. Certifiable implementation of the NADSI for support of interoperability is subject to
+constraints not specified in this STANAG [10].
+3.3 STANAG 4607: NATO Ground Moving Target Indicator (GMTI) format
+The NATO Ground Moving Target Indicator Format (GMTIF) defines a standard for the data content and
+format for the products of ground moving target indicator radar systems and a recommended mechanism for
+relaying tasking requests to the radar sensor system [11].
+The GMTIF is a binary, message-oriented format for the prompt dissemination of Moving Target Indicator
+(MTI) data. It may be sent as a stand-alone format or it may be embedded in a frame-oriented format, such as
+the NATO Secondary Imagery Format (NSIF, STANAG 4545) or the National Imagery Transmission
+Format (NITF, Military Standard-2500) for the dissemination of secondary imagery, or in a message
+oriented format such as the NATO Primary Imagery Format (STANAG 7023) for the dissemination of
+primary imagery [11].
+This STANAG includes a notional employment concept for using the GMTIF, a suggested technique for
+embedding GMTIF data into NATO imagery formats, suggested groupings of GMTIF data fields to support
+three data exploitation classes, and tutorial information pertaining to the GMTIF [11].
+The format provides a flexible format for target information, such that simple GMTI systems can use a small
+subset of the format with limited bandwidth channels, while robust systems can encode all aspects of the
+output data for use with wideband channels, including high range resolution (HRR) and pulse Doppler
+modes. It is also configured to be used as a stand-alone format, or can be encapsulated in either STANAG
+4545 or 7023 data streams. Target reports include such information as target location and radial velocity.
+Further value-added processing of the target movement can produce track histories of the individual targets
+[2].
+3.4 STANAG 4609: NATO Digital Motion Imagery Standard
+Motion Imagery (MI) is a valuable asset for commanders that enable them to meet a variety of theatre,
+operational and tactical objectives for intelligence, reconnaissance and surveillance. STANAG 4609 is
+intended to provide common methods for exchange of MI across systems within and among NATO nations
+[12].
+3 - 10 STO-EN-SCI-271

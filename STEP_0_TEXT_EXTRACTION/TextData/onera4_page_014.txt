@@ -1,0 +1,41 @@
+Phase de lancement sur catapulte d'un drone SDTI
+C'est une fois arrivés sur la zone de mission (après une navigation automatique) que
+les drones se distinguent par leur degré d'autonomie. Certains nécessiteront des
+interventions humaines, notamment face à des situations imprévues (dues à la
+mission ou au vol), d'autres seront dotés d'une intelligence embarquée leur donnant
+une entière autonomie de décision et donc, d'action
+ou de réaction.
+Pour la récupération du drone, deux solutions sont
+possibles : faire revenir celui-ci à l'endroit d'où il est
+parti et le faire atterrir (en mode automatique ou
+télécommandé), ou le faire «se poser» à un endroit
+spécifié à l'avance. En général, cette dernière
+pratique s'applique à ceux qui sont partis d'une
+catapulte et qui ne sont pas dotés de train
+d'atterrissage. La séquence consiste, après réduction
+de l'altitude et de la vitesse, à ouvrir un ou plusieurs
+parachutes, puis à déployer des ballons gonflables
+(«airbags») sous la structure. En outre, on peut
+également récupérer le drone dans un filet, ce qui
+élimine tout système embarqué pour l'atterrissage.
+Le «système drones»
+Récupération par parachute
+d'un Sperwer
+La mise en œuvre d'un ou de plusieurs drones fait
+appel à différents éléments, constituant un «système
+drones». Ce système a deux composantes :
+• Un segment air, lui même composé du drone, de sa charge utile et de son
+système de transmission.
+• Un segment sol, constitué d'un ensemble de matériels, et de un ou plusieurs
+hommes, ayant un degré d'intervention plus ou moins élevé.
+On distingue encore dans la composante sol deux catégories de matériels :
+o Ceux ayant trait au lancement et à la récupération des drones
+(catapulte, filets, etc.), et auxquels s'ajoutent les moyens techniques
+nécessaires à la maintenance et au re-conditionnement des drones,
+exactement de la même façon que pour l'exploitation des avions.
+o Ceux ayant trait à la conduite de la mission, et devant permettre
+d'assurer, au sein d'une «station sol» les fonctions suivantes :
+(cid:1) La gestion du vol et de la navigation (en temps réel si le drone
+est piloté du sol, ou en simple surveillance s'il est autonome).
+(cid:1) La réception des données envoyées depuis le drone et,
+éventuellement, le décryptage.

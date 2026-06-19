@@ -1,0 +1,35 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Maîtriser l’accès au réseau
+Identifier, localiser et recenser les points d’accès réseau ainsi que leur statut
+RSO12 ORG O
+(obstrué, désactivé, etc.)
+Désactiver les points d’accès réseau non utilisés (commutateurs, automates*,
+RSO13 TECH O
+baies de brassage, prise de maintenance sur les bus de terrain, etc.).
+En cas de liens sans protection physique, déployer des passerelles VPN aux
+extrémités des liaisons pour protéger l’intégralité du trafic. L’équipement devrait
+RSO14 TECH R O O
+être positionné derrière un pare-feu ne laissant passer que les flux strictement
+indispensables. En particulier, le trafic externe au VPN devrait être bloqué.
+Protéger l’accessibilité des points d’accès réseau. Ils ne doivent être accessibles
+RSO15 ORG R O O
+que dans des locaux, armoires ou coffrets à accès maîtrisés.
+Remonter une alerte en cas de tentative de connexion et de déconnexion sur les
+RSO16 TECH R R O
+ports réseau, et la traiter.
+Maîtriser les interconnexions
+Assurer un cloisonnement* entre le système industriel et d’autres systèmes
+RSO17 TECH O
+(industriels ou d’information).
+Limiter strictement les flux d’informations entre le système industriel et d’autres
+systèmes, uniquement lorsqu’ils sont fonctionnellement requis, et durant la plage
+horaire autorisée, et au bénéfice du système industriel, sous réserve :
+- d’en maîtriser la nature, le sens et le chemin suivi (les flux unidirectionnels
+devront être privilégiés) ;
+RSO18 TECH R O O
+- d’authentifier les interfaces participant aux échanges ;
+- d’en préserver l’intégrité des échanges, voire leur confidentialité ;
+- de détecter les intrusions éventuelles ;
+- d’assurer la traçabilité des échanges.
+Dans tous les autres cas, ces flux d’informations sont interdits.
+DIR-39 SNSI – 2eme édition Page 58 | 79

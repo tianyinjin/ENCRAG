@@ -1,0 +1,49 @@
+se confronte au choix du vecteur qui doit résister aux conditions de mer, en particulier au vent, tout en
+offrant une mise en œuvre facile, une récupération simple et une régénération de potentiel fluide. Dans
+le cas de NEMESIS, les drones doivent pouvoir être mis en œuvre aussi bien depuis un navire qu’un
+hélicoptère, en cohérence avec l’emploi envisagé. Si, en recourant à l’autonomie collaborative, la
+supervision d’un tel essaim ne devrait pas requérir une équipe étoffée, son cycle de mise en œuvre, par
+relèves successives, impose l’équivalent d’une petite chaine fonctionnelle dédiée. Au-delà du bi-rotor
+NOMAD, lancé d’un CLT, l’éventail croisant d’architectures de drones embarqués pourrait offrir
+plusieurs options pour concrétiser cette capacité, par exemple autour des ALEs ou des « tail sitters ».
+Au-delà des bénéfices évoqués en « scouting » et anti-scouting » le recours à l’essaim est le plus
+souvent envisagé pour offrir de nouvelles options d’engagement.
+- DE NOUVELLES OPTIONS D’ENGAGEMENT
+En dissociant davantage l’homme de la mise en œuvre de l’arme, l’essaim accroît la puissance de feu
+compatible avec la charge mentale d’un unique superviseur. En modifiant le rapport à l’espace et au
+temps, il offre de nouveaux modes d’action, parfois nivelants, notamment dans une perspective de déni
+d’accès. L’essaim offensif est destiné à surprendre et saturer, à accroître le tempo et la létalité. Il peut
+exploiter des vulnérabilités peu ciblées, à savoir, pour des vecteurs compacts :
+- L’exposition en extérieur et sans protection de ressources critiques :
+o Pour les navires, de personnels aux compétences rares et précieuses118,
+conséquence d’équipages optimisés :
+▪ A la mer, postes aviation, ravitaillements à la mer, armements des petits
+calibres ou mises à l’eau d’embarcation fixent du personnel sur les extérieurs ;
+▪ A quai, mouvements et rassemblements sont fréquents et concernent de
+larges effectifs : cérémonies militaires, corvées, engager, dégager, séances
+de sport ;
+o Pour les navires, encore, d’équipements et systèmes antennaires fragiles et
+denses119, dont certains composants sensibles sont, au mieux, séparés de
+l’atmosphère par une épaisseur de fibre de verre de l’ordre du cm, et dont la perte est
+incapacitante120 ; même de nuit, certaines antennes restent bien visibles pour des
+capteurs infrarouges, en particulier les antennes refroidies des radars AESA121 qui
+créent un fort contraste thermique ;
+o Pour navires et aéronefs, de l’électronique embarquée, livrée sans protection aux
+effets des armes à micro-ondes de forte puissance122 (armes « HPM »), et dont la
+perte est durablement incapacitante pour le porteur ; c’est aussi le cas pour les
+aéronefs, même au hangar, surtout porte ouverte ou ascenseur en position basse ;
+118 Personnel de pont d’envol, par exemple.
+119 Antennes radar, ESM, ECM, de communications, optroniques, conduites de tir, tourelles d’artillerie,
+affûts lance-missiles et lance-leurres etc…. Certaines antennes radar planes, de par leur technologie,
+peuvent être rendues inopérantes dès le premier coup au but.
+120 Ces équipements ont rarement leurs rechanges de grande prévoyance. Celles-ci, ou les
+compétences nécessaires à leur installation, peuvent être soumises à embargo lors d’un conflit. Et
+quand bien même ces problèmes ne se poseraient pas, le remplacement est une intervention
+coûteuse et longue qui immobilise durablement le navire.
+121 Active Electronically Scanned Array.
+122 Bien sûr, l’électronique exposée d’un navire de guerre est protégée, autant que faire se peut, de
+l’orage. En pratique, l’éclair est comme un fil qui frappe un endroit précis, occasionnant des dégâts
+ponctuels, limités, mais systématiques. La foudre globulaire, rare, pourrait entraîner des dégâts
+supérieurs, mais toujours circonscrits à son impact. L’arme HPM produit les mêmes effets mais dans
+une vaste « bulle », où toute électronique est impactée : les dégâts ne sont ni ponctuels, ni limités.
+44

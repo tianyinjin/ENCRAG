@@ -1,0 +1,45 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+- les flux entrants et sortants ainsi que les flux entre sous-systèmes du système
+d’information classifié sont filtrés au niveau de leurs interconnexions de manière à ne
+permettre que la circulation des seuls flux strictement nécessaires au fonctionnement et
+à la sécurité du système d’information. Les flux qui ne sont pas conformes aux règles
+de filtrage sont bloqués.
+Gestion de la continuité et de la reprise de l’activité
+Tout système d’information classifié le nécessitant fait l’objet d’un plan de continuité ou de
+reprise informatique (PCI/PRI).
+Ce plan se conforme au plan de protection des sites, au plan de continuité ou de reprise d’activité
+(PCA/PRA) de l’organisme et ainsi que, le cas échéant, aux exigences du contrat au profit
+duquel le système d’information classifié est mis en œuvre.
+Il est tenu à jour et régulièrement testé à l’occasion d’exercices.
+L’absence de plan de continuité ou de reprise informatique est mentionnée et justifiée dans le
+dossier d’homologation.
+SECURITE EN MOBILITE
+Sécurité des équipements de mobilité
+L’utilisation en mobilité d’équipements informatiques exploitant des informations classifiées
+est soumise à une analyse de risques dédiée qui est intégrée au dossier d’homologation. Des
+mécanismes et des fonctions de sécurité sont mis en place afin de protéger les informations
+classifiées.
+Seuls les équipements mis à disposition et administrés par l’autorité d’emploi du système
+d’information classifié pour un usage en mobilité peuvent être utilisés.
+De plus, si un équipement permet d’exploiter en mobilité des informations classifiées, il fait
+l’objet d’un agrément et est utilisé dans les conditions prévues par la décision d’agrément du
+produit.
+Les règles minimales applicables aux équipements utilisés en mobilité sont :
+- l’équipement est sous la surveillance permanente de l’utilisateur conformément aux
+conditions prévues par l’agrément de l’équipement ;
+- l’utilisation d’un équipement contenant des informations classifiées n’est pas autorisée
+dès lors qu’une personne non habilitée ou n’ayant pas le besoin d’en connaître est
+susceptible d’en prendre connaissance directement ou indirectement ;
+- la sortie du territoire national d’un équipement contenant des informations classifiées
+est soumise à autorisation de l’officier de sécurité des systèmes d’information qui fixe
+des règles particulières d’emploi et de l’officier de sécurité.
+Ces règles sont, le cas échéant, complétées par l’officier de sécurité des systèmes d’information.
+Lors de la remise d’un tel équipement, l’officier de sécurité des systèmes d’information informe
+l’utilisateur des règles spécifiques d’utilisation et le sensibilise aux risques liés à l’utilisation
+d’un tel équipement.
+Sécurisation des accès à distance
+Par principe, les systèmes d’information classifiés sont conçus et paramétrés pour interdire les
+accès à distance.
+Lorsqu’un tel accès est absolument nécessaire pour des raisons opérationnelles, l’autorité
+d’homologation, s’appuyant sur le responsable de la sécurité du système d’information, protège
+99

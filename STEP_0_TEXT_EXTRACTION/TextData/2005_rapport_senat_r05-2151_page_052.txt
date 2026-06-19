@@ -1,0 +1,33 @@
+- 52 -
+2. ETATS-UNIS
+LE SYSTÈME GLOBAL HAWK
+* Capacités
+Le RQ-4A Global Hawk est un drone de reconnaissance aérienne à très haute altitude et à grande
+endurance ; les performances du système annoncées par l'Air-Force sont:
+-Distance franchissable maximale: 9 500 NM -Endurance max. : 28 h
+-Endurance à 1 200 NM : 20 h -Altitude: 20 000 mètres.
+-Vitesse de croisière: 340 kts
+-Masse max. au décollage: 11,5 tonnes - Charge utile: 900 kg
+Le système de navigation est composé d'un ensemble GPS, d'une centrale inertielle et de deux
+calculateurs de missions.
+La version actuelle du Global Hawk est équipée des senseurs suivants :
+La plateforme Electro-Optique/InfraRouge (EO/IR) fonctionnant dans la bande visible [0,4-0,8microns]
+et dans la bande IR [3,6 -5 microns]. En mode localisation, le système peut prendre 1.900 clichés de zone
+de 2 x 2 km par jour avec une précision de 0,3 m. Le mode balayage permet de couvrir 40 000 nmz par
+jour avec un faisceau de balayage large de 10 km.
+-Un radar SAR / indicateur de cibles mobiles fonctionnant en bande X avec une largeur de bande de 600
+!\-fi1z et une puissance crête de 3,5 kW possédant une précision identique à la plateforme EO/IR.
+Le système de communication qui assure le contrôle de l'appareil et la transmission descendante des
+données comprend des liaisons satellite (UHF, Ku) et des liaisons directes (UHF, VHF). Le système vole
+suivant une mission pré-programmée au sol, utilisant le système de préparation de mission standard de
+l'Air-Force. Les opérateurs du système au sol ont la capacité de modifier la mission en cours de vol, mais
+ils ne pilotent pas le drone à distance. Le Global Hawk se différencie donc du Predator qui est piloté à
+partir du sol.
+Le segment sol comprend deux modules, le Launch Recovery Element (LRE) pour le contrôle en local et
+leMission Control Element (MCE) pour la gestion de l'appareil sur zone.
+* Historique
+Le Global Hawk a été lancé en 1995 sous la forme d'un Advanced Concept Technology Demonstrator
+(ACTD) qui s'est achevé en 2000. Entre 2001 et 2003, le programme était en phase Engineering
+Manufacturing Development (EMD). Il est actuellement en phase de production initiale (Low Rate Initial
+Production). A ce jour, 7 appareils ont été produits depuis le lancement du projet, dont quatre ont été
+perdus lors de crashes (deux en 1999, un en décembre 2001 et un en juillet 2002).

@@ -1,0 +1,45 @@
+Enfin, une attention doit aussi porter sur les clauses contractuelles notamment en terme de
+sous-traitance, d’hébergement et de transfert de données, de télémaintenance* et de maintien
+en condition de sécurité (MCS).
+6.2. Homologation des systèmes industriels
+Le processus d’homologation et les principes définis dans [Dir HSI] sont applicables aux
+systèmes industriels. La présente directive la précise et la complète.
+Le type de démarche d’homologation d’un système industriel ainsi que ses modalités dépendent
+de sa classe* et de sa segmentation*.
+La stratégie d’homologation :
+- précise la procédure d’attribution de classe appliquée sur le système industriel ainsi que l’outil
+utilisé pour la mettre en œuvre ;
+- définit clairement les modalités de la démarche et veille à les adapter aux ressources qui lui
+sont consacrées ;
+- définit la classe* du système industriel ;
+- décrit les différentes zones de sécurité en cas de segmentation* ;
+- précise les conduits* et leur nature.
+Comme tous systèmes d’information, les systèmes industriels font aussi l’objet d’une
+catégorisation qui peut éventuellement impliquer le choix de la démarche conformément à
+[PSSIM-T]. La catégorisation en système standard, important ou essentiel peut être déterminée
+à partir de la classe* du système conformément à l’annexe 2.
+La démarche d’homologation prend en compte les modalités de déploiement. En cas de
+déploiements de systèmes industriels similaires ou dans un environnement similaire, les
+méthodes pouvant faciliter le processus sont à rechercher afin de réduire les efforts, rationnaliser
+le dossier d’homologation et faciliter son suivi.
+Selon [Dir HSI], l’homologation d’un système numérique nécessite au préalable son enrôlement
+dans l’outil de suivi ministériel du patrimoine applicatif. Cependant, en raison du nombre important
+de systèmes industriels, cet enrôlement n’est applicable qu’aux systèmes industriels de classe 2
+ou 3. Le suivi des systèmes industriels de classe 1 est alors assuré par l’AQSSI selon les
+modalités qu’elle définit. Ce suivi est rendu disponible au FSSI et au COMCYBER.
+Le certificat d’usage et de conformité (CUC) est élaboré à partir des exigences de sécurité du
+socle de sécurité, tel que celui proposé en annexe 5, réactualisé le cas échéant. Selon la nature
+du système industriel, des activités qu’il porte, et des données qu’il traite, il peut être complété
+par d’autres exigences de sécurité.
+Le dossier d’homologation contient, en plus des éléments définis dans [Dir HSI], tout élément
+justifiant la catégorisation et la segmentation* du système industriel.
+L’autorité bénéficiaire du système industriel, si elle n’est pas l’autorité d’homologation (AH), est
+invitée à participer à la commission d’homologation. Le RSSI s’assure que l’invitation est
+transmise à l’autorité bénéficiaire.
+La liste des risques résiduels ainsi que le plan d’amélioration continue de sécurité (PACS) sont
+suivis par le RSSI tout le long du cycle de vie du système industriel, et plus particulièrement lors
+du renouvellement d’homologation.
+6.3. Gestion des risques
+Les risques numériques suivants sont à prendre en compte dans toute analyse de risques portant
+sur un système industriel :
+DIR-39 SNSI – 2eme édition Page 19 | 79

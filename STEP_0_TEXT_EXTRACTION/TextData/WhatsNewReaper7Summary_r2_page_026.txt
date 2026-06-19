@@ -1,0 +1,17 @@
+REAPER 7.0: What’s New
+Folder collapse track cycle options
+In Preferences, Appearance, Track
+Control Panel there is an option to
+include hidden in the cycle options
+(see below). This allows you to hide
+child tracks altogether.
+Custom Toolbar Support
+REAPER supports up to 32 general and 16 MIDI only
+additional toolbars that you can set up to suit your particular
+requirements. By selecting which commands or actions are
+added to these toolbars you are able create one click access
+to your most important commands and actions.
+Detailed information and instructions as to how to set up
+and use custom toolbars are included in sections 15.23 to
+15.27 of the REAPER User Guide.
+Page 26

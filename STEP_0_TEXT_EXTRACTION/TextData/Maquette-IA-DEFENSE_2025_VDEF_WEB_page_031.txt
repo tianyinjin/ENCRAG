@@ -1,0 +1,77 @@
+31
+une rupture technologique dans l’éco-conception fonction de conversion vidéo en temps réel [5]permettant
+en rendant possible une IA embarquée explicable. d’améliorer le rendu des images affichées. Initialement
+sous forme analytique, nous avons adapté le modèle
+Sécurisation des réseaux neuronaux sous forme de réseau de neurones afin de l’intégrer aux
+décodeurs vidéo équipés d’un NPU. Un travail autour de
+La durabilité de l’éco-conception passe également par
+la frugalité a été effectué par élagage et quantification
+une IA de confiance, capable de résister aux cyberattaques
+afin de rentrer dans la mémoire réduite du composant.
+telles que le piratage ou l’empoisonnement. Les réseaux
+Cette fonction a pour vocation d’être disponible dans
+neuronaux doivent être protégés pour éviter toute
+des terminaux grand public et sera utilisée pour
+exploitation frauduleuse, comme la contrefaçon ou le
+Stéphane Paquelet manipuler des contenus de valeur (films, retransmissions
+détournement de données. Pour cela, nous proposons
+d’événements sportifs). Si l’on ajoute la propriété
+l’utilisation de mécanismes de sécurisation incluant :
+industrielle de l’algorithme lui-même, on se rend compte
+• Le bruitage des poids du réseau. Les poids des
+qu’il est indispensable d’y ajouter des fonctions de
+réseaux sont perturbés par l’ajout d’un bruit contrôlé,
+sécurité.
+rendant leur lecture ou utilisation frauduleuse
+Le travail envisagé avec Skyld consiste alors à appliquer
+inefficace sans clef dédiée.
+leur technologie de protection, à l’adapter aux contraintes
+• Le chiffrement des sorties. Une clef de déchiffrement
+du temps réel et à définir le meilleur compromis entre
+est nécessaire pour interpréter correctement les
+sécurité et frugalité. Nous disposerons ainsi d’une
+résultats produits par le réseau, ce qui protège à
+sécurisation prouvée, renouvelable et automatisée.
+la fois les données et l’intégrité des algorithmes.
+Conclusion : les outils pour l’IA embarquée et
+Cette combinaison permet de construire une protection sécurisée
+à la manière d’une boîte blanche cryptographique :
+D’une manière générale, systématiser la mise en œuvre
+l’algorithme IA s’exécute dans un environnement
+d’algorithmes sous une forme neuronale présente
+embarqué non sécurisé, ce qui rend impossible toute
+de multiples avantages. D’abord, elle permet de
+rétro-conception du traitement et toute récupération
+standardiser les mises à jour des algorithmes (qui
+des données utilisées.
+consistent simplement à modifier les poids du réseau
+tout en restant agnostique par rapport à la cible).
+C’est la direction prise par la startup Skyld[1], qui protège
+De plus, grâce à la disponibilité croissante des NPU,
+toute fonction d’inférence contre le vol de modèles de
+l’exécution est frugale, y compris dans l’embarqué.
+réseaux de neurones. Cependant, pour renforcer sa
+Enfin, grâce aux travaux sur une protection générique
+robustesse, il est nécessaire de l’adapter aux contraintes
+des modèles (confidentialité des poids et des
+liées à la quantification des opérations, un domaine
+données, intégrité), leur sécurisation sera grandement
+encore peu exploré dans la littérature. Par ailleurs, l’ajout
+facilitée sans que les performances en pâtissent.
+d’une fonctionnalité garantissant l’intégrité des réseaux
+de neurones demeure un défi non résolu.
+Exemples d’applications
+Les récepteurs 5G utilisent des méthodes d’estimation des
+paramètres de synchronisation temporels et fréquentiels
+des signaux. Dans une de nos publications[2], nous
+montrons comment un réseau de neurones compact
+permet de réduire de deux à trois ordres de grandeur
+le nombre d’opérations élémentaires par rapport à une
+exploration exhaustive sur la grille des paramètres.
+Cette approche est théoriquement généralisable grâce
+aux travaux fondamentaux de Kolmogorov-Arnold[3],
+revisités et adaptés aux techniques neuronales en 2024[4],
+suggèrent qu’il est possible de réduire considérablement
+la taille des représentations neuronales en intégrant
+des splines.
+Dans un autre domaine, nous avons développé une

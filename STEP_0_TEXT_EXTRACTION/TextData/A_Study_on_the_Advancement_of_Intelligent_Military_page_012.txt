@@ -1,0 +1,58 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+TAEHOON YANG hasbeenpursuinghisunder- NAMSUKCHOreceivedtheB.S.degreeincom-
+graduatestudiesintheDataScienceDepartment putersciencefromtheKoreaMilitaryAcademy,
+atInhaUniversityinSouthKoreasince2022.His the M.S. degree in operations research from the
+research interests include multi-object detection AirForceInstituteofTechnology,OH,USA,and
+in the military sector, data augmentation within thePh.D.degreeinindustrialengineeringfromthe
+militarycontexts,andtheautomationofmilitary UniversityofWisconsin-Madison,USA,in2016.
+operations. He is currently an Associate Professor with the
+MilitaryOperationsResearch,KoreaNationalDe-
+fense University. His work focuses on optimiza-
+tion and simulation model for various problems
+in defense and military domain. He has been involved in many research
+projectincludingMilitaryMedicalPlanning,CriticalInfrastructureProtec-
+tion,ComputerGeneratedForcesModeling,andModelsforReconnaissance
+Drone.
+JINGU KIM receivedtheB.S.degreeinControl
+andInstrumentationEngineeringfromtheHanbak
+National University, South Korea, in 2008, and
+theM.S.degreeinAerospaceEngineering,witha
+focusonStructuresandControl,fromChungnam
+NationalUniversity,SouthKorea,in2015.Heis
+currentlyaSeniorResearcherintheDefenseSci-
+enceandTechnologyInstituteatPoongsanCorpo-
+ration.HisresearchinterestsincludeSystemEngi-
+neering,UnmannedAerialVehicles,Robotics,and
+ArtificialIntelligence.
+JAEOH KIM received his B.S. degree in Civil
+Engineering from the Korea Military Academy,
+South Korea, in 2003, and both his M.S. degree
+in Industrial Engineering in 2006 and his Ph.D.
+degreeinStatisticsin2018fromKoreaUniversity,
+South Korea. A former lieutenant colonel in the
+RepublicofKoreaarmy,heiscurrentlyanAssis-
+tantProfessorintheDepartmentofDataScience
+atInhaUniversity.Hisresearchspansdatamining,
+data science, and statistical computation, with a
+uniquefocusonanalyzingmilitarydata.Thisintersectionofstatisticalrigor
+andmilitaryacumenpositionshim,contributingtobothacademicdiscourse
+andpracticalmilitaryapplications.
+OJEONGKWONreceivedtheB.S.degreeinEn-
+glishfromtheKoreaMilitaryAcademyin1985,
+theM.S.degreeinOperationalAnalysisfromKo-
+reaNationalDefenseUniversity,SouthKorea,in
+1988, and the Ph.D. degree in Industrial Engi-
+neering from KAIST in 1998. He served as the
+CommanderoftheCenterforArmyAnalysisand
+Simulationfrom2014to2015andwasthePresi-
+dentoftheMilitaryOperationsResearchSociety
+of Korea from 2017 to 2019. He is currently a
+invitedProfessorintheDepartmentofIndustrialandSystemsEngineeringat
+KAISTandDirectorofthePoongsan-KAISTFutureTechnologyResearch
+Center. His research interests include Combat Modeling & Simulation,
+OperationsResearch/SystemAnalysis,andMulti-criteriaDecisionMaking
+Methodology.
+12 VOLUME11,2023
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

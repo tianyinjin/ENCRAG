@@ -1,0 +1,78 @@
+48 Pôle d’excellence cyber 49
+Annexe I : Modalités du service ADS 3. UNE APPROCHE LUDIQUE ET PERSONNALISÉE
+Les résultats sont rendus disponibles depuis une interface une barre de progression. Même si elle ne permet pas tou-
+web qui détaille et classe les vulnérabilités et recommanda- jours d’accéder aux vulnérabilités et recommandations du
+tions afférentes. Lors de chaque audit, le niveau de sécurité niveau suivant, la correction progressive des vulnérabilités
+de la configuration de l’Active Directory est traduit par un à un niveau donné, se traduit néanmoins par l’obtention
+niveau qui se situe sur une échelle de 1 à 5. Le niveau obtenu de points. L’administrateur peut ainsi justifier de manière
+dépend de la gravité des vulnérabilités trouvées, le niveau objective et factuelle que les actions menées améliorent
+1 étant synonyme de défauts critiques et le niveau 5 d’un significativement le niveau de sécurité de l’AD et donc
+niveau à l’état de l’art. du SI. L’application de l’ensemble des recommandations
+portant sur les points importants d’un niveau permet de
+Un niveau donne ainsi accès à une liste de recommandations passer au niveau supérieur et d’accéder à une collection
+adaptées. L’évolution relative à chaque niveau est quantifiée complémentaire de recommandations.
+par un score et représentée sur l’interface graphique par
+SERVICE ADS
+Pour un échelon donné, l’application détaille trois niveaux d’indications :
+▶ Des problèmes importants : vulnérabilités critiques ordonnées qui devront être corrigées pour passer au
+niveau supérieur ;
+▶ Des points d’attention : mauvaises pratiques manifestes du point de vue de la sécurité, mais non prioritaires
+1. DESCRIPTION DU SERVICE
+au vu des autres vulnérabilités identifiées à ce niveau ;
+▶ Des points d’information : informations sur certains points-clé de l’AD.
+L’ANSSI met à disposition des opérateurs réglementés et Le service ADS permet ainsi à la fois de quantifier le niveau
+de la sphère publique une capacité d’audit des annuaires de sécurité de l’annuaire et d'accompagner progressivement
+Active Directory (et Samba) au travers du service ADS (Active les bénéficiaires vers un niveau de sécurité à l'état de l'art.
+Les niveaux sont échelonnés de la façon suivante :
+Directory Security). Cette capacité est pensée à la fois pour les chaînes SSI et
+les équipes d’exploitation. Pour les premières, l'application 1 L’annuaire Active Directory présente des problèmes critiques de configuration qui mettent en danger immédiat
+Cette capacité vise à donner de la visibilité aux opérateurs fournit une vision globale et synthétique à travers des ta- l’ensemble des ressources hébergées. Des actions correctrices sont à prendre dans les plus brefs délais ;
+réglementés et de la sphère publique (ministères, Opéra- bleaux de bord et indicateurs associés ; pour les secondes,
+2 L’annuaire Active Directory présente des lacunes de configuration et de gestion suffisantes pour mettre en danger
+teurs d’Importance Vitale, Opérateurs de Service Essentiel, elle détaille les recommandations à appliquer et accompagne
+l’ensemble des ressources hébergées. Des actions correctrices sont à prendre à court terme ;
+collectivités territoriales, etc.) sur le niveau de sécurité de les bénéficiaires dans le pilotage de leurs équipes techniques
+leur annuaire et à les accompagner dans son durcissement ou de leurs prestataires. 3 L’annuaire Active Directory possède un niveau de sécurité basique non affaibli depuis son installation ;
+par l’application progressive de mesures adéquates. Cette
+4 L’annuaire Active Directory dispose d’un bon niveau de sécurité ;
+prestation s’appuie sur l’expérience et l'expertise de l’agence À ce jour l’ANSSI constate une nette amélioration du niveau
+sur les sujets d’Active Directory (AD) et s’est enrichie par sa de sécurité des annuaires des bénéficiaires ayant souscrit à 5 L’annuaire Active Directory dispose d’un niveau de sécurité à l’état de l’art.
+participation aux différentes opérations de cyberdéfense. ADS dans la mesure où ce service permet un suivi régulier
+et continu du niveau de sécurité tout en contrôlant la bonne Par conséquent, l’enjeu devient majeur pour les opérateurs réglementés et sphère publique de mettre en place et de
+application dans le temps des recommandations. maintenir un niveau de sécurité satisfaisant de leurs annuaires. Ainsi, l’ambition de l’ANSSI est d’accompagner pro-
+gressivement vers un niveau de sécurité à l’état de l’art grâce à l’application de recommandations adéquates et dans
+2. MODALITÉS D’ACCÈS AU SERVICE une approche plus ludique.
+Pour bénéficier du service, la procédure à suivre est la suivante :
+4. EN SAVOIR PLUS
+1 Faire la demande de création d’un compte nominatif en lançant la procédure d’inscription sur
+https://club.ssi.gouv.fr/ ;
+2 Télécharger la dernière version de l’outil de collecte ORADAD (Outil de Récupération Automatique de Données de L’annuaire Active Directory, centre névralgique de Développement d’une capacité spécifique et
+l’Active Directory) sur GitHub [https://github.com/ANSSI-FR/ORADAD/releases] ; la sécurité des systèmes d’information Microsoft ouverture d’un service
+3 Extraire les fichiers exécutables (exécutable ORADAD.exe et fichier de configuration) ; L'annuaire Active Directory (AD) est un élément critique Au sein de l'agence, les prestations d'audit sur un système
+permettant la gestion centralisée de l'ensemble des per- d'information donnent habituellement lieu à la rédaction
+4 Ouvrir un terminal et exécuter l’outil avec un compte du domaine et depuis un poste membre du domaine. Le
+missions sur les différents domaines qui composent un d'un rapport détaillé, répertoriant à un temps les vulnéra-
+fichier de configuration doit être positionné dans le dossier contenant l’exécutable ORADAD.exe [commande à lan-
+cer : ORADAD.exe ]. Le compte utilisé n’a pas besoin de privilèges spécifiques ; système d’information (SI) Microsoft. L'obtention de pri- bilités qui touchent le système d'information, les recom-
+vilèges élevés sur l'AD entraîne par conséquent une prise mandations correspondantes et la priorité de leur déploie-
+5 Connectez-vous sur le portail Club SSI ;
+de contrôle instantanée et complète de tout le SI. ment. Ces rapports, souvent volumineux, ne permettent
+6 Téléverser les résultats sur le portail Club SSI, dans l’onglet « Services d’audits automatisés > ADS » :
+pas toujours de prioriser avec aisance les actions à mener.
+https://club.ssi.gouv.fr/#/audit/ads
+Le faible niveau de sécurité des annuaires met Par ailleurs, si un audit évalue le niveau de sécurité à un
+Dès réception des fichiers de collecte, l’ANSSI lancera les analyses et en partagera les résultats avec le bénéficiaire en danger les systèmes d’information instant donné, il ne mesure pas dans la durée l'évolution
+dans un délai de 15 jours, sous forme d’un rapport détaillé présentant les différents points de contrôle qui ont révélé des Les prestations d'audit effectuées par l'ANSSI auprès de ses du niveau de sécurité.
+défauts de configuration pouvant entrainer des risques de sécurité. bénéficiaires font apparaître un manque de maturité critique
+et récurrent sur la sécurité des annuaires Active Directory. Face à ce constat, l’ANSSI a développé une nouvelle
+Ce défaut de sécurité affaiblit significativement le niveau capacité dont l'objectif est d'auditer, à la demande du
+global de sécurité de ces SI. Ce constat est renforcé par la bénéficiaire et de manière autonome, le niveau de sécurité
+connaissance acquise au contact des différents réseaux des annuaires Active Directory des opérateurs stratégiques
+DES QUESTIONS SUR LE SERVICE ?
+compromis sur lesquels l'agence est intervenue lors d'opé- de l’État.
+Consultez la FAQ accessible sur https://club.ssi.gouv.fr/#/faq
+rations de cyberdéfense. Au-delà du manque de maturité,
+ou contactez-nous par email à club@ssi.gouv.fr
+l’agence note par ailleurs que le niveau de sécurité des
+annuaires Active Directory décroît en fonction du temps et
+du cycle de vie du SI.

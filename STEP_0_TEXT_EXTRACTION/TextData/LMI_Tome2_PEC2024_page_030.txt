@@ -1,0 +1,76 @@
+30 Pôle d’excellence cyber
+Le rôle central de l’IA générative pour les Fake
+News - Une perspective de recherche
+L’IA générative pour la génération de faux contenus
+Dr. Marc-Oliver PAHL Les modèles d’IA générative créent de nouvelles données
+Titulaire Chaire Cybersécurité en apprenant à partir d’ensembles de données existants
+des Infrastructures Critiques à l’aide d’architectures d’apprentissage profond telles que
+CyberCNI les réseaux antagonistes génératifs, ou transformeurs .
+Directeur de recherches
+Les GAN utilisent une approche de réseau neuronal
+IMT Atlantique
+double pour générer des images et des vidéos réalistes,
+qui peuvent être utilisées pour améliorer les fake news .
+Les transformeurs, comme les modèles GPT, utilisent des
+mécanismes d’attention pour générer des séquences
+En 2016, l’affaire Cambridge Analytica, une société
+de texte cohérentes et sont entraînés sur de vastes
+britannique de conseil politique, a fait prendre
+corpus de textes, ce qui les rend capables de produire
+conscience au monde entier du pouvoir d’influence
+divers types de documents écrits, y compris des fausses
+des (mauvaises) informations ciblées par les ordinateurs
+nouvelles . Par exemple, nous pouvons demander à
+sur le Web . Parmi les événements touchés par ces
+Chat GPT “écrivez-moi un communiqué de presse
+manipulations figurent l’élection présidentielle
+décrivant l’émergence d’une épidémie d’intoxication
+américaine de 2016 et le référendum sur le Brexit .
+alimentaire dans les cantines scolaires pour des
+plats spécifiquement sans porc”, il le fera très bien .
+En 2016, le contenu était souvent généré par des individus
+dans les pays à faible revenu, les grands modèles de
+Il existe une multitude de projets de recherche qui ont
+langage (LLM) d’aujourd’hui surpassent largement les
+développé et publié des générateurs de fake news .
+humains en termes de productivité tout en conservant une
+JudgeGPT (2024, https://judgegpt .streamlit .app/) évalue
+qualité suffisante pour ressembler à du contenu généré
+la qualité de génération de différents modèles d’IA
+par des humains . En 2023 le contenu textuel avait atteint
+générative en permettant aux utilisateurs de juger les
+une qualité comparable à celle d’un contenu humain, et
+textes produits ; MIST (2024, https://www .cam .ac .uk/
+dès 2024 ce fut aussi le cas des imitations audio, et ce sera
+stories/misinformation-susceptibility-test) fournit un quiz
+très probablement le cas pour des longues vidéos en 2025 .
+basé sur la psychologie pour évaluer la susceptibilité de
+tomber sur des fake news ; FACTGEN (2021, https://github .
+La combinaison des LLM avec la diffusion d’informations
+com/bigheiniu/FactGen) est un outil pour générer des fake
+ciblées à la Cambridge Analytica crée une arme puissante
+news enrichies par des faits récupérés automatiquement
+pour les campagnes de désinformation ciblées . Créer un
+sur le Web ; GROVER (2020, https://grover .allenai .org/)
+faux contenu réaliste pour influencer les masses n’a jamais
+fournit des techniques de génération robustes et des
+été aussi facile et bon marché . Presque gratuitement, tout
+approches sur la façon de détecter leurs résultats .
+le monde peut influencer un grand nombre de personnes
+avec un contenu ciblé individuellement par le biais de
+Faire face aux fausses nouvelles
+médias tels que TikTok, Instagram, Facebook ou X .
+Dans la communauté des chercheurs, trois grandes
+orientations ont émergé pour traiter les fausses
+Cet article met en lumière l’impact de l’IA dite
+informations : la détection, l’atténuation et les considérations
+générative sur la création de faux contenus réalistes . Il
+éthiques . Chaque orientation englobe diverses techniques
+offre une perspective de rechearche sur la génération,
+et stratégies visant à lutter contre la prolifération et
+la détection et l’atténuation, en synthétisant les
+l’impact des fausses informations par des moyens distincts
+idées de cette jeune communauté de recherche .
+mais complémentaires . Les paragraphes suivants détaillent
+Un article plus détaillé sur le sujet est disponible(1) .
+plusieurs techniques et examinent leur impact sociétal .

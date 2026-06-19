@@ -1,0 +1,53 @@
+REAPER 7.0: What’s New
+Track Folders: Various Improvements
+One way of creating folders is by dragging and dropping. You identify which track is to be the folder, which are
+to be its children, then select and drag and drop the children into the folder.
+This method can be tricky unless you are precise in your mouse movements. You might recall that in Section
+2.28 Managing Tracks we saw that dragging
+and dropping track panels up or down the track
+display can move them and park them in a new
+position. This time, however, that’s not what we
+want.
+The trick is to drop the tracks inside the zone used for creating folders. The exact area and size of this drop zone
+will vary with track height and track width: as a guide, think of it as occupying roughly the vertical middle of the
+track panel. You’ll know when you’re there because the mouse cursor will display a folder (as shown above left)
+rather than a hand (as shown above right). Here’s an example.
+Tracks 3 and 4 have been selected and are to be to be
+dragged up to Track 1, which is to be their folder
+container track.
+As they are dragged up, shown left the mouse displays a
+hand because the cursor is too far below the vertical
+center. This would just move the tracks up the order but
+would not place them in a folder. We need to be in the
+drop zone, closer to the center, as shown in the second
+picture (above right). Notice the mouse cursor is now
+shown as a folder.
+From this position we release the mouse, and the two guitar tracks are now placed inside a new folder, with
+Track 1 as the containing folder track (as shown below).
+Note: You can start your drag and drop from any part of the track
+panel (apart, of course, from the controls themselves), but to place the
+tracks into a folder you must move the mouse cursor to the folder drop
+zone before releasing it.
+Notice the small down pointing arrow just above the track number of
+the folder track (in this case Track 1). By default, this can be used to
+toggle the display of child tracks in the folder between normal (as
+shown by default), minimized and collapsed. Shown below is the same folder with its child tracks collapsed.
+In Preferences, Appearance, Track
+Control Panel there is an option to include
+hidden in the cycle options (see right). This
+allows you to hide child tracks altogether.
+If you prefer not to use the above method for drag and drop there is another option
+available. You can go to Options, Preferences, Editing Behavior, Mouse and turn on When reordering
+tracks via drag and drop, hold shift key to control folder creation. Then click OK.
+Simple drag and drop will still move tracks: holding Shift while doing so will create a folder and place adjacent
+tracks into it without any need to find the folder drop zone.
+Context Menu Folder Options
+Another option for moving tracks into folders can be found on
+the track panel context menu. The panel’s context menu
+includes a Move to folder command that will place a
+selection of tracks into a new or existing folder.
+First, select the tracks that you wish to move into a folder, then from the right click context menu choose Move
+tracks to folder. You can then select from the list of existing folders or choose New folder track to insert the
+tracks into a new as yet unnamed folder, immediately above the first track in the selection.
+You can then name the folder track by double-clicking in its name area.
+Page 25

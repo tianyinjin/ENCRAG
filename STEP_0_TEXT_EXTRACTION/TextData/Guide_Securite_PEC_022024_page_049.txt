@@ -1,0 +1,34 @@
+POLE D'EXCELLENCE CYBER
+Identifier quelles sont les vulnérabilités et les contre-mesures associées :
+Une vulnérabilité est une faiblesse d’un composant du SI qui le rend sensible à une menace. Pensez d'abord aux vulnérabilités
+physiques : tels des locaux mal sécurisés, la vétusté du système électrique, etc. Puis aux mauvaises configurations logicielles, aux accès
+trop permissifs, aux mots de passe trop faibles, aux logiciels non mis à jour, etc.
+Une contre-mesure permet quant à elle de minimiser ou de supprimer la possibilité d'exploiter une vulnérabilité du système, par
+exemple, la bonne configuration d’un pare-feu, des sauvegardes régulières, un contrôle des accès, un changement régulier des mots
+de passe, etc.
+Il existe de nombreuses pratiques pour détecter les vulnérabilités des systèmes d’information, par exemple, les analyses anti-virus,
+les logiciels scanneurs de vulnérabilités (tels que Nmap, Nessus, Nikto, etc.), la veille technologique auprès de sources d’informations
+fiables (éditeurs, sites spécialisés, CERT-FR1 ), les alertes et suggestions remontées par les agents ou les administrés, les audits de
+sécurité.
+Un serveur Web hébergé en interne peut être vulnérable à cause de la vétusté du système de climatisation, du fait que la salle des
+serveurs est en sous-sol, etc. A l'inverse, des contre-mesures peuvent venir contrer certaines menaces, telles que la réalisation de
+sauvegardes du serveur réalisées de manière régulière et hébergées non seulement en interne, mais aussi à l’extérieur de l’organisation.
+Identifier les menaces :
+Les menaces sont la somme tout ce qui pourrait potentiellement exploiter les vulnérabilités du SI, porter atteinte à la sécurité de la
+collectivité et lui causer grand tort. Les menaces sont de différents types, elles sont énumérées dans le tableau ci-dessous.
+Source : interne/externe Grand type de menace
+Humaine Malveillance : espionnage, sabotage, déstabilisation, cybercriminalité
+Erreur accidentelle : perte/suppression des données, virus non ciblé, ...
+Non humaine Phénomène électrique : panne, incendie, explosion, …
+Phénomène environnemental : inondation, tempête, rongeurs, …
+Gardez à l’esprit que les catastrophes naturelles, les pannes ou les erreurs humaines non intentionnelles peuvent impacter aussi
+fortement le SI (parfois plus) que la malveillance des pirates et des virus, ces dernières étant certes plus médiatiques.
+Et s'il s'agit d'une malveillance, il ne faut pas confondre :
+• La cible d’une attaque : un élu, un employé qui a accès à de nombreuses informations, par exemple ;
+• Le moyen d’en connaître : des recherches effectuées en amont par l'attaquant sur des sources ouvertes, sur les réseaux sociaux,
+dans des articles de journaux, des vidéos, qui concernent une personne publique, son image, ses fréquentations, ses déplacements,
+ses centres d'intérêts et opinions, son entreprise, ses voyages, etc.
+• Le moyen de mener l'attaque : par un message électronique, une pièce jointe, en infectant un logiciel, avec une clé USB, etc.
+• La charge active : virus, ver, cheval de Troie, etc.
+1 https://www.cert.ssi.gouv.fr/
+49

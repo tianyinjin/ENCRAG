@@ -1,0 +1,34 @@
+symbolique a été franchi lorsque l’ordinateur Deep Blue
+d’IBM a fini par battre aux échecs Garry Kasparov, le
+champion du monde d’alors. Il ne s’agissait plus alors
+pour l’IA de suppléer l’homme mais d’être plus
+performante que lui dans certains cas. Pourtant, l’IA de
+Deep Blue ne consistait qu’en un algorithme classique,
+dont le succès était fondé sur la puissance brute
+informatique capable de passer en revue des millions de
+combinaisons possibles en quelques secondes. Cette
+GOFAIvi (Good Old’Fashionned AI), était encore basée sur
+la modélisation complète d’un environnement et ses
+règles, ici un jeu, et la formalisation de liens de causalités
+par un cerveau humain. On comprend que ce type d’IA,
+aux raisonnements complètements maitrisés, est très
+adapté aux systèmes fermés mais peut atteindre ses
+limites pour gérer des environnements complexes.
+Les progrès de l’IA dont nous parlons de nos jours
+sont le plus souvent liés aux progrès du machine learning
+(auto-apprentissage). Là où la GOFAI est un pur produit
+logique, l’IA auto-apprenante (que nous nommerons IA
+pour simplification) est un pur produit empirique qui se
+base sur l’analyse d’une quantité immense de donnée
+pour établir des liens de corrélation. C’est le retour à une
+utilisation de la technique des réseaux neuronaux, couplé
+à la mise à disposition des bases de données colossales
+fournies par l’internet, qui permettent son
+développement actuel. L’IA présente notamment
+l’avantage de ne pas avoir à modéliser un problème ou
+son environnement trop complexe. Elle donne d’ailleurs
+des résultats objectifs : la victoire récente d’Alpha-GO
+contre le champion du monde de GOvii, les diagnostiques
+de cancer à partir d’images médicalesviii, ou plus proches
+des considérations militaires, la victoire 5-0 d’une IA
+17

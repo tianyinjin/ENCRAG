@@ -1,0 +1,49 @@
+35
+d’attaque, identifier les vulnérabilités les plus
+importantes et élaborer une checklist reproductible
+tenant compte des standards, des spécificités
+des assets et de la priorisation des risques.
+4. Industrialisation : Intégrer la checklist dans une
+plateforme de sécurité offensive sous la forme d’un
+guide de test digitalisé pour systématiser les tests
+offensifs tout au long du cycle de vie des assets.
+5. Partage et mise à jour : lorsque cela est possible,
+diffuser publiquement les checklists pour
+Christophe MARNAT renforcer les compétences de la communauté des
+chercheurs, diffuser les bonnes pratiques dans les
+organisations et faciliter une mise à jour régulière
+au fur et à mesure de l’évolution des menaces.
+Ces deux expérimentations ont atteint leurs objectifs
+et cette méthodologie a prouvé dans deux contextes
+différents qu’il est possible d’industrialiser les tests de
+sécurité en seulement quelques mois, même dans le
+cadre de systèmes sensibles. Elle peut être appliquée aux
+tests de sécurité et de résilience des IA, notamment LLM.
+Une recette simple pour sécuriser les IA
+Pour résumer, il apparaît que les leviers de
+l’industrialisation des tests de sécurité des IA sont les
+suivants :
+• Plateforme de tests de sécurité offensive intégrant
+un système de checklists et adaptable aux
+contraintes d’hébergement.
+• Intégration des standards existants (ex: Checklist
+OWASP Top 10 LLM 2025 pour les IA Générative)
+• Collaboration interdisciplinaire : mobiliser des
+experts variés internes et externes pour combler
+les lacunes des standards.
+• Création et systématisation des checklists :
+développer de nouvelles checklist pour les assets
+spécifiques et intégrer les tests tout au long de
+leur cycle de vie.
+• Partage des connaissances : diffuser en interne
+et, si possible, publiquement les résultats pour
+renforcer le partage des bonnes pratiques et le
+développement de nouveaux standards.
+Une sécurité résiliente dès la conception
+C’est en généralisant cette approche collaborative et
+méthodique que nous pourrons regagner du terrain face
+aux technologies émergentes et développer les IA de
+confiance dans le domaine de la Défense. Elle est à même
+de garantir une sécurité renforcée et une résilience des
+écosystèmes IA grâce à une approche “Security by Design”,
+qui protège les systèmes tout au long de leur cycle de vie.

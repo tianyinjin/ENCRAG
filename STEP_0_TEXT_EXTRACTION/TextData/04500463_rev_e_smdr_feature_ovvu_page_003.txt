@@ -1,0 +1,48 @@
+SMDR Feature Overview
+Extended SMDR format
+Note: The extended SMDR format is available on only either (a.) ESI Communications Servers running system
+software version xx.3.0 (or higher) or (b.) an IP Server 900. For system software downloads, visit
+www.esi-estech.com/Resellers/software.
+1 2 3 4 5 6 7 8 9 10
+0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012
+T MM/DD HH:MM:SS HH:MM:SS NNNN VTTT dddddddddddddddddddddddd aaaaaaaaaa dddddddddddd cccccccccccc
+The columns are:
+• Call type — Outbound (“O”), inbound (“I”) or transferred (“T”) at column 1.
+• Date (“MM/DD”) — Begins at column 3.
+• Start time (“HH:MM:SS”) — Begins at column 8. The start date and time of (a.) when the call was originated from
+or (b.) presented to the system or (c.) retrieved from hold or (d.) successfully transferred.
+• Duration (“HH:MM:SS”) — Begins at column 17. The duration of the connection to the call plus, if the call was
+transferred or placed on hold, the duration the call was on hold until the call was retrieved from hold or the transfer
+was completed or the call was released (disconnected).
+• Extension number (“NNNN”) — Begins at column 26. Includes the number of the resource that answered or
+originated the trunk call. Trunk numbers are prefixed with T (trunk-to-trunk calls only). If an incoming call isn’t
+answered and subsequently disconnects, this field will be blank.
+• CO trunk number (“VTTT”) — Begins at column 31. When a voice mailbox answers a trunk call and the caller
+disconnects, the call record generated will populate this field with an asterisk (*). Otherwise, the field will be blank.
+• Digits dialed — Begins at column 36 (24 characters). Outgoing and transferred outgoing calls: dialed number.
+Incoming and incoming transferred calls: DNIS or DID digits (DNIS takes precedence).
+• Account code (“AAAA”) — Begins at column 61. (See also “SMDR format when using account codes,”
+page 4.) The account code will appear only in the call record of the station that dialed the account code.
+• Incoming Caller ID number (“dddd”) — Begins at column 78 (10 characters).
+• Incoming Caller ID name (“cccc”) — Begins at column 91 (12 characters).
+Each record is terminated with a line feed and carriage return character.
+Reporting conventions and rules
+• Inbound and outbound call records are generated only for calls between a station and a CO line. ESI systems
+provide SMDR records only for calls answered by, or originated from, a system extension. ESI systems don’t
+provide SMDR records for the following types of calls:
+– Incoming calls . . .
+• To the auto attendant that don’t leave the auto attendant.1
+• Directly to a mailbox.1
+• Call-forwarded off-premises (using Intelligent Call Forwarding or ESI Presence Management).
+– Outgoing calls . . .
+• Call-forwarded off-premises (using Intelligent Call Forwarding or ESI Presence Management).
+• Sent to the auto attendant and forwarded out using go-to outdial branches.
+• Generated using message delivery notification.
+• The duration of each call record represents the period of time during which the station controlled its portion of a call.
+A record is generated each time a station does any of the following:
+– Disconnects.
+– Places a call on hold.
+– Transfers a call.
+• A single CO call could be included in multiple records if it is transferred from station to station.
+1 Supported on extended format only.
+3

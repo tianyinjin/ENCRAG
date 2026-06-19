@@ -1,0 +1,34 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Appliquer le principe du moindre privilège sur les applications. Elles doivent
+EXP9 TECH R O O
+s’exécuter avec des privilèges strictement nécessaires à leur fonctionnement.
+Pour les automates*, lorsque les équipements le permettent, activer les
+mécanismes suivants :
+EXP10 TECH - protection d’accès à la CPU et/ou au programme ; R R O
+- restriction des adresses IP pouvant se connecter (liste blanche) ;
+- désactivation du mode de programmation à distance.
+Mettre en place, dans le processus de livraison, un mécanisme de vérification de Éléments concernés : firmwares,
+contrôle d’intégrité des équipements et programmes applicatifs, et d’authenticité systèmes d'exploitation et logiciels
+de l’émetteur des composants du système industriel (signature), notamment dans standards, progiciels SCADA*,
+EXP11 TECH C R O
+le processus de livraison. programmes d'automates et de
+La vérification doit s’effectuer au chargement du composant et de manière SCADA*, fichier de configuration des
+périodique par mesure de contrôle. équipements réseau, etc.
+Vérifier l’intégrité des équipements et logiciels au chargement du composant et de
+manière périodique par mesure de contrôle. Cette vérification concerne :
+EXP12 TECH - les systèmes d’application et firmware ; R O O
+- les logiciels et progiciels SCADA* ;
+- les paramètres de configuration durcis.
+Ne pas installer d’outils de développement sur les machines de production. Seuls
+les environnements de production (runtime) doivent être installés sur les serveurs
+EXP13 TECH R O O
+et stations SCADA* par exemple. En cas d’impossibilité, mettre en place des
+mesures palliatives pour réduire la surface d’attaque.
+Dédier les consoles de programmation*, les stations d’ingénierie*, les postes
+EXP14 TECH d’administration et les stations de maintenance, fixes ou nomades, à leur seul O
+usage.
+Maîtriser les postes sensibles du système (consoles de programmation, stations d’ingénierie, poste de maintenance, poste d’administration)
+Durcir la configuration des consoles de programmation*, des stations d’ingénierie*,
+EXP15 TECH O
+des postes d’administration et des stations de maintenance
+DIR-39 SNSI – 2eme édition Page 62 | 79

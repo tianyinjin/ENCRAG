@@ -1,0 +1,50 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.5
+DROIT PRIVE
+(cid:3)
+- les interventions à distance (liaisons permanentes avec droits privilégiés, télé-
+administration de passerelles de sécurité, interconnexions non sécurisées, mots de
+passe faibles, etc.)(cid:3);
+- l’externalisation de l’hébergement (isolation défaillante, effacement incomplet ou
+non sécurisé, etc.).
+- l’exposition a des réglementations extraterritoriales (exemple(cid:3): Cloud Act adopté en
+mars 2018 par les Etats-Unis).
+Si la prestation est effectuée à distance, et selon la complexité et les enjeux de sécurité
+du système d’information, elle pourra être complétée par les documents suivants(cid:3):
+- un document de procédures d’exploitation de sécurité, fixant les modalités générales
+d’exploitation de sécurité des dispositifs de télémaintenance(cid:3);
+- des fiches réflexes permettant de garantir la bonne application des procédures
+d’exploitation de sécurité par le personnel en charge de l’utilisation ou de
+l’administration des dispositifs de télémaintenance(cid:3);
+- un protocole d’accord entre le client et la société en charge de la télémaintenance
+pour formaliser des procédures spécifiques.
+Si l’analyse de risque fait apparaitre un risque pour l’autorité contractante, alors
+l’autorité contractante doit en être informée.
+2. Processus contractuel d’externalisation par l’entreprise.
+Le contrat de sous-contractance à un tiers comprendra les clauses de sécurité – y compris
+celles devant s’appliquer aux sous-traitants en cascade – et celles relatives à la
+réversibilité. Le contrat précisera la possibilité d’effectuer des audits de sécurité à son
+niveau ou par l’administration. Le périmètre d’intervention du prestataire doit y être
+établi par une délimitation claire de ses fonctions et responsabilités – notamment en
+matière de sécurité – vis-à-vis de celles conservées par le donneur d’ordre.
+Tout contrat de sous-contractance nécessitant un accès à des ISC est soumis à
+l’autorisation explicite de l’autorité contractante. Ce contrat(cid:3):
+- obéit aux règles de l’IGI 1300 et de l’IM 900,
+- comporte des clauses de protection du secret (cf. IGI 1300 - annexes 9 et 10),
+- implique l’habilitation préalable des personnes physiques et morales,
+- nécessite les aptitudes physiques des locaux et des systèmes d’information support
+de la prestation.
+Ces contrats avec détention ou accès à des ISC font alors l’objet d’un plan contractuel
+de sécurité qui décline les objectifs de confidentialité (fiche 4.8 de la présente
+instruction).
+Toute prestation d’infogérance nécessitant un accès à des informations Diffusion
+Restreinte devra se conformer aux règles du guide de l’ANSSI (cid:2)(cid:3)Externalisation et sécurité
+des systèmes d’information(cid:3): un guide pour maîtriser les risques(cid:3)(cid:3), au (cid:2)(cid:3)Recueil de
+mesures de protection des systèmes d’information traitant d’informations sensibles non
+classifiées de défense de niveau Diffusion Restreinte(cid:3)(cid:3) et à l’annexe 3 de l’IGI 1300. Il sera
+porté une attention particulière à la localisation géographique de l’hébergement des
+données et à l’homologation Diffusion Restreinte du système d’information.
+Il est recommandé de demander aux candidats de recenser et de justifier les dispositifs
+de télémaintenance qu’ils envisagent de mettre en œuvre sur le système du client.
+160

@@ -1,0 +1,36 @@
+44 Pôle d’excellence cyber
+Contrôle de l’information dans les couches basses
+du cyberespace :
+le cas de la République islamique d’Iran
+Manon GEORGES
+Cadette de la cyber
+Dans le débat sur la manipulation de l’information, l’attention est souvent portée sur la couche informationnelle
+ou cognitive, occultant alors les dimensions logique et physique du cyberespace où se jouent également
+des enjeux cruciaux. La manipulation de l’information peut en effet se manifester par un contrôle strict des
+infrastructures de communication. A partir de l’exemple iranien, cet article se propose d’explorer comment ce
+contrôle crée une bulle informationnelle autour de la population, leur limitant l’accès aux autres informations
+et renforçant la censure.
+Nous explorerons tout d’abord les mécanismes de fonctionnement des systèmes autonomes (AS) et du
+protocole BGP, puis l’architecture des principaux AS iraniens, et enfin les impacts de cette centralisation sur le
+manque de liberté d’information de la société iranienne.
+AS et protocole BGP L’architecture iranienne
+Le routage des flux de l’Internet repose sur des systèmes L’infrastructure iranienne présentait une architecture
+autonomes (AS), qui constituent les nœuds du « réseau composée de 472 systèmes autonomes (AS) en 2019 (1) .
+de réseaux » . Un AS possède et gère un certain nombre Dans leur étude « The geopolitics behind the routes data
+d’adresses IP avec sa propre politique de routage, travel: a case study of Iran », Salamatian et al . décrivent
+déterminée par son administrateur, qui peut être privé ou cette architecture en arbre . Le tronc de cet arborescence
+public . Pour permettre la communication entre différents est formé par les trois seuls AS connectés au reste du
+AS, on utilise le Protocole de Passerelle Frontière (BGP) . monde : la Société de technologie de l’information
+**BGP est un protocole de routage externe permettant (ITC—AS12880, AS60148), la Société d’infrastructure
+aux AS d’échanger des informations sur les routes de télécommunications (TIC—AS48159, AS49666),
+disponibles pour atteindre diverses destinations de et l’Institut de recherche en sciences fondamentales
+l’Internet . Chaque AS utilise BGP pour annoncer à ses (IPM—AS6736) . Les deux premiers sont sous la tutelle
+voisins (autres AS) les préfixes de routes qu’il peut du ministère des Technologies de l’information et de
+desservir, facilitant ainsi la création d’une table de routage la communication, tandis que le troisième dépend
+globale qui détermine le chemin optimal pour les paquets du ministère de l’Enseignement supérieur .
+de données . Ce système d’interaction entre AS peut être Les branches de cet arbre sont constituées par les
+détourné pour censurer et filtrer l’information . En effet, fournisseurs de services, qui sont très bien connectés
+un nombre restreint d’AS, qui exercent un monopole entre eux, formant une sorte d’Intranet national .
+sur les accords BGP vers le reste du monde, permet Toutefois, ces AS ont peu de marge de manœuvre pour
+de concentrer et de contrôler les flux de données . router les données vers l’international, car ils doivent
+obligatoirement passer par les trois AS gouvernementaux

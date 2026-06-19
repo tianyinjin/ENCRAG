@@ -1,0 +1,44 @@
+Le présent document retient les approches IEEE et étymologique et utilise les notions de semi-
+autonomie (hétéronomie) et de pleine autonomie qui permettent de mieux caractériser la simple
+notion d’autonomie qui à ce jour porte à confusion.
+106. Robot (ou système robotisé) :
+a. un robot est un équipement (ou une machine) automatisé, disposant de capteurs, d’un
+système de commande logique et d’actionneurs (ou effecteurs), capable de manipuler
+des objets, de se mouvoir ou d’exécuter des opérations selon un programme fixe,
+modifiable ou adaptable ;
+b. un robot calcule, selon sa programmation, ses stratégies de fonctionnement selon un
+état final6 recherché.
+107. La puissance de calcul des robots, alliée à l’accès à de nombreux capteurs et à de nombreux
+effecteurs, peut donner à certains robots, dans un domaine borné, des choix d’action
+comparables à ceux de l’homme.
+108. Drones : historiquement, un drone est un système téléopéré qui utilise les mêmes techniques
+que les robots. La notion de drone revêt, dans certains cas, une acception juridique.
+109. Désormais, dans l’usage courant, la notion de drone est plutôt associée aux domaines
+aéronautique et maritime, tandis que la notion de robot relèverait davantage du domaine
+terrestre et cyber. Drones et robots font néanmoins appel aux mêmes techniques et aux mêmes
+concepts.
+110. Plus fondamentalement, drones et robots sont des systèmes constitués de fonctions
+automatisées.
+111. Le débat public a abouti à devoir distinguer, dans l’opinion publique et dans les instances
+internationales (ONU), la question des drones, qui sont associés à des machines existantes et
+relativement peu problématiques, de celles des robots et des SALA7, ces derniers n’existant
+pas encore.
+112. Les opposants des drones armés, étatiques ou non-étatiques (ONG, intellectuels, médias, etc.)
+ont tendance à présenter les drones comme des « robots tueurs », en jouant sur cet amalgame
+qui, dans l’inconscient collectif, évoque les films de science-fiction.
+113. Afin de lever les risques d’ambiguïté et d’incompréhension, et de s’affranchir autant que faire se
+peut des images de l’inconscient collectif, il est conseillé d’éviter l’utilisation du qualificatif
+« autonome » pour décrire l’ensemble des systèmes automatisés. De même les termes de
+drones/robots pourraient être utilement caractérisés par les adjectifs téléopérés, supervisés,
+semi-autonomes ou pleinement autonomes.
+114. Un système automatisé est composé de fonctions pouvant être téléopérées, supervisées, semi-
+autonomes ou pleinement autonomes. De fait, l’automatisation d’un système pourrait être
+définie par les niveaux d’automatisation de chacune de ses fonctions.
+Les systèmes et fonctions téléopérés
+115. Un système téléopéré est un système sans équipage à bord, opéré à distance par un équipage
+via des moyens de télécommunication. Il s’agit d’un déport de toutes les tâches usuellement
+exécutées par l’équipage d’un système. L’état du système est piloté (ex : cas du drone Reaper).
+6 « État initial » et « état final » sont des concepts utilisés en automatisme et ne doivent pas être confondu avec leur
+signification dans le domaine militaire, même si l’idée sous-jacente est identique.
+7 SALA : Systèmes d’Armes Létaux Autonomes (traduction française de l’acronyme anglo-saxon LAWS).
+9

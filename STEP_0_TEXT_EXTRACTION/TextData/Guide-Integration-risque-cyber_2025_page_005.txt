@@ -1,0 +1,60 @@
+8 Pôle d’excellence cyber 9
+Chapitre II : les bonnes pratiques pour être en mesure d’agir efficacement
+En parallèle, il faut activer la cellule de crise et le plan de continuité d’activité (PCA), et dans un premier temps s’accorder
+dès l’identification d’une attaque
+sur les messages publics à porter collectivement. D’emblée, il faut informer, sans plus de détail, de l’existence de cet incident,
+laissant ainsi un peu de temps pour plus d’investigations et une communication complémentaire4. La liste des partenaires à
+prévenir en priorité doit figurer dans le PCS avec leurs coordonnées, parmi eux la DDFIP bien au fait des impacts des attaques
+cyber et des bonnes mesures les concernant pour limiter les impacts. Un message type peut aussi être prévu dans le PCS
+pour la première alerte publique.
+La source de risque majeure est l’attaque par rançongiciel. Reconnaître ce type d’attaque est très simple : toutes les données
+sur les serveurs sont chiffrées, les applications sont indisponibles et l’attaquant a déposé, en général, une note de rançon. Les membres de la cellule de crise, sous l’autorité du maire, doivent être bien identifiés en amont, en précisant la mission
+Dans ce cas, il est recommandé de faire appel au CSIRT régional dont la commune dépend (voir liste en annexe A). de chacun. Pour ce faire on peut s’appuyer sur les organisations déjà prévues dans les PCS, en y intégrant le responsable
+informatique et le délégué à la protection des données, ou la personne ayant cette fonction, en cas d’impact sur des données
+Pour les autres types d’incidents, il convient dans un premier temps de faire qualifier l’incident par le service informatique ou personnelles. Ne pas sous-estimer par ailleurs l’impact potentiel d’un crise cyber sur les moyens de communications (mail,
+le prestataire informatique habituel. Au moindre doute sérieux, l’appel au CSIRT régional pour confirmer la qualification de téléphone, accès aux fichiers…).
+l’évènement est recommandé
+La cellule de crise doit enfin permettre d’évaluer le niveau de risque pour la vie privée des personnes concernées en cas de
+Les premiers gestes sont primordiaux pour limiter les impacts d’une cyberattaque. Ils sont très simples, faut-il encore les avoir violation de données personnelles et la nécessité de déposer plainte auprès des forces de l’ordre :
+en tête et s’y être préparé car ils ont des conséquences sur le fonctionnement interne mais aussi dans les services rendus aux
+citoyens. Pour ce faire il faut être au clair en amont pour savoir qui aura autorité pour décider de ces gestes urgents et qui les • Pour ce qui est de la notification à la CNIL par le DPO ou celui faisant office de au sein de la commune : `
+mettra en œuvre et de la faire figurer dans le PCS. https://notifications.cnil.fr/notifications/index ;
+• Les dépôts de plaintes peuvent être déposés auprès d’un commissariat de Police ou une Brigade de Gendarmerie.
+Le premier geste donc, le plus important, consiste à couper le réseau informatique en débranchant le câble réseau, • Préalablement vous pouvez vous appuyer sur une assistance technique par un policier ou un gendarme 24h/24, 7j/7.
+se mettre en mode avion pour les connexions 4G/5G ou couper la box internet. L’attaquant n’aura alors plus de prise sur le Il est accessible via https://www.17cyber.gouv.fr/.
+système d’information.
+Pour mémoire, si pour quelque raison que ce soit le CSIRT n’est pas impliqué dans le traitement de votre attaque ou incident
+Ensuite, il faut aussi déconnecter les ordinateurs et, en particulier, celui ou ceux qui semblent impactés. bien que ce soit l’interlocuteur privilégié, il semble important de l’en informer, tant pour qu’il puisse être en veille sur d’autres
+attaques du même type que pour son rôle d’observateur au profit des instances nationales.
+Par contre, il ne faut surtout pas éteindre les ordinateurs sans quoi on supprime les données techniques relatives à l’attaque,
+informations dont on a besoin tant pour l’analyse technique que pour l’instruction judiciaire. Toutes ces informations ont vocation à figurer dans un volet « risque cyber » du PCS. Il est à noter que ce dernier doit rester,
+au regard de l’énumération des vulnérabilités, confidentiel. Considérant que le PCS se doit d’être consultable par les citoyens
+Il est impératif aussi de ne pas utiliser dans ce premier temps les sauvegardes, y compris les sauvegardes « hors ligne ». on prévoira une version caviardée, exempte de toute information sensible (numéros de téléphones, noms, mails, risques
+Même si le réseau est coupé, des logiciels malveillants implantés par l’attaquant pourrait corrompre ces dernières si vous les particuliers etc.).
+connectez.
+Par ailleurs, il doit être disponible, à jour, sous format papier (ou numérique mais hors ligne) car lors d’une attaque il se peut
+Dans un deuxième temps et sans attendre, il faut faire appel à des ressources spécialisées : vous n’êtes pas seul. Il faudra que l’ensemble des ordinateurs soient indisponibles.
+les mentionner dans le PCS avec leurs numéros de téléphone, adresses de courrier électronique ou éventuellement référence
+du site internet si c’est par ce biais qu’il est prévu de les solliciter puis indiquer qui sera en charge de prendre contact. Les Vous trouverez en annexe B quelques modèles de fiches réflexes, à amender et/ou renseigner. La fiche réflexe à vocation à
+différents soutiens sont : être intégrée dans le PCS. Elle doit pouvoir servir de fil rouge pour la cellule de crise.
+• Naturellement votre prestataire s’il cela est prévu au contrat ;
+• Cybermalveillance.gouv.fr en contactant le 17Cyber1 1 Vous trouverez au chapitre III quelques recommandations concernant la cellule de gestion des crises et au chapitre IV et
+• Le CSIRT de votre région s’il y en a un (voir annexe A). annexes associées la méthode pour élaborer le PCA.
+Pour le premier et le denier, il est intéressant de les contacter à l’occasion de l’élaboration du PCS pour connaître leur domaine Simuler sur table une gestion de crise cyber une fois par an semble une bonne initiative, les réflexes s’affinent et cela permet
+et modalités d’intervention, en particulier horaire. Il est à noter que les CSIRT régionaux basculent sur les CERT-FR national, de s’assurer que la fiche est à jour. Y convier quelques agents en observateur peut par ailleurs être des meilleurs effets en
+en cas de fermeture. termes de sensibilisation mais aussi en termes de communication comme quoi le sujet est pris au sérieux.
+Pour rappel, les compétences en cybersécurité demeurent une spécialité du domaine informatique que tous les professionnels Une fois le volet cyber de votre PCS élaboré, comparez-le à ceux des autres risques type ORSEC, cela vous permettra sans
+du numérique ne possèdent pas. doute de l’affiner.
+Assurez-vous que votre prestataire les maîtrise, qu’il connaisse l’Agence Nationale de la Sécurité des Systèmes d’Information Dans une logique de partage de bonnes pratiques nous sommes preneurs de vos résultats afin de les partager dans des
+(ANSSI) et ses publications ainsi que sa formation en ligne Secnumacademie.gouv.fr. Il pourra idéalement avoir des compétences versions ultérieures du document ( pa.pincemin@rennesmetropole.fr jean.godot@all4tec.net ).
+validées par le label ExpertCyber52 délivré par Cybermalveillance.gouv.fr voire une qualification de l’ANSSI3.
+Il est à noter que vous ne serez pas forcément les premiers à identifier l’attaque cyber qui se met en place au sein de votre
+Il est aussi impératif de prévenir au plus tôt les collaborateurs pour éviter de mauvaises manipulations qui pourraient commune. Le CISRT, les services de l’Etat, … peuvent, grâce à leurs outils qui fonctionnent en continue, entrevoir un tel
+aggraver la situation. Sans doute prévoir un message type pour ce faire dans le PCS et d’y préciser qui le évènement. Afin que vous ne soyez pas surpris de tels appels mais au contraire que vous les reconnaissiez comme des
+communique aux agents. interlocuteurs de confiance, il faut les identifier en amont. Le délégué régional de l’ANSSI peut être une aide pour ce faire.
+Vous trouverez la liste des délégués dans les différents territoires en annexe A2 (https://cyber.gouv.fr/delegues-territoriaux ).
+4 pour approfondir ce point consulter le guide de l’ANSSI https://cyber.gouv.fr/publications/anticiper-
+1 https://www.cybermalveillance.gouv.fr/17cyber
+2 https://www.cybermalveillance.gouv.fr/tous-nos-contenus/securisation-cybersecurite-professionnels#definition-service-
+securisation
+3 https://cyber.gouv.fr/decouvrir-les-solutions-qualifiees

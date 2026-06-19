@@ -1,0 +1,67 @@
+PôlE d’ExcEllEncE cybER
+D.1.8 _Usine du futur D.1.11 _Villes intelligentes (Smart cities)
+D.1.8.1 _Industrie et agro-alimentaire Le contexte :
+l’industrie agroalimentaire utilise des systèmes de contrôle industriels pour la Les enjeux pour la smart city
+réalisation des produits. Un accès frauduleux à une chaîne de fabrication pourrait Face au développement de la smart city, les territoires ont à faire face à
+conduire à des produits dangereux pour la santé humaine (ou animale) : mau- trois enjeux majeurs : la résilience du fonctionnement de la smart city pour
+vais dosage de certains ingrédients, mauvais contrôle de température, mauvais éviter le chaos, la bonne gestion de la protection des données person-
+stockage… les conséquences en termes d’image ou de santé publique pour- nelles, dont il faut rappeler que la divulgation peut engager la responsabi-
+raient être très lourdes pour les entreprises qui seraient touchées. lité pénale des élus, et la confiance du citoyen dans le numérique sans la-
+quelle il est illusoire d’espérer pouvoir déployer efficacement de nouveaux
+D.1.8.2 _Cobotique et robotique industrielle services que les enjeux sociétaux appellent.
+l’automatisation de plus en plus forte de la production peut entraîner des
+Les spécificités des smart city
+risques soit visibles (par exemple l’arrêt d’une activité suite à une cyber-
+En son sein nous observons une convergence entre mondes physiques (les
+attaque) soit insidieux (telle la modification malveillante du processus indus-
+systèmes industriels de l’eau, de la mobilité…) et numériques (les systèmes
+triel, un sabotage).
+informatiques de gestion, de services publics…) avec le développement
+dans de même systèmes de nombreux services et la nécessité d’intero-
+D.1.8.3 _Industries culturelles et créatives
+pérabilité entre systèmes, qui plus est de générations différentes et en
+Pour des industries culturelles et créatives, les attaques de plusieurs médias perpétuelle évolution.
+français montrent qu’une vulnérabilité sur le réseau informatique interne peut
+Et dans ce système de systèmes où s’interconnectent SI, Iot et système
+conduire à un impact immédiat sur la « production » (ici les programmes dif-
+industriel, chacun reste souverain sur la gestion de son système.
+fusés par la chaîne). Les impacts financiers directs (pertes de revenus publici-
+taires…) ou indirects (perte d’image) peuvent être très importants.
+Les contraintes réglementaires
+d’une part, il y a la RGPd qui s’applique à tous et dont la déclinaison opé-
+D.1.9 _Drones et robots rationnelle est un enjeu tout particulier au regard de la quantité gigan-
+tesque de données personnes détenues et la volonté d’interopérabilité
+l’usage de drones et de robots télécommandés est en pleine explosion que ce
+entre systèmes.
+soit pour des applications ludiques ou professionnelles. les cas récemment médiati-
+sés de survol de sites sensibles par des drones montrent les risques potentiels liés D’autre part, il y a les règlementations spécifiques pour chaque compo-
+à ces objets. des risques qui peuvent être liés à une prise de contrôle à distance sante de la smart city. On pense plus précisément aux opérateurs d’im-
+d’un drone en vol, et à l’utilisation de drone comme projectile, emportant une portance vitale et aux opérateurs de service essentiel mais aussi à ceux
+charge explosive ou une arme. ce sujet est très dual compte tenu des applica- ayant des contraintes particulières liées à la sureté de fonctionnement par
+tions militaires des drones. exemple comme pour les transports.
+cette problématique sera encore renforcée avec l’apparition de drones ou robots
+À ce jour, il n’existe pas de règlementation «supra système», les smart city
+de plus en plus autonomes.
+étant règlementés comme une somme de systèmes indépendants alors
+qu’ils seront de plus en plus interconnectés (synchronisation des systèmes,
+D.1.10 _Protection de la vie privée
+échange de données …).
+la multiplication des applications numériques, des réseaux sociaux et des
+Les spécificités numériques de la smart city
+usages associés constitue un véritable défi qui peut potentiellement remettre
+la smart city, comme mentionnés supra, est constituée de multiples
+en cause la notion même de vie privée. Il est nécessaire de disposer de solutions
+briques interconnectées (SI, Iot, systèmes industriels) détenant une quan-
+permettant à chacun de maîtriser les informations numériques qu’il souhaite
+tité gigantesque de données dont de nombreuses données personnelles.
+diffuser ou celles qu’il souhaite garder dans un cercle maîtrisé.
+Mais ils se caractérisent aussi par la multiplicité des acteurs y ayant accès
+dont les citoyens à travers certains services publics. Et pour ce qui est du
+À cet égard, un équilibre entre cette protection de la vie privée et la nécessaire
+personnel des opérateurs et des collectivités, pour bon nombre d’entre
+imputabilité des actions est à trouver pour éviter que ces outils ne soient utilisés
+eux la cybersécurité est, au mieux, quelque chose de mal appréhendé, au
+à des fins commerciales (données médicales revendues aux assureurs), délic-
+pire hors des préoccupations.
+tueuses ou criminelles
+72 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 73

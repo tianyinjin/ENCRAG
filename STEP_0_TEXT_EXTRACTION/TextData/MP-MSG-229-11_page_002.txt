@@ -1,0 +1,51 @@
+Orchestrating Manned-Unmanned Missions
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S
+systems increasingly shape modern warfare, NATO and its partners are working to adapt operational
+strategies and enhance force readiness. Exercises like Dynamic Messenger 23 (DYMS23) and REPMUS 23
+are critical in this effort, focusing on integrating Maritime Unmanned Systems (MUS) into complex, multi-
+domain operations. DYMS23, held in September 2023, brings together over 2,000 military and civilian
+personnel from 16 NATO nations, along with partner Sweden. The exercise focuses on testing MUS
+capabilities across various operational areas, including the protection of critical undersea infrastructure, naval
+mine warfare, maritime security operations, and force protection against asymmetric threats [1]. It also
+explores the interoperability of manned-unmanned systems in real-world scenarios, such as amphibious
+operations and medical logistics. REPMUS 23, a precursor to DYMS23, serves as a platform for robotic
+experimentation and prototyping, testing unmanned systems in Anti-Submarine Warfare (ASW), mine
+countermeasures, and rapid environmental assessments [2]. Both exercises are designed to validate new
+tactics, techniques, and procedures while refining Command and Control (C2) frameworks for unmanned
+systems. Together, these exercises enhance operational readiness, interoperability, and the ability to adapt to
+evolving technological landscapes, ensuring that NATO forces remain prepared for future challenges in
+multi-domain operation. However, such exercises are resource-intensive and require complex coordination.
+Modelling and Simulation (M&S) can address these challenges by reducing costs and improving efficiency,
+enabling realistic mission demonstrations without the logistical burden of live exercises. This paper presents
+ongoing work on a new AI-based test-bed that simulates NATO exercises, allowing both manned and
+unmanned systems to co-train and collaborate in a simulated environment. The platform uses data from
+sensors and situational awareness tools to assess team readiness, predict capabilities, and recommend
+dynamic tasking, ultimately enhancing mission effectiveness in multi-domain operations.
+1.1 Manned-Unmanned Teaming in Multi-Domain Operations
+Manned-unmanned Teaming (MUM-T) refers to the coordinated operations of autonomous uncrewed
+systems working along-side humans. It redefines team dynamics with new roles, authority, structures,
+learning, coordination and task allocation processes. It allows multi-agent teams with different types of
+capacities, knowledge and interdependence to be combined across domains, for diverse missions. MUM-T
+can enhance teams’ capabilities, creating a force multiplier, minimizing cost of human risks and deployments
+in operations, while enabling co-learning capabilities. In the following section we will discuss some of the
+elements which make MUM-T challenging, and how AI and M&S can help address these.
+1.1.1 Autonomous and Unmanned Agent
+NIST defines autonomy in Unmanned Systems (UMS) as their ability to sense, perceive, analyze,
+communicate, plan, make decisions, and execute tasks to achieve specific goals, often with little to no human
+intervention. Autonomy is categorized by Human Independence (HI) and Contextual Autonomous
+Capability (CAC), which takes into account the types of missions, environments, and the level of human
+involvement allowed [3]. In practice, autonomous operations enable UMS to perform tasks assigned by
+human operators or other systems, incorporating capabilities like navigation, targeting, and obstacle
+avoidance. However, it is important to note that the idea of UMS fully replacing humans—either in
+achieving the same mission outcomes or reducing casualties is overly simplistic. Unlike humans, UMS lack
+the flexibility and adaptability needed in dynamic and unpredictable combat scenarios [3]. Broadly,
+unmanned systems are defined as powered platforms without onboard operators, which rely on external
+control units, computers, and communication systems to receive commands, gather data, and execute
+missions [3]. Examples include unmanned ground (UGV), unmanned aerial (UAV), unmanned maritime
+(UMV), unmanned underwater (UUV), unmanned water surface borne vehicles (USV), unattended
+munitions (UM), and unattended ground sensors (UGS). These are increasingly becoming integral
+components of various applications, from military operations to environmental monitoring. These systems
+are typically equipped with a wide array of sophisticated autonomous capabilities, which allow them to
+perform complex tasks such as target identification, detection, and tracking. A key technology that enables
+these functions is computer vision, with algorithms such as YOLO (You Only Look Once) and
+11 - 2 STO-MP-MSG-229

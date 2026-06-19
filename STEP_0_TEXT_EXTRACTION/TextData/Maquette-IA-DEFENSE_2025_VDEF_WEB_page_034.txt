@@ -1,0 +1,47 @@
+34 Pôle d’excellence cyber
+Standardisation et industrialisation
+des tests de cyber résilience des IA
+Nicolas KALMANOVITZ Christophe MARNAT
+SVP Sales Europe & Africa
+Chief Operating Officer
+Yogosha
+Yogosha
+Ces dernières années, la vitesse d’évolution et récemment, la checklist OWASP Top 10 LLM (2025), qui
+d’adoption des technologies d’IA générative dépasse est devenue une référence pour atténuer les risques
+largement la capacité des organisations à déployer des IA génératives. Cependant, ces standards généraux
+des protocoles de sécurité adaptés. Cela engendre une doivent être adaptés à la variété des assets et des
+augmentation significative des risques et des menaces. contraintes des systèmes d’information qui les abritent, y
+Dans ce contexte, comment assurer la cyber- compris les plus sensibles, tout en créant les conditions de
+résilience des IA dans des domaines sensibles ? l’industrialisation des tests tout au long de leur cycle de vie.
+Nous pensons que ce défi peut être relevé grâce à
+Expérimentations récentes : une méthodologie
+une collaboration ouverte et une standardisation
+éprouvée
+rapide, soutenues par des plateformes numériques qui
+En 2023 et 2024, deux initiatives ont émergé dans des
+accélèrent la pratique des checklists de tests de sécurité.
+contextes variés afin de répondre à un même enjeu :
+L’histoire et l’importance des checklists l’absence de tests de sécurité standardisés pour certains
+Depuis l’Antiquité, les sociétés utilisent des checklists assets critiques. La première initiative menée par le
+pour standardiser des savoirs complexes, comme Groupe ADP (Aéroport de Paris) et Yogosha visait à
+en architecture ou en médecine. Au XXe siècle, leur industrialiser les tests de sécurité des équipements
+efficacité les a rendues indispensables dans des de sécurité (scanners de personnes et d’équipements,
+secteurs clés de notre modernité tels que l’aviation, détecteurs d’explosifs, etc.) tandis que la seconde entre
+la médecine, l’industrie, et l’exploration spatiale. le CNES et Yogosha avait pour objectif d’industrialiser
+les tests de sécurité sur les systèmes spatiaux (stations
+Avec l’explosion de l’Internet au début du XXIe siècle, sols, systèmes spatiaux, systèmes de liaisons, etc).
+la sécurité des applications web est devenue critique.
+Une démarche structurée en plusieurs étapes a été
+C’est à ce moment-là que la fondation OWASP a
+expérimentées dans les deux cas :
+révolutionné le domaine en mettant en place une
+approche collaborative pour identifier les vulnérabilités, 1. Déploiement d’une plateforme digitale pour piloter
+prioriser les risques et produire des ressources open- les tests offensifs, centraliser les vulnérabilités et
+source, comme le célèbre Top 10 OWASP. Par son action, s’adapter aux contraintes d’hébergement (SecNum
+l’OWASP a amélioré la sécurité des systèmes, standardisé Cloud, on-premise connecté ou déconnecté).
+les pratiques et influencé des normes internationales 2. Collaboration interdisciplinaire : réunir des
+(ISO, PCI DSS) tout en facilitant l’intégration de la sécurité experts internationaux et des membres
+dès la conception des systèmes (Security by Design). de l’organisation pour tester les systèmes
+pendant plusieurs jours à distance ou sur site.
+Depuis 2023, OWASP a élargi ses travaux à l’intelligence 3. Analyse collaborative : partager les scénarios
+artificielle avec l’AI Security and Privacy Guide et, plus

@@ -1,0 +1,41 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+Extent of ability of CV model to consistently Localization Accuracy
+localize and track a target across multiple frames
+through aligning a predicted bounding box or
+tracker crosshair with its actual position
+Against more fine-grained contextual qualities such as:
+System-to-target Class-based performance differentials of above Drone size tolerance
+fit performance metrics, across differing drone sizes, to Small (l x w x h < 2m3)
+ensure CV model tested will perform evenly across Medium drones (2m3 < l x w x h <
+drone types. 10m3)
+Large drones (l x w x h > 10m3)
+Drone type tolerance
+Fixed-wing
+Rotary-wing
+Other
+Drone quantity tolerance
+Single
+Multiple/swarm
+Robustness to Performance differentials of above performance Indoors, enclosed
+environmental metrics, under varying environmental conditions,
+factors that would be expected in the deployment
+environment of interest, to stress-test CV models Partial occlusion
+prior to actual deployment in said environments
+Weather tolerance
+Rain
+Ambient light
+Fog & Mist
+Snow
+Backdrop tolerance
+Against cloud/sky
+Against urban
+Against foliage
+Sensor Behavior Performance differentials of above performance Sensor jitter
+Tolerance metrics, across scenarios with varying sensor
+system behaviors, characteristics, and motion, to
+stress-test CV models prior to actual deployment in Sensor frame drops
+said scenarios
+Image noise
+Sensor artifacts
+1A.03 - 14 STO-MP-IST-210

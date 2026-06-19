@@ -1,0 +1,42 @@
+ Etape 2 : présentation sur table du PIV et du PPP par l’opérateur
+L’opérateur présente le PIV et le PPP pour permettre à l’équipe de contrôle d’apprécier sur table la
+politique générale de sécurité du PIV. Il précise l’activité du PIV, son organisation, son
+fonctionnement et les grandes lignes de l’analyse de risque du PPP (scénarios de menace,
+vulnérabilités).
+ Etape 3 : contrôle des mesures de protection
+- Protection physique
+Le site est visité avec l’opérateur selon une logique concentrique, de l’extérieur (contour et entrée
+du PIV) vers l’intérieur (composants névralgiques du PIV). Le système de défense en profondeur
+doit ainsi pouvoir être identifié et compris, ses éventuelles lacunes détectées.
+Les mesures de sécurité existantes sont comparées aux prescriptions du PPP et leur pertinence est
+jugée non seulement par rapport à l’analyse de risque qu’il contient mais aussi par rapport aux
+vulnérabilités identifiées par ailleurs par l’équipe de contrôle.
+Le contrôle des mesures du plan VIGIPIRATE applicables au PIV est effectué. Sont notamment
+vérifiées l’application des mesures actives et la préparation des autres mesures graduées prévues
+dans le PPP comme par exemple le contrôle des personnes ou les mesures face aux menaces NRBC-
+E.
+- Sécurité des systèmes d’information
+Le contrôle de la sécurité des systèmes d’information est effectué lorsque un système
+d’information27 constitue ou est susceptible de constituer un composant névralgique du PIV.
+Le contrôle comporte une analyse technique du niveau de sécurité du système d'information, au
+regard des mesures de sécurité des systèmes d'information présentées dans le PPP, mais aussi par
+rapport aux menaces et vulnérabilités identifiées par ailleurs par l'équipe de contrôle, sur site, et à la
+lecture des documents transmis.
+Les contrôles ne se limitent donc pas à un audit de l’organisation SSI (procédures, maintien en
+condition de sécurité) et à un contrôle de la sécurité physique des composants du système
+d’information, mais incluent également un examen technique du système d’information pouvant
+notamment comprendre :
+ le relevé d’informations techniques (configurations du système, journaux d’évènements, traces
+d’incidents, etc.) ;
+ la réalisation de tests d’intrusion dans le système d’information ;
+ l’analyse du code source des logiciels ;
+ la conduite d’entretiens avec les personnes en charge de l’administration du système ;
+ et plus généralement toutes actions permettant d’analyser le niveau de sécurité.
+Les interventions réalisées sont conformes à celles définies lors de la planification du contrôle. Une
+convention entre l’OIV et l’ANSSI peut être préalablement établie en tant que de besoin pour
+préciser les conditions dans lesquelles ces interventions sont effectuées. Sous son contrôle, le PIV
+met à disposition de l’ANSSI un accès direct à son système d’information pour permettre ces
+interventions.
+27 il peut s’agir de tout système d’information du PIV, y compris les systèmes d’information pilotant les systèmes
+industriels de l’OIV.
+IGI 6600 – SAIV – 7 janvier 2014 39

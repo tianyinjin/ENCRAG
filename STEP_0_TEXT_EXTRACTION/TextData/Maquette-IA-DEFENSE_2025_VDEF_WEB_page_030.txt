@@ -1,0 +1,45 @@
+30 Pôle d’excellence cyber
+Vers la sécurisation et la frugalité
+des fonctions IA embarquées
+Gaëtan Le Guelvouit Stéphane Paquelet
+Direction Performance Direction Performance
+et Innovation et Innovation
+b<>com b<>com
+Les fonctions d’intelligence artificielle se sont imposées exhaustive d’une fonction de vraisemblance dans le cadre
+dans de nombreux domaines, permettant d’accélérer de problèmes d’estimation statistique présente souvent
+des tâches répétitives, d’améliorer l’expérience utilisateur une complexité combinatoire difficilement compatible
+et même de contribuer à la création. Jusqu’à récemment, avec les matériels limités en mémoire et en puissance
+ces fonctions étaient essentiellement exécutées dans le de calcul. Dans ces cas, il est parfois nécessaire de faire
+cloud afin de pouvoir accéder aux puissances de calcul des compromis en sacrifiant une partie de la précision
+et d’énergie nécessaires. Mais on voit apparaître depuis statistique pour répondre aux contraintes d’exécution.
+peu des architectures dédiées à l’IA, les NPU (Neural
+Processing Unit), pendants neuronaux des classiques Parallèlement, les réseaux neuronaux se sont imposés
+CPU et GPU. grâce à leur propriété d’approximation universelle. Ils
+permettent d’approcher des fonctions non linéaires
+Du fait de leur conception et de leur spécialisation, complexes pour des tâches variées, mais ne répondent
+les NPU permettent l’exécution locale de fonctions pas toujours aux exigences statistiques, comme la
+IA avec une consommation énergétique réduite. Ces réduction des biais ou la résistance au bruit.
+composants sont désormais présents sur la plupart des
+smartphones haut de gamme, dans les téléviseurs ou Pour concilier ces deux approches – optimalité statistique
+dans les ordinateurs portables. et traitement en temps réel –, nous proposons d’utiliser
+systématiquement des interpolateurs neuronaux
+L’exécution locale représente un atout en matière de peu profonds (shallow neural networks) pour calculer
+confidentialité et d’intégrité. Toutefois, les capacités des automatiquement les critères statistiques comme le
+NPU restent souvent limitées, notamment en termes de maximum de vraisemblance.
+mémoire – réduisant ainsi la taille des modèles – et ne
+Ces architectures permettront de :
+prévoient généralement pas de mécanismes intégrés
+• réduire la complexité de calcul tout en
+de protection.
+maintenant des performances satisfaisantes,
+• et répondre aux contraintes des systèmes
+Nous décrivons dans cet article deux approches
+embarqués, où la capacité de calcul et la
+permettant de construire des réseaux compacts de
+consommation énergétique sont limitées.
+traitement du signal et d’assurer leur sécurité.
+Algorithmes frugaux et interpolateurs neuronaux La conception de ces réseaux peut s’appuyer
+sur des données simulées, en combinant des
+Le traitement du signal en temps réel repose sur un modèles théoriques du signal et des mécanismes
+compromis délicat entre optimalité statistique et d’apprentissage automatique. Cela pourrait marquer
+simplicité algorithmique. Par exemple, l’exploration

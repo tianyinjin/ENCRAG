@@ -1,0 +1,52 @@
+Capteurs Leurrage, masquage, éblouissement153, surtensions, impact et
+Edge échauffement
+computing localisé
+IA
+de l’agent
+Autopilote
+Surtensions
+Navigation
+Structure Échauffement localisé, impact cinétique
+Vecteur
+Propulsion Epuisement
+Moteurs de
+rotor
+Perturbations électriques
+Actionneurs
+de gouvernes
+Figurent en gras les briques qui sont systématiquement présentes ;
+Figurent soulignées les briques dont l’une ou l’autre est forcément présente ;
+Figurent en italique les briques qui ne sont pas nécessairement présentes, compte tenu de la variété
+des technologies employées (types d’essaims, types de drones).
+Cellule propulsée (Il n’y a pas de particularité propre à l’essaim, si ce n’est un besoin accru
+de refroidissement lorsque la densité d’électronique embarquée augmente)
+Electronique embarquée (Les vecteurs d’un essaim « intelligent » se caractérisent par une
+forte densité électronique et logicielle)
+- IMPACT DE CES VULNERABILITES PAR TYPE D’ESSAIM
+Les vulnérabilités exploitables sont plus ou moins conséquentes suivant le type d’essaim. Elles peuvent
+être :
+Critiques : Une telle vulnérabilité met fin à la tâche : la menace est traitée, en une ou plusieurs fois.
+Vulnérabilités critiques Vulnérabilités critiques
+Type
+spécifiques communes
+Scripté Brouillage du lien de navigation154
+Surtensions, impacts cinétiques,
+Téléopéré Brouillage du lien vers le C2
+perturbations électriques
+« Intelligent »
+Significatives : Une telle vulnérabilité dégrade la performance : elle diminue nettement l’efficacité de
+l’essaim.
+Vulnérabilités significatives Vulnérabilités significatives
+Type
+spécifiques communes
+Scripté
+Leurrage, masquage,
+Téléopéré Brouillage du lien de navigation
+échauffement localisé155
+« Intelligent »
+153 CMO : contre-mesures optroniques.
+154 Lorsque l’unique source de positionnement est extérieure (GNSS).
+155 Au vu des technologies actuelles, l’échauffement localisé sur un nombre limité de vecteurs, peut,
+dans certaines conditions et au prix d’une durée d’exposition significative, conduire à la destruction
+d’un nombre limité de drones mais ne saurait mettre hors de combat un essaim de taille significative.
+54

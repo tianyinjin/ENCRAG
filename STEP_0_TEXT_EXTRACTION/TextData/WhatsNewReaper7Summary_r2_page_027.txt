@@ -1,0 +1,28 @@
+REAPER 7.0: What’s New
+MIDI Editor: Settings
+Option added (Options, Preferences,
+Editing Behavior, MIDI Editor) for when
+using one MIDI editor per project for active
+MIDI item to follow selection changes in
+arrange view. This can be set to on a per
+track basis or per media item basis.
+MIDI Editor: CC Lane Improvements
+The File menu has new commands to Rename last clicked note and Rename last-clicked CC lane.
+The CC Lane dropdown menu includes Set lane (lanes with
+events) which will display a list of all lanes that already contain
+data, whether they are currently displayed or not. Shown here, this
+includes Velocity, Off Velocity and Pitch. Select one to display that
+lane.
+When using the pitch lane, you can set a custom pitchwheeel range (in
+semitones), by right clicking over the text “Snap” and typing a number.
+Optionally, you can also engage the snap option.
+To scroll through the list of available CC lanes: to do
+this, hover your mouse over the currently displayed
+name and scroll with the mousewheel (see left).
+For vertical zoom within a CC lane use Ctrl Mouse wheel: for horizontal zoom use Ctrl Alt Mouse wheel. For
+horizontal zoom use Alt Mousewheel.
+Rendering Formats: Raw PCM Data Supported
+Render to File dialog now allows you to choose
+Raw PCM data as either your primary or
+secondary output format.
+Page 27

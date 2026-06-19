@@ -1,0 +1,35 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+- tous les flux entrants ou sortants du
+système industriel doivent être
+journalisés.
+Les moyens assurant le filtrage peuvent
+être physiques et/ou dédiés selon les
+risques à couvrir et dans la mesure du
+possible.
+Lorsque des flux non-IP doivent transiter entre deux zones distinctes, effectuer un Dans le cas d’Ethernet, on pourra
+RSO6 TECH filtrage* sur les identifiants source et destination, ou un filtrage* sur les protocoles R O O effectuer le filtrage* sur les adresses
+autorisés. MAC source et destination.
+Mettre en place des flux unidirectionnels entre deux zones de classes* différentes
+afin de n'autoriser les flux que de la zone de classe* la plus élevée vers la zone de L’unidirectionnalité des flux pourra être
+RSO7 TECH R
+classe* la moins élevée. Dans le cas de zones de classe 3, l’unidirectionnalité est assurée par un pare-feu.
+assurée par une diode labellisée.
+Former au moins une zone de sécurité* à part entière pour le réseau
+RSO8 TECH R O O
+d’administration.
+Le périmètre porte sur les équipements
+Cloisonner le réseau d’administration des équipements des autres réseaux de d’informatique classique comme les
+RSO9 TECH C R O
+manière physique. commutateurs, passerelles, routeurs,
+pare-feu, etc.
+Protéger le système industriel du système d’information de gestion* (niveau 4) par
+RSO10 TECH R O O
+un dispositif de filtrage* (pare-feu). Les flux sont limités au strict minimum.
+Proscrire l’usage de protocoles non sécurisés (telnet, http, ftp, etc.) en leur
+privilégiant des protocoles garantissant confidentialité, intégrité, authenticité des
+points communicants (https, ssh, sftp, bacnets-c).
+RSO11 TECH Si l'usage de protocoles non sécurisés est nécessaire pour des raisons techniques O
+et opérationnelles, mettre en place des mesures compensatoires comme :
+- mettre en place des protections paramétriques (pare-feu) ;
+- encapsuler les flux dans un VPN pour en assurer l’authenticité et l’intégrité.
+DIR-39 SNSI – 2eme édition Page 57 | 79

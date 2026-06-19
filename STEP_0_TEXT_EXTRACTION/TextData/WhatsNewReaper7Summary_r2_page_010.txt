@@ -1,0 +1,56 @@
+REAPER 7.0: What’s New
+3. Insert a new track after your recorded track. Expand its height to be similar to that shown above.
+4. Now record, one at a time, two takes of a second instrument, to go with your first track, both on the
+same track, one over the top of the other. When finish, disarm the record button.
+Your arrange view display should now be something like this (below right).
+There’s a lot here to explore,
+including those buttons, but first,
+let’s make sure we understand
+what’s happened.
+Two separate media items have
+been recorded and are displayed
+in lanes one above the other. By
+default, only one item will play
+back: there are options to
+change this, for example, to play a selection of lanes, or all lanes. They each exhibit all the properties and
+features of any media item, for example:
+ You can double click on any item to access and edit its media properties, such as pitch, pan, etc.
+ Keep in mind that Options, Preferences, Appearance, Media will allow you, for example, to add a volume
+knob or FX button to items: you can then add FX and FX parameter envelopes.
+ You can split items and edit individual segments independently of each other.
+ You can set the default height for fixed item lanes to small or big (Options, Preferences, Project,
+Track/Send Defaults).
+Managing Items
+In this next section, we will look at managing and editing your media items.
+Right click over (or just below) either of the buttons to display a context menu. Note that
+this includes a set of three playback commands – Play only (selected) lane, Toggle
+playing lane and Play all lanes. Where there are multiple lanes, you can select any
+number of lanes to be played back by Ctrl click on the lane names.
+When layering, the tricks and techniques described below are at your disposal.
+Menu option/Mouse option Comments
+Select playback lane(s) from Click on a lane’s button/Right click in lanes panel, select Play only
+menu lane, Toggle playing lane or Play all lanes from menu.
+Select lanes to play Click on first lane’s button then use Ctrl click to build selection.
+Select items Selects all media items in currently selected lane.
+Duplicate items to new lane Copies all media items in currently selected lane into a new lane. You
+might use this, for example, if you have “dry” recorded material and
+you want to experiment with editing and/or FX, using the original dry
+material as a reference point.
+Recording, Record into lane Select lane for recording and choose
+Recording, Record into lane from
+Recording, Record into first
+menu. A red dot will be displayed. Can be
+available lane
+used, for example, for overdub recording,
+Recording, Layer new lanes
+as shown here. You can also enable Play only this lane.
+If Record into first available lane is disabled, a new lane will be
+created for every recording.
+If Layer new lanes is enabled then new lanes will play alongside
+any lanes that are already playing: otherwise the new lane is the only
+one that will be played.
+Toggle a track’s fixed item lane Right click over the track’s control panel and use the toggle
+status on/off command Fixed item lanes on the context menu.
+Add empty lane at bottom Adds lane as last lane in track. Media items can be dragged from
+elsewhere and dropped inside this lane.
+Page 10

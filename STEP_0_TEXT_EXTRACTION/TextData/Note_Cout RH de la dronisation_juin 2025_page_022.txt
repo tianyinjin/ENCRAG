@@ -1,0 +1,34 @@
+Tableau 1 – Systèmes de Situational Awareness développés en Ukraine
+Source : Viktor Putrenko, Nataliia Pashynska « Military situation awareness: Ukrainian experience, » ACIG, vol. 3, n° 1, 2024
+En réalité, l’information collectée doit être traitée à deux niveaux distincts, si ce n’est plus.
+L’écosystème Delta et les applications autour donnent en effet une certaine immédiateté
+dans l’accès à l’information, qui pourra être exploitée « telle quelle ». Pour traiter la quan-
+tité impressionnante de données, différents types de réseaux neuronaux sont utilisés : les
+réseaux neuronaux convolutifs (CNN – Convolutional Neural Network) et les réseaux neu-
+ronaux récurrents (RNN – Recurent Neural Network). L’emploi de ces deux systèmes per-
+met non seulement de détecter des objets, mais aussi de reconnaître des paternes dans
+l’activité surveillée57. L’équipe de volontaires connue sous le nom d’Avengers a ainsi dû
+mettre en place un certain nombre de prérequis pour permettre à ces réseaux de fonction-
+ner, le ministère de la Défense ukrainien ne disposant pas des capacités nécessaires. Ainsi,
+des datasets ont été créés par des volontaires, avec un étiquetage des matériels, pour en-
+traîner des intelligences artificielles sur la détection d’un ensemble d’objets.
+L’intégration de ce type d’IA dans l’écosystème Delta permet, petit à petit, de diminuer la
+charge des opérateurs de drones. Ces derniers doivent toujours renseigner manuellement
+les matériels identifiés, mais bénéficient d’une aide de plus en plus importante. Cepen-
+dant, les ressources étant limitées – notamment sur la puissance de calcul disponible sur
+les ordinateurs et tablettes des unités – l’utilisation de l’IA semble rester réservée aux vi-
+déos les moins faciles à lire pour un opérateur humain. Il est à noter que, le flux de vidéos
+des drones pouvant être partagé par Vezha, ce n’est pas nécessairement l’opérateur du
+drone lui-même qui doit rentrer les données. Dans d’autres domaines, l’IA est aussi parti-
+culièrement efficace pour la détection acoustique, à tel point que des drones équipés de
+haut-parleurs ont été mis au point pour limiter cette capacité58.
+S’il parait évident que l’inflation de données récoltées par l’ensemble des capteurs va de-
+mander des capacités humaines plus importantes pour tout trier, il est aujourd’hui difficile
+de calculer la masse nécessaire pour accomplir cette tâche. Cependant, une comparaison
+peut être effectuée avec un drone plus traditionnel, le Reaper. Dans l’emploi qui en était
+fait par l’US Air Force il y a 10 ans, une Combat Air Patrol comprenant quatre appareils et
+les équipements au sol mobilisait 171 personnes. Parmi cette équipe, 66 étaient chargées
+de traiter les informations recueillies par les drones et 13 opérateurs de capteurs, soit au
+57 Kateryna Bondar, « Ukraine’s Future Vision and Current Capabilities for 58 Про зв'язок від Сергія Флеш, Telegram, 20 mai 2025.
+Waging AI-Enabled Autonomous Warfare », CSIS, 6 mars 2025.
+Le coût de la dronisation en ressources humaines P.22

@@ -1,0 +1,41 @@
+socle (par exemple, les systèmes embarqués, les systèmes d’armes, etc.), des SI présentant un fort
+niveau de criticité (un ou plusieurs critères de risques (DICT11) au niveau maximum).
+Pour les systèmes non industriels, l’AH pourra s’appuyer sur le questionnaire d’évaluation initiale (QEI)
+proposé par le [GUIDE 7] pour orienter ses choix. Pour les systèmes industriels, une méthode et des
+outils sont proposés dans [DIR 39]. Toutefois, l’AH reste seule décisionnaire du choix de la
+démarche, hormis pour les SI auxquels la réglementation et la présente directive peuvent
+imposer une démarche standard (RGS, SIIV).
+Principe de l’héritage12
+Dans le cadre des homologations, le principe d’héritage consiste à utiliser les résultats d’une analyse
+de risques déjà conduite sur un modèle. Celui-ci peut désigner un composant (physique, logiciel), un
+service, voire une architecture type.
+Un modèle est constitué :
+● d’une description permettant de l’identifier clairement ;
+● d’un niveau de sécurité défini comme l’ensemble des résultats de l’analyse de risques
+sous forme de critères de sécurité (DICT, etc.) et des risques résiduels ;
+● de prérequis sous forme de recueil d’exigences vérifiables.
+Tout modèle doit être validé par le CEAH.
+L’objet hérite d’un modèle quand il utilise les éléments constituant ce modèle pour identifier, évaluer et
+hiérarchiser les risques portant sur le SI.
+Les risques13 associés à l’objet qui hérite doivent alors être évalués à partir :
+● du niveau de sécurité du modèle hérité ;
+● de l’état de conformité du SI au prérequis.
+Les modèles hérités ainsi que l’évaluation des risques associés aux objets qui héritent sont insérés
+dans le dossier d’homologation.
+DÉCISION D’HOMOLOGATION
+Objectifs
+La décision d’homologation est l’acte officiel par lequel l’AH atteste que :
+● les risques résiduels sont bien identifiés, évalués et acceptés ;
+● les ressources affectées à la démarche sont en adéquation avec les enjeux portés par
+le SI ;
+● le dossier d’homologation est satisfaisant et a fait l’objet d’une validation par le CEAH
+(cf. §4.4) ;
+● les mesures annoncées dans le dossier d’homologation sont effectives ou le seront au
+terme de la réalisation du PACS dont la complétude devra être vérifiée par le RSSI ;
+11 Disponibilité, Intégrité, Confidentialité, Traçabilité au minimum.
+12 Le principe d’héritage est implicitement utilisé pour les composants ou services certifiés ou labellisés. Le modèle
+est alors défini par le certificat et le rapport de certification.
+13 Dans le cadre de la méthode EBIOS RM, le composant ou le service du SI qui hérite est alors considéré
+comme une partie prenante du SI dont le niveau de confiance ou de menace est évalué à partir des besoins
+atteints par le modèle, des résultats de l’analyse de risques et de l’état de conformité du SI aux prérequis.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 21/47

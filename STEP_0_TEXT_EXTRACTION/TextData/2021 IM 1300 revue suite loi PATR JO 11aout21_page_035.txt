@@ -1,0 +1,48 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+Réponses aux incidents liés à la sécurité des systèmes d’information classifiés
+Lorsqu’un organisme détient un système d’information pour le traitement des informations
+classifiées qu’il échange ou détient, il se dote d’un dispositif technique et humain de gestion
+des incidents afin de détecter et d’analyser les attaques et de réagir face à des événements
+susceptibles d’affecter la sécurité du système d’information classifié.
+Ce dispositif s’appuie notamment sur des systèmes de détection conformes au paragraphe
+6.6.4.5.
+Les chaînes fonctionnelles de protection du secret et de sécurité des systèmes d’information
+évaluent les conséquences de ces incidents de sécurité et prennent les décisions adaptées en
+réaction. En particulier, l’officier de sécurité informe de l’incident l’officier de sécurité de
+l’organisme émetteur de l’information classifiée. L’ensemble des actions entreprises à la suite
+d’un incident de sécurité ou d’une compromission est répertorié par l’organisme émetteur dans
+un registre dédié.
+L’agence nationale de la sécurité des systèmes d’information et le service enquêteur compétent
+sont tenus informés des incidents de sécurité et de leurs caractéristiques techniques affectant
+les systèmes d’information classifiés.
+Sanction de la divulgation non autorisée d’informations et supports portant la
+mention de protection Diffusion Restreinte
+La mention Diffusion Restreinte n’est pas un niveau de classification mais une mention de
+protection et n’a ainsi pas pour effet de conférer la protection pénale propre au secret de la
+défense nationale. Pour autant, la divulgation d’informations et supports portant la mention
+Diffusion Restreinte à des personnes physiques ou morales n’ayant pas le besoin d’en connaître
+est susceptible d’exposer son auteur à des sanctions disciplinaires, administratives, et
+éventuellement pénales notamment au titre de la violation du secret professionnel.
+2 STRUCTURES ET INSTRUMENTS DE PILOTAGE ET DE MISE EN ŒUVRE
+La protection du secret de la défense nationale est une responsabilité du Premier ministre. À ce titre, avec
+l’appui du secrétaire général de la défense et de la sécurité nationale, il :
+- (cid:71)(cid:112)(cid:73)(cid:76)(cid:81)(cid:76)(cid:87)(cid:3) (cid:72)(cid:87)(cid:3) (cid:70)(cid:82)(cid:82)(cid:85)(cid:71)(cid:82)(cid:81)(cid:81)(cid:72)(cid:3) (cid:79)(cid:68)(cid:3) (cid:80)(cid:76)(cid:86)(cid:72)(cid:3) (cid:72)(cid:81)(cid:3) (cid:176)(cid:88)(cid:89)(cid:85)(cid:72)(cid:3) (cid:71)(cid:72)(cid:86)(cid:3) (cid:80)(cid:72)(cid:86)(cid:88)(cid:85)(cid:72)(cid:86)(cid:3) (cid:74)(cid:112)(cid:81)(cid:112)(cid:85)(cid:68)(cid:79)(cid:72)(cid:86)(cid:3) (cid:81)(cid:112)(cid:70)(cid:72)(cid:86)(cid:86)(cid:68)(cid:76)(cid:85)(cid:72)(cid:86)(cid:3) (cid:106)(cid:3) (cid:79)(cid:68)(cid:3) (cid:83)(cid:85)(cid:82)(cid:87)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81)(cid:3) (cid:71)(cid:72)(cid:86)(cid:3)
+(cid:76)(cid:81)(cid:73)(cid:82)(cid:85)(cid:80)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:86)(cid:3)(cid:72)(cid:87)(cid:3)(cid:86)(cid:88)(cid:83)(cid:83)(cid:82)(cid:85)(cid:87)(cid:86)(cid:3)(cid:70)(cid:79)(cid:68)(cid:86)(cid:86)(cid:76)(cid:73)(cid:76)(cid:112)(cid:86)(cid:15)(cid:3)(cid:84)(cid:88)(cid:72)(cid:79)(cid:3)(cid:84)(cid:88)(cid:72)(cid:3)(cid:86)(cid:82)(cid:76)(cid:87)(cid:3)(cid:79)(cid:72)(cid:88)(cid:85)(cid:3)(cid:81)(cid:76)(cid:89)(cid:72)(cid:68)(cid:88)(cid:3)(cid:71)(cid:72)(cid:3)(cid:70)(cid:79)(cid:68)(cid:86)(cid:86)(cid:76)(cid:73)(cid:76)(cid:70)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:30)
+- (cid:71)(cid:112)(cid:87)(cid:72)(cid:85)(cid:80)(cid:76)(cid:81)(cid:72)(cid:3)(cid:79)(cid:72)(cid:86)(cid:3)(cid:70)(cid:85)(cid:76)(cid:87)(cid:113)(cid:85)(cid:72)(cid:86)(cid:3)(cid:71)(cid:72)(cid:3)(cid:70)(cid:79)(cid:68)(cid:86)(cid:86)(cid:76)(cid:73)(cid:76)(cid:70)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:3)(cid:72)(cid:87)(cid:3)(cid:80)(cid:82)(cid:71)(cid:68)(cid:79)(cid:76)(cid:87)(cid:112)(cid:86)(cid:3)(cid:71)(cid:72)(cid:3)(cid:83)(cid:85)(cid:82)(cid:87)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81)(cid:3)(cid:71)(cid:72)(cid:86)(cid:3)(cid:76)(cid:81)(cid:73)(cid:82)(cid:85)(cid:80)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:86)(cid:3)(cid:72)(cid:87)(cid:3)(cid:86)(cid:88)(cid:83)(cid:83)(cid:82)(cid:85)(cid:87)(cid:86)(cid:3)(cid:70)(cid:79)(cid:68)(cid:86)(cid:86)(cid:76)(cid:73)(cid:76)(cid:112)(cid:86)(cid:3)
+(cid:68)(cid:88)(cid:3)(cid:81)(cid:76)(cid:89)(cid:72)(cid:68)(cid:88)(cid:3)(cid:55)(cid:85)(cid:113)(cid:86)(cid:3)(cid:54)(cid:72)(cid:70)(cid:85)(cid:72)(cid:87)(cid:3)(cid:73)(cid:68)(cid:76)(cid:86)(cid:68)(cid:81)(cid:87)(cid:3)(cid:79)(cid:182)(cid:82)(cid:69)(cid:77)(cid:72)(cid:87)(cid:3)(cid:71)(cid:72)(cid:3)(cid:70)(cid:79)(cid:68)(cid:86)(cid:86)(cid:76)(cid:73)(cid:76)(cid:70)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:86)(cid:3)(cid:86)(cid:83)(cid:112)(cid:70)(cid:76)(cid:68)(cid:79)(cid:72)(cid:86)(cid:3)(cid:72)(cid:87)(cid:3)(cid:72)(cid:81)(cid:3)(cid:70)(cid:82)(cid:81)(cid:87)(cid:85)(cid:123)(cid:79)(cid:72)(cid:3)(cid:79)(cid:68)(cid:3)(cid:80)(cid:76)(cid:86)(cid:72)(cid:3)(cid:72)(cid:81)(cid:3)(cid:176)(cid:88)(cid:89)(cid:85)(cid:72)(cid:30)
+- (cid:68)(cid:86)(cid:86)(cid:88)(cid:85)(cid:72)(cid:3)(cid:79)(cid:182)(cid:76)(cid:81)(cid:87)(cid:72)(cid:85)(cid:73)(cid:68)(cid:70)(cid:72)(cid:3)(cid:68)(cid:89)(cid:72)(cid:70)(cid:3)(cid:79)(cid:72)(cid:86)(cid:3)(cid:68)(cid:88)(cid:87)(cid:82)(cid:85)(cid:76)(cid:87)(cid:112)(cid:86)(cid:3)(cid:81)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:68)(cid:79)(cid:72)(cid:86)(cid:3)(cid:71)(cid:72)(cid:3)(cid:86)(cid:112)(cid:70)(cid:88)(cid:85)(cid:76)(cid:87)(cid:112)(cid:3)(cid:112)(cid:87)(cid:85)(cid:68)(cid:81)(cid:74)(cid:113)(cid:85)(cid:72)(cid:86)(cid:3)(cid:72)(cid:87)(cid:3)(cid:86)(cid:182)(cid:68)(cid:86)(cid:86)(cid:88)(cid:85)(cid:72)(cid:3)(cid:71)(cid:72)(cid:3)(cid:79)(cid:68)(cid:3)(cid:86)(cid:112)(cid:70)(cid:88)(cid:85)(cid:76)(cid:87)(cid:112)(cid:3)(cid:71)(cid:72)(cid:86)(cid:3)
+(cid:76)(cid:81)(cid:73)(cid:82)(cid:85)(cid:80)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:86)(cid:3)(cid:70)(cid:79)(cid:68)(cid:86)(cid:86)(cid:76)(cid:73)(cid:76)(cid:112)(cid:72)(cid:86)(cid:3)(cid:112)(cid:70)(cid:75)(cid:68)(cid:81)(cid:74)(cid:112)(cid:72)(cid:86)(cid:3)(cid:72)(cid:81)(cid:3)(cid:89)(cid:72)(cid:85)(cid:87)(cid:88)(cid:3)(cid:71)(cid:182)(cid:88)(cid:81)(cid:3)(cid:68)(cid:70)(cid:70)(cid:82)(cid:85)(cid:71)(cid:3)(cid:71)(cid:72)(cid:3)(cid:86)(cid:112)(cid:70)(cid:88)(cid:85)(cid:76)(cid:87)(cid:112)(cid:3)(cid:70)(cid:82)(cid:81)(cid:70)(cid:79)(cid:88)(cid:3)(cid:72)(cid:81)(cid:87)(cid:85)(cid:72)(cid:3)(cid:79)(cid:68)(cid:3)(cid:41)(cid:85)(cid:68)(cid:81)(cid:70)(cid:72)(cid:3)(cid:72)(cid:87)(cid:3)(cid:88)(cid:81)(cid:3)(cid:101)(cid:87)(cid:68)(cid:87)(cid:3)
+(cid:112)(cid:87)(cid:85)(cid:68)(cid:81)(cid:74)(cid:72)(cid:85)(cid:3)(cid:82)(cid:88)(cid:3)(cid:88)(cid:81)(cid:72)(cid:3)(cid:82)(cid:85)(cid:74)(cid:68)(cid:81)(cid:76)(cid:86)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:3)(cid:76)(cid:81)(cid:87)(cid:72)(cid:85)(cid:81)(cid:68)(cid:87)(cid:76)(cid:82)(cid:81)(cid:68)(cid:79)(cid:72)(cid:17)
+Chaque ministre est chargé de décliner ces mesures dans son champ d’attribution et d’en contrôler la mise en
+œuvre par les personnes physiques et les organismes, publics ou privés, entrant dans son champ de
+compétence.
+La mise en œuvre de la protection du secret s’appuie sur une chaîne fonctionnelle, dite « chaîne de protection
+du secret », et sur la chaîne de sécurité des systèmes d’information qui assure la sécurité de tous les systèmes
+d’information utilisés par l’organisme et est renforcée lorsque l’organisme dispose, par ailleurs, des systèmes
+d’information classifiés (cf. Annexe 2).
+Des outils de pilotage, de contrôle et de suivi sont mis en place aux niveaux interministériel et ministériel,
+pour s’assurer du respect des règles relatives à la protection du secret de la défense nationale (instructions
+ministérielles, directives techniques particulières, inspection, rapport annuel, bases interministérielles de
+données pour la gestion des habilitations, des lieux abritant, des décisions de déclassification, etc.) et prendre,
+le cas échéant, les mesures correctrices nécessaires.
+32

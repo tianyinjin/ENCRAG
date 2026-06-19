@@ -1,0 +1,38 @@
+● présenter à l’AH du SI déployé les risques qui pèsent sur le SI.
+La décision est limitée à une durée courte, le temps que la démarche d’homologation du SI de référence
+soit finalisée. La durée doit aussi rester cohérente avec la nature du SI considéré et la pérennité du
+déploiement. La dérogation est conditionnée par la poursuite de l’instruction de l’homologation
+de référence.
+RO 38 : il est OBLIGATOIRE, pour une homologation de déploiement, y compris dérogatoire, que la
+décision d’homologation du SI déployé s’appuie sur des CUC et des PES locales.
+L’HDD ne peut être renouvelée qu’une seule fois. Au-delà, si l’homologation de référence n’a
+toujours pas pu être prononcée, il convient de revoir la conception du SI qui est manifestement
+incompatible avec les objectifs de sécurité initialement validés.
+Le RSSI du SI de référence est informé de la décision et informe l’AH du SI déployé.
+RO 39 : il est RECOMMANDÉ de ne pas renouveler plus d’une fois une HDD.
+Renouvellement de l’homologation
+Renouvellement de l’homologation du SI de référence
+Les conditions de renouvellement d’homologation du SI de référence sont identiques à celles d’une
+homologation classique. Elles sont définies par la stratégie d’homologation.
+À la procédure définie dans [§5.6], s’ajoutent :
+● un point de situation des SI déployés et de leur état d’homologation ;
+● un contrôle des procédures mises en œuvre pour homologuer les SI déployés et pour
+garantir leur MCS.
+Lors de la commission d’homologation, il est décidé de renouveler ou non les décisions d’homologation
+des SI déployés.
+Renouvellement de l’homologation du SI déployé
+Les conditions de renouvellement sont définies dans la stratégie d’homologation du SI de référence.
+Une décision d’homologation de déploiement doit être renouvelée lorsque :
+● elle est arrivée en fin de validité ;
+● l’AH du SI de référence le demande ;
+● les conditions du déploiement ont changé de manière substantielle.
+Le renouvellement d’homologation du SI déployé doit comporter a minima :
+● un contrôle de conformité du SI à l’homologation de référence au travers des CUC
+réactualisés par le RSSI du SI de référence ;
+● un contrôle de la configuration du SI ;
+● un contrôle de qualification des exploitants18 ;
+● une revue et une mise à jour des procédures de sécurité.
+Le RSSI du SI de référence est informé des résultats des contrôles ainsi que des modifications de
+procédures de sécurité.
+18 Il s’agit de contrôler que le SI est toujours administré par un administrateur qualifié.
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 30/47

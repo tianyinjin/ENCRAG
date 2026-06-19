@@ -1,0 +1,49 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+FIGURE3. Intelligentdronereconnaissancescenarioandappliedtechnologies.
+Militarydronesareclassifiedaccordingtotheirpurposeof the lightweight algorithm YOLOv4-tiny, considering
+useintoreconnaissance,attack,deception,electronicwarfare, the limited computational speed and memory of em-
+andastargets[38],[39].Inthiscasestudy,wefocusonthe bedded systems. This choice is also influenced by the
+intelligenceofreconnaissancedrones.Thedroneinthecase factthatYOLOv4-tinyisarelativelyrecentalgorithm
+studyismodeledafterthedroneoftheKoreanPoongsancom- thatiscompatiblewiththeUnitysimulator.
+pany,asshowninFigure2.Themodelcanperformavariety 2) Drones, with cameras facing downward from above,
+oftasksdependingontheappliedmodules.However,inthis require top-view images of tanks for effective object
+study,adroneequippedwithreconnaissancemodulesisused. detection.However,mostpubliclyavailableonlinere-
+The module includes sensors and systems such as cameras, sourcespredominantlyfeaturefrontalphotosoftanks.
+LRF, GNSS, and others. For specification assumptions, it is Getting pictures of military equipment from specific
+presumedthatthedroneiscapableofbeingequippedwithan angles is challenging due to security reasons. There-
+objectdetectionandreinforcementlearningneuralnetwork. fore, this study uses synthetic data from Unity and
+augmented real images. The training and validation
+A. SCENARIO data are divided into three categories, which include
+The scenario assumes specific conditions and objectives realimages,syntheticdata,andaugmenteddataderived
+for research purposes. An intelligent reconnaissance drone, from real images. Among these categories, the real
+equipped with the capability to detect enemies, is deployed imagesconsistof1180tankphotostakenfromvarious
+forthemission.Thedrone’staskistolocateandtrackenemy angles, including 30 aerial view tank photos, which
+tanks,identifiedaskeytargets,inadesignatedsectorduring are similar in size to those observed by drones. We
+clear daytime weather conditions. After tracking, the drone use700imagesofUnitysyntheticdataandcreate400
+providesinformationaboutthesetankstothefinaldecision- augmented images from 30 real aerial view photos of
+makers for attack planning. It is assumed that a communi- tanks.These400augmentedimagesarefurtherdivided
+cation system has been pre-established between the drone intotwogroupswherethefirstconsistsof150images
+andthedecision-makers,allowingfordatatransmissionand transformed through methods like geometric resizing,
+reception.Thesectorassignedforthedrone’sreconnaissance Gaussian blur, image inversion, color inversion, and
+containstreesandstructures,offeringpotentialconcealment grayscaleconversion,andthesecondcomprisesthere-
+orcamouflageforthetanks.Additionally,thereisariskofthe maining250imagesaugmentedusingAlias-FreeGen-
+dronebeingshotdownifitfliestoolow,duetothepossibility erative Adversarial Networks, known as StyleGAN3
+of unexpected anti-aircraft fire from the enemy within the [40].Thetestdatasetuses100aerialviewrealimages
+sector. not included in the training and validation data. As
+shown in Table 1, the best performance is achieved
+B. TECHNOLOGYAPPLIEDINTHESCENARIO whenrealimages,Unitysyntheticdata,andaugmented
+Given such a scenario, what specific technologies could be dataarecombined.
+applied to make the drone intelligent? Let’s examine this
+based on Figure 3. The technologies mentioned here are TABLE1. Trainingresultsbydataset.
+not yet at a stage where they can be implemented in real-
+Dataset F1Score AP(AveragePrecision)
+world environments. Therefore, it is important to note that
+Real 0.85 0.90
+all subsequent content discussed has been implemented and
+testedwithintheUnitysimulator. Real,Synthetic 0.85 0.91
+Real,Synthetic,Augmentation 0.89 0.94
+1) Firstly,asdronesneed"eyes"forintelligence,weapply
+4 VOLUME11,2023
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

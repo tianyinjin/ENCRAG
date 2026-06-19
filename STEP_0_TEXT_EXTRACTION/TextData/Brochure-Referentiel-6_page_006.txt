@@ -1,0 +1,43 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+Pour atteindre ces objectifs, ce document s’articule autour de trois grandes
+parties :
+• La première partie du document permet d’identifier le périmètre du domaine et
+d’identifier les enjeux techniques qui y sont associés.
+• La deuxième traite des domaines fonctionnels qui utilisent les technologies, les
+méthodes et les services listés dans la première partie.
+• La troisième contient un premier exemple d’analyse suivant une structuration
+basée sur la taille des entreprises clientes, et propose des exemples de
+structuration par métiers.
+Même s’il existe quelques définitions des termes « cyberdéfense » ou « cybersé- A.2
+curité » (par exemple l’ItU (International télécommunication Union) fournit une
+Définitions
+définition dans le document IUT-T X.1205 (04/2008)), celles-ci ne permettent
+pas de délimiter clairement le contenu de ces domaines.
+Au sein des entités en charge de la normalisation (cEn, cEnElEc, EtSI), il
+existe un groupe de coordination sur la cyber, le cyber Security coordination
+Group (cScG).
+ce groupe a émis la recommandation suivante:
+the European council should establish a clear and common understanding of
+the scope of cyber Security, based on an initiative the cScG plans to launch
+to clarify the key terms and definitions used in the standardization of and
+communication related to cyber Security within the European Union.
+La préoccupation de clarifier le périmètre de la cybersécurité est donc assez
+généralement partagée par les acteurs concernés, et correspond à des actions
+qui sont en cours.
+Au niveau national, il convient de retenir les définitions suivantes :
+ANSSI
+cybersécurité :
+A.1 le Pôle d’excellence cyber a, depuis sa création, contribué à développer l’activité état recherché pour un système d’information lui permettant de résister à
+Introduction de recherche, l’offre de formation et à dynamiser le tissu industriel. des événements issus du cyber-espace susceptibles de compromettre la
+disponibilité, l’intégrité ou la confidentialité des données stockées, traitées
+ce référentiel qui a constitué une de ses premières productions a pour objectif ou transmises et des services connexes que ces systèmes offrent ou qu’ils
+de déterminer ce que recouvre le terme générique de « cyber », aujourd’hui rendent accessibles.
+largement répandu. la cybersécurité fait appel à des techniques de sécurité des systèmes d’infor-
+mation et s’appuie sur la lutte contre la cyber-criminalité et sur la mise en
+Il vise à dépasser la seule taxonomie technique en s’intéressant aussi aux cas place d’une cyberdéfense.
+d’usages, reflétant ainsi un des grands objectifs du Pôle d’excellence cyber.
+cyberdéfense :
+bien entendu, ce document a vocation à être partagé et diffusé largement, et Ensemble des mesures techniques et non techniques permettant à un état de
+cette nouvelle version, qui intègre des retours de l’ensemble des acteurs, sera défendre dans le cyberespace les systèmes d’information jugés essentiels pour
+amenée à évoluer régulièrement. le pays.
+10 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 11

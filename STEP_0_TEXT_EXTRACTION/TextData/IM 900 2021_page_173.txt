@@ -1,0 +1,48 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.7
+DROIT PRIVE
+(cid:3)
+3. Gestion de la protection des matériels et supports amovibles
+Les équipements mobiles et supports amovibles doivent être considérés comme étant
+partie intégrante du ou des systèmes auxquels ils peuvent être connectés. Ils sont inclus
+dans l’analyse de risque et explicitement autorisés dans le dossier d’homologation.
+L’autorité d’homologation doit veiller à la mise en œuvre des mécanismes et des
+fonctions de sécurité adéquats et ces équipements doivent être fournis et administrés
+par l’entité.
+En dehors des locaux de l’organisme, les équipements doivent rester sous la surveillance
+permanente de l’utilisateur.
+Pour le niveau Secret, à l’étranger, la surveillance permanente de l’utilisateur est
+systématiquement recherchée, par le dépôt du poste dans une représentation française
+(consulat, ambassade, coopération, opération extérieure, …). Par mesure de précaution,
+des solutions physiques (étiquettes ou enveloppes de sécurité, …) permettent de
+détecter une tentative d’accès frauduleux au poste ou une atteinte à son intégrité.
+Un équipement mobile pour du classifié doit faire l’objet de vérifications régulières de sa
+configuration physique, en particulier avant qu’il soit reconnecté sur le système
+d’information homologué de son organisme d’appartenance.
+4. Branchement de supports amovibles sur les systèmes d’information
+Les supports amovibles classifiés ne doivent pas être connectés à un matériel non
+classifié ou de classification inférieure. Les supports amovibles Diffusion Restreinte ne
+doivent pas être connectés à un matériel de niveau de sensibilité inférieure. Les échanges
+entre les supports de l’entreprise et les supports extérieurs à l’entreprise (qui ne peuvent
+détenir que des informations qui ne soient ni sensibles ni classifiées) se font sur une
+station blanche - avec rupture de support - ou via les interconnexions de réseaux en
+adoptant les dispositifs de protection adéquats (exemple(cid:3): transmission des fichiers par
+courriel, via une passerelle ou un sas homologué).
+Les ports USB des systèmes d’information classifiés et Diffusion Restreinte doivent faire
+l’objet d’un verrouillage ou d’un contrôle afin de prévenir les extractions non autorisées,
+tracer l’utilisation des supports externes et éviter les compromissions155 du fait de
+mauvaises manipulations.
+5. Cas particulier de la mobilité via Internet
+Un service de mobilité peut être mis en œuvre entre un utilisateur et son entité
+d’appartenance via Internet (filaire ou sans fil) jusqu’au niveau Diffusion Restreinte(cid:3)à la
+condition de se conformer aux exigences de l’II 901, complétées par les
+recommandations de l’ANSSI.
+Les mesures spécifiques à ce type de mobilité doivent être définies dans la PSSI de
+l’entité.
+En particulier, il est impératif de(cid:3):
+- maîtriser la gestion des utilisateurs et des équipements de mobilité(cid:3);
+- former et sensibiliser les utilisateurs sur leurs obligations face aux risques et menaces(cid:3);
+(cid:3)
+155 Cf. définition au paragraphe 1 de la fiche introductive du titre 8.
+167

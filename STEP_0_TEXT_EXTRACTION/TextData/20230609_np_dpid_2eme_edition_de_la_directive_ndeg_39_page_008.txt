@@ -1,0 +1,38 @@
+[Arrêté SIIV AIA] Arrêté du 8 septembre 2017 fixant les règles de sécurité et les modalités de
+déclaration des systèmes d’information d’importance vitale et des incidents de sécurité relatives
+au sous-secteur d’importance vitale « Activités industrielles de l’armement ».
+[IGI 1300] Instruction générale interministérielle n°1300 sur la protection du secret de la
+défense nationale du 9 août 2021.
+https://synoptic.intradef.gouv.fr/securite-numerique/igi-1300-protection-sur-le-secret-de-la-
+defense-nationale.
+[II 901] Instruction interministérielle n°901/SGDSN/ANSSI du 28 janvier 2015 portant sur la
+protection des systèmes d’information sensibles.https://synoptic.intradef.gouv.fr/securite-des-
+systemes-dinformation/publication-de-lii-901-sur-la-protection-du-sensible-et-du-dr
+[IM 900] Instruction ministérielle n°900/ARM/CAB/NP du 15 mars 2021, portant sur la
+protection du secret et des informations diffusion restreinte et sensibles.
+http://portail.intradef.gouv.fr/sites/default/files/im_900_du_15_mars_2021_-_np.pdf
+2.2. Autres documents et sites de référence
+[IEC 62443] Norme ISA/IEC 62443 portant sur la sécurité des systèmes d’automatisation et des
+systèmes de commande
+[ANSSI] Site SSI de l’ANSSI www.ssi.gouv.fr
+[DGNUM] SYNOPTIC (Intradef) synoptic.intradef.gouv.fr
+3. DÉFINITIONS ET CARACTÉRISTIQUES
+3.1. Définition des systèmes industriels
+Un système industriel4 est un système d’information particulier ayant pour finalité de contrôler ou
+de commander des installations ou équipements techniques, composés d’un ensemble de
+capteurs* et/ou d’actionneurs*. Il permet ainsi une interaction entre le monde numérique et le
+monde réel.
+3.2. Catégories d’appartenance des systèmes industriels
+3.2.1. Selon leur finalité
+Les systèmes industriels sont très présents dans des domaines d’emploi variés comme
+l’armement, l’énergie, la santé, le bâtiment, la recherche, et dans des activités de conception, de
+production, de gestion, de supervision. Ils sont également présents au sein des processus de
+contrôle, de mesure, de prévision, de facturation, d’analyse et de planification.
+Un système industriel peut :
+- piloter des installations physiques (unité et chaîne de production, unités de distribution d’eau,
+d’énergie, …) ou des équipements (armes, transports, outil de laboratoire, robots, …) ;
+- assurer des fonctions de protection des biens et des personnes ou de l’environnement ;
+- collecter et traiter des données d’expériences et de mesures…
+4 Par abus de langage, les termes SCADA* ou SCI* sont souvent utilisés afin de désigner les
+systèmes industriels alors que ces termes ne représentent qu’un sous-ensemble de ces derniers.
+DIR-39 SNSI – 2eme édition Page 8 | 79

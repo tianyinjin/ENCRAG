@@ -1,0 +1,53 @@
+39
+manipulation des identités dans le contrôle collaboratif et les environnements visuels et sonores complexes
+d’une infrastructure critique . Imaginez un scénario dans peuvent rendre la détection des deep fakes plus difficile .
+lequel un groupe d’individus est responsable du contrôle Dans de nombreux systèmes de RV actuels, tels que
+et de la surveillance à distance d’une infrastructure le Metaverse de Meta, les personnes sont représentées
+critique, telle qu’une centrale nucléaire ou un barrage . par des avatars, ce qui peut rendre difficile la
+Si un Deep Fake est utilisé pour usurper l’identité de détermination précise de leur identité . Contrairement
+l’une des personnes impliquées dans la collaboration, à l’interaction en face à face, les interfaces de RV ne
+les conséquences pourraient être catastrophiques . donnent pas accès à des indices physiques tels que
+Par exemple, la personne malicieusement authentifiée le langage corporel et les expressions faciales qui
+pourrait manipuler les systèmes de contrôle, perturber peuvent aider à authentifier l’identité d’une personne .
+le fonctionnement normal de l’infrastructure critique
+ou causer des dommages encore plus importants . Les systèmes basés sur des caméras et des sons en direct
+En outre, le Deep Fake pourrait également abuser des peuvent partiellement atténuer ce problème . Toutefois,
+relations de confiance pour convaincre les autres de les interfaces de RV peuvent également permettre aux
+fausses informations, obtenir l’accès à des informations individus de manipuler ou de déguiser plus facilement
+sensibles ou manipuler le comportement des autres . leur identité . Les informations sensorielles limitées
+Parce que le Deep Fake donne l’impression d’être disponibles dans la RV signifient également qu’il est
+un membre authentique et digne de confiance de la plus difficile de détecter des contrefaçons profondes .
+collaboration, les autres sont plus susceptibles de croire Une autre approche de l’authentification des utilisateurs
+les informations ou les instructions de cette personne . humains dans un contexte de collaboration en RV consiste
+à utiliser une approche hybride qui exploite plusieurs
+L’authenticité et la fiabilité de l’identité de la personne facteurs . En combinant plusieurs sources de données, il
+sont d’une importance capitale, car toute manipulation est plus difficile pour les acteurs malveillants d’usurper
+pourrait avoir de graves conséquences . Cela souligne l’identité d’un utilisateur réel, car ils doivent manipuler
+l’importance non seulement de développer des plusieurs facteurs pour éviter d’être détectés . Par exemple,
+méthodes d’identification robustes, mais aussi les données d’accélération et la résistance de la peau d’une
+d’accroître la sensibilisation et la compréhension des personne pourraient être combinées avec les mouvements
+risques potentiels des “Deep Fakes” dans les scénarios oculaires et les données de température pour créer une
+de contrôle à distance basés sur la RV . Ces mesures “empreinte digitale” unique pour chaque utilisateur .
+permettront d’atténuer la menace des “Deep Fakes”
+et de garantir la fiabilité et la sécurité des interfaces En résumé, l’utilisation d’interfaces de réalité virtuelle
+de commande à distance basées sur la RV(2) . (RV) pour le contrôle à distance dans les applications
+d’infrastructures critiques pose un défi majeur pour
+Pour atténuer ces risques, il faut mettre au point l’authentification des utilisateurs humains . Les “deep
+des méthodes d’identification robustes capables de fakes” représentent un risque particulièrement
+distinguer avec précision les Deep Fakes des personnes important dans ce contexte, car ils peuvent être
+authentiques(3) . Il existe actuellement un certain nombre utilisés pour usurper l’identité d’utilisateurs réels et
+d’approches, notamment celles qui analysent les signaux manipuler le comportement d’autres personnes .
+visuels et sonores, ainsi que celles qui utilisent des
+algorithmes d’apprentissage automatique pour détecter
+les anomalies dans les médias synthétiques . Parmi les
+méthodes les plus prometteuses figurent l’analyse des
+mouvements et des expressions du visage, la modulation
+de la voix et l’utilisation de réseaux neuronaux profonds
+pour détecter des schémas dans les médias synthétiques .
+Malgré ces progrès, les deep fakes sont de plus en plus
+sophistiqués et il reste beaucoup à faire pour que les
+méthodes de détection des deep fakes restent efficaces
+face à cette menace en constante évolution . Le défi de la
+détection des deep fakes devient encore plus grand dans
+le contexte des interfaces de commande à distance basées
+sur la RV, où la dimension supplémentaire de l’interactivité

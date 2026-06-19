@@ -1,0 +1,48 @@
+REAPER 7.0: What’s New
+Context menu command Items in Comp Lane - Comments
+Split comp area here Splits comp area at current cursor position.
+Delete comp area Deletes comp area under mouse cursor and removes media from comp.
+Delete comp area but not Removes comp area but leaves media item in palce.
+media items
+Delete comp area edge Removes edge line between two comp areas in same lane.
+Add comp area at time Adds a comp area matching current time selection.
+selection
+Panel context menu Comments (see also Managing Comp Lanes, below)
+Comping, Delete comp Removes all comp areas from selected lane along with the actual media.
+area inc source media Delete comp area alone will remove the comp area but leave media.
+Comping, Turn off Turns comping off. To turn it back on, use one of the Comp into …
+comping commands explained below.
+Track panel context menu Comments
+Fixed item lanes Toggles fixed item lanes status on/off.
+REAPER Options menu Comments
+Offset overlapping items Can be toggled off if you wish to show cross-faded comped material
+vertically overlapping.
+Snap/grid, Snap/grid Toggle options to Snap media items to media items in other fixed
+settings lanes and Snap fixed lane comp area to media items.
+Tip: Working with comp lanes can involve a lot of mouse movements, and especially dragging. It can be quite
+tricky at first, and you might find that slip up from time to time! A handy tip is to keep your Undo History
+window open so that if you do get into strife you can easily go back to your last known safe spot.
+Managing Comp Lanes
+To add additional comp lanes, from the context menu choose Comp into a new empty lane. You can drag
+and drop this new lane up or down the lane order.
+To make a copy of a currently active comp lane for further editing either use
+the context menu command Comping, Comp into a new empty lane,
+automatically creating comp area.
+These commands, as well as Comping, Comp into new copy of this lane
+and Comping, Comp into this lane, are also available on the track panel’s right click context menu.
+When you have multiple comping lanes you can change which one is active with Shift Ctrl click over the lane
+button.
+To make an empty media lane into a comp lane, Double click on its panel button.
+See Mouse Modifiers for Power Users for a full list of relevant mouse modifiers.
+Mouse Gestures in Comp Lanes and Media Lanes
+Remember that by default you can edit media items in comp lanes in the same way as other media items. To
+make this possible without interfering with your comping, you will see that comp lanes are horizontally divided
+into two areas.
+When the comp lane is selected the larger upper area behaves like any normal track. You can make time
+selections, edit media items and so on by using your mouse in this area. The smaller lower area can be used for
+comping – for example, to drag and move comp borders.
+For example, you can make a time selection in the upper area, then right click in the lower area within that
+selection and Add comp area at time selection. This will insert two yellow marker lines and create an empty
+area that you can fill later.
+This will not apply to your media lanes if you have Allow editing source media while comping disabled.
+Page 12

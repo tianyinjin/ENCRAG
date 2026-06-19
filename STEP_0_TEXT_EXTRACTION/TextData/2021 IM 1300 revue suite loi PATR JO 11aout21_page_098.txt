@@ -1,0 +1,43 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+c) Mesures de sécurité logiques relatives aux mentions complémentaires de protection101
+Les systèmes d’information susceptibles de traiter des informations portant une mention
+complémentaire de protection, notamment la mention Spécial France, font l’objet de mesures
+de sécurité particulières techniques ou organisationnelles pour garantir l’accès aux seules
+personnes ayant le besoin d’en connaître. Le processus d’homologation tient compte du fait que
+le système d’information est susceptible de traiter de telles informations.
+Dans le cas d’un système devant traiter à la fois des informations portant la mention
+complémentaire de protection et d’autres ne la portant pas, et accessible à des personnes non
+autorisées à accéder à des informations portant la mention complémentaire de protection, le
+système d’information considéré et les mesures organisationnelles afférentes garantissent
+notamment que :
+- pour chaque mention de protection, les informations classifiées en étant marquées sont
+stockées dans des zones du système d’information clairement identifiées et indiquées
+dans le dossier d’homologation ;
+- les zones du système d’information ainsi identifiées sont cloisonnées du reste du
+système d’information avec des mesures conformes aux recommandations de l’agence
+nationale de la sécurité des systèmes d’information ;
+- le contrôle d’accès du système d’information permet d’assurer la protection du besoin
+d’en connaître pour les informations classifiées marquées de la mention de protection
+considérée. Si nécessaire, un contrôle d’accès dédié est mis en place ;
+- lorsque des données portant une mention de protection circulent hors des zones
+identifiées, elles sont chiffrées avec des moyens conformes aux recommandations de
+l’agence nationale de la sécurité des systèmes d’information ;
+- l’accès aux informations portant une mention de protection complémentaire ou aux
+zones les contenant est tracé et indique explicitement les éventuelles mentions de
+protection.
+Responsabilité des utilisateurs
+Chaque utilisateur est responsable de la protection de ses informations d’authentification et du
+bon usage des outils associés (de type ACSSI, cartes à puce, etc.). L’autorité d’emploi du
+système d’information met à sa disposition des moyens de conservation sécurisés et adaptés de
+ces informations.
+Articles contrôlés de la sécurité des systèmes d’information classifiés
+Certains moyens, tels que les dispositifs de sécurité ou leurs composants, et certaines
+informations relatives à ces moyens (spécifications algorithmiques, documents de conception,
+clefs de chiffrement, rapports d’évaluation, etc.) nécessitent la mise en œuvre d’une gestion
+spécifique visant à assurer leur traçabilité et leur intégrité tout au long de leur cycle de vie. Ces
+moyens et informations, appelés « articles contrôlés de la sécurité des systèmes
+d’information », sont traités conformément à l’instruction interministérielle
+n° 910/SGDSN/ANSSI du 22 octobre 2013 relative aux articles contrôlés de la sécurité des
+systèmes d’information (ACSSI).
+101 Cf. 7.1.1.3 de la présente instruction.
+95

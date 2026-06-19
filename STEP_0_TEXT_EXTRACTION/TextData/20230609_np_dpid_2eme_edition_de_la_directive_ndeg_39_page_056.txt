@@ -1,0 +1,34 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Découper les systèmes industriels par zones de sécurité auxquelles est attribué Un système industriel peut être réduit à
+RSO1 TECH O
+un niveau de classe*. une seule zone de sécurité*.
+Mettre en place un cloisonnement* entre les zones de sécurité*.
+Le cloisonnement* est physique entre les zones de classe 3 et les zones de classe*
+RSO2 TECH inférieure. L’utilisation de cloisonnement* logique est alors interdite. O
+Pour les autres niveaux de classe*, privilégier autant que possible un
+cloisonnement* physique entre les zones de sécurité.
+Lorsque la séparation physique n'est pas possible entre des zones de sécurité de
+RSO3 ORG R O O
+classes* différentes, mettre en place une solution de tunnel VPN labellisée.
+Lorsque la séparation de tunnel VPN n'est pas possible entre des zones de
+RSO4 ORG sécurité de classes* différentes, mettre en place un cloisonnement* logique de R O O
+type VLAN.
+Pour définir une politique de filtrage*, on
+pourra notamment se reporter au guide
+de l’ANSSI.
+Pour les flux utilisant le protocole IP, on
+en rappelle néanmoins ici quelques
+grands principes :
+- un flux est identifié par l’adresse IP
+source, l’adresse IP destination, le
+Mettre en place une politique de filtrages* entre les zones de sécurité. Les flux sont protocole de transport (par exemple
+RSO5 TECH O
+limités au strict besoin. UDP ou TCP) et, le cas échéant, les
+numéros de port source et destination ;
+- les flux sont refusés par défaut ;
+- seuls les flux nécessaires au
+fonctionnement du système industriel
+sont autorisés ;
+- les flux rejetés doivent être journalisés
+et analysés ;
+DIR-39 SNSI – 2eme édition Page 56 | 79

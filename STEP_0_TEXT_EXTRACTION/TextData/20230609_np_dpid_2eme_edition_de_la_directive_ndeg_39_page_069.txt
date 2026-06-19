@@ -1,0 +1,44 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Dédier les équipements mobiles autorisés à se connecter sur le système industriel,
+EXP59 ORG R O O
+y compris ceux utilisés par des prestataires extérieurs.
+Proscrire la connexion ou le raccordement d’équipements personnels sur le
+EXP60 ORG O
+système industriel.
+Faire signer par le fournisseur les éléments dont l’intégrité et l’authenticité doivent
+être vérifiées (équipementier, développeur, intégrateur, etc.). La signature doit être
+vérifiée par l’entité responsable à la réception et par l’équipement au chargement.
+EXP61 TECH C R O
+Le fournisseur doit fournir un certificat d'innocuité. Celui-ci présente le résultat
+d'une analyse antivirale et sa date, et précise l'éditeur du produit, la version du
+moteur, la date et la version de la base de signature.
+Maîtriser la maintenance
+Mettre en place une procédure de gestion des interventions afin de pouvoir les
+tracer en identifiant :
+Pour certaines emprises, certaines de
+- la personne qui exécute le travail et son donneur d’ordre ;
+ces informations seront déjà
+- la date et l’heure de l’intervention ;
+enregistrées via les procédures
+- le périmètre sur lequel le travail est exécuté ;
+inhérentes aux sites.
+MAINT1 ORG - les actions réalisées ; O
+Les entités déclineront ces règles en
+- la liste des équipements retirés ou remplacés (y compris, le cas échéant, les
+fonction de leurs spécificités et
+numéros d’identification) ;
+procédures afin d’éviter des
+- les modifications apportées et leur impact.
+redondances inutiles.
+Ces informations sont enregistrées dans un registre d’accès qui peut être sous
+forme numérique.
+Définir les modalités des interventions, en particulier le processus d'autorisation,
+MAINT2 ORG R O O
+et les faire valider par le RSSI.
+Interdire l’utilisation d’outils particuliers hors d’un cadre prévu par les politiques de
+MAINT3 ORG O
+sécurité mises en place.
+Pour les cas particuliers où l’intervenant apporte ses propres outils (des outils de
+MAINT4 ORG diagnostic propres à l’équipementier par exemple), une procédure, même R O O
+succincte, doit être mise en place pour vérifier que les équipements de l’intervenant
+DIR-39 SNSI – 2eme édition Page 69 | 79

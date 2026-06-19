@@ -1,0 +1,62 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3390035
+M.Leeetal.:IntelligentMilitaryDrone:ACaseStudyofaReconnaissanceDrone
+6) Theissueliesinpart6,wheretheconfidenceindetect- is covered. While it might look like an easy problem
+ingincompletelyobscuredtanksbytreesorstructures to solve with basic rules from a human perspective,
+islow.Forthosemakingthefinaldecisionsonattacks, for a drone, the situation is much more complex and
+this level of uncertainty in detection isn’t practical. not as easy to handle. This is exactly the point where
+Thus, it is essential to focus on improving detection advanced technology is needed to realize the concept
+accuracytooffermoretrustworthyinformationforsuch ofintelligence.
+critical judgments. One possible approach to address Therefore, this paper proposes using reinforcement
+this issue is improving the detection neural network learningtosolvetheissueofsecuringalineofsighton
+[44].However,relyingentirelyontheobjectdetection incompletely concealed objects and increasing object
+modelisproblematic.Thisisbecauseobjectdetection confidence levels. For this, we utilize images where
+modelsexhibitvaryingconfidencelevelsbasedonthe objects have been detected along with various vec-
+angleoftheobjecttheyaretryingtodetect[45].More- tor observations to autonomously control the drone’s
+over,forobjectsthatarepartlyobscured,thedifference movement and the camera angle. In the next chapter,
+inconfidencelevelsdependingontheangleislikelyto we delve deeper into the fundamental concepts of re-
+beevengreater.Figure6showstheresultsofexamining inforcement learning, conduct experiments, and then
+theconfidencelevelsforpartiallyobscuredtanksusing discusstheresults.
+an object detection algorithm in the Unity simulator.
+In this case, the images are from a drone’s perspec- C. REINFORCEMENTLEARNING
+tive,lookingdownwardsfromdirectlyabovethetrees. Inreinforcementlearning,anagentintheenvironment,which
+Here, the tanks are identified by the object detection isthespacewheretheagentislocated,selectsactionsbased
+algorithminapurplecolor.Theconfidencelevelsvary onthecurrentsituationinformation,knownasthestate.The
+significantlybasedonthetank’sangleandthedegreeof environment then changes in response to these actions, and
+obscuration,withthetankintheleftpictureevenfailing theagentreceivesrewardsasaresult.Thegoalofreinforce-
+tobedetected. ment learning is to maximize the cumulative rewards [46].
+Inthisstudy,theenvironmentispartiallyobservablefromthe
+agent’sperspective.Whenthedronescoutsforenemiesinthe
+Unitysimulatorspace,itdoesn’tinitiallyknowthelocationof
+theenemies.Itobservesonlypartoftheenvironmentusingits
+camera,nothavingcompleteinformationabouttheenemies
+fromthestart.Thisisdifferentfromfullyobservablegames
+like chess or Go, where the positions and movements of all
+piecesareknown.Inpartiallyobservablesituations,theterm
+FIGURE6. ConfidencelevelforanincompletelyoccludedtankinUnity
+simulator. ‘observation’isusedinsteadof‘state’todescribethecurrent
+situation information. The following sections introduce the
+Thisimpliesthatrelyingsolelyonthedetectionneural components of reinforcement learning and the algorithms
+networkisnotthebeststrategy.Therefore,movingthe used.
+droneandadjustingtheangleofthecameraattachedto
+ittosecurealineofsightontheobjectcanbeanother 1) Environment
+way to enhance the confidence level. However, could In this research, the reinforcement learning aims to achieve
+suchmovementsbeaddressedwithasortofrule-based advanced intelligent behaviors in scenarios occurring after
+approach? Considering the constraints of maintaining relatively basic tasks like waypoint reconnaissance and en-
+a certain altitude and the drone’s requirement to look emy tracking. Therefore, the reinforcement learning envi-
+downwards from the air, resolving this issue with a ronment concentrates on the drone’s autonomous actions to
+rule-basedapproachisnotasstraightforwardasitmay enhancethedetectionconfidencelevelaftertrackingatank,
+seem. Let’s think of a situation where, if something especially when the confidence level is low. As depicted in
+like a tree is hiding a tank, the drone has a rule to fly Figure 7, at the start of learning, the drone is positioned
+away from that tree and turn its camera to look at the above a partially obscured tank. The drone receives visual
+tank. For this strategy to work effectively, it’s crucial inputthrougharedcameralocatedonitsunderside,whichis
+torecognizethekindsofobjectsthatcouldconcealthe essentialforthedetectionprocess.Thisredboxrepresentsthe
+tankandfigureoutwhichportionofthetankishidden. drone’s"eye."Thegreycameraandthelargegreysquareare
+However, training the system to segment and identify usedtoobservethedrone’sbehaviorforverificationpurposes
+everypotentialconcealingobject,suchasvarioustrees andarenotdirectlyinvolvedinthelearningprocess.
+andstructures,posesasignificantchallenge,especially To prevent the model from overfitting to a specific envi-
+withlimitedcomputationalresources.Additionally,the ronmentduringtraining,domainrandomizationisemployed
+task of detecting a tank that is partly masked is com- in each episode. This process involves randomly varying
+plex, as it requires pinpointing which part of the tank elementswithinthesimulationenvironment,whichhelpsthe
+6 VOLUME11,2023
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

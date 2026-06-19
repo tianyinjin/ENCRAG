@@ -1,0 +1,32 @@
+11 août 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 1 sur 86
+b. Protection des systèmes d’information classifiés
+La protection des systèmes d’information classifiés est assurée par la combinaison de deux barrières physiques
+et d’une barrière logique.
+Les tableaux 3 et 4 définissent, pour chaque niveau de classification, la classe minimale de la protection
+logique en fonction des classes de protection physique de l’emprise (ou site) ou du bâtiment et du local. La
+lettre grecque désigne la classe du système d’information classifié.
+Tableau 3 : niveau Secret
+CLASSE DU CLASSE DU LOCAL
+BATIMENT a b c d
+1 (cid:534) (cid:534) (cid:533) (cid:533)
+2 (cid:534) (cid:534) (cid:533) (cid:533)
+3 (cid:534) (cid:534) (cid:533) (cid:302)
+4 (cid:534) (cid:534) (cid:302) interdit
+Tableau 4 : niveau Très Secret
+CLASSE DU CLASSE DU LOCAL
+BATIMENT a b c d
+1 (cid:533) (cid:533) interdit interdit
+2 (cid:533) (cid:533) interdit interdit
+3 (cid:533) (cid:533) interdit interdit
+4 interdit interdit interdit interdit
+Dans l’hypothèse où les barrières physiques sont assurées par le local et un meuble adapté199, sans
+considération du niveau de protection du bâtiment, le tableau 5 définit, pour le seul niveau de classification
+Secret, la classe minimale de protection logique.
+Tableau 5 : niveau Secret
+CLASSE DU CLASSE DU LOCAL
+MEUBLE a b c d
+A (cid:534) (cid:534) (cid:533) (cid:302)
+B (cid:534) (cid:534) (cid:533) (cid:302)
+C (cid:534) (cid:533) (cid:302) (cid:302)
+199 Par exemple, baie technique blindée ou armoire forte dédiée aux serveurs.
+187

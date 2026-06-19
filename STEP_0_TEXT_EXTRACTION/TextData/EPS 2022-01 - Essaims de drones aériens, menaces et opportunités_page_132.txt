@@ -1,0 +1,50 @@
+PHASERTM(USA) (Raytheon) : projet dont
+l’émetteur est le THOR, avec pour objectif de
+démontrer la possibilité de coupler poursuite et
+rayonnement, l’antenne rectangulaire est
+l’antenne de poursuite (en bande X
+certainement). Ceci permet d’évaluer la
+précision d’écartométrie : 0,1° environ, ce qui
+est compatible d’une ouverture de classe 1°. Le
+gain de l’antenne d’émission (cercle de 2 m de
+diamètre) donne une ouverture de 1° à 2°, selon
+la bande.
+High-Power-Electro-Magnetics (HPEM)
+(Allemagne) (Diehl) : Diehl a développé des
+sources HPM (générateur de Marx et
+oscillateur) dans des bandes supérieures à
+1 GHz. Elles sont portables (voir photo). Les
+puissances générées vont de 50 kV (photo ci-
+contre) à 1 MV pour une station sol. Ici, le
+champ est de 50 000 V/m à 2 m, ce qui permet
+de stopper un véhicule à 10 ou 20m. A noter que
+le boîtier fait cage de Faraday pour préserver
+l’électronique lors des tirs.
+MORFIUS de Lockheed Martin (MObile Radio
+Frequency-Integrated Unmanned aerial
+systems Suppressor), est basé sur l’emport
+d’une charge HPM par une version allongée du
+drone ALTIUS-600 ou un drone Coyote de
+Raytheon. C’est installé sur le premier de ces
+deux vecteurs, que MORFIUS a participé aux
+démonstrations et tests du programme terrestre
+MFP (Mobile Force Protection) de la DARPA.
+La puissance rayonnée est de 1 GW (dont
+10 dBi de gain d’aérien). La charge HPM pèse
+3.2 kg dans un volume cylindrique de 150 mm
+de diamètre et 180 mm de hauteur : c’est
+l’équivalent miniaturisé du HPM de Diehl. Pour
+sa mise en œuvre il faut diriger l’axe de
+l’antenne vers la cible et s’en approcher à moins
+de 50 m. La charge utile est réutilisable ; le
+nombre de coups est limité par la batterie, sans
+doute une dizaine. A l’image du Diehl, et pour
+ne pas être impacté par les émissions HPM,
+l’électronique embarquée est très
+probablement enfermée dans une cage de
+Faraday dont les ouvertures, notamment de
+refroidissement, sont fermées le temps de
+l’émission (cette solution n’est pas transposable
+à un drone assaillant qui ne peut anticiper le
+moment où il sera exposé au HPM).
+132

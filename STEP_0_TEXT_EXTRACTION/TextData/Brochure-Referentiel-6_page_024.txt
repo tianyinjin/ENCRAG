@@ -1,0 +1,69 @@
+PôlE d’ExcEllEncE cybER
+B.7.2 _ Communications quantiques
+les communications quantiques sont résistantes de manière intrinsèque à la la cryptographie post-quantique est la réponse à cette menace quantique.
+détection d’interception. En effet, toute tentative d’écoute va entrainer une Un algorithme asymétrique est dit post-quantique, s’il peut s’exécuter sur
+perturbation suffisante pour que cette tentative soit détectée. Pour cette rai- un ordinateur actuel et s’il n’existe aucune attaque utilisant un potentiel or-
+son, il est envisagé d’utiliser ces techniques pour la distribution de clés (distri- dinateur quantique contre lui. Il s’agit donc d’algorithmes ordinaires, sans
+bution quantique de clés ou Quantum Key distribution (QKd)). lien avec toute technologie quantique, compatibles avec les systèmes d’in-
+formations actuels, qui ont vocation à remplacer les algorithmes asymé-
+En théorie, on peut en effet avoir une sécurité des échanges de clés dé-
+triques utilisés actuellement, en particulier pour les fonctions de signature
+montrable car basée sur une propriété de la physique quantique et pas sur
+et d’échange de clé.
+une difficulté mathématique comme pour les protocoles d’échanges de clés
+asymétriques. Malgré l’existence de premiers produits commerciaux, la QKd la cryptographie post-quantique existe depuis presque aussi longtemps
+reste à ce stade un sujet d’étude pour plusieurs raisons : que la cryptographie asymétrique, elle regroupe de nombreuses propo-
+sitions, basées sur des problèmes et algorithmiques très variés, qui pré-
+• La distribution ne peut s’effectuer que sur un lien optique sans répéteur
+sentent différents compromis entre confiance et efficience. La standar-
+ou un lien satellite ce qui limite les cas d’usage. la distance maximum entre
+disation orchestrée par le NIST doit définir les prochains standards à un
+les extrémités optiques est de l’ordre de 100 à 200 km.
+horizon 2022-2024, elle a recueilli de nombreuses soumissions que l’on
+• La distribution quantique de clés n’est pas protégée contre des attaques peut répartir dans différentes familles de problèmes mathématiques : co-
+classiques de type homme du milieu sauf à prévoir un canal d’authentifica- des correcteurs, réseaux euclidiens, fonctions de hachage ou d’autres en-
+tion additionnel. core (isogénies, multivariés…).
+• Elle n’est pas non plus protégée contre des erreurs d’implémentation ou
+Quelles que soient les prévisions d’arrivée d’un tel ordinateur quantique,
+des limites technologiques des matériels utilisés.
+il est reconnu que le passage aux algorithmes post-quantiques doit être
+préparé. Cela suppose de définir pour chaque système le moment de la
+la principale promesse de la QKd est d’apporter une garantie à long terme par
+transition et la manière de gérer la phase transitoire, notamment soit par
+rapport aux techniques classiques basées sur de la cryptographie asymétrique
+agilité (possibilité de remplacer un algorithme par un autre au cours de la
+et qui pourraient perdre leur résistance si un ordinateur quantique fonctionnel
+vie du système) soit par hybridation (combinaison d’un algorithme actuel
+apparaissait. Il faudrait cependant qu’un attaquant enregistre aujourd’hui les
+et d’un algorithme post-quantique).
+flux chiffrés (par un algorithme symétrique comme AES) et aussi les échanges
+de clés protégés par de la cryptographie asymétrique. l’ordinateur quantique
+différents points restent à approfondir que ce soit au niveau théorique,
+permettrait de casser la cryptographie asymétrique et donc de retrouver les
+au niveau implémentation ou au niveau système. Au niveau théorique, afin
+clés de chiffrement et ainsi de déchiffrer les informations enregistrées (si l’al-
+d’obtenir une maturité sur ces problèmes à la même hauteur que celle sur
+gorithme de chiffrement est connu).
+les algorithmes actuels, ceci afin de définir au mieux leur utilisation et de
+savoir évaluer en permanence le degré de confiance à leur accorder. Au
+Le gain apporté par ces technologies QKD semble donc aujourd’hui assez
+niveau implémentation, afin de disposer de mesures de performances pré-
+faible et on peut trouver d’autres méthodes pour se protéger contre la me-
+cises et d’implémentations effectives pour les principales cibles (logiciel,
+nace de l’ordinateur quantique (algorithmes post-quantiques). compte-tenu
+FPGA, ASIC) et afin de maîtriser les problématiques de sécurité des im-
+des investissements prévus dans ce domaine, des améliorations sont cepen-
+plémentations, notamment la résistance aux attaques par canaux cachés.
+dant probables dans les années qui viennent. Il est donc important d’assurer
+Au niveau système, afin de prendre en compte les impacts en termes de
+une veille active sur le domaine.
+temps de traitement et de taille des différents éléments.
+B.7.3 _ Algorithmes post quantiques
+les traitements de protection cryptographique de données sont actuellement
+réalisés en combinant les algorithmes symétriques et les algorithmes asymé-
+triques. la sécurité de tous les algorithmes asymétriques utilisés repose sur la
+difficulté de deux problèmes mathématiques, la factorisation et le logarithme
+discret. Or, avec l’algorithme de Shor, un ordinateur quantique qui manipule-
+rait suffisamment de qubits avec un taux d’erreur suffisamment faible serait
+capable de résoudre ces deux problèmes en seulement quelques heures.
+46 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 47

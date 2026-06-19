@@ -1,0 +1,43 @@
+88
+Règlementation de la Circulation Aérienne Militaire Partie 7
+Règles et services de la CAM 12 juin 2020
+7025-02 Intégrité des données
+a) L’intégrité des données aéronautiques est maintenue pendant tout le processus, depuis le
+mesurage ou la création jusqu’à la remise au prochain utilisateur prévu.
+b) Les spécifications d’intégrité des données aéronautiques sont fondées sur le risque que peut
+entraîner l’altération des données ainsi que sur l’usage qui en est fait. En conséquence, on
+applique la classification et les niveaux d’intégrité des données suivants:
+c) données critiques : données dont l’utilisation, si elles sont altérées, entraîne une forte
+probabilité que la sécurité de la poursuite du vol et de l’atterrissage d’un aéronef soit
+sérieusement compromise, avec un risque de catastrophe ;b) données essentielles :
+données dont l’utilisation, si elles sont altérées, entraîne une faible probabilité que la
+sécurité de la poursuite du vol et de l’atterrissage d’un aéronef soit sérieusement
+compromise, avec un risque de catastrophe ;
+c) données ordinaires : données dont l’utilisation, si elles sont altérées, entraîne une très faible
+probabilité que la sécurité de la poursuite du vol et de l’atterrissage d’un aéronef soit
+sérieusement compromise, avec un risque de catastrophe.
+7025-03 Coordonnées géographiques
+Les coordonnées géographiques (latitude et longitude) sont déterminées et communiquées
+aux services d’information aéronautique selon le Système géodésique mondial - 1984
+(WGS 84).
+Les coordonnées géographiques obtenues par conversion mathématique au système
+WGS 84 mais pour lesquelles le degré de précision des mesures prises à l’origine sur le
+terrain n’est pas conforme aux spécifications du Tableau 1 de l’Appendice II sont signalées
+aux services d’information aéronautique.
+7025-04 Degré de précision
+Le degré de précision des mesures effectuées sur le terrain ainsi que celui des
+déterminations et calculs dans lesquels ces mesures ont servi sont tels que les données de
+navigation opérationnelles obtenues pour les différentes phases de vol se situent à
+l’intérieur des écarts maximaux, par rapport à un cadre de référence approprié comme il est
+indiqué dans les tableaux 1 à 5 de l’appendice 4.
+Par cadre de référence approprié, on entend un cadre qui permet l’application du WGS 84
+à une position donnée et auquel toutes les coordonnées sont liées.
+Les spécifications relatives à la publication des données aéronautiques figurent au Chapitre
+2 de l’Annexe 4 de l’OACI et au Chapitre 3 de l’Annexe 15 de l’OACI.
+Pour les repères et les points ayant une double fonction, par exemple, point d’attente et
+point d’approche interrompue, c’est le degré de précision le plus élevé qui s’applique.
+7025-05 Enregistrement, conservation et restitution des données
+En matière d’enregistrement, de conservation et de restitution des données, les organismes
+de la circulation aérienne militaire se conforment aux dispositions de l’arrêté du 20 octobre
+2004 relatif aux enregistrements des données relatives à la gestion du trafic aérien, à leur
+conservation et à leur restitution.

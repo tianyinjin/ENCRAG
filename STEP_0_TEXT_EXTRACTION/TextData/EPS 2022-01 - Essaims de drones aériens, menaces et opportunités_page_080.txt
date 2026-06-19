@@ -1,0 +1,36 @@
+traiter un sous-secteur et de sélectionner judicieusement le prochain secteur à traiter, une telle approche
+permet alors un travail coordonné très efficace et robuste aux aléas (notamment l’attrition de l’essaim,
+car la répartition n’est pas calculée une fois pour toute au début de la mission).
+Ce type d’approche est utilisable tant que les tâches des agents individuels ne sont pas directement
+dépendantes les unes des autres. Les interactions entre agents restent indirectes, par le biais d’une
+représentation partagée de l’état d’avancement de la tâche collective, que chacun met à jour et dont il
+tient compte pour prendre ses décisions individuelles.
+Mettre en œuvre la coordination d’un essaim en utilisant des règles trouve ses limites lorsque les actions
+des individus dépendent les unes des autres. Une telle approche a été utilisée par exemple dans les
+années 90 par les forces armées US pour créer des agents artificiels réalistes dans le cadre de sessions
+d’entraînement mixtes (simultanément réelles et virtuelle) à grande échelle.
+Nous allons développer ici cet exemple, qui nous servira de point de départ pour aborder le travail en
+équipe à la section suivante.
+La figure ci-dessous illustre la tâche de type « attaque » : il s'agit pour une équipe d'hélicoptères
+d'attaquer une colonne de véhicules ennemis se déplaçant derrière une crête. Tout d'abord, l'équipe
+rejoint un point de rassemblement, hors de vue de l'ennemi, à l'issue d'une phase de navigation. Une
+fois ce point rejoint, un ou deux éclaireurs rejoignent la ligne de crête pour repérer précisément la
+position de l'objectif. Les membres de l'équipe se répartissent alors leurs positions de combat, toujours
+masqués par la ligne de crête, puis procèdent à l'attaque en se démasquant de manière alternée pour
+tirer leurs missiles. Enfin, l'équipe rentre à la base.
+Figure 3 : illustration de la mission "attaque" pour une équipe d'hélicoptères.
+En utilisant un système fondé sur la simple coordination entre agents à base de règles, les équipes
+effectuent, la plupart du temps, leurs tâches sans incident, mais présentent parfois de graves problèmes
+de coordination, comme, par exemple :
+1- Une fois arrivés au point de rassemblement, les membres de l'équipe attendent le message
+de l'éclaireur pour passer à l'attaque. Si l'éclaireur s’est écrasé entre temps, le reste de
+l'équipe reste en attente indéfiniment ;
+2- Une fois la mission accomplie, si le partenaire du commandant (c'est par l’intermédiaire de
+ce partenaire que se coordonne le reste de l'équipe) est détruit, il peut arriver que le
+commandant rentre seul à la base, les autres ne réalisant jamais que la mission est
+terminée ;
+3- Pendant l'attaque, seuls les agents pouvant voir les cibles attaquent, les autres restant
+inactifs ;
+4- Il peut arriver que certains membres de l'équipe ne se rendent pas compte qu'un point de
+navigation a été atteint.
+80

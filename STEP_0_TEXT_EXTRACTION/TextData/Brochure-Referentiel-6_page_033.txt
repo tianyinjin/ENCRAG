@@ -1,0 +1,70 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+les chapitres précédents ont abordé le sujet via une approche technologique. • Usine du futur :
+Il est maintenant utile de croiser cette approche avec une analyse des cas - Industries agro-alimentaires ;
+d’usage, c’est-à-dire des domaines métiers où ces technologies, produits et ser- - cobotique et robotique industrielle ;
+vices peuvent être utilisés. Pour ce faire, il nous semble intéressant d’identifier - Industries culturelles et créatives ;
+des critères qui peuvent être dimensionnant pour les solutions ou les produits. • Drones et robots ;
+• Protection de la vie privée ;
+dans un premier temps, nous nous proposons d’utiliser deux critères :
+• Villes intelligentes (smart cities).
+• Son domaine d’activité, et donc les risques devant être adressés ;
+• La taille de l’entité utilisatrice des produits ou services de cybersécurité. D.1.1 _Transports
+le domaine des transports se caractérise par un nombre d’opérateurs très
+d’autres critères différenciant peuvent être envisagés, comme par exemple l’im-
+importants (c’est un peu moins vrai pour le ferroviaire) et donc une organisa-
+plantation internationale qui peut entrainer l’obligation de répondre à des lé-
+tion extrêmement distribuée. cette structure apporte de manière générale une
+gislations ou des directives nationales de sécurité différentes. les retours d’ex-
+meilleure résilience que dans d’autres domaines.
+périences de l’utilisation des différents cas d’usages conduiront à introduire si
+Par contre, il est possible d’identifier un risque commun pour tous les acteurs,
+nécessaires d’autres critères.
+le risque de pertes humaines et de dysfonctionnement majeur de la société
+Chaque produit ou service cyber pourra au final être caractérisé selon : dans le cas d’un accident lié à une cyber-attaque.
+• Ses briques technologiques (chapitre B) ;
+• Son domaine fonctionnel (chapitre C) ;
+• Son (ou ses) cas d’usage(s) (chapitre D).
+Cette analyse peut permettre d’identifier la nécessité d’adaptation de produits
+existants, de développement de nouveaux produits, ou de travaux de R&d :
+• Adaptation à un nouveau cas d’usage pour un produit existant ;
+• Déclinaison en gamme d’outils ou de services pour répondre aux moyens
+techniques susceptibles d’être financés selon le type de client ;
+• …
+D.1.1.1 _Automobile connectée
+D.1 chaque secteur d’activité a ses propres contraintes, techniques, organisation-
+nelles, réglementaires voire culturelles. Il est donc crucial que les produits et l’automobile devient un objet connecté, que ce soit dans le cadre d’une
+Analyse
+services proposés soient en adéquation avec ces réalités. utilisation personnelle ou professionnelle (gestion de flotte, suivi de trajets,
+des cas d’usage
+hyper-connectivité, ...). de nombreux articles ont montré la vulnérabilité
+l’analyse détaillée des cas d’usage et donc des besoins afférents devra être
+selon le secteur potentielle des architectures actuelles et des travaux ont été lancés pour les
+réalisée en collaboration avec les acteurs concernés, qui seuls peuvent ex-
+sécuriser. les risques sont liés à la multiplication des calculateurs, à la connexion
+d’activité
+primer un besoin pertinent. À titre d’exemple, voici une première liste de cas
+entre des bus temps réels pour les fonctions de conduite et de sécurité (AbS,
+d’usages liés à des activités essentielles :
+ESP, gestion moteur…) et des bus utilisés pour des fonctions de confort ou de
+divertissement.
+• Transports :
+l’arrivée de ports de type USb permettant la connexion de supports amovibles
+- Automobile et infrastructure routière connectée ;
+courants et la généralisation de l’intégration de fonctions de téléphonie
+- Aéronautique ;
+mobile offrent tout à la fois des portes d’entrées pour l’introduction de
+- navires et navigation maritimes ;
+logiciels malveillants, et des liens pour les activer ou les piloter à distance. Il
+- Infrastructures ferroviaires ;
+convient alors d’imaginer des attaques ciblées ou aléatoires pouvant causer
+- Production et distribution d’énergie (smart energy, y compris smart grids) ;
+des dommages matériels pouvant aller jusqu’à des pertes humaines.
+• Gestion de l’eau (distribution et retraitement) ;
+les travaux qui sont menés sur les véhicules autonomes (fonctionnement
+• Santé ;
+automatique sans intervention du conducteur) renforcent bien évidemment
+• Systèmes de communication ;
+le besoin de disposer de solutions de sécurité éprouvées. cette dynamique
+• Domotique / gestion technique bâtimentaire ; suppose que le niveau de sécurité exigé se rapproche de celui des applications
+• Banques / assurances ; aéronautiques critiques.
+64 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 65

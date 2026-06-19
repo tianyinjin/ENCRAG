@@ -1,0 +1,46 @@
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board
+V
+N 1 -
+ID
+/V
+IV m
+0
+0
+2
+V
+T
+U
+1
+-
+ID
+/V
+Om
+V0
+0
+2
+500µs/DIV
+Figure 8. TS1002 and TS1004 Non-Inverting Configuration Input and Output signals
+COMPONENT LIST
+DESIGNATION QTY DESCRIPTION DESIGNATION QTY DESCRIPTION
+TS1002 TS1004
+C1, C2, C3 3 0.1µF ± 10% C1, C4, C5 3 0.1µF ± 10%
+capacitors (0805) capacitors (0805)
+C4, C5 2 1µF ±10% C2, C3 2 1µF ±10%
+capacitors (0805) capacitors (0805)
+R8 1 665kΩ ± 1% R15 1 665kΩ ± 1%
+resistor (0805) resistor (0805)
+R5 1 500kΩ ± 1% R18 1 500kΩ ± 1%
+resistor (0805) resistor (0805)
+R3, R4, R6 3 1MΩ ± 1% R13, R14, R17 3 1MΩ ± 1%
+resistors (0805) resistors (0805)
+R9, R10 2 1.25MΩ ± 1% R1, R2 2 1.25MΩ ± 1%
+resistors (0805) resistors (0805)
+R1, R2, R7 3 2MΩ ± 1% R11, R12, R16 3 2MΩ ± 1%
+resistors (0805) resistors (0805)
+U1 1 TS1002 Dual Op- U1 2 TS1004 Quad Op-
+Amps Amps
+VDD, VIN, VIN-1, 5 Test points VDD, VIN, VIN-1, 7 Test points
+VOUT, VOUT-1 VOUT, VOUT-1,
+Out_B, Out_C
+TS1002DB/TS1004DB r1p0 Page 5
+RTFDS

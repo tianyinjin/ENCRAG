@@ -1,0 +1,53 @@
+29
+Soulignons que tant que la 2G reste active sur les réseaux, des services de sécurisation adaptés aux environnements
+elle impose certains mécanismes moins sécurisés aux télécom pour aider opérateurs et entreprises utilisatrices
+téléphones utilisant la 2G . De même, le protocole Diameter, de tels réseaux à définir leur stratégie de cybersécurité
+toujours actif en 4G LTE et 5G NSA, peut ouvrir certaines et les configurations dans un soucis d’équilibre entre
+failles . Heureusement, des solutions existent pour se sécurité et performance . Par ailleurs, les opérateurs vont
+protéger, tels que les pare-feux SS7 ou les infrastructures héberger de plus en plus d’applications B2B et B2B2C
+PKI : il incombe aux opérateurs leur mise en place sur leurs réseaux 5G : si ces applications portent sur
+ainsi qu’une configuration adéquate de leur réseau . la création ou le partage d’information, les opérateurs
+seront de facto partie prenante dans la sécurisation
+Authentifier voire localiser l’usager de ces applications et non plus seulement dans la
+Côté usager, grâce au chiffrement et aux clefs des cartes transmission sécurisée de données à travers leur réseau .
+SIM, les téléphones doivent s’authentifier avec le réseau
+mobile, instaurant la confiance envers une information D’autres challenges à venir
+provenant directement d’une personne du même Une nouvelle menace plane sur la sécurité des données :
+opérateur, comme lors d’un appel téléphonique . Depuis les ordinateurs quantiques pourraient compromettre
+la 3G, l’authentification est même réciproque, obligeant l’authentification et le chiffrement par les algorithmes
+le réseau de l’opérateur à prouver son identité auprès du à clefs actuels . La maturité est encore insuffisante pour
+téléphone . La carte SIM, et dorénavant la eSIM intégrée être une menace imminente, mais les investissements
+au hardware, reste la pierre angulaire de l’authentification augmentent et certains états semblent s’y lancer
+des usagers . Bien sûr, ce mécanisme ne permet pas de massivement . Heureusement, quelques algorithmes
+certifier que la bonne personne utilise cet appareil en cas sont toujours considérés comme résistants au calcul
+de vol du téléphone ou de la carte SIM . Certaines attaques quantique . Bien que non finalisés et standardisés, le
+comme le SIMjacking ou le SIMcloning existent, mais les NIST a ainsi publié en 2022 un algorithme « quantum
+opérateurs occidentaux mènent des contrôles sur les resistant » pour le chiffrement de données et trois autres
+cartes SIM, sur les comportements frauduleux et sur les pour les signatures digitales . Equipementiers télécom
+adhésions . Cette sécurité est clairement cruciale pour le et opérateurs devront s’atteler à de grands chantiers :
+partage d’information et les réseaux sociaux qui doivent assurer la disponibilité de cryptographie post-quantique
+maintenir cette confiance dans l’origine des informations . dans les produits, la compatibilité des architectures, des
+Au-delà d’identifier une source, la localiser est également procédures et des nouveaux paramétrages qui seront
+très utile, pour accroître la confiance dans la source à nouveau une source de faiblesses et des plans de
+ou déterminer l’origine du contenu . Les réseaux migration à l’échelle des réseaux . Tout cela pour conserver
+mobiles peuvent jouer un rôle important dans cette nos informations à l’abri de l’espionnage ou de l’altération .
+perspective en fournissant une preuve de localisation .
+Même si celle-ci n’est pas accessible aux abonnés, les
+autorités peuvent requérir des opérateurs les détails
+de géolocalisation . A l’heure de « fake news », des
+images et vidéos factices, et de l’altération des données
+GPS d’un fichier, une telle possibilité s’intègre dans
+le process de validation des sources d’information .
+Maîtriser les configurations
+Les opérateurs deviennent donc une pierre angulaire
+de la transmission d’information et les standards 3GPP
+de téléphonie mobile aident à identifier, formaliser
+et standardiser les mesures de sécurité, améliorant
+sans cesse le degré de sécurité de la 2G à la 5G . Les
+opérateurs doivent cependant être très vigilants sur les
+configurations des équipements puisque les standards
+émettent souvent des recommandations et non des
+obligations . De mauvais paramétrages mettent en péril
+la sécurité d’un réseau, avec de potentielles fuites ou
+modifications de données . Les équipementiers télécom
+ont bien compris cette menace et ont d’ailleurs développé

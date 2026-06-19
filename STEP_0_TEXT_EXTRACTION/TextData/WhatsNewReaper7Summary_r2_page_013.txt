@@ -1,0 +1,45 @@
+REAPER 7.0: What’s New
+Editing Media Items
+Ideally you’ll want to finish media item edits before comping. However, the need might
+arise for you to make edits to one or more of your items after you have begun comping.
+In this case, you can enable editing using the context menu toggle command Comping,
+Allow editing of source media while comping. The display changes, as shown on
+the right. The top half of each source lane is where you make your edits. The bottom
+half highlights your comped segments, as shown here (right).
+Your editing can include fades and/or crossfades. Any fades/crossfades applied to media
+in the source media lanes will also be applied in the comp lane. However, the fades in
+the comp lane can be edited independently if you wish, as shown here (below right).
+Double-click in the crossfade area if you want to access the crossfade editor.
+It is possible that in making your edits your source item could now get out of sync with your
+your comp lane. Happily, the area of the source lane that was originally copied to the comping
+lane will remain highlighted: clicking there is one way to restore the original comp area and
+remove whatever edits were made in that lane.
+Another option is to use re-comping, which can be achieved by choosing Comping, Copy edited media items
+to new lane and re-comp (Shift left click) from the comp area context menu. This will preserve comp lane
+edits by moving them to a new source lane and creating a new comp area so that the edits are copied right back
+to the comp lane. Thus, the edits become a new source lane alternative which is available for you to use while
+comping.
+When you have finished editing, remember to disable Allow editing of source media while comping.
+Sealing the Deal
+So … you’ve finished editing and comping your media items, what now? You might wish to protect your comps
+from any accidental damage. You have a number of options. For example, two possibilities are:
+ Right-click on the comp lane’s control button and choose Show only lane
+from the context menu. This will collapse the track as shown here.
+Marquee all items in the comp lane, press F2 to open the Media Item
+Properties window. Select Lock then OK. You can then use the track
+panel context menu to disable Fixed Item Lanes for this track. … or ….
+ Marquee all items in the comp lane
+Ctrl drag and drop to copy to a new track.
+With all items still selected, press F2 to open the Media Item Properties window.
+Select Lock then OK.
+Use the Track Manager to mute and hide your original track.
+Converting Takes to Lanes
+Existing tracks that make use of REAPER’s legacy takes system cam be converted into fixed item lanes. Select
+the track and from the right click context menu choose either Fixed item lanes or Fixed item lanes (convert
+takes to lanes).
+Thus this …
+Becomes this ...
+Then, after turning on
+Comp into new empty
+lane, this.
+Page 13

@@ -1,0 +1,38 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Effectuer une revue régulière des intervenants et de leurs comptes, au minimum
+une fois par an pour vérifier :
+Les comptes doivent être désactivés dès
+- l'application des règles portant sur les comptes et les accès ;
+le départ d'un personnel. Le circuit
+EXP22 ORG - la pertinence des comptes. Si des comptes appartiennent à des personnels O
+départ de l'entité prévoit une notification
+n’intervenant plus sur le système industriel, ils sont désactivés et supprimés au
+aux administrateurs des systèmes.
+bout d’un temps défini afin de garantir la traçabilité de leurs actions..
+Porter une attention particulière sur les comptes d’administration.
+Dans le cas où un appel doit être fait, exceptionnellement et pour des raisons de
+savoir-faire exclusif, à des personnes non habilitées (étrangères par exemple) pour
+effectuer un dépannage ou une opération particulière sur des matériels ou
+EXP23 ORG logiciels, mettre en place toutes mesures utiles pour qu'elles ne puissent avoir O
+connaissance, même fortuitement d'informations sensibles ou classifiées. De plus,
+leur accès physique et leur intervention doivent être effectués sous la surveillance
+continue de personnels habilités et qualifiés.
+Exemples de comptes de privilèges
+élevés :
+- « administrateur système » permettant
+l’administration informatique des
+équipements (serveurs, stations et
+Créer des comptes selon le principe de moindre privilège. équipements réseau par exemple) et
+EXP24 ORG O
+Porter une attention particulière sur les comptes de privilèges élevés. des systèmes d’exploitation ;
+- « ingénieur de procédé » permettant
+d’accéder à des fonctions de
+configuration ou de programmation des
+applications SCADA* et automates* par
+exemple.
+Affecter des comptes de manière individuelle. Chaque compte doit être attribué à
+une seule personne bien identifiée, via un compte nominatif dans la mesure du
+EXP25 ORG R O O
+possible. En cas de compte non nominatif, le faire prendre en compte à son
+détenteur.
+DIR-39 SNSI – 2eme édition Page 64 | 79

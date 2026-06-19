@@ -1,0 +1,40 @@
+24 Pôle d’excellence cyber
+Industrialisation de l’IA,
+un pilier de la confiance
+Aurélia NÈGRE et l’équipe IA
+Head of AI Engineering
+Safran.AI
+L’émergence des systèmes d’IA fondés sur permet également de cibler les cas d’usages où l’IA peut
+l’apprentissage profond dans des domaines critiques apporter de la valeur, faire comprendre à l’utilisateur
+introduit de nouveaux défis en matière de vérification, final les points forts et les erreurs classiques des SIA.
+de test et d’audit. Ces modèles, par leur nature même, Au cours de leur durée de vie, les algorithmes feront
+présentent des comportements plus complexes à l’objet de mises à jour régulières, en se fondant sur
+analyser que les systèmes experts traditionnels. les retours des utilisateurs et sur les données réelles.
+En effet, il est rare de disposer lors de la phase de
+La confiance vis-à-vis d’un système d’IA nécessite deux conception, de données exhaustives et représentatives
+piliers : itérer avec les utilisateurs finaux, depuis la des conditions finales d’utilisation. Cela est
+conception jusqu’aux tests sur donnés réelles, et intégrer particulièrement vrai pour les cas d’usage défense. Ces
+les meilleures pratiques du développement logiciel, boucles courtes d’itération permettent alors d’atteindre
+avec une traçabilité rigoureuse des données et des de façon pragmatique la meilleure performance
+expérimentations IA. Cette approche collaborative, opérationnelle, et sont des facteurs clé d’adoption.
+couplée à des méthodes de travail industrielles, permet
+à la fois de renforcer la sécurité de ces systèmes et Enfin, l’autonomie des utilisateurs dans l’évaluation
+de garantir leurs performances opérationnelles. des systèmes représente un facteur clé de confiance.
+Des protocoles et outils spécifiques doivent leur
+Nous partageons ici cinq enseignements tirés de nos huit permettent de tester les modèles sur leurs propres
+ans d’expérience sur des produits logiciels incorporant de données opérationnelles, associés à une formation
+l’IA en production dans des environnements contraints. sur l’interprétation des métriques d’évaluation.
+1. Placer l’utilisateur final au centre 2. Obtenir des données annotées de qualité
+Toute IA de défense est utilisée par des forces armées Les systèmes d’IA fondés sur l’apprentissage profond
+professionnelles, expertes dans leurs domaines respectifs. ont besoin d’importants volumes de données
+Pour prendre des décisions éclairées à partir des annotées pour être performants. Or, pour les cas
+systèmes d’IA (SIA), il est fondamental que ces systèmes d’usage défense, les données opérationnelles
+correspondent parfaitement au cas d’usage opérationnel sont généralement classifiées, et peu disponibles.
+et que les utilisateurs finaux en comprennent finement
+les capacités, le périmètre d’utilisation et les limites. Bien que l’utilisation de données en source ouverte
+soit un bon moyen de prototyper des premières
+Pour cela, l’intégration des utilisateurs dès les phases versions d’algorithmes, un SIA en production
+initiales de conception est cruciale. Cette collaboration nécessite d’obtenir des données réelles ou a minima
+précoce permet de définir le périmètre de fonctionnement très similaires. Cela implique d’investir dans des
+opérationnel, et oriente la création des jeux de données données commerciales d’intérêt et représentatives.
+d’apprentissage et de test par les Data Scientists. Elle

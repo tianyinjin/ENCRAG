@@ -1,0 +1,56 @@
+57
+peut avoir des effets notables et discrets, ce qui En revanche, l’injection de prompt indirecte est
+est dangereux dans des systèmes de classification plus complexe à détecter, notamment lorsque des
+utilisés pour la prise de décision par exemple). La données corrompues ou erronées sont insérées dans
+fiabilité peut être drastiquement impactée. des bases de données. Ces attaques peuvent être
+subtiles, comme l’ajout de valeurs incorrectes dans
+• attaque par DDOS (Distributed Denial of Service une application financière. Pour limiter ces risques,
+ou attaque en déni de service) : Faire tourner plusieurs mesures doivent être prises :
+un système d’IA est coûteux et les institutions
+disposent de ressources de calcul limitées. 1. Contrôle strict des droits d’accès : Chaque insertion
+Dès lors requêter trop souvent les services ou dans la base de données doit être autorisée
+forcer les LLM à générer du texte à l’infini peut et effectuée par des utilisateurs disposant des
+fortement perturber les performances pour tous privilèges appropriés.
+Christian LANGEVIN les utilisateurs. 2. Surveillance active : Mettre en place un
+système de monitoring permettant d’identifier
+Là où auparavant, attaquer une infrastructure rapidement les documents problématiques ou
+nécessitait des compétences informatiques avancées les comportements suspects.
+et la maîtrise de plusieurs langages de programmation 3. Validation rigoureuse des données : Les nouvelles
+et des protocoles réseaux, les attaques par injection entrées doivent être systématiquement vérifiées,
+de prompts ne nécessitent que peu de compétences notamment par des processus automatisés ou
+techniques et on peut en élaborer à partir de ressources manuels pour s’assurer de leur conformité.
+sur le prompt engineering que l’on trouve en ligne.
+Les attaques plus avancées comme le data poisoning Ces pratiques combinées permettent de réduire les
+ou l’injection de prompt indirecte requièrent toutefois surfaces d’attaque et de mieux protéger les systèmes
+une meilleure connaissance de l’infrastructure génératifs contre des tentatives malveillantes, qu’elles
+attaquée (accès aux points d’indexation des données soient directes ou indirectes. Elles ne sont bien sûr
+et à l’architecture du service qu’on veut déstabiliser). pas exhaustives car chaque type d’attaque demande
+Ces attaques sont donc plus accessibles à des sa contre mesure spécifique, mais constituent un
+menaces internes ou à des acteurs ayant les capacités ensemble de bonnes pratiques à adopter pour
+techniques de sonder en profondeur l’architecture sécuriser les systèmes d’IA générative.
+data de la cible.
+Cette taxonomie n’est évidemment pas exhaustive.
+D’autres types d’attaques plus techniques existent,
+telles que la falsification de requêtes serveur ou
+l’exploitation des sandbox[1] dans des contextes
+d’agents autonomes. Par ailleurs, cet article se
+concentre sur les méthodes d’attaque et ne prend pas
+en compte les vulnérabilités intrinsèques des modèles,
+comme les hallucinations[2] ou leurs problèmes
+d’alignement avec les préférences humaines.
+C. Face à la malveillance, quelles solutions ?
+Pour se prémunir des attaques, il est essentiel de
+mettre en place des mécanismes de filtrage appliqués
+à la fois :
+• Aux entrées utilisateur, pour s’assurer que les
+interactions respectent les attentes et prévenir les
+comportements perturbateurs.
+• Aux sorties du système, pour détecter tout
+détournement potentiel de son comportement.
+Ces filtres peuvent être basés sur des tests automatisés,
+inspirés des tests unitaires en programmation, utilisant
+des règles, des expressions régulières ou des modèles
+d’IA spécialisés dans la détection d’anomalies. Par
+exemple, l’injection de prompt peut être identifiée par
+des modèles de classification entraînés à reconnaître
+des instructions suspectes.

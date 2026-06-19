@@ -1,0 +1,30 @@
+Introduction
+On ESI systems, station message detail reporting (SMDR) closely emulates the Panasonic® DBS® 824 SMDR
+format — with the exception that Esi-Link location numbers are included in the SMDR record where the Panasonic
+“walking COS1” code would be.
+Virtually all call accounting systems marketed in North America that support Panasonic DBS SMDR will also support
+the ESI SMDR tabular record format (see “Tabular SMDR format,” below). Many call accounting system makers
+state in their literature and/or Web sites that their products are compatible with ESI systems.
+SMDR may be output in one of three formats, selected in system programming: tabular (standard), CSV, or extended.
+The tabular format is the default.
+Stored SMDR
+You can store SMDR records if using either (a.) a compatible ESI Communications Server equipped with the ESI
+Applications Services Card (ASC) or (b.) an IP Server 900 (which has ASC capabilities built into the main board).
+Either system stores up to 20,000 SMDR records, in extended format, on the optional ASC Memory Module (hard drive).
+Stored SMDR records can be exported to the .CSV format through the use of ESI Media Manager. (Third-party software
+is still required to perform any call-accounting functions.) For details on ESI Media Manager, see the ESI Media
+Manager Installation Guide (ESI # 0450-1240).
+Tabular SMDR format
+ESI’s tabular SMDR output format, which is compatible with the standard Panasonic® DBS® format except for the last
+two (ESI-exclusive) items, is as shown below:
+Four-digit dial plan
+1 2 3 4 5 6 7 8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+T MM/DD HH:MM:SS HH:MM:SS NNNN XXXXXXXXXXXXXXXXXXXXXXXXXXX AAAAAAAAAA EE RR LLL
+Three-digit dial plan
+1 2 3 4 5 6 7 8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+T MM/DD HH:MM:SS HH:MM:SS NNN XXXXXXXXXXXXXXXXXXXXXXXXXXX AAAAAAAAAA EE RR LL
+(Continued)
+1 Class of Service.
+ESI (Estech Systems, Inc.) • 800 374-0422 • fax: 972 422-9705 • e-mail: info@esi-estech.com • Web: www.esi-estech.com 0450-0463 • Rev. E

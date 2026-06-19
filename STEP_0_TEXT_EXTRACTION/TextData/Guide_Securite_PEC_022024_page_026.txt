@@ -1,0 +1,42 @@
+POLE D'EXCELLENCE CYBER
+........................................
+FICHE N°5
+APPLICATIONS
+De nombreuses applications n'ont pas été conçues pour être sécurisée par défaut, mais pour rendre un service informatique.
+Tout programme est susceptible de présenter des vulnérabilités exploitables, plus vous téléchargez et installez de logiciels sur
+votre ordinateur, plus vous augmentez potentiellement la surface d'attaque. En outre, les applications peuvent collecter et
+transmettre des informations potentiellement sensibles du système (géolocalisation, carnet d’adresse, documents, etc.), ainsi
+que vos données. Limitez votre exposition aux cyber-menaces en suivants les recommandations suivantes :
+• Téléchargez chaque logiciel sur le site officiel de son éditeur R1 : ne téléchargez jamais de logiciel sur d'autres sites que celui de
+l'éditeur. Vous pouvez également vous référer à la liste des logiciels libres fournie par le Socle Interministériel de Logiciels Libres1 .
+• Avant d’exécuter un logiciel téléchargé sur Internet, analysez-le à l’aide de votre logiciel anti-virus R2 : il existe également des
+outils de multiscanning2 en ligne, comme VirusTotal (voir le tutoriel « Analyser un fichier ou un lien avec VirusTotal »), qui permettent
+d’analyser les exécutables et divers fichiers téléchargés sur Internet à l’aide de nombreux antivirus. S’il s’avère que le logiciel ou le
+fichier analysé est infecté, surtout ne l'exécutez pas et supprimez-le immédiatement.
+• Mettez à jour tous les logiciels installés sur votre ordinateur R3 : tout comme votre système d’exploitation, les logiciels qui sont
+installés sur votre ordinateur doivent être régulièrement mis à jour. Si cela est possible, configurez les logiciels pour que les mises à
+jour de sécurité se fassent de manière automatique.
+• Désinstallez les logiciels non essentiels à votre travail R4 : bien souvent il vous est proposé avec votre systèmes d'exploitation
+des logiciels dont vous n'avez pas besoin pour votre usage professionnel, il faut désinstaller ces applications qui vous sont inutiles.
+Par exemple, le système Windows est fourni avec un grand nombre d’applications préinstallées. Il s’agit des applications universelles
+(news, sport, météo, jeux, cuisine, Skype, santé et fitness, Booking, etc.) ou les programmes classiques de bureau (souvent des versions
+d’essai de logiciels payants). Ces logiciels ralentissent inutilement votre travail et votre système, peuvent comporter des failles de
+sécurité et représenter un risque pour votre système et vos données (voir le tutoriel « Désinstaller les applications »). N’installez pas
+un logiciel lorsque vous n’en avez pas l'usage (voir le tutoriel « Désinstaller les applications »). N’installez pas un logiciel lorsque vous
+n’en avez pas l'usage.
+Certaines applications universelles ne peuvent pas être désinstallées (Microsoft Edge, Cortana, etc.), dans ce cas, il est recommandé de
+mettre en œuvre des règles de restriction à l'aide d’un logiciel de contrôle des applications, par exemple AppLocker sous Windows ou
+AppArmor sous Linux. Cependant, l’utilisation de ce type de logiciel nécessite d’avoir de bonnes compétences en informatique. Pour
+Windows, nous vous recommandons de vous référer au Guide de l'ANSSI, « Recommandations pour la mise en œuvre d’une politique
+de restrictions logicielles sous Windows3 ».
+• Limitez les accès octroyés aux logiciels installés R5 : les applications peuvent accéder à des ressources potentiellement sensibles
+de votre système, comme la géolocalisation, la caméra, le microphone, les carnets d’adresse, etc. Bloquez l’accès à ces ressources pour
+des applications installées sur votre système (voir le tutoriel « Restreindre les autorisations accordées aux applications »).
+• Paramétrez vos logiciels R6 : les paramétrages par défaut sont souvent trop permissifs (pièces jointes chargées automatiquement
+ou liens qui s'ouvrent à l’ouverture du courriel, utilisation de Cloud, des macros, etc.) et vont à l'encontre des principes élémentaires
+de précaution. Par exemple, désactiver la collecte et l’envoie d'informations aux éditeurs des logiciels, bloquer l’accès aux ressources
+de votre ordinateur (microphone, caméra) sont les précautions de base à effectuer.
+1 https://sill.etalab.gouv.fr/fr/software
+2 Des outils qui exécutent plusieurs anti-logiciels malveillants ou antivirus simultanément.
+3 https://www.ssi.gouv.fr/uploads/2013/12/np_applocker_notetech-v2.pdf
+26

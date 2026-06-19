@@ -1,0 +1,33 @@
+Les contrôles réalisés par la chaîne organique (cf. paragraphe 6.1 ci-dessus) et les contrôles
+réalisés par la chaîne fonctionnelle sont complémentaires.
+entités ayant reçu délégation.
+Dans un souci de rationalisation, les contrôles réalisés au titre de la gestion des ACSSI par la
+chaîne fonctionnelle ACSSI peuvent être combinés aux contrôles portant sur le chiffre
+(contrôle des réseaux de chiffrement).
+GESTION DES INCIDENTS
+Définitions
+[II910], un incident de sécurité est un événement indésirable ou inattendu présentant
+une probab
+informations ou des systèmes protégés par les ACSSI. Un incident de sécurité peut ou non
+conduire à une compromission. La liste des évènements qui doivent obligatoirement être
+considérés comme des incidents de sécurité figure en annexe VI à la présente directive.
+Principes
+en coordination
+avec les chaînes métiers et que les premières mesures conservatoires puissent être adoptées.
+ident de sécurité peut impacter directement ou
+informera le FSSI.
+Chaque AQSSI doit, en outre, r de la diffusion vers les entités détenant des ACSSI et
+ux exploitants de fiches réflexes face à un incident de sécurité affectant un ACSSI et de
+Les principales informations devant figurer dans le modèle de message diffusé par chaque
+AQSSI du MINARM figurent en annexe VI.
+Un message de primo-
+central ACSSI .
+Le gestionnaire central ACSSI ou le CRPA (dans le cas des entités de droit privé) sous couvert
+informeront le FSSI selon les modalités et délais
+prescrits par la [PMSN] pour le traitement des incidents de sécurité pouvant impacter
+directement ou indirectement le ministère, ses fournisseurs ou ses établissements sous tutelle.
+Il convient que chaque AQSSI formalise les modalités de réaction à un incident de sécurité
+affectant un ACSSI dans une fiche réflexe idoine.
+également déclarer un incident ou une compromission. Ils adressent alors un message au FSSI
+du ministère qui informe sans délais les AQSSI.
+24/34

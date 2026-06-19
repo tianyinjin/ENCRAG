@@ -1,0 +1,28 @@
+13 Connectthevalveactuatorcontrolcabletotheanalogue
+output3(AO3)ontheconnectionboard.
+Caution
+Donotusethe24VDCoutputonthe
+connectionboardtopowertheactuator.
+14 Installthecontrolboardifitwasremoved.Installthecon-
+trolboardcover.
+15 Installthefan.
+Reconnectthepressuremeasurementtubes.
+Connectthefancables.
+16 Installtheinternalelectricalheatercover.
+17 Putthedooron.
+3.3 To configure
+1. GotoServicemenu.
+2. Enterthepassword(default1111).
+3. SettheheatertypeComponents�Heater�Water.
+Settheactuatorvoltagetype.
+4. Iftheproducthasaninternalelectricheater,settheelec-
+tricheatercontrolasinactive.GotoService�Output
+�ANALOG�TRIACOUTPUT�InactiveOutput.
+5. GotoService�Output�ANALOG.Selecttheana-
+logueoutputtowhichtheactuatorisconnected,setthe
+valuetoY1Heating.
+6. Configurethefrostprotectionsensor(FPT).GotoServ-
+ice�Input�ANALOG.Selecttheanalogueinputto
+whichthesensorisconnected,setthevaluetoFrost
+ProtectionTemp.Sensor(FPT).
+5

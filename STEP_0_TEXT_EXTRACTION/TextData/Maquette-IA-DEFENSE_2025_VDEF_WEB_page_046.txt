@@ -1,0 +1,64 @@
+46 Pôle d’excellence cyber
+Recommandations de sécurité pour la mise-en œuvre
+de plateformes d’IA générative dédiées à l’ingénierie
+des systèmes critiques.
+Adrien BECUE
+Expert en IA et Cybersécurité
+Thales
+L’ingénierie des systèmes critiques englobe la doivent être mis en place. Une surveillance continue
+conception, le développement, la vérification et la est nécessaire, avec l’enregistrement des actions
+maintenance de systèmes dont la défaillance pourrait critiques et la collecte d’évènements qui seront
+entraîner des conséquences graves, telles que des pertes remontés en centre de supervision de sécurité pour
+humaines, des dommages environnementaux ou des être analysés. Enfin, la plateforme doit subir des tests
+pertes économiques significatives. L’introduction de l’IA de pénétration réguliers et une homologation au
+générative offre des opportunités d’automatisation et niveau de sécurité requis par les projets adressés.
+d’amélioration de ces processus d’ingénierie. Cependant,
+2. Sécurisation des interactions homme-machine
+elle introduit également des risques spécifiques qui
+Pour prévenir les risques liés à l’exploitation malveillante
+peuvent compromettre la sécurité intrinsèque des
+des modèles d’IA générative, il est recommandé de
+systèmes. Par exemple, l’interaction entre un utilisateur
+mettre en place une interface de prompts sécurisée. Cette
+et une IA générative peut exposer des informations
+interface doit filtrer et valider les entrées afin d’éviter
+techniques sensibles relatives à ces systèmes. Par
+les biais et hallucinations des modèles, contrôler la
+ailleurs le risque d’hallucination des modèles génératifs
+fréquence des requêtes pour limiter les abus et détecter
+peut entrainer des erreurs de conception et des
+les usages suspects, et enregistrer les interactions pour
+défaillances graves. L’utilisation de l’IA générative
+assurer la traçabilité et prévenir les injections malicieuses.
+dans l’ingénierie des systèmes critiques requiert donc
+De plus, le développement d’une bibliothèque de
+une approche rigoureuse en matière de sécurité, de
+prompts pré-validés est conseillé. Ces prompts certifiés
+souveraineté et d’explicabilité. Afin d’assurer l’intégrité
+encadreront l’utilisation des modèles et seront mis à jour
+des systèmes et de protéger les données sensibles, nous
+continuellement pour répondre aux nouveaux besoins et
+recommandons la mise en place des mesures suivantes :
+sécuriser les interactions. Ils offriront le double avantage
+1. Protection de l’Infrastructure Matérielle d’améliorer la productivité des équipes d’ingénierie et
+Il est essentiel de déployer l’infrastructure matérielle réduire le risque d’erreurs liées à la qualité des prompts.
+sur site, en évitant les services cloud non maîtrisés, afin
+3. Contrôle des sources et vérification des sorties
+de garantir la souveraineté des données. L’architecture
+Pour renforcer la cohérence et la fiabilité des résultats
+matérielle doit être renforcée en utilisant des processeurs
+produits par l’IA, il est recommandé d’intégrer un
+et GPU dédiés, accompagnés d’une segmentation
+mécanisme de génération augmentée par récupération
+réseau stricte pour limiter les risques de compromission.
+(RAG). Cela implique l’utilisation d’une base de
+L’interconnexion avec internet ou avec une infrastructure
+connaissances contrôlée pour améliorer la précision
+de niveau de sécurité différent doit être sécurisée par
+des réponses, le filtrage des mises à jour pour éviter
+l’usage de passerelles et de pare-feu. Des contrôles
+les attaques de type empoisonnement, une indexation
+d’accès rigoureux, incluant une authentification
+et recherche sécurisées pour garantir un accès rapide
+forte et une gestion fine des permissions utilisateur,
+aux informations pertinentes sans compromission.

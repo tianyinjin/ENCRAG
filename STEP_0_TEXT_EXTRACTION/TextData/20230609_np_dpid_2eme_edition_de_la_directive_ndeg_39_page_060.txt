@@ -1,0 +1,36 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Les communications sans fil devraient
+être cloisonnées au maximum en isolant
+RSO29 TECH Constituer une zone de sécurité* contenant le réseau sans-fil. O
+les périphériques sans fil dans un
+réseau physique ou logique séparé.
+Les points d’accès sans fil devraient mettre en place les mécanismes suivants :
+- l’authentification du point d’accès et du dispositif qui se connecte à l’infrastructure
+RSO30 TECH ; R O O
+- les fonctionnalités de contrôle d’accès réseau (ex : EAP) ;
+- la journalisation des connexions.
+Lorsque les événements de sécurité ne sont pas supervisés par un dispositif
+RSO31 ORG centralisé, examiner régulièrement les événements générés par les équipements R O O
+sans fil.
+Maîtriser les équipements
+Durcir la configuration des équipements en désactivant ou supprimant :
+- les comptes par défaut ou non utilisés ;
+- les ports physiques inutilisés (ports de maintenance inclus) ;
+EXP1 TECH R O O
+- les supports amovibles, s’ils ne sont pas utilisés ;
+- les services non indispensables (service Web par exemple) ;
+- les logiciels non indispensables.
+Mesures possibles :
+Par exemple, on pourrait envisager les
+mesures suivantes :
+- blocage des ports USB à l’aide de
+Restreindre la connexion d’équipement en désactivant ou bloquant les ports
+mécanismes de sécurité physiques ou
+EXP2 TECH physiques (ports USB, port maintenance) lorsque leur utilisation n’est pas R O O
+logiques, comme les verrous USB
+nécessaire.
+physiques (avec clés) ou par un logiciel
+- de sécurité capable de bloquer
+l’utilisation de clés USB et autres
+périphériques ;
+DIR-39 SNSI – 2eme édition Page 60 | 79

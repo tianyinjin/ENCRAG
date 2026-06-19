@@ -1,0 +1,24 @@
+REAPER 7.0: What’s New
+Plug-ins, ARA
+Summary of main changes/additions to preferences
+The following preference options have been added:
+Separate fade options for imported, recorded and split media items (Project, Item fade defaults)
+Set default height for fixed items lanes (Project, Track/Send defaults)
+Set meter display preference for new tracks (Project, Track/Send defaults)
+Option to show gain reduction meters in tracks (Project, Track/Send defaults)
+Separate loop source options for imported, MIDI, recorded, and glued items (Project, Item loop defaults)
+Temporarily bypass oversampling/auto-bypass FX (Audio)
+Reduce CPU usage when processing silent passages (Audio, Playback)
+Scrub/jog volume gain (Audio, Scrub/Jog)
+Seek if media items clicked when moving edit cursor (Audio, Seeking)
+Disable auto-bypass when offline/stem rendering, or applying FX (Audio, Rendering)
+Not to animate toolbar buttons (Appearance)
+Option to hide child tracks when collapsing folders (Appearance, Track Control Panel)
+Scale gain reduction on track meters (Appearance, Track Meters)
+Envelope lane height to be set as percentage of track height (Appearance, Zoom/Scroll/Offset)
+Set vertical zoom limits (Appearance, Zoom/Scroll/Offset)
+Draw a selection indicator on selected items (Appearance, Media)
+Hide child tracks during folder collapse toggle cycle (Appearance, Track Control Panels)
+Options to customise envelope colors (Appearance, Envelope Colors)
+ARA options added, including option to pool ARA edits (Plug-ins, ARA)
+Page 32

@@ -1,0 +1,49 @@
+Orchestrating Manned-Unmanned Missions
+Using AI-Based Tasking System Across Multi-Domain Operations in M&S
+4) Human-in-the-Loop and Meaningful Control for Decision Awareness: STAR maintains human
+oversight, allowing decision-makers to retain control over task allocation and strategic changes,
+while AI optimizes recommendations. The system provides transparency through explainable AI,
+detailing task suggestions based on agent capabilities and mission needs, ensuring human decision-
+makers maintain meaningful control and understanding.
+STAR can be plugged into real databases and systems or simulated and modelling platforms such as Gazebo,
+Unreal, Unity or other platforms. This enables us to feed the system and allows for mission analysis. It takes
+a mission plan as input as well as doctrines and rule of engagements, as well as data received ahead of
+operations such as the assets specifications, limitations, and capabilities. It can consider environmental data
+which might affect the performance of the team (wind, visibility, snow, icing) which could affect either the
+manned/ human but also the unmanned systems. In addition, the modelling and simulation allows agents to
+be trained and tested in the same environment to assess individual but also team performance
+and collaboration.
+2.1.1 Modelling and Simulation
+Modelling and simulation enables answering several challenges for STAR. It first enables to simulate the
+actual mission operations, which involve many factors, actors and events. The first benefit is that it enables
+creating situational awareness data required for STAR to understand the operational context. This allows
+collecting multi-modal data (sensors, human, environment). The second benefit is that it allows co-hosting
+manned and unmanned agent systems which can both benefit from this simulated world where on one hand
+humans-in-the-loop can be immersed in a close to reality environment, which helps get human behavioral
+data such as performance, mental workload or stress which could be close to the real environment. Using
+M&S such as Unreal enables the creation of diverse scenarios such as search and rescue missions in water
+environment; ISR mission in MDO operations, or critical infrastructure operations such as NATO
+Experiment. On the other hand, it enables the autonomous vehicles such as UAV and UUV to be trained and
+tested in the same world or environment as human agent. Diverse plug-ins can be used to enhance the
+realism of the simulation and fulfil the need of data generation. Vigilante offers a platform for integrating
+manned and unmanned vehicles in realistic simulations, supporting a range of MDO operations ranging from
+air, ground, projectile and sea types of assets. These assets can be controlled via human operator within the-
+loop simulation or can be completely autonomous. Based on the use-case, STAR can enable python scripts
+and different AI capabilities which can be integrated within those assets such as deep reinforcement learning
+algorithms, computer vision, path planning and more. This allows STAR to have realistic assets composed of
+battlefield capabilities used in operations. Secondly, one essential plug-in for the air domain is JSBSim. It is
+an open-source flight dynamics software used for realistic ranging from 737, B17, f-15, f-16 and more. It is
+widely referenced in both academic and industry research, with applications in reinforcement learning for
+flight control, as seen in studies like [15] and [16] (JSBSim on GitHub). Cesium provides 3D geospatial
+visualization, crucial for simulating large-scale operational environments and real-time geospatial awareness
+in MDOs. It can be integrated with game engines like Unreal for enhanced terrain modeling and operational
+planning (Cesium Unreal Plugin). Cesium World Bathymetry integrates bathymetric data, vital for naval,
+submarine, and amphibious operations, adding realism to underwater and coastal simulations (Cesium World
+Bathymetry). These tools collectively offer a comprehensive simulation ecosystem, essential for training,
+mission planning, and operational execution in modern military contexts.
+3.0 STAR FOR CRITICAL UNDERSEA INFRASTRUCTURE
+In this section we will discuss how STAR could be applied to a Critical Undersea Infrastructure Protection
+scenario, inspired from the NATO Dynamic Messenger Exercise. We will present how we were able to
+generate the scenario using M&S, implement the assets MDO MUM-T, and tasking algorithm for C2
+Decision support in CUIP mission orchestration.
+STO-MP-MSG-229 11 - 7

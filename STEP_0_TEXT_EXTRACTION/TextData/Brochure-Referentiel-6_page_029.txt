@@ -1,0 +1,66 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+C.7 Sécuriser les réseaux n’est pas suffisant pour contrer l’ensemble des menaces ce chapitre concerne l’ensemble des équipements et des solutions qui C.9
+sur les communications. Il est très souvent nécessaire de sécuriser les flux audio, constituent les réseaux de transmissions et de communications, du niveau
+Communications Réseaux
+vidéo, de messagerie instantanée (chat) ou de données. de même, le dévelop- 1 au niveau 3. Il regroupe les équipements de transmission électriques
+et transactions
+pement de la visio-conférence pour du travail collaboratif à haute valeur ajoutée ou optiques, les commutateurs des réseaux locaux (local Area network
+nécessite la mise en place de solutions adaptées. les solutions VPn (Virtual (lAn) de niveau 2 ainsi que les routeurs d’accès, d’agrégation et de cœur
+Private network) utilisées notamment pour l’accès à distance à des réseaux de réseau de niveau 3.
+d’entreprises par des postes nomades sont également à prendre en compte
+la sécurité des réseaux est un domaine historique de la SSI. En dehors
+dans cette catégorie.
+du chiffrement des liaisons qui est bien maîtrisé, se pose la question de la
+les nouvelles technologies dites de « blockchain » qui permettent de sécuri- maîtrise des équipements, des protocoles et des services qui constituent
+ser les transferts d’information ou les transactions sans tiers de confiance ou le cœur des réseaux des opérateurs. le fonctionnement global de notre
+organe central de contrôle vont jouer un rôle majeur dans les années à venir société repose sur la disponibilité des services de communication, et les
+dans un certain nombre de domaines. Elles viennent compléter les solutions conséquences d’un arrêt général ces services aurait un impact considérable,
+plus historiques, qui restent toutefois indispensables pour la sécurisation des tant sur le fonctionnement de l’Etat que celui des entreprises. l’évolution
+transactions monétaires. vers des architectures réseau dites Sdn (Software Defined Networking),
+la virtualisation et donc potentiellement la délocalisation de fonctions
+intelligentes des réseaux ) va engendrer des problèmes de sécurité et de
+confiance d’un genre nouveau.
+C.8 les réseaux industriels ou plus généralement les systèmes de contrôle indus- dans un autre registre, l’interconnexion de réseaux de sensibilités différentes,
+Réseaux triel (ScI), parfois improprement appelés ScAdA (Supervisory control and la connexion entre un Intranet et Internet, entre un réseau industriel et
+data Acquisition, le logiciel du système de contrôle industriel), se retrouvent un réseau bureautique, les nouveaux usages (par exemple bring your
+industriels
+dans une infinité de domaines que ce soit pour le pilotage de processus industriels, Own device (BYOD), en français Apportez Votre Equipement personnel
+la gestion technique bâtimentaire, ou de nombreux systèmes d’armes. de communication (AVEc)) génèrent de nouveaux problèmes: fuite des
+données sensibles de l’entreprise, intégrité des données, pollution du SI
+leur positionnement à l’interface entre un domaine informatique (des applications
+par des logiciels malveillants, déni de service…
+métiers) et un système physique via des ensembles de capteurs et d’actionneurs,
+en font des systèmes particulièrement sensibles en terme de sécurité.
+comme l’ont prouvé des exemples médiatisés (Stuxnet, Flame…), une attaque
+informatique sur des systèmes de ce type peut avoir des conséquences dans
+C.10.1 _Mobilité-Nomadisme C.10
+le monde physique, provoquant des pertes de services (coupure électrique,
+Terminaux et
+perturbation de l’alimentation en eau potable…) voire des accidents entrainant
+le domaine du nomadisme va concerner plusieurs types de préoccupations :
+des pertes humaines (blocage de la manœuvrabilité d’un navire dans un port objets connectés
+ou en mer…). • La sécurité des terminaux :
+Outils de travail au quotidien, les smartphones ou tablettes contiennent
+Ce domaine pose de nombreux défis, dus notamment aux spécificités de ce
+des informations sensibles pour les entreprises et sont particulièrement
+milieu :
+susceptibles d’être perdus ou volés. Par ailleurs ils ont souvent un
+• Systèmes souvent temps réel ; usage mixte (privé/professionnel) qui les rend vulnérables à de multiples
+problèmes de sécurité. la généralisation des comportements de type
+• Difficultés de mise à jour des équipements (coût de l’arrêt d’une ligne de
+byOd ne font qu’augmenter les risques encourus ;
+production, accessibilité…) ;
+• La gestion des terminaux et des applications :
+• Protocoles parfois spécifiques ;
+Les flottes de terminaux peuvent compter des centaines voire des milliers
+• … d’objets qu’il faut pouvoir gérer, tracer, mettre à jour… le problème est
+identique pour les applications métiers ;
+ce domaine inclut également la sécurisation des solutions de robotique et des
+• Les accès aux systèmes d’information de l’entreprise :
+solutions de chaine logistique (supply chain).
+les terminaux mobiles doivent se connecter au(x) SI de l’entreprise. Il
+les solutions informatiques existantes, dites « sur étagères », ne sont donc pas faut se prémunir contre les usurpations, les connexions suite à un vol
+capables de répondre à tous les besoins. ce domaine est très vaste et encore ou à une perte d’un terminal ou des données qu’il contient, des intrusions
+peu exploré, même si la profusion d’articles scientifiques sur le sujet et les pro- via ces points d’accès externes.
+ductions des grands fournisseurs de solutions évoluent rapidement.
+56 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 57

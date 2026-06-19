@@ -1,0 +1,22 @@
+SMDR Feature Overview
+Capturing SMDR data over Ethernet
+The NSP (Network Services Processor) can be used to output SMDR data over an IP network; and a Telnet
+connection can be made to the NSP, using port xx003 (default is 59003), to capture this data. For more
+information, see NSP Installation Made Simple (ESI # 0450-0669).
+Note: For more complete details on the ESI systems mentioned in this document, consult their respective
+documentation. ESI-trained Resellers may download product documentation from www.esi-estech.com/Resellers
+(password required).
+TAPIT EX compatibility
+Trisys, Inc., offers a call accounting application, TAPIT EX, that supports ESI’s extended SMDR format. For more
+information about TAPIT EX, contact Trisys at 973 360-2300 or visit www.trisys.com.
+About ESI
+ESI (Estech Systems, Inc.) is a privately held corporation based in Plano, Texas. Founded in 1987, ESI specializes in business
+communications systems. ESI pioneered the all-in-one telephone and voice mail system. The original IVX, introduced in 1996,
+represented a radical breakthrough in system design: the inclusion of a full suite of features within a single integrated system.
+Since its days as a small start-up, ESI has enjoyed exceptional stability and growth while maintaining its dedication to small-company
+values — including the need to take care of the most important part of the equation: your business.
+Copyright © 2011 ESI (Estech Systems, Inc.). IVX is a registered trademark of ESI. Other registered trade names mentioned herein are trademarks of their
+respective owners. ESI systems are protected by various U.S. Patents, granted and pending. Product appearance, and other details and features
+described herein, are subject to change without notice. Some features may not be available at initial release. More information on ESI and its products
+is available on the World Wide Web at www.esi-estech.com.
+5

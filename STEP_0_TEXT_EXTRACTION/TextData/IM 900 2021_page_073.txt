@@ -1,0 +1,45 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 3 : MESURES DE SECURITE APPLICABLES AUX PERSONNES
+3.11
+PHYSIQUES
+(cid:3)
+- gestion des fichiers soumis à la PSSI de l’entité(cid:3);
+- sensibilisation de son personnel aux menaces.
+d. Rôle du responsable de traitement
+Le responsable de traitement76 est une personne physique ou morale, une autorité
+publique, un service ou un autre organisme qui, seul ou conjointement avec d'autres,
+détermine les finalités et les moyens du traitement.
+Les responsables de traitement sont soumis à(cid:3)quatre principes de sécurité :
+1. Ne collecter ou conserver que les données pertinentes(cid:3): le responsable de traitement
+s’assure que seules sont collectées et conservées, les données pertinentes et limitées
+à ce qui est nécessaire au regard des finalités pour lesquelles elles sont traitées.
+2. Maîtriser les exports de données(cid:3): les transferts de données vers un tiers (sous-traitant
+par exemple) sont réduits au strict minimum et/ou filtrés (suppression d’une partie des
+informations) afin de ne pas divulguer de DCP. Les obligations afférentes en matière
+de sécurité des données doivent être mentionnées dans les conventions ou contrats
+(nature des traitements, durée de conservation, transferts ultérieurs, etc.).
+Les exports de données peuvent aussi concerner la mise en ligne, par exemple au
+travers d’un site web ou l’utilisation de technologies de type informatique en nuage
+(cloud computing). Un niveau de protection technique adéquat des données doit être
+assuré.
+3. Mettre en place des mécanismes de contrôle d’accès et d’imputation(cid:3): les SI
+manipulant des DCP doivent permettre de contrôler et d’imputer l’accès aux données
+pour ne l’accorder qu’aux personnes autorisées et dûment identifiées.
+4. Gérer les incidents relatifs aux DCPM(cid:3): le responsable de traitement informe sans délai
+en cas de tentative d’attaque ou d’incident pouvant avoir mené à une divulgation de
+DCP la chaîne de lutte informatique défensive (LID), la DRSD et le délégué à la
+protection des données77 (daj.delegue.fct@intradef.gouv.fr).
+3. Protection juridique du personnel du ministère de la défense en matière de protection
+des données personnelles et de respect de l'anonymat
+Plus largement, la protection juridique du personnel du MINARM (civils et militaires) en
+matière de protection des données (traitées par le ministère ou par d’autres organismes)
+et d’anonymat est définie dans le tableau ci-après.
+(cid:3)
+76 Les responsables de traitement du ministère des armées ont été désignés par arrêté du 13 juin 2018 fixant
+la liste des responsables de traitement au sein des états-majors, directions et services et des organismes
+qui leur sont rattachés.
+77 Toute violation de sécurité doit donner lieu à une information du délégué à la protection des données
+(DPD) en application des articles 33 et 34 du RGPD et des procédures RGPD mises en place au sein du
+MINARM dans un délai de 72h (cf. instruction ARM/SGA/DAJ/D2P/DPSP du 31 janvier 2020 relative à la mise
+en œuvre du règlement européen sur la protection des données personnelles au ministère de la défense).
+67

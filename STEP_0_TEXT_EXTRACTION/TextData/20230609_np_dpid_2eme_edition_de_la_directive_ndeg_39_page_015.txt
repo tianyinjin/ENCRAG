@@ -1,0 +1,46 @@
+physique de ce site ou une autorité dont elle dépend. En cas de besoin d’arbitrage, le FSSI
+propose une désignation en privilégiant l’unicité de la chaine de responsabilité.
+En cas de systèmes industriels similaires prévus d’être déployés sur plusieurs sites ou au sein
+de plusieurs entités distinctes, la démarche d’homologation doit être menée sous la responsabilité
+d’une seule autorité d’homologation (AH), ou du maître d’ouvrage au profit de l’autorité
+d’homologation (AH) si celle-ci l’autorise. Dans ce dernier cas, le RSSI en charge de la démarche
+d’homologation du SI en cours de conception et de réalisation (RSSI-P) relève alors du maître
+d’ouvrage ou du maître d’ouvrage délégué.
+Lorsque l’autorisation d’emploi d’un système industriel nécessite la tenue d’une commission (par
+exemple une commission de sécurité, de sûreté, une revue de réception, etc.), la décision
+d’homologation (ou à défaut l’état actuel de la démarche d’homologation) doit être connue de
+cette même commission afin que le besoin en sécurité numérique y soit pris en compte dans sa
+décision ou son avis comme pour tout besoin fonctionnel. En outre, les livrables nécessaires à
+ces commissions doivent inclure des aspects de sécurité numérique. Réciproquement, les
+décisions prises lors de ces commissions doivent enfin être connues des acteurs de la démarche
+d’homologation.
+4.2. Responsables SSI (RSSI)
+La démarche d’homologation (ou de ré-homologation) d’un système industriel est conduite par
+un RSSI, formellement désigné, au profit de l’autorité d’emploi, même s’il ne relève pas de son
+autorité ou de l’autorité bénéficiaire.
+Le RSSI doit être sensibilisé à la sécurité des systèmes industriels et à leurs spécificités. Pour
+les systèmes complexes ou à forts enjeux de sécurité, s’il n’est pas accompagné d’un spécialiste
+en ce domaine, le RSSI doit être formé à la sécurité des systèmes industriels de manière à mener
+une démarche d’homologation pertinente.
+Sauf réglementations ou politiques particulières propres à une activité ou à un métier, le RSSI est
+en charge de la définition de la stratégie de maintien en condition de sécurité (MCS) et de
+sa mise en œuvre sous la responsabilité de l’autorité d’emploi ou bénéficiaire. Il peut
+s’appuyer sur la directive [DIR MCS]. Cette activité, dont l’objectif est de maintenir dans le temps
+le niveau de sécurité atteint au prononcé de l’homologation du SI, peut engendrer des
+indisponibilités incompatibles avec l’activité du site où il est déployé. Il appartient alors au RSSI
+de reporter ou refuser les interventions liées au MCS en relation avec l’autorité d’homologation
+(AH) et l’autorité d’emploi ou bénéficiaire, tout en mettant éventuellement en œuvre des mesures
+organisationnelles visant à maîtriser les risques identifiés. Les responsabilités du RSSI en
+matière de maintien en condition de sécurité (MCS) doivent être clairement définies et
+connues.
+5. PROCESSUS D’ATTRIBUTION DE CLASSE ET DE
+SEGMENTATION
+À partir d’une appréciation des risques, un niveau de sécurité, appelé classe*, est attribué aux
+principales fonctions d’un système industriel (phase d’attribution de classe, cf. §5.1). Le système
+industriel peut alors être segmenté en groupements de ressources physiques et logiques qui
+réalisent des fonctions bien définies et partagent des exigences de sécurité communes (phase
+de segmentation*, cf. §5.2). Les sous-ensembles sont appelés zones de sécurité auxquelles est
+attribuée un niveau de classe*. Les zones de sécurité communiquent entre elles, de manière
+permanente ou temporaire, par des canaux de différentes natures, qui peuvent aussi partager
+des exigences de sécurité communes, constituant alors des conduits*. Le système industriel est
+DIR-39 SNSI – 2eme édition Page 15 | 79

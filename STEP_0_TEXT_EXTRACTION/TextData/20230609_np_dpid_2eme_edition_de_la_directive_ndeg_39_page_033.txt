@@ -1,0 +1,55 @@
+Système Système comprenant des éléments de niveau CIM 3 et/ou 4. En particulier,
+très système avec console de programmation*, système connecté à un système
+F3 complexe d’exécution des fabrications, système comportant des bases de données
+d’historiques centralisées. Le système industriel peut être interconnecté
+avec d’autres systèmes pour partager des données.
+Système La fonction de supervision, de pilotage ou d’historisation est mutualisée avec
+F4
+mutualisé d’autres systèmes industriels. Le système n’est plus autonome.
+2.3.1.2. Détermination du facteur « Connectivité »
+Le niveau de « Connectivité » correspond à la catégorie la plus élevée définie dans le tableau
+précédent.
+N. Intitulé Besoins fonctionnels Remarques
+Système isolé Le système est dédié à un Le réseau de production est
+site, à un ou plusieurs complétement fermé.
+bâtiments. Il ne sort pas du
+Les services sont réalisés
+site, du ou des bâtiment(s).
+directement sur le système ou à
+distance au moyen d’un réseau
+local dédié.
+OU
+La maintenance n’est pas déportée
+C1 dans une autre pièce ou bâtiment
+La maintenance est ou elle est déportée par une liaison
+réalisée sur site et point à point.
+directement sur les
+Si le système utilise des
+équipements, si
+technologies sans fil, le niveau
+nécessaire au moyen d’un
+est de 3.
+poste de maintenance
+maîtrisé (sans déport). Le système peut utiliser la
+technologie sans contact.
+Système connecté à un Le système échange des Le réseau de production est
+réseau d’information de données avec un système connecté au système d’information
+gestion maîtrisé d’information de gestion* de gestion* de l’entreprise. Celui-ci
+au moyen d’un réseau peut être interconnecté avec
+local relevant du ministère. Internet. Cependant aucune
+opération depuis l’extérieur du
+ET
+système d’information de gestion*
+Les données sont traitées n’est autorisée.
+et stockées sur le site.
+C2 Si le système utilise des
+ET technologies sans fil, le niveau
+est de 3.
+Aucun service n’est réalisé
+à partir de l’extérieur du Le système peut utiliser la
+système industriel. technologie sans contact.
+OU
+La maintenance sur site
+est réalisée à partir
+d’équipements maîtrisés
+DIR-39 SNSI – 2eme édition Page 33 | 79

@@ -1,0 +1,50 @@
+TS1002/TS1004 Dual/Quad Op-Amps Demo Board
+2) Set the function generator frequency to 500Hz 6) To monitor the input, connect the signal terminal
+and output level with a V = 1.45V and a of one of the oscilloscope probes to test point VIN
+OH
+V = 1.05V. This sets the input signal swing to on the TS1002 or TS1004 demo board. Connect
+OL
+400mV , centered at 1.25V. the ground terminal to test point GND. To monitor
+PP
+the output, use the second probe to connect the
+3) In order to monitor the input and output signal, signal terminal to test point VOUT on the TS1002
+select two channels on the oscilloscope and set or TS1004 demo board. Connect the ground
+the vertical voltage scale and the coupling setting terminal to test point GND.
+on each channel to 200mV/DIV and AC,
+respectively. Set the input and output vertical 7) Turn on the power supply and check that the
+position to +400mV and -200mV, respectively. power supply current is approximately 4.4µA for
+Set the horizontal time scale to 500µs/DIV. the TS1002 demo board and 5.5µA for the
+TS1004 demo board.
+4) Connect the positive terminal of the DC power
+supply to test point VDD and the negative 8) Turn on the function generator.
+terminal to test point GND on the TS1002 or
+TS1004 demo board. For all other connections, 9) Observe the input and output signal. The output
+please refer to Table 1 and 2. signal is an amplified version of the input signal
+with an output swing of approximately 800mV ,
+PP
+5) Connect the signal output of the function corresponding to a signal gain of two. Figure 5
+generator to test point VIN on the TS1002 or shows what the input and output signal should
+TS1004 demo board. Connect the ground look like. The input signal is in yellow and the
+terminal to test point GND. output signal is in green.
+Figure 3. TS1002 Amp ‘A’ Non-Inverting Figure 4. TS1004 Amp ‘A’ Non-Inverting
+Configuration Configuration
+V
+N
+ID
+/V
+IVm
+0
+0
+2
+V
+T
+ID
+U/V
+Om
+V0
+0
+2
+500µs/DIV
+Figure 5. TS1002 and TS1004 Non-Inverting Configuration Input and Output signals
+TS1002DB/TS1004DB r1p0 Page 3
+RTFDS

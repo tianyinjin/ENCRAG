@@ -1,0 +1,34 @@
+1-2 Définition locale de l’intensité d’un combat dans un cube durant une
+période temporelle.
+Nous disposons de tous les ingrédients pour définir l’intensité du combat Ic dans un cube Hc
+durant une période temporelle Tc.
+L’intensité volumique de combat est définie dans le cube de combat Hc de volume V(Hc), et
+d’énergie Ec durant la période temporelle Tc par Ic =
+L’intensité surfacique de combat est définie par la projection du cube de combat Hc de
+surface S(proj(Hc)), et d’énergie Ec durant la période temporelle Tc par Jc =
+Les intensités volumiques et surfaciques fournissent une métrique précise pour parler de
+combat « haute intensité ».
+Intensité et énergie instantanée du combat.
+Le vecteur d’activité Ac et le vecteur puissance Pc dépendent de plusieurs variables dont la
+variable temporelle t.
+L’énergie instantanée de combat s’exprime en fonction de t :
+Ec(t) = < Ac(t) , Pc(t) > = p (t)x a (t) dans un modèle linéaire
+i i
+Ec(t) = < F(Ac(t)) , Qc(t) > dans un modèle non linéaire
+L’intensité volumique instantanée de combat est Ic(t) =
+L’intensité surfacique instantanée de combat s’écrit : Jc(t) =
+L’intensité du combat telle que nous la définissons s’applique à tous les types de conflits,
+passés ou à venir. On peut ainsi chercher à l’évaluer pour de grandes batailles historiques.
+1-3 Deux cas de batailles historiques de haute intensité.
+La bataille de Gergovie.
+La bataille de Gergovie1 (52 av. J.-C) s’est déroulée en moins d’une journée avec
+l’engagement de plusieurs milliers de combattants (6 légions soit 36 000 hommes pour
+César et plus de 50 000 hommes du côté Gaulois) sur une zone géographique très resserrée
+(un carré de 5 000 mètres de côté).
+Particulièrement bien documentée sur les effectifs engagés, sur les armes utilisées et sur les
+mouvements des forces, la bataille de Gergovie est un exemple où il est possible d’estimer
+l’intensité du combat à l’aide des formules précédentes. L’élément le plus difficile à évaluer
+est l’énergie du combat car il doit tenir compte de l’ensemble des armes mises en œuvre
+(glaives, flèches, boulets de catapultes) et des troupes engagées durant la bataille.
+1 https://musee-gergovie.fr/le-plateau-de-gergovie/histoire/
+3

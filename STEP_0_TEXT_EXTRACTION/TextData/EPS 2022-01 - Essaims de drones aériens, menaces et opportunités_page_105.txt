@@ -1,0 +1,48 @@
+Sparrowhawk
+Le Sparrowhawk se présente en continuité du programme Gremlins de
+la DARPA pour lequel il a concouru. Il donne à des drones MALE258, peu
+aptes à évoluer en espace contesté, une capacité « stand off ». A
+l’instar du rôle envisagé pour les avions de chasse habités, ils se
+comportent alors en « quarterback » de leurs vecteurs déportés.
+Pouvant être exposé à l’attrition, le Sparrowhawk est aussi destiné à
+assurer la continuité de la mission, lors des relèves entre ses drones
+MALE porteurs. La variante 25M du MQ-1C Gray Eagle est destinée à
+mettre en œuvre ce type de vecteur, du moins en option. A ce titre, le
+Sparrowhawk est présenté comme un Air Launch Effect (ALE).
+Dates : 2020
+Acteurs : General Atomics sur fonds propres259.
+Porteurs potentiels : Drones MALE (MQ-9, MQ-1C).
+Cas d’usage affichés : ISTAR (en particulier « sous la couche »),
+SIGINT, ELINT, brouillage.
+Récupération➔
+PERFORMANCES DES VECTEURS : PERFORMANCES DE L’ESSAIM :
+Largable et récupérable en vol automatiquement. L’aspect collaboratif repose en particulier sur CODE
+« Cooperation in Denied Environments », approche
+Longueur : 3 m, envergure : 4,26 m,
+également retenue pour Golden Horde.
+Poids 226 Kg dont charge utile modulaire de 27 Kg.
+L’emport simultané de 4 engins par drone MALE
+Propulsion thermique
+semble envisagé (Le MQ-1C a 5 points d’emport
+Vitesse max 150 nds, croisière 110 nds. externes).
+Autonomie : 10 h. Ravitaillable en vol une fois
+récupéré par son drone mère.
+Plafond 25 000 ft, Rayon d’action ~ 500 Nq
+Contrôle : Metis Software Defined Control Station
+de GA sur ordinateur portable.
+Communication entre plates-formes : meshONE
+datalink.
+Conforme aux standards d’architecture ouverte.
+258 Les forces armées américaines testent intensivement des cas d’usage en combat de haute intensité de vecteurs initialement
+conçus pour le contre-terrorisme. Leur mise à niveau se poursuit suivant plusieurs axes dont la résistance au brouillage des
+communications (liaison laser par satellite et autonomie, en cas de rupture des liens (y compris GPS), à travers le POD « Agile
+Condor » de SRC Inc). Ces incréments capacitaires correspondent au standard Multi-Domain Operation (M2DO). L’intégration d’une
+autoprotection va elle aussi dans le sens d’une meilleure aptitude à opérer en environnement contesté. L’aspect offensif n’est pas
+oublié avec l’intégration envisagée d’IRST (Pod « Legion ») pour l’engagement air-air autonome et de munitions rodeuses (exemple :
+conception d’un conteneur de lancement à 10 tubes « A size » destinés à mettre en œuvre des munitions rodeuses de type ALTIUS-
+500)). L’emport de PODs type Agile Condor ou Legion fait entrer de plain-pied les drones MALE en parc dans les tâches autonomes.
+Le dogme d’ouverture du feu sur décision opérateur opère un glissement vers le concept, à la flexibilité assumée, de « niveau
+approprié d’appréciation humaine » (Le document DODD 3000.09 de 2012 devait être mis à jour avant la fin de l’année 2022
+(Congressional Research Service du 14 novembre 2022)).
+259 GA cherche à accéder au marché, aujourd’hui occupé par Boeing, Dynetics et Kratos qui eux bénéficient de programmes.
+105

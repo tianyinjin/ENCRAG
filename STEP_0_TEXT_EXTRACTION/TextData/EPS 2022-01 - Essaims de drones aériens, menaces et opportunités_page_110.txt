@@ -1,0 +1,43 @@
+Have Raider I et II
+L’expérimentation visait à évaluer la possibilité de combiner UCAVs274
+et chasseurs habités dans un même dispositif face à une menace
+évolutive. Have Raider bénéficie de l’architecture ouverte USAF Open
+Mission Systems (OMS) qui permet l’intégration rapide de logiciels
+tiers.
+En 2015, Have Raider I est davantage orientée vers la mise en œuvre
+de l’aéronef et l’accomplissement de tâches relativement
+élémentaires, liées au vol en formation. Il s’agit de démontrer que le
+X-62 peut automatiquement détecter, rallier et voler en formation
+avec son leader, de la même manière qu’un équipier pourrait le faire.
+Les essais ont permis de détacher le F-16 VISTA pour une tâche
+d’attaque au sol simulée, avant qu’il ne reprenne la formation sur son
+leader piloté. Les essais ont également permis de valider le système
+d’anticollision automatique. Ils ont ouvert la voie à l’expérimentation
+Have Raider II qui s’est déroulée en 2017.
+Celle-ci avait pour objet de confronter l’autonomie à un
+environnement évolutif, imposant des reconfigurations à la machine.
+Trois objectifs supplémentaires avaient été retenus :
+- Planifier et exécuter automatiquement une attaque air-sol ;
+- Exécuter les tâches en fonctions des priorités imposées par la
+supervision humaine et les moyens disponibles ;
+- Reconfigurer les tâches de manière dynamique pour réduire
+l’exposition à la menace tout en gérant les pannes, pertes de
+capacités, déroutements et ruptures des communications.
+Une tâche typique consistait en une attaque air-sol qui se trouve perturbée en vol par l’irruption d’une menace sol-
+air, imposant au VISTA de l’éviter tout en effectuant sa passe d’attaque. D’autres événements ont été injectés comme
+la perte de communications, l’irruption de multiples menaces sol-air et de cibles à traiter. Des pilotes chevronnés ont
+été ensuite confrontés aux mêmes tâches pour permettre de comparer les résultats.
+Dates : 2015 - 2017.
+Acteurs : AFRL, U.S. Air Force Test Pilot School, Lockheed Martin, Calspan Corp.
+Porteurs potentiels : Aéronefs retirés du service et reconvertis à l’image de ceux qui sont reconvertis en cibles.
+Cas d’usage affichés : Frappe air-sol (cas d’usage traité dans l’expérimentation).
+PERFORMANCES DES VECTEURS D’ESSAI : PERFORMANCES DE L’ESSAIM :
+Le Vista X-62 (F-16 biplace pouvant embarquer un Plusieurs UCAVs ont très probablement été simulés
+équipage275) joue le rôle de l’UCAV. en sus du X-62.
+Communication : Liaison de données depuis le sol La manière d’évoquer la supervision fait penser à la
+dans le cadre de l’expérimentation. technologie Playbook.
+274 Unmanned Combat Air Vehicule, ici simulé par le X-62 VISTA (F-16 biplace modifié)).
+275 Il permet d’observer en temps réel le comportement autonome à la manière de ce qui a été fait dans l’industrie automobile. Il sera
+aussi utilisé pour développer le vol tactique en formation avec des drones. Le Variable In-flight Stability Test Aircraft (VISTA) simule le
+comportement en vol de différents types d’avions. Il permet d’aller 10 fois plus vite dans le développement de l’autonomie.
+110

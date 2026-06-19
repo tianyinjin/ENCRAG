@@ -1,0 +1,46 @@
+Compte tenu des volumes de données susceptibles d’être transmis et de la capacité limitée
+des réseaux, il est nécessaire d’identifier au préalable les destinataires, de minimiser leur
+nombre, d’adapter au juste besoin la qualité et la quantité des informations à transmettre
+ainsi que les délais d’acheminement (temps réel, différé, créneaux horaires de
+transmission,…).
+Par ailleurs, l’archivage des images reçues et diffusées en flux continu par les capteurs
+drones nécessite des capacités de stockage informatique très importantes. L’exploitation
+ultérieure doit permettre de ne conserver que les éléments significatifs, en évitant les
+duplications.
+Tous ces éléments doivent être précisés lors de la planification de la manœuvre SIC pour le
+théâtre considéré.
+))))(cid:2)(cid:2)(cid:2)(cid:2)//// (cid:23)(cid:23)(cid:23)(cid:23)(cid:8)(cid:8)(cid:8)(cid:8)(cid:9)(cid:9)(cid:9)(cid:9)(cid:5)(cid:5)(cid:5)(cid:5)****(cid:19)(cid:19)(cid:19)(cid:19)""""(cid:9)(cid:9)(cid:9)(cid:9)(cid:7)(cid:7)(cid:7)(cid:7)(cid:10)(cid:10)(cid:10)(cid:10)(cid:8)(cid:8)(cid:8)(cid:8)(cid:3)(cid:3)(cid:3)(cid:3)(cid:11)(cid:11)(cid:11)(cid:11)""""(cid:8)(cid:8)(cid:8)(cid:8)(cid:14)(cid:14)(cid:14)(cid:14)(cid:3)(cid:3)(cid:3)(cid:3)''''""""(cid:3)(cid:3)(cid:3)(cid:3)(cid:17)(cid:17)(cid:17)(cid:17)""""(cid:8)(cid:8)(cid:8)(cid:8),,,,(cid:13)(cid:13)(cid:13)(cid:13)----(cid:19)(cid:19)(cid:19)(cid:19)(cid:18)(cid:18)(cid:18)(cid:18)(cid:3)(cid:3)(cid:3)(cid:3)''''(cid:10)(cid:10)(cid:10)(cid:10)****(cid:7)(cid:7)(cid:7)(cid:7)(cid:14)(cid:14)(cid:14)(cid:14)(cid:9)(cid:9)(cid:9)(cid:9)(cid:7)(cid:7)(cid:7)(cid:7)++++(cid:13)(cid:13)(cid:13)(cid:13)(cid:18)(cid:18)(cid:18)(cid:18)(cid:3)(cid:3)(cid:3)(cid:3)
+Sauf pour les mini-drones, l’empreinte logistique des systèmes de drones est importante et
+assortie de contraintes spécifiques. Ces éléments doivent être pris en considération dès la
+phase de génération de forces et intégrés au plus tôt dans l’organisation de la manœuvre
+logistique, en particulier pour les contraintes de transport stratégique.
+• Identification du lieu d’implantation.
+Pour opérer, les systèmes de drones doivent être déployés à proximité des zones d’intérêt, à
+une distance compatible avec les performances des vecteurs.
+- Pour un mini-drone tel que le DRAC, le segment sol doit se situer à moins de
+10 kilomètres des points à reconnaître.
+- Dans le cas d’un drone tactique tel le SDTI, l’élongation possible entre les segments de
+communication sol et aérien est portée à 80 kilomètres.
+31
+- Un drone MALE de type SIDM permet une allonge beaucoup plus importante , rendue
+possible par l’utilisation des liaisons satellitaires, même si cheminement lointain et
+autonomie sur zone restent antagonistes.
+Par ailleurs, les sites de déploiement doivent répondre à des exigences spécifiques.
+- Le niveau d’exposition à la menace adverse doit être compatible avec les contraintes
+d’emploi des systèmes.
+- Les infrastructures doivent permettre la mise en œuvre des systèmes (une piste de 1200
+mètres pour le SIDM, des voies de cheminement pour le soutien, …).
+• Acheminements stratégique et tactique des unités drones
+La mobilité et l’aptitude à la projection des différents systèmes sont variables. Cette
+contrainte doit être analysée en planification et intégrée au plus tôt dans la manœuvre
+logistique.
+- Le système DRAC est peu volumineux et peut être transporté dans un véhicule léger. Il
+permet une grande souplesse d’utilisation.
+- Le système SDTI est beaucoup plus volumineux (13 véhicules terrestres pour une
+section, 25 pour une batterie) et présente des contraintes logistiques fortes (il n’est pas
+aérotransportable par les avions de transport tactique).
+- Le système SIDM est également volumineux, mais il est aérotransportable par avions de
+transport tactique. Par ailleurs, le déploiement de l’ensemble du système sur un même
+site diminue fortement l’empreinte logistique.
+31 Une permanence sur zone de 12 heures à 1000 kilomètres.
+15

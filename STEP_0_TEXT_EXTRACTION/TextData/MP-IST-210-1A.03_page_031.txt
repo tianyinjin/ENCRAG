@@ -1,0 +1,19 @@
+Assuring Trustworthy Computer Vision
+for Rapid Counter-Drone System Testing and Deployment
+the framework in finding and identifying fine-grained CV system underperformance. Future projects could
+focus on discovering and analyzing the potential underperformance of CV systems optimized for IR
+imagery, to explore the potentially interesting idiosyncrasies of processing infra-red imagery especially
+within military contexts, such as performance under cases of thermal shadow or thermal crossover.
+Furthermore, the above ASQI and test metric mapping, alongside the simulation platforms, are extensible to
+other multi-modal solutions beyond visual and IR datasets in CV systems. Potential areas of further
+extension with such a framework include extending it to thermal and radar systems (outside of where this
+framework is already potentially applicable on processed and generated images) evaluating audio AI-enabled
+sensor systems, or evaluating unmanned ground vehicle localization and mapping capabilities, as well as the
+development of a NATO-wide benchmark for certain common use cases (e.g. performance of CV systems
+classifying known adversary inventory).
+In future work, we invite those who would seek to investigate the deeper workings of their CV systems
+based on the described use cases, and others, to contact us and attempt our methods on their models, and
+further validate and develop how our framework would be useful for their needs. Beyond drone detection
+and tracking, we look forward to deepening our partnerships with the broader NATO community of like-
+minded partners to discover more use cases, and contribute to the defense of our shared values and interests.
+STO-MP-IST-210 1A.03 - 31

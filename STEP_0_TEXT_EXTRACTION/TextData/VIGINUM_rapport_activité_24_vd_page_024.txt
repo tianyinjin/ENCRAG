@@ -1,0 +1,28 @@
+Technique
+Développer des outils en
+open source
+L’outil D3lta
+Après la publication de l’article de recherche Unmasking information manipulation: A quantitative approach
+to detecting Copy-pasta, Rewording, and Translation on Social Media en décembre 2023 qui introduisait la
+méthode D3lta, le datalab de Viginum a développé et publié un code source Python permettant de rendre
+accessible cette méthodologie au plus grand nombre.
+La méthodologie D3lta distingue trois types de duplications de contenus textuels distincts :
+• le Copy-pasta consistant à dupliquer un contenu textuel sur les réseaux sociaux avec de très légères
+modifications ;
+• la reformulation consistant à dupliquer un contenu textuel de multiples fois, en étant au préalable
+reformulé de différentes manières, notamment en utilisant les solutions de grand modèle de langage
+tels que ChatGPT ;
+• La traduction permettant de toucher des audiences internationales de par sa duplication dans
+différentes langues.
+Graphe représentant les textes dupliqués dans un jeu de données de tweets issu de
+Twitter Transparency. Un point correspond à un tweet, deux tweets sont reliés par une
+arête si l’un est la traduction (lien vert), la reformulation (lien orange), ou le copy-pasta
+(lien bleu) de l’autre. Les numéros 1, 2, 3, 4, 5, 6, 7 représentent des exemples de tweets
+dupliqués.
+L’approche open source est un axe essentiel de la stratégie R&D de Viginum, permettant d’auditer en
+permanence la qualité des outils développés, de réduire les biais éventuels des équipes, de renforcer
+l’autonomie technologique du service et de soutenir un écosystème ouvert.
+D3lta sur GitHub
+https://github.com/VIGI-
+NUM-FR/D3lta
+24

@@ -1,0 +1,31 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Les rôles doivent correspondre strictement aux missions de chacun selon la
+politique des moindres privilèges.
+Les rôles d'utilisateurs et d'administrateurs (techniques, fonctionnels) doivent être
+distincts.
+Intégrer les rôles dans la gestion des comptes informatiques. Les documenter et
+les implémenter.
+En cas de développement réalisé au titre du système, appliquer les règles de
+Voir Directive DGNUM n°40 sur le
+ISSIP14 TECH bonnes pratiques, notamment la directive 40 (portant sur le développement des R O O
+développement robuste
+applications informatiques et des logiciels robustes du ministère).
+Dédier un environnement de développement aux opérations de développement du
+ISSIP15 TECH R O O
+système industriel. Cet environnement ne peut être utilisé pour d'autres activités.
+ISSIP16 TECH Séparer l’environnement de développement de l’environnement de production. O
+Protéger l’environnement de développement de manière à satisfaire aux mêmes
+besoins de sécurité du système industriel en matière de disponibilité, d'intégrité et
+ISSIP17 TECH de confidentialité. Il doit satisfaire aux mêmes exigences de sécurité auxquelles O
+s'ajoutent des exigences de sécurité en matière de développement. En cas de
+prestation externe, fournir un plan d'assurance sécurité (PAS).
+ISSIP18 ORG Vérifier le niveau de sécurité de l’environnement de développement. C R R
+Intégrer dans le contrat une clause pour que l'entité responsable puisse auditer le
+ISSIP19 ORG contractant ou les fournisseurs afin de vérifier que l'ensemble des mesures de C R R
+sécurité numérique demandées sont bien appliquées.
+Mettre en œuvre une analyse statique du code et des tests de robustesse avant la
+ISSIP20 TECH C
+mise en production et préalablement à l'intégration de changements majeurs.
+ISSIP21 ORG Effectuer un audit de code par des prestataires labellisés. C C R
+Protéger physiquement le système et les contrôles d’accès aux locaux, aux équipements et aux câblages
+DIR-39 SNSI – 2eme édition Page 53 | 79

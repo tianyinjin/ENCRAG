@@ -1,0 +1,75 @@
+PPôôllEE dd’’EExxccEEllllEEnnccEE ccyybbEERR
+Plusieurs catégorisations existent pour structurer ce domaine. celle proposée
+ci-dessous s’articule autour d’une déclinaison en trois thématiques : produits & Méthodes
+Résilience aux attaques (Redondance, Sanitization, redéploiement)
+technologies, services, méthodes & outils métiers.
+dans cette découpe thématique, la notion de service désigne les services opéra-
+tionnels et non des services techniques ou des fonctionnalités administrées par
+un opérateur tiers.
+les quatre schémas synoptiques suivants présentent la structuration générale Cyber Produits & Equipements de détection
+de la cybersécurité suivant ces différentes thématiques. Equipements reconfigurables (réseaux et modems)
+Résilience Technologies
+Systèmes reconfigurables
+En première approche et sans présager des analyses de marchés qui seront
+réalisées ultérieurement par les acteurs nationaux de la filière, la suite du document
+explicite, sans rechercher l’exhaustivité, l’importance stratégique de certaines
+de ces thématiques.
+NOC
+MCO
+Méthodes d’analyse de risques Services MCS Figure 3 :
+Besoins en produits/
+Méthodes Modélisation de la menace et des attaques PCA/PRA
+services/méthodes
+Modélisation d’architectures sécurisées
+de cyber-résilience
+Environnement de conception sécurisée
+Méthodes formelles
+Cyber
+Protection
+Firewall (Pare-feu)
+Effacement de données
+Sécurité
+Communications sécurisées
+des systèmes Messagerie sécurisée
+Produits
+d’information Stockage sécurisé
+Matériel et logiciel embarqué Méthodes Connaissance de la menace
+Environnement d’exécution sécurisé Se reporter aux méthodes du cyber - renseignement
+Produits &
+Identification, authentification et contrôle d’accès
+Technologies
+Cryptographie
+Composants électroniques Cyber
+Technologies Informatique de confiance Défense
+Multi niveaux
+Logiciels sécurisés OS sécurisés Lutte
+Protection contre la rétro-conception informatique Supervision / SIEM Corrélateurs
+Administration de la sécurité
+défensive SOC Réaction à incident
+Conception d’architectures sécurisées
+Ingénierie système Intégration sécurisée de produits Détection d’intrusions,
+Conformité fonctionnelle Sondes et capteurs réseaux
+AMO SSI Produits &
+Technologies Firewalls
+Canaux auxiliaires Prévention d’intrusions Antivirus
+Composants Injection de fautes Antimalwares
+Rétro-conception
+Outils d’investigation numérique
+Analyse de code (statique, dynamique)
+Recherche de vulnérabilités logicielles Se reporter aux méthodes du cyber - renseignement
+logiciels
+Recherche de vulnérabilités cryptographiques
+Evaluations Rétro-conception logicielle
+Services
+TEMPEST
+Produits Analyse des mécanismes de protection locale
+Recherche de vulnérabilités sur protocoles et interfaces Entrainement supervision & gestion de crise
+Formation
+Formation cyber-sécurité / SSI
+Systèmes Audits de sécurité et Pentests
+Evaluation de sécurité
+Figure 2 : GRC Services Réaction sur incident Figure 4 :
+Besoins en produits/ Gouvernance Communication / sensibilisation Besoins en produits/
+services/méthodes Juridique CERT / CSIRT services/méthodes
+de cyber-protection en cyberdéfense
+16 - RéFéREntIEl cybER V6.1 - Février 2021 Février 2021 - RéFéREntIEl cybER V6.1 - 17

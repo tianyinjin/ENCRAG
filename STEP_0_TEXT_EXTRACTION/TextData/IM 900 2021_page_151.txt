@@ -1,0 +1,46 @@
+30 avril 2021 JOURNAL OFFICIEL DE LA RÉPUBLIQUE FRANÇAISE Texte 18 sur 212
+TITRE 6 : SECURITE DES SYSTEMES D’INFORMATION POUR LES ENTITES DE
+6.1
+DROIT PRIVE
+(cid:3)
+CARTOGRAPHIE DES SYSTEMES D’INFORMATION DES ENTITES
+6.1(cid:3):
+CONTRACTANTES
+Références(cid:3):
+(cid:129) Code de la défense – Art. L.1332-6-1 à L.1332-6-6
+(cid:129) IGI 1300 – 6.1
+(cid:129) II n°901/SGDSN/ANSSI relative à la protection des systèmes d’information sensibles
+(cid:129) Cartographie du système d’information, guide de l’ANSSI d’élaboration en 5 étapes
+Points clés(cid:3):
+(cid:129) La cartographie permet une connaissance complète des systèmes d’information
+de l’entité.
+(cid:129) Son contenu est décrit dans la PSSI de l’entité contractante.
+La cartographie apporte une connaissance complète de l’environnement du système
+d’information (SI), de ses interactions avec l’extérieur et de toute son infrastructure
+technique. Cette connaissance détaillée permet de réagir plus efficacement en cas
+d’incident (cf. fiche 8.2).
+La cartographie des SI est établie sous la responsabilité de l’autorité qualifiée. Elle fournit
+la connaissance du système d’information global de l’entité (classifié et non classifié) et
+permet notamment d’appréhender les principaux risques sur son activité. Cette
+cartographie est également nécessaire à l’identification initiale des Systèmes
+d’Information d’Importance Vitale (SIIV) et des systèmes d’information traitant des
+informations sensibles, Diffusion Restreinte ou classifiées.
+L’autorité qualifiée en SSI de l’entité contractante précise dans la PSSI le contenu exact
+de la cartographie qui comprend au moins selon les recommandations de l’ANSSI(cid:3):
+- la description fonctionnelle et les lieux d’installation du SI et de ses différents sous-
+réseaux et, le cas échéant, les plages d’adresses associées aux différents sous-réseaux
+composant le système d’information(cid:3);
+- la description fonctionnelle des points d’interconnexion du SI et de ses différents
+sous-réseaux avec des réseaux tiers, notamment la description des équipements et
+des fonctions de filtrage et de protection mis en œuvre au niveau de ces
+interconnexions(cid:3);
+- l’inventaire et l’architecture des dispositifs d’administration du SI permettant de
+réaliser notamment les opérations d’installation à distance, de mise à jour, de
+supervision, de gestion des configurations, d’authentification ainsi que de gestion des
+comptes et des droits d’accès(cid:3);
+- la liste des comptes disposant de droits d’accès privilégiés au SI. Cette liste précise
+pour chaque compte le niveau et le périmètre des droits d’accès associés(cid:3);
+- les équipements d'import et d'export de données(cid:3);
+- l’inventaire, l’architecture et le positionnement des services de communication et
+d’accès distant mis en œuvre par le SI.
+145

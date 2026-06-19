@@ -1,0 +1,31 @@
+N° Nature Intitulé SI C1 C2 C3 Remarque
+Former à la sécurité numérique le personnel amené à intervenir sur les systèmes
+industriels. La formation doit être adaptée à sa fonction, à son profil ou encore à
+ses droits d'accès dans le système. Un point d'attention est à porter sur :
+PERS2 ORG O
+- les administrateurs techniques et fonctionnels ainsi que sur les opérateurs* ;
+- les RSSI (RSSI-A, RSSI-P) s'ils ne sont pas accompagnés de spécialistes en
+sécurité numérique des systèmes industriels.
+Disposer d’administrateurs techniques et fonctionnels compétents et qualifiés.
+PERS3 ORG Tout système industriel doit être en effet administré par des personnels formés à O
+cet effet.
+Pour un système Non Protégé, disposer d'un contrôle élémentaire pour détenir des
+PERS4 ORG R
+privilèges particuliers (compte administrateur).
+Maîtriser les données
+Identifier les données portant sur le procédé industriel*, le système numérique en
+lui-même, la sécurité numérique ou encore sur le projet, puis leur niveau de
+INFO1 ORG O Voir §3.6 de la directive 39.
+classification et enfin leur sensibilité en termes de confidentialité, de disponibilité,
+d’intégrité et de traçabilité. Les traiter en conséquence.
+Définir le niveau de sensibilité de la documentation et le faire apparaître clairement
+sur les documents. L’ensemble des documents relatifs à la conception, à la
+INFO2 ORG configuration ou au fonctionnement du système industriel sont à considérer O
+comme des informations a minima sensibles. Les documents devraient être traités
+en conséquence.
+Stocker les documents relatifs à la conception, à la configuration ou au
+fonctionnement dans un système d’information externe au système industriel. Le
+INFO3 ORG O
+système doit satisfaire à leurs besoins de sécurité en matière de disponibilité,
+d’intégrité et de confidentialité.
+DIR-39 SNSI – 2eme édition Page 50 | 79

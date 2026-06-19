@@ -1,0 +1,51 @@
+Air Combat Evolution (ACE)
+Dédié au facteur humain, ACE vise à accroître la confiance des pilotes
+de chasse dans les drones collaboratifs. En partant du combat
+tournoyant, parce qu’il s’agit du vol le plus dynamique, ACE doit
+permettre au pilote d’agir en symbiose d’un dispositif collaboratif
+étendu, apte à couvrir tout le spectre des missions.
+ACE part du constat que la supervision de drones collaboratifs amène
+le pilote à agir comme un chef de mission. La DARPA se place
+implicitement dans la perspective du chasseur monoplace et vise la
+valorisation de l’existant. ACE hiérarchise les fonctions cognitives de
+haut niveau, réservées à l’homme, et les fonctions de bas niveau,
+laissées à l’IA.
+ACE se décline en AlphaDogfight pour la proximité et AlphaMosaïc
+pour la profondeur. ACE traite d’abord les actions à vue (phase 1).
+Dans un deuxième temps, ACE valide des méthodes pour mesurer ,
+accroître et prédire la confiance de l’homme dans l’autonomie
+(phase 2). In fine, ACE étend son approche à des scenarios
+opérationnels complexes impliquant plusieurs aéronefs, habités ou
+pas, ouvrant ainsi la voie à une expérimentation en vraie grandeur.
+Hivemind dans un affichage tête haute
+Dates et historique : 2019 - 2024.
+En 2016, le logiciel ALFA276 de la société Psibernetix277 était rendu célèbre pour avoir, en situation d’infériorité278,
+systématiquement battu un pilote chevronné279, lors d’exercices tactiques sur simulateur. ALFA se destinait tant aux
+drones qu’à la fonction de copilote virtuel. Il a contribué à dérisquer ACE, sans toujours convaincre ceux qui n’y ont vu
+qu’un jeu vidéo. La compétition AlphaDogfight de 2020, organisée sur 3 jours par la DARPA280 a vu la victoire de Falco, l’IA
+de la société Heron Systems281, rachetée depuis par Shield AI. Cette dernière a combiné la technologie acquise avec ses
+propres capacités pour produire Hivemind, IA « edge », qui permet aux essaims d’opérer de manière autonome, sans GPS,
+ni communication, ni supervision : Hivemind « lit » le champ de bataille et réagit de lui-même. Interfacé avec l’affichage
+tête haute, il est aussi testé au sein de l’USAF (F-16/A-10), à la fois en tant que co-pilote et MUM-T282.
+Acteurs : AFRL, ARCNet (Autonomy Research Collaborative Network), DARPA, Dynetics, SoarTech (“trust model”), Collins
+Aerospace, Raytheon Technologies, l’Operator Performance Laboratory de l’Universitée de l’Iowa (Cognitive
+Assessment Tool Set), Calspan (modification aéronefs d’essai (L-39 Albatros283)), Johns Hopkins University
+Applied Physics Lab, Lockheed Martin, Boeing, EpiSci, Georgia Tech Research Institute, Shield AI et physicsAI.
+Porteurs potentiels : Aéronefs de combat.
+Cas d’usage affichés : Toute la gamme des missions réalisables en ayant recours à l’autonomie collaborative.
+276 Combinant logique floue et algorithmes génétiques, ALFA est bâti sur la technologie des « genetic fuzzy trees ». Il est couplé à une
+arborescence de décision élaborées par des pilotes. Initié en 2015, ALFA synthétise les données de tous les capteurs du dispositif
+aérien et exploite les erreurs de l’adversaire. Sa boucle OODA (Observe Orient Decide Act) complète, pour 4 avions, (collecte et analyse
+des données senseurs pour cartographier le scenario, analyse des modes d’action (MA) en cours ou création d’un nouveau MA) est
+quasi instantanée (6,5 ms), ce qui constituait l’objectif recherché. Quelques mois auront suffi pour atteindre ce résultat.
+277 Rachetée depuis par Thales.
+278 Scenario de référence : 2 bleus épaulés par un AWACS et disposant de missiles à courte et longue portée contre 4 rouges équipés
+de missiles à longue portée. Début d’action à 54 Nq des adversaires.
+279 Pilote/instructeur qualifié Air battle Manager, Ground Control Intercept officer et AWACS Mission Commander.
+280 Confrontation des IA à un pilote de F-16.
+281 Heron Systems mettait en avant sa capacité à déployer une IA multi-agents d’apprentissage par renforcement.
+282 Man-UnManned Teaming.
+283 Le pilote en place avant exécute les ordres de l’IA et l’instrumentation mesure la réponse physiologique du pilote en place arrière
+pour déceler les indices révélateurs de la confiance accordée ou pas à l’IA. Le nombre de désengagements de l’IA, les mouvements
+de la tête et du regard sont des métriques d’évaluation. In fine, des L-39 et F-16 seront convertis pour être pilotés par l’IA.
+111

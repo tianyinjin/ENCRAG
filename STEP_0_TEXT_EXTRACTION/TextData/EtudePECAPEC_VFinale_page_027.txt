@@ -1,0 +1,29 @@
+Source : Schémas : ConseilSI / Icônes :@ WEBTECHOPS LLP, Kukuh Wachyu Bias, Laymik, Nithinan Tatah, Aficons, agus raharjo de Noun Projet
+En 2010 les investissements pour le maintien en condition opérationnelle et de sécurité deviennent vraiment conséquents, ils
+deviennent un enjeu de continuité d’activité pour les organisations. Le métier d’architecte prend alors tout son sens, car les
+différents outils et services interfèrent entre eux via des plateformes, l’entreprise étendue n’est plus un mythe, une refonte des SI
+est maintenant nécessaire pour basculer tout ou partie de l’environnement dans l’univers SaaS, du Cloud. Moins d’investissement
+à faire, moins de machines à acheter et à gérer, donc de personnels à embaucher pour la maintenance, plus de flexibilité. Des
+solutions hybrides apparaissent (partie on-premise avec du cloud privé ou public), des données qui sont redondées dans des
+datacenters éloignés, parfois hors du pays dans lequel est l’entreprise ou l’administration, les clients réclament alors des formats de
+données réexploitables dans d’autres technologies.
+C’est aussi le début du AVEC, pour Apportez Votre Équipement personnel de Communication, bring your own device en
+anglais (BYOD), qui oblige les organisations à surveiller chaque utilisateur en temps réel, les pares-feux ne sont plus suffisants,
+des systèmes de détection ou de prévention d’intrusion réseau (Network-Based Intrusion Detection System, NIDS ou Intrusion
+Prevention Systems, NIPS) sont alors installés sur le système d’information, elles alimentent des systèmes de systèmes de gestion
+de l’information des événements de sécurité (SIEM1), qui archivent, normalisent, agrègent, corrèlent de très nombreux logs, pour
+remonter des alertes à des agents des Centres des Opérations de Sécurité (SOC).
+Ce sont les années où les flux réseaux sont chiffrés, même pour les particuliers (WPA22 , https3 , etc.), et les antivirus classiques à
+partir de base de signatures virales (EPP4 ) sont complétés par des heuristiques poussées qui analyse en temps réel le comportement
+des machines et de leurs utilisateurs, surveillent la mémoire, vérifient les indicateurs de compromission (IoC5 ), les EDR6 & XDR.
+L’arrivée de quantité d’objets connectés, souvent bien moins sécurisés que les classiques ordinateurs, souvent connectés de surcroit
+à l’Internet, augmente la surface d’attaque des SI classiques.
+1 Security information management system.
+2 Wi-Fi Protected Access, chiffrement CCMP pour plus de sécurité.
+3 Hyper Text Transfer Protocol Secure, extension sécurisée du protocole HTTP, les données échangées avec le site Web sont chiffrées.
+4 Endpoint Protection Platform en anglais, installé sur chaque poste utilisateur (Endpoint) et sur les serveurs de l’entreprise.
+5 Indicator of compromise en anglais.
+6 Endpoint Detection and Response ou Extended Detection and Response, pour étendue, qui protège les EPP déployés, supervise en temps réel
+de l’ensemble de l’activité et des flux du réseau informatique, assure la Cyber Threat Intelligence, la collecte d’informations sur les menaces ou les
+acteurs de la menace et une détection des comportements malveillants.
+27

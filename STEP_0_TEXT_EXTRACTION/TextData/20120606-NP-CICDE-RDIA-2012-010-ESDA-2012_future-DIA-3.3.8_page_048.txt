@@ -1,0 +1,61 @@
+b. la disponibilité des ressources spectrales : Le déport de l’opérateur humain
+nécessite une bande passante importante pour le contrôle du vecteur, mais surtout
+pour la transmission des informations recueillies par les capteurs. Cette dépendance
+aux moyens de communication (notamment satellitaires pour les systèmes de drones
+de classe III) peut engendrer une certaine vulnérabilité du système à deux niveaux :
+tout d’abord pour l’accès aux ressources spectrales et satellitaires déjà saturées et
+ensuite face au risque de rupture de transmissions, de brouillage, d’interception voire
+de prise de contrôle du vecteur aérien.
+Limitations liées au facteur humain
+B014 La distance vis-à-vis de l’action : Cette distance doit être analysée à deux niveaux : la
+responsabilité des opérateurs et leur implication dans l’action :
+a. responsabilité des opérateurs : le risque est aujourd’hui que le déport plus ou moins
+loin de l’action et l’environnement favorable de l’opérateur humain (risques réduits,
+confort de travail, distance) soient de nature à altérer son jugement et la perception de
+sa réelle responsabilité. À l’heure actuelle, les règles d’engagement considèrent les
+systèmes de drone comme un aéronef habité avec simplement un équipage
+responsable déporté. Il reste cependant à s’assurer que cet équipage puisse assumer
+clairement les actions et les décisions prises à distance. Dans ce cadre
+l’environnement de travail, la fidélité des images retransmises129 et l’interface « homme
+machine » doivent prendre en compte cet aspect de responsabilité et de traçabilité de
+l’image dès la conception du système. De même, la formation des équipages et
+l’organisation opérationnelle devront tenir compte de ces aspects ;
+b. l’implication dans l’action : si cela semble aujourd’hui ne pas être un facteur
+déterminant130, la principale difficulté se situe au niveau de cette dualité entre la
+mission elle-même et l’environnement quotidien de ce personnel, la participation à de
+véritables missions de guerre et la réalité domestique quotidienne une fois rentré chez
+lui131. Un entraînement spécifique, des aides personnalisées et un roulement des
+équipes permettant un « sas de décompression » ont pour but d’en atténuer les effets.
+Toutefois, la délocalisation du segment de contrôle à proximité ou sur le théâtre est
+aussi de nature à lever cette difficulté et à renforcer l’efficacité opérationnelle en
+permettant ponctuellement le renfort de l’équipage par des éléments détachés des
+forces appuyées132.
+B015 La vision « à travers une paille » : les senseurs optroniques des systèmes de drones ne
+permettent pas aux opérateurs d’appréhender la situation dans sa globalité. La précision et le
+fort grossissement des capteurs optiques ou infrarouges peuvent donner à l’équipe de contrôle
+l’impression de regarder la situation au sol « à travers une paille ». Le risque d’une perception
+erronée de la réalité ne peut donc être écarté même si certains procédés permettent d’en
+atténuer les effets. Il peut s’agir d’utiliser des capteurs à plus large champ (capteurs ROEM
+voire radar dans une moindre mesure) ou d’améliorer le champ de vue des capteurs
+optroniques (système Gorgon Stare133) ou encore.d’utiliser des systèmes de tenue de situation
+qui mettent à la disposition de l’équipe de contrôle des éléments sur la situation (tactique
+notamment) via les réseaux de communication134.
+B016 Le risque de « micro management » : Le besoin de remontée d’information aux échelons
+supérieurs en temps réel est aujourd’hui d’une donnée d’entrée incontournable. Cependant, la
+relative facilité de connexion des stations de contrôle et leurs capacités de transmission vidéo
+en temps réel sont de nature à renforcer les risques d’ingérence des différents échelons dans la
+conduite tactique des opérations. La diffusion des ordres de niveau tactique depuis ces
+129 Notion «d’image preuve ».
+130 Le RETEX américain est à ce titre intéressant car la majorité des missions de leurs drones (armés ou non) sont conduites depuis le territoire
+américain. Aujourd’hui, les opérateurs pilotes de drone semblent ne pas éprouver de difficultés particulières durant la mission car les moyens
+vidéo et de communication radio leur permettent de s’impliquer véritablement dans la mission. Cette implication est encore renforcée par le
+fait que les missions des drones sont généralement planifiées en commun avec les forces au sol.
+131 Cette situation n’est pas spécifique des systèmes de drones puisqu’elle peut se retrouver pour des équipages d’aéronefs pilotés agissant
+depuis leur base aérienne de garnison.
+132 C’est le choix fait par les forces françaises pour le déploiement du drone MALE Harfang en Afghanistan en 2009 et en Crête pour l’opération
+HARMATTAN en Libye en 2011.
+133 Système optronique disposant de plusieurs caméras Électro-optique (EO) et Infrarouges (IR) pointées à des angles différents afin de
+permettre la surveillance d'une zone étendue (4x4 km par exemple). Ce système autorise en outre une connexion simultanée avec plusieurs
+systèmes de RVT au sol.
+134 Que les anglo-saxons appellent la God View.
+48

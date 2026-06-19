@@ -1,0 +1,58 @@
+26 Pôle d’excellence cyber
+Construire la confiance en l’IA :
+la nécessité de la certification.
+Le point de vue d’un CESTI
+Jean-Léon Cusinato
+Evaluateur CESTI logiciel
+Amossys
+Un CESTI (Centre d’Évaluation de la Sécurité des produites par l’être humain ;
+Technologies de l’Information) est un laboratoire • Prenant des décisions en accord avec les objectifs
+et l’éthique des utilisateurs qui manipulent ce
+d’évaluation de logiciel agréé par l’ANSSI. L’objectif de
+réseau de neurones.
+cette structure est de vérifier que les produits analysés
+sont résistants à un attaquant tel que défini dans le
+Malgré ces problématiques, l’évaluation des produits
+schéma de certification au travers d’une évaluation.
+contenant des réseaux de neurones est cruciale pour
+Cette vérification, appelée évaluation, est une tâche
+garantir leur sécurité et leur fiabilité. En identifiant les
+complexe qui devient encore plus ardue lorsqu’il s’agit
+potentielles vulnérabilités, les CESTI contribuent à la
+de produits intégrant des réseaux de neurones – une
+création de systèmes plus robustes et moins susceptibles
+branche de l’Intelligence Artificielle actuellement en
+de subir des attaques. De nombreuses industries sont
+plein essor. Ces derniers sont de plus en plus utilisés
+soumises à des réglementations strictes en matière de
+dans divers domaines, allant de la reconnaissance
+sécurité des technologies de l’information et la mise
+d’images à la prise de décision autonome.
+en place d’une méthodologie d’évaluation est une
+étape nécessaire dans la réalisation des analyses de ces
+En tant que CESTI, évaluer ces produits présente
+nouveaux produits basés sur des réseaux de neurones.
+aujourd’hui des défis uniques. Chaque fonction
+d’un logiciel accessible par un attaquant représente Positionnement de l’évaluation
+un risque pour la sécurité. Par ailleurs s’assurer du L’intelligence artificielle est généralement
+niveau d’alignement [1] et de l’absence de biais d’une intégrée dans des programmes de multiples
+intelligence artificielle est également un sujet majeur usages : prendre des décisions, générer du
+mais restent actuellement un sujet de recherche. contenu, interpréter du langage naturel, etc.
+Cet article traite de l’adaptation du processus Les résultats produits par une intelligence artificielle
+d’évaluation pour tenir compte de cette évolution des sont, à un moment donné, traités par un logiciel
+produits intégrant de l’intelligence artificielle, sans pour appelant, et c’est précisément à cette étape que se
+autant nécessiter de vérifier l’alignement des modèles. situe le plus grand risque. En effet, le programme ne
+peut pas considérer les données générées comme
+Problématique
+étant entièrement fiables, en raison du caractère non
+Intégrer une intelligence artificielle dans un logiciel
+déterministe des résultats. Même en l’absence de biais
+requiert de déléguer une partie du traitement des
+informations à un réseau de neurones. Cette approche intentionnel dans le produit, des contrôles peuvent
+permet d’étendre les fonctionnalités du produit, mais être effectués en amont, mais ils sont impérativement
+entraîne l’opacité du traitement aboutissant aux
+nécessaires en aval du réseau de neurones.
+résultats. Un réseau de neurones doit être fiable sur
+plusieurs points en [2] : Solutions actuelles
+• Retournant des résultats qui ne reproduisent pas
+les biais présents naturellement dans les données

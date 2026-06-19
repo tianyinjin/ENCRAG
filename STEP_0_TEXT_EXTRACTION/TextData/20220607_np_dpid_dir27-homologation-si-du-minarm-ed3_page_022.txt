@@ -1,0 +1,43 @@
+La cible de sécurité et le PDS permettent de vérifier le recouvrement de l’ensemble des objectifs de
+sécurité. La cible de sécurité peut être incluse dans le PDS pour former un seul livrable.
+Le SI fait l’objet d’un audit d’homologation [Audit]. Cet audit donne lieu à un rapport qui définit les
+vulnérabilités identifiées et les risques associés, puis à un plan d’actions.
+RO 21 : il est OBLIGATOIRE, dans toute démarche standard, de réaliser un audit d’homologation. Les
+résultats et les actions qui en découlent sont étudiés lors de la commission d’homologation.
+Détermination du choix de la démarche
+Les SI sont répartis en quatre catégories en fonction de la sensibilité et de l’exposition à la menace
+[PSSIM-T] :
+● SI d’importance vitale (SIIV) ;
+● SI essentiel (SIE) ;
+● SI important (SII) ;
+● SI standard (SIS).
+Les SI industriels font aussi l’objet d’une classification (classes 1 à 3) dont le niveau détermine les
+mesures de sécurité à appliquer sur un périmètre bien défini ([DIR 39]). La catégorisation d’un système
+industriel peut se déduire de son niveau de classe.
+L’AH valide la catégorisation du SI sur proposition de l’autorité emploi au regard de l’importance du SI
+pour le fonctionnement de l’entité ou la réalisation de la mission, et de l’exposition aux menaces. L’AE
+est assistée par sa chaîne fonctionnelle SSI.
+Le choix du type de démarche d’homologation doit être en accord avec la catégorisation du SI.
+Typiquement, les correspondances suivantes peuvent être appliquées.
+Système industriel
+Système d’information
+(ou sous-système)
+S2IV
+Démarche standard
+SIE classe 3
+Démarche simplifiée SII classe 2
+Démarche sommaire SIS classe 1
+La complexité du SI et donc de maîtrise du SI peut aussi être un critère supplémentaire dans le choix
+de la démarche.
+La démarche sommaire peut correspondre à un SI d’architecture simple, dont l’exposition aux risques
+et la criticité sont faibles et dont les règles de sécurité à appliquer n’excèdent pas celles prévues par
+les [GUIDE SSI].
+La démarche simplifiée peut correspondre à un SI d’architecture maîtrisée et dont l’exposition aux
+risques ou la criticité est faible. Elle répond notamment au cas des SI s’appuyant sur un socle au travers
+des usages, ou pouvant faire l’objet d’exigences de sécurité non couvertes par le socle ou par les
+[GUIDE SSI] mais encadrées par des réglementations relatives aux informations et fonctions à protéger
+(personnelles, médicales, financières, systèmes industriels, etc.).
+La démarche standard s’applique aux autres SI, notamment à des SI dont l’exposition aux risques
+n’est pas maîtrisée au travers du socle ou dont les exigences de sécurité ne sont pas couvertes par
+des réglementations. Elle s’applique principalement à des SI du socle, des SI constituant leur propre
+Directive DPID n°27/ARM/DPID - Homologation des SI du ministère des Armées (DIR-HSI) – 3ème édition – 2022 20/47
