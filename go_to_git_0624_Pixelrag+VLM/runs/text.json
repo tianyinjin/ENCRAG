@@ -1,0 +1,1247 @@
+{
+  "system": "bm25_page_text",
+  "top_k": 5,
+  "retriever": {
+    "type": "bm25_page_text",
+    "source_pages": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\extracted_pages.jsonl",
+    "ocr_cache_dir": "E:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache",
+    "manifest": "E:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\corpus_manifest.jsonl",
+    "pages": 196,
+    "pages_with_extracted_text": 95,
+    "ocr_cache_pages_used": 95,
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "queries": [
+    {
+      "qid": "Q001",
+      "question": "Quel type d’appareil militaire est visible sur la piste ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 8.611066783686308,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 4,
+          "text_snippet": "3. Projets et déploiements en cours 3.1. BESOINS NOUVEAUX RESEAUX & FEB UNIQUE Le CF FLANDRIN indique que le CICOS est aveugle sur le processus de traitement des BNR et ne s’avére pas en mesure de renseigner les parties prenantes sur I’état d’avancement des dossiers. Le COL DELIANCE précise que cette problématique ne concerne que les dossiers supér"
+        },
+        {
+          "rank": 2,
+          "score": 8.467719703845976,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 17,
+          "text_snippet": "ANNEXE Ill - PROCEDURE POUR LES OPERATEURS DE CAPTATION AERIENNE 1. LA DEMANDE DE DEROGATION DE L/OPERATEUR DE CAPTATION AERIENNE 1.1. La sélection de la procédure administrative adéquate Tout demandeur de captation, d’enregistrement, de transmission, de conservation, d'utilisation ou de diffusion de données recueillies depuis un aéronef par un app"
+        },
+        {
+          "rank": 3,
+          "score": 7.854432653127052,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "text_snippet": "| 3.2 Planification et conduite e L’architecture et l’équipement SIC doivent être adaptés à l’architecture C2 et doivent impérativement permettre les interfaces avec les différents réseaux impliqués (autres ministéres). e La participation d’officiers du SSA aux travaux de planification opérationnelle est indispensable. De plus, des experts du SSA s"
+        },
+        {
+          "rank": 4,
+          "score": 7.694770016998367,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 5,
+          "score": 7.63244951991798,
+          "doc_name": "bem-48.pdf",
+          "page": 79,
+          "text_snippet": "François GrumelJucquignon La Yougoslavie dans la stratégie française de l’Entre-deux- Guerres (1918-1935) w -'_ ] + i] ps * 4 p JJ' ; | A 4n Nast eur one analyar grad exchanstive des archives françiises, cet Î i œuvrape péoige du Cocurdes relations hiéatérales franoc-roupiehres ë, et dlls sur tes bes plans Céliplomatique, géépolitique, politiquee. "
+        }
+      ]
+    },
+    {
+      "qid": "Q002",
+      "question": "Combien de sites, parmi les 339 répondants, sont indiqués comme étant uniquement informatifs ou pédagogiques ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 38.572596913242194,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 10,
+          "text_snippet": "Î Î Emo} CHIFFRES Typologie des lieux de mémoire CLES (suite) 2022 ; a ates Théâtre des grands conflits mondiaux qui se sont déroulés au XXème siècle et PF e tout au long de son histoire, la France possède aujourd’hui une grande densité — | a de lieux de mémoire, de différentes natures : sites témoins (champs de bataille, s, l fortifications, vesti"
+        },
+        {
+          "rank": 2,
+          "score": 15.040736227580794,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 11,
+          "text_snippet": "A e y . , A Statut juridique des lieux de mémoire CHIFFRES se Nombre Part des lieux de mémoire 2022 Association 156 46% Collectivité territoriale 90 26,5% ; Fondation 4 1,2% * ie 4 Ministére des Armées 13 3,8% ~ \\ — e Autre administration publique de l’État 6 1,8% p » — 'l_ |j Établissement public 21 6,2% Établissement public étranger 22 6,5% Socié"
+        },
+        {
+          "rank": 3,
+          "score": 13.062243918896733,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 3,
+          "text_snippet": ". , ‘ CHIFFRES Point méthodologique CLÉS 2022 Dispositif d'enquête en collaboration avec l’'Observatoire e économique de la Défense (OED). ra Seuls les sites mémoriels répertoriés comme pouvant + aay Cine s‘appuyer sur un système de comptage de leur fréquentation u a ies ont été pris en compte. Nombre de lieux de mémoire ne comptabilisent pas leur "
+        },
+        {
+          "rank": 4,
+          "score": 11.58277723714949,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 5,
+          "score": 11.175220004818359,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 14,
+          "text_snippet": "> Recours à des médias et/ou des influenceurs Cette technique consiste à amplifier la diffusion d'un contenu en ligne en utilisant des médias ou des comptes disposant d’une forte audience qui s'adressent a leur communauté de manière réguliére sur des thématiques précises. L'influenceur ou le média est ainsi identifié comme un expert de son sujet de"
+        }
+      ]
+    },
+    {
+      "qid": "Q003",
+      "question": "Que voit-on reflété sur le sol mouillé au premier plan ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 10.80408530000901,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "text_snippet": "3.7. Internet BdD Le CF FLANDRIN indique que la solution ILOSCA s'avère déficiente. Le besoin est métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. A ce stade, le plan Famille aurait dû aboutir a du 100% et cela n’est pas le cas. Post bilatérale, le SCA indique que les problèmes sur ILOSCA concernent "
+        },
+        {
+          "rank": 2,
+          "score": 9.935171775195634,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 4,
+          "text_snippet": "3. Projets et déploiements en cours 3.1. BESOINS NOUVEAUX RESEAUX & FEB UNIQUE Le CF FLANDRIN indique que le CICOS est aveugle sur le processus de traitement des BNR et ne s’avére pas en mesure de renseigner les parties prenantes sur I’état d’avancement des dossiers. Le COL DELIANCE précise que cette problématique ne concerne que les dossiers supér"
+        },
+        {
+          "rank": 3,
+          "score": 9.460818400238448,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "text_snippet": "missions de surveillance et d’‘intervention maritime. II disposera notamment d’un rayon d’action 10 à 30% supérieur a celui des avions de surveillance maritime actuels. Doté de capacités de supériorité informationnelle de type SATCOM, il disposera également d’un détecteur de balise Search and Rescue, d'un système de largage de canot de survie et de"
+        },
+        {
+          "rank": 4,
+          "score": 8.475382508679777,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 5,
+          "score": 8.102080593354572,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 2,
+          "text_snippet": "Il est enfin précisé que l’autorisation de la commission nationale de l’informatique et des libertés (CNIL) n’est pas requise, mais que des informations détaillées relatives à la vidéoprotection sont proposées sur son site!, Il est demandé aux destinataires de procéder a une large diffusion de ces éléments au sein de leur chaine défense-sécurité. L"
+        }
+      ]
+    },
+    {
+      "qid": "Q004",
+      "question": "Quel organisme est indiqué comme destinataire de la copie ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 10.110503819203826,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 4,
+          "text_snippet": "3. Projets et déploiements en cours 3.1. BESOINS NOUVEAUX RESEAUX & FEB UNIQUE Le CF FLANDRIN indique que le CICOS est aveugle sur le processus de traitement des BNR et ne s’avére pas en mesure de renseigner les parties prenantes sur I’état d’avancement des dossiers. Le COL DELIANCE précise que cette problématique ne concerne que les dossiers supér"
+        },
+        {
+          "rank": 2,
+          "score": 9.996986366776857,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "text_snippet": "3.7. Internet BdD Le CF FLANDRIN indique que la solution ILOSCA s'avère déficiente. Le besoin est métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. A ce stade, le plan Famille aurait dû aboutir a du 100% et cela n’est pas le cas. Post bilatérale, le SCA indique que les problèmes sur ILOSCA concernent "
+        },
+        {
+          "rank": 3,
+          "score": 8.615648711729069,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 8,
+          "text_snippet": "ANNEXE Il - FORMULAIRE DE DEMANDE D'AUTORISATION Formulaire de demande d’autorisation dérogatoire à l’interdiction de captation aérienne de données dans certaines zones (ZICAD) : dans le cadre de I’autorisation mentionnée a l'article L. 6224-1 du code des transports et aux articles R. 133-6 et suivants du code de l’aviation civile Le formulaire de "
+        },
+        {
+          "rank": 4,
+          "score": 8.366091035273286,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 18,
+          "text_snippet": "Par ailleurs, si le survol envisagé est à basse hauteur, l’opérateur devra se rapprocher des préfectures du lieu survolé (pour un survol au-dessus des zones a forte densité, des villes ou autres agglomérations, ou de rassemblements de personnes en plein air) ou de la direction de la sécurité de ‘aviation civile interrégionale de la direction généra"
+        },
+        {
+          "rank": 5,
+          "score": 7.699235291610914,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "text_snippet": "9 9 Edito de Cédrick Lewandowski, président du CDSE La renommée, la confiance et I’image de marque sont au cœur des réussites économiques et commerciales de nos entreprises. La réputation est un bien immatériel qui, si elle est difficile à me- surer et à appréhender, engage cependant l’'image que l’entreprise porte dans la société et, par ricochet,"
+        }
+      ]
+    },
+    {
+      "qid": "Q005",
+      "question": "Quels sont les cinq domaines d’activité présentés dans les vignettes en bas de l’affiche ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 16.47996652196341,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 11,
+          "text_snippet": "Les entreprises et l'activité économique françaises sont ainsi régulièrement la cible de campagnes de dénigrement et d'ap- pels au boycott sur les réseaux sociaux, espaces propices aux polémiques sociétales, a la « viralisation » des contenus et aux mobilisations Depuis sa création, VIGINUM observe que les manœuvres in- formationnelles menées par d"
+        },
+        {
+          "rank": 2,
+          "score": 12.538995899045254,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 4,
+          "text_snippet": "4 Ils font appel en premier ressort aux forces de sécurité civile et de sécurité intérieure. Dans de nombreux cas, l’ampleur de l’évènement et les exigences de sécurité les conduisent à solliciter le concours des armées. Ainsi, organisation de tels événements est un exercice complexe, qui nécessite une planification bien en amont et la coordination"
+        },
+        {
+          "rank": 3,
+          "score": 12.376867939592413,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 7,
+          "text_snippet": "| 7 - dimensionnement des structures de commandement et de coordination dédiées spécifiquement | au soutien. | Il s’agit d’abord de bien évaluer l’ampleur du soutien, notamment le soutien logistique, qui devra étre consenti, pour le soutien des forces armées mais aussi pour celui qui pourrait être demandé au profit des autres acteurs. Certains doma"
+        },
+        {
+          "rank": 4,
+          "score": 12.223501198502404,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "text_snippet": "| 3.2 Planification et conduite e L’architecture et l’équipement SIC doivent être adaptés à l’architecture C2 et doivent impérativement permettre les interfaces avec les différents réseaux impliqués (autres ministéres). e La participation d’officiers du SSA aux travaux de planification opérationnelle est indispensable. De plus, des experts du SSA s"
+        },
+        {
+          "rank": 5,
+          "score": 12.058253216581203,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "text_snippet": "missions de surveillance et d’‘intervention maritime. II disposera notamment d’un rayon d’action 10 à 30% supérieur a celui des avions de surveillance maritime actuels. Doté de capacités de supériorité informationnelle de type SATCOM, il disposera également d’un détecteur de balise Search and Rescue, d'un système de largage de canot de survie et de"
+        }
+      ]
+    },
+    {
+      "qid": "Q006",
+      "question": "Quelle fonction est indiquée sous le nom du vice-amiral Jean-Philippe Chaineau dans le bloc de signature ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 22.824208185915857,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 2,
+          "text_snippet": "Il est enfin précisé que l’autorisation de la commission nationale de l’informatique et des libertés (CNIL) n’est pas requise, mais que des informations détaillées relatives à la vidéoprotection sont proposées sur son site!, Il est demandé aux destinataires de procéder a une large diffusion de ces éléments au sein de leur chaine défense-sécurité. L"
+        },
+        {
+          "rank": 2,
+          "score": 22.32300866766287,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 5,
+          "text_snippet": "- Monsieur l’amiral, major général des armées - Monsieur le général de corps aérien, sous-chef « plans » de l’état-major des armées - Monsieur le vice-amiral d’escadre, sous-chef « opérations » de l’état-major des armées - Monsieur le général de corps d’armée, sous-chef « organisation » de l’état-major des armées - Monsieur le général de corps aéri"
+        },
+        {
+          "rank": 3,
+          "score": 21.26446822615162,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 4,
+          "text_snippet": "DESTINATAIRES : - Monsieur le général d’armée, chef d’état-major de l’armée de terre - Monsieur l’amiral, chef d’état-major de la marine - Monsieur le général d’armée aérienne, chef d’état-major de l’armée de l’air - Monsieur le général de corps aérien, inspecteur des forces en opération et de la défense opérationnelle du territoire - Monsieur le g"
+        },
+        {
+          "rank": 4,
+          "score": 15.475226899047552,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        },
+        {
+          "rank": 5,
+          "score": 14.57638011819672,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 1,
+          "text_snippet": "’ | | berté » Egalité + Fraternité REPUBLIQUE FRANGAISE DGSikGsTERE DES ARMEES 15 Nyy 201 N° d'enreg' one aoe [| —}- —— DPID Papp — +} J Paris, le 10 novembre 2017 e e —— N° 286/ARM/DPID Direction de la Protection [sos—-—} — 8 des Installations, moyens a a ee ee et activités de la Défense. ef} Département « Moyens de protection » CO De ie eg Affair"
+        }
+      ]
+    },
+    {
+      "qid": "Q007",
+      "question": "Quelle inscription est visible sur le flanc du drone en vol ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 10.364039348308127,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 18,
+          "text_snippet": "Par ailleurs, si le survol envisagé est à basse hauteur, l’opérateur devra se rapprocher des préfectures du lieu survolé (pour un survol au-dessus des zones a forte densité, des villes ou autres agglomérations, ou de rassemblements de personnes en plein air) ou de la direction de la sécurité de ‘aviation civile interrégionale de la direction généra"
+        },
+        {
+          "rank": 2,
+          "score": 10.142729966102584,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "text_snippet": "3.7. Internet BdD Le CF FLANDRIN indique que la solution ILOSCA s'avère déficiente. Le besoin est métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. A ce stade, le plan Famille aurait dû aboutir a du 100% et cela n’est pas le cas. Post bilatérale, le SCA indique que les problèmes sur ILOSCA concernent "
+        },
+        {
+          "rank": 3,
+          "score": 10.08192152030879,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "text_snippet": "missions de surveillance et d’‘intervention maritime. II disposera notamment d’un rayon d’action 10 à 30% supérieur a celui des avions de surveillance maritime actuels. Doté de capacités de supériorité informationnelle de type SATCOM, il disposera également d’un détecteur de balise Search and Rescue, d'un système de largage de canot de survie et de"
+        },
+        {
+          "rank": 4,
+          "score": 9.91145033338456,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 5,
+          "score": 9.793512293074588,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        }
+      ]
+    },
+    {
+      "qid": "Q008",
+      "question": "Quel nom de véhicule est indiqué par la légende placée près du robot chenillé ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 13.506006847821487,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "text_snippet": "3.7. Internet BdD Le CF FLANDRIN indique que la solution ILOSCA s'avère déficiente. Le besoin est métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. A ce stade, le plan Famille aurait dû aboutir a du 100% et cela n’est pas le cas. Post bilatérale, le SCA indique que les problèmes sur ILOSCA concernent "
+        },
+        {
+          "rank": 2,
+          "score": 12.897193120118786,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        },
+        {
+          "rank": 3,
+          "score": 12.26917666904508,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 4,
+          "text_snippet": "3. Projets et déploiements en cours 3.1. BESOINS NOUVEAUX RESEAUX & FEB UNIQUE Le CF FLANDRIN indique que le CICOS est aveugle sur le processus de traitement des BNR et ne s’avére pas en mesure de renseigner les parties prenantes sur I’état d’avancement des dossiers. Le COL DELIANCE précise que cette problématique ne concerne que les dossiers supér"
+        },
+        {
+          "rank": 4,
+          "score": 10.934392897705399,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 4,
+          "text_snippet": "DESTINATAIRES : - Monsieur le général d’armée, chef d’état-major de l’armée de terre - Monsieur l’amiral, chef d’état-major de la marine - Monsieur le général d’armée aérienne, chef d’état-major de l’armée de l’air - Monsieur le général de corps aérien, inspecteur des forces en opération et de la défense opérationnelle du territoire - Monsieur le g"
+        },
+        {
+          "rank": 5,
+          "score": 9.851905971889694,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 17,
+          "text_snippet": "ANNEXE Ill - PROCEDURE POUR LES OPERATEURS DE CAPTATION AERIENNE 1. LA DEMANDE DE DEROGATION DE L/OPERATEUR DE CAPTATION AERIENNE 1.1. La sélection de la procédure administrative adéquate Tout demandeur de captation, d’enregistrement, de transmission, de conservation, d'utilisation ou de diffusion de données recueillies depuis un aéronef par un app"
+        }
+      ]
+    },
+    {
+      "qid": "Q009",
+      "question": "Quelle année est affichée en grands chiffres près du coin supérieur droit ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 12.06472084196783,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 4,
+          "text_snippet": "DESTINATAIRES : - Monsieur le général d’armée, chef d’état-major de l’armée de terre - Monsieur l’amiral, chef d’état-major de la marine - Monsieur le général d’armée aérienne, chef d’état-major de l’armée de l’air - Monsieur le général de corps aérien, inspecteur des forces en opération et de la défense opérationnelle du territoire - Monsieur le g"
+        },
+        {
+          "rank": 2,
+          "score": 8.321311764658399,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 11,
+          "text_snippet": "A e y . , A Statut juridique des lieux de mémoire CHIFFRES se Nombre Part des lieux de mémoire 2022 Association 156 46% Collectivité territoriale 90 26,5% ; Fondation 4 1,2% * ie 4 Ministére des Armées 13 3,8% ~ \\ — e Autre administration publique de l’État 6 1,8% p » — 'l_ |j Établissement public 21 6,2% Établissement public étranger 22 6,5% Socié"
+        },
+        {
+          "rank": 3,
+          "score": 7.930321439061167,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "text_snippet": "3.7. Internet BdD Le CF FLANDRIN indique que la solution ILOSCA s'avère déficiente. Le besoin est métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. A ce stade, le plan Famille aurait dû aboutir a du 100% et cela n’est pas le cas. Post bilatérale, le SCA indique que les problèmes sur ILOSCA concernent "
+        },
+        {
+          "rank": 4,
+          "score": 7.927908033757859,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 2,
+          "text_snippet": "2 Dans cette perspective, le CICDE a effectué une synthèse des RETours d’EXpérience (RETEX) sur la contribution Défense à la sécurité de grands événements récents. Ont été principalement pris en compte la sécurisation du G20 à Cannes en 2011, celles des JO de Londres en 2012 et des commémorations du DDAY de 2014. Vous trouverez en annexe, les princ"
+        },
+        {
+          "rank": 5,
+          "score": 7.894898644520511,
+          "doc_name": "bem-48.pdf",
+          "page": 79,
+          "text_snippet": "François GrumelJucquignon La Yougoslavie dans la stratégie française de l’Entre-deux- Guerres (1918-1935) w -'_ ] + i] ps * 4 p JJ' ; | A 4n Nast eur one analyar grad exchanstive des archives françiises, cet Î i œuvrape péoige du Cocurdes relations hiéatérales franoc-roupiehres ë, et dlls sur tes bes plans Céliplomatique, géépolitique, politiquee. "
+        }
+      ]
+    },
+    {
+      "qid": "Q010",
+      "question": "Quelles sont les trois conditions indiquées comme nécessaires à la réussite de la participation des armées à la sécurité des grands événements ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 30.519567426272797,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 2,
+          "text_snippet": "2 Dans cette perspective, le CICDE a effectué une synthèse des RETours d’EXpérience (RETEX) sur la contribution Défense à la sécurité de grands événements récents. Ont été principalement pris en compte la sécurisation du G20 à Cannes en 2011, celles des JO de Londres en 2012 et des commémorations du DDAY de 2014. Vous trouverez en annexe, les princ"
+        },
+        {
+          "rank": 2,
+          "score": 26.885438399043153,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 4,
+          "text_snippet": "4 Ils font appel en premier ressort aux forces de sécurité civile et de sécurité intérieure. Dans de nombreux cas, l’ampleur de l’évènement et les exigences de sécurité les conduisent à solliciter le concours des armées. Ainsi, organisation de tels événements est un exercice complexe, qui nécessite une planification bien en amont et la coordination"
+        },
+        {
+          "rank": 3,
+          "score": 24.447745559753677,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 26,
+          "text_snippet": "schéma récapitulatif de l’annexe Ill - La procédure pour les opérateurs de captation aérienne LA PROCÉDURE DE DEMANDE DE DÉROGATION DES OPÉRATEURS DE CAPTATION AERIENNE POUR LES ZICAD RELEVANT DE L'AUTORITÉ DU MINARM EN 6 ETAPES Remplir l'ensemble des champs du formulaire de demande d'autorisation dérogatoire à l'interdiction de captation aérienne "
+        },
+        {
+          "rank": 4,
+          "score": 24.160485258051388,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 7,
+          "text_snippet": "| 7 - dimensionnement des structures de commandement et de coordination dédiées spécifiquement | au soutien. | Il s’agit d’abord de bien évaluer l’ampleur du soutien, notamment le soutien logistique, qui devra étre consenti, pour le soutien des forces armées mais aussi pour celui qui pourrait être demandé au profit des autres acteurs. Certains doma"
+        },
+        {
+          "rank": 5,
+          "score": 24.0664161918339,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "text_snippet": "| 3.2 Planification et conduite e L’architecture et l’équipement SIC doivent être adaptés à l’architecture C2 et doivent impérativement permettre les interfaces avec les différents réseaux impliqués (autres ministéres). e La participation d’officiers du SSA aux travaux de planification opérationnelle est indispensable. De plus, des experts du SSA s"
+        }
+      ]
+    },
+    {
+      "qid": "Q011",
+      "question": "Quel objet est tenu par les doigts au-dessus d’un assemblage incomplet ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 13.497849680432976,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 17,
+          "text_snippet": "ANNEXE Ill - PROCEDURE POUR LES OPERATEURS DE CAPTATION AERIENNE 1. LA DEMANDE DE DEROGATION DE L/OPERATEUR DE CAPTATION AERIENNE 1.1. La sélection de la procédure administrative adéquate Tout demandeur de captation, d’enregistrement, de transmission, de conservation, d'utilisation ou de diffusion de données recueillies depuis un aéronef par un app"
+        },
+        {
+          "rank": 2,
+          "score": 11.199429594579724,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 3,
+          "score": 10.670965149188227,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 23,
+          "text_snippet": "Lorsqu’un opérateur a regu un avis défavorable pour toute ou partie de sa demande de captation aérienne de la part du DPID, l’opérateur ne doit pas, en principe, a nouveau déposer une demande de captation aérienne similaire dans un délai de 6 mois a compter de la date de notification du refus de la demande de dérogation à l’opérateur. Cette interdi"
+        },
+        {
+          "rank": 4,
+          "score": 10.316771125560669,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 5,
+          "text_snippet": "Installation militaires de sensibilité moindre (IMSM). Installations indispensables à la réalisation de la mission de défense abritant du personnel, des activités, des matériels ou des informations de valeur marquées par leur caractère substituable ou leur faible implication dans la réussite d’une opération. Installation nucléaire intéressant la di"
+        },
+        {
+          "rank": 5,
+          "score": 10.250142921473955,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 4,
+          "text_snippet": "9 9 Edito de Marc-Antoine BRILLANT, chef du service VIGINUM Depuis 2021 et la création du service VIGINUM, les menaces de dés- tabilisation en ligne n’ont cessé de croître à la faveur d’un contexte international dégradé. Ukraine, Roumanie, Moldavie, Etats baltes, Allemagne, Australie, Canada, pays africains ou de l’Asie du Sud-Est et évidemment la "
+        }
+      ]
+    },
+    {
+      "qid": "Q012",
+      "question": "Quels sont les quatre grands types de formation indiqués en en-tête du tableau ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 14.233170627439435,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "text_snippet": "| 3.2 Planification et conduite e L’architecture et l’équipement SIC doivent être adaptés à l’architecture C2 et doivent impérativement permettre les interfaces avec les différents réseaux impliqués (autres ministéres). e La participation d’officiers du SSA aux travaux de planification opérationnelle est indispensable. De plus, des experts du SSA s"
+        },
+        {
+          "rank": 2,
+          "score": 13.86662296436994,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 5,
+          "text_snippet": "| | 2.3 Au sein du ministére de la Défense e La DIA-3.4.3.1(A) _ IESU(2008), amendée le 14 novembre 2013, décline les objectifs et les principes des armées retenus dans le concept d’intervention extérieure de secours d’urgence. Le cas des pandémies est couvert par cette doctrine et des missions génériques SANTE sont listées (p.80). Les premiers élé"
+        },
+        {
+          "rank": 3,
+          "score": 13.090349578165549,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 7,
+          "text_snippet": "| 7 - dimensionnement des structures de commandement et de coordination dédiées spécifiquement | au soutien. | Il s’agit d’abord de bien évaluer l’ampleur du soutien, notamment le soutien logistique, qui devra étre consenti, pour le soutien des forces armées mais aussi pour celui qui pourrait être demandé au profit des autres acteurs. Certains doma"
+        },
+        {
+          "rank": 4,
+          "score": 12.851499351693914,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 2,
+          "text_snippet": "2 Dans cette perspective, le CICDE a effectué une synthèse des RETours d’EXpérience (RETEX) sur la contribution Défense à la sécurité de grands événements récents. Ont été principalement pris en compte la sécurisation du G20 à Cannes en 2011, celles des JO de Londres en 2012 et des commémorations du DDAY de 2014. Vous trouverez en annexe, les princ"
+        },
+        {
+          "rank": 5,
+          "score": 11.276072703281288,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 22,
+          "text_snippet": "> Contacter VIGINUM en cas de besoin. Le service accompagne les entreprises françaises ciblées par les attaques informationnelles quireléveraient de l'ingérence numérique étrangère. Le service invite les entreprises a signaler les contenus malveillants par le canal de communication établi au préalable ou à l’adresse dédiée : viginum_signalement@sgd"
+        }
+      ]
+    },
+    {
+      "qid": "Q013",
+      "question": "Quelle inscription apparaît en grandes lettres sur le fuselage de l’avion ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 8.597949258689365,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 2,
+          "score": 8.127030247390893,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "text_snippet": "3.7. Internet BdD Le CF FLANDRIN indique que la solution ILOSCA s'avère déficiente. Le besoin est métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. A ce stade, le plan Famille aurait dû aboutir a du 100% et cela n’est pas le cas. Post bilatérale, le SCA indique que les problèmes sur ILOSCA concernent "
+        },
+        {
+          "rank": 3,
+          "score": 7.989645321669624,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 4,
+          "text_snippet": "3. Projets et déploiements en cours 3.1. BESOINS NOUVEAUX RESEAUX & FEB UNIQUE Le CF FLANDRIN indique que le CICOS est aveugle sur le processus de traitement des BNR et ne s’avére pas en mesure de renseigner les parties prenantes sur I’état d’avancement des dossiers. Le COL DELIANCE précise que cette problématique ne concerne que les dossiers supér"
+        },
+        {
+          "rank": 4,
+          "score": 7.650993948450939,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        },
+        {
+          "rank": 5,
+          "score": 7.460568271271656,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "text_snippet": "| 3.2 Planification et conduite e L’architecture et l’équipement SIC doivent être adaptés à l’architecture C2 et doivent impérativement permettre les interfaces avec les différents réseaux impliqués (autres ministéres). e La participation d’officiers du SSA aux travaux de planification opérationnelle est indispensable. De plus, des experts du SSA s"
+        }
+      ]
+    },
+    {
+      "qid": "Q014",
+      "question": "Quelle version du rapport technique est indiquée sous le titre principal ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 15.81010422513851,
+          "doc_name": "20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516.pdf",
+          "page": 1,
+          "text_snippet": "Ex PREMIER Secrétariat général de la défense MINISTRE et de la sécurité nationale Liberté Egalité Analyse du mode opératoire ran ä informationnel russe «o..:ç Storm-1516 ex Version : 1.0 VIGINUM mn … — = Rapport technique Mai 2025"
+        },
+        {
+          "rank": 2,
+          "score": 13.111026743557403,
+          "doc_name": "20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR.pdf",
+          "page": 1,
+          "text_snippet": "Ex PREMIER Secrétariat général de la défense MINISTRE et de la sécurité nationale Liberté Éga/ite'ﬁ African Initiative : rea de la diplomatie publique soe e aux opérations d’influence .. numériques VIGINUM Version : 1.0 Rapport technique Juin 2025 Avec les contributions de : | sphede ene, © * EXTERNAL ACTION"
+        },
+        {
+          "rank": 3,
+          "score": 11.470465458424457,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 10,
+          "text_snippet": "6.4. Cartographie des BdD Le CICOS confirme qu’un centre national n’est pas sous la coupe du COMBDD. Le COL FERRER ajoute que les CIRISI effectuent également des missions nationales. Le CICOS précise que le COMBDD doit comprendre les priorités des CIRISI pour arbitrer. Sinon, le sujet doit être escaladé. Par ailleurs, il est rappelé qu’en cas de cr"
+        },
+        {
+          "rank": 4,
+          "score": 10.97447567388312,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 9,
+          "text_snippet": "DEMANDEUR : SI PERSONNE MORALE | Raison sociale ou dénomination Adresse du siége est, le een a ee ou principal naissance = eee — TÉ e TT F e rn i no T H SI PERSONNE PHYSIQUE ic PE | Date et lieu de naissance Adresse postale Demandeur eee ae e CIR | sone aL Pe T = | 9/26"
+        },
+        {
+          "rank": 5,
+          "score": 9.395501545614932,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 15,
+          "text_snippet": "1 Cor _ …… B = rll— _ - of __ = saidése dn d — — — ae > Décontextualisation et détournement de visuels Cette technique consiste a extraire un visuel (image, vidéo, etc.) de son contexte originel, voire le détourner, pour |’utiliser dans le but de tromper les audiences. Ce procédé vise a exagérer ou fausser l'événement en cours afin de susciter dava"
+        }
+      ]
+    },
+    {
+      "qid": "Q015",
+      "question": "Dans la comparaison visuelle des drones de combat, quel modèle est associé au constructeur Piaggio ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 11.81146584893935,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "text_snippet": "» a description de la politique de gestion des données (précisant pour chacun des themes suivants les modalités appliquées : stockage, utilisation, transmission et destruction éventuelle des données a la fin de la mission, le cas échéant) ; « la transmission d‘un exemple du rendu de la dégradation réalisée qui est destinée au client; ” la copie du "
+        },
+        {
+          "rank": 2,
+          "score": 11.491855525440393,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "text_snippet": "9 9 Edito de Cédrick Lewandowski, président du CDSE La renommée, la confiance et I’image de marque sont au cœur des réussites économiques et commerciales de nos entreprises. La réputation est un bien immatériel qui, si elle est difficile à me- surer et à appréhender, engage cependant l’'image que l’entreprise porte dans la société et, par ricochet,"
+        },
+        {
+          "rank": 3,
+          "score": 11.199970364912604,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 18,
+          "text_snippet": "Par ailleurs, si le survol envisagé est à basse hauteur, l’opérateur devra se rapprocher des préfectures du lieu survolé (pour un survol au-dessus des zones a forte densité, des villes ou autres agglomérations, ou de rassemblements de personnes en plein air) ou de la direction de la sécurité de ‘aviation civile interrégionale de la direction généra"
+        },
+        {
+          "rank": 4,
+          "score": 11.150788945891653,
+          "doc_name": "bem-48.pdf",
+          "page": 1,
+          "text_snippet": "Bulletin d'études de la Marine ww. \\ B ‘ ; * Les drones aériens dans l'action maritime"
+        },
+        {
+          "rank": 5,
+          "score": 11.079620709820542,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 17,
+          "text_snippet": "ANNEXE Ill - PROCEDURE POUR LES OPERATEURS DE CAPTATION AERIENNE 1. LA DEMANDE DE DEROGATION DE L/OPERATEUR DE CAPTATION AERIENNE 1.1. La sélection de la procédure administrative adéquate Tout demandeur de captation, d’enregistrement, de transmission, de conservation, d'utilisation ou de diffusion de données recueillies depuis un aéronef par un app"
+        }
+      ]
+    },
+    {
+      "qid": "Q016",
+      "question": "Quel numéro est inscrit à la fois sur la coque et sur la voile du drone marin orange ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 16.279063842356788,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 1,
+          "text_snippet": "E ] 4 Liberté » Égalité » Fraternité RÉPUBLIQUE FRANÇAISE MINISTÈRE DE LA DÉFENSE CuG HE , Paris, le O% Jame o ZoA6, ee N° 004- /DEF/CICDE/SEC-CENT/NP CENTRE INTERARMEES DE CONCEPTS, DE DOCTRINES ET D’EXPERIMENTATIONS Le général de division Jean-Frangois Parlanti directeur du centre interarmées de concepts, | de doctrines et d’expérimentations a Mo"
+        },
+        {
+          "rank": 2,
+          "score": 16.001119868903043,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 2,
+          "text_snippet": "Il est enfin précisé que l’autorisation de la commission nationale de l’informatique et des libertés (CNIL) n’est pas requise, mais que des informations détaillées relatives à la vidéoprotection sont proposées sur son site!, Il est demandé aux destinataires de procéder a une large diffusion de ces éléments au sein de leur chaine défense-sécurité. L"
+        },
+        {
+          "rank": 3,
+          "score": 15.865133710981098,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        },
+        {
+          "rank": 4,
+          "score": 15.565150645281681,
+          "doc_name": "bem-48.pdf",
+          "page": 79,
+          "text_snippet": "François GrumelJucquignon La Yougoslavie dans la stratégie française de l’Entre-deux- Guerres (1918-1935) w -'_ ] + i] ps * 4 p JJ' ; | A 4n Nast eur one analyar grad exchanstive des archives françiises, cet Î i œuvrape péoige du Cocurdes relations hiéatérales franoc-roupiehres ë, et dlls sur tes bes plans Céliplomatique, géépolitique, politiquee. "
+        },
+        {
+          "rank": 5,
+          "score": 15.241027029910985,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "text_snippet": "| 3.2 Planification et conduite e L’architecture et l’équipement SIC doivent être adaptés à l’architecture C2 et doivent impérativement permettre les interfaces avec les différents réseaux impliqués (autres ministéres). e La participation d’officiers du SSA aux travaux de planification opérationnelle est indispensable. De plus, des experts du SSA s"
+        }
+      ]
+    },
+    {
+      "qid": "Q017",
+      "question": "À quelle date l’Albatros a-t-il effectué son premier vol réussi ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 17.107809674686635,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "text_snippet": "missions de surveillance et d’‘intervention maritime. II disposera notamment d’un rayon d’action 10 à 30% supérieur a celui des avions de surveillance maritime actuels. Doté de capacités de supériorité informationnelle de type SATCOM, il disposera également d’un détecteur de balise Search and Rescue, d'un système de largage de canot de survie et de"
+        },
+        {
+          "rank": 2,
+          "score": 8.788510835222665,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 12,
+          "text_snippet": "DESCRIPTION DE LA MISSION r e e e rrr ETE >= U Non | U Oui, pour le compte de : | QIGN Réponse à un besoin de Q Collectivité territoriale politique publique, de U Commune service public ou U DREAL d'interêt général O Aéroports: O APS è . U Sociétés privées QO Autre (préciser) : Q Non Liée à un marché public | DOui Si oui, références : Q Acquisition"
+        },
+        {
+          "rank": 3,
+          "score": 5.90677177205861,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 8,
+          "text_snippet": "ANNEXE Il - FORMULAIRE DE DEMANDE D'AUTORISATION Formulaire de demande d’autorisation dérogatoire à l’interdiction de captation aérienne de données dans certaines zones (ZICAD) : dans le cadre de I’autorisation mentionnée a l'article L. 6224-1 du code des transports et aux articles R. 133-6 et suivants du code de l’aviation civile Le formulaire de "
+        },
+        {
+          "rank": 4,
+          "score": 5.479196539288555,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "text_snippet": "» a description de la politique de gestion des données (précisant pour chacun des themes suivants les modalités appliquées : stockage, utilisation, transmission et destruction éventuelle des données a la fin de la mission, le cas échéant) ; « la transmission d‘un exemple du rendu de la dégradation réalisée qui est destinée au client; ” la copie du "
+        },
+        {
+          "rank": 5,
+          "score": 5.432563581731586,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 10,
+          "text_snippet": "6.4. Cartographie des BdD Le CICOS confirme qu’un centre national n’est pas sous la coupe du COMBDD. Le COL FERRER ajoute que les CIRISI effectuent également des missions nationales. Le CICOS précise que le COMBDD doit comprendre les priorités des CIRISI pour arbitrer. Sinon, le sujet doit être escaladé. Par ailleurs, il est rappelé qu’en cas de cr"
+        }
+      ]
+    },
+    {
+      "qid": "Q018",
+      "question": "Quel nom d’auteur apparaît en grandes lettres jaunes sous le sous-titre ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 12.039136918685973,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 5,
+          "text_snippet": "- Monsieur l’amiral, major général des armées - Monsieur le général de corps aérien, sous-chef « plans » de l’état-major des armées - Monsieur le vice-amiral d’escadre, sous-chef « opérations » de l’état-major des armées - Monsieur le général de corps d’armée, sous-chef « organisation » de l’état-major des armées - Monsieur le général de corps aéri"
+        },
+        {
+          "rank": 2,
+          "score": 11.115363512227033,
+          "doc_name": "bem-48.pdf",
+          "page": 73,
+          "text_snippet": "CV (H) Claude Huar lean |Tloulln I es sous-marins f ae — ™ R p - % ; E — uE ; Apes Lit écesteclet gijsérre rrartene[ialet, et ue ‘= — = = - - = fou fh let chet anne soln, es forces y — Æ Fei sous- marines frangaises fant lear névolathon — LHL_ - = othe de lélrurgie crechiésabne conmnime tracker ce ee — — Propultan ot comme anne embiequée, A partie "
+        },
+        {
+          "rank": 3,
+          "score": 8.973968893521906,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 10,
+          "text_snippet": "6.4. Cartographie des BdD Le CICOS confirme qu’un centre national n’est pas sous la coupe du COMBDD. Le COL FERRER ajoute que les CIRISI effectuent également des missions nationales. Le CICOS précise que le COMBDD doit comprendre les priorités des CIRISI pour arbitrer. Sinon, le sujet doit être escaladé. Par ailleurs, il est rappelé qu’en cas de cr"
+        },
+        {
+          "rank": 4,
+          "score": 7.894682379279072,
+          "doc_name": "bem-48.pdf",
+          "page": 21,
+          "text_snippet": "J h = Pp ° hy r A - = , —- ; . % pa Les secrets des opérations spéciales + at SE, ; ? ; ; 1 - 75 = — — = Ceyvdelt rrous (ait périetier dans pe AE er E— —2 —— le moticke che la chrateres rere ree 4 | —— a large dela Somalée, pays 4% | * e rori-cfrealt,eri guerre cepts Lierité d E … F ! filets RR vingt ann. Les 15 000 navies ‘M H «* qule .|.|…-|=|.|l"
+        },
+        {
+          "rank": 5,
+          "score": 7.381308859784082,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 7,
+          "text_snippet": "| 7 - dimensionnement des structures de commandement et de coordination dédiées spécifiquement | au soutien. | Il s’agit d’abord de bien évaluer l’ampleur du soutien, notamment le soutien logistique, qui devra étre consenti, pour le soutien des forces armées mais aussi pour celui qui pourrait être demandé au profit des autres acteurs. Certains doma"
+        }
+      ]
+    },
+    {
+      "qid": "Q019",
+      "question": "Pourquoi les métriques de visibilité des plateformes sont-elles présentées comme des indicateurs imparfaits ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 30.03716906580029,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 2,
+          "score": 19.279098688896664,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 22,
+          "text_snippet": "> Contacter VIGINUM en cas de besoin. Le service accompagne les entreprises françaises ciblées par les attaques informationnelles quireléveraient de l'ingérence numérique étrangère. Le service invite les entreprises a signaler les contenus malveillants par le canal de communication établi au préalable ou à l’adresse dédiée : viginum_signalement@sgd"
+        },
+        {
+          "rank": 3,
+          "score": 14.880075906293616,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 14,
+          "text_snippet": "> Recours à des médias et/ou des influenceurs Cette technique consiste à amplifier la diffusion d'un contenu en ligne en utilisant des médias ou des comptes disposant d’une forte audience qui s'adressent a leur communauté de manière réguliére sur des thématiques précises. L'influenceur ou le média est ainsi identifié comme un expert de son sujet de"
+        },
+        {
+          "rank": 4,
+          "score": 14.19122267612132,
+          "doc_name": "20160527_np_cicde_108_lettre_gagner_la_guerre_gagner_la_paix_-_approche_retex.pdf",
+          "page": 7,
+          "text_snippet": "installations militaires (2015 dépôt de Miramas), ou celui encore d’une transformation allant plus | rapidement que la fiabilité (2011 à nos jours, système LOUVOIS notamment). Par ailleurs, le recours | de plus en plus systématique dans certains secteurs de compétence à l’externalisation (2013 à nos jours, une partie significative du soutien logist"
+        },
+        {
+          "rank": 5,
+          "score": 12.967331619489848,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "text_snippet": "9 9 Edito de Cédrick Lewandowski, président du CDSE La renommée, la confiance et I’image de marque sont au cœur des réussites économiques et commerciales de nos entreprises. La réputation est un bien immatériel qui, si elle est difficile à me- surer et à appréhender, engage cependant l’'image que l’entreprise porte dans la société et, par ricochet,"
+        }
+      ]
+    },
+    {
+      "qid": "Q020",
+      "question": "Quels sont les deux noms de logos visibles en bas de l’image ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 11.207312680921186,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 4,
+          "text_snippet": "9 9 Edito de Marc-Antoine BRILLANT, chef du service VIGINUM Depuis 2021 et la création du service VIGINUM, les menaces de dés- tabilisation en ligne n’ont cessé de croître à la faveur d’un contexte international dégradé. Ukraine, Roumanie, Moldavie, Etats baltes, Allemagne, Australie, Canada, pays africains ou de l’Asie du Sud-Est et évidemment la "
+        },
+        {
+          "rank": 2,
+          "score": 11.166686799520166,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "text_snippet": "9 9 Edito de Cédrick Lewandowski, président du CDSE La renommée, la confiance et I’image de marque sont au cœur des réussites économiques et commerciales de nos entreprises. La réputation est un bien immatériel qui, si elle est difficile à me- surer et à appréhender, engage cependant l’'image que l’entreprise porte dans la société et, par ricochet,"
+        },
+        {
+          "rank": 3,
+          "score": 11.010047101180575,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        },
+        {
+          "rank": 4,
+          "score": 10.879526228716815,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 22,
+          "text_snippet": "> Contacter VIGINUM en cas de besoin. Le service accompagne les entreprises françaises ciblées par les attaques informationnelles quireléveraient de l'ingérence numérique étrangère. Le service invite les entreprises a signaler les contenus malveillants par le canal de communication établi au préalable ou à l’adresse dédiée : viginum_signalement@sgd"
+        },
+        {
+          "rank": 5,
+          "score": 10.112856749998757,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 3,
+          "text_snippet": ". , ‘ CHIFFRES Point méthodologique CLÉS 2022 Dispositif d'enquête en collaboration avec l’'Observatoire e économique de la Défense (OED). ra Seuls les sites mémoriels répertoriés comme pouvant + aay Cine s‘appuyer sur un système de comptage de leur fréquentation u a ies ont été pris en compte. Nombre de lieux de mémoire ne comptabilisent pas leur "
+        }
+      ]
+    },
+    {
+      "qid": "Q021",
+      "question": "Quelle date est indiquée en bas à droite du visuel ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 8.340531353460243,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "text_snippet": "» a description de la politique de gestion des données (précisant pour chacun des themes suivants les modalités appliquées : stockage, utilisation, transmission et destruction éventuelle des données a la fin de la mission, le cas échéant) ; « la transmission d‘un exemple du rendu de la dégradation réalisée qui est destinée au client; ” la copie du "
+        },
+        {
+          "rank": 2,
+          "score": 8.29782503142092,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 10,
+          "text_snippet": "6.4. Cartographie des BdD Le CICOS confirme qu’un centre national n’est pas sous la coupe du COMBDD. Le COL FERRER ajoute que les CIRISI effectuent également des missions nationales. Le CICOS précise que le COMBDD doit comprendre les priorités des CIRISI pour arbitrer. Sinon, le sujet doit être escaladé. Par ailleurs, il est rappelé qu’en cas de cr"
+        },
+        {
+          "rank": 3,
+          "score": 8.06472745237895,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 9,
+          "text_snippet": "DEMANDEUR : SI PERSONNE MORALE | Raison sociale ou dénomination Adresse du siége est, le een a ee ou principal naissance = eee — TÉ e TT F e rn i no T H SI PERSONNE PHYSIQUE ic PE | Date et lieu de naissance Adresse postale Demandeur eee ae e CIR | sone aL Pe T = | 9/26"
+        },
+        {
+          "rank": 4,
+          "score": 7.799574712532225,
+          "doc_name": "2011113_IGI 1300_Protection du secret de la defense nationale_NP.pdf",
+          "page": 147,
+          "text_snippet": "Date de raisance ‘Code Nationalite Eventuel domicile distinct as ents du candidat re Père | MÉÈCE poor on uv Ate ea a ott cu ] Dale de ratrance — eee jeu da naissanos — ( |s) nationalité(s) ée d'arrivée en France Pays de naissance ( | | | ‘ » du domicile actuel ou du demier 1NF t commune, pee si dose Nom et adresse de l'employeur actuel ou du demie"
+        },
+        {
+          "rank": 5,
+          "score": 6.891004157769774,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 15,
+          "text_snippet": "1 Cor _ …… B = rll— _ - of __ = saidése dn d — — — ae > Décontextualisation et détournement de visuels Cette technique consiste a extraire un visuel (image, vidéo, etc.) de son contexte originel, voire le détourner, pour |’utiliser dans le but de tromper les audiences. Ce procédé vise a exagérer ou fausser l'événement en cours afin de susciter dava"
+        }
+      ]
+    },
+    {
+      "qid": "Q022",
+      "question": "Quel destinataire est mis en évidence par un surlignage jaune dans la liste des destinataires ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 14.79361303887908,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 27,
+          "text_snippet": "> MANIPULATION DE L'INFORMATION: ensemble des actions hostiles visant à diffuser intentionnellement et de manière mas- sive des nouvelles falsifiées, inexactes (désinformation) ou en- core associées à de vraies informations pour les rendre crédibles, sorties de leur contexte ou partielles (malinformation). Notion surtout utilisée a l‘international "
+        },
+        {
+          "rank": 2,
+          "score": 14.634052287877061,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "text_snippet": "Les métriques affichées par les plateformes peuvent certes donner une idée générale de la visibilité d’un contenu, mais ces derniers n’en restent pas moins des indicateurs imparfaits notamment car : >ces indicateurs sont manipulables, et souvent manipulés dans le cadre des manoeuvres informationnelles étudiées par VIGINUM (nombre de vues YouTube ar"
+        },
+        {
+          "rank": 3,
+          "score": 13.894499653020278,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 5,
+          "text_snippet": "Installation militaires de sensibilité moindre (IMSM). Installations indispensables à la réalisation de la mission de défense abritant du personnel, des activités, des matériels ou des informations de valeur marquées par leur caractère substituable ou leur faible implication dans la réussite d’une opération. Installation nucléaire intéressant la di"
+        },
+        {
+          "rank": 4,
+          "score": 13.782639080768528,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "text_snippet": "9 9 Edito de Cédrick Lewandowski, président du CDSE La renommée, la confiance et I’image de marque sont au cœur des réussites économiques et commerciales de nos entreprises. La réputation est un bien immatériel qui, si elle est difficile à me- surer et à appréhender, engage cependant l’'image que l’entreprise porte dans la société et, par ricochet,"
+        },
+        {
+          "rank": 5,
+          "score": 13.765464854675852,
+          "doc_name": "20160527_np_cicde_108_lettre_gagner_la_guerre_gagner_la_paix_-_approche_retex.pdf",
+          "page": 7,
+          "text_snippet": "installations militaires (2015 dépôt de Miramas), ou celui encore d’une transformation allant plus | rapidement que la fiabilité (2011 à nos jours, système LOUVOIS notamment). Par ailleurs, le recours | de plus en plus systématique dans certains secteurs de compétence à l’externalisation (2013 à nos jours, une partie significative du soutien logist"
+        }
+      ]
+    },
+    {
+      "qid": "Q023",
+      "question": "Quelle version et quelle date sont indiquées sous le titre du document ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 11.847036259789348,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "text_snippet": "» a description de la politique de gestion des données (précisant pour chacun des themes suivants les modalités appliquées : stockage, utilisation, transmission et destruction éventuelle des données a la fin de la mission, le cas échéant) ; « la transmission d‘un exemple du rendu de la dégradation réalisée qui est destinée au client; ” la copie du "
+        },
+        {
+          "rank": 2,
+          "score": 10.811549512647762,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 5,
+          "text_snippet": "- Monsieur l’amiral, major général des armées - Monsieur le général de corps aérien, sous-chef « plans » de l’état-major des armées - Monsieur le vice-amiral d’escadre, sous-chef « opérations » de l’état-major des armées - Monsieur le général de corps d’armée, sous-chef « organisation » de l’état-major des armées - Monsieur le général de corps aéri"
+        },
+        {
+          "rank": 3,
+          "score": 10.228793482264706,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 7,
+          "text_snippet": "| 7 - dimensionnement des structures de commandement et de coordination dédiées spécifiquement | au soutien. | Il s’agit d’abord de bien évaluer l’ampleur du soutien, notamment le soutien logistique, qui devra étre consenti, pour le soutien des forces armées mais aussi pour celui qui pourrait être demandé au profit des autres acteurs. Certains doma"
+        },
+        {
+          "rank": 4,
+          "score": 10.179336670341506,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 5,
+          "text_snippet": "| | 2.3 Au sein du ministére de la Défense e La DIA-3.4.3.1(A) _ IESU(2008), amendée le 14 novembre 2013, décline les objectifs et les principes des armées retenus dans le concept d’intervention extérieure de secours d’urgence. Le cas des pandémies est couvert par cette doctrine et des missions génériques SANTE sont listées (p.80). Les premiers élé"
+        },
+        {
+          "rank": 5,
+          "score": 9.136700008388821,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 11,
+          "text_snippet": "8. Pland'actions ee E Transmettre un document de type feuille de route pour le SI EUREKA et un document descriptif pour SICLOP avec les 20Ps IGISES T3 2023 calendriers associés à la DC DIRISI (en passant par la DSI C2&lA). Inscrire au cahier des charges de SICLOP son interfaçage r1 kn CIEOS lg Beas avec DIADEME, COS! et GTP pour le traitement des B"
+        }
+      ]
+    },
+    {
+      "qid": "Q024",
+      "question": "Quel organisme est associé au logo en forme de bouclier contenant un réseau de points ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 12.924803623280846,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 3,
+          "text_snippet": "q f LOSIIC en chifes e SS osiic e 700 300 sites, dont 75% agents 2400 hors de I'ldF, dans , postes ISIS l'hexagone, en outre-mer et dans Une assistance 90 ambassades 1 500 joignable francaises utilisateurs au 24h/24, 7/7, Un réseau coeur sein du SGDSN 365 jours/an résilient affichant 100% de disponibilité 8 000 6 sur une année utilisateurs des syst"
+        },
+        {
+          "rank": 2,
+          "score": 12.040453229835492,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 23,
+          "text_snippet": "Lorsqu’un opérateur a regu un avis défavorable pour toute ou partie de sa demande de captation aérienne de la part du DPID, l’opérateur ne doit pas, en principe, a nouveau déposer une demande de captation aérienne similaire dans un délai de 6 mois a compter de la date de notification du refus de la demande de dérogation à l’opérateur. Cette interdi"
+        },
+        {
+          "rank": 3,
+          "score": 11.939073656721513,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 5,
+          "text_snippet": "Installation militaires de sensibilité moindre (IMSM). Installations indispensables à la réalisation de la mission de défense abritant du personnel, des activités, des matériels ou des informations de valeur marquées par leur caractère substituable ou leur faible implication dans la réussite d’une opération. Installation nucléaire intéressant la di"
+        },
+        {
+          "rank": 4,
+          "score": 11.736626264083924,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 26,
+          "text_snippet": "schéma récapitulatif de l’annexe Ill - La procédure pour les opérateurs de captation aérienne LA PROCÉDURE DE DEMANDE DE DÉROGATION DES OPÉRATEURS DE CAPTATION AERIENNE POUR LES ZICAD RELEVANT DE L'AUTORITÉ DU MINARM EN 6 ETAPES Remplir l'ensemble des champs du formulaire de demande d'autorisation dérogatoire à l'interdiction de captation aérienne "
+        },
+        {
+          "rank": 5,
+          "score": 11.67620327975097,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 17,
+          "text_snippet": "ANNEXE Ill - PROCEDURE POUR LES OPERATEURS DE CAPTATION AERIENNE 1. LA DEMANDE DE DEROGATION DE L/OPERATEUR DE CAPTATION AERIENNE 1.1. La sélection de la procédure administrative adéquate Tout demandeur de captation, d’enregistrement, de transmission, de conservation, d'utilisation ou de diffusion de données recueillies depuis un aéronef par un app"
+        }
+      ]
+    },
+    {
+      "qid": "Q025",
+      "question": "Quels sont les deux organismes dont les logos apparaissent en bas de l’image ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 11.597862771988016,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 22,
+          "text_snippet": "> Contacter VIGINUM en cas de besoin. Le service accompagne les entreprises françaises ciblées par les attaques informationnelles quireléveraient de l'ingérence numérique étrangère. Le service invite les entreprises a signaler les contenus malveillants par le canal de communication établi au préalable ou à l’adresse dédiée : viginum_signalement@sgd"
+        },
+        {
+          "rank": 2,
+          "score": 11.368833155239015,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        },
+        {
+          "rank": 3,
+          "score": 11.278390348127825,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "text_snippet": "9 9 Edito de Cédrick Lewandowski, président du CDSE La renommée, la confiance et I’image de marque sont au cœur des réussites économiques et commerciales de nos entreprises. La réputation est un bien immatériel qui, si elle est difficile à me- surer et à appréhender, engage cependant l’'image que l’entreprise porte dans la société et, par ricochet,"
+        },
+        {
+          "rank": 4,
+          "score": 11.274601679116774,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 4,
+          "text_snippet": "9 9 Edito de Marc-Antoine BRILLANT, chef du service VIGINUM Depuis 2021 et la création du service VIGINUM, les menaces de dés- tabilisation en ligne n’ont cessé de croître à la faveur d’un contexte international dégradé. Ukraine, Roumanie, Moldavie, Etats baltes, Allemagne, Australie, Canada, pays africains ou de l’Asie du Sud-Est et évidemment la "
+        },
+        {
+          "rank": 5,
+          "score": 10.575655147261681,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 23,
+          "text_snippet": "Lorsqu’un opérateur a regu un avis défavorable pour toute ou partie de sa demande de captation aérienne de la part du DPID, l’opérateur ne doit pas, en principe, a nouveau déposer une demande de captation aérienne similaire dans un délai de 6 mois a compter de la date de notification du refus de la demande de dérogation à l’opérateur. Cette interdi"
+        }
+      ]
+    },
+    {
+      "qid": "Q026",
+      "question": "Que se passe-t-il si l’opérateur ne complète pas son dossier de demande de dérogation ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 28.029024615744504,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "text_snippet": "» a description de la politique de gestion des données (précisant pour chacun des themes suivants les modalités appliquées : stockage, utilisation, transmission et destruction éventuelle des données a la fin de la mission, le cas échéant) ; « la transmission d‘un exemple du rendu de la dégradation réalisée qui est destinée au client; ” la copie du "
+        },
+        {
+          "rank": 2,
+          "score": 26.084492868406866,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 17,
+          "text_snippet": "ANNEXE Ill - PROCEDURE POUR LES OPERATEURS DE CAPTATION AERIENNE 1. LA DEMANDE DE DEROGATION DE L/OPERATEUR DE CAPTATION AERIENNE 1.1. La sélection de la procédure administrative adéquate Tout demandeur de captation, d’enregistrement, de transmission, de conservation, d'utilisation ou de diffusion de données recueillies depuis un aéronef par un app"
+        },
+        {
+          "rank": 3,
+          "score": 25.530067656127482,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 23,
+          "text_snippet": "Lorsqu’un opérateur a regu un avis défavorable pour toute ou partie de sa demande de captation aérienne de la part du DPID, l’opérateur ne doit pas, en principe, a nouveau déposer une demande de captation aérienne similaire dans un délai de 6 mois a compter de la date de notification du refus de la demande de dérogation à l’opérateur. Cette interdi"
+        },
+        {
+          "rank": 4,
+          "score": 19.48463725381314,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 18,
+          "text_snippet": "Par ailleurs, si le survol envisagé est à basse hauteur, l’opérateur devra se rapprocher des préfectures du lieu survolé (pour un survol au-dessus des zones a forte densité, des villes ou autres agglomérations, ou de rassemblements de personnes en plein air) ou de la direction de la sécurité de ‘aviation civile interrégionale de la direction généra"
+        },
+        {
+          "rank": 5,
+          "score": 17.483823735688887,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 26,
+          "text_snippet": "schéma récapitulatif de l’annexe Ill - La procédure pour les opérateurs de captation aérienne LA PROCÉDURE DE DEMANDE DE DÉROGATION DES OPÉRATEURS DE CAPTATION AERIENNE POUR LES ZICAD RELEVANT DE L'AUTORITÉ DU MINARM EN 6 ETAPES Remplir l'ensemble des champs du formulaire de demande d'autorisation dérogatoire à l'interdiction de captation aérienne "
+        }
+      ]
+    },
+    {
+      "qid": "Q027",
+      "question": "Quels deux noms d’organisations apparaissent sous la photo du bateau ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 7.103851187131941,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "text_snippet": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site internet de ?ASN. L’ASN et PASND se consultent sur les réponses apportées par l’exploitant pour remédier aux écarts constatés et pour prendre en com"
+        },
+        {
+          "rank": 2,
+          "score": 6.791962588507406,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 8,
+          "text_snippet": "ANNEXE Il - FORMULAIRE DE DEMANDE D'AUTORISATION Formulaire de demande d’autorisation dérogatoire à l’interdiction de captation aérienne de données dans certaines zones (ZICAD) : dans le cadre de I’autorisation mentionnée a l'article L. 6224-1 du code des transports et aux articles R. 133-6 et suivants du code de l’aviation civile Le formulaire de "
+        },
+        {
+          "rank": 3,
+          "score": 6.38345226011445,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 5,
+          "text_snippet": "- Monsieur l’amiral, major général des armées - Monsieur le général de corps aérien, sous-chef « plans » de l’état-major des armées - Monsieur le vice-amiral d’escadre, sous-chef « opérations » de l’état-major des armées - Monsieur le général de corps d’armée, sous-chef « organisation » de l’état-major des armées - Monsieur le général de corps aéri"
+        },
+        {
+          "rank": 4,
+          "score": 6.0846595717760525,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 18,
+          "text_snippet": "Par ailleurs, si le survol envisagé est à basse hauteur, l’opérateur devra se rapprocher des préfectures du lieu survolé (pour un survol au-dessus des zones a forte densité, des villes ou autres agglomérations, ou de rassemblements de personnes en plein air) ou de la direction de la sécurité de ‘aviation civile interrégionale de la direction généra"
+        },
+        {
+          "rank": 5,
+          "score": 6.077366754257225,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 26,
+          "text_snippet": "schéma récapitulatif de l’annexe Ill - La procédure pour les opérateurs de captation aérienne LA PROCÉDURE DE DEMANDE DE DÉROGATION DES OPÉRATEURS DE CAPTATION AERIENNE POUR LES ZICAD RELEVANT DE L'AUTORITÉ DU MINARM EN 6 ETAPES Remplir l'ensemble des champs du formulaire de demande d'autorisation dérogatoire à l'interdiction de captation aérienne "
+        }
+      ]
+    },
+    {
+      "qid": "Q028",
+      "question": "Quel intitulé apparaît dans l’encadré bleu réservé à l’emplacement de la photo en haut à droite ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 9.393927732157897,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 1,
+          "text_snippet": "’ | | berté » Egalité + Fraternité REPUBLIQUE FRANGAISE DGSikGsTERE DES ARMEES 15 Nyy 201 N° d'enreg' one aoe [| —}- —— DPID Papp — +} J Paris, le 10 novembre 2017 e e —— N° 286/ARM/DPID Direction de la Protection [sos—-—} — 8 des Installations, moyens a a ee ee et activités de la Défense. ef} Département « Moyens de protection » CO De ie eg Affair"
+        },
+        {
+          "rank": 2,
+          "score": 8.90373127966223,
+          "doc_name": "bem-48.pdf",
+          "page": 79,
+          "text_snippet": "François GrumelJucquignon La Yougoslavie dans la stratégie française de l’Entre-deux- Guerres (1918-1935) w -'_ ] + i] ps * 4 p JJ' ; | A 4n Nast eur one analyar grad exchanstive des archives françiises, cet Î i œuvrape péoige du Cocurdes relations hiéatérales franoc-roupiehres ë, et dlls sur tes bes plans Céliplomatique, géépolitique, politiquee. "
+        },
+        {
+          "rank": 3,
+          "score": 8.259840732212826,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 23,
+          "text_snippet": "Lorsqu’un opérateur a regu un avis défavorable pour toute ou partie de sa demande de captation aérienne de la part du DPID, l’opérateur ne doit pas, en principe, a nouveau déposer une demande de captation aérienne similaire dans un délai de 6 mois a compter de la date de notification du refus de la demande de dérogation à l’opérateur. Cette interdi"
+        },
+        {
+          "rank": 4,
+          "score": 7.634389479453931,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 3,
+          "text_snippet": "ACRONYMES, ABRÉVIATIONS ET SIGLES CEA Commissariat à l'énergie atomique et aux énergies alternatives CEA/DAM Commissariat a l'énergie atomique et aux énergies alternatives/ Direction des applications militaires CDAOA = Commandement de la défense aérienne et des opérations aériennes CGIM Contrôle gouvernemental de l'intégrité des moyens de la dissua"
+        },
+        {
+          "rank": 5,
+          "score": 7.631467799338347,
+          "doc_name": "20160527_np_cicde_108_lettre_gagner_la_guerre_gagner_la_paix_-_approche_retex.pdf",
+          "page": 7,
+          "text_snippet": "installations militaires (2015 dépôt de Miramas), ou celui encore d’une transformation allant plus | rapidement que la fiabilité (2011 à nos jours, système LOUVOIS notamment). Par ailleurs, le recours | de plus en plus systématique dans certains secteurs de compétence à l’externalisation (2013 à nos jours, une partie significative du soutien logist"
+        }
+      ]
+    },
+    {
+      "qid": "Q029",
+      "question": "Quelle période est indiquée pour la feuille de route stratégique de l’OSIIC ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 28.623775507489594,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 1,
+          "text_snippet": "REPUBLIQUE a Q FRANCAISE 0) fa —-_ 4 OS Cor DES SYSTEMES D'INFORMATION INTERMINISTERIELS CLASSIFIES FEUILLE DE ROUTE STRATEGIQUE 2024-2027"
+        },
+        {
+          "rank": 2,
+          "score": 22.284614533886778,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 4,
+          "text_snippet": "Une ambition... Une strategie numérique pour soutenir la decision et l'action interministerielles dans un contexte de competition stratégique ..déclinée en 4 axes Conforter sonrôle d'opérateur interministériel de systemes et services numériques de trés haute sécurité au profit des politiques de protection des intéréts fondamentaux de la Nation, fac"
+        },
+        {
+          "rank": 3,
+          "score": 20.10406429837516,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 3,
+          "text_snippet": "q f LOSIIC en chifes e SS osiic e 700 300 sites, dont 75% agents 2400 hors de I'ldF, dans , postes ISIS l'hexagone, en outre-mer et dans Une assistance 90 ambassades 1 500 joignable francaises utilisateurs au 24h/24, 7/7, Un réseau coeur sein du SGDSN 365 jours/an résilient affichant 100% de disponibilité 8 000 6 sur une année utilisateurs des syst"
+        },
+        {
+          "rank": 4,
+          "score": 12.587143864014315,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "text_snippet": "9 9 Edito de Cédrick Lewandowski, président du CDSE La renommée, la confiance et I’image de marque sont au cœur des réussites économiques et commerciales de nos entreprises. La réputation est un bien immatériel qui, si elle est difficile à me- surer et à appréhender, engage cependant l’'image que l’entreprise porte dans la société et, par ricochet,"
+        },
+        {
+          "rank": 5,
+          "score": 11.502755448776595,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 11,
+          "text_snippet": "8. Pland'actions ee E Transmettre un document de type feuille de route pour le SI EUREKA et un document descriptif pour SICLOP avec les 20Ps IGISES T3 2023 calendriers associés à la DC DIRISI (en passant par la DSI C2&lA). Inscrire au cahier des charges de SICLOP son interfaçage r1 kn CIEOS lg Beas avec DIADEME, COS! et GTP pour le traitement des B"
+        }
+      ]
+    },
+    {
+      "qid": "Q030",
+      "question": "Quels sont les trois types de missions attribués au soutien logistique dans la section « Divers » ?",
+      "hits": [
+        {
+          "rank": 1,
+          "score": 24.739482583382248,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "text_snippet": "| 3.2 Planification et conduite e L’architecture et l’équipement SIC doivent être adaptés à l’architecture C2 et doivent impérativement permettre les interfaces avec les différents réseaux impliqués (autres ministéres). e La participation d’officiers du SSA aux travaux de planification opérationnelle est indispensable. De plus, des experts du SSA s"
+        },
+        {
+          "rank": 2,
+          "score": 19.035444453251298,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 7,
+          "text_snippet": "| 7 - dimensionnement des structures de commandement et de coordination dédiées spécifiquement | au soutien. | Il s’agit d’abord de bien évaluer l’ampleur du soutien, notamment le soutien logistique, qui devra étre consenti, pour le soutien des forces armées mais aussi pour celui qui pourrait être demandé au profit des autres acteurs. Certains doma"
+        },
+        {
+          "rank": 3,
+          "score": 14.725579714845345,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 5,
+          "text_snippet": "| | 2.3 Au sein du ministére de la Défense e La DIA-3.4.3.1(A) _ IESU(2008), amendée le 14 novembre 2013, décline les objectifs et les principes des armées retenus dans le concept d’intervention extérieure de secours d’urgence. Le cas des pandémies est couvert par cette doctrine et des missions génériques SANTE sont listées (p.80). Les premiers élé"
+        },
+        {
+          "rank": 4,
+          "score": 12.90164691251625,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 4,
+          "text_snippet": "4 Ils font appel en premier ressort aux forces de sécurité civile et de sécurité intérieure. Dans de nombreux cas, l’ampleur de l’évènement et les exigences de sécurité les conduisent à solliciter le concours des armées. Ainsi, organisation de tels événements est un exercice complexe, qui nécessite une planification bien en amont et la coordination"
+        },
+        {
+          "rank": 5,
+          "score": 11.856500554080917,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 26,
+          "text_snippet": "schéma récapitulatif de l’annexe Ill - La procédure pour les opérateurs de captation aérienne LA PROCÉDURE DE DEMANDE DE DÉROGATION DES OPÉRATEURS DE CAPTATION AERIENNE POUR LES ZICAD RELEVANT DE L'AUTORITÉ DU MINARM EN 6 ETAPES Remplir l'ensemble des champs du formulaire de demande d'autorisation dérogatoire à l'interdiction de captation aérienne "
+        }
+      ]
+    }
+  ]
+}

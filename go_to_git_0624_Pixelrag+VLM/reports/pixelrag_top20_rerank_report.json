@@ -1,0 +1,1380 @@
+{
+  "topk": {
+    "run": "E:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\runs\\pixelrag_top20.json",
+    "system": "pixelrag",
+    "total": 30,
+    "metrics": {
+      "hit@5": 0.7333333333333333,
+      "count@5": 22,
+      "hit@10": 0.8,
+      "count@10": 24,
+      "hit@20": 0.8333333333333334,
+      "count@20": 25,
+      "mrr@20": 0.6001587301587301
+    },
+    "rows": [
+      {
+        "qid": "Q001",
+        "candidate_qid": "VIS-001",
+        "category": "text",
+        "question": "Quel type d’appareil militaire est visible sur la piste ?",
+        "target_pages": [
+          {
+            "doc_name": "fiche technique a400m.pdf",
+            "page": 12
+          }
+        ],
+        "rank": 2,
+        "top_hit": {
+          "score": 0.5634297132492065,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0005.png",
+          "article_id": 162,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q002",
+        "candidate_qid": "VIS-002",
+        "category": "text",
+        "question": "Combien de sites, parmi les 339 répondants, sont indiqués comme étant uniquement informatifs ou pédagogiques ?",
+        "target_pages": [
+          {
+            "doc_name": "chiffres clés données 2022_tdm_v0_260224.pdf",
+            "page": 10
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.4469600319862366,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 10,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0010.png",
+          "article_id": 143,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q003",
+        "candidate_qid": "VIS-003",
+        "category": "scanned",
+        "question": "Que voit-on reflété sur le sol mouillé au premier plan ?",
+        "target_pages": [
+          {
+            "doc_name": "colsbleus_3126_pdfweb_page.pdf",
+            "page": 46
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5693681240081787,
+          "doc_name": "COLSbleus_3126_PDFweb_PAGE.pdf",
+          "page": 46,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\COLSbleus_3126_PDFweb_PAGE__p0046.png",
+          "article_id": 150,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q004",
+        "candidate_qid": "VIS-004",
+        "category": "scanned",
+        "question": "Quel organisme est indiqué comme destinataire de la copie ?",
+        "target_pages": [
+          {
+            "doc_name": "20190909_np_emat-np_le508717-synthese-annuelle-du-retex-cycle-2018-2019-2.pdf",
+            "page": 2
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.6098111867904663,
+          "doc_name": "20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid__p0002.png",
+          "article_id": 30,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q005",
+        "candidate_qid": "VIS-005",
+        "category": "text",
+        "question": "Quels sont les cinq domaines d’activité présentés dans les vignettes en bas de l’affiche ?",
+        "target_pages": [
+          {
+            "doc_name": "caia-125-bd-ok.pdf",
+            "page": 103
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.4439542591571808,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0011.png",
+          "article_id": 120,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q006",
+        "candidate_qid": "VIS-006",
+        "category": "scanned",
+        "question": "Quelle fonction est indiquée sous le nom du vice-amiral Jean-Philippe Chaineau dans le bloc de signature ?",
+        "target_pages": [
+          {
+            "doc_name": "20181019_np_dpid_note-278-vidéoprotection-sur-la-voie-publique.pdf",
+            "page": 2
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5352339744567871,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique__p0002.png",
+          "article_id": 47,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q007",
+        "candidate_qid": "VIS-007",
+        "category": "text",
+        "question": "Quelle inscription est visible sur le flanc du drone en vol ?",
+        "target_pages": [
+          {
+            "doc_name": "fiche technique reaper.pdf",
+            "page": 9
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5484522581100464,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 9,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0009.png",
+          "article_id": 163,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q008",
+        "candidate_qid": "VIS-008",
+        "category": "text",
+        "question": "Quel nom de véhicule est indiqué par la légende placée près du robot chenillé ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n3 - mai juin 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.40781736373901367,
+          "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n3 - Mai Juin 2024__p0016.png",
+          "article_id": 182,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q009",
+        "candidate_qid": "VIS-009",
+        "category": "text",
+        "question": "Quelle année est affichée en grands chiffres près du coin supérieur droit ?",
+        "target_pages": [
+          {
+            "doc_name": "20221012_np_emat_grat-2022.pdf",
+            "page": 1
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.37300336360931396,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 25,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0025.png",
+          "article_id": 134,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q010",
+        "candidate_qid": "VIS-010",
+        "category": "scanned",
+        "question": "Quelles sont les trois conditions indiquées comme nécessaires à la réussite de la participation des armées à la sécurité des grands événements ?",
+        "target_pages": [
+          {
+            "doc_name": "20160108_np_cicde_004-lettre-grands-evenements-2.pdf",
+            "page": 3
+          }
+        ],
+        "rank": 14,
+        "top_hit": {
+          "score": 0.4049772024154663,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0004.png",
+          "article_id": 19,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q011",
+        "candidate_qid": "VIS-011",
+        "category": "scanned",
+        "question": "Quel objet est tenu par les doigts au-dessus d’un assemblage incomplet ?",
+        "target_pages": [
+          {
+            "doc_name": "pec_livre-blanc-innovation_2025.pdf",
+            "page": 33
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5136317014694214,
+          "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+          "page": 33,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\PEC_LIVRE-BLANC-INNOVATION_2025__p0033.png",
+          "article_id": 188,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q012",
+        "candidate_qid": "VIS-012",
+        "category": "table",
+        "question": "Quels sont les quatre grands types de formation indiqués en en-tête du tableau ?",
+        "target_pages": [
+          {
+            "doc_name": "etudepecapec_vfinale.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.49117928743362427,
+          "doc_name": "EtudePECAPEC_VFinale.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\EtudePECAPEC_VFinale__p0016.png",
+          "article_id": 153,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q013",
+        "candidate_qid": "VIS-013",
+        "category": "text",
+        "question": "Quelle inscription apparaît en grandes lettres sur le fuselage de l’avion ?",
+        "target_pages": [
+          {
+            "doc_name": "fiche technique a330.pdf",
+            "page": 5
+          }
+        ],
+        "rank": 2,
+        "top_hit": {
+          "score": 0.46158891916275024,
+          "doc_name": "ObsDrones - Bulletin de veille n6 - novembre-décembre 2024.pdf",
+          "page": 17,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n6 - novembre-décembre 2024__p0017.png",
+          "article_id": 184,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q014",
+        "candidate_qid": "VIS-014",
+        "category": "text",
+        "question": "Quelle version du rapport technique est indiquée sous le titre principal ?",
+        "target_pages": [
+          {
+            "doc_name": "20250612_tlp-clear_viginum_fcdo_eeas_rapport_technique_african_initiative_fr.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 2,
+        "top_hit": {
+          "score": 0.5967011451721191,
+          "doc_name": "20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516__p0001.png",
+          "article_id": 96,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q015",
+        "candidate_qid": "VIS-015",
+        "category": "text",
+        "question": "Dans la comparaison visuelle des drones de combat, quel modèle est associé au constructeur Piaggio ?",
+        "target_pages": [
+          {
+            "doc_name": "unmanned_vehicles_size.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5166366100311279,
+          "doc_name": "unmanned_vehicles_size.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\unmanned_vehicles_size__p0001.png",
+          "article_id": 194,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q016",
+        "candidate_qid": "VIS-016",
+        "category": "text",
+        "question": "Quel numéro est inscrit à la fois sur la coque et sur la voile du drone marin orange ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n1 - janvier février 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.522366464138031,
+          "doc_name": "ObsDrones - Bulletin de veille n1 - Janvier Février 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n1 - Janvier Février 2024__p0016.png",
+          "article_id": 180,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q017",
+        "candidate_qid": "VIS-017",
+        "category": "text",
+        "question": "À quelle date l’Albatros a-t-il effectué son premier vol réussi ?",
+        "target_pages": [
+          {
+            "doc_name": "communiqué_a_la dga commande cinq avions de surveillance albatros à dassault aviation.pdf",
+            "page": 2
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.6209861636161804,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation__p0002.png",
+          "article_id": 152,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q018",
+        "candidate_qid": "VIS-018",
+        "category": "text",
+        "question": "Quel nom d’auteur apparaît en grandes lettres jaunes sous le sous-titre ?",
+        "target_pages": [
+          {
+            "doc_name": "bem-48.pdf",
+            "page": 21
+          }
+        ],
+        "rank": 10,
+        "top_hit": {
+          "score": 0.38056227564811707,
+          "doc_name": "bem-48.pdf",
+          "page": 73,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0073.png",
+          "article_id": 106,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q019",
+        "candidate_qid": "VIS-019",
+        "category": "text",
+        "question": "Pourquoi les métriques de visibilité des plateformes sont-elles présentées comme des indicateurs imparfaits ?",
+        "target_pages": [
+          {
+            "doc_name": "cdse_viginum_guide_sensibilisation_entreprises_fr_12-25.pdf",
+            "page": 23
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5214882493019104,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0023.png",
+          "article_id": 132,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q020",
+        "candidate_qid": "VIS-020",
+        "category": "text",
+        "question": "Quels sont les deux noms de logos visibles en bas de l’image ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n4 - juillet aout 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 4,
+        "top_hit": {
+          "score": 0.45541855692863464,
+          "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+          "page": 7,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Stratégie nationale de lutte contre les manipulations de l'information_FR__p0007.png",
+          "article_id": 192,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q021",
+        "candidate_qid": "VIS-021",
+        "category": "text",
+        "question": "Quelle date est indiquée en bas à droite du visuel ?",
+        "target_pages": [
+          {
+            "doc_name": "rnce_19_juillet_2023.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 3,
+        "top_hit": {
+          "score": 0.414215624332428,
+          "doc_name": "20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2__p0002.png",
+          "article_id": 49,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q022",
+        "candidate_qid": "VIS-022",
+        "category": "scanned",
+        "question": "Quel destinataire est mis en évidence par un surlignage jaune dans la liste des destinataires ?",
+        "target_pages": [
+          {
+            "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+            "page": 2
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5402021408081055,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.png",
+          "article_id": 1,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q023",
+        "candidate_qid": "VIS-023",
+        "category": "text",
+        "question": "Quelle version et quelle date sont indiquées sous le titre du document ?",
+        "target_pages": [
+          {
+            "doc_name": "20260122_np_tlp-clear_sgdsn_viginum_moi.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.38857555389404297,
+          "doc_name": "20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI__p0001.png",
+          "article_id": 98,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q024",
+        "candidate_qid": "VIS-024",
+        "category": "text",
+        "question": "Quel organisme est associé au logo en forme de bouclier contenant un réseau de points ?",
+        "target_pages": [
+          {
+            "doc_name": "20250207_np_sgdsn_viginum_rapport menace informationnelle ia_vf.pdf",
+            "page": 1
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.39393115043640137,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 28,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0028.png",
+          "article_id": 137,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q025",
+        "candidate_qid": "VIS-025",
+        "category": "text",
+        "question": "Quels sont les deux organismes dont les logos apparaissent en bas de l’image ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin-de-veille-n05-septembre-octobre.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 3,
+        "top_hit": {
+          "score": 0.47414281964302063,
+          "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - bulletin de veille n4 - Juillet Aout 2024__p0016.png",
+          "article_id": 183,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q026",
+        "candidate_qid": "VIS-026",
+        "category": "scanned",
+        "question": "Que se passe-t-il si l’opérateur ne complète pas son dossier de demande de dérogation ?",
+        "target_pages": [
+          {
+            "doc_name": "20230125_np_dpid-dame_extrait-memento-zicad.pdf",
+            "page": 20
+          }
+        ],
+        "rank": 6,
+        "top_hit": {
+          "score": 0.44438254833221436,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0019.png",
+          "article_id": 71,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q027",
+        "candidate_qid": "VIS-027",
+        "category": "text",
+        "question": "Quels deux noms d’organisations apparaissent sous la photo du bateau ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n2 - mars avril 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 4,
+        "top_hit": {
+          "score": 0.45012903213500977,
+          "doc_name": "bem-48.pdf",
+          "page": 21,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0021.png",
+          "article_id": 102,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q028",
+        "candidate_qid": "VIS-028",
+        "category": "text",
+        "question": "Quel intitulé apparaît dans l’encadré bleu réservé à l’emplacement de la photo en haut à droite ?",
+        "target_pages": [
+          {
+            "doc_name": "2011113_igi 1300_protection du secret de la defense nationale_np.pdf",
+            "page": 145
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.4019131660461426,
+          "doc_name": "bem-48.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0005.png",
+          "article_id": 101,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q029",
+        "candidate_qid": "VIS-029",
+        "category": "text",
+        "question": "Quelle période est indiquée pour la feuille de route stratégique de l’OSIIC ?",
+        "target_pages": [
+          {
+            "doc_name": "feuille de route stratégique osiic 2024-2027 np v1.0.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.7163945436477661,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Feuille de route stratégique OSIIC 2024-2027 NP v1.0__p0001.png",
+          "article_id": 154,
+          "rank": 1
+        }
+      },
+      {
+        "qid": "Q030",
+        "candidate_qid": "VIS-030",
+        "category": "scanned",
+        "question": "Quels sont les trois types de missions attribués au soutien logistique dans la section « Divers » ?",
+        "target_pages": [
+          {
+            "doc_name": "20160311_np_cicde_057_lettre_retex_lutte_prevention_contre_grands_fleaux.pdf",
+            "page": 6
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.5092085003852844,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0006.png",
+          "article_id": 28,
+          "rank": 1
+        }
+      }
+    ]
+  },
+  "reranked": {
+    "run": "E:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\runs\\reranked_pixelrag.json",
+    "system": "pixelrag_top20_local_text_rerank",
+    "total": 30,
+    "metrics": {
+      "hit@5": 0.7333333333333333,
+      "count@5": 22,
+      "mrr@5": 0.586111111111111
+    },
+    "rows": [
+      {
+        "qid": "Q001",
+        "candidate_qid": "VIS-001",
+        "category": "text",
+        "question": "Quel type d’appareil militaire est visible sur la piste ?",
+        "target_pages": [
+          {
+            "doc_name": "fiche technique a400m.pdf",
+            "page": 12
+          }
+        ],
+        "rank": 2,
+        "top_hit": {
+          "score": 0.75,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0005.png",
+          "article_id": 162,
+          "rank": 1,
+          "pixelrag_score": 0.5634297132492065,
+          "local_text_score": 0.0,
+          "rerank_score": 0.75
+        }
+      },
+      {
+        "qid": "Q002",
+        "candidate_qid": "VIS-002",
+        "category": "text",
+        "question": "Combien de sites, parmi les 339 répondants, sont indiqués comme étant uniquement informatifs ou pédagogiques ?",
+        "target_pages": [
+          {
+            "doc_name": "chiffres clés données 2022_tdm_v0_260224.pdf",
+            "page": 10
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.8365139054723355,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 10,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0010.png",
+          "article_id": 143,
+          "rank": 1,
+          "pixelrag_score": 0.4469600319862366,
+          "local_text_score": 1.0381668656680259,
+          "rerank_score": 0.8365139054723355
+        }
+      },
+      {
+        "qid": "Q003",
+        "candidate_qid": "VIS-003",
+        "category": "scanned",
+        "question": "Que voit-on reflété sur le sol mouillé au premier plan ?",
+        "target_pages": [
+          {
+            "doc_name": "colsbleus_3126_pdfweb_page.pdf",
+            "page": 46
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.75,
+          "doc_name": "COLSbleus_3126_PDFweb_PAGE.pdf",
+          "page": 46,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\COLSbleus_3126_PDFweb_PAGE__p0046.png",
+          "article_id": 150,
+          "rank": 1,
+          "pixelrag_score": 0.5693681240081787,
+          "local_text_score": 0.0,
+          "rerank_score": 0.75
+        }
+      },
+      {
+        "qid": "Q004",
+        "candidate_qid": "VIS-004",
+        "category": "scanned",
+        "question": "Quel organisme est indiqué comme destinataire de la copie ?",
+        "target_pages": [
+          {
+            "doc_name": "20190909_np_emat-np_le508717-synthese-annuelle-du-retex-cycle-2018-2019-2.pdf",
+            "page": 2
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.75,
+          "doc_name": "20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid__p0002.png",
+          "article_id": 30,
+          "rank": 1,
+          "pixelrag_score": 0.6098111867904663,
+          "local_text_score": 0.0,
+          "rerank_score": 0.75
+        }
+      },
+      {
+        "qid": "Q005",
+        "candidate_qid": "VIS-005",
+        "category": "text",
+        "question": "Quels sont les cinq domaines d’activité présentés dans les vignettes en bas de l’affiche ?",
+        "target_pages": [
+          {
+            "doc_name": "caia-125-bd-ok.pdf",
+            "page": 103
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.8563993337977049,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0011.png",
+          "article_id": 120,
+          "rank": 1,
+          "pixelrag_score": 0.4439542591571808,
+          "local_text_score": 1.2767920055724595,
+          "rerank_score": 0.8563993337977049
+        }
+      },
+      {
+        "qid": "Q006",
+        "candidate_qid": "VIS-006",
+        "category": "scanned",
+        "question": "Quelle fonction est indiquée sous le nom du vice-amiral Jean-Philippe Chaineau dans le bloc de signature ?",
+        "target_pages": [
+          {
+            "doc_name": "20181019_np_dpid_note-278-vidéoprotection-sur-la-voie-publique.pdf",
+            "page": 2
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.8063798788442035,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique__p0002.png",
+          "article_id": 47,
+          "rank": 1,
+          "pixelrag_score": 0.5352339744567871,
+          "local_text_score": 0.6765585461304415,
+          "rerank_score": 0.8063798788442035
+        }
+      },
+      {
+        "qid": "Q007",
+        "candidate_qid": "VIS-007",
+        "category": "text",
+        "question": "Quelle inscription est visible sur le flanc du drone en vol ?",
+        "target_pages": [
+          {
+            "doc_name": "fiche technique reaper.pdf",
+            "page": 9
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.7575757575757576,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 9,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0009.png",
+          "article_id": 163,
+          "rank": 1,
+          "pixelrag_score": 0.5484522581100464,
+          "local_text_score": 0.09090909090909091,
+          "rerank_score": 0.7575757575757576
+        }
+      },
+      {
+        "qid": "Q008",
+        "candidate_qid": "VIS-008",
+        "category": "text",
+        "question": "Quel nom de véhicule est indiqué par la légende placée près du robot chenillé ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n3 - mai juin 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.7600782570271425,
+          "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n3 - Mai Juin 2024__p0016.png",
+          "article_id": 182,
+          "rank": 1,
+          "pixelrag_score": 0.40781736373901367,
+          "local_text_score": 0.12093908432571039,
+          "rerank_score": 0.7600782570271425
+        }
+      },
+      {
+        "qid": "Q009",
+        "candidate_qid": "VIS-009",
+        "category": "text",
+        "question": "Quelle année est affichée en grands chiffres près du coin supérieur droit ?",
+        "target_pages": [
+          {
+            "doc_name": "20221012_np_emat_grat-2022.pdf",
+            "page": 1
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.7569444444444444,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 25,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0025.png",
+          "article_id": 134,
+          "rank": 1,
+          "pixelrag_score": 0.37300336360931396,
+          "local_text_score": 0.08333333333333333,
+          "rerank_score": 0.7569444444444444
+        }
+      },
+      {
+        "qid": "Q010",
+        "candidate_qid": "VIS-010",
+        "category": "scanned",
+        "question": "Quelles sont les trois conditions indiquées comme nécessaires à la réussite de la participation des armées à la sécurité des grands événements ?",
+        "target_pages": [
+          {
+            "doc_name": "20160108_np_cicde_004-lettre-grands-evenements-2.pdf",
+            "page": 3
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.9239925656808936,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0004.png",
+          "article_id": 19,
+          "rank": 1,
+          "pixelrag_score": 0.4049772024154663,
+          "local_text_score": 2.0879107881707233,
+          "rerank_score": 0.9239925656808936
+        }
+      },
+      {
+        "qid": "Q011",
+        "candidate_qid": "VIS-011",
+        "category": "scanned",
+        "question": "Quel objet est tenu par les doigts au-dessus d’un assemblage incomplet ?",
+        "target_pages": [
+          {
+            "doc_name": "pec_livre-blanc-innovation_2025.pdf",
+            "page": 33
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.75,
+          "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+          "page": 33,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\PEC_LIVRE-BLANC-INNOVATION_2025__p0033.png",
+          "article_id": 188,
+          "rank": 1,
+          "pixelrag_score": 0.5136317014694214,
+          "local_text_score": 0.0,
+          "rerank_score": 0.75
+        }
+      },
+      {
+        "qid": "Q012",
+        "candidate_qid": "VIS-012",
+        "category": "table",
+        "question": "Quels sont les quatre grands types de formation indiqués en en-tête du tableau ?",
+        "target_pages": [
+          {
+            "doc_name": "etudepecapec_vfinale.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.7701565140542851,
+          "doc_name": "EtudePECAPEC_VFinale.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\EtudePECAPEC_VFinale__p0016.png",
+          "article_id": 153,
+          "rank": 1,
+          "pixelrag_score": 0.49117928743362427,
+          "local_text_score": 0.24187816865142078,
+          "rerank_score": 0.7701565140542851
+        }
+      },
+      {
+        "qid": "Q013",
+        "candidate_qid": "VIS-013",
+        "category": "text",
+        "question": "Quelle inscription apparaît en grandes lettres sur le fuselage de l’avion ?",
+        "target_pages": [
+          {
+            "doc_name": "fiche technique a330.pdf",
+            "page": 5
+          }
+        ],
+        "rank": 2,
+        "top_hit": {
+          "score": 0.7575757575757576,
+          "doc_name": "ObsDrones - Bulletin de veille n6 - novembre-décembre 2024.pdf",
+          "page": 17,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n6 - novembre-décembre 2024__p0017.png",
+          "article_id": 184,
+          "rank": 1,
+          "pixelrag_score": 0.46158891916275024,
+          "local_text_score": 0.09090909090909091,
+          "rerank_score": 0.7575757575757576
+        }
+      },
+      {
+        "qid": "Q014",
+        "candidate_qid": "VIS-014",
+        "category": "text",
+        "question": "Quelle version du rapport technique est indiquée sous le titre principal ?",
+        "target_pages": [
+          {
+            "doc_name": "20250612_tlp-clear_viginum_fcdo_eeas_rapport_technique_african_initiative_fr.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 2,
+        "top_hit": {
+          "score": 0.7908052603115143,
+          "doc_name": "20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516__p0001.png",
+          "article_id": 96,
+          "rank": 1,
+          "pixelrag_score": 0.5967011451721191,
+          "local_text_score": 0.4896631237381719,
+          "rerank_score": 0.7908052603115143
+        }
+      },
+      {
+        "qid": "Q015",
+        "candidate_qid": "VIS-015",
+        "category": "text",
+        "question": "Dans la comparaison visuelle des drones de combat, quel modèle est associé au constructeur Piaggio ?",
+        "target_pages": [
+          {
+            "doc_name": "unmanned_vehicles_size.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.7555555555555555,
+          "doc_name": "unmanned_vehicles_size.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\unmanned_vehicles_size__p0001.png",
+          "article_id": 194,
+          "rank": 1,
+          "pixelrag_score": 0.5166366100311279,
+          "local_text_score": 0.06666666666666667,
+          "rerank_score": 0.7555555555555555
+        }
+      },
+      {
+        "qid": "Q016",
+        "candidate_qid": "VIS-016",
+        "category": "text",
+        "question": "Quel numéro est inscrit à la fois sur la coque et sur la voile du drone marin orange ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n1 - janvier février 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.75,
+          "doc_name": "ObsDrones - Bulletin de veille n1 - Janvier Février 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n1 - Janvier Février 2024__p0016.png",
+          "article_id": 180,
+          "rank": 1,
+          "pixelrag_score": 0.522366464138031,
+          "local_text_score": 0.0,
+          "rerank_score": 0.75
+        }
+      },
+      {
+        "qid": "Q017",
+        "candidate_qid": "VIS-017",
+        "category": "text",
+        "question": "À quelle date l’Albatros a-t-il effectué son premier vol réussi ?",
+        "target_pages": [
+          {
+            "doc_name": "communiqué_a_la dga commande cinq avions de surveillance albatros à dassault aviation.pdf",
+            "page": 2
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.8268133043148549,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation__p0002.png",
+          "article_id": 152,
+          "rank": 1,
+          "pixelrag_score": 0.6209861636161804,
+          "local_text_score": 0.9217596517782588,
+          "rerank_score": 0.8268133043148549
+        }
+      },
+      {
+        "qid": "Q018",
+        "candidate_qid": "VIS-018",
+        "category": "text",
+        "question": "Quel nom d’auteur apparaît en grandes lettres jaunes sous le sous-titre ?",
+        "target_pages": [
+          {
+            "doc_name": "bem-48.pdf",
+            "page": 21
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.797849803874279,
+          "doc_name": "bem-48.pdf",
+          "page": 73,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0073.png",
+          "article_id": 106,
+          "rank": 1,
+          "pixelrag_score": 0.38056227564811707,
+          "local_text_score": 0.5741976464913471,
+          "rerank_score": 0.797849803874279
+        }
+      },
+      {
+        "qid": "Q019",
+        "candidate_qid": "VIS-019",
+        "category": "text",
+        "question": "Pourquoi les métriques de visibilité des plateformes sont-elles présentées comme des indicateurs imparfaits ?",
+        "target_pages": [
+          {
+            "doc_name": "cdse_viginum_guide_sensibilisation_entreprises_fr_12-25.pdf",
+            "page": 23
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.8787751328567048,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0023.png",
+          "article_id": 132,
+          "rank": 1,
+          "pixelrag_score": 0.5214882493019104,
+          "local_text_score": 1.545301594280458,
+          "rerank_score": 0.8787751328567048
+        }
+      },
+      {
+        "qid": "Q020",
+        "candidate_qid": "VIS-020",
+        "category": "text",
+        "question": "Quels sont les deux noms de logos visibles en bas de l’image ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n4 - juillet aout 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 4,
+        "top_hit": {
+          "score": 0.780460377507777,
+          "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+          "page": 7,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Stratégie nationale de lutte contre les manipulations de l'information_FR__p0007.png",
+          "article_id": 192,
+          "rank": 1,
+          "pixelrag_score": 0.45541855692863464,
+          "local_text_score": 0.36552453009332425,
+          "rerank_score": 0.780460377507777
+        }
+      },
+      {
+        "qid": "Q021",
+        "candidate_qid": "VIS-021",
+        "category": "text",
+        "question": "Quelle date est indiquée en bas à droite du visuel ?",
+        "target_pages": [
+          {
+            "doc_name": "rnce_19_juillet_2023.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 4,
+        "top_hit": {
+          "score": 0.7592592592592593,
+          "doc_name": "20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2__p0002.png",
+          "article_id": 49,
+          "rank": 1,
+          "pixelrag_score": 0.414215624332428,
+          "local_text_score": 0.1111111111111111,
+          "rerank_score": 0.7592592592592593
+        }
+      },
+      {
+        "qid": "Q022",
+        "candidate_qid": "VIS-022",
+        "category": "scanned",
+        "question": "Quel destinataire est mis en évidence par un surlignage jaune dans la liste des destinataires ?",
+        "target_pages": [
+          {
+            "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+            "page": 2
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.7921306607692006,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.png",
+          "article_id": 1,
+          "rank": 1,
+          "pixelrag_score": 0.5402021408081055,
+          "local_text_score": 0.5055679292304074,
+          "rerank_score": 0.7921306607692006
+        }
+      },
+      {
+        "qid": "Q023",
+        "candidate_qid": "VIS-023",
+        "category": "text",
+        "question": "Quelle version et quelle date sont indiquées sous le titre du document ?",
+        "target_pages": [
+          {
+            "doc_name": "20260122_np_tlp-clear_sgdsn_viginum_moi.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.7708333333333334,
+          "doc_name": "20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI__p0001.png",
+          "article_id": 98,
+          "rank": 1,
+          "pixelrag_score": 0.38857555389404297,
+          "local_text_score": 0.25,
+          "rerank_score": 0.7708333333333334
+        }
+      },
+      {
+        "qid": "Q024",
+        "candidate_qid": "VIS-024",
+        "category": "text",
+        "question": "Quel organisme est associé au logo en forme de bouclier contenant un réseau de points ?",
+        "target_pages": [
+          {
+            "doc_name": "20250207_np_sgdsn_viginum_rapport menace informationnelle ia_vf.pdf",
+            "page": 1
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.7688127464506661,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 28,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0028.png",
+          "article_id": 137,
+          "rank": 1,
+          "pixelrag_score": 0.39393115043640137,
+          "local_text_score": 0.22575295740799273,
+          "rerank_score": 0.7688127464506661
+        }
+      },
+      {
+        "qid": "Q025",
+        "candidate_qid": "VIS-025",
+        "category": "text",
+        "question": "Quels sont les deux organismes dont les logos apparaissent en bas de l’image ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin-de-veille-n05-septembre-octobre.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 3,
+        "top_hit": {
+          "score": 0.7564102564102564,
+          "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - bulletin de veille n4 - Juillet Aout 2024__p0016.png",
+          "article_id": 183,
+          "rank": 1,
+          "pixelrag_score": 0.47414281964302063,
+          "local_text_score": 0.07692307692307693,
+          "rerank_score": 0.7564102564102564
+        }
+      },
+      {
+        "qid": "Q026",
+        "candidate_qid": "VIS-026",
+        "category": "scanned",
+        "question": "Que se passe-t-il si l’opérateur ne complète pas son dossier de demande de dérogation ?",
+        "target_pages": [
+          {
+            "doc_name": "20230125_np_dpid-dame_extrait-memento-zicad.pdf",
+            "page": 20
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.9162601301100777,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0019.png",
+          "article_id": 71,
+          "rank": 1,
+          "pixelrag_score": 0.44438254833221436,
+          "local_text_score": 1.9951215613209317,
+          "rerank_score": 0.9162601301100777
+        }
+      },
+      {
+        "qid": "Q027",
+        "candidate_qid": "VIS-027",
+        "category": "text",
+        "question": "Quels deux noms d’organisations apparaissent sous la photo du bateau ?",
+        "target_pages": [
+          {
+            "doc_name": "obsdrones - bulletin de veille n2 - mars avril 2024.pdf",
+            "page": 16
+          }
+        ],
+        "rank": 4,
+        "top_hit": {
+          "score": 0.7899313289102338,
+          "doc_name": "bem-48.pdf",
+          "page": 21,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0021.png",
+          "article_id": 102,
+          "rank": 1,
+          "pixelrag_score": 0.45012903213500977,
+          "local_text_score": 0.4791759469228055,
+          "rerank_score": 0.7899313289102338
+        }
+      },
+      {
+        "qid": "Q028",
+        "candidate_qid": "VIS-028",
+        "category": "text",
+        "question": "Quel intitulé apparaît dans l’encadré bleu réservé à l’emplacement de la photo en haut à droite ?",
+        "target_pages": [
+          {
+            "doc_name": "2011113_igi 1300_protection du secret de la defense nationale_np.pdf",
+            "page": 145
+          }
+        ],
+        "rank": null,
+        "top_hit": {
+          "score": 0.7856888825806785,
+          "doc_name": "bem-48.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0005.png",
+          "article_id": 101,
+          "rank": 1,
+          "pixelrag_score": 0.4019131660461426,
+          "local_text_score": 0.42826659096814224,
+          "rerank_score": 0.7856888825806785
+        }
+      },
+      {
+        "qid": "Q029",
+        "candidate_qid": "VIS-029",
+        "category": "text",
+        "question": "Quelle période est indiquée pour la feuille de route stratégique de l’OSIIC ?",
+        "target_pages": [
+          {
+            "doc_name": "feuille de route stratégique osiic 2024-2027 np v1.0.pdf",
+            "page": 1
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.8157342771027759,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Feuille de route stratégique OSIIC 2024-2027 NP v1.0__p0001.png",
+          "article_id": 154,
+          "rank": 1,
+          "pixelrag_score": 0.7163945436477661,
+          "local_text_score": 0.7888113252333105,
+          "rerank_score": 0.8157342771027759
+        }
+      },
+      {
+        "qid": "Q030",
+        "candidate_qid": "VIS-030",
+        "category": "scanned",
+        "question": "Quels sont les trois types de missions attribués au soutien logistique dans la section « Divers » ?",
+        "target_pages": [
+          {
+            "doc_name": "20160311_np_cicde_057_lettre_retex_lutte_prevention_contre_grands_fleaux.pdf",
+            "page": 6
+          }
+        ],
+        "rank": 1,
+        "top_hit": {
+          "score": 0.8717037913524036,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0006.png",
+          "article_id": 28,
+          "rank": 1,
+          "pixelrag_score": 0.5092085003852844,
+          "local_text_score": 1.460445496228843,
+          "rerank_score": 0.8717037913524036
+        }
+      }
+    ]
+  }
+}

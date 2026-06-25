@@ -1,0 +1,834 @@
+{
+  "summary": {
+    "total_questions": 30,
+    "hit_at_5": 22,
+    "hit_at_5_rate": 0.7333333333333333,
+    "mean_reciprocal_rank_at_5": 0.5888888888888889,
+    "rank_counts": {
+      "1": 15,
+      "2": 3,
+      "3": 2,
+      "4": 2,
+      "5": 0
+    },
+    "by_category": {
+      "text": {
+        "total": 21,
+        "found": 16,
+        "hit_rate": 0.7619047619047619
+      },
+      "scanned": {
+        "total": 8,
+        "found": 5,
+        "hit_rate": 0.625
+      },
+      "table": {
+        "total": 1,
+        "found": 1,
+        "hit_rate": 1.0
+      }
+    }
+  },
+  "rows": [
+    {
+      "candidate_qid": "VIS-001",
+      "run_qid": "Q001",
+      "question": "Quel type d’appareil militaire est visible sur la piste ?",
+      "category": "text",
+      "expected_answer": "Un avion de transport militaire à hélices.",
+      "expected_evidence": "On voit un gros avion militaire avec plusieurs hélices sur la piste.",
+      "target_pages": [
+        {
+          "doc_name": "fiche technique a400m.pdf",
+          "page": 12
+        }
+      ],
+      "found": true,
+      "rank": 2,
+      "top_hit": {
+        "doc_name": "Fiche technique Reaper.pdf",
+        "page": 5,
+        "score": 0.5634297132492065,
+        "evidence": "D GR X 2 L a... - ARMEEDEL'AIR — ; M"
+      },
+      "matched_hit": {
+        "doc_name": "Fiche technique A400M.pdf",
+        "page": 12,
+        "score": 0.5618245005607605,
+        "evidence": "« « mes, — = — 2S p ps = . “ .… . + tage S _— = Ss"
+      }
+    },
+    {
+      "candidate_qid": "VIS-002",
+      "run_qid": "Q002",
+      "question": "Combien de sites, parmi les 339 répondants, sont indiqués comme étant uniquement informatifs ou pédagogiques ?",
+      "category": "text",
+      "expected_answer": "139 sites.",
+      "expected_evidence": "« 139 sites (sur 339 répondants) sont uniquement des sites informatifs/pédagogiques. »",
+      "target_pages": [
+        {
+          "doc_name": "chiffres clés données 2022_tdm_v0_260224.pdf",
+          "page": 10
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+        "page": 10,
+        "score": 0.4469600319862366,
+        "evidence": "militaires étrangers, mémoriaux) et sites informatifs/pédagogiques (musées, SE S 139 sites (sur 339 répondants) sont uniquement des sites informatifs/ des sites témoins, commémoratifs et informatifs/pédagogiques). Fa"
+      },
+      "matched_hit": {
+        "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+        "page": 10,
+        "score": 0.4469600319862366,
+        "evidence": "militaires étrangers, mémoriaux) et sites informatifs/pédagogiques (musées, SE S 139 sites (sur 339 répondants) sont uniquement des sites informatifs/ des sites témoins, commémoratifs et informatifs/pédagogiques). Fa"
+      }
+    },
+    {
+      "candidate_qid": "VIS-003",
+      "run_qid": "Q003",
+      "question": "Que voit-on reflété sur le sol mouillé au premier plan ?",
+      "category": "scanned",
+      "expected_answer": "Les silhouettes des militaires alignés.",
+      "expected_evidence": "Le sol humide montre clairement le reflet des personnes en uniforme.",
+      "target_pages": [
+        {
+          "doc_name": "colsbleus_3126_pdfweb_page.pdf",
+          "page": 46
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "COLSbleus_3126_PDFweb_PAGE.pdf",
+        "page": 46,
+        "score": 0.5693681240081787,
+        "evidence": ".'_. ..\"_.' PU | l \"A'_“‘-',“\".'.'_\"-'.‘_\"--... ta Ws x WOR M 4 ‘:\".'--'.':“\"w‘.\"\"l'.'l\"-'-‘-'-\"'_\"_'j . * ;, eee L QQQ Sy Pani kia? 1E JMSN n * . rite"
+      },
+      "matched_hit": {
+        "doc_name": "COLSbleus_3126_PDFweb_PAGE.pdf",
+        "page": 46,
+        "score": 0.5693681240081787,
+        "evidence": ".'_. ..\"_.' PU | l \"A'_“‘-',“\".'.'_\"-'.‘_\"--... ta Ws x WOR M 4 ‘:\".'--'.':“\"w‘.\"\"l'.'l\"-'-‘-'-\"'_\"_'j . * ;, eee L QQQ Sy Pani kia? 1E JMSN n * . rite"
+      }
+    },
+    {
+      "candidate_qid": "VIS-004",
+      "run_qid": "Q004",
+      "question": "Quel organisme est indiqué comme destinataire de la copie ?",
+      "category": "scanned",
+      "expected_answer": "CDEC.",
+      "expected_evidence": "En haut à gauche, on lit « COPIE : CDEC. »",
+      "target_pages": [
+        {
+          "doc_name": "20190909_np_emat-np_le508717-synthese-annuelle-du-retex-cycle-2018-2019-2.pdf",
+          "page": 2
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid.pdf",
+        "page": 2,
+        "score": 0.6098111867904663,
+        "evidence": "DESTINATAIRES : - DCSSA (intéresse MC Petit / MC Valade / MC Loarer) COPIES : |"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-005",
+      "run_qid": "Q005",
+      "question": "Quels sont les cinq domaines d’activité présentés dans les vignettes en bas de l’affiche ?",
+      "category": "text",
+      "expected_answer": "Tourelles & canons, munitions, équipements, systèmes d’artillerie et services clients.",
+      "expected_evidence": "Les cinq vignettes inférieures portent les libellés : « TOURELLES & CANONS », « MUNITIONS », « ÉQUIPEMENTS », « SYSTÈMES D’ARTILLERIE », « SERVICES CLIENTS ».",
+      "target_pages": [
+        {
+          "doc_name": "caia-125-bd-ok.pdf",
+          "page": 103
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+        "page": 11,
+        "score": 0.4439542591571808,
+        "evidence": "diversité des secteurs d’activité ciblés. Les entreprises ayant fait aux domaines dits « régaliens » (défense, énergie, aérospatial) mais de plateformes en ligne, sélectionnées selon les audiences ciblées,"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-006",
+      "run_qid": "Q006",
+      "question": "Quelle fonction est indiquée sous le nom du vice-amiral Jean-Philippe Chaineau dans le bloc de signature ?",
+      "category": "scanned",
+      "expected_answer": "Directeur de la protection des installations, moyens et activités de la défense.",
+      "expected_evidence": "Bloc de signature : « Le vice-amiral Jean-Philippe Chaineau » puis « Directeur de la protection des installations, moyens et activités de la défense »",
+      "target_pages": [
+        {
+          "doc_name": "20181019_np_dpid_note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 2
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+        "page": 2,
+        "score": 0.5352339744567871,
+        "evidence": "Il est enfin précisé que l’autorisation de la commission nationale de l’informatique et des libertés Le vice-amiral Jean-Philippe Chaineau, haut fonctionnaire correspondant de défense et sécurité adjoint."
+      },
+      "matched_hit": {
+        "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+        "page": 2,
+        "score": 0.5352339744567871,
+        "evidence": "Il est enfin précisé que l’autorisation de la commission nationale de l’informatique et des libertés Le vice-amiral Jean-Philippe Chaineau, haut fonctionnaire correspondant de défense et sécurité adjoint."
+      }
+    },
+    {
+      "candidate_qid": "VIS-007",
+      "run_qid": "Q007",
+      "question": "Quelle inscription est visible sur le flanc du drone en vol ?",
+      "category": "text",
+      "expected_answer": "« ARMEE DE L’AIR »",
+      "expected_evidence": "Le flanc de l’aéronef porte clairement l’inscription « ARMEE DE L’AIR ».",
+      "target_pages": [
+        {
+          "doc_name": "fiche technique reaper.pdf",
+          "page": 9
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "Fiche technique Reaper.pdf",
+        "page": 9,
+        "score": 0.5484522581100464,
+        "evidence": "—R -— — 4 S ion ot P ESLF = ‘toe — à _ st —<æ ( /yit F p eae, 4R E ge bi) fas [ ¥ ="
+      },
+      "matched_hit": {
+        "doc_name": "Fiche technique Reaper.pdf",
+        "page": 9,
+        "score": 0.5484522581100464,
+        "evidence": "—R -— — 4 S ion ot P ESLF = ‘toe — à _ st —<æ ( /yit F p eae, 4R E ge bi) fas [ ¥ ="
+      }
+    },
+    {
+      "candidate_qid": "VIS-008",
+      "run_qid": "Q008",
+      "question": "Quel nom de véhicule est indiqué par la légende placée près du robot chenillé ?",
+      "category": "text",
+      "expected_answer": "UGV THeMIS – Milrem Robotics.",
+      "expected_evidence": "La légende visible près du véhicule indique « UGV THeMIS - Milrem Robotics ».",
+      "target_pages": [
+        {
+          "doc_name": "obsdrones - bulletin de veille n3 - mai juin 2024.pdf",
+          "page": 16
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+        "page": 16,
+        "score": 0.40781736373901367,
+        "evidence": "e ä ea = D ” a as | ae ” ‘ ————— e à , se (a 4 s4% ÿ-{ n é ce ~ d'Intelligence SV*"
+      },
+      "matched_hit": {
+        "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+        "page": 16,
+        "score": 0.40781736373901367,
+        "evidence": "e ä ea = D ” a as | ae ” ‘ ————— e à , se (a 4 s4% ÿ-{ n é ce ~ d'Intelligence SV*"
+      }
+    },
+    {
+      "candidate_qid": "VIS-009",
+      "run_qid": "Q009",
+      "question": "Quelle année est affichée en grands chiffres près du coin supérieur droit ?",
+      "category": "text",
+      "expected_answer": "2022",
+      "expected_evidence": "Les chiffres « 2022 » apparaissent en haut à droite.",
+      "target_pages": [
+        {
+          "doc_name": "20221012_np_emat_grat-2022.pdf",
+          "page": 1
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+        "page": 25,
+        "score": 0.37300336360931396,
+        "evidence": "Outrele champ de l’action pénale, les voies civiles, et notamment le code de la propriété intellectuelle, peuvent également s'avérer En cas de crise informationnelle, votre direction juridique devra"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-010",
+      "run_qid": "Q010",
+      "question": "Quelles sont les trois conditions indiquées comme nécessaires à la réussite de la participation des armées à la sécurité des grands événements ?",
+      "category": "scanned",
+      "expected_answer": "Un emploi adapté des forces armées, une structure de commandement dédiée et une anticipation dans l’organisation du soutien logistique.",
+      "expected_evidence": "Le paragraphe central énumère « 3 conditions » : emploi adapté, structure de commandement dédiée, anticipation du soutien logistique.",
+      "target_pages": [
+        {
+          "doc_name": "20160108_np_cicde_004-lettre-grands-evenements-2.pdf",
+          "page": 3
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+        "page": 4,
+        "score": 0.4049772024154663,
+        "evidence": "- de protection et de sécurité, l’engagement des armées obéit à une logique de milieu. La sécurité des milieux aériens et maritimes, dans lesquels les armées sont les seules à disposer des moyens adéquats, est derniers, les armées devront définir un état final recherché propre a leur participation et des objectifs à"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-011",
+      "run_qid": "Q011",
+      "question": "Quel objet est tenu par les doigts au-dessus d’un assemblage incomplet ?",
+      "category": "scanned",
+      "expected_answer": "Une pièce de puzzle en carton.",
+      "expected_evidence": "Des doigts tiennent une pièce de puzzle au-dessus d’un emplacement vide.",
+      "target_pages": [
+        {
+          "doc_name": "pec_livre-blanc-innovation_2025.pdf",
+          "page": 33
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+        "page": 33,
+        "score": 0.5136317014694214,
+        "evidence": "Ë —P ee S (R la Z e> = — == _ —— ——s q So —s = — == —"
+      },
+      "matched_hit": {
+        "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+        "page": 33,
+        "score": 0.5136317014694214,
+        "evidence": "Ë —P ee S (R la Z e> = — == _ —— ——s q So —s = — == —"
+      }
+    },
+    {
+      "candidate_qid": "VIS-012",
+      "run_qid": "Q012",
+      "question": "Quels sont les quatre grands types de formation indiqués en en-tête du tableau ?",
+      "category": "table",
+      "expected_answer": "Formation autre, formation scientifique, formation numérique et spécialisation.",
+      "expected_evidence": "En-têtes visibles : « formation autre », « formation scientifique », « formation numérique », « spécialisation ».",
+      "target_pages": [
+        {
+          "doc_name": "etudepecapec_vfinale.pdf",
+          "page": 16
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "EtudePECAPEC_VFinale.pdf",
+        "page": 16,
+        "score": 0.49117928743362427,
+        "evidence": "formation autre | formation scientifique | formaten numérique apéciallsstion Pee orn map ole lop sr 10 all Mn seal ent Poe eer 9 fn aati rare: Bes ray at kare dani ae ied a"
+      },
+      "matched_hit": {
+        "doc_name": "EtudePECAPEC_VFinale.pdf",
+        "page": 16,
+        "score": 0.49117928743362427,
+        "evidence": "formation autre | formation scientifique | formaten numérique apéciallsstion Pee orn map ole lop sr 10 all Mn seal ent Poe eer 9 fn aati rare: Bes ray at kare dani ae ied a"
+      }
+    },
+    {
+      "candidate_qid": "VIS-013",
+      "run_qid": "Q013",
+      "question": "Quelle inscription apparaît en grandes lettres sur le fuselage de l’avion ?",
+      "category": "text",
+      "expected_answer": "ARMEE DE L’AIR",
+      "expected_evidence": "Le fuselage porte l’inscription visible « ARMEE DE L’AIR ».",
+      "target_pages": [
+        {
+          "doc_name": "fiche technique a330.pdf",
+          "page": 5
+        }
+      ],
+      "found": true,
+      "rank": 2,
+      "top_hit": {
+        "doc_name": "ObsDrones - Bulletin de veille n6 - novembre-décembre 2024.pdf",
+        "page": 17,
+        "score": 0.46158891916275024,
+        "evidence": "—. ; UI fl Mn L ; Affinis @ CCA Défense a Ax ye 17"
+      },
+      "matched_hit": {
+        "doc_name": "Fiche technique A330.pdf",
+        "page": 5,
+        "score": 0.415752112865448,
+        "evidence": "\" me = REON ,..n‘è‘è‘,f,_ > \\ll‘u\\“““.“‘ SF AE 2 mat ae 6) = I\", # e * “"
+      }
+    },
+    {
+      "candidate_qid": "VIS-014",
+      "run_qid": "Q014",
+      "question": "Quelle version du rapport technique est indiquée sous le titre principal ?",
+      "category": "text",
+      "expected_answer": "La version 1.0.",
+      "expected_evidence": "Le cartouche du titre affiche « Version : 1.0 » au-dessus de « Rapport technique ».",
+      "target_pages": [
+        {
+          "doc_name": "20250612_tlp-clear_viginum_fcdo_eeas_rapport_technique_african_initiative_fr.pdf",
+          "page": 1
+        }
+      ],
+      "found": true,
+      "rank": 2,
+      "top_hit": {
+        "doc_name": "20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516.pdf",
+        "page": 1,
+        "score": 0.5967011451721191,
+        "evidence": "PREMIER Secrétariat général de la défense Version : 1.0 VIGINUM Rapport technique Mai 2025"
+      },
+      "matched_hit": {
+        "doc_name": "20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR.pdf",
+        "page": 1,
+        "score": 0.5333337783813477,
+        "evidence": "PREMIER Secrétariat général de la défense Version : 1.0 Rapport technique Juin 2025"
+      }
+    },
+    {
+      "candidate_qid": "VIS-015",
+      "run_qid": "Q015",
+      "question": "Dans la comparaison visuelle des drones de combat, quel modèle est associé au constructeur Piaggio ?",
+      "category": "text",
+      "expected_answer": "P.1HH HammerHead",
+      "expected_evidence": "Le libellé « Piaggio » est aligné avec « P.1HH HammerHead ».",
+      "target_pages": [
+        {
+          "doc_name": "unmanned_vehicles_size.pdf",
+          "page": 1
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "unmanned_vehicles_size.pdf",
+        "page": 1,
+        "score": 0.5166366100311279,
+        "evidence": "Unmanned Combat Aerial Vehicle “ TF \"* (Harrier Hawk) Chengdu W Wing Loong | (Pterodactyl) a2 So ase aw | Yan ying (Cloud Shadow) \\y _—_el. BGM-34C (Model 259)"
+      },
+      "matched_hit": {
+        "doc_name": "unmanned_vehicles_size.pdf",
+        "page": 1,
+        "score": 0.5166366100311279,
+        "evidence": "Unmanned Combat Aerial Vehicle “ TF \"* (Harrier Hawk) Chengdu W Wing Loong | (Pterodactyl) a2 So ase aw | Yan ying (Cloud Shadow) \\y _—_el. BGM-34C (Model 259)"
+      }
+    },
+    {
+      "candidate_qid": "VIS-016",
+      "run_qid": "Q016",
+      "question": "Quel numéro est inscrit à la fois sur la coque et sur la voile du drone marin orange ?",
+      "category": "text",
+      "expected_answer": "2005",
+      "expected_evidence": "Le nombre « 2005 » apparaît sur la coque et sur la voile orange.",
+      "target_pages": [
+        {
+          "doc_name": "obsdrones - bulletin de veille n1 - janvier février 2024.pdf",
+          "page": 16
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "ObsDrones - Bulletin de veille n1 - Janvier Février 2024.pdf",
+        "page": 16,
+        "score": 0.522366464138031,
+        "evidence": "—— >, ‘ /\":— … | Défense > ; <e © d'Intelligence Sua"
+      },
+      "matched_hit": {
+        "doc_name": "ObsDrones - Bulletin de veille n1 - Janvier Février 2024.pdf",
+        "page": 16,
+        "score": 0.522366464138031,
+        "evidence": "—— >, ‘ /\":— … | Défense > ; <e © d'Intelligence Sua"
+      }
+    },
+    {
+      "candidate_qid": "VIS-017",
+      "run_qid": "Q017",
+      "question": "À quelle date l’Albatros a-t-il effectué son premier vol réussi ?",
+      "category": "text",
+      "expected_answer": "Le 24 janvier 2025.",
+      "expected_evidence": "« Après un premier vol réussi le 24 janvier 2025 » et légende « Premier vol de l'Albatros le 24 janvier 2025. »",
+      "target_pages": [
+        {
+          "doc_name": "communiqué_a_la dga commande cinq avions de surveillance albatros à dassault aviation.pdf",
+          "page": 2
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+        "page": 2,
+        "score": 0.6209861636161804,
+        "evidence": "Apres un premier vol réussi le 24 janvier 2025, l’Albatros fait aujourd’hui l’objet de vols le site d’Istres (13), en vue d'une première capacité opérationnelle (PCO) fin 2026. Conduit par étapes, le programme AVSIMAR vise dans un premier temps a acquérir une"
+      },
+      "matched_hit": {
+        "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+        "page": 2,
+        "score": 0.6209861636161804,
+        "evidence": "Apres un premier vol réussi le 24 janvier 2025, l’Albatros fait aujourd’hui l’objet de vols le site d’Istres (13), en vue d'une première capacité opérationnelle (PCO) fin 2026. Conduit par étapes, le programme AVSIMAR vise dans un premier temps a acquérir une"
+      }
+    },
+    {
+      "candidate_qid": "VIS-018",
+      "run_qid": "Q018",
+      "question": "Quel nom d’auteur apparaît en grandes lettres jaunes sous le sous-titre ?",
+      "category": "text",
+      "expected_answer": "Patrick Forestier.",
+      "expected_evidence": "Le nom « PATRICK FORESTIER » est imprimé en jaune sous « Les secrets des opérations spéciales ».",
+      "target_pages": [
+        {
+          "doc_name": "bem-48.pdf",
+          "page": 21
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "bem-48.pdf",
+        "page": 73,
+        "score": 0.38056227564811707,
+        "evidence": "es sous-marins sous- marines frangaises fant lear névolathon — LHL_ - = ' = viel commbatltiiel ls fouces sous/muatines Traut atlas ~— — — =,"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-019",
+      "run_qid": "Q019",
+      "question": "Pourquoi les métriques de visibilité des plateformes sont-elles présentées comme des indicateurs imparfaits ?",
+      "category": "text",
+      "expected_answer": "Parce qu’elles peuvent être manipulées et qu’elles varient selon les plateformes et leurs usages.",
+      "expected_evidence": "Le texte indique que les indicateurs sont « manipulables » et « différents d’une plateforme à l’autre ».",
+      "target_pages": [
+        {
+          "doc_name": "cdse_viginum_guide_sensibilisation_entreprises_fr_12-25.pdf",
+          "page": 23
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+        "page": 23,
+        "score": 0.5214882493019104,
+        "evidence": "Les métriques affichées par les plateformes peuvent certes ces derniers n’en restent pas moins des indicateurs imparfaits viralité telles que définies par les indicateurs clés de"
+      },
+      "matched_hit": {
+        "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+        "page": 23,
+        "score": 0.5214882493019104,
+        "evidence": "Les métriques affichées par les plateformes peuvent certes ces derniers n’en restent pas moins des indicateurs imparfaits viralité telles que définies par les indicateurs clés de"
+      }
+    },
+    {
+      "candidate_qid": "VIS-020",
+      "run_qid": "Q020",
+      "question": "Quels sont les deux noms de logos visibles en bas de l’image ?",
+      "category": "text",
+      "expected_answer": "Affinis Défense et EUROCRISE.",
+      "expected_evidence": "Les logos en bas affichent « Affinis Défense » et « EUROCRISE ».",
+      "target_pages": [
+        {
+          "doc_name": "obsdrones - bulletin de veille n4 - juillet aout 2024.pdf",
+          "page": 16
+        }
+      ],
+      "found": true,
+      "rank": 4,
+      "top_hit": {
+        "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+        "page": 7,
+        "score": 0.45541855692863464,
+        "evidence": "SYNTHESE EXECUTIVE"
+      },
+      "matched_hit": {
+        "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+        "page": 16,
+        "score": 0.4179087281227112,
+        "evidence": "%, ËÏ*‘Î_Ï‘_ | ' L | Affinis @ C Défense 23> _"
+      }
+    },
+    {
+      "candidate_qid": "VIS-021",
+      "run_qid": "Q021",
+      "question": "Quelle date est indiquée en bas à droite du visuel ?",
+      "category": "text",
+      "expected_answer": "Juillet 2023.",
+      "expected_evidence": "Inscription « JUILLET 2023 » en bas à droite",
+      "target_pages": [
+        {
+          "doc_name": "rnce_19_juillet_2023.pdf",
+          "page": 1
+        }
+      ],
+      "found": true,
+      "rank": 3,
+      "top_hit": {
+        "doc_name": "20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2.pdf",
+        "page": 2,
+        "score": 0.414215624332428,
+        "evidence": ""
+      },
+      "matched_hit": {
+        "doc_name": "RNCE_19_Juillet_2023.pdf",
+        "page": 1,
+        "score": 0.3950238823890686,
+        "evidence": "ET DE LA SOUVERAINETE IŒÆUSTRIELLE ET NUMERIQUE RECUEIL DES NORMES"
+      }
+    },
+    {
+      "candidate_qid": "VIS-022",
+      "run_qid": "Q022",
+      "question": "Quel destinataire est mis en évidence par un surlignage jaune dans la liste des destinataires ?",
+      "category": "scanned",
+      "expected_answer": "Le directeur général des systèmes d’information et de communication.",
+      "expected_evidence": "La première ligne sous « DESTINATAIRES » est surlignée en jaune et mentionne « Monsieur le directeur général des systèmes d’information et de communication »",
+      "target_pages": [
+        {
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 2
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+        "page": 2,
+        "score": 0.5402021408081055,
+        "evidence": "DESTINATAIRES : - Monsieur le directeur général des systèmes d’information et de communication ; - Monsieur le directeur du renseignement et de la sécurité de la défense ;"
+      },
+      "matched_hit": {
+        "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+        "page": 2,
+        "score": 0.5402021408081055,
+        "evidence": "DESTINATAIRES : - Monsieur le directeur général des systèmes d’information et de communication ; - Monsieur le directeur du renseignement et de la sécurité de la défense ;"
+      }
+    },
+    {
+      "candidate_qid": "VIS-023",
+      "run_qid": "Q023",
+      "question": "Quelle version et quelle date sont indiquées sous le titre du document ?",
+      "category": "text",
+      "expected_answer": "Version 1.0, janvier 2026.",
+      "expected_evidence": "Sous le titre figure « Version 1.0 | Janvier 2026 ».",
+      "target_pages": [
+        {
+          "doc_name": "20260122_np_tlp-clear_sgdsn_viginum_moi.pdf",
+          "page": 1
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI.pdf",
+        "page": 1,
+        "score": 0.38857555389404297,
+        "evidence": "Définitions et objectifs du concept de ; « mode opératoire informationnel» (MOI) Version 1.0 | Janvier 2026"
+      },
+      "matched_hit": {
+        "doc_name": "20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI.pdf",
+        "page": 1,
+        "score": 0.38857555389404297,
+        "evidence": "Définitions et objectifs du concept de ; « mode opératoire informationnel» (MOI) Version 1.0 | Janvier 2026"
+      }
+    },
+    {
+      "candidate_qid": "VIS-024",
+      "run_qid": "Q024",
+      "question": "Quel organisme est associé au logo en forme de bouclier contenant un réseau de points ?",
+      "category": "text",
+      "expected_answer": "VIGINUM.",
+      "expected_evidence": "Logo bouclier avec réseau accompagné du texte « VIGINUM »",
+      "target_pages": [
+        {
+          "doc_name": "20250207_np_sgdsn_viginum_rapport menace informationnelle ia_vf.pdf",
+          "page": 1
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+        "page": 28,
+        "score": 0.39393115043640137,
+        "evidence": "Secrétariat général de la défense et de la sécurité nationale viginum_signalement@sgdsn.gouv.fr"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-025",
+      "run_qid": "Q025",
+      "question": "Quels sont les deux organismes dont les logos apparaissent en bas de l’image ?",
+      "category": "text",
+      "expected_answer": "Affinis Défense et EUROCRISE.",
+      "expected_evidence": "Logos visibles en bas : « Affinis Défense » et « EUROCRISE »",
+      "target_pages": [
+        {
+          "doc_name": "obsdrones - bulletin-de-veille-n05-septembre-octobre.pdf",
+          "page": 16
+        }
+      ],
+      "found": true,
+      "rank": 3,
+      "top_hit": {
+        "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+        "page": 16,
+        "score": 0.47414281964302063,
+        "evidence": "%, ËÏ*‘Î_Ï‘_ | ' L | Affinis @ C Défense 23> _"
+      },
+      "matched_hit": {
+        "doc_name": "Obsdrones - Bulletin-de-veille-n05-septembre-octobre.pdf",
+        "page": 16,
+        "score": 0.44574272632598877,
+        "evidence": "/ p / & s Défense 2 V— ence d'ntelhggnes 969\" 16"
+      }
+    },
+    {
+      "candidate_qid": "VIS-026",
+      "run_qid": "Q026",
+      "question": "Que se passe-t-il si l’opérateur ne complète pas son dossier de demande de dérogation ?",
+      "category": "scanned",
+      "expected_answer": "La demande est implicitement rejetée après deux mois à compter de l’accusé de réception.",
+      "expected_evidence": "« Si l’opérateur ne complète pas son dossier… décision implicite de rejet dans un délai de deux mois »",
+      "target_pages": [
+        {
+          "doc_name": "20230125_np_dpid-dame_extrait-memento-zicad.pdf",
+          "page": 20
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+        "page": 19,
+        "score": 0.44438254833221436,
+        "evidence": "Le dossier de demande de dérogation sera transmis à la DPID de maniére ordonnée. Les documents de prolongation ou de demande additionnelle d’une dérogation déja obtenue. En effet, l’intégralité L’opérateur doit préciser dans sa demande de dérogation s'il s'agit d’un renouvellement, d’une"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-027",
+      "run_qid": "Q027",
+      "question": "Quels deux noms d’organisations apparaissent sous la photo du bateau ?",
+      "category": "text",
+      "expected_answer": "Affinis Défense et EUROCRISE.",
+      "expected_evidence": "Logos visibles en bas : « Affinis Défense » et « EUROCRISE »",
+      "target_pages": [
+        {
+          "doc_name": "obsdrones - bulletin de veille n2 - mars avril 2024.pdf",
+          "page": 16
+        }
+      ],
+      "found": true,
+      "rank": 4,
+      "top_hit": {
+        "doc_name": "bem-48.pdf",
+        "page": 21,
+        "score": 0.45012903213500977,
+        "evidence": "- des Forces speéciabes qui ont hbere bes trom -vcdlier ot les-prager - f\"_' cowtré-Les {homers bertorn. Un rect haletant Avec bes rapeurs = el a Par sous fe minntére-de [a Defense et à l'Élvréc-où me"
+      },
+      "matched_hit": {
+        "doc_name": "ObsDrones - Bulletin de veille n2 - Mars Avril 2024.pdf",
+        "page": 16,
+        "score": 0.38798439502716064,
+        "evidence": "' roror 4 \\ 158 a *, 4 = By - n “ ; °° d'Imtelligence SO"
+      }
+    },
+    {
+      "candidate_qid": "VIS-028",
+      "run_qid": "Q028",
+      "question": "Quel intitulé apparaît dans l’encadré bleu réservé à l’emplacement de la photo en haut à droite ?",
+      "category": "text",
+      "expected_answer": "Photographie d’identité du candidat.",
+      "expected_evidence": "Encadré bleu en haut à droite avec le libellé « Photographie d’identité du candidat »",
+      "target_pages": [
+        {
+          "doc_name": "2011113_igi 1300_protection du secret de la defense nationale_np.pdf",
+          "page": 145
+        }
+      ],
+      "found": false,
+      "rank": null,
+      "top_hit": {
+        "doc_name": "bem-48.pdf",
+        "page": 5,
+        "score": 0.4019131660461426,
+        "evidence": "= F ; iid apséclallide. Duc fiit de ly Précorraispece i i — = at, ilk ieee apésre wires de mptére pour unt prac LES AUTEURS nombre ('érere nous car coardannent à un monde"
+      },
+      "matched_hit": null
+    },
+    {
+      "candidate_qid": "VIS-029",
+      "run_qid": "Q029",
+      "question": "Quelle période est indiquée pour la feuille de route stratégique de l’OSIIC ?",
+      "category": "text",
+      "expected_answer": "2024-2027",
+      "expected_evidence": "Grand texte central : « FEUILLE DE ROUTE STRATÉGIQUE 2024-2027 »",
+      "target_pages": [
+        {
+          "doc_name": "feuille de route stratégique osiic 2024-2027 np v1.0.pdf",
+          "page": 1
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+        "page": 1,
+        "score": 0.7163945436477661,
+        "evidence": "SYSTEMES D'INFORMATION INTERMINISTERIELS FEUILLE DE ROUTE STRATEGIQUE"
+      },
+      "matched_hit": {
+        "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+        "page": 1,
+        "score": 0.7163945436477661,
+        "evidence": "SYSTEMES D'INFORMATION INTERMINISTERIELS FEUILLE DE ROUTE STRATEGIQUE"
+      }
+    },
+    {
+      "candidate_qid": "VIS-030",
+      "run_qid": "Q030",
+      "question": "Quels sont les trois types de missions attribués au soutien logistique dans la section « Divers » ?",
+      "category": "scanned",
+      "expected_answer": "Le soutien des armées et acteurs de crise, le soutien à la population touchée, et le soutien au fonctionnement de l’État.",
+      "expected_evidence": "Sous « 3.3 Divers », trois sous-puces suivent « Le soutien logistique peut avoir trois types de missions »",
+      "target_pages": [
+        {
+          "doc_name": "20160311_np_cicde_057_lettre_retex_lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6
+        }
+      ],
+      "found": true,
+      "rank": 1,
+      "top_hit": {
+        "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+        "page": 6,
+        "score": 0.5092085003852844,
+        "evidence": "des autres ministéres, en tant qu’officiers de liaison, ou pour des missions d’évaluation et e Le soutien logistique peut avoir trois types de missions : matériel générique sera également nécessaire pour le soutien ou le déploiement des armées."
+      },
+      "matched_hit": {
+        "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+        "page": 6,
+        "score": 0.5092085003852844,
+        "evidence": "des autres ministéres, en tant qu’officiers de liaison, ou pour des missions d’évaluation et e Le soutien logistique peut avoir trois types de missions : matériel générique sera également nécessaire pour le soutien ou le déploiement des armées."
+      }
+    }
+  ]
+}

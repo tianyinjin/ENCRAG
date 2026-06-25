@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "queries": [
+    {
+      "qid": "q1",
+      "question": "Après une année de mise en œuvre de la directive 39, quels enseignements la DPID souhaite-t-elle partager concernant les systèmes industriels de protection de sites ?",
+      "theme": "Systèmes industriels / protection de sites",
+      "category": "scanned",
+      "relevant_pages": [
+        {
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "qid": "q2",
+      "question": "Dans quel cadre les enseignements relatifs à la cyber-protection de l’EDPI SIPS ont-ils été identifiés, et quel est leur statut actuel ?",
+      "theme": "Cyber-protection / EDPI SIPS",
+      "category": "scanned",
+      "relevant_pages": [
+        {
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "qid": "q3",
+      "question": "En attendant la publication de la Politique SSI ministérielle ou de la Politique SSI des Armées, quelles modalités la DPID demande-t-elle de prendre en compte pour les systèmes industriels de protection de sites ?",
+      "theme": "Homologation / politique SSI",
+      "category": "scanned",
+      "relevant_pages": [
+        {
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

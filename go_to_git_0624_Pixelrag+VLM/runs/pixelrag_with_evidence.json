@@ -1,0 +1,1871 @@
+{
+  "system": "pixelrag",
+  "top_k": 5,
+  "queries": [
+    {
+      "qid": "Q001",
+      "question": "Quel type d’appareil militaire est visible sur la piste ?",
+      "latency_ms": 2563.75,
+      "hits": [
+        {
+          "score": 0.5634297132492065,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0005.png",
+          "article_id": 162,
+          "rank": 1,
+          "evidence": "D GR X 2 L a... - ARMEEDEL'AIR — ; M",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\162_Fiche_technique_Reaper__p0005.txt"
+        },
+        {
+          "score": 0.5618245005607605,
+          "doc_name": "Fiche technique A400M.pdf",
+          "page": 12,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique A400M__p0012.png",
+          "article_id": 161,
+          "rank": 2,
+          "evidence": "« « mes, — = — 2S p ps = . “ .… . + tage S _— = Ss",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\161_Fiche_technique_A400M__p0012.txt"
+        },
+        {
+          "score": 0.4766722321510315,
+          "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n3 - Mai Juin 2024__p0016.png",
+          "article_id": 182,
+          "rank": 3,
+          "evidence": "e ä ea = D ” a as | ae ” ‘ ————— e à , se (a 4 s4% ÿ-{ n é ce ~ d'Intelligence SV*",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\182_ObsDrones_-_Bulletin_de_veille_n3_-_Mai_Juin_2024__p0016.txt"
+        },
+        {
+          "score": 0.4760569632053375,
+          "doc_name": "LSAe_38_V6_FINAL_FINAL_REDUIT.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\LSAe_38_V6_FINAL_FINAL_REDUIT__p0011.png",
+          "article_id": 173,
+          "rank": 4,
+          "evidence": "5 — 4 ME ine q Vio Ot tity en 00 02 ‘ dhs a | dee | {zat coRRIDOR 3431 N ag 2 egy — 4 ae ey ha FL265 / FL295 . ‘.‘ |",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\173_LSAe_38_V6_FINAL_FINAL_REDUIT__p0011.txt"
+        },
+        {
+          "score": 0.47379082441329956,
+          "doc_name": "ObsDrones - Bulletin de veille n6 - novembre-décembre 2024.pdf",
+          "page": 17,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n6 - novembre-décembre 2024__p0017.png",
+          "article_id": 184,
+          "rank": 5,
+          "evidence": "—. ; UI fl Mn L ; Affinis @ CCA Défense a Ax ye 17",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\184_ObsDrones_-_Bulletin_de_veille_n6_-_novembre-d_cembre_2024__p0017.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q002",
+      "question": "Combien de sites, parmi les 339 répondants, sont indiqués comme étant uniquement informatifs ou pédagogiques ?",
+      "latency_ms": 608.17,
+      "hits": [
+        {
+          "score": 0.4469600319862366,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 10,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0010.png",
+          "article_id": 143,
+          "rank": 1,
+          "evidence": "militaires étrangers, mémoriaux) et sites informatifs/pédagogiques (musées, SE S 139 sites (sur 339 répondants) sont uniquement des sites informatifs/ des sites témoins, commémoratifs et informatifs/pédagogiques). Fa",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\143_Chiffres_cl_s_donn_es_2022_TDM_v0_260224__p0010.txt"
+        },
+        {
+          "score": 0.43014320731163025,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0004.png",
+          "article_id": 140,
+          "rank": 2,
+          "evidence": "Recueil des données de février à fin juin 2023, selon un mode de CLÉS collecte multimodal : première phase via un questionnaire en ligne, puis seconde phase de relances par courriel et téléphone. 2022",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\140_Chiffres_cl_s_donn_es_2022_TDM_v0_260224__p0004.txt"
+        },
+        {
+          "score": 0.3846905827522278,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0011.png",
+          "article_id": 144,
+          "rank": 3,
+          "evidence": "Autre administration publique de l’État 6 1,8% p » — 'l_ |j Champ : 339 lieux de mémoire des conflits contemporains de France métropolitaine répondants Prés de la moitié des sites mémoriels sont gérés par une structure associative.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\144_Chiffres_cl_s_donn_es_2022_TDM_v0_260224__p0011.txt"
+        },
+        {
+          "score": 0.36898380517959595,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 12,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0012.png",
+          "article_id": 64,
+          "rank": 4,
+          "evidence": "Q Levées topographiques par restitution photogrammétrique numérisée : LISTE DES ZONES CONCERNEES SELON L’ARRETE MINISTERIEL LISTANT LES ZICAD | Nom du site Département(s) ent(s) | \"Œ'ﬁmmîah@ 4 gäsæ%äâäïäî zone",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\64_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0012.txt"
+        },
+        {
+          "score": 0.3675316572189331,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 3,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0003.png",
+          "article_id": 139,
+          "rank": 5,
+          "evidence": "Seuls les sites mémoriels répertoriés comme pouvant + aay Cine 290 nécropoles nationales, sites qui sont cependant ih fréquemment visités par nombre de touristes et de pélerins, =f",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\139_Chiffres_cl_s_donn_es_2022_TDM_v0_260224__p0003.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q003",
+      "question": "Que voit-on reflété sur le sol mouillé au premier plan ?",
+      "latency_ms": 568.89,
+      "hits": [
+        {
+          "score": 0.5693681240081787,
+          "doc_name": "COLSbleus_3126_PDFweb_PAGE.pdf",
+          "page": 46,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\COLSbleus_3126_PDFweb_PAGE__p0046.png",
+          "article_id": 150,
+          "rank": 1,
+          "evidence": ".'_. ..\"_.' PU | l \"A'_“‘-',“\".'.'_\"-'.‘_\"--... ta Ws x WOR M 4 ‘:\".'--'.':“\"w‘.\"\"l'.'l\"-'-‘-'-\"'_\"_'j . * ;, eee L QQQ Sy Pani kia? 1E JMSN n * . rite",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\150_COLSbleus_3126_PDFweb_PAGE__p0046.txt"
+        },
+        {
+          "score": 0.4044923782348633,
+          "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+          "page": 45,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\PEC_LIVRE-BLANC-INNOVATION_2025__p0045.png",
+          "article_id": 189,
+          "rank": 2,
+          "evidence": "Sl ä '.'____ L ).' ds eee R net P “ P eae nglt ons - = Ay =",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\189_PEC_LIVRE-BLANC-INNOVATION_2025__p0045.txt"
+        },
+        {
+          "score": 0.34421974420547485,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 3,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique__p0003.png",
+          "article_id": 48,
+          "rank": 3,
+          "evidence": "- Direction centrale du service interarmées des munitions (DCSIMu) - Direction centrale du service des essences des armées (DCSEA) - Direction interarmées des réseaux d’infrastructure et des systémes d’informations de la",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\48_20181019_NP_DPID_Note-278-vid_oprotection-sur-la-voie-publique__p0003.txt"
+        },
+        {
+          "score": 0.3300784230232239,
+          "doc_name": "Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf",
+          "page": 23,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Maquette-IA-DEFENSE_2025_VDEF_WEB__p0023.png",
+          "article_id": 175,
+          "rank": 4,
+          "evidence": "; wr oh of he atlas # oh rae “Seg abr ; ;\\—_n‘-‘_& oe toe be EN AOE Oe Ca od Dry. > 4 \"obi. bet on git | at Se ye ae A S ee HE ou\".,l“ï \"‘ 2 Piet | Son N oA sy * of we 1 a et Sat ; ue 4 Ÿ . p ” Ë *.l'.(. Om",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\175_Maquette-IA-DEFENSE_2025_VDEF_WEB__p0023.txt"
+        },
+        {
+          "score": 0.3217145502567291,
+          "doc_name": "LMI_PEC_2023.pdf",
+          "page": 51,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\LMI_PEC_2023__p0051.png",
+          "article_id": 168,
+          "rank": 5,
+          "evidence": "",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\168_LMI_PEC_2023__p0051.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q004",
+      "question": "Quel organisme est indiqué comme destinataire de la copie ?",
+      "latency_ms": 595.42,
+      "hits": [
+        {
+          "score": 0.6098111867904663,
+          "doc_name": "20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid__p0002.png",
+          "article_id": 30,
+          "rank": 1,
+          "evidence": "DESTINATAIRES : - DCSSA (intéresse MC Petit / MC Valade / MC Loarer) COPIES : |",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\30_20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid__p0002.txt"
+        },
+        {
+          "score": 0.5949718952178955,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0002.png",
+          "article_id": 24,
+          "rank": 2,
+          "evidence": "DESTINATAIRES : | - EMA/SC OPS (ATCR) | COPIES : |",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\24_20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0002.txt"
+        },
+        {
+          "score": 0.5452678799629211,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.png",
+          "article_id": 1,
+          "rank": 3,
+          "evidence": "DESTINATAIRES : COPIES aux délégués à la défense-sécurité (DDS) : COPIES :",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\1_171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.txt"
+        },
+        {
+          "score": 0.5229266881942749,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0002.png",
+          "article_id": 17,
+          "rank": 4,
+          "evidence": "commémorations du DDAY de 2014. Vous trouverez en annexe, les principales conclusions à tirer de l’analyse de ces trois sécurisations de COPIES : ‘",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\17_20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0002.txt"
+        },
+        {
+          "score": 0.48918265104293823,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0001.png",
+          "article_id": 0,
+          "rank": 5,
+          "evidence": "destinataires « in fine » suite à ses propositions initiales (référence c). Ces enseignements qui font consensus doivent En attendant la parution de ces documents (Politique SSI ministérielle et/ou la Politique SSI des",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\0_171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0001.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q005",
+      "question": "Quels sont les cinq domaines d’activité présentés dans les vignettes en bas de l’affiche ?",
+      "latency_ms": 603.19,
+      "hits": [
+        {
+          "score": 0.4439542591571808,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0011.png",
+          "article_id": 120,
+          "rank": 1,
+          "evidence": "diversité des secteurs d’activité ciblés. Les entreprises ayant fait aux domaines dits « régaliens » (défense, énergie, aérospatial) mais de plateformes en ligne, sélectionnées selon les audiences ciblées,",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\120_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0011.txt"
+        },
+        {
+          "score": 0.40944620966911316,
+          "doc_name": "LSAe_38_V6_FINAL_FINAL_REDUIT.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\LSAe_38_V6_FINAL_FINAL_REDUIT__p0011.png",
+          "article_id": 173,
+          "rank": 2,
+          "evidence": "5 — 4 ME ine q Vio Ot tity en 00 02 ‘ dhs a | dee | {zat coRRIDOR 3431 N ag 2 egy — 4 ae ey ha FL265 / FL295 . ‘.‘ |",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\173_LSAe_38_V6_FINAL_FINAL_REDUIT__p0011.txt"
+        },
+        {
+          "score": 0.39093244075775146,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 22,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0022.png",
+          "article_id": 131,
+          "rank": 3,
+          "evidence": "eons) Bien réagir, c'est d'abord se poser la question de « quand » réagir sociaux, est saturé par un grand nombre d'informations pouvant > prioriser les sujets à traiter, ala fois pour ne pas s'épuiser",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\131_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0022.txt"
+        },
+        {
+          "score": 0.3902508318424225,
+          "doc_name": "EtudePECAPEC_VFinale.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\EtudePECAPEC_VFinale__p0016.png",
+          "article_id": 153,
+          "rank": 4,
+          "evidence": "formation autre | formation scientifique | formaten numérique apéciallsstion Pee orn map ole lop sr 10 all Mn seal ent Poe eer 9 fn aati rare: Bes ray at kare dani ae ied a",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\153_EtudePECAPEC_VFinale__p0016.txt"
+        },
+        {
+          "score": 0.3854844570159912,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0005.png",
+          "article_id": 114,
+          "rank": 5,
+          "evidence": "La réputation est un bien immatériel qui, si elle est difficile à me- porte dans la société et, par ricochet, sa capacité de dialogue avec à atteindre d'autres Etats via la déstabilisation de leur secteur écono-",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\114_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0005.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q006",
+      "question": "Quelle fonction est indiquée sous le nom du vice-amiral Jean-Philippe Chaineau dans le bloc de signature ?",
+      "latency_ms": 599.08,
+      "hits": [
+        {
+          "score": 0.5352339744567871,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique__p0002.png",
+          "article_id": 47,
+          "rank": 1,
+          "evidence": "Il est enfin précisé que l’autorisation de la commission nationale de l’informatique et des libertés Le vice-amiral Jean-Philippe Chaineau, haut fonctionnaire correspondant de défense et sécurité adjoint.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\47_20181019_NP_DPID_Note-278-vid_oprotection-sur-la-voie-publique__p0002.txt"
+        },
+        {
+          "score": 0.47535938024520874,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20081006-np-cicde-pia-3312-drones-2008__p0005.png",
+          "article_id": 6,
+          "rank": 2,
+          "evidence": "- Monsieur le vice-amiral d’escadre, sous-chef « opérations » de l’état-major des armées - Monsieur le général de corps d’armée, sous-chef « organisation » de l’état-major des - Monsieur le général de corps aérien, sous-chef « relations internationales » de l’état-major",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\6_20081006-np-cicde-pia-3312-drones-2008__p0005.txt"
+        },
+        {
+          "score": 0.4645935297012329,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 28,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0028.png",
+          "article_id": 137,
+          "rank": 3,
+          "evidence": "Secrétariat général de la défense et de la sécurité nationale viginum_signalement@sgdsn.gouv.fr",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\137_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0028.txt"
+        },
+        {
+          "score": 0.46208345890045166,
+          "doc_name": "20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20170101_NP_Convention_ASN-ASND - Laboratoires CEA et marine__p0004.png",
+          "article_id": 44,
+          "rank": 4,
+          "evidence": "Après la visite de vérification, une lettre de suite cosignée par les deux autorités est envoyée a Pexploitant dans un délai de trois semaines aprés la visite de vérification et est publiée sur le site écarts constatés et pour prendre en compte les demandes libellées dans la lettre de suite de la",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\44_20170101_NP_Convention_ASN-ASND_-_Laboratoires_CEA_et_marine__p0004.txt"
+        },
+        {
+          "score": 0.4525563418865204,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0001.png",
+          "article_id": 0,
+          "rank": 5,
+          "evidence": "En attendant la parution de ces documents (Politique SSI ministérielle et/ou la Politique SSI des Le contre-amiral Jean-Philippe CHAINEAU haut fonctionnajpe correspondant ple défense",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\0_171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0001.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q007",
+      "question": "Quelle inscription est visible sur le flanc du drone en vol ?",
+      "latency_ms": 594.51,
+      "hits": [
+        {
+          "score": 0.5484522581100464,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 9,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0009.png",
+          "article_id": 163,
+          "rank": 1,
+          "evidence": "—R -— — 4 S ion ot P ESLF = ‘toe — à _ st —<æ ( /yit F p eae, 4R E ge bi) fas [ ¥ =",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\163_Fiche_technique_Reaper__p0009.txt"
+        },
+        {
+          "score": 0.5433098077774048,
+          "doc_name": "Obsdrones - Bulletin-de-veille-n05-septembre-octobre.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Obsdrones - Bulletin-de-veille-n05-septembre-octobre__p0016.png",
+          "article_id": 185,
+          "rank": 2,
+          "evidence": "/ p / & s Défense 2 V— ence d'ntelhggnes 969\" 16",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\185_Obsdrones_-_Bulletin-de-veille-n05-septembre-octobre__p0016.txt"
+        },
+        {
+          "score": 0.5189526081085205,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0005.png",
+          "article_id": 162,
+          "rank": 3,
+          "evidence": "D GR X 2 L a... - ARMEEDEL'AIR — ; M",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\162_Fiche_technique_Reaper__p0005.txt"
+        },
+        {
+          "score": 0.507652997970581,
+          "doc_name": "COLSbleus_3126_PDFweb_PAGE.pdf",
+          "page": 22,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\COLSbleus_3126_PDFweb_PAGE__p0022.png",
+          "article_id": 148,
+          "rank": 4,
+          "evidence": "-— \\' 1 LI i:-l_ ; .Ë’Ê F‘I'_, ~ = ” d 4 jae N T d sae Z 4 at 7 fy T ty = —",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\148_COLSbleus_3126_PDFweb_PAGE__p0022.txt"
+        },
+        {
+          "score": 0.490766704082489,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 19,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0019.png",
+          "article_id": 165,
+          "rank": 5,
+          "evidence": "",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\165_Fiche_technique_Reaper__p0019.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q008",
+      "question": "Quel nom de véhicule est indiqué par la légende placée près du robot chenillé ?",
+      "latency_ms": 597.07,
+      "hits": [
+        {
+          "score": 0.40781736373901367,
+          "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n3 - Mai Juin 2024__p0016.png",
+          "article_id": 182,
+          "rank": 1,
+          "evidence": "e ä ea = D ” a as | ae ” ‘ ————— e à , se (a 4 s4% ÿ-{ n é ce ~ d'Intelligence SV*",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\182_ObsDrones_-_Bulletin_de_veille_n3_-_Mai_Juin_2024__p0016.txt"
+        },
+        {
+          "score": 0.3093305230140686,
+          "doc_name": "caia-125-bd-ok.pdf",
+          "page": 103,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\caia-125-bd-ok__p0103.png",
+          "article_id": 109,
+          "rank": 2,
+          "evidence": "Nexter, architecte et systémier intégrateur de défense terrestre en France, est une référence majeure dans les systèmes blindés de combat et d'artillerie et dans le domaine munitionnaire. Nexter conçoit des solutions innovantes dans les composantes terre, air et mer, afin d'apporter aux forces armées françaises",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\109_caia-125-bd-ok__p0103.txt"
+        },
+        {
+          "score": 0.29220643639564514,
+          "doc_name": "ObsDrones - Bulletin de veille n2 - Mars Avril 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n2 - Mars Avril 2024__p0016.png",
+          "article_id": 181,
+          "rank": 3,
+          "evidence": "' roror 4 \\ 158 a *, 4 = By - n “ ; °° d'Imtelligence SO",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\181_ObsDrones_-_Bulletin_de_veille_n2_-_Mars_Avril_2024__p0016.txt"
+        },
+        {
+          "score": 0.28752899169921875,
+          "doc_name": "20221012_NP_EMAT_GRAT-2022.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20221012_NP_EMAT_GRAT-2022__p0001.png",
+          "article_id": 51,
+          "rank": 4,
+          "evidence": "DES ARMEES an hee ARMEE (JPF TERRE oS | fae ete u,",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\51_20221012_NP_EMAT_GRAT-2022__p0001.txt"
+        },
+        {
+          "score": 0.27268531918525696,
+          "doc_name": "ObsDrones - Bulletin de veille n6 - novembre-décembre 2024.pdf",
+          "page": 17,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n6 - novembre-décembre 2024__p0017.png",
+          "article_id": 184,
+          "rank": 5,
+          "evidence": "—. ; UI fl Mn L ; Affinis @ CCA Défense a Ax ye 17",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\184_ObsDrones_-_Bulletin_de_veille_n6_-_novembre-d_cembre_2024__p0017.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q009",
+      "question": "Quelle année est affichée en grands chiffres près du coin supérieur droit ?",
+      "latency_ms": 598.57,
+      "hits": [
+        {
+          "score": 0.37300336360931396,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 25,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0025.png",
+          "article_id": 134,
+          "rank": 1,
+          "evidence": "Outrele champ de l’action pénale, les voies civiles, et notamment le code de la propriété intellectuelle, peuvent également s'avérer En cas de crise informationnelle, votre direction juridique devra",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\134_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0025.txt"
+        },
+        {
+          "score": 0.34883302450180054,
+          "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+          "page": 19,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\PEC_LIVRE-BLANC-INNOVATION_2025__p0019.png",
+          "article_id": 187,
+          "rank": 2,
+          "evidence": "| Ge s6085 Twit! » ‘ . “Sure Cpun — _n ‘ Ë or ee ee ee fe ee",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\187_PEC_LIVRE-BLANC-INNOVATION_2025__p0019.txt"
+        },
+        {
+          "score": 0.34313148260116577,
+          "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+          "page": 7,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Stratégie nationale de lutte contre les manipulations de l'information_FR__p0007.png",
+          "article_id": 192,
+          "rank": 3,
+          "evidence": "SYNTHESE EXECUTIVE",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\192_Strat_gie_nationale_de_lutte_contre_les_manipulations_de_l_information_FR__p0007.txt"
+        },
+        {
+          "score": 0.33763962984085083,
+          "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Stratégie nationale de lutte contre les manipulations de l'information_FR__p0011.png",
+          "article_id": 193,
+          "rank": 4,
+          "evidence": "IDAGNOSTÇ",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\193_Strat_gie_nationale_de_lutte_contre_les_manipulations_de_l_information_FR__p0011.txt"
+        },
+        {
+          "score": 0.33067038655281067,
+          "doc_name": "RNCE_19_Juillet_2023.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\RNCE_19_Juillet_2023__p0001.png",
+          "article_id": 190,
+          "rank": 5,
+          "evidence": "ET DE LA SOUVERAINETE IŒÆUSTRIELLE ET NUMERIQUE RECUEIL DES NORMES",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\190_RNCE_19_Juillet_2023__p0001.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q010",
+      "question": "Quelles sont les trois conditions indiquées comme nécessaires à la réussite de la participation des armées à la sécurité des grands événements ?",
+      "latency_ms": 597.01,
+      "hits": [
+        {
+          "score": 0.4049772024154663,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0004.png",
+          "article_id": 19,
+          "rank": 1,
+          "evidence": "- de protection et de sécurité, l’engagement des armées obéit à une logique de milieu. La sécurité des milieux aériens et maritimes, dans lesquels les armées sont les seules à disposer des moyens adéquats, est derniers, les armées devront définir un état final recherché propre a leur participation et des objectifs à",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\19_20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0004.txt"
+        },
+        {
+          "score": 0.3963114023208618,
+          "doc_name": "20160527_np_cicde_108_lettre_gagner_la_guerre_gagner_la_paix_-_approche_retex.pdf",
+          "page": 7,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160527_np_cicde_108_lettre_gagner_la_guerre_gagner_la_paix_-_approche_retex__p0007.png",
+          "article_id": 40,
+          "rank": 2,
+          "evidence": "constatations peuvent être perçues comme le signe avant-coureur de fissurations dont il est difficile la courbe du moral tel qu’il est évalué dans les rapports dédiés). Dans ce contexte, les armées doivent des proportions parfois inquiétantes et, d’autre part de préserver les leviers nécessaires à l’amélioration",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\40_20160527_np_cicde_108_lettre_gagner_la_guerre_gagner_la_paix_-_approche_retex__p0007.txt"
+        },
+        {
+          "score": 0.3935088515281677,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0006.png",
+          "article_id": 28,
+          "rank": 3,
+          "evidence": "e La participation d’officiers du SSA aux travaux de planification opérationnelle est b massive à forte létalité » comme un pivot de la résilience du fonctionnement de l’Etat matériel générique sera également nécessaire pour le soutien ou le déploiement des armées.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\28_20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0006.txt"
+        },
+        {
+          "score": 0.3898923099040985,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0005.png",
+          "article_id": 57,
+          "rank": 4,
+          "evidence": "affectées aux moyens nécessaires à la conduite de la politique de dissuasion et dont l’activité est Un incident de sécurité est caractérisé par l’association d’un ou plusieurs événements de sécurité Personnel d’un organisme public ou privé chargé de la sécurité au sein de son organisation et de la",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\57_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0005.txt"
+        },
+        {
+          "score": 0.38871562480926514,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0001.png",
+          "article_id": 16,
+          "rank": 5,
+          "evidence": "OBJET : retour d’expérience de la participation des armées à l’organisation des grands de la participation des armées a la protection des grands événements (type | L’organisation de la sécurité de cet événement majeur sera confiée au ministère de l’intérieur.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\16_20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0001.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q011",
+      "question": "Quel objet est tenu par les doigts au-dessus d’un assemblage incomplet ?",
+      "latency_ms": 596.13,
+      "hits": [
+        {
+          "score": 0.5136317014694214,
+          "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+          "page": 33,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\PEC_LIVRE-BLANC-INNOVATION_2025__p0033.png",
+          "article_id": 188,
+          "rank": 1,
+          "evidence": "Ë —P ee S (R la Z e> = — == _ —— ——s q So —s = — == —",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\188_PEC_LIVRE-BLANC-INNOVATION_2025__p0033.txt"
+        },
+        {
+          "score": 0.49135521054267883,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Feuille de route stratégique OSIIC 2024-2027 NP v1.0__p0001.png",
+          "article_id": 154,
+          "rank": 2,
+          "evidence": "SYSTEMES D'INFORMATION INTERMINISTERIELS FEUILLE DE ROUTE STRATEGIQUE",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\154_Feuille_de_route_strat_gique_OSIIC_2024-2027_NP_v1.0__p0001.txt"
+        },
+        {
+          "score": 0.3996860980987549,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.png",
+          "article_id": 1,
+          "rank": 3,
+          "evidence": "- Monsieur le directeur général des systèmes d’information et de communication ; - Monsieur le directeur du renseignement et de la sécurité de la défense ; = EMA/COMCYBER (a l’attention du représentant de l’autorité qualifiée en SSI)",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\1_171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.txt"
+        },
+        {
+          "score": 0.38990193605422974,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0002.png",
+          "article_id": 17,
+          "rank": 4,
+          "evidence": "Vous trouverez en annexe, les principales conclusions à tirer de l’analyse de ces trois sécurisations de grands rendez-vous. Elles confirment la validité et la pertinence de la PIA 3.39 (promulguée en 2013) relative à la planification et à la conduite de la participation des armées à la protection des grands",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\17_20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0002.txt"
+        },
+        {
+          "score": 0.38906723260879517,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 25,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0025.png",
+          "article_id": 134,
+          "rank": 5,
+          "evidence": "Outrele champ de l’action pénale, les voies civiles, et notamment le code de la propriété intellectuelle, peuvent également s'avérer En cas de crise informationnelle, votre direction juridique devra",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\134_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0025.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q012",
+      "question": "Quels sont les quatre grands types de formation indiqués en en-tête du tableau ?",
+      "latency_ms": 579.66,
+      "hits": [
+        {
+          "score": 0.49117928743362427,
+          "doc_name": "EtudePECAPEC_VFinale.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\EtudePECAPEC_VFinale__p0016.png",
+          "article_id": 153,
+          "rank": 1,
+          "evidence": "formation autre | formation scientifique | formaten numérique apéciallsstion Pee orn map ole lop sr 10 all Mn seal ent Poe eer 9 fn aati rare: Bes ray at kare dani ae ied a",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\153_EtudePECAPEC_VFinale__p0016.txt"
+        },
+        {
+          "score": 0.34740519523620605,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 3,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0003.png",
+          "article_id": 55,
+          "rank": 2,
+          "evidence": "CEA/DAM Commissariat a l'énergie atomique et aux énergies alternatives/ Direction des DPID Direction de la protection des installations, moyens et activités de la défense IGN Institut national de l'information géographique et forestière",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\55_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0003.txt"
+        },
+        {
+          "score": 0.34484440088272095,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 27,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0027.png",
+          "article_id": 136,
+          "rank": 3,
+          "evidence": "sive des nouvelles falsifiées, inexactes (désinformation) ou en- core associées à de vraies informations pour les rendre crédibles, sorties de leur contexte ou partielles (malinformation). Notion",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\136_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0027.txt"
+        },
+        {
+          "score": 0.3225054144859314,
+          "doc_name": "20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique.pdf",
+          "page": 3,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20181019_NP_DPID_Note-278-vidéoprotection-sur-la-voie-publique__p0003.png",
+          "article_id": 48,
+          "rank": 4,
+          "evidence": "- Direction centrale du service interarmées des munitions (DCSIMu) - Direction centrale du service des essences des armées (DCSEA) - Direction interarmées des réseaux d’infrastructure et des systémes d’informations de la",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\48_20181019_NP_DPID_Note-278-vid_oprotection-sur-la-voie-publique__p0003.txt"
+        },
+        {
+          "score": 0.3199051022529602,
+          "doc_name": "2011113_IGI 1300_Protection du secret de la defense nationale_NP.pdf",
+          "page": 147,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\2011113_IGI 1300_Protection du secret de la defense nationale_NP__p0147.png",
+          "article_id": 9,
+          "rank": 5,
+          "evidence": "Date de raisance ‘Code Nationalite Eventuel domicile distinct re Père | MÉÈCE poor on uv Ate ea a ott cu ] Nom et adresse de l'employeur actuel",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\9_2011113_IGI_1300_Protection_du_secret_de_la_defense_nationale_NP__p0147.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q013",
+      "question": "Quelle inscription apparaît en grandes lettres sur le fuselage de l’avion ?",
+      "latency_ms": 597.61,
+      "hits": [
+        {
+          "score": 0.46158891916275024,
+          "doc_name": "ObsDrones - Bulletin de veille n6 - novembre-décembre 2024.pdf",
+          "page": 17,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n6 - novembre-décembre 2024__p0017.png",
+          "article_id": 184,
+          "rank": 1,
+          "evidence": "—. ; UI fl Mn L ; Affinis @ CCA Défense a Ax ye 17",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\184_ObsDrones_-_Bulletin_de_veille_n6_-_novembre-d_cembre_2024__p0017.txt"
+        },
+        {
+          "score": 0.415752112865448,
+          "doc_name": "Fiche technique A330.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique A330__p0005.png",
+          "article_id": 158,
+          "rank": 2,
+          "evidence": "\" me = REON ,..n‘è‘è‘,f,_ > \\ll‘u\\“““.“‘ SF AE 2 mat ae 6) = I\", # e * “",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\158_Fiche_technique_A330__p0005.txt"
+        },
+        {
+          "score": 0.3974548280239105,
+          "doc_name": "Fiche technique A400M.pdf",
+          "page": 3,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique A400M__p0003.png",
+          "article_id": 159,
+          "rank": 3,
+          "evidence": ", CMe n - -",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\159_Fiche_technique_A400M__p0003.txt"
+        },
+        {
+          "score": 0.3837820589542389,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0005.png",
+          "article_id": 162,
+          "rank": 4,
+          "evidence": "D GR X 2 L a... - ARMEEDEL'AIR — ; M",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\162_Fiche_technique_Reaper__p0005.txt"
+        },
+        {
+          "score": 0.3700091242790222,
+          "doc_name": "Fiche technique A400M.pdf",
+          "page": 12,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique A400M__p0012.png",
+          "article_id": 161,
+          "rank": 5,
+          "evidence": "« « mes, — = — 2S p ps = . “ .… . + tage S _— = Ss",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\161_Fiche_technique_A400M__p0012.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q014",
+      "question": "Quelle version du rapport technique est indiquée sous le titre principal ?",
+      "latency_ms": 596.3,
+      "hits": [
+        {
+          "score": 0.5967011451721191,
+          "doc_name": "20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516__p0001.png",
+          "article_id": 96,
+          "rank": 1,
+          "evidence": "PREMIER Secrétariat général de la défense Version : 1.0 VIGINUM Rapport technique Mai 2025",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\96_20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport_technique_Storm-1516__p0001.txt"
+        },
+        {
+          "score": 0.5333337783813477,
+          "doc_name": "20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR__p0001.png",
+          "article_id": 97,
+          "rank": 2,
+          "evidence": "PREMIER Secrétariat général de la défense Version : 1.0 Rapport technique Juin 2025",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\97_20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR__p0001.txt"
+        },
+        {
+          "score": 0.4028205871582031,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 10,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0010.png",
+          "article_id": 88,
+          "rank": 3,
+          "evidence": "Le CICOS confirme qu’un centre national n’est pas sous la coupe du COMBDD. Le COL FERRER Le CICOS comprend que le sujet est techniquement compliqué car il ne peut se faire La prochaine bilatérale technique est prévue pour le 7 décembre 2023 de 14h00 a 16h00.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\88_20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0010.txt"
+        },
+        {
+          "score": 0.38193821907043457,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0008.png",
+          "article_id": 86,
+          "rank": 4,
+          "evidence": "métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. équipés én ADSL et 4G (les sites équipés en fibre fonctionneraient trés bien). A court terme, le 5. Suivi des actions de la précédente bilatérale technique",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\86_20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0008.txt"
+        },
+        {
+          "score": 0.3710077702999115,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0001.png",
+          "article_id": 79,
+          "rank": 5,
+          "evidence": "OBJET : bilatérale technique entre le centre interarmées de coordination du soutien P. JOINTES : - une annexe: procès-verbal de la bilatérale technique ; - support de présentation de la bilatérale technique.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\79_20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0001.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q015",
+      "question": "Dans la comparaison visuelle des drones de combat, quel modèle est associé au constructeur Piaggio ?",
+      "latency_ms": 599.97,
+      "hits": [
+        {
+          "score": 0.5166366100311279,
+          "doc_name": "unmanned_vehicles_size.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\unmanned_vehicles_size__p0001.png",
+          "article_id": 194,
+          "rank": 1,
+          "evidence": "Unmanned Combat Aerial Vehicle “ TF \"* (Harrier Hawk) Chengdu W Wing Loong | (Pterodactyl) a2 So ase aw | Yan ying (Cloud Shadow) \\y _—_el. BGM-34C (Model 259)",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\194_unmanned_vehicles_size__p0001.txt"
+        },
+        {
+          "score": 0.5133912563323975,
+          "doc_name": "Maquette-IA-DEFENSE_2025_VDEF_WEB.pdf",
+          "page": 71,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Maquette-IA-DEFENSE_2025_VDEF_WEB__p0071.png",
+          "article_id": 178,
+          "rank": 2,
+          "evidence": "t ; = od T ï ._ _ J ‘ l' S Ë al a -",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\178_Maquette-IA-DEFENSE_2025_VDEF_WEB__p0071.txt"
+        },
+        {
+          "score": 0.48016101121902466,
+          "doc_name": "Fiche technique Reaper.pdf",
+          "page": 23,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique Reaper__p0023.png",
+          "article_id": 166,
+          "rank": 3,
+          "evidence": ". æ 4 Uk ¢ #} / 88",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\166_Fiche_technique_Reaper__p0023.txt"
+        },
+        {
+          "score": 0.45863133668899536,
+          "doc_name": "bem-48.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0001.png",
+          "article_id": 99,
+          "rank": 4,
+          "evidence": "Bulletin d'études Les drones aériens dans l'action maritime",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\99_bem-48__p0001.txt"
+        },
+        {
+          "score": 0.45471441745758057,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation__p0002.png",
+          "article_id": 152,
+          "rank": 5,
+          "evidence": "Apres un premier vol réussi le 24 janvier 2025, l’Albatros fait aujourd’hui l’objet de vols d'essais et de certification conduits avec la contribution du centre DGA Essais en vol, sur notamment de type drones, afin d’atteindre 100 % des objectifs de surveillance.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\152_Communiqu__A_La_DGA_commande_cinq_avions_de_surveillance_Albatros_Dassault_Aviation__p0002.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q016",
+      "question": "Quel numéro est inscrit à la fois sur la coque et sur la voile du drone marin orange ?",
+      "latency_ms": 582.69,
+      "hits": [
+        {
+          "score": 0.522366464138031,
+          "doc_name": "ObsDrones - Bulletin de veille n1 - Janvier Février 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n1 - Janvier Février 2024__p0016.png",
+          "article_id": 180,
+          "rank": 1,
+          "evidence": "—— >, ‘ /\":— … | Défense > ; <e © d'Intelligence Sua",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\180_ObsDrones_-_Bulletin_de_veille_n1_-_Janvier_F_vrier_2024__p0016.txt"
+        },
+        {
+          "score": 0.4592549204826355,
+          "doc_name": "COLSbleus_3126_PDFweb_PAGE.pdf",
+          "page": 22,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\COLSbleus_3126_PDFweb_PAGE__p0022.png",
+          "article_id": 148,
+          "rank": 2,
+          "evidence": "-— \\' 1 LI i:-l_ ; .Ë’Ê F‘I'_, ~ = ” d 4 jae N T d sae Z 4 at 7 fy T ty = —",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\148_COLSbleus_3126_PDFweb_PAGE__p0022.txt"
+        },
+        {
+          "score": 0.3611046373844147,
+          "doc_name": "bem-48.pdf",
+          "page": 88,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0088.png",
+          "article_id": 108,
+          "rank": 3,
+          "evidence": "Centre d'enseignement supérieur de la Marine Case 8 — 1, place Joffre 75007 — PARIS SP 07",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\108_bem-48__p0088.txt"
+        },
+        {
+          "score": 0.34851711988449097,
+          "doc_name": "bem-48.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0001.png",
+          "article_id": 99,
+          "rank": 4,
+          "evidence": "de la Marine Les drones aériens dans l'action maritime",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\99_bem-48__p0001.txt"
+        },
+        {
+          "score": 0.3472772240638733,
+          "doc_name": "bem-48.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0005.png",
+          "article_id": 101,
+          "rank": 5,
+          "evidence": "LES AUTEURS nombre ('érere nous car coardannent à un monde pene: miltaires, drones civils, ds se générabsent et syubmes de drones par types, par familles. par pays",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\101_bem-48__p0005.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q017",
+      "question": "À quelle date l’Albatros a-t-il effectué son premier vol réussi ?",
+      "latency_ms": 599.19,
+      "hits": [
+        {
+          "score": 0.6209861636161804,
+          "doc_name": "Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Communiqué_A_La DGA commande cinq avions de surveillance Albatros à Dassault Aviation__p0002.png",
+          "article_id": 152,
+          "rank": 1,
+          "evidence": "Apres un premier vol réussi le 24 janvier 2025, l’Albatros fait aujourd’hui l’objet de vols le site d’Istres (13), en vue d'une première capacité opérationnelle (PCO) fin 2026. Conduit par étapes, le programme AVSIMAR vise dans un premier temps a acquérir une",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\152_Communiqu__A_La_DGA_commande_cinq_avions_de_surveillance_Albatros_Dassault_Aviation__p0002.txt"
+        },
+        {
+          "score": 0.34569698572158813,
+          "doc_name": "bem-48.pdf",
+          "page": 29,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0029.png",
+          "article_id": 103,
+          "rank": 2,
+          "evidence": "m -'---.- .-l\". ùs \" -l-\" 4 sit ee e sh me ; '.' ; oR : v .' ‘ \" —E + ï = ge ed ssbsseicvaseusyareesees k ae > - = : . ; — -«:'«*F:'.',_\".\"\"-: = — uKT pasnue",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\103_bem-48__p0029.txt"
+        },
+        {
+          "score": 0.3016167879104614,
+          "doc_name": "bem-48.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0005.png",
+          "article_id": 101,
+          "rank": 3,
+          "evidence": "= F ; iid apséclallide. Duc fiit de ly Précorraispece i i — = at, ilk ieee apésre wires de mptére pour unt prac LES AUTEURS nombre ('érere nous car coardannent à un monde",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\101_bem-48__p0005.txt"
+        },
+        {
+          "score": 0.2832602858543396,
+          "doc_name": "Fiche technique A400M.pdf",
+          "page": 12,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Fiche technique A400M__p0012.png",
+          "article_id": 161,
+          "rank": 4,
+          "evidence": "« « mes, — = — 2S p ps = . “ .… . + tage S _— = Ss",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\161_Fiche_technique_A400M__p0012.txt"
+        },
+        {
+          "score": 0.2805750370025635,
+          "doc_name": "LSAe_38_V6_FINAL_FINAL_REDUIT.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\LSAe_38_V6_FINAL_FINAL_REDUIT__p0011.png",
+          "article_id": 173,
+          "rank": 5,
+          "evidence": "5 — 4 ME ine q Vio Ot tity en 00 02 ‘ dhs a | dee | {zat coRRIDOR 3431 N ag 2 egy — 4 ae ey ha FL265 / FL295 . ‘.‘ |",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\173_LSAe_38_V6_FINAL_FINAL_REDUIT__p0011.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q018",
+      "question": "Quel nom d’auteur apparaît en grandes lettres jaunes sous le sous-titre ?",
+      "latency_ms": 599.82,
+      "hits": [
+        {
+          "score": 0.38056227564811707,
+          "doc_name": "bem-48.pdf",
+          "page": 73,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0073.png",
+          "article_id": 106,
+          "rank": 1,
+          "evidence": "es sous-marins sous- marines frangaises fant lear névolathon — LHL_ - = ' = viel commbatltiiel ls fouces sous/muatines Traut atlas ~— — — =,",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\106_bem-48__p0073.txt"
+        },
+        {
+          "score": 0.3770923912525177,
+          "doc_name": "bem-48.pdf",
+          "page": 29,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0029.png",
+          "article_id": 103,
+          "rank": 2,
+          "evidence": "m -'---.- .-l\". ùs \" -l-\" 4 sit ee e sh me ; '.' ; oR : v .' ‘ \" —E + Les Sous-marins ï = ge ed ssbsseicvaseusyareesees k ae > - =",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\103_bem-48__p0029.txt"
+        },
+        {
+          "score": 0.3128112554550171,
+          "doc_name": "bem-48.pdf",
+          "page": 79,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0079.png",
+          "article_id": 107,
+          "rank": 3,
+          "evidence": "Peter Lang Pt ur core Pariser Belgrade durant une periode churniere quit wall 4. FY rc métere en place les inéaments des crises yougonlaves de la fin du e à q XX\" siècle. Dy est démontré à tous les niveaux le poids de la premiere",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\107_bem-48__p0079.txt"
+        },
+        {
+          "score": 0.3056883215904236,
+          "doc_name": "PEC_LIVRE-BLANC-INNOVATION_2025.pdf",
+          "page": 45,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\PEC_LIVRE-BLANC-INNOVATION_2025__p0045.png",
+          "article_id": 189,
+          "rank": 4,
+          "evidence": "Sl ä '.'____ L ).' ds eee R net P “ P eae nglt ons - = Ay =",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\189_PEC_LIVRE-BLANC-INNOVATION_2025__p0045.txt"
+        },
+        {
+          "score": 0.30350589752197266,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0004.png",
+          "article_id": 113,
+          "rank": 5,
+          "evidence": "tabilisation en ligne n’ont cessé de croître à la faveur d’un contexte tant qu’entreprises françaises, vous êtes susceptibles de faire l'objet l'image de la France. Derriére votre chiffre d’affaires, ce sont les inté-",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\113_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0004.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q019",
+      "question": "Pourquoi les métriques de visibilité des plateformes sont-elles présentées comme des indicateurs imparfaits ?",
+      "latency_ms": 591.24,
+      "hits": [
+        {
+          "score": 0.5214882493019104,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 23,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0023.png",
+          "article_id": 132,
+          "rank": 1,
+          "evidence": "Les métriques affichées par les plateformes peuvent certes ces derniers n’en restent pas moins des indicateurs imparfaits viralité telles que définies par les indicateurs clés de",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\132_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0023.txt"
+        },
+        {
+          "score": 0.4864857494831085,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 22,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0022.png",
+          "article_id": 131,
+          "rank": 2,
+          "evidence": "attaques informationnelles quireléveraient de l'ingérence éviter de donner de la visibilité à des contenus qui n‘en plateformes, c’est-a-dire des indicateurs liés a la viralité",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\131_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0022.txt"
+        },
+        {
+          "score": 0.327932208776474,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 8,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0008.png",
+          "article_id": 117,
+          "rank": 3,
+          "evidence": "étatiques fait des entreprises françaises des cibles de choix de la versité d'acteurs : groupes militants, clients mécontents, concur- 1, Lensemble des termes techniques utilisés sont définis en annexe de ce guide.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\117_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0008.txt"
+        },
+        {
+          "score": 0.31751978397369385,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 15,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0015.png",
+          "article_id": 124,
+          "rank": 4,
+          "evidence": "Cette technique consiste a extraire un visuel (image, vidéo, etc.) commerciale du protagoniste. Cette vidéo a ensuite été reprise sur les plateformes par des chaines affiliées a des dispositifs",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\124_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0015.txt"
+        },
+        {
+          "score": 0.31680595874786377,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 14,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0014.png",
+          "article_id": 123,
+          "rank": 5,
+          "evidence": "est ainsi identifié comme un expert de son sujet de prédilection, ou comme une source d'information fiable ou d’inspiration ont a leur tour été repris sur les plateformes par des chaines",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\123_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0014.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q020",
+      "question": "Quels sont les deux noms de logos visibles en bas de l’image ?",
+      "latency_ms": 580.2,
+      "hits": [
+        {
+          "score": 0.45541855692863464,
+          "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+          "page": 7,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Stratégie nationale de lutte contre les manipulations de l'information_FR__p0007.png",
+          "article_id": 192,
+          "rank": 1,
+          "evidence": "SYNTHESE EXECUTIVE",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\192_Strat_gie_nationale_de_lutte_contre_les_manipulations_de_l_information_FR__p0007.txt"
+        },
+        {
+          "score": 0.4436822831630707,
+          "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Stratégie nationale de lutte contre les manipulations de l'information_FR__p0011.png",
+          "article_id": 193,
+          "rank": 2,
+          "evidence": "IDAGNOSTÇ",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\193_Strat_gie_nationale_de_lutte_contre_les_manipulations_de_l_information_FR__p0011.txt"
+        },
+        {
+          "score": 0.4289615750312805,
+          "doc_name": "RNCE_19_Juillet_2023.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\RNCE_19_Juillet_2023__p0001.png",
+          "article_id": 190,
+          "rank": 3,
+          "evidence": "ET DE LA SOUVERAINETE IŒÆUSTRIELLE ET NUMERIQUE RECUEIL DES NORMES",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\190_RNCE_19_Juillet_2023__p0001.txt"
+        },
+        {
+          "score": 0.4179087281227112,
+          "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - bulletin de veille n4 - Juillet Aout 2024__p0016.png",
+          "article_id": 183,
+          "rank": 4,
+          "evidence": "%, ËÏ*‘Î_Ï‘_ | ' L | Affinis @ C Défense 23> _",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\183_ObsDrones_-_bulletin_de_veille_n4_-_Juillet_Aout_2024__p0016.txt"
+        },
+        {
+          "score": 0.40612196922302246,
+          "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n3 - Mai Juin 2024__p0016.png",
+          "article_id": 182,
+          "rank": 5,
+          "evidence": "e ä ea = D ” a as | ae ” ‘ ————— e à , se (a 4 s4% ÿ-{ n é ce ~ d'Intelligence SV*",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\182_ObsDrones_-_Bulletin_de_veille_n3_-_Mai_Juin_2024__p0016.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q021",
+      "question": "Quelle date est indiquée en bas à droite du visuel ?",
+      "latency_ms": 577.6,
+      "hits": [
+        {
+          "score": 0.414215624332428,
+          "doc_name": "20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2__p0002.png",
+          "article_id": 49,
+          "rank": 1,
+          "evidence": "",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\49_20190909_NP_EMAT-NP_LE508717-SYNTHESE-ANNUELLE-DU-RETEX-CYCLE-2018-2019-2__p0002.txt"
+        },
+        {
+          "score": 0.4020499885082245,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 9,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0009.png",
+          "article_id": 61,
+          "rank": 2,
+          "evidence": "ou principal naissance H SI PERSONNE PHYSIQUE Date et lieu de",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\61_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0009.txt"
+        },
+        {
+          "score": 0.3950238823890686,
+          "doc_name": "RNCE_19_Juillet_2023.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\RNCE_19_Juillet_2023__p0001.png",
+          "article_id": 190,
+          "rank": 3,
+          "evidence": "ET DE LA SOUVERAINETE IŒÆUSTRIELLE ET NUMERIQUE RECUEIL DES NORMES",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\190_RNCE_19_Juillet_2023__p0001.txt"
+        },
+        {
+          "score": 0.3919905126094818,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 8,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0008.png",
+          "article_id": 60,
+          "rank": 4,
+          "evidence": "dans le cadre de I’autorisation mentionnée a l'article L. 6224-1 du code des transports et aux articles R. 133-6 et suivants du code de l’aviation civile «, ala direction de la protection des installations, moyens et activités de la défense (DPID) s‘agissant des mission, contrat cadre...) datés et signés (avec authentification) ;",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\60_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0008.txt"
+        },
+        {
+          "score": 0.38739150762557983,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0004.png",
+          "article_id": 82,
+          "rank": 5,
+          "evidence": "20K€ et non ceux inférieurs à 20K€ qui restent au niveau BDD. La difficulté est qu’ils remontent Le COL FERRER indique qu'il faut donc un outil pour suivre la demande et le stade de réalisation Action 2023.2.1: inscrire au cahier des charges de SICLOP son interfaçage avec DIADEME, COSI",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\82_20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0004.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q022",
+      "question": "Quel destinataire est mis en évidence par un surlignage jaune dans la liste des destinataires ?",
+      "latency_ms": 588.36,
+      "hits": [
+        {
+          "score": 0.5402021408081055,
+          "doc_name": "171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.png",
+          "article_id": 1,
+          "rank": 1,
+          "evidence": "DESTINATAIRES : - Monsieur le directeur général des systèmes d’information et de communication ; - Monsieur le directeur du renseignement et de la sécurité de la défense ;",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\1_171110_np_arm-dpid_286-no-homologation-des-systemes-de-protection-de-site__p0002.txt"
+        },
+        {
+          "score": 0.5039172172546387,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 12,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0012.png",
+          "article_id": 90,
+          "rank": 2,
+          "evidence": "LISTE DE DIFFUSION DESTINATAIRES : — DIRISI/DIV NUMMO",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\90_20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0012.txt"
+        },
+        {
+          "score": 0.46300503611564636,
+          "doc_name": "20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid__p0002.png",
+          "article_id": 30,
+          "rank": 3,
+          "evidence": "DESTINATAIRES : - EMA/CPCO (intéresse J3 / JS / J7) - DCSSA (intéresse MC Petit / MC Valade / MC Loarer)",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\30_20160426_np_cicde_084_lettre_synthese_croisee_gb-fr_operations_face_epid__p0002.txt"
+        },
+        {
+          "score": 0.46123600006103516,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0002.png",
+          "article_id": 24,
+          "rank": 4,
+          "evidence": "DESTINATAIRES : | - EMA/SC OPS (ATCR) | - CPOIA (ex EMIA-FE)",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\24_20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0002.txt"
+        },
+        {
+          "score": 0.4423934519290924,
+          "doc_name": "20081006-np-cicde-pia-3312-drones-2008.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20081006-np-cicde-pia-3312-drones-2008__p0004.png",
+          "article_id": 5,
+          "rank": 5,
+          "evidence": "DESTINATAIRES : - Monsieur le général de corps aérien, inspecteur des forces en opération et de la défense - Monsieur l’ingénieur général de 1™ classe, directeur central du service des essences des",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\5_20081006-np-cicde-pia-3312-drones-2008__p0004.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q023",
+      "question": "Quelle version et quelle date sont indiquées sous le titre du document ?",
+      "latency_ms": 576.94,
+      "hits": [
+        {
+          "score": 0.38857555389404297,
+          "doc_name": "20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI__p0001.png",
+          "article_id": 98,
+          "rank": 1,
+          "evidence": "Définitions et objectifs du concept de ; « mode opératoire informationnel» (MOI) Version 1.0 | Janvier 2026",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\98_20260122_NP_TLP-CLEAR_SGDSN_VIGINUM_MOI__p0001.txt"
+        },
+        {
+          "score": 0.36996224522590637,
+          "doc_name": "20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR__p0001.png",
+          "article_id": 97,
+          "rank": 2,
+          "evidence": "PREMIER Secrétariat général de la défense MINISTRE et de la sécurité nationale Version : 1.0",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\97_20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR__p0001.txt"
+        },
+        {
+          "score": 0.3593004643917084,
+          "doc_name": "20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport technique_Storm-1516__p0001.png",
+          "article_id": 96,
+          "rank": 3,
+          "evidence": "PREMIER Secrétariat général de la défense MINISTRE et de la sécurité nationale Version : 1.0 VIGINUM",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\96_20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport_technique_Storm-1516__p0001.txt"
+        },
+        {
+          "score": 0.351018488407135,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 26,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0026.png",
+          "article_id": 78,
+          "rank": 4,
+          "evidence": "schéma récapitulatif de l’annexe Ill - La procédure pour les opérateurs de captation échéant des documents complémentaires nécessaires à prescriptions indiquées dans la dérogation.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\78_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0026.txt"
+        },
+        {
+          "score": 0.3461746871471405,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0005.png",
+          "article_id": 27,
+          "rank": 5,
+          "evidence": "renforcent les principes généraux de ce document. Nota: ce document est en cours de révision. Sa dénomination sera: DIA- exceptionnelle, ils sont élaborés par les agences régionales de santé et mis a la disposition des |",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\27_20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0005.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q024",
+      "question": "Quel organisme est associé au logo en forme de bouclier contenant un réseau de points ?",
+      "latency_ms": 582.09,
+      "hits": [
+        {
+          "score": 0.39393115043640137,
+          "doc_name": "CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf",
+          "page": 28,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0028.png",
+          "article_id": 137,
+          "rank": 1,
+          "evidence": "Secrétariat général de la défense et de la sécurité nationale viginum_signalement@sgdsn.gouv.fr",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\137_CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25__p0028.txt"
+        },
+        {
+          "score": 0.389792799949646,
+          "doc_name": "RNCE_19_Juillet_2023.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\RNCE_19_Juillet_2023__p0001.png",
+          "article_id": 190,
+          "rank": 2,
+          "evidence": "ET DE LA SOUVERAINETE IŒÆUSTRIELLE ET NUMERIQUE RECUEIL DES NORMES",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\190_RNCE_19_Juillet_2023__p0001.txt"
+        },
+        {
+          "score": 0.3851615786552429,
+          "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - bulletin de veille n4 - Juillet Aout 2024__p0016.png",
+          "article_id": 183,
+          "rank": 3,
+          "evidence": "%, ËÏ*‘Î_Ï‘_ | ' L | Affinis @ C Défense 23> _",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\183_ObsDrones_-_bulletin_de_veille_n4_-_Juillet_Aout_2024__p0016.txt"
+        },
+        {
+          "score": 0.3842831552028656,
+          "doc_name": "Stratégie nationale de lutte contre les manipulations de l'information_FR.pdf",
+          "page": 7,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Stratégie nationale de lutte contre les manipulations de l'information_FR__p0007.png",
+          "article_id": 192,
+          "rank": 4,
+          "evidence": "SYNTHESE EXECUTIVE",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\192_Strat_gie_nationale_de_lutte_contre_les_manipulations_de_l_information_FR__p0007.txt"
+        },
+        {
+          "score": 0.37669837474823,
+          "doc_name": "ObsDrones - Bulletin de veille n2 - Mars Avril 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n2 - Mars Avril 2024__p0016.png",
+          "article_id": 181,
+          "rank": 5,
+          "evidence": "' roror 4 \\ 158 a *, 4 = By - n “ ; °° d'Imtelligence SO",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\181_ObsDrones_-_Bulletin_de_veille_n2_-_Mars_Avril_2024__p0016.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q025",
+      "question": "Quels sont les deux organismes dont les logos apparaissent en bas de l’image ?",
+      "latency_ms": 594.99,
+      "hits": [
+        {
+          "score": 0.47414281964302063,
+          "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - bulletin de veille n4 - Juillet Aout 2024__p0016.png",
+          "article_id": 183,
+          "rank": 1,
+          "evidence": "%, ËÏ*‘Î_Ï‘_ | ' L | Affinis @ C Défense 23> _",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\183_ObsDrones_-_bulletin_de_veille_n4_-_Juillet_Aout_2024__p0016.txt"
+        },
+        {
+          "score": 0.4468384087085724,
+          "doc_name": "ObsDrones - Bulletin de veille n3 - Mai Juin 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n3 - Mai Juin 2024__p0016.png",
+          "article_id": 182,
+          "rank": 2,
+          "evidence": "e ä ea = D ” a as | ae ” ‘ ————— e à , se (a 4 s4% ÿ-{ n é ce ~ d'Intelligence SV*",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\182_ObsDrones_-_Bulletin_de_veille_n3_-_Mai_Juin_2024__p0016.txt"
+        },
+        {
+          "score": 0.44574272632598877,
+          "doc_name": "Obsdrones - Bulletin-de-veille-n05-septembre-octobre.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Obsdrones - Bulletin-de-veille-n05-septembre-octobre__p0016.png",
+          "article_id": 185,
+          "rank": 3,
+          "evidence": "/ p / & s Défense 2 V— ence d'ntelhggnes 969\" 16",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\185_Obsdrones_-_Bulletin-de-veille-n05-septembre-octobre__p0016.txt"
+        },
+        {
+          "score": 0.43749135732650757,
+          "doc_name": "ObsDrones - Bulletin de veille n2 - Mars Avril 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n2 - Mars Avril 2024__p0016.png",
+          "article_id": 181,
+          "rank": 4,
+          "evidence": "' roror 4 \\ 158 a *, 4 = By - n “ ; °° d'Imtelligence SO",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\181_ObsDrones_-_Bulletin_de_veille_n2_-_Mars_Avril_2024__p0016.txt"
+        },
+        {
+          "score": 0.43749135732650757,
+          "doc_name": "ObsDrones - Bulletin de veille n1 - Janvier Février 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n1 - Janvier Février 2024__p0016.png",
+          "article_id": 180,
+          "rank": 5,
+          "evidence": "—— >, ‘ /\":— … | Défense > ; <e © d'Intelligence Sua",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\180_ObsDrones_-_Bulletin_de_veille_n1_-_Janvier_F_vrier_2024__p0016.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q026",
+      "question": "Que se passe-t-il si l’opérateur ne complète pas son dossier de demande de dérogation ?",
+      "latency_ms": 587.82,
+      "hits": [
+        {
+          "score": 0.44438254833221436,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 19,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0019.png",
+          "article_id": 71,
+          "rank": 1,
+          "evidence": "Le dossier de demande de dérogation sera transmis à la DPID de maniére ordonnée. Les documents de prolongation ou de demande additionnelle d’une dérogation déja obtenue. En effet, l’intégralité L’opérateur doit préciser dans sa demande de dérogation s'il s'agit d’un renouvellement, d’une",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\71_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0019.txt"
+        },
+        {
+          "score": 0.44393759965896606,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 23,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0023.png",
+          "article_id": 75,
+          "rank": 2,
+          "evidence": "aérienne de la part du DPID, l’opérateur ne doit pas, en principe, a nouveau déposer une demande refus de la demande de dérogation à l’opérateur. Cette interdiction vise notamment toute L’opérateur et le pilote doivent doit être en possession de la dérogation en cas de contrôle du",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\75_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0023.txt"
+        },
+        {
+          "score": 0.4326609969139099,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 18,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0018.png",
+          "article_id": 70,
+          "rank": 3,
+          "evidence": "La procédure de demande de dérogation est développée aux articles R. 133-6 et suivants du code La demande doit être déposée par l’opérateur, c’est-a-dire le prestataire de la mission. En aucun cas, le commanditaire de la mission ne doit déposer une demande de dérogation pour le compte",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\70_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0018.txt"
+        },
+        {
+          "score": 0.42092400789260864,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 17,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0017.png",
+          "article_id": 69,
+          "rank": 4,
+          "evidence": "une demande de dérogation en application de l’article L. 6224-1 du code des transports et des depuis le sol par dérogation à l'interdiction des prises de vue terrestres, doit déposer une demande déposer de demande de dérogation auprés de la DPID. L’opérateur déposera par contre une",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\69_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0017.txt"
+        },
+        {
+          "score": 0.40098482370376587,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 2,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0002.png",
+          "article_id": 54,
+          "rank": 5,
+          "evidence": "ANNEXE II - FORMULAIRE DE DEMANDE D'AUTORISATION.....….....…….…..ecrcersrrersencemmenneneen en B 1. LA DEMANDE DE DEROGATION DE L'OPÉRATEUR DE CAPTATION AERIENNE …………………….17 1.2. La constitution d'une demande de dérogation ……n ls",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\54_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0002.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q027",
+      "question": "Quels deux noms d’organisations apparaissent sous la photo du bateau ?",
+      "latency_ms": 579.69,
+      "hits": [
+        {
+          "score": 0.45012903213500977,
+          "doc_name": "bem-48.pdf",
+          "page": 21,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0021.png",
+          "article_id": 102,
+          "rank": 1,
+          "evidence": "- des Forces speéciabes qui ont hbere bes trom -vcdlier ot les-prager - f\"_' cowtré-Les {homers bertorn. Un rect haletant Avec bes rapeurs = el a Par sous fe minntére-de [a Defense et à l'Élvréc-où me",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\102_bem-48__p0021.txt"
+        },
+        {
+          "score": 0.4200674295425415,
+          "doc_name": "ObsDrones - bulletin de veille n4 - Juillet Aout 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - bulletin de veille n4 - Juillet Aout 2024__p0016.png",
+          "article_id": 183,
+          "rank": 2,
+          "evidence": "%, ËÏ*‘Î_Ï‘_ | ' L | Affinis @ C Défense 23> _",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\183_ObsDrones_-_bulletin_de_veille_n4_-_Juillet_Aout_2024__p0016.txt"
+        },
+        {
+          "score": 0.4003309905529022,
+          "doc_name": "bem-48.pdf",
+          "page": 65,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0065.png",
+          "article_id": 105,
+          "rank": 3,
+          "evidence": "vétère (en Cotdatetaiaies toda pea/etid lilies char podbot, Ls tres permet dla a rocirimece WE versil: famed jarecle fe [4 nlelghin, bishrms diets ao semerstice jaar [ais de BÛ rennin, chain earevcigp, h Dourr rrs bly een seianteey ceva l'Allemregres ct ba Prono aut mem of mat Alene",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\105_bem-48__p0065.txt"
+        },
+        {
+          "score": 0.38798439502716064,
+          "doc_name": "ObsDrones - Bulletin de veille n2 - Mars Avril 2024.pdf",
+          "page": 16,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\ObsDrones - Bulletin de veille n2 - Mars Avril 2024__p0016.png",
+          "article_id": 181,
+          "rank": 4,
+          "evidence": "' roror 4 \\ 158 a *, 4 = By - n “ ; °° d'Imtelligence SO",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\181_ObsDrones_-_Bulletin_de_veille_n2_-_Mars_Avril_2024__p0016.txt"
+        },
+        {
+          "score": 0.3773461878299713,
+          "doc_name": "bem-48.pdf",
+          "page": 88,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0088.png",
+          "article_id": 108,
+          "rank": 5,
+          "evidence": "Centre d'enseignement supérieur de la Marine Case 8 — 1, place Joffre 75007 — PARIS SP 07",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\108_bem-48__p0088.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q028",
+      "question": "Quel intitulé apparaît dans l’encadré bleu réservé à l’emplacement de la photo en haut à droite ?",
+      "latency_ms": 600.35,
+      "hits": [
+        {
+          "score": 0.4019131660461426,
+          "doc_name": "bem-48.pdf",
+          "page": 5,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\bem-48__p0005.png",
+          "article_id": 101,
+          "rank": 1,
+          "evidence": "= F ; iid apséclallide. Duc fiit de ly Précorraispece i i — = at, ilk ieee apésre wires de mptére pour unt prac LES AUTEURS nombre ('érere nous car coardannent à un monde",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\101_bem-48__p0005.txt"
+        },
+        {
+          "score": 0.39988452196121216,
+          "doc_name": "2011113_IGI 1300_Protection du secret de la defense nationale_NP.pdf",
+          "page": 147,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\2011113_IGI 1300_Protection du secret de la defense nationale_NP__p0147.png",
+          "article_id": 9,
+          "rank": 2,
+          "evidence": "Date de raisance ‘Code Nationalite Eventuel domicile distinct re Père | MÉÈCE poor on uv Ate ea a ott cu ] Nom et adresse de l'employeur actuel",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\9_2011113_IGI_1300_Protection_du_secret_de_la_defense_nationale_NP__p0147.txt"
+        },
+        {
+          "score": 0.3901529312133789,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 10,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0010.png",
+          "article_id": 143,
+          "rank": 3,
+          "evidence": "tout au long de son histoire, la France possède aujourd’hui une grande densité — | a de lieux de mémoire, de différentes natures : sites témoins (champs de bataille, s, l fortifications, vestiges...), sites commémoratifs (nécropoles nationales, cimetiéres ei =",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\143_Chiffres_cl_s_donn_es_2022_TDM_v0_260224__p0010.txt"
+        },
+        {
+          "score": 0.3783174157142639,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0001.png",
+          "article_id": 138,
+          "rank": 4,
+          "evidence": "sA Gad a a ; ” i ä C L E S [thm A) Sa) : (See ee village many > - DES ARMEES",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\138_Chiffres_cl_s_donn_es_2022_TDM_v0_260224__p0001.txt"
+        },
+        {
+          "score": 0.3748222887516022,
+          "doc_name": "Chiffres clés données 2022_TDM_v0_260224.pdf",
+          "page": 13,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Chiffres clés données 2022_TDM_v0_260224__p0013.png",
+          "article_id": 146,
+          "rank": 5,
+          "evidence": "Page 2 : Ancien camp de concentration de Natzweiller Struthof, ©Droits réservés / Hartmannswillerkopf, ©Bernard Naegelen / 2 02 2 Page 3 : Mémorial franco-britannique de Thiepval, ©V. Laude / Plage de Juno Beach, ©Droits réservés / Halle du Souvenir de Page 12 : Mémorial Alsace-Moselle, ©Droits réservés / Musée de la résistance de Besançon, ©Droits réservés / Cimetière allemand de == ame 3",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\146_Chiffres_cl_s_donn_es_2022_TDM_v0_260224__p0013.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q029",
+      "question": "Quelle période est indiquée pour la feuille de route stratégique de l’OSIIC ?",
+      "latency_ms": 579.72,
+      "hits": [
+        {
+          "score": 0.7163945436477661,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 1,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Feuille de route stratégique OSIIC 2024-2027 NP v1.0__p0001.png",
+          "article_id": 154,
+          "rank": 1,
+          "evidence": "SYSTEMES D'INFORMATION INTERMINISTERIELS FEUILLE DE ROUTE STRATEGIQUE",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\154_Feuille_de_route_strat_gique_OSIIC_2024-2027_NP_v1.0__p0001.txt"
+        },
+        {
+          "score": 0.4964475631713867,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 3,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Feuille de route stratégique OSIIC 2024-2027 NP v1.0__p0003.png",
+          "article_id": 155,
+          "rank": 2,
+          "evidence": "q f LOSIIC en chifes e joignable francaises utilisateurs au 24h/24, 7/7, Un réseau coeur sein du SGDSN",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\155_Feuille_de_route_strat_gique_OSIIC_2024-2027_NP_v1.0__p0003.txt"
+        },
+        {
+          "score": 0.35040348768234253,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 11,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0011.png",
+          "article_id": 89,
+          "rank": 3,
+          "evidence": "Transmettre un document de type feuille de route pour le 2023.2.2. CICOS T4 2023 Proposer à la validation de EMA/SNA le principe énuméré 2023.8 _ DIRISI 30 juin 2023 sur le déploiement de SERES PROTEL. Ils seront intégrés",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\89_20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0011.txt"
+        },
+        {
+          "score": 0.33923405408859253,
+          "doc_name": "Feuille de route stratégique OSIIC 2024-2027 NP v1.0.pdf",
+          "page": 4,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\Feuille de route stratégique OSIIC 2024-2027 NP v1.0__p0004.png",
+          "article_id": 156,
+          "rank": 4,
+          "evidence": "competition stratégique Conforter sonrôle d'opérateur interministériel de systemes et services numériques de de la Nation, face aux menaces de nature stratégique",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\156_Feuille_de_route_strat_gique_OSIIC_2024-2027_NP_v1.0__p0004.txt"
+        },
+        {
+          "score": 0.33754608035087585,
+          "doc_name": "20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385.pdf",
+          "page": 8,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0008.png",
+          "article_id": 86,
+          "rank": 5,
+          "evidence": "métier/soutien car i! concerne autant la formation pro (travail le soir) que les divertissements. équipés én ADSL et 4G (les sites équipés en fibre fonctionneraient trés bien). A court terme, le seul moyen est de réaliser des tickets incidents (modalités transmises par flyer au moment du",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\86_20230713_NP_DC-DIRISI-BAR_403964-PV-BILATERALE-TECHNIQUE-CICOS-DIRISI-09311385__p0008.txt"
+        }
+      ]
+    },
+    {
+      "qid": "Q030",
+      "question": "Quels sont les trois types de missions attribués au soutien logistique dans la section « Divers » ?",
+      "latency_ms": 597.57,
+      "hits": [
+        {
+          "score": 0.5092085003852844,
+          "doc_name": "20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux.pdf",
+          "page": 6,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0006.png",
+          "article_id": 28,
+          "rank": 1,
+          "evidence": "des autres ministéres, en tant qu’officiers de liaison, ou pour des missions d’évaluation et e Le soutien logistique peut avoir trois types de missions : matériel générique sera également nécessaire pour le soutien ou le déploiement des armées.",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\28_20160311_NP_CICDE_057_Lettre_RETEX_Lutte_prevention_contre_grands_fleaux__p0006.txt"
+        },
+        {
+          "score": 0.4525919556617737,
+          "doc_name": "20160108_NP_CICDE_004-Lettre-grands-evenements-2.pdf",
+          "page": 7,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0007.png",
+          "article_id": 22,
+          "rank": 2,
+          "evidence": "Il s’agit d’abord de bien évaluer l’ampleur du soutien, notamment le soutien logistique, qui devra étre et de la coordination pour la manœuvre des soutiens. La manœuvre logistique militaire est congue par | Un Détachement de Soutien Logistique Adapté (DSLA), parfois volumineux, peut étre déployé surtout |",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\22_20160108_NP_CICDE_004-Lettre-grands-evenements-2__p0007.txt"
+        },
+        {
+          "score": 0.4182819724082947,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 26,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0026.png",
+          "article_id": 78,
+          "rank": 3,
+          "evidence": "schéma récapitulatif de l’annexe Ill - La procédure pour les opérateurs de captation aérienne de données dans certaines zones et joindre tous les captation et avant transmission au bénéficiaire, dans les trois",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\78_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0026.txt"
+        },
+        {
+          "score": 0.4110702574253082,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 8,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0008.png",
+          "article_id": 60,
+          "rank": 4,
+          "evidence": "dans le cadre de I’autorisation mentionnée a l'article L. 6224-1 du code des transports et aux articles R. 133-6 et suivants du code de l’aviation civile «, ala direction de la protection des installations, moyens et activités de la défense (DPID) s‘agissant des « pour les autres zones, aux préfectures des départements dans lesquels elles se situent (ou, a Paris, au",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\60_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0008.txt"
+        },
+        {
+          "score": 0.40172332525253296,
+          "doc_name": "20230125_NP_DPID-DAME_Extrait-memento-ZICAD.pdf",
+          "page": 12,
+          "image_path": "E:\\CodexWorkspace\\RAG_reading\\pymupdf_extract_output\\ocr_review_page_renders\\20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0012.png",
+          "article_id": 64,
+          "rank": 5,
+          "evidence": "Q Levées topographiques par restitution photogrammétrique numérisée : LISTE DES ZONES CONCERNEES SELON L’ARRETE MINISTERIEL LISTANT LES ZICAD | Nom du site Département(s) ent(s) | \"Œ'ﬁmmîah@ 4 gäsæ%äâäïäî zone",
+          "evidence_source": "render_ocr",
+          "ocr_text_path": "e:\\CodexWorkspace\\RAG_reading\\pixelrag_visual_experiment\\evidence\\ocr_cache\\64_20230125_NP_DPID-DAME_Extrait-memento-ZICAD__p0012.txt"
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "source": "render_ocr",
+    "ocr_lang": "fra+eng",
+    "max_lines": 3
+  }
+}
